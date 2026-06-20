@@ -1,90 +1,40 @@
 ---
 import Base from '../layouts/Base.astro';
 import HardwareArt from '../components/HardwareArt.astro';
-import { hardware, HW_LEVEL_LABEL } from '../data/hardware';
-import { mdInline } from '../lib/data';
+import { hardware } from '../data/hardware';
 ---
 
 <Base
   title="Hardware & Batocera"
-  description="Retro handheldy Anbernic RG35XX Pro a R36S a systém Batocera — co umí, co utáhnou a jak je nastavit."
+  description="Retro handheldy Anbernic RG35XX Pro a R36S a systém Batocera — samostatné průvodce: co umí, co utáhnou a jak je nastavit."
 >
   <section class="container head">
     <p class="eyebrow">Na čem hrát</p>
     <h1>Hardware &amp; Batocera</h1>
     <p class="muted lead">
-      Krabičky, na kterých tenhle svět ožívá. Dva oblíbené retro handheldy a univerzální
-      systém Batocera — co zvládnou, jaké mají možnosti a jak začít.
+      Krabičky a systém, na kterých tenhle svět ožívá. Vyber si průvodce — u každého najdeš
+      parametry, co reálně utáhne, možnosti a tipy.
     </p>
-    <nav class="jump">
-      {hardware.map((h) => <a href={`#${h.slug}`} class="jump-link">{h.name}</a>)}
-    </nav>
   </section>
 
-  {
-    hardware.map((h, i) => (
-      <section class="section device" id={h.slug} style={`--c1:${h.color}; --c2:${h.color2}`}>
-        <div class="container">
-          <div class:list={['layout', { flip: i % 2 === 1 }]}>
-            <div class="art-col">
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        {
+          hardware.map((h) => (
+            <a class="card device-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}`}>
               <HardwareArt art={h.art} color={h.color} color2={h.color2} />
-            </div>
-            <div class="text-col">
-              <p class="kind">{h.kind}</p>
-              <h2>{h.name}</h2>
-              <p class="tagline">{h.tagline}</p>
-              <div class="prose">
-                {h.intro.map((p) => <p set:html={mdInline(p)} />)}
+              <div class="body">
+                <p class="kind">{h.kind}</p>
+                <h2>{h.name}</h2>
+                <p class="tagline">{h.tagline}</p>
+                <span class="more">Číst průvodce →</span>
               </div>
-            </div>
-          </div>
-
-          <div class="grids">
-            <div class="panel">
-              <h3>Parametry</h3>
-              <dl class="specs">
-                {h.specs.map((s) => (
-                  <div class="spec">
-                    <dt>{s.label}</dt>
-                    <dd>{s.value}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-            <div class="panel">
-              <h3>Co utáhne</h3>
-              <ul class="can">
-                {h.canPlay.map((c) => (
-                  <li>
-                    <span class:list={['lvl', c.level]}>{HW_LEVEL_LABEL[c.level]}</span>
-                    <span>{c.label}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div class="options">
-            <h3>Možnosti &amp; tipy</h3>
-            <div class="opt-grid">
-              {h.options.map((o) => (
-                <div class="opt">
-                  <h4>{o.title}</h4>
-                  <p set:html={mdInline(o.text)} />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-    ))
-  }
-
-  <section class="container legal-note">
-    <p class="muted">
-      Ilustrace zařízení jsou stylizované. Hry shánějte legálně (vlastní dumpy nebo homebrew 🆓) —
-      více v sekci <a href="/o-projektu">O projektu</a>.
-    </p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </section>
 </Base>
 
@@ -100,188 +50,46 @@ import { mdInline } from '../lib/data';
     max-width: 640px;
     font-size: 1.05rem;
   }
-  .jump {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 22px;
-  }
-  .jump-link {
-    font-size: 0.85rem;
-    font-weight: 600;
-    padding: 0.5em 0.9em;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--muted);
-    transition: all 0.15s ease;
-  }
-  .jump-link:hover {
-    color: var(--text);
-    border-color: var(--accent);
-  }
-
-  .device {
-    scroll-margin-top: 80px;
-  }
-  .device + .device {
-    border-top: 1px solid var(--border-soft);
-  }
-  .layout {
+  .grid {
     display: grid;
-    grid-template-columns: 0.95fr 1.05fr;
-    gap: 36px;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
   }
-  .layout.flip .art-col {
-    order: 2;
+  .device-card {
+    display: flex;
+    flex-direction: column;
   }
-  .art-col {
-    box-shadow: var(--shadow-lg);
-    border-radius: var(--radius);
+  .device-card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
+    box-shadow: var(--shadow);
+  }
+  .body {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
   }
   .kind {
     font-family: var(--font-pixel);
-    font-size: 0.6rem;
+    font-size: 0.58rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: color-mix(in srgb, var(--c1) 75%, var(--text));
   }
   h2 {
-    font-size: clamp(1.6rem, 4vw, 2.3rem);
-    margin-block: 10px 8px;
+    font-size: 1.25rem;
   }
   .tagline {
-    font-size: 1.12rem;
-    color: var(--text);
-    margin-bottom: 16px;
-  }
-  .prose {
-    font-size: 1.02rem;
-  }
-  .prose :global(p) {
-    margin-bottom: 0.9em;
-    color: #d3d7e4;
-  }
-  .prose :global(strong) {
-    color: #fff;
-  }
-
-  .grids {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-    margin-top: 30px;
-  }
-  .panel {
-    background: var(--surface);
-    border: 1px solid var(--border-soft);
-    border-radius: var(--radius);
-    padding: 18px 20px;
-  }
-  .panel h3 {
-    font-size: 1.05rem;
-    margin-bottom: 12px;
-  }
-  .specs {
-    display: grid;
-    gap: 8px;
-  }
-  .spec {
-    display: grid;
-    grid-template-columns: 110px 1fr;
-    gap: 12px;
-    font-size: 0.9rem;
-  }
-  .spec dt {
     color: var(--muted);
+    font-size: 0.95rem;
+    flex: 1;
   }
-  .spec dd {
-    color: var(--text);
-    font-weight: 500;
-  }
-  .can {
-    display: grid;
-    gap: 10px;
-  }
-  .can li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 0.92rem;
-  }
-  .lvl {
-    flex: none;
-    font-size: 0.68rem;
-    font-weight: 700;
-    padding: 0.3em 0.6em;
-    border-radius: 999px;
-    min-width: 96px;
-    text-align: center;
-  }
-  .lvl.ok {
-    background: rgba(54, 226, 255, 0.16);
-    color: #7ef0ff;
-  }
-  .lvl.most {
-    background: rgba(255, 210, 62, 0.16);
-    color: var(--accent-3);
-  }
-  .lvl.some {
-    background: rgba(255, 62, 127, 0.16);
-    color: #ff8fb3;
-  }
-
-  .options {
-    margin-top: 22px;
-  }
-  .options h3 {
-    font-size: 1.05rem;
-    margin-bottom: 14px;
-  }
-  .opt-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 14px;
-  }
-  .opt {
-    background: linear-gradient(180deg, var(--surface), var(--bg-2));
-    border: 1px solid var(--border-soft);
-    border-left: 3px solid var(--c1);
-    border-radius: var(--radius-sm);
-    padding: 14px 16px;
-  }
-  .opt h4 {
-    font-size: 0.98rem;
-    margin-bottom: 6px;
-  }
-  .opt p {
+  .more {
+    margin-top: 6px;
+    font-weight: 600;
     font-size: 0.9rem;
-    color: var(--muted);
-    line-height: 1.55;
-  }
-  .opt :global(strong) {
-    color: var(--text);
-  }
-
-  .legal-note {
-    padding-block: 30px 10px;
-    font-size: 0.9rem;
-  }
-  .legal-note a {
-    color: var(--accent);
-  }
-
-  @media (max-width: 820px) {
-    .layout {
-      grid-template-columns: 1fr;
-      gap: 22px;
-    }
-    .layout.flip .art-col {
-      order: 0;
-    }
-    .grids {
-      grid-template-columns: 1fr;
-    }
+    color: color-mix(in srgb, var(--c1) 70%, var(--text));
   }
 </style>
