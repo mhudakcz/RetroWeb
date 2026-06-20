@@ -34,6 +34,7 @@ export interface Platform {
   color: string;
   color2: string;
   image: string | null;
+  photoBg: 'light' | 'dark';
   history: string | null;
   gameCount: number;
   games: Game[];

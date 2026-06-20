@@ -21,7 +21,7 @@ const motif = MOTIF[platform.type];
 {
   platform.image ? (
     <div
-      class:list={['emblem', 'has-photo', `is-${size}`]}
+      class:list={['emblem', 'has-photo', `bg-${platform.photoBg}`, `is-${size}`]}
       style={`--c1:${platform.color}; --c2:${platform.color2}`}
     >
       <img
@@ -63,10 +63,20 @@ const motif = MOTIF[platform.type];
     aspect-ratio: 16 / 9;
     border-radius: var(--radius);
   }
-  .has-photo {
+  .has-photo.bg-dark {
     background:
       radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--c1) 35%, transparent), transparent 60%),
       linear-gradient(150deg, var(--c2), #0b0c11);
+  }
+  /* světlé (bílé) fotky -> světlá „produktová" karta s barevným nádechem */
+  .has-photo.bg-light {
+    background:
+      radial-gradient(130% 120% at 50% 120%, color-mix(in srgb, var(--c1) 18%, transparent), transparent 55%),
+      linear-gradient(180deg, #ffffff, #eef0f4);
+  }
+  .has-photo.bg-light .maker {
+    color: rgba(20, 22, 30, 0.78);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
   }
   .has-photo img {
     position: absolute;

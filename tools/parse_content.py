@@ -373,6 +373,8 @@ def build():
     short = parse_short()
     history = parse_platform_history()
     articles = load_articles()
+    bg_file = ROOT / "src" / "data" / "platform_bg.json"
+    platform_bg = json.loads(bg_file.read_text(encoding="utf-8")) if bg_file.exists() else {}
 
     platforms_out = []
     total_games = 0
@@ -438,6 +440,7 @@ def build():
             slug=slug, name=p["name"], short=p["short"], maker=p["maker"],
             year=p["year"], type=p["type"], color=p["color"], color2=p["color2"],
             image=find_image("platforms", slug),
+            photoBg=platform_bg.get(slug, "dark"),
             history=history.get(slug), gameCount=len(games), games=games,
         ))
 

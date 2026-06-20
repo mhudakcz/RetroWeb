@@ -305,6 +305,75 @@ def fetch_games():
           f"({100*grand_ok//max(1,grand_total)} %)")
 
 
+def fetch_screenshots():
+    """Stáhne in-game screenshot (Named_Snaps) a title screen (Named_Titles) pro hry,
+    které mají boxart. Stejné názvy souborů jako boxarty. Ukládá jako <slug>-snap.png / -title.png."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
+    grand = {"snap": 0, "title": 0}
+    for slug, repo in LIBRETRO.items():
+        games = plat_games.get(slug, [])
+        if not games:
+            continue
+        print(f"\n== {slug} ({repo}) ==")
+        try:
+            names = list_boxarts(repo)
+        except Exception as e:  # noqa
+            print(f"  CHYBA: {e}")
+            continue
+        if not names:
+            continue
+        idx = index_boxarts(names)
+        out = IMG / "games" / slug
+        jobs = []
+        for g in games:
+            fn = best_boxart(g["name"], names, idx)
+            if fn:
+                jobs.append((g["slug"], fn))
+
+        def dl(job):
+            gslug, fn = job
+            got = 0
+            for kind, folder in (("snap", "Named_Snaps"), ("title", "Named_Titles")):
+                dest = out / f"{gslug}-{kind}.png"
+                destw = out / f"{gslug}-{kind}.webp"
+                if dest.exists() or destw.exists():
+                    got += 1
+                    continue
+                url = (
+                    f"https://raw.githubusercontent.com/libretro-thumbnails/{repo}"
+                    f"/master/{folder}/{urllib.parse.quote(fn)}.png"
+                )
+                try:
+                    img = http_get(url, retries=2)
+                    # symlink? obsah je krátký text s názvem cílového .png
+                    if len(img) < 300:
+                        try:
+                            tgt = img.decode("utf-8", "strict").strip()
+                        except Exception:  # noqa
+                            tgt = ""
+                        if tgt.lower().endswith(".png") and "\n" not in tgt:
+                            url2 = (
+                                f"https://raw.githubusercontent.com/libretro-thumbnails/{repo}"
+                                f"/master/{folder}/{urllib.parse.quote(tgt[:-4])}.png"
+                            )
+                            img = http_get(url2, retries=2)
+                    dest.write_bytes(img)
+                    got += 1
+                except Exception:  # noqa
+                    pass
+            return got
+
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            list(ex.map(dl, jobs))
+        snaps = len(list(out.glob("*-snap.*")))
+        titles = len(list(out.glob("*-title.*")))
+        grand["snap"] += snaps
+        grand["title"] += titles
+        print(f"  snap {snaps}, title {titles} (z {len(jobs)} her)")
+    print(f"\nCelkem: snap {grand['snap']}, title {grand['title']}")
+
+
 def resolve_symlinks():
     """Některé položky v libretro repech jsou symlinky: stažený 'soubor' obsahuje
     jen cílový název .png. Dořeší je: stáhne skutečný obrázek a převede na WebP."""
@@ -347,6 +416,56 @@ def resolve_symlinks():
         p.unlink()
         dropped += 1
     print(f"Symlinky: opraveno {fixed}, zahozeno {dropped}")
+
+
+def classify_platform_bg():
+    """Rozliší fotky platforem: průhledný výřez / tmavé pozadí -> 'dark' (na tmavé kartě),
+    světlé (bílé) pozadí -> 'light' (zobrazí se na světlé produktové kartě).
+    Výsledek: src/data/platform_bg.json {slug: 'light'|'dark'}."""
+    from PIL import Image
+    pdir = IMG / "platforms"
+    res = {}
+    for p in sorted(pdir.iterdir()):
+        slug = p.stem
+        try:
+            im = Image.open(p).convert("RGBA")
+        except Exception:  # noqa
+            continue
+        w, h = im.size
+        px = im.load()
+        # vzorkuj okrajový prstenec
+        step_x = max(1, w // 40)
+        step_y = max(1, h // 40)
+        coords = []
+        for x in range(0, w, step_x):
+            coords += [(x, 0), (x, h - 1)]
+        for y in range(0, h, step_y):
+            coords += [(0, y), (w - 1, y)]
+        transp = 0
+        bright = 0
+        n = 0
+        for (x, y) in coords:
+            r, g, b, a = px[x, y]
+            n += 1
+            if a < 32:
+                transp += 1
+            elif (r + g + b) / 3 > 205:
+                bright += 1
+        if n == 0:
+            res[slug] = "dark"
+            continue
+        # hodně průhledných okrajů -> výřez (dark karta sedí)
+        if transp / n > 0.4:
+            res[slug] = "dark"
+        # převážně světlé neprůhledné okraje -> bílé pozadí
+        elif bright / n > 0.6:
+            res[slug] = "light"
+        else:
+            res[slug] = "dark"
+    (ROOT / "src" / "data" / "platform_bg.json").write_text(
+        json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
+    light = [k for k, v in res.items() if v == "light"]
+    print(f"Klasifikace: {len(res)} platforem, světlé pozadí: {light}")
 
 
 def optimize_images():
@@ -404,3 +523,9 @@ if __name__ == "__main__":
     if what == "symlinks":
         print("=== SYMLINKY ===")
         resolve_symlinks()
+    if what == "screenshots":
+        print("=== SCREENSHOTY (Named_Snaps + Named_Titles) ===")
+        fetch_screenshots()
+    if what == "classify":
+        print("=== KLASIFIKACE POZADÍ PLATFOREM ===")
+        classify_platform_bg()
