@@ -1,7 +1,7 @@
 ---
 // Stylizované SVG ilustrace zařízení (bez nutnosti chráněných fotografií).
 interface Props {
-  art: 'handheld-h' | 'handheld-v' | 'batocera';
+  art: 'handheld-h' | 'handheld-v' | 'batocera' | 'pi' | 'android' | 'pc';
   color: string;
   color2: string;
 }
@@ -73,6 +73,58 @@ const id = Math.random().toString(36).slice(2, 8);
           {/* stojan */}
           <rect x="150" y="154" width="20" height="16" fill="#23262f" />
           <rect x="120" y="168" width="80" height="8" rx="3" fill="#2c303c" />
+        </g>
+      )
+    }
+
+    {
+      art === 'pi' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          {/* deska */}
+          <rect x="56" y="56" width="208" height="88" rx="8" fill="#1f7a3f" />
+          {/* GPIO piny */}
+          <rect x="68" y="64" width="120" height="10" rx="2" fill="#2c303c" />
+          {/* SoC */}
+          <rect x="120" y="92" width="40" height="40" rx="4" fill={`url(#scr-${id})`} stroke="none" />
+          <rect x="120" y="92" width="40" height="40" rx="4" fill="none" />
+          {/* porty */}
+          <rect x="232" y="86" width="22" height="16" rx="2" fill="#2c303c" />
+          <rect x="232" y="110" width="22" height="16" rx="2" fill="#2c303c" />
+          <rect x="70" y="120" width="30" height="14" rx="2" fill="#2c303c" />
+        </g>
+      )
+    }
+
+    {
+      art === 'android' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          {/* TV box */}
+          <rect x="78" y="96" width="164" height="56" rx="10" fill="#23262f" />
+          <circle cx="100" cy="124" r="6" fill={`url(#scr-${id})`} stroke="none" />
+          <circle cx="100" cy="124" r="6" fill="none" />
+          <rect x="210" y="118" width="22" height="12" rx="2" fill="#2c303c" />
+          {/* obrazovka / play */}
+          <rect x="116" y="34" width="88" height="52" rx="6" fill={`url(#scr-${id})`} stroke="none" />
+          <rect x="116" y="34" width="88" height="52" rx="6" fill="none" />
+          <path d="M150 48l22 12-22 12z" fill="#0c0d12" opacity="0.55" stroke="none" />
+        </g>
+      )
+    }
+
+    {
+      art === 'pc' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          {/* monitor */}
+          <rect x="36" y="40" width="170" height="110" rx="8" fill="#23262f" />
+          <rect x="48" y="52" width="146" height="74" rx="4" fill={`url(#scr-${id})`} stroke="none" />
+          <rect x="48" y="52" width="146" height="74" rx="4" fill="none" />
+          <rect x="108" y="150" width="26" height="14" fill="#23262f" />
+          <rect x="86" y="164" width="70" height="8" rx="3" fill="#2c303c" />
+          {/* tower */}
+          <rect x="222" y="58" width="58" height="106" rx="8" fill="#23262f" />
+          <circle cx="251" cy="74" r="4" fill={`url(#scr-${id})`} stroke="none" />
+          <rect x="236" y="92" width="30" height="6" rx="2" fill="#2c303c" />
+          <rect x="236" y="104" width="30" height="6" rx="2" fill="#2c303c" />
         </g>
       )
     }

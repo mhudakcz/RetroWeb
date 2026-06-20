@@ -266,6 +266,200 @@ export const hardware: HardwareItem[] = [
       },
     ],
   },
+  {
+    slug: 'raspberry-pi',
+    name: 'Raspberry Pi & spol.',
+    kind: 'Jednodeskový počítač',
+    tagline: 'Levná krabička velikosti karetní krabičky, ze které uděláš retro konzoli pod televizi.',
+    color: '#c51a4a',
+    color2: '#2a0a16',
+    art: 'pi',
+    intro: [
+      'Raspberry Pi je malý jednodeskový počítač (SBC), který se stal legendou domácího kutilství — a v retro hraní hraje první ligu. Za pár stovek až tisícovku dostaneš tichou, úspornou krabičku, kterou připojíš k televizi, nahraješ na ni hotový systém a máš retro konzoli na míru. Kolem Pi navíc existuje obří komunita a hotová řešení, takže rozjezd je otázkou chvíle.',
+    ],
+    specs: [
+      { label: 'Doporučené modely', value: 'Pi 4 (4 GB) nebo Pi 5; Pi Zero 2 W pro 8/16bit' },
+      { label: 'Výstup', value: 'HDMI (Pi 4/5: až 4K), 3,5mm zvuk přes adaptér' },
+      { label: 'Úložiště', value: 'microSD (Pi 5 i NVMe přes HAT)' },
+      { label: 'Systémy', value: 'Batocera, RetroPie, Recalbox, Lakka' },
+      { label: 'Napájení', value: 'USB-C (Pi 5 doporučuje 27W zdroj)' },
+      { label: 'Ovladače', value: 'Bluetooth i USB (Xbox, 8BitDo, PS…)' },
+    ],
+    canPlay: [
+      { label: 'NES, SNES, Mega Drive, GB/GBA, PS1, PC Engine', level: 'ok' },
+      { label: 'Nintendo 64, PSP, Saturn (hlavně Pi 5)', level: 'most' },
+      { label: 'Dreamcast (Pi 5)', level: 'most' },
+      { label: 'PS2, GameCube (jen Pi 5, vybrané)', level: 'some' },
+    ],
+    sections: [
+      {
+        title: 'Proč zrovna Raspberry Pi',
+        body: [
+          'Pi je levné, tiché, žere minimum proudu a vejde se za televizi nebo do tištěné krabičky vedle konzolí. Na rozdíl od handheldu ho hraješ na velké obrazovce s plnohodnotným ovladačem — je to klasický „pod televizi" setup. A protože je to plnohodnotný počítač s Linuxem, máš k dispozici tytéž vyspělé systémy jako jinde.',
+          'Druhá výhoda je komunita: návodů, hotových obrazů a témat jsou tisíce. Když něco nevíš, někdo to už vyřešil před tebou.',
+        ],
+      },
+      {
+        title: 'Který model vybrat',
+        body: [
+          '**Raspberry Pi 5** je dnes nejlepší volba — utáhne i Dreamcast a Saturn a u náročnějších systémů jede svižně. **Pi 4 (4 GB)** je levnější a pohodlně zvládne vše do PS1 plus většinu N64/PSP. **Pi Zero 2 W** je drobeček ideální do mini buildů a na 8/16bit éru, ale na 3D nečekej zázraky.',
+          'K čemukoli nad Pi 4 počítej s **chlazením** (pasivní heatsink nebo aktivní větráček) — emulace procesor zahřeje a bez chlazení se výkon přiškrtí.',
+        ],
+      },
+      {
+        title: 'Systémy: Batocera, RetroPie, Recalbox, Lakka',
+        body: [
+          'Na Pi se nainstaluje systém zapsáním obrazu na microSD (nástrojem Raspberry Pi Imager nebo Balena Etcher). Na výběr máš: **Batocera** (univerzální, krásný frontend, plug & play), **RetroPie** (klasika postavená na Raspbianu, hodně možností ladění), **Recalbox** (přívětivá a jednoduchá) a **Lakka** (čistý RetroArch, lehká).',
+          'Pro začátek doporučuju Batoceru nebo Recalbox — nejmenší tření. RetroPie oceníš, když si chceš hrát s detailním nastavením.',
+        ],
+      },
+      {
+        title: 'Jak začít krok za krokem',
+        body: [
+          '1) Stáhni **Raspberry Pi Imager** a zapiš vybraný systém na microSD. 2) Kartu vlož do Pi, připoj HDMI do televize, ovladač a napájení. 3) Po startu projdeš úvodním nastavením (jazyk, ovladač, Wi-Fi). 4) Hry nahraješ do složek podle systému — buď po síti (Pi se objeví jako sdílená složka), nebo přímo na kartu na PC. 5) Některé systémy chtějí **BIOS** soubory do složky `bios/`.',
+          'Po restartu se hry objeví v menu, kde k nim necháš stáhnout obaly a popisy (scraping). Hotovo — máš domácí retro konzoli.',
+        ],
+      },
+      {
+        title: 'Příslušenství a alternativy',
+        body: [
+          'Vyplatí se **krabička s chlazením**, kvalitní **napájení** (podvýživa zlobí) a rychlá microSD. Ovladač klidně bezdrátový — 8BitDo, Xbox i DualShock fungují.',
+          'Pi není jediný SBC. Podobně poslouží **Odroid** (N2+, výkonný), **Orange Pi** nebo **Radxa Rock**; existují i levná **mini PC** (x86), která rozjedou Batoceru jako PC a nabídnou víc výkonu za podobné peníze. Pi má ale největší komunitu a podporu, takže pro začátek je nejjistější.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Chlazení není luxus', text: 'U Pi 4/5 pořiď heatsink nebo větráček — bez chlazení se výkon při emulaci přiškrtí.' },
+      { title: 'Kvalitní zdroj', text: 'Slabé napájení způsobuje pády a zlobení. Pi 5 chce 27W USB-C zdroj.' },
+      { title: 'Hry po síti', text: 'Pi se v síti objeví jako sdílená složka — ROMy a BIOS nakopíruješ pohodlně z PC bez vyndávání karty.' },
+    ],
+  },
+  {
+    slug: 'android',
+    name: 'Android (boxy, TV i telefony)',
+    kind: 'Mobilní platforma',
+    tagline: 'Telefon, TV box nebo Android TV — emulátor stáhneš z obchodu a hraješ během minut.',
+    color: '#3ddc84',
+    color2: '#0e2a1b',
+    art: 'android',
+    intro: [
+      'Android je možná nejdostupnější cesta k retru — zařízení už nejspíš máš v kapse nebo pod televizí. Emulátory se instalují jako běžné aplikace, ovladač spáruješ přes Bluetooth a můžeš hrát na telefonu, tabletu, levném TV boxu i v Android TV. Výkon kolísá od skromných boxů po vlajkové telefony, které zvládnou i náročné konzole.',
+    ],
+    specs: [
+      { label: 'Zařízení', value: 'telefon, tablet, TV box, Android TV' },
+      { label: 'Ovladač', value: 'Bluetooth (8BitDo, Xbox, DualSense) nebo USB-OTG' },
+      { label: 'Výstup', value: 'obrazovka zařízení nebo TV (box / HDMI / cast)' },
+      { label: 'Klíčové appky', value: 'RetroArch + samostatné emulátory' },
+      { label: 'Výkon', value: 'dle čipu — od PS1 po PS2/GameCube' },
+    ],
+    canPlay: [
+      { label: 'NES, SNES, Mega Drive, GB/GBA, PS1, PSP', level: 'ok' },
+      { label: 'Nintendo 64, DS, Dreamcast', level: 'most' },
+      { label: 'PS2, GameCube, Wii, 3DS (silné telefony)', level: 'some' },
+    ],
+    sections: [
+      {
+        title: 'Telefon vs. TV box vs. Android TV',
+        body: [
+          '**Telefon/tablet** je nejvýkonnější (vlajkové čipy utáhnou i PS2 nebo GameCube) a máš ho po ruce — stačí dokoupit ovladač s držákem. **Android TV** (v televizi nebo jako klacek) je pohodlná cesta hrát rovnou na velké obrazovce. **Levné TV boxy** jsou nejlevnější, ale výkonem slabší a je u nich potřeba opatrnost (viz níže).',
+          'Společné mají všechny jedno: instalace je jako u kterékoli appky a hraní na velké obrazovce vyřeší ovladač přes Bluetooth.',
+        ],
+      },
+      {
+        title: 'Které aplikace',
+        body: [
+          'Univerzální základ je **RetroArch** (zdarma, desítky jader pod jednou střechou). Pro náročnější systémy se ale vyplatí **samostatné emulátory**, které bývají výkonnější a pohodlnější: **DuckStation** (PS1), **PPSSPP** (PSP), **Dolphin** (GameCube/Wii), **melonDS** / DraStic (DS), **Redream** / Flycast (Dreamcast), **Citra-nástupci** (3DS).',
+          'Pro 8/16bit éru a handheldy stačí RetroArch nebo jednoúčelové appky — rozdíl ve výkonu tam nehraje roli.',
+        ],
+      },
+      {
+        title: 'Jak začít',
+        body: [
+          '1) Z obchodu (Google Play, případně APK z oficiálního zdroje) nainstaluj RetroArch nebo zvolený emulátor. 2) Nahraj hry do složky v úložišti (např. `Roms/`) — z PC kabelem nebo přes cloud. 3) V appce nastav cestu ke hrám; někdy je potřeba **BIOS** (PS1, DS…). 4) Spáruj **ovladač** přes Bluetooth a namapuj tlačítka.',
+          'Hotovo. Na telefonu doporučuju ovladač s držákem (telefon „zaklapneš" doprostřed), na TV boxu klasický gamepad.',
+        ],
+      },
+      {
+        title: 'Pozor na levné TV boxy',
+        body: [
+          'Trh s levnými Android boxy je plný kousků s **nadhodnocenými parametry** a starou verzí Androidu. Klidně inzerují „8 GB RAM / 8K", ale realita je jiná a emulace náročnějších systémů drhne. Před koupí čti recenze a ber údaje s rezervou.',
+          'Pokud chceš jistotu výkonu na velké obrazovce, je často lepší **herní telefon / tablet** připojený k TV, nebo rovnou Raspberry Pi či mini PC.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Ovladač je základ', text: 'Bez fyzického ovladače je hraní utrpení. 8BitDo, Xbox i DualSense fungují přes Bluetooth.' },
+      { title: 'Samostatné emulátory pro 3D', text: 'Na PS1/PSP/GC/DS bývají samostatné appky (DuckStation, PPSSPP, Dolphin) výkonnější než RetroArch jádra.' },
+      { title: 'Hraj na telefonu na TV', text: 'Přes kabel, HDMI adaptér nebo cast pošleš obraz z telefonu na televizi a hraješ na velkém.' },
+    ],
+  },
+  {
+    slug: 'pc-emulace',
+    name: 'Emulace na PC',
+    kind: 'Návod & emulátory',
+    tagline: 'Nejvýkonnější a nejflexibilnější cesta — od 8 bitů až po PS2, GameCube a 3DS.',
+    color: '#6e8bff',
+    color2: '#141a33',
+    art: 'pc',
+    intro: [
+      'PC je králem emulace: největší výkon, nejpřesnější emulátory a nejvíc možností ladění. Rozjedeš na něm prakticky cokoli — od Atari 2600 až po PlayStation 2, GameCube, Wii nebo 3DS, pokud máš dost výkonný stroj. Můžeš jít cestou jednoho sjednoceného programu (RetroArch), nebo pro každou platformu použít špičkový samostatný emulátor; nejlepší výsledky dává kombinace obojího.',
+    ],
+    specs: [
+      { label: 'Systém', value: 'Windows, Linux i macOS' },
+      { label: 'Výkon', value: 'silné jednovlákno CPU; GPU s Vulkan/OpenGL pro 3D' },
+      { label: 'Univerzál', value: 'RetroArch (jádra) + EmulationStation/EmuDeck' },
+      { label: 'Ovladače', value: 'Xbox, DualSense, 8BitDo (XInput plug & play)' },
+      { label: 'Frontendy', value: 'EmuDeck, LaunchBox, Playnite, ES-DE' },
+    ],
+    canPlay: [
+      { label: 'Vše 8/16bit, handheldy, PS1, arkády, počítače', level: 'ok' },
+      { label: 'N64, PSP, Saturn, Dreamcast, DS', level: 'ok' },
+      { label: 'PS2, GameCube, Wii, 3DS, Wii U/Switch (výkonné PC)', level: 'most' },
+    ],
+    sections: [
+      {
+        title: 'RetroArch — jeden program pro vše',
+        body: [
+          '**RetroArch** je sjednocené rozhraní, do kterého si stáhneš tzv. **jádra** (cores) — každé jádro je emulátor jednoho systému. Výhoda: jedno ovládání, jeden vzhled, jedny save states a shadery (např. CRT filtr) napříč všemi systémy. Je zdarma a běží i na všech ostatních zařízeních z tohoto webu, takže co se naučíš na PC, použiješ i na handheldu, Pi nebo Androidu.',
+          'Pro 8/16bit éru, handheldy i PS1 je RetroArch ideální. U technicky náročných konzolí (PS2, GameCube…) ale často sáhneš po samostatném emulátoru.',
+        ],
+      },
+      {
+        title: 'Samostatné emulátory podle platformy',
+        body: [
+          'Když chceš nejvyšší kompatibilitu a vychytávky (upscaling, widescreen hacky), jdou cestou samostatných programů. Osvědčená volba podle systému:',
+          '**PlayStation 1** → DuckStation · **PlayStation 2** → PCSX2 · **PSP** → PPSSPP · **Nintendo 64** → simple64 / RMG · **GameCube & Wii** → Dolphin · **Nintendo DS** → melonDS · **3DS** → nástupci Citry (Lime3DS / Azahar) · **Saturn** → Mednafen / Kronos · **Dreamcast** → Flycast (nebo Redream) · **Arkády** → MAME, FinalBurn Neo.',
+          'Pro počítače: **Amiga** → WinUAE / FS-UAE · **C64** → VICE · **Atari ST** → Hatari · **DOS** → DOSBox. Samostatné emulátory jednotlivých 8/16bit konzolí (Mesen pro NES, Snes9x/bsnes pro SNES, mGBA pro GBA) jsou skvělé na přesnost, ale v RetroArchi je máš taky.',
+        ],
+      },
+      {
+        title: 'Jak začít krok za krokem',
+        body: [
+          '1) **Stáhni** RetroArch (z oficiálního webu / Steamu) nebo konkrétní emulátor. 2) V RetroArchi přes **Online Updater** stáhni jádra systémů, které chceš. 3) Některé systémy vyžadují **BIOS** soubory (PS1, PS2, Saturn, DS…) — patří do složky `system/`. 4) Přidej složky s hrami a nech naskenovat knihovnu. 5) Připoj ovladač a hraj.',
+          'Chceš to mít hezké a pohodlné jako na konzoli? Nasaď nad emulátory **frontend**: **EmuDeck** (skvělý zejména na Steam Decku a Windows, nastaví vše za tebe), **LaunchBox** nebo **Playnite** udělají z knihovny elegantní galerii s obaly.',
+        ],
+      },
+      {
+        title: 'Ovladače a jejich nastavení',
+        body: [
+          'PC rozumí **XInput** ovladačům (Xbox) okamžitě — připojíš a funguje. Bezdrátově fungují i **DualSense/DualShock** (přes Bluetooth nebo kabel) a oblíbené **8BitDo** padlety, které navíc umí přepínat režimy (XInput/DirectInput). RetroArch i samostatné emulátory mají vlastní **mapování tlačítek**: jednou nastavíš, co je „A/B/X/Y", a uloží se to.',
+          'Tip: pro autentický pocit existují repliky dobových ovladačů (SNES, Mega Drive, N64) s USB/Bluetooth od 8BitDo a dalších. A pokud chceš jeden ovladač na všechno, Xbox nebo 8BitDo Pro 2 jsou sázka na jistotu.',
+        ],
+      },
+      {
+        title: 'Legálně',
+        body: [
+          'Emulátory samotné jsou **legální software**. Co řeší zákon, jsou herní soubory (ROM/ISO) a BIOS — ty si pořiď legálně: vlastní dumpy svých kazet, disků a konzolí, nebo homebrew a freeware tituly. Tenhle web žádné takové soubory nenabízí.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Začni RetroArchem', text: 'Pro 8/16bit, handheldy a PS1 je sjednocený RetroArch ideál. Na PS2/GC sáhni po PCSX2/Dolphin.' },
+      { title: 'EmuDeck ušetří čas', text: 'Na Windows i Steam Decku ti EmuDeck nastaví emulátory, složky i frontend skoro na jeden klik.' },
+      { title: 'BIOS do system/', text: 'PS1, PS2, Saturn nebo DS chtějí originální BIOS. Bez něj jádro nenastartuje.' },
+      { title: 'Jeden ovladač na vše', text: 'Xbox nebo 8BitDo Pro 2 fungují všude přes XInput; dobové repliky přidají autentický pocit.' },
+    ],
+  },
 ];
 
 export const HW_LEVEL_LABEL: Record<'ok' | 'most' | 'some', string> = {
