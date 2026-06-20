@@ -1,0 +1,68 @@
+---
+import Base from '../../layouts/Base.astro';
+import PlatformCard from '../../components/PlatformCard.astro';
+import { platformsByType, stats } from '../../lib/data';
+
+const groups = platformsByType();
+---
+
+<Base title="Platformy" description="Přehled retro herních platforem — konzole, handheldy, domácí počítače, arkády a fantasy konzole.">
+  <section class="container head">
+    <p class="eyebrow">Katalog hardwaru</p>
+    <h1>Platformy</h1>
+    <p class="muted lead">
+      {stats.platforms} platforem od roku 1977 po dnešní fantasy konzole — každá s historií,
+      kontextem a kurátorským výběrem her. Vše běží na handheldech jako Anbernic nebo na Batoceře.
+    </p>
+  </section>
+
+  {
+    groups.map((group) => (
+      <section class="section">
+        <div class="container">
+          <div class="sec-head" id={group.type}>
+            <div>
+              <p class="eyebrow">{group.label}</p>
+              <h2>{group.tagline}</h2>
+            </div>
+            <span class="muted">{group.items.length}</span>
+          </div>
+          <div class="grid grid-platforms">
+            {group.items.map((p) => (
+              <PlatformCard platform={p} />
+            ))}
+          </div>
+        </div>
+      </section>
+    ))
+  }
+</Base>
+
+<style>
+  .head {
+    padding-block: 48px 8px;
+  }
+  .head h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-block: 8px 12px;
+  }
+  .lead {
+    max-width: 640px;
+    font-size: 1.05rem;
+  }
+  .sec-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 22px;
+    scroll-margin-top: 80px;
+  }
+  .sec-head h2 {
+    font-size: clamp(1.25rem, 3vw, 1.6rem);
+    margin-top: 4px;
+  }
+  .section + .section {
+    padding-top: 8px;
+  }
+</style>

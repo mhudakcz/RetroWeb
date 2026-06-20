@@ -1,0 +1,79 @@
+---
+import type { Platform, PlatformType } from '../lib/data';
+
+interface Props {
+  platform: Platform;
+  size?: 'card' | 'hero';
+}
+const { platform, size = 'card' } = Astro.props;
+
+// Motiv (watermark) podle typu platformy – jednoduché line-art ikony.
+const MOTIF: Record<PlatformType, string> = {
+  console: `<rect x="10" y="26" width="80" height="44" rx="10"/><circle cx="30" cy="48" r="4"/><path d="M26 40v16M18 48h16"/><circle cx="66" cy="42" r="5"/><circle cx="78" cy="54" r="5"/>`,
+  handheld: `<rect x="28" y="10" width="44" height="80" rx="12"/><rect x="36" y="20" width="28" height="26" rx="3"/><path d="M44 60v12M38 66h12"/><circle cx="60" cy="64" r="3.5"/><circle cx="68" cy="72" r="3.5"/>`,
+  computer: `<rect x="14" y="18" width="72" height="46" rx="6"/><path d="M22 64h56M40 64l-3 10h26l-3-10"/>`,
+  arcade: `<path d="M28 12h44a6 6 0 0 1 6 6v74H22V18a6 6 0 0 1 6-6Z"/><rect x="32" y="22" width="36" height="26" rx="3"/><path d="M30 58h40"/><circle cx="42" cy="70" r="3"/><circle cx="58" cy="70" r="3"/>`,
+  fantasy: `<rect x="18" y="18" width="64" height="64" rx="8"/><path d="M42 38l22 12-22 12z"/><path d="M30 30h6M64 30h6M30 70h6M64 70h6"/>`,
+};
+const motif = MOTIF[platform.type];
+---
+
+<div
+  class:list={['emblem', `is-${size}`, 'scanlines']}
+  style={`--c1:${platform.color}; --c2:${platform.color2}`}
+  role="img"
+  aria-label={`${platform.name} – emblém`}
+>
+  <svg class="motif" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" set:html={motif} />
+  <span class="short pixel">{platform.short}</span>
+  {size === 'hero' && <span class="maker">{platform.maker} · {platform.year}</span>}
+</div>
+
+<style>
+  .emblem {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background:
+      radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--c1) 55%, transparent), transparent 60%),
+      linear-gradient(150deg, var(--c2), color-mix(in srgb, var(--c1) 75%, #000));
+    color: #fff;
+  }
+  .is-hero {
+    aspect-ratio: 16 / 9;
+    border-radius: var(--radius);
+  }
+  .motif {
+    position: absolute;
+    width: 62%;
+    max-width: 220px;
+    color: #fff;
+    opacity: 0.16;
+    right: -6%;
+    bottom: -10%;
+    transform: rotate(-6deg);
+  }
+  .short {
+    position: relative;
+    z-index: 2;
+    font-size: clamp(1.1rem, 4vw, 1.7rem);
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35), 0 0 22px color-mix(in srgb, var(--c1) 70%, transparent);
+  }
+  .is-hero .short {
+    font-size: clamp(1.6rem, 5vw, 2.8rem);
+  }
+  .maker {
+    position: absolute;
+    bottom: 12px;
+    left: 14px;
+    z-index: 2;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.82);
+  }
+</style>

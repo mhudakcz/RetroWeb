@@ -1,0 +1,166 @@
+---
+import Base from '../layouts/Base.astro';
+import PlatformCard from '../components/PlatformCard.astro';
+import GameCard from '../components/GameCard.astro';
+import { platformsByType, allGames, stats } from '../lib/data';
+
+const groups = platformsByType();
+
+// Vybrané must-play homebrew / klenoty napříč platformami
+const featured = allGames
+  .filter((g) => g.flags.includes('mustplay'))
+  .slice(0, 6);
+---
+
+<Base title="RetroWeb">
+  <!-- HERO -->
+  <section class="hero scanlines">
+    <div class="container hero-inner">
+      <p class="eyebrow">★ Insert coin · Press start</p>
+      <h1>
+        Svět <span class="grad">retro hraní</span><br />
+        na jednom místě
+      </h1>
+      <p class="lead muted">
+        Historie legendárních konzolí a počítačů, jejich nejlepší hry a tipy pro
+        handheldy jako <strong>Anbernic RG35XX&nbsp;Pro</strong>, <strong>R36S</strong>
+        a <strong>Batocera</strong> na starším PC.
+      </p>
+      <div class="cta">
+        <a class="btn btn-primary" href="/platformy">Prozkoumat platformy</a>
+        <a class="btn" href="/hry">Procházet hry</a>
+      </div>
+      <ul class="stats">
+        <li><span class="num pixel">{stats.platforms}</span><span class="lbl">platforem</span></li>
+        <li><span class="num pixel">{stats.games}</span><span class="lbl">her</span></li>
+        <li><span class="num pixel">{stats.withDetail}</span><span class="lbl">komentářů</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PLATFORMY DLE TYPU -->
+  {
+    groups.map((group) => (
+      <section class="section">
+        <div class="container">
+          <div class="sec-head">
+            <div>
+              <p class="eyebrow">{group.label}</p>
+              <h2>{group.tagline}</h2>
+            </div>
+            <span class="muted count">{group.items.length} platforem</span>
+          </div>
+          <div class="grid grid-platforms">
+            {group.items.map((p) => (
+              <PlatformCard platform={p} />
+            ))}
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <!-- VYBRANÉ HRY -->
+  {
+    featured.length > 0 && (
+      <section class="section featured">
+        <div class="container">
+          <div class="sec-head">
+            <div>
+              <p class="eyebrow">⭐ Must-play</p>
+              <h2>Moderní homebrew klenoty</h2>
+            </div>
+            <a class="muted link" href="/hry">Všechny hry →</a>
+          </div>
+          <div class="grid grid-games">
+            {featured.map((g) => (
+              <GameCard game={g} platform={g.platform} showPlatform />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+</Base>
+
+<style>
+  .hero {
+    border-bottom: 1px solid var(--border-soft);
+    background:
+      radial-gradient(800px 380px at 18% -10%, rgba(255, 62, 127, 0.16), transparent 60%),
+      radial-gradient(700px 360px at 92% 0%, rgba(54, 226, 255, 0.12), transparent 55%);
+  }
+  .hero-inner {
+    padding-block: 72px 60px;
+    max-width: 760px;
+  }
+  h1 {
+    font-size: clamp(2.3rem, 6vw, 3.7rem);
+    margin-block: 14px 18px;
+  }
+  .grad {
+    background: linear-gradient(110deg, var(--accent), var(--accent-3) 60%, var(--accent-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lead {
+    font-size: 1.12rem;
+    max-width: 620px;
+  }
+  .lead strong {
+    color: var(--text);
+  }
+  .cta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 26px;
+  }
+  .stats {
+    display: flex;
+    gap: 38px;
+    margin-top: 44px;
+    flex-wrap: wrap;
+  }
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .num {
+    font-size: 1.5rem;
+    color: var(--accent-3);
+  }
+  .lbl {
+    font-size: 0.82rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .sec-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 22px;
+  }
+  .sec-head h2 {
+    font-size: clamp(1.3rem, 3vw, 1.7rem);
+    margin-top: 4px;
+  }
+  .sec-head .count {
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  .link:hover {
+    color: var(--accent);
+  }
+  .featured {
+    background: var(--bg-2);
+    border-block: 1px solid var(--border-soft);
+  }
+  .section + .section {
+    padding-top: 8px;
+  }
+</style>

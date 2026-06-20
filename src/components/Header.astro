@@ -1,0 +1,88 @@
+---
+const path = Astro.url.pathname;
+const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
+---
+
+<header class="site-header">
+  <div class="container bar">
+    <a href="/" class="logo" aria-label="RetroWeb – domů">
+      <span class="logo-mark pixel">RW</span>
+      <span class="logo-text">Retro<span class="accent">Web</span></span>
+    </a>
+    <nav class="nav" aria-label="Hlavní navigace">
+      <a href="/" class:list={['nav-link', { active: isActive('/') }]}>Domů</a>
+      <a href="/platformy" class:list={['nav-link', { active: isActive('/platformy') }]}>Platformy</a>
+      <a href="/hry" class:list={['nav-link', { active: isActive('/hry') }]}>Hry</a>
+      <a href="/o-projektu" class:list={['nav-link', { active: isActive('/o-projektu') }]}>O projektu</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(11, 12, 17, 0.78);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    gap: 16px;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 800;
+    font-size: 1.18rem;
+  }
+  .logo-mark {
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    font-size: 0.66rem;
+    color: #1a0710;
+    background: linear-gradient(135deg, var(--accent), #ff8fb3);
+    box-shadow: 0 0 0 1px rgba(255, 62, 127, 0.4), 0 6px 18px -6px var(--accent);
+  }
+  .logo .accent {
+    color: var(--accent);
+  }
+  .nav {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    padding: 0.5em 0.85em;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--muted);
+    transition: color 0.15s ease, background 0.15s ease;
+  }
+  .nav-link:hover {
+    color: var(--text);
+    background: var(--surface);
+  }
+  .nav-link.active {
+    color: var(--text);
+    background: var(--surface-2);
+  }
+  @media (max-width: 560px) {
+    .logo-text {
+      display: none;
+    }
+    .nav-link {
+      padding: 0.5em 0.6em;
+      font-size: 0.86rem;
+    }
+  }
+</style>

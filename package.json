@@ -1,0 +1,17 @@
+{
+  "name": "retroweb",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "data": "python tools/parse_content.py",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.0.0",
+    "marked": "^14.0.0"
+  }
+}

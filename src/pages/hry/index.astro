@@ -1,0 +1,188 @@
+---
+import Base from '../../layouts/Base.astro';
+import GameCard from '../../components/GameCard.astro';
+import { allGames, platforms, stats, FLAG_LABEL } from '../../lib/data';
+
+const flagKeys = Object.keys(FLAG_LABEL) as (keyof typeof FLAG_LABEL)[];
+const norm = (s: string) =>
+  s
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase();
+---
+
+<Base title="Hry" description={`Procházejte ${stats.games} her napříč ${stats.platforms} platformami. Filtrujte podle platformy, homebrew, must-play nebo logických her.`}>
+  <section class="container head">
+    <p class="eyebrow">Herní katalog</p>
+    <h1>Hry</h1>
+    <p class="muted lead">{stats.games} titulů napříč {stats.platforms} platformami. Hledej a filtruj.</p>
+
+    <!-- FILTRY -->
+    <div class="filters">
+      <input id="q" type="search" placeholder="🔍 Hledat hru…" autocomplete="off" aria-label="Hledat hru" />
+      <select id="platform" aria-label="Filtrovat platformu">
+        <option value="">Všechny platformy</option>
+        {platforms.map((p) => <option value={p.slug}>{p.name}</option>)}
+      </select>
+      <div class="chips" role="group" aria-label="Filtry">
+        {flagKeys.map((f) => (
+          <button class="chip" data-flag={f} type="button">{FLAG_LABEL[f]}</button>
+        ))}
+        <button class="chip" data-detail="1" type="button">📝 S komentářem</button>
+      </div>
+    </div>
+    <p class="result-count muted" id="count" aria-live="polite"></p>
+  </section>
+
+  <section class="section grid-sec">
+    <div class="container">
+      <div class="grid grid-games" id="grid">
+        {
+          allGames.map((g) => (
+            <div
+              class="cell"
+              data-name={norm(g.name.replace(/[*_\x60]/g, ''))}
+              data-platform={g.platform.slug}
+              data-flags={g.flags.join(' ')}
+              data-detail={g.detail ? '1' : '0'}
+            >
+              <GameCard game={g} platform={g.platform} showPlatform />
+            </div>
+          ))
+        }
+      </div>
+      <p class="empty muted" id="empty" hidden>Nic nenalezeno — zkus uvolnit filtry.</p>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const q = document.getElementById('q') as HTMLInputElement;
+  const platform = document.getElementById('platform') as HTMLSelectElement;
+  const grid = document.getElementById('grid')!;
+  const cells = Array.from(grid.querySelectorAll<HTMLElement>('.cell'));
+  const countEl = document.getElementById('count')!;
+  const emptyEl = document.getElementById('empty')!;
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.chip'));
+
+  const activeFlags = new Set<string>();
+  let needDetail = false;
+
+  const norm = (s: string) =>
+    s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+  function apply() {
+    const term = norm(q.value.trim());
+    const plat = platform.value;
+    let shown = 0;
+    for (const cell of cells) {
+      const name = cell.dataset.name ?? '';
+      const flags = (cell.dataset.flags ?? '').split(' ');
+      let ok = true;
+      if (term && !name.includes(term)) ok = false;
+      if (plat && cell.dataset.platform !== plat) ok = false;
+      if (needDetail && cell.dataset.detail !== '1') ok = false;
+      for (const f of activeFlags) if (!flags.includes(f)) ok = false;
+      cell.hidden = !ok;
+      if (ok) shown++;
+    }
+    countEl.textContent = `${shown} ${shown === 1 ? 'hra' : shown >= 2 && shown <= 4 ? 'hry' : 'her'}`;
+    emptyEl.hidden = shown !== 0;
+  }
+
+  q.addEventListener('input', apply);
+  platform.addEventListener('change', apply);
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      if (chip.dataset.detail) {
+        needDetail = !needDetail;
+      } else if (chip.dataset.flag) {
+        const f = chip.dataset.flag;
+        activeFlags.has(f) ? activeFlags.delete(f) : activeFlags.add(f);
+      }
+      chip.classList.toggle('on');
+      apply();
+    });
+  }
+  apply();
+</script>
+
+<style>
+  .head {
+    padding-block: 48px 0;
+  }
+  .head h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-block: 8px 10px;
+  }
+  .lead {
+    font-size: 1.05rem;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+  }
+  #q,
+  #platform {
+    height: 44px;
+    padding: 0 14px;
+    border-radius: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+  #q {
+    flex: 1;
+    min-width: 220px;
+  }
+  #q:focus,
+  #platform:focus {
+    border-color: var(--accent);
+    outline: none;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chip {
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.55em 0.85em;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: inherit;
+    transition: all 0.15s ease;
+  }
+  .chip:hover {
+    color: var(--text);
+    border-color: var(--accent);
+  }
+  .chip.on {
+    background: linear-gradient(135deg, var(--accent), #ff7aa8);
+    color: #1a0710;
+    border-color: transparent;
+  }
+  .result-count {
+    margin-top: 14px;
+    font-size: 0.88rem;
+  }
+  .grid-sec {
+    padding-top: 18px;
+  }
+  .cell[hidden] {
+    display: none;
+  }
+  .empty {
+    text-align: center;
+    padding: 40px 0;
+  }
+</style>

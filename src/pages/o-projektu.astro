@@ -1,0 +1,109 @@
+---
+import Base from '../layouts/Base.astro';
+import { stats } from '../lib/data';
+---
+
+<Base title="O projektu" description="O webu RetroWeb — co obsahuje, pro jaké konzole a jak to celé vzniklo.">
+  <article class="container narrow">
+    <header class="head">
+      <p class="eyebrow">O projektu</p>
+      <h1>Co je RetroWeb</h1>
+    </header>
+
+    <div class="prose">
+      <p>
+        <strong>RetroWeb</strong> je průvodce světem retro hraní: historie herních platforem,
+        jejich legendární i méně známé hry a kontext, proč zrovna ony stojí za zahrání.
+        Vznikl jako osobní projekt kolem retro handheldů
+        <strong>Anbernic RG35XX&nbsp;Pro</strong> a <strong>R36S</strong> a systému
+        <strong>Batocera</strong> běžícího na starším PC.
+      </p>
+
+      <h2>Co tu najdeš</h2>
+      <ul class="bullets">
+        <li><strong>{stats.platforms} platforem</strong> — od Atari 2600 (1977) po dnešní fantasy konzole PICO-8 a TIC-80, každá s historií a kontextem.</li>
+        <li><strong>{stats.games} her</strong> — kurátorský výběr klasik, skrytých pokladů, logických her i moderních homebrew novinek.</li>
+        <li><strong>{stats.withDetail} detailních komentářů</strong> — u vybraných her se dozvíš žánr, rok, studio a pořádný odstavec faktů (mechaniky, zajímavosti, kontext vývoje).</li>
+      </ul>
+
+      <h2>Pro koho to je</h2>
+      <p>
+        Pro začínajícího i pokročilého retrohráče, který si chce udělat přehled, co na svůj
+        handheld nebo Batoceru pustit jako první — a přitom pochopit, proč jsou tyhle hry a
+        krabičky tak milované.
+      </p>
+
+      <div class="callout">
+        <h3>⚖️ Hraj legálně</h3>
+        <p>
+          Tento web <strong>nenabízí žádné ROM soubory</strong> ani odkazy na pirátský obsah.
+          Hry sháněj legálně — vytvoř si vlastní dumpy svých kazet a disků, nebo sahni po
+          <strong>homebrew a freeware</strong> titulech (na webu označené&nbsp;🆓), kterých je
+          dnes překvapivě hodně a často se vyrovnají dobovým klasikám.
+        </p>
+      </div>
+
+      <h2>Chystá se: skládání ROM setu</h2>
+      <p>
+        Druhá část projektu — průvodce sestavením a uspořádáním vlastního ROM setu na SD kartu
+        (struktura složek pro Batocera / EmulationStation, BIOS soubory, box-art a metadata,
+        výkonová doporučení pro čip H700 v Anbernicu) — je v plánu. Půjde o
+        <em>postup a nástroje</em>, ne o samotné herní soubory.
+      </p>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .narrow {
+    max-width: 760px;
+  }
+  .head {
+    padding-block: 48px 8px;
+  }
+  .head h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-top: 8px;
+  }
+  .prose {
+    font-size: 1.06rem;
+  }
+  .prose h2 {
+    font-size: 1.45rem;
+    margin-block: 32px 12px;
+  }
+  .bullets {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1em;
+  }
+  .bullets li {
+    padding-left: 22px;
+    position: relative;
+    color: #d3d7e4;
+  }
+  .bullets li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+  .bullets strong {
+    color: #fff;
+  }
+  .callout {
+    background: linear-gradient(135deg, rgba(255, 62, 127, 0.1), rgba(54, 226, 255, 0.06));
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    margin-block: 28px;
+  }
+  .callout h3 {
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+  }
+  .callout p {
+    margin: 0;
+  }
+</style>

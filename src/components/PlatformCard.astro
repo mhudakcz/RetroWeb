@@ -1,0 +1,65 @@
+---
+import type { Platform } from '../lib/data';
+import PlatformEmblem from './PlatformEmblem.astro';
+
+interface Props {
+  platform: Platform;
+}
+const { platform } = Astro.props;
+---
+
+<a class="card platform-card" href={`/platformy/${platform.slug}`} style={`--c1:${platform.color}`}>
+  <PlatformEmblem platform={platform} />
+  <div class="body">
+    <h3>{platform.name}</h3>
+    <p class="meta muted">{platform.maker} · {platform.year}</p>
+    <div class="foot">
+      <span class="count">{platform.gameCount} her</span>
+      <span class="arrow" aria-hidden="true">→</span>
+    </div>
+  </div>
+</a>
+
+<style>
+  .platform-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .platform-card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--c1) 60%, var(--border));
+    box-shadow: var(--shadow);
+  }
+  .body {
+    padding: 14px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1;
+  }
+  h3 {
+    font-size: 1.05rem;
+  }
+  .meta {
+    font-size: 0.84rem;
+  }
+  .foot {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .count {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: color-mix(in srgb, var(--c1) 70%, var(--text));
+  }
+  .arrow {
+    color: var(--muted);
+    transition: transform 0.15s ease, color 0.15s ease;
+  }
+  .platform-card:hover .arrow {
+    transform: translateX(4px);
+    color: var(--c1);
+  }
+</style>

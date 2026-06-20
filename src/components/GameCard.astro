@@ -1,0 +1,94 @@
+---
+import { FLAG_LABEL, mdInline, type Game, type Platform } from '../lib/data';
+
+interface Props {
+  game: Game;
+  platform: Platform;
+  showPlatform?: boolean;
+}
+const { game, platform, showPlatform = false } = Astro.props;
+
+// Krátký popis: teaser, jinak useknutý detail.
+let blurb = game.teaser;
+if (!blurb && game.detail) {
+  const plain = game.detail.replace(/[*_\x60]/g, '');
+  blurb = plain.length > 150 ? plain.slice(0, 150).trimEnd() + '…' : plain;
+}
+const hasInfo = Boolean(game.detail);
+---
+
+<a class="card game-card" href={`/hry/${game.slug}`} style={`--c1:${platform.color}`}>
+  <div class="top">
+    <h3 set:html={mdInline(game.name)} />
+    {hasInfo && <span class="dot" title="Má detailní komentář" aria-hidden="true"></span>}
+  </div>
+
+  <div class="tags">
+    {showPlatform && <span class="tag tag-platform">{platform.short}</span>}
+    {game.genre && <span class="tag tag-genre">{game.genre}</span>}
+    {game.length && <span class="tag">⏱ {game.length}</span>}
+    {game.flags.map((f) => <span class="tag tag-flag">{FLAG_LABEL[f]}</span>)}
+  </div>
+
+  {blurb && <p class="blurb" set:html={mdInline(blurb)} />}
+</a>
+
+<style>
+  .game-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px 17px 17px;
+  }
+  .game-card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
+    box-shadow: var(--shadow);
+  }
+  .top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  h3 {
+    font-size: 1.02rem;
+    line-height: 1.3;
+  }
+  .dot {
+    flex: none;
+    margin-top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--c1) 80%, #fff);
+    box-shadow: 0 0 10px var(--c1);
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag-platform {
+    font-family: var(--font-pixel);
+    font-size: 0.55rem;
+    color: #fff;
+    background: color-mix(in srgb, var(--c1) 30%, var(--surface-2));
+    border-color: color-mix(in srgb, var(--c1) 50%, var(--border));
+  }
+  .tag-genre {
+    color: color-mix(in srgb, var(--c1) 65%, var(--text));
+    border-color: color-mix(in srgb, var(--c1) 35%, var(--border));
+  }
+  .tag-flag {
+    background: var(--surface);
+  }
+  .blurb {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+  .blurb :global(strong) {
+    color: var(--text);
+  }
+</style>

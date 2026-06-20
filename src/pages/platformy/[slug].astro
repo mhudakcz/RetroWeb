@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import PlatformEmblem from '../../components/PlatformEmblem.astro';
+import GameCard from '../../components/GameCard.astro';
+import { platforms, getPlatform, TYPE_LABEL, mdBlock } from '../../lib/data';
+
+export function getStaticPaths() {
+  return platforms.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const platform = getPlatform(slug!)!;
+const history = mdBlock(platform.history);
+const withDetail = platform.games.filter((g) => g.detail).length;
+---
+
+<Base
+  title={platform.name}
+  description={`${platform.name} (${platform.maker}, ${platform.year}) — historie platformy a ${platform.gameCount} doporučených her.`}
+  accent={platform.color}
+>
+  <section class="container">
+    <nav class="crumbs muted" aria-label="Drobečková navigace">
+      <a href="/platformy">Platformy</a> <span>/</span> <span>{platform.name}</span>
+    </nav>
+
+    <div class="hero">
+      <div class="emblem-wrap">
+        <PlatformEmblem platform={platform} size="hero" />
+      </div>
+      <div class="intro">
+        <p class="eyebrow">{TYPE_LABEL[platform.type]}</p>
+        <h1>{platform.name}</h1>
+        <div class="facts">
+          <span class="tag">{platform.maker}</span>
+          <span class="tag">Rok {platform.year}</span>
+          <span class="tag">{platform.gameCount} her</span>
+          {withDetail > 0 && <span class="tag">{withDetail} s komentářem</span>}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {
+    history && (
+      <section class="section history-sec">
+        <div class="container narrow">
+          <h2 class="sec-title">Historie &amp; kontext</h2>
+          <div class="prose" set:html={history} />
+        </div>
+      </section>
+    )
+  }
+
+  <section class="section">
+    <div class="container">
+      <h2 class="sec-title">Doporučené hry <span class="muted">({platform.gameCount})</span></h2>
+      <div class="grid grid-games">
+        {platform.games.map((g) => <GameCard game={g} platform={platform} />)}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .crumbs {
+    padding-top: 26px;
+    font-size: 0.86rem;
+  }
+  .crumbs a:hover {
+    color: var(--accent);
+  }
+  .crumbs span {
+    margin-inline: 4px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) 1.2fr;
+    gap: 32px;
+    align-items: center;
+    padding-block: 22px 8px;
+  }
+  .emblem-wrap {
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-block: 8px 16px;
+  }
+  .facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .narrow {
+    max-width: 760px;
+  }
+  .sec-title {
+    font-size: clamp(1.3rem, 3vw, 1.7rem);
+    margin-bottom: 18px;
+  }
+  .history-sec {
+    background: var(--bg-2);
+    border-block: 1px solid var(--border-soft);
+  }
+  .prose {
+    font-size: 1.04rem;
+  }
+  @media (max-width: 780px) {
+    .hero {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+import { stats } from '../lib/data';
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="logo pixel">RetroWeb</div>
+        <p class="muted small">
+          Průvodce světem retro hraní — historie platforem, legendární hry a tipy pro
+          handheldy jako Anbernic RG35XX Pro a R36S nebo Batocera na PC.
+        </p>
+      </div>
+      <div>
+        <h4>Obsah</h4>
+        <ul class="links">
+          <li><a href="/platformy">Platformy ({stats.platforms})</a></li>
+          <li><a href="/hry">Hry ({stats.games})</a></li>
+          <li><a href="/o-projektu">O projektu &amp; návod</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legálně, prosím</h4>
+        <p class="muted small">
+          Hry shánějte legálně — vlastní dumpy svých kazet a disků, nebo homebrew a
+          freeware tituly označené 🆓. Tento web žádné ROM soubory nenabízí.
+        </p>
+      </div>
+    </div>
+    <div class="base">
+      <span class="muted small">© {new Date().getFullYear()} RetroWeb · postaveno s Astro</span>
+      <span class="muted small">Data: vlastní kurátorské podklady</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 64px;
+    border-top: 1px solid var(--border-soft);
+    background: var(--bg-2);
+    padding-block: 44px 28px;
+  }
+  .cols {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1.2fr;
+    gap: 32px;
+  }
+  .logo {
+    font-size: 0.9rem;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+  h4 {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+  .small {
+    font-size: 0.86rem;
+  }
+  .links li + li {
+    margin-top: 7px;
+  }
+  .links a:hover {
+    color: var(--accent);
+  }
+  .base {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-soft);
+  }
+  @media (max-width: 720px) {
+    .cols {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+</style>
