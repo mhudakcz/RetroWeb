@@ -375,6 +375,8 @@ def build():
     articles = load_articles()
     bg_file = ROOT / "src" / "data" / "platform_bg.json"
     platform_bg = json.loads(bg_file.read_text(encoding="utf-8")) if bg_file.exists() else {}
+    extra_file = ROOT / "src" / "data" / "extra_games.json"
+    extra = json.loads(extra_file.read_text(encoding="utf-8")) if extra_file.exists() else {}
 
     platforms_out = []
     total_games = 0
@@ -384,6 +386,11 @@ def build():
     for p in PLATFORMS:
         slug = p["slug"]
         games_raw = bato.get(slug, [])
+        # doplňkové ručně přidané hry (např. dořešené bojovkové klasiky)
+        for eg in extra.get(slug, []):
+            games_raw.append(dict(name=eg["name"], genre=eg.get("genre"),
+                                  length=eg.get("length"), flags=eg.get("flags", []),
+                                  order=len(games_raw)))
         plus_list = plus.get(slug, [])
         short_list = short.get(slug, [])
         used_plus, used_short = set(), set()

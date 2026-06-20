@@ -281,8 +281,8 @@ def fetch_games():
         def dl(job):
             gslug, fn = job
             dest = out / f"{gslug}.png"
-            if dest.exists() and dest.stat().st_size > 2048:
-                return True  # už staženo
+            if (out / f"{gslug}.webp").exists() or (dest.exists() and dest.stat().st_size > 2048):
+                return True  # už staženo (png nebo už převedené na webp)
             url = (
                 f"https://raw.githubusercontent.com/libretro-thumbnails/{repo}"
                 f"/master/Named_Boxarts/{urllib.parse.quote(fn)}.png"
@@ -384,6 +384,9 @@ def resolve_symlinks():
     print(f"Symlink kandidátů (.png): {len(leftovers)}")
     fixed = dropped = 0
     for p in leftovers:
+        # reálné obrázky (velké soubory) nech být – převede je optimize. Symlink je krátký text.
+        if p.stat().st_size >= 1024:
+            continue
         slug = p.parent.name
         repo = LIBRETRO.get(slug)
         try:
