@@ -90,6 +90,14 @@ export const hardware: HardwareItem[] = [
           'Při koupi pozor na **revize** a varianty (existují modely s mírně odlišnými tlačítky a sticky) a počítejte s tím, že druhou SD kartu na hry si nejspíš dokoupíte. Kvalitní rychlá karta se vyplatí — pomalá karta se projeví delším načítáním a trhanějším procházením velkých knihoven.',
         ],
       },
+      {
+        title: 'Ovládání: ukládání, menu a přepínání',
+        body: [
+          'Hraje se jako na klasické konzoli — D-pad nebo stick, tlačítka A/B/X/Y, ramena L/R. Srdcem pohodlí je vyhrazené tlačítko **Function (Fn / Menu)**, kterým se přímo ve hře dostaneš k funkcím emulátoru.',
+          'Nejdůležitější jsou **save states** — uložení přesného stavu hry kdykoli (nejen na ukládacích místech). Na systémech postavených nad RetroArchem (muOS, Batocera, ROCKNIX) platí podobné **hotkeye**: **Fn + R1 = uložit stav**, **Fn + L1 = načíst stav**, **Fn + Start = ukončit hru**, **Fn + Select/X = menu emulátoru** (převíjení, změna jádra, nastavení). Kombinace si můžeš předefinovat.',
+          'Mezi hrami přepínáš ukončením do seznamu (Fn + Start) a výběrem další. Uložené pozice i save states zůstávají na SD kartě, takže po vypnutí pokračuješ přesně tam, kde jsi skončil.',
+        ],
+      },
     ],
     options: [
       {
@@ -160,6 +168,14 @@ export const hardware: HardwareItem[] = [
         body: [
           'R36S je proslulý **záplavou variant a klonů**. Pod stejným jménem se prodávají kusy s různými výrobními revizemi, různými displeji (kvalita panelu se liší — tzv. „screen lottery") a dokonce i s odlišnými čipy. Existují i přímé padělky a příbuzné modely (R36H, R35S a další).',
           'Praktický důsledek: než nahrajete nějaký komunitní systém, ověřte si, **jaký panel a SoC vaše konkrétní jednotka má**, ať zvolíte správný obraz — jinak vám může obraz vyjít převrácený nebo s mizernými barvami. Kupujte od prodejců s recenzemi a počítejte s tím, že u nejlevnějších kusů je kvalita zpracování loterie.',
+        ],
+      },
+      {
+        title: 'Ovládání: ukládání, menu a přepínání',
+        body: [
+          'Ovládáš ho jako klasickou konzoli; navíc má vyhrazené tlačítko **Function (F)**, kterým se ve hře dostaneš k funkcím emulátoru. Na ArkOS, ROCKNIX i Batoceře platí podobné **hotkeye**: **F + R = uložit stav**, **F + L = načíst stav**, **F + Start = ukončit hru**, **F + Select/X = menu emulátoru**.',
+          'Nejpohodlnější ukládání jsou **save states** — uložíš kdykoli a okamžitě se vrátíš; klasické herní uložení (do paměti hry) funguje samozřejmě taky. Vše zůstává na SD kartě, takže po vypnutí pokračuješ, kde jsi přestal.',
+          'Mezi hrami se přepínáš ukončením do seznamu a výběrem další. Kombinace tlačítek si lze v nastavení systému předefinovat.',
         ],
       },
     ],
@@ -244,6 +260,21 @@ export const hardware: HardwareItem[] = [
         body: [
           'Batocera není jediná hra na trhu. **Recalbox** je podobně přívětivá a začátečnicky laděná alternativa; **Lakka** je čistý RetroArch bez nadstavby (lehká, ale méně „hezká"); **RetroBat** běží přímo nad Windows, pokud nechcete samostatný systém. Na handheldech jsou pak silní hráči **Knulli** (přímo z rodiny Batocera) a **ROCKNIX**.',
           'Pro většinu lidí je Batocera nejlepší výchozí volbou: obrovská podpora systémů, krásný frontend, velká komunita a stejné prostředí napříč zařízeními. Pokud vám něco nesedne, přechod na alternativu je otázkou zapsání jiného obrazu na kartu.',
+        ],
+      },
+      {
+        title: 'Spuštění z USB (i bez instalace)',
+        body: [
+          'Batoceru nemusíš nikam instalovat — rozjedeš ji **přímo z USB flashky nebo disku**. Postup: image zapíšeš nástrojem **Balena Etcher** na USB, při startu počítače otevřeš **boot menu** (obvykle klávesa F12, F10, F8 nebo Esc hned po zapnutí) a vybereš spuštění z USB. Pevný disk i Windows zůstanou nedotčené.',
+          'Je to ideální způsob, jak retro nezávazně vyzkoušet, nebo jak nosit svůj setup s sebou — flashku zasuneš do jiného počítače a hraješ se stejnou knihovnou. Pro plynulost ber **USB 3.0** disk; pomalá flashka zdržuje načítání. (Tip: kdybys chtěl bootovat z USB i na novějším PC, možná bude potřeba v BIOSu vypnout Secure Boot.)',
+        ],
+      },
+      {
+        title: 'Adresářová struktura: kam patří hry a BIOS',
+        body: [
+          'Batocera má jednotné, logické uspořádání. Na médiu je složka **`roms/`** a v ní podsložka pro každý systém — hru prostě nakopíruješ do té správné: `roms/nes`, `roms/snes`, `roms/megadrive`, `roms/gba`, `roms/psx`, `roms/n64`, `roms/dreamcast`, `roms/arcade`… Po restartu nebo „aktualizaci her" v menu se objeví v seznamu.',
+          'Soubory **BIOS** patří do složky **`bios/`** (např. `bios/scph5501.bin` pro PlayStation). Když nějaký chybí, Batocera ti to u daného systému přímo vypíše. Obaly, popisy a videa ze scrapingu se ukládají k hrám (do `media`), takže celá knihovna zůstává přenosná.',
+          'Tahle struktura je v zásadě stejná i na handheldech s Batocerou/Knulli a velmi podobná i v RetroPie a Recalboxu — pochopíš ji jednou a využiješ všude.',
         ],
       },
     ],
@@ -452,12 +483,77 @@ export const hardware: HardwareItem[] = [
           'Emulátory samotné jsou **legální software**. Co řeší zákon, jsou herní soubory (ROM/ISO) a BIOS — ty si pořiď legálně: vlastní dumpy svých kazet, disků a konzolí, nebo homebrew a freeware tituly. Tenhle web žádné takové soubory nenabízí.',
         ],
       },
+      {
+        title: 'Kam dávat hry a BIOS (struktura složek)',
+        body: [
+          'Na PC nejsou hry vázané na pevnou strukturu jako na konzoli — složku s ROMy si uděláš kdekoli (např. `D:\\Roms\\snes`, `D:\\Roms\\psx`) a v emulátoru na ni jen ukážeš. Přehlednosti pomáhá držet schéma **jedna složka = jeden systém**, ať to později snadno napojíš na frontend.',
+          '**RetroArch** má vlastní složky: jádra v `cores/`, **BIOS v `system/`** (sem patří např. PS1/Saturn/DS BIOS), uložení v `saves/` a `states/`. **Samostatné emulátory** mají každý svoje: DuckStation, PCSX2 i Dolphin si BIOS/klíče a paměťovky drží ve svých datových složkách (obvykle v Dokumentech nebo vedle programu). Když nasadíš **frontend** (EmuDeck, LaunchBox), ten ti složky pomůže sjednotit a uklidit.',
+        ],
+      },
     ],
     options: [
       { title: 'Začni RetroArchem', text: 'Pro 8/16bit, handheldy a PS1 je sjednocený RetroArch ideál. Na PS2/GC sáhni po PCSX2/Dolphin.' },
       { title: 'EmuDeck ušetří čas', text: 'Na Windows i Steam Decku ti EmuDeck nastaví emulátory, složky i frontend skoro na jeden klik.' },
       { title: 'BIOS do system/', text: 'PS1, PS2, Saturn nebo DS chtějí originální BIOS. Bez něj jádro nenastartuje.' },
       { title: 'Jeden ovladač na vše', text: 'Xbox nebo 8BitDo Pro 2 fungují všude přes XInput; dobové repliky přidají autentický pocit.' },
+    ],
+  },
+  {
+    slug: 'ios',
+    name: 'iOS (iPhone & iPad)',
+    kind: 'Mobilní platforma',
+    tagline: 'Od roku 2024 jdou emulátory i na iPhone a iPad — přímo z App Storu.',
+    color: '#9aa0b4',
+    color2: '#1a1c24',
+    art: 'mobile',
+    intro: [
+      'Dlouho byla emulace na iPhonu a iPadu spíš pro otrlé (přes složité postupy), ale to se v roce 2024 změnilo: Apple povolil retro herní emulátory **přímo v App Storu**. Dnes si tak appku stáhneš jedním klepnutím jako kteroukoli jinou a hraješ. iPady s čipy řady M jsou navíc tak výkonné, že zvládnou i náročnější konzole.',
+    ],
+    specs: [
+      { label: 'Zařízení', value: 'iPhone, iPad (ideálně s čipem A15+/M)' },
+      { label: 'Klíčové appky', value: 'Delta, RetroArch, PPSSPP, DuckStation, Provenance' },
+      { label: 'Ovladač', value: 'Bluetooth (Xbox, DualSense, 8BitDo, Backbone)' },
+      { label: 'Hry', value: 'přes aplikaci Soubory, iCloud nebo AirDrop' },
+      { label: 'Výstup', value: 'obrazovka, nebo TV přes AirPlay / USB-C' },
+    ],
+    canPlay: [
+      { label: 'NES, SNES, N64, GB/GBC/GBA, DS (Delta)', level: 'ok' },
+      { label: 'PlayStation (PS1), PSP', level: 'ok' },
+      { label: 'Dreamcast, Saturn', level: 'most' },
+      { label: 'GameCube, Wii, PS2 (iPad M, přes sideload)', level: 'some' },
+    ],
+    sections: [
+      {
+        title: 'Co se v roce 2024 změnilo',
+        body: [
+          'Apple roky emulátory v App Storu nepovoloval, takže jediná cesta vedla přes komplikované „sideloady" a developerské certifikáty. Na jaře 2024 ale pravidla uvolnil a emulátory retro konzolí jsou teď oficiálně povolené. Pro běžného uživatele to znamená jediné: appku najdeš v App Storu a nainstaluješ stejně snadno jako na Androidu.',
+        ],
+      },
+      {
+        title: 'Které aplikace',
+        body: [
+          'Hvězdou je **Delta** — elegantní emulátor nintendovských systémů (NES, SNES, N64, Game Boy/GBC/GBA, DS) od autora populárního GBA4iOS. Univerzál **RetroArch** pokryje desítky dalších systémů. Pro náročnější tituly jsou skvělé samostatné appky: **PPSSPP** (PSP), **DuckStation** (PS1), **Provenance** (multi-systémový balík).',
+          'Pro nejtěžší konzole (GameCube, Wii, PS2) na výkonném iPadu existují emulátory jako DolphiniOS, ale ty se zatím obvykle instalují mimo App Store (přes AltStore/sideload) — je to o krok náročnější.',
+        ],
+      },
+      {
+        title: 'Jak začít a nahrát hry',
+        body: [
+          '1) Z App Storu nainstaluj **Delta** (nebo RetroArch/PPSSPP podle systému). 2) Hry dostaneš do zařízení přes appku **Soubory** (z iCloud Drive, přes AirDrop z Macu, nebo z počítače kabelem) a v emulátoru je naimportuješ. 3) Některé systémy chtějí **BIOS** (PS1, DS…) — přidáš je stejnou cestou. 4) Spáruj **ovladač** přes Bluetooth a hraj.',
+        ],
+      },
+      {
+        title: 'Ovladače a iPad jako mini konzole',
+        body: [
+          'iOS bez problémů spáruje **Xbox**, **DualSense (PS5)** i **8BitDo** ovladače přes Bluetooth — stačí v nastavení Bluetooth a hraješ. Populární jsou i „klipsy" jako **Backbone** nebo GameSir, do kterých telefon zasuneš a vznikne z něj handheld.',
+          'iPad s čipem M je sám o sobě malá herní stanice: přes **AirPlay** nebo **USB-C** pošleš obraz na televizi, připojíš ovladač a máš plnohodnotný retro setup na velké obrazovce.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Začni Deltou', text: 'Pro nintendovské systémy (NES–DS) je Delta nejpohodlnější. Na zbytek RetroArch nebo samostatné appky.' },
+      { title: 'Ovladač přes Bluetooth', text: 'Xbox, DualSense i 8BitDo se spárují za pár vteřin; klipsy Backbone/GameSir z telefonu udělají handheld.' },
+      { title: 'Hry přes Soubory/iCloud', text: 'ROMy a BIOS dostaneš do appky přes Soubory, iCloud Drive nebo AirDrop. Sháněj je legálně.' },
     ],
   },
 ];
