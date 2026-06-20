@@ -19,6 +19,7 @@ export interface Game {
   est: string | null;
   teaser: string | null;
   detail: string | null;
+  image: string | null;
 }
 
 export interface Platform {
@@ -30,6 +31,7 @@ export interface Platform {
   type: PlatformType;
   color: string;
   color2: string;
+  image: string | null;
   history: string | null;
   gameCount: number;
   games: Game[];

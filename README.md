@@ -33,6 +33,18 @@ npm run preview      # náhled buildu
 
 > Po úpravě Markdown podkladů spusť `npm run data` a poté `npm run build`.
 
+## Obrázky
+
+```bash
+python tools/fetch_images.py platforms   # fotky konzolí z Wikipedie -> public/images/platforms
+python tools/fetch_images.py games       # boxarty z libretro-thumbnails -> public/images/games
+python tools/fetch_images.py optimize    # zmenší/převede na WebP (nutné po stažení)
+python tools/parse_content.py            # doplní cesty k obrázkům do datasetu
+```
+
+Skript přeskakuje již stažené soubory. Pro vyšší limit GitHub API nastav `GH_TOKEN`.
+Cesty k obrázkům se do datasetu dostanou podle existence souborů v `public/images/`.
+
 ## Datový tok
 
 `parse_content.py` segmentuje 4 MD soubory podle nadpisů platforem, vytahuje hry

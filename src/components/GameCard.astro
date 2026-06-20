@@ -17,7 +17,19 @@ if (!blurb && game.detail) {
 const hasInfo = Boolean(game.detail);
 ---
 
-<a class="card game-card" href={`/hry/${game.slug}`} style={`--c1:${platform.color}`}>
+<a class="card game-card" href={`/hry/${game.slug}`} style={`--c1:${platform.color}; --c2:${platform.color2}`}>
+  <div class:list={['thumb', { 'is-empty': !game.image }]}>
+    {
+      game.image ? (
+        <img src={game.image} alt={`${game.name.replace(/[*_\x60]/g, '')} – boxart`} loading="lazy" decoding="async" />
+      ) : (
+        <span class="thumb-tag pixel">{platform.short}</span>
+      )
+    }
+    {showPlatform && game.image && <span class="thumb-platform pixel">{platform.short}</span>}
+  </div>
+
+  <div class="body-pad">
   <div class="top">
     <h3 set:html={mdInline(game.name)} />
     {hasInfo && <span class="dot" title="Má detailní komentář" aria-hidden="true"></span>}
@@ -31,19 +43,59 @@ const hasInfo = Boolean(game.detail);
   </div>
 
   {blurb && <p class="blurb" set:html={mdInline(blurb)} />}
+  </div>
 </a>
 
 <style>
   .game-card {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 16px 17px 17px;
   }
   .game-card:hover {
     transform: translateY(-3px);
     border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
     box-shadow: var(--shadow);
+  }
+  .thumb {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background:
+      radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--c1) 22%, transparent), transparent 60%),
+      linear-gradient(160deg, color-mix(in srgb, var(--c2) 80%, #000), #0b0c11);
+    border-bottom: 1px solid var(--border-soft);
+    display: grid;
+    place-items: center;
+  }
+  .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 12px;
+  }
+  .thumb-tag {
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.85;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35), 0 0 18px color-mix(in srgb, var(--c1) 70%, transparent);
+  }
+  .thumb-platform {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 0.5rem;
+    color: #fff;
+    padding: 0.4em 0.55em;
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--c1) 45%, rgba(0, 0, 0, 0.6));
+    backdrop-filter: blur(3px);
+  }
+  .body-pad {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px 16px 16px;
+    flex: 1;
   }
   .top {
     display: flex;

@@ -36,20 +36,29 @@ const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
       <span>{game.name.replace(/[*_\x60]/g, '')}</span>
     </nav>
 
-    <header class="head">
-      <a class="platform-pill" href={`/platformy/${platform.slug}`} style={`--c1:${platform.color}`}>
-        <span class="pp-short pixel">{platform.short}</span>
-        {platform.name}
-      </a>
-      <h1 set:html={nameHtml} />
+    <header class:list={['head', { 'has-art': game.image }]}>
+      {
+        game.image && (
+          <div class="boxart" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
+            <img src={game.image} alt={`${game.name.replace(/[*_\x60]/g, '')} – boxart`} decoding="async" />
+          </div>
+        )
+      }
+      <div class="head-text">
+        <a class="platform-pill" href={`/platformy/${platform.slug}`} style={`--c1:${platform.color}`}>
+          <span class="pp-short pixel">{platform.short}</span>
+          {platform.name}
+        </a>
+        <h1 set:html={nameHtml} />
 
-      <div class="facts">
-        {game.genre && <span class="tag tag-genre" style={`--c1:${platform.color}`}>{game.genre}</span>}
-        {game.year && <span class="tag">{game.year}</span>}
-        {game.studio && <span class="tag">{game.studio}</span>}
-        {game.length && <span class="tag">{LENGTH_LABEL[game.length]}</span>}
-        {game.est && <span class="tag">⏱ cca {game.est}</span>}
-        {game.flags.map((f) => <span class="tag tag-flag">{FLAG_LABEL[f]}</span>)}
+        <div class="facts">
+          {game.genre && <span class="tag tag-genre" style={`--c1:${platform.color}`}>{game.genre}</span>}
+          {game.year && <span class="tag">{game.year}</span>}
+          {game.studio && <span class="tag">{game.studio}</span>}
+          {game.length && <span class="tag">{LENGTH_LABEL[game.length]}</span>}
+          {game.est && <span class="tag">⏱ cca {game.est}</span>}
+          {game.flags.map((f) => <span class="tag tag-flag">{FLAG_LABEL[f]}</span>)}
+        </div>
       </div>
     </header>
 
@@ -106,6 +115,33 @@ const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
     padding-block: 24px 6px;
     border-bottom: 1px solid var(--border-soft);
     margin-bottom: 24px;
+  }
+  .head.has-art {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 26px;
+    align-items: center;
+  }
+  .boxart {
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background:
+      radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--c1) 25%, transparent), transparent 60%),
+      linear-gradient(160deg, color-mix(in srgb, var(--c2) 80%, #000), #0b0c11);
+    box-shadow: var(--shadow);
+  }
+  .boxart img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    padding: 14px;
+  }
+  @media (max-width: 560px) {
+    .head.has-art {
+      grid-template-columns: 130px 1fr;
+      gap: 16px;
+    }
   }
   .platform-pill {
     display: inline-flex;

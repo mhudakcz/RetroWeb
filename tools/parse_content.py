@@ -20,6 +20,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "Podklady" / "extracted"
 OUT = ROOT / "src" / "data" / "dataset.json"
+PUBLIC_IMG = ROOT / "public" / "images"
+IMG_EXTS = (".webp", ".jpg", ".jpeg", ".png", ".gif", ".svg")
+
+
+def find_image(subdir, stem):
+    """Vrátí veřejnou cestu /images/... pokud obrázek se zadaným jménem existuje."""
+    d = PUBLIC_IMG / subdir
+    for ext in IMG_EXTS:
+        if (d / f"{stem}{ext}").exists():
+            return f"/images/{subdir}/{stem}{ext}".replace("\\", "/")
+    return None
 
 # ---------------------------------------------------------------------------
 # Registr platforem: slug, název, metadata, barvy a aliasy nadpisů (z obou souborů).
@@ -391,15 +402,19 @@ def build():
                 slug=gslug, name=g["name"], genre=genre, length=g["length"],
                 flags=g["flags"], year=year, studio=studio, est=est,
                 teaser=teaser, detail=detail,
+                image=find_image(f"games/{slug}", gslug),
             ))
             total_games += 1
 
         platforms_out.append(dict(
             slug=slug, name=p["name"], short=p["short"], maker=p["maker"],
             year=p["year"], type=p["type"], color=p["color"], color2=p["color2"],
+            image=find_image("platforms", slug),
             history=history.get(slug), gameCount=len(games), games=games,
         ))
 
+    games_with_img = sum(1 for po in platforms_out for g in po["games"] if g["image"])
+    plats_with_img = sum(1 for po in platforms_out if po["image"])
     dataset = dict(
         platforms=platforms_out,
         stats=dict(
@@ -407,6 +422,8 @@ def build():
             games=total_games,
             withDetail=matched_detail,
             withTeaser=matched_teaser,
+            platformImages=plats_with_img,
+            gameImages=games_with_img,
         ),
     )
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -417,6 +434,8 @@ def build():
     print(f"Her celkem: {total_games}")
     print(f"  s detailním komentářem: {matched_detail} ({100*matched_detail//max(1,total_games)} %)")
     print(f"  s krátkým teaserem:     {matched_teaser}")
+    print(f"  obrázky platforem: {plats_with_img}/{len(platforms_out)}")
+    print(f"  obrázky her:       {games_with_img}/{total_games}")
     print("\nPokrytí detailem dle platformy:")
     for po in platforms_out:
         no_detail = [g["name"] for g in po["games"] if not g["detail"]]
