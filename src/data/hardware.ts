@@ -19,6 +19,7 @@ export interface HardwareItem {
   color2: string;
   art: 'handheld-h' | 'handheld-v' | 'batocera';
   intro: string[];
+  photo?: { src: string; caption: string };
   specs: HardwareSpec[];
   canPlay: { label: string; level: 'ok' | 'most' | 'some' }[];
   sections: HardwareSection[];
@@ -308,6 +309,7 @@ export const hardware: HardwareItem[] = [
     intro: [
       'Raspberry Pi je malý jednodeskový počítač (SBC), který se stal legendou domácího kutilství — a v retro hraní hraje první ligu. Za pár stovek až tisícovku dostaneš tichou, úspornou krabičku, kterou připojíš k televizi, nahraješ na ni hotový systém a máš retro konzoli na míru. Kolem Pi navíc existuje obří komunita a hotová řešení, takže rozjezd je otázkou chvíle.',
     ],
+    photo: { src: '/images/hardware/raspberry-pi.png', caption: 'Raspberry Pi 4 Model B — celá „konzole" se vejde do dlaně' },
     specs: [
       { label: 'Doporučené modely', value: 'Pi 4 (4 GB) nebo Pi 5; Pi Zero 2 W pro 8/16bit' },
       { label: 'Výstup', value: 'HDMI (Pi 4/5: až 4K), 3,5mm zvuk přes adaptér' },
@@ -435,6 +437,7 @@ export const hardware: HardwareItem[] = [
     intro: [
       'PC je králem emulace: největší výkon, nejpřesnější emulátory a nejvíc možností ladění. Rozjedeš na něm prakticky cokoli — od Atari 2600 až po PlayStation 2, GameCube, Wii nebo 3DS, pokud máš dost výkonný stroj. Můžeš jít cestou jednoho sjednoceného programu (RetroArch), nebo pro každou platformu použít špičkový samostatný emulátor; nejlepší výsledky dává kombinace obojího.',
     ],
+    photo: { src: '/images/hardware/pc-emulace.png', caption: 'RetroArch — jedno rozhraní, desítky systémů pod jednou střechou' },
     specs: [
       { label: 'Systém', value: 'Windows, Linux i macOS' },
       { label: 'Výkon', value: 'silné jednovlákno CPU; GPU s Vulkan/OpenGL pro 3D' },

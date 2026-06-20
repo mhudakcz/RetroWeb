@@ -38,6 +38,15 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
       {hw.intro.map((p) => <p set:html={mdInline(p)} />)}
     </div>
 
+    {
+      hw.photo && (
+        <figure class="hw-photo" style={`--c1:${hw.color}; --c2:${hw.color2}`}>
+          <img src={hw.photo.src} alt={hw.photo.caption} loading="lazy" decoding="async" />
+          <figcaption>{hw.photo.caption}</figcaption>
+        </figure>
+      )
+    }
+
     <div class="panels">
       <div class="panel">
         <h3>Parametry</h3>
@@ -148,6 +157,27 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
   }
   .prose :global(strong) {
     color: #fff;
+  }
+  .hw-photo {
+    margin: 24px 0 4px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background:
+      radial-gradient(130% 120% at 50% 0%, color-mix(in srgb, var(--c1) 18%, transparent), transparent 60%),
+      linear-gradient(160deg, color-mix(in srgb, var(--c2) 70%, #000), #0b0c11);
+  }
+  .hw-photo img {
+    width: 100%;
+    max-height: 360px;
+    object-fit: contain;
+    padding: 18px;
+  }
+  .hw-photo figcaption {
+    padding: 0 16px 12px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-align: center;
   }
   .panels {
     display: grid;
