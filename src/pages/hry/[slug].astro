@@ -5,7 +5,7 @@ import {
   allGames,
   getGame,
   FLAG_LABEL,
-  LENGTH_LABEL,
+  playtimeLabel,
   mdBlock,
   mdInline,
 } from '../../lib/data';
@@ -24,6 +24,7 @@ const nameHtml = mdInline(game.name);
 const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
 // Galerie = záběry ze hry a titulní obrazovka (obal je už v hlavičce)
 const shots = game.gallery.filter((g) => g.kind !== 'box');
+const playtime = playtimeLabel(game.length, game.est);
 ---
 
 <Base
@@ -57,8 +58,7 @@ const shots = game.gallery.filter((g) => g.kind !== 'box');
           {game.genre && <span class="tag tag-genre" style={`--c1:${platform.color}`}>{game.genre}</span>}
           {game.year && <span class="tag">{game.year}</span>}
           {game.studio && <span class="tag">{game.studio}</span>}
-          {game.length && <span class="tag">{LENGTH_LABEL[game.length]}</span>}
-          {game.est && <span class="tag">⏱ cca {game.est}</span>}
+          {playtime && <span class="tag">⏱ {playtime}</span>}
           {game.flags.map((f) => <span class="tag tag-flag">{FLAG_LABEL[f]}</span>)}
         </div>
       </div>

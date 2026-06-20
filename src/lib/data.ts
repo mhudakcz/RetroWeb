@@ -91,6 +91,22 @@ export const LENGTH_LABEL: Record<GameLength, string> = {
   XL: 'Velmi dlouhá · 30+ h',
 };
 
+export const LENGTH_WORD: Record<GameLength, string> = {
+  S: 'Krátká',
+  M: 'Střední',
+  L: 'Dlouhá',
+  XL: 'Velmi dlouhá',
+};
+
+/** Jeden text délky hraní – kombinuje kategorii a konkrétní odhad bez duplicity. */
+export function playtimeLabel(length: GameLength | null, est: string | null): string | null {
+  if (est) {
+    const cleaned = est.replace(/^cca\s*/i, '').trim();
+    return length ? `${LENGTH_WORD[length]} · cca ${cleaned}` : `cca ${cleaned}`;
+  }
+  return length ? LENGTH_LABEL[length] : null;
+}
+
 export const FLAG_LABEL: Record<GameFlag, string> = {
   homebrew: '🆓 Homebrew',
   mustplay: '⭐ Must-play',

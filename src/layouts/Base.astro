@@ -28,6 +28,19 @@ const fullTitle = title === 'RetroWeb' ? title : `${title} · RetroWeb`;
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    {
+      import.meta.env.PROD && (
+        <>
+          <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-P1699EJJD9"></script>
+          <script is:inline>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P1699EJJD9');
+          </script>
+        </>
+      )
+    }
   </head>
   <body>
     <Header />
