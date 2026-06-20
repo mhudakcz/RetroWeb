@@ -55,7 +55,7 @@ export const hardware: HardwareItem[] = [
       },
       {
         title: 'Dvě SD karty',
-        text: 'Pro má dva sloty: do prvního patří systém, do druhého hry (ROM set). Hry tak můžeš přenášet mezi zařízeními a systém kdykoli přeinstalovat bez ztráty knihovny.',
+        text: 'Pro má dva sloty: do prvního patří systém, do druhého tvoje hry. Knihovnu tak můžeš přenášet mezi zařízeními a systém kdykoli přeinstalovat bez ztráty her.',
       },
       {
         title: 'Tipy na výkon',
@@ -116,7 +116,7 @@ export const hardware: HardwareItem[] = [
     intro: [
       'Batocera je svobodná (open-source) linuxová distribuce zaměřená výhradně na retro hraní. Funguje na principu „**plug & play**": nainstaluješ ji na SD kartu nebo USB disk, nabootuješ z ní a máš okamžitě hotový herní systém — bez instalace, beze změny svého počítače.',
       'O ovládání se stará frontend **EmulationStation**: krásné, ovladačem ovladatelné menu, kde procházíš systémy a hry, vidíš box-art, popisy a videa. Pod kapotou běží **RetroArch** a desítky dalších emulátorů, které Batocera spravuje za tebe.',
-      'Obrovská výhoda je univerzálnost — stejnou filozofii a uspořádání použiješ na starém PC, na Raspberry Pi i na podporovaných handheldech. Tvůj ROM set a nastavení tak fungují všude stejně.',
+      'Obrovská výhoda je univerzálnost — stejnou filozofii a uspořádání použiješ na starém PC, na Raspberry Pi i na podporovaných handheldech. Tvoje herní knihovna a nastavení tak fungují všude stejně.',
     ],
     specs: [
       { label: 'Typ', value: 'Linuxová distribuce (zdarma, open-source)' },
