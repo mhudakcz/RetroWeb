@@ -1,11 +1,11 @@
 {
-  "amiga": "light",
-  "amstrad-cpc": "light",
+  "amiga": "dark",
+  "amstrad-cpc": "dark",
   "arcade": "dark",
   "atari-2600": "dark",
   "atari-8bit": "dark",
   "atari-lynx": "dark",
-  "c64": "light",
+  "c64": "dark",
   "colecovision": "dark",
   "dreamcast": "dark",
   "game-boy-advance": "dark",
@@ -15,7 +15,7 @@
   "game-watch": "dark",
   "master-system": "dark",
   "mega-drive": "dark",
-  "msx": "light",
+  "msx": "dark",
   "n64": "dark",
   "nes": "dark",
   "pc-engine": "dark",
@@ -25,5 +25,5 @@
   "saturn": "dark",
   "snes": "dark",
   "tic-80": "light",
-  "zx-spectrum": "light"
+  "zx-spectrum": "dark"
 }
