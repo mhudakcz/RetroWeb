@@ -19,6 +19,7 @@ export interface Game {
   est: string | null;
   teaser: string | null;
   detail: string | null;
+  article: string | null;
   image: string | null;
 }
 

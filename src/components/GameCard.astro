@@ -8,13 +8,14 @@ interface Props {
 }
 const { game, platform, showPlatform = false } = Astro.props;
 
-// Krátký popis: teaser, jinak useknutý detail.
+// Krátký popis: teaser, jinak useknutý článek/detail.
 let blurb = game.teaser;
-if (!blurb && game.detail) {
-  const plain = game.detail.replace(/[*_\x60]/g, '');
+const longText = game.article ?? game.detail;
+if (!blurb && longText) {
+  const plain = longText.replace(/[*_\x60]/g, '');
   blurb = plain.length > 150 ? plain.slice(0, 150).trimEnd() + '…' : plain;
 }
-const hasInfo = Boolean(game.detail);
+const hasInfo = Boolean(game.article || game.detail);
 ---
 
 <a class="card game-card" href={`/hry/${game.slug}`} style={`--c1:${platform.color}; --c2:${platform.color2}`}>

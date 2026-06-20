@@ -21,7 +21,23 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "Podklady" / "extracted"
 OUT = ROOT / "src" / "data" / "dataset.json"
 PUBLIC_IMG = ROOT / "public" / "images"
+ARTICLES_DIR = ROOT / "src" / "data" / "articles"
 IMG_EXTS = (".webp", ".jpg", ".jpeg", ".png", ".gif", ".svg")
+
+
+def load_articles():
+    """Načte dlouhé „magazínové" články ze src/data/articles/*.json (slug -> markdown)."""
+    out = {}
+    if ARTICLES_DIR.exists():
+        for f in sorted(ARTICLES_DIR.glob("*.json")):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+                for slug, md in data.items():
+                    if md and md.strip():
+                        out[slug] = md.strip()
+            except Exception as e:  # noqa
+                print(f"  [x] článek {f.name}: {e}")
+    return out
 
 
 def find_image(subdir, stem):
@@ -356,6 +372,7 @@ def build():
     plus = parse_plus()
     short = parse_short()
     history = parse_platform_history()
+    articles = load_articles()
 
     platforms_out = []
     total_games = 0
@@ -402,6 +419,7 @@ def build():
                 slug=gslug, name=g["name"], genre=genre, length=g["length"],
                 flags=g["flags"], year=year, studio=studio, est=est,
                 teaser=teaser, detail=detail,
+                article=articles.get(gslug),
                 image=find_image(f"games/{slug}", gslug),
             ))
             total_games += 1
@@ -415,6 +433,7 @@ def build():
 
     games_with_img = sum(1 for po in platforms_out for g in po["games"] if g["image"])
     plats_with_img = sum(1 for po in platforms_out if po["image"])
+    games_with_article = sum(1 for po in platforms_out for g in po["games"] if g["article"])
     dataset = dict(
         platforms=platforms_out,
         stats=dict(
@@ -422,6 +441,7 @@ def build():
             games=total_games,
             withDetail=matched_detail,
             withTeaser=matched_teaser,
+            withArticle=games_with_article,
             platformImages=plats_with_img,
             gameImages=games_with_img,
         ),

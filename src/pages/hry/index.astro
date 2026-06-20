@@ -44,7 +44,7 @@ const norm = (s: string) =>
               data-name={norm(g.name.replace(/[*_\x60]/g, ''))}
               data-platform={g.platform.slug}
               data-flags={g.flags.join(' ')}
-              data-detail={g.detail ? '1' : '0'}
+              data-detail={g.article || g.detail ? '1' : '0'}
             >
               <GameCard game={g} platform={g.platform} showPlatform />
             </div>

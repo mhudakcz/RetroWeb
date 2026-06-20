@@ -67,7 +67,9 @@ const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
     )}
 
     {
-      game.detail ? (
+      game.article ? (
+        <div class="prose detail article" set:html={mdBlock(game.article)} />
+      ) : game.detail ? (
         <div class="prose detail" set:html={mdBlock(game.detail)} />
       ) : (
         <div class="no-detail">
