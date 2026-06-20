@@ -22,6 +22,8 @@ const platform = game.platform;
 const related = platform.games.filter((g) => g.slug !== game.slug).slice(0, 3);
 const nameHtml = mdInline(game.name);
 const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
+// Galerie = záběry ze hry a titulní obrazovka (obal je už v hlavičce)
+const shots = game.gallery.filter((g) => g.kind !== 'box');
 ---
 
 <Base
@@ -78,6 +80,22 @@ const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
             pro <a href={`/platformy/${platform.slug}`}>{platform.name}</a>{genreNote}.
           </p>
         </div>
+      )
+    }
+
+    {
+      shots.length > 0 && (
+        <section class="gallery">
+          <h2>Galerie</h2>
+          <div class="shots">
+            {shots.map((s) => (
+              <figure>
+                <img src={s.src} alt={`${game.name.replace(/[*_\x60]/g, '')} – ${s.label}`} loading="lazy" decoding="async" />
+                <figcaption>{s.label}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
       )
     }
 
@@ -196,6 +214,40 @@ const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
   }
   .no-detail a {
     color: var(--accent);
+  }
+  .gallery {
+    margin-top: 40px;
+  }
+  .gallery h2 {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+  }
+  .shots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .shots figure {
+    margin: 0;
+    background:
+      radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 60%),
+      var(--surface);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .shots img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    background: #0b0c11;
+    image-rendering: pixelated;
+  }
+  .shots figcaption {
+    padding: 8px 12px;
+    font-size: 0.82rem;
+    color: var(--muted);
+    font-weight: 600;
   }
   .related {
     margin-top: 48px;

@@ -415,12 +415,22 @@ def build():
             else:
                 seen_gslugs[gslug] = 1
 
+            sub = f"games/{slug}"
+            gallery = []
+            for suffix, label, kind in (("", "Obal", "box"),
+                                        ("-snap", "Ze hry", "snap"),
+                                        ("-title", "Titulní obrazovka", "title")):
+                src = find_image(sub, f"{gslug}{suffix}")
+                if src:
+                    gallery.append(dict(src=src, label=label, kind=kind))
+
             games.append(dict(
                 slug=gslug, name=g["name"], genre=genre, length=g["length"],
                 flags=g["flags"], year=year, studio=studio, est=est,
                 teaser=teaser, detail=detail,
                 article=articles.get(gslug),
-                image=find_image(f"games/{slug}", gslug),
+                image=find_image(sub, gslug),
+                gallery=gallery,
             ))
             total_games += 1
 
