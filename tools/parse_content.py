@@ -100,7 +100,7 @@ PLATFORMS = [
     dict(slug="atari-2600", name="Atari 2600 / 7800", short="2600", maker="Atari",
          year=1977, type="console", color="#c0532f", color2="#3a1a0e",
          aliases=["Atari 2600 / 7800"]),
-    dict(slug="atari-8bit", name="Atari 800 / 8-bit", short="8-bit", maker="Atari",
+    dict(slug="atari-8bit", name="Atari 800 / 8-bit", short="A800", maker="Atari",
          year=1979, type="computer", color="#2f76b0", color2="#142a3a",
          aliases=["Atari 800 / 8-bit (XL/XE)"]),
     dict(slug="c64", name="Commodore 64", short="C64", maker="Commodore",

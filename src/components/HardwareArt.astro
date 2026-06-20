@@ -1,0 +1,98 @@
+---
+// Stylizované SVG ilustrace zařízení (bez nutnosti chráněných fotografií).
+interface Props {
+  art: 'handheld-h' | 'handheld-v' | 'batocera';
+  color: string;
+  color2: string;
+}
+const { art, color, color2 } = Astro.props;
+const id = Math.random().toString(36).slice(2, 8);
+---
+
+<div class="art scanlines" style={`--c1:${color}; --c2:${color2}`}>
+  <svg viewBox="0 0 320 200" role="img" aria-hidden="true">
+    <defs>
+      <linearGradient id={`scr-${id}`} x1="0" y1="0" x2="0.6" y2="1">
+        <stop offset="0" stop-color="#ffffff" stop-opacity="0.55" />
+        <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.12" />
+        <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+      </linearGradient>
+    </defs>
+
+    {
+      art === 'handheld-h' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          <rect x="40" y="46" width="240" height="108" rx="20" fill="#23262f" />
+          <rect x="118" y="60" width="84" height="80" rx="6" fill="var(--c1)" />
+          <rect x="118" y="60" width="84" height="80" rx="6" fill={`url(#scr-${id})`} stroke="none" />
+          {/* d-pad */}
+          <rect x="74" y="92" width="10" height="30" rx="2" fill="#3a3f4d" />
+          <rect x="64" y="102" width="30" height="10" rx="2" fill="#3a3f4d" />
+          {/* tlačítka */}
+          <circle cx="236" cy="96" r="7" fill="var(--c1)" />
+          <circle cx="252" cy="112" r="7" fill="#3a3f4d" />
+          <circle cx="220" cy="112" r="7" fill="#3a3f4d" />
+          <circle cx="236" cy="128" r="7" fill="#3a3f4d" />
+          {/* sticky */}
+          <circle cx="84" cy="138" r="9" fill="#2c303c" />
+          <circle cx="236" cy="70" r="0" />
+        </g>
+      )
+    }
+
+    {
+      art === 'handheld-v' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          <rect x="108" y="22" width="104" height="156" rx="16" fill="#23262f" />
+          <rect x="124" y="34" width="72" height="70" rx="5" fill="var(--c1)" />
+          <rect x="124" y="34" width="72" height="70" rx="5" fill={`url(#scr-${id})`} stroke="none" />
+          {/* d-pad */}
+          <rect x="131" y="128" width="8" height="24" rx="2" fill="#3a3f4d" />
+          <rect x="123" y="136" width="24" height="8" rx="2" fill="#3a3f4d" />
+          {/* tlačítka */}
+          <circle cx="184" cy="132" r="6" fill="var(--c1)" />
+          <circle cx="172" cy="144" r="6" fill="#3a3f4d" />
+          <circle cx="196" cy="144" r="6" fill="#3a3f4d" />
+          <circle cx="184" cy="156" r="6" fill="#3a3f4d" />
+        </g>
+      )
+    }
+
+    {
+      art === 'batocera' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          {/* monitor */}
+          <rect x="60" y="34" width="200" height="120" rx="10" fill="#23262f" />
+          <rect x="72" y="46" width="176" height="84" rx="4" fill="var(--c1)" />
+          <rect x="72" y="46" width="176" height="84" rx="4" fill={`url(#scr-${id})`} stroke="none" />
+          {/* dlaždice na obrazovce */}
+          <rect x="82" y="56" width="36" height="28" rx="3" fill="#0c0d12" opacity="0.35" />
+          <rect x="124" y="56" width="36" height="28" rx="3" fill="#0c0d12" opacity="0.25" />
+          <rect x="166" y="56" width="36" height="28" rx="3" fill="#0c0d12" opacity="0.35" />
+          <rect x="82" y="92" width="120" height="8" rx="3" fill="#0c0d12" opacity="0.3" />
+          {/* stojan */}
+          <rect x="150" y="154" width="20" height="16" fill="#23262f" />
+          <rect x="120" y="168" width="80" height="8" rx="3" fill="#2c303c" />
+        </g>
+      )
+    }
+  </svg>
+</div>
+
+<style>
+  .art {
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background:
+      radial-gradient(120% 120% at 75% 10%, color-mix(in srgb, var(--c1) 30%, transparent), transparent 60%),
+      linear-gradient(160deg, var(--c2), #0b0c11);
+    display: grid;
+    place-items: center;
+    aspect-ratio: 16 / 10;
+  }
+  .art svg {
+    width: 86%;
+    filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.45));
+  }
+</style>

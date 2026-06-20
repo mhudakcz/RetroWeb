@@ -13,6 +13,7 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
       <a href="/" class:list={['nav-link', { active: isActive('/') }]}>Domů</a>
       <a href="/platformy" class:list={['nav-link', { active: isActive('/platformy') }]}>Platformy</a>
       <a href="/hry" class:list={['nav-link', { active: isActive('/hry') }]}>Hry</a>
+      <a href="/hardware" class:list={['nav-link', { active: isActive('/hardware') }]}>Hardware</a>
       <a href="/o-projektu" class:list={['nav-link', { active: isActive('/o-projektu') }]}>O projektu</a>
     </nav>
   </div>

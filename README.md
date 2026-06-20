@@ -1,62 +1,99 @@
+<div align="center">
+
 # 🎮 RetroWeb
 
-Web o retro hraní — historie herních platforem, jejich legendární hry a tipy pro
-handheldy (**Anbernic RG35XX Pro**, **R36S**) a **Batoceru** na PC.
+**Průvodce světem retro hraní** — historie herních platforem, jejich legendární hry
+a hardware jako Anbernic RG35XX&nbsp;Pro, R36S a Batocera.
 
-Postaveno v [Astro](https://astro.build). Obsah pochází z kurátorských Markdown podkladů
-ve složce `Podklady/`, které parser převádí na strukturovaný dataset.
+*A guide to the world of retro gaming — platform history, legendary games and hardware.*
 
-## Struktura
+`27 platforem` · `943 her` · `816 obalů` · `Astro` · `static`
 
-```
-Podklady/extracted/      zdrojové MD soubory (historie platforem + hry)
-tools/parse_content.py   parser MD → JSON (registr platforem + fuzzy párování her)
-src/data/dataset.json    vygenerovaný dataset (27 platforem, 943 her)
-src/lib/data.ts          načtení dat + typy + helpery + render markdownu
-src/components/          Header, Footer, PlatformEmblem, PlatformCard, GameCard
-src/pages/
-  index.astro            domovská stránka (hero + platformy dle typu + must-play)
-  platformy/             přehled + detail platformy (historie + seznam her)
-  hry/                   katalog s filtrováním + detail hry
-  o-projektu.astro       o webu + právní poznámka
-```
+</div>
 
-## Příkazy
+---
 
-```bash
-npm install          # instalace závislostí
-npm run data         # přegenerování datasetu z Podklady/ (vyžaduje Python 3)
-npm run dev          # vývojový server na http://localhost:4321
-npm run build        # statický build do dist/
-npm run preview      # náhled buildu
-```
+## 🇨🇿 Česky
 
-> Po úpravě Markdown podkladů spusť `npm run data` a poté `npm run build`.
+RetroWeb je statický web postavený v [Astro](https://astro.build), který z kurátorských
+Markdown podkladů generuje přehledný katalog retro hraní:
 
-## Obrázky
+- **Platformy** — 27 konzolí, handheldů a počítačů od Atari 2600 (1977) po fantasy konzole
+  PICO-8 a TIC-80, každá s historií, kontextem a fotografií.
+- **Hry** — 943 titulů s žánrem, délkou hraní a u 443 z nich detailním komentářem; katalog
+  s fulltextovým hledáním a filtry (homebrew 🆓, must-play ⭐, logické 🧩).
+- **Hardware & Batocera** — co retro handheldy a Batocera umí, co utáhnou a jak je nastavit.
+- **Obrázky** — fotky konzolí z Wikipedie, obaly her z libretro-thumbnails (stejné, co
+  scrapuje Batocera), optimalizované do WebP.
+
+### Spuštění
 
 ```bash
-python tools/fetch_images.py platforms   # fotky konzolí z Wikipedie -> public/images/platforms
-python tools/fetch_images.py games       # boxarty z libretro-thumbnails -> public/images/games
-python tools/fetch_images.py optimize    # zmenší/převede na WebP (nutné po stažení)
-python tools/parse_content.py            # doplní cesty k obrázkům do datasetu
+npm install      # závislosti
+npm run dev      # vývojový server → http://localhost:4321
+npm run build    # statický web do dist/
 ```
 
-Skript přeskakuje již stažené soubory. Pro vyšší limit GitHub API nastav `GH_TOKEN`.
-Cesty k obrázkům se do datasetu dostanou podle existence souborů v `public/images/`.
+### Obsah a obrázky
 
-## Datový tok
+```bash
+npm run data                             # MD podklady → dataset (Python 3)
+python tools/fetch_images.py platforms   # fotky konzolí (Wikipedia)
+python tools/fetch_images.py games       # obaly her (libretro-thumbnails)
+python tools/fetch_images.py symlinks    # dořeší GitHub symlinky
+python tools/fetch_images.py optimize    # zmenší + převede na WebP
+```
 
-`parse_content.py` segmentuje 4 MD soubory podle nadpisů platforem, vytahuje hry
-(žánr, délka, flagy 🆓⭐🔞🧩, rok, studio, komentáře) a **fuzzy párováním**
-spojuje záznamy napříč soubory v rámci každé platformy. Akceptační pravidlo brání
-falešným shodám sourozeneckých titulů (stejná série, jiný díl).
+Po úpravě podkladů spusť `npm run data` a `npm run build`.
 
-## Plánováno (část 2)
+### Struktura
 
-Průvodce sestavením ROM setu na SD kartu (struktura složek pro Batocera/EmulationStation,
-BIOS, box-art a metadata, výkon na čipu H700). Jen postupy a nástroje — **žádné herní soubory**.
+```
+Podklady/extracted/      zdrojové MD soubory (historie + hry)
+tools/parse_content.py   parser MD → JSON (fuzzy párování her)
+tools/fetch_images.py    stahování + optimalizace obrázků
+src/data/                dataset.json + hardware.ts
+src/components/           PlatformCard, GameCard, PlatformEmblem, HardwareArt …
+src/pages/               domů, /platformy, /hry, /hardware, /o-projektu
+```
 
-## Legálně
+---
 
-Web nenabízí ROM soubory. Hry shánět legálně: vlastní dumpy kazet/disků nebo homebrew/freeware (🆓).
+## 🇬🇧 English
+
+RetroWeb is a static [Astro](https://astro.build) site that turns curated Markdown notes
+into a browsable retro-gaming catalog:
+
+- **Platforms** — 27 consoles, handhelds and computers from the Atari 2600 (1977) to the
+  PICO-8 / TIC-80 fantasy consoles, each with history, context and a photo.
+- **Games** — 943 titles with genre, play-length and a detailed write-up for 443 of them;
+  a catalog with full-text search and filters (homebrew 🆓, must-play ⭐, puzzle 🧩).
+- **Hardware & Batocera** — what the retro handhelds and Batocera can do and how to set them up.
+- **Images** — console photos from Wikipedia, game box art from libretro-thumbnails (the same
+  source Batocera scrapes), optimized to WebP.
+
+```bash
+npm install && npm run dev      # dev server at http://localhost:4321
+npm run build                   # static output to dist/
+```
+
+> A bilingual UI (CS/EN) and longer per-game articles are on the roadmap.
+
+---
+
+## ⚖️ Legálně / Legal
+
+Web nenabízí žádné ROM soubory. Hry shánějte legálně — vlastní dumpy kazet a disků, nebo
+homebrew/freeware (🆓). Fotografie konzolí pocházejí z Wikimedia Commons (volné licence);
+obaly her z komunitní databáze libretro-thumbnails — práva náleží příslušným vydavatelům
+a slouží zde jen k identifikaci her ve fanouškovském katalogu.
+
+*This site hosts no ROM files. Console photos are from Wikimedia Commons; box art from the
+libretro-thumbnails community database, used for identification only — rights belong to the
+respective publishers.*
+
+---
+
+<div align="center">
+<sub>Postaveno s Astro · Built with Astro · 🤖 vibe-coded with Claude Code</sub>
+</div>

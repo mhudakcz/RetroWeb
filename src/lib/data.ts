@@ -101,7 +101,8 @@ export function platformsByType(): { type: PlatformType; label: string; tagline:
     type,
     label: TYPE_LABEL[type],
     tagline: TYPE_TAGLINE[type],
-    items: platforms.filter((p) => p.type === type),
+    // seřazeno podle časové osy (rok vydání vzestupně)
+    items: platforms.filter((p) => p.type === type).sort((a, b) => a.year - b.year),
   })).filter((g) => g.items.length > 0);
 }
 
