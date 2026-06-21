@@ -67,6 +67,12 @@ WIKI = {
     "game-watch": "Game & Watch",
     "pico-8": "Pico-8",
     "tic-80": "TIC-80",
+    "neogeo": "Neo Geo (system)",
+    "atari-5200": "Atari 5200",
+    "atari-7800": "Atari 7800",
+    "zx81": "ZX81",
+    "vic20": "Commodore VIC-20",
+    "atari-st": "Atari ST",
 }
 
 # ---- platforma -> libretro-thumbnails repo (boxarty) ----
@@ -95,6 +101,13 @@ LIBRETRO = {
     "atari-8bit": "Atari_-_8-bit",
     "c64": "Commodore_-_64",
     "amiga": "Commodore_-_Amiga",
+    "neogeo": "SNK_-_Neo_Geo",
+    "cps": "MAME",
+    "atari-5200": "Atari_-_5200",
+    "atari-7800": "Atari_-_7800",
+    "zx81": "Sinclair_-_ZX81",
+    "vic20": "Commodore_-_VIC-20",
+    "atari-st": "Atari_-_ST",
     # game-watch / pico-8 / tic-80: bez libretro boxartů -> emblém zůstane
 }
 

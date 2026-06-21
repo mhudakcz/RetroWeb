@@ -3,8 +3,11 @@
   "amstrad-cpc": "dark",
   "arcade": "dark",
   "atari-2600": "dark",
+  "atari-5200": "dark",
+  "atari-7800": "dark",
   "atari-8bit": "dark",
   "atari-lynx": "dark",
+  "atari-st": "dark",
   "c64": "dark",
   "colecovision": "dark",
   "dreamcast": "dark",
@@ -17,6 +20,7 @@
   "mega-drive": "dark",
   "msx": "dark",
   "n64": "dark",
+  "neogeo": "dark",
   "nes": "dark",
   "pc-engine": "dark",
   "pico-8": "dark",
@@ -25,5 +29,7 @@
   "saturn": "dark",
   "snes": "dark",
   "tic-80": "light",
-  "zx-spectrum": "dark"
+  "vic20": "dark",
+  "zx-spectrum": "dark",
+  "zx81": "dark"
 }

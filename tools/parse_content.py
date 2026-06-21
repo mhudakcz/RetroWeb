@@ -95,12 +95,21 @@ PLATFORMS = [
     dict(slug="arcade", name="Arcade", short="MAME", maker="různí (MAME / FBNeo)",
          year=1979, type="arcade", color="#e3357a", color2="#3a0f24",
          aliases=["Arcade (MAME / FBNeo)"]),
+    dict(slug="neogeo", name="SNK Neo Geo", short="Neo Geo", maker="SNK",
+         year=1990, type="arcade", color="#e0b53d", color2="#2e2406",
+         aliases=[]),
+    dict(slug="cps", name="Capcom CPS", short="CPS", maker="Capcom",
+         year=1988, type="arcade", color="#2f7ad6", color2="#0f2540",
+         aliases=[]),
     dict(slug="pc-engine", name="PC Engine / TurboGrafx-16", short="PCE", maker="NEC",
          year=1987, type="console", color="#e8731e", color2="#3a1d08",
          aliases=["TurboGrafx-16 / PC Engine (+ CD)", "NEC TurboGrafx-16 / PC Engine"]),
     dict(slug="dreamcast", name="SEGA Dreamcast", short="DC", maker="SEGA",
          year=1998, type="console", color="#e85d1a", color2="#2a1408",
          aliases=["SEGA Dreamcast"]),
+    dict(slug="zx81", name="Sinclair ZX81", short="ZX81", maker="Sinclair",
+         year=1981, type="computer", color="#9aa0b4", color2="#16181f",
+         aliases=[]),
     dict(slug="zx-spectrum", name="ZX Spectrum", short="ZX", maker="Sinclair",
          year=1982, type="computer", color="#d11e2a", color2="#2a0a0c",
          aliases=["ZX Spectrum"]),
@@ -113,18 +122,30 @@ PLATFORMS = [
     dict(slug="colecovision", name="ColecoVision", short="Coleco", maker="Coleco",
          year=1982, type="console", color="#2f50a0", color2="#141d3a",
          aliases=["ColecoVision"]),
-    dict(slug="atari-2600", name="Atari 2600 / 7800", short="2600", maker="Atari",
+    dict(slug="atari-2600", name="Atari 2600", short="2600", maker="Atari",
          year=1977, type="console", color="#c0532f", color2="#3a1a0e",
          aliases=["Atari 2600 / 7800"]),
+    dict(slug="atari-5200", name="Atari 5200", short="5200", maker="Atari",
+         year=1982, type="console", color="#b0481f", color2="#33140a",
+         aliases=[]),
+    dict(slug="atari-7800", name="Atari 7800", short="7800", maker="Atari",
+         year=1986, type="console", color="#cf6033", color2="#3a1a0e",
+         aliases=[]),
     dict(slug="atari-8bit", name="Atari 800 / 8-bit", short="A800", maker="Atari",
          year=1979, type="computer", color="#2f76b0", color2="#142a3a",
          aliases=["Atari 800 / 8-bit (XL/XE)"]),
+    dict(slug="vic20", name="Commodore VIC-20", short="VIC-20", maker="Commodore",
+         year=1980, type="computer", color="#6a8ad0", color2="#1f2747",
+         aliases=[]),
     dict(slug="c64", name="Commodore 64", short="C64", maker="Commodore",
          year=1982, type="computer", color="#5a72c0", color2="#1f2747",
          aliases=["Commodore 64 (C64)"]),
     dict(slug="amiga", name="Commodore Amiga", short="Amiga", maker="Commodore",
          year=1985, type="computer", color="#c0392b", color2="#2a100c",
          aliases=["Commodore Amiga"]),
+    dict(slug="atari-st", name="Atari ST", short="ST", maker="Atari",
+         year=1985, type="computer", color="#2f76b0", color2="#142a3a",
+         aliases=[]),
     dict(slug="game-watch", name="Nintendo Game & Watch", short="G&W", maker="Nintendo",
          year=1980, type="handheld", color="#b0902a", color2="#332808",
          aliases=["Nintendo Game & Watch"]),
@@ -137,6 +158,45 @@ PLATFORMS = [
          aliases=["TIC-80 (fantasy konzole)", "Fantasy konzole — PICO-8 a TIC-80",
                   "Fantasy konzole — PICO-8 & TIC-80"]),
 ]
+
+# Přeřazení her z původní (sloučené) platformy na novou (po rozdělení).
+# Klíč = původní slug hry, hodnota = cílová platforma.
+REASSIGN = {
+    # Arcade -> Neo Geo (SNK)
+    "arcade__metal-slug-1-x-3": "neogeo",
+    "arcade__king-of-fighters-98-2002": "neogeo",
+    "arcade__garou-mark-of-wolves": "neogeo",
+    "arcade__samurai-shodown-ii": "neogeo",
+    "arcade__last-blade-2": "neogeo",
+    "arcade__money-puzzle-exchanger": "neogeo",
+    "arcade__magical-drop-ii-iii": "neogeo",
+    "arcade__aero-fighters-2": "neogeo",
+    "arcade__neo-turf-masters": "neogeo",
+    "arcade__windjammers": "neogeo",
+    "arcade__shock-troopers": "neogeo",
+    "arcade__puzzle-bobble-bust-move": "neogeo",
+    # Arcade -> Capcom CPS
+    "arcade__street-fighter-iii-3rd-strike": "cps",
+    "arcade__street-fighter-alpha-3": "cps",
+    "arcade__marvel-vs-capcom": "cps",
+    "arcade__x-men-children-of-atom": "cps",
+    "arcade__capcom-vs-snk-2": "cps",
+    "arcade__cadillacs-and-dinosaurs": "cps",
+    "arcade__alien-vs-predator": "cps",
+    "arcade__punisher": "cps",
+    "arcade__dungeons-and-dragons-shadow-over-mystara": "cps",
+    "arcade__final-fight": "cps",
+    "arcade__captain-commando": "cps",
+    "arcade__knights-of-round": "cps",
+    "arcade__street-fighter-ii-world-warrior": "cps",
+    "arcade__street-fighter-ii-hyper-fighting": "cps",
+    "arcade__alien-progear": "cps",
+    # Atari 2600 -> 7800
+    "atari-2600__ninja-golf": "atari-7800",
+    "atari-2600__food-fight": "atari-7800",
+    "atari-2600__galaga": "atari-7800",
+}
+
 
 def slugs_for_heading(heading):
     """Vrátí všechny slugy platforem, jejichž alias odpovídá nadpisu (kvůli sdíleným sekcím)."""
@@ -385,14 +445,44 @@ def build():
     matched_detail = 0
     matched_teaser = 0
 
+    # surové hry per platforma (batocera + doplňkové)
+    raw_by_platform = {}
     for p in PLATFORMS:
         slug = p["slug"]
-        games_raw = bato.get(slug, [])
-        # doplňkové ručně přidané hry (např. dořešené bojovkové klasiky)
+        lst = list(bato.get(slug, []))
         for eg in extra.get(slug, []):
-            games_raw.append(dict(name=eg["name"], genre=eg.get("genre"),
-                                  length=eg.get("length"), flags=eg.get("flags", []),
-                                  order=len(games_raw)))
+            lst.append(dict(name=eg["name"], genre=eg.get("genre"),
+                            length=eg.get("length"), flags=eg.get("flags", []),
+                            order=len(lst)))
+        raw_by_platform[slug] = lst
+
+    # přeřazení her na nové platformy (rozdělení Arcade/Atari) + remap slugů
+    slug_remap = {}
+    for src_slug in list(raw_by_platform.keys()):
+        keep = []
+        for g in raw_by_platform[src_slug]:
+            old = slugify_game(src_slug, g["name"], g["order"])
+            tgt = REASSIGN.get(old)
+            if tgt and tgt in raw_by_platform:
+                g = dict(g, order=len(raw_by_platform[tgt]))
+                raw_by_platform[tgt].append(g)
+                slug_remap[old] = slugify_game(tgt, g["name"], g["order"])
+            else:
+                keep.append(g)
+        raw_by_platform[src_slug] = keep
+
+    # přemapuj články a odkazy na nové slugy
+    for old, new in slug_remap.items():
+        if old in articles:
+            articles[new] = articles[old]
+        if old in game_links:
+            game_links[new] = game_links[old]
+    (ROOT / "src" / "data" / "slug_remap.json").write_text(
+        json.dumps(slug_remap, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    for p in PLATFORMS:
+        slug = p["slug"]
+        games_raw = raw_by_platform.get(slug, [])
         plus_list = plus.get(slug, [])
         short_list = short.get(slug, [])
         used_plus, used_short = set(), set()

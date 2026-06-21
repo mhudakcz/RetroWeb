@@ -33,5 +33,38 @@
   ],
   "c64": [
     { "name": "Silent Service", "genre": "Sim (ponorka)", "length": "M", "flags": [] }
+  ],
+  "atari-5200": [
+    { "name": "Star Raiders", "genre": "Sim / Shooter", "length": "M", "flags": [] },
+    { "name": "Pac-Man", "genre": "Arcade / Maze", "length": "S", "flags": [] },
+    { "name": "Centipede", "genre": "Arcade / Shooter", "length": "S", "flags": [] },
+    { "name": "Missile Command", "genre": "Arcade / Shooter", "length": "S", "flags": [] },
+    { "name": "Pole Position", "genre": "Racing", "length": "S", "flags": [] },
+    { "name": "River Raid", "genre": "Shoot 'em up", "length": "S", "flags": [] }
+  ],
+  "atari-7800": [
+    { "name": "Ms. Pac-Man", "genre": "Arcade / Maze", "length": "S", "flags": [] },
+    { "name": "Asteroids", "genre": "Arcade / Shooter", "length": "S", "flags": [] },
+    { "name": "Centipede", "genre": "Arcade / Shooter", "length": "S", "flags": [] }
+  ],
+  "zx81": [
+    { "name": "3D Monster Maze", "genre": "Survival horror / Maze", "length": "S", "flags": [] },
+    { "name": "Mazogs", "genre": "Adventure / Maze", "length": "S", "flags": [] },
+    { "name": "1K ZX Chess", "genre": "Strategy", "length": "S", "flags": [] }
+  ],
+  "vic20": [
+    { "name": "Gridrunner", "genre": "Shoot 'em up", "length": "S", "flags": [] },
+    { "name": "Omega Race", "genre": "Arcade / Shooter", "length": "S", "flags": [] },
+    { "name": "Jupiter Lander", "genre": "Arcade / Sim", "length": "S", "flags": [] },
+    { "name": "Radar Rat Race", "genre": "Arcade / Maze", "length": "S", "flags": [] },
+    { "name": "Jelly Monsters", "genre": "Arcade / Maze", "length": "S", "flags": [] }
+  ],
+  "atari-st": [
+    { "name": "Dungeon Master", "genre": "Dungeon-crawler RPG", "length": "L", "flags": [] },
+    { "name": "Oids", "genre": "Action / Shooter", "length": "M", "flags": [] },
+    { "name": "Llamatron", "genre": "Shoot 'em up", "length": "M", "flags": [] },
+    { "name": "Stunt Car Racer", "genre": "Racing / Sim", "length": "M", "flags": [] },
+    { "name": "Carrier Command", "genre": "Sim / Strategy", "length": "L", "flags": [] },
+    { "name": "Captain Blood", "genre": "Adventure", "length": "M", "flags": [] }
   ]
 }
