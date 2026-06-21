@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GameCard from '../../components/GameCard.astro';
-import { allGames, stats, FLAG_LABEL, platformsByType } from '../../lib/data';
+import { allGames, stats, FLAG_LABEL, platformsByType, GENRE_CATS, genreCats } from '../../lib/data';
 
 const flagKeys = Object.keys(FLAG_LABEL) as (keyof typeof FLAG_LABEL)[];
 const norm = (s: string) =>
@@ -11,23 +11,6 @@ const norm = (s: string) =>
     .toLowerCase();
 
 const platformGroups = platformsByType();
-
-// Žánrové kategorie pro filtr (klíč, popisek, vzor proti poli genre)
-const GENRE_CATS: [string, string, RegExp][] = [
-  ['platformer', 'Plošinovky', /platform/i],
-  ['action', 'Akční', /action|run & gun|beat|hack|shinobi/i],
-  ['rpg', 'RPG / JRPG', /rpg|role/i],
-  ['metroidvania', 'Metroidvanie', /metroidvania/i],
-  ['fighting', 'Bojovky', /fighting/i],
-  ['shooter', 'Střílečky', /shoot|shmup|stříleč|gun|run & gun/i],
-  ['racing', 'Závodní / auta', /racing|závod|driving|kart|racer/i],
-  ['puzzle', 'Logické', /puzzle|logick|sokoban|match/i],
-  ['adventure', 'Adventury', /adventure|point/i],
-  ['strategy', 'Strategie / Sim', /strateg|\bsim\b|sim |tactic|management|tycoon|budování/i],
-  ['sport', 'Sport', /sport|tennis|golf|soccer|fotbal|skat|fishing|bowling/i],
-];
-const genreCats = (genre: string | null): string[] =>
-  genre ? GENRE_CATS.filter(([, , re]) => re.test(genre)).map(([k]) => k) : [];
 ---
 
 <Base title="Hry" description={`Procházejte ${stats.games} her napříč ${stats.platforms} platformami. Filtrujte podle platformy, homebrew, must-play nebo logických her.`}>

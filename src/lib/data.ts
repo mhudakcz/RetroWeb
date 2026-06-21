@@ -117,6 +117,25 @@ export const FLAG_LABEL: Record<GameFlag, string> = {
   puzzle: '🧩 Logická',
 };
 
+// Žánrové kategorie pro filtr (klíč, popisek, vzor proti poli genre).
+// Sdílené mezi katalogem her a sekcí her na stránce platformy.
+export const GENRE_CATS: [string, string, RegExp][] = [
+  ['platformer', 'Plošinovky', /platform/i],
+  ['action', 'Akční', /action|run & gun|beat|hack|shinobi/i],
+  ['rpg', 'RPG / JRPG', /rpg|role/i],
+  ['metroidvania', 'Metroidvanie', /metroidvania/i],
+  ['fighting', 'Bojovky', /fighting/i],
+  ['shooter', 'Střílečky', /shoot|shmup|stříleč|gun|run & gun/i],
+  ['racing', 'Závodní / auta', /racing|závod|driving|kart|racer/i],
+  ['puzzle', 'Logické', /puzzle|logick|sokoban|match/i],
+  ['adventure', 'Adventury', /adventure|point/i],
+  ['strategy', 'Strategie / Sim', /strateg|\bsim\b|sim |tactic|management|tycoon|budování/i],
+  ['sport', 'Sport', /sport|tennis|golf|soccer|fotbal|skat|fishing|bowling/i],
+];
+
+export const genreCats = (genre: string | null): string[] =>
+  genre ? GENRE_CATS.filter(([, , re]) => re.test(genre)).map(([k]) => k) : [];
+
 // Pořadí platforem pro „postupné čtení" (dle skupin a roku) + sousedé
 export function orderedPlatforms(): Platform[] {
   return platformsByType().flatMap((g) => g.items);

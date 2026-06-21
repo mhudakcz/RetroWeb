@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PlatformEmblem from '../../components/PlatformEmblem.astro';
 import GameCard from '../../components/GameCard.astro';
-import { platforms, getPlatform, TYPE_LABEL, mdBlock, platformNeighbors } from '../../lib/data';
+import { platforms, getPlatform, TYPE_LABEL, mdBlock, platformNeighbors, GENRE_CATS, genreCats } from '../../lib/data';
 
 export function getStaticPaths() {
   return platforms.map((p) => ({ params: { slug: p.slug } }));
@@ -13,6 +13,11 @@ const platform = getPlatform(slug!)!;
 const history = mdBlock(platform.history);
 const withDetail = platform.games.filter((g) => g.detail).length;
 const { prev, next } = platformNeighbors(platform.slug);
+
+// Žánrový filtr – jen kategorie, které se u her této platformy reálně vyskytují
+const presentGenres = new Set(platform.games.flatMap((g) => genreCats(g.genre)));
+const genreOptions = GENRE_CATS.filter(([k]) => presentGenres.has(k));
+const showGenreFilter = platform.games.length > 6 && genreOptions.length > 1;
 ---
 
 <Base
@@ -70,12 +75,45 @@ const { prev, next } = platformNeighbors(platform.slug);
 
   <section class="section">
     <div class="container">
-      <h2 class="sec-title">Doporučené hry <span class="muted">({platform.gameCount})</span></h2>
-      <div class="grid grid-games">
-        {platform.games.map((g) => <GameCard game={g} platform={platform} />)}
+      <div class="games-head">
+        <h2 class="sec-title">Doporučené hry <span class="muted">(<span id="gcount">{platform.gameCount}</span>)</span></h2>
+        {showGenreFilter && (
+          <select id="genre" aria-label="Filtrovat žánr">
+            <option value="">Všechny žánry</option>
+            {genreOptions.map(([k, label]) => <option value={k}>{label}</option>)}
+          </select>
+        )}
       </div>
+      <div class="grid grid-games" id="pgrid">
+        {platform.games.map((g) => (
+          <div class="pcell" data-genre={genreCats(g.genre).join(' ')}>
+            <GameCard game={g} platform={platform} />
+          </div>
+        ))}
+      </div>
+      <p class="empty muted" id="pempty" hidden>Žádná hra v tomto žánru.</p>
     </div>
   </section>
+
+  {showGenreFilter && (
+    <script is:inline define:vars={{ total: platform.gameCount }}>
+      const sel = document.getElementById('genre');
+      const cells = Array.from(document.querySelectorAll('#pgrid .pcell'));
+      const countEl = document.getElementById('gcount');
+      const emptyEl = document.getElementById('pempty');
+      sel?.addEventListener('change', () => {
+        const g = sel.value;
+        let shown = 0;
+        for (const c of cells) {
+          const ok = !g || (c.dataset.genre || '').split(' ').includes(g);
+          c.hidden = !ok;
+          if (ok) shown++;
+        }
+        countEl.textContent = g ? shown : total;
+        emptyEl.hidden = shown !== 0;
+      });
+    </script>
+  )}
 </Base>
 
 <style>
@@ -117,6 +155,40 @@ const { prev, next } = platformNeighbors(platform.slug);
   .sec-title {
     font-size: clamp(1.3rem, 3vw, 1.7rem);
     margin-bottom: 18px;
+  }
+  .games-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .games-head .sec-title {
+    margin-bottom: 0;
+  }
+  #genre {
+    height: 42px;
+    padding: 0 14px;
+    border-radius: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+  #genre:focus {
+    border-color: var(--accent);
+    outline: none;
+  }
+  .games-head + .grid-games {
+    margin-top: 18px;
+  }
+  .pcell[hidden] {
+    display: none;
+  }
+  .empty {
+    text-align: center;
+    padding: 36px 0;
   }
   .history-sec {
     background: var(--bg-2);
