@@ -1,4 +1,5 @@
 {
+  "amiga-cd32": "dark",
   "amiga": "dark",
   "amstrad-cpc": "dark",
   "arcade": "dark",
@@ -16,6 +17,8 @@
   "game-boy": "dark",
   "game-gear": "dark",
   "game-watch": "dark",
+  "intellivision": "dark",
+  "jaguar": "dark",
   "master-system": "dark",
   "mega-drive": "dark",
   "msx": "dark",

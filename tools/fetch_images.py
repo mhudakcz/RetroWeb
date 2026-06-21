@@ -73,6 +73,10 @@ WIKI = {
     "zx81": "ZX81",
     "vic20": "Commodore VIC-20",
     "atari-st": "Atari ST",
+    "intellivision": "Intellivision",
+    "jaguar": "Atari Jaguar",
+    "amiga-cd32": "Amiga CD32",
+    "didaktik": "Didaktik",
 }
 
 # ---- platforma -> libretro-thumbnails repo (boxarty) ----
@@ -108,6 +112,10 @@ LIBRETRO = {
     "zx81": "Sinclair_-_ZX81",
     "vic20": "Commodore_-_VIC-20",
     "atari-st": "Atari_-_ST",
+    "intellivision": "Mattel_-_Intellivision",
+    "jaguar": "Atari_-_Jaguar",
+    "amiga-cd32": "Commodore_-_Amiga",
+    "didaktik": "Sinclair_-_ZX_Spectrum",
     # game-watch / pico-8 / tic-80: bez libretro boxartů -> emblém zůstane
 }
 
