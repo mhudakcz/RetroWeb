@@ -19,7 +19,7 @@ export interface HardwareItem {
   color2: string;
   art: 'handheld-h' | 'handheld-v' | 'batocera';
   intro: string[];
-  photo?: { src: string; caption: string };
+  photo?: { src: string; caption: string; fit?: 'cover' | 'contain' };
   specs: HardwareSpec[];
   canPlay: { label: string; level: 'ok' | 'most' | 'some' }[];
   sections: HardwareSection[];
@@ -35,6 +35,7 @@ export const hardware: HardwareItem[] = [
     color: '#ff3e7f',
     color2: '#2a0f1d',
     art: 'handheld-h',
+    photo: { src: '/images/hardware/rg35xx-pro.png', caption: 'Anbernic RG35XX Pro v průhledné variantě' },
     intro: [
       'RG35XX Pro je horizontální vrchol populární řady RG35XX od čínského výrobce Anbernic. Spojuje příjemnou velikost do kapsy, ostrý 4:3 displej a čip Allwinner H700, který utáhne drtivou většinu retro knihovny až po PlayStation. Za svou cenu nabízí poměr výkonu, výdrže a komunitní podpory, jaký jen tak něco netrumfne.',
     ],
@@ -123,6 +124,7 @@ export const hardware: HardwareItem[] = [
     color: '#36e2ff',
     color2: '#0f2a30',
     art: 'handheld-v',
+    photo: { src: '/images/hardware/r36s.png', caption: 'R36S v průhledné fialové variantě (přední i zadní strana)' },
     intro: [
       'R36S je levný „lidový" handheld v duchu starších Anbernic RG351 — svislé tělo, 3,5" IPS displej a otevřený systém, pro který komunita připravila skvělé vyladěné distribuce. Výkonem nepatří mezi špičku, ale jako vstupní brána do retro hraní za pár stovek je těžko k překonání. Háček je v tom, že existuje v záplavě variant a klonů, takže při koupi je dobré vědět, do čeho jdete.',
     ],
@@ -203,6 +205,7 @@ export const hardware: HardwareItem[] = [
     color: '#ffd23e',
     color2: '#2a2308',
     art: 'batocera',
+    photo: { src: '/images/hardware/batocera.png', caption: 'Logo systému Batocera.linux', fit: 'contain' },
     intro: [
       'Batocera je svobodná linuxová distribuce zaměřená výhradně na retro hraní. Funguje jako „plug & play": nainstalujete ji na SD kartu nebo USB disk, nabootujete a máte hotový herní systém — bez instalace na pevný disk a beze změny svého počítače. O zážitek se stará nádherný frontend EmulationStation, pod kapotou desítky emulátorů. Tytéž principy a uspořádání použijete na starém PC, na Raspberry Pi i na podporovaných handheldech.',
     ],
@@ -375,6 +378,7 @@ export const hardware: HardwareItem[] = [
     color: '#3ddc84',
     color2: '#0e2a1b',
     art: 'android',
+    photo: { src: '/images/hardware/android.png', caption: 'Retroid Pocket 5 — výkonný herní handheld s Androidem' },
     intro: [
       'Android je možná nejdostupnější cesta k retru — zařízení už nejspíš máš v kapse nebo pod televizí. Emulátory se instalují jako běžné aplikace, ovladač spáruješ přes Bluetooth a můžeš hrát na telefonu, tabletu, levném TV boxu i v Android TV. Výkon kolísá od skromných boxů po vlajkové telefony, které zvládnou i náročné konzole.',
     ],

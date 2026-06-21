@@ -77,7 +77,7 @@ const featured = allGames
           hardware.map((h) => (
             <a class="card hw-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}; --c2:${h.color2}`}>
               {h.photo ? (
-                <div class="hw-photo">
+                <div class={`hw-photo${h.photo.fit === 'contain' ? ' contain' : ''}`}>
                   <img src={h.photo.src} alt={h.name} loading="lazy" />
                 </div>
               ) : (
@@ -209,6 +209,10 @@ const featured = allGames
     height: 100%;
     object-fit: cover;
     display: block;
+  }
+  .hw-photo.contain img {
+    object-fit: contain;
+    padding: 16px;
   }
   .hw-card {
     display: flex;
