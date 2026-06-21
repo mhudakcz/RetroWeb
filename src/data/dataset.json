@@ -1359,7 +1359,7 @@
       "image": "/images/platforms/game-boy-color.png",
       "photoBg": "dark",
       "history": "Když v roce 1998 přišel Game Boy Color, Nintendo neřešilo revoluci — řešilo údržbu trůnu. Původní Game Boy z roku 1989 a jeho mezikrok Game Boy Pocket pořád válcovaly trh, jenže monochromatický displej už působil archaicky vedle barevných konkurentů jako Sega Game Gear nebo Atari Lynx (které ovšem doplácely na žravost baterií). GBC zvolil chytrou střední cestu: přidal barvu, o něco rychlejší procesor a víc paměti, ale udržel si nízkou spotřebu a hlavně **plnou zpětnou kompatibilitu** s celou knihovnou původního Game Boye. Nový majitel si tak mohl zahrát staré i nové hry — a to byl argument, který konkurence nedokázala přebít.\n\nŽivotnost GBC byla přitom krátká, zhruba tři roky, než ho v roce 2001 nahradil Game Boy Advance. Přesto stihl nabrat pozoruhodnou knihovnu: druhou generaci Pokémonů (**Gold/Silver/Crystal**), dvojici skvělých Zeld (**Oracle of Seasons** a **Oracle of Ages**), Wario Land 3 i technicky ohromující tituly z konce éry. Mezi nimi vyniká **Shantae**, která vyšla tak pozdě, že se jí prodalo žalostně málo — a dnes je sběratelsky extrémně drahá.\n\n### Technika: grafika a zvuk\n\nSrdcem GBC je 8bitový procesor Sharp **LR35902** (příbuzný Z80 a Intelu 8080), který běží na dvojnásobné frekvenci oproti původnímu Game Boyi — zhruba **8 MHz** v rychlém režimu, kdežto v kompatibilním režimu jede pomaleji jako klasický GB. Pracovní paměť (RAM) i video RAM jsou oproti předchůdci zdvojnásobené (32 KB systémové RAM, 16 KB VRAM), což hrám dalo víc prostoru pro grafiku.\n\nDisplej má rozlišení **160 × 144 bodů** a poprvé jde o barevný, reflexivní TFT panel. Z palety čítající **32 768 barev** dokáže GBC zobrazit současně až **56 barev** ve speciálním režimu — typicky ale **32 barev** (osm tříbarevných palet pro pozadí a osm pro sprity, plus barva průhlednosti). Sprity měří 8 × 8 nebo 8 × 16 bodů. Zvuk obstarává stejný čip jako u původního GB: **čtyři kanály** — dva pulzní (čtvercová vlna), jeden vlnový kanál s programovatelnou vlnovou tabulkou a jeden šumový pro perkuse a efekty. Výstup je stereofonní do sluchátek.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/2.webp\" alt=\"Game Boy Color z roku 1998\" loading=\"lazy\"><figcaption>Game Boy Color z roku 1998</figcaption></figure>\n\n### Propojeni a periferie\n\nGBC zdědil **Game Link** port pro propojovací kabel — základ slavných pokémoních výměn a soubojů i vícehráče v dalších titulech. Novinkou byl **infračervený port (IR)** na horní hraně konzole, který umožňoval bezdrátovou výměnu dat na krátkou vzdálenost; využila ho hrstka her, nejznámější je výměna předmětů v pokémoních hrách a v Zeldách. Cartridge nesly zálohovanou paměť (baterie + SRAM) pro ukládání postupu, u některých her i hodiny reálného času — Pokémon Gold/Silver měly v kartridži krystalové **RTC**, jehož baterie po letech bohužel vysychá.\n\nZ příslušenství stojí za zmínku **Game Boy Camera** a tiskárna **Game Boy Printer**, oba zděděné z éry GB a s GBC plně funkční. Napájení obstarávaly dvě tužkové baterie AA s výdrží kolem 10 hodin, případně dokupovatelný síťový adaptér.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/6.webp\" alt=\"Průhledná varianta Atomic Purple\" loading=\"lazy\"><figcaption>Průhledná varianta Atomic Purple</figcaption></figure>\n\n### Modely a revize\n\nGame Boy Color vyšel v jediné základní podobě, ale v široké paletě barevných variant pouzdra: průhledné „Atomic Purple\", Berry, Grape, Kiwi, Dandelion, Teal a klasická Clear. Kromě nich existovaly limitované edice — japonské vydání svázané s konkrétními tituly i ikonický **Pokémon Edition** s motivem Pikachua.\n\nHry pro platformu se dělily do dvou kategorií podle barvy kartridže. **Černé kartridže** byly „GBC-only\" a fungovaly výhradně na Game Boy Coloru (a později GBA). **Průhledné/čiré kartridže** byly takzvané „dual mode\" — barevné na GBC, ale spustitelné i na původním černobílém Game Boyi, kde běžely v odstínech šedi. Sám hardware GBC žádnou pozdější interní revizi displeje nedostal; jeho nástupcem se stala až zcela nová architektura Game Boy Advance.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/3.webp\" alt=\"Černá kartridž pro tituly jen pro GBC\" loading=\"lazy\"><figcaption>Černá kartridž pro tituly jen pro GBC</figcaption></figure>\n\n### Klony a varianty\n\nGame Boy jako značka byla díky vlastnímu šifrovanému bootu a Nintendem hlídaným licencím hůře klonovatelná než třeba NES, takže rozšířených hardwarových klonů GBC vznikalo méně než famiclonů. Přesto se objevila řada **neoficiálních „pirátských\" kartridží** s nelicencovanými hrami i mnohoherními kompilacemi, hojně k vidění i na trzích ve východní Evropě a v Asii.\n\nZatímco v Československu se stopa Nintenda na poli ruční konzole prakticky nenese (oficiální distribuce přišla až mnohem později), domácí klonová scéna se naplno projevila u jiných platforem — u 8bitových počítačů šlo o **Didaktik** coby tuzemský klon ZX Spectra, u stolního Nintenda pak putovaly do regionu **famiclony** typu Pegasus. Game Boy Color se k českým hráčům dostával hlavně dovozem a šedým trhem; legendou své doby se ovšem stala daleko levnější napodobenina v podobě čínských ručních konzolí à la „Brick Game\", která ale s GBC neměla technicky nic společného.\n\n### Dnesni scena\n\nEmulace GBC je dnes naprosto bezproblémová a patří k nejvděčnějším vůbec. Špičkové emulátory jako **mGBA** nebo **SameBoy** dosahují vysoké přesnosti včetně věrné simulace LCD a zvukového čipu; na slabších zařízeních poslouží **Gambatte** (jádro v RetroArchu). GBC se rozjede prakticky na čemkoli — od mobilů přes Raspberry Pi až po kapesní emulační konzole.\n\nŽivá je i homebrew scéna: vývojáři dnes píšou nové hry v jazyce C přes **GBDK** nebo v assembleru a vydávají je na reálných flashkartách i jako ROM ke stažení. Symbolem této vytrvalosti je RPG **Infinity** — komerční titul, jehož vývoj se kolem roku 2001 zastavil a který původní tým po více než dvaceti letech dokončil a v roce 2023 vydal. Vzácný případ „ztracené\" hry, jež se vrátila k životu.",
-      "gameCount": 37,
+      "gameCount": 36,
       "games": [
         {
           "slug": "game-boy-color__legend-of-zelda-oracle-of-seasons",
@@ -2497,39 +2497,6 @@
             },
             {
               "src": "/images/games/game-boy-color/game-boy-color__star-wars-yoda-stories-title.webp",
-              "label": "Titulní obrazovka",
-              "kind": "title"
-            }
-          ],
-          "link": null,
-          "playUrl": null
-        },
-        {
-          "slug": "game-boy-color__warlocked-2",
-          "name": "Warlocked",
-          "genre": "Strategy (RTS)",
-          "length": "L",
-          "flags": [],
-          "year": null,
-          "studio": null,
-          "est": null,
-          "teaser": null,
-          "detail": null,
-          "article": "Strategie v reálném čase na Game Boy Color? Zní to skoro jako kacířství — a přesto **Warlocked** ten husarský kousek zvládl. Přenést žánr, který tehdy vládl na výkonných PC s myší a klávesnicí, na kapesní konzoli s pár tlačítky byla odvážná výzva, a právě v ní spočívá největší zajímavost téhle hry. Sbíráte suroviny, stavíte základnu, cvičíte jednotky a posíláte je do bitvy — to vše na malé obrazovce.\n\nRTS žánr stojí na žonglování s ekonomikou a armádou v reálném čase, a přenést tuhle komplexnost na Game Boy znamenalo vymyslet ovládání, které funguje bez myši. **Warlocked** se zasazuje do fantasy světa, kde proti sobě stojí soupeřící frakce, a hráč velí svým silám ve scénářích plných správy zdrojů a taktického manévrování. Je to fascinující ukázka toho, jak lze složitý žánr přizpůsobit zcela jiné platformě, než pro jakou se obvykle dělal.\n\nU této hry je rozumné držet se ověřitelného a nehromadit nepodložená čísla o prodejích či ocenění — důležitější je samotný fakt, že plnohodnotná real-time strategie na kapesní konzoli z přelomu tisíciletí vůbec existovala a byla hratelná. To už samo o sobě byl pozoruhodný technický i designérský počin.\n\nKouzlo **Warlocked** tkví právě v té troufalosti. Pro hráče zvyklé na PC strategie je to kuriozita, která láká vyzkoušet, jak se žánr cítí v miniaturizované podobě. Pro majitele Game Boy Color to zase byla vzácná možnost zahrát si něco hloubavějšího než skákačku či závody — titul, který odměňuje plánování, předvídavost a chladnou hlavu místo rychlých reflexů.\n\nKdo má rád budování, taktiku a velení armádám a chce vidět, jak tahle disciplína funguje na nečekané platformě, ten by si **Warlocked** rozhodně neměl nechat ujít. Je to jeden z nejodvážnějších žánrových experimentů knihovny GBC.\n\n**Proč hrát:** Pro milovníky strategie, kteří chtějí zažít vzácný a překvapivě funkční RTS přenos na kapesní Game Boy Color.",
-          "image": "/images/games/game-boy-color/game-boy-color__warlocked-2.webp",
-          "gallery": [
-            {
-              "src": "/images/games/game-boy-color/game-boy-color__warlocked-2.webp",
-              "label": "Obal",
-              "kind": "box"
-            },
-            {
-              "src": "/images/games/game-boy-color/game-boy-color__warlocked-2-snap.webp",
-              "label": "Ze hry",
-              "kind": "snap"
-            },
-            {
-              "src": "/images/games/game-boy-color/game-boy-color__warlocked-2-title.webp",
               "label": "Titulní obrazovka",
               "kind": "title"
             }
@@ -26195,7 +26162,7 @@
       "image": "/images/platforms/atari-2600.png",
       "photoBg": "dark",
       "history": "Když v roce 1977 vyjel z továren Atari **Video Computer System** — teprve později přejmenovaný na Atari 2600 podle čísla objednacího kódu CX2600 — málokdo tušil, že začíná éra, která potrvá přes čtyřicet let. Konzole nebyla první svého druhu, ale byla první, která komerčně prosadila myšlenku **vyměnitelných kazet**. Místo pevně zadrátovaných her, jaké nabízely předchůdci typu Magnavox Odyssey nebo domácí Pong, jste teď k jednomu přístroji kupovali libovolný počet titulů. Tahle dnes samozřejmá idea definovala celý průmysl na desítky let dopředu.\n\nStroj se prodával neuvěřitelně dlouho — od roku 1977 až do roku 1992, kdy Atari oficiálně ukončilo výrobu — a pro celou generaci se stal synonymem slova „videohra\". Hry jako **Pitfall!**, **River Raid** nebo **Adventure** (která obsahovala vůbec první „easter egg\" v historii — skryté jméno programátora Warrena Robinetta) ukázaly, co dokáže kreativita i na extrémně skoupém hardwaru.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je osmibitový procesor **MOS 6507**, levnější a osekaná varianta slavného 6502, taktovaná na zhruba 1,19 MHz. K dispozici měl pouhých **128 bajtů RAM** — ne kilobajtů, bajtů — a kazety zpočátku nesly typicky jen 2 nebo 4 KB kódu. To je důvod, proč bylo programování pro 2600 pověstně náročné.\n\nGrafiku i zvuk obstarával čip **TIA (Television Interface Adapter)**. Ten neměl klasický framebuffer; obraz se musel „kreslit\" v reálném čase, řádek po řádku, synchronizovaně s pohybem elektronového paprsku v televizoru. Této technice se přezdívalo **„racing the beam\"** — vývojář doslova soutěžil s paprskem a kód musel sedět na takt přesně. TIA uměl zobrazit pět pohyblivých objektů: dva sprity hráčů (**players**), dvě střely (**missiles**) a jeden „míček\" (**ball**), plus symetrické pozadí (**playfield**). Paleta čítala v NTSC verzi **128 barev**, byť na jednom řádku jich šlo bez triků použít jen omezeně.\n\nZvuk zajišťovaly **dva nezávislé kanály** v TIA s hrubým, charakteristicky „bzučivým\" ladění — čistá hudba na nich byla téměř nemožná, ale pro arkádové efekty stačily. To, že na takhle minimalistickém základu vznikly hratelné a dodnes obdivované hry, je malý technický zázrak.\n\n### Propojení a periferie\n\nStandardním ovladačem byl jednoduchý **digitální joystick** s jedním tlačítkem (pověstný černý CX40). Konzole měla dva porty, takže šlo hrát ve dvou. Kromě joysticku Atari nabízelo i **paddly** (otočné ovladače) — dva v každém konektoru, tedy až čtyři hráči — ideální pro Kaboom! nebo Breakout, a také číselnou **klávesnici (keypad controller)** pro vzdělávací a kvízové tituly.\n\nVýstup šel přes **RF modulátor** do antenního vstupu televize, s přepínačem kanálu 2/3 a volbou barva/černobíle. Přepínače na čele konzole rovněž nastavovaly obtížnost levého a pravého hráče. Skutečnou raritou byla periferie **Starpath Supercharger** — zařízení, které do konzole nahrávalo hry z běžné audiokazety a přidávalo navíc RAM, čímž umožnilo bohatší tituly.\n\n### Modely a revize\n\nPůvodní model z roku 1977, přezdívaný **„Heavy Sixer\"**, měl šest přepínačů a robustní konstrukci s dřevěným čelem. Brzy ho vystřídala lehčí verze („Light Sixer\") a později čtyřpřepínačové varianty, u nichž se dva přepínače obtížnosti přesunuly dozadu. V roce 1980 přišel model s plně **dřevěnou imitací**, posléze nahrazený celočerným provedením.\n\nV roce 1982 Atari uvedlo zmenšený a zlevněný **Atari 2600 Jr.** s plochým plastovým designem a duhovým proužkem. Existoval i kuriózní **Atari 5200** (1982) jako technicky výkonnější, ale nekompatibilní souputník, a později zpětně kompatibilní nástupce **Atari 7800** (1986), který uměl přehrávat většinu kazet 2600. Sedmistovka přišla pozdě, ve stínu NES zanikla, ačkoli byla po stránce hardwaru schopnější.\n\n### Klony a varianty\n\nVzhledem k dlouhé životnosti a popularitě vznikla řada neoficiálních klonů. Dodnes se vyrábějí levné asijské **„retro\" verze** v podobě joysticku s integrovanými hrami. Ve východním bloku se 2600 oficiálně nešířil, ale objevily se i klony jako **Rambo TV Game** a další tchajwanské varianty. Mezi sběrateli je ceněná i řada licencovaných verzí prodávaných pod jinými značkami (například Sears Tele-Games ve Spojených státech, kde Sears konzoli distribuoval pod vlastním jménem). V Brazílii Atari 2600 díky firmě Polyvox žila ještě dlouho poté, co na Západě vyšla z módy.\n\n### Dnešní scéna\n\nAtari 2600 je výborně podporováno emulátory — nejznámější je **Stella**, otevřený a velmi přesný emulátor běžící prakticky všude. Pozoruhodně živá je i **homebrew scéna**: nadšenci dodnes vydávají nové kazety, namátkou **Halo 2600** od Eda Friese (bývalého šéfa Microsoft Games) nebo akční **Draconian**. Lidi pořád baví krotit tenhle „nemožný\" stroj — a pro retrohráče je 2600 spíš fascinujícím výletem do pravěku videoher než zdrojem dlouhých herních večerů. To kouzlo počátků mu ale nikdo nevezme.",
-      "gameCount": 30,
+      "gameCount": 31,
       "games": [
         {
           "slug": "atari-2600__pitfall",
@@ -27115,6 +27082,23 @@
           "teaser": null,
           "detail": null,
           "article": "Policejní myš proti bandě zlodějských koček v domě plném pružných trampolín — vítejte ve světě hry Mappy, jednoho z nejroztomilejších a nejnápaditějších arkádových titulů své doby, který si našel cestu i na konzoli Atari 2600 díky oddané homebrew komunitě.\n\nHratelnost Mappy je svěží mix plošinovky a honičky. Ovládáte myšího policistu, který se pohybuje po patrech budovy a sbírá ukradené poklady, zatímco se vyhýbá kočičím zlodějům v čele s šéfem Goro/Nyamco. Klíčovým prvkem jsou trampolíny, po kterých se odrážíte mezi podlažími, a dveře, jimiž můžete na nepřátele vypouštět rázové vlny. Tahle kombinace svislého pohybu a chytrého využívání prostředí dělá z Mappy něco víc než obyčejnou bludišťovku.\n\nPůvodní Mappy vytvořila japonská Namco a v arkádách se objevil v roce 1983. Patří do plejády Namco klasik, které definovaly zlatou éru automatů a daly vzniknout ikonickým postavičkám. Mappy se proslavil svým hravým, takřka kresleným laděním a charakteristickou melodií. Verze pro Atari 2600 je homebrew port — tedy převod, který na konzoli vytvořili nadšenci, protože oficiálně tu hra nikdy nevyšla.\n\nKulturní význam Mappy je spojený s rozkvětem Namca jako tvůrce nezaměnitelných arkádových světů. Hra dala vzniknout pokračování Hopping Mappy a její hrdina se objevoval v dalších titulech a kompilacích. Pro homebrew scénu konzole Atari 2600 je převedení takové barevné a mechanicky bohaté arkády náročným, ale o to vděčnějším úkolem, který dokazuje technickou zdatnost autorů.\n\nPro dnešního hráče představuje Mappy příjemně odlehčenou, ale překvapivě taktickou zábavu. Musíte plánovat trasu mezi patry, načasovat skoky po trampolínách a chytře využívat dveře proti pronásledovatelům. Je to titul, který kombinuje nostalgii po Namco klasice s radostí z toho, že běží i tam, kde původně neměl šanci.\n\n**Proč hrát:** Mappy přináší roztomilou a taktickou arkádovou honičku od Namca na Atari 2600 — pro fanoušky zlaté éry automatů i obdivovatele homebrew převodů.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null
+        },
+        {
+          "slug": "atari-2600__moon-patrol",
+          "name": "Moon Patrol",
+          "genre": "Arcade / Run & gun",
+          "length": "S",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": null,
           "image": null,
           "gallery": [],
           "link": null,
@@ -33699,8 +33683,8 @@
     "games": 1073,
     "withDetail": 431,
     "withTeaser": 354,
-    "withArticle": 1073,
+    "withArticle": 1072,
     "platformImages": 36,
-    "gameImages": 979
+    "gameImages": 978
   }
 }

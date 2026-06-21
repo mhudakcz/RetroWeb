@@ -76,7 +76,13 @@ const featured = allGames
         {
           hardware.map((h) => (
             <a class="card hw-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}; --c2:${h.color2}`}>
-              <HardwareArt art={h.art} color={h.color} color2={h.color2} />
+              {h.photo ? (
+                <div class="hw-photo">
+                  <img src={h.photo.src} alt={h.name} loading="lazy" />
+                </div>
+              ) : (
+                <HardwareArt art={h.art} color={h.color} color2={h.color2} />
+              )}
               <div class="hw-body">
                 <h3>{h.name}</h3>
                 <p class="muted">{h.kind}</p>
@@ -192,6 +198,17 @@ const featured = allGames
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 18px;
+  }
+  .hw-photo {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: #0b0c11;
+  }
+  .hw-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   .hw-card {
     display: flex;

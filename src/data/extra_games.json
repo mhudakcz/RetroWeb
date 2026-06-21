@@ -842,5 +842,13 @@
       "length": "M",
       "flags": []
     }
+  ],
+  "atari-2600": [
+    {
+      "name": "Moon Patrol",
+      "genre": "Arcade / Run & gun",
+      "length": "S",
+      "flags": []
+    }
   ]
 }
