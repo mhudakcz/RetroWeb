@@ -22,6 +22,7 @@ export interface Game {
   article: string | null;
   image: string | null;
   gallery: { src: string; label: string; kind: string }[];
+  link: string | null;
 }
 
 export interface Platform {

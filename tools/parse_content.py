@@ -377,6 +377,8 @@ def build():
     platform_bg = json.loads(bg_file.read_text(encoding="utf-8")) if bg_file.exists() else {}
     extra_file = ROOT / "src" / "data" / "extra_games.json"
     extra = json.loads(extra_file.read_text(encoding="utf-8")) if extra_file.exists() else {}
+    links_file = ROOT / "src" / "data" / "game_links.json"
+    game_links = json.loads(links_file.read_text(encoding="utf-8")) if links_file.exists() else {}
 
     platforms_out = []
     total_games = 0
@@ -440,6 +442,7 @@ def build():
                 article=articles.get(gslug),
                 image=find_image(sub, gslug),
                 gallery=gallery,
+                link=game_links.get(gslug),
             ))
             total_games += 1
 

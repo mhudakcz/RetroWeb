@@ -69,6 +69,14 @@ const playtime = playtimeLabel(game.length, game.est);
     )}
 
     {
+      game.link && (
+        <a class="hb-link" href={game.link} target="_blank" rel="noopener noreferrer" style={`--c1:${platform.color}`}>
+          🔗 Oficiální stránka — kde hru legálně získat
+        </a>
+      )
+    }
+
+    {
       game.article ? (
         <div class="prose detail article" set:html={mdBlock(game.article)} />
       ) : game.detail ? (
@@ -202,6 +210,24 @@ const playtime = playtimeLabel(game.length, game.est);
     border-left: 3px solid var(--accent);
     padding: 4px 0 4px 16px;
     margin-bottom: 22px;
+  }
+  .hb-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 22px;
+    padding: 0.7em 1.1em;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: #fff;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--c1) 75%, #000), color-mix(in srgb, var(--c1) 45%, #000));
+    border: 1px solid color-mix(in srgb, var(--c1) 60%, var(--border));
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .hb-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px -8px var(--c1);
   }
   .detail {
     font-size: 1.06rem;
