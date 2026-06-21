@@ -117,6 +117,29 @@ export const FLAG_LABEL: Record<GameFlag, string> = {
   puzzle: '🧩 Logická',
 };
 
+// Pořadí platforem pro „postupné čtení" (dle skupin a roku) + sousedé
+export function orderedPlatforms(): Platform[] {
+  return platformsByType().flatMap((g) => g.items);
+}
+
+export function platformNeighbors(slug: string): { prev: Platform | null; next: Platform | null } {
+  const arr = orderedPlatforms();
+  const i = arr.findIndex((p) => p.slug === slug);
+  return {
+    prev: i > 0 ? arr[i - 1] : null,
+    next: i >= 0 && i < arr.length - 1 ? arr[i + 1] : null,
+  };
+}
+
+export function gameNeighbors(platform: Platform, slug: string): { prev: Game | null; next: Game | null } {
+  const arr = platform.games;
+  const i = arr.findIndex((g) => g.slug === slug);
+  return {
+    prev: i > 0 ? arr[i - 1] : null,
+    next: i >= 0 && i < arr.length - 1 ? arr[i + 1] : null,
+  };
+}
+
 export function platformsByType(): { type: PlatformType; label: string; tagline: string; items: Platform[] }[] {
   return TYPE_ORDER.map((type) => ({
     type,

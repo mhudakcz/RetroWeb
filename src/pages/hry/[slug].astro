@@ -8,6 +8,7 @@ import {
   playtimeLabel,
   mdBlock,
   mdInline,
+  gameNeighbors,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -20,6 +21,7 @@ const platform = game.platform;
 
 // Pár dalších her ze stejné platformy
 const related = platform.games.filter((g) => g.slug !== game.slug).slice(0, 3);
+const { prev, next } = gameNeighbors(platform, game.slug);
 const nameHtml = mdInline(game.name);
 const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
 // Galerie = záběry ze hry a titulní obrazovka (obal je už v hlavičce)
@@ -110,6 +112,25 @@ const playtime = playtimeLabel(game.length, game.est);
             </a>
           )}
         </div>
+      )
+    }
+
+    {
+      (prev || next) && (
+        <nav class="pager" aria-label={`Další hry pro ${platform.name}`}>
+          {prev ? (
+            <a class="pager-link prev" href={`/hry/${prev.slug}`}>
+              <span class="dir">← Předchozí hra</span>
+              <span class="pn" set:html={mdInline(prev.name)} />
+            </a>
+          ) : <span />}
+          {next ? (
+            <a class="pager-link next" href={`/hry/${next.slug}`}>
+              <span class="dir">Další hra →</span>
+              <span class="pn" set:html={mdInline(next.name)} />
+            </a>
+          ) : <span />}
+        </nav>
       )
     }
 
@@ -295,5 +316,45 @@ const playtime = playtimeLabel(game.length, game.est);
   }
   .back {
     margin-top: 20px;
+  }
+  .pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-top: 40px;
+  }
+  .pager-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 18px;
+    border-radius: var(--radius);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .pager-link.next {
+    text-align: right;
+    border-left: 1px solid var(--border);
+    border-right: 4px solid var(--accent);
+  }
+  .pager-link:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .pager-link .dir {
+    font-size: 0.76rem;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .pager-link .pn {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  @media (max-width: 640px) {
+    .pager {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

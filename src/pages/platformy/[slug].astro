@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PlatformEmblem from '../../components/PlatformEmblem.astro';
 import GameCard from '../../components/GameCard.astro';
-import { platforms, getPlatform, TYPE_LABEL, mdBlock } from '../../lib/data';
+import { platforms, getPlatform, TYPE_LABEL, mdBlock, platformNeighbors } from '../../lib/data';
 
 export function getStaticPaths() {
   return platforms.map((p) => ({ params: { slug: p.slug } }));
@@ -12,6 +12,7 @@ const { slug } = Astro.params;
 const platform = getPlatform(slug!)!;
 const history = mdBlock(platform.history);
 const withDetail = platform.games.filter((g) => g.detail).length;
+const { prev, next } = platformNeighbors(platform.slug);
 ---
 
 <Base
@@ -60,6 +61,21 @@ const withDetail = platform.games.filter((g) => g.detail).length;
       </div>
     </div>
   </section>
+
+  <nav class="container pager" aria-label="Další platformy">
+    {prev ? (
+      <a class="pager-link prev" href={`/platformy/${prev.slug}`} style={`--c1:${prev.color}`}>
+        <span class="dir">← Předchozí</span>
+        <span class="pn">{prev.name}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="pager-link next" href={`/platformy/${next.slug}`} style={`--c1:${next.color}`}>
+        <span class="dir">Další →</span>
+        <span class="pn">{next.name}</span>
+      </a>
+    ) : <span />}
+  </nav>
 </Base>
 
 <style>
@@ -109,10 +125,48 @@ const withDetail = platform.games.filter((g) => g.detail).length;
   .prose {
     font-size: 1.04rem;
   }
+  .pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    padding-block: 38px 56px;
+  }
+  .pager-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 20px;
+    border-radius: var(--radius);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--c1, var(--accent));
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .pager-link.next {
+    text-align: right;
+    border-left: 1px solid var(--border);
+    border-right: 4px solid var(--c1, var(--accent));
+  }
+  .pager-link:hover {
+    transform: translateY(-2px);
+    border-color: var(--c1, var(--accent));
+  }
+  .pager-link .dir {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .pager-link .pn {
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
   @media (max-width: 780px) {
     .hero {
       grid-template-columns: 1fr;
       gap: 20px;
+    }
+    .pager {
+      grid-template-columns: 1fr;
     }
   }
 </style>
