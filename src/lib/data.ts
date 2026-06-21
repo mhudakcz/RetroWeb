@@ -44,7 +44,7 @@ export interface Platform {
 
 interface Dataset {
   platforms: Platform[];
-  stats: { platforms: number; games: number; withDetail: number; withTeaser: number };
+  stats: { platforms: number; games: number; withDetail: number; withTeaser: number; withArticle: number };
 }
 
 const data = dataset as unknown as Dataset;
