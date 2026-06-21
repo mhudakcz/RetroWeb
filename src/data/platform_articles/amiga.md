@@ -2,6 +2,8 @@ Když Commodore v roce 1985 představil Amigu, působila jako stroj z jiné plan
 
 Pro hry to znamenalo skok do jiné ligy. **Shadow of the Beast** se svým mnohavrstvým parallaxním pozadím a desítkami barev ohromil celý svět tím, co vlastně domácí počítač dokáže. Amiga se stala domovem žánrů a značek, které známe dodnes: vznikly tu **Lemmings**, **Worms**, **Speedball 2**, kultovní **Another World** a **Flashback** a hlavně tu kvetly **point & click adventury** — Monkey Island i Beneath a Steel Sky patří ke zlaté éře žánru. Britští Bitmap Brothers se svými stylovými tituly jako Chaos Engine se stali ikonami amigní scény. V Evropě Amiga dominovala podobně, jako předtím Commodore 64.
 
+<figure class="article-photo"><img src="/images/platforms/extra/amiga/4.webp" alt="Ukázka grafiky v režimu HAM" loading="lazy"><figcaption>Ukázka grafiky v režimu HAM</figcaption></figure>
+
 ### Technika: grafika a zvuk
 
 Tajemství Amigy se skrývalo v sadě vlastních čipů, pojmenovaných po ženách — **Agnus**, **Denise** a **Paula**. Agnus obsahoval Blitter pro bleskové přesouvání bloků grafiky v paměti a Copper, koprocesor schopný měnit nastavení displeje uprostřed snímku (odtud ty nádherné barevné přechody na obloze). Denise se staral o sprity a generování obrazu, Paula o zvuk a disketovou mechaniku.
@@ -10,11 +12,15 @@ Standardní rozlišení bylo 320×256 v PAL (resp. 320×200 v NTSC), s paletou *
 
 Zvukový čip **Paula** byl revoluční: nabízel **4 nezávislé kanály** se 8bitovým **PCM samplem** a stereo výstupem (dva kanály vlevo, dva vpravo). Místo čistě čipové syntézy tak Amiga přehrávala skutečné nahrávky nástrojů — to dalo vzniknout fenoménu **trackerové hudby** (formát MOD) a celé demoscéně, která z čipů ždímala zázraky.
 
+<figure class="article-photo"><img src="/images/platforms/extra/amiga/2.webp" alt="Amiga 500 s monitorem, myší a disketovou mechanikou" loading="lazy"><figcaption>Amiga 500 s monitorem, myší a disketovou mechanikou</figcaption></figure>
+
 ### Propojeni a periferie
 
 Amiga byla na svou dobu štědře vybavená. Standardem byly dva porty pro joystick i myš (model 500 měl myš v balení — adventury a kreslicí programy by bez ní nedávaly smysl) a sériový i paralelní port. Pro hry byl klíčový **AV výstup**: kompozitní video a oddělené stereo cinche, takže zvuk z Pauly zněl naplno z hi-fi věže.
 
 Disketová mechanika používala vlastní formát **880 kB** na 3,5" disketě. K dispozici byla expanzní paměťová karta (typicky do tzv. trapdoor slotu pod počítačem, čímž se A500 rozšířila na 1 MB), externí disketové mechaniky, pevné disky přes řadiče i akcelerátory s rychlejšími procesory. Pozdější modely nabízely interní rozšiřující sloty Zorro.
+
+<figure class="article-photo"><img src="/images/platforms/extra/amiga/1.webp" alt="Herní konzole Amiga CD32 s ovladačem" loading="lazy"><figcaption>Herní konzole Amiga CD32 s ovladačem</figcaption></figure>
 
 ### Modely a revize
 

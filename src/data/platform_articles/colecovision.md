@@ -8,12 +8,14 @@ Srdcem ColecoVision je osmibitový procesor **Zilog Z80A** taktovaný kolem 3,58
 
 Zvuk obstarává čip **Texas Instruments SN76489**, který nabízí **tři tónové kanály a jeden šumový kanál**. Na poměry roku 1982 šlo o slušnou výbavu, umožňující jednoduché melodie i zvukové efekty zároveň. Stejný videočip i zvukový obvod použily i další dobové platformy, o čemž ještě bude řeč — a právě tahle příbuznost dělá z ColecoVision technicky velmi zajímavý kus historie.
 
+<figure class="article-photo"><img src="/images/platforms/extra/colecovision/1.webp" alt="Expansion Module #1 pro hry z Atari 2600" loading="lazy"><figcaption>Expansion Module #1 pro hry z Atari 2600</figcaption></figure>
 ### Propojeni a periferie
 
 ColecoVision se připojovala k televizoru přes **RF modulátor** (anténní vstup), což byl tehdy standard. Ovladač byl svého druhu unikát: kombinoval klasický joystick s **numerickou klávesnicí (keypad)** a dvěma bočními tlačítky. Klávesnice sloužila k zadávání úrovní obtížnosti, voleb v menu nebo speciálních akcí ve hrách — řada titulů totiž využívala přiložené plastové překryvy (overlaye), které na keypad nasazoval hráč podle konkrétní hry.
 
 Coleco nabízelo i pestrou paletu rozšíření. Nejslavnější byl **Expansion Module #1**, adaptér, který umožňoval hrát na ColecoVision přímo hry z Atari 2600 — odvážný tah, kvůli kterému Atari dokonce žalovalo. **Expansion Module #2** přidával volant a pedál pro závodní hru Turbo. Vyšel také **Roller Controller** (trackball) a **Super Action Controller** s dodatečnými tlačítky. Vrcholem ekosystému měl být počítačový modul **Adam**, který z konzole dělal plnohodnotný domácí počítač s klávesnicí, datasetem a tiskárnou.
 
+<figure class="article-photo"><img src="/images/platforms/extra/colecovision/2.webp" alt="Konzole ColecoVision s ovladačem (1982)" loading="lazy"><figcaption>Konzole ColecoVision s ovladačem (1982)</figcaption></figure>
 ### Modely a revize
 
 ColecoVision existovala v zásadě v jedné hlavní hardwarové podobě, hardwarových revizí proto bylo poskrovnu a pro běžného hráče nepodstatných. Mnohem důležitější byla zmíněná rozšíření, která konzoli proměňovala. Nejvýraznější transformací byl právě **Coleco Adam** — počítač postavený na stejném základu, dostupný jako samostatný stroj i jako nástavba existující konzole. Adam byl ovšem proslulý poruchovostí a problémy s mazáním dat magnetickým polem při startu, což pověst Coleca dále poškodilo.

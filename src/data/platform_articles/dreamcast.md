@@ -20,6 +20,8 @@ Hardware Dreamcastu zůstal po celou dobu poměrně jednotný, lišil se hlavně
 
 Médium **GD-ROM (Gigabyte Disc)** byl Segou vyvinutý formát s kapacitou kolem 1 GB, který měl ztížit pirátství — paradoxně se ale ukázalo, že konzole umí bootovat i z běžných vypálených CD-R, což jí v pozdějších letech zajistilo nebývalou životnost mezi nadšenci.
 
+<figure class="article-photo"><img src="/images/platforms/extra/dreamcast/3.webp" alt="Arkádový automat se Sega Dreamcastem v muzeu" loading="lazy"><figcaption>Arkádový automat se Sega Dreamcastem v muzeu</figcaption></figure>
+
 ### Klony a varianty
 
 Sega Dreamcast neměla klasické "klony" v tom smyslu jako třeba ZX Spectrum nebo NES, protože šlo o technicky náročný stroj uzavřené generace. Příbuznou platformou byla arkádová deska **Sega NAOMI**, která sdílela architekturu s Dreamcastem (stejný SH-4 i PowerVR2) — díky tomu byly arkádové porty mimořádně věrné a konverze v obou směrech snadné. V českém a československém prostředí Dreamcast přišel až po revoluci jako standardní importovaný hardware; éra domácích klonů, kterou jsme zažili u osmibitů typu **Didaktik** (klon ZX Spectra) nebo u famiclonů a **Pegasusu** v případě NES, se konzolí této generace už netýkala.

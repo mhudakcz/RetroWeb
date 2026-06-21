@@ -8,17 +8,23 @@ Srdcem GBC je 8bitový procesor Sharp **LR35902** (příbuzný Z80 a Intelu 8080
 
 Displej má rozlišení **160 × 144 bodů** a poprvé jde o barevný, reflexivní TFT panel. Z palety čítající **32 768 barev** dokáže GBC zobrazit současně až **56 barev** ve speciálním režimu — typicky ale **32 barev** (osm tříbarevných palet pro pozadí a osm pro sprity, plus barva průhlednosti). Sprity měří 8 × 8 nebo 8 × 16 bodů. Zvuk obstarává stejný čip jako u původního GB: **čtyři kanály** — dva pulzní (čtvercová vlna), jeden vlnový kanál s programovatelnou vlnovou tabulkou a jeden šumový pro perkuse a efekty. Výstup je stereofonní do sluchátek.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy-color/2.webp" alt="Game Boy Color z roku 1998" loading="lazy"><figcaption>Game Boy Color z roku 1998</figcaption></figure>
+
 ### Propojeni a periferie
 
 GBC zdědil **Game Link** port pro propojovací kabel — základ slavných pokémoních výměn a soubojů i vícehráče v dalších titulech. Novinkou byl **infračervený port (IR)** na horní hraně konzole, který umožňoval bezdrátovou výměnu dat na krátkou vzdálenost; využila ho hrstka her, nejznámější je výměna předmětů v pokémoních hrách a v Zeldách. Cartridge nesly zálohovanou paměť (baterie + SRAM) pro ukládání postupu, u některých her i hodiny reálného času — Pokémon Gold/Silver měly v kartridži krystalové **RTC**, jehož baterie po letech bohužel vysychá.
 
 Z příslušenství stojí za zmínku **Game Boy Camera** a tiskárna **Game Boy Printer**, oba zděděné z éry GB a s GBC plně funkční. Napájení obstarávaly dvě tužkové baterie AA s výdrží kolem 10 hodin, případně dokupovatelný síťový adaptér.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy-color/6.webp" alt="Průhledná varianta Atomic Purple" loading="lazy"><figcaption>Průhledná varianta Atomic Purple</figcaption></figure>
+
 ### Modely a revize
 
 Game Boy Color vyšel v jediné základní podobě, ale v široké paletě barevných variant pouzdra: průhledné „Atomic Purple", Berry, Grape, Kiwi, Dandelion, Teal a klasická Clear. Kromě nich existovaly limitované edice — japonské vydání svázané s konkrétními tituly i ikonický **Pokémon Edition** s motivem Pikachua.
 
 Hry pro platformu se dělily do dvou kategorií podle barvy kartridže. **Černé kartridže** byly „GBC-only" a fungovaly výhradně na Game Boy Coloru (a později GBA). **Průhledné/čiré kartridže** byly takzvané „dual mode" — barevné na GBC, ale spustitelné i na původním černobílém Game Boyi, kde běžely v odstínech šedi. Sám hardware GBC žádnou pozdější interní revizi displeje nedostal; jeho nástupcem se stala až zcela nová architektura Game Boy Advance.
+
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy-color/3.webp" alt="Černá kartridž pro tituly jen pro GBC" loading="lazy"><figcaption>Černá kartridž pro tituly jen pro GBC</figcaption></figure>
 
 ### Klony a varianty
 

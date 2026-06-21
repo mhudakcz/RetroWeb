@@ -2,18 +2,21 @@ Když Nintendo v roce 1989 uvedlo Game Boy, málokdo tušil, že kapesní konzol
 
 Tajemství úspěchu bylo trojí. Výdrž na baterie — Game Boy běžel na čtyři tužkové články klidně patnáct i více hodin, zatímco barevná konkurence v podobě Atari Lynx nebo Sega Game Gear je zhltla za pár hodin. Nízká cena. A především software: přibalený **Tetris** byl tak návykový, že prodával konzoli sám o sobě, a o pár let později přišel **Pokémon**, který Game Boyi vdechl druhý život v době, kdy už byl technicky dávno zastaralý.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy/5.webp" alt="Originální Game Boy z roku 1989" loading="lazy"><figcaption>Originální Game Boy z roku 1989</figcaption></figure>
 ### Technika: grafika a zvuk
 
 Srdcem Game Boye je **8bitový procesor Sharp LR35902**, hybrid mezi Intelem 8080 a Zilogem Z80, taktovaný kolem 4,19 MHz. Displej zobrazuje rozlišení **160 × 144 bodů** a pouhé **čtyři odstíny** — sice se mluví o „šedi", ve skutečnosti šlo o různé úrovně zelené danou typem použitého LCD. Žádné podsvícení původní model neměl, takže k hraní jste potřebovali slušné okolní světlo (nebo proslulou přídavnou lampičku).
 
 Grafický hardware zvládal hardwarové **sprity** (až 40 najednou, max. 10 na řádek) a plynulý scrolling pozadí, což z Game Boye dělalo solidní platformu pro plošinovky i akční hry. Po zvukové stránce nabízel **čtyři kanály**: dva pulzní (čtvercová vlna) s rozmítáním frekvence, jeden vlnový kanál s programovatelnou tabulkou a jeden šumový kanál pro bicí a efekty. Právě tahle skromná zvuková sada dala vzniknout nezaměnitelnému **chiptune** zvuku, který dnes žije vlastním životem v moderní elektronické hudbě.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy/6.webp" alt="Herní cartridge pro Game Boy" loading="lazy"><figcaption>Herní cartridge pro Game Boy</figcaption></figure>
 ### Propojeni a periferie
 
 Po straně konzole najdete **Link kabel** — propojení dvou Game Boyů přes sériový port. To umožnilo nejen multiplayer (legendární souboje v Tetrisu), ale i výměnu Pokémonů, bez níž se sbírka nedala dokončit. Existoval i čtyřhráčový adaptér pro vybrané tituly.
 
 Mezi periferie patřily **Game Boy Camera** (jedna z prvních dostupných digitálních kamer pro spotřebitele) a tiskárna **Game Boy Printer** na termopapír. Nechyběl ani rumble a náklonové senzory zabudované přímo v některých cartridge (např. Kirby Tilt 'n' Tumble). Ukládání pozic řešila baterie přímo v herním modulu, který napájel paměť SRAM — proto u starých cartridge dnes save mizí, jakmile knoflíková baterie dožije.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy/3.webp" alt="Game Boy Pocket z roku 1996" loading="lazy"><figcaption>Game Boy Pocket z roku 1996</figcaption></figure>
 ### Modely a revize
 
 Původní **DMG-01** z roku 1989 byl cihlovitý a velký. V roce 1996 přišel výrazně menší a lehčí **Game Boy Pocket** s ostřejším černobílým displejem (a jednou knoflíkovou baterií navíc oproti čtyřem tužkovým). Krátce nato následoval **Game Boy Light** — jen pro japonský trh, s podsvíceným displejem.

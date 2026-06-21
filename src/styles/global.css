@@ -184,6 +184,44 @@ h3 {
   text-underline-offset: 2px;
 }
 
+/* ===== Doprovodné fotky v článku (magazínový styl) ===== */
+.prose figure.article-photo {
+  float: right;
+  width: clamp(220px, 38%, 340px);
+  margin: 0.3em 0 1.1em 1.6em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.prose figure.article-photo:nth-of-type(even) {
+  float: left;
+  margin: 0.3em 1.6em 1.1em 0;
+}
+.prose figure.article-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.prose figure.article-photo figcaption {
+  padding: 8px 12px 10px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.prose h3 {
+  clear: both;
+}
+@media (max-width: 640px) {
+  .prose figure.article-photo,
+  .prose figure.article-photo:nth-of-type(even) {
+    float: none;
+    width: 100%;
+    margin: 1.2em 0;
+  }
+}
+
 /* ===== Karty ===== */
 .card {
   background: linear-gradient(180deg, var(--surface), var(--bg-2));

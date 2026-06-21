@@ -14,6 +14,7 @@ Vlajkovou funkcí bylo síťové propojení **ComLynx**: speciálním kabelem š
 
 Chytrý byl i samotný hardware. Konzoli šlo **softwarově otočit**, takže obraz se převrátil a stroj mohli pohodlně ovládat i leváci — uspořádání tlačítek se přizpůsobilo. Hry se distribuovaly na malých cartridžích a Atari nabízelo i příslušenství jako síťový adaptér nebo sluneční clonu na displej, která pomáhala s čitelností na přímém světle.
 
+<figure class="article-photo"><img src="/images/platforms/extra/atari-lynx/1.webp" alt="Atari Lynx II z roku 1991" loading="lazy"><figcaption>Atari Lynx II z roku 1991</figcaption></figure>
 ### Modely a revize
 
 Lynx se dočkal dvou hlavních hardwarových verzí. Původní **Lynx I** z roku 1989 byl velký, hranatý a baterie polykal nemilosrdně. V roce 1991 přišel přepracovaný **Lynx II**: byl menší a lehčí, dostal výstup na sluchátka se stereo zvukem, vypínatelné podsvícení kvůli úspoře energie a praktický posuvný kryt displeje. Hry byly mezi oběma modely plně kompatibilní, takže šlo čistě o redesign směřující k lepší ergonomii a delší výdrži.

@@ -10,17 +10,23 @@ Grafika běží v rozlišení kolem **320×224** bodů. Z palety **512 barev** l
 
 Zvuk obstarává FM čip **Yamaha YM2612** se šesti FM kanály, doplněný o čip **SN76489** se třemi tóny a šumem. Výsledkem je charakteristický „drsnější", syntetický zvuk, který dal vzniknout legendárním soundtrackům — třeba hudbě Yuza Koshira ke **Streets of Rage 2**.
 
+<figure class="article-photo"><img src="/images/platforms/extra/mega-drive/2.webp" alt="Sega Genesis Model 2 se šestitlačítkovým ovladačem" loading="lazy"><figcaption>Sega Genesis Model 2 se šestitlačítkovým ovladačem</figcaption></figure>
+
 ### Propojeni a periferie
 
 Mega Drive vychází vstříc multiplayeru — má **dva porty pro ovladače** a původní gamepad měl tři tlačítka, později přibyl populární **šestitlačítkový** model kvůli bojovkám typu Street Fighter II. Pro fanoušky závodů a sportu existoval rozbočovač **Team Player** (resp. 4-Player Adaptor) umožňující hru až čtyř hráčů.
 
 Z příslušenství stojí za zmínku světelná pistole **Menacer**, periferie **SEGA Activator** snímající pohyb a u japonské verze i modem pro službu Sega Meganet. Konzole se k televizi připojovala přes RF nebo kompozitní/RGB výstup; u prvních modelů byl k dispozici i sluchátkový výstup s regulací hlasitosti na předním panelu.
 
+<figure class="article-photo"><img src="/images/platforms/extra/mega-drive/3.webp" alt="Japonský Sega Mega Drive, první model" loading="lazy"><figcaption>Japonský Sega Mega Drive, první model</figcaption></figure>
+
 ### Modely a revize
 
 Sega vydala několik hardwarových verzí. Původní **Model 1** (1988) měl onen sluchátkový jack a u nejstarších kusů nápis „High Definition Graphics". Štíhlejší a levnější **Model 2** (1993) sluchátkový výstup vypustil a zjednodušil zvukové obvody (proslul mírně odlišným, „suššším" zvukem). Existoval i kompaktní **Model 3** od Majesca a později licencované redesigny.
 
 K systému patřily i nástavby: **Sega CD** (v Japonsku Mega-CD) přidalo mechaniku na CD a hry s plnohodnotným zvukem a videosekvencemi, zatímco **32X** byl 32bitový výkonový nástavec nasazovaný na slot kartridže. Oba doplňky komerčně spíš pohořely a dnes jsou připomínkou toho, jak Sega svou náskokovou pozici postupně ztrácela.
+
+<figure class="article-photo"><img src="/images/platforms/extra/mega-drive/1.webp" alt="Sega CDX – kombinace Genesis a Sega CD" loading="lazy"><figcaption>Sega CDX – kombinace Genesis a Sega CD</figcaption></figure>
 
 ### Klony a varianty
 

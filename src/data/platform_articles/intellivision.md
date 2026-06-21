@@ -16,16 +16,19 @@ Konzole se připojovala k televizi přes RF výstup. Ovladače byly v základní
 
 Nejznámějším příslušenstvím byl **Intellivoice Voice Synthesis Module**, hlasový modul zasouvaný do slotu na kartridže, do nějž se pak zasunula speciální hra. Tituly jako *B-17 Bomber* nebo *Bomb Squad* díky němu mluvily — v době, kdy syntéza řeči v domácnostech působila jako science fiction. Plánovaný **Keyboard Component** (přídavný počítačový modul s páskovou mechanikou a vlastní pamětí) se stal pověstným fiaskem: byl opakovaně odkládán, předražený a Mattel kvůli němu čelil i zásahu regulátorů. Nahradil ho jednodušší **Entertainment Computer System (ECS)** s klávesnicí, který umožňoval programování v BASICu, a doplňkem byla i hudební klávesnice **Music Synthesizer**. Vyšel rovněž **System Changer**, adaptér, který do Intellivision II umožnil hrát kartridže Atari 2600.
 
+<figure class="article-photo"><img src="/images/platforms/extra/intellivision/3.webp" alt="Původní Mattel Intellivision z roku 1979" loading="lazy"><figcaption>Původní Mattel Intellivision z roku 1979</figcaption></figure>
 ### Modely a revize
 
 Původní model z roku 1979 nesl prosté označení **Intellivision (Master Component)** v dřevěném designu. V roce 1982 přišel redesignovaný, levnější **Intellivision II** s odnímatelnými ovladači a hranatějším vzhledem; právě k němu byl určen System Changer.
 
 Konzoli prodávali pod vlastními značkami i další výrobci — **Sears** ji nabízel jako *Super Video Arcade* a v Evropě se objevila třeba pod hlavičkou **Radofin** či **GTE Sylvania**. Po krachu Mattelu na herním trhu převzala práva firma **INTV Corporation**, která pokračovala ve výrobě a v roce 1985 uvedla model **INTV System III** (známý též jako Super Pro System). INTV udržovala konzoli při životě prodejem poštou až do roku 1990, kdy vyšly poslední nové hry.
 
+<figure class="article-photo"><img src="/images/platforms/extra/intellivision/2.webp" alt="Sears Super Video Arcade, přeznačkované Intellivision" loading="lazy"><figcaption>Sears Super Video Arcade, přeznačkované Intellivision</figcaption></figure>
 ### Klony a varianty
 
 Intellivision nemělo tak rozsáhlou klonovou scénu jako NES nebo ZX Spectrum — jeho uzavřený, specifický hardware se napodoboval obtížně. Hlavními „variantami" tak byly spíše licencované přeznačkované verze (Sears, Radofin, GTE Sylvania) než nelegální klony. V Československu ani jinde ve východním bloku se Intellivision prakticky nerozšířil; tamní domácí scéna se soustředila kolem počítačů ZX Spectrum a jeho klonu **Didaktik**, případně famiclonů typu Pegasus, zatímco americké konzole druhé generace zůstávaly za železnou oponou vzácností. Cennou stopou pro historiky je naopak to, že firma INTV po letech zpřístupnila část původního zdrojového materiálu, což pomohlo pozdější dokumentaci platformy.
 
+<figure class="article-photo"><img src="/images/platforms/extra/intellivision/1.webp" alt="Intellivision Flashback, moderní retro reedice" loading="lazy"><figcaption>Intellivision Flashback, moderní retro reedice</figcaption></figure>
 ### Dnesni scena
 
 Intellivision si udrželo překvapivě živou komunitu. Emulace je dobře vyřešená — existují vyhrazené emulátory (např. **jzIntv**) i jádra pro multiplatformní **RetroArch**, takže si původní knihovnu zahrajete na PC, handheldech i jednodeskových počítačích. Mattel navíc značku oficiálně oživil: vydal kolekce klasických her a sběratelské miniatury. Aktivní zůstává i **homebrew** scéna, která pro CP1610 dodnes píše nové tituly distribuované na fyzických kartridžích i v digitální podobě, čímž drží odkaz „chytré televize" stále při životě.

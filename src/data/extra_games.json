@@ -130,10 +130,9 @@
     { "name": "Simon the Sorcerer", "genre": "Adventure", "length": "L", "flags": [] },
     { "name": "Microcosm", "genre": "Shoot 'em up", "length": "M", "flags": [] }
   ],
-  "didaktik": [
+  "zx-spectrum": [
     { "name": "Saboteur II", "genre": "Action / Stealth", "length": "M", "flags": [] },
     { "name": "Boulder Dash", "genre": "Puzzle / Action", "length": "M", "flags": ["puzzle"] },
-    { "name": "Bruce Lee", "genre": "Action-platformer", "length": "M", "flags": [] },
-    { "name": "Dizzy", "genre": "Adventure / Platformer", "length": "M", "flags": [] }
+    { "name": "Bruce Lee", "genre": "Action-platformer", "length": "M", "flags": [] }
   ]
 }

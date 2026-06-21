@@ -10,6 +10,8 @@ Amiga proslula svými **specializovanými koprocesory** — Blitter pro rychlé 
 
 Zvuk zajišťuje legendární čip **Paula** se **čtyřmi hardwarovými kanály** a **8bitovým PCM** přehráváním vzorků (sampled sound), rozdělenými klasicky do stereo dvojic. Na svou dobu nadprůměrný zvuk byl jednou z velkých předností celé řady Amiga. CD mechanika navíc umožňovala přehrávat **hudbu přímo z Audio CD** a konzole fungovala i jako běžný CD přehrávač.
 
+<figure class="article-photo"><img src="/images/platforms/extra/amiga-cd32/1.webp" alt="Konzole Amiga CD32 s ovladačem" loading="lazy"><figcaption>Konzole Amiga CD32 s ovladačem</figcaption></figure>
+
 ### Propojeni a periferie
 
 CD32 měla **dvoutlačítkový gamepad** (s křížem, dvěma akčními tlačítky, tlačítky pro listování a pauzu), připojitelný do dvou portů. K dispozici byl **kompozitní video i RF výstup** pro připojení k televizi a u některých variant také **S-Video**.

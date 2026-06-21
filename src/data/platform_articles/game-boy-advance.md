@@ -2,6 +2,7 @@ Když Nintendo v roce 2001 vypustilo do světa Game Boy Advance, neudělalo jen 
 
 Důležitým trumfem byla i **zpětná kompatibilita**: do širokého slotu GBA šly zasunout jak kartridže Game Boy, tak Game Boy Color, takže konzole fungovala jako jedna velká kapesní Nintendo herna sahající až k roku 1989. Vedle toho hostila vlastní klenoty — trojici Castlevanií (vrcholem je **Aria of Sorrow**), Metroid Zero Mission a Fusion, Golden Sun, Advance Wars, sérii Mario & Luigi a Fire Emblem, který se právě díky GBA poprvé dostal na Západ.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy-advance/1.webp" alt="První model GBA v barvě Indigo" loading="lazy"><figcaption>První model GBA v barvě Indigo</figcaption></figure>
 ### Technika: grafika a zvuk
 
 Srdcem konzole byl 32bitový procesor **ARM7TDMI** taktovaný na zhruba 16,8 MHz, doplněný o starší jádro Z80 (Sharp LR35902) pro zpětnou kompatibilitu se starými hrami. Displej měl rozlišení **240 × 160 pixelů** a uměl zobrazit až 32 768 barev z palety přes 32 tisíc odstínů. To byl proti šedivému Game Boyi propastný rozdíl.
@@ -18,6 +19,7 @@ Nintendo nabízelo i **Wireless Adapter** (bezdrátový adaptér) přibalovaný 
 
 Originální GBA neměl podsvícený displej a ke správnému osvětlení sloužila řada příslušenství typu **Worm Light**. Vtip, že nejdůležitější periferií je lampička, měl reálný základ.
 
+<figure class="article-photo"><img src="/images/platforms/extra/game-boy-advance/3.webp" alt="Game Boy Micro, poslední model z roku 2005" loading="lazy"><figcaption>Game Boy Micro, poslední model z roku 2005</figcaption></figure>
 ### Modely a revize
 
 Úplně první model (**AGB-001**, 2001) trpěl nechvalně známou vadou: **neosvětleným displejem**. Hrát se dalo jen za dobrého světla. Nintendo to napravilo modelem **Game Boy Advance SP** (**AGS-001**, 2003) se skládací konstrukcí a předním nasvícením (frontlight); pozdější revize **AGS-101** dostala výrazně lepší **podsvícený (backlit)** displej, dnes mezi sběrateli nejžádanější.

@@ -1,0 +1,586 @@
+{
+  "game-boy": [
+    {
+      "file": "/images/platforms/extra/game-boy/1.webp",
+      "src_name": "Game Boy originale.jpg",
+      "desc": "Game Boy originale"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy/2.webp",
+      "src_name": "Nintendo Game Boy DMG-01 - board with card slot-9880.jpg",
+      "desc": "Nintendo Game Boy DMG-01 - board with card slot"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy/3.webp",
+      "src_name": "Game-Boy-Pocket-FL.png",
+      "desc": "The Game Boy Pocket, a gaming handheld released by Nintendo in 1996. It is a redesign of the original Game Boy hardware, released seven years earlier. It features a drastically improved screen and is much smaller than the previous model. It also has better battery life, running on 2 AAA batteries in"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy/4.webp",
+      "src_name": "Game-Boy-Light-FL.png",
+      "desc": "The Game Boy Light, a gaming handheld released by Nintendo in 1998. It is a redesign of the original Game Boy hardware, released nine years earlier. It shares many design aesthetics of the Game Boy Pocket from 1996, but adds a backlight and goes from using 2 AAA to 2 AA batteries. This model was onl"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy/5.webp",
+      "src_name": "Game-Boy-FL.png",
+      "desc": "The Nintendo Game Boy, a handheld gaming console released in 1989. The relatively simple and monochrome Game Boy faced off against multiple handhelds and dominated the portable gaming market for almost a decade. This system has a 4.19 MHz CPU, a 4-shade LCD and ran off of 4 AA batteries. It was a ve"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy/6.webp",
+      "src_name": "Nintendo-Game-Boy-Cartridge.jpg",
+      "desc": "A blanked-out cartridge for the Nintendo Game Boy handheld console."
+    }
+  ],
+  "game-boy-color": [
+    {
+      "file": "/images/platforms/extra/game-boy-color/1.webp",
+      "src_name": "Nintendo-Game-Boy-Color-Motherboard-Bottom.jpg",
+      "desc": "The motherboard of a Game Boy Color, a handheld gaming console released by Nintendo in 1998. The Game Boy Color uses a custom Z80-based processor that can run in either 4.388 or 8.338 MHz."
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-color/2.webp",
+      "src_name": "Nintendo-Game-Boy-Color-FL.png",
+      "desc": "The Game Boy Color, a handheld gaming console released by Nintendo in 1998. The Game Boy Color is a slightly upgraded model of the Game Boy, which features a non-backlit color LCD screen and a faster Z80 processor. It is backwards compatible with older Game Boy games and can also play Game Boy Color"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-color/3.webp",
+      "src_name": "Nintendo-Game-Boy-Cartridge-Black.jpg",
+      "desc": "A blanked-out cartridge for the Nintendo Game Boy handheld console. This is a black version, which was used for Game-Boy-Color-enhanced titles."
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-color/4.webp",
+      "src_name": "Nintendo-Game-Boy-Cartridge.jpg",
+      "desc": "A blanked-out cartridge for the Nintendo Game Boy handheld console."
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-color/5.webp",
+      "src_name": "Game Boy Color (green).png",
+      "desc": "A high-resolution scan of a Game Boy Color"
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-color/6.webp",
+      "src_name": "Game-Boy-Color-Purple.jpg",
+      "desc": "A Game Boy Color, shown in clear atomic purple color."
+    }
+  ],
+  "game-boy-advance": [
+    {
+      "file": "/images/platforms/extra/game-boy-advance/1.webp",
+      "src_name": "Nintendo-Game-Boy-Advance-Purple-FL.png",
+      "desc": "The Game Boy Advance (GBA), a 32-bit handheld gaming system made by Nintendo and released in 2001. This is the first model in the GBA line-up, which features a non-backlit color screen and runs off of two AA batteries. This is a \"Indigo\" model, a purple color that matched the GameCube, that was one "
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-advance/2.webp",
+      "src_name": "Nintendo-Game-Boy-Advance-Cartridge.jpg",
+      "desc": "A blanked-out game cartridge for the Nintendo Game Boy Advance handheld console."
+    },
+    {
+      "file": "/images/platforms/extra/game-boy-advance/3.webp",
+      "src_name": "Game-Boy-Micro.jpg",
+      "desc": "A beat-up Game Boy Micro, the last hardware version of the Game Boy Advance."
+    }
+  ],
+  "nes": [
+    {
+      "file": "/images/platforms/extra/nes/1.webp",
+      "src_name": "NES-Console-Set.png",
+      "desc": "Transparent version of NES console"
+    },
+    {
+      "file": "/images/platforms/extra/nes/2.webp",
+      "src_name": "Nintendo-Famicom-Console-Set-FL.png",
+      "desc": "The Nintendo Famicom, a video game console released by Nintendo in Japan in 1983. The Famicom (short for \"Family Computer\") was Nintendo's first video game console, following the line of dedicated \"Color TV Games\" systems in the late '70s. The console was a success in Japan, emerging as the leader a"
+    },
+    {
+      "file": "/images/platforms/extra/nes/3.webp",
+      "src_name": "Nintendo-Famicom-Disk-System.jpg",
+      "desc": "A Japanese Nintendo Famicom shown with the Disk System add-on."
+    },
+    {
+      "file": "/images/platforms/extra/nes/4.webp",
+      "src_name": "NES-101-Console-Set.jpg",
+      "desc": "A North American Nintendo Entertainment System, model NES-101, shown with redesigned \"bone\" controller."
+    }
+  ],
+  "snes": [
+    {
+      "file": "/images/platforms/extra/snes/1.webp",
+      "src_name": "Nintendo Super NES Tietokonemuseo.JPG",
+      "desc": "Nintendo Super NES game console in Helsinki Computer and game console museum."
+    },
+    {
+      "file": "/images/platforms/extra/snes/2.webp",
+      "src_name": "SNES-Mod1-Console-Set.png",
+      "desc": "A Super Nintendo Entertainment System (SNES or Super NES) video game console, shown with standard controller."
+    },
+    {
+      "file": "/images/platforms/extra/snes/3.webp",
+      "src_name": "SuperFamicom jr.jpg",
+      "desc": "Super Famicom Jr. (SHVC-101) with controller (SNS-102)."
+    }
+  ],
+  "mega-drive": [
+    {
+      "file": "/images/platforms/extra/mega-drive/1.webp",
+      "src_name": "Sega-CDX-FL.jpg",
+      "desc": "The Sega Genesis CDX (known as the Sega Multi-Mega in Europe and Japan) video game console. Released after the Sega Genesis and Sega CD, this high-end system incorporates both systems into a small and streamlined unit. Expensive and rare, the system could also be used as a portable CD player."
+    },
+    {
+      "file": "/images/platforms/extra/mega-drive/2.webp",
+      "src_name": "Sega-Genesis-Mk2-6button.jpg",
+      "desc": "A North American Sega Genesis video game console with 6-button controller. The Sega Genesis is a 16-bit, fourth generation game console that was first released in 1988. This is the second remodel of the console and is shown with a 6-button that was released later in the console's life."
+    },
+    {
+      "file": "/images/platforms/extra/mega-drive/3.webp",
+      "src_name": "Sega-Mega-Drive-JP-Mk1-Console-Set.jpg",
+      "desc": "The Japanese Sega Mega Drive video game console. This is the first design model of the system."
+    }
+  ],
+  "master-system": [
+    {
+      "file": "/images/platforms/extra/master-system/1.webp",
+      "src_name": "Sega-Game-Gear-FR.jpg",
+      "desc": "The Game Gear, a handheld video game system created by Sega and first released in 1990."
+    },
+    {
+      "file": "/images/platforms/extra/master-system/2.webp",
+      "src_name": "Sega-Sg-1000-MkIII-Console-BL.jpg",
+      "desc": "The Sega SG-1000 Mark III, a revision of Sega's first video game console that was released in Japan in 1985. Based off of the Zilog Z80, the console also features more RAM and an updated GPU compared to the Sega SG-1000, making it capable of more advanced graphics. The Mark III revision also added a"
+    },
+    {
+      "file": "/images/platforms/extra/master-system/3.webp",
+      "src_name": "Sega-Master-System-Set.png",
+      "desc": "The Sega Master System video game console shown with original \"joystick\" controller. This is the PNG version with transparent background."
+    },
+    {
+      "file": "/images/platforms/extra/master-system/4.webp",
+      "src_name": "Sega-master-system-logo.png",
+      "desc": "Sega Master System logo"
+    }
+  ],
+  "game-gear": [
+    {
+      "file": "/images/platforms/extra/game-gear/1.webp",
+      "src_name": "Sega-Game-Gear-WB.png",
+      "desc": "The Game Gear, a handheld video game system created by Sega and first released in 1990."
+    }
+  ],
+  "atari-lynx": [
+    {
+      "file": "/images/platforms/extra/atari-lynx/1.webp",
+      "src_name": "Atari-Lynx-II-Handheld-Angled.jpg",
+      "desc": "The Atari Lynx II, a handheld gaming system first released by Atari in 1989. This is the second model, which offered a bevy of improvements and tweaks that made it smaller and more ergonomic. Even with these improvements it couldn't compete with the Nintendo Game Boy or Sega Game Gear, which offered"
+    },
+    {
+      "file": "/images/platforms/extra/atari-lynx/2.webp",
+      "src_name": "Atari-Lynx-II-Motherboard.jpg",
+      "desc": "The motherboard of an Atari Lynx II, the revised version of the original Atari Lynx. This motherboard's manufactured or check date is November 21, 1991. Note that this board has had the aluminum RF shielding removed so that the chips underneath can be seen. The large chip on the board, the C301719-0"
+    }
+  ],
+  "saturn": [
+    {
+      "file": "/images/platforms/extra/saturn/1.webp",
+      "src_name": "Sega-Saturn-Motherboard.jpg",
+      "desc": "The motherboard for an American model Sega Saturn video game console. The board is a \"VA8\" revision."
+    },
+    {
+      "file": "/images/platforms/extra/saturn/2.webp",
+      "src_name": "Sega-Saturn-Console-Set-Mk2.png",
+      "desc": "A US Sega Saturn console, shown with type 2 controller."
+    },
+    {
+      "file": "/images/platforms/extra/saturn/3.webp",
+      "src_name": "Sega-Saturn-Console-Set-Mk1.png",
+      "desc": "The first generation of the US Sega Saturn video game console shown with the first generation Sega Saturn controller."
+    },
+    {
+      "file": "/images/platforms/extra/saturn/4.webp",
+      "src_name": "Sega-Saturn-JP-Mk1-Console-Set.png",
+      "desc": "A first generation Japanese Sega Saturn console shown with controller. This is the \"oval button\" model that was gray. Later it was replaced by a \"round button\" white model."
+    },
+    {
+      "file": "/images/platforms/extra/saturn/5.webp",
+      "src_name": "Sega-Saturn-NetLink-Modem-1.jpg",
+      "desc": "The official NetLink dialup modem for the Sega Saturn video game console, a fifth generation system first released by Sega in 1994."
+    }
+  ],
+  "playstation": [
+    {
+      "file": "/images/platforms/extra/playstation/1.webp",
+      "src_name": "Sony-PlayStation-SCPH-1000-Motherboard-Top.jpg",
+      "desc": "The motherboard for a Sony PlayStation video game console. Specifically, the motherboard of a Japanese SCPH-1000 series system, which is the very first iteration of the PlayStation hardware. The board is much larger than its successors, and includes on-board A/V outputs, including a native S-Video o"
+    },
+    {
+      "file": "/images/platforms/extra/playstation/2.webp",
+      "src_name": "PlayStation-Multitap-Adaptor.jpg",
+      "desc": "The official PlayStation multitap adaptor, model SCPH-1070, that allows for more than two players at once."
+    },
+    {
+      "file": "/images/platforms/extra/playstation/3.webp",
+      "src_name": "Nintendo Playstation Prototype (26398118438).jpg",
+      "desc": "Nintendo Playstation Prototype"
+    },
+    {
+      "file": "/images/platforms/extra/playstation/4.webp",
+      "src_name": "PlayStation-Analog-Joystick.jpg",
+      "desc": "The somewhat rare PlayStation Analog Joystick (SCPH-1110)."
+    },
+    {
+      "file": "/images/platforms/extra/playstation/5.webp",
+      "src_name": "Sony-PlayStation-Link-Cables.jpg",
+      "desc": "The Link Cables (SCPH-1040) for the Sony PlayStation video game console. These cables used the serial I/O port on early PlayStation models to connect two consoles directly, which offered multiplayer support on a small selection of compatible games."
+    },
+    {
+      "file": "/images/platforms/extra/playstation/6.webp",
+      "src_name": "PSone-Console-Set-NoLCD.png",
+      "desc": "A PSone game console shown with matching controller and memory card. The PSone was re-design of the original PlayStation and much smaller in size."
+    }
+  ],
+  "psp": [
+    {
+      "file": "/images/platforms/extra/psp/1.webp",
+      "src_name": "PSP-Go-FL-Open.jpg",
+      "desc": "The PSP Go, an alternate model of the PlayStation Portable system from Sony. Released in 2009, it was a UMD-less version of the PSP, relying on digital-only versions of games. It has 16GB of internal storage and can be expanded with a proprietary memory card."
+    },
+    {
+      "file": "/images/platforms/extra/psp/2.webp",
+      "src_name": "PSP-1000.png",
+      "desc": "Original model of PlayStation Portable (PSP-1000) console."
+    },
+    {
+      "file": "/images/platforms/extra/psp/3.webp",
+      "src_name": "Psp-1000.jpg",
+      "desc": "An original model PlayStation Portable (PSP-1000) handheld games console."
+    },
+    {
+      "file": "/images/platforms/extra/psp/4.webp",
+      "src_name": "PSP-3000-Silver.jpg",
+      "desc": "A silver PSP-3000, the third-generation model of the PlayStation Portable portable game console."
+    }
+  ],
+  "n64": [
+    {
+      "file": "/images/platforms/extra/n64/1.webp",
+      "src_name": "Nintendo-64-wController-L.jpg",
+      "desc": "The Nintendo 64, a fifth generation gaming console released by Nintendo in 1996, over a year later than its rivals the Sega Saturn and Sony PlayStation. It was the most powerful of the fifth generation systems, but was severely hindered by some design challenges and its use of cartridge media. Those"
+    },
+    {
+      "file": "/images/platforms/extra/n64/2.webp",
+      "src_name": "Nintendo-N64-Motherboard-Bottom.jpg",
+      "desc": "The motherboard of a Nintendo 64 video game console. This is a North American version, motherboard revision NUS-CPU-03"
+    },
+    {
+      "file": "/images/platforms/extra/n64/3.webp",
+      "src_name": "Nintendo-N64-Motherboard-Top.jpg",
+      "desc": "The motherboard of a Nintendo 64 video game console. This is a North American version, motherboard revision NUS-CPU-03"
+    }
+  ],
+  "arcade": [
+    {
+      "file": "/images/platforms/extra/arcade/1.webp",
+      "src_name": "Japanese shmup arcade.jpg",
+      "desc": "Players playing shoot 'em up video games at Hey arcade in Akihabara, Tokyo, Japan. 2017. This area of the arcade only had shooter machines, and all the players were attempting 1CCs (One credit clears)."
+    },
+    {
+      "file": "/images/platforms/extra/arcade/2.webp",
+      "src_name": "Arcade game.jpg",
+      "desc": "Racing arcade game in Forum shopping mall, Jyväskylä."
+    },
+    {
+      "file": "/images/platforms/extra/arcade/3.webp",
+      "src_name": "Ridge racer full scale stockton.jpg",
+      "desc": "Ridge Racer Full scale, taken at Hollywood Bowl Stockton-on-Tees"
+    }
+  ],
+  "pc-engine": [
+    {
+      "file": "/images/platforms/extra/pc-engine/1.webp",
+      "src_name": "NEC-Turbo-Duo-Flaps-Up.jpg",
+      "desc": "A frontal view of the TurboDuo, shown with the TurboCard and CD doorflaps up. The TurboDuo was a gaming console by NEC that combined the TurboGrafx-16 system with the CD Drive into one unit. Released in late 1992 in North America, it would be the last console NEC would release to the Western market."
+    }
+  ],
+  "dreamcast": [
+    {
+      "file": "/images/platforms/extra/dreamcast/1.webp",
+      "src_name": "NEC - VideoLogic@250nm@PowerVR Series2@CLX2@Dreamcast@315-6225 9852PX430 DSCx4 polysilicon@5x.jpg",
+      "desc": "SEGA Dreamcast Graphic Processor (CLX2) PowerVR Series2 by NEC and VideoLogic (polysilicon layer | etched) Microscope: Leitz SECOLUX 6x6 (Objectiv: Leitz NPL Fluotar 5x/0.09 oo/-) Ocular: Periplan GF 10x/18 M Camera: Sony NEX-5T (16.1MP APS-C sensor) @ 4MP Resize to 50% Objectiv: Pentax 40mm F2.8 Pa"
+    },
+    {
+      "file": "/images/platforms/extra/dreamcast/2.webp",
+      "src_name": "Sega-Dreamcast-Motherboard-Top.jpg",
+      "desc": "The motherboard of a Sega Dreamcast, a video game console released in 1999 in North America. The system is powered by a custom Hitachi RISC processor clocked at 200 MHz and an NEC PowerVR2 graphics processor clocked at 100 MHz."
+    },
+    {
+      "file": "/images/platforms/extra/dreamcast/3.webp",
+      "src_name": "Sega Dreamcast arcade machine.jpg",
+      "desc": "Sega Dreamcast arcade machine in The Finnish Museum of Games, Tampere."
+    }
+  ],
+  "zx-spectrum": [
+    {
+      "file": "/images/platforms/extra/zx-spectrum/1.webp",
+      "src_name": "Psion Horizons for ZX Spectrum cassette.jpg",
+      "desc": "Psion Software Horizons software starter pack cassette for ZX Spectrum. The software page on WoS: http://www.worldofspectrum.org/infoseekid.cgi?id=0009230"
+    },
+    {
+      "file": "/images/platforms/extra/zx-spectrum/2.webp",
+      "src_name": "Sir Clive Sinclair on X-Bike Prototype.jpg",
+      "desc": "This is a prototype folding bicycle designed by Mark Sanders for Sir Clive Sinclair"
+    },
+    {
+      "file": "/images/platforms/extra/zx-spectrum/3.webp",
+      "src_name": "Timex Sinclair 2068 Manipulated.jpg",
+      "desc": "The Timex Sinclair 2068 (TS2068), released in November 1983, was Timex Sinclair's fourth and last home computer for the U.S. market."
+    },
+    {
+      "file": "/images/platforms/extra/zx-spectrum/4.webp",
+      "src_name": "ZXSpectrum48k.jpg",
+      "desc": "Sinclair 48K ZX Spectrum computer (1982)"
+    }
+  ],
+  "amstrad-cpc": [
+    {
+      "file": "/images/platforms/extra/amstrad-cpc/1.webp",
+      "src_name": "Amstrad CPC646-IMG 7196.jpg",
+      "desc": "Amstrad CPC 464 computer. On display at the Musée Bolo, EPFL, Lausanne."
+    },
+    {
+      "file": "/images/platforms/extra/amstrad-cpc/2.webp",
+      "src_name": "Amstrad MP-1.jpg",
+      "desc": "Amstrad MP-1 module for CPC 464"
+    },
+    {
+      "file": "/images/platforms/extra/amstrad-cpc/3.webp",
+      "src_name": "Cpc464.computer.750pix.jpg",
+      "desc": "Children playing Amstrad CPC464 computer. Data and programs were input with the built-in tape reader on the right of the keyboard. The game on screen is Paperboy."
+    }
+  ],
+  "msx": [
+    {
+      "file": "/images/platforms/extra/msx/1.webp",
+      "src_name": "Yashica YC-64 Tietokonemuseo.JPG",
+      "desc": "Yashica YC-64 computer in Helsinki Computer and game console museum."
+    },
+    {
+      "file": "/images/platforms/extra/msx/2.webp",
+      "src_name": "Dynadata DPC 200 76.jpg",
+      "desc": "Dynadata DPC 200 y Disquetera Dynadata DPF-550"
+    },
+    {
+      "file": "/images/platforms/extra/msx/3.webp",
+      "src_name": "Sony HitBit HB-10P (White Background).jpg",
+      "desc": "This is the picture of a Sony MSX HitBit-10-P / HB-10P the photographer bought in the 1980s in Barcelona, Spain."
+    },
+    {
+      "file": "/images/platforms/extra/msx/4.webp",
+      "src_name": "MSX Philips VG8020.jpg",
+      "desc": "MSX Philips VG-8020 home computer. Picture taken by SanderK."
+    }
+  ],
+  "colecovision": [
+    {
+      "file": "/images/platforms/extra/colecovision/1.webp",
+      "src_name": "ColecoVision-ExpMod1-Attached.jpg",
+      "desc": "The Expansion Module #1 add-on for the ColecoVision, shown attached. This add-on allowed for users to play Atari 2600 games through their ColecoVision. It featured all of the hardware, switches and controller ports of the Atari 2600. The ColecoVision console, a second generation gaming console relea"
+    },
+    {
+      "file": "/images/platforms/extra/colecovision/2.webp",
+      "src_name": "ColecoVision-wController-L.jpg",
+      "desc": "The ColecoVision console, a second generation gaming console released in 1982 by Coleco Industries. The ColecoVision faced off against the older Atari 2600, and enjoyed moderate success when released due to its higher quality arcade ports. By 1983, however, the video game industry crash greatly hurt"
+    }
+  ],
+  "atari-2600": [],
+  "atari-8bit": [
+    {
+      "file": "/images/platforms/extra/atari-8bit/1.webp",
+      "src_name": "Atari-400-Comp.jpg",
+      "desc": "The Atari 400, an 8-bit home computer that was released by Atari in 1979."
+    }
+  ],
+  "c64": [
+    {
+      "file": "/images/platforms/extra/c64/1.webp",
+      "src_name": "Commodore-Paddles.JPG",
+      "desc": "HID-Gerät für Homecomputer"
+    },
+    {
+      "file": "/images/platforms/extra/c64/2.webp",
+      "src_name": "Commodore MAX Machine (shadow) (xparent bg).png",
+      "desc": "Commodore Max Machine (overhead view)"
+    },
+    {
+      "file": "/images/platforms/extra/c64/3.webp",
+      "src_name": "Commodore-64-Computer-BL.jpg",
+      "desc": "A Commodore 64, an 8-bit home computer introduced in 1982 by Commodore International. Its low retail price and easy availability led to the system becoming the market leader for three years. It remains the best-selling single personal computer model of all time."
+    },
+    {
+      "file": "/images/platforms/extra/c64/4.webp",
+      "src_name": "Commodore-64-1541-Floppy-Drive-01.jpg",
+      "desc": "The Commodore 1541, the official 5¼\" floppy drive for the Commodore 64 8-bit home computer. Introduced in 1982, the drive retailed for $400 at launch."
+    },
+    {
+      "file": "/images/platforms/extra/c64/5.webp",
+      "src_name": "Commodore-Datasette-C2N-Mk1-Front.jpg",
+      "desc": "A Commodore 1530 (C2N) Datasette drive for the Commodore line of computers. This made it possible to save and run programs from inexpensive cassette tapes."
+    },
+    {
+      "file": "/images/platforms/extra/c64/6.webp",
+      "src_name": "3 versioner av c64 (modified).jpg",
+      "desc": "Three versions of the personal computer Commodore 64. The one on the top is a C64 (1982), then comes the C64C (1986) and then the C64G (1987)."
+    }
+  ],
+  "amiga": [
+    {
+      "file": "/images/platforms/extra/amiga/1.webp",
+      "src_name": "Amiga-CD32-wController-L.jpg",
+      "desc": "The Amiga CD32, a 32-bit, CD-ROM based video game console from Commodore, with one controller. Released in 1993 in Canada, Europe, Australia and Brazil, it turns the Amiga computer line into a dedicated gaming console."
+    },
+    {
+      "file": "/images/platforms/extra/amiga/2.webp",
+      "src_name": "Amiga500 system.jpg",
+      "desc": "Commodore Amiga 500, 16-bit computer (1987)Post Processing: BG, B/C, spot, composite picture.The Amiga 500 personal computer system, pictured with a monitor, a mouse, a keyboard, and a floppy disk drive."
+    },
+    {
+      "file": "/images/platforms/extra/amiga/3.webp",
+      "src_name": "Amiga 1000DP.jpg",
+      "desc": "Commodore Amiga 1000 personal computer with 1081 RGB monitor. (1985)"
+    },
+    {
+      "file": "/images/platforms/extra/amiga/4.webp",
+      "src_name": "HAM6example.png",
+      "desc": "HAM6example"
+    }
+  ],
+  "game-watch": [
+    {
+      "file": "/images/platforms/extra/game-watch/1.webp",
+      "src_name": "Nintendo Mini Classics Super Mario Bros y Parachute 2.jpg",
+      "desc": "Nintendo Mini Classics Super Mario Bros y Parachute"
+    }
+  ],
+  "pico-8": [],
+  "tic-80": [],
+  "neogeo": [
+    {
+      "file": "/images/platforms/extra/neogeo/1.webp",
+      "src_name": "Neo-Geo-AES-Console-Set.png",
+      "desc": "The Neo Geo AES video game console, released by SNK in 1991."
+    }
+  ],
+  "atari-5200": [
+    {
+      "file": "/images/platforms/extra/atari-5200/1.webp",
+      "src_name": "Atari-5200-4-Port-Console-Open-wControllers.jpg",
+      "desc": "The Atari 5200, a gaming system released by Atari in 1982. The 5200 was Atari's follow-up to the very successful 2600. A larger and more powerful console, it was based on the Atari 8-bit 400/800 computer line. It did not fare well in the market, however, due to Atari's and the gaming market's collap"
+    },
+    {
+      "file": "/images/platforms/extra/atari-5200/2.webp",
+      "src_name": "Atari-5200-4-Port-wController-L.jpg",
+      "desc": "For an expanded gallery of photos of the Atari 5200, check out the Evan Amos Atari 5200 Wikimedia gallery. The Atari 5200 and controller, a gaming system released by Atari in 1982. The 5200 was Atari's follow-up to the very successful 2600. A larger and more powerful console, it was based on the Ata"
+    }
+  ],
+  "atari-7800": [
+    {
+      "file": "/images/platforms/extra/atari-7800/1.webp",
+      "src_name": "Atari-7800-Console-Set.jpg",
+      "desc": "The American Atari 7800 with joystick controller. A third-generation video game console released by Atari in the mid '80s."
+    }
+  ],
+  "zx81": [
+    {
+      "file": "/images/platforms/extra/zx81/1.webp",
+      "src_name": "Timex Sinclair 1000 FL.jpg",
+      "desc": "The Timex Sinclair 1000 released in 1982, was the American version of the ZX81, and the first computer to cost under $100. It has black and white graphics and no sound, an integrated membrane keyboard, and an expansion slot. I was followed by the model 1500 in 1983."
+    },
+    {
+      "file": "/images/platforms/extra/zx81/2.webp",
+      "src_name": "Sinclair ZX81 PCB Revision 3 Bottom Side.JPG",
+      "desc": "Sinclair ZX81 PCB Revision 3 Bottom Side"
+    },
+    {
+      "file": "/images/platforms/extra/zx81/3.webp",
+      "src_name": "Sinclair-ZX81.png",
+      "desc": "The Sinclair ZX81, a hobbyist home computer released in the UK in 1981."
+    },
+    {
+      "file": "/images/platforms/extra/zx81/4.webp",
+      "src_name": "ZXSpectrum48k.jpg",
+      "desc": "Sinclair 48K ZX Spectrum computer (1982)"
+    },
+    {
+      "file": "/images/platforms/extra/zx81/5.webp",
+      "src_name": "ZX81-16K-RAM.png",
+      "desc": "Sinclair 16K RAM memory module, externally connected the ZX81 computer"
+    }
+  ],
+  "vic20": [
+    {
+      "file": "/images/platforms/extra/vic20/1.webp",
+      "src_name": "Commovc20side5580-01 (retuschiert).jpg",
+      "desc": "Commodore Computer VC20 Gehäuse Seite."
+    },
+    {
+      "file": "/images/platforms/extra/vic20/2.webp",
+      "src_name": "Commodore-VIC-20-FL.jpg",
+      "desc": "The Commodore VIC-20, an 8-bit computer released in 1981. A popular and inexpensive computer, it is the precursor to the immensely successful Commodore 64, which shares the same aesthetic as the VIC-20."
+    },
+    {
+      "file": "/images/platforms/extra/vic20/3.webp",
+      "src_name": "Commodore-Datasette-C2N-Mk2-Front.jpg",
+      "desc": "A Commodore 1530 (C2N) Datasette drive for the Commodore line of computers. This made it possible to save and run programs from inexpensive cassette tapes. Shown is a cosmetic variant model."
+    },
+    {
+      "file": "/images/platforms/extra/vic20/4.webp",
+      "src_name": "VIC-20 Display.jpg",
+      "desc": "An early revision of the Commodore VIC-20 is displayed at the Museum of Arts and Sciences (Daytona Beach) with several accessories."
+    },
+    {
+      "file": "/images/platforms/extra/vic20/5.webp",
+      "src_name": "ViC20 Cartridge.jpg",
+      "desc": "Commodore VIC-20 cartridge: Clowns (VIC-1931)"
+    }
+  ],
+  "atari-st": [
+    {
+      "file": "/images/platforms/extra/atari-st/1.webp",
+      "src_name": "Atari 520 ST + with monochrome monitor SM 124.jpg",
+      "desc": "Atari 520 ST + with monochrome monitor SM 124"
+    },
+    {
+      "file": "/images/platforms/extra/atari-st/2.webp",
+      "src_name": "Atari Falcon 030 (white bg).jpg",
+      "desc": "Atari Falcon 030 (white bg)"
+    }
+  ],
+  "intellivision": [
+    {
+      "file": "/images/platforms/extra/intellivision/1.webp",
+      "src_name": "Intellivision Flashback 1.jpg",
+      "desc": "Intellivision Flashback"
+    },
+    {
+      "file": "/images/platforms/extra/intellivision/2.webp",
+      "src_name": "Sears-Tele-Games-Super-Video-Arcade-Intellivision-Console-FL.jpg",
+      "desc": "The Sear Tele-Games Super Video Arcade, a rebranded Mattel Intellivision that sold exclusively in Sears department stores."
+    },
+    {
+      "file": "/images/platforms/extra/intellivision/3.webp",
+      "src_name": "Intellivision-Console-Set.png",
+      "desc": "The Intellivision, a 2nd generation video game console released by Mattel in 1979."
+    }
+  ],
+  "jaguar": [
+    {
+      "file": "/images/platforms/extra/jaguar/1.webp",
+      "src_name": "Atari-Jaguar-CD-Bare-Opened.jpg",
+      "desc": "The Atari Jaguar CD, an add-on for the 1993 Atari Jaguar home gaming console. The Jaguar CD was released in 1995 and is an add-on drive that allowed the system to play music CDs or games from CD-ROMs. It attached to the top of the console, plugging into the cartridge slot. It has a pass-through slot"
+    }
+  ],
+  "amiga-cd32": [
+    {
+      "file": "/images/platforms/extra/amiga-cd32/1.webp",
+      "src_name": "Amiga-CD32-wController-L-TRSP.png",
+      "desc": "The Amiga CD32, a 32-bit, CD-ROM based video game console from Commodore, with one controller. Released in 1993 in Canada, Europe, Australia and Brazil, it turns the Amiga computer line into a dedicated gaming console."
+    }
+  ]
+}

@@ -12,6 +12,8 @@ Konzole vystupovala kompozitním a RF signálem do televize a měla netradiční
 
 Nejdůležitějším doplňkem byla **Atari Jaguar CD** jednotka, která se nasazovala shora na konzoli a přidávala mechaniku CD-ROM. Vyšla v roce 1995, prodávala se mizerně a dnes je kvůli vzácnosti a poruchovosti sběratelským artiklem. Plánovaly se i další periferie, mimo jiné modem **Jaguar VR** brýle pro virtuální realitu, většina z nich ale nikdy nepřekročila stadium prototypu.
 
+<figure class="article-photo"><img src="/images/platforms/extra/jaguar/1.webp" alt="Nástavba Atari Jaguar CD z roku 1995" loading="lazy"><figcaption>Nástavba Atari Jaguar CD z roku 1995</figcaption></figure>
+
 ### Modely a revize
 
 Hardwarových variant samotné konzole bylo málo, šlo o jednu základní verzi. Zásadní rozšíření představovala zmíněná **Jaguar CD** nástavba, která z konzole fakticky tvořila dvoudílnou sestavu. Atari souběžně rozpracovávalo nástupce s pracovním označením **Jaguar II** a profesionální arkádovou desku, žádné z těchto zařízení se však kvůli krachu firmy nedostalo na trh. Roku 1996 se Atari sloučilo s výrobcem disků JT Storage a vývoj her i hardwaru fakticky skončil.

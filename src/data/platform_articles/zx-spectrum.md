@@ -2,11 +2,15 @@ Když v dubnu 1982 přišel sir Clive Sinclair se svým ZX Spectrem, nešlo jen 
 
 Spectrum byl technicky skromný a měl jednu nechvalně proslulou vlastnost, kterou dnes pozná každý zasvěcenec na první pohled. Ale právě z těchto omezení se zrodil svébytný vizuální styl, který je rozpoznatelný i po více než čtyřiceti letech.
 
+<figure class="article-photo"><img src="/images/platforms/extra/zx-spectrum/4.webp" alt="Sinclair ZX Spectrum 48K z roku 1982" loading="lazy"><figcaption>Sinclair ZX Spectrum 48K z roku 1982</figcaption></figure>
+
 ### Technika: grafika a zvuk
 
 Srdcem počítače byl osmibitový procesor **Zilog Z80A** taktovaný na **3,5 MHz**. Grafický režim nabízel rozlišení **256 × 192 bodů**, přičemž paleta čítala **15 barev** (osm základních barev ve dvou úrovních jasu, kde černá je v obou stejná). Tady ovšem přichází ona pověstná Achillova pata — **attribute clash**, neboli barevný střet. Spectrum totiž neukládal barvu ke každému pixelu zvlášť, ale jen k blokům **8 × 8 bodů**: každý takový blok mohl obsahovat pouze **dvě barvy** (popředí a pozadí). Když se přes pozadí pohyboval objekt, často „probarvoval" celý znakový blok, kterým procházel. Vývojáři se to naučili obcházet chytrým návrhem grafiky a dnes je tento jev vnímán jako charakteristický rys spectristické estetiky.
 
 Zvuk byl u původních modelů ještě skromnější. Spectrum 48K disponoval jediným **„beeperem"** — jednobitovým reproduktorem ovládaným přímo procesorem. Přesto dokázali zruční programátoři jako Tim Follin z tohoto jednoho kanálu vykouzlit vícehlasé melodie, které zní neuvěřitelně. Skutečný hudební skok přišel až s modelem 128K, který přidal zvukový čip **General Instrument AY-3-8912** se **třemi kanály** a generátorem šumu.
+
+<figure class="article-photo"><img src="/images/platforms/extra/zx-spectrum/1.webp" alt="Softwarová kazeta Psion pro ZX Spectrum" loading="lazy"><figcaption>Softwarová kazeta Psion pro ZX Spectrum</figcaption></figure>
 
 ### Propojeni a periferie
 
@@ -19,6 +23,8 @@ Pro rozšíření sloužil zadní **hranový konektor (edge connector)**, na kte
 Řada prošla během let výraznou evolucí. Počáteční **ZX Spectrum 16K/48K** (1982) se proslul gumovou klávesnicí. V roce 1984 přišel **Spectrum+** s lepší, plastovou klávesnicí v novém pouzdře. Zlomem byl **ZX Spectrum 128K** (nejprve pro španělský trh, 1985), který přinesl zmiňovaný čip AY a více paměti.
 
 Po převzetí značky firmou Amstrad následovaly modely s vestavěnou pásovou mechanikou: **Spectrum +2** (1986) s integrovaným kazetovým magnetofonem a **Spectrum +3** (1987) s **3palcovou disketovou mechanikou**. Tyto pozdější varianty se poznají podle šedého (+2) a černého (+3) provedení.
+
+<figure class="article-photo"><img src="/images/platforms/extra/zx-spectrum/3.webp" alt="Timex Sinclair 2068, americká varianta z roku 1983" loading="lazy"><figcaption>Timex Sinclair 2068, americká varianta z roku 1983</figcaption></figure>
 
 ### Klony a varianty
 

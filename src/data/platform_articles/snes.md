@@ -10,6 +10,7 @@ Nejslavnější trumf je **Mode 7** — režim, který umí jedinou vrstvu pozad
 
 Zvuk je samostatná kapitola. O něj se stará **zvukový subsystém navržený Sony** (Ken Kutaragi, pozdější otec PlayStationu) — řídicí čip SPC700 spolu s DSP zvládá **osm kanálů** přehrávajících vzorkovaný zvuk se zpracováním ADPCM a hardwarovým echem či dozvukem. Soundtracky her jako Chrono Trigger nebo Donkey Kong Country proto zní dodnes mimořádně plně a melodicky.
 
+<figure class="article-photo"><img src="/images/platforms/extra/snes/2.webp" alt="Konzole SNES se standardním ovladačem" loading="lazy"><figcaption>Konzole SNES se standardním ovladačem</figcaption></figure>
 ### Propojeni a periferie
 
 Standardní gamepad SNES přidal k osvědčenému křížovému ovladači čtveřici akčních tlačítek, dvě ramenní tlačítka L a R a samozřejmě Start a Select — schéma, které ovlivnilo všechny pozdější ovladače. Konzole měla dva porty, pro více hráčů sloužil rozbočovač **Multitap** (například NHL či Bomberman).
@@ -18,6 +19,7 @@ Z periferií stojí za zmínku světelná pistole **Super Scope**, bezdrátový 
 
 Specialitou platformy jsou **přídavné čipy přímo v kartridžích**, které stroj povyšovaly. Nejslavnější je **Super FX** (3D polygony ve Star Fox a Stunt Race FX), dále třeba SA-1, DSP-1 (Pilotwings, Super Mario Kart) nebo SuperFX2 v Yoshi's Island. Některé hry na konci životnosti vypadaly, jako by patřily na úplně jinou platformu.
 
+<figure class="article-photo"><img src="/images/platforms/extra/snes/3.webp" alt="Zmenšený Super Famicom Jr. s ovladačem" loading="lazy"><figcaption>Zmenšený Super Famicom Jr. s ovladačem</figcaption></figure>
 ### Modely a revize
 
 Design konzole se lišil podle regionu: japonský Super Famicom a evropský/australský SNES měly oblé tvary a barevná tlačítka, zatímco severoamerická verze dostala hranatější šedý kabát s fialovými tlačítky. Později vyšel zmenšený a zlevněný redesign — v USA jako **SNES (model SNS-101, „Jr.")**, v Japonsku jako Super Famicom Jr. Tyto pozdější verze ovšem už neměly RGB výstup ani závitové otvory pro nožičky.

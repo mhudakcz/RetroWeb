@@ -2,6 +2,8 @@ Když Atari v polovině 80. let uvedlo na trh řadu ST, vstoupil do hry stroj, k
 
 Atari ST se rychle stalo ikonou dvou světů. V domácnostech sloužilo ke hrám a kreslení, v profesionálním prostředí se stalo bezkonkurenčním nástrojem pro hudebníky. Právě ST otevřelo cestu k cenově dostupné počítačové hudbě a jeho dědictví v nahrávacích studiích přežilo samotnou značku o dlouhá léta.
 
+<figure class="article-photo"><img src="/images/platforms/extra/atari-st/1.webp" alt="Atari 520ST s monochromatickým monitorem SM 124" loading="lazy"><figcaption>Atari 520ST s monochromatickým monitorem SM 124</figcaption></figure>
+
 ### Technika: grafika a zvuk
 
 Srdcem počítače byl procesor **Motorola 68000** taktovaný na 8 MHz. Grafiku obstarával čip Shifter ve spolupráci s řadičem MMU a videologikou. ST nabízelo tři grafické režimy: nízké rozlišení **320×200 bodů s 16 barvami**, střední rozlišení **640×200 se 4 barvami** a vysoké monochromatické **640×400**, které vyžadovalo speciální monochromatický monitor a běželo s vyšší obnovovací frekvencí, takže obraz neblikal — to z ST dělalo příjemný stroj pro práci s textem a DTP.
@@ -15,6 +17,8 @@ O zvuk se staral tříkanálový čip **Yamaha YM2149** (varianta General Instru
 Konektorová výbava ST byla na svou dobu mimořádně bohatá. Standardem byly **dva porty MIDI** (In a Out/Thru) přímo na základní desce — žádný jiný domácí počítač té doby je neměl integrované. Díky tomu se ST stalo srdcem nesčetných hudebních studií a software jako Cubase nebo Notator zde vznikal nebo slavil první úspěchy.
 
 Dále počítač nabízel sériový a paralelní port, port pro disketovou mechaniku, rozhraní DMA pro pevné disky, dva porty pro joysticky a myš (ST se dodávalo s myší standardně) a RF/monitorový výstup. Disketová mechanika používala **3,5palcové diskety**, zpočátku jednostranné 360 KB, později oboustranné 720 KB.
+
+<figure class="article-photo"><img src="/images/platforms/extra/atari-st/2.webp" alt="Atari Falcon 030 z roku 1992" loading="lazy"><figcaption>Atari Falcon 030 z roku 1992</figcaption></figure>
 
 ### Modely a revize
 

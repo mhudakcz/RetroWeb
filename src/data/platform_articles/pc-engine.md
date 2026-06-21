@@ -14,6 +14,8 @@ Hry se původně nahrávaly z **HuCard** (na Západě TurboChip) — plochých k
 
 Pro multiplayer sloužil adaptér **TurboTap (Multitap)**, který umožnil připojení až pěti ovladačů — samotná konzole měla totiž jen jeden port. Mezi periferie patřil i ovladač Turbo Pad s přepínačem autofiru, světelná pistole, a v Japonsku dokonce přenosná verze. Standardem byl RF/kompozitní AV výstup.
 
+<figure class="article-photo"><img src="/images/platforms/extra/pc-engine/1.webp" alt="NEC TurboDuo s otevřenými dvířky" loading="lazy"><figcaption>NEC TurboDuo s otevřenými dvířky</figcaption></figure>
+
 ### Modely a revize
 
 Variant vznikla celá řada. Po základním **PC Engine** přišel menší **PC Engine Shuttle**, luxusní **PC Engine CoreGrafx** a **CoreGrafx II** s vylepšeným AV výstupem, nebo přenosný **PC Engine GT** (na Západě TurboExpress) s barevným LCD, jenž přehrával běžné HuCardy. Vrcholem byl integrovaný **PC Engine Duo** (a jeho nástupci Duo-R a Duo-RX) spojující konzoli a CD mechaniku v jednom kusu. NEC vyrobil i **PC Engine LT** v podobě malého notebooku s vestavěným monitorem. Na Západě se ekosystém scvrkl především na **TurboGrafx-16** a CD doplněk **TurboGrafx-CD**, případně kombinovaný **TurboDuo**.

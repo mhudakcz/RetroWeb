@@ -6,12 +6,14 @@ Srdcem Atari 5200 je osvědčená trojice čipů z domácích počítačů Atari
 
 O zvuk se stará čip **POKEY** se čtyřmi nezávislými zvukovými kanály. POKEY navíc obsluhoval i čtení ovladačů a generování šumu, takže se hodil pro střelbu i melodie. Díky této základně vypadaly a zněly hry jako *Star Raiders* nebo *Centipede* na 5200 výrazně bohatěji než na starším VCS.
 
+<figure class="article-photo"><img src="/images/platforms/extra/atari-5200/2.webp" alt="Atari 5200 s analogovým ovladačem" loading="lazy"><figcaption>Atari 5200 s analogovým ovladačem</figcaption></figure>
 ### Propojeni a periferie
 
 Charakteristickým a zároveň nejproblematičtějším prvkem byl **analogový ovladač**. Šlo o jeden z prvních analogových joysticků v domácí konzoli – nevracel se sám do středu, měl numerickou klávesnici, tlačítka START/PAUSE/RESET a dvě boční střelná tlačítka. V praxi byl ale nespolehlivý a náchylný k poruchám, což konzoli pověstně uškodilo. Konzole měla **čtyři porty** pro ovladače, takže umožňovala hru více hráčů; her pro čtyři současně ale vyšlo jen pár (např. *Realsports* tituly).
 
 Zvláštností první verze byl **automatický RF přepínač** napájený zvláštním kabelem – konzole se po zapnutí sama přepnula na televizní vstup. Mezi periferie patřil i **Trak-Ball** controller, vhodný pro hry typu *Centipede* a *Missile Command*, a chystaný (ale fakticky nevydaný) hlasový a klávesnicový hardware. Plánovaný adaptér pro hraní her z Atari 2600 se sice později objevil, ale jen omezeně.
 
+<figure class="article-photo"><img src="/images/platforms/extra/atari-5200/1.webp" alt="Atari 5200 z roku 1982 s ovladači" loading="lazy"><figcaption>Atari 5200 z roku 1982 s ovladači</figcaption></figure>
 ### Modely a revize
 
 Atari 5200 vyšlo nejprve jako **čtyřportová verze (1982)**, kterou v roce 1983 vystřídal redesign se **dvěma porty**. Dvouportová varianta opustila automatický RF přepínač ve prospěch běžného přepínacího kabelu a do levého boku dostala nový konektor – právě sem se měl připojovat adaptér pro hry z Atari 2600. Změnila se i vnitřní deska, takže některé hry citlivé na časování si s oběma revizemi nerozuměly stejně.

@@ -16,6 +16,8 @@ Atari sázelo na vlastní sériovou sběrnici **SIO** (Serial Input/Output), do 
 
 Hry a joysticky využívaly standardní **9pinové porty Atari** (kompatibilní s joysticky Commodore i dalšími), modely 400/800 měly porty rovnou čtyři, takže umožňovaly hru ve více hráčích u jednoho stroje (např. právě M.U.L.E.). K dispozici byly **paddle ovladače**, později i myš (ST mouš/AMIGA mouš lze v zapojení použít) a pro připojení k telefonní lince modemy. Obraz vystupoval přes **RF modulátor** do televize, vyšší modely a varianty nabízely i kvalitnější **kompozitní/AV** výstup.
 
+<figure class="article-photo"><img src="/images/platforms/extra/atari-8bit/1.webp" alt="Atari 400, 8bitový počítač z roku 1979" loading="lazy"><figcaption>Atari 400, 8bitový počítač z roku 1979</figcaption></figure>
+
 ### Modely a revize
 
 Rodina prošla několika generacemi. Po původních **400** (membránová klávesnice, levnější) a **800** (plná klávesnice, rozšiřitelná paměť) přišla počátkem 80. let řada **XL** — **1200XL**, populární **600XL** a **800XL** — s modernějším designem a zabudovaným BASICem. Po převzetí firmy Jackem Tramielem dorazila úspornější řada **XE**: **65XE**, **130XE** (se 128 KB RAM) a herně laděný **XEGS** (Atari XE Game System) z roku 1987, který se prodával jako konzole s klávesnicí, ale po stránce hardwaru zůstával stále stejným 8bitovým Atari. Napříč generacemi se zachovala vysoká softwarová kompatibilita.

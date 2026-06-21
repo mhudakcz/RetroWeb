@@ -10,9 +10,13 @@ Zlatou érou je pro fanoušky 2D období od konce osmdesátých do konce devades
 
 Zvuk byl podobně rozmanitý. Rané automaty kombinovaly jednoduché čipy a diskrétní obvody; v osmdesátých letech kralovaly FM syntézní čipy Yamaha (řada **YM**, např. YM2151 a YM2203), které daly arkádám charakteristický kovově zvonivý zvuk. S CPS-2 a Neo Geo přišly samplované nástroje a kvalitnější digitalizovaný zvuk.
 
+<figure class="article-photo"><img src="/images/platforms/extra/arcade/1.webp" alt="Herna se shoot 'em up automaty v Tokiu" loading="lazy"><figcaption>Herna se shoot 'em up automaty v Tokiu</figcaption></figure>
+
 ### Propojeni a periferie
 
 Ovládání automatu bylo součástí zážitku, který doma nešel napodobit. Vedle klasického joysticku a tlačítek existovaly **šlapky a volanty** u závodních her, **světelné pistole** (light gun) u střílecích automatů typu Operation Wolf, **trackbally** (Centipede, Missile Command) i **rotační** ovladače (paddle). Některé skříně byly přímo zážitkové — sedačky se nakláněly, kabina se třásla.
+
+<figure class="article-photo"><img src="/images/platforms/extra/arcade/2.webp" alt="Závodní arkádový automat s volantem" loading="lazy"><figcaption>Závodní arkádový automat s volantem</figcaption></figure>
 
 Důležitý formát byl **cabinet versus cocktail**: stojací skříň (upright) proti stolovému provedení, kde hráči seděli proti sobě a obraz se mezi tahy otáčel. Linkové propojení více skříní existovalo u závodních her, kde proti sobě jezdilo víc hráčů na vedle stojících strojích.
 
@@ -26,6 +30,8 @@ Místo „revizí jedné konzole" má arkáda celé rodiny systémových desek. 
 - **Taito**, **Konami** a **Namco** měly rovněž vlastní řady desek s vlastními zvukovými i grafickými čipy.
 
 Právě tahle roztříštěnost je důvod, proč je emulace arkád náročnější než u jedné uzavřené konzole.
+
+<figure class="article-photo"><img src="/images/platforms/extra/arcade/3.webp" alt="Zážitková kabina Ridge Racer Full Scale" loading="lazy"><figcaption>Zážitková kabina Ridge Racer Full Scale</figcaption></figure>
 
 ### Klony a varianty
 

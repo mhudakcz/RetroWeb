@@ -2,6 +2,8 @@ SEGA Master System je tak trochu zapomenutý hrdina osmibitové éry. Když ho S
 
 Jenže pak je tu Evropa a Brazílie. Tady se příběh otáčí. Ve starém kontinentě, kde Nintendo zdaleka nemělo takový náskok, se Master System prosadil výrazně a stal se pro celou generaci hráčů tou první konzolí. A v Brazílii, kde distribuci převzala firma Tectoy, žila platforma neuvěřitelně dlouho — nové hry, varianty a redesigny se tam objevovaly ještě hluboko v novém tisíciletí. Pro retrohráče je Master System sympatický objev: působí jako „lepší NES, na který si nikdo nevzpomněl".
 
+<figure class="article-photo"><img src="/images/platforms/extra/master-system/3.webp" alt="Sega Master System s původním ovladačem" loading="lazy"><figcaption>Sega Master System s původním ovladačem</figcaption></figure>
+
 ### Technika: grafika a zvuk
 
 Srdcem konzole je osmibitový procesor **Zilog Z80** běžící na zhruba 3,58 MHz — stejná rodina, jakou znají majitelé ZX Spectra nebo MSX. O grafiku se stará videočip **VDP** odvozený od Texas Instruments TMS9918, který SEGA výrazně vylepšila. Výsledkem je rozlišení **256×192 bodů** a paleta **64 barev**, z nichž lze na obrazovce zobrazit až **32 najednou** (dvě palety po šestnácti). To byl proti NES, který si vystačil s o poznání chudší a často „špinavou" barevností, citelný krok vpřed — hry na Master Systemu vypadají sytěji a čistěji.
@@ -14,11 +16,15 @@ Master System měl na svou dobu pestré příslušenství. Nejznámější je **
 
 Zajímavým řešením byl dvojí formát médií: vedle klasických kartridží konzole četla i tenké **Sega Cards** (My Card) pro levnější, menší hry. Standardem byly dva porty pro ovladače, samostatné tlačítko Pause přímo na konzoli a u prvního modelu i vestavěná hra v paměti. Obraz se připojoval přes RF nebo kompozitní AV.
 
+<figure class="article-photo"><img src="/images/platforms/extra/master-system/2.webp" alt="Japonská Sega Mark III z roku 1985" loading="lazy"><figcaption>Japonská Sega Mark III z roku 1985</figcaption></figure>
+
 ### Modely a revize
 
 Původní **Master System** (1986) byl objemná černá krabice s ovládacími tlačítky a slotem na karty. V roce 1990 přišel **Master System II** — levnější a menší redesign, který vypustil slot na karty, tlačítko reset i konektor pro 3D brýle a místo Snail Maze míval zabudovaného osmibitového **Alex Kidd in Miracle World** (v některých regionech Sonic). Japonský základ tvořila **Sega Mark III** s možností FM zvukové jednotky.
 
 V Brazílii vznikla pod značkou Tectoy nepřeberná řada vlastních variant — od přenosných verzí až po modely se stovkami předinstalovaných her, vydávané ještě dlouho poté, co byla platforma jinde po světě dávno mrtvá.
+
+<figure class="article-photo"><img src="/images/platforms/extra/master-system/1.webp" alt="Kapesní Sega Game Gear z roku 1990" loading="lazy"><figcaption>Kapesní Sega Game Gear z roku 1990</figcaption></figure>
 
 ### Klony a varianty
 

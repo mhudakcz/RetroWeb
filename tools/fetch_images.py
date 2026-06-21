@@ -76,7 +76,6 @@ WIKI = {
     "intellivision": "Intellivision",
     "jaguar": "Atari Jaguar",
     "amiga-cd32": "Amiga CD32",
-    "didaktik": "Didaktik",
 }
 
 # ---- platforma -> libretro-thumbnails repo (boxarty) ----
@@ -115,7 +114,6 @@ LIBRETRO = {
     "intellivision": "Mattel_-_Intellivision",
     "jaguar": "Atari_-_Jaguar",
     "amiga-cd32": "Commodore_-_Amiga",
-    "didaktik": "Sinclair_-_ZX_Spectrum",
     # game-watch / pico-8 / tic-80: bez libretro boxartů -> emblém zůstane
 }
 
@@ -200,6 +198,119 @@ def fetch_platforms():
         except Exception as e:  # noqa
             print(f"  [x] {slug}: {e}")
     print(f"Platformy: stazeno {ok}/{len(WIKI)}")
+
+
+# --------------------------------------------------- doprovodné fotky do článků
+import re as _re
+
+# soubory, které nechceme (ikony, loga wiki, mapy, zvuky, vlajky, diagramy…)
+_JUNK_RE = _re.compile(
+    r"commons-logo|wiki|edit-?clear|disambig|ambox|question|nuvola|"
+    r"speaker|sound|\.ogg|\.oga|\.webm|\.mid|flag_of|map_of|locator|"
+    r"padlock|symbol|oojs|red[_-]?x|increase|decrease|steady|"
+    r"crystal|gnome|emblem|folder|text-x|pictogram|chart|diagram|"
+    r"\.svg$",
+    _re.I,
+)
+
+
+def _strip_html(s):
+    return _re.sub(r"\s+", " ", _re.sub(r"<[^>]+>", "", s or "")).strip()
+
+
+def wiki_article_images(title, limit=60):
+    """Vrátí seznam fotek použitých na wiki stránce: [{src,name,w,h,desc}]."""
+    q = urllib.parse.urlencode(
+        {
+            "action": "query",
+            "format": "json",
+            "titles": title,
+            "redirects": "1",
+            "generator": "images",
+            "gimlimit": str(limit),
+            "prop": "imageinfo",
+            "iiprop": "url|size|mime|extmetadata",
+            "iiurlwidth": "760",  # vyžádej zmenšený thumbnail (originály Wikimedia blokuje/omezuje)
+        }
+    )
+    data = json.loads(http_get("https://en.wikipedia.org/w/api.php?" + q))
+    out = []
+    for p in data.get("query", {}).get("pages", {}).values():
+        info = (p.get("imageinfo") or [{}])[0]
+        mime = info.get("mime", "")
+        if mime not in ("image/jpeg", "image/png"):
+            continue
+        name = p.get("title", "").replace("File:", "")
+        if _JUNK_RE.search(name):
+            continue
+        w, h = info.get("width", 0), info.get("height", 0)
+        if w < 400 or h < 300:  # vyřaď ikonky / proužky
+            continue
+        meta = info.get("extmetadata", {})
+        desc = _strip_html(meta.get("ImageDescription", {}).get("value", ""))
+        obj = _strip_html(meta.get("ObjectName", {}).get("value", ""))
+        # thumbnail URL ~900px přes Special:FilePath nebo přímý url se zmenší v optimize
+        out.append(
+            {
+                "src": info.get("thumburl") or info.get("url"),
+                "name": name,
+                "w": w,
+                "h": h,
+                "desc": desc[:300] or obj[:120],
+            }
+        )
+    # největší (=nejdůležitější) první
+    out.sort(key=lambda x: x["w"] * x["h"], reverse=True)
+    return out
+
+
+def fetch_article_photos(per_platform=6):
+    """Stáhne kandidátní doprovodné fotky z wiki článků platforem + manifest."""
+    from PIL import Image
+    import io
+
+    base = IMG / "platforms" / "extra"
+    base.mkdir(parents=True, exist_ok=True)
+    manifest = {}
+    for slug, title in WIKI.items():
+        try:
+            cand = wiki_article_images(title)
+        except Exception as e:  # noqa
+            print(f"  [x] {slug}: {e}")
+            continue
+        outdir = base / slug
+        outdir.mkdir(exist_ok=True)
+        kept = []
+        idx = 0
+        for c in cand:
+            if idx >= per_platform:
+                break
+            dest = outdir / f"{idx + 1}.webp"
+            try:
+                if not dest.exists():
+                    raw = http_get(c["src"])
+                    im = Image.open(io.BytesIO(raw))
+                    im.thumbnail((760, 760), Image.LANCZOS)
+                    if im.mode not in ("RGB", "RGBA"):
+                        im = im.convert("RGB")
+                    im.save(dest, "WEBP", quality=82, method=6)
+                kept.append(
+                    {
+                        "file": f"/images/platforms/extra/{slug}/{idx + 1}.webp",
+                        "src_name": c["name"],
+                        "desc": c["desc"],
+                    }
+                )
+                idx += 1
+                time.sleep(0.15)
+            except Exception as e:  # noqa
+                print(f"    [skip] {slug} {c['name']}: {e}")
+        manifest[slug] = kept
+        print(f"  [OK] {slug}: {len(kept)} fotek")
+    (ROOT / "tools" / "_article_photos.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Manifest: tools/_article_photos.json ({sum(len(v) for v in manifest.values())} fotek)")
 
 
 # ----------------------------------------------------------------- hry
@@ -553,3 +664,6 @@ if __name__ == "__main__":
     if what == "classify":
         print("=== KLASIFIKACE POZADÍ PLATFOREM ===")
         classify_platform_bg()
+    if what == "article-photos":
+        print("=== DOPROVODNÉ FOTKY DO ČLÁNKŮ (Wikipedia) ===")
+        fetch_article_photos()

@@ -8,6 +8,8 @@ Srdcem konzole je osmibitový procesor **Atari SALLY (6502C)** běžící zhruba
 
 Slabinou byl naopak **zvuk**. Konzole se totiž spoléhala na starý čip **TIA** zděděný z Atari 2600, který nabízel jen dva jednoduché kanály a zvukově patřil do předchozí generace. MARIA navíc zabírala tolik systémových prostředků, že na hudbu zbývalo málo výkonu. Atari proto počítalo s tím, že náročnější hry dostanou zvukový čip **POKEY** přímo do kartridže – povedlo se to ale jen u hrstky titulů, například u dómácí verze **Ballblazeru**. Většina her tak zní výrazně chudší, než jak vypadá.
 
+<figure class="article-photo"><img src="/images/platforms/extra/atari-7800/1.webp" alt="Americký Atari 7800 s joystickem" loading="lazy"><figcaption>Americký Atari 7800 s joystickem</figcaption></figure>
+
 ### Propojení a periferie
 
 Atari 7800 vycházelo z osvědčeného standardu staršího bratra. Konzole měla **dva porty pro ovladače** kompatibilní s konektorem Atari 2600, takže fungovaly i klasické joysticky. V balení byl dodáván dvoutlačítkový **ovladač s číselníkem (Pro-Line)**, který ovšem mnozí hráči kvůli ergonomii příliš nemilovali. Díky kompatibilitě se starším systémem šlo používat i pádla (paddly) pro hry, které je vyžadovaly.

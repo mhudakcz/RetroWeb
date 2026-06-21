@@ -8,15 +8,21 @@ Srdcem prvního MSX byl osmibitový procesor **Zilog Z80A** taktovaný na 3,58 M
 
 Skutečný skok přinesl v roce 1985 **MSX2**. Nový videočip **Yamaha V9938** zvládal rozlišení až 512×212, paletu **512 barev** (s režimy zobrazujícími 16 nebo 256 barev současně) a hlavně **hardwarový scrolling a bitmapové režimy**, které z MSX2 udělaly výrazně schopnější herní stroj. Pozdější **MSX2+** přidal plynulé horizontální rolování a další barevné režimy; finální **MSX turbo R** (1990) nasadil rychlejší procesor R800. Mnoho japonských strojů navíc obsahovalo Yamahův zvukový čip, na který navazovaly i rozšiřující hudební moduly.
 
+<figure class="article-photo"><img src="/images/platforms/extra/msx/2.webp" alt="Počítač Dynadata DPC 200 s disketovou mechanikou" loading="lazy"><figcaption>Počítač Dynadata DPC 200 s disketovou mechanikou</figcaption></figure>
+
 ### Propojeni a periferie
 
 MSX byl plnohodnotný počítač, takže měl klávesnici — některé hry ji vyžadují a na handheldech to bývá jediná komplikace emulace. Standard počítal se **dvěma porty pro joystick** (kompatibilní s konektorem Atari), takže hru pro dva hráče šlo hrát bez problémů. Klíčovým prvkem byl **cartridge slot** (často dva), do kterého se zapojovaly herní moduly i rozšíření, a port pro **kazetový magnetofon** k ukládání programů. Později se rozšířily **disketové mechaniky** (3,5"), které se staly hlavním médiem zejména v Evropě.
 
 Mezi periferie patřily myš, light pen, datová úložiště i hudební moduly. Vlastní kapitolou jsou rozšiřující zvukové cartridge jako **Konami SCC**, díky kterému zněly pozdější Konami hry (například Space Manbow nebo Nemesis 2) výrazně bohatěji než standardní AY čip. Některé moduly přinášely **FM syntézu** (Yamaha OPLL), takže audio MSX dokázalo přerůst svůj skromný základ.
 
+<figure class="article-photo"><img src="/images/platforms/extra/msx/3.webp" alt="Sony MSX HitBit HB-10P z 80. let" loading="lazy"><figcaption>Sony MSX HitBit HB-10P z 80. let</figcaption></figure>
+
 ### Modely a revize
 
 Standard se vyvíjel v jasně daných generacích. **MSX (1983)** byl základ se Z80 a čipem TMS9918. **MSX2 (1985)** přinesl Yamahu V9938, větší paletu a více paměti. **MSX2+ (1988)** rozšířil grafiku o plynulý scrolling a nové barevné režimy a zůstal prakticky výhradně japonskou záležitostí. Vrcholem byl **MSX turbo R (1990)** od Panasonicu s 16bitově laděným procesorem R800. Uvnitř každé generace pak existovaly desítky konkrétních modelů od různých výrobců — od kompaktních strojů Sony řady HitBit přes Philips VG-8000 po Panasonicy FS — které se lišily pamětí, počtem slotů či vestavěnými mechanikami, ale díky standardu zůstávaly vzájemně kompatibilní.
+
+<figure class="article-photo"><img src="/images/platforms/extra/msx/4.webp" alt="Domácí počítač Philips VG-8020" loading="lazy"><figcaption>Domácí počítač Philips VG-8020</figcaption></figure>
 
 ### Klony a varianty
 
