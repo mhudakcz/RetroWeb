@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GameCard from '../../components/GameCard.astro';
-import { allGames, platforms, stats, FLAG_LABEL } from '../../lib/data';
+import { allGames, stats, FLAG_LABEL, platformsByType } from '../../lib/data';
 
 const flagKeys = Object.keys(FLAG_LABEL) as (keyof typeof FLAG_LABEL)[];
 const norm = (s: string) =>
@@ -9,6 +9,25 @@ const norm = (s: string) =>
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase();
+
+const platformGroups = platformsByType();
+
+// Žánrové kategorie pro filtr (klíč, popisek, vzor proti poli genre)
+const GENRE_CATS: [string, string, RegExp][] = [
+  ['platformer', 'Plošinovky', /platform/i],
+  ['action', 'Akční', /action|run & gun|beat|hack|shinobi/i],
+  ['rpg', 'RPG / JRPG', /rpg|role/i],
+  ['metroidvania', 'Metroidvanie', /metroidvania/i],
+  ['fighting', 'Bojovky', /fighting/i],
+  ['shooter', 'Střílečky', /shoot|shmup|stříleč|gun|run & gun/i],
+  ['racing', 'Závodní / auta', /racing|závod|driving|kart|racer/i],
+  ['puzzle', 'Logické', /puzzle|logick|sokoban|match/i],
+  ['adventure', 'Adventury', /adventure|point/i],
+  ['strategy', 'Strategie / Sim', /strateg|\bsim\b|sim |tactic|management|tycoon|budování/i],
+  ['sport', 'Sport', /sport|tennis|golf|soccer|fotbal|skat|fishing|bowling/i],
+];
+const genreCats = (genre: string | null): string[] =>
+  genre ? GENRE_CATS.filter(([, , re]) => re.test(genre)).map(([k]) => k) : [];
 ---
 
 <Base title="Hry" description={`Procházejte ${stats.games} her napříč ${stats.platforms} platformami. Filtrujte podle platformy, homebrew, must-play nebo logických her.`}>
@@ -22,7 +41,15 @@ const norm = (s: string) =>
       <input id="q" type="search" placeholder="🔍 Hledat hru…" autocomplete="off" aria-label="Hledat hru" />
       <select id="platform" aria-label="Filtrovat platformu">
         <option value="">Všechny platformy</option>
-        {platforms.map((p) => <option value={p.slug}>{p.name}</option>)}
+        {platformGroups.map((grp) => (
+          <optgroup label={grp.label}>
+            {grp.items.map((p) => <option value={p.slug}>{p.name}</option>)}
+          </optgroup>
+        ))}
+      </select>
+      <select id="genre" aria-label="Filtrovat žánr">
+        <option value="">Všechny žánry</option>
+        {GENRE_CATS.map(([k, label]) => <option value={k}>{label}</option>)}
       </select>
       <div class="chips" role="group" aria-label="Filtry">
         {flagKeys.map((f) => (
@@ -44,6 +71,7 @@ const norm = (s: string) =>
               data-name={norm(g.name.replace(/[*_\x60]/g, ''))}
               data-platform={g.platform.slug}
               data-flags={g.flags.join(' ')}
+              data-genre={genreCats(g.genre).join(' ')}
               data-detail={g.article || g.detail ? '1' : '0'}
             >
               <GameCard game={g} platform={g.platform} showPlatform />
@@ -59,6 +87,7 @@ const norm = (s: string) =>
 <script>
   const q = document.getElementById('q') as HTMLInputElement;
   const platform = document.getElementById('platform') as HTMLSelectElement;
+  const genre = document.getElementById('genre') as HTMLSelectElement;
   const grid = document.getElementById('grid')!;
   const cells = Array.from(grid.querySelectorAll<HTMLElement>('.cell'));
   const countEl = document.getElementById('count')!;
@@ -74,6 +103,7 @@ const norm = (s: string) =>
   function apply() {
     const term = norm(q.value.trim());
     const plat = platform.value;
+    const gen = genre.value;
     let shown = 0;
     for (const cell of cells) {
       const name = cell.dataset.name ?? '';
@@ -81,6 +111,7 @@ const norm = (s: string) =>
       let ok = true;
       if (term && !name.includes(term)) ok = false;
       if (plat && cell.dataset.platform !== plat) ok = false;
+      if (gen && !(cell.dataset.genre ?? '').split(' ').includes(gen)) ok = false;
       if (needDetail && cell.dataset.detail !== '1') ok = false;
       for (const f of activeFlags) if (!flags.includes(f)) ok = false;
       cell.hidden = !ok;
@@ -92,6 +123,7 @@ const norm = (s: string) =>
 
   q.addEventListener('input', apply);
   platform.addEventListener('change', apply);
+  genre.addEventListener('change', apply);
   for (const chip of chips) {
     chip.addEventListener('click', () => {
       if (chip.dataset.detail) {
@@ -126,7 +158,8 @@ const norm = (s: string) =>
     margin-top: 24px;
   }
   #q,
-  #platform {
+  #platform,
+  #genre {
     height: 44px;
     padding: 0 14px;
     border-radius: 10px;
@@ -141,7 +174,8 @@ const norm = (s: string) =>
     min-width: 220px;
   }
   #q:focus,
-  #platform:focus {
+  #platform:focus,
+  #genre:focus {
     border-color: var(--accent);
     outline: none;
   }

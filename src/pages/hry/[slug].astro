@@ -64,6 +64,19 @@ const playtime = playtimeLabel(game.length, game.est);
       </div>
     </header>
 
+    {
+      shots.length > 0 && (
+        <section class="shotbar">
+          {shots.map((s) => (
+            <figure>
+              <img src={s.src} alt={`${game.name.replace(/[*_\x60]/g, '')} – ${s.label}`} loading="lazy" decoding="async" />
+              <figcaption>{s.label}</figcaption>
+            </figure>
+          ))}
+        </section>
+      )
+    }
+
     {game.teaser && (
       <p class="teaser" set:html={mdInline(game.teaser)}></p>
     )}
@@ -97,22 +110,6 @@ const playtime = playtimeLabel(game.length, game.est);
             </a>
           )}
         </div>
-      )
-    }
-
-    {
-      shots.length > 0 && (
-        <section class="gallery">
-          <h2>Galerie</h2>
-          <div class="shots">
-            {shots.map((s) => (
-              <figure>
-                <img src={s.src} alt={`${game.name.replace(/[*_\x60]/g, '')} – ${s.label}`} loading="lazy" decoding="async" />
-                <figcaption>{s.label}</figcaption>
-              </figure>
-            ))}
-          </div>
-        </section>
       )
     }
 
@@ -260,39 +257,32 @@ const playtime = playtimeLabel(game.length, game.est);
   .no-detail a {
     color: var(--accent);
   }
-  .gallery {
-    margin-top: 40px;
-  }
-  .gallery h2 {
-    font-size: 1.4rem;
-    margin-bottom: 16px;
-  }
-  .shots {
+  .shotbar {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 16px;
+    margin: 22px 0 26px;
   }
-  .shots figure {
+  .shotbar figure {
     margin: 0;
-    background:
-      radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 60%),
-      var(--surface);
+    background: #0b0c11;
     border: 1px solid var(--border-soft);
     border-radius: var(--radius);
     overflow: hidden;
   }
-  .shots img {
+  .shotbar img {
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: contain;
     background: #0b0c11;
     image-rendering: pixelated;
   }
-  .shots figcaption {
+  .shotbar figcaption {
     padding: 8px 12px;
     font-size: 0.82rem;
     color: var(--muted);
     font-weight: 600;
+    text-align: center;
   }
   .related {
     margin-top: 48px;
