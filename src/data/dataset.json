@@ -1279,8 +1279,14 @@
           "teaser": "Rychlá homebrew arkáda; chytneš se ovcí a stoupáš.",
           "detail": "Jednoduchá, návyková arkáda o honbě za skóre: chytáš se stoupajících ovcí spojených provázky a šplháš vzhůru, zatímco se zvedá smrtící pole. Krátké session, snadné na pochopení, těžké na mistrovství. Půvabný kousek nové GB scény.",
           "article": "Některé hry vás chytnou za límec a nepustí — a **Sheep It Up!** to dělá doslova. Tahle homebrew arkáda z roku 2017 od **Ferrante Crafts** staví na jednom svižném, okamžitě pochopitelném nápadu: chytáte se stoupajících ovcí spojených provázky a šplháte po nich vzhůru, zatímco se zespodu zvedá smrtící pole, které vás nesmí dohnat.\n\nMechanika je půvabně jednoduchá. Žádné menu plné možností, žádný táhlý tutoriál — jen vy, řada ovcí stoupajících k nebi a neúprosný tlak zdola, který vás nutí pořád stoupat. Pustíte se jedné ovce, chytíte se další, načasujete přeskok přesně, nebo skončíte pod hranicí smrti. Je to ryzí honba za skóre, kde se každá session počítá v desítkách sekund a každý rekord svádí k dalšímu pokusu.\n\nPřesně tahle smyčka je důvod, proč arkády nikdy nevymřou. **Snadné na pochopení, těžké na zvládnutí** — to je princip, který fungoval na automatech v osmdesátých letech a funguje i na Game Boyi v kapse. Sheep It Up! ho ctí beze zbytku: nikdy vás nezahltí, nikdy vás nenudí vysvětlováním, jen vás pošle nahoru a nechá vás zjistit, jak vysoko se dostanete, než vás reflexy zradí.\n\nHra je zároveň milým kouskem nové Game Boy scény. Je to plnohodnotný, vyladěný titul napsaný pro skutečný hardware, ne pouhý vtip nebo techdemo — důkaz, že kolem této konzole stále tvoří lidé, kteří jí rozumí a baví je její limity. Půvabný pixelový design ovcí a svižné tempo z ní dělají ideálního společníka na pár minut čekání, které se snadno protáhnou v půlhodinu.\n\nNa Sheep It Up! je sympatické i to, jak málo po vás chce. Nemusíte nic odemykat, nikam postupovat, nic si pamatovat mezi spuštěními — prostě zapnete a hrajete. Tahle bezprostřednost je dnes vzácná, kdy se i nejmenší hry snaží navázat hráče dlouhými metami a sbíráním. Tady proti vám stojí jen vlastní rekord a chuť ho překonat, a to je v jádru přesně to, proč arkády vznikly. Je to čistá radost ze hry zbavená všeho ostatního.\n\nPokud máte rádi čisté, okamžité arkádové výzvy bez balastu a fascinuje vás živá komunita tvořící nový obsah pro Game Boy, je Sheep It Up! přesně to, co hledáte. Malé, sebevědomé, návykové — a přesně toho druhu, ke kterému se budete vracet pokaždé, když budete mít volnou minutu a chuť posunout svůj rekord o kousek výš.\n\n**Proč hrát:** Svižná homebrew arkáda o šplhání po ovcích, která ztělesňuje nesmrtelný princip „snadné pochopit, těžké zvládnout\" a perfektně sedne na krátké session.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/game-boy/game-boy__sheep-it-up-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy/game-boy__sheep-it-up-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -5344,8 +5350,14 @@
           "teaser": null,
           "detail": null,
           "article": "Někdy se stane, že nová hra pro starou konzoli působí přesvědčivěji než leckterý dobový originál. Lizard je přesně takový případ: rozsáhlé dobrodružství pro Nintendo NES, které spojuje plošinovkovou akci s prozkoumáváním a důmyslnou mechanikou, jež staví na jediném, zdánlivě prostém nápadu.\n\nTím nápadem jsou boty. Hlavní postava může do různých druhů obuvi obouvat malé ještěrky, přičemž každý pár dává jiné schopnosti a otevírá nové cesty propojeným světem. Z obyčejné chůze se tak stává hádanka i nástroj objevování, kdy hráč neustále přemýšlí, kterou kombinaci použít, aby se dostal dál nebo odhalil skrytý kout.\n\nLizard navíc nejde cestou lineárního postupu. Svět je otevřený k prozkoumávání, plný odboček, tajemství a momentů, kdy si sami určujete, kam se vydáte. Tato volnost dává hře dobrodružný nádech, který v dobových NES titulech najdeme spíš výjimečně, a podtrhuje ji výtvarně nápaditá, místy až snová grafika.\n\nZ pohledu vývoje jde o homebrew titul vzniklý dlouho po konci komerčního života konzole, který ale vyšel i ve fyzické podobě na cartridge. To z něj činí jeden z příkladů, jak daleko se posunula schopnost současných autorů pracovat s osmibitovým hardwarem a vytvořit hru s vlastní identitou, nikoli jen poctu starým časům.\n\nKulturně Lizard zapadá do širšího proudu nezávislé NES scény, která dokazuje, že platforma stará desítky let dokáže stále hostit svébytná, kreativní díla. Pro hráče, kteří mají rádi objevování a netradiční mechaniky, představuje příjemně osvěžující zkušenost mimo vyšlapané cestičky.\n\n**Proč hrát:** Originální dobrodružství s nápaditou mechanikou bot a otevřeným světem, které ukazuje NES z nečekaně tvůrčí stránky.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__lizard-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__lizard-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -5364,8 +5376,14 @@
           "teaser": "Povedené komunitní tituly; důkaz, že NES žije.",
           "detail": "Povedené komunitní tituly současné NES scény (puzzle-plošinovka, Tetris-like puzzle, plošinovka). Důkaz, že NES je dnes nejživější homebrew platforma — nástroje i komunita jsou tak vyspělé, že vznikají hry srovnatelné s dobovými.",
           "article": "Že je Nintendo NES dávno mrtvou platformou? Witch n' Wiz je jedním z mnoha důkazů, že opak je pravdou. Tahle puzzle-plošinovka pochází ze současné komunitní scény a patří mezi tituly, které svou kvalitou a vyladěností klidně snesou srovnání s dobovými hrami z osmdesátých a devadesátých let.\n\nHerně jde o promyšlenou kombinaci hádanek a plošinovkového pohybu. Místo nahodilé akce hra spoléhá na rozvážné uvažování: každá místnost je malou logickou výzvou, kde musíte odhadnout správné pořadí kroků, využít prostředí a domyslet následky svých tahů. Postup je rozdělen do zvládnutelných úseků, takže hra hezky odměňuje trpělivost i experimentování.\n\nWitch n' Wiz vyniká hlavně tím, jak čistě je navržená. Ovládání je srozumitelné, obtížnost stoupá plynule a jednotlivé hádanky jsou postavené férově, takže když selžete, víte, že chyba byla na vaší straně. To je u logických her klíčové a právě tady je vidět zkušenost a cit autorů z dnešní homebrew komunity.\n\nVývojově titul zapadá do vlny her, které pro NES vznikají v posledních letech díky vyspělým nástrojům a aktivní komunitě. Právě dostupnost těchto nástrojů a sdílených znalostí je dnes tak velká, že NES je možná nejživější homebrew platformou vůbec, a vznikají na ní hry srovnatelné s dobovou produkcí.\n\nKulturně tak Witch n' Wiz reprezentuje fenomén, kdy se stará konzole stává plnohodnotnou tvůrčí platformou pro nové autory. Pro fanoušky logických her i pro ty, kdo chtějí vidět, kam až dnešní NES scéna dospěla, je to vděčný a chytře navržený kousek.\n\n**Proč hrát:** Férová a vyladěná puzzle-plošinovka, která je živým důkazem, jak silná a tvůrčí je dnešní homebrew scéna kolem NES.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__witch-n-wiz-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__witch-n-wiz-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -5402,8 +5420,14 @@
           "teaser": null,
           "detail": null,
           "article": "Vesmírná plošinovka pro Nintendo NES, která vypadá, jako by sjela z dobové výrobní linky, a přitom vznikla mnohem později. Nebs 'n Debs je svižná akční hra, jež na osmibitovém hardwaru předvádí, kolik energie a nápadu se dá vtěsnat do zdánlivě prostého žánru.\n\nZákladem je klasická plošinovková akce: skákání, vyhýbání se nepřátelům a překonávání nástrah napříč úrovněmi. Hra klade důraz na přesný pohyb a tempo, takže každý skok a každý dopad má váhu. Díky tomu si zachovává onu příjemnou rovnováhu mezi výzvou a zábavou, kterou nejlepší plošinovky na NES vždy měly.\n\nTo, čím Nebs 'n Debs zaujme, je technické provedení. Hra využívá schopnosti NES s citem pro detail, ať už jde o plynulý scrolling, barevné prostředí nebo čitelnou animaci. Výsledek působí dobově věrohodně a zároveň uhlazeně, což svědčí o tom, že autoři dobře znají možnosti i limity platformy.\n\nVývojově jde o titul ze současné homebrew scény, který stejně jako řada dalších vyšel i na fyzické cartridge pro reálné NES. Tím navazuje na původní distribuční model a stává se součástí komunity, jež osmibitovou konzoli udržuje při životě desítky let po jejím vrcholu.\n\nKulturně Nebs 'n Debs ilustruje, že NES dnes není jen předmětem nostalgie, ale i platformou pro novou tvorbu. Pro milovníky rychlých plošinovek představuje příjemně přístupný kousek, který nabídne dobový pocit z hraní bez toho, aby působil archaicky.\n\n**Proč hrát:** Svižná vesmírná plošinovka s vyladěným ovládáním a dobově věrným provedením, ideální pro fanoušky klasické NES akce.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__nebs-n-debs-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__nebs-n-debs-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -5422,8 +5446,14 @@
           "teaser": null,
           "detail": null,
           "article": "Padající bloky a tikající čas: logické hry tohoto typu mají schopnost vás vtáhnout na celé hodiny a From Below pro Nintendo NES tuto závislost přivádí zpět na osmibitovou obrazovku. Jde o puzzle titul postavený na jasném principu a rychlém rozhodování, tedy přesně na tom, co dělá hádankové hry tak návykovými.\n\nHerně se točí kolem skládání a odstraňování prvků, kde musíte reagovat na měnící se situaci a plánovat dopředu. Tempo se postupně zrychluje, takže to, co zpočátku zvládáte v klidu, vás později nutí k bleskovým rozhodnutím. Právě tato gradace tlaku je u puzzle her klíčová a From Below s ní pracuje cíleně.\n\nKouzlo titulu spočívá v jeho přístupnosti. Pravidla pochopíte během chvíle, ale jejich zvládnutí na vyšší úrovni vyžaduje cvik a předvídavost. Tahle nízká vstupní bariéra a vysoký strop dovednosti jsou znakem dobře navržené logické hry, ke které se budete rádi vracet pro lepší skóre.\n\nFrom Below pochází z dnešní nezávislé NES scény, která dává osmibitové konzoli nový život prostřednictvím moderních nástrojů a aktivní komunity. Podobné tituly často vycházejí i ve fyzické podobě a dokazují, že žánr arkádových hádanek se na tomto hardwaru cítí jako doma i po desítkách let.\n\nKulturně se hra řadí k důkazům, že NES zůstává plodnou platformou pro tvůrce i hráče. Pro fanoušky logických her, kteří hledají rychlou a chytlavou výzvu v retro kabátě, je to vděčná volba na krátké i delší sezení.\n\n**Proč hrát:** Chytlavá arkádová hádanka s jednoduchými pravidly a rostoucím tempem, která připomíná, proč jsou puzzle hry tak návykové.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__from-below-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__from-below-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -16736,8 +16766,14 @@
           "teaser": null,
           "detail": null,
           "article": "Twi'lečka jako hlavní hrdinka a po jejím boku bojový droid – *Lethal Alliance* vsadilo na dvojici, která ve světě Star Wars nepatří mezi okoukané archetypy, a postavilo na ní akční hru šitou na míru kapesní konzoli. Místo dalšího Jediho s mečem dostáváte žoldnéřku Rianu Saren a jejího společníka Zeebo, a hra z téhle spolupráce dělá svou hlavní mechaniku.\n\nZáklad tvoří akce z pohledu třetí osoby s důrazem na souboje, krytí a využívání droida jako parťáka. Zeebo dokáže hackovat, dosáhnout tam, kam vy ne, a obecně otevírat cesty, které byste sami nezdolali. Tahle dynamika dua je to, čím se titul snaží odlišit od běžné kapesní střílečky – kombinujete vlastní palebnou sílu s pomocníkem a postupně se prokousáváte úrovněmi.\n\nDěj zasazuje hru do období původní trilogie a točí se kolem plánů Hvězdy smrti, čímž se napojuje na jeden z nejikoničtějších motivů celé ságy. Pro PSP to byla snaha nabídnout svižné, akční dobrodružství v laskavé délce na cesty – nic, co by se rozplývalo v desítkách hodin, ale spíš pevně sevřený zážitek.\n\nNa malé obrazovce hra řeší věčný problém ručních akčních titulů: jak zvládnout míření a pohyb na jediném analogovém páčku. Volí proto design, který se opírá o přehledné situace a využití parťáka, místo aby vás trápil náročnou manuální přesností. Vizuálně se drží stylu doby a snaží se udržet rozpoznatelnou atmosféru Star Wars i v omezeném měřítku.\n\nMezi spoustou Star Wars titulů té éry je *Lethal Alliance* zajímavé hlavně volbou hrdinky a parťáckým konceptem. Není to velkolepá vlajková loď série, ale poctivá kapesní akce, která ví, na jaké platformě běží, a podle toho staví své tempo i nároky.\n\n**Proč hrát:** Když chcete svižnou Star Wars akci na PSP s netuctovou hrdinkou a droidím parťákem, kolem nějž se točí celá hratelnost.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/psp/psp__star-wars-lethal-alliance-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/psp/psp__star-wars-lethal-alliance-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -16753,8 +16789,14 @@
           "teaser": null,
           "detail": null,
           "article": "Kdo si zamiloval tahovou válku ve stylu „ještě jeden tah a jdu spát\", ten v *Field Commanderu* na PSP najde svého kapesního spojence. Tahle strategie přenáší klasickou hexovou, respektive čtvercovou válku na ruční konzoli a sází na to nejlepší, co žánr nabízí: jasná pravidla, hluboké rozhodování a uspokojivý pocit z dobře naplánovaného úderu.\n\nPrincip je čistě tahový. Velíte jednotkám na mapě rozdělené do polí, obsazujete strategické body, hromadíte zdroje a posíláte do boje pozemní, vzdušné i námořní síly. Každý typ jednotky má své silné a slabé stránky, takže nejde jen o přesilu, ale o správné nasazení správné jednotky na správném místě. Terén hraje roli, postavení rozhoduje a unáhlený tah vás může stát celou kampaň.\n\nPro PSP byla tahová strategie přirozenou volbou – nevyžaduje rychlé reflexy ani komplikované ovládání, takže se skvěle hodí ke krátkým i delším seancím na cestách. Můžete partii kdykoli odložit a vrátit se k ní, což z titulu dělá ideálního společníka do tramvaje i na dlouhé čekání.\n\nVedle kampaně, která vás postupně učí mechaniky a staví před stále náročnější situace, tu obvykle bývá prostor i pro souboje proti dalšímu hráči, kde se naplno projeví hloubka systému. Právě v přímém střetu dvou taktiků vynikne, jak důležité je předvídat soupeřovy tahy a chránit si vlastní pozice.\n\nV době, kdy ruční konzole hladověly po pořádných strategiích, byl *Field Commander* vítaným přírůstkem pro každého, kdo má rád promyšlenou válku bez stresu z časomíry. Není to okázalá podívaná, ale poctivá tahová látka, která odměňuje trpělivost a chytré plánování.\n\n**Proč hrát:** Pro milovníky tahové strategie, kteří chtějí přehlednou hexovou válku do kapsy s návykovým „ještě jeden tah\" efektem.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/psp/psp__field-commander-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/psp/psp__field-commander-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -16770,8 +16812,14 @@
           "teaser": null,
           "detail": null,
           "article": "Dvojí porce tahové války v jednom – tohle spojení staví vedle sebe rozšíření klasické vojenské strategie a výlet do temné budoucnosti Warhammeru 40 000. Pro fanoušky promyšlených bitev na PSP to znamenalo hned několik důvodů, proč nechat konzoli ve spánkovém režimu jen výjimečně.\n\n*Field Commander: Theatre of War* navazuje na tahovou válku, kde velíte jednotkám na mapě rozdělené do polí, obsazujete klíčové pozice a kombinujete pozemní, vzdušné i námořní síly. Důraz leží na terénu, postavení a správném načasování úderu – tedy na všem, co dělá tahovou strategii tak návykovou. Je to kapesní zábava střižená pro hráče, kteří si rádi vychutnají každý tah.\n\n*Warhammer 40k: Squad Command* posouvá důraz jinam: do ponuré, válkou rozervané budoucnosti, kde velíte malému oddílu Space Marines proti přesile. Tahle hra klade větší důraz na zničitelné prostředí a taktiku menších jednotek – místo velkých armád řešíte boj o krytí, palebné linie a přežití hrstky elitních vojáků. Atmosféra zoufalého střetu, pro kterou je univerzum 40K proslulé, se snaží prosadit i na malé obrazovce.\n\nObě hry spojuje láska k tahovému boji, ale liší se měřítkem i náladou. Zatímco strategie ve stylu *Field Commanderu* je o velení celé válečné mašinérii, *Squad Command* je intimnější, drsnější a více o jednotlivých vojácích, které nechcete ztratit. Pro PSP šlo o vítané rozšíření žánru, jenž na ruční konzoli vždy fungoval skvěle díky možnosti hru kdykoli odložit.\n\nDohromady tvoří lákavou nabídku pro každého taktika, který chce na cestách víc než jen rychlou akci. Ať už dáváte přednost klasické válce o mapu, nebo brutálnímu sci-fi boji o přežití, najdete tu hloubku, která odměňuje chytré plánování.\n\n**Proč hrát:** Pro fanoušky tahové taktiky, kteří chtějí jak klasickou válku o mapu, tak ponurý sci-fi boj malého oddílu ve světě Warhammeru 40K.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/psp/psp__field-commander-theatre-of-war-warhammer-40k-squad-command-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/psp/psp__field-commander-theatre-of-war-warhammer-40k-squad-command-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -17716,7 +17764,7 @@
           "teaser": "Rare sci-fi střílečka; ambiciózní.",
           "detail": "Sci-fi střílečka z třetí osoby s prozkoumáváním planet a záchranou mimozemských „Tribals\" (musíš zachránit všechny pro postup). Ambiciózní a rozsáhlá, technicky působivá. Podceňovaná kvůli ovládání zaměřování.",
           "article": "Mimozemská invaze, planety k prozkoumání, hordy hmyzích nepřátel a parta hrdinů s těžkými zbraněmi, tak vypadá ambiciózní svět **Jet Force Gemini**, sci-fi střílečky z třetí osoby, kterou studio **Rare** vypustilo na Nintendo 64 v roce **1999**. Bylo to období, kdy Rare chrlilo jeden technicky působivý titul za druhým, a tahle hra patřila k jejich nejodvážnějším.\n\nHráč se ujímá několika postav a putuje napříč planetami, kde čistí prostředí od nepřátel a hlavně zachraňuje malé chlupaté tvory zvané Tribals. A právě tady je ten typický Rare zádrhel: pro postup ve hře musíte zachránit úplně všechny, což znamená, že nestačí jen prostřílet se vpřed. Jediný omylem zabitý Tribal vás nutí prozkoumávat úrovně znovu a pečlivěji, což hru proměňuje v kombinaci akce, sbírání a důkladného prozkoumávání.\n\nTechnicky šlo o pastvu pro oči. Detailní prostředí, množství nepřátel na obrazovce, propracovaný design světů i nápaditý bestiář ukazovaly, kam až dokázalo Rare hardware N64 hnát. Ambice byla cítit z každého koutu, ať už šlo o rozsah lokací, nebo o snahu kombinovat několik žánrových přístupů do jednoho velkého dobrodružství.\n\nHra si přesto vysloužila pověst podceňovaného titulu, a to hlavně kvůli ovládání míření. Zaměřování bylo na svou dobu netradiční a pro mnohé hráče těžkopádné, což odradilo část publika, které jinak mohlo objevit jednu z nejnápaditějších stříleček konzole. Je to klasický příklad hry, jejíž nápady a atmosféra předběhly to, jak pohodlně se s ní ovládalo.\n\nPro fanoušky Rare a sběratele zlaté éry N64 ale zůstává Jet Force Gemini fascinujícím kusem, který stojí za to dát šanci, obzvlášť pokud vám nevadí osahat si trochu nezvyklé ovládání a necháte se vtáhnout do jeho rozlehlého světa.\n\n**Proč hrát:** Pro ambiciózní, technicky působivou Rare sci-fi střílečku s rozsáhlými světy, která si zaslouží druhou šanci i přes svérázné míření.",
-          "image": null,
+          "image": "/images/games/n64/n64__jet-force-gemini-title.webp",
           "gallery": [
             {
               "src": "/images/games/n64/n64__jet-force-gemini-snap.webp",
@@ -22507,8 +22555,14 @@
           "teaser": null,
           "detail": "Matthew Smith (tehdy teenager) vytvořil dvě nejikoničtější Spectrum hry. Manic Miner je tuhá jednoobrazovková plošinovka s prvním nepřetržitým in-game soundtrackem na Spectru. Jet Set Willy je obří propojené sídlo (60+ místností). Symboly britské 8bit éry.",
           "article": "Klávesnice cvaká, z reproduktoru gumového Spectra se line jednoduchá melodie a vy padáte vstříc jisté smrti už po druhém skoku. Vítejte v **Manic Mineru**, jedné z her, které definovaly, co znamenalo hrát na britském 8bitu.\n\nManic Miner je tuhá jednoobrazovková plošinovka, kde jako horník Willy procházíte sérií pečlivě navržených obrazovek plných pohyblivých nepřátel, mizejících podlah a smrtících pastí. Cílem každé úrovně je posbírat všechny blikající předměty, otevřít východ a dostat se dál dřív, než vám dojde kyslík. Žádná druhá šance, žádné checkpointy uprostřed obrazovky - chyba znamená návrat na začátek levelu a okamžité přehodnocení každého milimetru skoku.\n\nNa hru je navázané jméno, které zná každý fanoušek Spectra: **Matthew Smith**, tehdy ještě teenager. To, co dokázal vměstnat do pár kilobajtů paměti, ohromuje dodnes. Manic Miner je proslulý tím, že přinesl jeden z prvních nepřetržitých in-game soundtracků na ZX Spectru - zatímco jste hráli, hrála hudba, což byl na stroji s jednokanálovým pípákem skoro zázrak. Bizarní nepřátelé jako poskakující záchodová prkénka nebo chodící telefony navíc dodali hře svérázný, lehce surreální humor.\n\nObtížnost je nemilosrdná a přesně v tom tkví její kouzlo. Manic Miner patří k titulům, které vás nutí pamatovat si vzorce, trénovat timing a opakovat tytéž obrazovky tak dlouho, dokud se z frustrace nestane čistá radost z dokonale provedeného průchodu. Je to škola trpělivosti převlečená za hru.\n\nKulturně jde o jeden ze symbolů zlaté éry britských 8bitových her. Spolu s pozdějším Jet Set Willy se Manic Miner stal jakousi vlajkovou lodí toho, co domácí počítače dokázaly, a inspiroval celé generace tvůrců i hráčů. Dodnes vznikají remaky, klony a hold verze na nejrůznější platformy.\n\n**Proč hrát:** Protože je to ryzí, nekompromisní 8bitová plošinovka, která vás naučí, co znamená skutečná herní disciplína - a u toho si pobrukovat nezapomenutelnou melodii.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__manic-miner-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__manic-miner-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -22623,8 +22677,14 @@
           "teaser": null,
           "detail": "Sbíráš vejce a vyhýbáš se slepicím v jednoobrazovkových úrovních. Jedna z nejhranějších a nejoblíbenějších raných Spectrum plošinovek; nesmrtelně návyková.",
           "article": "Pár plošin, žebříky, hejno rozzuřených slepic a hromada vajec ke sběru - a najednou je půlnoc a vy si říkáte ještě jeden pokus. **Chuckie Egg** je učebnicový příklad toho, jak z naprosto jednoduchého nápadu vznikne návyková klasika.\n\nPrincip je okamžitě srozumitelný: na každé jednoobrazovkové úrovni musíte posbírat všechna vejce, zatímco se proplétáte mezi plošinami a šplháte po žebřících. Ztěžují vám to slepice, které pobíhají po úrovni, a tikající časomíra v podobě ubývajícího zrní - když dojde, máte problém. Čím dál postupujete, tím rafinovaněji jsou obrazovky navržené a tím přesnější musí být vaše skoky a načasování.\n\nHra vyšla v roce 1983 od studia **A&F Software** a rychle se stala jednou z nejhranějších a nejoblíbenějších raných plošinovek na Spectru. Její kouzlo spočívá v dokonalé rovnováze: ovládání je férové, pravidla jednoduchá, ale prostor pro zlepšování prakticky nekonečný. Je to ten typ hry, kde vždycky víte, že chyba byla vaše, a proto se vám hned chce zkusit to líp.\n\nChuckie Egg se dočkal portů na řadu domácích počítačů a stal se jedním z těch titulů, které spojovaly hráče napříč platformami - každý měl svou nejlepší dosaženou úroveň a svůj rekord. Honba za vysokým skóre byla samozřejmou součástí zážitku.\n\nDnes je vnímán jako jeden z pilířů britské 8bitové scény a důkaz, že nadčasová hratelnost nepotřebuje žádné triky. Jednoduchost, čistota a okamžitá srozumitelnost z něj dělají hru, která stárne pomaleji než většina svých soudobých konkurentů.\n\n**Proč hrát:** Pro tu pravou, čistou arkádovou návykovost - jedna z nejlepších raných plošinovek Spectra, u které si vždy řeknete ještě jednou.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__chuckie-egg-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__chuckie-egg-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -22640,8 +22700,14 @@
           "teaser": null,
           "detail": "Vejce s rukavicemi a botami se stalo neoficiálním maskotem Spectra. Kombinace plošinovky a logické adventury (sbírání a používání předmětů). Obří, milovaná série, symbol levných, ale kvalitních britských her (Codemasters).",
           "article": "Vejce s rukavicemi, botami a věčně dobrou náladou se stalo neoficiálním maskotem celého ZX Spectra. **Dizzy** je série, kterou v Británii znal každý, kdo na osmibitu vyrůstal, a dodnes patří k tomu nejmilovanějšímu, co platforma nabídla.\n\nDizzy chytře míchá dva žánry: plošinovkové prozkoumávání a logickou adventuru. Procházíte rozlehlé propojené světy, skáčete přes překážky a hlavně sbíráte předměty, které pak musíte na správných místech kombinovat a používat - klíč k zámku, lano k propasti, jídlo k vyhladovělé postavě. Právě tahle inventářová logika dělá z Dizzyho víc než jen skákačku; je to dobrodružství, kde musíte přemýšlet, kam a proč jít.\n\nZa postavičkou stojí **Oliver Twins** a vydavatelství **Codemasters**, které se proslavilo levnými, ale kvalitními hrami dostupnými širokým masám hráčů. Dizzy se stal jejich vlajkovou lodí a symbolem toho, že i za zlomek ceny velkých titulů se dala koupit hra s vlastní osobitostí, šarmem a hodinami obsahu. Série se rozrostla do mnoha dílů a spin-offů a vejce s očima se objevovalo prakticky všude.\n\nKouzlo Dizzyho spočívá v jeho přívětivosti. Pohádkový svět, vtipné postavy a logické hádanky vytvářejí atmosféru, která je náročná, ale nikdy ne nepřátelská. Charakteristický kutálivý pohyb hlavní postavy navíc dodává hře osobitý pocit, který si fanoušci pamatují dodnes.\n\nKulturně jde o jednu z nejvýznamnějších britských herních značek 8bitové éry. Dizzy reprezentuje celou filozofii dostupného hraní pro každého a zůstává nostalgickým symbolem generace, která svá první dobrodružství zažívala právě s tímhle usměvavým vejcem.\n\n**Proč hrát:** Pro neodolatelnou kombinaci plošinovky a logické adventury s nezaměnitelným šarmem - ikonický maskot Spectra, na kterém vyrostly celé generace.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__dizzy-serie-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__dizzy-serie-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -23037,8 +23103,14 @@
           "teaser": null,
           "detail": "Open-world vesmírný obchod a souboj i na Spectru (viz C64) — technický zázrak vměstnání celé galaxie do pár kB. Vizionářská hra předběhlá o dekády.",
           "article": "Celá galaxie, tisíce planet, obchod, pirátství i smrtelné souboje ve vesmíru — a tohle všechno se vešlo do několika málo kilobajtů osmibitového počítače. **Elite** byla v polovině osmdesátých let zjevení, které předběhlo svou dobu o celé dekády, a její převod na ZX Spectrum v roce 1985 patří k technickým zázrakům platformy.\n\nDvojice **David Braben a Ian Bell** vytvořila pod značkou Firebird hru bez pevného příběhu a bez konce v tradičním slova smyslu. Sedíte v kokpitu lodi Cobra Mk III, startujete s pár kredity a je čistě na vás, co s tím počnete: obchodovat se zbožím mezi planetami, lovit asteroidy, plnit zakázky, nebo se vydat na dráhu piráta a přepadat ostatní. Tahle **otevřenost** byla na svou dobu naprosto bezprecedentní.\n\nTechnickým srdcem hry byly vektorové trojrozměrné modely lodí, vykreslované drátovou grafikou v reálném čase. Doky stanic, soubojové manévry i dokovací sekvence působily jako z jiného světa ve srovnání s běžnou plošinovou produkcí. Geniální trik spočíval v tom, že obří herní vesmír s mnoha galaxiemi a stovkami planet nebyl uložen v paměti, ale **procedurálně dopočítáván** z malého základu — jinak by se do počítače nikdy nevešel.\n\nPostup měřil systém hodností, od počátečního „Harmless\" až po vytouženou metu, podle níž se hra jmenuje — stát se skutečným **Elite** vyžadovalo stovky sestřelených nepřátel a hodiny strávené v kokpitu. Tahle dlouhodobá motivace, kombinovaná se svobodou volby, definovala celý žánr vesmírných simulátorů a obchodních ságy na desetiletí dopředu.\n\nVliv Elite je obtížné přecenit: stála u zrodu open-world her a žánru space tradingu, inspirovala bezpočet následovníků a po letech se dočkala velkolepého návratu v podobě moderního pokračování Elite Dangerous. Verze pro Spectrum přitom zůstává důkazem, jak daleko se dalo zajít i na zdánlivě skromném hardwaru.\n\n**Proč hrát:** Pro pocit naprosté svobody ve vlastní vesmírné lodi a pro setkání s hrou, která vlastnoručně vynalezla open-world i vesmírný trading.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__elite-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__elite-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -23104,8 +23176,14 @@
           "teaser": null,
           "detail": null,
           "article": "Někdy stačí jedna hra, aby se zrodila legenda — a u bratří Stamperů to byl právě Jetpac. Tímhle titulem v roce 1983 odstartovalo studio Ultimate Play the Game svou pohádkovou kariéru a rovnou ukázalo, co dokáže pořádně napsaný strojový kód.\n\nHráč ovládá astronauta Jetmana, který musí sestavit svou raketu z dílů padajících na planetu, natankovat ji palivem a odletět dál — to vše za stálého náporu mimozemských útočníků. Klíčovou mechanikou je **jetpack**, díky němuž se volně vznášíte po obrazovce, sbíráte předměty a střílíte do nepřátel. Jednoduchý princip, ale skvěle vyladěné ovládání a postupné zrychlování dělají z Jetpacu návykovou arkádu, u které se snadno ztratí hodina za hodinou.\n\nVizuálně hra na poměry roku 1983 zářila — barevní, dobře animovaní nepřátelé a svižný pohyb bez výrazného blikání byly důkazem, že Ultimate ze Spectra mačká víc než kdokoli jiný. Studio bratří **Tima a Chrise Stamperových** se rychle stalo synonymem pro špičkovou kvalitu, než se později přerodilo v slavné Rare.\n\nJetpac měl i pokračování (Lunar Jetman a Solar Jetman) a samotný Jetman se stal jakýmsi maskotem značky. Zajímavé je, že hra se o desetiletí později vrátila jako odměna v Rare titulu na Xboxu, čímž si Rare připomnělo vlastní kořeny.\n\nNa Jetpacu je krásně vidět, jak se rodila herní řemeslnost — žádné zbytečnosti, jen čistá, okamžitě uchopitelná zábava, která tehdy nasadila standard pro celou platformu. Pro mnoho majitelů gumáka to byla jedna z prvních her, která naplno ukázala potenciál počítače.\n\n**Proč hrát:** Pro zakladatelskou klasiku Ultimate, jejíž jednoduchá, ale vybroušená arkádová akce baví i po desítkách let.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__jetpac-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__jetpac-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -23138,8 +23216,14 @@
           "teaser": null,
           "detail": null,
           "article": "Existují hry, které se technicky vymykají všemu, co kdo na dané platformě považoval za možné — a La Abadía del Crimen je přesně takový případ. Tahle španělská adventura volně inspirovaná románem Jméno růže Umberta Eca je legendou nejen na Pyrenejském poloostrově.\n\nHráč se vžívá do mnicha Williama z Occamu (obdoba Viléma z Baskervillu), který v ponurém středověkém klášteře vyšetřuje sérii vražd. Hra kombinuje **adventuru s prvky simulace** — musíte dodržovat klášterní rozvrh, chodit na bohoslužby a jídlo, pohybovat se v reálném čase a sledovat svého pomocníka Adsa. Klášter je vykreslen v působivé izometrické perspektivě s plynulým pohybem postav, což na osmibitovém hardwaru působilo téměř zázračně.\n\nZa hrou stojí španělský vývojář **Paco Menéndez** spolu s grafičkou Juanou Ortega; titul vyšel v roce 1987. Původně se měl jmenovat přímo podle Ecova románu, ale kvůli nevyřešeným právům dostal jméno La Abadía del Crimen. Dodnes je považován za jeden z technických a uměleckých vrcholů celé španradské herní scény, tzv. Edad de Oro del software español.\n\nNa svou dobu šlo o mimořádně ambiciózní design: hra trestala hráče za nedodržování řádu, vyžadovala pozorování a dedukci a vyprávěla skutečný příběh s atmosférou. Tahle kombinace simulace prostředí a detektivní zápletky předběhla dobu o celé roky.\n\nLa Abadía del Crimen si vydobyla pověst kultovního díla a dočkala se moderních remaků i překladů, díky nimž ji mohou objevit i hráči mimo španělsky mluvící svět. Pro znalce evropské herní historie jde o nepřehlédnutelný milník.\n\n**Proč hrát:** Pro technicky i atmosféricky výjimečnou detektivní adventuru, která patří k vrcholům španělské osmibitové éry.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__la-abadia-del-crimen-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__la-abadia-del-crimen-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -23211,8 +23295,14 @@
           "teaser": null,
           "detail": null,
           "article": "Tichý průnik do nepřátelské základny, ninja v černém, který se plíží stínem a v pravou chvíli udeří. Saboteur II byl na osmibitových počítačích jedním z prvních titulů, které svým hráčům nabízely něco jako stealth akci dávno předtím, než tento pojem zlidověl.\n\nHra je pokračováním úspěšného Saboteur od Clive Townsenda a posouvá koncept dál: tentokrát se ujímáte role ženské ninjy Niny, která musí proniknout do komplexu, získat disketu s tajnými údaji a uniknout dřív, než vyprší čas. Mechanicky jde o akční plošinovku s prvky průzkumu, kde se prolíná boj, šplhání, vyhýbání se strážím i hlídacím psům a hledání správné cesty propleteným prostředím. Důraz na opatrný postup a zapamatování rozvržení úrovní dával hře svébytné napětí.\n\nNa Spectru a jeho kompatibilních klonech, mezi něž patřily i slovenské počítače Didaktik, se Saboteur II těšil velké oblibě. Didaktik jako tuzemská obdoba ZX Spectra umožnil mnoha hráčům v Československu zažít tehdejší světové hity, a právě akční tituly jako tento patřily k těm nejhranějším.\n\nKulturně je Saboteur II zajímavý i tím, že do hlavní role obsadil ženskou hrdinku v době, kdy to ještě nebylo zdaleka běžné. Spolu s atmosférou inspirovanou východními bojovými uměními a filmovým světem ninjů z osmdesátých let tak hra dobře vystihovala dobové trendy.\n\nPro pamětníky osmibitové éry zůstává Saboteur II symbolem chytře navržené akce, která i na skromném hardwaru dokázala vytvořit pocit napětí a nebezpečí. Je to jeden z titulů, díky nimž si generace hráčů na Spectru a Didaktiku zamilovala žánr akčního průniku.\n\n**Proč hrát:** Pro atmosférickou ninja akci s prvky plížení, která na osmibitech předběhla dobu, a pro kus nostalgie spjaté s domácí scénou Didaktiku.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__saboteur-ii-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__saboteur-ii-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -23230,8 +23320,14 @@
           "teaser": null,
           "detail": null,
           "article": "Vykopat si cestu hlínou, sesbírat diamanty a včas uskočit padajícímu balvanu, to je princip, který už čtyři desetiletí baví hráče napříč generacemi. Boulder Dash je jednou z nejvlivnějších logicko-akčních her vůbec a na osmibitových počítačích se stal absolutní klasikou.\n\nHru původně vytvořili Peter Liepa a Chris Gray a poprvně vyšla v polovině osmdesátých let. Ovládáte postavičku jménem Rockford, který se prokopává jeskyněmi, sbírá potřebný počet diamantů a míří k východu. Genialita spočívá ve fyzice prostředí: balvany a drahokamy podléhají gravitaci, padají, kutálejí se a mohou vás zavalit. Každá úroveň je tak vlastně hlavolam o správném pořadí kopání, kombinovaný s rychlými reflexy a hrozbou nepřátel i tikajícího času.\n\nBoulder Dash se rozšířil prakticky na všechny domácí počítače své doby a stal se předlohou pro nespočet napodobenin a klonů. Na Spectru a kompatibilních strojích, mezi které patřily i slovenské Didaktiky, patřil k titulům, jež si lidé předávali a hráli znovu a znovu, protože jeho princip je nesmrtelný.\n\nVýznam hry dokládá to, jak hluboce ovlivnila celý žánr. Mechanika padajících předmětů a kopání se objevuje v řadě pozdějších her a samotná značka Boulder Dash se dočkala mnoha oficiálních pokračování i moderních verzí na současných platformách.\n\nPro hráče na Didaktiku představoval Boulder Dash ideální spojení přemýšlení a akce: je snadné jej pochopit, ale velmi obtížné dokonale zvládnout. Právě tahle rovnováha z něj udělala nadčasový titul, ke kterému se retro nadšenci rádi vracejí.\n\n**Proč hrát:** Pro nadčasovou kombinaci hlavolamu a akce, která zestárla naprosto minimálně a je stejně chytlavá jako před čtyřiceti lety.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__boulder-dash-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__boulder-dash-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -23247,8 +23343,14 @@
           "teaser": null,
           "detail": null,
           "article": "Skok přes propast, švihnutí nohou do letícího Ninji a okamžitě úhyb před zelenou maskou Yamo – v prvních vteřinách Bruce Lee se naučíte, že tahle hra odpouští jen málokomu. Pro generaci českých a slovenských hráčů, kteří měli místo originálního Sinclairu počítač Didaktik, byl právě tenhle titul jedním z nejhranějších kousků pásků, jež kolovaly mezi kamarády.\n\nBruce Lee původně vytvořil Ron J. Fortier pro Datasoft a vyšel v roce 1984 na celou řadu osmibitů včetně ZX Spectra, jehož je Didaktik plně kompatibilním klonem. Princip je geniálně jednoduchý: procházíte sérií jednoobrazovkových místností, sbíráte lampiony zavěšené ve vzduchu a snažíte se proniknout k poslednímu zlému čaroději. Hra přitom kombinuje plošinovku s bojovými prvky – kopy a údery jsou vaší jedinou zbraní proti dvojici neúnavných protivníků.\n\nClou hry je právě ta nepřátelská dvojice. Yamo, statný zápasník v masce, a černý Ninja se objevují prakticky v každé místnosti a pronásledují vás bez ustání. Co je ale na svou dobu pozoruhodné: ve dvou hráčích mohl jeden ovládat Bruce a druhý převzít kontrolu nad Yamem, takže z kooperace se rázem stal souboj. Tahle jednoduchá, ale chytrá myšlenka dala hře nečekanou znovuhratelnost.\n\nPo grafické stránce Bruce Lee na Spectru nijak neoslňoval, ale animace postav byly na rok 1984 plynulé a čitelné a ovládání reagovalo přesně tak, jak hráč potřeboval u hry založené na časování skoků a úhybů. Právě tahle preciznost ovládání z něj udělala titul, ke kterému se lidé vraceli, dokud nedohráli celý hrad až k závěrečnému střetnutí.\n\nNa Didaktiku, který se v Československu prodával jako dostupnější alternativa k zahraničním počítačům, patřil Bruce Lee mezi naprosté základy každé sbírky. Spolu s dalšími spectrumovskými klasikami formoval to, co si dnešní pamětníci vybaví pod pojmem zlatá éra domácího osmibitového hraní.\n\n**Proč hrát:** Rychlá, návyková a nemilosrdně přesná akční plošinovka, která je dodnes etalonem jednoduchosti dotažené k dokonalosti – a pro pamětníky Didaktiku doslova kus dětství.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__bruce-lee-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__bruce-lee-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         }
@@ -24296,7 +24398,7 @@
           "teaser": null,
           "detail": "MSX2 verze akčních RPG. Ys s „bump\" soubojem a famózní hudbou, Xak (Micro Cabin) jako další kvalitní akční RPG. MSX2 mělo silnou RPG knihovnu, hlavně v Japonsku.",
           "article": "Existují soundtracky, které vám zůstanou v hlavě roky, a hrdinové, kteří se zapíší do dějin žánru – a série Ys nabízí obojí. MSX2 verze Ys I & II přinesla na japonské domácí počítače akční RPG, jež se stalo jedním z pilířů celého žánru a dodnes patří mezi nejcennější tituly platformy.\n\nSrdcem Ys je jeho nezaměnitelný **\"bump\" soubojový systém**: neexistuje tlačítko útoku, místo toho jednoduše narážíte do nepřátel pod správným úhlem a mimo jejich střed. Zní to absurdně jednoduše, ale ve skutečnosti jde o překvapivě plynulý a uspokojivý systém, který udržuje akci svižnou a nepřerušovanou. Spolu s rychlým postupem a pohlcujícím dobrodružstvím to vytváří pocit neustálého pohybu vpřed, jenž Ys odlišil od pomalejších, statičtějších RPG své doby.\n\nNa MSX2 zazářila hra i po technické stránce – a především hudebně. Soundtrack série Ys je legendární, plný energických melodií, které dokonale podtrhují tempo akce, a právě hudba je jedním z hlavních důvodů, proč si fanoušci tuhle značku dodnes tolik váží. MSX2 verze tenhle famózní zvuk přenesla na domácí počítače a pomohla cementovat pověst série jako jedné z nejlepších v oboru.\n\nMSX2 mělo, zejména v Japonsku, mimořádně silnou knihovnu RPG a Ys v ní stálo na čestném místě po boku dalších kvalitních akčních RPG, jako bylo Xak od studia Micro Cabin. Tahle vlna domácích počítačových RPG ukázala, že akční pojetí žánru má své pevné místo, a připravila půdu pro dlouhou a úspěšnou budoucnost, kterou série Ys zažívá dodnes na moderních platformách.\n\nPro západního hráče byly tyhle MSX2 verze dlouho exotikou, o to víc je ale fascinující se k nim vrátit a vidět, kde se rodila jedna z nejdéle žijících akčních RPG sérií vůbec. Ys I & II je vstupní branou do světa, který od svého vzniku nepřestal růst.\n\n**Proč hrát:** Kořeny legendární akční RPG série s nezaměnitelným \"bump\" soubojem a famózní hudbou – jeden z klenotů japonské MSX2 knihovny.",
-          "image": null,
+          "image": "/images/games/msx/msx__ys-i-and-ii-title.webp",
           "gallery": [
             {
               "src": "/images/games/msx/msx__ys-i-and-ii-snap.webp",
@@ -28296,8 +28398,14 @@
           "teaser": null,
           "detail": null,
           "article": "Země byla zničena, vy máte jediné auto a pár vteřin na to, abyste ujeli zkáze dřív, než vás dostihne — a celé to běží v rytmu nezapomenutelné elektronické hudby. The Last V8 je jednou z těch her, které vás nejdřív zaujmou atmosférou a hudbou a teprve potom vás přivedou k zoufalství svou náročností. Na osmibitovém Atari patřil k titulům, jež si lidé pamatují především díky zvuku.\n\nHerně jde o směs závodění a akce s odpočítávaným časem. Řídíte vůz prostředím, vyhýbáte se překážkám a snažíte se dosáhnout cíle dřív, než vyprší limit. Hra je pověstná svou nekompromisní obtížností — i sebemenší chyba na startu vás obvykle pošle zpět na začátek, takže vyžaduje preciznost a naučení se každého úseku. Právě tato tvrdost z ní udělala legendárně frustrující výzvu.\n\nVývojově titul zapadá do osmibitové éry osmdesátých let a do britské domácí scény, která byla pověstná svými nápaditými, často velmi obtížnými hrami. Důraz na výraznou hudbu byl dobovým trendem, protože zvukové možnosti počítačů se staly samostatným lákadlem a skladatelé herních melodií si budovali jméno.\n\nKulturní význam hry je spojen právě s její hudbou a atmosférou postapokalyptického světa. The Last V8 je často připomínaný jako příklad toho, jak silně dokázal soundtrack utvářet zážitek z osmibitové hry, i když samotné hraní bylo nemilosrdné.\n\nDnes je titul zajímavý jako kus dobové kultury a jako test trpělivosti. V emulátoru si vychutnáte hudbu i estetiku zničeného světa a vyzkoušíte, jak vypadala obtížnost her, které vás nešetřily. Je to zážitek pro nostalgiky a pro ty, kdo se nebojí opakovaných neúspěchů.\n\n**Proč hrát:** Pro silnou postapokalyptickou atmosféru, nezapomenutelnou hudbu a poctivě tvrdou výzvu staré školy.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/atari-8bit/atari-8bit__last-v8-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/atari-8bit/atari-8bit__last-v8-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -28450,8 +28558,14 @@
           "teaser": null,
           "detail": null,
           "article": "Osmibitová Atari mají jednu vlastnost, kterou jim leckterá modernější platforma může závidět: scéna kolem nich nikdy úplně neusnula. Crownland je jedním z těch homebrew titulů, které vznikly dlouho po komerčním zlatém věku počítače a dokazují, že nadšenci dokážou ze starého železa vyždímat věci, o jakých se v osmdesátých letech ani nesnilo. Je to plošinovka, žánr, který na Atari vždy patřil k oblíbeným, tady ovšem v moderním komunitním provedení.\n\nJako u většiny homebrew plošinovek je jádrem zážitku skok, přesnost a postupné poznávání úrovní. Hráč se prokousává členitými lokacemi, vyhýbá se nepřátelům a překážkám a hledá tu správnou cestu vpřed. Tenhle typ hry stojí a padá s odladěním ovládání – plošinovka, kde postava reaguje přesně tak, jak čekáte, dokáže být radost, zatímco ta nepřesná dokáže pořádně rozčílit. Komunitní vývojáři kolem Atari tyhle nuance většinou znají velmi dobře.\n\nVýznam titulů jako Crownland je především v kontextu. Nejde o komerční trhák s milionovými prodeji, ale o důkaz, že platforma žije. Když se v osmnáctibitové grafice a se zvukovým čipem POKEY objeví nová hra, je to malá oslava celé komunity – programátorů, grafiků i hudebníků, kteří svůj volný čas věnují počítači, jenž oficiálně dosloužil před desítkami let.\n\nPro hráče, kteří znají Atari jen z dětství nebo z vyprávění, bývají homebrew tituly příjemným překvapením. Ukazují totiž, kam až se dá s omezeným hardwarem dojít, když má tvůrce dost času, lásky k platformě a moderních vývojářských nástrojů, které v době vzniku počítače neexistovaly. Crownland tak zapadá do dlouhé tradice, v níž si osmibitové Atari uchovává status oblíbence kutilů a domácích programátorů.\n\nJe to titul, který nejspíš neuvidíte v žádném žebříčku nejprodávanějších her historie, ale o to právě jde – krása homebrew scény spočívá v tom, že tvoří mimo komerční logiku, čistě pro radost.\n\n**Proč hrát:** Pokud vás baví objevovat, co všechno současní nadšenci dokážou vykouzlit ze staré osmibitky, je tahle plošinovka přesně tím správným důkazem živé scény.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/atari-8bit/atari-8bit__crownland-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/atari-8bit/atari-8bit__crownland-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -31435,7 +31549,7 @@
           "teaser": null,
           "detail": null,
           "article": "Když Westwood Studios v roce 1995 vydali Command & Conquer, definitivně potvrdili, že realtimová strategie není jen experiment, ale komerční a kulturní fenomén. To, co naznačila Dune II, tu dostalo plnokrevnou podobu: dvě válčící frakce, surovinová ekonomika, masové bitvy a nezaměnitelná atmosféra spojující drsnou vojenskou estetiku s hraným videem.\n\nJádrem hry je souboj mezi globální obrannou aliancí GDI a tajemným teroristickým Bratrstvem Nod vedeným charismatickým Kanem. Klíčovou surovinou je tiberium, podivná mimozemská hmota, kterou hráč sklízí, aby financoval stavbu základny a armády. Westwood tu zdokonalili mechaniky z Dune II, přidali plynulejší ovládání, výběr více jednotek najednou a hlavně atmosféru živenou pověstnými hranými mezisekvencemi.\n\nPrávě filmové vsuvky s herci a hektický, leč přehledný souboj udělaly z Command & Conquer ikonu devadesátých let. Hra rozjela jednu z nejúspěšnějších strategických značek vůbec a její soundtrack od Franka Klepackiho, zejména skladba Act on Instinct, se stal kultovní záležitostí mezi hráči.\n\nVývojový kontext je tu důležitý: Westwood postavili na svých zkušenostech z Dune II a vytvořili šablonu, kterou žánr následoval. Série pokračovala datadiskem Covert Operations i pozdějšími díly jako Red Alert a stala se jedním z pilířů realtimové strategie. Na Amize si hráči mohli užít konverzi, byť hlavní slávu hra sklízela na PC.\n\nCommand & Conquer dodnes funguje jako učebnicový příklad toho, jak udělat strategii zábavnou, srozumitelnou a stylovou zároveň. Spojení rychlé akce, jednoduché ekonomiky a silné prezentace z ní udělalo nadčasovou klasiku.\n\n**Proč hrát:** Ikonická realtimová strategie s nezapomenutelnou atmosférou a hudbou, která definovala celý žánr pro 90. léta.",
-          "image": null,
+          "image": "/images/games/amiga/amiga__command-and-conquer-title.webp",
           "gallery": [
             {
               "src": "/images/games/amiga/amiga__command-and-conquer-snap.webp",
@@ -31661,7 +31775,7 @@
           "teaser": null,
           "detail": null,
           "article": "Druhé velké dobrodružství s posádkou původní Enterprise navazuje tam, kde předchozí díl skončil — a pro mnohé fanoušky představuje jeho vyzrálejší pokračování. Star Trek: Judgment Rites je point-and-click adventura, která opět staví hráče do role kapitána Kirka a jeho posádky a vede ho sérií samostatných misí, jež dohromady tvoří jakousi další sezonu klasického seriálu.\n\nStejně jako jeho předchůdce sází hra na epizodickou strukturu: každá mise je uzavřeným příběhem s vlastní zápletkou, vlastní planetou nebo situací a vlastními hádankami. Hráč se opět pohybuje mezi výsadkovými misemi na povrchu, kde zkoumá prostředí, mluví s postavami a kombinuje předměty, a okamžiky na můstku Enterprise. Důraz na vyprávění a atmosféru klasického Star Treku zůstává v centru zájmu.\n\nVe vývojovém kontextu jde o titul z období, kdy se adventury snažily být stále filmovější a propracovanější. Pokračování obvykle staví na tom, co se osvědčilo, a vyhlazuje hrubé hrany prvního dílu — od hráčů a recenzentů často slýcháte, že Judgment Rites působí jako uhlazenější a vyzrálejší zážitek než jeho předchůdce, s důrazem na rozmanitost situací a vtipně napsané scénáře jednotlivých misí.\n\nKulturní hodnota titulu spočívá v tom, že prodlužuje život klasické Star Trek éry v době, kdy už televizní seriál dávno skončil. Pro fanoušky to byla šance prožít nová dobrodružství s milovanými postavami a hra se k předloze chovala s respektem — udržovala trekkovský étos zvídavosti, diplomacie a morálních dilemat namísto pouhé akce.\n\nNa Amize si hráči mohli vychutnat grafiku a zvuk, které patřily ke špičce domácích počítačů své doby. Spojení silné licence s technicky schopnou platformou dělalo z téhle adventury jeden z lákavějších titulů pro každého, kdo měl rád sci-fi a logické hraní.\n\n**Proč hrát:** Vyzrálé epizodické adventurní dobrodružství pro každého, kdo si chce zopakovat ducha klasického Star Treku a posunout se v příbězích posádky Enterprise o krok dál.",
-          "image": null,
+          "image": "/images/games/amiga/amiga__star-trek-judgment-rites-title.webp",
           "gallery": [
             {
               "src": "/images/games/amiga/amiga__star-trek-judgment-rites-snap.webp",
@@ -32869,6 +32983,6 @@
     "withTeaser": 354,
     "withArticle": 1043,
     "platformImages": 36,
-    "gameImages": 926
+    "gameImages": 949
   }
 }

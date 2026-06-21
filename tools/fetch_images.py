@@ -314,8 +314,8 @@ def fetch_article_photos(per_platform=6):
 
 
 # ----------------------------------------------------------------- hry
-def list_boxarts(repo):
-    """Vrátí list názvů souborů (bez .png) ve složce Named_Boxarts daného repa."""
+def list_boxarts(repo, folder="Named_Boxarts"):
+    """Vrátí list názvů souborů (bez .png) ve zvolené složce daného repa."""
     for branch in ("master", "main"):
         # zkus rekurzivní strom
         try:
@@ -324,17 +324,17 @@ def list_boxarts(repo):
                 files = [
                     os.path.basename(t["path"])[:-4]
                     for t in tree.get("tree", [])
-                    if t["path"].startswith("Named_Boxarts/") and t["path"].endswith(".png")
+                    if t["path"].startswith(folder + "/") and t["path"].endswith(".png")
                 ]
                 if files:
                     return files
         except Exception:  # noqa
             pass
-        # fallback: root -> Named_Boxarts sha -> jeho strom
+        # fallback: root -> <folder> sha -> jeho strom
         try:
             root = gh_api(f"/repos/libretro-thumbnails/{repo}/git/trees/{branch}")
             sha = next(
-                (t["sha"] for t in root.get("tree", []) if t["path"] == "Named_Boxarts"), None
+                (t["sha"] for t in root.get("tree", []) if t["path"] == folder), None
             )
             if sha:
                 sub = gh_api(f"/repos/libretro-thumbnails/{repo}/git/trees/{sha}")
@@ -506,6 +506,84 @@ def fetch_screenshots():
     print(f"\nCelkem: snap {grand['snap']}, title {grand['title']}")
 
 
+def _dl_shot(repo, folder, fn, dest):
+    """Stáhne jeden screenshot (s ošetřením symlinku) z daného repa/složky."""
+    url = (
+        f"https://raw.githubusercontent.com/libretro-thumbnails/{repo}"
+        f"/master/{folder}/{urllib.parse.quote(fn)}.png"
+    )
+    img = http_get(url, retries=2)
+    if len(img) < 300:  # možný symlink (text s cílovým názvem)
+        try:
+            tgt = img.decode("utf-8", "strict").strip()
+        except Exception:  # noqa
+            tgt = ""
+        if tgt.lower().endswith(".png") and "\n" not in tgt:
+            url2 = (
+                f"https://raw.githubusercontent.com/libretro-thumbnails/{repo}"
+                f"/master/{folder}/{urllib.parse.quote(tgt[:-4])}.png"
+            )
+            img = http_get(url2, retries=2)
+    dest.write_bytes(img)
+
+
+def fetch_fallback_shots():
+    """Pro hry BEZ obalu zkusí napárovat titulní obrazovku (Named_Titles), případně
+    in-game snímek (Named_Snaps) — páruje přímo proti jejich názvům (jiná konvence než
+    obaly) a uloží jako <slug>-title.png / -snap.png. Parser je pak použije jako hlavní
+    obrázek (image = obal || title || snap)."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
+    grand = 0
+    for slug, repo in LIBRETRO.items():
+        games = plat_games.get(slug, [])
+        # jen hry, které zatím nemají žádný obrázek (image je None v datasetu)
+        need = [g for g in games if not g.get("image")]
+        if not need:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        # hry, které navíc ještě nemají ani title/snap soubor
+        need = [
+            g for g in need
+            if not list(out.glob(f"{g['slug']}-title.*")) and not list(out.glob(f"{g['slug']}-snap.*"))
+        ]
+        if not need:
+            continue
+        print(f"\n== {slug} ({repo}) — bez obalu: {len(need)} ==")
+        recovered = 0
+        for folder, suffix in (("Named_Titles", "title"), ("Named_Snaps", "snap")):
+            if not need:
+                break
+            try:
+                names = list_boxarts(repo, folder)
+            except Exception as e:  # noqa
+                print(f"  CHYBA {folder}: {e}")
+                continue
+            if not names:
+                continue
+            idx = index_boxarts(names)
+            still = []
+            for g in need:
+                fn = best_boxart(g["name"], names, idx)
+                if not fn:
+                    still.append(g)
+                    continue
+                dest = out / f"{g['slug']}-{suffix}.png"
+                try:
+                    _dl_shot(repo, folder, fn, dest)
+                    recovered += 1
+                    print(f"  [OK] {g['name']}  <- {folder}/{fn}")
+                    time.sleep(0.1)
+                except Exception as e:  # noqa
+                    print(f"  [x] {g['name']}: {e}")
+                    still.append(g)
+            need = still  # zbylé zkus z dalšího foldera (Named_Snaps)
+        grand += recovered
+        print(f"  získáno {recovered}, stále bez obrázku: {len(need)}")
+    print(f"\nCelkem dohledáno fallback obrázků: {grand}")
+
+
 def resolve_symlinks():
     """Některé položky v libretro repech jsou symlinky: stažený 'soubor' obsahuje
     jen cílový název .png. Dořeší je: stáhne skutečný obrázek a převede na WebP."""
@@ -667,3 +745,6 @@ if __name__ == "__main__":
     if what == "article-photos":
         print("=== DOPROVODNÉ FOTKY DO ČLÁNKŮ (Wikipedia) ===")
         fetch_article_photos()
+    if what == "fallback-shots":
+        print("=== FALLBACK OBRÁZKY HER (title/snap pro hry bez obalu) ===")
+        fetch_fallback_shots()

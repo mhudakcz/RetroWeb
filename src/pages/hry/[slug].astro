@@ -24,8 +24,10 @@ const related = platform.games.filter((g) => g.slug !== game.slug).slice(0, 3);
 const { prev, next } = gameNeighbors(platform, game.slug);
 const nameHtml = mdInline(game.name);
 const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
-// Galerie = záběry ze hry a titulní obrazovka (obal je už v hlavičce)
-const shots = game.gallery.filter((g) => g.kind !== 'box');
+// Galerie = záběry ze hry a titulní obrazovka (obal je už v hlavičce).
+// U her bez obalu slouží titulní/herní obrazovka jako hlavní obrázek — tu pak
+// z galerie vynecháme, ať se stejný snímek neukáže dvakrát.
+const shots = game.gallery.filter((g) => g.kind !== 'box' && g.src !== game.image);
 const playtime = playtimeLabel(game.length, game.est);
 ---
 

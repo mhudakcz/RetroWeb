@@ -554,7 +554,10 @@ def build():
                 flags=g["flags"], year=year, studio=studio, est=est,
                 teaser=teaser, detail=detail,
                 article=articles.get(gslug),
-                image=find_image(sub, gslug),
+                # hlavní obrázek: obal, jinak fallback na titulní/herní obrazovku
+                image=(find_image(sub, gslug)
+                       or find_image(sub, f"{gslug}-title")
+                       or find_image(sub, f"{gslug}-snap")),
                 gallery=gallery,
                 link=game_links.get(gslug),
                 playUrl=game_play.get(gslug),
