@@ -19,16 +19,14 @@ import { hardware } from '../data/hardware';
 
   <section class="section">
     <div class="container">
-      <div class="grid">
+      <div class="grid grid-hw">
         {
           hardware.map((h) => (
-            <a class="card device-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}`}>
+            <a class="card hw-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}; --c2:${h.color2}`}>
               <HardwareArt art={h.art} color={h.color} color2={h.color2} />
-              <div class="body">
-                <p class="kind">{h.kind}</p>
+              <div class="hw-body">
                 <h2>{h.name}</h2>
-                <p class="tagline">{h.tagline}</p>
-                <span class="more">Číst průvodce →</span>
+                <p class="muted">{h.kind}</p>
               </div>
             </a>
           ))
@@ -50,46 +48,29 @@ import { hardware } from '../data/hardware';
     max-width: 640px;
     font-size: 1.05rem;
   }
-  .grid {
+  .grid-hw {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
   }
-  .device-card {
+  .hw-card {
     display: flex;
     flex-direction: column;
   }
-  .device-card:hover {
+  .hw-card:hover {
     transform: translateY(-4px);
     border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
     box-shadow: var(--shadow);
   }
-  .body {
-    padding: 16px 18px 18px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    flex: 1;
+  .hw-body {
+    padding: 13px 15px 15px;
   }
-  .kind {
-    font-family: var(--font-pixel);
-    font-size: 0.58rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: color-mix(in srgb, var(--c1) 75%, var(--text));
+  .hw-body h2 {
+    font-size: 1rem;
+    line-height: 1.25;
   }
-  h2 {
-    font-size: 1.25rem;
-  }
-  .tagline {
-    color: var(--muted);
-    font-size: 0.95rem;
-    flex: 1;
-  }
-  .more {
-    margin-top: 6px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: color-mix(in srgb, var(--c1) 70%, var(--text));
+  .hw-body .muted {
+    font-size: 0.82rem;
+    margin-top: 3px;
   }
 </style>
