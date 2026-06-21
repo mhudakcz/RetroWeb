@@ -27099,8 +27099,14 @@
           "teaser": null,
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/atari-2600/atari-2600__moon-patrol.webp",
+          "gallery": [
+            {
+              "src": "/images/games/atari-2600/atari-2600__moon-patrol.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         }
@@ -33187,8 +33193,14 @@
           "teaser": null,
           "detail": null,
           "article": "Než se Celeste stala jednou z nejuznávanějších plošinovek desetiletí, vznikla jako malý prototyp na fantasy konzoli PICO-8. A právě tahle původní verze, dnes známá jako Celeste Classic, je jedním z nejlepších důkazů, jak silný nápad nepotřebuje obří rozpočet, aby uchvátil.\n\nCeleste Classic vytvořili Maddy Thornsonová (tehdy pod jménem Matt Thorson) a Noel Berry během herního game jamu v roce 2015. Cílem bylo dát dohromady kompletní plošinovku za pár dní, a výsledek překvapil i samotné autory. Hra vás provede třiceti obrazovkami, na kterých horolezkyně Madeline zdolává horu pomocí precizního skákání, jednoho dashe (rychlého výpadu do vzduchu) a šplhání po stěnách. Každá místnost je samostatná hádanka o správném načasování a trajektorii.\n\nMechanicky je to ukázková \"precision platformer\". Dash se obnovuje při dopadu na zem a sbíráním krystalů, takže celá hra je o tom naučit se řetězit pohyby, využívat setrvačnost a číst rozmístění pastí, trnů a pohyblivých plošin. Ovládání je extrémně responzivní, smrt je okamžitá a restart bleskový, což vytváří onen návykový rytmus \"ještě jednou\", který později proslavil i plnou verzi.\n\nVývojový kontext je tu zásadní. Úspěch tohoto prototypu vedl k tomu, že z něj autoři rozvinuli plnohodnotnou hru Celeste, vydanou v roce 2018, která sklidila mimořádné ohlasy za design úrovní i za citlivé zpracování tématu úzkosti a sebepřekonávání. Celeste Classic tak má dvojí roli: je to kompletní, hratelný zážitek sám o sobě, a zároveň fascinující pohled do zárodku něčeho mnohem většího.\n\nNa scéně PICO-8 patří Celeste Classic k naprostým vlajkovým lodím. Ukazuje, co dokáže fantasy konzole s omezenou paletou šestnácti barev a maličkým rozlišením, když se sejde skvělý herní cit s úsporným, ale výrazným pixel artem a chytlavým chiptune doprovodem. Hra je zdarma hratelná v prohlížeči i v prostředí PICO-8 a stala se prakticky povinnou ukázkou, když se mluví o tom, jak vážně lze tuhle platformu brát.\n\n**Proč hrát:** Je to dokonale vybroušená miniatura precizní plošinovky a zároveň živá učebnice toho, jak z jamového prototypu vyroste herní klasika.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__celeste-classic.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__celeste-classic.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33221,8 +33233,14 @@
           "teaser": null,
           "detail": "Atmosférické puzzle-adventury s pěkným pixel artem a chytrými hádankami. Pohodové objevování; reprezentanti kvalitnější PICO-8 tvorby.",
           "article": "V útrobách dávno zapomenuté hrobky čeká tma, hádanky a tichá atmosféra, kterou si na první pohled nespojíte s konzolí, jež se vejde do několika kilobajtů. Dank Tomb je jedním z titulů, které dokazují, že scéna kolem fantasy konzole PICO-8 umí vyprávět nálady stejně dobře jako nabízet hádanky.\n\nJde o atmosférickou puzzle-adventuru s důrazem na pěkný pixel art a chytré hádanky. Místo akce a spěchu tu vládne pohodové objevování: prozkoumáváte prostředí, čtete ho, hledáte souvislosti a postupně odemykáte cestu dál. Tempo je rozvážné a hra spoléhá na to, že vás baví přemýšlet a dívat se kolem sebe, ne reagovat na milisekundy.\n\nSílu Dank Tomb dělá právě kombinace vizuálu a designu prostoru. Na omezené paletě a v drobném rozlišení PICO-8 tvůrci vykouzlili temné, tajemné prostředí, kde světlo a stín nesou velkou část nálady. Hádanky jsou navržené tak, aby odměňovaly všímavost a logické uvažování, a celkový pocit připomíná klasické dobrodružné hry, jen v komornějším, soustředěnějším balení.\n\nDank Tomb patří mezi reprezentanty kvalitnější PICO-8 tvorby, tedy do té kategorie komunitních her, které posouvají laťku toho, co se od fantasy konzole čeká. PICO-8, dílo studia Lexaloffle a jeho tvůrce Josepha Whitea, se stalo prostředím, kde se schválně pracuje s přísnými limity, a právě tyto mantinely vedou autory k vynalézavosti. Dank Tomb je toho ukázkovým příkladem: nesnaží se být velký, ale vytříbený.\n\nKulturně tahle vlna ukazuje, že retro estetika není jen nostalgie, ale i živý tvůrčí jazyk. Hry jako Dank Tomb jsou obvykle dostupné zdarma a hratelné přímo v prohlížeči, takže slouží i jako skvělá vizitka celé platformy. U menších komunitních titulů bývají konkrétní data, ocenění a prodejní čísla nedoložená, proto je poctivější mluvit o tom, co je ověřitelné: o žánru, atmosféře a řemeslné kvalitě.\n\n**Proč hrát:** Pro klidné, atmosférické dobrodružství s chytrými hádankami a krásným pixel artem, které vám ukáže, kolik nálady se vejde do několika obrazovek PICO-8.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__dank-tomb.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__dank-tomb.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33238,8 +33256,14 @@
           "teaser": null,
           "detail": "Miniaturní metroidvanie dokazující, že i ve 32 kB jde udělat prozkoumávací hru s upgrady a propojenou mapou. Chytré využití každého pixelu. Ideální ukázka, co PICO-8 scéna umí.",
           "article": "Metroidvania v 32 kilobajtech zní jako protimluv. Žánr postavený na rozlehlých propojených mapách, postupných upgradech a zpětném prozkoumávání přece potřebuje prostor. A přesto Subsurface, miniaturní metroidvania pro fantasy konzoli PICO-8, dokazuje opak velmi přesvědčivě.\n\nSubsurface bere základní pilíře žánru a chytře je smršťuje do úsporného balení. Hráč prozkoumává propojený svět, sbírá schopnosti a vylepšení, které mu postupně otevírají dříve nedostupné oblasti, a vrací se na známá místa, aby objevil nové cesty. Tahle smyčka objevování a odemykání je srdcem každé dobré metroidvanie, a Subsurface ji zvládá i v drobném rozlišení a s minimem paměti.\n\nNejvíc fascinuje právě technický kontext. PICO-8 záměrně omezuje tvůrce: pevná paleta šestnácti barev, maličké rozlišení, přísný strop na velikost kódu i grafiky. Vytvořit v těchto mantinelech hru s propojenou mapou, upgrady a smysluplným tempem znamená zacházet s každým pixelem a každým bajtem jako se vzácností. Subsurface je proto často uváděn jako důkaz, že žánrová hloubka nezáleží na rozpočtu, ale na chytrém designu.\n\nVývojově jde o produkt komunity kolem PICO-8, fantasy konzole z dílny studia Lexaloffle, kterou stvořil Joseph White. Tahle platforma se stala líhní nápaditých projektů právě proto, že nutí autory soustředit se na podstatu. Komunita své hry typicky sdílí zdarma a hratelné rovnou v prohlížeči, takže Subsurface může kdokoli vyzkoušet bez jakékoli instalace či poplatku.\n\nKulturně je Subsurface ideální ukázkou toho, co PICO-8 scéna umí. Reprezentuje tu vlnu tvorby, která bere vážně klasické žánry a dokazuje, že je lze poctivě převyprávět i v extrémně úsporné formě. U podobně menších komunitních titulů často nejsou doložená přesná data, ocenění ani žebříčky, takže je férové vyzdvihnout především to ověřitelné: promyšlený design, propojenou mapu a respekt k tradici žánru.\n\n**Proč hrát:** Pro elegantní, kapesní metroidvanii, která vám během chvíle ukáže, kolik prozkoumávací radosti se dá vměstnat do 32 kilobajtů.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__subsurface.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__subsurface.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33327,8 +33351,14 @@
           "teaser": null,
           "detail": null,
           "article": "Některé hry pochopíte za pět vteřin a hrajete je pět let. Combo Pool, logická hra pro fantasy konzoli PICO-8, slibuje přesně tenhle typ okamžitého chytlavého kouzla. Spojení biliáru a hlavolamu je nápad starý jako herní průmysl sám, ale v miniaturním osmibitovém kabátu dostává svěží náboj.\n\nPICO-8 od studia Lexaloffle je software, který simuluje vymyšlený retro počítač. Záměrně omezuje tvůrce na šestnáctibarevnou paletu, drobné rozlišení a malý prostor pro kód. Pro logické hry je to ideální základ. Pravidla musí být jednoduchá, ovládání okamžité a každá obrazovka srozumitelná na první pohled. Combo Pool tyhle vlastnosti přirozeně sdílí se svým žánrem.\n\nPodstatou puzzle her postavených na fyzice koulí a kombinací je řetězení. Hráč obvykle umisťuje nebo odpaluje prvky tak, aby vznikaly shluky, které se naráz odstraní a spustí kaskádu dalších efektů. Čím lépe si dopředu naplánujete tah, tím větší combo spustíte a tím vyšší skóre získáte. Tahle smyčka pokus, plánování a odměna patří k nejnávykovějším mechanikám v celém herním světě.\n\nLogické hry mají na malých platformách výsadní postavení. Nepotřebují příběh ani rozsáhlý svět, stačí jim jeden dobrý nápad dotažený do dokonalosti. PICO-8 komunita je proto plná hlavolamů, které se sdílejí jako kartridže hratelné rovnou v prohlížeči, bez instalace a bez bariér. Právě dostupnost je jedna z největších předností téhle scény.\n\nOvěřené údaje o vydání, autorství či případných oceněních téhle konkrétní hry nemáme k dispozici, a tak je neuvádíme. Co ale můžete očekávat s jistotou, vyplývá z žánru a platformy: rychlé kolo, jasná pravidla, honbu za vyšším skóre a tu příjemnou frustraci, kdy víte, že příště to zvládnete líp.\n\n**Proč hrát:** Pro dokonale jednoduchý hlavolam k zabití pěti minut i celého večera, kde každé povedené combo odměňuje malou explozí radosti.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__combo-pool.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__combo-pool.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33344,8 +33374,14 @@
           "teaser": null,
           "detail": null,
           "article": "Rychlost se nedá předstírat a dobrý pocit z jízdy poznáte hned. Drift / racing carts je závodní hra pro fantasy konzoli PICO-8, která bere klasický recept arkádových závodů, smykování a souboje o ideální stopu a vměstnává ho do drobného osmibitového okénka. Závodní žánr přitom patří k nejstarším a nejoblíbenějším vůbec.\n\nPICO-8 je software od studia Lexaloffle napodobující vymyšlený retro stroj. Dává tvůrcům jen šestnáct barev, malé rozlišení a přísný strop velikosti kódu. Pro závody to znamená jasnou výzvu: vytvořit přesvědčivý pocit rychlosti a ovladatelnosti vozu na minimální ploše. Právě tohle omezení vede autory k chytrým trikům s grafikou trati i s fyzikou smyku.\n\nArkádové závody stojí na okamžité srozumitelnosti. Zatáčíte, brzdíte, hledáte ideální okamžik k driftu a snažíte se projet kolo o zlomek vteřiny rychleji. Drift jako mechanika je přitom dvojsečný, dává rychlost v zatáčce, ale trestá každou chybu. Tahle rovnováha mezi rizikem a odměnou je srdcem každé dobré závodní hry a funguje stejně dobře na velkých konzolích jako na malé fantasy platformě.\n\nKomunita PICO-8 patří k nejaktivnějším v celém nezávislém vývoji. Hry se zde sdílejí jako kartridže, často přímo v prohlížeči, takže se závod dá rozjet během pár vteřin a bez instalace. Pro arkádový titul, který chce hráče chytit za prvních pár sekund, je to ideální prostředí.\n\nKonkrétní ověřená data o vydání, studiu nebo úspěších téhle hry nemáme, a proto se jim vyhýbáme. Co můžete čekat s jistotou, vychází z jejího žánru: krátká, intenzivní kola, honbu za nejlepším časem a ten nezaměnitelný pocit, kdy se vám povede dokonalý smyk skrz zatáčku.\n\n**Proč hrát:** Pro okamžitou arkádovou zábavu, čistý pocit rychlosti a souboj s vlastním nejlepším časem v kapesním formátu.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__drift-racing-carts.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__drift-racing-carts.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33361,8 +33397,14 @@
           "teaser": null,
           "detail": null,
           "article": "Už název je malá hříčka. Low Mem Sky odkazuje na slavnou vesmírnou hru o nekonečném průzkumu, ale obrací její megalomanský rozsah naruby a vtěsnává ho do limitů fantasy konzole PICO-8. Tenhle dobrodružný a průzkumnický titul tak slibuje pocit objevování v prostředí, kde je každý bajt vzácný.\n\nPICO-8 od studia Lexaloffle je software simulující vymyšlený osmibitový počítač. Jeho přísné limity, šestnáct barev, drobné rozlišení a malý prostor pro data, jsou pro hru o průzkumu vlastně tematicky příhodné. Když máte omezenou paměť, musíte být vynalézaví a často sáhnete po procedurálním generování, tedy po světě, který se dopočítává za běhu místo toho, aby byl uložený celý naráz.\n\nDobrodružné a průzkumnické hry stojí na zvědavosti. Lákají hráče za horizont, slibují, že za další obrazovkou bude něco nového, a odměňují trpělivé objevování. Na malé platformě se tento pocit dá vyvolat chytrou prací s atmosférou, náznakem a hudbou spíš než hrubým objemem obsahu. Méně tu často znamená víc, protože prázdný prostor nechává vyniknout fantazii.\n\nSíla PICO-8 scény je v otevřenosti. Hry se sdílejí jako kartridže hratelné rovnou v prohlížeči a jejich zdroj si může každý prohlédnout. Pro experimentální průzkumný titul, který zkoumá, kolik světa se dá vyždímat z minima paměti, je to ideální výkladní skříň i učebnice zároveň.\n\nOvěřené informace o autorovi, datu vydání nebo přijetí téhle konkrétní hry nemáme, a tak je neuvádíme. Spolehlivě ale můžeme říct, co nabízí její žánr a platforma: tichou, atmosférickou výpravu, radost z objevování a kouzlo malého světa, který se snaží působit větší, než ve skutečnosti je.\n\n**Proč hrát:** Pro klidné, kontemplativní objevování a fascinující ukázku toho, kolik atmosféry se dá vměstnat do hrstky bajtů.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__low-mem-sky.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__low-mem-sky.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33378,8 +33420,14 @@
           "teaser": null,
           "detail": null,
           "article": "Smrt číhá za každým rohem a žádné dvě výpravy nejsou stejné. Pico Dungeon je roguelike pro fantasy konzoli PICO-8, který přenáší jeden z nejnáročnějších a zároveň nejvíce návykových žánrů do miniaturního osmibitového balení. Žánr, jehož kořeny sahají až k textovým dungeonům z konce sedmdesátých let, tu dostává svěží kapesní podobu.\n\nPICO-8 od studia Lexaloffle je software napodobující vymyšlený retro počítač s šestnácti barvami, drobným rozlišením a přísným stropem na velikost kódu. Roguelike je pro tuhle platformu vlastně dokonalý žánr. Tradičně sází na jednoduchou grafiku, často jen na dlaždice a symboly, a veškerá hloubka leží v pravidlech, nikoli v efektech. To přesně sedí na filozofii fantasy konzolí.\n\nKlíčové prvky roguelike žánru jsou procedurálně generované úrovně a takzvaná trvalá smrt. Pokaždé vstoupíte do jinak poskládaného podzemí a když vaše postava padne, začínáte od začátku, často s prázdnýma rukama. Tahle nemilosrdnost je paradoxně tím, co hráče vtahuje. Každý postup je zaslouženou výhrou a každá smrt je lekce. Napětí z neznámého za dalšími dveřmi je v roguelike hrách nepřekonatelné.\n\nKomunita PICO-8 je mimořádně živá a roguelike hry v ní mají pevné místo, protože se dají postavit chytře a kompaktně. Sdílejí se jako kartridže hratelné přímo v prohlížeči, takže novou výpravu rozjedete během vteřin a bez instalace. Pro žánr, který vybízí k opakovanému hraní, je okamžitá dostupnost velká výhoda.\n\nKonkrétní ověřená data o vydání, autorství nebo ohlasech téhle hry k dispozici nemáme, a proto si nic nevymýšlíme. Co můžete čekat s jistotou, plyne z žánru: náhodně generované podzemí, riziko trvalé smrti, postupné poznávání pravidel a tu sladkou závislost na další a další výpravě.\n\n**Proč hrát:** Pro nervy drásající výpravy do náhodného podzemí, kde se učíte z každé prohry a kde žádné dvě hry nikdy nejsou stejné.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__pico-dungeon.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__pico-dungeon.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33395,8 +33443,14 @@
           "teaser": null,
           "detail": null,
           "article": "Velké bitvy se dají svést i na maličké šachovnici. Tiny Tactics je taktická hra pro fantasy konzoli PICO-8, jejíž název poctivě přiznává, oč jde: o sevřené, přehledné taktické souboje na mřížce v tom nejmenším možném formátu. Žánr tahové taktiky přitom patří k nejvíce promyšleným ve hraní vůbec.\n\nPICO-8 od studia Lexaloffle je software, který simuluje vymyšlený osmibitový stroj a záměrně svazuje tvůrce tvrdými limity, šestnácti barvami, drobným rozlišením a malým prostorem pro kód. Taktika je pro takové prostředí ideální. Nepotřebuje rozlehlé světy ani efektní animace, stačí jí čitelná deska, srozumitelné jednotky a dobře navržená pravidla. Vše ostatní se odehrává v hlavě hráče.\n\nPodstatou žánru je tah po tahu. Posouváte jednotky po polích, počítáte jejich dosah a dostřel, využíváte terén a snažíte se předvídat soupeřovy tahy o krok dopředu. Vítězí ten, kdo lépe plánuje, ne ten, kdo má rychlejší reflexy. Právě tahle myšlenková povaha dělá z taktiky skvělou hru na krátké dávky, u které se ale snadno zaseknete na celé hodiny.\n\nScéna kolem PICO-8 je jedním z nejživějších míst nezávislého vývoje. Hry se sdílejí jako kartridže hratelné rovnou v prohlížeči, bez instalace a často s veřejně viditelným zdrojem. Pro kompaktní taktickou hru je to vysněné prostředí, protože ji lze rozehrát okamžitě a kdekoli.\n\nOvěřené údaje o vydání, autorovi nebo případných úspěších téhle konkrétní hry nemáme, a tak je neuvádíme. Spolehlivě ale platí to, co plyne z jejího žánru a platformy: soustředěné souboje na mřížce, důraz na rozvahu a tu uspokojivou radost, když se vám povede dokonale naplánovaný tah.\n\n**Proč hrát:** Pro chytré, přemýšlivé taktizování v kapesním měřítku, kde rozhoduje plán a každý jednotlivý tah má váhu.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__tiny-tactics.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__tiny-tactics.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33446,8 +33500,14 @@
           "teaser": null,
           "detail": "Plnohodnotný Doom-like first-person shooter vměstnaný do limitů PICO-8 (128×128 px) — technický husarský kousek, který ukazuje, jak daleko komunita dotáhla možnosti fantasy konzole. Svižná střelba v kapse.",
           "article": "Představte si Doom. A teď ho zmáčkněte do obrazovky o velikosti 128×128 pixelů, omezte paletu na šestnáct barev a dejte tvůrci k dispozici jen pár kilobajtů kódu. Zní to jako nemožné zadání — a přesně proto je Poom jedním z nejobdivovanějších kousků, jaké kdy na fantasy konzoli PICO-8 vznikly. Je to plnohodnotný first-person shooter ve stylu klasického id Software, který běží tam, kde by ho nikdo nečekal.\n\nPICO-8 je takzvaná fantasy konzole — virtuální stroj od studia Lexaloffle, který schválně napodobuje přísná omezení osmibitové éry. Programátor má k dispozici jen hrstku barev, drobné rozlišení a tvrdé limity na velikost programu. Právě v těchto mantinelech se rodí kouzlo komunitní tvorby: každý projekt je tak trochu soutěž s vlastní platformou. Poom tuhle soutěž vyhrává s přehledem, protože dokazuje, že i pseudo-3D renderování s texturovanými chodbami se do takhle malé krabičky vejde.\n\nHerně sází Poom na osvědčenou DNA žánru: pohybujete se bludištěm chodeb a místností, sbíráte zbraně, hledáte klíče a likvidujete nepřátele dřív, než oni zlikvidují vás. Tempo je svižné, ovládání přímočaré a celé to má tu správnou dávku staromódní brutality, kdy nejde o krytí a regeneraci, ale o neustálý pohyb, mapování okolí a sbírání lékárniček. Pro fanoušky stříleček devadesátých let je to jako stisk ruky se starým přítelem.\n\nKulturní význam takových projektů přesahuje samotné hraní. Ukazují totiž, že kreativita kvete v omezeních, ne navzdory jim. Tam, kde má dnešní vývojář k dispozici prakticky neomezený výkon, musí tvůrce pro PICO-8 každý pixel a každý řádek kódu zvážit. Výsledkem je čistota návrhu, kterou velké rozpočtové tituly často postrádají. Poom je v tomhle ohledu vlajková ukázka toho, co znamená dělat hodně z mála.\n\nProtože jde o komunitní homebrew titul, nebudu předstírat znalost přesných prodejních čísel nebo ocenění — fantasy konzole žijí spíš ve sdílených cartridge a nadšení autorů než v žebříčcích. Důležité je, že Poom je volně dostupný, hratelný v prohlížeči i na zařízeních, která PICO-8 zvládnou, a slouží jako vizitka celé scény. Je to malý technický zázrak, který stojí za pár minut vašeho času.\n\n**Proč hrát:** Doom-like FPS namačkaný do 128×128 pixelů PICO-8 je technický husarský kousek i svižná retro střílečka v jednom — důkaz, že omezení rodí ten nejčistší design.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__poom.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__poom.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null
         },
@@ -33685,6 +33745,6 @@
     "withTeaser": 354,
     "withArticle": 1072,
     "platformImages": 36,
-    "gameImages": 978
+    "gameImages": 988
   }
 }
