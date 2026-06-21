@@ -2,7 +2,9 @@
 import Base from '../layouts/Base.astro';
 import PlatformCard from '../components/PlatformCard.astro';
 import GameCard from '../components/GameCard.astro';
+import HardwareArt from '../components/HardwareArt.astro';
 import { platformsByType, allGames, stats } from '../lib/data';
+import { hardware } from '../data/hardware';
 
 const groups = platformsByType();
 
@@ -59,6 +61,32 @@ const featured = allGames
       </section>
     ))
   }
+
+  <!-- NA ČEM HRÁT (HARDWARE) -->
+  <section class="section hw-sec">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Na čem hrát</p>
+          <h2>Hardware &amp; emulace</h2>
+        </div>
+        <a class="muted link" href="/hardware">Všichni průvodci →</a>
+      </div>
+      <div class="grid grid-hw">
+        {
+          hardware.map((h) => (
+            <a class="card hw-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}; --c2:${h.color2}`}>
+              <HardwareArt art={h.art} color={h.color} color2={h.color2} />
+              <div class="hw-body">
+                <h3>{h.name}</h3>
+                <p class="muted">{h.kind}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
 
   <!-- VYBRANÉ HRY -->
   {
@@ -159,6 +187,31 @@ const featured = allGames
   .featured {
     background: var(--bg-2);
     border-block: 1px solid var(--border-soft);
+  }
+  .grid-hw {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+  }
+  .hw-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .hw-card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
+    box-shadow: var(--shadow);
+  }
+  .hw-body {
+    padding: 13px 15px 15px;
+  }
+  .hw-body h3 {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+  .hw-body .muted {
+    font-size: 0.82rem;
+    margin-top: 3px;
   }
   .section + .section {
     padding-top: 8px;

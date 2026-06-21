@@ -559,6 +559,66 @@ export const hardware: HardwareItem[] = [
       { title: 'Hry přes Soubory/iCloud', text: 'ROMy a BIOS dostaneš do appky přes Soubory, iCloud Drive nebo AirDrop. Sháněj je legálně.' },
     ],
   },
+  {
+    slug: 'konzole-emulace',
+    name: 'Emulace na konzolích (PS, Xbox, Switch)',
+    kind: 'Návod — homebrew scéna',
+    tagline: 'I z PlayStationu, Xboxu nebo Switche jde udělat retro stroj — přes jejich homebrew scénu.',
+    color: '#b06bff',
+    color2: '#1e1430',
+    art: 'console',
+    intro: [
+      'Moderní herní konzole mají pod kapotou hodně výkonu — a komunita ho umí využít i k emulaci. Přes tzv. homebrew (neoficiální software) se z PlayStationu, Xboxu i Switche dá udělat plnohodnotná retro mašina s RetroArchem. Je to o úroveň pokročilejší než handheld nebo Raspberry: záleží na konkrétním modelu a verzi firmwaru, někdy hrozí ztráta záruky nebo ban v online službách. Tady je přehled, co která rodina umí.',
+    ],
+    specs: [
+      { label: 'Princip', value: 'homebrew / úprava firmwaru daného modelu' },
+      { label: 'Software', value: 'většinou RetroArch (port na danou konzoli)' },
+      { label: 'Závisí na', value: 'modelu a verzi firmwaru (důležité!)' },
+      { label: 'Ovladač', value: 'rovnou ovladač dané konzole' },
+      { label: 'Riziko', value: 'ztráta záruky, u online i ban — na vlastní odpovědnost' },
+    ],
+    canPlay: [
+      { label: 'PS Vita, original Xbox, Switch: 8/16bit–PS1, PSP', level: 'ok' },
+      { label: 'PS3 / Xbox 360 / Switch: N64, DC, PSP, Saturn', level: 'most' },
+      { label: 'Switch / Series: GameCube, Wii, PS2 (vybrané)', level: 'some' },
+    ],
+    sections: [
+      {
+        title: 'Než začneš: jak to funguje a legálně',
+        body: [
+          'Konzole z výroby spouští jen podepsaný software. „Homebrew" scéna hledá způsoby, jak na konkrétním modelu spustit i neoficiální aplikace (mezi nimi RetroArch). Postup se liší konzoli od konzole a hlavně podle **verze firmwaru** — proto vždy nejdřív zjisti, co tvůj konkrétní kus a jeho firmware umožňuje.',
+          'Důležité varování: úprava může **zrušit záruku**, při chybě konzoli dočasně znefunkčnit a v online službách (hlavně Switch) hrozí **ban**. Dělej to na vlastní odpovědnost, ideálně na zařízení, které není připojené k online účtu. A jako všude jinde — hry sháněj legálně (vlastní dumpy).',
+        ],
+      },
+      {
+        title: 'PlayStation',
+        body: [
+          'Klasické **PS1 a PS2** rozběhne homebrew z paměťové karty (na PS2 legendární FreeMcBoot) a poslouží jako solидní emulátor 8/16bit a starších systémů. **PS3** se přes HEN/CFW dostane k RetroArchi a zvládne i náročnější systémy. Skutečným klenotem pro retro je ale **PS Vita** — po úpravě (HENkaku) je to skvělý kapesní RetroArch stroj, ideální až po PS1/PSP.',
+          'Novější **PS4/PS5** jdou upravit jen na starších, zranitelných verzích firmwaru a možnosti jsou omezenější — pro retro je rozumnější sáhnout po starší konzoli nebo handheldu.',
+        ],
+      },
+      {
+        title: 'Xbox',
+        body: [
+          'Původní **Xbox (2001)** je po „softmodu" pověstná retro mašina — díky výkonu a velkému disku z něj uděláš elegantní emulační centrum (RetroArch, MAME, dobové frontendy). **Xbox 360** se otevírá složitěji (RGH).',
+          'Skvělá zpráva je u **Xbox One a Series X|S**: stačí zdarma zapnout **Dev Mode** (vývojářský režim) a nainstalovat **RetroArch oficiálně** — bez jailbreaku a bez ztráty záruky. Je to asi nejjednodušší legální cesta, jak z moderní konzole udělat výkonný retro stroj (klidně až po Dreamcast, PSP a víc).',
+        ],
+      },
+      {
+        title: 'Nintendo Switch',
+        body: [
+          'Switch je výkonný handheld, takže láká i na emulaci. Jde to přes homebrew (custom firmware Atmosphère) a následně **RetroArch** — Switch pak zvládne retro až po náročnější systémy (N64, Dreamcast, PSP, vybrané GameCube/Wii). Hraní v ruce i na televizi je obrovská výhoda.',
+          'Velké ALE: homebrew jde jen na **starších, hardwarově zranitelných** kusech (novější revize a Lite/OLED většinou ne) a **online ban je tu reálné riziko** — proto se to dělá na konzoli odpojené od Nintenda. Zvaž, jestli ti to za to stojí; jinak je čistší cesta dedikovaný handheld nebo Raspberry.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Nejdřív zjisti firmware', text: 'Možnosti i postup stojí a padají s modelem a verzí firmwaru. Ověř si svůj kus, než cokoli uděláš.' },
+      { title: 'Nejjednodušší: Xbox Series Dev Mode', text: 'Zapneš vývojářský režim a nainstaluješ RetroArch oficiálně — bez jailbreaku a ztráty záruky.' },
+      { title: 'PS Vita = skvělý retro handheld', text: 'Po úpravě je z Vity vynikající kapesní RetroArch stroj až po PS1/PSP.' },
+      { title: 'Pozor na bany a záruku', text: 'U Switche hrozí online ban; obecně riskuješ záruku. Dělej to odpojené od účtu a na vlastní odpovědnost.' },
+    ],
+  },
 ];
 
 export const HW_LEVEL_LABEL: Record<'ok' | 'most' | 'some', string> = {

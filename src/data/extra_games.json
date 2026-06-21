@@ -3,7 +3,8 @@
     { "name": "Street Fighter II: The World Warrior", "genre": "Fighting", "length": "S", "flags": [] },
     { "name": "Street Fighter II: Hyper Fighting", "genre": "Fighting", "length": "S", "flags": [] },
     { "name": "Mortal Kombat", "genre": "Fighting", "length": "S", "flags": ["mature"] },
-    { "name": "Mortal Kombat II", "genre": "Fighting", "length": "S", "flags": ["mature"] }
+    { "name": "Mortal Kombat II", "genre": "Fighting", "length": "S", "flags": ["mature"] },
+    { "name": "Operation Wolf", "genre": "Shooter (light gun)", "length": "S", "flags": [] }
   ],
   "snes": [
     { "name": "Street Fighter II Turbo: Hyper Fighting", "genre": "Fighting", "length": "S", "flags": [] },
@@ -13,5 +14,17 @@
     { "name": "Street Fighter II: Special Champion Edition", "genre": "Fighting", "length": "S", "flags": [] },
     { "name": "Mortal Kombat", "genre": "Fighting", "length": "S", "flags": ["mature"] },
     { "name": "Mortal Kombat II", "genre": "Fighting", "length": "S", "flags": ["mature"] }
+  ],
+  "nes": [
+    { "name": "Operation Wolf", "genre": "Shooter (light gun)", "length": "S", "flags": [] }
+  ],
+  "playstation": [
+    { "name": "SimCity 2000", "genre": "Sim (budování města)", "length": "L", "flags": [] }
+  ],
+  "amiga": [
+    { "name": "Theme Park", "genre": "Sim / Management", "length": "M", "flags": [] },
+    { "name": "Frontier: Elite II", "genre": "Sim (vesmírná)", "length": "XL", "flags": [] },
+    { "name": "Stunts (4D Sports Driving)", "genre": "Racing / Sim", "length": "M", "flags": [] },
+    { "name": "Railroad Tycoon", "genre": "Strategy / Sim", "length": "L", "flags": [] }
   ]
 }

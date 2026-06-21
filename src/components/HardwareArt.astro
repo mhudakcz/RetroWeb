@@ -1,7 +1,7 @@
 ---
 // Stylizované SVG ilustrace zařízení (bez nutnosti chráněných fotografií).
 interface Props {
-  art: 'handheld-h' | 'handheld-v' | 'batocera' | 'pi' | 'android' | 'pc' | 'mobile';
+  art: 'handheld-h' | 'handheld-v' | 'batocera' | 'pi' | 'android' | 'pc' | 'mobile' | 'console';
   color: string;
   color2: string;
 }
@@ -142,6 +142,24 @@ const id = Math.random().toString(36).slice(2, 8);
           <rect x="188" y="74" width="48" height="72" rx="3" fill="none" />
           <path d="M204 96l16 10-16 10z" fill="#0c0d12" opacity="0.5" stroke="none" />
           <circle cx="212" cy="156" r="3" fill="#2c303c" />
+        </g>
+      )
+    }
+
+    {
+      art === 'console' && (
+        <g stroke="#0c0d12" stroke-width="2">
+          {/* gamepad */}
+          <path d="M70 78c-16 0-26 14-30 34l-8 36c-3 14 6 24 18 24 9 0 14-6 19-13l10-14h62l10 14c5 7 10 13 19 13 12 0 21-10 18-24l-8-36c-4-20-14-34-30-34z" fill="#23262f" />
+          {/* d-pad */}
+          <rect x="62" y="104" width="9" height="28" rx="2" fill="#3a3f4d" />
+          <rect x="52" y="114" width="29" height="9" rx="2" fill="#3a3f4d" />
+          {/* tlačítka */}
+          <circle cx="214" cy="106" r="7" fill={`url(#scr-${id})`} stroke="none" />
+          <circle cx="214" cy="106" r="7" fill="none" />
+          <circle cx="232" cy="120" r="7" fill="#3a3f4d" />
+          <circle cx="196" cy="120" r="7" fill="#3a3f4d" />
+          <circle cx="214" cy="134" r="7" fill="#3a3f4d" />
         </g>
       )
     }
