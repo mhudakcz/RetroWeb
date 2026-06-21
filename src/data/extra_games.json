@@ -13,18 +13,25 @@
   "mega-drive": [
     { "name": "Street Fighter II: Special Champion Edition", "genre": "Fighting", "length": "S", "flags": [] },
     { "name": "Mortal Kombat", "genre": "Fighting", "length": "S", "flags": ["mature"] },
-    { "name": "Mortal Kombat II", "genre": "Fighting", "length": "S", "flags": ["mature"] }
+    { "name": "Mortal Kombat II", "genre": "Fighting", "length": "S", "flags": ["mature"] },
+    { "name": "688 Attack Sub", "genre": "Sim (ponorka)", "length": "M", "flags": [] },
+    { "name": "LHX Attack Chopper", "genre": "Sim (vrtulník)", "length": "M", "flags": [] }
   ],
   "nes": [
     { "name": "Operation Wolf", "genre": "Shooter (light gun)", "length": "S", "flags": [] }
   ],
   "playstation": [
-    { "name": "SimCity 2000", "genre": "Sim (budování města)", "length": "L", "flags": [] }
+    { "name": "SimCity 2000", "genre": "Sim (budování města)", "length": "L", "flags": [] },
+    { "name": "Ace Combat 3: Electrosphere", "genre": "Sim / Letecká akce", "length": "M", "flags": [] }
   ],
   "amiga": [
     { "name": "Theme Park", "genre": "Sim / Management", "length": "M", "flags": [] },
     { "name": "Frontier: Elite II", "genre": "Sim (vesmírná)", "length": "XL", "flags": [] },
     { "name": "Stunts (4D Sports Driving)", "genre": "Racing / Sim", "length": "M", "flags": [] },
-    { "name": "Railroad Tycoon", "genre": "Strategy / Sim", "length": "L", "flags": [] }
+    { "name": "Railroad Tycoon", "genre": "Strategy / Sim", "length": "L", "flags": [] },
+    { "name": "Gunship", "genre": "Sim (vrtulník)", "length": "M", "flags": [] }
+  ],
+  "c64": [
+    { "name": "Silent Service", "genre": "Sim (ponorka)", "length": "M", "flags": [] }
   ]
 }

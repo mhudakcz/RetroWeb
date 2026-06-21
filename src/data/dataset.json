@@ -6894,7 +6894,7 @@
       "image": "/images/platforms/mega-drive.png",
       "photoBg": "dark",
       "history": "Mega Drive (v Severní Americe Genesis, 1988/1989) byla konzole, se kterou Sega málem porazila Nintendo. Vyšla dřív než SNES a chvíli měla 16bitový trh sama pro sebe. Sega ji postavila na image „cool\" alternativy — rychlejší, drzejší, dospělejší. Maskot **Sonic the Hedgehog** byl přímý protiúder Mariovi: kde byl Mario rozvážný, Sonic byl o rychlosti a postoji.\n\nGenesis proslul agresivním marketingem v USA („Genesis does what Nintendon't\") a tím, že byl ochotnější hostit vyzrálejší obsah. Slavná je kauza kolem hry Mortal Kombat: zatímco SNES verze krev cenzurovala, na Genesis šla po zadání kódu odemknout — což Sege u teenagerů získalo body. Tahle ochota „jít na hranu\" definovala značku.\n\nTechnicky měl Mega Drive výkonný procesor (Motorola 68000, stejný jako v Amize a raných Macintoshích), který zvládal rychlou akci a hodně objektů na obrazovce — proto na něm tak dobře fungují svižné hry jako Sonic, Streets of Rage nebo Gunstar Heroes. Zvukový čip (Yamaha FM syntéza) má charakteristický „drsnější\" zvuk, který milují fanoušci a který dal vzniknout legendárním soundtrackům (Streets of Rage 2 od Yuza Koshira).\n\nPro retrohráče je Mega Drive plný akce: nejlepší 2D beat 'em upy (Streets of Rage), špičkové run & gun (Gunstar Heroes, Contra: Hard Corps), rychlé plošinovky a slušná JRPG (Phantasy Star IV, Shining Force). Knihovna má jiný charakter než SNES — méně rozjímavá, víc adrenalinová. Emulace je vyzrálá a na H700 běží skvěle.\n\nHomebrew scéna Mega Drive je jednou z nejimpozantnějších. Vychází technicky ohromující nové hry jako **Demons of Asteborg**, **Xeno Crisis**, **Tanglewood** nebo dokonce port **Lyle in Cube Sector** — některé na skutečných kartridžích. Sega navíc komunitu spíše toleruje, takže scéna kvete.\n\nMimochodem, k Mega Drive patřila řada doplňků (Sega CD pro hry na CD, 32X jako 32bitový nástavec), které komerčně spíš pohořely a dodnes jsou připomínkou toho, jak Sega svou pozici postupně ztratila.",
-      "gameCount": 56,
+      "gameCount": 58,
       "games": [
         {
           "slug": "mega-drive__sonic-hedgehog-1-3",
@@ -8508,6 +8508,48 @@
               "src": "/images/games/mega-drive/mega-drive__mortal-kombat-ii-title.webp",
               "label": "Titulní obrazovka",
               "kind": "title"
+            }
+          ]
+        },
+        {
+          "slug": "mega-drive__688-attack-sub",
+          "name": "688 Attack Sub",
+          "genre": "Sim (ponorka)",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Ticho. Jen vrnění strojovny, pípání sonaru a vědomí, že nepřítel je někde tam venku ve tmě a poslouchá stejně napjatě jako vy. To je atmosféra, kterou **688 Attack Sub** dokázal vmáčknout do šestnáctibitové konzole v době, kdy většina hráčů od Mega Drive čekala hlavinu pixelů a rychlou akci, nikoliv trpělivou hru na kočku a myš pod hladinou.\n\nHra vás postaví do velitelské sekce americké útočné ponorky třídy Los Angeles (typ 688, odtud název) a později i sovětského protivníka. Jádro hratelnosti netvoří efektní výbuchy, ale **práce se sonarem, řízení hloubky a rychlosti a taktika ticha**. Příliš rychlá plavba znamená hluk, hluk znamená prozrazení a prozrazení často znamená torpédo mířící přímo na vás. Hráč žongluje mezi pasivním nasloucháním, aktivním sonarem a načasováním vlastních torpéd tak, aby zasáhla dřív, než protivník stačí provést úhybný manévr nebo vypustit klamné cíle.\n\nTitul vznikl jako konzolová adaptace stejnojmenné počítačové hry, kterou původně vytvořil John W. Ratcliff a vydalo ji **Electronic Arts** na přelomu osmdesátých a devadesátých let. Verzi pro Mega Drive distribuovala Sega a patřila k těm vzácným kouskům, které braly simulační žánr na konzoli vážně, místo aby ho zjednodušily k nepoznání. Právě tahle ambice z hry dělá zajímavý dokument doby, kdy se vydavatelé teprve učili, co všechno konzolové publikum unese.\n\nČím **688 Attack Sub** vyniká, je jeho rozhodnutí upřednostnit napětí před spektáklem. Souboje se odehrávají na mapách a přístrojových panelech, kde se metry přibližování měří v minutách a kde jedna chyba v odhadu nepřátelské pozice rozhodne o celé misi. Tahle pomalost je záměrná a pro fanoušky ponorkových simulátorů je přesně tím, co dělá žánr tak návykovým: nejde o reflexy, ale o předvídání protivníkova uvažování.\n\nDnes hru vnímáme spíš jako kuriozitu a důkaz šíře knihovny Mega Drive než jako masový hit, ale právě v tom je její kouzlo. Připomíná dobu, kdy si i akční konzole troufla na hloubku, kterou bychom čekali spíš u PC.\n\n**Proč hrát:** Pokud vás láká napětí ponorkového souboje, kde vítězí trpělivost a chladná hlava, je tohle vzácný a poctivý kousek konzolové simulace.",
+          "image": "/images/games/mega-drive/mega-drive__688-attack-sub.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__688-attack-sub.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ]
+        },
+        {
+          "slug": "mega-drive__lhx-attack-chopper",
+          "name": "LHX Attack Chopper",
+          "genre": "Sim (vrtulník)",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Země se míhá pod trupem, na displeji blikají kontakty a rádio hlásí další cíl. Vrtulník se naklání, prst spočine na spoušti a salva raket míří k nepřátelské technice. **LHX Attack Chopper** přinesl tenhle pocit bojového letce na obrazovky v době, kdy bitevní vrtulník byl symbolem moderní války a každý kluk si chtěl alespoň virtuálně sednout za jeho řízení.\n\nHra od **Electronic Arts** vychází z populární počítačové verze a staví hráče do kokpitu dvou strojů: skutečného slavného **AH-64 Apache** a experimentálního lehkého vrtulníku označovaného jako LHX, podle nějž nese hra jméno. Mezi nimi se přepíná podle povahy mise, protože každý nabízí jiný kompromis mezi pancířem, palebnou silou a obratností.\n\nTěžiště hratelnosti leží v plnění **bojových misí**, kde nestačí jen letět a střílet. Hráč musí hospodařit se **zbraňovými systémy** od kulometu přes neřízené rakety až po protitankové a protiletadlové střely, sledovat radar, vyhýbat se nepřátelské protivzdušné obraně a využívat terén jako kryt. Let nízko nad zemí, takzvané nap-of-the-earth, tu není jen efekt, ale taktická nutnost, která vás může schovat před zaměřením raket.\n\nVizuálně **LHX Attack Chopper** vsadil na plynulou vektorovou a polygonovou grafiku, což bylo na šestnáctibitové konzoli ambiciózní rozhodnutí. Mega Drive sice nedosáhl detailů dobových PC, ale díky rychlému procesoru zvládl trojrozměrný svět udržet v tempu, které dávalo akci říz. Výsledkem byl jeden z mála skutečných leteckých simulátorů na této platformě, který nebyl jen arkádovou střílečkou s vrtulníkem v hlavní roli.\n\nKulturně hra zapadá do vlny vojenských simulátorů konce osmdesátých a začátku devadesátých let, kdy technika ze skutečných arzenálů fascinovala hráče a vydavatelé jako EA nebo MicroProse soutěžili o to, kdo přinese věrohodnější pocit pilotování. **LHX Attack Chopper** v tomto kontextu reprezentuje snahu přenést tu věrohodnost i na konzoli, kterou většina lidí spojovala s ježkem a plošinovkami.\n\n**Proč hrát:** Vzácný bojový vrtulníkový simulátor na Mega Drive, který nabízí taktickou hloubku misí a pocit ze skutečného letu místo pouhé arkády.",
+          "image": "/images/games/mega-drive/mega-drive__lhx-attack-chopper.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__lhx-attack-chopper.webp",
+              "label": "Obal",
+              "kind": "box"
             }
           ]
         }
@@ -11900,7 +11942,7 @@
       "image": "/images/platforms/playstation.png",
       "photoBg": "dark",
       "history": "PlayStation (1994/1995) změnil herní průmysl víc než kterákoli konzole od dob NES. Ironií je, že vznikl z nepovedeného partnerství: Sony původně vyvíjela CD doplněk pro SNES, ale Nintendo spolupráci na poslední chvíli zradilo a uzavřelo dohodu s konkurencí. Naštvaná Sony svůj projekt přetavila v samostatnou konzoli — a porazila s ní oba dosavadní krále.\n\nKlíčové bylo několik věcí. PlayStation vsadil na CD místo drahých kartridží, což znamenalo levnější výrobu, větší kapacitu (filmové scény, dabing, CD hudba) a nižší bariéru pro vývojáře. Sony se navíc k vývojářům chovala vstřícně a aktivně budovala „dospělejší\" image hraní mířenou na teenagery a mladé dospělé — hraní přestávalo být jen pro děti.\n\nKonzole prodala přes 100 milionů kusů a hostila zrod nebo proměnu nesčetných žánrů. **Final Fantasy VII** zpopularizoval JRPG na Západě, **Resident Evil** a **Silent Hill** definovaly survival horor, **Tomb Raider** a **Metal Gear Solid** ukázaly potenciál 3D akce a vyprávění, **Gran Turismo** povýšil závodní simulace. Tahle generace položila základy moderního hraní, jak ho známe.\n\nVizuálně je PS1 nezaměnitelný: 3D grafika s charakteristicky „roztřesenými\" texturami a polygony (kvůli způsobu, jakým konzole počítala obraz), nízké rozlišení a hojné používání mlhy či tmy ke skrytí hardwarových limitů. Tahle estetika dnes zažívá nostalgickou renesanci — moderní indie hry ji záměrně napodobují („PS1 style\").\n\nPro retrohráče je PS1 jeden z nejvděčnějších cílů. Emulace je vyzrálá a na H700 běží spolehlivě (přes PCSX-ReARMed nebo DuckStation). Jediné úskalí je velikost — CD hry zaberou na SD kartě výrazně víc místa než kartridžové konzole, takže si vybírej. Knihovna je ale tak bohatá, že je to nejtěžší volba ze všech: čím začít.",
-      "gameCount": 79,
+      "gameCount": 80,
       "games": [
         {
           "slug": "playstation__final-fantasy-vii",
@@ -14375,6 +14417,37 @@
             },
             {
               "src": "/images/games/playstation/playstation__simcity-2000-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ]
+        },
+        {
+          "slug": "playstation__ace-combat-3-electrosphere",
+          "name": "Ace Combat 3: Electrosphere",
+          "genre": "Sim / Letecká akce",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Stíhačka prořízne futuristickou oblohu, na sklenici kokpitu se rozzáří terče a hlas v rádiu vás žene vstříc dalšímu vzdušnému soubojí. **Ace Combat 3: Electrosphere** od **Namca** posunul sérii do blízké budoucnosti a předvedl, jak může letecká akce na první PlayStation vypadat, když se sejdou špičková technika a smysl pro styl.\n\nHra zůstává věrná receptu, který sérii proslavil: jde o **arkádově laděný letecký simulátor**, kde fyzika letu ustupuje pocitu rychlosti, manévrovatelnosti a okamžité odměny. Pilotujete celou paletu **futuristických stíhaček** vyzbrojených kanonem a sadou řízených i speciálních střel, lockujete nepřátele a uhýbáte protiletadlové palbě v misích, které vás vedou nad město, hory i otevřené moře. Ovládání je dostatečně přístupné, aby si ho osvojil i nováček, ale dost hluboké na to, aby mistrné lety byly opravdovým uměním.\n\nNad rámec čisté akce se **Electrosphere** vyznačuje silným důrazem na příběh a atmosféru. Hra se odehrává v budoucnosti, kde reálné státy ustoupily mocným korporacím, a děj sledujete očima pilota napojeného na elektronickou síť. Japonská verze obsahovala rozsáhlé příběhové scény a animované sekvence s několika rozvětvenými cestami, zatímco verze vydaná na Západě byla výrazně zestručněna a o značnou část tohoto vyprávění přišla. Tahle odlišnost dodnes patří k nejdiskutovanějším tématům mezi fanoušky série.\n\nVývojově hra představuje vrchol toho, co Namco z PlayStationu pro letecký žánr vyždímal. Plynulé framerate, čistě modelované stroje a působivé prostředí ukázaly, že konzole zvládne udržet rychlou trojrozměrnou akci, aniž by se zadrhávala. **Ace Combat** se na této generaci etabloval jako jedna z definujících leteckých značek a třetí díl je toho výmluvným důkazem.\n\nKulturní význam série spočívá v tom, že dokázala přiblížit letecké souboje širokému publiku, které by se ke komplexnímu PC simulátoru nikdy neodvážilo. **Electrosphere** k tomu přidal odvážnou kyberpunkovou vizi, jež z něj dělá ve své době ojedinělý experiment, na který fanoušci dodnes vzpomínají s respektem.\n\n**Proč hrát:** Stylová a rychlá letecká akce s kyberpunkovou atmosférou, jeden z klenotů žánru na první PlayStation.",
+          "image": "/images/games/playstation/playstation__ace-combat-3-electrosphere.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__ace-combat-3-electrosphere.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__ace-combat-3-electrosphere-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            },
+            {
+              "src": "/images/games/playstation/playstation__ace-combat-3-electrosphere-title.webp",
               "label": "Titulní obrazovka",
               "kind": "title"
             }
@@ -21957,7 +22030,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Roztomilý klaun s velkým míčem v ruce a hordou nepřátel za zády — to je obrázek, který se vryje do paměti každému, kdo si **Mr. Do!** kdy zahrál. Tahle bludišťová arkáda patří k titulům, které dokázaly chytlavě smíchat dvě osvědčené ingredience své doby: hloubení tunelů ve stylu Dig Dug a sbírání pokladů jako v Pac-Manovi. Výsledkem je hratelnost, která i po desítkách let dokáže člověka přilepit k ovladači.\n\nPrincip je geniálně jednoduchý. Ovládáte klauna Mr. Do!, který se prokopává hlínou plnou třešní. Vaším úkolem je posbírat všechny plody, případně zlikvidovat všechny nepřátele — a to buď hozeným odrážejícím se míčem, nebo chytře shozeným obřím jablkem, které rozdrtí každého, kdo se připlete pod něj. Právě fyzika padajícího ovoce je srdcem celé hry: musíte předvídat, kudy se nepřátelé poženou, a načasovat past tak, aby spadla v pravou chvíli.\n\nKaždé kolo má svůj rytmus a strategickou hloubku, kterou byste u tak barevně cukrátkové hry nečekali. Sbírání písmen E-X-T-R-A z poražených protivníků otevírá bonusová kola a životy navíc, takže riskovat boj se vyplácí. Hra navíc neustále tlačí na tempo — čím déle váháte, tím agresivnější nepřátelé jsou. Je to neustálé přepínání mezi opatrným kopáním a riskantním lovem.\n\nNa **ColecoVisionu** dostal Mr. Do! domov, který mu seděl. Konzole byla proslulá tím, že zvládala arkádové porty věrněji než konkurence své generace, a barevná, čitelná grafika téhle hry z toho pěkně těžila. Pro hráče počátku osmdesátých let to byl jeden z titulů, díky kterým měla mít arkáda smysl i doma v obýváku.\n\nMr. Do! se stal natolik populárním, že odstartoval celou malou sérii pokračování a dodnes patří mezi milované klasiky zlaté éry arkádových automatů. Je to hra, která vás nenechá vydechnout, ale zároveň vás odmění za chytrost a předvídavost — vzácná kombinace, kterou dnešní tituly často marně hledají.\n\n**Proč hrát:** Pro chytlavou směs bludiště, kopání a načasovaných pastí, která i dnes dokáže být napínavá a překvapivě strategická.",
           "image": "/images/games/colecovision/colecovision__mr-do.webp",
           "gallery": [
             {
@@ -21988,7 +22061,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Robot, který se rozpadá na střepy plechu, zatímco vy zběsile pálíte přes celou obrazovku — **Frenzy** je přesně ta hra, kterou si pod tímhle názvem představíte. Jako pokračování legendárního Berzerku posouvá svou předlohu dál a přidává prvky, které z bludiště plného nepřátelských robotů dělají o něco bohatší a divočejší zážitek.\n\nZáklad zůstává věrný kořenům žánru run & gun: pohybujete se labyrintem místností, střílíte po robotech a snažíte se přežít. Smrtící jsou nejen nepřátelé, ale i samotné zdi — dotek s nimi znamená konec. Frenzy ale přidává destruktibilní stěny, které lze prostřílet, a několik typů speciálních místností s vlastními pravidly, což přináší příjemnou variabilitu a nutí hráče přemýšlet, kudy se vydat.\n\nNad celým děním se vznáší obří, ikonická tvář — \"velký mozek\", centrum, které když zničíte, otevře vám cestu dál. Tahle nadsázka a trocha humoru patří k tomu, proč si Frenzy získalo svou skupinu věrných fanoušků. Hra dokáže být brutálně rychlá a nemilosrdná, ale právě v tom tkví její kouzlo: každá místnost je malá hádanka přežití, kterou musíte vyřešit dřív, než vás obklíčí.\n\nNa **ColecoVisionu** se tahle akce cítila jako doma. Konzole měla dost výkonu na to, aby zvládla svižné tempo a čitelné rozložení místností, díky čemuž byl domácí port hratelný a uspokojivý. Pro fanoušky arkádové akce počátku osmdesátých let to byla další dávka adrenalinu přenesená z herny rovnou na televizi.\n\nFrenzy dnes možná stojí ve stínu slavnějšího předchůdce Berzerku, ale pro znalce žánru je to fascinující kus historie — ukázka, jak se rané střílečky pokoušely růst, experimentovat a přidávat hloubku, aniž by ztratily svou syrovou bezprostřednost.\n\n**Proč hrát:** Pro rychlou, nekompromisní arkádovou akci s nádechem humoru a chytrým rozšířením klasické formule Berzerku.",
           "image": "/images/games/colecovision/colecovision__frenzy.webp",
           "gallery": [
             {
@@ -22019,7 +22092,7 @@
           "est": "1–3 h",
           "teaser": null,
           "detail": "Izometrická střílečka, kde sleduješ i výšku letadla (stín) — na svou dobu vizuálně revoluční pseudo-3D. ColecoVision port byl působivý.",
-          "article": null,
+          "article": "Letadlo se sklání nad pevnost, klesá k zemi mezi věžemi a stěnami — a vy poprvé v životě vidíte, jak vysoko vlastně letíte. **Zaxxon** z roku 1982 byl ve své době vizuální zjevení, hra, která dokázala to, co tehdy působilo skoro magicky: navodit dojem prostorové hloubky a výšky na obrazovce, která uměla zobrazovat jen ploché obrázky.\n\nTajemstvím je izometrický pohled. Sledujete své letadlo ze šikmého nadhledu a co je naprosto klíčové — vidíte i jeho stín dopadající na zem. Díky němu poznáte, v jaké výšce právě letíte, a můžete přesně manévrovat nad zdmi, podlétávat pod silovými poli nebo se srovnat na úroveň nepřátelských věží. Tahle jediná designová finta proměnila obyčejnou střílečku v něco, co působilo skutečně trojrozměrně.\n\nHratelnost je napjatý tanec mezi útokem a přežitím. Musíte hlídat palivo, ničit cisterny, aby vám neklesalo, sestřelovat pozemní i vzdušné cíle a nakonec se utkat s obřím robotem Zaxxonem, který hře dal jméno. Každý průlet pevností je zkouškou prostorové orientace i reflexů — a právě ten pocit, že ovládáte stroj ve skutečném prostoru, byl tehdy zcela nový.\n\nZa hrou stojí **Sega**, která se Zaxxonem zapsala do dějin arkád, a domácí verzi pro ColecoVision připravilo **Coleco**. A právě tento port byl na svou dobu pozoruhodně působivý — konzole proslula schopností přenášet arkádové hity věrněji než konkurence a Zaxxon to potvrdil. Pro majitele ColecoVisionu to byla jedna z výkladních skříní toho, co jejich stroj umí.\n\nZaxxon se stal kulturním fenoménem osmdesátých let, ikonou pseudo-3D grafiky a titulem, na který vzpomínají generace hráčů. Jeho vizuální nápad ovlivnil celou řadu pozdějších her a dodnes je učebnicovým příkladem toho, jak chytrý design dokáže obejít technická omezení.\n\n**Proč hrát:** Pro zážitek z hry, která jako jedna z prvních dokázala přesvědčivě navodit pocit letu v prostoru — a stála u zrodu pseudo-3D grafiky.",
           "image": "/images/games/colecovision/colecovision__zaxxon.webp",
           "gallery": [
             {
@@ -22050,7 +22123,7 @@
           "est": "1–3 h",
           "teaser": null,
           "detail": "Jedna z prvních „kreslených\" plošinovek podle licence (Šmoulové), s vícebarevným pozadím nezvyklým na svou dobu. Komerčně úspěšná; dobový rodinný titul.",
-          "article": null,
+          "article": "Modrý mužíček se prodírá lesem, přeskakuje ploty a uhýbá netopýrům, aby zachránil unesenou Šmoulinku — **Smurf: Rescue in Gargamel's Castle** z roku 1982 byl jedním z prvních pokusů přetavit oblíbenou kreslenou licenci do podoby barevné domácí plošinovky. A na svou dobu to byl pokus pozoruhodně povedený.\n\nPříběh je prostý a sympatický: ovládáte Šmoulu na cestě skrz lesy a jeskyně až do hradu zlého čaroděje Gargamela, kde čeká zajatá Šmoulinka. Hratelnost stojí na přeskakování překážek — plotů, hadů, pavouků a dalších nástrah — s důrazem na přesné načasování skoku. Není to obtížnostní masakr, ale spíš příjemně laděná výzva, která sedne i mladším hráčům.\n\nNa svou dobu hra zaujala vícebarevnými, detailně kreslenými pozadími, která působila až překvapivě bohatě. V roce 1982 nebylo běžné vidět na domácí konzoli scenérii, jež by tak věrně připomínala kreslený seriál. Právě tahle vizuální stránka byla velkým tahákem a dělala ze Smurfa rodinný titul, který rodiče rádi kupovali svým dětem.\n\nZa hrou stojí samotné **Coleco**, výrobce konzole, a šlo o jeden z komerčně úspěšných titulů, které pomáhaly budovat knihovnu **ColecoVisionu**. Licencované hry podle populárních značek byly tehdy chytrou strategií, jak oslovit širší publikum než jen hardcore arkádové nadšence — a Šmoulové byli ideální volbou.\n\nDnes je Smurf milou připomínkou raných dnů licencovaných her, kdy se teprve hledalo, jak převést oblíbené postavy z televize na obrazovku konzole. Není to technicky náročná hra, ale má svůj nezaměnitelný retro šarm a místo v srdcích těch, kdo vyrůstali s modrými skřítky.\n\n**Proč hrát:** Pro nostalgický, barevný kousek raných licencovaných plošinovek, který i dnes potěší svou jednoduchostí a kresleným šarmem.",
           "image": "/images/games/colecovision/colecovision__smurf-rescue-in-gargamel-s-castle.webp",
           "gallery": [
             {
@@ -22081,7 +22154,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Tlak na plyn, prst na spoušti a nepřátelské stíhačky valící se zprava doleva — **Cosmic Avenger** je esence klasické vesmírné střílečky v podobě, jakou milovaly herny i obývací pokoje počátku osmdesátých let. Žádné zbytečné okolky, jen čistá, svižná akce, která prověří vaše reflexy.\n\nHra patří mezi horizontálně scrollované shmupy, kde se neustále pohybujete kupředu nad rozmanitou krajinou a musíte zvládat hrozby přicházející ze všech stran. Nad hlavou vám létají nepřátelská plavidla, zespodu po vás pálí pozemní základny a rakety. Klíčem k přežití je rozdělit pozornost: zatímco sestřelujete vzdušné cíle, musíte současně bombardovat to, co číhá dole. Tahle dvojí palba — vodorovná i svislá — dává hře příjemně hektické tempo.\n\nKouzlo Cosmic Avengeru tkví v jeho přímočarosti. Nepotřebuje složité mechaniky ani dlouhé vysvětlování; stačí jediný pohled na obrazovku a okamžitě víte, co dělat. Právě to z něj dělá ukázkový titul své éry, kdy arkádové hry musely hráče zaujmout během prvních vteřin a udržet ho neustále vzhůru nohama.\n\nNa **ColecoVisionu** se tenhle typ rychlé akce cítil dobře. Konzole měla dost výkonu na plynulý scrolling a čitelnou grafiku, takže domácí verze nabízela uspokojivý zážitek pro každého, kdo toužil po dávce vesmírného boje bez nutnosti shánět drobné do automatu.\n\nCosmic Avenger je dnes spíš pro znalce a sběratele, ale jako reprezentant raného žánru shmupů má svou hodnotu. Připomíná dobu, kdy stačil jeden dobrý nápad a pořádná porce nepřátel, aby vznikla hra, u které jste strávili hodiny ve snaze překonat vlastní rekord.\n\n**Proč hrát:** Pro nefalšovanou, rychlou vesmírnou střílečku staré školy, kde se počítají jen reflexy a touha po vyšším skóre.",
           "image": "/images/games/colecovision/colecovision__cosmic-avenger.webp",
           "gallery": [
             {
@@ -22112,7 +22185,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Tichý vstup do budovy, kapsy připravené na lup a ostraha, která nesmí nic tušit — **The Heist** je hra, která spojuje akci s přemýšlením a vsází na to, že nejlepší zloděj je ten, kdo si umí naplánovat každý krok. Tahle kombinace plošinovky a hádanky byla na svou dobu příjemně netradiční.\n\nVžijete se do role mistra zloděje, jehož úkolem je proniknout do rozsáhlé budovy, posbírat všechny cennosti a uniknout. Jednotlivé místnosti jsou postavené jako malé hlavolamy — musíte zjistit, jak se dostat k pokladu, jak obejít nástrahy a jak se vyhnout strážím. Není to čistá akce na reflexy, spíš trpělivé luštění prostorových rébusů, kde každý nesprávný krok může znamenat dopadení.\n\nPrávě tahle hybridní povaha dělá z The Heist zajímavý titul. Místo abyste jen běhali a stříleli, musíte zapojit hlavu, pamatovat si rozložení místností a přemýšlet o pořadí, v jakém věci uděláte. Pro hráče, kteří měli rádi výzvu jiného druhu než jen rychlé prsty, to byla vítaná změna tempa v knihovně plné arkádových řežeb.\n\nNa **ColecoVisionu** našla hra platformu, která zvládla zobrazit přehledné rozvržení místností a dala designérům prostor pro vrstvení hádanek. Konzole byla známá tím, že dokázala udržet i komplexnější tituly hratelné a čitelné, což žánru akce s puzzle prvky jen prospívalo.\n\nThe Heist dnes patří mezi méně známé tituly své doby, ale pro fanoušky chytřejších akčních her je to milé překvapení. Ukazuje, že už v rané éře domácích konzolí existovaly hry, které kladly důraz na plánování a hlavu, ne jen na reflexy.\n\n**Proč hrát:** Pro netradiční mix akce a hádanek, kde se vyplatí přemýšlet stejně jako rychle reagovat — vítaná změna mezi arkádovými klasikami.",
           "image": "/images/games/colecovision/colecovision__heist.webp",
           "gallery": [
             {
@@ -22143,7 +22216,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Mapa světa, prst nad tlačítkem a vědomí, že jeden špatný tah může znamenat konec — **War Room** je hra, která přenáší napětí studené války a hrozbu globálního konfliktu přímo na obrazovku domácí konzole. V době, kdy většina titulů spočívala ve střílení a skákání, byl pokus o strategii s tak vážným tématem něčím odvážným a neobvyklým.\n\nHra patří mezi strategické tituly, kde nejde o reflexy, ale o rozhodování. Musíte zvažovat tahy, řídit zdroje a uvažovat dopředu — žánr, který byl na arkádově zaměřeném **ColecoVisionu** vzácným hostem. Právě proto War Room vyčnívá: nabízí přemýšlivější zážitek pro hráče, kteří chtěli víc než jen zběsilou akci a hledali výzvu pro mozek.\n\nTematicky hra těží z atmosféry své doby. Počátek osmdesátých let byl prosáklý obavami z jaderného konfliktu a War Room tuhle náladu chytá — staví hráče do role někoho, kdo musí činit těžká strategická rozhodnutí pod tlakem. Tahle vážnost dávala hře jiný rozměr než barevné arkády kolem.\n\nNa **ColecoVisionu** byl strategický žánr vzácností, a tak War Room sloužil jako důkaz, že konzole zvládne i komplexnější přístupy než jen rychlou akci. Pro hráče, kteří měli rádi šachové uvažování a plánování, to byla osvěžující alternativa k všudypřítomným střílečkám.\n\nWar Room dnes patří mezi méně připomínané tituly své platformy, ale jako kuriozita a doklad žánrové rozmanitosti rané éry konzolí má své místo. Je to připomínka, že už tehdy se vývojáři snažili oslovit i hráče toužící po hloubce a přemýšlení, ne jen po adrenalinu.\n\n**Proč hrát:** Pro vzácnou dávku strategie na arkádové konzoli a atmosféru napětí studené války převedenou do herní podoby.",
           "image": "/images/games/colecovision/colecovision__war-room.webp",
           "gallery": [
             {
@@ -22174,7 +22247,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Žebříky, vykopané díry a monstra, která do nich musíte nalákat a pohřbít — **Space Panic** je hra, která stála u samého zrodu jednoho z nejvlivnějších herních žánrů vůbec. Než přišel Donkey Kong se svými skoky, byl tu právě Space Panic, často označovaný za úplně první plošinovku v historii.\n\nPrincip je geniálně jednoduchý a zároveň záludný. Pohybujete se po patrech propojených žebříky a vaším úkolem je zbavit se nepřátelských oblud. Nemáte ale žádnou zbraň — místo toho kopete do podlahy díry, do kterých musíte monstra nalákat, a pak je v pasti udeřit, aby propadla o patro níž. Tahle mechanika kopání a líčení pastí byla na svou dobu zcela nová a navozovala napětí mezi útokem a útěkem.\n\nKaždé kolo je tak vlastně malá hádanka přežití. Musíte přemýšlet, kde díru vykopat, jak nepřátele navést a kdy zaútočit — a přitom hlídat, aby vás nedostihli dřív. Hra navíc neodpouští: jakmile něco zkazíte, monstra se mstí a tlak roste. Je to nervydrásající balanc mezi plánováním a rychlou reakcí.\n\nNa **ColecoVisionu** našel Space Panic přirozený domov. Konzole zvládala přehledně zobrazit patra, žebříky a pohyb nepřátel, takže domácí verze nabízela věrný zážitek toho, co hru učinilo zajímavou v herně. Pro majitele konzole to byl kus herní historie přímo v obýváku.\n\nHistorický význam Space Panicu je obrovský. Bez něj by možná žánr plošinovek vypadal úplně jinak — byl to průkopník, na kterém pozdější legendy stavěly. I když dnes působí syrově, je to fascinující pohled do doby, kdy se teprve formovala pravidla žánru, jejž dnes berou všichni za samozřejmost.\n\n**Proč hrát:** Pro setkání s jednou z vůbec prvních plošinovek a chytrou mechaniku kopání pastí, která má svou napjatou hloubku dodnes.",
           "image": "/images/games/colecovision/colecovision__space-panic.webp",
           "gallery": [
             {
@@ -22205,7 +22278,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Andílek s nůžkami, který musí obkroužit a uzavřít každé políčko v bludišti, zatímco mu v patách jsou rohatí ďáblíci — **Pepper II** je bludišťová arkáda s nečekaně originálním nápadem, který ji odlišuje od záplavy podobných her své doby. Místo prostého sbírání teček tu jde o zaplňování ploch.\n\nMechanika je svěží variace na žánr bludišť. Pohybujete se po obvodu segmentů a vaším cílem je každý z nich \"obtáhnout\" celý dokola, čímž ho vyplníte a získáte body. Když uzavřete celé pole způsobem, který vykreslí symbol, dostanete bonus. Mezitím vás ale pronásledují nepřátelé a celá hra se mění v napjatý závod o to, kdo bude dřív — vy s vyplňováním, nebo oni s vaším dopadením.\n\nPrávě tahle myšlenka vyplňování ploch dává Pepper II osobitý rytmus. Musíte plánovat trasu tak, abyste segmenty uzavírali efektivně a přitom nezabředli do kouta, odkud není úniku. Je tu i náznak strategie v podobě dočasné nezranitelnosti a chytrého manévrování. Výsledkem je hra, která vypadá na první pohled jednoduše, ale rychle vás vtáhne svým specifickým tempem.\n\nNa **ColecoVisionu** se tenhle barevný, čitelný titul cítil dobře. Konzole zvládala přehledné zobrazení bludiště i svižný pohyb nepřátel, takže domácí verze nabízela uspokojivý arkádový zážitek pro každého, kdo měl rád hry typu \"obkresli a přežij\".\n\nPepper II dnes patří mezi méně známé, ale o to půvabnější klasiky bludišťového žánru. Pro fanoušky her ve stylu Amidaru či Qixu je to malý objev — důkaz, že i v přeplněném žánru se daly najít originální nápady, které stojí za vyzkoušení.\n\n**Proč hrát:** Pro originální bludišťovou mechaniku vyplňování ploch, která má svůj vlastní napjatý rytmus a odlišuje se od běžných her na sbírání teček.",
           "image": "/images/games/colecovision/colecovision__pepper-ii.webp",
           "gallery": [
             {
@@ -22236,7 +22309,7 @@
           "est": "4–10 h",
           "teaser": null,
           "detail": "Akční dungeon RPG s prozkoumáváním náhodných sklepení a sběrem pokladů — raný předchůdce roguelike akce. Na ColecoVision nezvyklá hloubka.",
-          "article": null,
+          "article": "Pochodeň osvětluje vlhké sklepení, někde ve tmě číhá poklad a hned vedle něj past nebo monstrum — **Gateway to Apshai** z roku 1984 přinesl na domácí konzole něco, co tehdy nebývalo zvykem: opravdové akční dungeon RPG s prozkoumáváním, sběrem pokladů a neustálým pocitem ohrožení. Na **ColecoVisionu** šlo o titul s nezvyklou hloubkou.\n\nHra vás posílá do rozlehlých podzemních labyrintů plných místností, chodeb, nestvůr a skrytých cenností. Sklepení jsou generována tak, aby každý sestup působil trochu jinak, což hru řadí mezi rané předchůdce dnešní roguelike akce. Prozkoumáváte úroveň po úrovni, sbíráte zlato, lektvary a vybavení, bojujete s netvory a snažíte se přežít co nejhlouběji. Mapování, opatrnost a správné rozhodování, kdy bojovat a kdy utéct, jsou klíčem k úspěchu.\n\nOproti většině arkádových titulů kladl Gateway to Apshai důraz na vytrvalost a postupný průzkum. Nešlo jen o reflexy, ale o trpělivost a chuť objevovat — pocit, že každá nová místnost může skrývat odměnu i nebezpečí, vytvářel napětí, jež u tehdejších domácích her nebylo běžné. Tahle hloubka z hry dělala něco výjimečného v knihovně plné rychlých arkád.\n\nZa hrou stojí studio **Epyx**, známé svou produkcí kvalitních titulů pro domácí počítače a konzole osmdesátých let. Gateway to Apshai byl odlehčenou, akčnější variací na slavnou sérii Dunjonquest a Temple of Apshai, navrženou tak, aby byl přístupný i hráčům na ovladači místo klávesnice.\n\nDnes je Gateway to Apshai fascinujícím pohledem na to, jak žánr akčního RPG hledal cestu na obrazovky konzolí. Pro fanoušky dungeonů a kořenů roguelike žánru je to cenný kus historie — důkaz, že touha prozkoumávat temná sklepení a sbírat poklady je v hráčích zakořeněná už po desítky let.\n\n**Proč hrát:** Pro nezvykle hlubokou akční RPG na arkádové konzoli a setkání s ranými kořeny dungeon-crawlerů a roguelike žánru.",
           "image": "/images/games/colecovision/colecovision__gateway-to-apshai.webp",
           "gallery": [
             {
@@ -22269,7 +22342,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Když se řekne ColecoVision, většina lidí si vybaví zaprášené arkádové konverze z přelomu sedmdesátých a osmdesátých let. Jenže tahle konzole nikdy úplně neumřela a Princess Quest je toho čerstvým důkazem. Patří mezi homebrew tituly, které vznikají z čisté lásky ke stroji, jenž oficiálně skončil dávno před tím, než se většina dnešních hráčů narodila.\n\nPrincess Quest je akční adventura v duchu toho nejlepšího, co osmibitová éra nabízela: prozkoumávání propojených obrazovek, sbírání předmětů, řešení jednoduchých hádanek a souboje s nepřáteli. Tam, kde komerční tituly z osmdesátých let musely šetřit pamětí a často odbývaly obsah, mívají moderní homebrew hry tu výhodu, že vznikají bez tlaku vydavatele a s plnou znalostí toho, co hardware umí. Výsledkem bývá pečlivější design a více obsahu, než jaké by ColecoVision tehdy běžně dostala.\n\nColecoVision byla ve své době technologickým premiantem. Díky grafickému čipu Texas Instruments uměla barevnější a detailnější obraz než konkurenční Atari 2600, a právě proto se stala oblíbenou platformou pro arkádové konverze. Homebrew scéna na tuto sílu navazuje a snaží se ji využít naplno, často s rozlišením a animacemi, které by tehdejší hráč považoval za malý zázrak na takhle staré mašině.\n\nU titulu, jako je Princess Quest, je poctivé přiznat, že přesné údaje o autorech, nákladu nebo distribuci nejsou široce doložené. To ale na kouzlu nic nemění. Tyhle hry obvykle vycházejí v limitovaných nákladech na fyzických kartridžích, s manuálem a krabicí, přesně jako kdysi. Sběratelé je milují právě pro tu hmatatelnou autentičnost.\n\nKdo má rád pomalejší, prozkoumávací akční hry a zároveň ho fascinuje, že stará konzole stále žije, najde tu přesně to, co hledá. Je to pozvánka do světa, kde se nehraje o grafický fotorealismus, ale o nápad, atmosféru a radost z objevování.\n\n**Proč hrát:** Pokud vás baví retro dobrodružství a kouzlo živé homebrew scény, Princess Quest ukazuje, že ColecoVision má pořád co nabídnout.",
           "image": "/images/games/colecovision/colecovision__princess-quest.webp",
           "gallery": [
             {
@@ -22303,7 +22376,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Existují konzole, které jednoduše odmítají zemřít, a ColecoVision je jednou z nich. Pod hlavičkou Kralizec a dalších tvůrců vzniká dodnes řada nových her pro stroj, jehož komerční život skončil už dávno v polovině osmdesátých let. Je to fascinující doklad toho, jak silné kořeny dokáže zapustit kus hardwaru u oddané komunity.\n\nToto není jediná hra, ale spíš okno do živé homebrew scény. Najdete tu nové arkádové akce, plošinovky, hádankové tituly i konverze známých automatových klasik, které se na ColecoVision v osmdesátkách nikdy nedostaly. Společným jmenovatelem je snaha vymáčknout z konzole maximum a nabídnout hráčům obsah, který tehdejší trh nestihl nebo se na něj neodvážil.\n\nVývojový kontext je tady to nejzajímavější. Zatímco původní tituly vznikaly pod tlakem termínů a omezené paměti kartridží, moderní tvůrci pracují s desítkami let nahromaděné znalosti hardwaru. Vědí přesně, co grafický čip a zvuková jednotka umí, a dokážou je využít způsobem, na který v komerční éře nebyl čas ani prostor. Hry tak často působí dospěleji a vyladěněji než dobové originály.\n\nDůležitá je i forma. Tyto tituly typicky vycházejí jako skutečné kartridže v limitovaných sériích, s vytištěným manuálem a krabicí. Pro sběratele je to malý svátek, protože dostávají novou hru ve stejném formátu, v jakém kdysi kupovali ty originální. Je to retro v nejčistší podobě, ne emulace na obrazovce počítače, ale fyzický kus do police.\n\nProtože jde o souhrn více titulů různých autorů, nemá smysl uvádět konkrétní prodejní čísla nebo ocenění, která by nešla ověřit. Podstatné je, že tahle scéna existuje, tvoří a baví. A dokud bude komu hrát, ColecoVision nezestárne.\n\n**Proč hrát:** Pro každého, koho fascinuje, že stará konzole stále dostává nové hry, je to fantastická vstupní brána do světa retro homebrew tvorby.",
           "image": "/images/games/colecovision/colecovision__kralizec-various.webp",
           "gallery": [
             {
@@ -22334,7 +22407,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Sednout si za řídicí pult hvězdné lodi a bránit se přesile Klingonů, to je sen každého fanouška Star Treku, a počátkem osmdesátých let ho automatová hra Sega dokázala proměnit ve skutečnost. Konverze na ColecoVision přinesla tento zážitek do obývacích pokojů a slibovala kus arkádové slávy přímo k televizi.\n\nStar Trek: Strategic Operations Simulator je vesmírná střílečka s důrazem na taktiku. Ovládáte loď Enterprise, ničíte nalétávající nepřátele, chráníte základny a hlídáte si energii, torpéda i stav štítů. Není to bezhlavé střílení, ale neustálé žonglování s omezenými zdroji, kdy musíte rozhodovat, kdy zaútočit, kdy uhnout a kdy se stáhnout k doplnění. Právě tahle vrstva správy zdrojů odlišovala hru od běžných střílecích automatů své doby.\n\nColecoVision byla pro takovou konverzi ideální volbou. Díky svému výkonnému grafickému čipu zvládala barevnější a plynulejší obraz než řada konkurentů, a domácí verze arkádových her tak na ní obvykle vypadaly o stupínek lépe. Pro hráče, kteří si nemohli dovolit pravidelné výpravy do herny, to byl způsob, jak mít kus automatového zážitku doma.\n\nLicence Star Treku byla v té době silným tahákem. Značka měla obrovskou fanouškovskou základnu a hra těžila z toho, že hráči mohli ovládat ikonickou loď, kterou znali z obrazovek. Spojení populární série a svižné akce bylo přesně tím typem produktu, na jaký dobový trh slyšel.\n\nDnes hra funguje jako příjemná časová kapsle, připomínka éry, kdy se arkádové hity stěhovaly do obýváků a kdy i jednoduchá premisa dokázala uživit hodiny zábavy. Pro nadšence do Star Treku má navíc nostalgickou hodnotu, kterou jen tak něco nepřekoná.\n\n**Proč hrát:** Taktická vesmírná akce s ikonickou licencí Star Treku, ideální pro fanoušky série i milovníky klasických arkádových střílecích her.",
           "image": "/images/games/colecovision/colecovision__star-trek-strategic-operations-simulator.webp",
           "gallery": [
             {
@@ -22365,7 +22438,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Strategie na herní konzoli z počátku osmdesátých let zní skoro jako protimluv, protože tehdejší trh patřil rychlým arkádovým reflexům, ne dlouhému přemýšlení. War Room je proto na ColecoVision o to zajímavějším úkazem, titulem, který sázel na hlavu místo na palce.\n\nWar Room je strategická hra zasazená do napětí vojenského konfliktu, kde nejde o reflexy, ale o plánování, rozhodování a předvídání tahů protivníka. Hráč velí, rozmísťuje síly a snaží se získat převahu, přičemž každé rozhodnutí má své následky. V době, kdy konzole sloužily převážně k odreagování u svižné akce, šlo o odvážný pokus přinést k televizi hloubku, jakou hráči znali spíš od deskových her nebo z prvních domácích počítačů.\n\nColecoVision měla na svou dobu slušný výkon a paměťové možnosti, což strategickým titulům alespoň částečně nahrávalo. Přesto byl žánr na konzolích vzácností, protože vyžadoval trpělivost a soustředění, které ne každý hráč u televize hledal. War Room tak patří k těm titulům, které rozšiřovaly představu o tom, co konzole vůbec může nabídnout.\n\nU této hry je férové držet se opatrnosti ohledně detailů. Přesné prodejní výsledky, ocenění ani okolnosti vzniku nejsou široce a spolehlivě doložené, a tak je rozumnější soustředit se na to, co je jisté: že šlo o strategický experiment na platformě, která k němu úplně nesměřovala. Právě to z ní dělá zajímavý kousek pro sběratele a milovníky historie žánru.\n\nDnes War Room připomíná, že už v úsvitu domácího hraní existovali tvůrci, kteří chtěli oslovit přemýšlivějšího hráče. Není to titul pro každého, ale ti, kdo k němu přistoupí s trpělivostí, ocení jeho ambici.\n\n**Proč hrát:** Vzácný strategický titul na arkádově laděné konzoli, lákavý pro každého, koho zajímá raná historie strategických her na domácích platformách.",
           "image": "/images/games/colecovision/colecovision__war-room-2.webp",
           "gallery": [
             {
@@ -22412,7 +22485,7 @@
           "est": "1–3 h",
           "teaser": "Definovaly dobrodružnou plošinovku na 2600; technické zázraky doby.",
           "detail": "Pitfall! definoval dobrodružnou plošinovku na 2600 (švihání na liánách, 255 obrazovek džungle) a prodal se přes 4 miliony — obří hit. Dvojka pak technickým zázrakem přidala vlastní zvukový čip přímo v kartridži pro vícekanálovou hudbu a rozsáhlejší mapu. Milníky toho, co šlo z hardwaru vymáčknout.",
-          "article": null,
+          "article": "Švih na liáně přes jámu plnou krokodýlů, a Harry Pitfall navždy změnil představu o tom, co dokáže herní konzole. V roce 1982 přinesl Activision na Atari 2600 hru, která definovala celý žánr dobrodružné plošinovky a stala se jedním z největších hitů celé éry.\n\nPitfall! z dílny legendárního Davida Cranea poslal hráče do džungle plné nástrah. Houpání na liánách, přeskakování děr, vyhýbání se hadům a štírům, lov pokladů a souboj s časem, to vše rozprostřené přes neuvěřitelných 255 obrazovek. Na hardwaru, který měl k dispozici jen pár kilobajtů paměti, to byl technický zázrak a důkaz Craneova programátorského mistrovství. Hra se prodala ve více než čtyřech milionech kusů, což z ní udělalo jeden z nejúspěšnějších titulů na konzoli vůbec.\n\nNa Atari 2600 byl Pitfall! tak vlivný, že se stal jakousi šablonou pro dobrodružné akční hry, které přišly po něm. Plynulý pohyb postavičky, smysluplně propojený svět a pocit skutečného průzkumu, to byly věci, které tehdejší hráče nadchly a které dnes bereme jako samozřejmost.\n\nVydání na pozdější Atari 7800 ukázalo hru ve výkonnějším kabátě, ale i zde zůstalo její kouzlo v jednoduché, přesto návykové podstatě: dostat se co nejdál, sebrat co nejvíc pokladů a přežít. Activision navíc tehdy patřil k prvním studiím, která stavěla na jménech svých tvůrců, a Crane se díky Pitfallu stal jednou z prvních hvězd herního průmyslu.\n\nPitfall! není jen stará hra, je to milník. Ukázal, kam až se dá hardware dotlačit, a inspiroval celou generaci vývojářů. Bez něj by žánr plošinovek vypadal jinak.\n\n**Proč hrát:** Zakladatelská klasika dobrodružné plošinovky, kterou by si měl projít každý, kdo chce pochopit kořeny žánru a génia rané éry her.",
           "image": "/images/games/atari-2600/atari-2600__pitfall.webp",
           "gallery": [
             {
@@ -22443,7 +22516,7 @@
           "est": null,
           "teaser": null,
           "detail": null,
-          "article": null,
+          "article": "Když byl první Pitfall! technickým zázrakem, jeho pokračování posunulo laťku do říše science fiction. Pitfall II: Lost Caverns přidalo do kartridže něco, co tehdy znělo neuvěřitelně, vlastní hardwarový čip, který Atari 2600 dovolil přehrávat vícekanálovou hudbu a pojmout daleko rozsáhlejší svět.\n\nDobrodruh Harry se tentokrát vydává hluboko do jeskynního labyrintu, aby zachránil neteř, mazlíčka a samozřejmě poklad. Hra opouští lineární strukturu jedničky a nabízí rozsáhlou propojenou mapu plnou chodeb, žebříků, vodopádů a nepřátel. Místo omezeného počtu životů přišel chytrý systém kontrolních bodů, kdy se Harry po smrti vrátí k poslednímu dosaženému kříži, což z hloubky jeskyní dělalo napínavou výzvu bez frustrace z restartů.\n\nTechnicky byla dvojka mimořádná. Přídavný čip přímo v kartridži dovolil to, co základní hardware konzole sám nezvládl, plynulou vícekanálovou hudbu, která hrála po celou dobu hraní. To bylo na Atari 2600 v podstatě neslýchané a ukazovalo, jak daleko byli vývojáři ochotni zajít, aby překonali limity stroje.\n\nNa starší konzoli to byl jeden z nejambicióznějších titulů vůbec, hra, která svým rozsahem a zvukem připomínala spíš výkonnější platformy. Pozdější vydání pro Atari 7800 pak těžilo z lepšího hardwaru a ukázalo Harryho dobrodružství v ještě hezčí podobě.\n\nPitfall II zůstává příkladem toho, jak kreativita a technická odvaha dokázaly obejít omezení železa. Je to hra, která se nespokojila s tím, že naváže na úspěšného předchůdce, ale rozhodla se ho ve všech směrech překonat.\n\n**Proč hrát:** Technicky průkopnické pokračování s rozsáhlým světem a nezapomenutelnou hudbou, jeden z nejambicióznějších titulů na Atari 2600.",
           "image": "/images/games/atari-2600/atari-2600__pitfall-ii-lost-caverns.webp",
           "gallery": [
             {
@@ -22474,7 +22547,7 @@
           "est": "1–3 h",
           "teaser": "Vertikální střílečka od Carol Shaw; milník (žena-designérka, procedurální levely).",
           "detail": "Carol Shaw byla jednou z prvních profesionálních herních designérek a River Raid je její opus — vertikální střílečka s procedurálně generovanou řekou (chytrý algoritmus šetřící paměť). V Německu byla kvůli „škodlivosti mládeži\" dlouho na indexu. Milník i kuriozita.",
-          "article": null,
+          "article": "Za jednou z nejlepších stříleček na Atari 2600 stojí žena, která se zapsala do dějin herního průmyslu, Carol Shaw, jedna z prvních profesionálních herních designérek vůbec. River Raid z roku 1982 je jejím opusem a dodnes platí za malý zázrak programátorského umu.\n\nHra je vertikální střílečka, ve které pilotujete stíhačku nad nekonečnou řekou, střílíte mosty, lodě a vrtulníky a neustále hlídáte palivo, které doplňujete průletem nad nádržemi. Napětí pramení z prostého, ale geniálního nápadu: nejde jen o to přežít palbu, ale i o to nedojít palivo. Každý souboj je tak zároveň závodem s časem a zdroji.\n\nTechnickým srdcem hry je procedurálně generovaná řeka. Místo aby Shaw ukládala celou mapu do drahocenné paměti, použila chytrý algoritmus, který terén dopočítával za běhu. Díky tomu se do maličké kartridže vešel mnohem delší a rozmanitější let, než by jinak bylo možné. Byl to elegantní inženýrský trik, který předběhl dobu.\n\nRiver Raid je ale i kuriozitou. V Německu byla hra kvůli údajné škodlivosti pro mládež na dlouhá léta zařazena na index, což z ní udělalo jeden z nejznámějších případů cenzury rané videoherní éry. Tahle historka jí dodnes dodává punc rebelské legendy.\n\nNa Atari 2600 patří River Raid k absolutní špičce. Spojuje svižnou akci, chytrý design a technickou vynalézavost do balíčku, který baví i po desítkách let. A za tím vším stojí průkopnice, která dokázala, že herní design nikdy nebyl výhradně mužskou doménou.\n\n**Proč hrát:** Špičková střílečka od průkopnice Carol Shaw, která spojuje návykovou akci s geniálním technickým řešením a kusem herní historie.",
           "image": "/images/games/atari-2600/atari-2600__river-raid.webp",
           "gallery": [
             {
@@ -22505,7 +22578,7 @@
           "est": "1–3 h",
           "teaser": "První akční adventura a první „easter egg\" v historii her.",
           "detail": "První akční adventura v historii (přenesla textovku Colossal Cave do grafiky) a hra s vůbec **prvním easter eggem** — programátor Robinett do ní bez vědomí vedení schoval skrytou místnost se svým jménem (Atari neuvádělo autory). Tím vznikl pojem easter egg. Historicky nedocenitelné.",
-          "article": null,
+          "article": "Jedna skrytá místnost se jménem programátora změnila celý herní průmysl, a stalo se to v roce 1980 ve hře Adventure pro Atari 2600. Tahle nenápadná klasika je nejen první akční adventurou v historii, ale také místem zrodu pojmu, který dnes zná každý hráč: easter egg.\n\nAdventure od Warrena Robinetta přeneslo myšlenku textových dobrodružství do grafické podoby. Hráč prochází propojenými místnostmi, sbírá klíče a meč, prchá před draky a hledá kouzelný kalich, který musí donést na správné místo. Na konzoli, kde do té doby vládly jednoduché odrazové a střílecí hry, šlo o naprosto převratný koncept, hrdina, předměty, nepřátelé a svět, který se dá prozkoumávat.\n\nNejslavnější je ale příběh skryté místnosti. Atari tehdy zásadně neuvádělo jména svých programátorů, aby je konkurence nemohla přetahovat. Robinett se proti tomu vzepřel po svém a do hry tajně, bez vědomí vedení, schoval skrytou komnatu se svým jménem. Když to Atari objevilo až po vydání, rozhodlo se z nouze udělat ctnost a podobné skryté vtípky začalo podporovat. Tak vznikl pojem easter egg, který se používá dodnes.\n\nNa Atari 2600 byl tento titul průkopnický nejen herně, ale i kulturně. Ukázal, že hra může vyprávět příběh a nabídnout svět k objevování, a otevřel dveře celému žánru akčních adventur, který později vykvetl na mnoha platformách.\n\nAdventure je tak hrou s dvojí nesmrtelností. Položila základy žánru a zároveň dala vzniknout tradici, která hráče těší dodnes. Její historická hodnota je nedocenitelná.\n\n**Proč hrát:** Zakladatel žánru akčních adventur a hra s vůbec prvním easter eggem v historii, povinná zastávka pro každého, kdo se zajímá o kořeny videoher.",
           "image": "/images/games/atari-2600/atari-2600__adventure.webp",
           "gallery": [
             {
@@ -22536,7 +22609,7 @@
           "est": "1–3 h",
           "teaser": "Nejprodávanější originál na 2600; svébytný a barevný.",
           "detail": "Nejprodávanější originální (nelicencovaný) titul na 2600. Svébytná střílečka s hmyzí tematikou a unikátní „neutrální zónou\". Měla vlastní komiks v balení vysvětlující příběh — raná transmediální snaha.",
-          "article": null,
+          "article": "Hmyzí hrdina, tajemná neutrální zóna a komiks přibalený přímo v krabici, Yars' Revenge byla v roce 1982 vším, jen ne tuctovou střílečkou. A přesto, nebo právě proto, se stala nejprodávanějším originálním titulem na Atari 2600.\n\nVe hře z dílny Howarda Scotta Warshawa ovládáte Yara, hmyzí bytost, která musí prokousat obrannou bariéru nepřítele a zničit ho mocným výstřelem. Klíčovou roli hraje takzvaná neutrální zóna, pruh uprostřed obrazovky, kde je Yar v bezpečí před palbou, ale kde se na druhou stranu nemůže donekonečna schovávat. Tahle mechanika dávala hře svébytný rytmus a taktickou hloubku, jakou málokterá střílečka té doby měla.\n\nYars' Revenge byla pozoruhodná i vizuálně. Barevná, rozpohybovaná a s charakteristickou rozkmitanou texturou neutrální zóny působila živěji než většina dobové konkurence. Jako nelicencovaný, čistě originální nápad navíc dokázala, že na zaběhnuté konzoli je pořád prostor pro svěží myšlenky.\n\nZajímavá je i marketingová stránka. V balení hry byl přiložen komiks, který vysvětloval příběh Yara a jeho pomsty. Šlo o ranou snahu o transmediální vyprávění, kdy hra nežila jen na obrazovce, ale i na papíře, a budovala kolem sebe vlastní mytologii dávno předtím, než se to stalo běžnou praxí.\n\nNa Atari 2600 patří Yars' Revenge k tomu nejlepšímu, co konzole nabídla, originální koncept, svižná akce a svébytný styl v jednom. Je to důkaz, že kreativita dokáže porazit i mnohem dražší licencované tituly.\n\n**Proč hrát:** Nejprodávanější originální hra na Atari 2600, svébytná střílečka s chytrou mechanikou a stylem, který stojí za objevení dodnes.",
           "image": "/images/games/atari-2600/atari-2600__yars-revenge.webp",
           "gallery": [
             {
@@ -22567,7 +22640,7 @@
           "est": "1–3 h",
           "teaser": "Záchranná akce v jeskyních; jedna z nejlepších her konzole.",
           "detail": "Záchranná akce v jeskyních: s vrtulníkovým batohem, laserem a dynamitem zachraňuješ horníky stále hlouběji. Jedna z nejlepších a nejvyladěnějších her konzole, s překvapivou hloubkou.",
-          "article": null,
+          "article": "Vrtulníkový batoh na zádech, laser v ruce a dynamit v kapse, s tímhle vybavením se v roce 1984 hráči noří do nebezpečných jeskyní hry H.E.R.O., jednoho z nejvyladěnějších a nejchytřejších titulů na Atari 2600.\n\nH.E.R.O. od Johna Van Ryzina staví hráče do role záchranáře, který se propracovává stále hlouběji do důlních šachet, aby zachránil uvězněné horníky. Pomocí vrtulníkového batohu se vznášíte propastmi, laserem ničíte nepřátele a překážky a omezenou zásobou dynamitu odstřelujete stěny, které vám stojí v cestě. Každá jeskyně je malou hádankou, kde musíte rozvážně hospodařit s energií i výbušninami, protože plýtvání se trestá.\n\nNa hardwaru Atari 2600 jde o pozoruhodně hluboký zážitek. Tam, kde se mnoho dobových her spokojilo s jednou opakující se mechanikou, H.E.R.O. nabízí kombinaci létání, střelby, demolice a opatrného plánování. Postupně přibývají nové hrozby, od smrtících stěn lávy po jedovaté tvory, takže každá úroveň přidává něco nového a nutí hráče přizpůsobovat taktiku.\n\nPrávě tahle vrstevnatost z hry udělala jeden z vrcholů katalogu konzole. Není to titul, který odhalíte za pět minut, ale hra, která odměňuje šikovnost, trpělivost a smysl pro načasování. Ovládání je přesné a každá smrt obvykle padá na vrub hráčově chybě, ne nespravedlnosti, což je u her té doby známka skvělého designu.\n\nH.E.R.O. dnes platí za jednu z nejlepších a nejdotaženějších her celé éry Atari 2600. Spojuje svižnou akci s promyšlenou strukturou a dokazuje, že i na jednoduchém hardwaru mohla vzniknout hra s překvapivou hloubkou.\n\n**Proč hrát:** Jeden z nejvyladěnějších a nejchytřejších titulů na Atari 2600, svižná záchranná akce s překvapivou hloubkou a perfektním ovládáním.",
           "image": "/images/games/atari-2600/atari-2600__h-e-r-o.webp",
           "gallery": [
             {
@@ -24671,7 +24744,7 @@
       "image": "/images/platforms/c64.png",
       "photoBg": "dark",
       "history": "Commodore 64 (1982) drží Guinnessův rekord jako nejprodávanější model počítače všech dob — odhady se pohybují mezi 12 a 17 miliony kusů. Byl to stroj, který přinesl výpočetní techniku a hraní do milionů domácností, protože byl výkonný a hlavně dostupný — Commodore vedl agresivní cenovou válku, která konkurenci doslova zničila.\n\nJeho tajná zbraň byl zvukový čip **SID** — na rok 1982 neuvěřitelně schopný hudební procesor, který z C64 udělal hudební nástroj. Skladatelé jako Rob Hubbard nebo Martin Galway z něj vyloudili hudbu, která dodnes patří k ikonám herního zvuku, a kolem SID čipu vznikla celá hudební subkultura, která žije dodnes (žánr „SID music\"). Když si pustíš soundtrack k Last Ninja nebo Turricanu, slyšíš, proč.\n\nC64 byl domovem evropské herní scény 80. let. Zatímco v USA a Japonsku vládly konzole, v Evropě se hrálo na počítačích — a C64 byl král. Vznikly na něm tisíce her: izometrické akční adventury (Last Ninja), run & gun klasiky (Turrican s legendární hudbou Chrise Hülsbecka), vizionářský **Elite** (open-world vesmírný obchod o dekády před svou dobou) a první LucasArts adventury (Maniac Mansion).\n\nS C64 je neodmyslitelně spjatá **demoscéna** — komunita programátorů soutěžících, kdo z hardwaru vymáčkne nemožné vizuální a zvukové efekty. Tahle scéna, která na C64 vznikla a dodnes žije, je fascinující kulturní fenomén na pomezí umění a programování. Z ní vzešla spousta dnešních profesionálních vývojářů.\n\nPro retrohráče je C64 nevyčerpatelná pokladnice s atmosférou, kterou nic jiného nemá. Emulace (core VICE) běží na H700 naplno. Stejně jako u Atari počítej s tím, že některé hry chtějí klávesnici a multi-disk tituly se přepínají v menu. Scéna je extrémně živá — vychází moderní homebrew jako **Sam's Journey**, které vypadají jako konzolové hry, a archiv CSDb je nepřebernou studnicí. Pro Evropana je C64 tak trochu návrat domů.",
-      "gameCount": 43,
+      "gameCount": 44,
       "games": [
         {
           "slug": "c64__last-ninja-last-ninja-2",
@@ -25886,6 +25959,27 @@
               "kind": "title"
             }
           ]
+        },
+        {
+          "slug": "c64__silent-service",
+          "name": "Silent Service",
+          "genre": "Sim (ponorka)",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Periskop se vynoří nad hladinu, v dálce se rýsuje silueta nepřátelského konvoje a vy zadržíte dech. Tahle scéna se v osmdesátých letech odehrávala v hlavách tisíců majitelů Commodore 64 díky hře **Silent Service**, jednomu z titulů, které prakticky definovaly, jak má vypadat ponorkový simulátor.\n\nZa hrou stojí legendární **MicroProse** a jméno samotného **Sida Meiera**, designéra, který později proslul sériemi Civilization a Pirates!. **Silent Service** vás staví do role velitele americké ponorky operující v Pacifiku za **druhé světové války**. Vaším úkolem je vyhledávat japonské lodě, sbližovat se s konvoji a v pravou chvíli vypustit torpéda, abyste poslali co nejvíc tonáže ke dnu.\n\nNa svou dobu nabízela hra pozoruhodnou hloubku. Hráč přepíná mezi **periskopem, mapou, řízením hloubky a kurzu** a torpédometem, počítá náměr a vzdálenost a rozhoduje, kdy zaútočit a kdy se ponořit a uniknout hlubinným pumám. To vše běželo i na skromném hardwaru C64, což byl sám o sobě technický kousek, protože hra musela zvládnout simulaci, ovládání i přehlednou prezentaci v rámci omezené paměti.\n\nČím **Silent Service** vyniká, je rovnováha mezi přístupností a věrohodností. Nebyla to suchá akademická simulace, ale ani bezduchá střílečka. Dokázala navodit pocit napětí a velitelské odpovědnosti a přitom zůstat hratelná pro běžného majitele domácího počítače. Právě tahle kombinace z ní udělala obrovský úspěch a jeden z pilířů, na nichž MicroProse vystavělo svou pověst krále simulátorů.\n\nKulturní význam hry je těžké přecenit. **Silent Service** patří mezi **zakladatele žánru** ponorkových simulátorů a předznamenala dlouhou řadu nástupců i pozdější pokračování. Vyšla na celé paletě dobových platforem a pro mnohé hráče byla prvním kontaktem s tím, že počítačová hra může věrohodně modelovat skutečný stroj a skutečnou válku. Z dnešního pohledu je to klasika, která stojí na začátku celé tradice.\n\n**Proč hrát:** Zakladatelský ponorkový simulátor od Sida Meiera a MicroProse, který položil základy žánru a dodnes umí navodit napětí lovu pod hladinou.",
+          "image": "/images/games/c64/c64__silent-service.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__silent-service.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ]
         }
       ]
     },
@@ -25901,7 +25995,7 @@
       "image": "/images/platforms/amiga.png",
       "photoBg": "dark",
       "history": "Amiga (1985) byla stroj předběhlý dobu — multimediální zázrak, který v polovině 80. let nabízel barvy, zvuk a plynulou grafiku, o jakých si konkurence mohla nechat zdát. Měla skutečný víceúlohový operační systém (kdy PC ještě běželo na MS-DOSu) a specializované čipy pro grafiku a zvuk, které z ní udělaly hvězdu nejen her, ale i grafiky, hudby a videa. Spousta televizní grafiky a hudby konce 80. a 90. let vznikla právě na Amize.\n\nPro hry to znamenalo skok do jiné ligy. Amiga zvládala plynulý scrolling, desítky barev na obrazovce a kvalitní sampled zvuk (skutečné nahrávky, ne jen čipová syntéza), což z ní udělalo špičkovou herní platformu — zejména v Evropě, kde dominovala podobně jako předtím C64. **Shadow of the Beast** s mnohavrstvým parallax pozadím ohromil celý svět tím, co počítač dokáže.\n\nAmiga byla domovem žánrů a značek, které dodnes známe. Vznikly tu **Lemmings**, **Worms**, **Speedball 2**, kultovní **Another World** a **Flashback**, a hlavně tu kvetly **point & click adventury** — Monkey Island, Beneath a Steel Sky a další zlatá éra žánru patří k vrcholům platformy. Bitmap Brothers byli ikoničtí amigní vývojáři se stylovými hrami jako Chaos Engine.\n\nSmutným koncem je, že Commodore tuhle úžasnou technologii nedokázal uřídit obchodně a v roce 1994 zbankrotoval. Amiga tak postupně podlehla nástupu PC a konzolí, ačkoli technicky byla dlouho napřed. Dodnes je symbolem „co mohlo být\" a má jednu z nejoddanějších fanouškovských komunit vůbec — Amiga fanoušci jsou pověstní svou věrností.\n\nPro retrohráče je Amiga nejnáročnější z 8/16bitových počítačů, ale ne kvůli syrovému výkonu — spíš kvůli setupu. Emuluje se přes **Amiberry**, potřebuje Kickstart ROM (systémový soubor) a hry je nejlepší shánět ve formátu WHDLoad (nahrají se rychle a spolehlivě). Většina klasik byla dělaná pro model A500, ze kterého vychází i nastavení. Na H700 běží dobře, jen u nejnáročnějších (AGA) titulů čekej drobné ladění. Scéna je živá — vychází i moderní homebrew shmupy jako **Reshoot**.",
-      "gameCount": 49,
+      "gameCount": 50,
       "games": [
         {
           "slug": "amiga__turrican-ii-final-fight",
@@ -27286,6 +27380,37 @@
               "kind": "title"
             }
           ]
+        },
+        {
+          "slug": "amiga__gunship",
+          "name": "Gunship",
+          "genre": "Sim (vrtulník)",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Rotory roztočí prach, kokpit Apache se rozsvítí přístroji a před vámi se otevře bojiště plné cílů i hrozeb. **Gunship** od **MicroProse** byl pro mnoho hráčů úplně prvním okamžikem, kdy mohli usednout za řízení bitevního vrtulníku, a na Amize se tento pocit rozjel naplno díky výkonnějšímu hardwaru než u starších osmibitů.\n\nHra je **průkopnickým simulátorem bojového vrtulníku AH-64 Apache**, stroje, který byl v osmdesátých letech symbolem moderní vzdušné síly. Místo aby vás hodila do abstraktní arkády, **Gunship** se snažil přenést skutečný pocit pilotování: starost o motory a rotor, sledování přístrojů, hospodaření se zbraněmi a vědomí, že nepřítel má protiletadlové prostředky, které vás mohou během okamžiku sundat.\n\nTěžiště spočívá v **plnění bojových misí** v různých částech světa, kde hráč ničí pozemní cíle, vyhýbá se palbě a snaží se vrátit na základnu vcelku. Hra pracovala s pocitem rizika a postupu, takže úspěšné lety nebyly jen o střelbě, ale o chytrém využití terénu, načasování útoků a opatrném přibližování k nebezpečným cílům. Tahle směs napětí a taktiky byla na svou dobu mimořádně návyková.\n\nVerze pro **Amigu** těžila z barevnější grafiky a plynulejšího zobrazení trojrozměrného světa než starší vydání. MicroProse patřilo mezi studia, která dokázala simulační hloubku přenést na domácí počítače, aniž by hru proměnila v nehratelný labyrint přepínačů, a **Gunship** je toho ukázkovým příkladem. Položil základ tomu, jak měly vrtulníkové simulátory následujících let vypadat.\n\nKulturně **Gunship** zapadá do zlaté éry MicroProse, kdy studio chrlilo jeden vlivný simulátor za druhým a budovalo si pověst nejlepšího ve svém oboru. Hra inspirovala další generace vrtulníkových titulů a pro mnoho hráčů zůstala definicí toho, co znamená pilotovat bitevní stroj na obrazovce počítače. Jako průkopník si zaslouží místo v každém přehledu kořenů simulačního žánru.\n\n**Proč hrát:** Průkopnický vrtulníkový simulátor od MicroProse, který na Amize nabízí věrohodný pocit z pilotování Apache a taktickou hloubku bojových misí.",
+          "image": "/images/games/amiga/amiga__gunship.webp",
+          "gallery": [
+            {
+              "src": "/images/games/amiga/amiga__gunship.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/amiga/amiga__gunship-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            },
+            {
+              "src": "/images/games/amiga/amiga__gunship-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ]
         }
       ]
     },
@@ -27995,11 +28120,11 @@
   ],
   "stats": {
     "platforms": 27,
-    "games": 959,
+    "games": 964,
     "withDetail": 443,
     "withTeaser": 366,
-    "withArticle": 718,
+    "withArticle": 743,
     "platformImages": 27,
-    "gameImages": 831
+    "gameImages": 836
   }
 }

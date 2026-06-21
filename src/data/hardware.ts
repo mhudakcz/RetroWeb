@@ -512,6 +512,7 @@ export const hardware: HardwareItem[] = [
     intro: [
       'Dlouho byla emulace na iPhonu a iPadu spíš pro otrlé (přes složité postupy), ale to se v roce 2024 změnilo: Apple povolil retro herní emulátory **přímo v App Storu**. Dnes si tak appku stáhneš jedním klepnutím jako kteroukoli jinou a hraješ. iPady s čipy řady M jsou navíc tak výkonné, že zvládnou i náročnější konzole.',
     ],
+    photo: { src: '/images/hardware/ios.png', caption: 'iPhone — emulátory dnes míří i do App Storu' },
     specs: [
       { label: 'Zařízení', value: 'iPhone, iPad (ideálně s čipem A15+/M)' },
       { label: 'Klíčové appky', value: 'Delta, RetroArch, PPSSPP, DuckStation, Provenance' },
@@ -570,6 +571,7 @@ export const hardware: HardwareItem[] = [
     intro: [
       'Moderní herní konzole mají pod kapotou hodně výkonu — a komunita ho umí využít i k emulaci. Přes tzv. homebrew (neoficiální software) se z PlayStationu, Xboxu i Switche dá udělat plnohodnotná retro mašina s RetroArchem. Je to o úroveň pokročilejší než handheld nebo Raspberry: záleží na konkrétním modelu a verzi firmwaru, někdy hrozí ztráta záruky nebo ban v online službách. Tady je přehled, co která rodina umí.',
     ],
+    photo: { src: '/images/hardware/konzole-emulace.png', caption: 'PlayStation 5 s ovladačem DualSense — i z konzole jde udělat emulační stroj' },
     specs: [
       { label: 'Princip', value: 'homebrew / úprava firmwaru daného modelu' },
       { label: 'Software', value: 'většinou RetroArch (port na danou konzoli)' },
