@@ -228,7 +228,50 @@ h3 {
   border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   overflow: hidden;
-  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* ===== Decentní hover pro mediální dlaždice (platformy, handheldy, počítače, HW, hry) ===== */
+.card .emblem img,
+.card .hw-photo img,
+.card .art svg,
+.card .thumb img,
+.card .emblem .motif {
+  transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1), filter 0.45s ease;
+  will-change: transform;
+}
+/* fotka/ilustrace se jemně přiblíží a „povyskočí" proti pozadí */
+.card:hover .emblem img,
+.card:hover .hw-photo img,
+.card:hover .art svg,
+.card:hover .thumb img {
+  transform: scale(1.055);
+  filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.45)) saturate(1.06);
+}
+/* dekorativní motiv v emblémech bez fotky reaguje taky */
+.card:hover .emblem .motif {
+  transform: rotate(-6deg) scale(1.12);
+  opacity: 0.22;
+}
+/* jemné prosvětlení gradientového pozadí pod fotkou */
+.card .emblem,
+.card .hw-photo,
+.card .art {
+  transition: filter 0.3s ease;
+}
+.card:hover .emblem,
+.card:hover .hw-photo,
+.card:hover .art {
+  filter: brightness(1.06);
+}
+@media (prefers-reduced-motion: reduce) {
+  .card:hover .emblem img,
+  .card:hover .hw-photo img,
+  .card:hover .art svg,
+  .card:hover .thumb img,
+  .card:hover .emblem .motif {
+    transform: none;
+  }
 }
 
 /* ===== Mřížky ===== */

@@ -281,6 +281,23 @@ export const hardware: HardwareItem[] = [
           'Tahle struktura je v zásadě stejná i na handheldech s Batocerou/Knulli a velmi podobná i v RetroPie a Recalboxu — pochopíš ji jednou a využiješ všude.',
         ],
       },
+      {
+        title: 'Na televizi: filtry a CRT vzhled jako za starých časů',
+        body: [
+          'Batoceru připojíš k televizi prostě **HDMI kabelem** — obraz i zvuk jdou jednou šňůrou. V menu **Nastavení systému → Displej** zvol rozlišení podle televize (většinou stačí **automaticky / 1920×1080**). Pro plynulost zapni **V-Sync**, ať se obraz „netrhá".',
+          'Tady ale přichází to hlavní kouzlo: emulátory umí přes **shadery** napodobit, jak hry skutečně vypadaly na staré křivené obrazovce. Pixely byly tehdy měkčí, mezi řádky byly tmavé **scanline** proužky a sklo mírně zářilo — a přesně tohle shader dodá. V Batoceře otevři hlavní menu (klávesa nebo tlačítko **Start**) → **Nastavení her → Sada shaderů (Shader Set)** a vyber předvolbu. Začni s **„scanlines"** nebo **„retro"**; kdo má slabší stroj (Raspberry, handheld), ať zvolí lehký **„zfast-crt"**. Nastavení jde dát globálně, **pro jeden systém** i **pro konkrétní hru**.',
+          'Pro nejvěrnější výsledek doporučuju dvě věci v **RetroArch** (Quick Menu → **Shaders → Load Preset → shaders/crt/**): vyzkoušej **crt-geom**, **crt-lottes** nebo špičkový (a náročný) **crt-royale**. K tomu v **Nastavení → Video → Škálování** zapni **celočíselné škálování (Integer Scale)** a poměr stran **4:3**, a **vypni bilineární vyhlazování** — jinak budou pixely rozmazané místo ostré. Tím dostaneš ten správný „mřížkový" obraz, který sedí na 4:3 i na širokoúhlé TV.',
+          'Třešnička navrch jsou **dekorace (bezels)** — rámeček staré televize nebo arkádového automatu kolem hry, který vyplní černé pruhy po stranách u 4:3 obsahu. Najdeš je v **Nastavení her → Dekorace**. A pokud chceš jít úplně na krev a máš opravdovou CRT televizi, jde z PC (přes CRT Emudriver) nebo z Raspberry (kompozitní výstup) posílat pravý **240p/15 kHz** signál — to už je ale disciplína pro nadšence.',
+        ],
+      },
+      {
+        title: 'Obrázky a popisy ke hrám: vestavěný scraper',
+        body: [
+          'Holý seznam názvů souborů vypadá smutně — Batocera ale umí ke každé hře **sama stáhnout obal, screenshoty, logo, video i popisek**. Slouží k tomu **scraper**: v hlavním menu zvol **Scraper**, jako zdroj nech **ScreenScraper** (nejbohatší databáze) a zaškrtni, co chceš stahovat (obal, titulní obrazovku, video náhled, popis). Pak dej **Scrapovat** a nech to běžet — u velké knihovny klidně přes noc.',
+          'Drobnost, která hodně pomůže: na **screenscraper.fr** si založ **bezplatný účet** a v nastavení scraperu vyplň jméno a heslo. Anonymní stahování je totiž pomalé a omezené; s účtem to lítá mnohem rychleji. Jako záloha funguje i zdroj **TheGamesDB**.',
+          'Když se některá hra napáruje špatně (časté u homebrew, hacků nebo neobvyklých názvů), oprav to ručně: na hře vyvolej **Možnosti → Upravit metadata** a buď zvol správný výsledek, nebo rovnou nastav vlastní obrázek. Ručně stažené obrázky stačí nakopírovat do složky **`media`** u dané hry. Všechno se ukládá k romům, takže scraping uděláš jednou a knihovna ti zůstane krásná i po přenesení na jiné zařízení.',
+        ],
+      },
     ],
     options: [
       {

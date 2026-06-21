@@ -49,6 +49,18 @@
       "flags": [
         "mature"
       ]
+    },
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Another World",
+      "genre": "Cinematic / Adventure",
+      "length": "M",
+      "flags": []
     }
   ],
   "mega-drive": [
@@ -103,6 +115,44 @@
       "genre": "Racing / motorky",
       "length": "S",
       "flags": []
+    },
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Lemmings",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Another World",
+      "genre": "Cinematic / Adventure",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Shadow of the Beast",
+      "genre": "Platformer",
+      "length": "M",
+      "flags": []
     }
   ],
   "nes": [
@@ -117,6 +167,38 @@
       "genre": "Racing / motorky",
       "length": "S",
       "flags": []
+    },
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Bubble Bobble",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rainbow Islands",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Pac-Man",
+      "genre": "Arcade / Maze",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
     }
   ],
   "playstation": [
@@ -175,6 +257,68 @@
       "genre": "Racing / auta",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Bubble Bobble",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Golden Axe",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ghouls 'n Ghosts",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "R-Type",
+      "genre": "Shoot em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rainbow Islands",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rick Dangerous",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mortal Kombat",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": [
+        "mature"
+      ]
     }
   ],
   "c64": [
@@ -183,6 +327,44 @@
       "genre": "Sim (ponorka)",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Golden Axe",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "R-Type",
+      "genre": "Shoot em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rainbow Islands",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Pac-Man",
+      "genre": "Arcade / Maze",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
     }
   ],
   "atari-5200": [
@@ -473,6 +655,68 @@
     {
       "name": "Bubble Bobble",
       "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Lemmings",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Golden Axe",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ghouls 'n Ghosts",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "R-Type",
+      "genre": "Shoot em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Shadow of the Beast",
+      "genre": "Platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rainbow Islands",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rick Dangerous",
+      "genre": "Action-platformer",
       "length": "M",
       "flags": []
     }
@@ -849,6 +1093,176 @@
       "genre": "Arcade / Run & gun",
       "length": "S",
       "flags": []
+    }
+  ],
+  "master-system": [
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Lemmings",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Bubble Bobble",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Golden Axe",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ghouls 'n Ghosts",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Shadow of the Beast",
+      "genre": "Platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rainbow Islands",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mortal Kombat",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": [
+        "mature"
+      ]
+    }
+  ],
+  "game-boy": [
+    {
+      "name": "Prince of Persia",
+      "genre": "Cinematic platformer",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Bubble Bobble",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mortal Kombat",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": [
+        "mature"
+      ]
+    }
+  ],
+  "game-gear": [
+    {
+      "name": "Lemmings",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mortal Kombat",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": [
+        "mature"
+      ]
+    }
+  ],
+  "pc-engine": [
+    {
+      "name": "Lemmings",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    }
+  ],
+  "amstrad-cpc": [
+    {
+      "name": "Bubble Bobble",
+      "genre": "Arcade / Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Double Dragon",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Golden Axe",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "R-Type",
+      "genre": "Shoot em up",
+      "length": "M",
+      "flags": []
+    }
+  ],
+  "msx": [
+    {
+      "name": "Pac-Man",
+      "genre": "Arcade / Maze",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
     }
   ]
 }

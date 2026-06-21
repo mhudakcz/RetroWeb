@@ -19,3 +19,8 @@ Thumbs.db
 # env
 .env
 .env.production
+
+# Lokální legální ROM-set seznam (mimo GitHub)
+_romset/
+tools/gen_romset.py
+tools/gen_romset_full.py
