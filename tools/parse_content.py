@@ -450,6 +450,8 @@ def build():
     extra = json.loads(extra_file.read_text(encoding="utf-8")) if extra_file.exists() else {}
     links_file = ROOT / "src" / "data" / "game_links.json"
     game_links = json.loads(links_file.read_text(encoding="utf-8")) if links_file.exists() else {}
+    play_file = ROOT / "src" / "data" / "game_play.json"
+    game_play = json.loads(play_file.read_text(encoding="utf-8")) if play_file.exists() else {}
 
     platforms_out = []
     total_games = 0
@@ -488,6 +490,8 @@ def build():
             articles[new] = articles[old]
         if old in game_links:
             game_links[new] = game_links[old]
+        if old in game_play:
+            game_play[new] = game_play[old]
     (ROOT / "src" / "data" / "slug_remap.json").write_text(
         json.dumps(slug_remap, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -544,6 +548,7 @@ def build():
                 image=find_image(sub, gslug),
                 gallery=gallery,
                 link=game_links.get(gslug),
+                playUrl=game_play.get(gslug),
             ))
             total_games += 1
 

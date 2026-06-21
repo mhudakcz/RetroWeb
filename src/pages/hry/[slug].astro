@@ -69,14 +69,6 @@ const playtime = playtimeLabel(game.length, game.est);
     )}
 
     {
-      game.link && (
-        <a class="hb-link" href={game.link} target="_blank" rel="noopener noreferrer" style={`--c1:${platform.color}`}>
-          🔗 Oficiální stránka — kde hru legálně získat
-        </a>
-      )
-    }
-
-    {
       game.article ? (
         <div class="prose detail article" set:html={mdBlock(game.article)} />
       ) : game.detail ? (
@@ -87,6 +79,23 @@ const playtime = playtimeLabel(game.length, game.est);
             U téhle hry zatím nemáme delší komentář. Patří ale do kurátorského výběru
             pro <a href={`/platformy/${platform.slug}`}>{platform.name}</a>{genreNote}.
           </p>
+        </div>
+      )
+    }
+
+    {
+      (game.link || game.playUrl) && (
+        <div class="game-links" style={`--c1:${platform.color}`}>
+          {game.playUrl && (
+            <a class="g-btn play" href={game.playUrl} target="_blank" rel="noopener noreferrer">
+              ▶ Zahrát online v prohlížeči
+            </a>
+          )}
+          {game.link && (
+            <a class="g-btn" href={game.link} target="_blank" rel="noopener noreferrer">
+              🔗 Oficiální stránka — kde hru legálně získat
+            </a>
+          )}
         </div>
       )
     }
@@ -211,23 +220,33 @@ const playtime = playtimeLabel(game.length, game.est);
     padding: 4px 0 4px 16px;
     margin-bottom: 22px;
   }
-  .hb-link {
+  .game-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .g-btn {
     display: inline-flex;
     align-items: center;
     gap: 0.5em;
-    margin-bottom: 22px;
-    padding: 0.7em 1.1em;
+    padding: 0.7em 1.15em;
     border-radius: 999px;
     font-weight: 600;
     font-size: 0.92rem;
     color: #fff;
-    background: linear-gradient(135deg, color-mix(in srgb, var(--c1) 75%, #000), color-mix(in srgb, var(--c1) 45%, #000));
+    background: linear-gradient(135deg, color-mix(in srgb, var(--c1) 70%, #000), color-mix(in srgb, var(--c1) 42%, #000));
     border: 1px solid color-mix(in srgb, var(--c1) 60%, var(--border));
     transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
-  .hb-link:hover {
+  .g-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 22px -8px var(--c1);
+  }
+  .g-btn.play {
+    background: linear-gradient(135deg, var(--accent), #ff7aa8);
+    border-color: transparent;
+    color: #1a0710;
   }
   .detail {
     font-size: 1.06rem;
