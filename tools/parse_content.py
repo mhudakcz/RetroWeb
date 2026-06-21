@@ -22,6 +22,17 @@ SRC = ROOT / "Podklady" / "extracted"
 OUT = ROOT / "src" / "data" / "dataset.json"
 PUBLIC_IMG = ROOT / "public" / "images"
 ARTICLES_DIR = ROOT / "src" / "data" / "articles"
+PLATFORM_ARTICLES_DIR = ROOT / "src" / "data" / "platform_articles"
+
+
+def platform_long_article(slug):
+    """Dlouhý článek o platformě (přepíše historii z MD), pokud existuje."""
+    f = PLATFORM_ARTICLES_DIR / f"{slug}.md"
+    if f.exists():
+        txt = f.read_text(encoding="utf-8").strip()
+        if txt:
+            return txt
+    return None
 IMG_EXTS = (".webp", ".jpg", ".jpeg", ".png", ".gif", ".svg")
 
 
@@ -541,7 +552,8 @@ def build():
             year=p["year"], type=p["type"], color=p["color"], color2=p["color2"],
             image=find_image("platforms", slug),
             photoBg=platform_bg.get(slug, "dark"),
-            history=history.get(slug), gameCount=len(games), games=games,
+            history=platform_long_article(slug) or history.get(slug),
+            gameCount=len(games), games=games,
         ))
 
     games_with_img = sum(1 for po in platforms_out for g in po["games"] if g["image"])
