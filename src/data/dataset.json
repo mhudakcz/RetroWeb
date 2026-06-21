@@ -28301,8 +28301,14 @@
           "teaser": null,
           "detail": null,
           "article": "Některé hry vás dostanou ne velkolepostí, ale soustředěnou jednoduchostí. L'Abbaye des Morts je přesně takový případ. Tahle plošinovka s podmanivou minimalistickou grafikou a temnou atmosférou se nejdříve objevila na jiných platformách a později si našla cestu i na Commodore 64 díky nadšencům homebrew scény. Od první obrazovky působí jako ztracená klasika ze zlaté éry osmibitových počítačů.\n\nHerně jde o klasickou plošinovku s průzkumem. Ovládáte postavu, která se prodírá rozlehlým klášterem plným nástrah, propastí a nepřátel, a vaším cílem je posbírat ukryté předměty a najít cestu dál. Hra sází na přesné skákání, učení se rozvržení jednotlivých místností a na atmosféru, kterou navozuje úsporná, ale výrazná grafika a chmurné prostředí. Je to typ hry, kde každá smrt učí a kde se postup skládá z trpělivého zapamatování si bezpečných cest.\n\nVizuální styl L'Abbaye des Morts je vědomě retro. Hra napodobuje vzhled počítačů, které měly omezenou paletu barev a hrubé rozlišení, a z tohoto omezení dělá přednost. Verze pro Commodore 64 zapadá do tohoto ducha dokonale, protože estetika hry a možnosti stroje si navzájem sednou. Výsledkem je titul, který vypadá, jako by ho mohli vydat v osmdesátých letech, a přitom těží z citu moderních tvůrců pro level design a atmosféru.\n\nTakové konverze ukazují, jak propojená je dnešní retro komunita. Hra zrozená v jednom prostředí putuje díky fanouškům na další a další platformy a žije dál v rukou nových hráčů. L'Abbaye des Morts je tak nejen zajímavou plošinovkou, ale i připomínkou toho, že dobrý nápad a poctivý design překonají hranice jednotlivých strojů i desetiletí.\n\n**Proč hrát:** Atmosférická minimalistická plošinovka s temným nádechem, která na Commodoru 64 ožívá jako ztracená klasika a odmění hráče s citem pro přesné skákání a průzkum.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/c64/c64__l-abbaye-des-morts.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__l-abbaye-des-morts.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": "https://locomalito.com/games/abbaye-des-morts",
           "playUrl": null
         },
@@ -31056,6 +31062,6 @@
     "withTeaser": 354,
     "withArticle": 987,
     "platformImages": 33,
-    "gameImages": 873
+    "gameImages": 874
   }
 }
