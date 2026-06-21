@@ -53,6 +53,21 @@ const { prev, next } = platformNeighbors(platform.slug);
     )
   }
 
+  <nav class="container pager" aria-label="Další platformy">
+    {prev ? (
+      <a class="pager-link prev" href={`/platformy/${prev.slug}`} style={`--c1:${prev.color}`}>
+        <span class="dir">← Předchozí platforma</span>
+        <span class="pn">{prev.name}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="pager-link next" href={`/platformy/${next.slug}`} style={`--c1:${next.color}`}>
+        <span class="dir">Další platforma →</span>
+        <span class="pn">{next.name}</span>
+      </a>
+    ) : <span />}
+  </nav>
+
   <section class="section">
     <div class="container">
       <h2 class="sec-title">Doporučené hry <span class="muted">({platform.gameCount})</span></h2>
@@ -61,21 +76,6 @@ const { prev, next } = platformNeighbors(platform.slug);
       </div>
     </div>
   </section>
-
-  <nav class="container pager" aria-label="Další platformy">
-    {prev ? (
-      <a class="pager-link prev" href={`/platformy/${prev.slug}`} style={`--c1:${prev.color}`}>
-        <span class="dir">← Předchozí</span>
-        <span class="pn">{prev.name}</span>
-      </a>
-    ) : <span />}
-    {next ? (
-      <a class="pager-link next" href={`/platformy/${next.slug}`} style={`--c1:${next.color}`}>
-        <span class="dir">Další →</span>
-        <span class="pn">{next.name}</span>
-      </a>
-    ) : <span />}
-  </nav>
 </Base>
 
 <style>
@@ -129,7 +129,7 @@ const { prev, next } = platformNeighbors(platform.slug);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 14px;
-    padding-block: 38px 56px;
+    padding-block: 32px 8px;
   }
   .pager-link {
     display: flex;
