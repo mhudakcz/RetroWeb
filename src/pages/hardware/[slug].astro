@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import HardwareArt from '../../components/HardwareArt.astro';
 import { hardware, getHardware, HW_LEVEL_LABEL } from '../../data/hardware';
+import hardwareSections from '../../data/hardware_sections.json';
 import { mdInline } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -11,6 +12,14 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const hw = getHardware(slug!)!;
 const others = hardware.filter((h) => h.slug !== hw.slug);
+// kotvy pro obsah z nadpisů sekcí
+const anchorId = (s: string, i: number) =>
+  's' + i + '-' + s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '').slice(0, 32);
+// dlouhé deep-research sekce (data) s fallbackem na stručné z hardware.ts
+type Sec = { title: string; body: string[] };
+const sections: Sec[] = ((hardwareSections as Record<string, Sec[]>)[hw.slug]) ?? hw.sections;
+const toc = sections.map((sec, i) => ({ id: anchorId(sec.title, i), title: sec.title }));
 ---
 
 <Base
@@ -65,8 +74,19 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
     </div>
 
     {
-      hw.sections.map((sec) => (
-        <section class="long">
+      toc.length >= 3 && (
+        <nav class="toc" aria-label="Obsah průvodce">
+          <p class="toc-title">V tomto průvodci</p>
+          <ol>
+            {toc.map((t) => <li><a href={`#${t.id}`}>{t.title}</a></li>)}
+          </ol>
+        </nav>
+      )
+    }
+
+    {
+      sections.map((sec, i) => (
+        <section class="long" id={toc[i].id}>
           <h2>{sec.title}</h2>
           <div class="prose">
             {sec.body.map((p) => <p set:html={mdInline(p)} />)}
@@ -265,12 +285,50 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
     background: rgba(255, 62, 127, 0.16);
     color: #ff8fb3;
   }
+  .toc {
+    margin-top: 28px;
+    padding: 16px 20px;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .toc-title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .toc ol {
+    margin: 0;
+    padding-left: 1.2em;
+    columns: 2;
+    gap: 18px;
+  }
+  .toc li {
+    margin: 3px 0;
+  }
+  .toc a {
+    color: color-mix(in srgb, var(--accent) 80%, var(--text));
+    text-decoration: none;
+  }
+  .toc a:hover {
+    text-decoration: underline;
+  }
   .long {
     margin-top: 30px;
+    scroll-margin-top: 80px;
   }
   .long h2 {
     font-size: clamp(1.3rem, 3vw, 1.6rem);
     margin-bottom: 12px;
+  }
+  @media (max-width: 560px) {
+    .toc ol {
+      columns: 1;
+    }
   }
   .options {
     margin-top: 36px;

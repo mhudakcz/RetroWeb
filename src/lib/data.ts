@@ -70,6 +70,74 @@ export const allGames: GameWithPlatform[] = platforms.flatMap((p) =>
 const gameMap = new Map(allGames.map((g) => [g.slug, g]));
 export const getGame = (slug: string) => gameMap.get(slug);
 
+// ---------------------------------------------------------------- studia
+export interface Studio {
+  slug: string;
+  name: string;
+  games: GameWithPlatform[];
+  gameCount: number;
+  article: string | null;
+}
+
+export const studioSlug = (name: string): string =>
+  name
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+
+// studia, která nejsou skutečné firmy (nelinkujeme)
+const STUDIO_SKIP = new Set(['komunita', 'various', 'ruzni', 'ruzne', '']);
+// minimální počet her, aby studio dostalo vlastní stránku
+export const STUDIO_MIN = 3;
+
+// dlouhé články o studiích (markdown), načtené ze souborů
+const studioArticleFiles = import.meta.glob('../data/studio_articles/*.md', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+}) as Record<string, string>;
+const studioArticles: Record<string, string> = {};
+for (const [path, raw] of Object.entries(studioArticleFiles)) {
+  const slug = path.split('/').pop()!.replace(/\.md$/, '');
+  studioArticles[slug] = raw;
+}
+
+const studioMap = new Map<string, Studio>();
+for (const g of allGames) {
+  const raw = (g.studio || '').trim();
+  if (!raw) continue;
+  const slug = studioSlug(raw);
+  if (STUDIO_SKIP.has(slug)) continue;
+  let s = studioMap.get(slug);
+  if (!s) {
+    s = { slug, name: raw, games: [], gameCount: 0, article: studioArticles[slug] ?? null };
+    studioMap.set(slug, s);
+  }
+  s.games.push(g);
+}
+for (const s of studioMap.values()) {
+  s.gameCount = s.games.length;
+  // seřaď hry studia podle roku
+  s.games.sort((a, b) => (parseInt(a.year || '0') || 0) - (parseInt(b.year || '0') || 0));
+}
+
+/** Studia s vlastní stránkou (≥ STUDIO_MIN her), seřazená dle počtu her. */
+export const studios: Studio[] = [...studioMap.values()]
+  .filter((s) => s.gameCount >= STUDIO_MIN)
+  .sort((a, b) => b.gameCount - a.gameCount);
+
+const linkableStudios = new Set(studios.map((s) => s.slug));
+export const getStudio = (slug: string) => studioMap.get(slug);
+/** Vrátí slug studia, pokud má vlastní stránku (jinak null) – pro prolinkování. */
+export const studioLink = (name: string | null): string | null => {
+  if (!name) return null;
+  const slug = studioSlug(name.trim());
+  return linkableStudios.has(slug) ? slug : null;
+};
+
 // ---------------------------------------------------------------- skupiny / popisky
 export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'fantasy'];
 

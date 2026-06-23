@@ -343,6 +343,30 @@
       "genre": "Racing",
       "length": "S",
       "flags": []
+    },
+    {
+      "name": "NBA Jam",
+      "genre": "Sport / Basketbal",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Punch-Out!!",
+      "genre": "Sport / Box",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Tehkan World Cup",
+      "genre": "Sport / Fotbal",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Hat Trick",
+      "genre": "Sport / Hokej",
+      "length": "S",
+      "flags": []
     }
   ],
   "snes": [
@@ -1033,6 +1057,36 @@
       "genre": "Metroidvania",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Yie Ar Kung-Fu",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Karate Champ",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Nobunaga's Ambition",
+      "genre": "Strategy / Sim",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Romance of the Three Kingdoms",
+      "genre": "Strategy / Sim",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Rampart",
+      "genre": "Strategy / Akce",
+      "length": "M",
+      "flags": []
     }
   ],
   "playstation": [
@@ -1201,6 +1255,24 @@
       "genre": "Racing",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Eye of the Beholder",
+      "genre": "Dungeon RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Ishar: Legend of the Fortress",
+      "genre": "RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Body Blows",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
     }
   ],
   "c64": [
@@ -1247,6 +1319,30 @@
       "flags": [
         "puzzle"
       ]
+    },
+    {
+      "name": "The Bard's Tale",
+      "genre": "Dungeon RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Ultima IV: Quest of the Avatar",
+      "genre": "RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Summer Games",
+      "genre": "Sport",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "International Soccer",
+      "genre": "Sport / Fotbal",
+      "length": "S",
+      "flags": []
     }
   ],
   "atari-5200": [
@@ -1599,6 +1695,18 @@
     {
       "name": "Rick Dangerous",
       "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Kick Off 2",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "International Karate +",
+      "genre": "Sport / Bojové",
       "length": "M",
       "flags": []
     }
@@ -2015,12 +2123,42 @@
       "genre": "Action-platformer",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Daley Thompson's Decathlon",
+      "genre": "Sport / Atletika",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Way of the Exploding Fist",
+      "genre": "Fighting",
+      "length": "M",
+      "flags": []
     }
   ],
   "atari-2600": [
     {
       "name": "Moon Patrol",
       "genre": "Arcade / Run & gun",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "RealSports Baseball",
+      "genre": "Sport / Baseball",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Boxing",
+      "genre": "Sport / Box",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Grand Prix",
+      "genre": "Racing",
       "length": "S",
       "flags": []
     }
@@ -2101,6 +2239,24 @@
       "genre": "Action-RPG / Metroidvania",
       "length": "L",
       "flags": []
+    },
+    {
+      "name": "California Games",
+      "genre": "Sport",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Super Monaco GP",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Hang-On",
+      "genre": "Racing / motorky",
+      "length": "S",
+      "flags": []
     }
   ],
   "game-boy": [
@@ -2134,6 +2290,42 @@
       "name": "F-1 Race",
       "genre": "Racing",
       "length": "S",
+      "flags": []
+    },
+    {
+      "name": "The Final Fantasy Legend",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Final Fantasy Legend II",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Red / Blue",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Street Fighter II",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Wave Race",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Nintendo World Cup",
+      "genre": "Sport / Fotbal",
+      "length": "M",
       "flags": []
     }
   ],
@@ -2183,6 +2375,12 @@
       "genre": "Action-RPG",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "World Series Baseball",
+      "genre": "Sport / Baseball",
+      "length": "S",
+      "flags": []
     }
   ],
   "pc-engine": [
@@ -2204,6 +2402,24 @@
       "name": "Neutopia",
       "genre": "Action-adventure",
       "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Fatal Fury 2",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Street Fighter II: Champion Edition",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Final Lap Twin",
+      "genre": "Racing / RPG",
+      "length": "M",
       "flags": []
     }
   ],
@@ -2237,6 +2453,18 @@
       "genre": "Shoot em up",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Barbarian: The Ultimate Warrior",
+      "genre": "Fighting",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Daley Thompson's Decathlon",
+      "genre": "Sport / Atletika",
+      "length": "M",
+      "flags": []
     }
   ],
   "msx": [
@@ -2247,6 +2475,18 @@
       "flags": [
         "puzzle"
       ]
+    },
+    {
+      "name": "Konami's Soccer",
+      "genre": "Sport / Fotbal",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Aleste 2",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
     }
   ],
   "game-boy-advance": [
@@ -2353,6 +2593,36 @@
       "genre": "Plošinovka",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Street Fighter Alpha 3 Upper",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Tekken Advance",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Gradius Galaxies",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Iridion II",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario Tennis: Power Tour",
+      "genre": "Sport / Tenis",
+      "length": "M",
+      "flags": []
     }
   ],
   "n64": [
@@ -2445,6 +2715,18 @@
       "genre": "Plošinovka 3D",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Killer Instinct Gold",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Mortal Kombat Trilogy",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
     }
   ],
   "dreamcast": [
@@ -2501,6 +2783,22 @@
       "genre": "Akční / Sim",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Mr. Driller",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Super Puzzle Fighter II X",
+      "genre": "Puzzle",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
     }
   ],
   "psp": [
@@ -2585,6 +2883,24 @@
       "flags": [
         "puzzle"
       ]
+    },
+    {
+      "name": "Virtua Tennis: World Tour",
+      "genre": "Sport / Tenis",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Pro Evolution Soccer 2011",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "FIFA Street 2",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
     }
   ],
   "game-boy-color": [
@@ -2647,6 +2963,18 @@
       "genre": "Sim / Farma",
       "length": "L",
       "flags": []
+    },
+    {
+      "name": "Top Gear Pocket",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Street Fighter Alpha",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
     }
   ],
   "saturn": [
@@ -2666,6 +2994,24 @@
       "name": "Street Fighter Alpha 2",
       "genre": "Fighting",
       "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Sega Worldwide Soccer",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mr. Bones",
+      "genre": "Akční / Adventura",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Enemy Zero",
+      "genre": "Survival horror / Adventura",
+      "length": "L",
       "flags": []
     }
   ],
@@ -2895,6 +3241,24 @@
       "genre": "Party",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Jump Ultimate Stars",
+      "genre": "Fighting",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Need for Speed: Most Wanted",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario & Sonic at the Olympic Games",
+      "genre": "Sport",
+      "length": "M",
+      "flags": []
     }
   ],
   "3ds": [
@@ -3090,6 +3454,24 @@
       "name": "Shovel Knight",
       "genre": "Action-platformer",
       "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Super Street Fighter IV: 3D Edition",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Tekken 3D: Prime Edition",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Mario Sports Superstars",
+      "genre": "Sport",
+      "length": "M",
       "flags": []
     }
   ]

@@ -15,8 +15,8 @@ const withDetail = platform.games.filter((g) => g.detail).length;
 const { prev, next } = platformNeighbors(platform.slug);
 
 // Žánrový filtr – jen kategorie, které se u her této platformy reálně vyskytují
-const presentGenres = new Set(platform.games.flatMap((g) => genreCats(g.genre)));
-const genreOptions = GENRE_CATS.filter(([k]) => presentGenres.has(k));
+const genreCount = (k: string) => platform.games.filter((g) => genreCats(g.genre).includes(k)).length;
+const genreOptions = GENRE_CATS.filter(([k]) => genreCount(k) > 0).map(([k, label]) => [k, `${label} (${genreCount(k)})`] as [string, string]);
 const showGenreFilter = platform.games.length > 6 && genreOptions.length > 1;
 ---
 

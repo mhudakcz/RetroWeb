@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import GameCard from '../../components/GameCard.astro';
+import { studios, getStudio, mdBlock } from '../../lib/data';
+
+export function getStaticPaths() {
+  return studios.map((s) => ({ params: { slug: s.slug } }));
+}
+
+const { slug } = Astro.params;
+const studio = getStudio(slug!)!;
+const article = mdBlock(studio.article);
+// platformy, na kterých studio v katalogu je
+const plats = [...new Set(studio.games.map((g) => g.platform.short))];
+const years = studio.games.map((g) => parseInt(g.year || '0')).filter(Boolean);
+const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : null;
+---
+
+<Base title={studio.name} description={`${studio.name} — historie, klíčové hry a osobnosti. ${studio.gameCount} her v katalogu RetroWeb.`}>
+  <article class="container narrow">
+    <nav class="crumbs muted" aria-label="Drobečková navigace">
+      <a href="/studia">Studia</a> <span>/</span> <span>{studio.name}</span>
+    </nav>
+
+    <header class="head">
+      <p class="eyebrow">Herní studio</p>
+      <h1>{studio.name}</h1>
+      <div class="facts">
+        <span class="tag">{studio.gameCount} her v katalogu</span>
+        {span && <span class="tag">⏱ {span}</span>}
+        <span class="tag">{plats.length} platforem</span>
+      </div>
+    </header>
+
+    {article && <div class="article prose" set:html={article} />}
+
+    <section class="games">
+      <h2 class="sec-title">Hry studia <span class="muted">({studio.gameCount})</span></h2>
+      <div class="grid grid-games">
+        {studio.games.map((g) => <GameCard game={g} platform={g.platform} showPlatform />)}
+      </div>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .narrow {
+    max-width: 920px;
+  }
+  .crumbs {
+    padding-top: 26px;
+    font-size: 0.86rem;
+  }
+  .crumbs a {
+    color: var(--accent);
+  }
+  .head {
+    margin: 18px 0 8px;
+  }
+  .eyebrow {
+    font-family: var(--font-pixel);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: color-mix(in srgb, var(--accent) 80%, var(--text));
+  }
+  .head h1 {
+    font-size: clamp(1.9rem, 5vw, 2.9rem);
+    margin-block: 8px 12px;
+  }
+  .facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tag {
+    font-size: 0.82rem;
+    padding: 0.4em 0.75em;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .article {
+    margin: 24px 0 8px;
+    font-size: 1.04rem;
+  }
+  .games {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-soft);
+  }
+  .sec-title {
+    font-size: clamp(1.3rem, 3vw, 1.6rem);
+    margin-bottom: 18px;
+  }
+</style>

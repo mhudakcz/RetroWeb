@@ -1,0 +1,21 @@
+Existuje hrstka herních studií, jejichž jméno funguje jako záruka kvality, a Treasure mezi ně patří naprosto bez výhrad. Tihle japonští tvůrci si vydobyli pověst mistrů akce, kteří nikdy nešli cestou nejmenšího odporu: místo bezpečných pokračování chrlili odvážné, originální a technicky špičkové hry, v nichž každý souboj s bossem působí jako pečlivě nacvičené divadlo. Pro milovníky run-and-gun stříleček, hektických shoot 'em up a bláznivě nápaditého designu je Treasure malá modla. Studio dokázalo z hrstky lidí vytvořit tituly, které se dodnes zkoumají jako učebnice toho, jak má vypadat řemeslně dokonalá 2D akce.
+
+## Historie
+
+Treasure vzniklo v roce 1992 a jeho zrod je sám o sobě legendou. Skupina vývojářů odešla z Konami, protože byla unavená nekonečným vyžíváním zaběhnutých sérií a toužila tvořit vlastní, nové hry. Hned první počin nenechal nikoho na pochybách, že přišlo něco výjimečného: Gunstar Heroes (1993) na Segě Mega Drive je dodnes považován za jednu z nejlepších akčních her své generace. Svižná run-and-gun střílečka oslnila plynulou animací, vynalézavými zbraňovými kombinacemi a souboji s bossy, které tlačily šestnáctibitový hardware na samou hranici možností.
+
+Treasure se rychle stalo synonymem pro hry, které z konzolí dolovaly maximum. Na Mega Drive následoval surreálně laděný plošinovkový skvost Dynamite Headdy (1994) s hrdinou, jenž mění hlavy jako klobouky, a především Alien Soldier (1995) — nelítostná přehlídka soubojů s bossy, která i dnes patří k tomu nejnáročnějšímu a nejefektnějšímu, co kdy na Segě vyšlo. Tady se naplno ukázal rukopis studia: minimum „výplně" mezi akčními vrcholy a důraz na nezapomenutelné, choreograficky promyšlené souboje.
+
+S příchodem nové generace studio elegantně přešlo do 32bitové éry. Na Sega Saturn vznikl v roce 1996 Guardian Heroes, kombinace mlátičky a RPG s rozvětveným příběhem a kooperací, kterou hráči milují dodnes. Téhož roku přišel Radiant Silvergun, vertikální shoot 'em up považovaný za jeden z vrcholů celého žánru — komplexní systém střelby a propracovaný příběh z něj udělaly mezi sběrateli vyhledávaný klenot. Na tuto linii Treasure navázalo na konzoli Dreamcast titulem Ikaruga (2001), geniálně jednoduchým a zároveň ďábelsky těžkým „danmaku" založeným na přepínání černé a bílé polarity. Ikaruga se stala asi nejslavnější hrou studia a dodnes platí za posvátný grál žánru. Na Dreamcastu vyšel i bujarý, výbušný Bangai-O (1999), další důkaz, že Treasure umí proměnit chaos na obrazovce v rafinovanou zábavu.
+
+Studio nezapomínalo ani na kapesní konzole. Pro Game Boy Advance vzniklo v roce 2005 Gunstar Super Heroes, pocta a duchovní pokračování slavného prvního dílu, jež na malou obrazovku přeneslo veškerou energii originálu.
+
+## Klíčové osobnosti
+
+Za vznikem Treasure stojí Masato Maegawa, dlouholetý prezident studia, který kdysi sebral odvahu odejít z Konami a vsadit na tvůrčí svobodu. Právě jeho vedení udrželo studio malé, soudržné a věrné vlastní vizi i v dobách, kdy konkurence rostla do gigantických rozměrů.
+
+Tváří herního designu studia je Hiroshi Iuchi, autor a režisér ikonických stříleček Radiant Silvergun a Ikaruga, který se podílel i na jejich vizuální a hudební stránce. Mezi další klíčové tvůrce patří Tecuhiko Kikuči (známý pod přezdívkou Han), výtvarník a designér s podílem na řadě klasik včetně Gunstar Heroes. Tato sehraná parta veteránů, z nichž mnozí prošli společně už Konami, dala studiu jeho nezaměnitelný charakter: posedlost detailem, smysl pro efektní souboje a chuť zkoušet to, co si jiní netroufli.
+
+## Současnost
+
+Treasure existuje i v roce 2026, byť mnohem tišeji než v 90. letech. Studio zůstává nezávislé a malé, věrné své filozofii kvality nad kvantitou, a nikdy se nenechalo pohltit větším vydavatelem. Nové hry sice vydává jen zřídka, o to pečlivěji ale spravuje své dědictví. Klasiky jako Ikaruga se dočkaly nových vydání na moderních platformách, kde si je objevují další generace hráčů, a Gunstar Heroes pravidelně ožívá v retro kolekcích a digitálních znovuvydáních. Pro retro komunitu je Treasure trvalým důkazem, že na velikosti studia nezáleží — záleží na srdci, řemesle a odvaze tvořit jinak. Jen málokterá značka si dokázala udržet tak bezvýhradný respekt fanoušků jako právě ti, kteří kdysi odešli budovat své vlastní poklady.

@@ -8,6 +8,7 @@ import {
   mdBlock,
   mdInline,
   gameNeighbors,
+  studioLink,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -65,7 +66,9 @@ const playtime = playtimeLabel(game.length, game.est);
         <div class="facts">
           {game.genre && <span class="tag tag-genre" style={`--c1:${platform.color}`}>{game.genre}</span>}
           {game.year && <span class="tag">{game.year}</span>}
-          {game.studio && <span class="tag">{game.studio}</span>}
+          {game.studio && (studioLink(game.studio)
+            ? <a class="tag tag-studio" href={`/studia/${studioLink(game.studio)}`}>{game.studio}</a>
+            : <span class="tag">{game.studio}</span>)}
           {playtime && <span class="tag">⏱ {playtime}</span>}
           {game.players && <span class="tag tag-players">👥 {game.players}</span>}
           {game.rating && <span class="tag tag-rating">🛡 {game.rating}</span>}
@@ -291,6 +294,13 @@ const playtime = playtimeLabel(game.length, game.est);
   .tag-rating {
     color: #d8b4fe;
     border-color: color-mix(in srgb, #d8b4fe 40%, var(--border));
+  }
+  .tag-studio {
+    color: color-mix(in srgb, var(--accent) 75%, var(--text));
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  }
+  .tag-studio:hover {
+    border-color: var(--accent);
   }
   .teaser {
     font-size: 1.15rem;

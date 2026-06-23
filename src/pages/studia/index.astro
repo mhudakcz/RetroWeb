@@ -1,0 +1,79 @@
+---
+import Base from '../../layouts/Base.astro';
+import { studios } from '../../lib/data';
+---
+
+<Base title="Herní studia" description={`Profily ${studios.length} legendárních herních studií — historie, klíčové hry a osobnosti.`}>
+  <section class="container head">
+    <p class="eyebrow">Tvůrci</p>
+    <h1>Herní studia</h1>
+    <p class="muted lead">
+      Kdo stál za klasikami. Profily studií, jejich historie, proměny a hry, které tu máme.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid studio-grid">
+        {
+          studios.map((s) => {
+            const plats = [...new Set(s.games.map((g) => g.platform.short))].slice(0, 6);
+            return (
+              <a class="card studio-card" href={`/studia/${s.slug}`}>
+                <div class="sc-body">
+                  <h2>{s.name}</h2>
+                  <p class="meta muted">{s.gameCount} her · {plats.join(', ')}</p>
+                </div>
+                <span class="arrow" aria-hidden="true">→</span>
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .head {
+    padding-block: 48px 0;
+  }
+  .head h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-block: 8px 10px;
+  }
+  .lead {
+    font-size: 1.05rem;
+    max-width: 640px;
+  }
+  .studio-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin-top: 24px;
+  }
+  .studio-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px;
+  }
+  .studio-card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--accent) 50%, var(--border));
+    box-shadow: var(--shadow);
+  }
+  .sc-body h2 {
+    font-size: 1.1rem;
+  }
+  .meta {
+    font-size: 0.84rem;
+    margin-top: 3px;
+  }
+  .arrow {
+    color: var(--muted);
+    flex: none;
+  }
+  .studio-card:hover .arrow {
+    color: var(--accent);
+  }
+</style>

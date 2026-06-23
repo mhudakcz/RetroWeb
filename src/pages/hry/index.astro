@@ -11,6 +11,9 @@ const norm = (s: string) =>
     .toLowerCase();
 
 const platformGroups = platformsByType();
+const genreCounts: Record<string, number> = Object.fromEntries(
+  GENRE_CATS.map(([k]) => [k, allGames.filter((g) => genreCats(g.genre).includes(k)).length])
+);
 ---
 
 <Base title="Hry" description={`Procházejte ${stats.games} her napříč ${stats.platforms} platformami. Filtrujte podle platformy, homebrew, must-play nebo logických her.`}>
@@ -26,13 +29,15 @@ const platformGroups = platformsByType();
         <option value="">Všechny platformy</option>
         {platformGroups.map((grp) => (
           <optgroup label={grp.label}>
-            {grp.items.map((p) => <option value={p.slug}>{p.name}</option>)}
+            {grp.items.map((p) => <option value={p.slug}>{p.name} ({p.gameCount})</option>)}
           </optgroup>
         ))}
       </select>
       <select id="genre" aria-label="Filtrovat žánr">
         <option value="">Všechny žánry</option>
-        {GENRE_CATS.map(([k, label]) => <option value={k}>{label}</option>)}
+        {GENRE_CATS.filter(([k]) => genreCounts[k] > 0).map(([k, label]) => (
+          <option value={k}>{label} ({genreCounts[k]})</option>
+        ))}
       </select>
       <div class="chips" role="group" aria-label="Filtry">
         {flagKeys.map((f) => (

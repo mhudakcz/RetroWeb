@@ -29,6 +29,32 @@
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
+/* ===== Denní (světlý) režim ===== */
+:root[data-theme='light'] {
+  --bg: #f4f5f9;
+  --bg-2: #eaecf3;
+  --surface: #ffffff;
+  --surface-2: #f1f3f8;
+  --border: #d3d7e3;
+  --border-soft: #e3e6ef;
+  --text: #1a1c26;
+  --muted: #586074;
+  --muted-2: #828aa1;
+  --accent: #e01e63;        /* o něco tmavší magenta pro kontrast na světlém */
+  --accent-2: #0e8fb0;      /* tmavší cyan */
+  --shadow: 0 10px 28px -14px rgba(20, 24, 40, 0.28);
+  --shadow-lg: 0 22px 55px -22px rgba(20, 24, 40, 0.35);
+}
+:root[data-theme='light'] body {
+  background-image:
+    radial-gradient(1200px 600px at 50% -10%, rgba(224, 30, 99, 0.06), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(14, 143, 176, 0.05), transparent 55%);
+}
+/* plynulý přechod při přepnutí */
+body, .card, .emblem, .hw-photo, .art {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
 /* ===== Reset ===== */
 *,
 *::before,
@@ -152,13 +178,13 @@ h3 {
 /* ===== Prose (renderovaný markdown) ===== */
 .prose p {
   margin-block: 0 1.05em;
-  color: #d3d7e4;
+  color: var(--text);
 }
 .prose p:last-child {
   margin-bottom: 0;
 }
 .prose strong {
-  color: #fff;
+  color: var(--text);
   font-weight: 700;
 }
 .prose h3 {
