@@ -29,14 +29,14 @@ const genreCounts: Record<string, number> = Object.fromEntries(
         <option value="">Všechny platformy</option>
         {platformGroups.map((grp) => (
           <optgroup label={grp.label}>
-            {grp.items.map((p) => <option value={p.slug}>{p.name} ({p.gameCount})</option>)}
+            {grp.items.map((p) => <option value={p.slug} data-label={p.name}>{p.name} ({p.gameCount})</option>)}
           </optgroup>
         ))}
       </select>
       <select id="genre" aria-label="Filtrovat žánr">
         <option value="">Všechny žánry</option>
         {GENRE_CATS.filter(([k]) => genreCounts[k] > 0).map(([k, label]) => (
-          <option value={k}>{label} ({genreCounts[k]})</option>
+          <option value={k} data-label={label}>{label} ({genreCounts[k]})</option>
         ))}
       </select>
       <div class="chips" role="group" aria-label="Filtry">
@@ -84,6 +84,10 @@ const genreCounts: Record<string, number> = Object.fromEntries(
   const emptyEl = document.getElementById('empty')!;
   const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.chip'));
 
+  const platOpts = Array.from(platform.querySelectorAll<HTMLOptionElement>('option[data-label]'));
+  const genreOpts = Array.from(genre.querySelectorAll<HTMLOptionElement>('option[data-label]'));
+  const platGroups = Array.from(platform.querySelectorAll('optgroup'));
+
   const activeFlags = new Set<string>();
   let needDetail = false;
   let needMulti = false;
@@ -91,26 +95,52 @@ const genreCounts: Record<string, number> = Object.fromEntries(
   const norm = (s: string) =>
     s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
+  // splňuje buňka filtry? ignore vynechá jednu dimenzi (kvůli křížovým počtům)
+  function matches(cell: HTMLElement, plat: string, gen: string, term: string, ignore?: 'plat' | 'genre') {
+    const name = cell.dataset.name ?? '';
+    const flags = (cell.dataset.flags ?? '').split(' ');
+    if (term && !name.includes(term)) return false;
+    if (ignore !== 'plat' && plat && cell.dataset.platform !== plat) return false;
+    if (ignore !== 'genre' && gen && !(cell.dataset.genre ?? '').split(' ').includes(gen)) return false;
+    if (needDetail && cell.dataset.detail !== '1') return false;
+    if (needMulti && cell.dataset.multi !== '1') return false;
+    for (const f of activeFlags) if (!flags.includes(f)) return false;
+    return true;
+  }
+
+  // přepočítej počty v selectech podle ostatních aktivních filtrů
+  function updateCounts(plat: string, gen: string, term: string) {
+    for (const opt of platOpts) {
+      const n = cells.filter((c) => c.dataset.platform === opt.value && matches(c, plat, gen, term, 'plat')).length;
+      opt.textContent = `${opt.dataset.label} (${n})`;
+      opt.hidden = n === 0 && opt.value !== plat;
+    }
+    for (const g of platGroups) {
+      const kids = Array.from(g.querySelectorAll<HTMLOptionElement>('option'));
+      g.hidden = kids.every((o) => o.hidden);
+    }
+    for (const opt of genreOpts) {
+      const n = cells.filter(
+        (c) => (c.dataset.genre ?? '').split(' ').includes(opt.value) && matches(c, plat, gen, term, 'genre')
+      ).length;
+      opt.textContent = `${opt.dataset.label} (${n})`;
+      opt.hidden = n === 0 && opt.value !== gen;
+    }
+  }
+
   function apply() {
     const term = norm(q.value.trim());
     const plat = platform.value;
     const gen = genre.value;
     let shown = 0;
     for (const cell of cells) {
-      const name = cell.dataset.name ?? '';
-      const flags = (cell.dataset.flags ?? '').split(' ');
-      let ok = true;
-      if (term && !name.includes(term)) ok = false;
-      if (plat && cell.dataset.platform !== plat) ok = false;
-      if (gen && !(cell.dataset.genre ?? '').split(' ').includes(gen)) ok = false;
-      if (needDetail && cell.dataset.detail !== '1') ok = false;
-      if (needMulti && cell.dataset.multi !== '1') ok = false;
-      for (const f of activeFlags) if (!flags.includes(f)) ok = false;
+      const ok = matches(cell, plat, gen, term);
       cell.hidden = !ok;
       if (ok) shown++;
     }
     countEl.textContent = `${shown} ${shown === 1 ? 'hra' : shown >= 2 && shown <= 4 ? 'hry' : 'her'}`;
     emptyEl.hidden = shown !== 0;
+    updateCounts(plat, gen, term);
   }
 
   q.addEventListener('input', apply);

@@ -55,6 +55,32 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "arcade__centipede": {
+    "pegi": "PEGI 3"
+  },
+  "arcade__donkey-kong": {
+    "esrb": "Everyone"
+  },
+  "arcade__gradius": {
+    "esrb": "Everyone"
+  },
+  "arcade__pac-man": {
+    "esrb": "Everyone"
+  },
+  "arcade__salamander": {
+    "esrb": "Everyone"
+  },
+  "arcade__simpsons": {
+    "esrb": "Everyone 10+"
+  },
+  "arcade__space-harrier": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "arcade__strikers-1945-ii": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
   "atari-lynx__checkered-flag": {
     "esrb": "Kids to Adults"
   },
@@ -326,6 +352,81 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "n64__1080-snowboarding": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "n64__banjo-kazooie": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "n64__banjo-tooie": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "n64__body-harvest": {
+    "esrb": "Teen"
+  },
+  "n64__bomberman-64": {
+    "esrb": "Kids to Adults"
+  },
+  "n64__command-and-conquer": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "n64__excitebike-64": {
+    "esrb": "Everyone"
+  },
+  "n64__kirby-64-crystal-shards": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "n64__mario-kart-64": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "n64__mystical-ninja-starring-goemon": {
+    "esrb": "Everyone"
+  },
+  "n64__paper-mario": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "n64__perfect-dark": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "n64__pokemon-snap": {
+    "esrb": "Everyone"
+  },
+  "n64__snowboard-kids": {
+    "esrb": "Kids to Adults"
+  },
+  "n64__star-fox-64": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "n64__star-wars-episode-i-battle-for-naboo": {
+    "esrb": "Teen"
+  },
+  "n64__star-wars-episode-i-racer": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "n64__star-wars-rogue-squadron": {
+    "esrb": "Teen"
+  },
+  "n64__super-smash-bros": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "n64__wave-race-64": {
+    "esrb": "Kids to Adults"
+  },
+  "n64__yoshi-s-story": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "nds__advance-wars-dual-strike": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
@@ -472,12 +573,201 @@
   "nes__wario-s-woods": {
     "esrb": "Everyone"
   },
+  "playstation__ape-escape": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "playstation__bushido-blade": {
+    "esrb": "Teen"
+  },
   "playstation__chrono-cross": {
     "esrb": "Teen"
+  },
+  "playstation__command-and-conquer": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__command-and-conquer-red-alert": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__crash-team-racing": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "playstation__dino-crisis": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "playstation__dino-crisis-2": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "playstation__driver-2": {
+    "esrb": "Teen"
+  },
+  "playstation__einhander": {
+    "esrb": "Everyone"
   },
   "playstation__final-fantasy-vii": {
     "esrb": "Teen",
     "pegi": "Q14915515"
+  },
+  "playstation__front-mission-3": {
+    "esrb": "Teen"
+  },
+  "playstation__gran-turismo-2": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "playstation__klonoa-door-to-phantomile": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "playstation__legend-of-dragoon": {
+    "esrb": "Teen"
+  },
+  "playstation__lego-racers": {
+    "esrb": "Everyone"
+  },
+  "playstation__lego-rock-raiders": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "playstation__lego-stunt-rally": {
+    "esrb": "Everyone"
+  },
+  "playstation__mega-man-legends": {
+    "esrb": "Everyone"
+  },
+  "playstation__porsche-challenge": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "playstation__resident-evil-2": {
+    "esrb": "Mature 17+"
+  },
+  "playstation__resident-evil-3-nemesis": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "playstation__silent-hill": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "playstation__star-wars-dark-forces": {
+    "esrb": "Teen"
+  },
+  "playstation__star-wars-episode-i-phantom-menace": {
+    "esrb": "Teen"
+  },
+  "playstation__threads-of-fate": {
+    "esrb": "Everyone"
+  },
+  "playstation__tomb-raider": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__tomb-raider-chronicles": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__tomb-raider-ii": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__tomb-raider-iii": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__tomb-raider-last-revelation": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "playstation__twisted-metal-2": {
+    "esrb": "Teen"
+  },
+  "playstation__vagrant-story": {
+    "esrb": "Teen"
+  },
+  "psp__burnout-legends": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 3"
+  },
+  "psp__crisis-core-final-fantasy-vii": {
+    "esrb": "Teen",
+    "pegi": "PEGI 16"
+  },
+  "psp__daxter": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
+  },
+  "psp__dissidia-final-fantasy": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "psp__final-fantasy-tactics-war-of-lions": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "psp__killzone-liberation": {
+    "esrb": "Teen",
+    "pegi": "PEGI 16"
+  },
+  "psp__mega-man-maverick-hunter-x": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 3"
+  },
+  "psp__mega-man-powered-up": {
+    "esrb": "Everyone"
+  },
+  "psp__metal-gear-solid-peace-walker": {
+    "esrb": "Teen",
+    "pegi": "PEGI 18"
+  },
+  "psp__metal-gear-solid-portable-ops": {
+    "esrb": "Mature 17+",
+    "pegi": "Q14915515"
+  },
+  "psp__patapon": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "psp__patapon-2": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "psp__pursuit-force": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "psp__ratchet-and-clank-size-matters": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
+  },
+  "psp__resistance-retribution": {
+    "esrb": "Mature 17+"
+  },
+  "psp__star-wars-battlefront-ii": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "psp__star-wars-force-unleashed": {
+    "esrb": "Teen",
+    "pegi": "PEGI 16"
+  },
+  "psp__syphon-filter-dark-mirror": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "psp__valkyria-chronicles-ii": {
+    "esrb": "Teen"
+  },
+  "psp__ys-oath-in-felghana": {
+    "esrb": "Teen"
+  },
+  "psp__ys-seven": {
+    "esrb": "Teen"
   },
   "saturn__castlevania-symphony-of-night": {
     "esrb": "Teen",

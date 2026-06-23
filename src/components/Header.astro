@@ -9,7 +9,7 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
       <span class="logo-mark pixel">RW</span>
       <span class="logo-text">Retro<span class="accent">Web</span></span>
     </a>
-    <nav class="nav" aria-label="Hlavní navigace">
+    <nav id="nav" class="nav" aria-label="Hlavní navigace">
       <a href="/" class:list={['nav-link', { active: isActive('/') }]}>Domů</a>
       <a href="/platformy" class:list={['nav-link', { active: isActive('/platformy') }]}>Platformy</a>
       <a href="/hry" class:list={['nav-link', { active: isActive('/hry') }]}>Hry</a>
@@ -19,6 +19,9 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
     </nav>
     <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Přepnout denní/noční režim" title="Denní / noční režim">
       <span class="t-dark">🌙</span><span class="t-light">☀️</span>
+    </button>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav">
+      <span class="bars" aria-hidden="true"></span>
     </button>
   </div>
 </header>
@@ -37,6 +40,28 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
         try { localStorage.setItem('theme', 'light'); } catch (e) {}
       }
     });
+
+    var navBtn = document.getElementById('nav-toggle');
+    var nav = document.getElementById('nav');
+    if (navBtn && nav) {
+      var close = function () {
+        nav.classList.remove('open');
+        navBtn.setAttribute('aria-expanded', 'false');
+        navBtn.setAttribute('aria-label', 'Otevřít menu');
+      };
+      navBtn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        navBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        navBtn.setAttribute('aria-label', open ? 'Zavřít menu' : 'Otevřít menu');
+      });
+      // klik mimo / na odkaz menu zavře
+      nav.addEventListener('click', function (e) {
+        if (e.target && e.target.closest && e.target.closest('a')) close();
+      });
+      document.addEventListener('click', function (e) {
+        if (nav.classList.contains('open') && !nav.contains(e.target) && e.target !== navBtn && !navBtn.contains(e.target)) close();
+      });
+    }
   })();
 </script>
 
@@ -132,13 +157,82 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
   :root[data-theme='light'] .site-header {
     background: rgba(255, 255, 255, 0.82);
   }
-  @media (max-width: 560px) {
-    .logo-text {
+
+  /* hamburger – skrytý na desktopu */
+  .nav-toggle {
+    display: none;
+    flex: none;
+    width: 38px;
+    height: 38px;
+    place-items: center;
+    border-radius: 9px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+  }
+  .nav-toggle .bars,
+  .nav-toggle .bars::before,
+  .nav-toggle .bars::after {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: var(--text);
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  .nav-toggle .bars {
+    position: relative;
+  }
+  .nav-toggle .bars::before {
+    position: absolute;
+    top: -6px;
+  }
+  .nav-toggle .bars::after {
+    position: absolute;
+    top: 6px;
+  }
+  .nav-toggle[aria-expanded='true'] .bars {
+    background: transparent;
+  }
+  .nav-toggle[aria-expanded='true'] .bars::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .nav-toggle[aria-expanded='true'] .bars::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  @media (max-width: 760px) {
+    .nav-toggle {
+      display: grid;
+    }
+    .nav {
+      position: absolute;
+      top: 64px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      gap: 2px;
+      padding: 10px 16px 16px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border-soft);
+      box-shadow: var(--shadow);
       display: none;
     }
+    .nav.open {
+      display: flex;
+    }
     .nav-link {
-      padding: 0.5em 0.6em;
-      font-size: 0.86rem;
+      padding: 0.7em 0.85em;
+      font-size: 0.98rem;
+      width: 100%;
+    }
+  }
+  @media (max-width: 380px) {
+    .logo-text {
+      display: none;
     }
   }
 </style>
