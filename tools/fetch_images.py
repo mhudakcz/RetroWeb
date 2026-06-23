@@ -403,11 +403,19 @@ def fetch_games():
         out.mkdir(parents=True, exist_ok=True)
 
         # napáruj
-        jobs = []
+        raw_jobs = []
         for g in games:
             fn = best_boxart(g["name"], names, idx)
             if fn:
-                jobs.append((g["slug"], fn))
+                raw_jobs.append((g["slug"], fn))
+        # pojistka proti falešným shodám: když jeden boxart sedne na VÍC her,
+        # je to nespolehlivá fuzzy shoda -> nepřiřazuj ho žádné z nich.
+        from collections import Counter as _C
+        fn_count = _C(fn for _, fn in raw_jobs)
+        jobs = [(s, fn) for s, fn in raw_jobs if fn_count[fn] == 1]
+        dropped = len(raw_jobs) - len(jobs)
+        if dropped:
+            print(f"  [pojistka] zahozeno {dropped} her sdílejících boxart (falešná shoda)")
         grand_total += len(games)
 
         def dl(job):

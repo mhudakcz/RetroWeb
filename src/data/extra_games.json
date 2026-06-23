@@ -33,6 +33,286 @@
       "genre": "Shooter (light gun)",
       "length": "S",
       "flags": []
+    },
+    {
+      "name": "Pac-Man",
+      "genre": "Arcade / Maze",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Ms. Pac-Man",
+      "genre": "Arcade / Maze",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Galaga",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Galaxian",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Donkey Kong",
+      "genre": "Arcade / Plošinovka",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Donkey Kong Jr.",
+      "genre": "Arcade / Plošinovka",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Dig Dug",
+      "genre": "Arcade / Maze",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Frogger",
+      "genre": "Arcade / Akce",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Defender",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Robotron: 2084",
+      "genre": "Run & gun",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Joust",
+      "genre": "Arcade / Akce",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Q*bert",
+      "genre": "Arcade / Puzzle",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Centipede",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Asteroids",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Tempest",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Bomb Jack",
+      "genre": "Arcade / Plošinovka",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "1942",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "1943: The Battle of Midway",
+      "genre": "Shmup",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Gradius",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Salamander",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Space Harrier",
+      "genre": "Rail shooter",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "After Burner II",
+      "genre": "Rail shooter",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Pang",
+      "genre": "Arcade / Akce",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Rastan",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Gauntlet",
+      "genre": "Akční / Dungeon",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Smash TV",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rampage",
+      "genre": "Arcade / Akce",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sunset Riders",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "The Simpsons",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "X-Men",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Captain Commando",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "The King of Dragons",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Knights of the Round",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Cadillacs and Dinosaurs",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Aliens",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Dungeons & Dragons: Tower of Doom",
+      "genre": "Beat em up",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Daytona USA",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Virtua Fighter",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Crazy Taxi",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Out Run",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sega Rally Championship",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Time Crisis",
+      "genre": "Light-gun shooter",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Point Blank",
+      "genre": "Light-gun shooter",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Puzzle Bobble",
+      "genre": "Puzzle",
+      "length": "S",
+      "flags": [
+        "puzzle"
+      ]
     }
   ],
   "snes": [
@@ -60,6 +340,170 @@
       "name": "Another World",
       "genre": "Cinematic / Adventure",
       "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Micro Machines",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Top Gear 2",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Wild Guns",
+      "genre": "Run & gun / Shooter",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "NHL '94",
+      "genre": "Sport / Hokej",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "NBA Jam",
+      "genre": "Sport / Basketbal",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Killer Instinct",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Seiken Densetsu 3",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Donkey Kong Country",
+      "genre": "Plošinovka",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Donkey Kong Country 2",
+      "genre": "Plošinovka",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Donkey Kong Country 3",
+      "genre": "Plošinovka",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Super Mario RPG",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Mega Man X2",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man X3",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Gradius III",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lufia II: Rise of the Sinistrals",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Tetris Attack",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Zombies Ate My Neighbors",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Aladdin",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "The Lion King",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Pocky & Rocky",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "U.N. Squadron",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Axelay",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rock n' Roll Racing",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Tiny Toon Adventures: Buster Busts Loose",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Joe & Mac",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Goof Troop",
+      "genre": "Action-adventure",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Street Fighter Alpha 2",
+      "genre": "Fighting",
+      "length": "S",
       "flags": []
     }
   ],
@@ -153,6 +597,168 @@
       "genre": "Platformer",
       "length": "M",
       "flags": []
+    },
+    {
+      "name": "Sonic the Hedgehog 2",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sonic the Hedgehog 3",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Streets of Rage",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Vectorman",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Vectorman 2",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Earthworm Jim",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Earthworm Jim 2",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "ToeJam & Earl in Panic on Funkotron",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Thunder Force III",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Thunder Force IV",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ecco the Dolphin",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Castle of Illusion Starring Mickey Mouse",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "QuackShot Starring Donald Duck",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "World of Illusion",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Kid Chameleon",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Strider",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Golden Axe II",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Altered Beast",
+      "genre": "Beat em up",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Mega Turrican",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Pulseman",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ecco: The Tides of Time",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Sub-Terrania",
+      "genre": "Akční / Sim",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Gaiares",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rolo to the Rescue",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "The Adventures of Batman & Robin",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Story of Thor",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Shining in the Darkness",
+      "genre": "Dungeon RPG",
+      "length": "L",
+      "flags": []
     }
   ],
   "nes": [
@@ -211,6 +817,36 @@
     {
       "name": "Ace Combat 3: Electrosphere",
       "genre": "Sim / Letecká akce",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Porsche Challenge",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lego Racers",
+      "genre": "Racing / rodinné",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lego Racers 2",
+      "genre": "Racing / rodinné",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lego Stunt Rally",
+      "genre": "Racing / rodinné",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lego Rock Raiders",
+      "genre": "Strategy / rodinné",
       "length": "M",
       "flags": []
     }
@@ -1263,6 +1899,120 @@
       "flags": [
         "puzzle"
       ]
+    }
+  ],
+  "game-boy-advance": [
+    {
+      "name": "Mario Kart: Super Circuit",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "WarioWare, Inc.: Mega Microgames!",
+      "genre": "Party / Mini-hry",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man Zero 2",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man Battle Network 3",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Final Fantasy I & II: Dawn of Souls",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Sonic Advance",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sonic Advance 2",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sword of Mana",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Rhythm Tengoku",
+      "genre": "Rhythm",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario vs. Donkey Kong",
+      "genre": "Puzzle / Plošinovka",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Lego Star Wars: The Video Game",
+      "genre": "Action / rodinné",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lego Star Wars II: The Original Trilogy",
+      "genre": "Action / rodinné",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Bionicle: The Game",
+      "genre": "Action",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Drome Racers",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Lego Racers 2",
+      "genre": "Racing / rodinné",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 2",
+      "genre": "Sport / Skate",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Banjo-Kazooie: Grunty's Revenge",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    }
+  ],
+  "n64": [
+    {
+      "name": "Lego Racers",
+      "genre": "Racing / rodinné",
+      "length": "M",
+      "flags": []
     }
   ]
 }

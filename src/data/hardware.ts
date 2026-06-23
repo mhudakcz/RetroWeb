@@ -100,6 +100,13 @@ export const hardware: HardwareItem[] = [
           'Mezi hrami přepínáš ukončením do seznamu (Fn + Start) a výběrem další. Uložené pozice i save states zůstávají na SD kartě, takže po vypnutí pokračuješ přesně tam, kde jsi skončil.',
         ],
       },
+      {
+        title: 'Hra ve dvou a víc',
+        body: [
+          'Na malém displeji se ve více lidech hraje blbě, ale řešení je elegantní: RG35XX Pro má **HDMI výstup**, takže obraz pošleš na televizi a připojíš druhý ovladač (USB, případně Bluetooth podle systému). V seznamu si v nastavení ovladačů přiřadíš hráče 2 a rozjedeš bojovky, Bomberman nebo kooperaci typu Streets of Rage na velké obrazovce.',
+          'Druhá cesta je **netplay přes Wi-Fi** (na systémech nad RetroArchem) — partii hostíš nebo se připojíš ke kamarádovi po síti. Sedí hlavně na hry s jedním společným obrazem (bojovky, sport). Pro vážnější párty je ale pohodlnější Batocera na PC/televizi.',
+        ],
+      },
     ],
     options: [
       {
@@ -179,6 +186,13 @@ export const hardware: HardwareItem[] = [
           'Ovládáš ho jako klasickou konzoli; navíc má vyhrazené tlačítko **Function (F)**, kterým se ve hře dostaneš k funkcím emulátoru. Na ArkOS, ROCKNIX i Batoceře platí podobné **hotkeye**: **F + R = uložit stav**, **F + L = načíst stav**, **F + Start = ukončit hru**, **F + Select/X = menu emulátoru**.',
           'Nejpohodlnější ukládání jsou **save states** — uložíš kdykoli a okamžitě se vrátíš; klasické herní uložení (do paměti hry) funguje samozřejmě taky. Vše zůstává na SD kartě, takže po vypnutí pokračuješ, kde jsi přestal.',
           'Mezi hrami se přepínáš ukončením do seznamu a výběrem další. Kombinace tlačítek si lze v nastavení systému předefinovat.',
+        ],
+      },
+      {
+        title: 'Hra ve dvou a víc',
+        body: [
+          'R36S má jen jeden malý displej, takže pro hru ve více lidech je nejlepší poslat obraz na televizi a připojit druhý ovladač. Pozor: kapesní R36S má **omezené možnosti výstupu** (řada kusů nemá video výstup vůbec, jiné jen omezeně), takže před nákupem nebo plánováním párty ověř, co tvoje konkrétní revize umí — tady je RG35XX Pro s HDMI vděčnější.',
+          'Na systémech nad RetroArchem (ArkOS, ROCKNIX) funguje při zapnutém Wi-Fi i **netplay** — hraní 2 hráčů po síti u her s jedním společným obrazem (bojovky, sport). Pro pohodlnou lokální čtyřhru ale stejně sáhneš spíš po Batoceře na televizi.',
         ],
       },
     ],
@@ -296,6 +310,15 @@ export const hardware: HardwareItem[] = [
           'Holý seznam názvů souborů vypadá smutně — Batocera ale umí ke každé hře **sama stáhnout obal, screenshoty, logo, video i popisek**. Slouží k tomu **scraper**: v hlavním menu zvol **Scraper**, jako zdroj nech **ScreenScraper** (nejbohatší databáze) a zaškrtni, co chceš stahovat (obal, titulní obrazovku, video náhled, popis). Pak dej **Scrapovat** a nech to běžet — u velké knihovny klidně přes noc.',
           'Drobnost, která hodně pomůže: na **screenscraper.fr** si založ **bezplatný účet** a v nastavení scraperu vyplň jméno a heslo. Anonymní stahování je totiž pomalé a omezené; s účtem to lítá mnohem rychleji. Jako záloha funguje i zdroj **TheGamesDB**.',
           'Když se některá hra napáruje špatně (časté u homebrew, hacků nebo neobvyklých názvů), oprav to ručně: na hře vyvolej **Možnosti → Upravit metadata** a buď zvol správný výsledek, nebo rovnou nastav vlastní obrázek. Ručně stažené obrázky stačí nakopírovat do složky **`media`** u dané hry. Všechno se ukládá k romům, takže scraping uděláš jednou a knihovna ti zůstane krásná i po přenesení na jiné zařízení.',
+        ],
+      },
+      {
+        title: 'Hra ve více lidech: lokálně i přes internet (netplay)',
+        body: [
+          'Většina retro klasik byla dělaná pro gauč ve dvou a víc — a Batocera to umí naplno. Pro **lokální hru** stačí připojit druhý (třetí, čtvrtý) ovladač: gamepad přes USB nebo Bluetooth (8BitDo, Xbox, PlayStation, Switch Pro), Batocera ho pozná a v **Nastavení ovladačů** mu přiřadíš pořadí hráče. Pak už jen hra, která multiplayer podporuje — bojovky (Street Fighter, Mortal Kombat), Bomberman, NBA Jam, Micro Machines, kooperační řežby (Streets of Rage, Contra, TMNT).',
+          'U her, které původně potřebovaly **multitap** (4 ovladače na SNES/PS1), zapni v **Game Settings → Controllers** odpovídající adaptér (např. SNES Multitap, PS1 Multitap) — pak rozjedeš čtyřhru v NBA Jam nebo Bomberman Party.',
+          'Druhá možnost je **netplay — hra po internetu**. RetroArch v Batoceře umí hostit i připojit se k partii: na hře dej **Možnosti → Netplay → Host**, kamarád se přes tvé ID/IP připojí jako klient a hrajete spolu, i když je každý jinde. Funguje to nejlépe u her s jedním společným obrazem (bojovky, sport, beat ’em up). Pro stabilní spojení mějte oba podobnou verzi jádra a slušný ping; ideál je drátová síť.',
+          'Na ruční konzoli (handheld) lokální čtyřhru rozjedeš nejlíp tak, že obraz pošleš **přes HDMI na televizi** a připojíš víc ovladačů — z malého displeje se totiž špatně mačká ve čtyřech. Netplay funguje i tady, pokud má zařízení Wi-Fi.',
         ],
       },
     ],
@@ -512,6 +535,14 @@ export const hardware: HardwareItem[] = [
         body: [
           'Na PC nejsou hry vázané na pevnou strukturu jako na konzoli — složku s ROMy si uděláš kdekoli (např. `D:\\Roms\\snes`, `D:\\Roms\\psx`) a v emulátoru na ni jen ukážeš. Přehlednosti pomáhá držet schéma **jedna složka = jeden systém**, ať to později snadno napojíš na frontend.',
           '**RetroArch** má vlastní složky: jádra v `cores/`, **BIOS v `system/`** (sem patří např. PS1/Saturn/DS BIOS), uložení v `saves/` a `states/`. **Samostatné emulátory** mají každý svoje: DuckStation, PCSX2 i Dolphin si BIOS/klíče a paměťovky drží ve svých datových složkách (obvykle v Dokumentech nebo vedle programu). Když nasadíš **frontend** (EmuDeck, LaunchBox), ten ti složky pomůže sjednotit a uklidit.',
+        ],
+      },
+      {
+        title: 'Více hráčů: ovladače a hraní po síti',
+        body: [
+          'Na PC je multiplayer nejpohodlnější — připojíš klidně **čtyři ovladače** (USB i Bluetooth: Xbox, DualShock/DualSense, 8BitDo, Switch Pro) a v RetroArch v **Settings → Input → Port 1–4** každému přiřadíš hráče. Pak rozjedeš lokální dvojhru i čtyřhru: bojovky, Bomberman, NBA Jam, Micro Machines, Streets of Rage či Contra v kooperaci. U her, co chtěly multitap (SNES/PS1), zapni v jádře odpovídající adaptér.',
+          'Pro hraní na dálku má RetroArch **netplay**: v **Quick Menu → Netplay → Host** založíš partii, kamarád se připojí jako klient (přes tvé IP nebo přes veřejný lobby seznam) a hrajete spolu po internetu. Sedí to hlavně na hry s jedním společným obrazem (bojovky, sport, beat ’em up). Důležité je mít **stejnou verzi jádra** na obou stranách a slušné připojení; pomáhá i nastavení vstupní latence.',
+          'Samostatné emulátory jdou dál: **Dolphin** (GameCube/Wii) má vlastní povedený netplay pro Mario Kart, Smash Bros. nebo Mario Party, **DuckStation/PCSX2** zvládnou lokální dva hráče na jedné klávesnici/ovladačích. Pro online párty s kamarády je Dolphin netplay zlatý standard.',
         ],
       },
     ],

@@ -38,6 +38,7 @@ const platformGroups = platformsByType();
         {flagKeys.map((f) => (
           <button class="chip" data-flag={f} type="button">{FLAG_LABEL[f]}</button>
         ))}
+        <button class="chip" data-multi="1" type="button">👥 Pro více hráčů</button>
         <button class="chip" data-detail="1" type="button">📝 S komentářem</button>
       </div>
     </div>
@@ -55,6 +56,7 @@ const platformGroups = platformsByType();
               data-platform={g.platform.slug}
               data-flags={g.flags.join(' ')}
               data-genre={genreCats(g.genre).join(' ')}
+              data-multi={g.players && g.players !== '1' ? '1' : '0'}
               data-detail={g.article || g.detail ? '1' : '0'}
             >
               <GameCard game={g} platform={g.platform} showPlatform />
@@ -79,6 +81,7 @@ const platformGroups = platformsByType();
 
   const activeFlags = new Set<string>();
   let needDetail = false;
+  let needMulti = false;
 
   const norm = (s: string) =>
     s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -96,6 +99,7 @@ const platformGroups = platformsByType();
       if (plat && cell.dataset.platform !== plat) ok = false;
       if (gen && !(cell.dataset.genre ?? '').split(' ').includes(gen)) ok = false;
       if (needDetail && cell.dataset.detail !== '1') ok = false;
+      if (needMulti && cell.dataset.multi !== '1') ok = false;
       for (const f of activeFlags) if (!flags.includes(f)) ok = false;
       cell.hidden = !ok;
       if (ok) shown++;
@@ -111,6 +115,8 @@ const platformGroups = platformsByType();
     chip.addEventListener('click', () => {
       if (chip.dataset.detail) {
         needDetail = !needDetail;
+      } else if (chip.dataset.multi) {
+        needMulti = !needMulti;
       } else if (chip.dataset.flag) {
         const f = chip.dataset.flag;
         activeFlags.has(f) ? activeFlags.delete(f) : activeFlags.add(f);
