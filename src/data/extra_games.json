@@ -805,6 +805,78 @@
       "flags": [
         "puzzle"
       ]
+    },
+    {
+      "name": "Mega Man",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man 4",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man 5",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man 6",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ninja Gaiden II: The Dark Sword of Chaos",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Dragon Warrior",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Faxanadu",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Life Force",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Adventure Island",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Snake Rattle 'n' Roll",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Gargoyle's Quest II",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Tecmo Super Bowl",
+      "genre": "Sport",
+      "length": "M",
+      "flags": []
     }
   ],
   "playstation": [
@@ -1429,6 +1501,54 @@
       "genre": "Shooter",
       "length": "S",
       "flags": []
+    },
+    {
+      "name": "The King of Fighters '94",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "The King of Fighters '95",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "The King of Fighters '97",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "The King of Fighters '98",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "The Last Blade",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Sengoku",
+      "genre": "Beat em up",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Top Hunter",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Waku Waku 7",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
     }
   ],
   "cps": [
@@ -1795,6 +1915,12 @@
       "flags": [
         "mature"
       ]
+    },
+    {
+      "name": "Ys: The Vanished Omens",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
     }
   ],
   "game-boy": [
@@ -1847,6 +1973,30 @@
       "flags": [
         "mature"
       ]
+    },
+    {
+      "name": "Shining Force Gaiden",
+      "genre": "Tactics-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "GG Aleste / Power Strike II",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Gunstar Heroes",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ax Battler",
+      "genre": "Action-RPG",
+      "length": "M",
+      "flags": []
     }
   ],
   "pc-engine": [
@@ -1857,6 +2007,18 @@
       "flags": [
         "puzzle"
       ]
+    },
+    {
+      "name": "Blazing Lazers",
+      "genre": "Shmup",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Neutopia",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
     }
   ],
   "amstrad-cpc": [
@@ -2012,6 +2174,312 @@
       "name": "Lego Racers",
       "genre": "Racing / rodinné",
       "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario Party",
+      "genre": "Party",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario Party 2",
+      "genre": "Party",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario Party 3",
+      "genre": "Party",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "1080° Snowboarding",
+      "genre": "Sport",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Body Harvest",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Ogre Battle 64",
+      "genre": "Tactics-RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pilotwings 64",
+      "genre": "Sim",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Excitebike 64",
+      "genre": "Racing / motorky",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Doom 64",
+      "genre": "FPS",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Turok 2: Seeds of Evil",
+      "genre": "FPS",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Space Station Silicon Valley",
+      "genre": "Action-adventure",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Beetle Adventure Racing",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Snowboard Kids",
+      "genre": "Racing / Sport",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Glover",
+      "genre": "Plošinovka 3D",
+      "length": "M",
+      "flags": []
+    }
+  ],
+  "dreamcast": [
+    {
+      "name": "Shenmue II",
+      "genre": "Action-adventure",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Power Stone",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Power Stone 2",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Soul Calibur",
+      "genre": "Fighting",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Phantasy Star Online",
+      "genre": "Action-RPG / online",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Daytona USA 2001",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Quake III Arena",
+      "genre": "FPS",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ecco the Dolphin: Defender of the Future",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Toy Commander",
+      "genre": "Akční / Sim",
+      "length": "M",
+      "flags": []
+    }
+  ],
+  "psp": [
+    {
+      "name": "Grand Theft Auto: Liberty City Stories",
+      "genre": "Action-adventure",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Grand Theft Auto: Vice City Stories",
+      "genre": "Action-adventure",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Patapon",
+      "genre": "Rhythm / Strategy",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Patapon 2",
+      "genre": "Rhythm / Strategy",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "LocoRoco",
+      "genre": "Plošinovka / Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Wipeout Pure",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Ridge Racer",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Gran Turismo",
+      "genre": "Racing",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Resistance: Retribution",
+      "genre": "Shooter",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Dissidia Final Fantasy",
+      "genre": "Fighting / RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Metal Gear Solid: Portable Ops",
+      "genre": "Akční / Stealth",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Syphon Filter: Dark Mirror",
+      "genre": "Akční / Stealth",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Lumines II",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    }
+  ],
+  "game-boy-color": [
+    {
+      "name": "Pokémon Gold / Silver",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Crystal",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Red / Blue / Yellow",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening DX",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Wario Land II",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Super Mario Bros. Deluxe",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Dragon Warrior III",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Pinball",
+      "genre": "Pinball",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Dragon Warrior Monsters",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Harvest Moon GBC",
+      "genre": "Sim / Farma",
+      "length": "L",
+      "flags": []
+    }
+  ],
+  "saturn": [
+    {
+      "name": "Clockwork Knight",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Shining the Holy Ark",
+      "genre": "Dungeon RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Street Fighter Alpha 2",
+      "genre": "Fighting",
+      "length": "S",
       "flags": []
     }
   ]
