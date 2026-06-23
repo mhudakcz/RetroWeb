@@ -2482,5 +2482,233 @@
       "length": "S",
       "flags": []
     }
+  ],
+  "nds": [
+    {
+      "name": "New Super Mario Bros.",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario Kart DS",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Super Mario 64 DS",
+      "genre": "Plošinovka 3D",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Mario & Luigi: Partners in Time",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Mario & Luigi: Bowser's Inside Story",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "The Legend of Zelda: Spirit Tracks",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Diamond / Pearl",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Platinum",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon HeartGold / SoulSilver",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Metroid Prime Hunters",
+      "genre": "FPS",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Castlevania: Dawn of Sorrow",
+      "genre": "Metroidvania",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Castlevania: Portrait of Ruin",
+      "genre": "Metroidvania",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Castlevania: Order of Ecclesia",
+      "genre": "Metroidvania",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Advance Wars: Dual Strike",
+      "genre": "Tactics",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Fire Emblem: Shadow Dragon",
+      "genre": "Tactics-RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Chrono Trigger",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Final Fantasy IV",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "The World Ends with You",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Kirby: Canvas Curse",
+      "genre": "Akční / Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Kirby Super Star Ultra",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Professor Layton and the Curious Village",
+      "genre": "Puzzle / Adventura",
+      "length": "L",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Phoenix Wright: Ace Attorney",
+      "genre": "Adventura / Vizuální román",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Ghost Trick: Phantom Detective",
+      "genre": "Adventura / Puzzle",
+      "length": "L",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Elite Beat Agents",
+      "genre": "Rhythm",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sonic Rush",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mega Man ZX",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Contra 4",
+      "genre": "Run & gun",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Scribblenauts",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Animal Crossing: Wild World",
+      "genre": "Sim",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Nintendogs",
+      "genre": "Sim / Mazlíček",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Brain Age",
+      "genre": "Logická / Trénink",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Tetris DS",
+      "genre": "Puzzle",
+      "length": "M",
+      "flags": [
+        "puzzle"
+      ]
+    },
+    {
+      "name": "Mario Party DS",
+      "genre": "Party",
+      "length": "M",
+      "flags": []
+    }
   ]
 }

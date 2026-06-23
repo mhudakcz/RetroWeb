@@ -83,6 +83,12 @@ RULES = [
     ("mega-drive", "nba jam", "1–4 · arkáda"),
     ("mega-drive", "micro machines", "1–4 · pass-pad"),
     ("mega-drive", "comix zone", "1"),
+    ("nds", "mario kart", "1–8 · Wi-Fi / download play"),
+    ("nds", "new super mario bros", "1–4 · download play"),
+    ("nds", "tetris", "1–10 · Wi-Fi / download play"),
+    ("nds", "mario party", "1–4 · download play"),
+    ("nds", "metroid prime hunters", "1–4 · Wi-Fi"),
+    ("nds", "bomberman", "1–8 · download play"),
 ]
 
 out = {}
