@@ -25,27 +25,25 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
 
     <header class="head">
       <div class="art-wrap">
-        <HardwareArt art={hw.art} color={hw.color} color2={hw.color2} />
+        {hw.photo ? (
+          <div class="art-photo" style={`--c1:${hw.color}; --c2:${hw.color2}`}>
+            <img src={hw.photo.src} alt={hw.name} loading="lazy" decoding="async" />
+          </div>
+        ) : (
+          <HardwareArt art={hw.art} color={hw.color} color2={hw.color2} />
+        )}
       </div>
       <div class="intro">
         <p class="kind">{hw.kind}</p>
         <h1>{hw.name}</h1>
         <p class="tagline">{hw.tagline}</p>
+        {hw.photo && <p class="photo-cap muted">{hw.photo.caption}</p>}
       </div>
     </header>
 
     <div class="lead prose">
       {hw.intro.map((p) => <p set:html={mdInline(p)} />)}
     </div>
-
-    {
-      hw.photo && (
-        <figure class="hw-photo" style={`--c1:${hw.color}; --c2:${hw.color2}`}>
-          <img src={hw.photo.src} alt={hw.photo.caption} loading="lazy" decoding="async" />
-          <figcaption>{hw.photo.caption}</figcaption>
-        </figure>
-      )
-    }
 
     <div class="panels">
       <div class="panel">
@@ -131,6 +129,24 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
     border-radius: var(--radius);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+  }
+  .art-photo {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background:
+      radial-gradient(120% 120% at 75% 10%, color-mix(in srgb, var(--c1) 30%, transparent), transparent 60%),
+      linear-gradient(160deg, var(--c2), #0b0c11);
+  }
+  .art-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 18px;
+    display: block;
+  }
+  .photo-cap {
+    font-size: 0.85rem;
+    margin-top: 10px;
   }
   .kind {
     font-family: var(--font-pixel);

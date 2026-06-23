@@ -537,15 +537,17 @@ def _dl_shot(repo, folder, fn, dest):
     dest.write_bytes(img)
 
 
-def fetch_fallback_shots():
+def fetch_fallback_shots(only=None):
     """Pro hry BEZ obalu zkusí napárovat titulní obrazovku (Named_Titles), případně
     in-game snímek (Named_Snaps) — páruje přímo proti jejich názvům (jiná konvence než
     obaly) a uloží jako <slug>-title.png / -snap.png. Parser je pak použije jako hlavní
-    obrázek (image = obal || title || snap)."""
+    obrázek (image = obal || title || snap). 'only' = omez na jednu platformu."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
     grand = 0
     for slug, repo in LIBRETRO.items():
+        if only and slug != only:
+            continue
         games = plat_games.get(slug, [])
         # jen hry, které zatím nemají žádný obrázek (image je None v datasetu)
         need = [g for g in games if not g.get("image")]
@@ -757,4 +759,4 @@ if __name__ == "__main__":
         fetch_article_photos()
     if what == "fallback-shots":
         print("=== FALLBACK OBRÁZKY HER (title/snap pro hry bez obalu) ===")
-        fetch_fallback_shots()
+        fetch_fallback_shots(sys.argv[2] if len(sys.argv) > 2 else None)

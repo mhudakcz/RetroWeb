@@ -7,7 +7,7 @@ a hardware jako Anbernic RG35XX&nbsp;Pro, R36S a Batocera.
 
 *A guide to the world of retro gaming — platform history, legendary games and hardware.*
 
-`27 platforem` · `943 her` · `816 obalů` · `Astro` · `static`
+`38 platforem` · `1363 her` · `100 % článků` · `88 % obrázků` · `Astro` · `static`
 
 </div>
 
@@ -18,13 +18,17 @@ a hardware jako Anbernic RG35XX&nbsp;Pro, R36S a Batocera.
 RetroWeb je statický web postavený v [Astro](https://astro.build), který z kurátorských
 Markdown podkladů generuje přehledný katalog retro hraní:
 
-- **Platformy** — 27 konzolí, handheldů a počítačů od Atari 2600 (1977) po fantasy konzole
-  PICO-8 a TIC-80, každá s historií, kontextem a fotografií.
-- **Hry** — 943 titulů s žánrem, délkou hraní a u 443 z nich detailním komentářem; katalog
-  s fulltextovým hledáním a filtry (homebrew 🆓, must-play ⭐, logické 🧩).
-- **Hardware & Batocera** — co retro handheldy a Batocera umí, co utáhnou a jak je nastavit.
-- **Obrázky** — fotky konzolí z Wikipedie, obaly her z libretro-thumbnails (stejné, co
-  scrapuje Batocera), optimalizované do WebP.
+- **Platformy** — 38 konzolí, handheldů a počítačů od Atari 2600 (1977) přes Nintendo DS
+  po fantasy konzole PICO-8 a TIC-80. Každá má dlouhý článek (technika, propojení, modely,
+  klony vč. českých, dnešní scéna) prokládaný dobovými fotkami.
+- **Hry** — 1363 titulů, **100 % s magazínovým článkem** (CZ). Žánr, délka hraní, počet
+  hráčů 👥, obal/screenshoty. Katalog s hledáním a filtry (platforma, žánr, homebrew 🆓,
+  must-play ⭐, logické 🧩, pro více hráčů). Postupné čtení (předchozí/další) u platforem i her.
+- **Hardware & emulace** — průvodci pro Anbernic RG35XX Pro, R36S, Batocera, Raspberry Pi,
+  Android, PC, iOS i konzole, vč. CRT filtrů, scrapingu obrázků a hraní ve více lidech (netplay).
+- **Obrázky** — fotky konzolí z Wikimedia, obaly her z libretro-thumbnails (jako scrapuje
+  Batocera), u her bez obalu fallback na titulní obrazovku, vše optimalizované do WebP.
+- **SEO** — sitemap, robots, kanonická doména, ověřená Google Search Console.
 
 ### Spuštění
 
@@ -64,20 +68,23 @@ src/pages/               domů, /platformy, /hry, /hardware, /o-projektu
 RetroWeb is a static [Astro](https://astro.build) site that turns curated Markdown notes
 into a browsable retro-gaming catalog:
 
-- **Platforms** — 27 consoles, handhelds and computers from the Atari 2600 (1977) to the
-  PICO-8 / TIC-80 fantasy consoles, each with history, context and a photo.
-- **Games** — 943 titles with genre, play-length and a detailed write-up for 443 of them;
-  a catalog with full-text search and filters (homebrew 🆓, must-play ⭐, puzzle 🧩).
-- **Hardware & Batocera** — what the retro handhelds and Batocera can do and how to set them up.
-- **Images** — console photos from Wikipedia, game box art from libretro-thumbnails (the same
-  source Batocera scrapes), optimized to WebP.
+- **Platforms** — 38 consoles, handhelds and computers from the Atari 2600 (1977) through the
+  Nintendo DS to the PICO-8 / TIC-80 fantasy consoles, each with a long article (tech, links,
+  models, clones, today's scene) interwoven with period photos.
+- **Games** — 1363 titles, **100 % with a magazine-style write-up** (Czech). Genre, play-length,
+  player count 👥, box art / screenshots. Catalog with search and filters (platform, genre,
+  homebrew 🆓, must-play ⭐, puzzle 🧩, multiplayer), plus prev/next reading navigation.
+- **Hardware & emulation** — guides for Anbernic RG35XX Pro, R36S, Batocera, Raspberry Pi,
+  Android, PC, iOS and consoles, incl. CRT shaders, artwork scraping and multiplayer (netplay).
+- **Images** — console photos from Wikimedia, game box art from libretro-thumbnails (the same
+  source Batocera scrapes), with a title-screen fallback for boxart-less games, optimized to WebP.
 
 ```bash
 npm install && npm run dev      # dev server at http://localhost:4321
 npm run build                   # static output to dist/
 ```
 
-> A bilingual UI (CS/EN) and longer per-game articles are on the roadmap.
+> Per-game articles are done (100 %); a fully bilingual UI (CS/EN) is on the roadmap.
 
 ---
 
