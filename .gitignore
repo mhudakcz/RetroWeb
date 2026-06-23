@@ -25,3 +25,6 @@ _romset/
 tools/gen_romset.py
 tools/gen_romset_full.py
 tools/resolve_freecarts.py
+
+# stray download artefakty
+*.tmp
