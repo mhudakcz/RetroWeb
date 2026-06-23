@@ -91,8 +91,14 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
       <h2>Další průvodci</h2>
       <div class="more-grid">
         {others.map((h) => (
-          <a class="card more-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}`}>
-            <HardwareArt art={h.art} color={h.color} color2={h.color2} />
+          <a class="card more-card" href={`/hardware/${h.slug}`} style={`--c1:${h.color}; --c2:${h.color2}`}>
+            {h.photo ? (
+              <div class={`mc-photo${h.photo.fit === 'contain' ? ' contain' : ''}`}>
+                <img src={h.photo.src} alt={h.name} loading="lazy" />
+              </div>
+            ) : (
+              <HardwareArt art={h.art} color={h.color} color2={h.color2} />
+            )}
             <div class="mc-body">
               <h3>{h.name}</h3>
               <p>{h.tagline}</p>
@@ -318,6 +324,20 @@ const others = hardware.filter((h) => h.slug !== hw.slug);
   .more-card:hover {
     transform: translateY(-3px);
     border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
+  }
+  .mc-photo {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background:
+      radial-gradient(120% 120% at 75% 10%, color-mix(in srgb, var(--c1) 30%, transparent), transparent 60%),
+      linear-gradient(160deg, var(--c2), #0b0c11);
+  }
+  .mc-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 14px;
+    display: block;
   }
   .mc-body {
     padding: 12px 14px 14px;

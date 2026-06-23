@@ -131,14 +131,20 @@ const playtime = playtimeLabel(game.length, game.est);
         <nav class="pager" aria-label={`Další hry pro ${platform.name}`}>
           {prev ? (
             <a class="pager-link prev" href={`/hry/${prev.slug}`}>
-              <span class="dir">← Předchozí hra</span>
-              <span class="pn" set:html={mdInline(prev.name)} />
+              {prev.image && <img class="pager-thumb" src={prev.image} alt="" loading="lazy" />}
+              <span class="pl-text">
+                <span class="dir">← Předchozí hra</span>
+                <span class="pn" set:html={mdInline(prev.name)} />
+              </span>
             </a>
           ) : <span />}
           {next ? (
             <a class="pager-link next" href={`/hry/${next.slug}`}>
-              <span class="dir">Další hra →</span>
-              <span class="pn" set:html={mdInline(next.name)} />
+              <span class="pl-text">
+                <span class="dir">Další hra →</span>
+                <span class="pn" set:html={mdInline(next.name)} />
+              </span>
+              {next.image && <img class="pager-thumb" src={next.image} alt="" loading="lazy" />}
             </a>
           ) : <span />}
         </nav>
@@ -153,7 +159,9 @@ const playtime = playtimeLabel(game.length, game.est);
             <h2>Další z {platform.name}</h2>
             <a class="all-link" href={`/platformy/${platform.slug}`}>všech {platform.gameCount} →</a>
           </div>
-          <div class="more-row">
+          <div class="more-wrap">
+            <button class="more-nav prev" type="button" aria-label="Posunout vlevo" hidden>‹</button>
+            <div class="more-row" id="moreRow">
             {related.map((g) => (
               <a class="more-item" href={`/hry/${g.slug}`} title={g.name.replace(/[*_\x60]/g, '')}>
                 <span class="more-thumb" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
@@ -166,11 +174,35 @@ const playtime = playtimeLabel(game.length, game.est);
                 <span class="more-name" set:html={mdInline(g.name)} />
               </a>
             ))}
+            </div>
+            <button class="more-nav next" type="button" aria-label="Posunout vpravo" hidden>›</button>
           </div>
         </section>
       )
     }
   </article>
+
+  <script is:inline>
+    (function () {
+      const row = document.getElementById('moreRow');
+      if (!row) return;
+      const wrap = row.parentElement;
+      const prev = wrap.querySelector('.more-nav.prev');
+      const next = wrap.querySelector('.more-nav.next');
+      const step = () => Math.max(180, Math.round(row.clientWidth * 0.8));
+      function update() {
+        const max = row.scrollWidth - row.clientWidth - 2;
+        const overflow = max > 4;
+        prev.hidden = !overflow || row.scrollLeft <= 2;
+        next.hidden = !overflow || row.scrollLeft >= max;
+      }
+      prev.addEventListener('click', () => row.scrollBy({ left: -step(), behavior: 'smooth' }));
+      next.addEventListener('click', () => row.scrollBy({ left: step(), behavior: 'smooth' }));
+      row.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    })();
+  </script>
 </Base>
 
 <style>
@@ -355,14 +387,51 @@ const playtime = playtimeLabel(game.length, game.est);
     text-decoration: underline;
   }
   /* kompaktní vodorovný pruh obalů */
+  .more-wrap {
+    position: relative;
+  }
   .more-row {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 92px;
     gap: 12px;
     overflow-x: auto;
-    padding-bottom: 8px;
-    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .more-row::-webkit-scrollbar {
+    display: none;
+  }
+  .more-nav {
+    position: absolute;
+    top: 46px;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: color-mix(in srgb, var(--surface) 92%, #000);
+    color: var(--text);
+    font-size: 1.3rem;
+    line-height: 1;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    box-shadow: var(--shadow);
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .more-nav:hover {
+    border-color: var(--accent);
+  }
+  .more-nav.prev {
+    left: -6px;
+  }
+  .more-nav.next {
+    right: -6px;
+  }
+  .more-nav[hidden] {
+    display: none;
   }
   .more-item {
     display: flex;
@@ -426,19 +495,36 @@ const playtime = playtimeLabel(game.length, game.est);
   }
   .pager-link {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding: 14px 18px;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
     border-radius: var(--radius);
     background: var(--surface);
     border: 1px solid var(--border);
     border-left: 4px solid var(--accent);
     transition: border-color 0.15s ease, transform 0.15s ease;
   }
+  .pager-link .pl-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+  }
   .pager-link.next {
-    text-align: right;
     border-left: 1px solid var(--border);
     border-right: 4px solid var(--accent);
+    justify-content: flex-end;
+  }
+  .pager-link.next .pl-text {
+    text-align: right;
+  }
+  .pager-thumb {
+    width: 44px;
+    height: 44px;
+    flex: none;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #0b0c11;
   }
   .pager-link:hover {
     transform: translateY(-2px);
