@@ -313,6 +313,36 @@
       "flags": [
         "puzzle"
       ]
+    },
+    {
+      "name": "Track & Field",
+      "genre": "Sport / Atletika",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Hang-On",
+      "genre": "Racing / motorky",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Pole Position",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Pole Position II",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Super Sprint",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
     }
   ],
   "snes": [
@@ -504,6 +534,36 @@
       "name": "Street Fighter Alpha 2",
       "genre": "Fighting",
       "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Super Tennis",
+      "genre": "Sport / Tenis",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "International Superstar Soccer Deluxe",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "NHL '96",
+      "genre": "Sport / Hokej",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Super Soccer",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Top Gear",
+      "genre": "Racing",
+      "length": "M",
       "flags": []
     }
   ],
@@ -759,6 +819,30 @@
       "genre": "Dungeon RPG",
       "length": "L",
       "flags": []
+    },
+    {
+      "name": "Mutant League Football",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "NHL '94",
+      "genre": "Sport / Hokej",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Virtua Racing",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Road Rash 3",
+      "genre": "Racing / motorky",
+      "length": "M",
+      "flags": []
     }
   ],
   "nes": [
@@ -875,6 +959,78 @@
     {
       "name": "Tecmo Super Bowl",
       "genre": "Sport",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "R.C. Pro-Am",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Rad Racer",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Mach Rider",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Micro Machines",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Cobra Triangle",
+      "genre": "Racing / Akce",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Bump 'n' Jump",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Days of Thunder",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Ice Hockey",
+      "genre": "Sport / Hokej",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Blades of Steel",
+      "genre": "Sport / Hokej",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Track & Field",
+      "genre": "Sport / Atletika",
+      "length": "S",
+      "flags": []
+    },
+    {
+      "name": "Tecmo Bowl",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Castlevania II: Simon's Quest",
+      "genre": "Metroidvania",
       "length": "M",
       "flags": []
     }
@@ -1027,6 +1183,24 @@
       "flags": [
         "mature"
       ]
+    },
+    {
+      "name": "Kick Off 2",
+      "genre": "Sport / Fotbal",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Sensible World of Soccer",
+      "genre": "Sport / Fotbal",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Nigel Mansell's World Championship",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
     }
   ],
   "c64": [
@@ -1921,6 +2095,12 @@
       "genre": "Action-RPG",
       "length": "L",
       "flags": []
+    },
+    {
+      "name": "Wonder Boy in Monster Land",
+      "genre": "Action-RPG / Metroidvania",
+      "length": "L",
+      "flags": []
     }
   ],
   "game-boy": [
@@ -1949,6 +2129,12 @@
       "flags": [
         "mature"
       ]
+    },
+    {
+      "name": "F-1 Race",
+      "genre": "Racing",
+      "length": "S",
+      "flags": []
     }
   ],
   "game-gear": [

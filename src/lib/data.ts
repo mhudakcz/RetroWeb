@@ -25,6 +25,7 @@ export interface Game {
   link: string | null;
   playUrl: string | null;
   players: string | null;
+  rating: string | null;
 }
 
 export interface Platform {
@@ -45,7 +46,7 @@ export interface Platform {
 
 interface Dataset {
   platforms: Platform[];
-  stats: { platforms: number; games: number; withDetail: number; withTeaser: number; withArticle: number };
+  stats: { platforms: number; games: number; withDetail: number; withTeaser: number; withArticle: number; gameImages: number; platformImages: number };
 }
 
 const data = dataset as unknown as Dataset;

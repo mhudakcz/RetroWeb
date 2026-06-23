@@ -1,0 +1,178 @@
+{
+  "game-boy-advance__boktai-sun-is-in-your-hand": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__castlevania-aria-of-sorrow": {
+    "esrb": "Teen",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__castlevania-circle-of-moon": {
+    "esrb": "Teen"
+  },
+  "game-boy-advance__castlevania-harmony-of-dissonance": {
+    "esrb": "Teen",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__final-fantasy-i-and-ii-dawn-of-souls": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__final-fantasy-tactics-advance": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__fire-emblem-sacred-stones": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__golden-sun": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__golden-sun-lost-age": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__kirby-nightmare-in-dream-land": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__lego-star-wars-ii-original-trilogy": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__mario-and-luigi-superstar-saga": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__mega-man-zero-2": {
+    "esrb": "Everyone"
+  },
+  "game-boy-advance__metroid-fusion": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__metroid-zero-mission": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__ninja-five-o": {
+    "esrb": "Everyone"
+  },
+  "game-boy-advance__sonic-advance": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__sonic-advance-2": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__star-wars-episode-iii-revenge-of-sith": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "game-boy-advance__wario-land-4": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-color__kirby-tilt-n-tumble": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__pokemon-pinball": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__resident-evil-gaiden": {
+    "esrb": "Teen"
+  },
+  "game-boy-color__shantae": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-color__super-mario-bros-deluxe": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__survival-kids": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__toki-tori": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-color__wario-land-3": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-color__wario-land-ii": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-color__warlocked": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__wendy-every-witch-way": {
+    "esrb": "Everyone"
+  },
+  "game-boy__avenging-spirit": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy__balloon-kid": {
+    "esrb": "Everyone"
+  },
+  "game-boy__bionic-commando": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 18"
+  },
+  "game-boy__donkey-kong": {
+    "esrb": "Everyone"
+  },
+  "game-boy__legend-of-zelda-link-s-awakening": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy__mario-s-picross": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy__mega-man-v": {
+    "esrb": "Everyone"
+  },
+  "game-boy__metroid-ii-return-of-samus": {
+    "esrb": "Kids to Adults",
+    "pegi": "PEGI 7"
+  },
+  "game-boy__pipe-dream": {
+    "esrb": "Everyone"
+  },
+  "game-boy__qix": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy__super-mario-land-2-6-golden-coins": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy__sword-of-hope-ii": {
+    "esrb": "Everyone"
+  },
+  "nds__legend-of-zelda-phantom-hourglass": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "nds__legend-of-zelda-spirit-tracks": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
+  },
+  "nds__mario-and-luigi-bowser-s-inside-story": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "nds__mario-and-luigi-partners-in-time": {
+    "pegi": "PEGI 3"
+  },
+  "nds__super-mario-64-ds": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  }
+}

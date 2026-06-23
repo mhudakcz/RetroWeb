@@ -469,6 +469,17 @@ def build():
     game_play = json.loads(play_file.read_text(encoding="utf-8")) if play_file.exists() else {}
     players_file = ROOT / "src" / "data" / "game_players.json"
     game_players = json.loads(players_file.read_text(encoding="utf-8")) if players_file.exists() else {}
+    ratings_file = ROOT / "src" / "data" / "game_ratings.json"
+    game_ratings_raw = json.loads(ratings_file.read_text(encoding="utf-8")) if ratings_file.exists() else {}
+    # zploštění na jeden štítek: preferuj PEGI, jinak ESRB
+    game_ratings = {}
+    for k, v in game_ratings_raw.items():
+        if isinstance(v, dict):
+            lab = v.get("pegi") or (("ESRB " + v["esrb"]) if v.get("esrb") else None)
+        else:
+            lab = v
+        if lab:
+            game_ratings[k] = lab
 
     platforms_out = []
     total_games = 0
@@ -511,6 +522,8 @@ def build():
             game_play[new] = game_play[old]
         if old in game_players:
             game_players[new] = game_players[old]
+        if old in game_ratings:
+            game_ratings[new] = game_ratings[old]
     (ROOT / "src" / "data" / "slug_remap.json").write_text(
         json.dumps(slug_remap, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -572,6 +585,7 @@ def build():
                 link=game_links.get(gslug),
                 playUrl=game_play.get(gslug),
                 players=game_players.get(gslug),
+                rating=game_ratings.get(gslug),
             ))
             total_games += 1
 

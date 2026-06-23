@@ -107,6 +107,15 @@ export const hardware: HardwareItem[] = [
           'Druhá cesta je **netplay přes Wi-Fi** (na systémech nad RetroArchem) — partii hostíš nebo se připojíš ke kamarádovi po síti. Sedí hlavně na hry s jedním společným obrazem (bojovky, sport). Pro vážnější párty je ale pohodlnější Batocera na PC/televizi.',
         ],
       },
+      {
+        title: 'Celá řada Anbernicu: jak se vyznat',
+        body: [
+          'Anbernic není jeden přístroj, ale **značka s desítkami modelů** — a nejde jen o barvy, liší se i čipem, formátem a systémem. Hrubě se dělí do dvou světů: **Linux** (levné, výdrž, jen do PSP/Dreamcastu) a **Android** (dražší, výkonnější, až po PS2/GameCube).',
+          '**Linux řada (Allwinner H700, jako RG35XX Pro):** vertikální **RG28XX** (mini), horizontální **RG34XX** (3:2 displej), véčko **RG35XXSP** (clamshell à la GBA SP), velký **RG40XX H** a vertikální **RG40XX V**, a „arkádové" **RG ARC** (D-pad i s šestitlačítkovým rozložením pro bojovky). Všechny utáhnou zhruba totéž — vybíráš podle **formátu a velikosti**, ne výkonu.',
+          '**Výkonnější a speciální:** **RGB30** (čtvercový 1:1 displej, ideál na Pico-8 a vertikální shmupy), **RG Cube** (kostka se čtvercovým displejem, i Android verze). **Android řada** pro náročnou emulaci: **RG406V/RG406H**, **RG556** (velký AMOLED) a **RG Cube** — ty zvládnou i PS2, GameCube, Wii a slušně 3DS/Switch. Starší **RG353** série uměla dual-boot Linux/Android.',
+          'Doporučení: na čisté retro do PS1/PSP stačí levná **Linux H700** řada (vyber formát), na novější systémy a 3D si připlať za **Android** model. Pozor na občasné matoucí názvy — vždy si ověř čip a recenze konkrétního kusu.',
+        ],
+      },
     ],
     options: [
       {
@@ -401,6 +410,14 @@ export const hardware: HardwareItem[] = [
         body: [
           'Vyplatí se **krabička s chlazením**, kvalitní **napájení** (podvýživa zlobí) a rychlá microSD. Ovladač klidně bezdrátový — 8BitDo, Xbox i DualShock fungují.',
           'Pi není jediný SBC. Podobně poslouží **Odroid** (N2+, výkonný), **Orange Pi** nebo **Radxa Rock**; existují i levná **mini PC** (x86), která rozjedou Batoceru jako PC a nabídnou víc výkonu za podobné peníze. Pi má ale největší komunitu a podporu, takže pro začátek je nejjistější.',
+        ],
+      },
+      {
+        title: 'Alternativy k Raspberry Pi (SBC)',
+        body: [
+          'Pi je nejznámější, ale rozhodně ne jediná volba — a u některých dostaneš **víc výkonu za své peníze**. Nejsilnější mezi dostupnými ARM deskami je dnes **Orange Pi 5 / 5 Plus** (čip RK3588, zvládne i náročnější emulaci — GameCube, PS2, slušně Switch). **Odroid N2+** je osvědčený výkonný kus s perfektní podporou v **Batoceře a CoreELEC**, menší **Odroid XU4** poslouží levněji.',
+          'Další hráči: **Le Potato (Libre Computer)** jako levná Pi 3 náhrada, **Banana Pi**, **Radxa Rock / Zero**, **Khadas VIM** a **Tinker Board**. Pro nejnáročnější je ale často nejrozumnější **levné x86 mini-PC** (Intel N100 apod.) — rozjede **Batoceru jako na PC**, dá víc výkonu a odpadnou trable s ARM image.',
+          'Háček alternativ: **menší komunita a méně hotových image**. U Pi je všechno odladěné a návodů spousta; u Orange Pi či Radxy si občas připlatíš časem stráveným hledáním správného buildu. Pro pohodu volíš Pi, pro výkon/cenu některou z alternativ.',
         ],
       },
     ],
@@ -702,7 +719,11 @@ export const hardware: HardwareItem[] = [
       {
         title: 'Verze a co od nich čekat',
         body: [
-          '**Game Stick Lite** je nejlevnější klíčenka na 8/16bit a handheldy; **Game Stick 4K** má svižnější čip a hezčí 4K rozhraní (samotné hry běží v dobovém rozlišení). Výkonnější „**Super Console X**" boxy a **Powkiddy** krabičky utáhnou i PS1, N64 a slušně PSP. Kvalita zpracování i čipů je ale **loterie** — kupuj od prodejců s recenzemi a neočekávej zázraky za pár stovek.',
+          'Pod tímhle stylem se prodává celá záplava verzí — orientačně podle výkonu:',
+          '**Nejlevnější „TV stick" (jen do 8/16bit):** *Game Stick Lite*, *Y2/Y3 stick*, *Data Frog* a klony. Levné klíčenky na NES/SNES/Mega Drive/GB; nečekej víc.',
+          '**Střední „4K" třída (přidá PS1/N64):** *Game Stick 4K*, *Super Console X Cube/Lite*. Svižnější čip (často Allwinner H700/RK), hezčí 4K rozhraní (hry samotné běží v dobovém rozlišení), zvládnou slušně PS1, N64 a lehčí PSP.',
+          '**Výkonnější boxy (až PSP/Dreamcast/Saturn):** *Super Console X / X Pro / X King* (Kinhank), *Powkiddy A12/A13*, *Ks9* a podobné — postavené na EmuELEC, často s ethernetem a větším úložištěm.',
+          'Pozor: značky a názvy jsou **chaos** a kvalita čipů i zpracování je loterie. Kupuj od prodejců s recenzemi, koukni na konkrétní SoC a neočekávej zázraky za pár stovek.',
         ],
       },
       {
@@ -790,6 +811,13 @@ export const hardware: HardwareItem[] = [
         body: [
           'Stock systém je chudý, ale **OnionOS** Miyoo úplně promění: krásné rozhraní, save states, boxarty přes scraper, motivy, RetroAchievements i hraní po síti. Instalace je „nakopíruj na SD a zapni". Pro pohodový retro zážitek do kapsy je Miyoo Mini Plus jedna z nejlepších voleb v nejnižší cenové třídě.',
           'Na vlastní ROMy platí to samé co všude — struktura `roms/<systém>` jako na Batoceře. Dotykové ani 3D systémy sem nepatří; je to čistokrevná 2D klíčenka.',
+        ],
+      },
+      {
+        title: 'Další Miyoo modely',
+        body: [
+          'Miyoo má dnes víc kousků než jen Mini. **Miyoo Mini V4** je novější revize původní mini (drobné vylepšení), **Mini Plus** je větší varianta s 3,5" displejem a Wi-Fi (ta v tomto průvodci). **Miyoo A30** je levný horizontální handheld do kapsy — alternativa k vertikální Mini.',
+          'Novinkou je véčko **Miyoo Flip** (clamshell se dvěma možnými displeji, výklopná konstrukce à la DS/GBA SP) a chystají se další. Výkonově jsou všechny zhruba ve stejné lize (2D + PS1), takže vybíráš hlavně podle **formátu**: vertikál (Mini/Plus), horizontál (A30) nebo véčko (Flip). Komunitní systémy (OnionOS pro Mini, případně další buildy) jsou vždy to, co tyhle krabičky pozvedne.',
         ],
       },
     ],

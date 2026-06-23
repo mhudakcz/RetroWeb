@@ -68,6 +68,7 @@ const playtime = playtimeLabel(game.length, game.est);
           {game.studio && <span class="tag">{game.studio}</span>}
           {playtime && <span class="tag">⏱ {playtime}</span>}
           {game.players && <span class="tag tag-players">👥 {game.players}</span>}
+          {game.rating && <span class="tag tag-rating">🛡 {game.rating}</span>}
           {game.flags.map((f) => <span class="tag tag-flag">{FLAG_LABEL[f]}</span>)}
         </div>
       </div>
@@ -286,6 +287,10 @@ const playtime = playtimeLabel(game.length, game.est);
   .tag-players {
     color: var(--accent-2, #6ee7c7);
     border-color: color-mix(in srgb, var(--accent-2, #6ee7c7) 40%, var(--border));
+  }
+  .tag-rating {
+    color: #d8b4fe;
+    border-color: color-mix(in srgb, #d8b4fe 40%, var(--border));
   }
   .teaser {
     font-size: 1.15rem;
