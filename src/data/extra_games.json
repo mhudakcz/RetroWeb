@@ -2710,5 +2710,201 @@
       "length": "M",
       "flags": []
     }
+  ],
+  "3ds": [
+    {
+      "name": "Super Mario 3D Land",
+      "genre": "Plošinovka 3D",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Mario Kart 7",
+      "genre": "Racing",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "genre": "Action-adventure",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time 3D",
+      "genre": "Action-adventure",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Super Smash Bros. for Nintendo 3DS",
+      "genre": "Fighting / Party",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Animal Crossing: New Leaf",
+      "genre": "Sim",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Fire Emblem: Awakening",
+      "genre": "Tactics-RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Fire Emblem Fates",
+      "genre": "Tactics-RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon X / Y",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Sun / Moon",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Pokémon Omega Ruby / Alpha Sapphire",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Kid Icarus: Uprising",
+      "genre": "Akční / Rail shooter",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Luigi's Mansion: Dark Moon",
+      "genre": "Akční / Adventura",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Star Fox 64 3D",
+      "genre": "Rail shooter",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Metroid: Samus Returns",
+      "genre": "Metroidvania",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Monster Hunter 4 Ultimate",
+      "genre": "Action-RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Monster Hunter Generations",
+      "genre": "Action-RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Bravely Default",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Shin Megami Tensei IV",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Etrian Odyssey IV",
+      "genre": "Dungeon RPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Professor Layton vs. Phoenix Wright: Ace Attorney",
+      "genre": "Adventura / Puzzle",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Phoenix Wright: Ace Attorney - Dual Destinies",
+      "genre": "Adventura / Vizuální román",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Resident Evil: Revelations",
+      "genre": "Survival horror",
+      "length": "L",
+      "flags": [
+        "mature"
+      ]
+    },
+    {
+      "name": "Kingdom Hearts 3D: Dream Drop Distance",
+      "genre": "Action-RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Dragon Quest VIII",
+      "genre": "JRPG",
+      "length": "XL",
+      "flags": []
+    },
+    {
+      "name": "Mario & Luigi: Dream Team",
+      "genre": "JRPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Paper Mario: Sticker Star",
+      "genre": "Adventura / RPG",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Donkey Kong Country Returns 3D",
+      "genre": "Plošinovka",
+      "length": "L",
+      "flags": []
+    },
+    {
+      "name": "Yoshi's New Island",
+      "genre": "Plošinovka",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Rhythm Heaven Megamix",
+      "genre": "Rhythm",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Cave Story 3D",
+      "genre": "Action-platformer",
+      "length": "M",
+      "flags": []
+    },
+    {
+      "name": "Shovel Knight",
+      "genre": "Action-platformer",
+      "length": "L",
+      "flags": []
+    }
   ]
 }

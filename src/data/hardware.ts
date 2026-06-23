@@ -673,6 +673,132 @@ export const hardware: HardwareItem[] = [
       { title: 'Pozor na bany a záruku', text: 'U Switche hrozí online ban; obecně riskuješ záruku. Dělej to odpojené od účtu a na vlastní odpovědnost.' },
     ],
   },
+  {
+    slug: 'gamestick',
+    name: 'Game Stick (HDMI)',
+    kind: 'Plug-and-play · HDMI',
+    tagline: 'Levný HDMI „stick" do televize s párem bezdrátových ovladačů — retro hraní bez instalace.',
+    color: '#3aa66a',
+    color2: '#0e2419',
+    art: 'console',
+    intro: [
+      'Pod názvy jako **Game Stick Lite**, **Game Stick 4K**, **Powkiddy A12/A13** nebo různé „**Super Console**" se prodává celá rodina levných HDMI krabiček a klíčenek. Zapojíš je do televize, spáruješ dva bezdrátové ovladače a hned hraješ — žádný počítač, žádná instalace. Uvnitř běží buď osekaný **Android**, nebo **Linux/EmuELEC** s RetroArchem a hromadou emulátorů.',
+      'Je to nejjednodušší způsob, jak dostat retro na televizi pro celou rodinu. Háček je v tom, co se v nich obvykle prodává — viz níže.',
+    ],
+    photo: { src: '/images/hardware/gamestick.png', caption: 'Game Stick — HDMI krabička se dvěma bezdrátovými ovladači' },
+    specs: [
+      { label: 'Typ', value: 'HDMI stick / mini box (Android nebo Linux)' },
+      { label: 'Výstup', value: 'HDMI do TV (verze „4K" = 4K UI, hry dobové rozlišení)' },
+      { label: 'Ovladače', value: '2× bezdrátový gamepad v balení' },
+      { label: 'Systém', value: 'EmuELEC / RetroArch, případně Android launcher' },
+      { label: 'Úložiště', value: 'microSD (často přibalená, „plná")' },
+    ],
+    canPlay: [
+      { label: 'NES, SNES, Mega Drive, GB/GBC/GBA, arkády', level: 'ok' },
+      { label: 'PS1, N64, PSP (lepší kousky)', level: 'most' },
+      { label: 'Dreamcast, Saturn (loterie podle čipu)', level: 'some' },
+    ],
+    sections: [
+      {
+        title: 'Verze a co od nich čekat',
+        body: [
+          '**Game Stick Lite** je nejlevnější klíčenka na 8/16bit a handheldy; **Game Stick 4K** má svižnější čip a hezčí 4K rozhraní (samotné hry běží v dobovém rozlišení). Výkonnější „**Super Console X**" boxy a **Powkiddy** krabičky utáhnou i PS1, N64 a slušně PSP. Kvalita zpracování i čipů je ale **loterie** — kupuj od prodejců s recenzemi a neočekávej zázraky za pár stovek.',
+        ],
+      },
+      {
+        title: 'Velké ALE: předinstalované hry',
+        body: [
+          'Tyhle krabičky se skoro vždy prodávají „s **tisíci hrami**" na kartě — jde o **pirátské ROMy** bez licence, což je nelegální a navíc bývá poskládané ledabyle (duplicity, špatné názvy, nefunkční tituly). Doporučení: ber GameStick jako **hardware** a hraj na něm **vlastní legální dumpy** nebo homebrew/freeware. Systém (EmuELEC/RetroArch) je v pořádku, problém je jen ten přibalený obsah.',
+          'Pokud chceš čistý a aktualizovaný setup, dá se na SD kartu nahrát vlastní **EmuELEC** nebo **Batocera** a hry si tam dát po svém — stejně jako u Anbernicu.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Ber to jako hardware', text: 'Krabička je fajn; přibalené „tisíce her" jsou ale pirátské. Nahraj si vlastní legální ROMy.' },
+      { title: 'Verzi vybírej podle her', text: 'Lite na 8/16bit, 4K/Super Console na PS1–PSP. Čipy se liší kus od kusu.' },
+      { title: 'Vlastní systém', text: 'Na SD jde dát čistý EmuELEC/Batocera a mít to aktualizované a uklizené.' },
+    ],
+  },
+  {
+    slug: 'steam-deck',
+    name: 'Steam Deck',
+    kind: 'PC handheld · Valve',
+    tagline: 'Kapesní herní PC od Valve — a po pár minutách s EmuDeckem i nejvýkonnější retro handheld, jaký seženeš.',
+    color: '#4a72b0',
+    color2: '#0e1422',
+    art: 'handheld-h',
+    intro: [
+      '**Steam Deck** je plnohodnotné herní PC ve formě handheldu. Kromě moderních her je to díky výkonu **špičkový emulační stroj** — utáhne v pohodě i to, na čem se levné krabičky zadrhávají (GameCube, Wii, PS2, slušně i 3DS, Switch nebo PS3 u těch nejlepších titulů).',
+      'Setup je překvapivě snadný: nástroj **EmuDeck** ti jedním průvodcem nainstaluje RetroArch i samostatné emulátory, založí složky na ROMy a vše napojí na pěkný frontend (EmulationStation-DE) přímo do herního režimu Decku.',
+    ],
+    photo: { src: '/images/hardware/steam-deck.png', caption: 'Steam Deck — kapesní PC od Valve' },
+    specs: [
+      { label: 'Výrobce', value: 'Valve' },
+      { label: 'Systém', value: 'SteamOS (Linux); jde i Windows' },
+      { label: 'Čip', value: 'AMD APU (Zen 2 + RDNA 2)' },
+      { label: 'Displej', value: '7" (LCD) / 7,4" OLED' },
+      { label: 'Emulace', value: 'EmuDeck (RetroArch + samostatné emulátory)' },
+    ],
+    canPlay: [
+      { label: 'Vše do PS1/PSP/DS/Dreamcast/Saturn', level: 'ok' },
+      { label: 'GameCube, Wii, PS2, 3DS, N64', level: 'ok' },
+      { label: 'Switch, Wii U, PS3 (vybrané tituly)', level: 'most' },
+    ],
+    sections: [
+      {
+        title: 'Proč je to retro špička',
+        body: [
+          'Výkon Decku je o třídu jinde než u ARM handheldů — emulace 6. a 7. generace (GameCube/Wii/PS2) jede plynule a s upscalingem do vyššího rozlišení vypadají staré hry nádherně. K tomu máš velkou obrazovku, pohodlné ovládání včetně **dvou trackpadů** (ideální pro myš v DS/stylusových hrách) a možnost hrát v ruce i na televizi přes dok.',
+          'Instalace přes **EmuDeck** zvládne i začátečník: spustíš skript, vybereš emulátory, nakopíruješ vlastní ROMy do připravených složek a hraješ. BIOS soubory (PS1, PS2…) si dodáš sám.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'EmuDeck = klíč', text: 'Jeden průvodce nainstaluje a nastaví celou emulační sadu. Nejjednodušší cesta na Decku.' },
+      { title: 'Vlastní ROMy a BIOS', text: 'Deck je jen hardware — hry a BIOS si dodáš legálně sám.' },
+      { title: 'Alternativy', text: 'Podobně poslouží i ASUS ROG Ally, Lenovo Legion Go nebo Ayaneo — všechno jsou to herní PC handheldy.' },
+    ],
+  },
+  {
+    slug: 'miyoo-mini',
+    name: 'Miyoo Mini Plus',
+    kind: 'Kapesní konzole · 2023',
+    tagline: 'Drobná vertikální klíčenka do kapsy s úžasným poměrem cena/zážitek a komunitním OnionOS.',
+    color: '#d98a2b',
+    color2: '#2a1a08',
+    art: 'handheld-v',
+    intro: [
+      '**Miyoo Mini** (a větší **Miyoo Mini Plus**) je miniaturní vertikální handheld, který si získal kultovní status: za pár stovek dostaneš krásný IPS displej, příjemné tlačítka a hlavně skvělý komunitní systém **OnionOS**. Je to ideální „do kapsy" stroj na 8/16bit, GB/GBC/GBA a PS1.',
+      'Vertikální formát sedí na klasické 2D hry a retro handheldy; na nic 3D ho neber. Zato výdrží, velikostí a cenou je těžko k poražení — a OnionOS je jeden z nejvyladěnějších frontendů vůbec.',
+    ],
+    photo: { src: '/images/hardware/miyoo-mini.png', caption: 'Miyoo Mini Plus — vertikální handheld do kapsy' },
+    specs: [
+      { label: 'Výrobce', value: 'Miyoo' },
+      { label: 'Systém', value: 'OnionOS (komunitní, nad RetroArchem)' },
+      { label: 'Displej', value: '3,5" IPS (Plus), 640×480' },
+      { label: 'Formát', value: 'vertikální (do dlaně/kapsy)' },
+      { label: 'Konektivita', value: 'Wi-Fi (Plus) — netplay, scraping' },
+    ],
+    canPlay: [
+      { label: 'NES, SNES, Mega Drive, GB/GBC/GBA, PS1', level: 'ok' },
+      { label: 'Arkády, PC Engine, Master System, Lynx', level: 'ok' },
+      { label: 'N64, DOS, PSP', level: 'some' },
+    ],
+    sections: [
+      {
+        title: 'OnionOS dělá ten rozdíl',
+        body: [
+          'Stock systém je chudý, ale **OnionOS** Miyoo úplně promění: krásné rozhraní, save states, boxarty přes scraper, motivy, RetroAchievements i hraní po síti. Instalace je „nakopíruj na SD a zapni". Pro pohodový retro zážitek do kapsy je Miyoo Mini Plus jedna z nejlepších voleb v nejnižší cenové třídě.',
+          'Na vlastní ROMy platí to samé co všude — struktura `roms/<systém>` jako na Batoceře. Dotykové ani 3D systémy sem nepatří; je to čistokrevná 2D klíčenka.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Hned nahraj OnionOS', text: 'Komunitní systém Miyoo zásadně vylepší. Nakopíruješ na SD a jedeš.' },
+      { title: 'Na 2D ano, 3D ne', text: 'Skvělé na 8/16bit a PS1; N64/PSP jen okrajově.' },
+      { title: 'Příbuzné', text: 'Podobnou ligu hrají Anbernic RG35XX, Powkiddy nebo TrimUI Smart Pro.' },
+    ],
+  },
 ];
 
 export const HW_LEVEL_LABEL: Record<'ok' | 'most' | 'some', string> = {
