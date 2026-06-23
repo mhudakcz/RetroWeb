@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import GameCard from '../../components/GameCard.astro';
 import {
   allGames,
   getGame,
@@ -19,11 +18,14 @@ const { slug } = Astro.params;
 const game = getGame(slug!)!;
 const platform = game.platform;
 
-// Pár dalších her ze stejné platformy
-const related = platform.games.filter((g) => g.slug !== game.slug).slice(0, 3);
 const { prev, next } = gameNeighbors(platform, game.slug);
 const gamePos = platform.games.findIndex((g) => g.slug === game.slug) + 1;
 const gameTotal = platform.games.length;
+// Kontextový tip „další ze stejné platformy" – okno kolem aktuální hry, takže
+// se na každé stránce liší (ne pořád stejné první 3). Kompaktní pruh obalů.
+const pool = platform.games.filter((g) => g.slug !== game.slug);
+const start = pool.length ? (gamePos - 1) % pool.length : 0;
+const related = [...pool, ...pool].slice(start, start + 8);
 const nameHtml = mdInline(game.name);
 const genreNote = game.genre ? ` jako zástupce žánru ${game.genre}` : '';
 // Galerie = záběry ze hry a titulní obrazovka (obal je už v hlavičce).
@@ -147,15 +149,24 @@ const playtime = playtimeLabel(game.length, game.est);
     {
       related.length > 0 && (
         <section class="related">
-          <h2>Další z {platform.name}</h2>
-          <div class="grid grid-games">
+          <div class="related-head">
+            <h2>Další z {platform.name}</h2>
+            <a class="all-link" href={`/platformy/${platform.slug}`}>všech {platform.gameCount} →</a>
+          </div>
+          <div class="more-row">
             {related.map((g) => (
-              <GameCard game={g} platform={platform} />
+              <a class="more-item" href={`/hry/${g.slug}`} title={g.name.replace(/[*_\x60]/g, '')}>
+                <span class="more-thumb" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
+                  {g.image ? (
+                    <img src={g.image} alt="" loading="lazy" />
+                  ) : (
+                    <span class="more-ph pixel">{platform.short}</span>
+                  )}
+                </span>
+                <span class="more-name" set:html={mdInline(g.name)} />
+              </a>
             ))}
           </div>
-          <a class="btn back" href={`/platformy/${platform.slug}`}>
-            ← Všech {platform.gameCount} her pro {platform.name}
-          </a>
         </section>
       )
     }
@@ -320,16 +331,78 @@ const playtime = playtimeLabel(game.length, game.est);
     text-align: center;
   }
   .related {
-    margin-top: 48px;
-    padding-top: 28px;
+    margin-top: 44px;
+    padding-top: 24px;
     border-top: 1px solid var(--border-soft);
   }
-  .related h2 {
-    font-size: 1.4rem;
-    margin-bottom: 18px;
+  .related-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
   }
-  .back {
-    margin-top: 20px;
+  .related-head h2 {
+    font-size: 1.15rem;
+  }
+  .all-link {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .all-link:hover {
+    text-decoration: underline;
+  }
+  /* kompaktní vodorovný pruh obalů */
+  .more-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 92px;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+  }
+  .more-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--text);
+  }
+  .more-thumb {
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    display: grid;
+    place-items: center;
+    background:
+      radial-gradient(125% 125% at 50% 12%, color-mix(in srgb, var(--c1) 40%, #2a2e3a), color-mix(in srgb, var(--c2) 70%, #15171f) 72%, #111319);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .more-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .more-ph {
+    font-size: 0.62rem;
+    color: #fff;
+    opacity: 0.85;
+  }
+  .more-item:hover .more-thumb {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--c1) 60%, var(--border));
+  }
+  .more-name {
+    font-size: 0.74rem;
+    line-height: 1.25;
+    color: var(--muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .pager-pos {
     text-align: center;

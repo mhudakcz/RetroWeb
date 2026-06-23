@@ -26,4 +26,16 @@ DS proslul i **flashkartami** (R4 a podobné), které umožňovaly spouštět ho
 
 Emulace DS je dnes vyspělá. Na PC i mobilech kraluje **melonDS** (přesný, s podporou online přes alternativní servery) a **DeSmuME**; na slabším hardwaru a handheldech jede DS přes jádra v RetroArchu. Hraní s dvěma obrazovkami je na emulátorech otázka rozložení — vedle sebe, nad sebou, nebo jedna velká a druhá v rohu. Na zařízeních jako Anbernic či Retroid se DS rozjede, ovšem dotyk se nahrazuje stylusem na dotykovém displeji nebo namapováním na pravý stick, takže ryze „stylusové" hry (Trauma Center, kreslení) chtějí trochu kompromisů. Přesto je DS knihovna — od JRPG přes Castlevanie po Ace Attorney — jedna z nejbohatších a nejvíce nadčasových, jaké retro hraní nabízí.
 
+### Na čem DS hrát dnes: emulátory a handheldy
+
+DS patří k **nenáročným systémům**, takže ho rozjede téměř cokoli — háček není ve výkonu, ale v tom, jak vyřešit **dvě obrazovky a dotyk**. Tady je praktický přehled:
+
+- **PC (nejlepší zážitek):** sáhni po **melonDS** — je přesný, svižný a má i obnovený **online multiplayer** přes alternativní servery (Wi-Mmproxy/Kaeru). Starší, ale stále funkční volba je **DeSmuME**. Obě běží i v rámci **RetroArch** (jádro melonDS). Dotyk obsloužíš myší, dvě obrazovky si rozložíš vedle sebe, nad sebou nebo jednu velkou a druhou v rohu.
+- **Android telefon / tablet:** ideální kombinace, protože **dotyková obrazovka supluje stylus**. Kraluje **melonDS** (zdarma) a komerční **DraStic** (velmi rychlý). Na výkonném Androidu jede DS bez potíží i s upscalingem.
+- **Android retro handheldy (Retroid Pocket, Odin, AYN):** výborné — mají dotykový displej, takže stylusové hry fungují přirozeně, a výkonu je dost i na 3D tituly jako Mario Kart DS nebo Metroid Prime Hunters.
+- **Anbernic / Linux handheldy (RG35XX a spol.):** DS se rozjede přes RetroArch, ale je to **kompromis** — slabší kousky s Allwinner H700 zvládají 2D hry slušně, 3D už zadrhává. Hlavně ale chybí pohodlný dotyk: spodní obrazovku ovládáš buď na (často nedotykovém) displeji, nebo namapovanou na pravou páčku.
+- **R36S a nejlevnější krabičky:** DS je tu **na hraně** — RK3326 utáhne jen jednodušší 2D hry a dotyk je otravný. Pro DS radši zvol Android zařízení nebo PC.
+
+**Zda to jde:** ano, a snadno — jen si vyber zařízení podle her. Na **JRPG, vizuální romány a 2D plošinovky** (Pokémon, Castlevania, Ace Attorney) stačí cokoli; na **3D a stylusové hry** sáhni po Androidu nebo PC, kde dotyk i výkon sedí nejlíp.
+
 **Proč ji znát:** Nintendo DS ukázalo, že inovace v ovládání dokáže porazit hrubý výkon — a zanechalo knihovnu plnou her, které jinde nenajdete.
