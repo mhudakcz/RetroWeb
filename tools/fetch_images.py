@@ -738,6 +738,93 @@ def optimize_images():
     print(f"Platformy: zmenšeno {pcount} velkých obrázků")
 
 
+def _wiki_search(query, limit=4):
+    q = urllib.parse.urlencode({
+        "action": "query", "format": "json", "list": "search",
+        "srsearch": query, "srlimit": limit, "srnamespace": 0,
+    })
+    try:
+        data = json.loads(http_get("https://en.wikipedia.org/w/api.php?" + q))
+    except Exception:  # noqa
+        return []
+    return [h["title"] for h in data.get("query", {}).get("search", [])]
+
+
+def _wiki_is_videogame(title):
+    """Ověř, že stránka je o videohře (kategorie obsahují 'video game(s)')."""
+    q = urllib.parse.urlencode({
+        "action": "query", "format": "json", "titles": title,
+        "prop": "categories", "cllimit": "100", "clshow": "!hidden", "redirects": "1",
+    })
+    try:
+        data = json.loads(http_get("https://en.wikipedia.org/w/api.php?" + q))
+    except Exception:  # noqa
+        return False
+    for p in data.get("query", {}).get("pages", {}).values():
+        cats = " ".join(c.get("title", "").lower() for c in p.get("categories", []))
+        if "video game" in cats:
+            return True
+    return False
+
+
+def fetch_games_wiki(only=None):
+    """Pro hry BEZ obrázku zkus lead foto (obal/screenshot) z anglické Wikipedie.
+    Přísné ověření (kategorie 'video game' + překryv názvu) proti falešným shodám."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    ok = 0
+    total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if only and slug != only:
+            continue
+        missing = [g for g in plat["games"] if not g.get("image")]
+        if not missing:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} — bez obrázku: {len(missing)} ==")
+        for g in missing:
+            total += 1
+            # název bez závorkových přípon typu (CD), (MD port), -ish
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.replace(" -ish", "").replace("/", " ").strip()
+            base = P.re.split(r"\s+[–—]\s+", base)[0].strip()
+            gtoks = P.tokens(base)
+            queries = [f"{base} video game", f"{base} {plat['short']} video game"]
+            picked = None
+            for query in queries:
+                for title in _wiki_search(query):
+                    ttoks = P.tokens(title)
+                    jac = len(gtoks & ttoks) / len(gtoks | ttoks) if (gtoks and ttoks) else 0
+                    if jac < 0.45:
+                        continue
+                    if not _wiki_is_videogame(title):
+                        continue
+                    picked = title
+                    break
+                if picked:
+                    break
+            if not picked:
+                print(f"  [-] {g['name']}")
+                continue
+            try:
+                src = wiki_image(picked)
+                if not src:
+                    print(f"  [-] {g['name']} (bez foto: {picked})")
+                    continue
+                img = http_get(src)
+                if len(img) < 3000:
+                    print(f"  [-] {g['name']} (maly soubor)")
+                    continue
+                (out / f"{g['slug']}.png").write_bytes(img)
+                ok += 1
+                print(f"  [OK] {g['name']}  <- WP:{picked}")
+                time.sleep(0.15)
+            except Exception as e:  # noqa
+                print(f"  [x] {g['name']}: {e}")
+    print(f"\nWikipedia: dohledáno {ok}/{total} obrázků")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -764,3 +851,6 @@ if __name__ == "__main__":
     if what == "fallback-shots":
         print("=== FALLBACK OBRÁZKY HER (title/snap pro hry bez obalu) ===")
         fetch_fallback_shots(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-wiki":
+        print("=== OBRÁZKY HER Z WIKIPEDIE (hry bez obrázku) ===")
+        fetch_games_wiki(sys.argv[2] if len(sys.argv) > 2 else None)
