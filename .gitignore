@@ -28,3 +28,6 @@ tools/resolve_freecarts.py
 
 # stray download artefakty
 *.tmp
+
+# Local Netlify folder
+.netlify

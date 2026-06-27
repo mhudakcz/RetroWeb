@@ -1131,6 +1131,18 @@
    "genre": "Strategy / rodinné",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Ace Combat (Air Combat)",
+   "genre": "Flight combat",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ace Combat 2",
+   "genre": "Flight combat",
+   "length": "M",
+   "flags": []
   }
  ],
  "amiga": [

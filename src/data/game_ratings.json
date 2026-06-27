@@ -58,6 +58,10 @@
   "arcade__centipede": {
     "pegi": "PEGI 3"
   },
+  "arcade__crazy-taxi": {
+    "esrb": "Teen",
+    "pegi": "PEGI 3"
+  },
   "arcade__donkey-kong": {
     "esrb": "Everyone"
   },
@@ -70,6 +74,9 @@
   "arcade__salamander": {
     "esrb": "Everyone"
   },
+  "arcade__sega-rally-championship": {
+    "pegi": "PEGI 3"
+  },
   "arcade__simpsons": {
     "esrb": "Everyone 10+"
   },
@@ -81,8 +88,86 @@
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
+  "arcade__time-crisis": {
+    "esrb": "Teen"
+  },
   "atari-lynx__checkered-flag": {
     "esrb": "Kids to Adults"
+  },
+  "cps__captain-commando-2": {
+    "esrb": "Teen"
+  },
+  "cps__final-fight": {
+    "esrb": "Everyone",
+    "pegi": "Q14915515"
+  },
+  "cps__ghouls-n-ghosts": {
+    "esrb": "Everyone"
+  },
+  "cps__giga-wing": {
+    "esrb": "Everyone"
+  },
+  "cps__punisher": {
+    "esrb": "Teen"
+  },
+  "cps__street-fighter-iii-3rd-strike": {
+    "esrb": "Teen"
+  },
+  "cps__strider": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
+  },
+  "cps__super-puzzle-fighter-ii-turbo": {
+    "esrb": "Kids to Adults",
+    "pegi": "Q14915515"
+  },
+  "dreamcast__dead-or-alive-2": {
+    "esrb": "Teen"
+  },
+  "dreamcast__garou-mark-of-wolves": {
+    "esrb": "Teen"
+  },
+  "dreamcast__grandia-ii": {
+    "esrb": "Teen"
+  },
+  "dreamcast__mars-matrix": {
+    "esrb": "Everyone"
+  },
+  "dreamcast__phantasy-star-online": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "dreamcast__quake-iii-arena": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 18"
+  },
+  "dreamcast__resident-evil-code-veronica": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "dreamcast__shenmue": {
+    "esrb": "Teen"
+  },
+  "dreamcast__skies-of-arcadia": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "dreamcast__sonic-adventure": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "dreamcast__sonic-adventure-2": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "dreamcast__space-channel-5": {
+    "esrb": "Teen"
+  },
+  "dreamcast__street-fighter-iii-3rd-strike": {
+    "esrb": "Teen"
+  },
+  "dreamcast__sword-of-berserk-guts-rage": {
+    "esrb": "Mature 17+"
   },
   "game-boy-advance__boktai-sun-is-in-your-hand": {
     "esrb": "Everyone",
@@ -497,6 +582,21 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "neogeo__garou-mark-of-wolves": {
+    "esrb": "Teen"
+  },
+  "neogeo__king-of-fighters-94": {
+    "esrb": "Teen"
+  },
+  "neogeo__king-of-fighters-95": {
+    "esrb": "Teen"
+  },
+  "neogeo__nam-1975": {
+    "esrb": "Everyone 10+"
+  },
+  "neogeo__windjammers": {
+    "esrb": "Everyone"
+  },
   "nes__adventure-island": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
@@ -572,6 +672,29 @@
   },
   "nes__wario-s-woods": {
     "esrb": "Everyone"
+  },
+  "pc-engine__castlevania-rondo-of-blood": {
+    "esrb": "Teen",
+    "pegi": "Q14915515"
+  },
+  "pc-engine__dungeon-explorer": {
+    "esrb": "Everyone",
+    "pegi": "Q14915515"
+  },
+  "pc-engine__gate-of-thunder": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "pc-engine__neutopia": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "pc-engine__snatcher": {
+    "esrb": "Mature 17+"
+  },
+  "pc-engine__splatterhouse": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 18"
   },
   "playstation__ape-escape": {
     "esrb": "Everyone",
@@ -879,6 +1002,9 @@
     "esrb": "Everyone 10+"
   },
   "snes__zombies-ate-my-neighbors": {
+    "esrb": "Everyone 10+"
+  },
+  "zx-spectrum__saboteur": {
     "esrb": "Everyone 10+"
   }
 }

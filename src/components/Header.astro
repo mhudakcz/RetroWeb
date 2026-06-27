@@ -16,6 +16,9 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
       <a href="/studia" class:list={['nav-link', { active: isActive('/studia') }]}>Studia</a>
       <a href="/hardware" class:list={['nav-link', { active: isActive('/hardware') }]}>Hardware</a>
       <a href="/o-projektu" class:list={['nav-link', { active: isActive('/o-projektu') }]}>O projektu</a>
+      <button id="theme-nav" class="nav-link theme-nav" type="button">
+        <span class="t-dark">🌙 Noční režim</span><span class="t-light">☀️ Denní režim</span>
+      </button>
     </nav>
     <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Přepnout denní/noční režim" title="Denní / noční režim">
       <span class="t-dark">🌙</span><span class="t-light">☀️</span>
@@ -28,9 +31,7 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
 
 <script is:inline>
   (function () {
-    var btn = document.getElementById('theme-toggle');
-    if (!btn) return;
-    btn.addEventListener('click', function () {
+    function toggleTheme() {
       var light = document.documentElement.getAttribute('data-theme') === 'light';
       if (light) {
         document.documentElement.removeAttribute('data-theme');
@@ -39,7 +40,11 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
         document.documentElement.setAttribute('data-theme', 'light');
         try { localStorage.setItem('theme', 'light'); } catch (e) {}
       }
-    });
+    }
+    var btn = document.getElementById('theme-toggle');
+    if (btn) btn.addEventListener('click', toggleTheme);
+    var btnNav = document.getElementById('theme-nav');
+    if (btnNav) btnNav.addEventListener('click', toggleTheme);
 
     var navBtn = document.getElementById('nav-toggle');
     var nav = document.getElementById('nav');
@@ -158,6 +163,25 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
     background: rgba(255, 255, 255, 0.82);
   }
 
+  /* přepínač režimu uvnitř mobilního menu (skrytý na desktopu) */
+  .theme-nav {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+  }
+  .theme-nav .t-light {
+    display: none;
+  }
+  :root[data-theme='light'] .theme-nav .t-dark {
+    display: none;
+  }
+  :root[data-theme='light'] .theme-nav .t-light {
+    display: inline;
+  }
+
   /* hamburger – skrytý na desktopu */
   .nav-toggle {
     display: none;
@@ -207,6 +231,16 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
   @media (max-width: 760px) {
     .nav-toggle {
       display: grid;
+    }
+    #theme-toggle {
+      display: none;
+    }
+    .theme-nav {
+      display: block;
+      margin-top: 6px;
+      border-top: 1px solid var(--border-soft);
+      padding-top: 12px;
+      border-radius: 0;
     }
     .nav {
       position: absolute;

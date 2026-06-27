@@ -127,7 +127,9 @@ REGION_PREF = ["(USA)", "(World)", "(USA, Europe)", "(Europe)", "(Japan, USA)", 
 
 def http_get(url, headers=None, retries=3, timeout=40):
     """Stažení přes curl (používá Windows cert store; Python urllib má prošlý CA bundle)."""
-    cmd = ["curl", "-sL", "--fail", "--max-time", str(timeout), "-A", UA]
+    # --ssl-no-revoke: Windows schannel jinak padá na CRYPT_E_NO_REVOCATION_CHECK,
+    # když je revocation server (CRL/OCSP) nedostupný (firemní síť)
+    cmd = ["curl", "-sL", "--fail", "--ssl-no-revoke", "--max-time", str(timeout), "-A", UA]
     for k, v in (headers or {}).items():
         cmd += ["-H", f"{k}: {v}"]
     cmd.append(url)
