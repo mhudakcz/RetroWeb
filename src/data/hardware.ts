@@ -827,6 +827,79 @@ export const hardware: HardwareItem[] = [
       { title: 'Příbuzné', text: 'Podobnou ligu hrají Anbernic RG35XX, Powkiddy nebo TrimUI Smart Pro.' },
     ],
   },
+  {
+    slug: 'romy',
+    name: 'ROMky: kde se berou hry pro emulátory',
+    kind: 'Průvodce — právo, zdroje a preservace',
+    tagline: 'Co je ROM, jak ji získat legálně, jak je to se zákonem a proč na preservaci her záleží.',
+    color: '#3bb273',
+    color2: '#0f2a1c',
+    art: 'batocera',
+    intro: [
+      'Emulátor je jen prázdná konzole — aby něco hrál, potřebuje **ROM** (digitální kopii hry z cartridge) nebo **disk image** (z CD/DVD). Kolem získávání těchhle souborů panuje spousta mýtů a hodně zmatků v tom, co je a není legální. Tenhle průvodce to bere narovinu: vysvětlí, jak to s ROMkami doopravdy je, ukáže legální cesty (kterých je víc, než si lidé myslí) a férově popíše i šedou zónu a pirátství — včetně rizik. Cílem není návod na pirátství, ale aby ses v tématu vyznal a věděl, jak na to slušně.',
+    ],
+    specs: [
+      { label: 'ROM', value: 'Kopie obsahu cartridge (NES, SNES, GBA…)' },
+      { label: 'Disk image', value: 'Obraz CD/DVD (PS1, Saturn, Dreamcast…) — .bin/.cue, .chd' },
+      { label: 'BIOS', value: 'Některé systémy ho vyžadují (PS1, Saturn) — také chráněný' },
+      { label: 'Autorská práva', value: 'Platí dál, i u her starých 30+ let („abandonware“ není právní pojem)' },
+      { label: 'Legální základ', value: 'Vlastní dump, homebrew/freeware, oficiální reedice' },
+      { label: 'Formáty dumpu', value: 'No-Intro / Redump = standardy ověřených, nezměněných kopií' },
+    ],
+    canPlay: [],
+    sections: [
+      {
+        title: 'Jak to s ROMkami doopravdy je',
+        body: [
+          'ROM je soubor s obsahem paměti herní cartridge; u CD konzolí se místo toho bavíme o **disk image** (obraz disku). Sám o sobě je to jen data — problém je **autorské právo**. To u videoher trvá desítky let a **nezaniká jen proto, že je hra stará nebo se už neprodává**. Pojem „abandonware“ (opuštěný software) zní hezky, ale právně nic neznamená: i u hry, kterou dnes nikdo oficiálně neprodává, práva pořád někomu patří.',
+          'Z toho plyne jednoduché pravidlo: **stahování a šíření ROMek her, které vlastní někdo jiný, je porušení autorských práv** — bez ohledu na to, jak často se to dělá. Existují ale cesty, jak hrát naprosto legálně, a stojí za to je znát.',
+        ],
+      },
+      {
+        title: 'Legální cesty, jak získat hry',
+        body: [
+          '**1) Dumpni si vlastní hry.** Pokud cartridge nebo disk skutečně vlastníš, dá se jeho obsah „vytáhnout“ do souboru. Na cartridge slouží zařízení jako **Retrode**, **Sanni Cart Reader** (open-source, postavíš/koupíš) nebo dedikované dumpery pro GB/GBA. CD/DVD si načteš mechanikou do .bin/.cue nebo .chd. Právně je tohle nejčistší — kopii si děláš ze svého kusu.',
+          '**2) Homebrew a freeware.** Obrovská a zcela legální studnice. Nadšenci dnes dělají nové hry pro stará železa (NES, Mega Drive, Amiga, PICO-8…) a dávají je zdarma nebo za pár korun na **itch.io** a komunitních fórech. Spousta z nich je špičkových — a smíš je legálně stáhnout a hrát kdekoli.',
+          '**3) Oficiální reedice.** Výrobci své klasiky znovu prodávají: **Nintendo Switch Online** (NES/SNES/GB/N64/GBA), **Steam a GOG** (kolekce Capcom, SEGA, Square…), **Antstream Arcade** (streamovaná legální knihovna tisíců her), retro krabičky jako **Evercade** nebo oficiální „Mini“ konzole (NES/SNES/Mega Drive Mini). Koupí podpoříš držitele práv a hraješ bez starostí.',
+          '**4) Public domain a legálně uvolněné tituly.** Některé hry autoři uvolnili zdarma; **Internet Archive** hostuje i legální softwarové kolekce a freeware. A pár studií dokonce vydalo staré hry jako freeware oficiálně.',
+        ],
+      },
+      {
+        title: 'Šedá zóna a co říká zákon',
+        body: [
+          'Nejčastější mýty: „Smím si stáhnout ROM, když hru vlastním.“ a „Stačí ROM smazat do 24 hodin.“ — **obojí je nepravda.** Zákon nedává automatické právo stáhnout kopii odjinud jen proto, že vlastníš originál; a žádné „pravidlo 24 hodin“ neexistuje, to je internetová legenda.',
+          'Co bývá tolerováno víc, je **vlastní záloha** (dump z tvého vlastního média) pro osobní potřebu — v některých zemích to zákon umožňuje, v jiných je i to omezené. Hranice je u **šíření**: nahrávat ROMky ostatním nebo si je stahovat z internetu je téměř všude za čarou. Konkrétní pravidla se liší stát od státu, takže ber tohle jako orientaci, ne právní radu.',
+          'Zvlášť pozor na **BIOS** (např. u PS1 nebo Saturnu): je to taky chráněný software výrobce. Legálně ho získáš jen z vlastní konzole, ne stažením.',
+        ],
+      },
+      {
+        title: 'Kde to lidé reálně shánějí — a proč být opatrný',
+        body: [
+          'Buďme upřímní: většina ROMek koluje po internetu nelegálně. Existují **„ROM weby“** a **„abandonware“ archivy**, fóra a komunitní „sety“ (kompletní kolekce pro daný systém, často odkazované na standardy **No-Intro** a **Redump** — to jsou ale primárně *databáze a kontrolní součty* pro ověření, že je dump nezměněný, ne distribuční služba). Tenhle průvodce **na žádný takový zdroj neodkazuje a nedává návod, jak stahovat** — popisuje jen, jak ekosystém vypadá.',
+          'Rizika, proč si dávat pozor: **malware** (ROM weby bývají plné podvodných tlačítek a infikovaných archivů), **vadné nebo upravené dumpy** (hra padá, je to hack nebo nedoběhnutá kopie), a **právní odpovědnost**. Navíc šedé stahování dlouhodobě **nepomáhá preservaci** — peníze ani pozornost nejdou tam, kde se hry skutečně archivují a legálně znovu vydávají.',
+        ],
+      },
+      {
+        title: 'Preservace: proč na tom všem záleží',
+        body: [
+          'Velká část herní historie není oficiálně k dispozici — vydavatelé reedice dělají jen u nejprodávanějších značek. Bez emulace a archivace by tisíce her prostě **zmizely** (cartridge a disky stárnou, baterie v nich umírají, výrobci krachují). Proto existují seriózní **preservační projekty** a digitální archivy, které se snaží hry uchovat pro budoucnost — legálně, s důrazem na nezměněné, ověřené kopie.',
+          'Nejlepší, co můžeš jako fanoušek udělat: **dumpovat vlastní sbírku**, **kupovat oficiální reedice** (tím dáváš najevo, že je o klasiky zájem) a **podporovat homebrew scénu**. Emulace sama o sobě je naprosto legální a úžasná technologie — problém je vždycky jen v tom, odkud bereš obsah.',
+        ],
+      },
+      {
+        title: 'Doporučení pro tvůj handheld nebo Batoceru',
+        body: [
+          'Když rozjíždíš Anbernic, R36S, Miyoo nebo Batoceru, postupuj odzdola legálně: **(1)** nejdřív nahraj **homebrew a freeware** — okamžitě máš stovky her zdarma; **(2)** dumpni si **vlastní cartridge a disky** dumperem; **(3)** kup si **oficiální kolekce** na Steamu/GOG nebo si pořiď předplatné jako Antstream. Tahle trojice pokryje překvapivě velkou knihovnu úplně bez šedé zóny.',
+          'A hlavně: emulátor a handheld nejsou nic nelegálního — je to skvělý nástroj na hraní her, které vlastníš, na objevování homebrew a na uchování herní historie. Jak s ním naložíš, je na tobě.',
+        ],
+      },
+    ],
+    options: [
+      { title: 'Začni homebrew', text: 'itch.io a komunitní scéna = stovky legálních her zdarma, hned a bez rizika.' },
+      { title: 'Dumpni vlastní hry', text: 'Sanni Cart Reader nebo Retrode vytáhnou obsah tvých cartridge do souboru.' },
+      { title: 'Kup reedice', text: 'NSO, Steam/GOG kolekce, Antstream nebo Evercade — legální a podporuješ preservaci.' },
+    ],
+  },
 ];
 
 export const HW_LEVEL_LABEL: Record<'ok' | 'most' | 'some', string> = {

@@ -451,13 +451,16 @@ def fetch_games():
           f"({100*grand_ok//max(1,grand_total)} %)")
 
 
-def fetch_screenshots():
+def fetch_screenshots(only=None):
     """Stáhne in-game screenshot (Named_Snaps) a title screen (Named_Titles) pro hry,
-    které mají boxart. Stejné názvy souborů jako boxarty. Ukládá jako <slug>-snap.png / -title.png."""
+    které mají boxart. Stejné názvy souborů jako boxarty. Ukládá jako <slug>-snap.png / -title.png.
+    only: pokud zadáno, omezí se jen na tuto platformu (slug)."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
     grand = {"snap": 0, "title": 0}
     for slug, repo in LIBRETRO.items():
+        if only and slug != only:
+            continue
         games = plat_games.get(slug, [])
         if not games:
             continue
@@ -841,7 +844,7 @@ if __name__ == "__main__":
         resolve_symlinks()
     if what == "screenshots":
         print("=== SCREENSHOTY (Named_Snaps + Named_Titles) ===")
-        fetch_screenshots()
+        fetch_screenshots(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "classify":
         print("=== KLASIFIKACE POZADÍ PLATFOREM ===")
         classify_platform_bg()

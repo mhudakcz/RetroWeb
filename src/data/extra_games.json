@@ -3504,5 +3504,19 @@
    "length": "M",
    "flags": []
   }
+ ],
+ "game-watch": [
+  {
+   "name": "Nu, pogodi! (Elektronika IM-02)",
+   "genre": "LCD handheld",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tajny okeana / Secrets of the Ocean (Elektronika IM-19)",
+   "genre": "LCD handheld",
+   "length": "S",
+   "flags": []
+  }
  ]
 }

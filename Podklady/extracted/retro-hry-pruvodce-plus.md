@@ -1237,6 +1237,10 @@ Kořeny přenosného hraní. Jednoduché LCD reflexní hry — historická kurio
 
 **Game & Watch Gallery (kompilace)** — *Arcade / Puzzle · 1997+ · Nintendo / Jupiter · GB/GBC/GBA* — Nejlepší způsob, jak dnes Game & Watch hry poznat: kolekce klasik v původní i modernizované podobě (s Mario postavami a barvou). Běží na Game Boyi, takže žádné řešení LCD artworku. Nostalgie i svěží varianty pohromadě. *(⏱ cca 1–3 h)*
 
+**Nu, pogodi! (Elektronika IM-02)** — *LCD handheld · 1984 · Elektronika (SSSR)* — Legendární sovětská kapesní LCD hra, kterou znal každý kluk za železnou oponou. Vlk z kresleného seriálu „Ну, погоди!" chytá do košíku vejce kutálející se po čtyřech žlabech od slepic — rychlost roste, chyby znamenají rozbitá vejce. Je to v podstatě klon Nintendo Game & Watch „Egg"/„Mickey Mouse", vyráběný v SSSR od roku 1984. Kulturní fenomén a první setkání s videohrami pro celou generaci. *(⏱ cca 1–3 h)*
+
+**Tajny okeana / Secrets of the Ocean (Elektronika IM-19)** — *LCD handheld · 1989 · Elektronika (SSSR)* — Podvodní sourozenec „Nu, pogodi!": potápěč sbírá poklady z mořského dna a uhýbá chapadlům chobotnice — sovětská obdoba Nintendo Game & Watch „Octopus". Stejná řada Elektronika, stejný princip reflexní LCD hry. Pro fanoušky retra fascinující pohled na to, jak žila herní kultura na východě. *(⏱ cca 1–3 h)*
+
 ---
 
 ## Fantasy konzole — PICO-8 & TIC-80

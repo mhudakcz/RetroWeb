@@ -54,24 +54,30 @@ const toc = sections.map((sec, i) => ({ id: anchorId(sec.title, i), title: sec.t
       {hw.intro.map((p) => <p set:html={mdInline(p)} />)}
     </div>
 
-    <div class="panels">
-      <div class="panel">
-        <h3>Parametry</h3>
-        <dl class="specs">
-          {hw.specs.map((s) => (
-            <div class="spec"><dt>{s.label}</dt><dd>{s.value}</dd></div>
-          ))}
-        </dl>
+    {(hw.specs.length > 0 || hw.canPlay.length > 0) && (
+      <div class="panels">
+        {hw.specs.length > 0 && (
+          <div class="panel">
+            <h3>Parametry</h3>
+            <dl class="specs">
+              {hw.specs.map((s) => (
+                <div class="spec"><dt>{s.label}</dt><dd>{s.value}</dd></div>
+              ))}
+            </dl>
+          </div>
+        )}
+        {hw.canPlay.length > 0 && (
+          <div class="panel">
+            <h3>Co utáhne</h3>
+            <ul class="can">
+              {hw.canPlay.map((c) => (
+                <li><span class:list={['lvl', c.level]}>{HW_LEVEL_LABEL[c.level]}</span><span>{c.label}</span></li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
-      <div class="panel">
-        <h3>Co utáhne</h3>
-        <ul class="can">
-          {hw.canPlay.map((c) => (
-            <li><span class:list={['lvl', c.level]}>{HW_LEVEL_LABEL[c.level]}</span><span>{c.label}</span></li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    )}
 
     {
       toc.length >= 3 && (

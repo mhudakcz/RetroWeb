@@ -48,6 +48,26 @@ const playtime = playtimeLabel(game.length, game.est);
       <span>{game.name.replace(/[*_\x60]/g, '')}</span>
     </nav>
 
+    {
+      (prev || next) && (
+        <nav class="pager-top" aria-label={`Další hry pro ${platform.name}`}>
+          {prev ? (
+            <a class="pt-link prev" href={`/hry/${prev.slug}`}>
+              <span class="dir">←</span>
+              <span class="pn" set:html={mdInline(prev.name)} />
+            </a>
+          ) : <span />}
+          <span class="pt-pos muted">{gamePos} / {gameTotal}</span>
+          {next ? (
+            <a class="pt-link next" href={`/hry/${next.slug}`}>
+              <span class="pn" set:html={mdInline(next.name)} />
+              <span class="dir">→</span>
+            </a>
+          ) : <span />}
+        </nav>
+      )
+    }
+
     <header class:list={['head', { 'has-art': game.image }]}>
       {
         game.image && (
@@ -487,6 +507,43 @@ const playtime = playtimeLabel(game.length, game.est);
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+  .pager-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 12px 0 4px;
+    font-size: 0.85rem;
+  }
+  .pt-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    max-width: 42%;
+    padding: 0.4em 0.7em;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .pt-link:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .pt-link .dir {
+    color: var(--accent);
+    flex: none;
+  }
+  .pt-link .pn {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .pt-pos {
+    flex: none;
+    font-size: 0.8rem;
   }
   .pager-pos {
     text-align: center;
