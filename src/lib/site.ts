@@ -2,7 +2,7 @@
 
 /** Ko-fi odkaz na příspěvky. Získáš na https://ko-fi.com (zdarma).
  *  Nahraď 'retroweb' svým Ko-fi uživatelským jménem. */
-export const KOFI_URL = 'https://ko-fi.com/retroweb';
+export const KOFI_URL = 'https://ko-fi.com/michalhudak';
 
 /** Web3Forms access key pro kontaktní a „přání" formuláře.
  *  Zdarma na https://web3forms.com — zadáš svůj Gmail, dostaneš klíč, vložíš sem.
