@@ -92,6 +92,14 @@ const showGenreFilter = platform.games.length > 6 && genreOptions.length > 1;
         ))}
       </div>
       <p class="empty muted" id="pempty" hidden>Žádná hra v tomto žánru.</p>
+
+      <aside class="suggest">
+        <div>
+          <strong>Chybí tu tvoje oblíbená hra pro {platform.name}?</strong>
+          <p class="muted small">Napiš mi ji — kurátorský výběr pořád rozšiřuju.</p>
+        </div>
+        <a class="suggest-btn" href={`/kontakt?type=hra&platform=${encodeURIComponent(platform.name)}`}>💡 Navrhnout hru</a>
+      </aside>
     </div>
   </section>
 
@@ -180,6 +188,29 @@ const showGenreFilter = platform.games.length > 6 && genreOptions.length > 1;
     border-color: var(--accent);
     outline: none;
   }
+  .suggest {
+    margin-top: 28px;
+    padding: 18px 22px;
+    border-radius: var(--radius);
+    background: var(--surface);
+    border: 1px dashed color-mix(in srgb, var(--accent) 45%, var(--border));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .suggest-btn {
+    flex: none;
+    font-weight: 700;
+    padding: 0.6em 1.2em;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+    border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--border));
+    color: var(--text);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .suggest-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
   .games-head + .grid-games {
     margin-top: 18px;
   }

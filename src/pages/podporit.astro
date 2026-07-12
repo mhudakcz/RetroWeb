@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import { KOFI_URL } from '../lib/site';
+---
+
+<Base title="Podpořit web" description="Líbí se ti RetroWeb? Můžeš mě podpořit drobným příspěvkem na provoz a další obsah.">
+  <section class="container narrow">
+    <p class="eyebrow">Děkuju za přízeň</p>
+    <h1>Podpořit RetroWeb</h1>
+    <p class="lead muted">
+      RetroWeb dělám ve volném čase z lásky k retro hraní — je a zůstane zdarma a bez otravných reklam.
+      Pokud ti web pomohl nebo tě baví, můžeš přihodit na kafe. Každý příspěvek jde na provoz
+      (doména, hosting) a čas na další články, obrázky a překlady.
+    </p>
+
+    <div class="cta">
+      <a class="kofi" href={KOFI_URL} target="_blank" rel="noopener">☕ Podpořit na Ko-fi</a>
+      <p class="muted small">Otevře se Ko-fi v novém okně. Zvládneš to i jednorázově, bez registrace.</p>
+    </div>
+
+    <div class="ways">
+      <h2>Jak ještě můžeš pomoct (zdarma)</h2>
+      <ul>
+        <li><strong>Sdílej</strong> web s kamarády, co taky vyrůstali u konzolí.</li>
+        <li><strong>Napiš mi</strong> tip, opravu nebo přání přes <a href="/kontakt">kontaktní formulář</a>.</li>
+        <li><strong>Navrhni hru nebo platformu</strong>, která tu chybí — u každé platformy je tlačítko „Navrhnout hru".</li>
+      </ul>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .narrow { max-width: 760px; }
+  .eyebrow {
+    font-family: var(--font-pixel);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: color-mix(in srgb, var(--accent) 80%, var(--text));
+    padding-top: 40px;
+  }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 14px; }
+  .lead { font-size: 1.08rem; line-height: 1.7; }
+  .cta {
+    margin: 32px 0;
+    padding: 28px;
+    border-radius: var(--radius);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    text-align: center;
+  }
+  .kofi {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 1.05rem;
+    padding: 0.8em 1.6em;
+    border-radius: 999px;
+    color: #1a0710;
+    background: linear-gradient(135deg, var(--accent), #ff8fb3);
+    box-shadow: 0 8px 22px -8px var(--accent);
+    transition: transform 0.15s ease;
+  }
+  .kofi:hover { transform: translateY(-2px); }
+  .cta .small { margin-top: 12px; }
+  .ways { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
+  .ways h2 { font-size: 1.3rem; margin-bottom: 14px; }
+  .ways li { margin-bottom: 10px; }
+  .ways a { color: var(--accent); }
+</style>

@@ -1,0 +1,181 @@
+---
+import Base from '../layouts/Base.astro';
+import { WEB3FORMS_KEY } from '../lib/site';
+const hasKey = !!WEB3FORMS_KEY;
+---
+
+<Base title="Kontakt & přání" description="Napiš mi tip, opravu nebo návrh — a navrhni hru či platformu, která na RetroWebu chybí.">
+  <section class="container narrow">
+    <p class="eyebrow">Ozvi se</p>
+    <h1>Kontakt & přání</h1>
+    <p class="lead muted">
+      Máš tip na hru, našel jsi chybu, nebo chceš navrhnout platformu či titul, který tu chybí?
+      Napiš mi. Zpráva chodí přímo mně, tvůj e-mail nikde nezveřejňuju.
+    </p>
+
+    {!hasKey && (
+      <p class="notice">
+        ⚙️ Formulář zatím není aktivní — chybí Web3Forms klíč. Doplň ho v <code>src/lib/site.ts</code>
+        (zdarma na web3forms.com). Do té doby zprávy neodejdou.
+      </p>
+    )}
+
+    <form id="cform" class="form" novalidate>
+      <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
+      <input type="hidden" name="subject" id="f-subject" value="RetroWeb — nová zpráva" />
+      <input type="hidden" name="from_name" value="RetroWeb formulář" />
+      <!-- honeypot proti spamu -->
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" />
+
+      <label>
+        <span>Typ zprávy</span>
+        <select name="typ" id="f-typ">
+          <option value="Obecný dotaz / tip">Obecný dotaz nebo tip</option>
+          <option value="Přání – hra">Návrh hry (chybí tu)</option>
+          <option value="Přání – platforma">Návrh platformy</option>
+          <option value="Oprava / chyba">Oprava nebo chyba</option>
+        </select>
+      </label>
+
+      <label id="plat-wrap" hidden>
+        <span>Platforma</span>
+        <input type="text" name="platforma" id="f-plat" placeholder="např. Nintendo Game Boy" />
+      </label>
+
+      <div class="row">
+        <label>
+          <span>Jméno <em>(nepovinné)</em></span>
+          <input type="text" name="jmeno" autocomplete="name" />
+        </label>
+        <label>
+          <span>E-mail <em>(když chceš odpověď)</em></span>
+          <input type="email" name="email" autocomplete="email" placeholder="ty@email.cz" />
+        </label>
+      </div>
+
+      <label>
+        <span>Zpráva</span>
+        <textarea name="zprava" id="f-msg" rows="6" required placeholder="Sem napiš, co máš na srdci…"></textarea>
+      </label>
+
+      <button type="submit" class="submit">Odeslat</button>
+      <p id="f-status" class="status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('cform') as HTMLFormElement;
+  const typ = document.getElementById('f-typ') as HTMLSelectElement;
+  const platWrap = document.getElementById('plat-wrap') as HTMLElement;
+  const platInput = document.getElementById('f-plat') as HTMLInputElement;
+  const subject = document.getElementById('f-subject') as HTMLInputElement;
+  const statusEl = document.getElementById('f-status') as HTMLElement;
+
+  const params = new URLSearchParams(location.search);
+  const qType = params.get('type');
+  const qPlat = params.get('platform');
+  const TYPE_MAP: Record<string, string> = {
+    hra: 'Přání – hra',
+    platforma: 'Přání – platforma',
+    oprava: 'Oprava / chyba',
+  };
+  if (qType && TYPE_MAP[qType]) typ.value = TYPE_MAP[qType];
+  if (qPlat) platInput.value = qPlat;
+
+  function syncPlat() {
+    const show = typ.value.startsWith('Přání');
+    platWrap.hidden = !show;
+    subject.value = `RetroWeb — ${typ.value}`;
+  }
+  typ.addEventListener('change', syncPlat);
+  syncPlat();
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const key = (form.elements.namedItem('access_key') as HTMLInputElement).value;
+    if (!key) {
+      statusEl.textContent = 'Formulář zatím není aktivní (chybí klíč).';
+      statusEl.className = 'status err';
+      return;
+    }
+    statusEl.textContent = 'Odesílám…';
+    statusEl.className = 'status';
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form),
+      });
+      const data = await res.json();
+      if (data.success) {
+        form.reset();
+        syncPlat();
+        statusEl.textContent = '✅ Díky! Zpráva odešla, ozvu se co nejdřív.';
+        statusEl.className = 'status ok';
+      } else {
+        statusEl.textContent = '❌ Něco se pokazilo. Zkus to prosím znovu.';
+        statusEl.className = 'status err';
+      }
+    } catch (err) {
+      statusEl.textContent = '❌ Odeslání selhalo (síť?). Zkus to prosím znovu.';
+      statusEl.className = 'status err';
+    }
+  });
+</script>
+
+<style>
+  .narrow { max-width: 680px; }
+  .eyebrow {
+    font-family: var(--font-pixel);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: color-mix(in srgb, var(--accent) 80%, var(--text));
+    padding-top: 40px;
+  }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 12px; }
+  .lead { font-size: 1.05rem; line-height: 1.65; }
+  .notice {
+    margin: 18px 0;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background: color-mix(in srgb, #e0b53d 14%, var(--surface));
+    border: 1px solid color-mix(in srgb, #e0b53d 45%, var(--border));
+    font-size: 0.9rem;
+  }
+  .notice code { font-size: 0.85em; }
+  .form { margin-top: 26px; display: flex; flex-direction: column; gap: 16px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 0.92rem; }
+  label em { font-weight: 400; color: var(--muted); font-style: normal; }
+  input, select, textarea {
+    font: inherit;
+    padding: 0.65em 0.8em;
+    border-radius: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 100%;
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); outline: none; }
+  textarea { resize: vertical; }
+  .hp { position: absolute; left: -9999px; opacity: 0; }
+  .submit {
+    align-self: flex-start;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 0.7em 1.6em;
+    border-radius: 999px;
+    border: none;
+    color: #1a0710;
+    background: linear-gradient(135deg, var(--accent), #ff8fb3);
+    box-shadow: 0 8px 22px -10px var(--accent);
+    transition: transform 0.15s ease;
+  }
+  .submit:hover { transform: translateY(-2px); }
+  .status { font-size: 0.92rem; min-height: 1.2em; }
+  .status.ok { color: #4ade80; }
+  .status.err { color: #ff7a90; }
+  @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+</style>
