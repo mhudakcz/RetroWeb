@@ -8,7 +8,7 @@ export const KOFI_URL = 'https://ko-fi.com/michalhudak';
  *  Zdarma na https://web3forms.com — zadáš svůj Gmail, dostaneš klíč, vložíš sem.
  *  Formuláře pak chodí přímo na tvůj Gmail a tvůj e-mail není na webu vidět.
  *  Dokud je prázdné, formulář zobrazí upozornění místo odeslání. */
-export const WEB3FORMS_KEY = '';
+export const WEB3FORMS_KEY = '17c8dd9c-a936-460a-a65e-eb689fb1dd4a';
 
 /** Zapnuté funkce (pro snadné skrytí, když ještě nemáš klíče). */
 export const FEATURES = {
