@@ -3,7 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import type { Locale } from '../lib/i18n';
-import { DEFAULT_LOCALE } from '../lib/i18n';
+import { DEFAULT_LOCALE, LOCALES, localizePath } from '../lib/i18n';
 
 interface Props {
   title: string;
@@ -21,6 +21,20 @@ const {
   localized = false,
 } = Astro.props;
 const fullTitle = title === 'RetroWeb' ? title : `${title} · RetroWeb`;
+
+// --- SEO: canonical + hreflang alternativy pro jazykové varianty ---
+const site = Astro.site ?? new URL('https://retrowebcz.netlify.app');
+const pathname = Astro.url.pathname;
+const parts = pathname.split('/').filter(Boolean);
+const hasLocalePrefix = parts[0] && parts[0] !== DEFAULT_LOCALE && (LOCALES as readonly string[]).includes(parts[0]);
+const basePath = '/' + (hasLocalePrefix ? parts.slice(1) : parts).join('/');
+const withSlash = (p: string) => (p === '/' ? '/' : p.endsWith('/') ? p : p + '/');
+const abs = (p: string) => new URL(withSlash(p), site).href;
+const canonical = abs(basePath === '/' ? (hasLocalePrefix ? `/${parts[0]}` : '/') : pathname);
+// alternativy jen pro stránky, které mají všechny jazykové verze
+const alternates = localized
+  ? LOCALES.map((l) => ({ hreflang: l, href: abs(localizePath(l, basePath)) }))
+  : [];
 ---
 
 <!doctype html>
@@ -32,6 +46,9 @@ const fullTitle = title === 'RetroWeb' ? title : `${title} · RetroWeb`;
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
+    {localized && <link rel="alternate" hreflang="x-default" href={abs(localizePath('cs', basePath))} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
       (function () {
