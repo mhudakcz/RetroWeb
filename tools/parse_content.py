@@ -469,6 +469,8 @@ def build():
     game_play = json.loads(play_file.read_text(encoding="utf-8")) if play_file.exists() else {}
     players_file = ROOT / "src" / "data" / "game_players.json"
     game_players = json.loads(players_file.read_text(encoding="utf-8")) if players_file.exists() else {}
+    meta_file = ROOT / "src" / "data" / "game_meta.json"
+    game_meta = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
     ratings_file = ROOT / "src" / "data" / "game_ratings.json"
     game_ratings_raw = json.loads(ratings_file.read_text(encoding="utf-8")) if ratings_file.exists() else {}
     # zploštění na jeden štítek: preferuj PEGI, jinak ESRB
@@ -522,6 +524,8 @@ def build():
             game_play[new] = game_play[old]
         if old in game_players:
             game_players[new] = game_players[old]
+        if old in game_meta:
+            game_meta[new] = game_meta[old]
         if old in game_ratings:
             game_ratings[new] = game_ratings[old]
     (ROOT / "src" / "data" / "slug_remap.json").write_text(
@@ -562,6 +566,13 @@ def build():
                 gslug = f"{gslug}-{seen_gslugs[gslug]}"
             else:
                 seen_gslugs[gslug] = 1
+
+            # fallback rok/studio z Wikidata (game_meta.json), když je z podkladů nemáme
+            gm = game_meta.get(gslug) or {}
+            if not year and gm.get("year"):
+                year = gm["year"]
+            if not studio and gm.get("studio"):
+                studio = gm["studio"]
 
             sub = f"games/{slug}"
             gallery = []

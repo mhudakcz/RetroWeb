@@ -3,8 +3,16 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "3ds__bravely-default": {
+    "esrb": "Q14864330",
+    "pegi": "PEGI 12"
+  },
   "3ds__cave-story-3d": {
     "esrb": "Everyone 10+"
+  },
+  "3ds__dragon-quest-viii": {
+    "esrb": "Q14864330",
+    "pegi": "PEGI 12"
   },
   "3ds__etrian-odyssey-iv": {
     "esrb": "Teen"
@@ -12,6 +20,10 @@
   "3ds__fire-emblem-awakening": {
     "esrb": "Teen",
     "pegi": "Q14915515"
+  },
+  "3ds__kingdom-hearts-3d-dream-drop-distance": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 12"
   },
   "3ds__legend-of-zelda-link-between-worlds": {
     "esrb": "Everyone",
@@ -25,6 +37,18 @@
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
+  "3ds__mario-and-luigi-dream-team": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "3ds__mario-kart-7": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "3ds__mario-sports-superstars": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "3ds__metroid-samus-returns": {
     "esrb": "Everyone 10+",
     "pegi": "PEGI 7"
@@ -32,11 +56,22 @@
   "3ds__monster-hunter-4-ultimate": {
     "esrb": "Teen"
   },
+  "3ds__monster-hunter-generations": {
+    "esrb": "Q14864330"
+  },
+  "3ds__paper-mario-sticker-star": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "3ds__phoenix-wright-ace-attorney-dual-destinies": {
     "esrb": "Mature 17+",
     "pegi": "PEGI 16"
   },
   "3ds__resident-evil-revelations": {
+    "esrb": "Mature 17+",
+    "pegi": "PEGI 16"
+  },
+  "3ds__shin-megami-tensei-iv": {
     "esrb": "Mature 17+",
     "pegi": "PEGI 16"
   },
@@ -47,9 +82,17 @@
     "esrb": "Everyone 10+",
     "pegi": "PEGI 7"
   },
+  "3ds__super-mario-3d-land": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "3ds__super-smash-bros-for-nintendo-3ds": {
     "esrb": "Everyone 10+",
     "pegi": "Q14915515"
+  },
+  "3ds__tekken-3d-prime-edition": {
+    "esrb": "Q14864330",
+    "pegi": "PEGI 16"
   },
   "3ds__yoshi-s-new-island": {
     "esrb": "Everyone",
@@ -169,6 +212,18 @@
   "dreamcast__sword-of-berserk-guts-rage": {
     "esrb": "Mature 17+"
   },
+  "game-boy-advance__advance-wars": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__advance-wars-2-black-hole-rising": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-advance__astro-boy-omega-factor": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "game-boy-advance__boktai-sun-is-in-your-hand": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
@@ -183,6 +238,12 @@
   "game-boy-advance__castlevania-harmony-of-dissonance": {
     "esrb": "Teen",
     "pegi": "PEGI 7"
+  },
+  "game-boy-advance__denki-blocks": {
+    "esrb": "Everyone"
+  },
+  "game-boy-advance__drill-dozer": {
+    "esrb": "Everyone"
   },
   "game-boy-advance__final-fantasy-i-and-ii-dawn-of-souls": {
     "esrb": "Everyone",
@@ -204,6 +265,13 @@
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
+  "game-boy-advance__iridion-ii": {
+    "esrb": "Everyone"
+  },
+  "game-boy-advance__kirby-and-amazing-mirror": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "game-boy-advance__kirby-nightmare-in-dream-land": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
@@ -212,7 +280,15 @@
     "esrb": "Everyone 10+",
     "pegi": "PEGI 3"
   },
+  "game-boy-advance__lego-star-wars-video-game": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
   "game-boy-advance__mario-and-luigi-superstar-saga": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-advance__mario-vs-donkey-kong": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
@@ -242,12 +318,35 @@
     "esrb": "Teen",
     "pegi": "Q14915515"
   },
+  "game-boy-advance__super-mario-advance-4-super-mario-bros-3": {
+    "esrb": "Everyone"
+  },
+  "game-boy-advance__tekken-advance": {
+    "esrb": "Q14864330"
+  },
   "game-boy-advance__wario-land-4": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "game-boy-color__bionic-commando-elite-forces": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__donkey-kong-country": {
+    "esrb": "Kids to Adults",
+    "pegi": "PEGI 3"
+  },
+  "game-boy-color__dragon-warrior-monsters": {
+    "esrb": "Everyone"
+  },
   "game-boy-color__kirby-tilt-n-tumble": {
     "esrb": "Everyone"
+  },
+  "game-boy-color__lufia-legend-returns": {
+    "esrb": "Everyone"
+  },
+  "game-boy-color__pokemon-crystal": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
   },
   "game-boy-color__pokemon-pinball": {
     "esrb": "Everyone"
@@ -256,6 +355,10 @@
     "esrb": "Teen"
   },
   "game-boy-color__shantae": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "game-boy-color__star-wars-episode-i-racer": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
@@ -294,8 +397,18 @@
     "esrb": "Mature 17+",
     "pegi": "PEGI 18"
   },
+  "game-boy__castlevania-adventure": {
+    "esrb": "Everyone"
+  },
   "game-boy__donkey-kong": {
     "esrb": "Everyone"
+  },
+  "game-boy__dr-mario": {
+    "esrb": "Everyone"
+  },
+  "game-boy__gargoyle-s-quest": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
   },
   "game-boy__legend-of-zelda-link-s-awakening": {
     "esrb": "Everyone",
@@ -312,6 +425,9 @@
     "esrb": "Kids to Adults",
     "pegi": "PEGI 7"
   },
+  "game-boy__mole-mania": {
+    "esrb": "Everyone"
+  },
   "game-boy__pipe-dream": {
     "esrb": "Everyone"
   },
@@ -319,11 +435,21 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "game-boy__street-fighter-ii": {
+    "esrb": "Everyone 10+"
+  },
   "game-boy__super-mario-land-2-6-golden-coins": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
   "game-boy__sword-of-hope-ii": {
+    "esrb": "Everyone"
+  },
+  "game-boy__wario-land-super-mario-land-3": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-boy__wave-race": {
     "esrb": "Everyone"
   },
   "game-gear__columns": {
@@ -344,7 +470,15 @@
     "esrb": "Teen",
     "pegi": "PEGI 16"
   },
+  "game-gear__sonic-chaos": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
   "game-gear__sonic-hedgehog": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "game-gear__tails-adventure": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
@@ -363,9 +497,17 @@
     "esrb": "Mature 17+",
     "pegi": "Q14915515"
   },
+  "master-system__phantasy-star": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
+  },
   "master-system__shinobi": {
     "esrb": "Teen",
     "pegi": "PEGI 16"
+  },
+  "master-system__sonic-chaos": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
   },
   "master-system__sonic-hedgehog": {
     "esrb": "Everyone",
@@ -378,6 +520,12 @@
   "master-system__wonder-boy-in-monster-world": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
+  },
+  "mega-drive__adventures-of-batman-and-robin": {
+    "esrb": "Kids to Adults"
+  },
+  "mega-drive__alien-soldier": {
+    "esrb": "Everyone 10+"
   },
   "mega-drive__castle-of-illusion-starring-mickey-mouse": {
     "esrb": "Everyone",
@@ -397,6 +545,10 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "mega-drive__dynamite-headdy": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
   "mega-drive__ecco-dolphin": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
@@ -411,11 +563,18 @@
     "esrb": "Everyone",
     "pegi": "Q14915515"
   },
+  "mega-drive__golden-axe-ii": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 12"
+  },
   "mega-drive__landstalker": {
     "pegi": "PEGI 7"
   },
   "mega-drive__light-crusader": {
     "esrb": "Everyone"
+  },
+  "mega-drive__mega-turrican": {
+    "esrb": "Everyone 10+"
   },
   "mega-drive__mortal-kombat": {
     "esrb": "Mature 17+",
@@ -433,9 +592,50 @@
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
+  "mega-drive__ristar": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "mega-drive__shining-in-darkness": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "mega-drive__sonic-and-knuckles": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "mega-drive__sonic-hedgehog-2": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
   "mega-drive__sonic-hedgehog-3": {
     "esrb": "Everyone",
     "pegi": "PEGI 3"
+  },
+  "mega-drive__streets-of-rage-2": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
+  "mega-drive__streets-of-rage-3": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 12"
+  },
+  "mega-drive__strider": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
+  },
+  "mega-drive__thunder-force-iii": {
+    "pegi": "PEGI 3"
+  },
+  "mega-drive__thunder-force-iv": {
+    "pegi": "PEGI 12"
+  },
+  "mega-drive__toejam-and-earl-in-panic-on-funkotron": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "mega-drive__xeno-crisis": {
+    "esrb": "Q14864330"
   },
   "n64__1080-snowboarding": {
     "esrb": "Everyone",
@@ -531,6 +731,9 @@
     "esrb": "Teen",
     "pegi": "Q14915515"
   },
+  "nds__contra-4": {
+    "esrb": "Q14864330"
+  },
   "nds__fire-emblem-shadow-dragon": {
     "esrb": "Everyone 10+",
     "pegi": "PEGI 7"
@@ -560,6 +763,14 @@
     "pegi": "PEGI 3"
   },
   "nds__mario-and-luigi-partners-in-time": {
+    "pegi": "PEGI 3"
+  },
+  "nds__mario-and-sonic-at-olympic-games": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "nds__mario-party-ds": {
+    "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
   "nds__nintendogs": {
@@ -612,6 +823,10 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "nes__castlevania-ii-simon-s-quest": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
   "nes__castlevania-iii-dracula-s-curse": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
@@ -629,6 +844,10 @@
   "nes__kid-icarus": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
+  },
+  "nes__kirby-s-adventure": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
   },
   "nes__mega-man": {
     "esrb": "Everyone",
@@ -663,12 +882,26 @@
   "nes__ninja-gaiden-ii-dark-sword-of-chaos": {
     "esrb": "Everyone"
   },
+  "nes__pac-man": {
+    "esrb": "Everyone"
+  },
   "nes__punch-out": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
   "nes__startropics": {
     "pegi": "PEGI 7"
+  },
+  "nes__super-mario-bros": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "nes__super-mario-bros-3": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "nes__tecmo-bowl": {
+    "esrb": "Everyone"
   },
   "nes__wario-s-woods": {
     "esrb": "Everyone"
@@ -933,12 +1166,20 @@
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
+  "snes__chrono-trigger": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 12"
+  },
   "snes__demon-s-crest": {
     "esrb": "Everyone"
   },
   "snes__donkey-kong-country": {
     "esrb": "Kids to Adults",
     "pegi": "PEGI 3"
+  },
+  "snes__earthbound": {
+    "esrb": "Q14864330",
+    "pegi": "PEGI 12"
   },
   "snes__f-zero": {
     "esrb": "Everyone",
@@ -954,8 +1195,23 @@
   "snes__joe-and-mac": {
     "esrb": "Everyone"
   },
+  "snes__kirby-s-dream-course": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "snes__kirby-super-star": {
+    "pegi": "PEGI 3"
+  },
+  "snes__legend-of-zelda-link-to-past": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
+  },
   "snes__lion-king": {
     "esrb": "Kids to Adults"
+  },
+  "snes__mega-man-x": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 7"
   },
   "snes__mortal-kombat-ii": {
     "esrb": "Mature 17+",
@@ -971,9 +1227,16 @@
     "esrb": "Everyone 10+",
     "pegi": "PEGI 7"
   },
+  "snes__star-fox": {
+    "esrb": "Kids to Adults"
+  },
   "snes__street-fighter-alpha-2": {
     "esrb": "Teen",
     "pegi": "Q14915515"
+  },
+  "snes__super-castlevania-iv": {
+    "esrb": "Everyone 10+",
+    "pegi": "PEGI 7"
   },
   "snes__super-ghouls-n-ghosts": {
     "esrb": "Everyone",
@@ -991,11 +1254,22 @@
     "esrb": "Everyone",
     "pegi": "PEGI 3"
   },
+  "snes__super-mario-world-2-yoshi-s-island": {
+    "esrb": "Everyone",
+    "pegi": "PEGI 3"
+  },
+  "snes__super-metroid": {
+    "esrb": "Kids to Adults",
+    "pegi": "PEGI 7"
+  },
   "snes__super-star-wars": {
     "esrb": "Everyone",
     "pegi": "PEGI 7"
   },
   "snes__tetris-attack": {
+    "esrb": "Everyone"
+  },
+  "snes__wario-s-woods": {
     "esrb": "Everyone"
   },
   "snes__yeah-yeah-beebiss-ii": {

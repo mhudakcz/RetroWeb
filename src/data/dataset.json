@@ -152,7 +152,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy__tetris",
@@ -401,7 +401,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "game-boy__castlevania-adventure",
@@ -436,7 +436,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy__kid-dracula",
@@ -643,7 +643,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy__kwirk",
@@ -717,7 +717,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy__boxxle",
@@ -1314,7 +1314,7 @@
             "homebrew",
             "mature"
           ],
-          "year": null,
+          "year": "2019",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -1450,8 +1450,8 @@
           "genre": "Arcade / Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1986",
+          "studio": "Taito",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -1607,8 +1607,8 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1990",
+          "studio": "Square",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -1651,8 +1651,8 @@
           "genre": "Fighting",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -1668,7 +1668,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone 10+"
         },
         {
           "slug": "game-boy__wave-race",
@@ -1676,8 +1676,8 @@
           "genre": "Racing",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -1693,7 +1693,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy__nintendo-world-cup",
@@ -2149,7 +2149,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy-color__toki-tori",
@@ -2402,7 +2402,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-color__smurfs-nightmare",
@@ -2410,8 +2410,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1997",
+          "studio": "VD-dev",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -2482,8 +2482,8 @@
           "flags": [
             "mature"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2001",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -2577,7 +2577,7 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
+          "year": "2001",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -2639,7 +2639,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-color__game-and-watch-gallery-3",
@@ -2699,7 +2699,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "game-boy-color__hamtaro-ham-hams-unite",
@@ -2822,7 +2822,7 @@
             "mustplay",
             "homebrew"
           ],
-          "year": null,
+          "year": "1992",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -2843,7 +2843,7 @@
           "flags": [
             "homebrew"
           ],
-          "year": null,
+          "year": "2020",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -2862,8 +2862,8 @@
           "genre": "Adventure / RPG",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1997",
+          "studio": "Lucasfilm Games",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -2922,8 +2922,8 @@
           "genre": "JRPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2000",
+          "studio": "Game Freak",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -2939,7 +2939,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy-color__pokemon-red-blue-yellow",
@@ -3016,8 +3016,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1999",
+          "studio": "Nintendo Research & Development 2",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -3066,8 +3066,8 @@
           "genre": "Pinball",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1999",
+          "studio": "Jupiter",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -3091,8 +3091,8 @@
           "genre": "JRPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1998",
+          "studio": "Enix",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -3108,7 +3108,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-color__harvest-moon-gbc",
@@ -3529,7 +3529,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "game-boy-advance__advance-wars-2-black-hole-rising",
@@ -3537,8 +3537,8 @@
           "genre": "Strategy / Tactics",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2003",
+          "studio": "Intelligent Systems",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -3564,7 +3564,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "game-boy-advance__fire-emblem",
@@ -3607,8 +3607,8 @@
           "genre": "Tactics-RPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2004",
+          "studio": "Intelligent Systems",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -3834,7 +3834,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-advance__kirby-and-amazing-mirror",
@@ -3869,7 +3869,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy-advance__kirby-nightmare-in-dream-land",
@@ -3877,8 +3877,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2002",
+          "studio": "HAL Laboratory",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4104,7 +4104,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy-advance__drill-dozer",
@@ -4139,7 +4139,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-advance__mother-3",
@@ -4398,8 +4398,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "Mitchell Corporation",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4462,7 +4462,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-advance__goodboy-galaxy-ish",
@@ -4556,8 +4556,8 @@
           "genre": "Tactics-RPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2001",
+          "studio": "Quest",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4591,8 +4591,8 @@
           "genre": "Strategy / Tactics",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "Codo Technologies",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4626,8 +4626,8 @@
           "genre": "Action",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2002",
+          "studio": "Helixe",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4781,8 +4781,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2003",
+          "studio": "Inti Creates",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4806,8 +4806,8 @@
           "genre": "Action-RPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2002",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4831,8 +4831,8 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2004",
+          "studio": "Tose Co.",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4856,8 +4856,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2001",
+          "studio": "Sonic Team",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4958,8 +4958,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2004",
+          "studio": "Nintendo Software Technology",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -4975,7 +4975,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy-advance__lego-star-wars-video-game",
@@ -4983,8 +4983,8 @@
           "genre": "Action / rodinné",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "Traveller's Tales",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5000,7 +5000,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-boy-advance__lego-star-wars-ii-original-trilogy",
@@ -5008,8 +5008,8 @@
           "genre": "Action / rodinné",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2006",
+          "studio": "Traveller's Tales",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5158,8 +5158,8 @@
           "genre": "Fighting",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2002",
+          "studio": "Crawfish Interactive",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5183,8 +5183,8 @@
           "genre": "Fighting",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2001",
+          "studio": "Namco",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5200,7 +5200,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Q14864330"
         },
         {
           "slug": "game-boy-advance__gradius-galaxies",
@@ -5233,8 +5233,8 @@
           "genre": "Shmup",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2003",
+          "studio": "Shin'en Multimedia",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5250,7 +5250,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "game-boy-advance__mario-tennis-power-tour",
@@ -5404,8 +5404,8 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "AlphaDream",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5439,8 +5439,8 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2009",
+          "studio": "AlphaDream",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5474,8 +5474,8 @@
           "genre": "Action-adventure",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2007",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5509,8 +5509,8 @@
           "genre": "Action-adventure",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2009",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5699,8 +5699,8 @@
           "genre": "Metroidvania",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2006",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5734,8 +5734,8 @@
           "genre": "Metroidvania",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2008",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5769,8 +5769,8 @@
           "genre": "Tactics",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "Intelligent Systems",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5804,8 +5804,8 @@
           "genre": "Tactics-RPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2008",
+          "studio": "Intelligent Systems",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -5981,8 +5981,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "HAL Laboratory",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6016,8 +6016,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2008",
+          "studio": "HAL Laboratory",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6053,8 +6053,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2007",
+          "studio": "Level-5",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6088,8 +6088,8 @@
           "genre": "Adventura / Vizuální román",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2001",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6265,8 +6265,8 @@
           "genre": "Run & gun",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2007",
+          "studio": "WayForward Technologies",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6292,7 +6292,7 @@
           "link": null,
           "playUrl": null,
           "players": "1–2 · co-op",
-          "rating": null
+          "rating": "ESRB Q14864330"
         },
         {
           "slug": "nds__grand-theft-auto-chinatown-wars",
@@ -6337,8 +6337,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2009",
+          "studio": "5th Cell",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6372,8 +6372,8 @@
           "genre": "Sim",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2005",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6443,7 +6443,7 @@
           "length": "M",
           "flags": [],
           "year": null,
-          "studio": null,
+          "studio": "Nintendo Software Planning & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6474,8 +6474,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2006",
+          "studio": "Nintendo",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6509,8 +6509,8 @@
           "genre": "Party",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2007",
+          "studio": "Hudson Soft",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6536,7 +6536,7 @@
           "link": null,
           "playUrl": null,
           "players": "1–4 · download play",
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "nds__jump-ultimate-stars",
@@ -6544,8 +6544,8 @@
           "genre": "Fighting",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2006",
+          "studio": "Ganbarion",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6614,8 +6614,8 @@
           "genre": "Sport",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2007",
+          "studio": "Sega Sports R&D",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6641,7 +6641,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         }
       ]
     },
@@ -6665,8 +6665,8 @@
           "genre": "Plošinovka 3D",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2011",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6692,7 +6692,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "3ds__mario-kart-7",
@@ -6700,8 +6700,8 @@
           "genre": "Racing",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2011",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -6727,7 +6727,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "3ds__legend-of-zelda-link-between-worlds",
@@ -6735,8 +6735,8 @@
           "genre": "Action-adventure",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2013",
+          "studio": "Nintendo Entertainment Analysis & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7225,8 +7225,8 @@
           "genre": "Action-RPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2015",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7252,7 +7252,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Q14864330"
         },
         {
           "slug": "3ds__bravely-default",
@@ -7260,8 +7260,8 @@
           "genre": "JRPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2012",
+          "studio": "Silicon Studio",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7287,7 +7287,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "3ds__shin-megami-tensei-iv",
@@ -7295,7 +7295,7 @@
           "genre": "JRPG",
           "length": "XL",
           "flags": [],
-          "year": null,
+          "year": "2013",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -7322,7 +7322,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 16"
         },
         {
           "slug": "3ds__etrian-odyssey-iv",
@@ -7467,8 +7467,8 @@
           "genre": "Action-RPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2012",
+          "studio": "Square Enix",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7494,7 +7494,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "3ds__dragon-quest-viii",
@@ -7502,8 +7502,8 @@
           "genre": "JRPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2004",
+          "studio": "Level-5",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7529,7 +7529,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "3ds__mario-and-luigi-dream-team",
@@ -7537,8 +7537,8 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2013",
+          "studio": "AlphaDream",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7564,7 +7564,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "3ds__paper-mario-sticker-star",
@@ -7572,8 +7572,8 @@
           "genre": "Adventura / RPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2012",
+          "studio": "Nintendo",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7599,7 +7599,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "3ds__donkey-kong-country-returns-3d",
@@ -7607,7 +7607,7 @@
           "genre": "Plošinovka",
           "length": "L",
           "flags": [],
-          "year": null,
+          "year": "2013",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -7642,8 +7642,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2014",
+          "studio": "Arzest",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7677,8 +7677,8 @@
           "genre": "Rhythm",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2015",
+          "studio": "Nintendo Software Planning & Development",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7801,8 +7801,8 @@
           "genre": "Fighting",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2012",
+          "studio": "Arika",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7828,7 +7828,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 16"
         },
         {
           "slug": "3ds__mario-sports-superstars",
@@ -7836,8 +7836,8 @@
           "genre": "Sport",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2017",
+          "studio": "Bandai Namco Entertainment",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -7863,7 +7863,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         }
       ]
     },
@@ -7914,7 +7914,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "nes__super-mario-bros",
@@ -7949,7 +7949,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "nes__legend-of-zelda",
@@ -8132,8 +8132,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -8219,7 +8219,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "nes__ducktales",
@@ -8614,8 +8614,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1984",
+          "studio": "Alexey Pajitnov",
           "est": null,
           "teaser": "Dvě nejlepší logické hry konzole.",
           "detail": null,
@@ -8651,8 +8651,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1990",
+          "studio": "Nintendo Research & Development 1",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -8762,8 +8762,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Nintendo Research & Development 1",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9009,8 +9009,8 @@
           "genre": "Beat 'em up",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9190,7 +9190,7 @@
             "mustplay",
             "homebrew"
           ],
-          "year": null,
+          "year": "2018",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -9548,7 +9548,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "nes__mega-man",
@@ -9556,8 +9556,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1987",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9581,8 +9581,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9606,8 +9606,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9731,8 +9731,8 @@
           "genre": "Shmup",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1988",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9756,8 +9756,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1986",
+          "studio": "Hudson Soft",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9781,8 +9781,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1990",
+          "studio": "Rare Ltd.",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9806,8 +9806,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9831,8 +9831,8 @@
           "genre": "Sport",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Tecmo",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9932,7 +9932,7 @@
           "length": "S",
           "flags": [],
           "year": null,
-          "studio": null,
+          "studio": "Codemasters",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9956,8 +9956,8 @@
           "genre": "Racing / Akce",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Rare Ltd.",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -9981,8 +9981,8 @@
           "genre": "Racing",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1982",
+          "studio": "Data East",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -10106,8 +10106,8 @@
           "genre": "Sport / Fotbal",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1987",
+          "studio": "Tecmo",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -10123,7 +10123,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "nes__castlevania-ii-simon-s-quest",
@@ -10131,8 +10131,8 @@
           "genre": "Metroidvania",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1987",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -10148,7 +10148,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "nes__yie-ar-kung-fu",
@@ -10156,8 +10156,8 @@
           "genre": "Fighting",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1985",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -10206,8 +10206,8 @@
           "genre": "Strategy / Sim",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1983",
+          "studio": "Koei Tecmo Games",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -10359,7 +10359,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "snes__legend-of-zelda-link-to-past",
@@ -10394,7 +10394,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "snes__chrono-trigger",
@@ -10429,7 +10429,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "snes__super-mario-world-2-yoshi-s-island",
@@ -10464,7 +10464,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "snes__donkey-kong-country-1-3",
@@ -10674,7 +10674,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "snes__super-mario-rpg-legend-of-seven-stars",
@@ -10744,7 +10744,7 @@
           "link": null,
           "playUrl": null,
           "players": "1–2 · co-op",
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "snes__mega-man-x",
@@ -10779,7 +10779,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "snes__mega-man-x2-x3",
@@ -10979,7 +10979,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Kids to Adults"
         },
         {
           "slug": "snes__kirby-super-star",
@@ -11014,7 +11014,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "snes__kirby-s-dream-course",
@@ -11051,7 +11051,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "snes__super-punch-out",
@@ -11199,8 +11199,8 @@
           "genre": "Action-RPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Quintet",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -11335,7 +11335,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone"
         },
         {
           "slug": "snes__lost-vikings",
@@ -11756,8 +11756,14 @@
           "teaser": null,
           "detail": null,
           "article": "Některé hry jsou slavné svou kvalitou, jiné svou kuriózní existencí — a **Yeah Yeah Beebiss II** patří k těm druhým s grácií, jaká se jen tak nevidí. Už samotný název zní jako překlep nebo vtip, a právě tahle aura podivnosti z titulu dělá nezapomenutelnou položku v katalogu plošinovek.\n\nV jádru jde o akční plošinovku, žánr, který byl na konzolích Nintenda odjakživa královskou disciplínou. Skáčete, vyhýbáte se nástrahám, sbíráte předměty a probíjíte se úrovněmi — osvědčená formule, která dala vzniknout nesčetným klasikám a která má i ve své nejprostší podobě jistou neodolatelnou přitažlivost. Plošinovka je pro retro hraní tím, čím je chleba pro kuchyni: základ, na kterém stojí všechno ostatní.\n\nCo dělá hru s tak bizarním jménem zajímavou, je především samotná zvídavost, kterou vzbuzuje. Plošinovkové tituly jako tento jsou pozvánkou prozkoumat méně probádaná zákoutí herní historie, ona zapomenutá nebo přehlížená dílka, která se skrývají ve stínu velkých jmen. Právě v těchto koutech se často skrývají nečekané perly i okouzlující kuriozity.\n\nKrása plošinovek tkví v jejich přímočarosti. Nepotřebujete manuál ani hodiny tutoriálu — vezmete ovladač, stisknete tlačítko skoku a okamžitě víte, co máte dělat. Tahle bezprostřednost je dělá ideálními pro krátké session i pro nostalgické návraty, kdy si chcete jen tak připomenout, proč jste se kdysi do hraní zamilovali.\n\n**Yeah Yeah Beebiss II** je tak nejlepší brát s úsměvem a otevřenou myslí — jako jednu z těch hříček, které stojí za vyzkoušení už jen kvůli zážitku a té zvláštní radosti z objevování neznámého. Herní historie je plná takových svérázných položek a právě ony jí dodávají barvu.\n\n**Proč hrát:** Pro milovníky klasických plošinovek a kuriozit herní historie — titul, který vás chytí už svým podivným názvem a odmění přímočarou skákací zábavou.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/snes/snes__yeah-yeah-beebiss-ii.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__yeah-yeah-beebiss-ii.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -11769,8 +11775,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Sculptured Software",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -11804,8 +11810,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Sculptured Software",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -11839,8 +11845,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Sculptured Software",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -11874,8 +11880,8 @@
           "genre": "Sim / Strategy",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "High Voltage Software",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12049,8 +12055,8 @@
           "genre": "Strategy (god game)",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Bullfrog Productions",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12084,8 +12090,8 @@
           "genre": "Strategy-RPG",
           "length": "XL",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Quest",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12366,8 +12372,8 @@
           "genre": "Cinematic / Adventure",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Delphine Software International",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12402,7 +12408,7 @@
           "length": "S",
           "flags": [],
           "year": null,
-          "studio": null,
+          "studio": "Codemasters",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12426,8 +12432,8 @@
           "genre": "Racing",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Gremlin Interactive",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12576,8 +12582,8 @@
           "genre": "Plošinovka",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Rare Ltd.",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12651,8 +12657,8 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1996",
+          "studio": "Square",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12778,8 +12784,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1995",
+          "studio": "Intelligent Systems",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12803,8 +12809,8 @@
           "genre": "Run & gun",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Lucasfilm Games",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12828,8 +12834,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "2020",
+          "studio": "Crisp App Studio",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12853,8 +12859,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Westwood Studios",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -12978,8 +12984,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -13003,8 +13009,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Data East",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -13028,8 +13034,8 @@
           "genre": "Action-adventure",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -13053,8 +13059,8 @@
           "genre": "Fighting",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1996",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -13078,7 +13084,7 @@
           "genre": "Sport / Tenis",
           "length": "M",
           "flags": [],
-          "year": null,
+          "year": "1985",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -13178,8 +13184,8 @@
           "genre": "Racing",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Gremlin Interactive",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -13254,8 +13260,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Sonic Team",
           "est": null,
           "teaser": "Maskot Segy; rychlost, smyčky, ikonická hudba. Trojka + Knuckles je vrchol.",
           "detail": null,
@@ -13271,7 +13277,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "mega-drive__streets-of-rage-2",
@@ -13306,7 +13312,7 @@
           "link": null,
           "playUrl": null,
           "players": "1–2 · co-op",
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "mega-drive__streets-of-rage-3",
@@ -13341,7 +13347,7 @@
           "link": null,
           "playUrl": null,
           "players": "1–2 · co-op",
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "mega-drive__gunstar-heroes",
@@ -13656,7 +13662,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "mega-drive__vectorman-1-and-2",
@@ -13881,7 +13887,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone 10+"
         },
         {
           "slug": "mega-drive__dynamite-headdy",
@@ -13916,7 +13922,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "mega-drive__earthworm-jim-1-and-2",
@@ -14089,8 +14095,8 @@
           "genre": "Action-RPG / Puzzle",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1995",
+          "studio": "Treasure",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -14219,8 +14225,8 @@
           "genre": "Action / Puzzle",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Bizarre Creations",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -14365,8 +14371,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Sonic Team",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -14402,8 +14408,8 @@
           "flags": [
             "puzzle"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Genki",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -14505,8 +14511,8 @@
           "flags": [
             "mustplay"
           ],
-          "year": null,
-          "studio": null,
+          "year": "2019",
+          "studio": "Bitmap Bureau",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -14532,7 +14538,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Q14864330"
         },
         {
           "slug": "mega-drive__lyle-in-cube-sector",
@@ -14549,8 +14555,14 @@
           "teaser": null,
           "detail": null,
           "article": "Někdy je nejlepší poctou staré hře to, že jí dáte nový domov. Lyle in Cube Sector začal život jako kultovní freewarová PC metroidvania, a tahle verze ji v roce 2024 přenáší na SEGA Mega Drive – tam, kde by se podobné dobrodružství klidně mohlo zrodit už v devadesátých letech.\n\nZáklad zůstává věrný žánrovému kánonu: prozkoumáváte propojený, zpočátku nepřístupný svět, postupně získáváte nové schopnosti a s každou z nich se vám otevírají dříve zavřené cesty. Ústřední mechanikou je manipulace s kostkami – Lyle umí krychle zvedat, házet a používat je jako nástroj k řešení hádanek i jako zbraň. Tahle jednoduchá, ale nápaditá myšlenka dává hře osobitý charakter a odlišuje ji od běžných napodobenin Metroidu.\n\nMetroidvania jako žánr stojí a padá s pocitem objevování a s odměnou za zvědavost, a právě v tom Lyle exceluje. Mapa vás láká vracet se na dříve nedostupná místa, hledat skrytá zákoutí a skládat si svět jako puzzle. Je to ten typ hry, kde radost nepramení z lineárního postupu, ale z momentu, kdy si uvědomíte, že nová schopnost vám konečně umožní dostat se tam, kde jste předtím jen bezmocně stáli.\n\nPřevod na Mega Drive je sám o sobě technicky zajímavý počin. Přenést PC titul na 16bitový hardware znamená respektovat omezení paměti, počtu sprite ů i barevné palety, a přesto zachovat ducha originálu. Homebrew scéna kolem Mega Drive se v posledních letech naučila takové porty zvládat působivě a tahle konverze je dalším dokladem toho, jak živá komunita kolem konzole je.\n\nU homebrew portů tohoto druhu nemá smysl spekulovat o prodejích či žebříčcích – jde o projekt tvořený z lásky k předloze a k platformě. Ověřitelné je ovšem to, že originál si vybudoval pevnou skupinu příznivců právě díky své přístupné, ale chytlavé hratelnosti, a ta se v 16bitovém kabátě neztrácí.\n\nPokud máte slabost pro metroidvanie a zároveň vás baví myšlenka znovuobjevených klasik na nečekaných platformách, je tahle verze přesně tím druhem objevu, který stojí za pozornost.\n\n**Proč hrát:** Pro chytlavou metroidvania průzkumnost s originální mechanikou kostek, navíc v podobě, jako by Mega Drive nikdy neopustila.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mega-drive/mega-drive__lyle-in-cube-sector.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__lyle-in-cube-sector.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -14666,7 +14678,7 @@
           "flags": [
             "homebrew"
           ],
-          "year": null,
+          "year": "2019",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -14701,8 +14713,8 @@
           "genre": "Strategy (RTS pioneer)",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Technosoft",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -14911,8 +14923,8 @@
           "genre": "Action / Shooter",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1983",
+          "studio": "Atari, Inc.",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15003,7 +15015,7 @@
             "mature"
           ],
           "year": null,
-          "studio": null,
+          "studio": "Midway Games",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15149,8 +15161,8 @@
           "genre": "Racing / motorky",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Electronic Arts",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15257,7 +15269,7 @@
             "puzzle"
           ],
           "year": null,
-          "studio": null,
+          "studio": "DMA Design",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15428,7 +15440,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "mega-drive__sonic-hedgehog-3",
@@ -15461,8 +15473,8 @@
           "genre": "Beat em up",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Sega",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15486,8 +15498,8 @@
           "genre": "Run & gun",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1995",
+          "studio": "BlueSky Software",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15586,8 +15598,8 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "ToeJam & Earl Productions",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15603,7 +15615,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "mega-drive__thunder-force-iii",
@@ -15611,8 +15623,8 @@
           "genre": "Shmup",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1990",
+          "studio": "Technosoft",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15628,7 +15640,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "mega-drive__thunder-force-iv",
@@ -15636,8 +15648,8 @@
           "genre": "Shmup",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Technosoft",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15653,7 +15665,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "mega-drive__ecco-dolphin",
@@ -15661,8 +15673,8 @@
           "genre": "Action-adventure",
           "length": "L",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "Appaloosa Interactive",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15786,8 +15798,8 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Capcom",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15803,7 +15815,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "mega-drive__golden-axe-ii",
@@ -15811,8 +15823,8 @@
           "genre": "Beat em up",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Sega",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15828,7 +15840,7 @@
           "link": null,
           "playUrl": null,
           "players": "1–2 · co-op",
-          "rating": null
+          "rating": "PEGI 12"
         },
         {
           "slug": "mega-drive__altered-beast",
@@ -15836,8 +15848,8 @@
           "genre": "Beat em up",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1988",
+          "studio": "Sega",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15861,8 +15873,8 @@
           "genre": "Run & gun",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Factor 5",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15878,7 +15890,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Everyone 10+"
         },
         {
           "slug": "mega-drive__pulseman",
@@ -15961,8 +15973,8 @@
           "genre": "Shmup",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1990",
+          "studio": "Telenet Japan",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -15986,7 +15998,7 @@
           "genre": "Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
+          "year": "1993",
           "studio": null,
           "est": null,
           "teaser": null,
@@ -16011,8 +16023,8 @@
           "genre": "Run & gun",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1994",
+          "studio": "Konami",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -16028,7 +16040,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "ESRB Kids to Adults"
         },
         {
           "slug": "mega-drive__story-of-thor",
@@ -16078,7 +16090,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "mega-drive__mutant-league-football",
@@ -16161,8 +16173,8 @@
           "genre": "Racing / motorky",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1995",
+          "studio": "Electronic Arts",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -16229,7 +16241,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "master-system__wonder-boy-iii-dragon-s-trap",
@@ -16434,7 +16446,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "master-system__castle-of-illusion",
@@ -16512,8 +16524,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Tokai Communications",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -16654,8 +16666,8 @@
           "flags": [
             "mature"
           ],
-          "year": null,
-          "studio": null,
+          "year": "1992",
+          "studio": "SIMS Co., Ltd.",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -16689,8 +16701,8 @@
           "genre": "Shmup",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1987",
+          "studio": "Irem",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -16894,8 +16906,14 @@
           "teaser": null,
           "detail": null,
           "article": "Když řeknete „nová hra pro SEGA Master System v 21. století\", většina lidí nevěří — a přesně proto je **Devwill Too** tak zajímavý. Jde o moderní homebrew plošinovku, která dokazuje, že tvořivost dávno přerostla hranice komerční podpory dávno mrtvého hardwaru.\n\nHra spadá do žánru akčních plošinovek: **prozkoumáváte úrovně, skáčete, bojujete s nepřáteli a postupujete k bossům**, přičemž design vychází vstříc klasické osmibitové škole. Devwill Too vzniklo původně pro několik retro platforem a jeho přenos na Master System je součástí širší vlny multiplatformních homebrew projektů.\n\nNa homebrew tvorbě je půvabné, jak její autoři ctí estetiku a omezení původního hardwaru, ale zároveň využívají dnešní znalosti a nástroje. Výsledkem bývají hry, které vypadají a hrají se „jako tehdy\", ale s vyladěností, kterou si dobový vývoj pod tlakem termínů často nemohl dovolit.\n\nPro komunitu okolo Master Systemu mají takové tituly zvláštní hodnotu — vycházejí na fyzických kazetách, mají vlastní obaly a stávají se sběratelskými kousky. Zároveň dávají majitelům staré konzole důvod ji znovu zapojit a objevit něco, co před pár lety vůbec neexistovalo.\n\nDevwill Too je třeba brát jako to, čím je: poctivou plošinovkovou zábavu vytvořenou z lásky k platformě, kterou je nejlepší hodnotit podle herního pocitu a řemesla, nikoli podle žebříčků prodejů. A v tomto ohledu obstojí jako milé osvěžení katalogu.\n\n**Proč hrát:** Důkaz, že Master System pořád žije — svěží homebrew plošinovka pro nadšence do osmibitové éry.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/master-system/master-system__devwill-too.webp",
+          "gallery": [
+            {
+              "src": "/images/games/master-system/master-system__devwill-too.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -16945,7 +16963,7 @@
             "puzzle"
           ],
           "year": null,
-          "studio": null,
+          "studio": "DMA Design",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -16969,8 +16987,8 @@
           "genre": "Arcade / Plošinovka",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1986",
+          "studio": "Taito",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17144,8 +17162,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1989",
+          "studio": "Ubisoft Reflections",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17217,7 +17235,7 @@
             "mature"
           ],
           "year": null,
-          "studio": null,
+          "studio": "Midway Games",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17417,8 +17435,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Sonic Team",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17452,8 +17470,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1993",
+          "studio": "Aspect",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17469,7 +17487,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 7"
         },
         {
           "slug": "game-gear__tails-adventure",
@@ -17504,7 +17522,7 @@
           "link": null,
           "playUrl": null,
           "players": null,
-          "rating": null
+          "rating": "PEGI 3"
         },
         {
           "slug": "game-gear__sonic-drift-2",
@@ -17689,8 +17707,8 @@
           "genre": "Roguelike / RPG",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1990",
+          "studio": "Sega",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17724,8 +17742,8 @@
           "genre": "Action-RPG / Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Westone Bit Entertainment",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -17759,8 +17777,8 @@
           "genre": "Platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
+          "year": "1991",
+          "studio": "Sega",
           "est": null,
           "teaser": null,
           "detail": null,
@@ -40785,8 +40803,14 @@
           "teaser": null,
           "detail": null,
           "article": "Některé homebrew hry jsou jen milým pozdravem komunity, jiné překvapí natolik, že si zaslouží místo po boku komerčních klasik. Yoomp! patří jednoznačně do té druhé kategorie – je to jeden z nejvíce ceněných moderních titulů pro osmibitová Atari a zároveň skvělá ukázka toho, že i na starém hardwaru lze postavit naprosto originální hratelnost. Spojuje akci a hlavolam způsobem, jaký na téhle platformě nemá obdoby.\n\nHráč ovládá poskakující míček uvnitř trubice, kterou kamera sleduje zevnitř ve specifické tunelové perspektivě. Cílem je provést míček stále složitějšími úseky, vyhýbat se dírám a překážkám a načasovat skoky tak, aby se neztratila rytmus. Tahle kombinace prostorové orientace a přesného timingu vytváří hratelnost, která je zpočátku matoucí, pak hypnotická a nakonec pořádně náročná. Je to hra, u níž se snadno chytíte do smyčky \"ještě jeden pokus\".\n\nCo na Yoomp! ohromuje, je technické provedení. Plynulý pohyb tunelu, čistá grafika a výrazný soundtrack ukazují, jak dobře tvůrci rozuměli možnostem osmibitového Atari. Hra působí svěže a moderně, přitom běží na stroji, jehož architektura pochází z konce sedmdesátých let. Právě tahle disproporce mezi stářím hardwaru a kvalitou výsledku z ní dělá vlajkovou loď celé homebrew scény.\n\nKulturní význam je v kontextu komunity nezanedbatelný. Yoomp! se stal jedním z titulů, na které fanoušci osmibitových Atari poukazují, když chtějí přesvědčit skeptiky, že platforma má pořád co nabídnout. Je to hra, která se neschovává za nostalgii – obstojí i jako svébytný, dobře navržený zážitek bez ohledu na to, na čem běží.\n\nPro nově příchozí je Yoomp! ideálním vstupem do světa moderního Atari homebrew. Není to archeologický artefakt, ale skutečná hra, kterou chcete dohrát. A to je u titulu pro téměř půl století starou platformu pozoruhodné.\n\n**Proč hrát:** Originální tunelová hratelnost a špičkové zpracování z ní dělají jeden z nejlepších důvodů, proč vůbec spustit emulátor osmibitového Atari.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/atari-8bit/atari-8bit__yoomp.webp",
+          "gallery": [
+            {
+              "src": "/images/games/atari-8bit/atari-8bit__yoomp.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": "https://yoomp.atari.pl/",
           "playUrl": null,
           "players": null,
@@ -42476,8 +42500,14 @@
           "teaser": null,
           "detail": null,
           "article": "JRPG na Commodore 64 zní jako protimluv. Žánr japonských hraní rolí přece patří konzolím, ne osmibitovému domácímu počítači ze Západu. A přesto právě tady moderní homebrew scéna ukazuje svoji odvahu: hry v duchu Briley Witch Chronicles přinášejí na C64 svět, který by tahle mašina v osmdesátých letech sotva utáhla. Stačí se ponořit do první výpravy a uvědomíte si, kolik práce a lásky se za podobnými projekty skrývá.\n\nJRPG staví na příběhu, postupném růstu postav a tahových soubojích. Hráč prochází světem, mluví s postavami, plní úkoly a postupně sleduje vyprávění, které se odvíjí v delším časovém oblouku než u většiny arkádových her. Souboje probíhají na samostatné obrazovce, kde se rozhoduje o útocích, kouzlech a taktice. Pro platformu Commodore 64 to znamená zvládnout velké množství textu, hudby, map a herních systémů naráz, což z každého takového titulu dělá ambiciózní podnik.\n\nModerní homebrew přístup k tomuto žánru je obzvlášť obdivuhodný kvůli rozsahu. Zatímco akční hra se vejde do jednoho nahrání, rozsáhlé hraní rolí vyžaduje promyšlenou strukturu dat, systém ukládání postupu a desítky hodin obsahu. Tvůrci současné C64 scény dnes znají možnosti stroje natolik dobře, že dokáží podobné projekty dotáhnout do podoby, která by v dobách komerční slávy počítače byla jen těžko představitelná.\n\nTakové hry vycházejí často i ve fyzickém vydání jako pocta klasické éře, kompletní s manuálem a obalem. Jsou důkazem, že komunita kolem Commodore 64 není jen nostalgická, ale i tvůrčí a ambiciózní. Pro fanouška hraní rolí, který má rád pixelovou estetiku a zvuk čipu SID, představuje JRPG na C64 jedinečný zážitek na pomezí retra a nového dobrodružství.\n\n**Proč hrát:** Ambiciózní japonsky laděné hraní rolí, které na starém Commodoru dokazuje, že moderní homebrew scéna se nebojí ani těch nejnáročnějších žánrů.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/c64/c64__briley-witch-chronicles-ish.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__briley-witch-chronicles-ish.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -42551,8 +42581,14 @@
           "teaser": null,
           "detail": null,
           "article": "Když se řekne homebrew na Commodore 64, většina lidí si představí amatérské pokusy, které se nedají hrát. The Mojon Twins jsou přesným opakem. Tahle španělská dvojice vývojářů dokázala, že retro platforma z osmdesátých let dodnes žije, a jejich tituly mají často vyšší produkční úroveň než leckterá dobová komerční hra.\n\nHessian patří k jejich vlajkovým projektům a je to akční plošinovka v tom nejlepším slova smyslu. Hrdina se prodírá labyrintem nepřátelského prostředí, sbírá vybavení, hledá klíče a postupně si otevírá cestu dál. Mechanika staví na klasickém vzorci průzkumu a soubojů, ale s citem pro tempo a level design, který nutí hráče zapojit hlavu, ne jen reflexy.\n\nSíla The Mojon Twins ovšem netkví jen v jedné hře. Jejich tvorba je rozsáhlá a sahá přes řadu platforem osmibitové éry, od ZX Spectra přes Amstrad CPC až po právě Commodore 64. Charakteristický je pro ně barevný, čitelný vizuál a smysl pro humor, který prosakuje z názvů i postaviček. Mnohé z jejich her navíc vycházejí pod otevřenými licencemi, takže je komunita může dál upravovat a stavět na nich.\n\nKulturní význam téhle scény je obrovský. Dokazuje, že retro hardware není muzeální exponát, ale živá platforma, pro kterou pořád vznikají nové, dohratelné a často vynikající hry. Pro fanoušky C64 je objevování těchto titulů malým svátkem, protože spojují nostalgii dobového vzhledu s moderním citem pro hratelnost.\n\nU homebrew tvorby je vždy dobré přistupovat k číslům s rezervou, protože ověřená data o prodejích nebo žebříčcích u takových projektů zpravidla neexistují. To ovšem nijak nesnižuje hodnotu samotných her, která se měří hratelností, ne marketingem. A právě tady The Mojon Twins exceluje.\n\n**Proč hrát:** Pokud chcete vidět, že Commodore 64 stále žije a že současné homebrew umí překonat leckterý dobový originál, tady začněte.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/c64/c64__hessian-mojon-twins-hry.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__hessian-mojon-twins-hry.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -46356,8 +46392,14 @@
           "teaser": null,
           "detail": null,
           "article": "Co kdyby celá hra byla jen jeden jediný souboj s bossem, který se ale nikdy nevzdá a pořád se mění? Just One Boss, akční titul pro fantasy konzoli PICO-8, bere tenhle troufalý nápad a staví na něm celý zážitek, soustředěný do jednoho dlouhého, eskalujícího střetu.\n\nJako boss rush hra odhazuje vše ostatní a soustředí se na to nejnapínavější z akčních her: souboj s mocným nepřítelem. Místo postupu skrz úrovně a běžné protivníky čelíte jedinému soupeři, který prochází mnoha fázemi, mění své útoky a nutí vás průběžně se učit jeho vzorce. Tenhle formát klade důraz na čtení nepřítele, vyhýbání se projektilům a trpělivé hledání okamžiku, kdy zaútočit. Každá nová fáze je malé překvapení a malá výzva zároveň.\n\nMechanicky tahle struktura funguje skvěle právě proto, že eliminuje vše zbytečné. Není tu žádné zdržování, jen čistá esence akce: vy, boss a vaše schopnost se zlepšovat. Na PICO-8, s jeho pevnou paletou šestnácti barev a drobným rozlišením, to navíc vede k čitelnému, ostře navrženému obrazu, kde je každý útok jasně rozpoznatelný, což je u akce s množstvím projektilů naprosto klíčové.\n\nVývojově je Just One Boss součástí bohaté komunity kolem fantasy konzole PICO-8, kterou vytvořil Joseph White ze studia Lexaloffle. Tahle scéna se proslavila krátkými, ostře vybroušenými hrami, které jsou typicky sdílené zdarma a hratelné rovnou v prohlížeči. Koncept boss rush je v ní vděčný právě proto, že umožňuje tvůrcům vložit veškerou kreativitu do návrhu jednoho bohatého, mnohofázového souboje místo budování rozsáhlého světa.\n\nKulturně Just One Boss připomíná, jak silný může být minimalistický nápad dotažený do důsledku. U menších komunitních titulů obvykle nejsou spolehlivě doložená data, ocenění ani žebříčky, takže je poctivější soustředit se na to ověřitelné: na žánr boss rush, na platformu a na to, co taková hra nabízí, tedy koncentrovanou akční výzvu bez jediné zbytečné vteřiny.\n\n**Proč hrát:** Pro koncentrovaný adrenalin boss rushe, kde se každá fáze počítá a kde vítězství chutná o to líp, že jste se ho museli naučit.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__just-one-boss.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__just-one-boss.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -46540,8 +46582,14 @@
           "teaser": null,
           "detail": null,
           "article": "Metroidvania je žánr o postupném otevírání světa a o sladké odměně, kdy se konečně dostanete tam, kam jste dlouho jen toužebně koukali. Dusk Child přináší tuhle filozofii na fantasy konzoli PICO-8 a dokazuje, že propojený, prozkoumatelný svět se dá postavit i v těch nejtěsnějších mantinelech osmibitového stroje.\n\nPICO-8 od studia Lexaloffle je software simulující vymyšlený retro počítač s šestnácti barvami, drobným rozlišením a přísným stropem na velikost kódu. Metroidvania je pro takovou platformu náročná, ale vděčná výzva. Vyžaduje propojenou mapu, postupně získávané schopnosti a chytře navržené zkratky, to vše ve velmi omezeném prostoru. Právě umění vměstnat rozlehle působící svět do minima dat patří k tomu, co dělá takové hry obdivuhodnými.\n\nŽánr metroidvania, pojmenovaný po dvou slavných sériích, stojí na průzkumu a postupu skrz schopnosti. Narazíte na překážku, kterou zatím nedokážete překonat, někde získáte novou dovednost a vrátíte se zpět, abyste se dostali dál. Tahle smyčka objevování, získávání a návratu vytváří jedinečný pocit růstu a znalosti světa, který málokterý jiný žánr dokáže napodobit.\n\nKomunita kolem PICO-8 je mimořádně aktivní a ambiciózní projekty typu metroidvanie jsou v ní vždy vítané, protože ukazují, kam až se dá platforma posunout. Hry se sdílejí jako kartridže hratelné přímo v prohlížeči, bez instalace a často s veřejně dostupným zdrojem, takže se do propojeného světa ponoříte okamžitě.\n\nOvěřené údaje o vydání, autorovi nebo přijetí téhle konkrétní hry nemáme, a proto je neuvádíme. Spolehlivě ale platí to, co plyne z jejího žánru a platformy: propojený svět k prozkoumání, postupně odemykané schopnosti a uspokojivý pocit, když se konečně dostanete za dříve nepřekonatelnou překážku.\n\n**Proč hrát:** Pro radost z postupného otevírání propojeného světa a pro obdivuhodnou ukázku, že velká metroidvania se vejde i do malé fantasy konzole.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pico-8/pico-8__dusk-child.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pico-8/pico-8__dusk-child.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -46830,6 +46878,6 @@
     "withTeaser": 355,
     "withArticle": 1490,
     "platformImages": 39,
-    "gameImages": 1424
+    "gameImages": 1432
   }
 }

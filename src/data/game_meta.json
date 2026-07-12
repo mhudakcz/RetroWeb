@@ -1,0 +1,990 @@
+{
+  "3ds__animal-crossing-new-leaf": {},
+  "3ds__bravely-default": {
+    "studio": "Silicon Studio",
+    "year": "2012"
+  },
+  "3ds__cave-story-3d": {},
+  "3ds__donkey-kong-country-returns-3d": {
+    "year": "2013"
+  },
+  "3ds__dragon-quest-viii": {
+    "studio": "Level-5",
+    "year": "2004"
+  },
+  "3ds__etrian-odyssey-iv": {},
+  "3ds__fire-emblem-awakening": {},
+  "3ds__fire-emblem-fates": {},
+  "3ds__kid-icarus-uprising": {},
+  "3ds__kingdom-hearts-3d-dream-drop-distance": {
+    "studio": "Square Enix",
+    "year": "2012"
+  },
+  "3ds__legend-of-zelda-link-between-worlds": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "2013"
+  },
+  "3ds__legend-of-zelda-ocarina-of-time-3d": {},
+  "3ds__luigi-s-mansion-dark-moon": {},
+  "3ds__mario-and-luigi-dream-team": {
+    "studio": "AlphaDream",
+    "year": "2013"
+  },
+  "3ds__mario-kart-7": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "2011"
+  },
+  "3ds__mario-sports-superstars": {
+    "studio": "Bandai Namco Entertainment",
+    "year": "2017"
+  },
+  "3ds__metroid-samus-returns": {},
+  "3ds__monster-hunter-4-ultimate": {},
+  "3ds__monster-hunter-generations": {
+    "studio": "Capcom",
+    "year": "2015"
+  },
+  "3ds__paper-mario-sticker-star": {
+    "studio": "Nintendo",
+    "year": "2012"
+  },
+  "3ds__phoenix-wright-ace-attorney-dual-destinies": {},
+  "3ds__pokemon-omega-ruby-alpha-sapphire": {},
+  "3ds__pokemon-sun-moon": {},
+  "3ds__pokemon-x-y": {},
+  "3ds__professor-layton-vs-phoenix-wright-ace-attorney": {},
+  "3ds__resident-evil-revelations": {},
+  "3ds__rhythm-heaven-megamix": {
+    "studio": "Nintendo Software Planning & Development",
+    "year": "2015"
+  },
+  "3ds__shin-megami-tensei-iv": {
+    "year": "2013"
+  },
+  "3ds__shovel-knight": {},
+  "3ds__star-fox-64-3d": {},
+  "3ds__super-mario-3d-land": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "2011"
+  },
+  "3ds__super-smash-bros-for-nintendo-3ds": {},
+  "3ds__super-street-fighter-iv-3d-edition": {},
+  "3ds__tekken-3d-prime-edition": {
+    "studio": "Arika",
+    "year": "2012"
+  },
+  "3ds__yoshi-s-new-island": {
+    "studio": "Arzest",
+    "year": "2014"
+  },
+  "game-boy-advance__advance-wars": {},
+  "game-boy-advance__advance-wars-2-black-hole-rising": {
+    "studio": "Intelligent Systems",
+    "year": "2003"
+  },
+  "game-boy-advance__anguna": {},
+  "game-boy-advance__astro-boy-omega-factor": {},
+  "game-boy-advance__banjo-kazooie-grunty-s-revenge": {},
+  "game-boy-advance__bionicle-game": {},
+  "game-boy-advance__boktai-sun-is-in-your-hand": {},
+  "game-boy-advance__broken-circle": {},
+  "game-boy-advance__car-battler-joe": {},
+  "game-boy-advance__castlevania-aria-of-sorrow": {},
+  "game-boy-advance__castlevania-circle-of-moon": {},
+  "game-boy-advance__castlevania-harmony-of-dissonance": {},
+  "game-boy-advance__denki-blocks": {},
+  "game-boy-advance__drill-dozer": {},
+  "game-boy-advance__drome-racers": {},
+  "game-boy-advance__final-fantasy-i-and-ii-dawn-of-souls": {
+    "studio": "Tose Co.",
+    "year": "2004"
+  },
+  "game-boy-advance__final-fantasy-tactics-advance": {},
+  "game-boy-advance__final-fantasy-vi-advance": {},
+  "game-boy-advance__fire-emblem": {},
+  "game-boy-advance__fire-emblem-sacred-stones": {
+    "studio": "Intelligent Systems",
+    "year": "2004"
+  },
+  "game-boy-advance__golden-sun": {},
+  "game-boy-advance__golden-sun-lost-age": {},
+  "game-boy-advance__goodboy-galaxy-ish": {},
+  "game-boy-advance__gradius-galaxies": {},
+  "game-boy-advance__gunstar-super-heroes": {},
+  "game-boy-advance__iridion-ii": {
+    "studio": "Shin'en Multimedia",
+    "year": "2003"
+  },
+  "game-boy-advance__kirby-and-amazing-mirror": {},
+  "game-boy-advance__kirby-nightmare-in-dream-land": {
+    "studio": "HAL Laboratory",
+    "year": "2002"
+  },
+  "game-boy-advance__klonoa-empire-of-dreams": {},
+  "game-boy-advance__legend-of-zelda-link-to-past-four-swords": {},
+  "game-boy-advance__legend-of-zelda-minish-cap": {},
+  "game-boy-advance__lego-racers-2": {},
+  "game-boy-advance__lego-star-wars-ii-original-trilogy": {
+    "studio": "Traveller's Tales",
+    "year": "2006"
+  },
+  "game-boy-advance__lego-star-wars-video-game": {
+    "studio": "Traveller's Tales",
+    "year": "2005"
+  },
+  "game-boy-advance__mario-and-luigi-superstar-saga": {},
+  "game-boy-advance__mario-kart-super-circuit": {},
+  "game-boy-advance__mario-tennis-power-tour": {},
+  "game-boy-advance__mario-vs-donkey-kong": {
+    "studio": "Nintendo Software Technology",
+    "year": "2004"
+  },
+  "game-boy-advance__mega-man-battle-network-3": {
+    "studio": "Capcom",
+    "year": "2002"
+  },
+  "game-boy-advance__mega-man-battle-network-serie": {},
+  "game-boy-advance__mega-man-zero": {},
+  "game-boy-advance__mega-man-zero-2": {
+    "studio": "Inti Creates",
+    "year": "2003"
+  },
+  "game-boy-advance__metroid-fusion": {},
+  "game-boy-advance__metroid-zero-mission": {},
+  "game-boy-advance__mother-3": {},
+  "game-boy-advance__mr-driller-2-ace": {},
+  "game-boy-advance__ninja-five-o": {},
+  "game-boy-advance__pokemon-firered-leafgreen": {},
+  "game-boy-advance__pokemon-ruby-sapphire-emerald": {},
+  "game-boy-advance__polarium-advance": {
+    "studio": "Mitchell Corporation",
+    "year": "2005"
+  },
+  "game-boy-advance__rebelstar-tactical-command": {
+    "studio": "Codo Technologies",
+    "year": "2005"
+  },
+  "game-boy-advance__rhythm-tengoku": {},
+  "game-boy-advance__sonic-advance": {
+    "studio": "Sonic Team",
+    "year": "2001"
+  },
+  "game-boy-advance__sonic-advance-1-3": {},
+  "game-boy-advance__sonic-advance-2": {},
+  "game-boy-advance__star-wars-episode-iii-revenge-of-sith": {},
+  "game-boy-advance__star-wars-new-droid-army": {
+    "studio": "Helixe",
+    "year": "2002"
+  },
+  "game-boy-advance__star-wars-trilogy-apprentice-of-force": {},
+  "game-boy-advance__street-fighter-alpha-3-upper": {
+    "studio": "Crawfish Interactive",
+    "year": "2002"
+  },
+  "game-boy-advance__super-mario-advance-4-super-mario-bros-3": {},
+  "game-boy-advance__sword-of-mana": {},
+  "game-boy-advance__tactics-ogre-knight-of-lodis": {
+    "studio": "Quest",
+    "year": "2001"
+  },
+  "game-boy-advance__tekken-advance": {
+    "studio": "Namco",
+    "year": "2001"
+  },
+  "game-boy-advance__tony-hawk-s-pro-skater-2": {},
+  "game-boy-advance__wario-land-4": {},
+  "game-boy-advance__warioware-inc-mega-microgame": {},
+  "game-boy-advance__warioware-inc-mega-microgames": {},
+  "game-boy-color__bionic-commando-elite-forces": {},
+  "game-boy-color__conker-s-pocket-tales": {},
+  "game-boy-color__donkey-kong-country": {},
+  "game-boy-color__dragon-s-lair": {},
+  "game-boy-color__dragon-warrior-i-and-ii-iii": {},
+  "game-boy-color__dragon-warrior-iii": {},
+  "game-boy-color__dragon-warrior-monsters": {
+    "studio": "Enix",
+    "year": "1998"
+  },
+  "game-boy-color__dual-gear": {
+    "year": "2020"
+  },
+  "game-boy-color__game-and-watch-gallery-3": {},
+  "game-boy-color__hamtaro-ham-hams-unite": {},
+  "game-boy-color__harvest-moon-2-gbc": {},
+  "game-boy-color__harvest-moon-gbc": {},
+  "game-boy-color__infinity": {
+    "year": "1992"
+  },
+  "game-boy-color__kirby-tilt-n-tumble": {},
+  "game-boy-color__legend-of-zelda-link-s-awakening-dx": {},
+  "game-boy-color__legend-of-zelda-oracle-of-ages": {},
+  "game-boy-color__legend-of-zelda-oracle-of-seasons": {},
+  "game-boy-color__lufia-legend-returns": {},
+  "game-boy-color__magi-nation": {},
+  "game-boy-color__mario-golf": {},
+  "game-boy-color__mario-tennis": {},
+  "game-boy-color__metal-gear-ghost-babel": {},
+  "game-boy-color__pokemon-crystal": {
+    "studio": "Game Freak",
+    "year": "2000"
+  },
+  "game-boy-color__pokemon-gold-silver": {},
+  "game-boy-color__pokemon-gold-silver-crystal": {},
+  "game-boy-color__pokemon-pinball": {
+    "studio": "Jupiter",
+    "year": "1999"
+  },
+  "game-boy-color__pokemon-puzzle-challenge": {},
+  "game-boy-color__pokemon-red-blue-yellow": {},
+  "game-boy-color__power-quest": {},
+  "game-boy-color__r-type-dx": {},
+  "game-boy-color__resident-evil-gaiden": {
+    "studio": "Capcom",
+    "year": "2001"
+  },
+  "game-boy-color__shantae": {},
+  "game-boy-color__shapeshifter": {},
+  "game-boy-color__smurfs-nightmare": {
+    "studio": "VD-dev",
+    "year": "1997"
+  },
+  "game-boy-color__star-heritage-1-black-cobra": {},
+  "game-boy-color__star-wars-episode-i-racer": {},
+  "game-boy-color__star-wars-yoda-stories": {
+    "studio": "Lucasfilm Games",
+    "year": "1997"
+  },
+  "game-boy-color__street-fighter-alpha": {},
+  "game-boy-color__super-mario-bros-deluxe": {
+    "studio": "Nintendo Research & Development 2",
+    "year": "1999"
+  },
+  "game-boy-color__survival-kids": {},
+  "game-boy-color__tetris-dx": {},
+  "game-boy-color__toki-tori": {},
+  "game-boy-color__top-gear-pocket": {},
+  "game-boy-color__wario-land-3": {},
+  "game-boy-color__wario-land-ii": {},
+  "game-boy-color__warlocked": {},
+  "game-boy-color__wendy-every-witch-way": {
+    "year": "2001"
+  },
+  "game-boy__arkanoid-doh-it-again": {},
+  "game-boy__avenging-spirit": {},
+  "game-boy__balloon-kid": {},
+  "game-boy__bionic-commando": {},
+  "game-boy__boxxle": {},
+  "game-boy__bubble-bobble": {
+    "studio": "Taito",
+    "year": "1986"
+  },
+  "game-boy__castlevania-adventure": {},
+  "game-boy__catrap": {},
+  "game-boy__daedalian-opus": {},
+  "game-boy__deadeus": {
+    "year": "2019"
+  },
+  "game-boy__donkey-kong": {},
+  "game-boy__double-dragon": {},
+  "game-boy__dr-mario": {},
+  "game-boy__dragon-slayer-faria": {},
+  "game-boy__f-1-race": {},
+  "game-boy__final-fantasy-adventure": {},
+  "game-boy__final-fantasy-legend": {},
+  "game-boy__final-fantasy-legend-ii": {
+    "studio": "Square",
+    "year": "1990"
+  },
+  "game-boy__game-and-watch-gallery": {},
+  "game-boy__gargoyle-s-quest": {},
+  "game-boy__gradius-interstellar-assault": {},
+  "game-boy__harvest-moon-gb": {},
+  "game-boy__kid-dracula": {},
+  "game-boy__kirby-s-dream-land-2": {},
+  "game-boy__kwirk": {},
+  "game-boy__legend-of-zelda-link-s-awakening": {},
+  "game-boy__mario-s-picross": {},
+  "game-boy__mega-man-v": {},
+  "game-boy__metroid-ii-return-of-samus": {},
+  "game-boy__mole-mania": {},
+  "game-boy__mortal-kombat": {},
+  "game-boy__nintendo-world-cup": {},
+  "game-boy__operation-c": {},
+  "game-boy__petit-pixel": {},
+  "game-boy__pipe-dream": {},
+  "game-boy__pokemon-red-blue": {},
+  "game-boy__pokemon-red-blue-yellow": {},
+  "game-boy__pokemon-trading-card-game": {},
+  "game-boy__prince-of-persia": {},
+  "game-boy__qix": {},
+  "game-boy__r-type": {},
+  "game-boy__robr": {},
+  "game-boy__sheep-it-up": {},
+  "game-boy__street-fighter-ii": {
+    "studio": "Capcom",
+    "year": "1991"
+  },
+  "game-boy__super-mario-land-2-6-golden-coins": {},
+  "game-boy__survival-kids": {},
+  "game-boy__sword-of-hope-ii": {},
+  "game-boy__tetris": {},
+  "game-boy__tobu-tobu-girl": {},
+  "game-boy__tobu-tobu-girl-deluxe": {},
+  "game-boy__trip-world": {},
+  "game-boy__wario-land-super-mario-land-3": {},
+  "game-boy__wave-race": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "1992"
+  },
+  "game-gear__castle-of-illusion": {},
+  "game-gear__defenders-of-oasis": {},
+  "game-gear__dragon-crystal": {
+    "studio": "Sega",
+    "year": "1990"
+  },
+  "game-gear__gg-aleste": {},
+  "game-gear__gg-aleste-3": {},
+  "game-gear__gg-aleste-ii": {},
+  "game-gear__land-of-illusion": {},
+  "game-gear__lucky-dime-caper": {
+    "studio": "Sega",
+    "year": "1991"
+  },
+  "game-gear__ninja-gaiden": {},
+  "game-gear__sonic-chaos": {
+    "studio": "Aspect",
+    "year": "1993"
+  },
+  "game-gear__sonic-drift-2": {},
+  "game-gear__sonic-hedgehog": {
+    "studio": "Sonic Team",
+    "year": "1991"
+  },
+  "game-gear__sonic-triple-trouble": {},
+  "game-gear__tails-adventure": {},
+  "game-gear__wonder-boy-iii-dragon-s-trap": {
+    "studio": "Westone Bit Entertainment",
+    "year": "1991"
+  },
+  "master-system__alex-kidd-in-miracle-world": {},
+  "master-system__asterix": {},
+  "master-system__astro-force": {},
+  "master-system__bubble-bobble": {
+    "studio": "Taito",
+    "year": "1986"
+  },
+  "master-system__california-games": {},
+  "master-system__castle-of-illusion": {},
+  "master-system__devwill-too": {},
+  "master-system__double-dragon": {},
+  "master-system__fantasy-zone": {},
+  "master-system__ghouls-n-ghosts": {},
+  "master-system__golden-axe": {},
+  "master-system__golvellius": {},
+  "master-system__hang-on": {},
+  "master-system__land-of-illusion": {},
+  "master-system__lemmings": {
+    "studio": "DMA Design"
+  },
+  "master-system__master-of-darkness": {
+    "studio": "SIMS Co., Ltd.",
+    "year": "1992"
+  },
+  "master-system__mortal-kombat": {
+    "studio": "Midway Games"
+  },
+  "master-system__out-run": {},
+  "master-system__phantasy-star": {},
+  "master-system__power-strike": {},
+  "master-system__prince-of-persia": {},
+  "master-system__psycho-fox": {
+    "studio": "Tokai Communications",
+    "year": "1989"
+  },
+  "master-system__r-type": {
+    "studio": "Irem",
+    "year": "1987"
+  },
+  "master-system__rainbow-islands": {},
+  "master-system__shadow-of-beast": {
+    "studio": "Ubisoft Reflections",
+    "year": "1989"
+  },
+  "master-system__shinobi": {},
+  "master-system__sonic-chaos": {},
+  "master-system__sonic-hedgehog": {},
+  "master-system__space-harrier": {},
+  "master-system__super-monaco-gp": {},
+  "master-system__wonder-boy": {},
+  "master-system__wonder-boy-iii-dragon-s-trap": {},
+  "master-system__wonder-boy-in-monster-land": {},
+  "master-system__wonder-boy-in-monster-world": {},
+  "master-system__ys": {},
+  "master-system__ys-vanished-omens": {},
+  "mega-drive__688-attack-sub": {},
+  "mega-drive__adventures-of-batman-and-robin": {
+    "studio": "Konami",
+    "year": "1994"
+  },
+  "mega-drive__aladdin": {},
+  "mega-drive__alien-soldier": {},
+  "mega-drive__altered-beast": {
+    "studio": "Sega",
+    "year": "1988"
+  },
+  "mega-drive__another-world": {},
+  "mega-drive__arcus-odyssey": {},
+  "mega-drive__castle-of-illusion": {},
+  "mega-drive__castle-of-illusion-starring-mickey-mouse": {},
+  "mega-drive__castlevania-bloodlines": {},
+  "mega-drive__columns": {},
+  "mega-drive__comix-zone": {},
+  "mega-drive__contra-hard-corps": {},
+  "mega-drive__demons-of-asteborg": {},
+  "mega-drive__devilish": {
+    "studio": "Genki",
+    "year": "1991"
+  },
+  "mega-drive__double-dragon": {},
+  "mega-drive__dr-robotnik-s-mean-bean-machine": {
+    "studio": "Sonic Team",
+    "year": "1993"
+  },
+  "mega-drive__dune-battle-for-arrakis": {},
+  "mega-drive__dynamite-headdy": {},
+  "mega-drive__earthworm-jim": {},
+  "mega-drive__earthworm-jim-1-and-2": {},
+  "mega-drive__earthworm-jim-2": {},
+  "mega-drive__ecco-dolphin": {
+    "studio": "Appaloosa Interactive",
+    "year": "1992"
+  },
+  "mega-drive__ecco-tides-of-time": {},
+  "mega-drive__gaiares": {
+    "studio": "Telenet Japan",
+    "year": "1990"
+  },
+  "mega-drive__ghouls-n-ghosts": {},
+  "mega-drive__golden-axe": {},
+  "mega-drive__golden-axe-ii": {
+    "studio": "Sega",
+    "year": "1991"
+  },
+  "mega-drive__gunstar-heroes": {},
+  "mega-drive__herzog-zwei": {
+    "studio": "Technosoft",
+    "year": "1989"
+  },
+  "mega-drive__kid-chameleon": {},
+  "mega-drive__landstalker": {},
+  "mega-drive__lemmings": {
+    "studio": "DMA Design"
+  },
+  "mega-drive__lhx-attack-chopper": {},
+  "mega-drive__light-crusader": {
+    "studio": "Treasure",
+    "year": "1995"
+  },
+  "mega-drive__lyle-in-cube-sector": {},
+  "mega-drive__master-of-monsters": {},
+  "mega-drive__mega-lo-mania": {},
+  "mega-drive__mega-man-wily-wars": {},
+  "mega-drive__mega-turrican": {
+    "studio": "Factor 5",
+    "year": "1994"
+  },
+  "mega-drive__misplaced": {},
+  "mega-drive__mortal-kombat": {
+    "studio": "Midway Games"
+  },
+  "mega-drive__mortal-kombat-ii": {},
+  "mega-drive__mutant-league-football": {},
+  "mega-drive__nhl-94": {},
+  "mega-drive__old-towers": {},
+  "mega-drive__out-run": {},
+  "mega-drive__paprium": {},
+  "mega-drive__pga-lemmings": {},
+  "mega-drive__phantasy-star-iv": {},
+  "mega-drive__pier-solar-ish": {},
+  "mega-drive__prince-of-persia": {},
+  "mega-drive__pulseman": {},
+  "mega-drive__puyo-puyo-puyo-puyo-2": {},
+  "mega-drive__quackshot-starring-donald-duck": {},
+  "mega-drive__ranger-x": {},
+  "mega-drive__ristar": {},
+  "mega-drive__road-rash": {},
+  "mega-drive__road-rash-3": {
+    "studio": "Electronic Arts",
+    "year": "1995"
+  },
+  "mega-drive__road-rash-ii": {
+    "studio": "Electronic Arts",
+    "year": "1993"
+  },
+  "mega-drive__rocket-knight-adventures": {},
+  "mega-drive__rolo-to-rescue": {
+    "year": "1993"
+  },
+  "mega-drive__shadow-of-beast": {},
+  "mega-drive__shadowrun": {},
+  "mega-drive__shining-force-i-and-ii": {},
+  "mega-drive__shining-in-darkness": {},
+  "mega-drive__shinobi-iii-return-of-ninja-master": {},
+  "mega-drive__sonic-and-knuckles": {
+    "studio": "Sonic Team",
+    "year": "1994"
+  },
+  "mega-drive__sonic-hedgehog-1-3": {},
+  "mega-drive__sonic-hedgehog-2": {},
+  "mega-drive__sonic-hedgehog-3": {},
+  "mega-drive__sparkster": {},
+  "mega-drive__star-trek-deep-space-nine-crossroads-of-time": {},
+  "mega-drive__star-trek-next-generation-echoes-from-past": {},
+  "mega-drive__star-wars": {
+    "studio": "Atari, Inc.",
+    "year": "1983"
+  },
+  "mega-drive__story-of-thor": {},
+  "mega-drive__story-of-thor-beyond-oasis": {},
+  "mega-drive__street-fighter-ii-special-champion-edition": {},
+  "mega-drive__streets-of-rage": {
+    "studio": "Sega",
+    "year": "1991"
+  },
+  "mega-drive__streets-of-rage-2": {},
+  "mega-drive__streets-of-rage-3": {},
+  "mega-drive__strider": {
+    "studio": "Capcom",
+    "year": "1989"
+  },
+  "mega-drive__sub-terrania": {},
+  "mega-drive__super-hang-on": {},
+  "mega-drive__tanglewood-ish": {},
+  "mega-drive__tanzer": {
+    "year": "2019"
+  },
+  "mega-drive__thunder-force-iii": {
+    "studio": "Technosoft",
+    "year": "1990"
+  },
+  "mega-drive__thunder-force-iii-iv": {},
+  "mega-drive__thunder-force-iv": {
+    "studio": "Technosoft",
+    "year": "1992"
+  },
+  "mega-drive__toejam-and-earl": {},
+  "mega-drive__toejam-and-earl-in-panic-on-funkotron": {
+    "studio": "ToeJam & Earl Productions",
+    "year": "1993"
+  },
+  "mega-drive__vectorman": {
+    "studio": "BlueSky Software",
+    "year": "1995"
+  },
+  "mega-drive__vectorman-1-and-2": {},
+  "mega-drive__vectorman-2": {},
+  "mega-drive__virtua-racing": {},
+  "mega-drive__wiz-n-liz": {
+    "studio": "Bizarre Creations",
+    "year": "1993"
+  },
+  "mega-drive__world-of-illusion": {},
+  "mega-drive__xeno-crisis": {
+    "studio": "Bitmap Bureau",
+    "year": "2019"
+  },
+  "nds__advance-wars-dual-strike": {
+    "studio": "Intelligent Systems",
+    "year": "2005"
+  },
+  "nds__animal-crossing-wild-world": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "2005"
+  },
+  "nds__brain-age": {
+    "studio": "Nintendo Software Planning & Development"
+  },
+  "nds__castlevania-dawn-of-sorrow": {},
+  "nds__castlevania-order-of-ecclesia": {
+    "studio": "Konami",
+    "year": "2008"
+  },
+  "nds__castlevania-portrait-of-ruin": {
+    "studio": "Konami",
+    "year": "2006"
+  },
+  "nds__chrono-trigger": {},
+  "nds__contra-4": {
+    "studio": "WayForward Technologies",
+    "year": "2007"
+  },
+  "nds__dragon-quest-ix-sentinels-of-starry-skies": {},
+  "nds__elite-beat-agents": {},
+  "nds__final-fantasy-iv": {},
+  "nds__fire-emblem-shadow-dragon": {
+    "studio": "Intelligent Systems",
+    "year": "2008"
+  },
+  "nds__ghost-trick-phantom-detective": {},
+  "nds__grand-theft-auto-chinatown-wars": {},
+  "nds__jump-ultimate-stars": {
+    "studio": "Ganbarion",
+    "year": "2006"
+  },
+  "nds__kirby-canvas-curse": {
+    "studio": "HAL Laboratory",
+    "year": "2005"
+  },
+  "nds__kirby-super-star-ultra": {
+    "studio": "HAL Laboratory",
+    "year": "2008"
+  },
+  "nds__legend-of-zelda-phantom-hourglass": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "2007"
+  },
+  "nds__legend-of-zelda-spirit-tracks": {
+    "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "2009"
+  },
+  "nds__mario-and-luigi-bowser-s-inside-story": {
+    "studio": "AlphaDream",
+    "year": "2009"
+  },
+  "nds__mario-and-luigi-partners-in-time": {
+    "studio": "AlphaDream",
+    "year": "2005"
+  },
+  "nds__mario-and-sonic-at-olympic-games": {
+    "studio": "Sega Sports R&D",
+    "year": "2007"
+  },
+  "nds__mario-kart-ds": {},
+  "nds__mario-party-ds": {
+    "studio": "Hudson Soft",
+    "year": "2007"
+  },
+  "nds__mega-man-zx": {},
+  "nds__metroid-prime-hunters": {},
+  "nds__need-for-speed-most-wanted": {},
+  "nds__new-super-mario-bros": {},
+  "nds__nintendogs": {},
+  "nds__phoenix-wright-ace-attorney": {
+    "studio": "Capcom",
+    "year": "2001"
+  },
+  "nds__pokemon-diamond-pearl": {},
+  "nds__pokemon-heartgold-soulsilver": {},
+  "nds__pokemon-platinum": {},
+  "nds__professor-layton-and-curious-village": {
+    "studio": "Level-5",
+    "year": "2007"
+  },
+  "nds__scribblenauts": {
+    "studio": "5th Cell",
+    "year": "2009"
+  },
+  "nds__sonic-rush": {},
+  "nds__super-mario-64-ds": {},
+  "nds__tetris-ds": {
+    "studio": "Nintendo",
+    "year": "2006"
+  },
+  "nds__world-ends-with-you": {},
+  "nes__adventure-island": {
+    "studio": "Hudson Soft",
+    "year": "1986"
+  },
+  "nes__adventures-of-lolo-1-3": {},
+  "nes__battletoads": {},
+  "nes__bionic-commando": {},
+  "nes__blades-of-steel": {},
+  "nes__blaster-master": {},
+  "nes__bubble-bobble": {},
+  "nes__bump-n-jump": {
+    "studio": "Data East",
+    "year": "1982"
+  },
+  "nes__castlevania": {},
+  "nes__castlevania-ii-simon-s-quest": {
+    "studio": "Konami",
+    "year": "1987"
+  },
+  "nes__castlevania-iii-dracula-s-curse": {
+    "studio": "Konami",
+    "year": "1989"
+  },
+  "nes__chip-n-dale-rescue-rangers": {},
+  "nes__cobra-triangle": {
+    "studio": "Rare Ltd.",
+    "year": "1989"
+  },
+  "nes__contra": {},
+  "nes__crystalis": {},
+  "nes__curse-of-possum-hollow": {},
+  "nes__days-of-thunder": {},
+  "nes__double-dragon": {},
+  "nes__dr-mario": {
+    "studio": "Nintendo Research & Development 1",
+    "year": "1990"
+  },
+  "nes__dragon-warrior": {},
+  "nes__dragon-warrior-iii-iv": {},
+  "nes__ducktales": {},
+  "nes__excitebike": {},
+  "nes__faxanadu": {},
+  "nes__final-fantasy": {},
+  "nes__from-below": {},
+  "nes__gargoyle-s-quest-ii": {
+    "studio": "Capcom",
+    "year": "1992"
+  },
+  "nes__gimmick": {},
+  "nes__ice-hockey": {},
+  "nes__karate-champ": {},
+  "nes__kickle-cubicle": {},
+  "nes__kid-icarus": {},
+  "nes__kirby-s-adventure": {},
+  "nes__legend-of-zelda": {},
+  "nes__life-force": {
+    "studio": "Konami",
+    "year": "1988"
+  },
+  "nes__little-samson": {},
+  "nes__lizard": {
+    "year": "2018"
+  },
+  "nes__mach-rider": {},
+  "nes__mega-man": {
+    "studio": "Capcom",
+    "year": "1987"
+  },
+  "nes__mega-man-2": {},
+  "nes__mega-man-3": {},
+  "nes__mega-man-4": {
+    "studio": "Capcom",
+    "year": "1991"
+  },
+  "nes__mega-man-5": {
+    "studio": "Capcom",
+    "year": "1992"
+  },
+  "nes__mega-man-6": {},
+  "nes__metroid": {},
+  "nes__micro-machines": {
+    "studio": "Codemasters"
+  },
+  "nes__micro-mages": {},
+  "nes__mighty-final-fight": {
+    "studio": "Capcom",
+    "year": "1993"
+  },
+  "nes__nebs-n-debs": {},
+  "nes__ninja-gaiden": {},
+  "nes__ninja-gaiden-ii-dark-sword-of-chaos": {},
+  "nes__nobunaga-s-ambition": {
+    "studio": "Koei Tecmo Games",
+    "year": "1983"
+  },
+  "nes__operation-wolf": {},
+  "nes__pac-man": {},
+  "nes__prince-of-persia": {},
+  "nes__punch-out": {},
+  "nes__r-c-pro-am": {},
+  "nes__rad-racer": {},
+  "nes__rainbow-islands": {},
+  "nes__rampart": {},
+  "nes__recca-summer-carnival-92": {},
+  "nes__river-city-ransom": {},
+  "nes__romance-of-three-kingdoms": {},
+  "nes__shatterhand": {},
+  "nes__snake-rattle-n-roll": {
+    "studio": "Rare Ltd.",
+    "year": "1990"
+  },
+  "nes__startropics": {},
+  "nes__super-c": {},
+  "nes__super-mario-bros": {},
+  "nes__super-mario-bros-3": {},
+  "nes__sweet-home": {},
+  "nes__tecmo-bowl": {
+    "studio": "Tecmo",
+    "year": "1987"
+  },
+  "nes__tecmo-super-bowl": {
+    "studio": "Tecmo",
+    "year": "1991"
+  },
+  "nes__tetris": {
+    "studio": "Alexey Pajitnov",
+    "year": "1984"
+  },
+  "nes__track-and-field": {},
+  "nes__wario-s-woods": {
+    "studio": "Nintendo Research & Development 1",
+    "year": "1994"
+  },
+  "nes__witch-n-wiz": {},
+  "nes__yie-ar-kung-fu": {
+    "studio": "Konami",
+    "year": "1985"
+  },
+  "nes__zelda-ii-adventure-of-link": {},
+  "snes__actraiser": {},
+  "snes__aerobiz-supersonic": {},
+  "snes__aladdin": {
+    "studio": "Crisp App Studio",
+    "year": "2020"
+  },
+  "snes__another-world": {
+    "studio": "Delphine Software International",
+    "year": "1991"
+  },
+  "snes__arkanoid-doh-it-again": {},
+  "snes__axelay": {},
+  "snes__breath-of-fire-ii": {},
+  "snes__chrono-trigger": {},
+  "snes__civilization": {},
+  "snes__contra-iii-alien-wars": {},
+  "snes__curse-of-issyos": {},
+  "snes__demon-s-crest": {},
+  "snes__donkey-kong-country": {
+    "studio": "Rare Ltd.",
+    "year": "1994"
+  },
+  "snes__donkey-kong-country-1-3": {},
+  "snes__donkey-kong-country-2": {},
+  "snes__donkey-kong-country-3": {},
+  "snes__dottie-dilemma": {},
+  "snes__earthbound": {},
+  "snes__f-zero": {},
+  "snes__final-fantasy-iv-v": {},
+  "snes__final-fantasy-vi": {},
+  "snes__front-mission-gun-hazard": {},
+  "snes__goof-troop": {
+    "studio": "Capcom",
+    "year": "1993"
+  },
+  "snes__gradius-iii": {},
+  "snes__harvest-moon": {},
+  "snes__illusion-of-gaia": {
+    "studio": "Quintet",
+    "year": "1993"
+  },
+  "snes__international-superstar-soccer-deluxe": {},
+  "snes__joe-and-mac": {
+    "studio": "Data East",
+    "year": "1991"
+  },
+  "snes__killer-instinct": {},
+  "snes__kirby-s-dream-course": {},
+  "snes__kirby-super-star": {},
+  "snes__legend-of-zelda-link-to-past": {},
+  "snes__lemmings": {},
+  "snes__lion-king": {
+    "studio": "Westwood Studios",
+    "year": "1994"
+  },
+  "snes__lost-vikings": {},
+  "snes__lufia-ii-rise-of-sinistrals": {},
+  "snes__mega-man-x": {},
+  "snes__mega-man-x2": {},
+  "snes__mega-man-x2-x3": {},
+  "snes__mega-man-x3": {},
+  "snes__micro-machines": {
+    "studio": "Codemasters"
+  },
+  "snes__mortal-kombat-ii": {},
+  "snes__nba-jam": {},
+  "snes__nhl-94": {},
+  "snes__nhl-96": {},
+  "snes__ogre-battle-march-of-black-queen": {
+    "studio": "Quest",
+    "year": "1993"
+  },
+  "snes__pilotwings": {},
+  "snes__pocky-and-rocky": {},
+  "snes__pop-n-twinbee": {},
+  "snes__populous": {
+    "studio": "Bullfrog Productions",
+    "year": "1989"
+  },
+  "snes__prince-of-persia": {},
+  "snes__rendering-ranger-r2": {},
+  "snes__rock-n-roll-racing": {},
+  "snes__romance-of-three-kingdoms-iv": {},
+  "snes__secret-of-mana": {},
+  "snes__seiken-densetsu-3": {},
+  "snes__seiken-densetsu-3-trials-of-mana": {},
+  "snes__simcity": {},
+  "snes__star-fox": {},
+  "snes__star-trek-deep-space-nine-crossroads-of-time": {},
+  "snes__star-trek-next-generation-future-s-past": {},
+  "snes__star-trek-starfleet-academy-starship-bridge-simulator": {
+    "studio": "High Voltage Software",
+    "year": "1994"
+  },
+  "snes__street-fighter-alpha-2": {
+    "studio": "Capcom",
+    "year": "1996"
+  },
+  "snes__street-fighter-ii-turbo-hyper-fighting": {},
+  "snes__super-bomberman-3-5": {},
+  "snes__super-boss-gaiden": {},
+  "snes__super-castlevania-iv": {},
+  "snes__super-ghouls-n-ghosts": {},
+  "snes__super-mario-kart": {},
+  "snes__super-mario-rpg": {
+    "studio": "Square",
+    "year": "1996"
+  },
+  "snes__super-mario-rpg-legend-of-seven-stars": {},
+  "snes__super-mario-world": {},
+  "snes__super-mario-world-2-yoshi-s-island": {},
+  "snes__super-metroid": {},
+  "snes__super-off-road": {},
+  "snes__super-punch-out": {},
+  "snes__super-soccer": {},
+  "snes__super-star-wars": {
+    "studio": "Sculptured Software",
+    "year": "1992"
+  },
+  "snes__super-star-wars-empire-strikes-back": {
+    "studio": "Sculptured Software",
+    "year": "1993"
+  },
+  "snes__super-star-wars-return-of-jedi": {
+    "studio": "Sculptured Software",
+    "year": "1994"
+  },
+  "snes__super-tennis": {
+    "year": "1985"
+  },
+  "snes__terranigma": {},
+  "snes__tetris-attack": {
+    "studio": "Intelligent Systems",
+    "year": "1995"
+  },
+  "snes__tetris-attack-panel-de-pon": {},
+  "snes__tiny-toon-adventures-buster-busts-loose": {
+    "studio": "Konami",
+    "year": "1992"
+  },
+  "snes__top-gear": {
+    "studio": "Gremlin Interactive",
+    "year": "1992"
+  },
+  "snes__top-gear-2": {
+    "studio": "Gremlin Interactive",
+    "year": "1993"
+  },
+  "snes__u-n-squadron": {},
+  "snes__uncharted-waters-new-horizons": {},
+  "snes__wario-s-woods": {},
+  "snes__wild-guns": {},
+  "snes__yeah-yeah-beebiss-ii": {},
+  "snes__zombies-ate-my-neighbors": {
+    "studio": "Lucasfilm Games",
+    "year": "1993"
+  }
+}

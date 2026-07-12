@@ -828,6 +828,95 @@ def fetch_games_wiki(only=None):
     print(f"\nWikipedia: dohledáno {ok}/{total} obrázků")
 
 
+_ITCH_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/120 Safari/537.36")
+
+
+def _itch_search(name):
+    """Vrátí list (title, url) z itch.io vyhledávání."""
+    url = "https://itch.io/search?" + urllib.parse.urlencode({"q": name})
+    try:
+        html = http_get(url, headers={"User-Agent": _ITCH_UA}).decode("utf-8", "replace")
+    except Exception:  # noqa
+        return []
+    pat = P.re.compile(r'<a class="title game_link"[^>]*href="([^"]+)"[^>]*>([^<]+)</a>')
+    return [(P.re.sub(r"&amp;", "&", t).strip(), u) for u, t in pat.findall(html)]
+
+
+def _itch_cover(page_url):
+    try:
+        html = http_get(page_url, headers={"User-Agent": _ITCH_UA}).decode("utf-8", "replace")
+    except Exception:  # noqa
+        return None
+    m = P.re.search(r'og:image"\s+content="([^"]+)"', html)
+    if not m:
+        m = P.re.search(r'content="([^"]+)"\s+property="og:image"', html)
+    return m.group(1) if m else None
+
+
+def fetch_games_itch(only=None):
+    """Pro hry BEZ obrázku zkus oficiální cover z itch.io (homebrew/indie).
+    Přísné párování názvu (containment / jaccard >= 0.6) proti falešným shodám."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if only and slug != only:
+            continue
+        missing = [g for g in plat["games"] if not g.get("image")]
+        if not missing:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} — bez obrázku: {len(missing)} ==")
+        for g in missing:
+            total += 1
+            time.sleep(0.6)  # šetrně k itch.io (jinak throttling)
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.split(" -ish")[0].split(" / ")[0].strip()
+            gnorm = P.norm_name(base)
+            gtoks = P.tokens(base)
+            if len(gnorm) < 3:
+                continue
+            picked = None
+            # povolené „verzní" přípony za shodným názvem (jinak striktní shoda)
+            SUFFIX_OK = {"md", "dx", "hd", "demo", "deluxe", "remaster", "remastered",
+                         "version", "windows", "win", "edition", "port", "64", "plus",
+                         "gold", "complete", "gb", "gbc", "gba", "nes", "snes", "pc"}
+            for title, url in _itch_search(base)[:6]:
+                tnorm = P.norm_name(title)
+                if not gnorm or not tnorm:
+                    continue
+                accept = False
+                if gnorm == tnorm:
+                    accept = True
+                elif tnorm.startswith(gnorm + " "):
+                    extra = tnorm[len(gnorm) + 1:].split()
+                    accept = all(w in SUFFIX_OK for w in extra)
+                if accept:
+                    picked = url
+                    break
+            if not picked:
+                print(f"  [-] {g['name']}")
+                continue
+            src = _itch_cover(picked)
+            if not src:
+                print(f"  [-] {g['name']} (bez og:image)")
+                continue
+            try:
+                img = http_get(src, headers={"User-Agent": _ITCH_UA})
+                if len(img) < 3000:
+                    print(f"  [-] {g['name']} (maly soubor)")
+                    continue
+                (out / f"{g['slug']}.png").write_bytes(img)
+                ok += 1
+                print(f"  [OK] {g['name']}  <- {picked}")
+                time.sleep(0.2)
+            except Exception as e:  # noqa
+                print(f"  [x] {g['name']}: {e}")
+    print(f"\nitch.io: dohledáno {ok}/{total} obrázků")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -857,3 +946,6 @@ if __name__ == "__main__":
     if what == "games-wiki":
         print("=== OBRÁZKY HER Z WIKIPEDIE (hry bez obrázku) ===")
         fetch_games_wiki(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-itch":
+        print("=== OBRÁZKY HER Z ITCH.IO (homebrew/indie bez obrázku) ===")
+        fetch_games_itch(sys.argv[2] if len(sys.argv) > 2 else None)
