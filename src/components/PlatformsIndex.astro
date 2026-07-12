@@ -1,0 +1,56 @@
+---
+import PlatformCard from './PlatformCard.astro';
+import { platformsByTypeLoc, stats } from '../lib/data';
+import { t, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+const groups = platformsByTypeLoc(locale);
+
+const LEAD = {
+  cs: `${stats.platforms} platforem od roku 1977 po dnešní fantasy konzole — každá s historií, kontextem a kurátorským výběrem her. Vše běží na handheldech jako Anbernic nebo na Batoceře.`,
+  en: `${stats.platforms} platforms from 1977 to today’s fantasy consoles — each with its history, context and a curated selection of games. All of it runs on handhelds like Anbernic or on Batocera.`,
+  de: `${stats.platforms} Plattformen von 1977 bis zu heutigen Fantasy-Konsolen — jede mit ihrer Geschichte, ihrem Kontext und einer kuratierten Spieleauswahl. Alles läuft auf Handhelds wie Anbernic oder auf Batocera.`,
+}[locale];
+const HEAD = { cs: 'Katalog hardwaru', en: 'Hardware catalogue', de: 'Hardware-Katalog' }[locale];
+---
+
+<section class="container head">
+  <p class="eyebrow">{HEAD}</p>
+  <h1>{t(locale, 'nav.platforms')}</h1>
+  <p class="muted lead">{LEAD}</p>
+</section>
+
+{
+  groups.map((group) => (
+    <section class="section">
+      <div class="container">
+        <div class="sec-head" id={group.type}>
+          <div>
+            <p class="eyebrow">{t(locale, `type.${group.type}.label`)}</p>
+            <h2>{t(locale, `type.${group.type}.tag`)}</h2>
+          </div>
+          <span class="muted">{group.items.length}</span>
+        </div>
+        <div class="grid grid-platforms">
+          {group.items.map((p) => <PlatformCard platform={p} locale={locale} />)}
+        </div>
+      </div>
+    </section>
+  ))
+}
+
+<style>
+  .head { padding-block: 48px 8px; }
+  .head h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 12px; }
+  .lead { max-width: 640px; font-size: 1.05rem; }
+  .sec-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 22px;
+    scroll-margin-top: 80px;
+  }
+  .sec-head h2 { font-size: clamp(1.25rem, 3vw, 1.6rem); margin-top: 4px; }
+  .section + .section { padding-top: 8px; }
+</style>

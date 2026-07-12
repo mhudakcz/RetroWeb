@@ -1,0 +1,194 @@
+---
+import PlatformEmblem from './PlatformEmblem.astro';
+import GameCard from './GameCard.astro';
+import { localeData, TYPE_LABEL, mdBlock, platformNeighbors, GENRE_CATS, genreCats } from '../lib/data';
+import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+interface Props { slug: string; locale?: Locale; }
+const { slug, locale = DEFAULT_LOCALE } = Astro.props;
+const { getPlatform } = localeData(locale);
+const platform = getPlatform(slug)!;
+const history = mdBlock(platform.history);
+const withDetail = platform.games.filter((g) => g.detail).length;
+const { prev, next } = platformNeighbors(platform.slug);
+const lp = (p: string) => localizePath(locale, p);
+
+const genreCount = (k: string) => platform.games.filter((g) => genreCats(g.genre).includes(k)).length;
+const genreOptions = GENRE_CATS.filter(([k]) => genreCount(k) > 0).map(([k, label]) => [k, `${label} (${genreCount(k)})`] as [string, string]);
+const showGenreFilter = platform.games.length > 6 && genreOptions.length > 1;
+
+const missingTitle = {
+  cs: `Chybí tu tvoje oblíbená hra pro ${platform.name}?`,
+  en: `Missing your favourite ${platform.name} game?`,
+  de: `Fehlt dein Lieblingsspiel für ${platform.name}?`,
+}[locale];
+const typeLabel = t(locale, `type.${platform.type}.label`);
+---
+
+<section class="container">
+  <nav class="crumbs muted" aria-label="breadcrumb">
+    <a href={lp('/platformy')}>{t(locale, 'nav.platforms')}</a> <span>/</span> <span>{platform.name}</span>
+  </nav>
+
+  <div class="hero">
+    <div class="emblem-wrap">
+      <PlatformEmblem platform={platform} size="hero" />
+    </div>
+    <div class="intro">
+      <p class="eyebrow">{typeLabel}</p>
+      <h1>{platform.name}</h1>
+      <div class="facts">
+        <span class="tag">{platform.maker}</span>
+        <span class="tag">{t(locale, 'detail.year')} {platform.year}</span>
+        <span class="tag">{platform.gameCount} {t(locale, 'games.count')}</span>
+        {withDetail > 0 && <span class="tag">{withDetail} {t(locale, 'detail.withComment')}</span>}
+      </div>
+    </div>
+  </div>
+</section>
+
+{
+  history && (
+    <section class="section history-sec">
+      <div class="container narrow">
+        <h2 class="sec-title">{t(locale, 'detail.history')}</h2>
+        <div class="prose" set:html={history} />
+      </div>
+    </section>
+  )
+}
+
+<nav class="container pager" aria-label={t(locale, 'pager.morePlatforms')}>
+  {prev ? (
+    <a class="pager-link prev" href={lp(`/platformy/${prev.slug}`)} style={`--c1:${prev.color}`}>
+      <span class="dir">{t(locale, 'pager.prevPlatform')}</span>
+      <span class="pn">{prev.name}</span>
+    </a>
+  ) : <span />}
+  {next ? (
+    <a class="pager-link next" href={lp(`/platformy/${next.slug}`)} style={`--c1:${next.color}`}>
+      <span class="dir">{t(locale, 'pager.nextPlatform')}</span>
+      <span class="pn">{next.name}</span>
+    </a>
+  ) : <span />}
+</nav>
+
+<section class="section">
+  <div class="container">
+    <div class="games-head">
+      <h2 class="sec-title">{t(locale, 'detail.recommended')} <span class="muted">(<span id="gcount">{platform.gameCount}</span>)</span></h2>
+      {showGenreFilter && (
+        <select id="genre" aria-label="genre">
+          <option value="">{t(locale, 'filter.allGenres')}</option>
+          {genreOptions.map(([k, label]) => <option value={k}>{label}</option>)}
+        </select>
+      )}
+    </div>
+    <div class="grid grid-games" id="pgrid">
+      {platform.games.map((g) => (
+        <div class="pcell" data-genre={genreCats(g.genre).join(' ')}>
+          <GameCard game={g} platform={platform} locale={locale} />
+        </div>
+      ))}
+    </div>
+    <p class="empty muted" id="pempty" hidden>{t(locale, 'filter.emptyGenre')}</p>
+
+    <aside class="suggest">
+      <div>
+        <strong>{missingTitle}</strong>
+        <p class="muted small">{t(locale, 'suggest.sub')}</p>
+      </div>
+      <a class="suggest-btn" href={`${lp('/kontakt')}?type=hra&platform=${encodeURIComponent(platform.name)}`}>{t(locale, 'suggest.btn')}</a>
+    </aside>
+  </div>
+</section>
+
+{showGenreFilter && (
+  <script is:inline define:vars={{ total: platform.gameCount }}>
+    const sel = document.getElementById('genre');
+    const cells = Array.from(document.querySelectorAll('#pgrid .pcell'));
+    const countEl = document.getElementById('gcount');
+    const emptyEl = document.getElementById('pempty');
+    sel?.addEventListener('change', () => {
+      const g = sel.value;
+      let shown = 0;
+      for (const c of cells) {
+        const ok = !g || (c.dataset.genre || '').split(' ').includes(g);
+        c.hidden = !ok;
+        if (ok) shown++;
+      }
+      countEl.textContent = g ? shown : total;
+      emptyEl.hidden = shown !== 0;
+    });
+  </script>
+)}
+
+<style>
+  .crumbs { padding-top: 26px; font-size: 0.86rem; }
+  .crumbs a:hover { color: var(--accent); }
+  .crumbs span { margin-inline: 4px; }
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) 1.2fr;
+    gap: 32px;
+    align-items: center;
+    padding-block: 22px 8px;
+  }
+  .emblem-wrap {
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+  }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 16px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .narrow { max-width: 760px; }
+  .sec-title { font-size: clamp(1.3rem, 3vw, 1.7rem); margin-bottom: 18px; }
+  .games-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .games-head .sec-title { margin-bottom: 0; }
+  #genre {
+    height: 42px; padding: 0 14px; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border); color: var(--text);
+    font-size: 0.95rem; font-family: inherit;
+  }
+  #genre:focus { border-color: var(--accent); outline: none; }
+  .suggest {
+    margin-top: 28px; padding: 18px 22px; border-radius: var(--radius);
+    background: var(--surface); border: 1px dashed color-mix(in srgb, var(--accent) 45%, var(--border));
+    display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  .suggest-btn {
+    flex: none; font-weight: 700; padding: 0.6em 1.2em; border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+    border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--border));
+    color: var(--text); transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .suggest-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .games-head + .grid-games { margin-top: 18px; }
+  .pcell[hidden] { display: none; }
+  .empty { text-align: center; padding: 36px 0; }
+  .history-sec { background: var(--bg-2); border-block: 1px solid var(--border-soft); }
+  .prose { font-size: 1.04rem; }
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    margin-top: 10px;
+  }
+  .pager-link {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    max-width: 48%;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .pager-link:hover { border-color: color-mix(in srgb, var(--c1) 60%, var(--border)); transform: translateY(-2px); }
+  .pager-link.next { text-align: right; margin-left: auto; }
+  .pager-link .dir { font-size: 0.75rem; color: var(--muted); }
+  .pager-link .pn { font-weight: 700; color: color-mix(in srgb, var(--c1) 75%, var(--text)); }
+</style>

@@ -24,13 +24,21 @@ export function localizePath(l: Locale, path: string): string {
   return (localePrefix(l) + p).replace(/\/$/, '') || '/';
 }
 
-/** Cesty, které už mají EN/DE variantu (Fáze A). Ostatní zatím padají na češtinu. */
-export const LOCALIZED_ROUTES = new Set<string>(['/', '/podporit', '/kontakt']);
+/** Sekce webu, které už mají EN/DE varianty. Postupně přibývají (Fáze B).
+ *  Root cesta sekce ('/', '/platformy', '/hry', …). */
+export const LOCALIZED_SECTIONS = new Set<string>(['/', '/podporit', '/kontakt', '/platformy']);
 
-/** Odkaz do navigace: lokalizuje jen cesty, které EN/DE variantu mají,
+/** Root sekce z cesty: '/platformy/game-boy' -> '/platformy', '/' -> '/'. */
+function sectionRoot(path: string): string {
+  const seg = path.split('/').filter(Boolean)[0];
+  return seg ? `/${seg}` : '/';
+}
+
+/** Odkaz respektující, zda cílová sekce už má překlad: pokud ano, lokalizuje,
  *  jinak vede na českou verzi (aby nevznikaly 404 před dokončením překladů). */
 export function navHref(l: Locale, path: string): string {
-  return LOCALIZED_ROUTES.has(path) ? localizePath(l, path) : path;
+  const root = path === '/' ? '/' : sectionRoot(path);
+  return LOCALIZED_SECTIONS.has(root) ? localizePath(l, path) : path;
 }
 
 /** Zjistí jazyk z URL cesty. */
@@ -77,6 +85,20 @@ const UI: Dict = {
 
   'games.count': { cs: 'her', en: 'games', de: 'Spiele' },
   'platforms.count': { cs: 'platforem', en: 'platforms', de: 'Plattformen' },
+
+  // detail platformy / společné
+  'detail.history': { cs: 'Historie & kontext', en: 'History & context', de: 'Geschichte & Kontext' },
+  'detail.recommended': { cs: 'Doporučené hry', en: 'Recommended games', de: 'Empfohlene Spiele' },
+  'detail.withComment': { cs: 's komentářem', en: 'with commentary', de: 'mit Kommentar' },
+  'detail.year': { cs: 'Rok', en: 'Year', de: 'Jahr' },
+  'filter.allGenres': { cs: 'Všechny žánry', en: 'All genres', de: 'Alle Genres' },
+  'filter.emptyGenre': { cs: 'Žádná hra v tomto žánru.', en: 'No game in this genre.', de: 'Kein Spiel in diesem Genre.' },
+  'pager.prevPlatform': { cs: '← Předchozí platforma', en: '← Previous platform', de: '← Vorherige Plattform' },
+  'pager.nextPlatform': { cs: 'Další platforma →', en: 'Next platform →', de: 'Nächste Plattform →' },
+  'pager.morePlatforms': { cs: 'Další platformy', en: 'More platforms', de: 'Weitere Plattformen' },
+  'suggest.sub': { cs: 'Napiš mi ji — kurátorský výběr pořád rozšiřuju.', en: 'Tell me — I keep expanding the curated selection.', de: 'Schreib mir — ich erweitere die Auswahl laufend.' },
+  'suggest.btn': { cs: '💡 Navrhnout hru', en: '💡 Suggest a game', de: '💡 Spiel vorschlagen' },
+  'crumbs.games': { cs: 'Hry', en: 'Games', de: 'Spiele' },
 
   // homepage
   'home.eyebrow': { cs: '★ Insert coin · Press start', en: '★ Insert coin · Press start', de: '★ Insert coin · Press start' },

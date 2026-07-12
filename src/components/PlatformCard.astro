@@ -1,20 +1,23 @@
 ---
 import type { Platform } from '../lib/data';
 import PlatformEmblem from './PlatformEmblem.astro';
+import { localizePath, t, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
 
 interface Props {
   platform: Platform;
+  locale?: Locale;
 }
-const { platform } = Astro.props;
+const { platform, locale = DEFAULT_LOCALE } = Astro.props;
 ---
 
-<a class="card platform-card" href={`/platformy/${platform.slug}`} style={`--c1:${platform.color}`}>
+<a class="card platform-card" href={localizePath(locale, `/platformy/${platform.slug}`)} style={`--c1:${platform.color}`}>
   <PlatformEmblem platform={platform} />
   <div class="body">
     <h3>{platform.name}</h3>
     <p class="meta muted">{platform.maker} · {platform.year}</p>
     <div class="foot">
-      <span class="count">{platform.gameCount} her</span>
+      <span class="count">{platform.gameCount} {t(locale, 'games.count')}</span>
       <span class="arrow" aria-hidden="true">→</span>
     </div>
   </div>

@@ -1,12 +1,15 @@
 ---
 import { FLAG_LABEL, mdInline, type Game, type Platform } from '../lib/data';
+import { navHref, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
 
 interface Props {
   game: Game;
   platform: Platform;
   showPlatform?: boolean;
+  locale?: Locale;
 }
-const { game, platform, showPlatform = false } = Astro.props;
+const { game, platform, showPlatform = false, locale = DEFAULT_LOCALE } = Astro.props;
 
 // Krátký popis: teaser, jinak useknutý článek/detail.
 let blurb = game.teaser;
@@ -18,7 +21,7 @@ if (!blurb && longText) {
 const hasInfo = Boolean(game.article || game.detail);
 ---
 
-<a class="card game-card" href={`/hry/${game.slug}`} style={`--c1:${platform.color}; --c2:${platform.color2}`}>
+<a class="card game-card" href={navHref(locale, `/hry/${game.slug}`)} style={`--c1:${platform.color}; --c2:${platform.color2}`}>
   <div class:list={['thumb', { 'is-empty': !game.image }]}>
     {
       game.image ? (
