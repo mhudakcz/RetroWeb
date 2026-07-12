@@ -26,7 +26,9 @@ export function localizePath(l: Locale, path: string): string {
 
 /** Sekce webu, které už mají EN/DE varianty. Postupně přibývají (Fáze B).
  *  Root cesta sekce ('/', '/platformy', '/hry', …). */
-export const LOCALIZED_SECTIONS = new Set<string>(['/', '/podporit', '/kontakt', '/platformy']);
+export const LOCALIZED_SECTIONS = new Set<string>([
+  '/', '/podporit', '/kontakt', '/platformy', '/studia',
+]);
 
 /** Root sekce z cesty: '/platformy/game-boy' -> '/platformy', '/' -> '/'. */
 function sectionRoot(path: string): string {
@@ -99,6 +101,35 @@ const UI: Dict = {
   'suggest.sub': { cs: 'Napiš mi ji — kurátorský výběr pořád rozšiřuju.', en: 'Tell me — I keep expanding the curated selection.', de: 'Schreib mir — ich erweitere die Auswahl laufend.' },
   'suggest.btn': { cs: '💡 Navrhnout hru', en: '💡 Suggest a game', de: '💡 Spiel vorschlagen' },
   'crumbs.games': { cs: 'Hry', en: 'Games', de: 'Spiele' },
+
+  // studia
+  'studios.title': { cs: 'Herní studia', en: 'Game studios', de: 'Spiele-Studios' },
+  'studios.eyebrow': { cs: 'Tvůrci', en: 'Creators', de: 'Macher' },
+  'studios.lead': {
+    cs: 'Kdo stál za klasikami. Profily studií, jejich historie, proměny a hry, které tu máme.',
+    en: 'Who was behind the classics. Studio profiles, their history, transformations and the games we have here.',
+    de: 'Wer hinter den Klassikern stand. Studio-Profile, ihre Geschichte, Wandlungen und die Spiele, die wir hier haben.',
+  },
+  'studio.eyebrow': { cs: 'Herní studio', en: 'Game studio', de: 'Spiele-Studio' },
+  'studio.inCatalog': { cs: 'her v katalogu', en: 'games in the catalogue', de: 'Spiele im Katalog' },
+  'studio.gamesOf': { cs: 'Hry studia', en: 'Games by the studio', de: 'Spiele des Studios' },
+
+  // hardware
+  'hw.title': { cs: 'Hardware & emulace', en: 'Hardware & emulation', de: 'Hardware & Emulation' },
+  'hw.eyebrow': { cs: 'Na čem hrát', en: 'What to play on', de: 'Worauf spielen' },
+  'hw.lead': {
+    cs: 'Handheldy, jednodeskové počítače, PC i mobil — na čem všem se dá rozjet retro a jak na to.',
+    en: 'Handhelds, single-board computers, PC and mobile — everything you can run retro on and how to do it.',
+    de: 'Handhelds, Einplatinencomputer, PC und Handy — worauf sich Retro betreiben lässt und wie.',
+  },
+  'hw.specs': { cs: 'Parametry', en: 'Specs', de: 'Technische Daten' },
+  'hw.canPlay': { cs: 'Co utáhne', en: 'What it runs', de: 'Was es packt' },
+  'hw.toc': { cs: 'V tomto průvodci', en: 'In this guide', de: 'In diesem Guide' },
+  'hw.options': { cs: 'Rychlé tipy', en: 'Quick tips', de: 'Schnelle Tipps' },
+  'hw.more': { cs: 'Další průvodci', en: 'More guides', de: 'Weitere Guides' },
+  'hwlvl.ok': { cs: 'Plynule', en: 'Smoothly', de: 'Flüssig' },
+  'hwlvl.most': { cs: 'Většinou', en: 'Mostly', de: 'Meistens' },
+  'hwlvl.some': { cs: 'Vybrané tituly', en: 'Select titles', de: 'Ausgewählte Titel' },
 
   // homepage
   'home.eyebrow': { cs: '★ Insert coin · Press start', en: '★ Insert coin · Press start', de: '★ Insert coin · Press start' },
