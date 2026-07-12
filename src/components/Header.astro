@@ -1,6 +1,7 @@
 ---
-import { t, localizePath, navHref, LOCALES, LOCALE_NAME, LOCALE_FLAG, DEFAULT_LOCALE } from '../lib/i18n';
+import { t, localizePath, navHref, LOCALES, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
+import LangSwitcher from './LangSwitcher.astro';
 
 interface Props {
   locale?: Locale;
@@ -25,8 +26,6 @@ const NAV: [string, string][] = [
   ['/hardware', 'nav.hardware'],
   ['/o-projektu', 'nav.about'],
 ];
-// kam vede přepínač jazyka: na lokalizovanou variantu stránky, jinak na domovskou
-const langTarget = (l: Locale) => (localized ? localizePath(l, basePath) : localizePath(l, '/'));
 ---
 
 <header class="site-header">
@@ -42,19 +41,8 @@ const langTarget = (l: Locale) => (localized ? localizePath(l, basePath) : local
       <button id="theme-nav" class="nav-link theme-nav" type="button">
         <span class="t-dark">{t(locale, 'theme.dark')}</span><span class="t-light">{t(locale, 'theme.light')}</span>
       </button>
-      <div class="lang-nav" aria-label={t(locale, 'nav.language')}>
-        {LOCALES.map((l) => (
-          <a href={langTarget(l)} class:list={['lang-opt', { on: l === locale }]} hreflang={l} title={LOCALE_NAME[l]}>
-            <span class="flag">{LOCALE_FLAG[l]}</span> {LOCALE_NAME[l]}
-          </a>
-        ))}
-      </div>
     </nav>
-    <div class="lang-switch" role="group" aria-label={t(locale, 'nav.language')}>
-      {LOCALES.map((l) => (
-        <a href={langTarget(l)} class:list={['lang-flag', { on: l === locale }]} hreflang={l} title={LOCALE_NAME[l]} aria-label={LOCALE_NAME[l]}>{LOCALE_FLAG[l]}</a>
-      ))}
-    </div>
+    <LangSwitcher locale={locale} localized={localized} drop="down" />
     <button id="theme-toggle" class="theme-toggle" type="button" aria-label={t(locale, 'theme.toggle')} title={t(locale, 'theme.toggle')}>
       <span class="t-dark">🌙</span><span class="t-light">☀️</span>
     </button>

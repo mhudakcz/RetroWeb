@@ -1,0 +1,117 @@
+---
+import { LOCALES, LOCALE_NAME, LOCALE_FLAG, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+interface Props {
+  locale?: Locale;
+  localized?: boolean;
+  /** Kam se rozbalí menu: dolů (hlavička) nebo nahoru (patička). */
+  drop?: 'down' | 'up';
+}
+const { locale = DEFAULT_LOCALE, localized = false, drop = 'down' } = Astro.props;
+
+const path = Astro.url.pathname;
+const stripLocale = (p: string): string => {
+  const parts = p.split('/').filter(Boolean);
+  if (parts[0] && (LOCALES as readonly string[]).includes(parts[0]) && parts[0] !== DEFAULT_LOCALE) parts.shift();
+  return '/' + parts.join('/');
+};
+const basePath = stripLocale(path);
+const target = (l: Locale) => (localized ? localizePath(l, basePath) : localizePath(l, '/'));
+---
+
+<details class={`lang-dd drop-${drop}`}>
+  <summary aria-label="Jazyk / Language / Sprache" title={LOCALE_NAME[locale]}>
+    <span class="flag">{LOCALE_FLAG[locale]}</span>
+    <span class="name">{LOCALE_NAME[locale]}</span>
+    <span class="chev" aria-hidden="true">▾</span>
+  </summary>
+  <ul class="lang-menu" role="menu">
+    {LOCALES.map((l) => (
+      <li role="none">
+        <a role="menuitem" href={target(l)} hreflang={l} class:list={['lang-item', { on: l === locale }]}>
+          <span class="flag">{LOCALE_FLAG[l]}</span> <span>{LOCALE_NAME[l]}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</details>
+
+<script is:inline>
+  (function () {
+    // zavři otevřené roletky při kliku mimo nebo Esc
+    document.addEventListener('click', function (e) {
+      document.querySelectorAll('details.lang-dd[open]').forEach(function (d) {
+        if (!d.contains(e.target)) d.removeAttribute('open');
+      });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape')
+        document.querySelectorAll('details.lang-dd[open]').forEach(function (d) { d.removeAttribute('open'); });
+    });
+  })();
+</script>
+
+<style>
+  .lang-dd {
+    position: relative;
+    flex: none;
+  }
+  .lang-dd summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 38px;
+    padding: 0 10px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-weight: 600;
+    font-size: 0.9rem;
+    user-select: none;
+    transition: border-color 0.15s ease;
+  }
+  .lang-dd summary::-webkit-details-marker { display: none; }
+  .lang-dd summary:hover { border-color: var(--accent); }
+  .lang-dd .flag { font-size: 1.05rem; line-height: 1; }
+  .lang-dd .chev { color: var(--muted); font-size: 0.75rem; transition: transform 0.15s ease; }
+  .lang-dd[open] .chev { transform: rotate(180deg); }
+
+  .lang-menu {
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    padding: 6px;
+    border-radius: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-lg, 0 12px 30px -10px rgba(0, 0, 0, 0.5));
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .drop-down .lang-menu { top: calc(100% + 8px); }
+  .drop-up .lang-menu { bottom: calc(100% + 8px); }
+  .lang-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0.55em 0.7em;
+    border-radius: 8px;
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .lang-item:hover { color: var(--text); background: var(--surface-2); }
+  .lang-item.on { color: var(--text); background: var(--surface-2); }
+  .lang-item .flag { font-size: 1.05rem; }
+
+  @media (max-width: 420px) {
+    .lang-dd summary .name { display: none; }
+  }
+</style>

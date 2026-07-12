@@ -2,7 +2,8 @@
 import { stats } from '../lib/data';
 import { t, navHref, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
-const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+import LangSwitcher from './LangSwitcher.astro';
+const { locale = DEFAULT_LOCALE, localized = false } = Astro.props as { locale?: Locale; localized?: boolean };
 const lp = (p: string) => navHref(locale, p);
 ---
 
@@ -28,6 +29,10 @@ const lp = (p: string) => navHref(locale, p);
           <li><a href={lp('/kontakt')}>{t(locale, 'nav.contact')}</a></li>
           <li><a href={lp('/podporit')}>{t(locale, 'nav.support')}</a></li>
         </ul>
+        <div class="foot-lang">
+          <span class="muted small">{t(locale, 'nav.language')}</span>
+          <LangSwitcher locale={locale} localized={localized} drop="up" />
+        </div>
         <p class="muted small legal">{t(locale, 'footer.legal')}</p>
       </div>
     </div>
@@ -70,6 +75,12 @@ const lp = (p: string) => navHref(locale, p);
   }
   .legal {
     margin-top: 14px;
+  }
+  .foot-lang {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
   }
   .base {
     display: flex;
