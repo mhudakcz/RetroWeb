@@ -1,0 +1,155 @@
+---
+import PlatformCard from './PlatformCard.astro';
+import GameCard from './GameCard.astro';
+import HardwareArt from './HardwareArt.astro';
+import { platformsByType, allGames, stats } from '../lib/data';
+import { hardware } from '../data/hardware';
+import { t, navHref, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+const lp = (p: string) => navHref(locale, p);
+const groups = platformsByType();
+const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6);
+---
+
+<section class="hero scanlines">
+  <div class="container hero-inner">
+    <p class="eyebrow">{t(locale, 'home.eyebrow')}</p>
+    <h1>
+      {t(locale, 'home.h1a')} <span class="grad">{t(locale, 'home.h1b')}</span><br />
+      {t(locale, 'home.h1c')}
+    </h1>
+    <p class="lead muted">{t(locale, 'home.lead')}</p>
+    <div class="cta">
+      <a class="btn btn-primary" href={lp('/platformy')}>{t(locale, 'home.ctaPlatforms')}</a>
+      <a class="btn" href={lp('/hry')}>{t(locale, 'home.ctaGames')}</a>
+    </div>
+    <ul class="stats">
+      <li><span class="num pixel">{stats.platforms}</span><span class="lbl">{t(locale, 'platforms.count')}</span></li>
+      <li><span class="num pixel">{stats.games}</span><span class="lbl">{t(locale, 'games.count')}</span></li>
+      <li><span class="num pixel">{stats.gameImages}</span><span class="lbl">{t(locale, 'home.images')}</span></li>
+    </ul>
+  </div>
+</section>
+
+{
+  groups.map((group) => (
+    <section class="section">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <p class="eyebrow">{t(locale, `type.${group.type}.label`)}</p>
+            <h2>{t(locale, `type.${group.type}.tag`)}</h2>
+          </div>
+          <span class="muted count">{group.items.length} {t(locale, 'platforms.count')}</span>
+        </div>
+        <div class="grid grid-platforms">
+          {group.items.map((p) => <PlatformCard platform={p} locale={locale} />)}
+        </div>
+      </div>
+    </section>
+  ))
+}
+
+<section class="section hw-sec">
+  <div class="container">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">{t(locale, 'home.hwEyebrow')}</p>
+        <h2>{t(locale, 'home.hwTitle')}</h2>
+      </div>
+      <a class="muted link" href={lp('/hardware')}>{t(locale, 'home.hwAll')}</a>
+    </div>
+    <div class="grid grid-hw">
+      {hardware.map((h) => (
+        <a class="card hw-card" href={lp(`/hardware/${h.slug}`)} style={`--c1:${h.color}; --c2:${h.color2}`}>
+          {h.photo ? (
+            <div class={`hw-photo${h.photo.fit === 'contain' ? ' contain' : ''}`}>
+              <img src={h.photo.src} alt={h.name} loading="lazy" />
+            </div>
+          ) : (
+            <HardwareArt art={h.art} color={h.color} color2={h.color2} />
+          )}
+          <div class="hw-body">
+            <h3>{h.name}</h3>
+            <p class="muted">{h.kind}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+{
+  featured.length > 0 && (
+    <section class="section featured">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <p class="eyebrow">{t(locale, 'home.featEyebrow')}</p>
+            <h2>{t(locale, 'home.featTitle')}</h2>
+          </div>
+          <a class="muted link" href={lp('/hry')}>{t(locale, 'home.gamesAll')}</a>
+        </div>
+        <div class="grid grid-games">
+          {featured.map((g) => <GameCard game={g} platform={g.platform} showPlatform locale={locale} />)}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .hero {
+    border-bottom: 1px solid var(--border-soft);
+    background:
+      radial-gradient(800px 380px at 18% -10%, rgba(255, 62, 127, 0.16), transparent 60%),
+      radial-gradient(700px 360px at 92% 0%, rgba(54, 226, 255, 0.12), transparent 55%);
+  }
+  .hero-inner { padding-block: 72px 60px; max-width: 760px; }
+  h1 { font-size: clamp(2.3rem, 6vw, 3.7rem); margin-block: 14px 18px; }
+  .grad {
+    background: linear-gradient(110deg, var(--accent), var(--accent-3) 60%, var(--accent-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lead { font-size: 1.12rem; max-width: 620px; }
+  .lead strong { color: var(--text); }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 26px; }
+  .stats { display: flex; gap: 38px; margin-top: 44px; flex-wrap: wrap; }
+  .stats li { display: flex; flex-direction: column; gap: 4px; }
+  .num { font-size: 1.5rem; color: var(--accent-3); }
+  .lbl { font-size: 0.82rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+  .sec-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 22px;
+  }
+  .sec-head h2 { font-size: clamp(1.3rem, 3vw, 1.7rem); margin-top: 4px; }
+  .sec-head .count { font-size: 0.85rem; white-space: nowrap; }
+  .link:hover { color: var(--accent); }
+  .featured { background: var(--bg-2); border-block: 1px solid var(--border-soft); }
+  .grid-hw { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 18px; }
+  .hw-photo {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background:
+      radial-gradient(120% 120% at 75% 10%, color-mix(in srgb, var(--c1) 30%, transparent), transparent 60%),
+      linear-gradient(160deg, var(--c2), #0b0c11);
+  }
+  .hw-photo img { width: 100%; height: 100%; object-fit: contain; padding: 16px; display: block; }
+  .hw-card { display: flex; flex-direction: column; }
+  .hw-card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--c1) 55%, var(--border));
+    box-shadow: var(--shadow);
+  }
+  .hw-body { padding: 13px 15px 15px; }
+  .hw-body h3 { font-size: 1rem; line-height: 1.25; }
+  .hw-body .muted { font-size: 0.82rem; margin-top: 3px; }
+  .section + .section { padding-top: 8px; }
+</style>

@@ -5,6 +5,13 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://retrowebcz.netlify.app',
   integrations: [sitemap()],
+  i18n: {
+    defaultLocale: 'cs',
+    locales: ['cs', 'en', 'de'],
+    routing: {
+      prefixDefaultLocale: false, // čeština na /, angličtina /en/, němčina /de/
+    },
+  },
   build: {
     format: 'directory',
   },

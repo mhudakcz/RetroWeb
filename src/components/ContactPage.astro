@@ -1,0 +1,201 @@
+---
+import { WEB3FORMS_KEY } from '../lib/site';
+import { DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+const hasKey = !!WEB3FORMS_KEY;
+
+const T = {
+  cs: {
+    eyebrow: 'Ozvi se', h1: 'Kontakt & přání',
+    lead: 'Máš tip na hru, našel jsi chybu, nebo chceš navrhnout platformu či titul, který tu chybí? Napiš mi. Zpráva chodí přímo mně, tvůj e-mail nikde nezveřejňuju.',
+    notice: '⚙️ Formulář zatím není aktivní — chybí Web3Forms klíč. Doplň ho v src/lib/site.ts (zdarma na web3forms.com).',
+    typeLabel: 'Typ zprávy',
+    types: ['Obecný dotaz nebo tip', 'Návrh hry (chybí tu)', 'Návrh platformy', 'Oprava nebo chyba'],
+    platform: 'Platforma', platformPh: 'např. Nintendo Game Boy',
+    name: 'Jméno', nameOpt: '(nepovinné)',
+    email: 'E-mail', emailOpt: '(když chceš odpověď)', emailPh: 'ty@email.cz',
+    message: 'Zpráva', messagePh: 'Sem napiš, co máš na srdci…',
+    submit: 'Odeslat', sending: 'Odesílám…',
+    ok: '✅ Díky! Zpráva odešla, ozvu se co nejdřív.',
+    err: '❌ Něco se pokazilo. Zkus to prosím znovu.',
+    noKey: 'Formulář zatím není aktivní (chybí klíč).',
+  },
+  en: {
+    eyebrow: 'Get in touch', h1: 'Contact & wishes',
+    lead: 'Got a game tip, found a mistake, or want to suggest a platform or title that’s missing? Write to me. Messages come straight to me and I never publish your e-mail.',
+    notice: '⚙️ The form isn’t active yet — the Web3Forms key is missing. Add it in src/lib/site.ts (free at web3forms.com).',
+    typeLabel: 'Message type',
+    types: ['General question or tip', 'Suggest a game (missing)', 'Suggest a platform', 'Correction or bug'],
+    platform: 'Platform', platformPh: 'e.g. Nintendo Game Boy',
+    name: 'Name', nameOpt: '(optional)',
+    email: 'E-mail', emailOpt: '(if you want a reply)', emailPh: 'you@email.com',
+    message: 'Message', messagePh: 'Write whatever’s on your mind…',
+    submit: 'Send', sending: 'Sending…',
+    ok: '✅ Thanks! Your message was sent, I’ll reply as soon as I can.',
+    err: '❌ Something went wrong. Please try again.',
+    noKey: 'The form isn’t active yet (missing key).',
+  },
+  de: {
+    eyebrow: 'Melde dich', h1: 'Kontakt & Wünsche',
+    lead: 'Hast du einen Spieltipp, einen Fehler gefunden oder möchtest eine fehlende Plattform oder ein Spiel vorschlagen? Schreib mir. Nachrichten kommen direkt zu mir, deine E-Mail wird nie veröffentlicht.',
+    notice: '⚙️ Das Formular ist noch nicht aktiv — der Web3Forms-Schlüssel fehlt. Trage ihn in src/lib/site.ts ein (gratis auf web3forms.com).',
+    typeLabel: 'Art der Nachricht',
+    types: ['Allgemeine Frage oder Tipp', 'Spiel vorschlagen (fehlt)', 'Plattform vorschlagen', 'Korrektur oder Fehler'],
+    platform: 'Plattform', platformPh: 'z. B. Nintendo Game Boy',
+    name: 'Name', nameOpt: '(optional)',
+    email: 'E-Mail', emailOpt: '(wenn du eine Antwort willst)', emailPh: 'du@email.de',
+    message: 'Nachricht', messagePh: 'Schreib, was dir auf dem Herzen liegt…',
+    submit: 'Senden', sending: 'Senden…',
+    ok: '✅ Danke! Deine Nachricht wurde gesendet, ich melde mich so bald wie möglich.',
+    err: '❌ Etwas ist schiefgelaufen. Bitte versuche es erneut.',
+    noKey: 'Das Formular ist noch nicht aktiv (Schlüssel fehlt).',
+  },
+}[locale];
+---
+
+<section class="container narrow" data-i18n={JSON.stringify({ sending: T.sending, ok: T.ok, err: T.err, noKey: T.noKey })}>
+  <p class="eyebrow">{T.eyebrow}</p>
+  <h1>{T.h1}</h1>
+  <p class="lead muted">{T.lead}</p>
+
+  {!hasKey && <p class="notice">{T.notice}</p>}
+
+  <form id="cform" class="form" novalidate>
+    <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
+    <input type="hidden" name="subject" id="f-subject" value="RetroWeb" />
+    <input type="hidden" name="from_name" value="RetroWeb" />
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" />
+
+    <label>
+      <span>{T.typeLabel}</span>
+      <select name="typ" id="f-typ">
+        <option value={T.types[0]}>{T.types[0]}</option>
+        <option value={T.types[1]} data-wish>{T.types[1]}</option>
+        <option value={T.types[2]} data-wish>{T.types[2]}</option>
+        <option value={T.types[3]}>{T.types[3]}</option>
+      </select>
+    </label>
+
+    <label id="plat-wrap" hidden>
+      <span>{T.platform}</span>
+      <input type="text" name="platforma" id="f-plat" placeholder={T.platformPh} />
+    </label>
+
+    <div class="row">
+      <label>
+        <span>{T.name} <em>{T.nameOpt}</em></span>
+        <input type="text" name="jmeno" autocomplete="name" />
+      </label>
+      <label>
+        <span>{T.email} <em>{T.emailOpt}</em></span>
+        <input type="email" name="email" autocomplete="email" placeholder={T.emailPh} />
+      </label>
+    </div>
+
+    <label>
+      <span>{T.message}</span>
+      <textarea name="zprava" id="f-msg" rows="6" required placeholder={T.messagePh}></textarea>
+    </label>
+
+    <button type="submit" class="submit">{T.submit}</button>
+    <p id="f-status" class="status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<script>
+  const root = document.querySelector('[data-i18n]') as HTMLElement;
+  const S = JSON.parse(root?.dataset.i18n || '{}');
+  const form = document.getElementById('cform') as HTMLFormElement;
+  const typ = document.getElementById('f-typ') as HTMLSelectElement;
+  const platWrap = document.getElementById('plat-wrap') as HTMLElement;
+  const platInput = document.getElementById('f-plat') as HTMLInputElement;
+  const subject = document.getElementById('f-subject') as HTMLInputElement;
+  const statusEl = document.getElementById('f-status') as HTMLElement;
+
+  const params = new URLSearchParams(location.search);
+  const qType = params.get('type');
+  const qPlat = params.get('platform');
+  const opts = Array.from(typ.options);
+  // index 1 = přání hra, 2 = přání platforma
+  if (qType === 'hra') typ.selectedIndex = 1;
+  else if (qType === 'platforma') typ.selectedIndex = 2;
+  else if (qType === 'oprava') typ.selectedIndex = 3;
+  if (qPlat) platInput.value = qPlat;
+
+  function isWish() {
+    return typ.options[typ.selectedIndex].hasAttribute('data-wish');
+  }
+  function sync() {
+    platWrap.hidden = !isWish();
+    subject.value = `RetroWeb — ${typ.value}`;
+  }
+  typ.addEventListener('change', sync);
+  sync();
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const key = (form.elements.namedItem('access_key') as HTMLInputElement).value;
+    if (!key) { statusEl.textContent = S.noKey; statusEl.className = 'status err'; return; }
+    statusEl.textContent = S.sending;
+    statusEl.className = 'status';
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form),
+      });
+      const data = await res.json();
+      if (data.success) {
+        form.reset(); sync();
+        statusEl.textContent = S.ok; statusEl.className = 'status ok';
+      } else {
+        statusEl.textContent = S.err; statusEl.className = 'status err';
+      }
+    } catch (err) {
+      statusEl.textContent = S.err; statusEl.className = 'status err';
+    }
+  });
+</script>
+
+<style>
+  .narrow { max-width: 680px; }
+  .eyebrow {
+    font-family: var(--font-pixel);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: color-mix(in srgb, var(--accent) 80%, var(--text));
+    padding-top: 40px;
+  }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 12px; }
+  .lead { font-size: 1.05rem; line-height: 1.65; }
+  .notice {
+    margin: 18px 0; padding: 14px 16px; border-radius: 12px;
+    background: color-mix(in srgb, #e0b53d 14%, var(--surface));
+    border: 1px solid color-mix(in srgb, #e0b53d 45%, var(--border));
+    font-size: 0.9rem;
+  }
+  .form { margin-top: 26px; display: flex; flex-direction: column; gap: 16px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 0.92rem; }
+  label em { font-weight: 400; color: var(--muted); font-style: normal; }
+  input, select, textarea {
+    font: inherit; padding: 0.65em 0.8em; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border); color: var(--text); width: 100%;
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); outline: none; }
+  textarea { resize: vertical; }
+  .hp { position: absolute; left: -9999px; opacity: 0; }
+  .submit {
+    align-self: flex-start; cursor: pointer; font-weight: 800;
+    padding: 0.7em 1.6em; border-radius: 999px; border: none; color: #1a0710;
+    background: linear-gradient(135deg, var(--accent), #ff8fb3);
+    box-shadow: 0 8px 22px -10px var(--accent); transition: transform 0.15s ease;
+  }
+  .submit:hover { transform: translateY(-2px); }
+  .status { font-size: 0.92rem; min-height: 1.2em; }
+  .status.ok { color: #4ade80; }
+  .status.err { color: #ff7a90; }
+  @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+</style>

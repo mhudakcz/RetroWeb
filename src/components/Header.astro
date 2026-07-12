@@ -1,29 +1,64 @@
 ---
+import { t, localizePath, navHref, LOCALES, LOCALE_NAME, LOCALE_FLAG, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+interface Props {
+  locale?: Locale;
+  localized?: boolean;
+}
+const { locale = DEFAULT_LOCALE, localized = false } = Astro.props;
+
 const path = Astro.url.pathname;
-const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
+const stripLocale = (p: string): string => {
+  const parts = p.split('/').filter(Boolean);
+  if (parts[0] && (LOCALES as readonly string[]).includes(parts[0]) && parts[0] !== DEFAULT_LOCALE) parts.shift();
+  return '/' + parts.join('/');
+};
+const basePath = stripLocale(path);
+const isActive = (base: string) => (base === '/' ? basePath === '/' : basePath.startsWith(base));
+
+const NAV: [string, string][] = [
+  ['/', 'nav.home'],
+  ['/platformy', 'nav.platforms'],
+  ['/hry', 'nav.games'],
+  ['/studia', 'nav.studios'],
+  ['/hardware', 'nav.hardware'],
+  ['/o-projektu', 'nav.about'],
+];
+// kam vede přepínač jazyka: na lokalizovanou variantu stránky, jinak na domovskou
+const langTarget = (l: Locale) => (localized ? localizePath(l, basePath) : localizePath(l, '/'));
 ---
 
 <header class="site-header">
   <div class="container bar">
-    <a href="/" class="logo" aria-label="RetroWeb – domů">
+    <a href={localizePath(locale, '/')} class="logo" aria-label="RetroWeb">
       <span class="logo-mark pixel">RW</span>
       <span class="logo-text">Retro<span class="accent">Web</span></span>
     </a>
-    <nav id="nav" class="nav" aria-label="Hlavní navigace">
-      <a href="/" class:list={['nav-link', { active: isActive('/') }]}>Domů</a>
-      <a href="/platformy" class:list={['nav-link', { active: isActive('/platformy') }]}>Platformy</a>
-      <a href="/hry" class:list={['nav-link', { active: isActive('/hry') }]}>Hry</a>
-      <a href="/studia" class:list={['nav-link', { active: isActive('/studia') }]}>Studia</a>
-      <a href="/hardware" class:list={['nav-link', { active: isActive('/hardware') }]}>Hardware</a>
-      <a href="/o-projektu" class:list={['nav-link', { active: isActive('/o-projektu') }]}>O projektu</a>
+    <nav id="nav" class="nav" aria-label="RetroWeb">
+      {NAV.map(([href, key]) => (
+        <a href={navHref(locale, href)} class:list={['nav-link', { active: isActive(href) }]}>{t(locale, key)}</a>
+      ))}
       <button id="theme-nav" class="nav-link theme-nav" type="button">
-        <span class="t-dark">🌙 Noční režim</span><span class="t-light">☀️ Denní režim</span>
+        <span class="t-dark">{t(locale, 'theme.dark')}</span><span class="t-light">{t(locale, 'theme.light')}</span>
       </button>
+      <div class="lang-nav" aria-label={t(locale, 'nav.language')}>
+        {LOCALES.map((l) => (
+          <a href={langTarget(l)} class:list={['lang-opt', { on: l === locale }]} hreflang={l} title={LOCALE_NAME[l]}>
+            <span class="flag">{LOCALE_FLAG[l]}</span> {LOCALE_NAME[l]}
+          </a>
+        ))}
+      </div>
     </nav>
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Přepnout denní/noční režim" title="Denní / noční režim">
+    <div class="lang-switch" role="group" aria-label={t(locale, 'nav.language')}>
+      {LOCALES.map((l) => (
+        <a href={langTarget(l)} class:list={['lang-flag', { on: l === locale }]} hreflang={l} title={LOCALE_NAME[l]} aria-label={LOCALE_NAME[l]}>{LOCALE_FLAG[l]}</a>
+      ))}
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label={t(locale, 'theme.toggle')} title={t(locale, 'theme.toggle')}>
       <span class="t-dark">🌙</span><span class="t-light">☀️</span>
     </button>
-    <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav">
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-label={t(locale, 'nav.openMenu')} aria-expanded="false" aria-controls="nav">
       <span class="bars" aria-hidden="true"></span>
     </button>
   </div>
@@ -163,6 +198,31 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
     background: rgba(255, 255, 255, 0.82);
   }
 
+  /* přepínač jazyka v liště (desktop) */
+  .lang-switch {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .lang-flag {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 4px 5px;
+    border-radius: 7px;
+    opacity: 0.45;
+    filter: grayscale(0.4);
+    transition: opacity 0.15s ease, background 0.15s ease;
+  }
+  .lang-flag:hover { opacity: 0.9; }
+  .lang-flag.on {
+    opacity: 1;
+    filter: none;
+    background: var(--surface-2);
+  }
+  /* přepínač jazyka v mobilním menu (skrytý na desktopu) */
+  .lang-nav { display: none; }
+
   /* přepínač režimu uvnitř mobilního menu (skrytý na desktopu) */
   .theme-nav {
     display: none;
@@ -262,6 +322,30 @@ const isActive = (p: string) => (p === '/' ? path === '/' : path.startsWith(p));
       padding: 0.7em 0.85em;
       font-size: 0.98rem;
       width: 100%;
+    }
+    .lang-switch {
+      display: none;
+    }
+    .lang-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-top: 6px;
+      border-top: 1px solid var(--border-soft);
+      padding-top: 10px;
+    }
+    .lang-opt {
+      padding: 0.6em 0.85em;
+      border-radius: 8px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    .lang-opt.on {
+      color: var(--text);
+      background: var(--surface-2);
+    }
+    .lang-opt .flag {
+      margin-right: 6px;
     }
   }
   @media (max-width: 380px) {

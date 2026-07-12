@@ -1,5 +1,9 @@
 ---
 import { stats } from '../lib/data';
+import { t, navHref, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+const lp = (p: string) => navHref(locale, p);
 ---
 
 <footer class="site-footer">
@@ -7,35 +11,29 @@ import { stats } from '../lib/data';
     <div class="cols">
       <div>
         <div class="logo pixel">RetroWeb</div>
-        <p class="muted small">
-          Průvodce světem retro hraní — historie platforem, legendární hry a tipy pro
-          handheldy jako Anbernic RG35XX Pro a R36S nebo Batocera na PC.
-        </p>
+        <p class="muted small">{t(locale, 'footer.tagline')}</p>
       </div>
       <div>
-        <h4>Obsah</h4>
+        <h4>{t(locale, 'footer.content')}</h4>
         <ul class="links">
-          <li><a href="/platformy">Platformy ({stats.platforms})</a></li>
-          <li><a href="/hry">Hry ({stats.games})</a></li>
-          <li><a href="/hardware">Hardware &amp; Batocera</a></li>
-          <li><a href="/o-projektu">O projektu &amp; návod</a></li>
+          <li><a href={lp('/platformy')}>{t(locale, 'nav.platforms')} ({stats.platforms})</a></li>
+          <li><a href={lp('/hry')}>{t(locale, 'nav.games')} ({stats.games})</a></li>
+          <li><a href={lp('/hardware')}>{t(locale, 'footer.hardwareLink')}</a></li>
+          <li><a href={lp('/o-projektu')}>{t(locale, 'footer.aboutLink')}</a></li>
         </ul>
       </div>
       <div>
-        <h4>Komunita</h4>
+        <h4>{t(locale, 'footer.community')}</h4>
         <ul class="links">
-          <li><a href="/kontakt">Kontakt &amp; přání</a></li>
-          <li><a href="/podporit">Podpořit web ☕</a></li>
+          <li><a href={lp('/kontakt')}>{t(locale, 'nav.contact')}</a></li>
+          <li><a href={lp('/podporit')}>{t(locale, 'nav.support')}</a></li>
         </ul>
-        <p class="muted small legal">
-          Hry shánějte legálně — vlastní dumpy kazet a disků, nebo homebrew a
-          freeware 🆓. Web žádné ROM soubory nenabízí.
-        </p>
+        <p class="muted small legal">{t(locale, 'footer.legal')}</p>
       </div>
     </div>
     <div class="base">
-      <span class="muted small">© {new Date().getFullYear()} RetroWeb · postaveno s Astro</span>
-      <span class="muted small">Data: vlastní kurátorské podklady</span>
+      <span class="muted small">© {new Date().getFullYear()} RetroWeb · {t(locale, 'footer.built')}</span>
+      <span class="muted small">{t(locale, 'footer.data')}</span>
     </div>
   </div>
 </footer>
