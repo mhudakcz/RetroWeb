@@ -242,3 +242,102 @@ export function platformsByType(): { type: PlatformType; label: string; tagline:
 // ---------------------------------------------------------------- markdown
 export const mdBlock = (s: string | null | undefined): string => (s ? (marked.parse(s) as string) : '');
 export const mdInline = (s: string | null | undefined): string => (s ? (marked.parseInline(s) as string) : '');
+
+// ---------------------------------------------------------------- lokalizace obsahu (EN/DE)
+// Překladové překryvy: src/data/i18n/<locale>/<type>.json
+const i18nFiles = import.meta.glob('../data/i18n/*/*.json', { eager: true, import: 'default' }) as Record<
+  string,
+  unknown
+>;
+const i18nData: Record<string, Record<string, unknown>> = {};
+for (const [path, data0] of Object.entries(i18nFiles)) {
+  const m = path.match(/i18n\/([a-z]{2})\/([a-z_]+)\.json$/);
+  if (m) ((i18nData[m[1]] ||= {}) as Record<string, unknown>)[m[2]] = data0;
+}
+const trMap = (locale: string, type: string): Record<string, any> =>
+  (i18nData[locale]?.[type] as Record<string, any>) || {};
+
+export interface LocaleBundle {
+  platforms: Platform[];
+  allGames: GameWithPlatform[];
+  getPlatform: (slug: string) => Platform | undefined;
+  getGame: (slug: string) => GameWithPlatform | undefined;
+  studios: Studio[];
+  getStudio: (slug: string) => Studio | undefined;
+}
+
+const bundleCache = new Map<string, LocaleBundle>();
+
+/** Vrátí data (platformy, hry, studia) s obsahem přeloženým do daného jazyka
+ *  (fallback na češtinu tam, kde překlad chybí). */
+export function localeData(locale: string): LocaleBundle {
+  if (locale === 'cs') {
+    return { platforms, allGames, getPlatform, getGame, studios, getStudio };
+  }
+  const cached = bundleCache.get(locale);
+  if (cached) return cached;
+
+  const gT = trMap(locale, 'games');
+  const pT = trMap(locale, 'platforms');
+  const sT = trMap(locale, 'studios');
+
+  const locPlatforms: Platform[] = platforms.map((p) => {
+    const ph = pT[p.slug];
+    const games = p.games.map((g) => {
+      const o = gT[g.slug];
+      return o
+        ? { ...g, teaser: o.teaser ?? g.teaser, detail: o.detail ?? g.detail, article: o.article ?? g.article }
+        : g;
+    });
+    return { ...p, history: ph?.history ?? p.history, games };
+  });
+
+  const pMap = new Map(locPlatforms.map((p) => [p.slug, p]));
+  const locGames: GameWithPlatform[] = locPlatforms.flatMap((p) => p.games.map((g) => ({ ...g, platform: p })));
+  const gMap = new Map(locGames.map((g) => [g.slug, g]));
+
+  // studia znovu poskládaná z lokalizovaných her + přeložený článek
+  const sMap = new Map<string, Studio>();
+  for (const g of locGames) {
+    const raw = (g.studio || '').trim();
+    if (!raw) continue;
+    const slug = studioSlug(raw);
+    if (STUDIO_SKIP.has(slug)) continue;
+    let s = sMap.get(slug);
+    if (!s) {
+      s = { slug, name: raw, games: [], gameCount: 0, article: sT[slug] ?? studioArticles[slug] ?? null };
+      sMap.set(slug, s);
+    }
+    s.games.push(g);
+  }
+  for (const s of sMap.values()) {
+    s.gameCount = s.games.length;
+    s.games.sort((a, b) => (parseInt(a.year || '0') || 0) - (parseInt(b.year || '0') || 0));
+  }
+  const locStudios = [...sMap.values()].filter((s) => s.gameCount >= STUDIO_MIN).sort((a, b) => b.gameCount - a.gameCount);
+
+  const bundle: LocaleBundle = {
+    platforms: locPlatforms,
+    allGames: locGames,
+    getPlatform: (slug) => pMap.get(slug),
+    getGame: (slug) => gMap.get(slug),
+    studios: locStudios,
+    getStudio: (slug) => sMap.get(slug),
+  };
+  bundleCache.set(locale, bundle);
+  return bundle;
+}
+
+/** Lokalizované HW sekce (deep články) pro daný jazyk; fallback na češtinu. */
+export function hardwareSectionsLoc(locale: string): Record<string, { title: string; body: string[] }[]> {
+  return trMap(locale, 'hardware_sections') as Record<string, { title: string; body: string[] }[]>;
+}
+
+/** Platformy seskupené dle typu pro daný jazyk (kvůli lokalizovanému indexu). */
+export function platformsByTypeLoc(locale: string): { type: PlatformType; items: Platform[] }[] {
+  const ps = localeData(locale).platforms;
+  return TYPE_ORDER.map((type) => ({
+    type,
+    items: ps.filter((p) => p.type === type).sort((a, b) => a.year - b.year),
+  })).filter((g) => g.items.length > 0);
+}
