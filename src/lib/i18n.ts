@@ -131,6 +131,34 @@ const UI: Dict = {
   'hwlvl.most': { cs: 'Většinou', en: 'Mostly', de: 'Meistens' },
   'hwlvl.some': { cs: 'Vybrané tituly', en: 'Select titles', de: 'Ausgewählte Titel' },
 
+  // katalog her — filtr
+  'games.eyebrow': { cs: 'Herní katalog', en: 'Game catalogue', de: 'Spielekatalog' },
+  'games.search': { cs: '🔍 Hledat hru…', en: '🔍 Search a game…', de: '🔍 Spiel suchen…' },
+  'games.allPlatforms': { cs: 'Všechny platformy', en: 'All platforms', de: 'Alle Plattformen' },
+  'games.multiplayer': { cs: '👥 Pro více hráčů', en: '👥 Multiplayer', de: '👥 Mehrspieler' },
+  'games.commented': { cs: '📝 S komentářem', en: '📝 With commentary', de: '📝 Mit Kommentar' },
+  'games.empty': { cs: 'Nic nenalezeno — zkus uvolnit filtry.', en: 'Nothing found — try relaxing the filters.', de: 'Nichts gefunden — lockere die Filter.' },
+  'games.lead2': { cs: 'Hledej a filtruj.', en: 'Search and filter.', de: 'Suchen und filtern.' },
+
+  // příznaky her
+  'flag.homebrew': { cs: '🆓 Homebrew', en: '🆓 Homebrew', de: '🆓 Homebrew' },
+  'flag.mustplay': { cs: '⭐ Must-play', en: '⭐ Must-play', de: '⭐ Must-play' },
+  'flag.mature': { cs: '🔞 18+', en: '🔞 18+', de: '🔞 18+' },
+  'flag.puzzle': { cs: '🧩 Logická', en: '🧩 Puzzle', de: '🧩 Logik' },
+
+  // žánrové kategorie
+  'genre.platformer': { cs: 'Plošinovky', en: 'Platformers', de: 'Jump ’n’ Runs' },
+  'genre.action': { cs: 'Akční', en: 'Action', de: 'Action' },
+  'genre.rpg': { cs: 'RPG / JRPG', en: 'RPG / JRPG', de: 'RPG / JRPG' },
+  'genre.metroidvania': { cs: 'Metroidvanie', en: 'Metroidvania', de: 'Metroidvania' },
+  'genre.fighting': { cs: 'Bojovky', en: 'Fighting', de: 'Beat ’em ups' },
+  'genre.shooter': { cs: 'Střílečky', en: 'Shooters', de: 'Shooter' },
+  'genre.racing': { cs: 'Závodní / auta', en: 'Racing', de: 'Rennspiele' },
+  'genre.puzzle': { cs: 'Logické', en: 'Puzzle', de: 'Logik' },
+  'genre.adventure': { cs: 'Adventury', en: 'Adventure', de: 'Adventures' },
+  'genre.strategy': { cs: 'Strategie / Sim', en: 'Strategy / Sim', de: 'Strategie / Sim' },
+  'genre.sport': { cs: 'Sport', en: 'Sports', de: 'Sport' },
+
   // homepage
   'home.eyebrow': { cs: '★ Insert coin · Press start', en: '★ Insert coin · Press start', de: '★ Insert coin · Press start' },
   'home.h1a': { cs: 'Svět', en: 'The world of', de: 'Die Welt des' },
