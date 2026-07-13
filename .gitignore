@@ -31,3 +31,4 @@ tools/resolve_freecarts.py
 
 # Local Netlify folder
 .netlify
+.i18n-work/
