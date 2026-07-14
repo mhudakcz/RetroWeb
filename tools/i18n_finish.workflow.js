@@ -15,8 +15,11 @@ const STRUCT = {
   hardware_sections: 'Objekt {slug: [{title, body: [odstavce]}]} — pole sekcí, každá má title a body (pole českých odstavců).',
 }
 
+// pořadí: nejdřív malé sekce (rychlé, ať se stihnou před dennim limitem), pak hry
+const ORDER = ['hardware_sections', 'studios', 'platforms', 'games']
 const chunks = []
-for (const [type, n] of Object.entries(counts)) {
+for (const type of ORDER) {
+  const n = counts[type] || 0
   for (let i = 0; i < n; i++) {
     chunks.push({ type, in: `${base}/chunks/${type}_${pad(i)}.json`, out: `${base}/chunks/${type}_${pad(i)}_out.json` })
   }
