@@ -11,8 +11,9 @@ export function getStaticPaths() {
 const lang = Astro.params.lang as Locale;
 const slug = Astro.params.slug!;
 const studio = localeData(lang).getStudio(slug)!;
+const w = { en: 'games', de: 'Spiele' }[lang];
 ---
 
-<Base title={studio.name} description={`${studio.name} — ${studio.gameCount} games.`} locale={lang} localized>
+<Base title={studio.name} description={`${studio.name} — ${studio.gameCount} ${w}.`} locale={lang} localized>
   <StudioDetail slug={slug} locale={lang} />
 </Base>

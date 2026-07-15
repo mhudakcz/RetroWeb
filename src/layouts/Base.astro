@@ -35,6 +35,17 @@ const canonical = abs(basePath === '/' ? (hasLocalePrefix ? `/${parts[0]}` : '/'
 const alternates = localized
   ? LOCALES.map((l) => ({ hreflang: l, href: abs(localizePath(l, basePath)) }))
   : [];
+
+const OG_LOCALE: Record<string, string> = { cs: 'cs_CZ', en: 'en_GB', de: 'de_DE' };
+const ogLocaleAlt = LOCALES.filter((l) => l !== locale);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'RetroWeb',
+  url: new URL('/', site).href,
+  inLanguage: locale,
+  description,
+};
 ---
 
 <!doctype html>
@@ -62,6 +73,14 @@ const alternates = localized
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RetroWeb" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={OG_LOCALE[locale]} />
+    {localized && ogLocaleAlt.map((l) => <meta property="og:locale:alternate" content={OG_LOCALE[l]} />)}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     {
       import.meta.env.PROD && (
         <>
