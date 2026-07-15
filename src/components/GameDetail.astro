@@ -1,0 +1,253 @@
+---
+import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink } from '../lib/data';
+import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+interface Props { slug: string; locale?: Locale; }
+const { slug, locale = DEFAULT_LOCALE } = Astro.props;
+const { getGame } = localeData(locale);
+const game = getGame(slug)!;
+const platform = game.platform;
+const lp = (p: string) => localizePath(locale, p);
+
+const { prev, next } = gameNeighbors(platform, game.slug);
+const gamePos = platform.games.findIndex((g) => g.slug === game.slug) + 1;
+const gameTotal = platform.games.length;
+const pool = platform.games.filter((g) => g.slug !== game.slug);
+const startI = pool.length ? (gamePos - 1) % pool.length : 0;
+const related = [...pool, ...pool].slice(startI, startI + 8);
+const nameHtml = mdInline(game.name);
+const shots = game.gallery.filter((g) => g.kind !== 'box' && g.src !== game.image);
+const playtime = playtimeLabel(game.length, game.est);
+const clean = (s: string) => s.replace(/[*_\x60]/g, '');
+
+const FLAG_T: Record<string, string> = {
+  homebrew: t(locale, 'flag.homebrew'), mustplay: t(locale, 'flag.mustplay'),
+  mature: t(locale, 'flag.mature'), puzzle: t(locale, 'flag.puzzle'),
+};
+const noDetail = {
+  cs: `U téhle hry zatím nemáme delší komentář. Patří ale do kurátorského výběru pro`,
+  en: `We don't have a longer write-up for this game yet. It's still part of the curated selection for`,
+  de: `Zu diesem Spiel gibt es noch keinen längeren Text. Es gehört aber zur kuratierten Auswahl für`,
+}[locale];
+const posText = {
+  cs: ['Hra', 'z', 'pro'], en: ['Game', 'of', 'for'], de: ['Spiel', 'von', 'für'],
+}[locale];
+---
+
+<article class="container narrow">
+  <nav class="crumbs muted" aria-label="breadcrumb">
+    <a href={lp('/hry')}>{t(locale, 'nav.games')}</a> <span>/</span>
+    <a href={lp(`/platformy/${platform.slug}`)}>{platform.name}</a> <span>/</span>
+    <span>{clean(game.name)}</span>
+  </nav>
+
+  {(prev || next) && (
+    <nav class="pager-top" aria-label="pager">
+      {prev ? (
+        <a class="pt-link prev" href={lp(`/hry/${prev.slug}`)}><span class="dir">←</span><span class="pn" set:html={mdInline(prev.name)} /></a>
+      ) : <span />}
+      <span class="pt-pos muted">{gamePos} / {gameTotal}</span>
+      {next ? (
+        <a class="pt-link next" href={lp(`/hry/${next.slug}`)}><span class="pn" set:html={mdInline(next.name)} /><span class="dir">→</span></a>
+      ) : <span />}
+    </nav>
+  )}
+
+  <header class:list={['head', { 'has-art': game.image }]}>
+    {game.image && (
+      <div class="boxart" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
+        <img src={game.image} alt={`${clean(game.name)} – boxart`} decoding="async" />
+      </div>
+    )}
+    <div class="head-text">
+      <a class="platform-pill" href={lp(`/platformy/${platform.slug}`)} style={`--c1:${platform.color}`}>
+        <span class="pp-short pixel">{platform.short}</span>{platform.name}
+      </a>
+      <h1 set:html={nameHtml} />
+      <div class="facts">
+        {game.genre && <span class="tag tag-genre" style={`--c1:${platform.color}`}>{game.genre}</span>}
+        {game.year && <span class="tag">{game.year}</span>}
+        {game.studio && (studioLink(game.studio)
+          ? <a class="tag tag-studio" href={lp(`/studia/${studioLink(game.studio)}`)}>{game.studio}</a>
+          : <span class="tag">{game.studio}</span>)}
+        {playtime && <span class="tag">⏱ {playtime}</span>}
+        {game.players && <span class="tag tag-players">👥 {game.players}</span>}
+        {game.rating && <span class="tag tag-rating">🛡 {game.rating}</span>}
+        {game.flags.map((f) => <span class="tag tag-flag">{FLAG_T[f]}</span>)}
+      </div>
+    </div>
+  </header>
+
+  {shots.length > 0 && (
+    <section class="shotbar">
+      {shots.map((s) => (
+        <figure>
+          <img src={s.src} alt={`${clean(game.name)} – ${s.label}`} loading="lazy" decoding="async" />
+          <figcaption>{s.label}</figcaption>
+        </figure>
+      ))}
+    </section>
+  )}
+
+  {game.teaser && <p class="teaser" set:html={mdInline(game.teaser)}></p>}
+
+  {game.article ? (
+    <div class="prose detail article" set:html={mdBlock(game.article)} />
+  ) : game.detail ? (
+    <div class="prose detail" set:html={mdBlock(game.detail)} />
+  ) : (
+    <div class="no-detail">
+      <p class="muted">{noDetail} <a href={lp(`/platformy/${platform.slug}`)}>{platform.name}</a>.</p>
+    </div>
+  )}
+
+  {(game.link || game.playUrl) && (
+    <div class="game-links" style={`--c1:${platform.color}`}>
+      {game.playUrl && <a class="g-btn play" href={game.playUrl} target="_blank" rel="noopener noreferrer">{t(locale, 'game.playOnline')}</a>}
+      {game.link && <a class="g-btn" href={game.link} target="_blank" rel="noopener noreferrer">{t(locale, 'game.official')}</a>}
+    </div>
+  )}
+
+  {(prev || next) && (
+    <>
+    <p class="pager-pos muted">{posText[0]} <strong>{gamePos}</strong> {posText[1]} <strong>{gameTotal}</strong> {posText[2]} <a href={lp(`/platformy/${platform.slug}`)}>{platform.name}</a></p>
+    <nav class="pager" aria-label="pager">
+      {prev ? (
+        <a class="pager-link prev" href={lp(`/hry/${prev.slug}`)}>
+          {prev.image && <img class="pager-thumb" src={prev.image} alt="" loading="lazy" />}
+          <span class="pl-text"><span class="dir">{t(locale, 'game.prev')}</span><span class="pn" set:html={mdInline(prev.name)} /></span>
+        </a>
+      ) : <span />}
+      {next ? (
+        <a class="pager-link next" href={lp(`/hry/${next.slug}`)}>
+          <span class="pl-text"><span class="dir">{t(locale, 'game.next')}</span><span class="pn" set:html={mdInline(next.name)} /></span>
+          {next.image && <img class="pager-thumb" src={next.image} alt="" loading="lazy" />}
+        </a>
+      ) : <span />}
+    </nav>
+    </>
+  )}
+
+  {related.length > 0 && (
+    <section class="related">
+      <div class="related-head">
+        <h2>{t(locale, 'game.moreFrom')} {platform.name}</h2>
+        <a class="all-link" href={lp(`/platformy/${platform.slug}`)}>{t(locale, 'game.all')} {platform.gameCount} →</a>
+      </div>
+      <div class="more-wrap">
+        <button class="more-nav prev" type="button" aria-label="←" hidden>‹</button>
+        <div class="more-row" id="moreRow">
+          {related.map((g) => (
+            <a class="more-item" href={lp(`/hry/${g.slug}`)} title={clean(g.name)}>
+              <span class="more-thumb" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
+                {g.image ? <img src={g.image} alt="" loading="lazy" /> : <span class="more-ph pixel">{platform.short}</span>}
+              </span>
+              <span class="more-name" set:html={mdInline(g.name)} />
+            </a>
+          ))}
+        </div>
+        <button class="more-nav next" type="button" aria-label="→" hidden>›</button>
+      </div>
+    </section>
+  )}
+</article>
+
+<script is:inline>
+  (function () {
+    const row = document.getElementById('moreRow');
+    if (!row) return;
+    const wrap = row.parentElement;
+    const prev = wrap.querySelector('.more-nav.prev');
+    const next = wrap.querySelector('.more-nav.next');
+    const step = () => Math.max(180, Math.round(row.clientWidth * 0.8));
+    function update() {
+      const max = row.scrollWidth - row.clientWidth - 2;
+      const overflow = max > 4;
+      prev.hidden = !overflow || row.scrollLeft <= 2;
+      next.hidden = !overflow || row.scrollLeft >= max;
+    }
+    prev.addEventListener('click', () => row.scrollBy({ left: -step(), behavior: 'smooth' }));
+    next.addEventListener('click', () => row.scrollBy({ left: step(), behavior: 'smooth' }));
+    row.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>
+
+<style>
+  .narrow { max-width: 800px; }
+  .crumbs { padding-top: 26px; font-size: 0.86rem; }
+  .crumbs a:hover { color: var(--accent); }
+  .crumbs span { margin-inline: 4px; }
+  .head { padding-block: 24px 6px; border-bottom: 1px solid var(--border-soft); margin-bottom: 24px; }
+  .head.has-art { display: grid; grid-template-columns: 200px 1fr; gap: 26px; align-items: center; }
+  .boxart {
+    border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border);
+    background: radial-gradient(120% 120% at 80% 0%, color-mix(in srgb, var(--c1) 25%, transparent), transparent 60%), linear-gradient(160deg, color-mix(in srgb, var(--c2) 80%, #000), #0b0c11);
+    box-shadow: var(--shadow);
+  }
+  .boxart img { width: 100%; max-height: 280px; object-fit: contain; padding: 14px; }
+  @media (max-width: 560px) { .head.has-art { grid-template-columns: 130px 1fr; gap: 16px; } }
+  .platform-pill { display: inline-flex; align-items: center; gap: 9px; font-size: 0.88rem; font-weight: 600; color: var(--muted); }
+  .platform-pill:hover { color: var(--text); }
+  .pp-short { font-size: 0.55rem; padding: 0.45em 0.6em; border-radius: 7px; color: var(--text); background: color-mix(in srgb, var(--c1) 35%, var(--surface-2)); border: 1px solid color-mix(in srgb, var(--c1) 55%, var(--border)); }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.7rem); margin-block: 12px 16px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag-genre { color: color-mix(in srgb, var(--c1) 70%, var(--text)); border-color: color-mix(in srgb, var(--c1) 40%, var(--border)); }
+  .tag-players { color: var(--accent-2, #6ee7c7); border-color: color-mix(in srgb, var(--accent-2, #6ee7c7) 40%, var(--border)); }
+  .tag-rating { color: #d8b4fe; border-color: color-mix(in srgb, #d8b4fe 40%, var(--border)); }
+  .tag-studio { color: color-mix(in srgb, var(--accent) 75%, var(--text)); border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); }
+  .tag-studio:hover { border-color: var(--accent); }
+  .teaser { font-size: 1.15rem; line-height: 1.55; color: var(--text); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; margin-bottom: 22px; }
+  .game-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+  .g-btn { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.7em 1.15em; border-radius: 999px; font-weight: 600; font-size: 0.92rem; color: #fff; background: linear-gradient(135deg, color-mix(in srgb, var(--c1) 70%, #000), color-mix(in srgb, var(--c1) 42%, #000)); border: 1px solid color-mix(in srgb, var(--c1) 60%, var(--border)); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+  .g-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 22px -8px var(--c1); }
+  .g-btn.play { background: linear-gradient(135deg, var(--accent), #ff7aa8); border-color: transparent; color: #1a0710; }
+  .detail { font-size: 1.06rem; }
+  .no-detail { background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius); padding: 18px 20px; }
+  .no-detail a { color: var(--accent); }
+  .shotbar { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 22px 0 26px; }
+  .shotbar figure { margin: 0; background: #0b0c11; border: 1px solid var(--border-soft); border-radius: var(--radius); overflow: hidden; }
+  .shotbar img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #0b0c11; image-rendering: pixelated; }
+  .shotbar figcaption { padding: 8px 12px; font-size: 0.82rem; color: var(--muted); font-weight: 600; text-align: center; }
+  .related { margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
+  .related-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+  .related-head h2 { font-size: 1.15rem; }
+  .all-link { font-size: 0.85rem; font-weight: 600; color: var(--accent); white-space: nowrap; }
+  .all-link:hover { text-decoration: underline; }
+  .more-wrap { position: relative; }
+  .more-row { display: grid; grid-auto-flow: column; grid-auto-columns: 92px; gap: 12px; overflow-x: auto; scroll-behavior: smooth; scrollbar-width: none; }
+  .more-row::-webkit-scrollbar { display: none; }
+  .more-nav { position: absolute; top: 46px; transform: translateY(-50%); z-index: 3; width: 34px; height: 34px; border-radius: 999px; border: 1px solid var(--border); background: color-mix(in srgb, var(--surface) 92%, #000); color: var(--text); font-size: 1.3rem; line-height: 1; cursor: pointer; display: grid; place-items: center; box-shadow: var(--shadow); transition: border-color 0.15s ease, background 0.15s ease; }
+  .more-nav:hover { border-color: var(--accent); }
+  .more-nav.prev { left: -6px; }
+  .more-nav.next { right: -6px; }
+  .more-nav[hidden] { display: none; }
+  .more-item { display: flex; flex-direction: column; gap: 6px; color: var(--text); }
+  .more-thumb { aspect-ratio: 1 / 1; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); display: grid; place-items: center; background: radial-gradient(125% 125% at 50% 12%, color-mix(in srgb, var(--c1) 40%, #2a2e3a), color-mix(in srgb, var(--c2) 70%, #15171f) 72%, #111319); transition: border-color 0.15s ease, transform 0.15s ease; }
+  .more-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .more-ph { font-size: 0.62rem; color: #fff; opacity: 0.85; }
+  .more-item:hover .more-thumb { transform: translateY(-3px); border-color: color-mix(in srgb, var(--c1) 60%, var(--border)); }
+  .more-name { font-size: 0.74rem; line-height: 1.25; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .pager-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 12px 0 4px; font-size: 0.85rem; }
+  .pt-link { display: inline-flex; align-items: center; gap: 7px; max-width: 42%; padding: 0.4em 0.7em; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--muted); transition: border-color 0.15s ease, color 0.15s ease; }
+  .pt-link:hover { border-color: var(--accent); color: var(--text); }
+  .pt-link .dir { color: var(--accent); flex: none; }
+  .pt-link .pn { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pt-pos { flex: none; font-size: 0.8rem; }
+  .pager-pos { text-align: center; margin-top: 40px; font-size: 0.9rem; }
+  .pager-pos strong { color: var(--text); }
+  .pager-pos a { color: var(--accent); }
+  .pager-pos a:hover { text-decoration: underline; }
+  .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+  .pager-link { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); transition: border-color 0.15s ease, transform 0.15s ease; }
+  .pager-link .pl-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .pager-link.next { border-left: 1px solid var(--border); border-right: 4px solid var(--accent); justify-content: flex-end; }
+  .pager-link.next .pl-text { text-align: right; }
+  .pager-thumb { width: 44px; height: 44px; flex: none; object-fit: cover; border-radius: 8px; background: #0b0c11; }
+  .pager-link:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .pager-link .dir { font-size: 0.76rem; color: var(--muted); font-weight: 600; }
+  .pager-link .pn { font-weight: 700; font-size: 1rem; }
+  @media (max-width: 640px) { .pager { grid-template-columns: 1fr; } }
+</style>

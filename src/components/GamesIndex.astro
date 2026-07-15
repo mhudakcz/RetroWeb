@@ -1,0 +1,152 @@
+---
+import GameCard from './GameCard.astro';
+import { localeData, stats, platformsByTypeLoc, GENRE_CATS, genreCats } from '../lib/data';
+import { t, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+const { allGames } = localeData(locale);
+const FLAGS = ['homebrew', 'mustplay', 'mature', 'puzzle'] as const;
+const norm = (s: string) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const platformGroups = platformsByTypeLoc(locale);
+const genreCounts: Record<string, number> = Object.fromEntries(
+  GENRE_CATS.map(([k]) => [k, allGames.filter((g) => genreCats(g.genre).includes(k)).length])
+);
+---
+
+<section class="container head">
+  <p class="eyebrow">{t(locale, 'games.eyebrow')}</p>
+  <h1>{t(locale, 'nav.games')}</h1>
+  <p class="muted lead">{stats.games} {t(locale, 'games.count')} · {stats.platforms} {t(locale, 'platforms.count')}. {t(locale, 'games.lead2')}</p>
+
+  <div class="filters">
+    <input id="q" type="search" placeholder={t(locale, 'games.search')} autocomplete="off" aria-label="search" />
+    <select id="platform" aria-label="platform">
+      <option value="">{t(locale, 'games.allPlatforms')}</option>
+      {platformGroups.map((grp) => (
+        <optgroup label={t(locale, `type.${grp.type}.label`)}>
+          {grp.items.map((p) => <option value={p.slug} data-label={p.name}>{p.name} ({p.gameCount})</option>)}
+        </optgroup>
+      ))}
+    </select>
+    <select id="genre" aria-label="genre">
+      <option value="">{t(locale, 'filter.allGenres')}</option>
+      {GENRE_CATS.filter(([k]) => genreCounts[k] > 0).map(([k]) => (
+        <option value={k} data-label={t(locale, `genre.${k}`)}>{t(locale, `genre.${k}`)} ({genreCounts[k]})</option>
+      ))}
+    </select>
+    <div class="chips" role="group" aria-label="filters">
+      {FLAGS.map((f) => <button class="chip" data-flag={f} type="button">{t(locale, `flag.${f}`)}</button>)}
+      <button class="chip" data-multi="1" type="button">{t(locale, 'games.multiplayer')}</button>
+      <button class="chip" data-detail="1" type="button">{t(locale, 'games.commented')}</button>
+    </div>
+  </div>
+  <p class="result-count muted" id="count" aria-live="polite"></p>
+</section>
+
+<section class="section grid-sec">
+  <div class="container">
+    <div class="grid grid-games" id="grid" data-locale={locale} data-word={t(locale, 'games.count')}>
+      {allGames.map((g) => (
+        <div class="cell"
+          data-name={norm(g.name.replace(/[*_\x60]/g, ''))}
+          data-platform={g.platform.slug}
+          data-flags={g.flags.join(' ')}
+          data-genre={genreCats(g.genre).join(' ')}
+          data-multi={g.players && g.players !== '1' ? '1' : '0'}
+          data-detail={g.article || g.detail ? '1' : '0'}>
+          <GameCard game={g} platform={g.platform} showPlatform locale={locale} />
+        </div>
+      ))}
+    </div>
+    <p class="empty muted" id="empty" hidden>{t(locale, 'games.empty')}</p>
+  </div>
+</section>
+
+<script>
+  const q = document.getElementById('q') as HTMLInputElement;
+  const platform = document.getElementById('platform') as HTMLSelectElement;
+  const genre = document.getElementById('genre') as HTMLSelectElement;
+  const grid = document.getElementById('grid')!;
+  const cells = Array.from(grid.querySelectorAll<HTMLElement>('.cell'));
+  const countEl = document.getElementById('count')!;
+  const emptyEl = document.getElementById('empty')!;
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.chip'));
+  const platOpts = Array.from(platform.querySelectorAll<HTMLOptionElement>('option[data-label]'));
+  const genreOpts = Array.from(genre.querySelectorAll<HTMLOptionElement>('option[data-label]'));
+  const platGroups = Array.from(platform.querySelectorAll('optgroup'));
+  const isCs = grid.dataset.locale === 'cs';
+  const word = grid.dataset.word || 'games';
+
+  const activeFlags = new Set<string>();
+  let needDetail = false, needMulti = false;
+  const norm = (s: string) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+  function matches(cell: HTMLElement, plat: string, gen: string, term: string, ignore?: 'plat' | 'genre') {
+    const name = cell.dataset.name ?? '';
+    const flags = (cell.dataset.flags ?? '').split(' ');
+    if (term && !name.includes(term)) return false;
+    if (ignore !== 'plat' && plat && cell.dataset.platform !== plat) return false;
+    if (ignore !== 'genre' && gen && !(cell.dataset.genre ?? '').split(' ').includes(gen)) return false;
+    if (needDetail && cell.dataset.detail !== '1') return false;
+    if (needMulti && cell.dataset.multi !== '1') return false;
+    for (const f of activeFlags) if (!flags.includes(f)) return false;
+    return true;
+  }
+  function updateCounts(plat: string, gen: string, term: string) {
+    for (const opt of platOpts) {
+      const n = cells.filter((c) => c.dataset.platform === opt.value && matches(c, plat, gen, term, 'plat')).length;
+      opt.textContent = `${opt.dataset.label} (${n})`;
+      opt.hidden = n === 0 && opt.value !== plat;
+    }
+    for (const g of platGroups) g.hidden = Array.from(g.querySelectorAll<HTMLOptionElement>('option')).every((o) => o.hidden);
+    for (const opt of genreOpts) {
+      const n = cells.filter((c) => (c.dataset.genre ?? '').split(' ').includes(opt.value) && matches(c, plat, gen, term, 'genre')).length;
+      opt.textContent = `${opt.dataset.label} (${n})`;
+      opt.hidden = n === 0 && opt.value !== gen;
+    }
+  }
+  function countLabel(n: number) {
+    if (isCs) return `${n} ${n === 1 ? 'hra' : n >= 2 && n <= 4 ? 'hry' : 'her'}`;
+    return `${n} ${word}`;
+  }
+  function apply() {
+    const term = norm(q.value.trim()), plat = platform.value, gen = genre.value;
+    let shown = 0;
+    for (const cell of cells) { const ok = matches(cell, plat, gen, term); cell.hidden = !ok; if (ok) shown++; }
+    countEl.textContent = countLabel(shown);
+    emptyEl.hidden = shown !== 0;
+    updateCounts(plat, gen, term);
+  }
+  q.addEventListener('input', apply);
+  platform.addEventListener('change', apply);
+  genre.addEventListener('change', apply);
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      if (chip.dataset.detail) needDetail = !needDetail;
+      else if (chip.dataset.multi) needMulti = !needMulti;
+      else if (chip.dataset.flag) { const f = chip.dataset.flag; activeFlags.has(f) ? activeFlags.delete(f) : activeFlags.add(f); }
+      chip.classList.toggle('on');
+      apply();
+    });
+  }
+  apply();
+</script>
+
+<style>
+  .head { padding-block: 48px 0; }
+  .head h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 10px; }
+  .lead { font-size: 1.05rem; }
+  .filters { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
+  #q, #platform, #genre { height: 44px; padding: 0 14px; border-radius: 10px; background: var(--surface); border: 1px solid var(--border); color: var(--text); font-size: 0.95rem; font-family: inherit; }
+  #q { flex: 1; min-width: 220px; }
+  #q:focus, #platform:focus, #genre:focus { border-color: var(--accent); outline: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { cursor: pointer; font-size: 0.8rem; font-weight: 600; padding: 0.55em 0.85em; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-family: inherit; transition: all 0.15s ease; }
+  .chip:hover { color: var(--text); border-color: var(--accent); }
+  .chip.on { background: linear-gradient(135deg, var(--accent), #ff7aa8); color: #1a0710; border-color: transparent; }
+  .result-count { margin-top: 14px; font-size: 0.88rem; }
+  .grid-sec { padding-top: 18px; }
+  .cell[hidden] { display: none; }
+  .empty { text-align: center; padding: 40px 0; }
+</style>

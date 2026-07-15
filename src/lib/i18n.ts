@@ -27,7 +27,7 @@ export function localizePath(l: Locale, path: string): string {
 /** Sekce webu, které už mají EN/DE varianty. Postupně přibývají (Fáze B).
  *  Root cesta sekce ('/', '/platformy', '/hry', …). */
 export const LOCALIZED_SECTIONS = new Set<string>([
-  '/', '/podporit', '/kontakt', '/platformy', '/studia',
+  '/', '/podporit', '/kontakt', '/platformy', '/studia', '/hry',
 ]);
 
 /** Root sekce z cesty: '/platformy/game-boy' -> '/platformy', '/' -> '/'. */
@@ -145,6 +145,14 @@ const UI: Dict = {
   'flag.mustplay': { cs: '⭐ Must-play', en: '⭐ Must-play', de: '⭐ Must-play' },
   'flag.mature': { cs: '🔞 18+', en: '🔞 18+', de: '🔞 18+' },
   'flag.puzzle': { cs: '🧩 Logická', en: '🧩 Puzzle', de: '🧩 Logik' },
+
+  // detail hry
+  'game.prev': { cs: '← Předchozí hra', en: '← Previous game', de: '← Vorheriges Spiel' },
+  'game.next': { cs: 'Další hra →', en: 'Next game →', de: 'Nächstes Spiel →' },
+  'game.playOnline': { cs: '▶ Zahrát online v prohlížeči', en: '▶ Play online in browser', de: '▶ Online im Browser spielen' },
+  'game.official': { cs: '🔗 Oficiální stránka — kde hru legálně získat', en: '🔗 Official site — where to get it legally', de: '🔗 Offizielle Seite — wo man es legal bekommt' },
+  'game.moreFrom': { cs: 'Další z', en: 'More from', de: 'Mehr von' },
+  'game.all': { cs: 'všech', en: 'all', de: 'alle' },
 
   // žánrové kategorie
   'genre.platformer': { cs: 'Plošinovky', en: 'Platformers', de: 'Jump ’n’ Runs' },
