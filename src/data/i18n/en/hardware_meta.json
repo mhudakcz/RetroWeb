@@ -1,0 +1,748 @@
+{
+ "rg35xx-pro": {
+  "kind": "Handheld console · 2024",
+  "tagline": "A horizontal handheld with the H700 chip — the sweet spot between price and performance.",
+  "intro": [
+   "The RG35XX Pro is the horizontal flagship of the popular RG35XX line from Chinese manufacturer Anbernic. It combines a comfortable pocket-friendly size, a sharp 4:3 display, and the Allwinner H700 chip, which handles the vast majority of the retro library up to PlayStation. For its price, it offers a ratio of performance, battery life, and community support that few can beat."
+  ],
+  "specs": [
+   {
+    "label": "Chip (SoC)",
+    "value": "Allwinner H700, 4× Cortex-A53 @ ~1.5 GHz"
+   },
+   {
+    "label": "Graphics",
+    "value": "Mali-G31 MP2"
+   },
+   {
+    "label": "Display",
+    "value": "3.5\" IPS, 640×480 (4:3)"
+   },
+   {
+    "label": "Memory",
+    "value": "1 GB LPDDR4"
+   },
+   {
+    "label": "Battery",
+    "value": "~3300 mAh (approx. 5–8 h of play)"
+   },
+   {
+    "label": "Storage",
+    "value": "2× microSD (system + games)"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Wi-Fi, HDMI output, USB-C"
+   },
+   {
+    "label": "Operating systems",
+    "value": "muOS, Knulli, Batocera, ROCKNIX, stock"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, Master System, PC Engine",
+    "level": "ok"
+   },
+   {
+    "label": "Game Boy / GBC / GBA",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast, Saturn",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Two SD cards",
+    "text": "The first slot holds the system, the second one your games. That way you can carry your library between devices and reinstall the system anytime without losing your games."
+   },
+   {
+    "title": "A fast card pays off",
+    "text": "With large libraries (especially with box art), a quality microSD makes a difference in both browsing and loading speed. Don't skimp on it."
+   },
+   {
+    "title": "HDMI to the TV",
+    "text": "Using the handheld's HDMI output, you can turn it into a little console under your TV — all you need is a wireless controller."
+   }
+  ]
+ },
+ "r36s": {
+  "kind": "Handheld console · 2023",
+  "tagline": "An affordable clone with a vertical display and an open system.",
+  "intro": [
+   "The R36S is a cheap \"people's\" handheld in the spirit of the older Anbernic RG351 — a vertical body, a 3.5\" IPS display and an open system for which the community has prepared great, finely tuned distributions. It doesn't rank among the top performers, but as an entry gate into retro gaming for a few dollars it's hard to beat. The catch is that it exists in a flood of variants and clones, so before buying it's worth knowing what you're getting into."
+  ],
+  "specs": [
+   {
+    "label": "Chip (SoC)",
+    "value": "Rockchip RK3326, 4× Cortex-A35 @ ~1.3 GHz"
+   },
+   {
+    "label": "Graphics",
+    "value": "Mali-G31"
+   },
+   {
+    "label": "Display",
+    "value": "3.5\" IPS, 640×480 (4:3)"
+   },
+   {
+    "label": "Memory",
+    "value": "1 GB DDR3L"
+   },
+   {
+    "label": "Battery",
+    "value": "~3200 mAh (approx. 4–6 h)"
+   },
+   {
+    "label": "Storage",
+    "value": "microSD (often 2 slots)"
+   },
+   {
+    "label": "Systems",
+    "value": "ArkOS, ROCKNIX/JELOS, Batocera, stock"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, GB/GBC/GBA",
+    "level": "ok"
+   },
+   {
+    "label": "PC Engine, Master System, arcades (lighter)",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "most"
+   },
+   {
+    "label": "Nintendo 64, DOS, ScummVM",
+    "level": "some"
+   },
+   {
+    "label": "Dreamcast, PSP",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Verify your version",
+    "text": "Before flashing a system, find out which display and chip your unit has — the correct image depends on it (otherwise you risk a flipped image or wrong colors)."
+   },
+   {
+    "title": "Ideal for 8/16-bit and computers",
+    "text": "It runs PS1 well, but its heart is the 8/16-bit era, DOS, ScummVM and home computers. For demanding 3D systems, reach for a more powerful device."
+   },
+   {
+    "title": "Keep the original card",
+    "text": "You swap the system on the SD card. Keep the original one as a backup in case you want to go back."
+   }
+  ]
+ },
+ "batocera": {
+  "kind": "System for retro gaming",
+  "tagline": "A Linux distribution that turns anything into a retro console — a PC, a Raspberry Pi, or a handheld.",
+  "intro": [
+   "Batocera is a free Linux distribution focused exclusively on retro gaming. It works as \"plug & play\": you install it on an SD card or USB drive, boot it up, and you have a ready-made gaming system — with no installation onto your hard drive and no changes to your computer. The experience is handled by the beautiful EmulationStation frontend, with dozens of emulators under the hood. You use the same principles and layout on an old PC, on a Raspberry Pi, and on supported handhelds."
+  ],
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Linux distribution (free, open-source)"
+   },
+   {
+    "label": "Frontend",
+    "value": "EmulationStation"
+   },
+   {
+    "label": "Cores",
+    "value": "RetroArch + standalone emulators"
+   },
+   {
+    "label": "Devices",
+    "value": "PC (x86-64), Raspberry Pi, ARM handhelds"
+   },
+   {
+    "label": "Installation",
+    "value": "image on SD/USB (doesn't change the internal drive)"
+   },
+   {
+    "label": "Systems",
+    "value": "100+ consoles, computers and arcades"
+   },
+   {
+    "label": "Controllers",
+    "value": "Xbox, PlayStation, 8BitDo, Switch Pro…"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "All 8/16-bit, GB/GBA, PS1, home computers",
+    "level": "ok"
+   },
+   {
+    "label": "N64, Dreamcast, PSP, Saturn (decent PC/RPi5)",
+    "level": "most"
+   },
+   {
+    "label": "PS2, GameCube, Wii, 3DS (only a powerful PC)",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Start on an old PC or Raspberry",
+    "text": "A retired laptop or a cheap Raspberry Pi is the ideal foundation. Just put the image on an SD/USB and boot — the internal drive stays untouched."
+   },
+   {
+    "title": "Don't forget the BIOS",
+    "text": "PS1, Saturn, Dreamcast and others require original BIOS files in the bios/ folder. Without them the emulator won't start."
+   },
+   {
+    "title": "Turn on scraping",
+    "text": "Let Batocera download box art, descriptions and videos — a bare list turns into a visually rich library."
+   },
+   {
+    "title": "More cards, more setups",
+    "text": "Thanks to the removable media, you can have several cards with different configurations and easily back up your entire library."
+   }
+  ]
+ },
+ "raspberry-pi": {
+  "kind": "Single-board computer",
+  "tagline": "A cheap box the size of a deck of cards that you can turn into a retro console for your TV.",
+  "intro": [
+   "The Raspberry Pi is a tiny single-board computer (SBC) that became a legend of home tinkering — and it plays in the top league when it comes to retro gaming. For a few dozen dollars you get a quiet, power-efficient box that you hook up to your TV, load a ready-made system onto, and end up with a tailor-made retro console. On top of that, there is a huge community and ready-made solutions around the Pi, so getting started is a matter of minutes."
+  ],
+  "specs": [
+   {
+    "label": "Recommended models",
+    "value": "Pi 4 (4 GB) or Pi 5; Pi Zero 2 W for 8/16-bit"
+   },
+   {
+    "label": "Output",
+    "value": "HDMI (Pi 4/5: up to 4K), 3.5mm audio via adapter"
+   },
+   {
+    "label": "Storage",
+    "value": "microSD (Pi 5 also NVMe via HAT)"
+   },
+   {
+    "label": "Systems",
+    "value": "Batocera, RetroPie, Recalbox, Lakka"
+   },
+   {
+    "label": "Power",
+    "value": "USB-C (Pi 5 recommends a 27W supply)"
+   },
+   {
+    "label": "Controllers",
+    "value": "Bluetooth and USB (Xbox, 8BitDo, PS…)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, GB/GBA, PS1, PC Engine",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP, Saturn (mainly Pi 5)",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast (Pi 5)",
+    "level": "most"
+   },
+   {
+    "label": "PS2, GameCube (Pi 5 only, selected titles)",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Cooling is not a luxury",
+    "text": "For the Pi 4/5, get a heatsink or a fan — without cooling, performance gets throttled during emulation."
+   },
+   {
+    "title": "A quality power supply",
+    "text": "Weak power causes crashes and glitches. The Pi 5 wants a 27W USB-C supply."
+   },
+   {
+    "title": "Games over the network",
+    "text": "The Pi shows up on your network as a shared folder — you can conveniently copy ROMs and BIOS from your PC without removing the card."
+   }
+  ]
+ },
+ "android": {
+  "kind": "Mobile platform",
+  "tagline": "Phone, TV box or Android TV — download an emulator from the store and play within minutes.",
+  "intro": [
+   "Android is probably the most accessible route to retro gaming — you likely already have a device in your pocket or under your TV. Emulators install like regular apps, you pair a controller over Bluetooth, and you can play on a phone, tablet, cheap TV box or Android TV. Performance ranges from modest boxes to flagship phones that can even handle demanding consoles."
+  ],
+  "specs": [
+   {
+    "label": "Device",
+    "value": "phone, tablet, TV box, Android TV"
+   },
+   {
+    "label": "Controller",
+    "value": "Bluetooth (8BitDo, Xbox, DualSense) or USB-OTG"
+   },
+   {
+    "label": "Output",
+    "value": "device screen or TV (box / HDMI / cast)"
+   },
+   {
+    "label": "Key apps",
+    "value": "RetroArch + standalone emulators"
+   },
+   {
+    "label": "Performance",
+    "value": "depends on the chip — from PS1 to PS2/GameCube"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, GB/GBA, PS1, PSP",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, DS, Dreamcast",
+    "level": "most"
+   },
+   {
+    "label": "PS2, GameCube, Wii, 3DS (powerful phones)",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "A controller is essential",
+    "text": "Without a physical controller, gaming is agony. 8BitDo, Xbox and DualSense all work over Bluetooth."
+   },
+   {
+    "title": "Standalone emulators for 3D",
+    "text": "For PS1/PSP/GC/DS, standalone apps (DuckStation, PPSSPP, Dolphin) tend to be more powerful than RetroArch cores."
+   },
+   {
+    "title": "Play from your phone on the TV",
+    "text": "Via cable, an HDMI adapter or cast, you can send the picture from your phone to the TV and play on the big screen."
+   }
+  ]
+ },
+ "pc-emulace": {
+  "kind": "Guide & emulators",
+  "tagline": "The most powerful and flexible path — from 8-bit all the way to PS2, GameCube and 3DS.",
+  "intro": [
+   "The PC is the king of emulation: the most raw power, the most accurate emulators and the most tuning options. You can run practically anything on it — from the Atari 2600 to the PlayStation 2, GameCube, Wii or 3DS, as long as your machine is powerful enough. You can go the route of a single unified program (RetroArch), or use a top-tier standalone emulator for each platform; the best results come from combining both."
+  ],
+  "specs": [
+   {
+    "label": "System",
+    "value": "Windows, Linux and macOS"
+   },
+   {
+    "label": "Performance",
+    "value": "strong single-thread CPU; GPU with Vulkan/OpenGL for 3D"
+   },
+   {
+    "label": "All-in-one",
+    "value": "RetroArch (cores) + EmulationStation/EmuDeck"
+   },
+   {
+    "label": "Controllers",
+    "value": "Xbox, DualSense, 8BitDo (XInput plug & play)"
+   },
+   {
+    "label": "Frontends",
+    "value": "EmuDeck, LaunchBox, Playnite, ES-DE"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "All 8/16-bit, handhelds, PS1, arcades, computers",
+    "level": "ok"
+   },
+   {
+    "label": "N64, PSP, Saturn, Dreamcast, DS",
+    "level": "ok"
+   },
+   {
+    "label": "PS2, GameCube, Wii, 3DS, Wii U/Switch (powerful PC)",
+    "level": "most"
+   }
+  ],
+  "options": [
+   {
+    "title": "Start with RetroArch",
+    "text": "For 8/16-bit, handhelds and PS1, the unified RetroArch is ideal. For PS2/GC, reach for PCSX2/Dolphin."
+   },
+   {
+    "title": "EmuDeck saves time",
+    "text": "On both Windows and the Steam Deck, EmuDeck sets up your emulators, folders and frontend in almost a single click."
+   },
+   {
+    "title": "BIOS into system/",
+    "text": "PS1, PS2, Saturn or DS want the original BIOS. Without it the core won't start."
+   },
+   {
+    "title": "One controller for everything",
+    "text": "Xbox or 8BitDo Pro 2 work everywhere via XInput; period-accurate replicas add an authentic feel."
+   }
+  ]
+ },
+ "ios": {
+  "kind": "Mobile platform",
+  "tagline": "Since 2024, emulators run on iPhone and iPad too — straight from the App Store.",
+  "intro": [
+   "For a long time, emulation on iPhone and iPad was mostly for the hardcore (via complicated workarounds), but that changed in 2024: Apple allowed retro gaming emulators **directly in the App Store**. Today you download an app with a single tap like any other and start playing. iPads with M-series chips are also so powerful that they can handle even the more demanding consoles."
+  ],
+  "specs": [
+   {
+    "label": "Device",
+    "value": "iPhone, iPad (ideally with an A15+/M chip)"
+   },
+   {
+    "label": "Key apps",
+    "value": "Delta, RetroArch, PPSSPP, DuckStation, Provenance"
+   },
+   {
+    "label": "Controller",
+    "value": "Bluetooth (Xbox, DualSense, 8BitDo, Backbone)"
+   },
+   {
+    "label": "Games",
+    "value": "via the Files app, iCloud or AirDrop"
+   },
+   {
+    "label": "Output",
+    "value": "the screen, or a TV via AirPlay / USB-C"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, N64, GB/GBC/GBA, DS (Delta)",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1), PSP",
+    "level": "ok"
+   },
+   {
+    "label": "Dreamcast, Saturn",
+    "level": "most"
+   },
+   {
+    "label": "GameCube, Wii, PS2 (iPad M, via sideload)",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Start with Delta",
+    "text": "For Nintendo systems (NES–DS), Delta is the most convenient. Use RetroArch or standalone apps for the rest."
+   },
+   {
+    "title": "Controller over Bluetooth",
+    "text": "Xbox, DualSense and 8BitDo pair in a few seconds; Backbone/GameSir clips turn your phone into a handheld."
+   },
+   {
+    "title": "Games via Files/iCloud",
+    "text": "You get ROMs and BIOS files into the app via Files, iCloud Drive or AirDrop. Source them legally."
+   }
+  ]
+ },
+ "konzole-emulace": {
+  "kind": "Guide — homebrew scene",
+  "tagline": "Even a PlayStation, Xbox or Switch can be turned into a retro machine — through their homebrew scene.",
+  "intro": [
+   "Modern game consoles pack a lot of power under the hood — and the community knows how to use it for emulation too. Through so-called homebrew (unofficial software), a PlayStation, Xbox or Switch can be turned into a full-fledged retro machine running RetroArch. It's a step more advanced than a handheld or a Raspberry Pi: it depends on the specific model and firmware version, and sometimes you risk voiding the warranty or getting banned from online services. Here's an overview of what each family can do."
+  ],
+  "specs": [
+   {
+    "label": "Principle",
+    "value": "homebrew / firmware modification of the given model"
+   },
+   {
+    "label": "Software",
+    "value": "usually RetroArch (a port for the given console)"
+   },
+   {
+    "label": "Depends on",
+    "value": "the model and firmware version (important!)"
+   },
+   {
+    "label": "Controller",
+    "value": "the console's own controller right away"
+   },
+   {
+    "label": "Risk",
+    "value": "voided warranty, and a ban when online — at your own risk"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "PS Vita, original Xbox, Switch: 8/16bit–PS1, PSP",
+    "level": "ok"
+   },
+   {
+    "label": "PS3 / Xbox 360 / Switch: N64, DC, PSP, Saturn",
+    "level": "most"
+   },
+   {
+    "label": "Switch / Series: GameCube, Wii, PS2 (selected)",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "First find out your firmware",
+    "text": "The options and the process live and die with the model and firmware version. Verify your unit before you do anything."
+   },
+   {
+    "title": "Easiest: Xbox Series Dev Mode",
+    "text": "You enable developer mode and install RetroArch officially — no jailbreak and no voided warranty."
+   },
+   {
+    "title": "PS Vita = a great retro handheld",
+    "text": "Once modded, the Vita makes an excellent pocket RetroArch machine up to PS1/PSP."
+   },
+   {
+    "title": "Watch out for bans and warranty",
+    "text": "With the Switch you risk an online ban; in general you're risking your warranty. Do it disconnected from your account and at your own risk."
+   }
+  ]
+ },
+ "gamestick": {
+  "kind": "Plug-and-play · HDMI",
+  "tagline": "A cheap HDMI \"stick\" for your TV with a pair of wireless controllers — retro gaming with no setup.",
+  "intro": [
+   "Under names like **Game Stick Lite**, **Game Stick 4K**, **Powkiddy A12/A13** or various \"**Super Console**\" labels, a whole family of cheap HDMI boxes and dongles is sold. You plug them into your TV, pair two wireless controllers and start playing right away — no computer, no installation. Inside runs either a stripped-down **Android** or **Linux/EmuELEC** with RetroArch and a pile of emulators.",
+   "It's the simplest way to get retro onto the TV for the whole family. The catch is in what usually comes preloaded on them — see below."
+  ],
+  "specs": [
+   {
+    "label": "Type",
+    "value": "HDMI stick / mini box (Android or Linux)"
+   },
+   {
+    "label": "Output",
+    "value": "HDMI to TV (the \"4K\" version = 4K UI, games at their period resolution)"
+   },
+   {
+    "label": "Controllers",
+    "value": "2× wireless gamepad included"
+   },
+   {
+    "label": "System",
+    "value": "EmuELEC / RetroArch, or an Android launcher"
+   },
+   {
+    "label": "Storage",
+    "value": "microSD (often bundled, \"full\")"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, GB/GBC/GBA, arcade",
+    "level": "ok"
+   },
+   {
+    "label": "PS1, N64, PSP (the better titles)",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast, Saturn (a lottery depending on the chip)",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Treat it as hardware",
+    "text": "The box is fine; but the \"thousands of games\" that come with it are pirated. Load your own legal ROMs."
+   },
+   {
+    "title": "Pick the version by the games",
+    "text": "Lite for 8/16-bit, 4K/Super Console for PS1–PSP. The chips vary from unit to unit."
+   },
+   {
+    "title": "Your own system",
+    "text": "You can put a clean EmuELEC/Batocera on the SD card and keep it updated and tidy."
+   }
+  ]
+ },
+ "steam-deck": {
+  "kind": "PC handheld · Valve",
+  "tagline": "A pocket gaming PC from Valve — and after a few minutes with EmuDeck, also the most powerful retro handheld you can get.",
+  "intro": [
+   "**Steam Deck** is a full-fledged gaming PC in handheld form. Beyond modern games, its performance makes it a **top-tier emulation machine** — it comfortably handles what cheap boxes choke on (GameCube, Wii, PS2, decently even 3DS, Switch, or PS3 for the best-behaved titles).",
+   "Setup is surprisingly easy: the **EmuDeck** tool installs RetroArch and standalone emulators through a single wizard, creates folders for your ROMs, and wires everything into a nice frontend (EmulationStation-DE) right inside the Deck's gaming mode."
+  ],
+  "specs": [
+   {
+    "label": "Manufacturer",
+    "value": "Valve"
+   },
+   {
+    "label": "System",
+    "value": "SteamOS (Linux); Windows also works"
+   },
+   {
+    "label": "Chip",
+    "value": "AMD APU (Zen 2 + RDNA 2)"
+   },
+   {
+    "label": "Display",
+    "value": "7\" (LCD) / 7.4\" OLED"
+   },
+   {
+    "label": "Emulation",
+    "value": "EmuDeck (RetroArch + standalone emulators)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "Everything up to PS1/PSP/DS/Dreamcast/Saturn",
+    "level": "ok"
+   },
+   {
+    "label": "GameCube, Wii, PS2, 3DS, N64",
+    "level": "ok"
+   },
+   {
+    "label": "Switch, Wii U, PS3 (select titles)",
+    "level": "most"
+   }
+  ],
+  "options": [
+   {
+    "title": "EmuDeck = the key",
+    "text": "A single wizard installs and sets up the entire emulation suite. The easiest path on the Deck."
+   },
+   {
+    "title": "Your own ROMs and BIOS",
+    "text": "The Deck is just hardware — you supply the games and BIOS legally yourself."
+   },
+   {
+    "title": "Alternatives",
+    "text": "The ASUS ROG Ally, Lenovo Legion Go, or Ayaneo serve a similar purpose — they're all gaming PC handhelds."
+   }
+  ]
+ },
+ "miyoo-mini": {
+  "kind": "Handheld console · 2023",
+  "tagline": "A tiny vertical keychain-sized pocket handheld with an amazing price-to-experience ratio and the community OnionOS.",
+  "intro": [
+   "**Miyoo Mini** (and the larger **Miyoo Mini Plus**) is a miniature vertical handheld that has earned cult status: for just a few dollars you get a beautiful IPS display, pleasant buttons and, above all, the excellent community system **OnionOS**. It's the ideal \"pocketable\" machine for 8/16-bit, GB/GBC/GBA and PS1.",
+   "The vertical format suits classic 2D games and retro handhelds; don't get it for anything 3D. On the other hand, its battery life, size and price are hard to beat — and OnionOS is one of the most polished frontends around."
+  ],
+  "specs": [
+   {
+    "label": "Manufacturer",
+    "value": "Miyoo"
+   },
+   {
+    "label": "System",
+    "value": "OnionOS (community-made, built on RetroArch)"
+   },
+   {
+    "label": "Display",
+    "value": "3.5\" IPS (Plus), 640×480"
+   },
+   {
+    "label": "Format",
+    "value": "vertical (palm/pocket-sized)"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Wi-Fi (Plus) — netplay, scraping"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, GB/GBC/GBA, PS1",
+    "level": "ok"
+   },
+   {
+    "label": "Arcades, PC Engine, Master System, Lynx",
+    "level": "ok"
+   },
+   {
+    "label": "N64, DOS, PSP",
+    "level": "some"
+   }
+  ],
+  "options": [
+   {
+    "title": "Install OnionOS right away",
+    "text": "The community system dramatically improves the Miyoo. You copy it onto the SD card and you're off."
+   },
+   {
+    "title": "Yes to 2D, no to 3D",
+    "text": "Great for 8/16-bit and PS1; N64/PSP only marginally."
+   },
+   {
+    "title": "Related",
+    "text": "The Anbernic RG35XX, Powkiddy and TrimUI Smart Pro play in a similar league."
+   }
+  ]
+ },
+ "romy": {
+  "kind": "Guide — law, sources and preservation",
+  "tagline": "What a ROM is, how to obtain one legally, where the law stands, and why game preservation matters.",
+  "intro": [
+   "An emulator is just an empty console — to play anything it needs a **ROM** (a digital copy of a game from a cartridge) or a **disk image** (from a CD/DVD). There are plenty of myths around obtaining these files and a lot of confusion about what is and isn't legal. This guide keeps it straight: it explains how ROMs really work, shows the legal routes (there are more than people think), and fairly describes the grey area and piracy too — including the risks. The goal isn't a how-to on piracy, but to help you understand the topic and know how to go about it properly."
+  ],
+  "specs": [
+   {
+    "label": "ROM",
+    "value": "A copy of a cartridge's contents (NES, SNES, GBA…)"
+   },
+   {
+    "label": "Disk image",
+    "value": "An image of a CD/DVD (PS1, Saturn, Dreamcast…) — .bin/.cue, .chd"
+   },
+   {
+    "label": "BIOS",
+    "value": "Some systems require it (PS1, Saturn) — also protected"
+   },
+   {
+    "label": "Copyright",
+    "value": "Still applies, even to games 30+ years old (\"abandonware\" is not a legal term)"
+   },
+   {
+    "label": "Legal basis",
+    "value": "Your own dump, homebrew/freeware, official re-releases"
+   },
+   {
+    "label": "Dump formats",
+    "value": "No-Intro / Redump = standards for verified, unaltered copies"
+   }
+  ],
+  "canPlay": [],
+  "options": [
+   {
+    "title": "Start with homebrew",
+    "text": "itch.io and the community scene = hundreds of legal games for free, right away and risk-free."
+   },
+   {
+    "title": "Dump your own games",
+    "text": "Sanni Cart Reader or Retrode pull the contents of your cartridges into a file."
+   },
+   {
+    "title": "Buy re-releases",
+    "text": "NSO, Steam/GOG collections, Antstream or Evercade — legal, and you support preservation."
+   }
+  ]
+ }
+}

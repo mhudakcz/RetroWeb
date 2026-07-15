@@ -333,6 +333,11 @@ export function hardwareSectionsLoc(locale: string): Record<string, { title: str
   return trMap(locale, 'hardware_sections') as Record<string, { title: string; body: string[] }[]>;
 }
 
+/** Lokalizovaná statická pole HW průvodců (kind, tagline, intro, specs, canPlay, options). */
+export function hardwareMetaLoc(locale: string): Record<string, any> {
+  return trMap(locale, 'hardware_meta');
+}
+
 /** Platformy seskupené dle typu pro daný jazyk (kvůli lokalizovanému indexu). */
 export function platformsByTypeLoc(locale: string): { type: PlatformType; items: Platform[] }[] {
   const ps = localeData(locale).platforms;

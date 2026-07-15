@@ -27,7 +27,7 @@ export function localizePath(l: Locale, path: string): string {
 /** Sekce webu, které už mají EN/DE varianty. Postupně přibývají (Fáze B).
  *  Root cesta sekce ('/', '/platformy', '/hry', …). */
 export const LOCALIZED_SECTIONS = new Set<string>([
-  '/', '/podporit', '/kontakt', '/platformy', '/studia', '/hry',
+  '/', '/podporit', '/kontakt', '/platformy', '/studia', '/hry', '/hardware', '/o-projektu',
 ]);
 
 /** Root sekce z cesty: '/platformy/game-boy' -> '/platformy', '/' -> '/'. */

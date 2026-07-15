@@ -9,14 +9,14 @@ CH = BASE / "chunks"
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "src" / "data" / "i18n"
 
-TYPES = ["games", "platforms", "studios", "hardware_sections"]
+TYPES = ["games", "platforms", "studios", "hardware_sections", "hardware_meta"]
 acc = {"en": {t: {} for t in TYPES}, "de": {t: {} for t in TYPES}}
 ok = bad = 0
 bad_files = []
 
 for f in sorted(glob.glob(str(CH / "*_out.json"))):
     base = os.path.basename(f)
-    m = re.match(r"(games|platforms|studios|hardware_sections)_\d+_out\.json", base)
+    m = re.match(r"(games|platforms|studios|hardware_sections|hardware_meta)_\d+_out\.json", base)
     if not m:
         continue
     typ = m.group(1)

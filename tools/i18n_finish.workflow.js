@@ -13,10 +13,11 @@ const STRUCT = {
   platforms: 'Objekt {slug: {history}} — history je dlouhý český Markdown článek.',
   studios: 'Objekt {slug: "..."} — hodnota je celý český Markdown článek o studiu.',
   hardware_sections: 'Objekt {slug: [{title, body: [odstavce]}]} — pole sekcí, každá má title a body (pole českých odstavců).',
+  hardware_meta: 'Objekt {slug: {kind, tagline, intro:[odstavce], specs:[{label,value}], canPlay:[{label,level}], options:[{title,text}]}}. Přelož kind, tagline, intro, specs.label, specs.value (kromě technických zkratek/čísel/názvů modelů, ty ponech), canPlay.label, options.title, options.text. DŮLEŽITÉ: hodnotu canPlay.level (ok/most/some) NEMĚŇ.',
 }
 
 // pořadí: nejdřív malé sekce (rychlé, ať se stihnou před dennim limitem), pak hry
-const ORDER = ['hardware_sections', 'studios', 'platforms', 'games']
+const ORDER = ['hardware_meta', 'hardware_sections', 'studios', 'platforms', 'games']
 const chunks = []
 for (const type of ORDER) {
   const n = counts[type] || 0
