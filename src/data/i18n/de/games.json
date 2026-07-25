@@ -5275,5 +5275,77 @@
  },
  "tic-80__card-quest": {
   "article": "Ein Kartendeck statt Schwert und Schild, und dennoch ein ebenso gnadenloser Kerker, in dem ein schlechtes Blatt das Ende bedeuten kann. Card Quest ist ein Karten-Roguelike für den TIC-80, das zwei Dinge verbindet, die heute immer mehr zusammengehören: die taktische Tiefe von Kartenspielen und die unbarmherzige Zufälligkeit eines Roguelike-Abenteuers. Das Ergebnis ist ein Spiel über Nachdenken, Risiko und Glück im richtigen Moment.\n\nMechanisch bedeutet das, dass deine Aktionen — Angriffe, Verteidigung, Fähigkeiten — in Form von Karten kommen, die du in Zügen nachziehst und ausspielst. Dazu kommen Roguelike-Prinzipien: prozedurales Vorankommen, bei dem sich Wege und Zusammenstöße mit jedem Versuch ändern, und der permanente Tod, der jeder Entscheidung Gewicht verleiht. Du musst abwägen, welche Karte du jetzt ausspielst und welche du dir aufhebst, denn eine zweite Chance kommt vielleicht nicht. Es ist eine Schachpartie, in die das Schicksal den Zufall gemischt hat.\n\nTIC-80 als sparsame Fantasy-Konsole tut einem solchen Genre gut. Ein Karten-Roguelike braucht keine großartige Grafik — es braucht eine übersichtliche Oberfläche, lesbare Karten und einen klaren Spielstand. Die begrenzte Umgebung zwingt den Schöpfer, sich genau darauf zu konzentrieren, auf die Mechanik selbst und ihre Verständlichkeit, was in einem Kartenspiel das Wichtigste ist.\n\nKulturell reitet Card Quest auf der Welle, die das Genre des Deck-Building-Roguelike in den letzten Jahren in Gang gesetzt hat und die gezeigt hat, wie hervorragend sich Karten und prozedurale Kerker ergänzen. Das Prinzip ist elegant: Das Deck, das du während der Expedition aufbaust, ist zugleich deine Stärke und dein Schicksal. Auf der Homebrew-Szene der Fantasy-Konsolen ist es eine natürliche Wahl — das Genre dreht sich vor allem um Systeme, und die passen auch in den kleinsten Code.\n\nFür den Spieler ist es eine süchtigmachende Schleife aus Versuch und Irrtum. Du verlierst, lernst, wie du deine Züge besser aufbaust, und stürzt dich erneut hinein. Jede Expedition ist anders, jedes Blatt ein neues Rätsel. Es ist ein Spiel für den, der es mag, wenn sein Gehirn auf Hochtouren arbeitet und bei dem auch eine Niederlage eine Lektion fürs nächste Mal ist.\n\n**Warum spielen:** Card Quest verbindet die Taktik von Kartenkämpfen mit der Unbarmherzigkeit des Roguelike — ideal für Spieler, denen es Spaß macht, ein Deck aufzubauen und mit jedem Zug ein Risiko einzugehen."
+ },
+ "game-boy__super-mario-land": {
+  "detail": "Der allererste tragbare Mario und einer der Starttitel des Game Boy. Das fremde Königreich Sarasaland, mit U-Boot und Flugzeug statt des Pilzkönigreichs. Klein, flott, historisch."
+ },
+ "game-boy__kirby-s-dream-land": {
+  "detail": "Das Debüt des rosa Kirby — du saugst Gegner ein und schwebst durch die Luft. Noch ohne Kopierfähigkeiten, aber ein niedlicher und perfekt zugänglicher Serienauftakt."
+ },
+ "nes__super-mario-bros-2": {
+  "detail": "Der amerikanische zweite Teil (ein überarbeitetes Doki Doki Panic): Statt auf Gegner zu springen, ziehst du Gemüse heraus und wirfst es nach ihnen, und zum ersten Mal wählst du aus vier Figuren mit unterschiedlichen Fähigkeiten. Ungewöhnlich, aber bezaubernd und bis heute eigenständig."
+ },
+ "nes__teenage-mutant-ninja-turtles-ii-arcade-game": {
+  "detail": "Konamis Portierung des berühmten Arcade-Spiels — vier Ninja Turtles mähen den Foot Clan quer durch New York nieder. Toller Koop, originalgetreue Animationen aus der Serie, eines der besten Lizenzspiele auf dem NES."
+ },
+ "nes__teenage-mutant-ninja-turtles-iii-manhattan-project": {
+  "detail": "Eine verbesserte Fortsetzung des Arcade-Beat-'em-ups direkt für das NES — mehr Level, mehr Angriffe, weiterhin erstklassiger Koop. Technisch reizt es die Konsole voll aus."
+ },
+ "nes__ice-climber": {
+  "detail": "Popo und Nana erklimmen eisige Berge, zertrümmern mit dem Hammer Decken und weichen Eisbären aus. Ein grundlegender Nintendo-Klassiker, heute vor allem dank Smash Bros. bekannt."
+ },
+ "nes__balloon-fight": {
+  "detail": "Du fliegst an Ballons und versuchst, die Gegner über dir zu zerstechen. Die trägheitsbasierte Physik und der großartige Zweispielermodus machen es zu einem kleinen zeitlosen Juwel (Autor: Iwata)."
+ },
+ "nes__duck-hunt": {
+  "detail": "Der ikonische Lichtpistolen-Shooter mit dem Zapper — du schießt Enten ab und der lachende Hund verspottet dich, wenn du danebentriffst. Ein Symbol der NES-Ära."
+ },
+ "nes__metal-gear": {
+  "detail": "Kojimas Original begründete das Stealth-Genre: Statt zu schießen, schleichst du, weichst Wachen aus und tüftelst, wie du unbemerkt durchkommst. Die NES-Version hat ihre Schwächen, ist aber historisch von zentraler Bedeutung."
+ },
+ "nes__gradius": {
+  "detail": "Ein horizontaler Shooter, der das Waffen-Upgrade-System definierte (du sammelst Kapseln und wählst Upgrades aus einer Leiste). Legendärer Schwierigkeitsgrad und der berühmte Konami-Code."
+ },
+ "nes__ghosts-n-goblins": {
+  "detail": "Ritter Arthur in Unterhosen gegen Horden von Untoten — berüchtigt schwer und mit dem Zwang, das Spiel zweimal durchzuspielen. Frustrierend und süchtig machend zugleich."
+ },
+ "snes__teenage-mutant-ninja-turtles-iv-turtles-in-time": {
+  "detail": "Eines der besten Arcade-Beat-'em-ups überhaupt, auf dem SNES in verbesserter Form: Gegner \"in den Bildschirm\" werfen, Zeitreisen und hervorragender Koop. Ein absoluter Klassiker."
+ },
+ "snes__final-fight": {
+  "detail": "Die Konsolenversion des legendären Arcade-Prüglers — Haggar, Cody und Guy räumen in Metro City mit der Mad-Gear-Bande auf. Ein prägender Titel des Genres (von hier stammt auch Guy aus Street Fighter)."
+ },
+ "snes__super-mario-all-stars": {
+  "detail": "Eine Sammlung von Remastern von SMB 1–3 und Lost Levels in 16-Bit-Grafik und mit Speichersystem. Die beste Art, die gesamte goldene Ära von Mario gebündelt zu spielen."
+ },
+ "snes__r-type-iii-third-lightning": {
+  "detail": "Ein wunderschöner 16-Bit-Horizontal-Shooter mit dem ikonischen „Force\"-Modul und drei Waffentypen. Knackig, aber sowohl optisch als auch spielerisch erstklassig."
+ },
+ "snes__final-fantasy-mystic-quest": {
+  "detail": "Ein vereinfachtes JRPG für Einsteiger — geradlinigere Kämpfe und eine übersichtliche Karte. Fans der Serie streiten darüber, aber als Einstieg ins Genre funktioniert es hervorragend."
+ },
+ "mega-drive__splatterhouse-2": {
+  "detail": "Ein blutiger Horror-Beat-'em-up: In der Terror Mask kämpfst du dich durch Wände aus Fleisch und Monstern, um deine Freundin zu retten. Eine für das Mega Drive ungewöhnlich brutale Atmosphäre."
+ },
+ "mega-drive__splatterhouse-3": {
+  "detail": "Der dritte Teil fügt zeitabhängige Verzweigungen und offenere Level hinzu — du verteidigst dein eigenes Haus gegen eine Horde. Der Höhepunkt der Horrorserie auf der Konsole."
+ },
+ "mega-drive__sonic-spinball": {
+  "detail": "Sonic als Flipperkugel in mehrstufigen Tischen voller Gegner. Ein ungewöhnlicher Ableger der Serie — chaotisch, aber unterhaltsam."
+ },
+ "mega-drive__zero-wing": {
+  "detail": "Ein solider Horizontal-Shooter von Toaplan, unsterblich vor allem dank seines komisch übersetzten Intros „All your base are belong to us\" — einem der ersten Internet-Memes."
+ },
+ "playstation__wipeout-2097": {
+  "detail": "Futuristische Gleiter-Rennen in scharfem Tempo, mit Waffen und einem legendären elektronischen Soundtrack (Chemical Brothers, Prodigy). Eine Ikone des Stils der frühen PS1-Ära."
+ },
+ "playstation__wip3out": {
+  "detail": "Ein ausgefeilter dritter Teil mit dem klaren Design von Designers Republic und flüssigerer Steuerung. Der Höhepunkt der Serie auf der PS1."
+ },
+ "playstation__medievil": {
+  "detail": "Das Skelett Sir Daniel Fortesque kehrt von den Toten zurück, um eine alte Lüge zu sühnen. Eine Tim-Burton-eske gotische Atmosphäre, Humor und ehrliches Gemetzel. Ein Kult-Juwel der PS1."
+ },
+ "playstation__resident-evil-director-s-cut": {
+  "detail": "Eine erweiterte Version des Originals, das das Survival-Horror-Genre begründete — ein Herrenhaus voller Zombies, Rätsel und Munitionsmangel. Die Wurzeln der gesamten Serie (wir haben auch RE2 und RE3)."
  }
 }

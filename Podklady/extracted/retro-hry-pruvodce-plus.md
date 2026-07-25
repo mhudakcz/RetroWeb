@@ -9,6 +9,11 @@ Rozšířený komentář k hlavnímu seznamu (`retro-hry-batocera.md`). U každ�
 
 ## Nintendo Game Boy (GB)
 
+**Super Mario Land** — *Platformer · 1989 · Nintendo* — Úplně první přenosný Mario a jeden ze startovních titulů Game Boye. Cizí království Sarasaland, ponorka i letadlo místo houbové říše. Malý, svižný, historický. *(⏱ cca 1–3 h)*
+
+**Kirby's Dream Land** — *Platformer · 1992 · HAL Laboratory* — Debut růžového Kirbyho — nasáváš nepřátele a vznášíš se vzduchem. Ještě bez kopírování schopností, ale roztomilý a dokonale přístupný start série. *(⏱ cca 1–3 h)*
+
+
 **The Legend of Zelda: Link's Awakening DX** — *Action-adventure · 1993 (DX 1998) · Nintendo EAD* — Vznikla jako neoficiální „after hours" projekt části týmu A Link to the Past a původně měla být portem té hry; nakonec se rozrostla ve vlastní titul. Je to první přenosná Zelda a první, která se neodehrává v Hyrule — ostrov Koholint je sen mořského tvora Wind Fish a celý svět zmizí, když ho probudíš, což hře dává nečekaně melancholický nádech. Obsahuje cameo postavy z Mario série (Chain Chomps, Goombové), protože tým si dovolil hrát si. DX verze z roku 1998 přidala barvu a barevný dungeon hratelný jen na Game Boy Color. Remake na Switch (2019) potvrdil status klasiky. *(⏱ cca 12–25 h)*
 
 **Pokémon Red/Blue/Green** — *JRPG · 1996 (JP) / 1998 (West) · Game Freak* — Satoshi Tajiri vyvíjel hru šest let inspirován svým dětským koníčkem — sbíráním hmyzu. Game Freak byl na pokraji krachu a hru zachránil Shigeru Miyamoto a nápad vydat dvě verze, které se musí propojit link kabelem, aby hráč chytil všech 151 pokémonů — geniální obchodní i komunitní tah. Slavný „MissingNo." glitch a Mew skrytý vývojářem do hry bez vědomí vedení patří k nejznámějším herním legendám. Série je dnes nejvýdělečnější mediální franšíza na světě (nad Star Wars i Marvel), a všechno začalo tady. *(⏱ cca 30+ h)*
@@ -217,6 +222,27 @@ Rozšířený komentář k hlavnímu seznamu (`retro-hry-batocera.md`). U každ�
 
 ## Nintendo NES / Famicom
 
+**Super Mario Bros. 2** — *Platformer · 1988 · Nintendo* — Americká dvojka (přepracovaný Doki Doki Panic): místo skákání na nepřátele trháš zeleninu a házíš ji po nich, a poprvé si vybíráš ze čtyř postav s různými schopnostmi. Nezvyklá, ale kouzelná a dodnes svébytná. *(⏱ cca 3–5 h)*
+
+**Teenage Mutant Ninja Turtles II: The Arcade Game** — *Beat 'em up · 1990 · Konami* — Konami port slavné arkády — čtyři želvy nindžové kosí Foot Clan napříč New Yorkem. Skvělá kooperace, věrné animace ze seriálu, jedna z nejlepších licencovaných her na NES. *(⏱ cca 1–3 h)*
+
+**Teenage Mutant Ninja Turtles III: The Manhattan Project** — *Beat 'em up · 1992 · Konami* — Vylepšené pokračování arkádové mlátičky přímo pro NES — víc úrovní, víc útoků, pořád špičkový co-op. Technicky vytěžuje konzoli naplno. *(⏱ cca 1–3 h)*
+
+**Ice Climber** — *Platformer · 1985 · Nintendo* — Popolo a Nana šplhají ledovými horami, rozbíjejí kladivem stropy a uhýbají ledním medvědům. Základní Nintendo klasika, dnes známá hlavně díky Smash Bros. *(⏱ cca 1–3 h)*
+
+**Balloon Fight** — *Action · 1984 · Nintendo* — Létáš na balóncích a snažíš se propíchnout soupeře nad sebou. Fyzika setrvačnosti a skvělý dvouhráčový režim z něj dělají malý nadčasový klenot (autor: Iwata). *(⏱ cca 1–3 h)*
+
+**Duck Hunt** — *Shooter (light gun) · 1984 · Nintendo* — Ikonická střílečka se světelnou pistolí Zapper — sestřeluješ kachny a smějící se pes tě uráží, když mineš. Symbol éry NES. *(⏱ cca 1–3 h)*
+
+**Metal Gear** — *Action / Stealth · 1987 · Konami* — Kojimův originál založil stealth žánr: místo střílení se plížíš, vyhýbáš se strážím a řešíš, jak projít nepozorovaně. NES verze má své mouchy, ale historicky zásadní. *(⏱ cca 4–10 h)*
+
+**Gradius** — *Shmup · 1986 · Konami* — Horizontální střílečka, která definovala systém vylepšení zbraní (sbíráš kapsle a volíš upgrady na liště). Legendární obtížnost a slavný Konami kód. *(⏱ cca 1–3 h)*
+
+**Ghosts 'n Goblins** — *Action-platformer · 1986 · Capcom* — Rytíř Arthur v trenkách proti hordám nemrtvých — nechvalně proslulá obtížnost a nutnost projít hru dvakrát. Frustrující i návyková zároveň. *(⏱ cca 1–3 h)*
+
+**Kung Fu** — *Beat 'em up · 1985 · Irem / Nintendo* — Praotec bočních mlátiček — probíjíš se pěti patry chrámu za únoscem tvé dívky. Jednoduché, ale svižné a vlivné. *(⏱ cca 1–3 h)*
+
+
 **Super Mario Bros. 3** — *Platformer · 1988 (JP) / 1990 (US) · Nintendo EAD* — Pod vedením Miyamota a Tezuky vznikla jedna z nejlepších plošinovek vůbec a nejprodávanější ne-bundlovaná NES hra (přes 17 milionů). Přinesla mapu světa, kostýmy měnící schopnosti (tanuki, žába, bota) a obří rozmanitost. V USA ji proslavil i film The Wizard, který fungoval jako jeden velký reklamní trailer. Designová laťka žánru. *(⏱ cca 4–10 h)*
 
 **Super Mario Bros.** — *Platformer · 1985 · Nintendo EAD* — Pack-in titul NES, který v USA prakticky vzkřísil herní trh po krachu 1983. Prodalo se přes 40 milionů kopií. Jeho první úroveň (World 1-1) je učebnicový příklad „level designu jako tutoriálu" — naučí tě všechny mechaniky bez jediného slova textu. Miyamotova revoluce v pohybu a tempu. *(⏱ cca 1–3 h)*
@@ -282,6 +308,21 @@ Rozšířený komentář k hlavnímu seznamu (`retro-hry-batocera.md`). U každ�
 ---
 
 ## Super Nintendo / Super Famicom (SNES)
+
+**Teenage Mutant Ninja Turtles IV: Turtles in Time** — *Beat 'em up · 1992 · Konami* — Jedna z nejlepších arkádových mlátiček vůbec, na SNES ve vylepšené podobě: házení nepřátel „do obrazovky", cesty časem a parádní co-op. Absolutní klasika. *(⏱ cca 1–3 h)*
+
+**Mega Man 7** — *Action-platformer · 1995 · Capcom* — Klasická (ne-X) řada v 16bitovém kabátě: velcí barevní roboti, výběr pořadí bossů a přesné skákání a střílení. Přehlížený, ale skvělý díl. *(⏱ cca 3–5 h)*
+
+**Final Fight** — *Beat 'em up · 1991 · Capcom* — Konzolová verze legendární arkády — Haggar, Cody a Guy čistí Metro City od gangu Mad Gear. Klíčový titul žánru (odtud pochází i Guy do Street Fighteru). *(⏱ cca 1–3 h)*
+
+**Super Mario All-Stars** — *Platformer · 1993 · Nintendo* — Kolekce remasterů SMB 1–3 a Lost Levels v 16bitové grafice a se save systémem. Nejlepší způsob, jak si zahrát celou zlatou éru Maria pohromadě. *(⏱ cca 12–25 h)*
+
+**Super Bomberman 2** — *Action / Party · 1994 · Hudson Soft* — Vrchol Bombermana na SNES — pokládáš bomby, ničíš bludiště i soupeře. Multiplayer pro čtyři je nesmrtelná párty zábava. *(⏱ cca 1–3 h)*
+
+**R-Type III: The Third Lightning** — *Shmup · 1993 · Irem* — Nádherná 16bitová horizontálka s ikonickým modulem „Force" a třemi typy zbraní. Tuhá, ale vizuálně i herně špičková. *(⏱ cca 1–3 h)*
+
+**Final Fantasy: Mystic Quest** — *RPG · 1992 · Squaresoft* — Zjednodušené JRPG mířené na začátečníky — přímočařejší souboje a mapa. Fanoušci série se přou, ale jako vstupní branka do žánru funguje výborně. *(⏱ cca 12–25 h)*
+
 
 **Super Mario World** — *Platformer · 1990 (JP) / 1991 (US) · Nintendo EAD* — Launchový titul SNES a pro mnohé nejlepší 2D plošinovka vůbec. Debut Yoshiho a obří, propojený svět se 96 východy a tajnými cestami (Star Road, Special World). Prodalo se přes 20 milionů. Miyamotův tým dokonale vyladil ovládání a tempo. *(⏱ cca 4–10 h)*
 
@@ -356,6 +397,17 @@ Rozšířený komentář k hlavnímu seznamu (`retro-hry-batocera.md`). U každ�
 ---
 
 ## SEGA Mega Drive / Genesis
+
+**Splatterhouse 2** — *Beat 'em up / Horror · 1992 · Namco* — Krvavý hororový beat 'em up: v masce Terror Mask se probíjíš stěnami masa a monster za záchranou přítelkyně. Na Mega Drive nezvykle brutální atmosféra. *(⏱ cca 1–3 h)*
+
+**Splatterhouse 3** — *Beat 'em up / Horror · 1993 · Namco* — Trojka přidává větvení podle času a otevřenější úrovně bráníš vlastní dům před hordou. Vrchol hororové série na konzoli. *(⏱ cca 1–3 h)*
+
+**Phantasy Star II** — *RPG · 1989 · Sega* — Sci-fi JRPG, které v roce 1989 ohromilo rozsahem i příběhem (odvážný zvrat v ději). Dungeony jsou tuhé, ale historicky jde o milník žánru na konzolích. *(⏱ cca 30+ h)*
+
+**Sonic Spinball** — *Pinball / Platformer · 1993 · Sega* — Sonic jako pinballová koule ve víceúrovňových stolech plných nepřátel. Netradiční odbočka série — chaotická, ale zábavná. *(⏱ cca 1–3 h)*
+
+**Zero Wing** — *Shmup · 1992 · Toaplan / Taito* — Slušná horizontální střílečka Toaplanu, nesmrtelná hlavně díky komicky přeloženému intru „All your base are belong to us" — jednomu z prvních internetových memů. *(⏱ cca 1–3 h)*
+
 
 **Sonic the Hedgehog 1–3 & Knuckles** — *Platformer · 1991–1994 · Sonic Team* — Sega potřebovala maskota proti Mariovi a Naoto Ōshima navrhl modrého ježka s „attitude". Sonic 1 (1991) se stal pack-inem, který hnal prodeje Genesisu v USA. Trojka + Knuckles využívají slavnou „lock-on" kartridž — zasuneš Sonic 3 do Sonic & Knuckles a spojí se v jednu obří hru. Michael Jackson se údajně podílel na hudbě Sonic 3 (dodnes sporné). Symbol rychlosti a 90s. *(⏱ cca 1–3 h)*
 
@@ -625,6 +677,21 @@ První barevný podsvícený handheld historie — technický předskokan, kter�
 
 ## Sony PlayStation (PS1)
 
+**Wipeout 2097 (XL)** — *Racing · 1996 · Psygnosis* — Futuristické závody vznášedel v ostrém tempu, se zbraněmi a legendárním elektronickým soundtrackem (Chemical Brothers, Prodigy). Ikona stylu rané PS1 éry. *(⏱ cca 4–10 h)*
+
+**Wip3out** — *Racing · 1999 · Psygnosis* — Vypilovaný třetí díl s čistým designem Designers Republic a plynulejší jízdou. Vrchol série na PS1. *(⏱ cca 4–10 h)*
+
+**MediEvil** — *Action-adventure · 1998 · SCE Cambridge* — Kostlivec Sir Daniel Fortesque se vrací z mrtvých odčinit dávnou lež. Tim-Burtonovská gotická atmosféra, humor a poctivé sekání. Kultovní PS1 klenot. *(⏱ cca 4–10 h)*
+
+**Resident Evil: Director's Cut** — *Survival horror · 1997 · Capcom* — Rozšířená verze originálu, který založil žánr survival hororu — sídlo plné zombií, hádanek a nedostatku munice. Kořeny celé série (máme i RE2 a RE3). *(⏱ cca 4–10 h)*
+
+**Grandia** — *RPG · 1997 · Game Arts* — Dobrodružné JRPG s neuvěřitelně živým bojovým systémem (pohyb po poli + timeline akcí) a optimistickým příběhem o objevování světa. Skvost od Game Arts. *(⏱ cca 30+ h)*
+
+**Legend of Mana** — *Action-RPG · 1999 · Squaresoft* — Nádherně ručně malované akční RPG ze série Mana — svět si skládáš z artefaktů na mapě a volíš pořadí příběhů. Atmosférické a jedinečné. *(⏱ cca 12–25 h)*
+
+**Rayman** — *Platformer · 1995 · Ubisoft* — Překrásná ručně kreslená 2D plošinovka, proslulá nádhernou grafikou i nemilosrdnou obtížností. Zrození maskota Ubisoftu. *(⏱ cca 4–10 h)*
+
+
 **Final Fantasy VII** — *JRPG · 1997 · Squaresoft* — Přechod série do 3D s předrenderovanými pozadími a CG cutscénami; vývoj i marketing stály na svou dobu nevídané desítky milionů dolarů. Zpopularizoval JRPG na Západě a smrt jedné klíčové postavy je dodnes jeden z nejdiskutovanějších momentů v médiu. Prodalo se přes 14 milionů. Zásadně přispěl k tomu, že 3D a CD se staly standardem. *(⏱ cca 30+ h)*
 
 **Final Fantasy IX** — *JRPG · 2000 · Squaresoft* — Sakaguchiho oblíbený díl a vědomý návrat ke středověkým fantasy kořenům po futuristických VII a VIII. Charismatické obsazení (zloděj Zidane, černý mág Vivi a jeho emotivní téma smrtelnosti). Vyšlo na konci života PS1, takže technicky vytříbené. Mnohými považováno za nejvíc „srdečný" díl. *(⏱ cca 30+ h)*
@@ -770,6 +837,15 @@ První barevný podsvícený handheld historie — technický předskokan, kter�
 ---
 
 ## Nintendo 64
+
+**Turok: Dinosaur Hunter** — *FPS · 1997 · Iguana / Acclaim* — Jedna z prvních velkých konzolových stříleček — v pralese lovíš dinosaury i vojáky exotickými zbraněmi (slavný Cerebral Bore). Atmosféra a mlžný dohled dobově kultovní. *(⏱ cca 10–15 h)*
+
+**WWF No Mercy** — *Wrestling · 2000 · AKI / THQ* — Vrchol wrestlingových her od AKI — famózní ovládání chvatů, obří kariérní režim a editor. Fanoušci ho dodnes považují za nejlepší wrestling hru vůbec. *(⏱ cca 12–25 h)*
+
+**Ridge Racer 64** — *Racing · 2000 · Nintendo / Namco* — Arkádové smyky Ridge Raceru vyladěné pro N64, se spoustou tratí a plynulou jízdou. Skvělá volba pro fanoušky driftu na konzoli. *(⏱ cca 4–10 h)*
+
+**Harvest Moon 64** — *Sim / RPG · 1999 · Victor / Natsume* — Nejmilovanější díl farmářské série — pěstuješ, chováš zvířata, namlouváš si partnera a žiješ plynutím ročních období. Klidná, návyková pohoda. *(⏱ cca 30+ h)*
+
 
 **Super Mario 64** — *Platformer · 1996 · Nintendo EAD* — Launchový titul, který definoval 3D plošinovky a stanovil, jak má fungovat kamera a pohyb ve 3D. Analogová páčka (premiéra na N64 ovladači) dala Mariovi nuancovaný pohyb. Sbírání 120 hvězd v otevřených světech se stalo šablonou žánru. Jeden z nejvlivnějších titulů historie. *(⏱ cca 4–10 h)*
 

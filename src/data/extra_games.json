@@ -589,6 +589,48 @@
    "genre": "Racing",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mega Man 7",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fight",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Mario All-Stars",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Super Bomberman 2",
+   "genre": "Action / Party",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "R-Type III: The Third Lightning",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy: Mystic Quest",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
   }
  ],
  "mega-drive": [
@@ -867,6 +909,36 @@
    "genre": "Racing / motorky",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Splatterhouse 2",
+   "genre": "Beat 'em up / Horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Splatterhouse 3",
+   "genre": "Beat 'em up / Horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star II",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Sonic Spinball",
+   "genre": "Pinball / Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zero Wing",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
   }
  ],
  "nes": [
@@ -1087,6 +1159,66 @@
    "genre": "Strategy / Akce",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Super Mario Bros. 2",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ice Climber",
+   "genre": "Platformer",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Balloon Fight",
+   "genre": "Action",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Duck Hunt",
+   "genre": "Shooter (light gun)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear",
+   "genre": "Action / Stealth",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gradius",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ghosts 'n Goblins",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kung Fu",
+   "genre": "Beat 'em up",
+   "length": "S",
+   "flags": []
   }
  ],
  "playstation": [
@@ -1142,6 +1274,48 @@
    "name": "Ace Combat 2",
    "genre": "Flight combat",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wipeout 2097 (XL)",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wip3out",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "MediEvil",
+   "genre": "Action-adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil: Director's Cut",
+   "genre": "Survival horror",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Grandia",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Legend of Mana",
+   "genre": "Action-RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Rayman",
+   "genre": "Platformer",
+   "length": "L",
    "flags": []
   }
  ],
@@ -2357,6 +2531,18 @@
    "genre": "Sport / Fotbal",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Super Mario Land",
+   "genre": "Platformer",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Dream Land",
+   "genre": "Platformer",
+   "length": "S",
+   "flags": []
   }
  ],
  "game-gear": [
@@ -2756,6 +2942,30 @@
    "name": "Mortal Kombat Trilogy",
    "genre": "Fighting",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Turok: Dinosaur Hunter",
+   "genre": "FPS",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "WWF No Mercy",
+   "genre": "Wrestling",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ridge Racer 64",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Harvest Moon 64",
+   "genre": "Sim / RPG",
+   "length": "XL",
    "flags": []
   }
  ],

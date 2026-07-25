@@ -12,7 +12,7 @@
       "image": "/images/platforms/game-boy.png",
       "photoBg": "dark",
       "history": "Když Nintendo v roce 1989 uvedlo Game Boy, málokdo tušil, že kapesní konzole se zelenavým monochromatickým displejem přežije své technicky vyspělejší soupeře o celé roky. Stroj navrhl **Gunpei Yokoi** podle své proslulé filozofie „laterálního myšlení s vyzrálou technologií\" — místo nejnovějších a nejdražších součástek vsadil na levné, osvědčené a spolehlivé. Výsledek byl paradoxně dokonalý: dohromady s pozdějším Game Boy Color se prodalo přes **118 milionů kusů**, čímž se Game Boy stal nejúspěšnějším handheldem své éry.\n\nTajemství úspěchu bylo trojí. Výdrž na baterie — Game Boy běžel na čtyři tužkové články klidně patnáct i více hodin, zatímco barevná konkurence v podobě Atari Lynx nebo Sega Game Gear je zhltla za pár hodin. Nízká cena. A především software: přibalený **Tetris** byl tak návykový, že prodával konzoli sám o sobě, a o pár let později přišel **Pokémon**, který Game Boyi vdechl druhý život v době, kdy už byl technicky dávno zastaralý.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy/5.webp\" alt=\"Originální Game Boy z roku 1989\" loading=\"lazy\"><figcaption>Originální Game Boy z roku 1989</figcaption></figure>\n### Technika: grafika a zvuk\n\nSrdcem Game Boye je **8bitový procesor Sharp LR35902**, hybrid mezi Intelem 8080 a Zilogem Z80, taktovaný kolem 4,19 MHz. Displej zobrazuje rozlišení **160 × 144 bodů** a pouhé **čtyři odstíny** — sice se mluví o „šedi\", ve skutečnosti šlo o různé úrovně zelené danou typem použitého LCD. Žádné podsvícení původní model neměl, takže k hraní jste potřebovali slušné okolní světlo (nebo proslulou přídavnou lampičku).\n\nGrafický hardware zvládal hardwarové **sprity** (až 40 najednou, max. 10 na řádek) a plynulý scrolling pozadí, což z Game Boye dělalo solidní platformu pro plošinovky i akční hry. Po zvukové stránce nabízel **čtyři kanály**: dva pulzní (čtvercová vlna) s rozmítáním frekvence, jeden vlnový kanál s programovatelnou tabulkou a jeden šumový kanál pro bicí a efekty. Právě tahle skromná zvuková sada dala vzniknout nezaměnitelnému **chiptune** zvuku, který dnes žije vlastním životem v moderní elektronické hudbě.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy/6.webp\" alt=\"Herní cartridge pro Game Boy\" loading=\"lazy\"><figcaption>Herní cartridge pro Game Boy</figcaption></figure>\n### Propojeni a periferie\n\nPo straně konzole najdete **Link kabel** — propojení dvou Game Boyů přes sériový port. To umožnilo nejen multiplayer (legendární souboje v Tetrisu), ale i výměnu Pokémonů, bez níž se sbírka nedala dokončit. Existoval i čtyřhráčový adaptér pro vybrané tituly.\n\nMezi periferie patřily **Game Boy Camera** (jedna z prvních dostupných digitálních kamer pro spotřebitele) a tiskárna **Game Boy Printer** na termopapír. Nechyběl ani rumble a náklonové senzory zabudované přímo v některých cartridge (např. Kirby Tilt 'n' Tumble). Ukládání pozic řešila baterie přímo v herním modulu, který napájel paměť SRAM — proto u starých cartridge dnes save mizí, jakmile knoflíková baterie dožije.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy/3.webp\" alt=\"Game Boy Pocket z roku 1996\" loading=\"lazy\"><figcaption>Game Boy Pocket z roku 1996</figcaption></figure>\n### Modely a revize\n\nPůvodní **DMG-01** z roku 1989 byl cihlovitý a velký. V roce 1996 přišel výrazně menší a lehčí **Game Boy Pocket** s ostřejším černobílým displejem (a jednou knoflíkovou baterií navíc oproti čtyřem tužkovým). Krátce nato následoval **Game Boy Light** — jen pro japonský trh, s podsvíceným displejem.\n\nZlomovým modelem byl **Game Boy Color** (1998): zachoval zpětnou kompatibilitu se starými hrami, ale přidal barevný displej a rychlejší procesor. Linii dovršil **Game Boy Advance** (2001) s 32bitovým jádrem, jenž rovněž dokázal spustit původní GB i GBC tituly — éra osmibitové ruční konzole tak plynule přešla do nové generace.\n\n### Klony a varianty\n\nGame Boy nebyl tak masově klonován jako NES, ale neoficiální kopie existovaly — v Asii kolovaly nejrůznější napodobeniny i pirátské multicart moduly se stovkami her na jednom čipu. Ve východním bloku a v Číně se objevovaly levné „pocket game\" handheldy, které tvar a ovládání Game Boye napodobovaly, byť uvnitř běžely na úplně jiném (a slabším) hardwaru.\n\nPro českého a slovenského hráče je férové dodat, že legální cesta k Nintendu byla před rokem 1989 prakticky uzavřená — proto se u nás víc než Game Boy rozšířily klony domácích počítačů (Didaktik jako československý příbuzný ZX Spectra) a později famiclony typu Pegasus u osmibitového NES. Game Boy se k nám dostával hlavně dovozem až v 90. letech.\n\n### Dnesni scena\n\nEmulace Game Boye je dnes triviální — rozběhne se prakticky na čemkoli, od mobilu po levné retro handheldy. Mezi špičkové emulátory patří **mGBA** a **SameBoy**, který věrně napodobuje i charakteristické „rozmazání\" pohybu původního LCD.\n\nHomebrew komunita je překvapivě živá. Vznikají technicky vyspělé novinky jako svižné **Tobu Tobu Girl** nebo atmosférický horor **Deadeus**, kvete tvorba chiptune hudby (software **LSDj**) a díky nástroji **GB Studio** dnes může vlastní hru pro Game Boy poskládat i člověk bez programátorských znalostí. Některé z těch novinek se přitom směle měří s dobovými klasikami.",
-      "gameCount": 53,
+      "gameCount": 55,
       "games": [
         {
           "slug": "game-boy__legend-of-zelda-link-s-awakening",
@@ -1713,6 +1713,66 @@
               "src": "/images/games/game-boy/game-boy__nintendo-world-cup.webp",
               "label": "Obal",
               "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy__super-mario-land",
+          "name": "Super Mario Land",
+          "genre": "Platformer",
+          "length": "S",
+          "flags": [],
+          "year": "1989",
+          "studio": "Nintendo",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Úplně první přenosný Mario a jeden ze startovních titulů Game Boye. Cizí království Sarasaland, ponorka i letadlo místo houbové říše. Malý, svižný, historický.",
+          "article": null,
+          "image": "/images/games/game-boy/game-boy__super-mario-land.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy/game-boy__super-mario-land.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy/game-boy__super-mario-land-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy__kirby-s-dream-land",
+          "name": "Kirby's Dream Land",
+          "genre": "Platformer",
+          "length": "S",
+          "flags": [],
+          "year": "1992",
+          "studio": "HAL Laboratory",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Debut růžového Kirbyho — nasáváš nepřátele a vznášíš se vzduchem. Ještě bez kopírování schopností, ale roztomilý a dokonale přístupný start série.",
+          "article": null,
+          "image": "/images/games/game-boy/game-boy__kirby-s-dream-land.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy/game-boy__kirby-s-dream-land.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy/game-boy__kirby-s-dream-land-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
             }
           ],
           "link": null,
@@ -7879,7 +7939,7 @@
       "image": "/images/platforms/nes.png",
       "photoBg": "dark",
       "history": "Když v polovině osmdesátých let ležel severoamerický herní trh v troskách, málokdo by vsadil na to, že právě videohry znovu ovládnou dětské pokoje celého světa. Krach roku 1983, zahlcení obchodů nekvalitními tituly a symbolický pohřeb neprodaných kazet ET v texaské poušti vyslaly jasný signál: zábava na televizní obrazovce je vyřízená móda. A pak přišlo Nintendo. Jeho **Famicom** (Family Computer), který se v Japonsku objevil v roce 1983, a jeho západní redesign **NES** (Nintendo Entertainment System, USA 1985, Evropa 1986/87) celé odvětví doslova vzkřísily.\n\nKlíčem nebyla jen technika, ale především **kontrola kvality**. Nintendo zavedlo přísný licenční systém se slavnou pečetí „Nintendo Seal of Quality\" a omezovalo počet titulů, které směl vydavatel ročně uvést — přímá reakce na to, co trh předtím zabilo. Přibalený **Super Mario Bros.** pak ukázal, jak má vypadat dokonalá plošinovka, a stal se synonymem pro hry vůbec. Konzole se nakonec prodalo přes 60 milionů kusů a vychovala celou generaci hráčů i tvůrců.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nes/2.webp\" alt=\"Japonský Famicom z roku 1983\" loading=\"lazy\"><figcaption>Japonský Famicom z roku 1983</figcaption></figure>\n\n### Technika: grafika a zvuk\n\nSrdcem NES je osmibitový procesor **Ricoh 2A03** (v PAL verzi 2A07), postavený na jádru kompatibilním s MOS 6502, do kterého Nintendo integrovalo i zvukovou jednotku. Běží zhruba na 1,79 MHz (NTSC). O obraz se stará samostatný grafický čip **PPU (Picture Processing Unit)**, který zvládá rozlišení 256×240 bodů. Z celkové palety 54 použitelných barev (často se uvádí 64 hodnot, z nichž část se opakuje) lze na obrazovku dostat až 25 barev najednou, rozdělených do palet po čtyřech.\n\nPPU obstarává hardwarové **sprity** — maximálně 64 spritů celkem a 8 na jeden řádek, což je důvod, proč ve starších hrách sprity při přetížení blikají. Samozřejmostí byl hladký hardwarový **scrolling** pozadí, který Super Mario Bros. proslavilo.\n\nZvukový čip nabízí pět kanálů: dva pulzní (obdélníkové) kanály, jeden trojúhelníkový pro basy, šumový kanál pro perkuse a jednoduchý kanál pro vzorkovaný zvuk (DPCM). Charakteristické „blip\" melodie skladatelů jako Koji Kondo se navždy zaryly do kolektivní paměti. Mnoho kazet navíc obsahovalo přídavné **mappery** — čipy, které rozšiřovaly adresování paměti i možnosti grafiky a zvuku. Proto pozdní hry jako **Kirby's Adventure** nebo **Mega Man 3** vypadají a znějí výrazně lépe než rané tituly.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nes/3.webp\" alt=\"Famicom s přídavným Disk Systemem\" loading=\"lazy\"><figcaption>Famicom s přídavným Disk Systemem</figcaption></figure>\n\n### Propojení a periferie\n\nNES měl bohaté příslušenství. Ke konzoli patřil světelný pistolový ovladač **Zapper** (legendární Duck Hunt) a robot **R.O.B.**, který měl spíše marketingovou roli při uvedení na trh. Pro více hráčů existoval adaptér **NES Four Score** (a v Japonsku zásuvky pro ovladače přímo na Famicomu).\n\nFamicom se od NES lišil i konektory: měl pevně připojené ovladače, z nichž druhý nesl mikrofon, a rozšiřující port pro periferie jako disketovou jednotku **Famicom Disk System**. V Japonsku fungoval i **Famicom Modem** pro online služby. Severoamerický NES posílal obraz přes RF modulátor nebo kompozitní AV výstup; pozdější model AV Famicom přidal kvalitnější kompozitní signál.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nes/4.webp\" alt=\"Model NES-101 s ovladačem „bone“\" loading=\"lazy\"><figcaption>Model NES-101 s ovladačem „bone“</figcaption></figure>\n\n### Modely a revize\n\nPůvodní americký NES (model **NES-001**) měl ikonickou „toaster\" konstrukci s předním zásuvným slotem a přítlačným mechanismem **ZIF**. Právě tento mechanismus byl po letech příčinou nechvalně známého blikání obrazu, protože kontakty oxidovaly.\n\nV roce 1993 vyšel kompaktní redesign **NES-101** (tzv. „top loader\") s horním slotem, který problémy s kontakty odstranil, ovšem postrádal kompozitní výstup. V Japonsku Nintendo roku 1993 vydalo elegantní **AV Famicom (HVC-101)**. Mnohem později se objevila i miniaturní **NES Classic Edition** (2016) s emulovanými hrami.\n\n### Klony a varianty\n\nNES patří k nejvíce klonovaným konzolím vůbec. Po světě, zejména ve východním bloku a Asii, kolovaly nelicencované **famiclony**. Ve střední a východní Evropě byl nejznámější **Pegasus** — famiclon prodávaný od přelomu osmdesátých a devadesátých let, který se i v Československu stal pro mnoho dětí první konzolí vůbec, protože originální Nintendo bylo nedostupné a drahé. Tyto klony využívaly hardware kompatibilní s Famicomem a často přicházely s mnohaherními kazetami.\n\n### Dnešní scéna\n\nEmulace NES je dnes naprosto vyřešená — přesné emulátory jako **Mesen** nebo jádra **Nestopia** a **FCEUX** (často v rámci RetroArch) běží i na nejslabším hardwaru. Zároveň je domácí **homebrew** scéna NES patrně nejživější ze všech retro platforem. Nástroje a komunita dozrály natolik, že vznikají hry jako **Micro Mages** nebo **Lizard**, které vypadají i hrají lépe než většina dobových titulů — a vycházejí dokonce na skutečných kartridžích. Pro spoustu tvůrců zůstává NES vysněnou platformou právě kvůli těm „krásným omezením\", která nutí k chytrému a poctivému designu.",
-      "gameCount": 78,
+      "gameCount": 88,
       "games": [
         {
           "slug": "nes__super-mario-bros-3",
@@ -10157,10 +10217,10 @@
           "length": "S",
           "flags": [],
           "year": "1985",
-          "studio": "Konami",
-          "est": null,
+          "studio": "Irem / Nintendo",
+          "est": "1–3 h",
           "teaser": null,
-          "detail": null,
+          "detail": "Praotec bočních mlátiček — probíjíš se pěti patry chrámu za únoscem tvé dívky. Jednoduché, ale svižné a vlivné.",
           "article": "Dlouho předtím, než Street Fighter II definoval moderní bojovku, existovala hra, která jako jedna z prvních postavila hráče proti řadě rozmanitých soupeřů jeden na jednoho. **Yie Ar Kung-Fu** od Konami je jedním ze zakladatelských kamenů celého žánru a jeho přenos na NES přivedl tuhle revoluci do obýváků.\n\nPrincip je strhujícně jednoduchý a pro svou dobu nebývale vizionářský. Ovládáte mistra bojových umění jménem Oolong, který se musí probít sérií soupeřů, z nichž každý má vlastní styl, zbraň a taktiku. Jeden hází nože, jiný útočí řetězem, další je obří zápasník. Tahle myšlenka jedinečných protivníků s odlišnými schopnostmi se stala základním kamenem, na němž později vyrostly všechny velké bojovky. Sám hráč přitom kombinuje různé kopy a údery, včetně skoků do výšky a útoků z výskoku, což na svou dobu nabízelo neobvykle bohatý pohybový repertoár.\n\nKonami v polovině osmdesátých let patřilo mezi nejvynalézavější studia herního průmyslu a Yie Ar Kung-Fu je toho důkazem. Hra původně vznikla pro sálové automaty a její úspěch ji dovedl na celou řadu domácích platforem včetně osmibitových počítačů a NES. Pro mnoho hráčů to byl vůbec první kontakt s jednoznačně soubojovou hrou, kde nešlo o probíjení davy nepřátel, ale o duely tváří v tvář.\n\nKulturní význam Yie Ar Kung-Fu je proto těžké přecenit. Spadá do éry, kdy filmy o kung-fu a bojových uměních zažívaly celosvětový boom, a hra tuhle vlnu chytře osedlala. Ačkoli ji pozdější tituly technicky dávno překonaly, její DNA žije v každé hře, kde proti sobě stojí dva bojovníci s vlastními pohyby.\n\nDnes Yie Ar Kung-Fu vnímáme především jako historický milník, předchůdce celého žánru, který se na NES dochoval jako svědectví o tom, jak vypadaly úplné počátky soubojových her. Jeho jednoduchost je zároveň jeho silou: pravidla pochopíte za pár vteřin, ale souboje s pestrou galerií protivníků mají dodnes své kouzlo.\n\n**Proč hrát:** Jeden ze zakladatelů žánru bojovek, kde poprvně dostali soupeři vlastní jedinečné styly, je dnes fascinující ohlédnutí za kořeny celé herní kategorie.",
           "image": "/images/games/nes/nes__yie-ar-kung-fu.webp",
           "gallery": [
@@ -10274,6 +10334,306 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "nes__super-mario-bros-2",
+          "name": "Super Mario Bros. 2",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1988",
+          "studio": "Nintendo",
+          "est": "3–5 h",
+          "teaser": null,
+          "detail": "Americká dvojka (přepracovaný Doki Doki Panic): místo skákání na nepřátele trháš zeleninu a házíš ji po nich, a poprvé si vybíráš ze čtyř postav s různými schopnostmi. Nezvyklá, ale kouzelná a dodnes svébytná.",
+          "article": null,
+          "image": "/images/games/nes/nes__super-mario-bros-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__super-mario-bros-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__super-mario-bros-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__teenage-mutant-ninja-turtles-ii-arcade-game",
+          "name": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+          "genre": "Beat 'em up",
+          "length": "M",
+          "flags": [],
+          "year": "1990",
+          "studio": "Konami",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Konami port slavné arkády — čtyři želvy nindžové kosí Foot Clan napříč New Yorkem. Skvělá kooperace, věrné animace ze seriálu, jedna z nejlepších licencovaných her na NES.",
+          "article": null,
+          "image": "/images/games/nes/nes__teenage-mutant-ninja-turtles-ii-arcade-game.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__teenage-mutant-ninja-turtles-ii-arcade-game.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__teenage-mutant-ninja-turtles-ii-arcade-game-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__teenage-mutant-ninja-turtles-iii-manhattan-project",
+          "name": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+          "genre": "Beat 'em up",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Konami",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Vylepšené pokračování arkádové mlátičky přímo pro NES — víc úrovní, víc útoků, pořád špičkový co-op. Technicky vytěžuje konzoli naplno.",
+          "article": null,
+          "image": "/images/games/nes/nes__teenage-mutant-ninja-turtles-iii-manhattan-project.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__teenage-mutant-ninja-turtles-iii-manhattan-project.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__teenage-mutant-ninja-turtles-iii-manhattan-project-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__ice-climber",
+          "name": "Ice Climber",
+          "genre": "Platformer",
+          "length": "S",
+          "flags": [],
+          "year": "1985",
+          "studio": "Nintendo",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Popolo a Nana šplhají ledovými horami, rozbíjejí kladivem stropy a uhýbají ledním medvědům. Základní Nintendo klasika, dnes známá hlavně díky Smash Bros.",
+          "article": null,
+          "image": "/images/games/nes/nes__ice-climber.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__ice-climber.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__ice-climber-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__balloon-fight",
+          "name": "Balloon Fight",
+          "genre": "Action",
+          "length": "S",
+          "flags": [],
+          "year": "1984",
+          "studio": "Nintendo",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Létáš na balóncích a snažíš se propíchnout soupeře nad sebou. Fyzika setrvačnosti a skvělý dvouhráčový režim z něj dělají malý nadčasový klenot (autor: Iwata).",
+          "article": null,
+          "image": "/images/games/nes/nes__balloon-fight.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__balloon-fight.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__balloon-fight-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__duck-hunt",
+          "name": "Duck Hunt",
+          "genre": "Shooter (light gun)",
+          "length": "S",
+          "flags": [],
+          "year": "1984",
+          "studio": "Nintendo",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Ikonická střílečka se světelnou pistolí Zapper — sestřeluješ kachny a smějící se pes tě uráží, když mineš. Symbol éry NES.",
+          "article": null,
+          "image": "/images/games/nes/nes__duck-hunt.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__duck-hunt.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__duck-hunt-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__metal-gear",
+          "name": "Metal Gear",
+          "genre": "Action / Stealth",
+          "length": "M",
+          "flags": [],
+          "year": "1987",
+          "studio": "Konami",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Kojimův originál založil stealth žánr: místo střílení se plížíš, vyhýbáš se strážím a řešíš, jak projít nepozorovaně. NES verze má své mouchy, ale historicky zásadní.",
+          "article": null,
+          "image": "/images/games/nes/nes__metal-gear.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__metal-gear.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__metal-gear-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__gradius",
+          "name": "Gradius",
+          "genre": "Shmup",
+          "length": "M",
+          "flags": [],
+          "year": "1986",
+          "studio": "Konami",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Horizontální střílečka, která definovala systém vylepšení zbraní (sbíráš kapsle a volíš upgrady na liště). Legendární obtížnost a slavný Konami kód.",
+          "article": null,
+          "image": "/images/games/nes/nes__gradius.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__gradius.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__gradius-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__ghosts-n-goblins",
+          "name": "Ghosts 'n Goblins",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1986",
+          "studio": "Capcom",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Rytíř Arthur v trenkách proti hordám nemrtvých — nechvalně proslulá obtížnost a nutnost projít hru dvakrát. Frustrující i návyková zároveň.",
+          "article": null,
+          "image": "/images/games/nes/nes__ghosts-n-goblins.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__ghosts-n-goblins.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__ghosts-n-goblins-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__kung-fu",
+          "name": "Kung Fu",
+          "genre": "Beat 'em up",
+          "length": "S",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": null,
+          "image": "/images/games/nes/nes__kung-fu.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__kung-fu.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nes/nes__kung-fu-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -10289,7 +10649,7 @@
       "image": "/images/platforms/snes.png",
       "photoBg": "dark",
       "history": "Když Nintendo v roce 1990 představilo v Japonsku Super Famicom (na Západě od roku 1991 jako Super Nintendo Entertainment System), nešlo o závod, kdo bude první. Sega už rok prodávala šestnáctibitový Mega Drive a slovem „Nintendon't\" rýpala do konkurence. Nintendo přesto nespěchalo a vsadilo na něco jiného než na rychlost: na barevnost, na zvuk a na grafické triky, které z obrazovky udělaly malé divadlo. Výsledek dnes mnozí považují za **vrchol 2D herního designu** vůbec a za jeden z nejmilovanějších strojů v historii.\n\nSouboj „console wars\" mezi Segou a Nintendem byl první velkou marketingovou válkou herního průmyslu a definoval celá devadesátá léta. Sega prodávala rychlost a vyzrálejší image kolem Sonica, Nintendo hloubku a kvalitu knihovny. Právě ta knihovna dělá ze SNES legendu: nejlepší plošinovky své doby (Super Mario World, Donkey Kong Country, Yoshi's Island), žánrotvorná JRPG (Chrono Trigger, Final Fantasy VI, Secret of Mana) i metroidvania bible Super Metroid. Tituly, které se dodnes objevují v žebříčcích nejlepších her všech dob.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je šestnáctibitový procesor Ricoh 5A22 postavený na jádru kompatibilním s 65C816, taktovaný proměnlivě zhruba do 3,58 MHz. Grafiku obstarává dvojice čipů PPU, které zvládnou paletu **32 768 barev** a na obrazovku jich vyčarují stovky najednou. Konzole nabízela více grafických režimů s různým počtem vrstev pozadí a barevných hloubek, hardwarové prokládané scrollování i správu spritů.\n\nNejslavnější trumf je **Mode 7** — režim, který umí jedinou vrstvu pozadí v reálném čase otáčet, zvětšovat a zmenšovat. Odtud pochází pseudo-3D zatáčející trať v Super Mario Kart a F-Zero nebo rozevírající se mapa v závěru Final Fantasy VI. K tomu SNES uměl efekty jako poloprůhlednost a barevné mixování, díky nimž působil obraz měkčeji a bohatěji než u konkurence.\n\nZvuk je samostatná kapitola. O něj se stará **zvukový subsystém navržený Sony** (Ken Kutaragi, pozdější otec PlayStationu) — řídicí čip SPC700 spolu s DSP zvládá **osm kanálů** přehrávajících vzorkovaný zvuk se zpracováním ADPCM a hardwarovým echem či dozvukem. Soundtracky her jako Chrono Trigger nebo Donkey Kong Country proto zní dodnes mimořádně plně a melodicky.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/snes/2.webp\" alt=\"Konzole SNES se standardním ovladačem\" loading=\"lazy\"><figcaption>Konzole SNES se standardním ovladačem</figcaption></figure>\n### Propojeni a periferie\n\nStandardní gamepad SNES přidal k osvědčenému křížovému ovladači čtveřici akčních tlačítek, dvě ramenní tlačítka L a R a samozřejmě Start a Select — schéma, které ovlivnilo všechny pozdější ovladače. Konzole měla dva porty, pro více hráčů sloužil rozbočovač **Multitap** (například NHL či Bomberman).\n\nZ periferií stojí za zmínku světelná pistole **Super Scope**, bezdrátový bazukovitý kolos napájený bateriemi, a od Nintenda netypicky i myš **SNES Mouse**, dodávaná s kreslicím programem Mario Paint. Slavnou kapitolou je nikdy nevydaný CD přídavek vyvíjený se Sony; po roztržce z něj nakonec vzešel samostatný PlayStation. Obrazově konzole vystupovala přes vícežilový konektor s podporou kompozitního i lepšího S-Video a RGB signálu.\n\nSpecialitou platformy jsou **přídavné čipy přímo v kartridžích**, které stroj povyšovaly. Nejslavnější je **Super FX** (3D polygony ve Star Fox a Stunt Race FX), dále třeba SA-1, DSP-1 (Pilotwings, Super Mario Kart) nebo SuperFX2 v Yoshi's Island. Některé hry na konci životnosti vypadaly, jako by patřily na úplně jinou platformu.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/snes/3.webp\" alt=\"Zmenšený Super Famicom Jr. s ovladačem\" loading=\"lazy\"><figcaption>Zmenšený Super Famicom Jr. s ovladačem</figcaption></figure>\n### Modely a revize\n\nDesign konzole se lišil podle regionu: japonský Super Famicom a evropský/australský SNES měly oblé tvary a barevná tlačítka, zatímco severoamerická verze dostala hranatější šedý kabát s fialovými tlačítky. Později vyšel zmenšený a zlevněný redesign — v USA jako **SNES (model SNS-101, „Jr.\")**, v Japonsku jako Super Famicom Jr. Tyto pozdější verze ovšem už neměly RGB výstup ani závitové otvory pro nožičky.\n\nHardware existoval i v polooficiálních verzích pro vývojáře a herny (systém Super System pro arkády). Pro sběratele je dobré vědět, že kvůli ochraně proti kopírování se lišily i tvary kazetových slotů mezi regiony.\n\n### Klony a varianty\n\nSNES nezažil tak rozbujelou klonovou scénu jako NES s jeho famiclony, přesto se objevovaly neoficiální kompatibilní stroje, zejména v Asii a později i levné „retro\" konzole. V českém a československém prostředí byl SNES oproti osmibitovým počítačům spíše vzácnou dovozovou raritou — zatímco ZX Spectrum mělo domácí klon Didaktik a NES kolovalo jako Pegasus, šestnáctibitové Nintendo se sem dostávalo hlavně přes neoficiální dovoz a bylo drahé. Až s pozdějšími lety se stalo dostupnějším a dnes je u tuzemských sběratelů ceněným kouskem.\n\n### Dnesni scena\n\nEmulace SNES je dnes velmi dobře zvládnutá — referencí je přesný **bsnes/higan**, pro běžné hraní bohatě stačí **Snes9x**, oba dostupné i jako jádra do RetroArch. Na výkonnějších přenosných zařízeních (například s čipem H700) běží spolehlivě, jen nejnáročnější tituly s přídavnými čipy mohou občas dělat potíže. Nintendo samo nabízí výběr her v rámci Switch Online a dříve přes mininkonzoli Super NES Classic Edition.\n\nŽivá je i **homebrew a fanouškovská scéna**: vznikají moderní tituly jako **The Curse of Issyos**, fanoušci ladí překlady japonských exkluzivit a romhacky přidávají do klasik nový obsah. Díky tomu zůstává Super Nintendo i po více než třiceti letech naprosto živou platformou.",
-      "gameCount": 93,
+      "gameCount": 100,
       "games": [
         {
           "slug": "snes__super-mario-world",
@@ -11592,11 +11952,11 @@
           "genre": "Action / Party",
           "length": "S",
           "flags": [],
-          "year": null,
-          "studio": null,
-          "est": null,
+          "year": "1994",
+          "studio": "Hudson Soft",
+          "est": "1–3 h",
           "teaser": null,
-          "detail": null,
+          "detail": "Vrchol Bombermana na SNES — pokládáš bomby, ničíš bludiště i soupeře. Multiplayer pro čtyři je nesmrtelná párty zábava.",
           "article": "Málokterá značka dokáže rozhádat partu přátel rychleji a spolehlivěji než **Super Bomberman**. Pozdější díly série na SNES, od trojky po pětku, dovedly tenhle prostý, ale geniální koncept k dokonalosti — a pořád platí, že stačí jeden gauč, pár ovladačů a večer je zachráněn.\n\nZáklad zůstává nedotčeně chytlavý: pohybujete se po mřížkovité aréně, pokládáte bomby, ničíte cihlové bloky a hlavně se snažíte vyhodit do povětří soupeře dřív, než oni vás. Sbíráte vylepšení, která zvětšují dosah výbuchu, přidávají bomby nebo zrychlují pohyb, a každá partie se mění v napínavou hru na kočku a myš v sevřeném prostoru, kde jeden chybný krok znamená konec.\n\nPřestože hry nabízejí i sólová tažení, jejich srdce vždy bilo pro **multiplayer**. Právě v něm se z přátelské zábavy stávají legendární momenty zrady, smůly a vítězoslavného jásotu. Možnost hrát ve více lidech najednou, často proti sobě, dělá z těchto dílů jeden z absolutních vrcholů party hraní na šestnáctibitové konzoli.\n\nPozdější díly přidávaly nové režimy, prostředí, postavy a drobné mechaniky, ale s respektem k tomu, co fungovalo od začátku. Série tak zůstala věrná své identitě: snadno pochopitelná pro úplného nováčka, ale s dostatkem taktické hloubky, aby zkušení hráči pořád hledali ten nejlepší tah. To je vzácná rovnováha, kterou se daří udržet jen těm nejlepším návykovým hrám.\n\nDíly tři až pět jsou tak ideální vstupenkou do světa, kde se kamarádství dává všanc kvůli pixelové explozi. Jsou důkazem, že nejlepší zábava často nepotřebuje složitý příběh ani fotorealistickou grafiku — stačí dobře vyladěné pravidlo, výbušná aréna a několik soupeřů na dosah ruky.\n\n**Proč hrát:** Vrchol party hraní na SNES — jednoduchý, okamžitě chytlavý a ve více lidech naprosto nezničitelný generátor smíchu i zrady.",
           "image": "/images/games/snes/snes__super-bomberman-3-5.webp",
           "gallery": [
@@ -12682,11 +13042,11 @@
           "genre": "Action-platformer",
           "length": "M",
           "flags": [],
-          "year": null,
-          "studio": null,
-          "est": null,
+          "year": "1995",
+          "studio": "Capcom",
+          "est": "3–5 h",
           "teaser": null,
-          "detail": null,
+          "detail": "Klasická (ne-X) řada v 16bitovém kabátě: velcí barevní roboti, výběr pořadí bossů a přesné skákání a střílení. Přehlížený, ale skvělý díl.",
           "article": "Robotický hrdina X je zpět a tentokrát musí čelit zbytkům armády Sigmy i tajemné skupině X-Hunters. Mega Man X2 z roku 1994 navazuje na revoluční první díl, který sérii Mega Man dospěleji přepracoval, a posouvá ji nejen příběhově, ale i technicky.\n\nJádro hratelnosti zůstává věrné osvědčenému vzorci. Probíjíte se akčními plošinovkovými úrovněmi, na konci každé čeká bossovský Maverick a po jeho poražení získáte novou zbraň, kterou lze využít proti dalšímu nepříteli. X umí dashovat, šplhat po stěnách, nabíjet výstřely a sbírat vylepšení brnění, která rozšiřují jeho schopnosti. Novinkou je hon na X-Huntery, kteří se objevují v úrovních a nesou rozebrané díly vašeho přítele Zera, takže pečliví hráči mohou odemknout zvláštní obsah.\n\nTechnickou zajímavostí je čip Cx4 přímo v kartridži, který umožňoval zobrazovat jednoduché vektorové a otáčející se efekty nad rámec běžných možností Super Nintenda. Capcom tím hru ozvláštnil o efektní souboje a animace, které na 16bitové konzoli nebyly samozřejmostí.\n\nMega Man X2 vyšel v době, kdy Capcom udržoval značku Mega Man na vrcholu produktivity a paralelně rozvíjel klasickou i modernější větev série. Řada X přinesla rychlejší tempo, propracovanější pohyb a vyzrálejší tón a druhý díl tuto identitu dále upevnil. Capcom v té době dokázal vydávat hry s touto značkou téměř v ročním rytmu, aniž by přitom výrazně klesala jejich kvalita.\n\nVolba pořadí, v jakém se pouštíte do jednotlivých bossů, navíc dává hře strategický rozměr. Každá poražená příšera vám dá zbraň, na kterou je jiný nepřítel obzvlášť citlivý, takže přemýšlivý hráč si může postup výrazně usnadnit. K tomu sbírání vylepšení brnění, srdcí zvyšujících výdrž a skrytých schopností postavu citelně proměňuje a odměňuje hráče, kteří úrovně procházejí pozorně a vracejí se s novými zbraněmi do dříve nedostupných míst. Tahle smyčka neustálého posilování je srdcem celé série a v X2 funguje stejně dobře jako v jejích nejlepších dílech.\n\nKulturně patří podsérie Mega Man X k oblíbeným pilířům akčních plošinovek 16bitové éry a X2 je solidním pokračováním, které drží vysoký standard. Pro fanoušky precizního, rychlého a náročného hraní je to vítaná dávka osvědčené zábavy s technickým nádechem navíc.\n\n**Proč hrát:** Rychlá a precizní akční plošinovka s vylepšováním zbraní a brnění, navíc se speciálním grafickým čipem, který posunul možnosti Super Nintenda.",
           "image": "/images/games/snes/snes__mega-man-x2.webp",
           "gallery": [
@@ -13202,6 +13562,216 @@
           "playUrl": null,
           "players": "1–2 · split-screen",
           "rating": null
+        },
+        {
+          "slug": "snes__teenage-mutant-ninja-turtles-iv-turtles-in-time",
+          "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+          "genre": "Beat 'em up",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Konami",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Jedna z nejlepších arkádových mlátiček vůbec, na SNES ve vylepšené podobě: házení nepřátel „do obrazovky\", cesty časem a parádní co-op. Absolutní klasika.",
+          "article": null,
+          "image": "/images/games/snes/snes__teenage-mutant-ninja-turtles-iv-turtles-in-time.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__teenage-mutant-ninja-turtles-iv-turtles-in-time.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__teenage-mutant-ninja-turtles-iv-turtles-in-time-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "snes__mega-man-7",
+          "name": "Mega Man 7",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": null,
+          "image": "/images/games/snes/snes__mega-man-7.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__mega-man-7.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__mega-man-7-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "snes__final-fight",
+          "name": "Final Fight",
+          "genre": "Beat 'em up",
+          "length": "M",
+          "flags": [],
+          "year": "1991",
+          "studio": "Capcom",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Konzolová verze legendární arkády — Haggar, Cody a Guy čistí Metro City od gangu Mad Gear. Klíčový titul žánru (odtud pochází i Guy do Street Fighteru).",
+          "article": null,
+          "image": "/images/games/snes/snes__final-fight.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__final-fight.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__final-fight-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "snes__super-mario-all-stars",
+          "name": "Super Mario All-Stars",
+          "genre": "Platformer",
+          "length": "L",
+          "flags": [],
+          "year": "1993",
+          "studio": "Nintendo",
+          "est": "12–25 h",
+          "teaser": null,
+          "detail": "Kolekce remasterů SMB 1–3 a Lost Levels v 16bitové grafice a se save systémem. Nejlepší způsob, jak si zahrát celou zlatou éru Maria pohromadě.",
+          "article": null,
+          "image": "/images/games/snes/snes__super-mario-all-stars.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__super-mario-all-stars.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__super-mario-all-stars-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "snes__super-bomberman-2",
+          "name": "Super Bomberman 2",
+          "genre": "Action / Party",
+          "length": "M",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": null,
+          "image": "/images/games/snes/snes__super-bomberman-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__super-bomberman-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__super-bomberman-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "snes__r-type-iii-third-lightning",
+          "name": "R-Type III: The Third Lightning",
+          "genre": "Shmup",
+          "length": "M",
+          "flags": [],
+          "year": "1993",
+          "studio": "Irem",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Nádherná 16bitová horizontálka s ikonickým modulem „Force\" a třemi typy zbraní. Tuhá, ale vizuálně i herně špičková.",
+          "article": null,
+          "image": "/images/games/snes/snes__r-type-iii-third-lightning.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__r-type-iii-third-lightning.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__r-type-iii-third-lightning-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "snes__final-fantasy-mystic-quest",
+          "name": "Final Fantasy: Mystic Quest",
+          "genre": "RPG",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Squaresoft",
+          "est": "12–25 h",
+          "teaser": null,
+          "detail": "Zjednodušené JRPG mířené na začátečníky — přímočařejší souboje a mapa. Fanoušci série se přou, ale jako vstupní branka do žánru funguje výborně.",
+          "article": null,
+          "image": "/images/games/snes/snes__final-fantasy-mystic-quest.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__final-fantasy-mystic-quest.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/snes/snes__final-fantasy-mystic-quest-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -13217,7 +13787,7 @@
       "image": "/images/platforms/mega-drive.png",
       "photoBg": "dark",
       "history": "Na konci osmdesátých let Nintendo ovládalo herní svět tak suverénně, že se zdálo nepřemožitelné. Pak ale přišla Sega s konzolí, která měla úplně jiný temperament. **Mega Drive** (v Severní Americe prodávaný jako **Genesis**) dorazil v Japonsku roku 1988, do Ameriky o rok později a do Evropy v roce 1990. Sega vsadila na rychlost, drzost a image „cool\" alternativy pro starší publikum — a chvíli měla 16bitový trh prakticky sama pro sebe, protože Super Nintendo dorazilo až později.\n\nSymbolem téhle filozofie se stal **Sonic the Hedgehog**. Tam, kde byl Mario rozvážný a dobrosrdečný, byl Sonic o rychlosti, postoji a sebevědomí. Slavný americký slogan „Genesis does what Nintendon't\" shrnoval celou strategii: být rychlejší, dospělejší a ochotnější jít na hranu. Symbolická byla kauza kolem hry **Mortal Kombat** — zatímco verze pro SNES krev cenzurovala, na Genesis šla po zadání kódu odemknout, což Sege u teenagerů vyneslo nemalé body.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je procesor **Motorola 68000** taktovaný na zhruba 7,6 MHz — tedy stejná rodina CPU, jaká pohání Amigu i rané Macintoshe. O zvuk a kompatibilitu se staral ještě pomocný osmibitový **Zilog Z80**, který dokázal řídit zvukový subsystém (a v režimu kompatibility i odbavit hry pro starší Master System).\n\nGrafika běží v rozlišení kolem **320×224** bodů. Z palety **512 barev** lze najednou zobrazit 61 barev (čtyři palety po šestnácti, s nulou jako průhlednou) — to byla oproti pozdějšímu SNES citelná nevýhoda a důvod, proč mívají hry na Mega Drive odvážnější, kontrastnější paletu. Naopak v pohybu konzole excelovala: hardware zvládal dvě scrollovací vrstvy plus vrstvu spritů a dovolil **až 80 spritů** na obrazovce, díky čemuž si svižné hry jako Sonic, Streets of Rage nebo Gunstar Heroes udrží tempo i v největším chaosu.\n\nZvuk obstarává FM čip **Yamaha YM2612** se šesti FM kanály, doplněný o čip **SN76489** se třemi tóny a šumem. Výsledkem je charakteristický „drsnější\", syntetický zvuk, který dal vzniknout legendárním soundtrackům — třeba hudbě Yuza Koshira ke **Streets of Rage 2**.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/2.webp\" alt=\"Sega Genesis Model 2 se šestitlačítkovým ovladačem\" loading=\"lazy\"><figcaption>Sega Genesis Model 2 se šestitlačítkovým ovladačem</figcaption></figure>\n\n### Propojeni a periferie\n\nMega Drive vychází vstříc multiplayeru — má **dva porty pro ovladače** a původní gamepad měl tři tlačítka, později přibyl populární **šestitlačítkový** model kvůli bojovkám typu Street Fighter II. Pro fanoušky závodů a sportu existoval rozbočovač **Team Player** (resp. 4-Player Adaptor) umožňující hru až čtyř hráčů.\n\nZ příslušenství stojí za zmínku světelná pistole **Menacer**, periferie **SEGA Activator** snímající pohyb a u japonské verze i modem pro službu Sega Meganet. Konzole se k televizi připojovala přes RF nebo kompozitní/RGB výstup; u prvních modelů byl k dispozici i sluchátkový výstup s regulací hlasitosti na předním panelu.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/3.webp\" alt=\"Japonský Sega Mega Drive, první model\" loading=\"lazy\"><figcaption>Japonský Sega Mega Drive, první model</figcaption></figure>\n\n### Modely a revize\n\nSega vydala několik hardwarových verzí. Původní **Model 1** (1988) měl onen sluchátkový jack a u nejstarších kusů nápis „High Definition Graphics\". Štíhlejší a levnější **Model 2** (1993) sluchátkový výstup vypustil a zjednodušil zvukové obvody (proslul mírně odlišným, „suššším\" zvukem). Existoval i kompaktní **Model 3** od Majesca a později licencované redesigny.\n\nK systému patřily i nástavby: **Sega CD** (v Japonsku Mega-CD) přidalo mechaniku na CD a hry s plnohodnotným zvukem a videosekvencemi, zatímco **32X** byl 32bitový výkonový nástavec nasazovaný na slot kartridže. Oba doplňky komerčně spíš pohořely a dnes jsou připomínkou toho, jak Sega svou náskokovou pozici postupně ztrácela.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/1.webp\" alt=\"Sega CDX – kombinace Genesis a Sega CD\" loading=\"lazy\"><figcaption>Sega CDX – kombinace Genesis a Sega CD</figcaption></figure>\n\n### Klony a varianty\n\nMega Drive je jednou z mála starších konzolí, jejíž klony se vyrábějí dodnes. Po vypršení patentů zaplavily trh levné varianty — nejznámější jsou modely **AtGames** (řada Sega Genesis/Mega Drive Classic s předinstalovanými hrami), čínské handheldy a all-in-one konzole. V Brazílii drží licenci firma **Tectoy**, která Mega Drive nepřetržitě prodává po desetiletí, vydávala i lokální exkluzivity a dotáhla to k vlastním novým revizím — Brazílie je tak největší žijící baštou této konzole.\n\nV Československu a širším východním bloku nebyl Mega Drive díky ceně a dovozním bariérám tak rozšířený jako osmibitové počítače; do popředí se dostal spíš až v devadesátých letech přes šedý dovoz a později právě přes levné klony.\n\n### Dnesni scena\n\nEmulace Mega Drive je dnes naprosto vyzrálá — jádra jako **Genesis Plus GX** běží spolehlivě i na slabém hardwaru a na moderních retro handheldech jdou hry plynule. Pozoruhodná je ovšem hlavně **homebrew scéna**, která patří k nejimpozantnějším vůbec. Vycházejí technicky vyspělé novinky jako **Demons of Asteborg**, **Xeno Crisis** nebo atmosférický **Tanglewood**, leckdy i na skutečných kartridžích. Protože Sega komunitu spíše toleruje, scéna kvete a Mega Drive tak třicet pět let po startu pořád žije.",
-      "gameCount": 98,
+      "gameCount": 103,
       "games": [
         {
           "slug": "mega-drive__sonic-hedgehog-1-3",
@@ -13460,11 +14030,11 @@
           "genre": "JRPG",
           "length": "L",
           "flags": [],
-          "year": "1993 (JP) / 1995",
+          "year": "1989",
           "studio": "Sega",
           "est": "30+ h",
           "teaser": "Vyvrcholení klasické JRPG ságy; nádherné panely à la komiks.",
-          "detail": "Vyvrcholení klasické sci-fi JRPG ságy, proslulé komiksovými panely vyprávějícími příběh (na svou dobu unikátní prezentace). Vyladěný tahový souboj s kombo útoky (Combination Techniques) a uspokojivé zakončení celého příběhového oblouku. Jedno z nejlepších JRPG mimo Square.",
+          "detail": "Sci-fi JRPG, které v roce 1989 ohromilo rozsahem i příběhem (odvážný zvrat v ději). Dungeony jsou tuhé, ale historicky jde o milník žánru na konzolích.",
           "article": "Existují konce ság, které se vám zaryjí pod kůži natolik, že je vzpomínáte ještě po desetiletích — a Phantasy Star IV je přesně takový případ. Vyvrcholení Segou pěstované sci-fi JRPG linie přišlo na sklonku éry Mega Drive a působilo jako labutí píseň celé generace: zralé, sebevědomé a překvapivě emocionální.\n\nNejnápadnějším poznávacím znakem hry jsou **komiksové panely**, kterými se příběh vypráví. Místo statických textových oken se klíčové momenty rozkládají do ručně kreslených rámečků jako stránka mangy — řešení, které na 16bitové konzoli působilo nezvykle filmově a dodávalo vyprávění spád i atmosféru. Putování planetárním systémem Algol, jeho prokletá minulost a postupné odhalování skutečného nepřítele drží napětí od první do poslední hodiny.\n\nSouboj je klasicky tahový, ale vybroušený do lesku. Hvězdou systému jsou **Combination Techniques** — když ve správném pořadí použijete určité dovednosti jednotlivých postav, spojí se do efektní společné techniky s mnohem větším účinkem. Tahle vrstva odměňuje experimentování a dává jinak konvenčním bitvám taktickou hloubku, kterou si budete chtít osahávat dál a dál.\n\nParta hrdinů je nezapomenutelná — od lovce Chaze přes záhadné společníky až po postavy, jejichž osudy vás dokážou zasáhnout. Hra navíc elegantně uzavírá motivy, které se táhly předchozími díly, takže pro fanoušky série jde o splacení dlouho slibovaného dluhu.\n\nV době, kdy žánru JRPG vévédlo Square se svými Final Fantasy, dokázala Sega něčím svým: Phantasy Star IV je dodnes označován za jedno z nejlepších japonských RPG mimo dílnu Squaresoftu a patří k nejvíce ceněným titulům celé knihovny Mega Drive.\n\n**Proč hrát:** Vyzrálé sci-fi JRPG s nápaditým komiksovým vyprávěním a chytrým soubojem, které se nebojí postavit po bok největším legendám žánru.",
           "image": "/images/games/mega-drive/mega-drive__phantasy-star-iv.webp",
           "gallery": [
@@ -16185,6 +16755,156 @@
               "src": "/images/games/mega-drive/mega-drive__road-rash-3.webp",
               "label": "Obal",
               "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__splatterhouse-2",
+          "name": "Splatterhouse 2",
+          "genre": "Beat 'em up / Horror",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Namco",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Krvavý hororový beat 'em up: v masce Terror Mask se probíjíš stěnami masa a monster za záchranou přítelkyně. Na Mega Drive nezvykle brutální atmosféra.",
+          "article": null,
+          "image": "/images/games/mega-drive/mega-drive__splatterhouse-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__splatterhouse-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/mega-drive/mega-drive__splatterhouse-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__splatterhouse-3",
+          "name": "Splatterhouse 3",
+          "genre": "Beat 'em up / Horror",
+          "length": "M",
+          "flags": [],
+          "year": "1993",
+          "studio": "Namco",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Trojka přidává větvení podle času a otevřenější úrovně bráníš vlastní dům před hordou. Vrchol hororové série na konzoli.",
+          "article": null,
+          "image": "/images/games/mega-drive/mega-drive__splatterhouse-3.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__splatterhouse-3.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/mega-drive/mega-drive__splatterhouse-3-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__phantasy-star-ii",
+          "name": "Phantasy Star II",
+          "genre": "RPG",
+          "length": "XL",
+          "flags": [],
+          "year": null,
+          "studio": null,
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": null,
+          "image": "/images/games/mega-drive/mega-drive__phantasy-star-ii.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__phantasy-star-ii.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/mega-drive/mega-drive__phantasy-star-ii-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__sonic-spinball",
+          "name": "Sonic Spinball",
+          "genre": "Pinball / Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1993",
+          "studio": "Sega",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Sonic jako pinballová koule ve víceúrovňových stolech plných nepřátel. Netradiční odbočka série — chaotická, ale zábavná.",
+          "article": null,
+          "image": "/images/games/mega-drive/mega-drive__sonic-spinball.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__sonic-spinball.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/mega-drive/mega-drive__sonic-spinball-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__zero-wing",
+          "name": "Zero Wing",
+          "genre": "Shmup",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Toaplan / Taito",
+          "est": "1–3 h",
+          "teaser": null,
+          "detail": "Slušná horizontální střílečka Toaplanu, nesmrtelná hlavně díky komicky přeloženému intru „All your base are belong to us\" — jednomu z prvních internetových memů.",
+          "article": null,
+          "image": "/images/games/mega-drive/mega-drive__zero-wing.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__zero-wing.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/mega-drive/mega-drive__zero-wing-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
             }
           ],
           "link": null,
@@ -20800,7 +21520,7 @@
       "image": "/images/platforms/playstation.png",
       "photoBg": "dark",
       "history": "Když Sony v prosinci 1994 vypustila v Japonsku svůj první herní stroj, jen málokdo tušil, že právě začíná konec éry, v níž herní trh dělily mezi sebe Nintendo a Sega. **PlayStation** vznikl paradoxně z trosek nepovedeného partnerství — Sony původně připravovala CD doplněk pro Super Nintendo, ale Nintendo spolupráci na poslední chvíli zrušilo a uzavřelo dohodu s Philipsem. Pokořená, ale odhodlaná Sony svůj projekt přetavila v samostatnou konzoli a s ní porazila oba dosavadní krále.\n\nKlíčem k úspěchu byla sázka na **CD-ROM** místo drahých kartridží. To znamenalo levnější výrobu, mnohonásobně větší kapacitu (filmové scény, dabing, kvalitní hudba) a nižší bariéru pro studia. Sony se navíc k vývojářům chovala vstřícně a budovala „dospělejší\" image hraní mířenou na teenagery a mladé dospělé. Výsledek? Přes 100 milionů prodaných kusů a generace, která definovala moderní hraní. **Final Fantasy VII** zpopularizoval JRPG na Západě, **Resident Evil** a **Silent Hill** vytvořily žánr survival hororu, **Metal Gear Solid** a **Tomb Raider** ukázaly sílu 3D vyprávění a **Gran Turismo** povýšil závodní simulace.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je 32bitový procesor **MIPS R3000A** taktovaný na zhruba 33,8 MHz, doplněný o specializovaný geometrický koprocesor **GTE** pro výpočty 3D transformací. Grafické jádro zvládalo vykreslit řádově statisíce texturovaných polygonů za sekundu a pracovalo v rozlišeních zhruba od 256×224 až po 640×480 bodů s paletou až 16,7 milionu barev.\n\nPlayStation má ovšem nezaměnitelný vizuální „rukopis\", který dnes zažívá nostalgickou renesanci. Konzole totiž neuměla **perspektivně korigovat textury** ani počítat hloubku přesně s plovoucí desetinnou čárkou — souřadnice zaokrouhlovala na celá čísla. Výsledkem je charakteristické „plavání\" a roztřesení textur i polygonů při pohybu kamery. Hardware navíc postrádal pořádný z-buffer, takže se hojně využívala mlha a tma ke skrytí kreslicí vzdálenosti. Právě tuhle estetiku dnes indie tvůrci záměrně napodobují pod hlavičkou „PS1 style\".\n\nZvuk obstarával vyhrazený čip **SPU** s **24 hardwarovými kanály**, podporou ADPCM vzorků a hardwarovým reverbem. Díky tomu hry zněly bohatě a kromě syntetizované hudby mohly přehrávat i plnohodnotné **CD Audio** stopy přímo z disku.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/playstation/2.webp\" alt=\"Oficiální multitap pro až čtyři hráče\" loading=\"lazy\"><figcaption>Oficiální multitap pro až čtyři hráče</figcaption></figure>\n### Propojeni a periferie\n\nStandardem byla **paměťová karta** s kapacitou 128 kB (15 bloků), do níž se ukládaly pozice — naprostá nutnost u rozsáhlých RPG. Konzole měla dva porty na ovladače a dva na karty.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/playstation/4.webp\" alt=\"Vzácný analogový joystick PlayStation (SCPH-1110)\" loading=\"lazy\"><figcaption>Vzácný analogový joystick PlayStation (SCPH-1110)</figcaption></figure>\nPůvodní ovladač byl bez páček; zlomem se stal **DualShock** (1997/1998) se dvěma analogovými páčkami a vibracemi, jenž předznamenal dnešní standard. Mezi periferie patřil **multitap** pro připojení až čtyř (resp. osmi) hráčů, světelná pistole **GunCon** od Namca, volant, taneční podložky a v Japonsku i modem a myš. Pro propojení dvou konzolí existoval **Link Cable** (např. pro split do dvou obrazovek v závodních hrách). Výstup šel přes proprietární **multi-out** konektor, který nabízel kompozit, S-Video i RGB SCART — RGB dávalo nejostřejší obraz.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/playstation/6.webp\" alt=\"Zmenšený PS one s ovladačem a paměťovou kartou\" loading=\"lazy\"><figcaption>Zmenšený PS one s ovladačem a paměťovou kartou</figcaption></figure>\n### Modely a revize\n\nOriginální model nesl označení **SCPH-1000** a další číselné řady. Postupné revize zlevňovaly výrobu a řešily problémy — proslulé byly potíže s opotřebenou optikou a přeskakováním u starších kusů, které se daly zmírnit obrácením konzole. Pozdější verze také odebraly oddělený **paralelní (parallel I/O)** port využívaný cheatovacími zařízeními a sériový port.\n\nVelkým redesignem byl v roce 2000 **PS one** — výrazně menší, zaoblená konzole určená pro novou generaci kupujících, k níž šel dokoupit i malý LCD displej pro hraní mimo televizi. Konzole zůstala plně kompatibilní s původní knihovnou. Nástupce **PlayStation 2** navíc uměl díky příbuznému hardwaru přehrávat drtivou většinu her z PS1, čímž životnost titulů ještě prodloužil.\n\n### Klony a varianty\n\nSony si značku přísně chránila, takže legálních „klonů\" v duchu famiclonů prakticky neexistovalo. V postsovětském a východoevropském prostoru — Česko nevyjímaje — se ovšem fenoménem stalo **pirátství**: díky modchipům (malé čipy obcházející regionální a ochrannou kontrolu) a vypalovaným CD se PlayStation v 90. letech a kolem přelomu tisíciletí šířil i u nás, kde originální tituly byly pro mnohé finančně nedostupné. Tržnice a bazary s vypálenými disky byly tehdy běžnou realitou. Šlo o šedou až černou scénu, nikoli o oficiální klony hardwaru.\n\n### Dnesni scena\n\nEmulace PS1 patří k nejvyzrálejším vůbec. Na PC i přenosných systémech exceluje **DuckStation**, na slabších zařízeních a v rámci RetroArch dobře poslouží jádro **PCSX-ReARMed**. Emulátory navíc nabízejí vylepšení, o nichž se v 90. letech nikomu nesnilo — vyšší interní rozlišení, perspektivní korekci textur (konec „plavání\"), filtrování a širokoúhlý hack.\n\nSony samo vydalo v roce 2018 miniaturní **PlayStation Classic** s předinstalovanými hrami. Pro skutečné nadšence ale zůstává nejvděčnější cestou emulace s vlastními zálohami disků — jen je dobré počítat s tím, že CD obrazy zaberou na SD kartě výrazně víc místa než kartridžové konzole. Knihovna je tak bohatá, že tou nejtěžší otázkou zůstává: čím začít.",
-      "gameCount": 84,
+      "gameCount": 91,
       "games": [
         {
           "slug": "playstation__final-fantasy-vii",
@@ -23580,6 +24300,216 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "playstation__wipeout-2097",
+          "name": "Wipeout 2097 (XL)",
+          "genre": "Racing",
+          "length": "M",
+          "flags": [],
+          "year": "1996",
+          "studio": "Psygnosis",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Futuristické závody vznášedel v ostrém tempu, se zbraněmi a legendárním elektronickým soundtrackem (Chemical Brothers, Prodigy). Ikona stylu rané PS1 éry.",
+          "article": null,
+          "image": "/images/games/playstation/playstation__wipeout-2097.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__wipeout-2097.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__wipeout-2097-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__wip3out",
+          "name": "Wip3out",
+          "genre": "Racing",
+          "length": "M",
+          "flags": [],
+          "year": "1999",
+          "studio": "Psygnosis",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Vypilovaný třetí díl s čistým designem Designers Republic a plynulejší jízdou. Vrchol série na PS1.",
+          "article": null,
+          "image": "/images/games/playstation/playstation__wip3out.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__wip3out.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__wip3out-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__medievil",
+          "name": "MediEvil",
+          "genre": "Action-adventure",
+          "length": "M",
+          "flags": [],
+          "year": "1998",
+          "studio": "SCE Cambridge",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Kostlivec Sir Daniel Fortesque se vrací z mrtvých odčinit dávnou lež. Tim-Burtonovská gotická atmosféra, humor a poctivé sekání. Kultovní PS1 klenot.",
+          "article": null,
+          "image": "/images/games/playstation/playstation__medievil.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__medievil.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__medievil-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__resident-evil-director-s-cut",
+          "name": "Resident Evil: Director's Cut",
+          "genre": "Survival horror",
+          "length": "L",
+          "flags": [],
+          "year": "1997",
+          "studio": "Capcom",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Rozšířená verze originálu, který založil žánr survival hororu — sídlo plné zombií, hádanek a nedostatku munice. Kořeny celé série (máme i RE2 a RE3).",
+          "article": null,
+          "image": "/images/games/playstation/playstation__resident-evil-director-s-cut.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__resident-evil-director-s-cut.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__resident-evil-director-s-cut-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__grandia",
+          "name": "Grandia",
+          "genre": "RPG",
+          "length": "XL",
+          "flags": [],
+          "year": "1997",
+          "studio": "Game Arts",
+          "est": "30+ h",
+          "teaser": null,
+          "detail": "Dobrodružné JRPG s neuvěřitelně živým bojovým systémem (pohyb po poli + timeline akcí) a optimistickým příběhem o objevování světa. Skvost od Game Arts.",
+          "article": null,
+          "image": "/images/games/playstation/playstation__grandia.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__grandia.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__grandia-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__legend-of-mana",
+          "name": "Legend of Mana",
+          "genre": "Action-RPG",
+          "length": "L",
+          "flags": [],
+          "year": "1999",
+          "studio": "Squaresoft",
+          "est": "12–25 h",
+          "teaser": null,
+          "detail": "Nádherně ručně malované akční RPG ze série Mana — svět si skládáš z artefaktů na mapě a volíš pořadí příběhů. Atmosférické a jedinečné.",
+          "article": null,
+          "image": "/images/games/playstation/playstation__legend-of-mana.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__legend-of-mana.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__legend-of-mana-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__rayman",
+          "name": "Rayman",
+          "genre": "Platformer",
+          "length": "L",
+          "flags": [],
+          "year": "1995",
+          "studio": "Ubisoft",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Překrásná ručně kreslená 2D plošinovka, proslulá nádhernou grafikou i nemilosrdnou obtížností. Zrození maskota Ubisoftu.",
+          "article": null,
+          "image": "/images/games/playstation/playstation__rayman.webp",
+          "gallery": [
+            {
+              "src": "/images/games/playstation/playstation__rayman.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/playstation/playstation__rayman-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -25338,7 +26268,7 @@
       "image": "/images/platforms/n64.png",
       "photoBg": "dark",
       "history": "Nintendo 64 přišla na trh v roce 1996 jako konzole plná protikladů. Technicky byla v některých ohledech napřed před konkurencí — zvládala plynulé 3D, perspektivně korektní texturování a hardwarové vyhlazování, na což si PlayStation ani Saturn nemohly troufnout. Nintendo ale udělalo osudové rozhodnutí: zůstat u kartridží ve chvíli, kdy zbytek branže přešel na CD. Kartridže běžely bez načítání a špatně se pirátily, jenže byly drahé a kapacitně omezené. To odradilo řadu vydavatelů, kteří odešli k Sony — nejslavnějším příkladem je Square, jenž kvůli prostoru na CD přesunul **Final Fantasy VII** z N64 na PlayStation.\n\nPřesto N64 přinesla inovace, které používáme dodnes. Její ovladač měl jako první analogovou páčku navrženou přímo pro pohyb ve 3D prostoru — což znělo samozřejmě teprve poté, co to **Super Mario 64** dokonale předvedlo. A měl čtyři porty pro ovladače přímo v těle konzole, čímž se N64 stala králem lokálního multiplayeru pro čtyři hráče: **GoldenEye 007**, **Mario Kart 64** a série Mario Party definovaly celou éru gaučového hraní.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je 64bitový procesor **NEC VR4300** (varianta MIPS R4300i) taktovaný na 93,75 MHz a koprocesor **Reality Coprocessor (RCP)** od SGI na 62,5 MHz, který se stará o geometrii i rasterizaci. Konzole nese 4 MB sdílené paměti typu Rambus RDRAM, rozšiřitelné na 8 MB pomocí Expansion Paku.\n\nN64 zvládala perspektivně korektní mapování textur, Z-buffer, mlhu a hlavně trilineární filtraci a celoobrazový antialiasing. Právě to dává N64 její charakteristický „měkký\" až zamlžený vzhled — opak ostrých, ale roztřesených textur PS1. Estetiku rozmazanosti buď milujete, nebo ne, ale je nezaměnitelná. Daní za ambiciózní 3D byla často nízká snímková frekvence a malá texturová cache RCP (jen kolem 4 KB), kvůli níž vypadaly textury v některých hrách rozmazaně a opakovaně. Rozlišení se pohybovalo zhruba od 320×240 do 640×480 ve vysokém režimu (typicky s Expansion Pakem, např. v Perfect Dark).\n\nZvuk nebyl řešen samostatným čipem v klasickém smyslu — o syntézu se staral RCP softwarově, takže kvalita zvuku závisela na tom, kolik výpočetního výkonu jí vývojáři přidělili. To umožňovalo kvalitní streamované sekvence i prostorový zvuk, ale ukrajovalo to z výkonu pro grafiku.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/n64/1.webp\" alt=\"Konzole Nintendo 64 s ovladačem\" loading=\"lazy\"><figcaption>Konzole Nintendo 64 s ovladačem</figcaption></figure>\n\n### Propojeni a periferie\n\nKlíčovou periferií byl **Rumble Pak** — vibrační modul do ovladače, který popularizoval **Star Fox 64** (v Evropě Lylat Wars). Do téhož slotu na zadní straně ovladače šel i **Controller Pak**, paměťová karta pro ukládání pozic u her, které neměly baterií zálohovanou paměť v kartridži.\n\n**Expansion Pak** zdvojnásoboval RAM na 8 MB a byl povinný pro Donkey Kong 64 a vysoký režim Perfect Dark. Zvláštní kapitolou je **64DD** — magnetooptická disketová mechanika připojovaná zespodu, která ovšem vyšla jen v Japonsku a komerčně propadla. N64 nabízela kompozitní i S-Video výstup; verze NTSC podporovaly i RGB, kdežto PAL kusy obvykle ne.\n\n### Modely a revize\n\nVedle standardní šedé konzole vyšla řada barevných variant a průhledných edicí (Funtastic Series, Jusco). Po světě se prodávaly tři hlavní regionální verze — NTSC-U, NTSC-J a PAL. V Japonsku existoval **Pikachu N64** s vestavěným designem Pokémonů.\n\nPozdější redesign **iQue Player** (2003) byl určen výhradně pro čínský trh: šlo o N64 zabudovanou přímo do ovladače, s hrami nahrávanými na paměťovou kartu. Příbuzné technologie využila i sázková arkádová deska **Aleck 64**.\n\n### Klony a varianty\n\nOficiálních klonů N64 prakticky neexistovalo — kartridžová architektura a Nintendem hlídaný lockout výrobu napodobenin komplikovaly, na rozdíl od NES. V Československu a východním bloku se proto N64 (na trh přišla až po sametové revoluci) prodávala spíš okrajově a draze; éru osmibitů a šestnáctibitů zde definovaly jiné stroje — famiclony typu **Pegasus** u NES nebo tuzemský **Didaktik** jako klon ZX Spectra. U N64 podobná domácí stopa chybí, protože doba klonování levného hardwaru už byla v polovině 90. let na ústupu.\n\n### Dnesni scena\n\nN64 je pro retrohráče nejošemetnější z populárních konzolí. Emulace je notoricky nepřesná — kvůli neobvyklé architektuře RCP se každá hra chová trochu jinak a univerzální řešení neexistuje. Na PC slušně poslouží **Mupen64Plus**, **Project64** či přesnější, ale náročný **Ares**. Na výkonných strojích roste obliba „native\" portů jako **Ship of Harkinian** (Ocarina of Time) postavených na dekompilaci původního kódu.\n\nNa handheldech s čipem H700 (lépe na RG40XX/RG46R než na slabším RG35XX Pro) běží řada titulů, ale počítejte s testováním kus po kuse a s tím, že ne vše poběží perfektně. Odměnou jsou ale 3D klasiky jako Super Mario 64, **Ocarina of Time**, Banjo-Kazooie či Mario Kart 64 — zážitky, které jinde nezažijete a které pravidelně plní vrcholy žebříčků nejlepších her všech dob.",
-      "gameCount": 53,
+      "gameCount": 57,
       "games": [
         {
           "slug": "n64__super-mario-64",
@@ -26953,6 +27883,126 @@
               "src": "/images/games/n64/n64__mortal-kombat-trilogy.webp",
               "label": "Obal",
               "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "n64__turok-dinosaur-hunter",
+          "name": "Turok: Dinosaur Hunter",
+          "genre": "FPS",
+          "length": "L",
+          "flags": [],
+          "year": "1997",
+          "studio": "Iguana / Acclaim",
+          "est": "10–15 h",
+          "teaser": null,
+          "detail": "Jedna z prvních velkých konzolových stříleček — v pralese lovíš dinosaury i vojáky exotickými zbraněmi (slavný Cerebral Bore). Atmosféra a mlžný dohled dobově kultovní.",
+          "article": null,
+          "image": "/images/games/n64/n64__turok-dinosaur-hunter.webp",
+          "gallery": [
+            {
+              "src": "/images/games/n64/n64__turok-dinosaur-hunter.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/n64/n64__turok-dinosaur-hunter-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "n64__wwf-no-mercy",
+          "name": "WWF No Mercy",
+          "genre": "Wrestling",
+          "length": "L",
+          "flags": [],
+          "year": "2000",
+          "studio": "AKI / THQ",
+          "est": "12–25 h",
+          "teaser": null,
+          "detail": "Vrchol wrestlingových her od AKI — famózní ovládání chvatů, obří kariérní režim a editor. Fanoušci ho dodnes považují za nejlepší wrestling hru vůbec.",
+          "article": null,
+          "image": "/images/games/n64/n64__wwf-no-mercy.webp",
+          "gallery": [
+            {
+              "src": "/images/games/n64/n64__wwf-no-mercy.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/n64/n64__wwf-no-mercy-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "n64__ridge-racer-64",
+          "name": "Ridge Racer 64",
+          "genre": "Racing",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Nintendo / Namco",
+          "est": "4–10 h",
+          "teaser": null,
+          "detail": "Arkádové smyky Ridge Raceru vyladěné pro N64, se spoustou tratí a plynulou jízdou. Skvělá volba pro fanoušky driftu na konzoli.",
+          "article": null,
+          "image": "/images/games/n64/n64__ridge-racer-64.webp",
+          "gallery": [
+            {
+              "src": "/images/games/n64/n64__ridge-racer-64.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/n64/n64__ridge-racer-64-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "n64__harvest-moon-64",
+          "name": "Harvest Moon 64",
+          "genre": "Sim / RPG",
+          "length": "XL",
+          "flags": [],
+          "year": "1999",
+          "studio": "Victor / Natsume",
+          "est": "30+ h",
+          "teaser": null,
+          "detail": "Nejmilovanější díl farmářské série — pěstuješ, chováš zvířata, namlouváš si partnera a žiješ plynutím ročních období. Klidná, návyková pohoda.",
+          "article": null,
+          "image": "/images/games/n64/n64__harvest-moon-64.webp",
+          "gallery": [
+            {
+              "src": "/images/games/n64/n64__harvest-moon-64.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/n64/n64__harvest-moon-64-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
             }
           ],
           "link": null,
@@ -46873,11 +47923,11 @@
   ],
   "stats": {
     "platforms": 39,
-    "games": 1495,
-    "withDetail": 442,
+    "games": 1530,
+    "withDetail": 476,
     "withTeaser": 355,
     "withArticle": 1490,
     "platformImages": 39,
-    "gameImages": 1432
+    "gameImages": 1467
   }
 }

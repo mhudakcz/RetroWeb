@@ -5275,5 +5275,77 @@
  },
  "tic-80__card-quest": {
   "article": "A deck of cards instead of a sword and shield, and yet an equally merciless dungeon where one bad hand can mean the end. Card Quest is a card roguelike for TIC-80 that combines two things which belong together more and more these days: the tactical depth of card games and the ruthless randomness of a roguelike adventure. The result is a game about thinking, risk and luck at the right moment.\n\nMechanically this means your actions — attacks, defense, abilities — come in the form of cards you draw and play in turns. Added to this are roguelike principles: procedural progression, where paths and encounters change with every attempt, and permanent death, which lends weight to every decision. You must weigh which card to play now and which to save, because a second chance may not come. It's a game of chess into which fate has stirred randomness.\n\nTIC-80 as an economical fantasy console suits such a genre. A card roguelike doesn't need grand graphics — it needs a clear interface, readable cards and an obvious game state. The limited environment forces the creator to focus on exactly this, on the mechanics themselves and their clarity, which is the most important thing in a card game.\n\nCulturally, Card Quest rides the wave that the deck-building roguelike genre set in motion in recent years and that showed how splendidly cards and procedural dungeons complement each other. The principle is elegant: the deck you build during the expedition is at once your strength and your fate. On the homebrew scene of fantasy consoles it's a natural choice — the genre is mainly about systems, and those fit even into the smallest code.\n\nFor the player it's an addictive loop of trial and error. You lose, learn how to build your turns better and throw yourself in again. Every expedition is different, every hand a new puzzle. It's a game for someone who likes their brain working at full tilt and where even a loss is a lesson for next time.\n\n**Why play:** Card Quest combines the tactics of card battles with the ruthlessness of a roguelike — ideal for players who enjoy building a deck and taking a risk with every turn."
+ },
+ "game-boy__super-mario-land": {
+  "detail": "The very first portable Mario and one of the Game Boy's launch titles. The foreign kingdom of Sarasaland, with a submarine and a plane instead of the Mushroom Kingdom. Small, snappy, historic."
+ },
+ "game-boy__kirby-s-dream-land": {
+  "detail": "The debut of the pink Kirby — you inhale enemies and float through the air. Still without copy abilities, but an adorable and perfectly accessible start to the series."
+ },
+ "nes__super-mario-bros-2": {
+  "detail": "The American sequel (a reworked Doki Doki Panic): instead of jumping on enemies you pull up vegetables and throw them, and for the first time you pick from four characters with different abilities. Unusual, but charming and distinctive to this day."
+ },
+ "nes__teenage-mutant-ninja-turtles-ii-arcade-game": {
+  "detail": "Konami's port of the famous arcade game — four ninja turtles mow down the Foot Clan across New York. Great co-op, faithful animations from the cartoon, one of the best licensed games on the NES."
+ },
+ "nes__teenage-mutant-ninja-turtles-iii-manhattan-project": {
+  "detail": "An improved sequel to the arcade beat 'em up made directly for the NES — more levels, more attacks, still top-notch co-op. Technically it pushes the console to its limits."
+ },
+ "nes__ice-climber": {
+  "detail": "Popo and Nana climb icy mountains, smash ceilings with a hammer and dodge polar bears. A basic Nintendo classic, known today mainly thanks to Smash Bros."
+ },
+ "nes__balloon-fight": {
+  "detail": "You fly on balloons and try to pop the opponents above you. Momentum-based physics and a great two-player mode make it a small timeless gem (created by Iwata)."
+ },
+ "nes__duck-hunt": {
+  "detail": "The iconic light-gun shooter with the Zapper — you shoot down ducks and the laughing dog mocks you when you miss. A symbol of the NES era."
+ },
+ "nes__metal-gear": {
+  "detail": "Kojima's original founded the stealth genre: instead of shooting you sneak, avoid guards and figure out how to get through unnoticed. The NES version has its flaws, but it's historically pivotal."
+ },
+ "nes__gradius": {
+  "detail": "A horizontal shooter that defined the weapon-upgrade system (you collect capsules and choose upgrades from a bar). Legendary difficulty and the famous Konami code."
+ },
+ "nes__ghosts-n-goblins": {
+  "detail": "The knight Arthur in his boxers against hordes of the undead — notoriously punishing difficulty and the need to beat the game twice. Frustrating and addictive at the same time."
+ },
+ "snes__teenage-mutant-ninja-turtles-iv-turtles-in-time": {
+  "detail": "One of the best arcade beat 'em ups ever, in an enhanced form on the SNES: throwing enemies \"into the screen\", time travel and superb co-op. An absolute classic."
+ },
+ "snes__final-fight": {
+  "detail": "The console version of the legendary arcade brawler — Haggar, Cody and Guy clean up Mad Gear's grip on Metro City. A defining title of the genre (this is where Guy from Street Fighter comes from)."
+ },
+ "snes__super-mario-all-stars": {
+  "detail": "A collection of remasters of SMB 1–3 and Lost Levels in 16-bit graphics and with a save system. The best way to play the entire golden era of Mario all in one place."
+ },
+ "snes__r-type-iii-third-lightning": {
+  "detail": "A gorgeous 16-bit horizontal shooter with the iconic \"Force\" module and three weapon types. Tough, but top-tier both visually and in gameplay."
+ },
+ "snes__final-fantasy-mystic-quest": {
+  "detail": "A simplified JRPG aimed at beginners — more straightforward combat and a streamlined map. Fans of the series argue about it, but as an entry point to the genre it works great."
+ },
+ "mega-drive__splatterhouse-2": {
+  "detail": "A gory horror beat 'em up: wearing the Terror Mask you fight through walls of flesh and monsters to save your girlfriend. An unusually brutal atmosphere for the Mega Drive."
+ },
+ "mega-drive__splatterhouse-3": {
+  "detail": "The third game adds time-based branching and more open levels — you defend your own house against a horde. The peak of the horror series on consoles."
+ },
+ "mega-drive__sonic-spinball": {
+  "detail": "Sonic as a pinball ball across multi-level tables full of enemies. An unconventional spin-off of the series — chaotic, but fun."
+ },
+ "mega-drive__zero-wing": {
+  "detail": "A decent horizontal shooter from Toaplan, immortal mainly thanks to its comically translated intro \"All your base are belong to us\" — one of the first internet memes."
+ },
+ "playstation__wipeout-2097": {
+  "detail": "Futuristic hovercraft racing at a fierce pace, with weapons and a legendary electronic soundtrack (Chemical Brothers, Prodigy). An icon of the early PS1-era style."
+ },
+ "playstation__wip3out": {
+  "detail": "A polished third installment with Designers Republic's clean design and smoother handling. The pinnacle of the series on the PS1."
+ },
+ "playstation__medievil": {
+  "detail": "The skeleton Sir Daniel Fortesque returns from the dead to atone for an ancient lie. A Tim Burton-esque gothic atmosphere, humor and honest hack-and-slash. A cult PS1 gem."
+ },
+ "playstation__resident-evil-director-s-cut": {
+  "detail": "An expanded version of the original that founded the survival horror genre — a mansion full of zombies, puzzles and a shortage of ammo. The roots of the entire series (we also have RE2 and RE3)."
  }
 }
