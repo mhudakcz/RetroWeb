@@ -3013,8 +3013,14 @@
           "teaser": null,
           "detail": null,
           "article": "Vysoká tráva zašustí, ozve se ono nezaměnitelné zapípání a na obrazovce se objeví divoký Pokémon. Tahle jediná scéna spustila jeden z největších kulturních fenoménů konce dvacátého století. Red, Blue a Yellow nebyly jen hry. Byly vstupní branou do světa, který se zaryl do dětství celé generace.\n\nPůvodní Red a Green vyšly nejprve v Japonsku, do zbytku světa pak dorazila dvojice Red a Blue. Geniální nápad spočíval v tom, že každá verze obsahovala jiné exkluzivní Pokémony, takže k naplnění Pokédexu na všech 151 příšerek bylo potřeba propojit dvě cartridge přes Link Cable a vyměňovat si je s kamarády. Z hraní se tak stala společenská aktivita a sběratelská vášeň zároveň. Slogan Gotta catch 'em all nebyl prázdné heslo, ale samotná podstata hry.\n\nMechanicky šlo o tahové JRPG postavené na systému silných a slabých typů. Voda poráží oheň, oheň trávu, tráva vodu. Tato jednoduchá, ale hluboká kámen-nůžky-papír logika dala soubojům překvapivou taktickou hloubku, kterou pochopilo dítě i dospělý. Verze Yellow pak přišla později jako vylepšení inspirované populárním anime, kde vás po celou dobu doprovází Pikachu kráčející za vámi.\n\nHry vytvořilo studio Game Freak pod vedením Satoshiho Tajiriho, jehož inspirací bylo sbírání hmyzu z dětství. Vývoj trval léta a několikrát byl na pokraji krachu, hru držel nad vodou i grafik a později ikonický designér Ken Sugimori. Komerčně šlo o jeden z nejúspěšnějších herních titulů všech dob, prodaný v desítkách milionů kusů, a odstartoval značku, která se stala nejvýdělečnější mediální franšízou na světě.\n\nByť originály běžely na monochromatickém Game Boyi, na Game Boy Coloru získaly barevnou paletu a hladce na něm fungují. Kulturní význam těchto her je obtížné přecenit. Zrodily anime, sběratelské karty, hračky a celý průmysl, který funguje dodnes. První generace zůstává posvátným kamenem, k němuž se série znovu a znovu vrací.\n\n**Proč hrát:** Tady všechno začalo. Nestárnoucí JRPG, jehož jednoduchá hloubka a sběratelská vášeň dodnes funguje stejně dobře jako v devadesátých letech.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/game-boy-color/game-boy-color__pokemon-red-blue-yellow.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__pokemon-red-blue-yellow.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -49282,6 +49288,6 @@
     "withTeaser": 355,
     "withArticle": 1536,
     "platformImages": 39,
-    "gameImages": 1512
+    "gameImages": 1513
   }
 }
