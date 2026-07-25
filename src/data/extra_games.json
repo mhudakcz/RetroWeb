@@ -3371,6 +3371,90 @@
    "genre": "Fighting",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Rayman (GBC)",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mega Man Xtreme",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mega Man Xtreme 2",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Blaster Master: Enemy Below",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bomberman Max: Red / Blue Challenger",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Grand Theft Auto (GBC)",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Perfect Dark (GBC)",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater (GBC)",
+   "genre": "Sport",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Croc (GBC)",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Turok 2: Seeds of Evil (GBC)",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Alone in the Dark: The New Nightmare (GBC)",
+   "genre": "Survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Disney's Aladdin (GBC)",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tarzan (GBC)",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Legend of the River King 2",
+   "genre": "RPG / Sim",
+   "length": "L",
+   "flags": []
   }
  ],
  "saturn": [

@@ -1794,7 +1794,7 @@
       "image": "/images/platforms/game-boy-color.png",
       "photoBg": "dark",
       "history": "Když v roce 1998 přišel Game Boy Color, Nintendo neřešilo revoluci — řešilo údržbu trůnu. Původní Game Boy z roku 1989 a jeho mezikrok Game Boy Pocket pořád válcovaly trh, jenže monochromatický displej už působil archaicky vedle barevných konkurentů jako Sega Game Gear nebo Atari Lynx (které ovšem doplácely na žravost baterií). GBC zvolil chytrou střední cestu: přidal barvu, o něco rychlejší procesor a víc paměti, ale udržel si nízkou spotřebu a hlavně **plnou zpětnou kompatibilitu** s celou knihovnou původního Game Boye. Nový majitel si tak mohl zahrát staré i nové hry — a to byl argument, který konkurence nedokázala přebít.\n\nŽivotnost GBC byla přitom krátká, zhruba tři roky, než ho v roce 2001 nahradil Game Boy Advance. Přesto stihl nabrat pozoruhodnou knihovnu: druhou generaci Pokémonů (**Gold/Silver/Crystal**), dvojici skvělých Zeld (**Oracle of Seasons** a **Oracle of Ages**), Wario Land 3 i technicky ohromující tituly z konce éry. Mezi nimi vyniká **Shantae**, která vyšla tak pozdě, že se jí prodalo žalostně málo — a dnes je sběratelsky extrémně drahá.\n\n### Technika: grafika a zvuk\n\nSrdcem GBC je 8bitový procesor Sharp **LR35902** (příbuzný Z80 a Intelu 8080), který běží na dvojnásobné frekvenci oproti původnímu Game Boyi — zhruba **8 MHz** v rychlém režimu, kdežto v kompatibilním režimu jede pomaleji jako klasický GB. Pracovní paměť (RAM) i video RAM jsou oproti předchůdci zdvojnásobené (32 KB systémové RAM, 16 KB VRAM), což hrám dalo víc prostoru pro grafiku.\n\nDisplej má rozlišení **160 × 144 bodů** a poprvé jde o barevný, reflexivní TFT panel. Z palety čítající **32 768 barev** dokáže GBC zobrazit současně až **56 barev** ve speciálním režimu — typicky ale **32 barev** (osm tříbarevných palet pro pozadí a osm pro sprity, plus barva průhlednosti). Sprity měří 8 × 8 nebo 8 × 16 bodů. Zvuk obstarává stejný čip jako u původního GB: **čtyři kanály** — dva pulzní (čtvercová vlna), jeden vlnový kanál s programovatelnou vlnovou tabulkou a jeden šumový pro perkuse a efekty. Výstup je stereofonní do sluchátek.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/2.webp\" alt=\"Game Boy Color z roku 1998\" loading=\"lazy\"><figcaption>Game Boy Color z roku 1998</figcaption></figure>\n\n### Propojeni a periferie\n\nGBC zdědil **Game Link** port pro propojovací kabel — základ slavných pokémoních výměn a soubojů i vícehráče v dalších titulech. Novinkou byl **infračervený port (IR)** na horní hraně konzole, který umožňoval bezdrátovou výměnu dat na krátkou vzdálenost; využila ho hrstka her, nejznámější je výměna předmětů v pokémoních hrách a v Zeldách. Cartridge nesly zálohovanou paměť (baterie + SRAM) pro ukládání postupu, u některých her i hodiny reálného času — Pokémon Gold/Silver měly v kartridži krystalové **RTC**, jehož baterie po letech bohužel vysychá.\n\nZ příslušenství stojí za zmínku **Game Boy Camera** a tiskárna **Game Boy Printer**, oba zděděné z éry GB a s GBC plně funkční. Napájení obstarávaly dvě tužkové baterie AA s výdrží kolem 10 hodin, případně dokupovatelný síťový adaptér.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/6.webp\" alt=\"Průhledná varianta Atomic Purple\" loading=\"lazy\"><figcaption>Průhledná varianta Atomic Purple</figcaption></figure>\n\n### Modely a revize\n\nGame Boy Color vyšel v jediné základní podobě, ale v široké paletě barevných variant pouzdra: průhledné „Atomic Purple\", Berry, Grape, Kiwi, Dandelion, Teal a klasická Clear. Kromě nich existovaly limitované edice — japonské vydání svázané s konkrétními tituly i ikonický **Pokémon Edition** s motivem Pikachua.\n\nHry pro platformu se dělily do dvou kategorií podle barvy kartridže. **Černé kartridže** byly „GBC-only\" a fungovaly výhradně na Game Boy Coloru (a později GBA). **Průhledné/čiré kartridže** byly takzvané „dual mode\" — barevné na GBC, ale spustitelné i na původním černobílém Game Boyi, kde běžely v odstínech šedi. Sám hardware GBC žádnou pozdější interní revizi displeje nedostal; jeho nástupcem se stala až zcela nová architektura Game Boy Advance.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/3.webp\" alt=\"Černá kartridž pro tituly jen pro GBC\" loading=\"lazy\"><figcaption>Černá kartridž pro tituly jen pro GBC</figcaption></figure>\n\n### Klony a varianty\n\nGame Boy jako značka byla díky vlastnímu šifrovanému bootu a Nintendem hlídaným licencím hůře klonovatelná než třeba NES, takže rozšířených hardwarových klonů GBC vznikalo méně než famiclonů. Přesto se objevila řada **neoficiálních „pirátských\" kartridží** s nelicencovanými hrami i mnohoherními kompilacemi, hojně k vidění i na trzích ve východní Evropě a v Asii.\n\nZatímco v Československu se stopa Nintenda na poli ruční konzole prakticky nenese (oficiální distribuce přišla až mnohem později), domácí klonová scéna se naplno projevila u jiných platforem — u 8bitových počítačů šlo o **Didaktik** coby tuzemský klon ZX Spectra, u stolního Nintenda pak putovaly do regionu **famiclony** typu Pegasus. Game Boy Color se k českým hráčům dostával hlavně dovozem a šedým trhem; legendou své doby se ovšem stala daleko levnější napodobenina v podobě čínských ručních konzolí à la „Brick Game\", která ale s GBC neměla technicky nic společného.\n\n### Dnesni scena\n\nEmulace GBC je dnes naprosto bezproblémová a patří k nejvděčnějším vůbec. Špičkové emulátory jako **mGBA** nebo **SameBoy** dosahují vysoké přesnosti včetně věrné simulace LCD a zvukového čipu; na slabších zařízeních poslouží **Gambatte** (jádro v RetroArchu). GBC se rozjede prakticky na čemkoli — od mobilů přes Raspberry Pi až po kapesní emulační konzole.\n\nŽivá je i homebrew scéna: vývojáři dnes píšou nové hry v jazyce C přes **GBDK** nebo v assembleru a vydávají je na reálných flashkartách i jako ROM ke stažení. Symbolem této vytrvalosti je RPG **Infinity** — komerční titul, jehož vývoj se kolem roku 2001 zastavil a který původní tým po více než dvaceti letech dokončil a v roce 2023 vydal. Vzácný případ „ztracené\" hry, jež se vrátila k životu.",
-      "gameCount": 47,
+      "gameCount": 61,
       "games": [
         {
           "slug": "game-boy-color__legend-of-zelda-oracle-of-seasons",
@@ -3238,6 +3238,426 @@
               "src": "/images/games/game-boy-color/game-boy-color__street-fighter-alpha.webp",
               "label": "Obal",
               "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__rayman",
+          "name": "Rayman (GBC)",
+          "genre": "Platformer",
+          "length": "L",
+          "flags": [],
+          "year": "2000",
+          "studio": "Ubisoft",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Ceněný port Raymana na Game Boy Color — překvapivě rozlehlá a barevná 2D plošinovka s plynulou animací. Jeden z technických i herních vrcholů konzole.",
+          "image": "/images/games/game-boy-color/game-boy-color__rayman.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__rayman.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__rayman-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__mega-man-xtreme",
+          "name": "Mega Man Xtreme",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Kapesní Mega Man X — přepracované úrovně a bossové ze SNES dílů X1/X2 na GBC. Přesné skákání a střílení, i s dashem po zdi.",
+          "image": "/images/games/game-boy-color/game-boy-color__mega-man-xtreme.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__mega-man-xtreme.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__mega-man-xtreme-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__mega-man-xtreme-2",
+          "name": "Mega Man Xtreme 2",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": "2001",
+          "studio": "Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Vylepšené pokračování s prvky z X3/X4, hratelným X i Zerem a upgrady. Skvělá akce na cesty pro fanoušky série X.",
+          "image": "/images/games/game-boy-color/game-boy-color__mega-man-xtreme-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__mega-man-xtreme-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__mega-man-xtreme-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__blaster-master-enemy-below",
+          "name": "Blaster Master: Enemy Below",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Sunsoft",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Povedený nástupce NES klasiky — střídáš jízdu v tanku po bočních úrovních a průchody shora dolů pěšky. Sunsoft v dobré formě.",
+          "image": "/images/games/game-boy-color/game-boy-color__blaster-master-enemy-below.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__blaster-master-enemy-below.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__blaster-master-enemy-below-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__bomberman-max-red-blue-challenger",
+          "name": "Bomberman Max: Red / Blue Challenger",
+          "genre": "Action",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Hudson Soft",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Nejlepší Bomberman na GBC — kromě klasického bludiště přidává sbírání tvorečků „Charabom\" a rozvětvené úrovně. Dvě verze pro výměnu.",
+          "image": "/images/games/game-boy-color/game-boy-color__bomberman-max-red-blue-challenger.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__bomberman-max-red-blue-challenger.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__bomberman-max-red-blue-challenger-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__grand-theft-auto",
+          "name": "Grand Theft Auto (GBC)",
+          "genre": "Action",
+          "length": "M",
+          "flags": [],
+          "year": "1999",
+          "studio": "Rockstar / DMA Design",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Kultovní kuriozita — celé původní top-down GTA vměstnané do kapesní konzole, i s auty, misemi a chaosem. Technicky pozoruhodné.",
+          "image": "/images/games/game-boy-color/game-boy-color__grand-theft-auto.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__grand-theft-auto.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__grand-theft-auto-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__perfect-dark",
+          "name": "Perfect Dark (GBC)",
+          "genre": "Action",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Rare",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Společník k N64 verzi od Rare — směs stealth akce a miniher shora. Napojení na N64 přes kabel odemykalo bonusy. Slušná kapesní špionáž.",
+          "image": "/images/games/game-boy-color/game-boy-color__perfect-dark.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__perfect-dark.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__perfect-dark-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__tony-hawk-s-pro-skater",
+          "name": "Tony Hawk's Pro Skater (GBC)",
+          "genre": "Sport",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Vicarious Visions",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Překvapivě povedený port skateboardové série na GBC — triky, komba i mapy fungují na malé konzoli lépe, než by čekal. Návykové.",
+          "image": "/images/games/game-boy-color/game-boy-color__tony-hawk-s-pro-skater.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__tony-hawk-s-pro-skater.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__tony-hawk-s-pro-skater-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__croc",
+          "name": "Croc (GBC)",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "Argonaut",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Roztomilá 2D plošinovka s krokodýlem Crocem, převyprávějící 3D originál do kapesní podoby. Solidní skákačka pro GBC.",
+          "image": "/images/games/game-boy-color/game-boy-color__croc.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__croc.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__croc-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__turok-2-seeds-of-evil",
+          "name": "Turok 2: Seeds of Evil (GBC)",
+          "genre": "Action",
+          "length": "M",
+          "flags": [],
+          "year": "1998",
+          "studio": "Bit Managers / Acclaim",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Kapesní akce podle N64 hitu — spíš 2D/izometrické střílení než FPS, ale s dinosaury a exotickými zbraněmi. Slušná adaptace.",
+          "image": "/images/games/game-boy-color/game-boy-color__turok-2-seeds-of-evil.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__turok-2-seeds-of-evil.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__turok-2-seeds-of-evil-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__alone-in-dark-new-nightmare",
+          "name": "Alone in the Dark: The New Nightmare (GBC)",
+          "genre": "Survival horror",
+          "length": "M",
+          "flags": [],
+          "year": "2001",
+          "studio": "Infogrames",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Survival horor na kapesní konzoli — prozkoumáváš temný dům, řešíš hádanky a bojuješ s příšerami baterkou i zbraněmi. Ambiciózní kousek na GBC.",
+          "image": "/images/games/game-boy-color/game-boy-color__alone-in-dark-new-nightmare.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__alone-in-dark-new-nightmare.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__alone-in-dark-new-nightmare-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__disney-s-aladdin",
+          "name": "Disney's Aladdin (GBC)",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1999",
+          "studio": "Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Barevná plošinovka podle filmu — Aladin skáče, hází jablka a klouže po Agrabahu. Příjemná disneyovská skákačka.",
+          "image": "/images/games/game-boy-color/game-boy-color__disney-s-aladdin.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__disney-s-aladdin.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__disney-s-aladdin-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__tarzan",
+          "name": "Tarzan (GBC)",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1999",
+          "studio": "Digital Eclipse",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Plošinovka podle animovaného Tarzana — houpáš se na lianách a kloužeš pralesem. Solidní licencovaná zábava pro mladší hráče.",
+          "image": "/images/games/game-boy-color/game-boy-color__tarzan.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__tarzan.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__tarzan-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__legend-of-river-king-2",
+          "name": "The Legend of the River King 2",
+          "genre": "RPG / Sim",
+          "length": "L",
+          "flags": [],
+          "year": "2001",
+          "studio": "Natsume",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Neobvyklé RPG o rybaření od tvůrců Harvest Moon — putuješ krajinou, chytáš ryby a zachraňuješ sestru. Klidná, návyková pohoda s kultovní základnou fanoušků.",
+          "image": "/images/games/game-boy-color/game-boy-color__legend-of-river-king-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__legend-of-river-king-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__legend-of-river-king-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
             }
           ],
           "link": null,
@@ -48857,11 +49277,11 @@
   ],
   "stats": {
     "platforms": 39,
-    "games": 1562,
+    "games": 1576,
     "withDetail": 476,
     "withTeaser": 355,
-    "withArticle": 1522,
+    "withArticle": 1536,
     "platformImages": 39,
-    "gameImages": 1498
+    "gameImages": 1512
   }
 }

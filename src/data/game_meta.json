@@ -275,8 +275,28 @@
   "game-boy-advance__wario-land-4": {},
   "game-boy-advance__warioware-inc-mega-microgame": {},
   "game-boy-advance__warioware-inc-mega-microgames": {},
+  "game-boy-color__alone-in-dark-new-nightmare": {
+    "studio": "Infogrames",
+    "year": "2001"
+  },
   "game-boy-color__bionic-commando-elite-forces": {},
+  "game-boy-color__blaster-master-enemy-below": {
+    "studio": "Sunsoft",
+    "year": "2000"
+  },
+  "game-boy-color__bomberman-max-red-blue-challenger": {
+    "studio": "Hudson Soft",
+    "year": "2000"
+  },
   "game-boy-color__conker-s-pocket-tales": {},
+  "game-boy-color__croc": {
+    "studio": "Argonaut",
+    "year": "2000"
+  },
+  "game-boy-color__disney-s-aladdin": {
+    "studio": "Capcom",
+    "year": "1999"
+  },
   "game-boy-color__donkey-kong-country": {},
   "game-boy-color__dragon-s-lair": {},
   "game-boy-color__dragon-warrior-i-and-ii-iii": {},
@@ -289,6 +309,10 @@
     "year": "2020"
   },
   "game-boy-color__game-and-watch-gallery-3": {},
+  "game-boy-color__grand-theft-auto": {
+    "studio": "Rockstar / DMA Design",
+    "year": "1999"
+  },
   "game-boy-color__hamtaro-ham-hams-unite": {},
   "game-boy-color__harvest-moon-2-gbc": {},
   "game-boy-color__harvest-moon-gbc": {},
@@ -296,6 +320,10 @@
     "year": "1992"
   },
   "game-boy-color__kirby-tilt-n-tumble": {},
+  "game-boy-color__legend-of-river-king-2": {
+    "studio": "Natsume",
+    "year": "2001"
+  },
   "game-boy-color__legend-of-zelda-link-s-awakening-dx": {},
   "game-boy-color__legend-of-zelda-oracle-of-ages": {},
   "game-boy-color__legend-of-zelda-oracle-of-seasons": {},
@@ -303,7 +331,19 @@
   "game-boy-color__magi-nation": {},
   "game-boy-color__mario-golf": {},
   "game-boy-color__mario-tennis": {},
+  "game-boy-color__mega-man-xtreme": {
+    "studio": "Capcom",
+    "year": "2000"
+  },
+  "game-boy-color__mega-man-xtreme-2": {
+    "studio": "Capcom",
+    "year": "2001"
+  },
   "game-boy-color__metal-gear-ghost-babel": {},
+  "game-boy-color__perfect-dark": {
+    "studio": "Rare",
+    "year": "2000"
+  },
   "game-boy-color__pokemon-crystal": {
     "studio": "Game Freak",
     "year": "2000"
@@ -318,6 +358,10 @@
   "game-boy-color__pokemon-red-blue-yellow": {},
   "game-boy-color__power-quest": {},
   "game-boy-color__r-type-dx": {},
+  "game-boy-color__rayman": {
+    "studio": "Ubisoft",
+    "year": "2000"
+  },
   "game-boy-color__resident-evil-gaiden": {
     "studio": "Capcom",
     "year": "2001"
@@ -340,9 +384,21 @@
     "year": "1999"
   },
   "game-boy-color__survival-kids": {},
+  "game-boy-color__tarzan": {
+    "studio": "Digital Eclipse",
+    "year": "1999"
+  },
   "game-boy-color__tetris-dx": {},
   "game-boy-color__toki-tori": {},
+  "game-boy-color__tony-hawk-s-pro-skater": {
+    "studio": "Vicarious Visions",
+    "year": "2000"
+  },
   "game-boy-color__top-gear-pocket": {},
+  "game-boy-color__turok-2-seeds-of-evil": {
+    "studio": "Bit Managers / Acclaim",
+    "year": "1998"
+  },
   "game-boy-color__wario-land-3": {},
   "game-boy-color__wario-land-ii": {},
   "game-boy-color__warlocked": {},
