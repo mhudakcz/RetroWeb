@@ -5351,7 +5351,7 @@
       "image": "/images/platforms/nds.png",
       "photoBg": "dark",
       "history": "Když Nintendo na konci roku 2004 představilo přístroj se dvěma obrazovkami, z nichž jedna byla dotyková, znělo to jako hazard. Konkurence v čele se Sony a jeho nablýskaným PSP sázela na výkon a multimédia; Nintendo místo toho přišlo s „třetím pilířem\", který nezapadal nikam — a stal se z něj jeden z **nejprodávanějších herních systémů všech dob** s více než 150 miliony kusů. **Nintendo DS** (zkratka pro „Dual Screen\" i „Developers' System\") nevsadilo na to, kdo má víc pixelů, ale na to, jak se hraje. A vyhrálo.\n\nKouzlo bylo v rozhraní. Spodní **dotyková obrazovka** se ovládala stylusem nebo prstem, k tomu **mikrofon** a později i pohybové a další doplňky v kartridžích. To otevřelo dveře úplně novým typům her i hráčům, kteří do té doby ovladač do ruky nevzali — od tréninku mozku přes péči o virtuální štěňata až po kreslení řešení hádanek přímo na obrazovku.\n\n### Technika: dvě obrazovky a 3D čip\n\nUvnitř tikají dva procesory ARM (ARM9 na ~67 MHz a ARM7 na ~33 MHz), které se dělí o práci. Každá ze dvou **3\" LCD obrazovek** má rozlišení 256×192 bodů; spodní je odporově dotyková. Grafika kombinuje 2D vrstvy ve stylu pokročilé „GBA generace\" se samostatným **3D jádrem**, které zvládá texturované polygony — díky tomu vznikly tituly jako Super Mario 64 DS, Mario Kart DS nebo Metroid Prime Hunters. Zvuk obstarává 16 kanálů a vestavěné stereo reproduktory.\n\nVelkou roli hraje **mikrofon** (foukání, hlasové vstupy) a **RTC hodiny**, na kterých stavěly hry jako Animal Crossing nebo pokémoní cykly dne a noci. Kartridže DS jsou malé flash karty s vlastní úsporou; slot 2 (GBA) navíc zajišťoval **zpětnou kompatibilitu** s celou knihovnou Game Boy Advance a sloužil i pro příslušenství (Rumble Pak, Guitar Grip).\n\n### Propojení: dotyk, Wi-Fi a místní hra\n\nDS měl od začátku vestavěné **Wi-Fi**. Lokálně stačilo, aby jeden hráč vlastnil hru — přes **Download Play** rozeslal demo verzi okolním DS a hrálo se ve více lidech z jedné kartridže. Online službu **Nintendo Wi-Fi Connection** využívaly Mario Kart DS, Pokémon nebo Tetris DS k zápasům přes internet (oficiální servery už dnes neběží, komunita je ale oživila přes alternativní servery).\n\nPrávě **lokální multiplayer** je dodnes jeden z důvodů, proč DS zůstává oblíbený: stačí parta s konzolemi v dosahu a jedním kartridžem.\n\n### Modely a revize\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nds/1.webp\" alt=\"Nintendo DS Lite\" loading=\"lazy\"><figcaption>DS Lite (2006) — tenčí redesign s jasnějšími displeji</figcaption></figure>\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nds/2.webp\" alt=\"Nintendo DSi\" loading=\"lazy\"><figcaption>DSi (2008) — dva fotoaparáty a obchod DSiWare</figcaption></figure>\n\nPůvodní „tlustý\" model (2004) brzy vystřídal elegantní **DS Lite** (2006) — tenčí, lehčí a s výrazně jasnějšími displeji; to je model, který se prodal nejvíc. Následoval **DSi** (2008) s dvěma fotoaparáty, vlastním obchodem DSiWare a rychlejším čipem, ovšem bez slotu na GBA. **DSi XL** pak nabídl velké obrazovky pro pohodlnější hraní. Linii nakonec roku 2011 nahradil **Nintendo 3DS** se zpětnou kompatibilitou a stereoskopickým 3D.\n\n### Klony a šedá zóna\n\nDS proslul i **flashkartami** (R4 a podobné), které umožňovaly spouštět homebrew i zálohy — šlo o obrovský fenomén, který Nintendo neúspěšně potíralo. Pro vývojáře a nadšence to ale znamenalo i bohatou **homebrew scénu**: vlastní aplikace, emulátory a hry psané přes devkitARM a knihovnu libnds.\n\n### Dnešní scéna\n\nEmulace DS je dnes vyspělá. Na PC i mobilech kraluje **melonDS** (přesný, s podporou online přes alternativní servery) a **DeSmuME**; na slabším hardwaru a handheldech jede DS přes jádra v RetroArchu. Hraní s dvěma obrazovkami je na emulátorech otázka rozložení — vedle sebe, nad sebou, nebo jedna velká a druhá v rohu. Na zařízeních jako Anbernic či Retroid se DS rozjede, ovšem dotyk se nahrazuje stylusem na dotykovém displeji nebo namapováním na pravý stick, takže ryze „stylusové\" hry (Trauma Center, kreslení) chtějí trochu kompromisů. Přesto je DS knihovna — od JRPG přes Castlevanie po Ace Attorney — jedna z nejbohatších a nejvíce nadčasových, jaké retro hraní nabízí.\n\n### Na čem DS hrát dnes: emulátory a handheldy\n\nDS patří k **nenáročným systémům**, takže ho rozjede téměř cokoli — háček není ve výkonu, ale v tom, jak vyřešit **dvě obrazovky a dotyk**. Tady je praktický přehled:\n\n- **PC (nejlepší zážitek):** sáhni po **melonDS** — je přesný, svižný a má i obnovený **online multiplayer** přes alternativní servery (Wi-Mmproxy/Kaeru). Starší, ale stále funkční volba je **DeSmuME**. Obě běží i v rámci **RetroArch** (jádro melonDS). Dotyk obsloužíš myší, dvě obrazovky si rozložíš vedle sebe, nad sebou nebo jednu velkou a druhou v rohu.\n- **Android telefon / tablet:** ideální kombinace, protože **dotyková obrazovka supluje stylus**. Kraluje **melonDS** (zdarma) a komerční **DraStic** (velmi rychlý). Na výkonném Androidu jede DS bez potíží i s upscalingem.\n- **Android retro handheldy (Retroid Pocket, Odin, AYN):** výborné — mají dotykový displej, takže stylusové hry fungují přirozeně, a výkonu je dost i na 3D tituly jako Mario Kart DS nebo Metroid Prime Hunters.\n- **Anbernic / Linux handheldy (RG35XX a spol.):** DS se rozjede přes RetroArch, ale je to **kompromis** — slabší kousky s Allwinner H700 zvládají 2D hry slušně, 3D už zadrhává. Hlavně ale chybí pohodlný dotyk: spodní obrazovku ovládáš buď na (často nedotykovém) displeji, nebo namapovanou na pravou páčku.\n- **R36S a nejlevnější krabičky:** DS je tu **na hraně** — RK3326 utáhne jen jednodušší 2D hry a dotyk je otravný. Pro DS radši zvol Android zařízení nebo PC.\n\n**Zda to jde:** ano, a snadno — jen si vyber zařízení podle her. Na **JRPG, vizuální romány a 2D plošinovky** (Pokémon, Castlevania, Ace Attorney) stačí cokoli; na **3D a stylusové hry** sáhni po Androidu nebo PC, kde dotyk i výkon sedí nejlíp.\n\n**Proč ji znát:** Nintendo DS ukázalo, že inovace v ovládání dokáže porazit hrubý výkon — a zanechalo knihovnu plnou her, které jinde nenajdete.",
-      "gameCount": 39,
+      "gameCount": 41,
       "games": [
         {
           "slug": "nds__new-super-mario-bros",
@@ -6702,6 +6702,61 @@
           "playUrl": null,
           "players": null,
           "rating": "PEGI 3"
+        },
+        {
+          "slug": "nds__999-nine-hours-nine-persons-nine-doors",
+          "name": "999: Nine Hours, Nine Persons, Nine Doors",
+          "genre": "Adventure / Visual novel",
+          "length": "L",
+          "flags": [],
+          "year": "2009",
+          "studio": "Chunsoft",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Napínavá úniková vizuální novela — devět lidí uvězněných na lodi řeší hádanky a temné tajemství. Ikona žánru, která geniálně využívá obě obrazovky DS.",
+          "image": "/images/games/nds/nds__999-nine-hours-nine-persons-nine-doors-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nds/nds__999-nine-hours-nine-persons-nine-doors-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nds__dragon-quest-v-hand-of-heavenly-bride",
+          "name": "Dragon Quest V: Hand of the Heavenly Bride",
+          "genre": "RPG",
+          "length": "XL",
+          "flags": [],
+          "year": "2008",
+          "studio": "Square Enix",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Remake milovaného JRPG sledujícího tři generace hrdinovy rodiny, s chytáním monster do party. Mnohými považován za nejlepší Dragon Quest vůbec.",
+          "image": "/images/games/nds/nds__dragon-quest-v-hand-of-heavenly-bride.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nds/nds__dragon-quest-v-hand-of-heavenly-bride.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/nds/nds__dragon-quest-v-hand-of-heavenly-bride-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -6717,7 +6772,7 @@
       "image": "/images/platforms/3ds.png",
       "photoBg": "dark",
       "history": "Nintendo si po triumfu DS řeklo, že další krok bude do třetího rozměru — a to doslova. **Nintendo 3DS** (2011) přineslo **stereoskopické 3D bez brýlí**: horní obrazovka uměla díky paralaxní bariéře vykreslit hloubku jen tak, pohledem. Byl to odvážný, trochu bláznivý nápad, který se nakonec stal spíš zajímavým bonusem než hlavním tahákem — protože tím skutečným pokladem 3DS se ukázala být, stejně jako u DS, jeho **knihovna**. Konzole se i přes rozpačitý start (drahá cena, kterou Nintendo brzy radikálně srazilo) prodala v desítkách milionů kusů a hostí jedny z nejlepších her své generace.\n\n3DS navázalo na DS dvojicí obrazovek a dotykem, přidalo ale pořádný výkonový skok, **3D kameru**, pohybové senzory a online ekosystém. A hlavně bylo **zpětně kompatibilní s DS** — celá obří DS knihovna se na něm dá hrát taky.\n\n### Technika: 3D bez brýlí a slušný výkon\n\nSrdcem je dvoujádrový **ARM11** doplněný grafikou **PICA200**, která zvládá plnohodnotné 3D s osvětlením a efekty — proto hry jako Super Mario 3D Land, Zelda: Ocarina of Time 3D nebo Monster Hunter vypadají na malé obrazovce překvapivě bohatě. Horní displej (400×240 na oko, dvojnásobek pro 3D efekt) zobrazuje stereoskopický obraz, spodní 320×240 je dotykový. Síla 3D efektu se ladí posuvníkem **3D Slider** — dá se i úplně vypnout, což většina hráčů časem stejně udělala.\n\n### Propojení: StreetPass, SpotPass a online\n\n3DS mělo chytré sociální funkce. **StreetPass** vyměňoval data s konzolemi kolemjdoucích (Mii, tahy v Puzzle Swap, duchy v hrách), **SpotPass** stahoval obsah přes Wi-Fi na pozadí. Online přes **Nintendo Network** sloužilo k multiplayeru i obchodu **eShop** (ten byl roku 2023 uzavřen, hry už koupené ale zůstávají hratelné). Lokální bezdrátová hra a Download Play fungovaly podobně jako na DS.\n\n### Modely a revize\n\nRodina je pestrá: po původním **3DS** přišlo velké **3DS XL**, pak levné **2DS** (placatý klín bez 3D efektu, ideální pro děti), elegantní **New 3DS / New 3DS XL** (2014) s druhou páčkou (C-stick), výkonnějším čipem a barevnými výměnnými kryty, a nakonec **New 2DS XL**. Některé pozdější hry (např. Xenoblade Chronicles 3D) běžely **jen na „New\" modelech**.\n\n### Klony a homebrew\n\nOficiální klony neexistují, zato **homebrew scéna** je mimořádně živá: přes vstupní body jako *ninjhax* a později *Luma3DS* custom firmware si komunita otevřela vlastní aplikace, emulátory, překlady a vylepšení. 3DS se tak stal i oblíbenou „kapesní emulační\" konzolí pro starší systémy.\n\n### Na čem 3DS hrát dnes: emulátory a konzole\n\n3DS je **náročnější na emulaci** než DS, ale dnes už je to vyřešené. Na PC kraluje **Citra** (resp. její pokračovatelé a forky po ukončení projektu — Lime3DS, Azahar), která zvládá většinu her i s upscalingem do vysokého rozlišení a vyhlazením — paradoxně tak hry vypadají líp než na originále. Funguje i **na výkonném Androidu** (Citra MMJ a nástupci), takže Android handheldy typu **Retroid Pocket** nebo **Odin** ji rozjedou slušně. Slabší Linux handheldy (Anbernic H700, R36S) 3DS **prakticky neutáhnou** — tady je to doména výkonnějšího hardwaru. Nejautentičtější zážitek pochopitelně nabízí **původní konzole s custom firmwarem**, kde si navíc spustíš celou DS knihovnu.\n\n**Proč ji znát:** Nintendo 3DS spojilo bláznivý nápad (3D bez brýlí) s jednou z nejsilnějších herních knihoven generace — od Zeldy přes Pokémony po Monster Hunter — a navrch umí i celé DS.",
-      "gameCount": 35,
+      "gameCount": 37,
       "games": [
         {
           "slug": "3ds__super-mario-3d-land",
@@ -7924,6 +7979,66 @@
           "playUrl": null,
           "players": null,
           "rating": "PEGI 3"
+        },
+        {
+          "slug": "3ds__legend-of-zelda-majora-s-mask-3d",
+          "name": "The Legend of Zelda: Majora's Mask 3D",
+          "genre": "Action-adventure",
+          "length": "L",
+          "flags": [],
+          "year": "2015",
+          "studio": "Nintendo",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Vylepšený remake temné, časem posedlé Zeldy — tři dny do konce světa a proměnlivé masky. Nejatmosferičtější díl série, teď v kapse.",
+          "image": "/images/games/3ds/3ds__legend-of-zelda-majora-s-mask-3d.webp",
+          "gallery": [
+            {
+              "src": "/images/games/3ds/3ds__legend-of-zelda-majora-s-mask-3d.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/3ds/3ds__legend-of-zelda-majora-s-mask-3d-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "3ds__kirby-planet-robobot",
+          "name": "Kirby: Planet Robobot",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "2016",
+          "studio": "HAL Laboratory",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Kirby s robotickým mechem, kterým kopíruje schopnosti nepřátel i strojů. Jeden z nejvíc vyladěných a nápaditých 2D Kirbyů.",
+          "image": "/images/games/3ds/3ds__kirby-planet-robobot.webp",
+          "gallery": [
+            {
+              "src": "/images/games/3ds/3ds__kirby-planet-robobot.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/3ds/3ds__kirby-planet-robobot-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -16926,7 +17041,7 @@
       "image": "/images/platforms/master-system.png",
       "photoBg": "dark",
       "history": "SEGA Master System je tak trochu zapomenutý hrdina osmibitové éry. Když ho SEGA v roce 1985 uvedla v Japonsku (jako Sega Mark III, posléze přejmenovaný) a o rok později ve Spojených státech, postavila ho přímo proti Nintendu a jeho NES. Souboj o severoamerický a japonský trh prohrála na celé čáře — Nintendo si totiž tvrdými licenčními smlouvami pojistilo většinu třetích vývojářů a Master System tak měl po technické stránce slušnou konzoli, ale prázdné regály se softwarem.\n\nJenže pak je tu Evropa a Brazílie. Tady se příběh otáčí. Ve starém kontinentě, kde Nintendo zdaleka nemělo takový náskok, se Master System prosadil výrazně a stal se pro celou generaci hráčů tou první konzolí. A v Brazílii, kde distribuci převzala firma Tectoy, žila platforma neuvěřitelně dlouho — nové hry, varianty a redesigny se tam objevovaly ještě hluboko v novém tisíciletí. Pro retrohráče je Master System sympatický objev: působí jako „lepší NES, na který si nikdo nevzpomněl\".\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/master-system/3.webp\" alt=\"Sega Master System s původním ovladačem\" loading=\"lazy\"><figcaption>Sega Master System s původním ovladačem</figcaption></figure>\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je osmibitový procesor **Zilog Z80** běžící na zhruba 3,58 MHz — stejná rodina, jakou znají majitelé ZX Spectra nebo MSX. O grafiku se stará videočip **VDP** odvozený od Texas Instruments TMS9918, který SEGA výrazně vylepšila. Výsledkem je rozlišení **256×192 bodů** a paleta **64 barev**, z nichž lze na obrazovce zobrazit až **32 najednou** (dvě palety po šestnácti). To byl proti NES, který si vystačil s o poznání chudší a často „špinavou\" barevností, citelný krok vpřed — hry na Master Systemu vypadají sytěji a čistěji.\n\nHardware zvládal **až 64 spritů** s plynulým scrollováním na pozadí, což ocenily porty Seginých arkád. Slabinou byl naopak zvuk: základní čip **SN76489** (PSG) nabízí tři tónové kanály a jeden šumový. Je to funkční, ale ve srovnání s konkurencí spíš pípání. Japonská verze a japonské karty navíc počítaly s rozšířením o čip **Yamaha YM2413** (FM syntéza), takže titul puštěný na japonském Master Systemu zněl o třídu bohatěji než stejná hra na evropské konzoli.\n\n### Propojení a periferie\n\nMaster System měl na svou dobu pestré příslušenství. Nejznámější je **Light Phaser** — světelná pistole pro střílečky jako Safari Hunt nebo Rambo III. Vrcholem byly ovšem **SegaScope 3-D Glasses**, aktivní brýle se závěrkou pro stereoskopické 3D u hrstky titulů (Zaxxon 3-D, Maze Hunter 3-D). To byl v polovině osmdesátých let pozoruhodně odvážný experiment.\n\nZajímavým řešením byl dvojí formát médií: vedle klasických kartridží konzole četla i tenké **Sega Cards** (My Card) pro levnější, menší hry. Standardem byly dva porty pro ovladače, samostatné tlačítko Pause přímo na konzoli a u prvního modelu i vestavěná hra v paměti. Obraz se připojoval přes RF nebo kompozitní AV.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/master-system/2.webp\" alt=\"Japonská Sega Mark III z roku 1985\" loading=\"lazy\"><figcaption>Japonská Sega Mark III z roku 1985</figcaption></figure>\n\n### Modely a revize\n\nPůvodní **Master System** (1986) byl objemná černá krabice s ovládacími tlačítky a slotem na karty. V roce 1990 přišel **Master System II** — levnější a menší redesign, který vypustil slot na karty, tlačítko reset i konektor pro 3D brýle a místo Snail Maze míval zabudovaného osmibitového **Alex Kidd in Miracle World** (v některých regionech Sonic). Japonský základ tvořila **Sega Mark III** s možností FM zvukové jednotky.\n\nV Brazílii vznikla pod značkou Tectoy nepřeberná řada vlastních variant — od přenosných verzí až po modely se stovkami předinstalovaných her, vydávané ještě dlouho poté, co byla platforma jinde po světě dávno mrtvá.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/master-system/1.webp\" alt=\"Kapesní Sega Game Gear z roku 1990\" loading=\"lazy\"><figcaption>Kapesní Sega Game Gear z roku 1990</figcaption></figure>\n\n### Klony a varianty\n\nMaster System sdílí drtivou většinu hardwaru i knihovny s kapesním **Game Gearem** — ten je v podstatě přenosný Master System s podsvíceným displejem, takže obě platformy se dnes emulují prakticky pohromadě. Brazilská Tectoy navíc vyráběla licencované klony a pokračovala v lokálním vývoji.\n\nPro českého a československého hráče je férové přiznat, že Master System tu nebyl tak rozšířený jako u nás dominující ZX Spectrum a jeho klon **Didaktik**, ani jako pozdější famiclony typu Pegasus na bázi NES. Přesto se v Evropě obecně prosadil mnohem viditelněji než v USA, takže nostalgická vzpomínka na něj je tu silnější než za oceánem.\n\n### Dnešní scéna\n\nEmulace Master Systemu je dnes triviální — zvládne ji prakticky každé zařízení včetně levných čínských handheldů. Knihovna má své skvosty: průkopnické RPG **Phantasy Star** s 3D dungeony, vynikající sérii **Wonder Boy** (zejména The Dragon's Trap), osmibitovou linii Sonica i Segova původního maskota **Alexe Kidda**. Mnoho dalších titulů byly porty arkád jako Shinobi, Space Harrier či Fantasy Zone.\n\nPlatforma navíc stále žije i tvůrčí stranou: vychází moderní homebrew, například plošinovka **Devwill Too**, a to nezřídka i fyzicky na nových kartridžích. Master System tak zůstává ideální volbou pro každého, kdo má NES klasiky za sebou a chce poznat osmibitovou éru z jiného, sytěji vybarveného úhlu.",
-      "gameCount": 36,
+      "gameCount": 38,
       "games": [
         {
           "slug": "master-system__phantasy-star",
@@ -18101,6 +18216,66 @@
               "src": "/images/games/master-system/master-system__hang-on.webp",
               "label": "Obal",
               "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "master-system__sonic-hedgehog-2",
+          "name": "Sonic the Hedgehog 2 (8-bit)",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Sega / Aspect",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "8bitová dvojka s Tailsem, vlastními úrovněmi a nechvalně tuhým koncem. Úplně jiná hra než 16bitová verze — a svým způsobem kouzelná.",
+          "image": "/images/games/master-system/master-system__sonic-hedgehog-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/master-system/master-system__sonic-hedgehog-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/master-system/master-system__sonic-hedgehog-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "master-system__zillion",
+          "name": "Zillion",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1987",
+          "studio": "Sega",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Metroidovská akce podle anime — prozkoumáváš nepřátelskou základnu, luštíš kódy a osvobozuješ spojence. Podceňovaný klenot Master Systemu.",
+          "image": "/images/games/master-system/master-system__zillion.webp",
+          "gallery": [
+            {
+              "src": "/images/games/master-system/master-system__zillion.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/master-system/master-system__zillion-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
             }
           ],
           "link": null,
@@ -20124,7 +20299,7 @@
       "image": "/images/platforms/saturn.png",
       "photoBg": "dark",
       "history": "SEGA Saturn je tragickým hrdinou herní historie. Když ho Sega v listopadu 1994 uvedla v Japonsku, byl to ambiciózní stroj postavený na řadě procesorů — symbol toho, že Sega chtěla vstoupit do éry 3D s plnou silou. Jenže právě tahle síla se ukázala jako prokletí. Na americkém trhu konzoli pohřbil legendární moment z veletrhu E3 v květnu 1995, kde Sega oznámila překvapivý okamžitý prodej za 399 dolarů — krok, který naštval prodejce i vývojáře a z nějž se Saturn na Západě už nikdy nevzpamatoval. V Japonsku to ovšem byl docela jiný příběh: tam si konzole vedla slušně, dostala desítky exkluzivit a dodnes je mezi sběrateli a fajnšmekry vyhledávaným pokladem. Skrývá totiž skvosty jako **Panzer Dragoon Saga**, **Radiant Silvergun** či **Dragon Force**.\n\n### Technika: grafika a zvuk\n\nArchitektura Saturnu je pověstná svou složitostí. Srdce tvoří **dva 32bitové procesory Hitachi SH-2** taktované na 28,6 MHz, doplněné o dva grafické čipy **VDP1** (zodpovědný za sprity, polygony a renderování) a **VDP2** (vrstvy pozadí a scrolling). K tomu se přidává řídicí procesor a zvukový subsystém — celkem tedy stroj obsahuje působivý počet osmi procesorů. Tahle vícečipová filozofie dělala ze Saturnu mistra **2D grafiky**: zvládal obrovské množství spritů, prakticky neomezené vrstvy pozadí a hladký scrolling, díky čemuž dával nejlepší domácí porty arkádových 2D her své doby.\n\nHáček spočíval v 3D. VDP1 totiž nepracoval s trojúhelníky, ale s **čtyřúhelníkovými sprity (quady)**, což byl zcela jiný přístup, než jaký zvolila konkurence. Programování 3D scén bylo proto neintuitivní a náročné, a navíc rozdělit zátěž mezi dvě CPU bez sdílené cache uměl málokdo. Když Sony vydala technicky elegantnější a snadno programovatelný PlayStation, řada vývojářů Saturn raději obešla.\n\nO zvuk se staral procesor **Yamaha SCSP (Saturn Custom Sound Processor)** řízený vlastním Motorolou 68EC000. Nabízel **32 PCM/FM kanálů** a kvalitní digitální zvuk, který si nezadal s konkurencí a u hudebně silných titulů (třeba **NiGHTS into Dreams...**) přímo zářil.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/saturn/5.webp\" alt=\"Modem Sega NetLink pro síťové hraní\" loading=\"lazy\"><figcaption>Modem Sega NetLink pro síťové hraní</figcaption></figure>\n### Propojeni a periferie\n\nSaturn měl bohatý ekosystém příslušenství. Vepředu nesl **dva porty na ovladače**, k nimž se připojoval ikonický **3D Control Pad** s analogovou páčkou a analogovými spoušti — vznikl právě pro hru NiGHTS a předznamenal moderní ovládání. Sega nabízela i volant, arkádové páky a pro střílečky světelnou pistoli **Virtua Gun (Stunner)**.\n\nVelmi důležitým prvkem byly **rozšiřující kartridže** zasouvané do slotu na horní straně. Kromě paměťové karty pro ukládání pozic šlo hlavně o **RAM kartridže (1 MB a 4 MB)**, které dramaticky zlepšovaly porty náročných 2D bojovek od Capcomu a SNK — bez nich by třeba **X-Men vs. Street Fighter** na Saturnu nikdy neběžely tak věrně. Pro síťové hraní existoval v Japonsku modem **SegaNet** a NetLink na Západě. Obrazový výstup pokrýval kompozit, S-Video i RGB SCART, takže Saturn patří k nejlépe vypadajícím konzolím své generace na kvalitním displeji.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/saturn/2.webp\" alt=\"Americký Sega Saturn s ovladačem druhé generace\" loading=\"lazy\"><figcaption>Americký Sega Saturn s ovladačem druhé generace</figcaption></figure>\n### Modely a revize\n\nKonzole prošla několika redesigny. Původní **japonský model byl šedý**, zatímco na Západ dorazila ve **střídmé černé** variantě. Hardware se postupně zlevňoval: rané desky měly dvojici samostatných čipů, pozdější revize je integrovaly. Nejviditelnější změnou byl přechod od kulatých tlačítek a oválného konektoru u prvních kusů k **oválným/zaobleným tlačítkům** a levnějšímu provedení u pozdějších sérií. Kuriozitou je **HiSaturn** a **V-Saturn** — licencované varianty vyráběné firmami Hitachi a JVC (Victor), které se technicky shodovaly se Segou, lišily se jen značkou a krabicí. Hitachi šlo dokonce tak daleko, že vyrobilo i přenosnou hybridní verzi s LCD a navigací do auta (HiSaturn Navi).\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/saturn/4.webp\" alt=\"Japonský šedý Saturn s oválnými tlačítky\" loading=\"lazy\"><figcaption>Japonský šedý Saturn s oválnými tlačítky</figcaption></figure>\n### Klony a varianty\n\nSkutečné neoficiální klony Saturnu prakticky neexistují — architektura byla příliš složitá a drahá na to, aby ji někdo napodoboval, na rozdíl od jednoduchého NES. V bývalém **Československu** se Saturn oficiálně neprodával a na trh se dostával jen přes dovoz, takže šedý ani černý Saturn nebyl běžnou součástí dětských pokojů jako třeba famiclony Pegasus u osmibitů. Mezi \"varianty\" tak řadíme spíše výše zmíněné licencované verze **V-Saturn (JVC)** a **HiSaturn (Hitachi)** a regionální vydání (Japonsko, Severní Amerika, Evropa) s odlišnými regionálními zámky, kvůli nimž se dodnes používají přepínače a moddovací čipy.\n\n### Dnesni scena\n\nEmulace Saturnu patří k nejnáročnějším vůbec — právě kvůli osmiprocesorové architektuře. Léta byla nepřesná, dnes ji ale slušně zvládají emulátory jako **Mednafen/Beetle Saturn**, **Yabause** a jeho moderní nástupce **Kronos** či **SSF**. Na slabším hardwaru (například čipy H700 v přenosných Anbernicích) běží spolehlivě hlavně 2D tituly, kdežto náročné 3D hry potřebují výkonnější zařízení. Komunita ožila i díky **ODE mechanikám** (optical drive emulator, např. Fenrir nebo Satiator), které nahrazují stárnoucí CD mechaniku SD kartou. Kvete i homebrew a překlady japonských exkluzivit do angličtiny, takže poklady jako Saturn nabízí, jsou dnes dostupnější než kdy dřív.",
-      "gameCount": 44,
+      "gameCount": 46,
       "games": [
         {
           "slug": "saturn__nights-into-dreams",
@@ -21499,6 +21674,66 @@
               "src": "/images/games/saturn/saturn__enemy-zero.webp",
               "label": "Obal",
               "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "saturn__sonic-jam",
+          "name": "Sonic Jam",
+          "genre": "Platformer / Collection",
+          "length": "M",
+          "flags": [],
+          "year": "1997",
+          "studio": "Sonic Team",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Kolekce klasických Soniků z Mega Drive plus 3D „Sonic World\" hub k procházení. Nejlepší způsob, jak si na Saturnu zahrát staré ježky.",
+          "image": "/images/games/saturn/saturn__sonic-jam.webp",
+          "gallery": [
+            {
+              "src": "/images/games/saturn/saturn__sonic-jam.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/saturn/saturn__sonic-jam-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "saturn__fighting-vipers",
+          "name": "Fighting Vipers",
+          "genre": "Fighting",
+          "length": "M",
+          "flags": [],
+          "year": "1996",
+          "studio": "Sega AM2",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "3D bojovka od tvůrců Virtua Fighteru — bojovníci v brnění v arénách s ohradou. Svižnější a odvázanější sourozenec VF.",
+          "image": "/images/games/saturn/saturn__fighting-vipers.webp",
+          "gallery": [
+            {
+              "src": "/images/games/saturn/saturn__fighting-vipers.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/saturn/saturn__fighting-vipers-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
             }
           ],
           "link": null,
@@ -28024,7 +28259,7 @@
       "image": "/images/platforms/arcade.png",
       "photoBg": "dark",
       "history": "Herní automaty nejsou jedna platforma — jsou celý vesmír. Než přišly domácí konzole, hrálo se v hernách na mince, a právě tam se v sedmdesátých letech zrodil celý herní průmysl. **Pong** (1972), **Space Invaders** (1978), **Pac-Man** (1980) nebo **Donkey Kong** (1981) nevznikly na obrazovkách obýváků, ale v dřevěných skříních pod neonem. Po většinu osmdesátých a devadesátých let byly automaty technicky vždy o krok napřed před tím, co se dalo mít doma — a přesně to byl jejich tah na branku.\n\nKlíč k pochopení arkádového světa je obchodní model: automat měl brát mince. To diktovalo design her. Obtížnost byla často záměrně nemilosrdná, aby tě hra „zabila\" a donutila hodit další minci. Nebyla to chyba ani neschopnost vývojářů — byl to způsob, jak vydělat. Při domácí emulaci máš dnes neomezené credity, takže si tytéž hry můžeš užít bez vysávání peněženky a poznat je i z jiné strany, než jakou kdy chtěly ukázat.\n\n### Technika: grafika a zvuk\n\nMluvit o jednom „arkádovém hardwaru\" nejde — každá generace skříní měla vlastní desku. Společné měly jedno: stavěly se bez kompromisů, které svazovaly domácí stroje. Zatímco konzole musela být levná do každé domácnosti, automat si mohl dovolit víc paměti, rychlejší procesory a specializované grafické čipy.\n\nZlatou érou je pro fanoušky 2D období od konce osmdesátých do konce devadesátých let. Desky jako **Capcom CPS-1** a později **CPS-2** poháněly bojovky a beat 'em upy s velkými, plynule animovanými sprity a sytými barvami. **SNK Neo Geo** (deska MVS) excelovalo obrovskými sprity a paletou, která doma dlouho nebyla k mání — proto vypadaly hry jako Metal Slug nebo King of Fighters tak bohatě. Žánr shmupů (vertikálních střílecích) dotáhla k dokonalosti japonská **Cave**: bullet-hell tituly jako DoDonPachi nebo Mushihimesama plnily obrazovku stovkami nábojů bez zaškubnutí.\n\nZvuk byl podobně rozmanitý. Rané automaty kombinovaly jednoduché čipy a diskrétní obvody; v osmdesátých letech kralovaly FM syntézní čipy Yamaha (řada **YM**, např. YM2151 a YM2203), které daly arkádám charakteristický kovově zvonivý zvuk. S CPS-2 a Neo Geo přišly samplované nástroje a kvalitnější digitalizovaný zvuk.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/arcade/1.webp\" alt=\"Herna se shoot 'em up automaty v Tokiu\" loading=\"lazy\"><figcaption>Herna se shoot 'em up automaty v Tokiu</figcaption></figure>\n\n### Propojeni a periferie\n\nOvládání automatu bylo součástí zážitku, který doma nešel napodobit. Vedle klasického joysticku a tlačítek existovaly **šlapky a volanty** u závodních her, **světelné pistole** (light gun) u střílecích automatů typu Operation Wolf, **trackbally** (Centipede, Missile Command) i **rotační** ovladače (paddle). Některé skříně byly přímo zážitkové — sedačky se nakláněly, kabina se třásla.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/arcade/2.webp\" alt=\"Závodní arkádový automat s volantem\" loading=\"lazy\"><figcaption>Závodní arkádový automat s volantem</figcaption></figure>\n\nDůležitý formát byl **cabinet versus cocktail**: stojací skříň (upright) proti stolovému provedení, kde hráči seděli proti sobě a obraz se mezi tahy otáčel. Linkové propojení více skříní existovalo u závodních her, kde proti sobě jezdilo víc hráčů na vedle stojících strojích.\n\n### Modely a varianty\n\nMísto „revizí jedné konzole\" má arkáda celé rodiny systémových desek. Stojí za zmínku zejména:\n\n- **Capcom CPS-1 / CPS-2 / CPS-3** — postupné generace s vyměnitelnými herními kazetami, srdce Capcomu devadesátých let (Street Fighter, Final Fight).\n- **SNK Neo Geo MVS** — automat s několika sloty, kam provozovatel zasunul až šest různých her najednou; technicky shodný s domácí variantou.\n- **Sega System 16** a pozdější 3D desky **Model 1/2/3** — Sega tlačila polygonovou grafiku (Virtua Fighter, Daytona USA).\n- **Taito**, **Konami** a **Namco** měly rovněž vlastní řady desek s vlastními zvukovými i grafickými čipy.\n\nPrávě tahle roztříštěnost je důvod, proč je emulace arkád náročnější než u jedné uzavřené konzole.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/arcade/3.webp\" alt=\"Zážitková kabina Ridge Racer Full Scale\" loading=\"lazy\"><figcaption>Zážitková kabina Ridge Racer Full Scale</figcaption></figure>\n\n### Klony a varianty\n\nArkádový svět byl odjakživa plný **bootlegů** — neoficiálních kopií populárních desek, často vyráběných v Asii nebo Itálii, které obcházely licence. Mnohé klasiky tak kolovaly v desítkách regionálních verzí a pirátských variant; MAME je dnes pečlivě katalogizuje vedle originálů.\n\nDomácí stopa je tu nepřímá: Neo Geo prodávalo SNK i jako (extrémně drahou) domácí konzoli **Neo Geo AES**, takže nejbohatší hráči měli herní automat doslova v obýváku. V československém a východoevropském kontextu se herny v podobě západních skříní rozšířily až po roce 1989; do té doby šlo spíš o ojedinělé stroje a později o lokální kopie populárních titulů.\n\n### Dnešní scéna\n\nEmulace arkád stojí na dvou pilířích. **MAME** (Multiple Arcade Machine Emulator) je obří projekt usilující o věrné zachování tisíců desek — preferuje přesnost před výkonem. **FinalBurn Neo (FBNeo)** se zaměřuje na nejoblíbenější hardware (CPS, Neo Geo, Sega) a běží svižně i na slabším železe.\n\nJedna věc je pro nováčka zásadní: arkádové ROM soubory musí **přesně odpovídat verzi emulátoru**. Romset je svázaný s konkrétní verzí MAME nebo FBNeo, a když to nesedí, hra prostě nenaběhne — což je nejčastější zdroj frustrace začátečníků.\n\nNa ručních konzolích s čipem H700 běží drtivá většina 2D klasik skvěle; problém dělají jen nejmodernější 3D automaty, které stejně do retro estetiky nepatří. Arcade je tak nevyčerpatelná studnice na krátké, intenzivní session — hodíš pomyslnou minci a jedeš.",
-      "gameCount": 75,
+      "gameCount": 84,
       "games": [
         {
           "slug": "arcade__bubble-bobble",
@@ -30129,6 +30364,260 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "arcade__space-invaders",
+          "name": "Space Invaders",
+          "genre": "Shmup",
+          "length": "S",
+          "flags": [],
+          "year": "1978",
+          "studio": "Taito",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Praotec všech střílinek: ničíš postupující řady mimozemšťanů, kteří s každým sestřelem zrychlují. Hra, která rozpoutala celý herní boom a dodnes je symbolem videoher.",
+          "image": "/images/games/arcade/arcade__space-invaders.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__space-invaders.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__space-invaders-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__missile-command",
+          "name": "Missile Command",
+          "genre": "Shooter",
+          "length": "S",
+          "flags": [],
+          "year": "1980",
+          "studio": "Atari",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Trackballem bráníš šest měst před deštěm balistických raket. Napínavá, tísnivá studenoválečná klasika, kterou nakonec vždycky prohraješ.",
+          "image": "/images/games/arcade/arcade__missile-command.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__missile-command.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__xevious",
+          "name": "Xevious",
+          "genre": "Shmup",
+          "length": "S",
+          "flags": [],
+          "year": "1983",
+          "studio": "Namco",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Vertikální střílečka se dvěma typy zbraní — na vzdušné cíle i na pozemní. Tajemná atmosféra a obrovský vliv na celý žánr shmupů.",
+          "image": "/images/games/arcade/arcade__xevious.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__xevious.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__xevious-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__dragon-s-lair",
+          "name": "Dragon's Lair",
+          "genre": "Interactive movie",
+          "length": "S",
+          "flags": [],
+          "year": "1983",
+          "studio": "Cinematronics",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Laserdiscová kreslená hra s animací Dona Blutha — rytíř Dirk zachraňuje princeznu. Ovládáš ji rychlými reakcemi ve správný moment. Vizuální fenomén 80. let.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__marble-madness",
+          "name": "Marble Madness",
+          "genre": "Puzzle / Action",
+          "length": "S",
+          "flags": [],
+          "year": "1984",
+          "studio": "Atari",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Trackballem valíš kuličku izometrickými bludišti proti času, přes propasti a nepřátele. Stylově i technicky nezvyklá klasika.",
+          "image": "/images/games/arcade/arcade__marble-madness.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__marble-madness.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__marble-madness-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__paperboy",
+          "name": "Paperboy",
+          "genre": "Action",
+          "length": "S",
+          "flags": [],
+          "year": "1985",
+          "studio": "Atari",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Rozvážíš noviny na kole předměstskou ulicí — trefuješ schránky předplatitelů a uhýbáš překážkám. Kultovní zvláštnost s handlebar ovladačem.",
+          "image": "/images/games/arcade/arcade__paperboy.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__paperboy.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__paperboy-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__contra",
+          "name": "Contra (arcade)",
+          "genre": "Run & gun",
+          "length": "M",
+          "flags": [],
+          "year": "1987",
+          "studio": "Konami",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Arkádový originál slavné run & gun akce — dvě komanda kosí mimozemskou invazi. Odtud pochází i legendární (a ještě těžší) NES verze.",
+          "image": "/images/games/arcade/arcade__contra.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__contra.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__contra-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__double-dragon",
+          "name": "Double Dragon (arcade)",
+          "genre": "Beat 'em up",
+          "length": "M",
+          "flags": [],
+          "year": "1987",
+          "studio": "Technos",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Zakladatel moderních beat 'em up: bratři Billy a Jimmy Lee proti gangu Black Warriors. Kooperace pro dva definovala celý žánr.",
+          "image": "/images/games/arcade/arcade__double-dragon.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__double-dragon.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__double-dragon-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "arcade__golden-axe",
+          "name": "Golden Axe (arcade)",
+          "genre": "Beat 'em up",
+          "length": "M",
+          "flags": [],
+          "year": "1989",
+          "studio": "Sega",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Fantasy mlátička s barbarem, trpaslíkem a amazonkou — jízda na dracích, magické lektvary a řež pro dva. Sega klasika heren.",
+          "image": "/images/games/arcade/arcade__golden-axe.webp",
+          "gallery": [
+            {
+              "src": "/images/games/arcade/arcade__golden-axe.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/arcade/arcade__golden-axe-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -30144,7 +30633,7 @@
       "image": "/images/platforms/neogeo.png",
       "photoBg": "dark",
       "history": "Když SNK v roce 1990 představila Neo Geo, nešlo o běžnou domácí konzoli, ale o malý zázrak: doslova **arkádový automat přenesený do obýváku**. Systém měl dvě tváře — herní automat **MVS** (Multi Video System) určený do heren a domácí konzoli **AES** (Advanced Entertainment System). Obě varianty sdílely naprosto identický hardware, takže hra, která běžela v herně, vypadala doma úplně stejně. To byla v době, kdy domácí porty arkád byly zpravidla osekané kompromisy, naprostá senzace. Cenu ovšem mělo Neo Geo také královskou: domácí systém i jednotlivé cartridge stály tolik, že šlo o luxusní zboží pro nadšence s hlubokou kapsou. Přesto si Neo Geo vybudovalo legendární status a zůstalo komerčně živé neuvěřitelně dlouho — software pro něj vycházel oficiálně až do roku 2004.\n\nSíla Neo Geo nespočívala v technické revoluci samotného procesoru, ale v brutálně předimenzovaných možnostech pro 2D grafiku a v tom, že SNK dokázala udržet platformu v životě déle než kterýkoli konkurent. Stalo se domovem ikonických sérií, které definovaly žánr bojovek a run-and-gun akce.\n\n### Technika: grafika a zvuk\n\nSrdcem systému je **16bitový procesor Motorola 68000** taktovaný na zhruba 12 MHz, doplněný o **Zilog Z80** jako zvukový koprocesor. Na svou dobu Neo Geo zaujalo extrémním důrazem na sprity. Hardware zvládal zobrazit obrovské množství velkých, detailně animovaných postav současně, díky čemuž působily bojovky a akční hry mnohem plynuleji a \"tučněji\" než na běžných domácích konzolích.\n\nRozlišení obrazu bylo **320×224 pixelů**. Klíčová byla barevná paleta: systém disponoval **paletou 65 536 barev**, z nichž mohl na obrazovce zobrazit zhruba **4 096 barev současně**. To dávalo grafice charakteristicky sytý, kreslený vzhled. Sprity bylo možné navíc škálovat a deformovat, což autoři využívali pro efekty přibližování a \"zoomování\" v bojovkách jako **Art of Fighting** či **Fatal Fury**.\n\nZvuk obstarával vyhlášený čip **Yamaha YM2610**. Kombinoval FM syntézu s přehráváním samplovaných (ADPCM) zvuků a měl k dispozici více kanálů — výsledkem byly nezapomenutelné soundtracky a hlasité, dramatické digitalizované hlasy. Právě zvuková stránka výrazně přispěla k arkádové atmosféře her jako **Metal Slug** nebo **The King of Fighters '98**.\n\n### Propojení a periferie\n\nDomácí AES používalo masivní cartridge — největší a nejdražší herní moduly své éry, schopné pojmout obrovské objemy dat, což umožňovalo onu bohatou grafiku a zvuk. Konzole měla dva porty pro ovladače a dodávala se s legendárním velkým **joystickem s mikrospínači**, který kopíroval pocit z herního automatu.\n\nDůležitou periferií byla **paměťová karta (Memory Card)**. Šlo o jeden z prvních systémů, který tento koncept uvedl: hráč mohl uložit svůj postup na kartu, vzít ji s sebou do herny, zasunout do automatu MVS se stejnou hrou a pokračovat tam, kde doma skončil. Toto propojení domova a herny bylo na svou dobu výjimečné. SNK později vydala i CD variantu s vlastním optickým mechanismem (viz dále).\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/neogeo/1.webp\" alt=\"Domácí konzole Neo Geo AES od SNK\" loading=\"lazy\"><figcaption>Domácí konzole Neo Geo AES od SNK</figcaption></figure>\n### Modely a revize\n\nZákladní rozdělení tvoří už zmíněné **MVS** (herní automaty, často s více sloty na cartridge — verze pro 1, 2, 4 i 6 her) a domácí **AES**. AES se prodávalo v různých regionálních variantách.\n\nVedle nákladného cartridgeového AES uvedla SNK v roce 1994 levnější **Neo Geo CD**, které ukládalo hry na běžná CD. Snížilo se tím dramaticky cena médií, ovšem za cenu pomalého nahrávání (loading) a omezené paměti, takže některé hry musely být upraveny. Existovaly i revize CD jednotky, mimo jiné rychlejší **Neo Geo CDZ** určená primárně pro japonský trh.\n\nMnohem později, v roce 1998, přišla kapesní konzole **Neo Geo Pocket** a vzápětí barevná **Neo Geo Pocket Color** — to už ale byl samostatný handheld, nikoli zmenšenina velkého systému.\n\n### Klony a varianty\n\nVzhledem k vysoké ceně a uzavřenosti hardwaru se \"klasické\" levné klony Neo Geo nerozšířily tak jako u osmibitových strojů. Scéna se však dlouhodobě potýkala s **pirátskými a neoficiálními cartridgemi** (zejména konvertory mezi formáty MVS a AES a kopie her), které byly v komunitě velmi rozšířené.\n\nV moderní době SNK sama vydala oficiální miniaturní retro variantu — **Neo Geo Mini** (2018), kompaktní zařízení v podobě miniaturního automatu s vestavěnou kolekcí her a malou obrazovkou, plus oficiální ovladače stylizované do podoby původního arkádového sticku.\n\n### Dnešní scéna\n\nNeo Geo patří mezi nejlépe zdokumentované a emulované platformy vůbec. Hry MVS i AES věrně spouští například **MAME** a specializované emulátory jako **FinalBurn Neo**, takže celá knihovna je dostupná i na slabších zařízeních a handheldech. SNK navíc své klasiky aktivně přeprodává — kolekce **ACA Neo Geo** vycházejí na moderních konzolích a PC a zpřístupňují jednotlivé tituly v autentické podobě i s online žebříčky.\n\nŽivá zůstává i **homebrew** komunita, která pro Neo Geo vytváří zcela nové hry a dema, často distribuované i na reálných cartridgích. Spolu s emulací a oficiálními reedicemi tak platforma, jejíž software vznikal přes čtrnáct let, zůstává naživu i více než tři dekády po svém uvedení.",
-      "gameCount": 32,
+      "gameCount": 35,
       "games": [
         {
           "slug": "neogeo__metal-slug-2",
@@ -30767,6 +31256,96 @@
           "rating": null
         },
         {
+          "slug": "neogeo__king-of-monsters",
+          "name": "King of the Monsters",
+          "genre": "Fighting",
+          "length": "M",
+          "flags": [],
+          "year": "1991",
+          "studio": "SNK",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Wrestling obřích monster ve stylu Godzilly — ničíš celá města a rveš se s dalšími kaiju. Bombastická řež pro dva.",
+          "image": "/images/games/neogeo/neogeo__king-of-monsters.webp",
+          "gallery": [
+            {
+              "src": "/images/games/neogeo/neogeo__king-of-monsters.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/neogeo/neogeo__king-of-monsters-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "neogeo__viewpoint",
+          "name": "Viewpoint",
+          "genre": "Shmup",
+          "length": "M",
+          "flags": [],
+          "year": "1992",
+          "studio": "Sammy / Aicom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Izometrická střílečka s fascinující 3D perspektivou, acid-jazz soundtrackem a brutální obtížností. Vizuálně jedna z nejkrásnějších na Neo Geo.",
+          "image": "/images/games/neogeo/neogeo__viewpoint.webp",
+          "gallery": [
+            {
+              "src": "/images/games/neogeo/neogeo__viewpoint.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/neogeo/neogeo__viewpoint-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "neogeo__fatal-fury-3-road-to-final-victory",
+          "name": "Fatal Fury 3: Road to the Final Victory",
+          "genre": "Fighting",
+          "length": "M",
+          "flags": [],
+          "year": "1995",
+          "studio": "SNK",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Bojovka SNK s třídráhovým systémem uhýbání do popředí a pozadí. Přímý předchůdce série Garou, se stylovými postavami Southtownu.",
+          "image": "/images/games/neogeo/neogeo__fatal-fury-3-road-to-final-victory.webp",
+          "gallery": [
+            {
+              "src": "/images/games/neogeo/neogeo__fatal-fury-3-road-to-final-victory.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/neogeo/neogeo__fatal-fury-3-road-to-final-victory-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
           "slug": "neogeo__metal-slug-1-x-3",
           "name": "Metal Slug 1–X / 3",
           "genre": "Run & gun",
@@ -31206,7 +31785,7 @@
       "image": "/images/platforms/cps.jpg",
       "photoBg": "dark",
       "history": "Když se v roce 1988 objevil v hernách první automat postavený na desce **CP System** (zkráceně **CPS**, často přezdívané \"CPS-1\"), znamenalo to pro Capcom začátek éry, která firmu na příští dekádu posunula mezi absolutní špičku arkádového průmyslu. CPS nebyla konzole ani počítač v domácím smyslu slova, ale rodina **arkádových desek** (PCB), na nichž běžely automaty do herních hal. A právě tady vznikly hry, které definovaly celé žánry — od bojovek po beat 'em up. Bez CPS by neexistoval fenomén **Street Fighter II**, který v roce 1991 doslova zaplavil herny celého světa a rozjel zlatou éru japonských bojových her.\n\nCapcom postupně vydal tři generace: **CP System (CPS-1, 1988)**, **CP System II (CPS-2, 1993)** a technicky odlišný **CP System III (CPS-3, 1996)**. Každá posouvala laťku grafiky i ochrany proti pirátství a dohromady tvoří jeden z nejvlivnějších herních hardwarů vůbec.\n\n### Technika: grafika a zvuk\n\nSrdcem CPS-1 i CPS-2 byl 16bitový procesor **Motorola 68000**. CPS-1 ho taktoval kolem 10 MHz, CPS-2 na 16 MHz, což přineslo svižnější logiku a větší objem dat na obrazovce. Obraz měl typické arkádové rozlišení **384×224 pixelů**. Klíčem k pověstnému \"capcomovskému\" vzhledu byla práce se **sprity** — desky zvládaly velké, několikadílné postavy složené z mnoha dlaždic, plynulou animaci a vícevrstvé pozadí s nezávislým **scrollingem**. Zatímco CPS-1 nabízela paletu v řádu tisíců barev, **CPS-2 ji výrazně rozšířila** (řádově tisíce barev současně na scéně) a umožnila bohatší stínování i průhlednosti, díky čemuž hry jako *Street Fighter Alpha 3* nebo *X-Men: Children of the Atom* vypadaly oproti starší generaci znatelně sytěji.\n\nZvuk obstarával samostatný **Zilog Z80** jako zvukový procesor ve spojení s FM syntézou **Yamaha YM2151** a PCM čipem **OKI MSM6295** pro samply. Tato kombinace dávala charakteristický mix melodických FM linek a navzorkovaných efektů i hlášek. **CPS-3** šla úplně jinou cestou: postavená byla na procesoru **Hitachi SH-2**, používala data na **CD-ROM**, která se po startu nahrávala do paměti, a vynikala obrovskými, plynule animovanými sprity s ručně kreslenou kvalitou — vrcholem je *Street Fighter III: 3rd Strike* s jeho dechberoucí animací.\n\n### Propojeni a periferie\n\nJako arkádový hardware se CPS desky zasouvaly do skříní standardu **JAMMA** (u CPS-2 šlo o dvoudílnou kazetu: \"A-board\" se základem a vyměnitelný \"B-board\" s hrou). Ovládání tvořil **joystick a tlačítka** — typicky šest tlačítek u bojovek, méně u akčních her. Většina titulů podporovala **dva hráče** současně; beat 'em upy jako *Cadillacs and Dinosaurs*, *The Punisher* nebo *Alien vs. Predator* uměly i **kooperaci tří hráčů** na speciálně osazených deskách. Obraz šel přes analogový **RGB** signál do monitoru skříně. Žádné paměťové karty ani modemy se zde nepoužívaly — postupy a high score žily v rámci automatu, dokud byl pod proudem.\n\n### Modely a revize\n\nVývoj probíhal ve třech hlavních generacích. **CPS-1** prošla několika revizemi desek a dočkala se i dělené verze **CPS-1.5 (CPS Dash)**, na níž běžel například *Cadillacs and Dinosaurs* či *The Punisher* a která ležela na pomezí mezi první a druhou generací. **CPS-2** přinesla zásadní novinku — silné **šifrování** programového kódu uloženého v kazetě, zálohované baterií. To mělo zastavit pirátství, mělo to ale zákeřný vedlejší efekt: po vybití baterie deska \"umírala\" (tzv. **suicide battery**), protože ztratila dešifrovací klíče. **CPS-3** používala šifrovaný obsah z CD nahraný do paměti zálohované baterií se stejným rizikem; vyšlo na ní jen několik her, mimo jiné *Warzard/Red Earth* a série *Street Fighter III*.\n\n### Klony a varianty\n\nOriginální CPS hardware Capcom nelicencoval k výrobě klonů, takže žádné oficiální napodobeniny v duchu \"Pegasusu\" nebo *Didaktiku* tu neexistují. Co ale provázelo CPS-1 i CPS-2 prakticky od začátku, byly **pirátské kopie a bootlegy** — neoprávněně okopírované desky bojovek (zejména *Street Fighter II* a jejích nesčetných \"turbo\" a \"hyper\" hacků), které zaplavily šedý trh i v Evropě a v zemích bývalého východního bloku, kde se do heren a hospod dostávaly cestou mimo oficiální distribuci. Hodnotu těchto desek dnes naopak zvedá sběratelská scéna, která pečlivě rozlišuje originály od bootlegů.\n\n### Dnesni scena\n\nCPS dnes patří k nejlépe podchyceným arkádovým platformám. Emulátor **MAME** (a jeho odnož **FinalBurn Neo**) spolehlivě rozběhne drtivou většinu CPS-1, CPS-2 i CPS-3 her a komunita dávno **rozluštila šifrování CPS-2 i CPS-3**, takže \"mrtvé\" desky lze oživit (tzv. *phoenix* edice romů s vypálenými klíči). Mnoho titulů vyšlo legálně i v moderních kompilacích — například řada *Capcom Arcade Stadium* nebo *Street Fighter 30th Anniversary Collection*. Pro fanoušky reálného železa existují **konzolizační kity** a reproduktorové skříně, díky nimž lze originální desku připojit k modernímu displeji. CPS tak zůstává živé nejen v hernách paměti, ale i na obrazovkách dnešních hráčů.",
-      "gameCount": 28,
+      "gameCount": 31,
       "games": [
         {
           "slug": "cps__ghouls-n-ghosts",
@@ -31541,6 +32120,96 @@
           "gallery": [
             {
               "src": "/images/games/cps/cps__progear-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "cps__mega-man-power-battle",
+          "name": "Mega Man: The Power Battle",
+          "genre": "Fighting / Action",
+          "length": "S",
+          "flags": [],
+          "year": "1995",
+          "studio": "Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Arkádová odbočka Mega Mana: souboje s bossy z klasické série jeden za druhým, i pro dva hráče. Rychlá nostalgická akce pro fanoušky Modrého bombardéra.",
+          "image": "/images/games/cps/cps__mega-man-power-battle.webp",
+          "gallery": [
+            {
+              "src": "/images/games/cps/cps__mega-man-power-battle.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/cps/cps__mega-man-power-battle-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "cps__mercs",
+          "name": "Mercs",
+          "genre": "Run & gun",
+          "length": "M",
+          "flags": [],
+          "year": "1990",
+          "studio": "Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Vertikální komando akce (Senjou no Ookami II) — probíjíš se džunglí a základnami za osvobozením rukojmích. Svižné, výbušné CPS.",
+          "image": "/images/games/cps/cps__mercs.webp",
+          "gallery": [
+            {
+              "src": "/images/games/cps/cps__mercs.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/cps/cps__mercs-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "cps__magic-sword",
+          "name": "Magic Sword",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1990",
+          "studio": "Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Šplháš padesátipatrovou věží plnou monster a osvobozuješ spojence, kteří ti pak kryjí záda. Krásná Capcom fantasy akce.",
+          "image": "/images/games/cps/cps__magic-sword.webp",
+          "gallery": [
+            {
+              "src": "/images/games/cps/cps__magic-sword.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/cps/cps__magic-sword-title.webp",
               "label": "Titulní obrazovka",
               "kind": "title"
             }
@@ -36459,7 +37128,7 @@
       "image": "/images/platforms/msx.png",
       "photoBg": "dark",
       "history": "Když se v roce 1983 spojily Microsoft a japonská ASCII Corporation, měly v hlavě myšlenku, která zněla téměř kacířsky: vytvořit jednotný standard domácího počítače, který by mohla vyrábět celá řada firem. Místo jednoho výrobce, jednoho stroje a jedné softwarové knihovny tu měla vzniknout otevřená platforma — něco jako pozdější PC, jen o pár let dříve. Pod hlavičku MSX se postupně přihlásily takové značky jako **Sony, Panasonic, Philips, Sanyo, Toshiba, JVC** nebo **Canon**. Komerčně standard uspěl hlavně v Japonsku, Nizozemsku, Španělsku a Brazílii; na anglofonních trzích, kde už vládli Commodore a Sinclair, se prosadit nedokázal.\n\nPro herní historii je přitom MSX nepostradatelný. Právě tady totiž **Hideo Kojima** vytvořil úplně první **Metal Gear** (1987) a o rok později i vyspělejší **Metal Gear 2: Solid Snake**. Konami sem dalo původní **Vampire Killer**, tedy MSX verzi Castlevanie, a celou řadu skvělých akčních her a stříleček. MSX byl v Japonsku domovem Konami v jeho zlaté éře — a knihovna platformy je dodnes pokladnicí titulů, které se na Západ nikdy nedostaly.\n\n### Technika: grafika a zvuk\n\nSrdcem prvního MSX byl osmibitový procesor **Zilog Z80A** taktovaný na 3,58 MHz. O obraz se staral videočip **Texas Instruments TMS9918** (respektive jeho varianty), tedy stejná rodina, jakou používaly **ColecoVision** a **Sega SG-1000**. Nabízel rozlišení 256×192 bodů, paletu **16 barev** a hardwarovou podporu **32 spritů**. Slabinou tohoto čipu byl omezený počet barev na jeden řádek a notoricky známý problém s mizením spritů, když jich bylo na řádku víc než čtyři. Základní zvuk obstarával čip **General Instrument AY-3-8910** se třemi tónovými kanály a generátorem šumu — stejný princip jako u ZX Spectra 128 nebo Amstradu CPC.\n\nSkutečný skok přinesl v roce 1985 **MSX2**. Nový videočip **Yamaha V9938** zvládal rozlišení až 512×212, paletu **512 barev** (s režimy zobrazujícími 16 nebo 256 barev současně) a hlavně **hardwarový scrolling a bitmapové režimy**, které z MSX2 udělaly výrazně schopnější herní stroj. Pozdější **MSX2+** přidal plynulé horizontální rolování a další barevné režimy; finální **MSX turbo R** (1990) nasadil rychlejší procesor R800. Mnoho japonských strojů navíc obsahovalo Yamahův zvukový čip, na který navazovaly i rozšiřující hudební moduly.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/msx/2.webp\" alt=\"Počítač Dynadata DPC 200 s disketovou mechanikou\" loading=\"lazy\"><figcaption>Počítač Dynadata DPC 200 s disketovou mechanikou</figcaption></figure>\n\n### Propojeni a periferie\n\nMSX byl plnohodnotný počítač, takže měl klávesnici — některé hry ji vyžadují a na handheldech to bývá jediná komplikace emulace. Standard počítal se **dvěma porty pro joystick** (kompatibilní s konektorem Atari), takže hru pro dva hráče šlo hrát bez problémů. Klíčovým prvkem byl **cartridge slot** (často dva), do kterého se zapojovaly herní moduly i rozšíření, a port pro **kazetový magnetofon** k ukládání programů. Později se rozšířily **disketové mechaniky** (3,5\"), které se staly hlavním médiem zejména v Evropě.\n\nMezi periferie patřily myš, light pen, datová úložiště i hudební moduly. Vlastní kapitolou jsou rozšiřující zvukové cartridge jako **Konami SCC**, díky kterému zněly pozdější Konami hry (například Space Manbow nebo Nemesis 2) výrazně bohatěji než standardní AY čip. Některé moduly přinášely **FM syntézu** (Yamaha OPLL), takže audio MSX dokázalo přerůst svůj skromný základ.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/msx/3.webp\" alt=\"Sony MSX HitBit HB-10P z 80. let\" loading=\"lazy\"><figcaption>Sony MSX HitBit HB-10P z 80. let</figcaption></figure>\n\n### Modely a revize\n\nStandard se vyvíjel v jasně daných generacích. **MSX (1983)** byl základ se Z80 a čipem TMS9918. **MSX2 (1985)** přinesl Yamahu V9938, větší paletu a více paměti. **MSX2+ (1988)** rozšířil grafiku o plynulý scrolling a nové barevné režimy a zůstal prakticky výhradně japonskou záležitostí. Vrcholem byl **MSX turbo R (1990)** od Panasonicu s 16bitově laděným procesorem R800. Uvnitř každé generace pak existovaly desítky konkrétních modelů od různých výrobců — od kompaktních strojů Sony řady HitBit přes Philips VG-8000 po Panasonicy FS — které se lišily pamětí, počtem slotů či vestavěnými mechanikami, ale díky standardu zůstávaly vzájemně kompatibilní.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/msx/4.webp\" alt=\"Domácí počítač Philips VG-8020\" loading=\"lazy\"><figcaption>Domácí počítač Philips VG-8020</figcaption></figure>\n\n### Klony a varianty\n\nProtože MSX byl otevřený standard, „klony\" v pravém slova smyslu nedávají úplně smysl — legálních výrobců byla celá řada už od počátku. Zajímavá je ovšem východní stopa. V **Sovětském svazu** se MSX a MSX2 stroje (například **Yamaha YIS** dovážené pro školy) hojně používaly ve výuce informatiky a staly se pro celou generaci prvním počítačem. MSX se prosadil i v Jižní Koreji a v Brazílii, kde ho pod vlastními značkami **Gradiente** a **Sharp/Epcom** vyráběly místní firmy. V Československu MSX rozšířený nebyl — tuzemské scéně vévodila spíš ZX Spectra a jejich klony Didaktik, takže MSX zůstal u nás především záležitostí pozdějších sběratelů a emulace.\n\n### Dnesni scena\n\nMSX patří k vůbec nejživějším retro komunitám. Emulátory jako **openMSX** nebo **blueMSX** zvládají celou rodinu strojů věrně a bez potíží, takže rozběhnout Metal Gear nebo Aleste je otázkou chvilky. Scéna je navíc mimořádně plodná díky každoroční soutěži **MSXdev**, ze které vychází desítky nových her ročně. K nejlepšímu modernímu homebrew patří precizní metroidvania **Pampas & Selene** — důkaz, že čtyřicetiletý standard má pořád co nabídnout.",
-      "gameCount": 26,
+      "gameCount": 29,
       "games": [
         {
           "slug": "msx__metal-gear",
@@ -37148,6 +37817,96 @@
           "gallery": [
             {
               "src": "/images/games/msx/msx__aleste-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "msx__goonies",
+          "name": "The Goonies",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "1986",
+          "studio": "Konami",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Konami plošinovka podle filmu — provádíš partu Rošťáků jeskyněmi a osvobozuješ kamarády. Na MSX naprosto kultovní.",
+          "image": "/images/games/msx/msx__goonies.webp",
+          "gallery": [
+            {
+              "src": "/images/games/msx/msx__goonies.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/msx/msx__goonies-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "msx__zanac",
+          "name": "Zanac",
+          "genre": "Shmup",
+          "length": "M",
+          "flags": [],
+          "year": "1986",
+          "studio": "Compile",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Rychlá vertikální střílečka s chytrou adaptivní obtížností — hra reaguje na tvůj styl hraní. Compile v nejlepší formě.",
+          "image": "/images/games/msx/msx__zanac.webp",
+          "gallery": [
+            {
+              "src": "/images/games/msx/msx__zanac.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/msx/msx__zanac-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "msx__antarctic-adventure",
+          "name": "Antarctic Adventure",
+          "genre": "Action",
+          "length": "S",
+          "flags": [],
+          "year": "1983",
+          "studio": "Konami",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Roztomilý tučňák běží a skáče přes ledové trhliny okolo Antarktidy. Raná Konami klasika a jeden z maskotů MSX éry.",
+          "image": "/images/games/msx/msx__antarctic-adventure.webp",
+          "gallery": [
+            {
+              "src": "/images/games/msx/msx__antarctic-adventure.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/msx/msx__antarctic-adventure-title.webp",
               "label": "Titulní obrazovka",
               "kind": "title"
             }
@@ -42361,7 +43120,7 @@
       "image": "/images/platforms/c64.png",
       "photoBg": "dark",
       "history": "Když Commodore v srpnu 1982 představil Commodore 64, málokdo tušil, že právě spouští stroj, který se zapíše do Guinnessovy knihy rekordů jako nejprodávanější model počítače všech dob. Odhady se různí mezi 12 a 17 miliony prodaných kusů, a i ta nižší hranice je číslo, jakému se žádný jiný domácí počítač nepřiblížil. Tajemství úspěchu nebylo jen v technice, ale v ceně — Commodore vlastnil výrobce čipů MOS Technology, a tak mohl vést agresivní cenovou válku, která konkurenty jako Texas Instruments doslova vytlačila z trhu. C64 přinesl výpočetní techniku a hraní do milionů obýváků a stal se nekorunovaným králem evropské herní scény osmdesátých let. Zatímco v USA a Japonsku vládly konzole, v Evropě se hrálo na „šedesátčtyřce\".\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/c64/3.webp\" alt=\"Commodore 64 z roku 1982\" loading=\"lazy\"><figcaption>Commodore 64 z roku 1982</figcaption></figure>\n\n### Technika: grafika a zvuk\n\nSrdcem počítače byl osmibitový procesor **MOS 6510** (varianta slavného 6502) běžící na zhruba 1 MHz a 64 kB paměti RAM, podle nichž počítač dostal jméno. O obraz se staral grafický čip **VIC-II**, který zvládal textový i bitmapový režim, paletu **16 barev** a hardwarovou podporu **osmi spritů** (pohyblivých objektů) na řádek. Právě sprity a hardwarový hladký scrolling umožnily plynulé arkádové akce, na něž byl třeba na ZX Spectru kratší dech. Demoscéna navíc objevila řadu triků, jak limity překonat — multiplexing spritů pro desítky objektů na obrazovce nebo otevírání horního a dolního okraje obrazu.\n\nSkutečnou tajnou zbraní byl ale zvukový čip **SID** (oficiálně MOS 6581, později revize 8580). Na rok 1982 šlo o neuvěřitelně schopný hudební procesor se **třemi nezávislými hlasy**, čtyřmi tvary vlny (pila, trojúhelník, obdélník/pulz a šum), obálkami ADSR, kruhovou modulací a programovatelným analogovým filtrem. SID z C64 udělal plnohodnotný hudební nástroj. Skladatelé jako **Rob Hubbard**, **Martin Galway** nebo **Chris Hülsbeck** (Turrican) z něj vyloudili hudbu, která dodnes patří k ikonám herního zvuku. Kolem čipu vznikl celý žánr „SID music\", který žije dodnes.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/c64/4.webp\" alt=\"Disketová mechanika Commodore 1541\" loading=\"lazy\"><figcaption>Disketová mechanika Commodore 1541</figcaption></figure>\n\n### Propojeni a periferie\n\nC64 byl uprostřed bohatého ekosystému příslušenství. Hry se nahrávaly z kazetového magnetofonu **Datasette**, rychlejší byla disketová mechanika **1541** na 5,25\" diskety (proslulá svou pomalostí i charakteristickým klapáním, které se demoscéna naučila využívat jako rytmus). K počítači patřily dva porty pro joysticky standardu Atari, takže stačil běžný kus pádla a multiplayer byl na světě.\n\nZ dalších periferií jmenujme světelné pero přes joystick port, jednotlačítkovou myš a později **mechaniku 1351** s pravou myší pro programy jako GEOS. Připojení k televizi řešil RF modulátor, lepší obraz nabízel kompozitní/S-Video výstup přes konektor DIN. Pro online svět existovaly modemy a ve své době populární služby; uživatelský port a sériový port umožňovaly napojit tiskárny i další hardware.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/c64/6.webp\" alt=\"Tři verze: C64, C64C a C64G\" loading=\"lazy\"><figcaption>Tři verze: C64, C64C a C64G</figcaption></figure>\n\n### Modely a revize\n\nPůvodní „breadbin\" (chlebník) s béžovou klabnesnicí vystřídal v roce 1986 redesign **C64C** v plochém světlejším provedení ladícím s mechanikou 1541-II. Uvnitř postupně přibývaly novější revize základní desky a zmíněný novější zvukový čip 8580. Commodore nabídl i přenosnou variantu **SX-64** — první barevný „luggable\" počítač se zabudovaným monitorem a disketovou mechanikou. Linii navázal výkonnější **Commodore 128**, který uměl běžet i v plně kompatibilním režimu C64, takže majitelé nepřišli o svou knihovnu her. Profesionálnější odnož představoval business model s rozšířenou pamětí, který se ale nikdy neprosadil jako herní stroj.\n\n### Klony a varianty\n\nCommodore držel architekturu C64 pevně ve svých rukou (vlastnil i výrobu čipů), takže přímých neoficiálních klonů vzniklo jen málo — na rozdíl třeba od ZX Spectra, jehož **československý klon Didaktik** se vyráběl v Skalici, nebo od NES s jeho famiclony a polským Pegasusem. C64 se tak ve východním bloku šířil hlavně jako šedý dovoz originálních kusů.\n\nZ pozdějších oficiálních variant stojí za zmínku herní konzole **C64 Games System (C64GS)** z roku 1990 — počítač bez klávesnice určený jen pro cartridge, který ovšem na trhu propadl. Dnešní dobu pak připomínají miniaturní replika **THEC64 Mini** a plnohodnotná **THEC64** s funkční klávesnicí, vydané firmou Retro Games Ltd.\n\n### Dnesni scena\n\nC64 zůstává nevyčerpatelnou pokladnicí. Etalonem emulace je open-source **VICE**, který běží prakticky všude — na PC, mobilech i retro handheldech. S C64 je neodmyslitelně spjatá **demoscéna**, komunita programátorů soutěžících, kdo z hardwaru vymáčkne nemožné. Tahle scéna na C64 vznikla a dodnes žije; její archiv **CSDb** je nepřebernou studnicí. Vychází i moderní homebrew, které vypadá jako konzolové hry — vlajkovou lodí je **Sam's Journey** od Knights of Bytes. Pro Evropana je návrat k „šedesátčtyřce\" tak trochu návrat domů.",
-      "gameCount": 54,
+      "gameCount": 57,
       "games": [
         {
           "slug": "c64__last-ninja-last-ninja-2",
@@ -44055,6 +44814,91 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "c64__m-u-l-e",
+          "name": "M.U.L.E.",
+          "genre": "Strategy / Economy",
+          "length": "L",
+          "flags": [],
+          "year": "1983",
+          "studio": "Ozark Softscape",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Legendární ekonomická strategie pro čtyři — kolonizujete planetu, těžíte, obchodujete a zároveň soupeříte i musíte spolupracovat. Nadčasový návrh multiplayeru.",
+          "image": "/images/games/c64/c64__m-u-l-e.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__m-u-l-e.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/c64/c64__m-u-l-e-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "c64__archon-light-and-dark",
+          "name": "Archon: The Light and the Dark",
+          "genre": "Strategy / Action",
+          "length": "M",
+          "flags": [],
+          "year": "1983",
+          "studio": "Free Fall Associates",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Šachy, kde o dobytí pole rozhodne akční souboj v aréně. Geniální hybrid tahové strategie a arkády s cyklem dne a noci.",
+          "image": "/images/games/c64/c64__archon-light-and-dark.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__archon-light-and-dark.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/c64/c64__archon-light-and-dark-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "c64__defender-of-crown-2",
+          "name": "Defender of the Crown",
+          "genre": "Strategy",
+          "length": "M",
+          "flags": [],
+          "year": "1986",
+          "studio": "Cinemaware",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Rytířská strategie ve středověké Anglii — dobýváš hrady, klání v turnaji i souboje meči. Ikona „interaktivního filmu\" své éry.",
+          "image": "/images/games/c64/c64__defender-of-crown-2-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/c64/c64__defender-of-crown-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -44070,7 +44914,7 @@
       "image": "/images/platforms/amiga.png",
       "photoBg": "dark",
       "history": "Když Commodore v roce 1985 představil Amigu, působila jako stroj z jiné planety. V době, kdy IBM PC plnilo zelenou obrazovku znaky a domácí osmibity se rvaly o pár barev, nabídla Amiga plnou paletu, plynulý scrolling, vícekanálový sampled zvuk a — což bylo na svou dobu skoro neslýchané — skutečný preemptivní multitasking operační systém. Nešlo o náhodu. Za designem stál tým kolem Jaye Minera, otce grafických čipů Atari, a srdcem počítače byla trojice specializovaných koprocesorů, které braly práci procesoru Motorola 68000 a dělaly z Amigy multimediální zázrak. Není divu, že velká část televizní grafiky, hudby a videa konce 80. a 90. let vznikla právě na ní.\n\nPro hry to znamenalo skok do jiné ligy. **Shadow of the Beast** se svým mnohavrstvým parallaxním pozadím a desítkami barev ohromil celý svět tím, co vlastně domácí počítač dokáže. Amiga se stala domovem žánrů a značek, které známe dodnes: vznikly tu **Lemmings**, **Worms**, **Speedball 2**, kultovní **Another World** a **Flashback** a hlavně tu kvetly **point & click adventury** — Monkey Island i Beneath a Steel Sky patří ke zlaté éře žánru. Britští Bitmap Brothers se svými stylovými tituly jako Chaos Engine se stali ikonami amigní scény. V Evropě Amiga dominovala podobně, jako předtím Commodore 64.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/amiga/4.webp\" alt=\"Ukázka grafiky v režimu HAM\" loading=\"lazy\"><figcaption>Ukázka grafiky v režimu HAM</figcaption></figure>\n\n### Technika: grafika a zvuk\n\nTajemství Amigy se skrývalo v sadě vlastních čipů, pojmenovaných po ženách — **Agnus**, **Denise** a **Paula**. Agnus obsahoval Blitter pro bleskové přesouvání bloků grafiky v paměti a Copper, koprocesor schopný měnit nastavení displeje uprostřed snímku (odtud ty nádherné barevné přechody na obloze). Denise se staral o sprity a generování obrazu, Paula o zvuk a disketovou mechaniku.\n\nStandardní rozlišení bylo 320×256 v PAL (resp. 320×200 v NTSC), s paletou **4096 barev**, z níž šlo běžně zobrazit 32 najednou. Speciální režimy posouvaly hranice dál: **HAM** (Hold-And-Modify) dovolil zobrazit všech 4096 barev naráz, EHB (Extra Half-Brite) pak 64 barev. Hardwarové sprity, Blitter a Copper společně umožňovaly onen pověstný plynulý scrolling a desítky pohyblivých objektů bez zátěže procesoru.\n\nZvukový čip **Paula** byl revoluční: nabízel **4 nezávislé kanály** se 8bitovým **PCM samplem** a stereo výstupem (dva kanály vlevo, dva vpravo). Místo čistě čipové syntézy tak Amiga přehrávala skutečné nahrávky nástrojů — to dalo vzniknout fenoménu **trackerové hudby** (formát MOD) a celé demoscéně, která z čipů ždímala zázraky.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/amiga/2.webp\" alt=\"Amiga 500 s monitorem, myší a disketovou mechanikou\" loading=\"lazy\"><figcaption>Amiga 500 s monitorem, myší a disketovou mechanikou</figcaption></figure>\n\n### Propojeni a periferie\n\nAmiga byla na svou dobu štědře vybavená. Standardem byly dva porty pro joystick i myš (model 500 měl myš v balení — adventury a kreslicí programy by bez ní nedávaly smysl) a sériový i paralelní port. Pro hry byl klíčový **AV výstup**: kompozitní video a oddělené stereo cinche, takže zvuk z Pauly zněl naplno z hi-fi věže.\n\nDisketová mechanika používala vlastní formát **880 kB** na 3,5\" disketě. K dispozici byla expanzní paměťová karta (typicky do tzv. trapdoor slotu pod počítačem, čímž se A500 rozšířila na 1 MB), externí disketové mechaniky, pevné disky přes řadiče i akcelerátory s rychlejšími procesory. Pozdější modely nabízely interní rozšiřující sloty Zorro.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/amiga/1.webp\" alt=\"Herní konzole Amiga CD32 s ovladačem\" loading=\"lazy\"><figcaption>Herní konzole Amiga CD32 s ovladačem</figcaption></figure>\n\n### Modely a revize\n\nŘada Amig byla široká. Začalo to drahou profesionální **Amiga 1000** (1985), brzy ji následovaly dva pilíře: domácí **Amiga 500** (1987) v podobě klávesnice „all-in-one\", která se stala nejprodávanějším a nejpopulárnějším herním modelem, a desktopová **Amiga 2000** se sloty pro profesionální nasazení.\n\nNa přelomu desetiletí přišla **Amiga 3000** a v roce 1992 generace s novým **čipsetem AGA**: levná **Amiga 1200** (nástupce A500 s 256 barvami z palety 16,8 milionu) a výkonná **Amiga 4000**. Commodore zkusil i konzoli **CDTV** (1991) a později herní **Amigu CD32** (1993) s mechanikou CD-ROM — první 32bitovou herní konzoli s CD na trhu. Komerčně přišla pozdě; v roce 1994 Commodore zbankrotoval.\n\n### Klony a varianty\n\nVzhledem k vlastním čipům se Amiga „neklonovala\" tak snadno jako PC nebo ZX Spectrum, takže ryzí hardwarové klony prakticky nevznikly. Existovaly ale **emulační doplňky** opačným směrem: karty a software, které z Amigy dělaly PC (řada Bridgeboardů) nebo počítač Macintosh (Emplant, ShapeShifter).\n\nV Československu byla Amiga vzbožňovaným, leč drahým a hůře dostupným strojem dovozovým — na rozdíl od ZX Spectra, jehož tuzemský klon **Didaktik** vyráběly Skalica a Didaktik. Amigu si u nás kupovali především grafici, hudebníci a televizní studia; herní popularitu si držela hlavně v komunitě nadšenců a na výměnných burzách s disketami.\n\n### Dnesni scena\n\nAmiga má jednu z nejoddanějších komunit vůbec a emulace je dnes vyzrálá. Na PC vládne **WinUAE**, na handheldech a Linuxu jeho varianta **Amiberry**. Emulátor potřebuje **Kickstart ROM** (systémový soubor z originálního stroje) a hry se nejlépe shánějí ve formátu **WHDLoad**, který je nahraje rychle a spolehlivě z disku místo zdlouhavého swapování disket. Většina klasik cílila na model A500, z něhož vychází i doporučené nastavení; u nejnáročnějších AGA titulů je občas potřeba drobné ladění výkonu.\n\nScéna ale není jen muzeum — vychází i moderní **homebrew**, například stylové shmupy jako **Reshoot**, nové demo produkce a dokonce komunitní hardware. Amiga zůstává symbolem „co mohlo být\", stroje, který předběhl dobu o celé roky.",
-      "gameCount": 70,
+      "gameCount": 73,
       "games": [
         {
           "slug": "amiga__turrican-ii-final-fight",
@@ -46190,6 +47034,96 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "amiga__super-stardust",
+          "name": "Super Stardust",
+          "genre": "Shmup",
+          "length": "M",
+          "flags": [],
+          "year": "1994",
+          "studio": "Bloodhouse",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Asteroids v nádherné 3D-renderované grafice a s bonusovými tunelovými koly na plný plyn. Technická pýcha Amigy.",
+          "image": "/images/games/amiga/amiga__super-stardust.webp",
+          "gallery": [
+            {
+              "src": "/images/games/amiga/amiga__super-stardust.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/amiga/amiga__super-stardust-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "amiga__moonstone-hard-days-knight",
+          "name": "Moonstone: A Hard Days Knight",
+          "genre": "Action / Adventure",
+          "length": "M",
+          "flags": [],
+          "year": "1991",
+          "studio": "Mindscape",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Brutální fantasy akce s krví stříkající po obrazovce — putuješ za měsíčním kamenem a čtvrtíš obry i soupeře. Kultovní pro svou nekompromisnost.",
+          "image": "/images/games/amiga/amiga__moonstone-hard-days-knight.webp",
+          "gallery": [
+            {
+              "src": "/images/games/amiga/amiga__moonstone-hard-days-knight.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/amiga/amiga__moonstone-hard-days-knight-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "amiga__hunter",
+          "name": "Hunter",
+          "genre": "Action / Sandbox",
+          "length": "L",
+          "flags": [],
+          "year": "1991",
+          "studio": "Activision",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Otevřený vojenský sandbox na ostrovech — jezdíš, létáš, plaveš a plníš mise, jak chceš. Předchůdce moderních open-world her, a to už v roce 1991.",
+          "image": "/images/games/amiga/amiga__hunter.webp",
+          "gallery": [
+            {
+              "src": "/images/games/amiga/amiga__hunter.webp",
+              "label": "Obal",
+              "kind": "box"
+            },
+            {
+              "src": "/images/games/amiga/amiga__hunter-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -47923,11 +48857,11 @@
   ],
   "stats": {
     "platforms": 39,
-    "games": 1530,
+    "games": 1562,
     "withDetail": 476,
     "withTeaser": 355,
-    "withArticle": 1490,
+    "withArticle": 1522,
     "platformImages": 39,
-    "gameImages": 1467
+    "gameImages": 1498
   }
 }

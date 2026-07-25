@@ -4725,8 +4725,8 @@
  },
  "c64__defender-of-crown": {
   "teaser": "Strategy/adventure with atmosphere; a Sid Meier classic.",
-  "detail": "Pirates! (Sid Meier) is a genre mix — ship battles, fencing, navigation, trade in a free Caribbean world. Defender of the Crown (Cinemaware) brought cinematic presentation and strategy in medieval England. Both ambitious and influential.",
-  "article": "Medieval England torn by chaos, a crown without a master, and you as a Saxon nobleman longing to unite the land under your rule. Defender of the Crown on the Commodore 64 draws you in with its cinematic presentation and the promise of turning the game into your own knightly saga.\n\nIn terms of gameplay, it is a blend of strategy and action mini-sequences. On the map you expand territory, collect taxes, hire troops, and forge alliances, while tense moments are decided by fights: jousting tournaments with a lance, castle sieges with catapults, or sword duels. This alternation of planning and direct action gave the game a dynamism that the purely turn-based strategies of the time often lacked.\n\nThe game was created at the Cinemaware studio, whose stated goal was to bring video games closer to film. Defender of the Crown was their pioneering title, and its emphasis on flashy screens, dramatic situations, and \"interactive film\" was remarkable for its time. The version for the more powerful Amiga became famous for its visual splendor, but even the conversions to eight-bit computers like the C64 carried over the ambition and atmosphere of the original vision.\n\nCulturally, the game joined the titles that showed video games could tell stories and evoke a mood similarly to film. The romantic image of the Middle Ages, knightly virtues, and the struggle for the throne resonated with the era's fascination with historical epics.\n\nDefender of the Crown became one of Cinemaware's best-known brands and, in later years, received remakes and ports to newer platforms. For many players it was their first contact with the idea that strategy and story could go hand in hand with a visual spectacle.\n\n**Why play:** For a cinematically styled strategy about uniting England, where planning alternates with tournaments, sieges, and battles for the crown."
+  "detail": "Pirates! (Sid Meier) is a genre mash-up — ship battles, swordfighting, navigation and trade in a free Caribbean world. Defender of the Crown (Cinemaware) brought cinematic presentation and strategy to medieval England. Both ambitious and influential.",
+  "article": "Medieval England torn by chaos, a crown without a master, and you as a Saxon nobleman yearning to unite the land under your rule. Defender of the Crown on the Commodore 64 draws you in with its cinematic presentation and the promise of turning the game into your own chivalric saga.\n\nIn terms of gameplay, it is a mix of strategy and action mini-sequences. On the map you expand your territory, collect taxes, hire armies and forge alliances, while tense moments are decided by battles: jousting tournaments with the lance, castle sieges with catapults, or swordfights. This alternation between planning and direct action gave the game a dynamism that the purely turn-based strategies of the time often lacked.\n\nThe game was created at Cinemaware, a studio that set itself the goal of bringing video games closer to film. Defender of the Crown was their pioneering title, and its emphasis on striking screens, dramatic situations and „interactive film“ was remarkable for its time. The version for the more powerful Amiga became famous for its visual splendor, but even the conversions to 8-bit computers such as the C64 carried over the ambition and atmosphere of the original vision.\n\nCulturally, the game joined the ranks of titles that showed video games could tell stories and evoke a mood much like film. The romantic image of the Middle Ages, knightly virtues and the struggle for the throne resonated with the era's fascination with historical epics.\n\nDefender of the Crown became one of Cinemaware's best-known brands and, in the years that followed, saw remakes and ports to newer platforms. For many players it was their first encounter with the idea that strategy and story could go hand in hand with visual spectacle.\n\n**Why play:** For a cinematically styled strategy about uniting England, where planning alternates with tournaments, sieges and battles for the crown."
  },
  "c64__pirates": {
   "article": "The sun over the Caribbean, wind in the sails, and before you a whole sea full of opportunities — Pirates! is a game that gives you no fixed rails, only the freedom to become a legend. On the Commodore 64 it ranks among the titles that prove the best story is the one the player writes themselves.\n\nMechanically, it is an inventive genre mix from the workshop of Sid Meier. You command a ship in naval battles, where the wind and maneuvering matter, you fence in man-to-man duels, search for treasure, trade in ports, and navigate across the open map of the Caribbean. You can serve one of four powers, or hunt only for your own profit — and your reputation and wealth grow according to how you conduct yourself.\n\nPirates! is a model demonstration of Meier's design philosophy: give the player a set of meaningful options and let them assemble their own adventure from them. No title before it had combined so many different gaming disciplines into a single fluid whole so elegantly. The game became one of the milestones of the MicroProse studio and Meier's personal favorite to such a degree that he returned to it in later years in modernized versions.\n\nCulturally, Pirates! captured the romance of pirate adventure long before it became a popular theme of mainstream films. The freedom of sailing, the risk of duels, and the vision of treasure created a combination that enchanted an entire generation and inspired countless later games about exploring an open world.\n\nOn the C64, Pirates! is an impressive demonstration of how, even on modest hardware, a game with unexpected breadth and replayable gameplay could be built. No two voyages are the same, and it is precisely this that brings you back on board.\n\n**Why play:** For the absolute freedom of the pirate life from the workshop of Sid Meier — battles, voyages, treasures, and trade merge into a single story of your own."
@@ -5347,5 +5347,101 @@
  },
  "playstation__resident-evil-director-s-cut": {
   "detail": "An expanded version of the original that founded the survival horror genre — a mansion full of zombies, puzzles and a shortage of ammo. The roots of the entire series (we also have RE2 and RE3)."
+ },
+ "nds__999-nine-hours-nine-persons-nine-doors": {
+  "article": "A gripping escape-room visual novel — nine people trapped on a ship solve puzzles and a dark secret. A genre icon that brilliantly uses both DS screens."
+ },
+ "nds__dragon-quest-v-hand-of-heavenly-bride": {
+  "article": "A remake of the beloved JRPG following three generations of the hero's family, with monster-catching into your party. Considered by many the best Dragon Quest ever."
+ },
+ "3ds__legend-of-zelda-majora-s-mask-3d": {
+  "article": "An enhanced remake of the dark, time-obsessed Zelda — three days until the end of the world and transforming masks. The most atmospheric entry in the series, now in your pocket."
+ },
+ "3ds__kirby-planet-robobot": {
+  "article": "Kirby with a robotic mech that copies the abilities of enemies and machines alike. One of the most polished and inventive 2D Kirby games."
+ },
+ "master-system__sonic-hedgehog-2": {
+  "article": "The 8-bit sequel with Tails, its own levels, and an infamously brutal ending. A completely different game from the 16-bit version — and magical in its own way."
+ },
+ "master-system__zillion": {
+  "article": "Metroid-style action based on an anime — you explore an enemy base, crack codes, and free allies. An underrated Master System gem."
+ },
+ "saturn__sonic-jam": {
+  "article": "A collection of the classic Mega Drive Sonics plus a 3D „Sonic World“ hub to explore. The best way to play the old hedgehogs on the Saturn."
+ },
+ "saturn__fighting-vipers": {
+  "article": "A 3D fighter from the makers of Virtua Fighter — armored fighters in fenced-in arenas. A snappier, more freewheeling sibling of VF."
+ },
+ "arcade__space-invaders": {
+  "article": "The forefather of all shooters: you destroy advancing rows of aliens that speed up with every kill. The game that sparked the entire gaming boom and remains a symbol of video games to this day."
+ },
+ "arcade__missile-command": {
+  "article": "With a trackball you defend six cities from a rain of ballistic missiles. A tense, oppressive Cold War classic that you always lose in the end."
+ },
+ "arcade__xevious": {
+  "article": "A vertical shooter with two types of weapons — for aerial targets and for ground targets alike. A mysterious atmosphere and an enormous influence on the whole shmup genre."
+ },
+ "arcade__dragon-s-lair": {
+  "article": "A laserdisc cartoon game with animation by Don Bluth — the knight Dirk rescues the princess. You control it through quick reactions at the right moment. A visual phenomenon of the 1980s."
+ },
+ "arcade__marble-madness": {
+  "article": "You roll a marble through isometric mazes against the clock, over chasms and past enemies using a trackball. A classic that was unusual both in style and technology."
+ },
+ "arcade__paperboy": {
+  "article": "You deliver newspapers by bike down a suburban street — hitting subscribers' mailboxes and dodging obstacles. A cult oddity with its handlebar controller."
+ },
+ "arcade__contra": {
+  "article": "The arcade original of the famous run & gun action — two commandos mow down an alien invasion. This is where the legendary (and even harder) NES version comes from."
+ },
+ "arcade__double-dragon": {
+  "article": "The founder of the modern beat 'em up: brothers Billy and Jimmy Lee against the Black Warriors gang. Two-player co-op defined the entire genre."
+ },
+ "arcade__golden-axe": {
+  "article": "A fantasy brawler with a barbarian, a dwarf and an amazon — riding dragons, magic potions and a two-player rampage. A Sega arcade classic."
+ },
+ "neogeo__king-of-monsters": {
+  "article": "Wrestling with giant monsters in Godzilla style — you level entire cities and grapple with other kaiju. A bombastic two-player brawl."
+ },
+ "neogeo__viewpoint": {
+  "article": "An isometric shooter with a fascinating 3D perspective, an acid-jazz soundtrack and brutal difficulty. Visually one of the most beautiful games on the Neo Geo."
+ },
+ "neogeo__fatal-fury-3-road-to-final-victory": {
+  "article": "An SNK fighter with a three-lane system for dodging into the foreground and background. The direct predecessor of the Garou series, with the stylish characters of Southtown."
+ },
+ "cps__mega-man-power-battle": {
+  "article": "An arcade spin-off of Mega Man: boss battles from the classic series one after another, playable by two. Fast, nostalgic action for fans of the Blue Bomber."
+ },
+ "cps__mercs": {
+  "article": "Vertical commando action (Senjou no Ookami II) — you fight your way through jungles and bases to free the hostages. Brisk, explosive CPS."
+ },
+ "cps__magic-sword": {
+  "article": "You climb a fifty-floor tower full of monsters and free allies who then watch your back. A gorgeous Capcom fantasy action game."
+ },
+ "msx__goonies": {
+  "article": "A Konami platformer based on the film — you lead the gang of Goonies through caves and free your friends. Absolutely a cult title on the MSX."
+ },
+ "msx__zanac": {
+  "article": "A fast vertical shooter with clever adaptive difficulty — the game reacts to your play style. Compile at its very best."
+ },
+ "msx__antarctic-adventure": {
+  "article": "A cute penguin runs and leaps over icy crevasses around Antarctica. An early Konami classic and one of the mascots of the MSX era."
+ },
+ "c64__m-u-l-e": {
+  "article": "A legendary economic strategy for four players — you colonize a planet, mine, trade, and both compete and must cooperate at the same time. A timeless multiplayer design."
+ },
+ "c64__archon-light-and-dark": {
+  "article": "Chess where capturing a square is decided by an action duel in an arena. A brilliant hybrid of turn-based strategy and arcade, complete with a day-and-night cycle."
+ },
+ "c64__defender-of-crown-2": {
+  "article": "Knightly strategy in medieval England — you conquer castles, joust in tournaments and fight with swords. An icon of the „interactive film“ of its era."
+ },
+ "amiga__super-stardust": {
+  "article": "Asteroids in gorgeous 3D-rendered graphics with bonus tunnel stages taken at full throttle. A technical pride of the Amiga."
+ },
+ "amiga__moonstone-hard-days-knight": {
+  "article": "Brutal fantasy action with blood spraying across the screen — you journey after the moonstone and quarter giants and rivals alike. A cult favorite for its uncompromising nature."
+ },
+ "amiga__hunter": {
+  "article": "An open military sandbox on islands — you drive, fly, swim and complete missions however you like. A forerunner of modern open-world games, and this was back in 1991."
  }
 }

@@ -20,9 +20,17 @@
     "studio": "Square Enix",
     "year": "2012"
   },
+  "3ds__kirby-planet-robobot": {
+    "studio": "HAL Laboratory",
+    "year": "2016"
+  },
   "3ds__legend-of-zelda-link-between-worlds": {
     "studio": "Nintendo Entertainment Analysis & Development",
     "year": "2013"
+  },
+  "3ds__legend-of-zelda-majora-s-mask-3d": {
+    "studio": "Nintendo",
+    "year": "2015"
   },
   "3ds__legend-of-zelda-ocarina-of-time-3d": {},
   "3ds__luigi-s-mansion-dark-moon": {},
@@ -76,6 +84,78 @@
   "3ds__yoshi-s-new-island": {
     "studio": "Arzest",
     "year": "2014"
+  },
+  "amiga__hunter": {
+    "studio": "Activision",
+    "year": "1991"
+  },
+  "amiga__moonstone-hard-days-knight": {
+    "studio": "Mindscape",
+    "year": "1991"
+  },
+  "amiga__super-stardust": {
+    "studio": "Bloodhouse",
+    "year": "1994"
+  },
+  "arcade__contra": {
+    "studio": "Konami",
+    "year": "1987"
+  },
+  "arcade__double-dragon": {
+    "studio": "Technos",
+    "year": "1987"
+  },
+  "arcade__dragon-s-lair": {
+    "studio": "Cinematronics",
+    "year": "1983"
+  },
+  "arcade__golden-axe": {
+    "studio": "Sega",
+    "year": "1989"
+  },
+  "arcade__marble-madness": {
+    "studio": "Atari",
+    "year": "1984"
+  },
+  "arcade__missile-command": {
+    "studio": "Atari",
+    "year": "1980"
+  },
+  "arcade__paperboy": {
+    "studio": "Atari",
+    "year": "1985"
+  },
+  "arcade__space-invaders": {
+    "studio": "Taito",
+    "year": "1978"
+  },
+  "arcade__xevious": {
+    "studio": "Namco",
+    "year": "1983"
+  },
+  "c64__archon-light-and-dark": {
+    "studio": "Free Fall Associates",
+    "year": "1983"
+  },
+  "c64__defender-of-crown-2": {
+    "studio": "Cinemaware",
+    "year": "1986"
+  },
+  "c64__m-u-l-e": {
+    "studio": "Ozark Softscape",
+    "year": "1983"
+  },
+  "cps__magic-sword": {
+    "studio": "Capcom",
+    "year": "1990"
+  },
+  "cps__mega-man-power-battle": {
+    "studio": "Capcom",
+    "year": "1995"
+  },
+  "cps__mercs": {
+    "studio": "Capcom",
+    "year": "1990"
   },
   "game-boy-advance__advance-wars": {},
   "game-boy-advance__advance-wars-2-black-hole-rising": {
@@ -413,6 +493,10 @@
   "master-system__shinobi": {},
   "master-system__sonic-chaos": {},
   "master-system__sonic-hedgehog": {},
+  "master-system__sonic-hedgehog-2": {
+    "studio": "Sega / Aspect",
+    "year": "1992"
+  },
   "master-system__space-harrier": {},
   "master-system__super-monaco-gp": {},
   "master-system__wonder-boy": {},
@@ -421,6 +505,10 @@
   "master-system__wonder-boy-in-monster-world": {},
   "master-system__ys": {},
   "master-system__ys-vanished-omens": {},
+  "master-system__zillion": {
+    "studio": "Sega",
+    "year": "1987"
+  },
   "mega-drive__688-attack-sub": {},
   "mega-drive__adventures-of-batman-and-robin": {
     "studio": "Konami",
@@ -593,6 +681,22 @@
     "studio": "Bitmap Bureau",
     "year": "2019"
   },
+  "msx__antarctic-adventure": {
+    "studio": "Konami",
+    "year": "1983"
+  },
+  "msx__goonies": {
+    "studio": "Konami",
+    "year": "1986"
+  },
+  "msx__zanac": {
+    "studio": "Compile",
+    "year": "1986"
+  },
+  "nds__999-nine-hours-nine-persons-nine-doors": {
+    "studio": "Chunsoft",
+    "year": "2009"
+  },
   "nds__advance-wars-dual-strike": {
     "studio": "Intelligent Systems",
     "year": "2005"
@@ -619,6 +723,10 @@
     "year": "2007"
   },
   "nds__dragon-quest-ix-sentinels-of-starry-skies": {},
+  "nds__dragon-quest-v-hand-of-heavenly-bride": {
+    "studio": "Square Enix",
+    "year": "2008"
+  },
   "nds__elite-beat-agents": {},
   "nds__final-fantasy-iv": {},
   "nds__fire-emblem-shadow-dragon": {
@@ -691,6 +799,18 @@
     "year": "2006"
   },
   "nds__world-ends-with-you": {},
+  "neogeo__fatal-fury-3-road-to-final-victory": {
+    "studio": "SNK",
+    "year": "1995"
+  },
+  "neogeo__king-of-monsters": {
+    "studio": "SNK",
+    "year": "1991"
+  },
+  "neogeo__viewpoint": {
+    "studio": "Sammy / Aicom",
+    "year": "1992"
+  },
   "nes__adventure-island": {
     "studio": "Hudson Soft",
     "year": "1986"
@@ -830,6 +950,14 @@
     "year": "1985"
   },
   "nes__zelda-ii-adventure-of-link": {},
+  "saturn__fighting-vipers": {
+    "studio": "Sega AM2",
+    "year": "1996"
+  },
+  "saturn__sonic-jam": {
+    "studio": "Sonic Team",
+    "year": "1997"
+  },
   "snes__actraiser": {},
   "snes__aerobiz-supersonic": {},
   "snes__aladdin": {

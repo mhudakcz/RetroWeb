@@ -367,6 +367,60 @@
    "genre": "Sport / Hokej",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Space Invaders",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Missile Command",
+   "genre": "Shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Xevious",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dragon's Lair",
+   "genre": "Interactive movie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Marble Madness",
+   "genre": "Puzzle / Action",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Paperboy",
+   "genre": "Action",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Contra (arcade)",
+   "genre": "Run & gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Double Dragon (arcade)",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Golden Axe (arcade)",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
   }
  ],
  "snes": [
@@ -1477,6 +1531,24 @@
    "genre": "Adventure / Strategy",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Super Stardust",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Moonstone: A Hard Days Knight",
+   "genre": "Action / Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hunter",
+   "genre": "Action / Sandbox",
+   "length": "L",
+   "flags": []
   }
  ],
  "c64": [
@@ -1546,6 +1618,24 @@
    "name": "International Soccer",
    "genre": "Sport / Fotbal",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "M.U.L.E.",
+   "genre": "Strategy / Economy",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Archon: The Light and the Dark",
+   "genre": "Strategy / Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Defender of the Crown",
+   "genre": "Strategy",
+   "length": "M",
    "flags": []
   }
  ],
@@ -2035,6 +2125,24 @@
    "genre": "Fighting",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "King of the Monsters",
+   "genre": "Fighting",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Viewpoint",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fatal Fury 3: Road to the Final Victory",
+   "genre": "Fighting",
+   "length": "M",
+   "flags": []
   }
  ],
  "cps": [
@@ -2098,6 +2206,24 @@
    "name": "Progear",
    "genre": "Shoot 'em up",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mega Man: The Power Battle",
+   "genre": "Fighting / Action",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mercs",
+   "genre": "Run & gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Magic Sword",
+   "genre": "Action-platformer",
+   "length": "M",
    "flags": []
   }
  ],
@@ -2461,6 +2587,18 @@
    "genre": "Racing / motorky",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Sonic the Hedgehog 2 (8-bit)",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zillion",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": []
   }
  ],
  "game-boy": [
@@ -2702,6 +2840,24 @@
    "name": "Aleste 2",
    "genre": "Shmup",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Goonies",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zanac",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Antarctic Adventure",
+   "genre": "Action",
+   "length": "S",
    "flags": []
   }
  ],
@@ -3253,6 +3409,18 @@
    "genre": "Survival horror / Adventura",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Sonic Jam",
+   "genre": "Platformer / Collection",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fighting Vipers",
+   "genre": "Fighting",
+   "length": "M",
+   "flags": []
   }
  ],
  "nds": [
@@ -3499,6 +3667,18 @@
    "genre": "Sport",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "999: Nine Hours, Nine Persons, Nine Doors",
+   "genre": "Adventure / Visual novel",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dragon Quest V: Hand of the Heavenly Bride",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
   }
  ],
  "3ds": [
@@ -3711,6 +3891,18 @@
   {
    "name": "Mario Sports Superstars",
    "genre": "Sport",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Legend of Zelda: Majora's Mask 3D",
+   "genre": "Action-adventure",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kirby: Planet Robobot",
+   "genre": "Platformer",
    "length": "M",
    "flags": []
   }
