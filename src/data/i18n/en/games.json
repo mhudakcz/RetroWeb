@@ -5506,5 +5506,53 @@
  },
  "amiga__hunter": {
   "article": "Imagine an open military world in which you can decide entirely for yourself how to accomplish a mission — whether you drive over on a motorcycle, fly off in a helicopter, smuggle yourself in by boat, or simply set out on foot across the island. It sounds like the description of some modern open-world game, except **Hunter** by Activision came out back in 1991, exclusively for the Commodore Amiga. That's precisely why enthusiasts still revere it today as one of the quiet pioneers of a genre that the Grand Theft Auto and Operation Flashpoint series would make famous a decade later.\n\nThe player moves across an enemy-controlled archipelago and receives a series of missions — from sabotage through assassinations to rescue operations — which can be completed in any order and in any way. The key charm is the utter freedom: practically every vehicle, vessel, and aircraft you come across can be used immediately. Tanks, boats, bicycles, a windsurfer, and a helicopter are all available, and the game forces you nowhere. The graphics combined a third-person 3D view with a sprawling map, which felt incredibly open and alive on the hardware of the day.\n\nHunter wasn't a commercial hit and today belongs more among the cult tips passed around by connoisseurs of Amiga history. Even so, with the passage of years it's seen as a fascinating harbinger of where games would only later head — a free sandbox with its own pace, humor, and an open world to explore. For retro gamers it's a small gem that proves great ideas were being born even at the crossover between the 8-bit and 16-bit eras."
+ },
+ "game-boy-color__dragonborne": {
+  "detail": "",
+  "article": "Dragonborne is a full-fledged action RPG for the Game Boy Color whose ambition recalls the classic handheld Zeldas and Dragon Quests. You set out into a sprawling world, explore dungeons, solve puzzles, battle enemies and dragons, and gradually uncover a story about an ancient threat. On the tiny handheld it delivers a surprisingly expansive adventure with its own music, quests, and combat system. It was also released on a real cartridge and became one of the best-known modern GBC titles."
+ },
+ "game-boy-color__dragonyhm": {
+  "detail": "",
+  "article": "Dragonyhm is the successor to the beloved GBC RPG Dragonborne and, at the same time, a more refined, polished take on it. It offers a retro-flavored action RPG with shades of Zelda, Dragon Quest, and Pokemon: you explore a colorful world, take on quests, solve dungeon puzzles, and develop your character through combat. Compared with its predecessor it adds smoother controls, richer graphics, and a bigger story, proving once again how alive today's Game Boy Color scene is. Released in December 2024, including on a physical cartridge."
+ },
+ "nes__famidash": {
+  "detail": "",
+  "article": "Famidash is a technically astonishing demake of the mobile hit Geometry Dash for the 8-bit NES/Famicom. The team at tfdsoft hand-wrote 14 levels in pure 6502 assembly on the MMC3 mapper and preserved the essentials - an uncompromising rhythm platformer where a single tap keeps your cube in a jump timed precisely to the music. Spikes, saws, and pits lie in wait, and a single wrong pixel sends you back to the start of the level. It includes a handy practice mode, chiptune remakes of the original tracks, selectable icons, camera controls, and even a two-player mode. That a game this fast and smooth runs on hardware from 1983 is one of the best proofs of how far today's NES scene has come. A cartridge release via Kickstarter is also in the works."
+ },
+ "nes__rugrats-adventures-in-gameland": {
+  "detail": "",
+  "article": "Adventures in Gameland is a modern NES platformer that looks and plays as if it fell straight out of the early nineties - only with a craft and care that licensed games of the era rarely had. You guide the toddlers from the Rugrats cartoon through their own imagined adventure: you play as Tommy and friends, collect items, solve small puzzles, and hop through colorful levels full of big, adorable sprites. The game was released on a real NES cartridge by Limited Run Games and, in emulated form, on modern consoles, where it adds remastered music and a hand-drawn HD overlay. A lovely tribute to Nintendo's golden era that kids can handle, but nostalgics will appreciate most."
+ },
+ "nes__full-quiet": {
+  "detail": "",
+  "article": "Full Quiet is an ambitious horror-tinged action adventure for the NES from Retrotainment Games, the creators of the Halloween series. You find yourself in an oppressive, atmospheric landscape and fight your way through forests, caves, and abandoned buildings while gathering resources, crafting gear, and uncovering a grim story. The game blends metroidvania-style exploration with tense combat and a dark visual style that pushes the 8-bit palette beyond what you'd expect from the NES. It was released on a quality cartridge in a wooden box and ranks among the most technically and artistically mature modern NES titles of all."
+ },
+ "nes__twin-dragons": {
+  "detail": "",
+  "article": "Twin Dragons is a polished action platformer for the NES from France's Broke Studio. A pair of little dragons set out to rescue a kidnapped hatchling and, along the way, leap through dozens of varied levels full of traps, hidden nooks, and inventive bosses. The game is built on precise controls, a catchy chiptune soundtrack, and design that recalls the best of Nintendo and Capcom's golden era - just with a modern sense of smoothness and fairness. Originally a successful Kickstarter campaign, today it's one of the most recommended modern NES titles for newcomers and veterans alike."
+ },
+ "nes__bobl": {
+  "detail": "",
+  "article": "Bobl is an adorable platformer for the NES from Germany's Morphcat Games (creators of the acclaimed Micro Mages). You play as a little bubble that bounces through a world built from a single large, interconnected map - it has no weapons, just clever jumping, bouncing, and using the environment to overcome enemies and puzzles. The game is a technical marvel: thanks to clever compression, a surprisingly expansive world with smooth animation and fresh graphics fits onto a tiny cartridge. A short, sweet, and inventive metroidvania that even kids can handle."
+ },
+ "nes__alwa-s-awakening-8-bit-edition": {
+  "detail": "",
+  "article": "The 8-Bit Edition is a faithful downgrade of the modern hit Alwa's Awakening back onto a real NES - and paradoxically it feels as if it had been here since 1990. As the sorceress Zoe you explore the interconnected world of Alwa, gaining spells that summon blocks, bubbles, and lightning, and use them to unlock new paths in the finest metroidvania tradition. Elden Pixels completely rewrote the game for 8-bit hardware, including a cartridge release. A sprawling, cleverly built, and beautifully pixeled adventure platformer that would hold its own among the classics of the era."
+ },
+ "snes__dottie-flowers": {
+  "detail": "",
+  "article": "Dottie Flowers is a fresh action platformer for the Super Nintendo that turned heads at the Homebrew Games Summer Showcase 2024. It leads you through colorful, carefully designed levels full of enemies, hidden spots, and inventive bosses, and proudly shows off what the SNES's 16-bit hardware can do - a rich palette, smooth animation, and catchy music. The design draws on the classics of the nineties, but with a modern feel for pacing and fairness. A lovely proof that the SNES scene is alive and can still surprise."
+ },
+ "mega-drive__astebros": {
+  "detail": "",
+  "article": "Astebros is a modern roguelite platformer for the SEGA Mega Drive from Neofid Studios, creators of the acclaimed Demons of Asteborg. You venture into procedurally generated dungeons with three playable characters, each with their own strengths and weaknesses, and with every run you collect upgrades, weapons, and treasure. It offers two-player co-op, gorgeous 16-bit graphics, and brisk action that fully exploits what the Mega Drive can do. Released on a real cartridge as well as on the Evercade collector's compilation - one of the highlights of today's Mega Drive homebrew scene."
+ },
+ "dreamcast__intrepid-izzy": {
+  "detail": "",
+  "article": "Intrepid Izzy is a colorful action platformer with beat 'em up and metroidvania elements for the SEGA Dreamcast from the Netherlands' Senile Team. The adventurous Izzy explores an interconnected world, collects costumes that grant her new abilities, beats up enemies, and solves puzzles on her way out of the broken temple she dug her way into. Hand-drawn graphics, smooth animation, and fresh humor make it one of the most likable modern Dreamcast titles. Released in a full boxed edition for the real console."
+ },
+ "dreamcast__xenocider": {
+  "detail": "",
+  "article": "Xenocider is a fully 3D arcade rail shooter for the SEGA Dreamcast, openly inspired by the classic Space Harrier. As the cybernetic fighter Xara you race toward the screen, dodge barrages of fire, destroy waves of enemies, and face giant bosses on exotic planets. A custom 3D engine, brisk pace, and vivid visuals show that the Dreamcast still has plenty to offer years later. Released on a real GD-ROM disc in a boxed edition, it ranks among the most technically ambitious works of today's Dreamcast homebrew scene."
  }
 }

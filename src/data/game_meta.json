@@ -157,6 +157,14 @@
     "studio": "Capcom",
     "year": "1990"
   },
+  "dreamcast__intrepid-izzy": {
+    "studio": "Senile Team",
+    "year": "2020"
+  },
+  "dreamcast__xenocider": {
+    "studio": "Retro Sumus",
+    "year": "2021"
+  },
   "game-boy-advance__advance-wars": {},
   "game-boy-advance__advance-wars-2-black-hole-rising": {
     "studio": "Intelligent Systems",
@@ -304,6 +312,14 @@
   "game-boy-color__dragon-warrior-monsters": {
     "studio": "Enix",
     "year": "1998"
+  },
+  "game-boy-color__dragonborne": {
+    "studio": "Spacebot Interactive",
+    "year": "2020"
+  },
+  "game-boy-color__dragonyhm": {
+    "studio": "Spacebot Interactive",
+    "year": "2024"
   },
   "game-boy-color__dual-gear": {
     "year": "2020"
@@ -578,6 +594,10 @@
   },
   "mega-drive__another-world": {},
   "mega-drive__arcus-odyssey": {},
+  "mega-drive__astebros": {
+    "studio": "Neofid Studios",
+    "year": "2023"
+  },
   "mega-drive__castle-of-illusion": {},
   "mega-drive__castle-of-illusion-starring-mickey-mouse": {},
   "mega-drive__castlevania-bloodlines": {},
@@ -872,10 +892,18 @@
     "year": "1986"
   },
   "nes__adventures-of-lolo-1-3": {},
+  "nes__alwa-s-awakening-8-bit-edition": {
+    "studio": "Elden Pixels",
+    "year": "2020"
+  },
   "nes__battletoads": {},
   "nes__bionic-commando": {},
   "nes__blades-of-steel": {},
   "nes__blaster-master": {},
+  "nes__bobl": {
+    "studio": "Morphcat Games",
+    "year": "2020"
+  },
   "nes__bubble-bobble": {},
   "nes__bump-n-jump": {
     "studio": "Data East",
@@ -908,9 +936,17 @@
   "nes__dragon-warrior-iii-iv": {},
   "nes__ducktales": {},
   "nes__excitebike": {},
+  "nes__famidash": {
+    "studio": "kandowontu / tfdsoft",
+    "year": "2024"
+  },
   "nes__faxanadu": {},
   "nes__final-fantasy": {},
   "nes__from-below": {},
+  "nes__full-quiet": {
+    "studio": "Retrotainment Games",
+    "year": "2023"
+  },
   "nes__gargoyle-s-quest-ii": {
     "studio": "Capcom",
     "year": "1992"
@@ -973,6 +1009,10 @@
   "nes__recca-summer-carnival-92": {},
   "nes__river-city-ransom": {},
   "nes__romance-of-three-kingdoms": {},
+  "nes__rugrats-adventures-in-gameland": {
+    "studio": "The MIX Games",
+    "year": "2024"
+  },
   "nes__shatterhand": {},
   "nes__snake-rattle-n-roll": {
     "studio": "Rare Ltd.",
@@ -996,6 +1036,10 @@
     "year": "1984"
   },
   "nes__track-and-field": {},
+  "nes__twin-dragons": {
+    "studio": "Broke Studio",
+    "year": "2019"
+  },
   "nes__wario-s-woods": {
     "studio": "Nintendo Research & Development 1",
     "year": "1994"
@@ -1040,6 +1084,10 @@
   "snes__donkey-kong-country-2": {},
   "snes__donkey-kong-country-3": {},
   "snes__dottie-dilemma": {},
+  "snes__dottie-flowers": {
+    "studio": "Studio Vil",
+    "year": "2024"
+  },
   "snes__earthbound": {},
   "snes__f-zero": {},
   "snes__final-fantasy-iv-v": {},

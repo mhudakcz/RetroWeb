@@ -1874,7 +1874,7 @@
       "image": "/images/platforms/game-boy-color.png",
       "photoBg": "dark",
       "history": "Když v roce 1998 přišel Game Boy Color, Nintendo neřešilo revoluci — řešilo údržbu trůnu. Původní Game Boy z roku 1989 a jeho mezikrok Game Boy Pocket pořád válcovaly trh, jenže monochromatický displej už působil archaicky vedle barevných konkurentů jako Sega Game Gear nebo Atari Lynx (které ovšem doplácely na žravost baterií). GBC zvolil chytrou střední cestu: přidal barvu, o něco rychlejší procesor a víc paměti, ale udržel si nízkou spotřebu a hlavně **plnou zpětnou kompatibilitu** s celou knihovnou původního Game Boye. Nový majitel si tak mohl zahrát staré i nové hry — a to byl argument, který konkurence nedokázala přebít.\n\nŽivotnost GBC byla přitom krátká, zhruba tři roky, než ho v roce 2001 nahradil Game Boy Advance. Přesto stihl nabrat pozoruhodnou knihovnu: druhou generaci Pokémonů (**Gold/Silver/Crystal**), dvojici skvělých Zeld (**Oracle of Seasons** a **Oracle of Ages**), Wario Land 3 i technicky ohromující tituly z konce éry. Mezi nimi vyniká **Shantae**, která vyšla tak pozdě, že se jí prodalo žalostně málo — a dnes je sběratelsky extrémně drahá.\n\n### Technika: grafika a zvuk\n\nSrdcem GBC je 8bitový procesor Sharp **LR35902** (příbuzný Z80 a Intelu 8080), který běží na dvojnásobné frekvenci oproti původnímu Game Boyi — zhruba **8 MHz** v rychlém režimu, kdežto v kompatibilním režimu jede pomaleji jako klasický GB. Pracovní paměť (RAM) i video RAM jsou oproti předchůdci zdvojnásobené (32 KB systémové RAM, 16 KB VRAM), což hrám dalo víc prostoru pro grafiku.\n\nDisplej má rozlišení **160 × 144 bodů** a poprvé jde o barevný, reflexivní TFT panel. Z palety čítající **32 768 barev** dokáže GBC zobrazit současně až **56 barev** ve speciálním režimu — typicky ale **32 barev** (osm tříbarevných palet pro pozadí a osm pro sprity, plus barva průhlednosti). Sprity měří 8 × 8 nebo 8 × 16 bodů. Zvuk obstarává stejný čip jako u původního GB: **čtyři kanály** — dva pulzní (čtvercová vlna), jeden vlnový kanál s programovatelnou vlnovou tabulkou a jeden šumový pro perkuse a efekty. Výstup je stereofonní do sluchátek.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/2.webp\" alt=\"Game Boy Color z roku 1998\" loading=\"lazy\"><figcaption>Game Boy Color z roku 1998</figcaption></figure>\n\n### Propojeni a periferie\n\nGBC zdědil **Game Link** port pro propojovací kabel — základ slavných pokémoních výměn a soubojů i vícehráče v dalších titulech. Novinkou byl **infračervený port (IR)** na horní hraně konzole, který umožňoval bezdrátovou výměnu dat na krátkou vzdálenost; využila ho hrstka her, nejznámější je výměna předmětů v pokémoních hrách a v Zeldách. Cartridge nesly zálohovanou paměť (baterie + SRAM) pro ukládání postupu, u některých her i hodiny reálného času — Pokémon Gold/Silver měly v kartridži krystalové **RTC**, jehož baterie po letech bohužel vysychá.\n\nZ příslušenství stojí za zmínku **Game Boy Camera** a tiskárna **Game Boy Printer**, oba zděděné z éry GB a s GBC plně funkční. Napájení obstarávaly dvě tužkové baterie AA s výdrží kolem 10 hodin, případně dokupovatelný síťový adaptér.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/6.webp\" alt=\"Průhledná varianta Atomic Purple\" loading=\"lazy\"><figcaption>Průhledná varianta Atomic Purple</figcaption></figure>\n\n### Modely a revize\n\nGame Boy Color vyšel v jediné základní podobě, ale v široké paletě barevných variant pouzdra: průhledné „Atomic Purple\", Berry, Grape, Kiwi, Dandelion, Teal a klasická Clear. Kromě nich existovaly limitované edice — japonské vydání svázané s konkrétními tituly i ikonický **Pokémon Edition** s motivem Pikachua.\n\nHry pro platformu se dělily do dvou kategorií podle barvy kartridže. **Černé kartridže** byly „GBC-only\" a fungovaly výhradně na Game Boy Coloru (a později GBA). **Průhledné/čiré kartridže** byly takzvané „dual mode\" — barevné na GBC, ale spustitelné i na původním černobílém Game Boyi, kde běžely v odstínech šedi. Sám hardware GBC žádnou pozdější interní revizi displeje nedostal; jeho nástupcem se stala až zcela nová architektura Game Boy Advance.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/game-boy-color/3.webp\" alt=\"Černá kartridž pro tituly jen pro GBC\" loading=\"lazy\"><figcaption>Černá kartridž pro tituly jen pro GBC</figcaption></figure>\n\n### Klony a varianty\n\nGame Boy jako značka byla díky vlastnímu šifrovanému bootu a Nintendem hlídaným licencím hůře klonovatelná než třeba NES, takže rozšířených hardwarových klonů GBC vznikalo méně než famiclonů. Přesto se objevila řada **neoficiálních „pirátských\" kartridží** s nelicencovanými hrami i mnohoherními kompilacemi, hojně k vidění i na trzích ve východní Evropě a v Asii.\n\nZatímco v Československu se stopa Nintenda na poli ruční konzole prakticky nenese (oficiální distribuce přišla až mnohem později), domácí klonová scéna se naplno projevila u jiných platforem — u 8bitových počítačů šlo o **Didaktik** coby tuzemský klon ZX Spectra, u stolního Nintenda pak putovaly do regionu **famiclony** typu Pegasus. Game Boy Color se k českým hráčům dostával hlavně dovozem a šedým trhem; legendou své doby se ovšem stala daleko levnější napodobenina v podobě čínských ručních konzolí à la „Brick Game\", která ale s GBC neměla technicky nic společného.\n\n### Dnesni scena\n\nEmulace GBC je dnes naprosto bezproblémová a patří k nejvděčnějším vůbec. Špičkové emulátory jako **mGBA** nebo **SameBoy** dosahují vysoké přesnosti včetně věrné simulace LCD a zvukového čipu; na slabších zařízeních poslouží **Gambatte** (jádro v RetroArchu). GBC se rozjede prakticky na čemkoli — od mobilů přes Raspberry Pi až po kapesní emulační konzole.\n\nŽivá je i homebrew scéna: vývojáři dnes píšou nové hry v jazyce C přes **GBDK** nebo v assembleru a vydávají je na reálných flashkartách i jako ROM ke stažení. Symbolem této vytrvalosti je RPG **Infinity** — komerční titul, jehož vývoj se kolem roku 2001 zastavil a který původní tým po více než dvaceti letech dokončil a v roce 2023 vydal. Vzácný případ „ztracené\" hry, jež se vrátila k životu.",
-      "gameCount": 61,
+      "gameCount": 63,
       "games": [
         {
           "slug": "game-boy-color__legend-of-zelda-oracle-of-seasons",
@@ -3946,6 +3946,48 @@
               "kind": "title"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__dragonborne",
+          "name": "Dragonborne",
+          "genre": "RPG",
+          "length": "XL",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2020",
+          "studio": "Spacebot Interactive",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Dragonborne je plnohodnotné akční RPG pro Game Boy Color, které svou ambicí připomíná klasické kapesní Zeldy i Dragon Questy. Vydáváš se do rozlehlého světa, prozkoumáváš kobky, řešíš hádanky, bojuješ s nepřáteli i draky a postupně odhaluješ příběh o dávné hrozbě. Na maličkou kapesní konzoli nabízí překvapivě obsáhlé dobrodružství s vlastní hudbou, questy a soubojovým systémem. Vyšlo i na skutečné cartridgi a stalo se jedním z nejznámějších moderních GBC titulů.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "game-boy-color__dragonyhm",
+          "name": "Dragonyhm",
+          "genre": "Action RPG",
+          "length": "L",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2024",
+          "studio": "Spacebot Interactive",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Dragonyhm je nástupce oblíbeného GBC RPG Dragonborne a zároveň jeho vyladěnější, uhlazenější verze. Nabízí retro laděné akční RPG s vlivy Zeldy, Dragon Questu i Pokémonů: prozkoumáváš barevný svět, plníš questy, luštíš hádanky v kobkách a rozvíjíš postavu v soubojích. Oproti předchůdci přidává plynulejší ovládání, bohatší grafiku i příběh a znovu dokazuje, jak živá je dnešní Game Boy Color scéna. Vyšlo v prosinci 2024 i na fyzické cartridgi.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -9025,7 +9067,7 @@
       "image": "/images/platforms/nes.png",
       "photoBg": "dark",
       "history": "Když v polovině osmdesátých let ležel severoamerický herní trh v troskách, málokdo by vsadil na to, že právě videohry znovu ovládnou dětské pokoje celého světa. Krach roku 1983, zahlcení obchodů nekvalitními tituly a symbolický pohřeb neprodaných kazet ET v texaské poušti vyslaly jasný signál: zábava na televizní obrazovce je vyřízená móda. A pak přišlo Nintendo. Jeho **Famicom** (Family Computer), který se v Japonsku objevil v roce 1983, a jeho západní redesign **NES** (Nintendo Entertainment System, USA 1985, Evropa 1986/87) celé odvětví doslova vzkřísily.\n\nKlíčem nebyla jen technika, ale především **kontrola kvality**. Nintendo zavedlo přísný licenční systém se slavnou pečetí „Nintendo Seal of Quality\" a omezovalo počet titulů, které směl vydavatel ročně uvést — přímá reakce na to, co trh předtím zabilo. Přibalený **Super Mario Bros.** pak ukázal, jak má vypadat dokonalá plošinovka, a stal se synonymem pro hry vůbec. Konzole se nakonec prodalo přes 60 milionů kusů a vychovala celou generaci hráčů i tvůrců.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nes/2.webp\" alt=\"Japonský Famicom z roku 1983\" loading=\"lazy\"><figcaption>Japonský Famicom z roku 1983</figcaption></figure>\n\n### Technika: grafika a zvuk\n\nSrdcem NES je osmibitový procesor **Ricoh 2A03** (v PAL verzi 2A07), postavený na jádru kompatibilním s MOS 6502, do kterého Nintendo integrovalo i zvukovou jednotku. Běží zhruba na 1,79 MHz (NTSC). O obraz se stará samostatný grafický čip **PPU (Picture Processing Unit)**, který zvládá rozlišení 256×240 bodů. Z celkové palety 54 použitelných barev (často se uvádí 64 hodnot, z nichž část se opakuje) lze na obrazovku dostat až 25 barev najednou, rozdělených do palet po čtyřech.\n\nPPU obstarává hardwarové **sprity** — maximálně 64 spritů celkem a 8 na jeden řádek, což je důvod, proč ve starších hrách sprity při přetížení blikají. Samozřejmostí byl hladký hardwarový **scrolling** pozadí, který Super Mario Bros. proslavilo.\n\nZvukový čip nabízí pět kanálů: dva pulzní (obdélníkové) kanály, jeden trojúhelníkový pro basy, šumový kanál pro perkuse a jednoduchý kanál pro vzorkovaný zvuk (DPCM). Charakteristické „blip\" melodie skladatelů jako Koji Kondo se navždy zaryly do kolektivní paměti. Mnoho kazet navíc obsahovalo přídavné **mappery** — čipy, které rozšiřovaly adresování paměti i možnosti grafiky a zvuku. Proto pozdní hry jako **Kirby's Adventure** nebo **Mega Man 3** vypadají a znějí výrazně lépe než rané tituly.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nes/3.webp\" alt=\"Famicom s přídavným Disk Systemem\" loading=\"lazy\"><figcaption>Famicom s přídavným Disk Systemem</figcaption></figure>\n\n### Propojení a periferie\n\nNES měl bohaté příslušenství. Ke konzoli patřil světelný pistolový ovladač **Zapper** (legendární Duck Hunt) a robot **R.O.B.**, který měl spíše marketingovou roli při uvedení na trh. Pro více hráčů existoval adaptér **NES Four Score** (a v Japonsku zásuvky pro ovladače přímo na Famicomu).\n\nFamicom se od NES lišil i konektory: měl pevně připojené ovladače, z nichž druhý nesl mikrofon, a rozšiřující port pro periferie jako disketovou jednotku **Famicom Disk System**. V Japonsku fungoval i **Famicom Modem** pro online služby. Severoamerický NES posílal obraz přes RF modulátor nebo kompozitní AV výstup; pozdější model AV Famicom přidal kvalitnější kompozitní signál.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/nes/4.webp\" alt=\"Model NES-101 s ovladačem „bone“\" loading=\"lazy\"><figcaption>Model NES-101 s ovladačem „bone“</figcaption></figure>\n\n### Modely a revize\n\nPůvodní americký NES (model **NES-001**) měl ikonickou „toaster\" konstrukci s předním zásuvným slotem a přítlačným mechanismem **ZIF**. Právě tento mechanismus byl po letech příčinou nechvalně známého blikání obrazu, protože kontakty oxidovaly.\n\nV roce 1993 vyšel kompaktní redesign **NES-101** (tzv. „top loader\") s horním slotem, který problémy s kontakty odstranil, ovšem postrádal kompozitní výstup. V Japonsku Nintendo roku 1993 vydalo elegantní **AV Famicom (HVC-101)**. Mnohem později se objevila i miniaturní **NES Classic Edition** (2016) s emulovanými hrami.\n\n### Klony a varianty\n\nNES patří k nejvíce klonovaným konzolím vůbec. Po světě, zejména ve východním bloku a Asii, kolovaly nelicencované **famiclony**. Ve střední a východní Evropě byl nejznámější **Pegasus** — famiclon prodávaný od přelomu osmdesátých a devadesátých let, který se i v Československu stal pro mnoho dětí první konzolí vůbec, protože originální Nintendo bylo nedostupné a drahé. Tyto klony využívaly hardware kompatibilní s Famicomem a často přicházely s mnohaherními kazetami.\n\n### Dnešní scéna\n\nEmulace NES je dnes naprosto vyřešená — přesné emulátory jako **Mesen** nebo jádra **Nestopia** a **FCEUX** (často v rámci RetroArch) běží i na nejslabším hardwaru. Zároveň je domácí **homebrew** scéna NES patrně nejživější ze všech retro platforem. Nástroje a komunita dozrály natolik, že vznikají hry jako **Micro Mages** nebo **Lizard**, které vypadají i hrají lépe než většina dobových titulů — a vycházejí dokonce na skutečných kartridžích. Pro spoustu tvůrců zůstává NES vysněnou platformou právě kvůli těm „krásným omezením\", která nutí k chytrému a poctivému designu.",
-      "gameCount": 88,
+      "gameCount": 94,
       "games": [
         {
           "slug": "nes__super-mario-bros-3",
@@ -12055,6 +12097,137 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "nes__famidash",
+          "name": "Famidash",
+          "genre": "Rhythm platformer",
+          "length": "M",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2024",
+          "studio": "kandowontu / tfdsoft",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Famidash je technicky ohromující demake mobilního hitu Geometry Dash pro osmibitové NES/Famicom. Autoři z tfdsoftu ručně přepsali 14 úrovní v čistém 6502 assembleru na mapperu MMC3 a zachovali to nejpodstatnější — nekompromisní rytmickou plošinovku, kde jediné klepnutí drží tvou kostičku ve skoku přesně načasovaném na hudbu. Kolem číhají bodce, pily a propasti a jediný chybný pixel znamená návrat na start úrovně. Nechybí praktický „practice mode\", chiptune předělávky původních skladeb, výběr ikon, ovládání kamery ani dvouhráčový režim. Že takhle svižná a plynulá hra běží na hardwaru z roku 1983, je jeden z nejlepších důkazů, jak daleko dnešní NES scéna došla. Připravuje se i cartridge vydání přes Kickstarter.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__rugrats-adventures-in-gameland",
+          "name": "Rugrats: Adventures in Gameland",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [],
+          "year": "2024",
+          "studio": "The MIX Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Adventures in Gameland je novodobá NES plošinovka, která vypadá a hraje se, jako by vypadla přímo z počátku devadesátek — jenže s citem a řemeslem, jaké tehdejší licencované hry málokdy měly. Provázíš batolata z kresleného seriálu Rugrats jejich vlastní představou dobrodružství: hraješ za Tommyho i kamarády, sbíráš předměty, řešíš drobné hádanky a proskákáváš barevnými úrovněmi plnými velkých, roztomilých spritů. Hra vyšla na skutečné NES cartridgi u Limited Run Games a v emulované podobě i na moderních konzolích, kde přidává remasterovanou hudbu a ručně kreslený HD overlay. Milá poklona zlaté éře Nintenda, kterou zvládnou i děti, ale ocení hlavně nostalgici.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__full-quiet",
+          "name": "Full Quiet",
+          "genre": "Action-adventure",
+          "length": "L",
+          "flags": [
+            "homebrew",
+            "mature"
+          ],
+          "year": "2023",
+          "studio": "Retrotainment Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Full Quiet je ambiciózní hororově laděné akční dobrodružství pro NES od studia Retrotainment Games, tvůrců série Halloween. Ocitáš se v tíživé, atmosférické krajině a probíjíš se lesy, jeskyněmi a opuštěnými staveními, zatímco sbíráš zdroje, vyrábíš vybavení a odhaluješ ponurý příběh. Hra kombinuje průzkum ve stylu metroidvanie s napínavým bojem a temným vizuálem, který posouvá osmibitovou paletu za hranici toho, co bys od NES čekal. Vyšla na kvalitní cartridgi s dřevěnou krabicí a patří k technicky i výtvarně nejvyzrálejším moderním NES titulům vůbec.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__twin-dragons",
+          "name": "Twin Dragons",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2019",
+          "studio": "Broke Studio",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Twin Dragons je vyleštěná akční plošinovka pro NES od francouzského Broke Studia. Dvojice malých dráčků se vydává zachránit unesené mládě a na cestě proskáče desítky pestrých úrovní plných nástrah, tajných zákoutí a nápaditých bossů. Hra staví na precizním ovládání, chytlavém chiptune soundtracku a designu, který připomíná to nejlepší z Nintenda i Capcomu zlaté éry — jen s moderním citem pro plynulost a férovost. Původně úspěšná kampaň na Kickstarteru, dnes jeden z nejdoporučovanějších moderních NES titulů pro nováčky i veterány.",
+          "image": "/images/games/nes/nes__twin-dragons.png",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__twin-dragons.png",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__bobl",
+          "name": "Bobl",
+          "genre": "Platformer",
+          "length": "M",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2020",
+          "studio": "Morphcat Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Böbl je roztomilá plošinovka pro NES od německého Morphcat Games (autorů oceňovaných Micro Mages). Hraješ za malou bublinu, která se odráží světem sestaveným z jediné velké, propojené mapy — nemá žádné zbraně, jen chytré skákání, odrážení a využívání prostředí k překonání nepřátel i hádanek. Hra je technický skvost: díky promyšlené kompresi se do maličké cartridge vešel překvapivě rozlehlý svět s plynulou animací a svěží grafikou. Krátká, milá a nápaditá metroidvania, kterou zvládnou i děti.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "nes__alwa-s-awakening-8-bit-edition",
+          "name": "Alwa's Awakening: The 8-Bit Edition",
+          "genre": "Metroidvania",
+          "length": "L",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2020",
+          "studio": "Elden Pixels",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "The 8-Bit Edition je věrný „downgrade\" moderní hitovky Alwa's Awakening zpátky na skutečné NES — a paradoxně působí, jako by tu byla už od roku 1990. Jako čarodějka Zoe prozkoumáváš propojený svět Alwy, získáváš kouzla, kterými vyvoláváš bloky, bubliny a blesky, a s jejich pomocí odemykáš nové cesty v nejlepší metroidvania tradici. Elden Pixels hru kompletně přepsali pro osmibitový hardware včetně cartridge vydání. Rozlehlá, chytře stavěná a nádherně pixelovaná dobrodružná plošinovka, která by obstála mezi klasikami té doby.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -12070,7 +12243,7 @@
       "image": "/images/platforms/snes.png",
       "photoBg": "dark",
       "history": "Když Nintendo v roce 1990 představilo v Japonsku Super Famicom (na Západě od roku 1991 jako Super Nintendo Entertainment System), nešlo o závod, kdo bude první. Sega už rok prodávala šestnáctibitový Mega Drive a slovem „Nintendon't\" rýpala do konkurence. Nintendo přesto nespěchalo a vsadilo na něco jiného než na rychlost: na barevnost, na zvuk a na grafické triky, které z obrazovky udělaly malé divadlo. Výsledek dnes mnozí považují za **vrchol 2D herního designu** vůbec a za jeden z nejmilovanějších strojů v historii.\n\nSouboj „console wars\" mezi Segou a Nintendem byl první velkou marketingovou válkou herního průmyslu a definoval celá devadesátá léta. Sega prodávala rychlost a vyzrálejší image kolem Sonica, Nintendo hloubku a kvalitu knihovny. Právě ta knihovna dělá ze SNES legendu: nejlepší plošinovky své doby (Super Mario World, Donkey Kong Country, Yoshi's Island), žánrotvorná JRPG (Chrono Trigger, Final Fantasy VI, Secret of Mana) i metroidvania bible Super Metroid. Tituly, které se dodnes objevují v žebříčcích nejlepších her všech dob.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je šestnáctibitový procesor Ricoh 5A22 postavený na jádru kompatibilním s 65C816, taktovaný proměnlivě zhruba do 3,58 MHz. Grafiku obstarává dvojice čipů PPU, které zvládnou paletu **32 768 barev** a na obrazovku jich vyčarují stovky najednou. Konzole nabízela více grafických režimů s různým počtem vrstev pozadí a barevných hloubek, hardwarové prokládané scrollování i správu spritů.\n\nNejslavnější trumf je **Mode 7** — režim, který umí jedinou vrstvu pozadí v reálném čase otáčet, zvětšovat a zmenšovat. Odtud pochází pseudo-3D zatáčející trať v Super Mario Kart a F-Zero nebo rozevírající se mapa v závěru Final Fantasy VI. K tomu SNES uměl efekty jako poloprůhlednost a barevné mixování, díky nimž působil obraz měkčeji a bohatěji než u konkurence.\n\nZvuk je samostatná kapitola. O něj se stará **zvukový subsystém navržený Sony** (Ken Kutaragi, pozdější otec PlayStationu) — řídicí čip SPC700 spolu s DSP zvládá **osm kanálů** přehrávajících vzorkovaný zvuk se zpracováním ADPCM a hardwarovým echem či dozvukem. Soundtracky her jako Chrono Trigger nebo Donkey Kong Country proto zní dodnes mimořádně plně a melodicky.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/snes/2.webp\" alt=\"Konzole SNES se standardním ovladačem\" loading=\"lazy\"><figcaption>Konzole SNES se standardním ovladačem</figcaption></figure>\n### Propojeni a periferie\n\nStandardní gamepad SNES přidal k osvědčenému křížovému ovladači čtveřici akčních tlačítek, dvě ramenní tlačítka L a R a samozřejmě Start a Select — schéma, které ovlivnilo všechny pozdější ovladače. Konzole měla dva porty, pro více hráčů sloužil rozbočovač **Multitap** (například NHL či Bomberman).\n\nZ periferií stojí za zmínku světelná pistole **Super Scope**, bezdrátový bazukovitý kolos napájený bateriemi, a od Nintenda netypicky i myš **SNES Mouse**, dodávaná s kreslicím programem Mario Paint. Slavnou kapitolou je nikdy nevydaný CD přídavek vyvíjený se Sony; po roztržce z něj nakonec vzešel samostatný PlayStation. Obrazově konzole vystupovala přes vícežilový konektor s podporou kompozitního i lepšího S-Video a RGB signálu.\n\nSpecialitou platformy jsou **přídavné čipy přímo v kartridžích**, které stroj povyšovaly. Nejslavnější je **Super FX** (3D polygony ve Star Fox a Stunt Race FX), dále třeba SA-1, DSP-1 (Pilotwings, Super Mario Kart) nebo SuperFX2 v Yoshi's Island. Některé hry na konci životnosti vypadaly, jako by patřily na úplně jinou platformu.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/snes/3.webp\" alt=\"Zmenšený Super Famicom Jr. s ovladačem\" loading=\"lazy\"><figcaption>Zmenšený Super Famicom Jr. s ovladačem</figcaption></figure>\n### Modely a revize\n\nDesign konzole se lišil podle regionu: japonský Super Famicom a evropský/australský SNES měly oblé tvary a barevná tlačítka, zatímco severoamerická verze dostala hranatější šedý kabát s fialovými tlačítky. Později vyšel zmenšený a zlevněný redesign — v USA jako **SNES (model SNS-101, „Jr.\")**, v Japonsku jako Super Famicom Jr. Tyto pozdější verze ovšem už neměly RGB výstup ani závitové otvory pro nožičky.\n\nHardware existoval i v polooficiálních verzích pro vývojáře a herny (systém Super System pro arkády). Pro sběratele je dobré vědět, že kvůli ochraně proti kopírování se lišily i tvary kazetových slotů mezi regiony.\n\n### Klony a varianty\n\nSNES nezažil tak rozbujelou klonovou scénu jako NES s jeho famiclony, přesto se objevovaly neoficiální kompatibilní stroje, zejména v Asii a později i levné „retro\" konzole. V českém a československém prostředí byl SNES oproti osmibitovým počítačům spíše vzácnou dovozovou raritou — zatímco ZX Spectrum mělo domácí klon Didaktik a NES kolovalo jako Pegasus, šestnáctibitové Nintendo se sem dostávalo hlavně přes neoficiální dovoz a bylo drahé. Až s pozdějšími lety se stalo dostupnějším a dnes je u tuzemských sběratelů ceněným kouskem.\n\n### Dnesni scena\n\nEmulace SNES je dnes velmi dobře zvládnutá — referencí je přesný **bsnes/higan**, pro běžné hraní bohatě stačí **Snes9x**, oba dostupné i jako jádra do RetroArch. Na výkonnějších přenosných zařízeních (například s čipem H700) běží spolehlivě, jen nejnáročnější tituly s přídavnými čipy mohou občas dělat potíže. Nintendo samo nabízí výběr her v rámci Switch Online a dříve přes mininkonzoli Super NES Classic Edition.\n\nŽivá je i **homebrew a fanouškovská scéna**: vznikají moderní tituly jako **The Curse of Issyos**, fanoušci ladí překlady japonských exkluzivit a romhacky přidávají do klasik nový obsah. Díky tomu zůstává Super Nintendo i po více než třiceti letech naprosto živou platformou.",
-      "gameCount": 100,
+      "gameCount": 101,
       "games": [
         {
           "slug": "snes__super-mario-world",
@@ -15518,6 +15691,27 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "snes__dottie-flowers",
+          "name": "Dottie Flowers",
+          "genre": "Action-platformer",
+          "length": "M",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2024",
+          "studio": "Studio Vil",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Dottie Flowers je svěží akční plošinovka pro Super Nintendo, která zaujala na přehlídce Homebrew Games Summer Showcase 2024. Vede tě barevnými, pečlivě navrženými úrovněmi plnými nepřátel, tajných zákoutí a nápaditých bossů a hrdě předvádí, co šestnáctibitový hardware SNES umí — bohatou paletu, plynulou animaci i chytlavou hudbu. Design vychází z klasik devadesátek, ale s moderním citem pro tempo a férovost. Krásný důkaz, že SNES scéna žije a stále dokáže překvapit.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -15533,7 +15727,7 @@
       "image": "/images/platforms/mega-drive.png",
       "photoBg": "dark",
       "history": "Na konci osmdesátých let Nintendo ovládalo herní svět tak suverénně, že se zdálo nepřemožitelné. Pak ale přišla Sega s konzolí, která měla úplně jiný temperament. **Mega Drive** (v Severní Americe prodávaný jako **Genesis**) dorazil v Japonsku roku 1988, do Ameriky o rok později a do Evropy v roce 1990. Sega vsadila na rychlost, drzost a image „cool\" alternativy pro starší publikum — a chvíli měla 16bitový trh prakticky sama pro sebe, protože Super Nintendo dorazilo až později.\n\nSymbolem téhle filozofie se stal **Sonic the Hedgehog**. Tam, kde byl Mario rozvážný a dobrosrdečný, byl Sonic o rychlosti, postoji a sebevědomí. Slavný americký slogan „Genesis does what Nintendon't\" shrnoval celou strategii: být rychlejší, dospělejší a ochotnější jít na hranu. Symbolická byla kauza kolem hry **Mortal Kombat** — zatímco verze pro SNES krev cenzurovala, na Genesis šla po zadání kódu odemknout, což Sege u teenagerů vyneslo nemalé body.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je procesor **Motorola 68000** taktovaný na zhruba 7,6 MHz — tedy stejná rodina CPU, jaká pohání Amigu i rané Macintoshe. O zvuk a kompatibilitu se staral ještě pomocný osmibitový **Zilog Z80**, který dokázal řídit zvukový subsystém (a v režimu kompatibility i odbavit hry pro starší Master System).\n\nGrafika běží v rozlišení kolem **320×224** bodů. Z palety **512 barev** lze najednou zobrazit 61 barev (čtyři palety po šestnácti, s nulou jako průhlednou) — to byla oproti pozdějšímu SNES citelná nevýhoda a důvod, proč mívají hry na Mega Drive odvážnější, kontrastnější paletu. Naopak v pohybu konzole excelovala: hardware zvládal dvě scrollovací vrstvy plus vrstvu spritů a dovolil **až 80 spritů** na obrazovce, díky čemuž si svižné hry jako Sonic, Streets of Rage nebo Gunstar Heroes udrží tempo i v největším chaosu.\n\nZvuk obstarává FM čip **Yamaha YM2612** se šesti FM kanály, doplněný o čip **SN76489** se třemi tóny a šumem. Výsledkem je charakteristický „drsnější\", syntetický zvuk, který dal vzniknout legendárním soundtrackům — třeba hudbě Yuza Koshira ke **Streets of Rage 2**.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/2.webp\" alt=\"Sega Genesis Model 2 se šestitlačítkovým ovladačem\" loading=\"lazy\"><figcaption>Sega Genesis Model 2 se šestitlačítkovým ovladačem</figcaption></figure>\n\n### Propojeni a periferie\n\nMega Drive vychází vstříc multiplayeru — má **dva porty pro ovladače** a původní gamepad měl tři tlačítka, později přibyl populární **šestitlačítkový** model kvůli bojovkám typu Street Fighter II. Pro fanoušky závodů a sportu existoval rozbočovač **Team Player** (resp. 4-Player Adaptor) umožňující hru až čtyř hráčů.\n\nZ příslušenství stojí za zmínku světelná pistole **Menacer**, periferie **SEGA Activator** snímající pohyb a u japonské verze i modem pro službu Sega Meganet. Konzole se k televizi připojovala přes RF nebo kompozitní/RGB výstup; u prvních modelů byl k dispozici i sluchátkový výstup s regulací hlasitosti na předním panelu.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/3.webp\" alt=\"Japonský Sega Mega Drive, první model\" loading=\"lazy\"><figcaption>Japonský Sega Mega Drive, první model</figcaption></figure>\n\n### Modely a revize\n\nSega vydala několik hardwarových verzí. Původní **Model 1** (1988) měl onen sluchátkový jack a u nejstarších kusů nápis „High Definition Graphics\". Štíhlejší a levnější **Model 2** (1993) sluchátkový výstup vypustil a zjednodušil zvukové obvody (proslul mírně odlišným, „suššším\" zvukem). Existoval i kompaktní **Model 3** od Majesca a později licencované redesigny.\n\nK systému patřily i nástavby: **Sega CD** (v Japonsku Mega-CD) přidalo mechaniku na CD a hry s plnohodnotným zvukem a videosekvencemi, zatímco **32X** byl 32bitový výkonový nástavec nasazovaný na slot kartridže. Oba doplňky komerčně spíš pohořely a dnes jsou připomínkou toho, jak Sega svou náskokovou pozici postupně ztrácela.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/1.webp\" alt=\"Sega CDX – kombinace Genesis a Sega CD\" loading=\"lazy\"><figcaption>Sega CDX – kombinace Genesis a Sega CD</figcaption></figure>\n\n### Klony a varianty\n\nMega Drive je jednou z mála starších konzolí, jejíž klony se vyrábějí dodnes. Po vypršení patentů zaplavily trh levné varianty — nejznámější jsou modely **AtGames** (řada Sega Genesis/Mega Drive Classic s předinstalovanými hrami), čínské handheldy a all-in-one konzole. V Brazílii drží licenci firma **Tectoy**, která Mega Drive nepřetržitě prodává po desetiletí, vydávala i lokální exkluzivity a dotáhla to k vlastním novým revizím — Brazílie je tak největší žijící baštou této konzole.\n\nV Československu a širším východním bloku nebyl Mega Drive díky ceně a dovozním bariérám tak rozšířený jako osmibitové počítače; do popředí se dostal spíš až v devadesátých letech přes šedý dovoz a později právě přes levné klony.\n\n### Dnesni scena\n\nEmulace Mega Drive je dnes naprosto vyzrálá — jádra jako **Genesis Plus GX** běží spolehlivě i na slabém hardwaru a na moderních retro handheldech jdou hry plynule. Pozoruhodná je ovšem hlavně **homebrew scéna**, která patří k nejimpozantnějším vůbec. Vycházejí technicky vyspělé novinky jako **Demons of Asteborg**, **Xeno Crisis** nebo atmosférický **Tanglewood**, leckdy i na skutečných kartridžích. Protože Sega komunitu spíše toleruje, scéna kvete a Mega Drive tak třicet pět let po startu pořád žije.",
-      "gameCount": 103,
+      "gameCount": 104,
       "games": [
         {
           "slug": "mega-drive__sonic-hedgehog-1-3",
@@ -18878,6 +19072,27 @@
               "kind": "title"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__astebros",
+          "name": "Astebros",
+          "genre": "Roguelite platformer",
+          "length": "L",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2023",
+          "studio": "Neofid Studios",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Astebros je moderní roguelite plošinovka pro SEGA Mega Drive od Neofid Studios, tvůrců oceňovaného Demons of Asteborg. Vydáš se do procedurálně generovaných kobek se třemi hratelnými postavami, z nichž každá má vlastní silné i slabé stránky, a s každým průchodem sbíráš vylepšení, zbraně a poklady. Nabízí kooperaci pro dva hráče, nádhernou šestnáctibitovou grafiku a svižnou akci, která plně využívá možnosti Mega Drive. Vyšlo na skutečné cartridgi i na sběratelské kolekci Evercade — jeden z vrcholů současné Mega Drive homebrew scény.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -28560,8 +28775,13 @@
           "teaser": null,
           "detail": null,
           "article": "Stovky vozů, precizní řízení a posedlost detailem. **Gran Turismo** pro PSP, vydané v roce 2009, přineslo na kapesní konzoli značku, která se proslavila jako \"skutečný simulátor řízení\". Studio Polyphony Digital pod vedením Kazunoriho Yamauchiho dlouho ladilo handheldovou verzi tak, aby unesla jméno série, a výsledkem byl jeden z nejrozsáhlejších závodních titulů na platformě.\n\nProti arkádám jako Ridge Racer stojí Gran Turismo na opačném pólu. Důraz je kladen na věrnost chování vozů, na rozdíly mezi jednotlivými auty a na poctivé řízení, které odměňuje cit a trénink. Hra nabídla obrovský vozový park čítající stovky licencovaných automobilů a řadu reálných i fiktivních tratí, což z ní udělalo skutečnou pastvu pro milovníky aut na cestách.\n\nVývojově šlo o náročný počin. Přenést rozsah a renomé Gran Turisma do PSP nebylo triviální, a proto vývoj trval déle, než se původně čekalo. Když hra konečně vyšla, potvrdila, že kapesní konzole zvládne i ambici simulátorového závodění s velkým obsahem.\n\nKulturní význam série je nepřehlédnutelný. Gran Turismo patří mezi nejúspěšnější značky v historii PlayStationu a pro mnoho hráčů představuje vstupní bránu k zájmu o reálné automobily. Verze pro PSP tak přinesla kousek téhle prestiže do kapsy.\n\nPro hráče, kteří preferují poctivé řízení a sběratelskou radost z budování garáže, byla tahle hra splněním přání mít Gran Turismo všude s sebou. Je to titul pro ty, kdo k závodění přistupují s respektem a chutí pilovat každou zatáčku.\n\n**Proč hrát:** Rozsáhlý simulátor řízení se stovkami vozů přímo do kapsy. Pro fanoušky aut a poctivého ladění jízdy ideální volba.",
-          "image": "/images/games/psp/psp__gran-turismo-title.webp",
+          "image": "/images/games/psp/psp__gran-turismo.png",
           "gallery": [
+            {
+              "src": "/images/games/psp/psp__gran-turismo.png",
+              "label": "Obal",
+              "kind": "box"
+            },
             {
               "src": "/images/games/psp/psp__gran-turismo-snap.webp",
               "label": "Ze hry",
@@ -29774,8 +29994,13 @@
           "teaser": "Rare sci-fi střílečka; ambiciózní.",
           "detail": "Sci-fi střílečka z třetí osoby s prozkoumáváním planet a záchranou mimozemských „Tribals\" (musíš zachránit všechny pro postup). Ambiciózní a rozsáhlá, technicky působivá. Podceňovaná kvůli ovládání zaměřování.",
           "article": "Mimozemská invaze, planety k prozkoumání, hordy hmyzích nepřátel a parta hrdinů s těžkými zbraněmi, tak vypadá ambiciózní svět **Jet Force Gemini**, sci-fi střílečky z třetí osoby, kterou studio **Rare** vypustilo na Nintendo 64 v roce **1999**. Bylo to období, kdy Rare chrlilo jeden technicky působivý titul za druhým, a tahle hra patřila k jejich nejodvážnějším.\n\nHráč se ujímá několika postav a putuje napříč planetami, kde čistí prostředí od nepřátel a hlavně zachraňuje malé chlupaté tvory zvané Tribals. A právě tady je ten typický Rare zádrhel: pro postup ve hře musíte zachránit úplně všechny, což znamená, že nestačí jen prostřílet se vpřed. Jediný omylem zabitý Tribal vás nutí prozkoumávat úrovně znovu a pečlivěji, což hru proměňuje v kombinaci akce, sbírání a důkladného prozkoumávání.\n\nTechnicky šlo o pastvu pro oči. Detailní prostředí, množství nepřátel na obrazovce, propracovaný design světů i nápaditý bestiář ukazovaly, kam až dokázalo Rare hardware N64 hnát. Ambice byla cítit z každého koutu, ať už šlo o rozsah lokací, nebo o snahu kombinovat několik žánrových přístupů do jednoho velkého dobrodružství.\n\nHra si přesto vysloužila pověst podceňovaného titulu, a to hlavně kvůli ovládání míření. Zaměřování bylo na svou dobu netradiční a pro mnohé hráče těžkopádné, což odradilo část publika, které jinak mohlo objevit jednu z nejnápaditějších stříleček konzole. Je to klasický příklad hry, jejíž nápady a atmosféra předběhly to, jak pohodlně se s ní ovládalo.\n\nPro fanoušky Rare a sběratele zlaté éry N64 ale zůstává Jet Force Gemini fascinujícím kusem, který stojí za to dát šanci, obzvlášť pokud vám nevadí osahat si trochu nezvyklé ovládání a necháte se vtáhnout do jeho rozlehlého světa.\n\n**Proč hrát:** Pro ambiciózní, technicky působivou Rare sci-fi střílečku s rozsáhlými světy, která si zaslouží druhou šanci i přes svérázné míření.",
-          "image": "/images/games/n64/n64__jet-force-gemini-title.webp",
+          "image": "/images/games/n64/n64__jet-force-gemini.png",
           "gallery": [
+            {
+              "src": "/images/games/n64/n64__jet-force-gemini.png",
+              "label": "Obal",
+              "kind": "box"
+            },
             {
               "src": "/images/games/n64/n64__jet-force-gemini-snap.webp",
               "label": "Ze hry",
@@ -30163,8 +30388,13 @@
           "teaser": null,
           "detail": null,
           "article": "Třetí návštěva houbové herní party přinesla na šedou konzoli rozlučku s žánrem v jeho čtyřbitové éře, a to ve velkém stylu. Mario Party 3 uzavřelo trilogii na této platformě a obohatilo osvědčenou formuli o prvky, které posunuly soutěživost ještě o kus dál.\n\nNejvětší novinkou byl takzvaný souboj na hrací desce v podobě duelového režimu. Vedle klasické čtyřčlenné mela se nově dalo utkat dva na dva nebo přímo jeden na jednoho na speciálních mapách, kde si hráči najímali pomocníky a snažili se ubrat soupeři životy. Tento režim přidal sérii novou taktickou rovinu a možnost soustředěnějšího souboje pro menší skupinu. Vrátil se i sběr hvězd, mincí a desítky čerstvých minihher po každém kole.\n\nDo děje se zapojily i nové postavy a do soupisky přibyli další oblíbenci, takže pestrost obsazení rostla. Nově se objevily i předměty, které hráčům dávaly více možností, jak ovlivnit průběh hry, ukrást soupeři hvězdu nebo se bránit nástrahám. Strategická hloubka tak postupně sílila s každým dílem.\n\nVývojářem zůstalo studio Hudson Soft, které sérii na této konzoli dovedlo do zralé podoby, než se značka přesunula na nástupnické platformy. Trojka bývá ceněna za bohatství obsahu a za to, jak rozšířila možnosti pro různé počty hráčů, od velkých skupin až po duely ve dvou.\n\nMario Party 3 stojí jako důstojný závěr jedné éry. Pro hráče, kteří už znali předchozí díly a toužili po dalších mapách, postavách a minihhrách, šlo o přirozené vyústění a zároveň přemostění k budoucnosti série.\n\n**Proč hrát:** Obsahově nejbohatší díl trilogie na konzoli, který přidává duelový režim a širší obsazení, a důstojně uzavírá jednu éru herních party.",
-          "image": "/images/games/n64/n64__mario-party-3-title.webp",
+          "image": "/images/games/n64/n64__mario-party-3.png",
           "gallery": [
+            {
+              "src": "/images/games/n64/n64__mario-party-3.png",
+              "label": "Obal",
+              "kind": "box"
+            },
             {
               "src": "/images/games/n64/n64__mario-party-3-title.webp",
               "label": "Titulní obrazovka",
@@ -37149,7 +37379,7 @@
       "image": "/images/platforms/dreamcast.png",
       "photoBg": "dark",
       "history": "Když Sega v roce 1998 v Japonsku (a o rok později v Evropě a Severní Americe) představila Dreamcast, málokdo tušil, že sleduje labutí píseň jednoho z největších jmen herního průmyslu. Po bolestivém neúspěchu Saturnu vsadila Sega vše na jednu kartu: na technicky vyspělý, ale především **snadno programovatelný** stroj, který měl konkurenci porazit kvalitou, nikoli marketingovou silou. A v mnoha ohledech byl Dreamcast skutečně o generaci napřed — přišel jako vůbec první domácí konzole s **vestavěným modemem** pro hraní po internetu.\n\nStart byl skvělý. Konzole se v prvním roce prodávala výborně a knihovna se rychle plnila. Jenže pak přišlo oznámení PlayStationu 2, který lákal na přehrávání DVD a opíral se o obrovskou setrvačnost značky. Vydavatelé začali přesouvat podporu k Sony ještě dřív, než PS2 vůbec vyšla, a finančně vyčerpaná Sega už neměla sílu bojovat. V roce 2001 výroba skončila a Sega se z hardwaru stáhla nadobro. Právě tahle předčasná smrt z Dreamcastu udělala kultovní stroj s koncentrovanou, mimořádně kvalitní knihovnou — od bezkompromisních arkádových portů přes bláznivé originály jako **Jet Set Radio**, **Space Channel 5** nebo **Rez** až po fantastické 2D bojovky a shmupy.\n\n### Technika: grafika a zvuk\n\nSrdcem Dreamcastu byl 128bitový procesor **Hitachi SH-4** taktovaný na 200 MHz s vestavěnou jednotkou pro práci s pohyblivou řádovou čárkou. O grafiku se staral čip **PowerVR2** (PowerVR Series2, CLX2) od firmy NEC/VideoLogic, který využíval techniku **tile-based deferred rendering** — efektivně zahazoval překreslované plochy a šetřil tak výpočetní výkon. Konzole disponovala 16 MB hlavní paměti a 8 MB videopaměti a zvládala typicky rozlišení 640×480 s plnou paletou barev.\n\nZvuk obstarával procesor **Yamaha AICA** s jádrem ARM7, schopný 64 hlasů a PCM i ADPCM přehrávání — na svou dobu velmi solidní základ pro kvalitní hudbu i prostorové efekty. Výsledkem byla konzole, která dokázala věrně přenášet arkádové hry: **Soulcalibur** vypadal doma dokonce lépe než v herně a tituly jako **Marvel vs. Capcom 2** nebo **Power Stone** běžely svižně a bez kompromisů.\n\n### Propojeni a periferie\n\nNejslavnější periferií Dreamcastu byl bezesporu **VMU (Visual Memory Unit)** — paměťová karta s vlastním malým monochromatickým displejem a tlačítky, která se zasouvala přímo do ovladače. Sloužila nejen k ukládání pozic, ale mohla zobrazovat doplňkové informace během hry, nebo dokonce spouštět drobné minihry jako samostatná kapesní hračka.\n\nZmíněný **vestavěný modem** (56k, v některých regionech později nahrazovaný širokopásmovým adaptérem) umožnil online hraní v titulech jako **Phantasy Star Online** a předběhl tak dobu o roky. K ovladači šlo připojit i **vibrační modul (Jump Pack/Puru Puru Pack)**, k dispozici byly speciální arkádové páky, rybářský ovladač, klávesnice, myš, mikrofon pro Seaman a světelná pistole. Konzole nabízela jak kompozitní/RGB SCART, tak VGA výstup pro ostrý obraz na monitoru.\n\n### Modely a revize\n\nHardware Dreamcastu zůstal po celou dobu poměrně jednotný, lišil se hlavně regionálně a kosmeticky. Japonské, severoamerické, evropské a australské verze se odlišovaly regionálním zámkem a barvou loga (oranžová spirála v Evropě a Japonsku, modrá v Severní Americe kvůli ochranné známce). Kromě bílé základní varianty vyšla řada **limitovaných barevných edic** — známé jsou například černá Sega Sports edice nebo různé japonské speciály. Klíčovým interním rozdílem byla mechanika GD-ROM a později revize základní desky, které ovlivnily náchylnost ke spouštění domácích kopií.\n\nMédium **GD-ROM (Gigabyte Disc)** byl Segou vyvinutý formát s kapacitou kolem 1 GB, který měl ztížit pirátství — paradoxně se ale ukázalo, že konzole umí bootovat i z běžných vypálených CD-R, což jí v pozdějších letech zajistilo nebývalou životnost mezi nadšenci.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/dreamcast/3.webp\" alt=\"Arkádový automat se Sega Dreamcastem v muzeu\" loading=\"lazy\"><figcaption>Arkádový automat se Sega Dreamcastem v muzeu</figcaption></figure>\n\n### Klony a varianty\n\nSega Dreamcast neměla klasické \"klony\" v tom smyslu jako třeba ZX Spectrum nebo NES, protože šlo o technicky náročný stroj uzavřené generace. Příbuznou platformou byla arkádová deska **Sega NAOMI**, která sdílela architekturu s Dreamcastem (stejný SH-4 i PowerVR2) — díky tomu byly arkádové porty mimořádně věrné a konverze v obou směrech snadné. V českém a československém prostředí Dreamcast přišel až po revoluci jako standardní importovaný hardware; éra domácích klonů, kterou jsme zažili u osmibitů typu **Didaktik** (klon ZX Spectra) nebo u famiclonů a **Pegasusu** v případě NES, se konzolí této generace už netýkala.\n\n### Dnesni scena\n\nDreamcast má dodnes pozoruhodně živou komunitu. Pro retrohráče je skvělá zpráva, že nejrozšířenější emulátor **Flycast** (dostupný i jako core v RetroArchu) zvládá drtivou většinu knihovny velmi dobře — zejména 2D tituly, bojovky a shmupy běží výborně i na slabším přenosném hardwaru, jen nejnáročnější 3D jako **Shenmue** umí potrápit. Na výkonnějších handheldech (například Anbernic s čipem H700, kde je RG46R citelně svižnější než RG35XX Pro) je Dreamcast nejmocnější konzolí, kterou rozumně zahrajete.\n\nA co je vzácné — pro Dreamcast stále **vycházejí nové hry** na skutečných discích. Aktivní homebrew a indie scéna těží z toho, že se konzole snadno bootuje z vypálených médií, takže pro fanoušky 2D žánrů a arkádové akce zůstává malou, stále otevřenou svatyní.",
-      "gameCount": 41,
+      "gameCount": 43,
       "games": [
         {
           "slug": "dreamcast__sonic-adventure",
@@ -38585,6 +38815,48 @@
               "kind": "title"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "dreamcast__intrepid-izzy",
+          "name": "Intrepid Izzy",
+          "genre": "Action-platformer",
+          "length": "L",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2020",
+          "studio": "Senile Team",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Intrepid Izzy je barevná akční plošinovka s prvky beat 'em up a metroidvanie pro SEGA Dreamcast od nizozemského Senile Teamu. Dobrodružka Izzy prozkoumává propojený svět, sbírá kostýmy, které jí dávají nové schopnosti, mlátí nepřátele a řeší hádanky cestou za rozbitým chrámem, do kterého se prokopala. Ručně kreslená grafika, plynulá animace a svěží humor z ní dělají jeden z nejsympatičtějších moderních Dreamcast titulů. Vyšlo v plné krabicové edici pro skutečnou konzoli.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "dreamcast__xenocider",
+          "name": "Xenocider",
+          "genre": "Rail shooter",
+          "length": "M",
+          "flags": [
+            "homebrew"
+          ],
+          "year": "2021",
+          "studio": "Retro Sumus",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "Xenocider je plně trojrozměrná arkádová „rail\" střílečka pro SEGA Dreamcast, otevřeně inspirovaná klasikou Space Harrier. Jako kybernetická bojovnice Xara se řítíš vstříc obrazovce, uhýbáš přívalům střel, ničíš vlny nepřátel a čelíš obřím bossům na exotických planetách. Vlastní 3D engine, svižné tempo a syté vizuály ukazují, že Dreamcast má i po letech co nabídnout. Vyšlo na skutečném GD-ROM disku v krabicové edici a patří k technicky nejambicióznějším dílům současné Dreamcast homebrew scény.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -53063,11 +53335,11 @@
   ],
   "stats": {
     "platforms": 39,
-    "games": 1576,
+    "games": 1588,
     "withDetail": 476,
     "withTeaser": 355,
-    "withArticle": 1572,
+    "withArticle": 1584,
     "platformImages": 39,
-    "gameImages": 1513
+    "gameImages": 1514
   }
 }

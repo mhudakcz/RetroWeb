@@ -685,6 +685,14 @@
    "genre": "RPG",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Dottie Flowers",
+   "genre": "Action-platformer",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "mega-drive": [
@@ -993,6 +1001,14 @@
    "genre": "Shmup",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Astebros",
+   "genre": "Roguelite platformer",
+   "length": "L",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "nes": [
@@ -1273,6 +1289,53 @@
    "genre": "Beat 'em up",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Famidash",
+   "genre": "Rhythm platformer",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Rugrats: Adventures in Gameland",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Full Quiet",
+   "genre": "Action-adventure",
+   "length": "L",
+   "flags": [
+    "homebrew",
+    "mature"
+   ]
+  },
+  {
+   "name": "Twin Dragons",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Bobl",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Alwa's Awakening: The 8-Bit Edition",
+   "genre": "Metroidvania",
+   "length": "L",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "playstation": [
@@ -3195,6 +3258,22 @@
    "flags": [
     "puzzle"
    ]
+  },
+  {
+   "name": "Intrepid Izzy",
+   "genre": "Action-platformer",
+   "length": "L",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Xenocider",
+   "genre": "Rail shooter",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "psp": [
@@ -3455,6 +3534,22 @@
    "genre": "RPG / Sim",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Dragonborne",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Dragonyhm",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "saturn": [
