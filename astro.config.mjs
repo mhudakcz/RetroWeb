@@ -8,15 +8,15 @@ export default defineConfig({
     sitemap({
       i18n: {
         defaultLocale: 'cs',
-        locales: { cs: 'cs', en: 'en', de: 'de' },
+        locales: { cs: 'cs', en: 'en', de: 'de', fr: 'fr' },
       },
     }),
   ],
   i18n: {
     defaultLocale: 'cs',
-    locales: ['cs', 'en', 'de'],
+    locales: ['cs', 'en', 'de', 'fr'],
     routing: {
-      prefixDefaultLocale: false, // čeština na /, angličtina /en/, němčina /de/
+      prefixDefaultLocale: false, // čeština na /, angličtina /en/, němčina /de/, francouzština /fr/
     },
   },
   build: {

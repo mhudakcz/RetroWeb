@@ -4,14 +4,15 @@ import PlatformsIndex from '../../../components/PlatformsIndex.astro';
 import type { Locale } from '../../../lib/i18n';
 
 export function getStaticPaths() {
-  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }];
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
 }
 const locale = Astro.params.lang as Locale;
 const DESC = {
   en: 'Overview of retro gaming platforms — consoles, handhelds, home computers, arcades and fantasy consoles.',
   de: 'Überblick über Retro-Gaming-Plattformen — Konsolen, Handhelds, Heimcomputer, Arcades und Fantasy-Konsolen.',
+  fr: 'Aperçu des plateformes de jeu rétro — consoles, consoles portables, ordinateurs personnels, bornes d’arcade et consoles fantasy.',
 }[locale];
-const TITLE = { en: 'Platforms', de: 'Plattformen' }[locale];
+const TITLE = { en: 'Platforms', de: 'Plattformen', fr: 'Plateformes' }[locale];
 ---
 
 <Base title={TITLE} description={DESC} locale={locale} localized>

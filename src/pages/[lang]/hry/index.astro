@@ -4,14 +4,15 @@ import GamesIndex from '../../../components/GamesIndex.astro';
 import type { Locale } from '../../../lib/i18n';
 
 export function getStaticPaths() {
-  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }];
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
 }
 const locale = Astro.params.lang as Locale;
 const DESC = {
   en: 'Browse the retro game catalogue — filter by platform, genre, homebrew or must-play.',
   de: 'Durchstöbere den Retro-Spielekatalog — filtere nach Plattform, Genre, Homebrew oder Must-play.',
+  fr: 'Parcourez le catalogue de jeux rétro — filtrez par plateforme, genre, homebrew ou incontournable.',
 }[locale];
-const TITLE = { en: 'Games', de: 'Spiele' }[locale];
+const TITLE = { en: 'Games', de: 'Spiele', fr: 'Jeux' }[locale];
 ---
 
 <Base title={TITLE} description={DESC} locale={locale} localized>

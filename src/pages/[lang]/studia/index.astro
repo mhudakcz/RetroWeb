@@ -4,14 +4,15 @@ import StudiosIndex from '../../../components/StudiosIndex.astro';
 import type { Locale } from '../../../lib/i18n';
 
 export function getStaticPaths() {
-  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }];
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
 }
 const locale = Astro.params.lang as Locale;
 const DESC = {
   en: 'Profiles of legendary game studios — history, key games and people.',
   de: 'Profile legendärer Spiele-Studios — Geschichte, wichtige Spiele und Persönlichkeiten.',
+  fr: 'Portraits de studios de jeu légendaires — histoire, jeux clés et personnalités.',
 }[locale];
-const TITLE = { en: 'Game studios', de: 'Spiele-Studios' }[locale];
+const TITLE = { en: 'Game studios', de: 'Spiele-Studios', fr: 'Studios de jeux' }[locale];
 ---
 
 <Base title={TITLE} description={DESC} locale={locale} localized>

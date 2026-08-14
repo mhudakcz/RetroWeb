@@ -4,14 +4,15 @@ import HardwareIndex from '../../components/HardwareIndex.astro';
 import type { Locale } from '../../lib/i18n';
 
 export function getStaticPaths() {
-  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }];
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
 }
 const locale = Astro.params.lang as Locale;
 const DESC = {
   en: 'Retro handhelds (Anbernic RG35XX Pro, R36S), Batocera, Raspberry Pi and more — guides on what they run and how to set them up.',
   de: 'Retro-Handhelds (Anbernic RG35XX Pro, R36S), Batocera, Raspberry Pi und mehr — Guides, was sie packen und wie man sie einrichtet.',
+  fr: 'Consoles portables rétro (Anbernic RG35XX Pro, R36S), Batocera, Raspberry Pi et plus — des guides sur ce qu’elles font tourner et comment les configurer.',
 }[locale];
-const TITLE = { en: 'Hardware & emulation', de: 'Hardware & Emulation' }[locale];
+const TITLE = { en: 'Hardware & emulation', de: 'Hardware & Emulation', fr: 'Matériel & émulation' }[locale];
 ---
 
 <Base title={TITLE} description={DESC} locale={locale} localized>

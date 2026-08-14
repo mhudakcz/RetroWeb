@@ -518,6 +518,246 @@
     "studio": "Westone Bit Entertainment",
     "year": "1991"
   },
+  "gamecube__animal-crossing": {
+    "studio": "Nintendo EAD",
+    "year": "2002"
+  },
+  "gamecube__baten-kaitos-eternal-wings-and-lost-ocean": {
+    "studio": "Monolith Soft",
+    "year": "2003"
+  },
+  "gamecube__beyond-good-and-evil": {
+    "studio": "Ubisoft",
+    "year": "2003"
+  },
+  "gamecube__billy-hatcher-and-giant-egg": {
+    "studio": "Sonic Team",
+    "year": "2003"
+  },
+  "gamecube__chibi-robo": {
+    "studio": "Skip Ltd.",
+    "year": "2006"
+  },
+  "gamecube__custom-robo": {
+    "studio": "Noise",
+    "year": "2004"
+  },
+  "gamecube__donkey-kong-jungle-beat": {
+    "studio": "Nintendo EAD",
+    "year": "2004"
+  },
+  "gamecube__donkey-konga": {
+    "studio": "Namco",
+    "year": "2004"
+  },
+  "gamecube__eternal-darkness-sanity-s-requiem": {
+    "studio": "Silicon Knights",
+    "year": "2002"
+  },
+  "gamecube__f-zero-gx": {
+    "studio": "Amusement Vision",
+    "year": "2003"
+  },
+  "gamecube__final-fantasy-crystal-chronicles": {
+    "studio": "Square Enix",
+    "year": "2004"
+  },
+  "gamecube__fire-emblem-path-of-radiance": {
+    "studio": "Intelligent Systems",
+    "year": "2005"
+  },
+  "gamecube__geist": {
+    "studio": "n-Space",
+    "year": "2005"
+  },
+  "gamecube__harvest-moon-wonderful-life": {
+    "studio": "Marvelous Interactive",
+    "year": "2004"
+  },
+  "gamecube__ikaruga": {
+    "studio": "Treasure",
+    "year": "2001"
+  },
+  "gamecube__killer7": {
+    "studio": "Grasshopper Manufacture",
+    "year": "2005"
+  },
+  "gamecube__kirby-air-ride": {
+    "studio": "HAL Laboratory",
+    "year": "2003"
+  },
+  "gamecube__legend-of-zelda-four-swords-adventures": {
+    "studio": "Nintendo EAD",
+    "year": "2005"
+  },
+  "gamecube__legend-of-zelda-twilight-princess": {
+    "studio": "Nintendo EAD",
+    "year": "2006"
+  },
+  "gamecube__legend-of-zelda-wind-waker": {
+    "studio": "Nintendo EAD",
+    "year": "2002"
+  },
+  "gamecube__luigi-s-mansion": {
+    "studio": "Nintendo EAD",
+    "year": "2001"
+  },
+  "gamecube__mario-golf-toadstool-tour": {
+    "studio": "Camelot",
+    "year": "2003"
+  },
+  "gamecube__mario-kart-double-dash": {
+    "studio": "Nintendo EAD",
+    "year": "2003"
+  },
+  "gamecube__mario-party-4": {
+    "studio": "Hudson Soft",
+    "year": "2002"
+  },
+  "gamecube__mario-party-5": {
+    "studio": "Hudson Soft",
+    "year": "2003"
+  },
+  "gamecube__mario-party-6": {
+    "studio": "Hudson Soft",
+    "year": "2004"
+  },
+  "gamecube__mario-party-7": {
+    "studio": "Hudson Soft",
+    "year": "2005"
+  },
+  "gamecube__mario-power-tennis": {
+    "studio": "Camelot",
+    "year": "2004"
+  },
+  "gamecube__metal-gear-solid-twin-snakes": {
+    "studio": "Silicon Knights",
+    "year": "2004"
+  },
+  "gamecube__metroid-prime": {
+    "studio": "Retro Studios",
+    "year": "2002"
+  },
+  "gamecube__metroid-prime-2-echoes": {
+    "studio": "Retro Studios",
+    "year": "2004"
+  },
+  "gamecube__p-n-03": {
+    "studio": "Capcom",
+    "year": "2003"
+  },
+  "gamecube__paper-mario-thousand-year-door": {
+    "studio": "Intelligent Systems",
+    "year": "2004"
+  },
+  "gamecube__pikmin": {
+    "studio": "Nintendo EAD",
+    "year": "2001"
+  },
+  "gamecube__pikmin-2": {
+    "studio": "Nintendo EAD",
+    "year": "2004"
+  },
+  "gamecube__pokemon-colosseum": {
+    "studio": "Genius Sonority",
+    "year": "2003"
+  },
+  "gamecube__pokemon-xd-gale-of-darkness": {
+    "studio": "Genius Sonority",
+    "year": "2005"
+  },
+  "gamecube__prince-of-persia-sands-of-time": {
+    "studio": "Ubisoft Montreal",
+    "year": "2003"
+  },
+  "gamecube__resident-evil": {
+    "studio": "Capcom",
+    "year": "2002"
+  },
+  "gamecube__resident-evil-4": {
+    "studio": "Capcom",
+    "year": "2005"
+  },
+  "gamecube__skies-of-arcadia-legends": {
+    "studio": "Overworks",
+    "year": "2002"
+  },
+  "gamecube__sonic-adventure-2-battle": {
+    "studio": "Sonic Team",
+    "year": "2001"
+  },
+  "gamecube__sonic-heroes": {
+    "studio": "Sonic Team",
+    "year": "2004"
+  },
+  "gamecube__soulcalibur-ii": {
+    "studio": "Namco",
+    "year": "2003"
+  },
+  "gamecube__ssx-tricky": {
+    "studio": "EA Sports BIG",
+    "year": "2001"
+  },
+  "gamecube__star-fox-adventures": {
+    "studio": "Rare",
+    "year": "2002"
+  },
+  "gamecube__star-fox-assault": {
+    "studio": "Namco",
+    "year": "2005"
+  },
+  "gamecube__star-wars-rogue-squadron-ii-rogue-leader": {
+    "studio": "Factor 5",
+    "year": "2001"
+  },
+  "gamecube__super-mario-strikers": {
+    "studio": "Next Level Games",
+    "year": "2005"
+  },
+  "gamecube__super-mario-sunshine": {
+    "studio": "Nintendo EAD",
+    "year": "2002"
+  },
+  "gamecube__super-monkey-ball": {
+    "studio": "Amusement Vision",
+    "year": "2001"
+  },
+  "gamecube__super-monkey-ball-2": {
+    "studio": "Amusement Vision",
+    "year": "2002"
+  },
+  "gamecube__super-smash-bros-melee": {
+    "studio": "HAL Laboratory",
+    "year": "2001"
+  },
+  "gamecube__tales-of-symphonia": {
+    "studio": "Namco Tales Studio",
+    "year": "2003"
+  },
+  "gamecube__teenage-mutant-ninja-turtles": {
+    "studio": "Konami",
+    "year": "2003"
+  },
+  "gamecube__timesplitters-2": {
+    "studio": "Free Radical Design",
+    "year": "2002"
+  },
+  "gamecube__viewtiful-joe": {
+    "studio": "Clover Studio",
+    "year": "2003"
+  },
+  "gamecube__viewtiful-joe-2": {
+    "studio": "Clover Studio",
+    "year": "2004"
+  },
+  "gamecube__wario-world": {
+    "studio": "Treasure",
+    "year": "2003"
+  },
+  "gamecube__warioware-inc-mega-party-game": {
+    "studio": "Nintendo",
+    "year": "2003"
+  },
   "master-system__alex-kidd-in-miracle-world": {},
   "master-system__asterix": {},
   "master-system__astro-force": {},
@@ -1050,6 +1290,266 @@
     "year": "1985"
   },
   "nes__zelda-ii-adventure-of-link": {},
+  "ps2__baldur-s-gate-dark-alliance": {
+    "studio": "Snowblind Studios",
+    "year": "2001"
+  },
+  "ps2__beyond-good-and-evil": {
+    "studio": "Ubisoft",
+    "year": "2003"
+  },
+  "ps2__black": {
+    "studio": "Criterion Games",
+    "year": "2006"
+  },
+  "ps2__bully": {
+    "studio": "Rockstar Vancouver",
+    "year": "2006"
+  },
+  "ps2__burnout-3-takedown": {
+    "studio": "Criterion Games",
+    "year": "2004"
+  },
+  "ps2__dark-cloud-2": {
+    "studio": "Level-5",
+    "year": "2002"
+  },
+  "ps2__def-jam-fight-for-ny": {
+    "studio": "EA Canada",
+    "year": "2004"
+  },
+  "ps2__devil-may-cry": {
+    "studio": "Capcom",
+    "year": "2001"
+  },
+  "ps2__devil-may-cry-3-dante-s-awakening": {
+    "studio": "Capcom",
+    "year": "2005"
+  },
+  "ps2__disgaea-hour-of-darkness": {
+    "studio": "Nippon Ichi Software",
+    "year": "2003"
+  },
+  "ps2__dragon-quest-viii-journey-of-cursed-king": {
+    "studio": "Level-5",
+    "year": "2004"
+  },
+  "ps2__fatal-frame-ii-crimson-butterfly": {
+    "studio": "Tecmo",
+    "year": "2003"
+  },
+  "ps2__final-fantasy-x": {
+    "studio": "Square",
+    "year": "2001"
+  },
+  "ps2__final-fantasy-x-2": {
+    "studio": "Square Enix",
+    "year": "2003"
+  },
+  "ps2__final-fantasy-xii": {
+    "studio": "Square Enix",
+    "year": "2006"
+  },
+  "ps2__god-hand": {
+    "studio": "Clover Studio",
+    "year": "2006"
+  },
+  "ps2__god-of-war": {
+    "studio": "SCE Santa Monica Studio",
+    "year": "2005"
+  },
+  "ps2__god-of-war-ii": {
+    "studio": "SCE Santa Monica Studio",
+    "year": "2007"
+  },
+  "ps2__gran-turismo-3-spec": {
+    "studio": "Polyphony Digital",
+    "year": "2001"
+  },
+  "ps2__gran-turismo-4": {
+    "studio": "Polyphony Digital",
+    "year": "2004"
+  },
+  "ps2__grand-theft-auto-iii": {
+    "studio": "DMA Design",
+    "year": "2001"
+  },
+  "ps2__grand-theft-auto-san-andreas": {
+    "studio": "Rockstar North",
+    "year": "2004"
+  },
+  "ps2__grand-theft-auto-vice-city": {
+    "studio": "Rockstar North",
+    "year": "2002"
+  },
+  "ps2__guitar-hero": {
+    "studio": "Harmonix",
+    "year": "2005"
+  },
+  "ps2__ico": {
+    "studio": "Team Ico",
+    "year": "2001"
+  },
+  "ps2__jak-3": {
+    "studio": "Naughty Dog",
+    "year": "2004"
+  },
+  "ps2__jak-and-daxter-precursor-legacy": {
+    "studio": "Naughty Dog",
+    "year": "2001"
+  },
+  "ps2__jak-ii": {
+    "studio": "Naughty Dog",
+    "year": "2003"
+  },
+  "ps2__katamari-damacy": {
+    "studio": "Namco",
+    "year": "2004"
+  },
+  "ps2__killzone": {
+    "studio": "Guerrilla Games",
+    "year": "2004"
+  },
+  "ps2__kingdom-hearts": {
+    "studio": "Square",
+    "year": "2002"
+  },
+  "ps2__kingdom-hearts-ii": {
+    "studio": "Square Enix",
+    "year": "2005"
+  },
+  "ps2__manhunt": {
+    "studio": "Rockstar North",
+    "year": "2003"
+  },
+  "ps2__metal-gear-solid-2-sons-of-liberty": {
+    "studio": "Konami",
+    "year": "2001"
+  },
+  "ps2__metal-gear-solid-3-snake-eater": {
+    "studio": "Konami",
+    "year": "2004"
+  },
+  "ps2__need-for-speed-most-wanted": {
+    "studio": "EA Black Box",
+    "year": "2005"
+  },
+  "ps2__okami": {
+    "studio": "Clover Studio",
+    "year": "2006"
+  },
+  "ps2__onimusha-3-demon-siege": {
+    "studio": "Capcom",
+    "year": "2004"
+  },
+  "ps2__persona-3": {
+    "studio": "Atlus",
+    "year": "2006"
+  },
+  "ps2__persona-4": {
+    "studio": "Atlus",
+    "year": "2008"
+  },
+  "ps2__prince-of-persia-sands-of-time": {
+    "studio": "Ubisoft Montreal",
+    "year": "2003"
+  },
+  "ps2__ratchet-and-clank": {
+    "studio": "Insomniac Games",
+    "year": "2002"
+  },
+  "ps2__ratchet-and-clank-up-your-arsenal": {
+    "studio": "Insomniac Games",
+    "year": "2004"
+  },
+  "ps2__resident-evil-4": {
+    "studio": "Capcom",
+    "year": "2005"
+  },
+  "ps2__rez": {
+    "studio": "United Game Artists",
+    "year": "2001"
+  },
+  "ps2__rogue-galaxy": {
+    "studio": "Level-5",
+    "year": "2005"
+  },
+  "ps2__shadow-of-colossus": {
+    "studio": "Team Ico",
+    "year": "2005"
+  },
+  "ps2__shin-megami-tensei-iii-nocturne": {
+    "studio": "Atlus",
+    "year": "2003"
+  },
+  "ps2__silent-hill-2": {
+    "studio": "Konami",
+    "year": "2001"
+  },
+  "ps2__silent-hill-3": {
+    "studio": "Konami",
+    "year": "2003"
+  },
+  "ps2__sly-2-band-of-thieves": {
+    "studio": "Sucker Punch",
+    "year": "2004"
+  },
+  "ps2__sly-3-honor-among-thieves": {
+    "studio": "Sucker Punch",
+    "year": "2005"
+  },
+  "ps2__sly-cooper-and-thievius-raccoonus": {
+    "studio": "Sucker Punch",
+    "year": "2002"
+  },
+  "ps2__soulcalibur-ii": {
+    "studio": "Namco",
+    "year": "2003"
+  },
+  "ps2__ssx-3": {
+    "studio": "EA Canada",
+    "year": "2003"
+  },
+  "ps2__star-ocean-till-end-of-time": {
+    "studio": "tri-Ace",
+    "year": "2003"
+  },
+  "ps2__suikoden-iii": {
+    "studio": "Konami",
+    "year": "2002"
+  },
+  "ps2__tekken-5": {
+    "studio": "Namco",
+    "year": "2005"
+  },
+  "ps2__timesplitters-2": {
+    "studio": "Free Radical Design",
+    "year": "2002"
+  },
+  "ps2__tony-hawk-s-pro-skater-3": {
+    "studio": "Neversoft",
+    "year": "2001"
+  },
+  "ps2__viewtiful-joe": {
+    "studio": "Clover Studio",
+    "year": "2003"
+  },
+  "ps2__virtua-fighter-4": {
+    "studio": "Sega AM2",
+    "year": "2002"
+  },
+  "ps2__we-love-katamari": {
+    "studio": "Namco",
+    "year": "2005"
+  },
+  "ps2__xenosaga-episode-i": {
+    "studio": "Monolith Soft",
+    "year": "2002"
+  },
+  "ps2__zone-of-enders-2nd-runner": {
+    "studio": "Konami",
+    "year": "2003"
+  },
   "saturn__fighting-vipers": {
     "studio": "Sega AM2",
     "year": "1996"
@@ -1218,5 +1718,225 @@
   "snes__zombies-ate-my-neighbors": {
     "studio": "Lucasfilm Games",
     "year": "1993"
+  },
+  "xbox__amped-freestyle-snowboarding": {
+    "studio": "Indie Built",
+    "year": "2001"
+  },
+  "xbox__beyond-good-and-evil": {
+    "studio": "Ubisoft",
+    "year": "2003"
+  },
+  "xbox__blinx-time-sweeper": {
+    "studio": "Artoon",
+    "year": "2002"
+  },
+  "xbox__buffy-vampire-slayer": {
+    "studio": "The Collective",
+    "year": "2002"
+  },
+  "xbox__burnout-3-takedown": {
+    "studio": "Criterion Games",
+    "year": "2004"
+  },
+  "xbox__chronicles-of-riddick-escape-from-butcher-bay": {
+    "studio": "Starbreeze Studios",
+    "year": "2004"
+  },
+  "xbox__conker-live-and-reloaded": {
+    "studio": "Rare",
+    "year": "2005"
+  },
+  "xbox__crimson-skies-high-road-to-revenge": {
+    "studio": "FASA Studio",
+    "year": "2003"
+  },
+  "xbox__dead-or-alive-3": {
+    "studio": "Team Ninja",
+    "year": "2001"
+  },
+  "xbox__dead-or-alive-ultimate": {
+    "studio": "Team Ninja",
+    "year": "2004"
+  },
+  "xbox__deus-ex-invisible-war": {
+    "studio": "Ion Storm",
+    "year": "2003"
+  },
+  "xbox__doom-3": {
+    "studio": "id Software",
+    "year": "2005"
+  },
+  "xbox__elder-scrolls-iii-morrowind": {
+    "studio": "Bethesda Game Studios",
+    "year": "2002"
+  },
+  "xbox__fable": {
+    "studio": "Lionhead Studios",
+    "year": "2004"
+  },
+  "xbox__far-cry-instincts": {
+    "studio": "Ubisoft Montreal",
+    "year": "2005"
+  },
+  "xbox__forza-motorsport": {
+    "studio": "Turn 10 Studios",
+    "year": "2005"
+  },
+  "xbox__grabbed-by-ghoulies": {
+    "studio": "Rare",
+    "year": "2003"
+  },
+  "xbox__grand-theft-auto-double-pack": {
+    "studio": "Rockstar North",
+    "year": "2003"
+  },
+  "xbox__half-life-2": {
+    "studio": "Valve",
+    "year": "2005"
+  },
+  "xbox__halo-2": {
+    "studio": "Bungie",
+    "year": "2004"
+  },
+  "xbox__halo-combat-evolved": {
+    "studio": "Bungie",
+    "year": "2001"
+  },
+  "xbox__jade-empire": {
+    "studio": "BioWare",
+    "year": "2005"
+  },
+  "xbox__jet-set-radio-future": {
+    "studio": "Smilebit",
+    "year": "2002"
+  },
+  "xbox__max-payne": {
+    "studio": "Remedy Entertainment",
+    "year": "2001"
+  },
+  "xbox__max-payne-2-fall-of-max-payne": {
+    "studio": "Remedy Entertainment",
+    "year": "2003"
+  },
+  "xbox__mechassault": {
+    "studio": "Day 1 Studios",
+    "year": "2002"
+  },
+  "xbox__metal-gear-solid-2-substance": {
+    "studio": "Konami",
+    "year": "2003"
+  },
+  "xbox__midtown-madness-3": {
+    "studio": "Digital Illusions CE",
+    "year": "2003"
+  },
+  "xbox__ninja-gaiden": {
+    "studio": "Team Ninja",
+    "year": "2004"
+  },
+  "xbox__ninja-gaiden-black": {
+    "studio": "Team Ninja",
+    "year": "2005"
+  },
+  "xbox__otogi-myth-of-demons": {
+    "studio": "FromSoftware",
+    "year": "2002"
+  },
+  "xbox__outrun-2": {
+    "studio": "Sega AM2",
+    "year": "2004"
+  },
+  "xbox__panzer-dragoon-orta": {
+    "studio": "Smilebit",
+    "year": "2002"
+  },
+  "xbox__phantom-dust": {
+    "studio": "Microsoft Game Studios",
+    "year": "2004"
+  },
+  "xbox__prince-of-persia-sands-of-time": {
+    "studio": "Ubisoft Montreal",
+    "year": "2003"
+  },
+  "xbox__project-gotham-racing": {
+    "studio": "Bizarre Creations",
+    "year": "2001"
+  },
+  "xbox__project-gotham-racing-2": {
+    "studio": "Bizarre Creations",
+    "year": "2003"
+  },
+  "xbox__psychonauts": {
+    "studio": "Double Fine Productions",
+    "year": "2005"
+  },
+  "xbox__rallisport-challenge": {
+    "studio": "Digital Illusions CE",
+    "year": "2002"
+  },
+  "xbox__sega-gt-2002": {
+    "studio": "WOW Entertainment",
+    "year": "2002"
+  },
+  "xbox__shenmue-ii": {
+    "studio": "Sega AM2",
+    "year": "2002"
+  },
+  "xbox__silent-hill-2-restless-dreams": {
+    "studio": "Konami",
+    "year": "2001"
+  },
+  "xbox__soulcalibur-ii": {
+    "studio": "Project Soul",
+    "year": "2003"
+  },
+  "xbox__ssx-3": {
+    "studio": "EA Canada",
+    "year": "2003"
+  },
+  "xbox__star-wars-battlefront": {
+    "studio": "Pandemic Studios",
+    "year": "2004"
+  },
+  "xbox__star-wars-knights-of-old-republic": {
+    "studio": "BioWare",
+    "year": "2003"
+  },
+  "xbox__star-wars-knights-of-old-republic-ii-sith-lords": {
+    "studio": "Obsidian Entertainment",
+    "year": "2004"
+  },
+  "xbox__star-wars-republic-commando": {
+    "studio": "LucasArts",
+    "year": "2005"
+  },
+  "xbox__steel-battalion": {
+    "studio": "Capcom",
+    "year": "2002"
+  },
+  "xbox__thief-deadly-shadows": {
+    "studio": "Ion Storm",
+    "year": "2004"
+  },
+  "xbox__timesplitters-2": {
+    "studio": "Free Radical Design",
+    "year": "2002"
+  },
+  "xbox__tom-clancy-s-ghost-recon": {
+    "studio": "Red Storm Entertainment",
+    "year": "2002"
+  },
+  "xbox__tom-clancy-s-rainbow-six-3": {
+    "studio": "Ubisoft Montreal",
+    "year": "2003"
+  },
+  "xbox__tom-clancy-s-splinter-cell": {
+    "studio": "Ubisoft Montreal",
+    "year": "2002"
+  },
+  "xbox__tom-clancy-s-splinter-cell-chaos-theory": {
+    "studio": "Ubisoft Montreal",
+    "year": "2005"
   }
 }

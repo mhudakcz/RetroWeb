@@ -4,14 +4,15 @@ import AboutPage from '../../components/AboutPage.astro';
 import type { Locale } from '../../lib/i18n';
 
 export function getStaticPaths() {
-  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }];
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
 }
 const locale = Astro.params.lang as Locale;
 const DESC = {
   en: 'About RetroWeb — what it covers, for which consoles, and how it came about.',
   de: 'Über RetroWeb — was es umfasst, für welche Konsolen und wie es entstanden ist.',
+  fr: 'À propos de RetroWeb — ce qu’il couvre, pour quelles consoles et comment il est né.',
 }[locale];
-const TITLE = { en: 'About', de: 'Über' }[locale];
+const TITLE = { en: 'About', de: 'Über', fr: 'À propos' }[locale];
 ---
 
 <Base title={TITLE} description={DESC} locale={locale} localized>

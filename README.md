@@ -7,7 +7,9 @@ a hardware jako Anbernic RG35XX&nbsp;Pro, R36S a Batocera.
 
 *A guide to the world of retro gaming — platform history, legendary games and hardware.*
 
-`38 platforem` · `1363 her` · `100 % článků` · `88 % obrázků` · `Astro` · `static`
+`42 platforem` · `1768 her` · `100 % článků` · `96 % obrázků` · `🇨🇿 🇬🇧 🇩🇪 🇫🇷` · `Astro` · `static`
+
+**🌐 Produkce (live):** [retrowebcz.netlify.app](https://retrowebcz.netlify.app) &nbsp;·&nbsp; **🧪 Náhled (GitHub Pages, noindex):** [mhudakcz.github.io/RetroWeb](https://mhudakcz.github.io/RetroWeb/)
 
 </div>
 
@@ -18,10 +20,12 @@ a hardware jako Anbernic RG35XX&nbsp;Pro, R36S a Batocera.
 RetroWeb je statický web postavený v [Astro](https://astro.build), který z kurátorských
 Markdown podkladů generuje přehledný katalog retro hraní:
 
-- **Platformy** — 38 konzolí, handheldů a počítačů od Atari 2600 (1977) přes Nintendo DS
-  po fantasy konzole PICO-8 a TIC-80. Každá má dlouhý článek (technika, propojení, modely,
-  klony vč. českých, dnešní scéna) prokládaný dobovými fotkami.
-- **Hry** — 1363 titulů, **100 % s magazínovým článkem** (CZ). Žánr, délka hraní, počet
+- **Platformy** — 42 konzolí, handheldů a počítačů od Atari 2600 (1977) přes Nintendo DS,
+  PlayStation 2, GameCube a Xbox až po fantasy konzole PICO-8 a TIC-80. Každá má dlouhý článek
+  (technika, propojení, modely, klony vč. českých, dnešní scéna) prokládaný dobovými fotkami.
+- **Jazyky** — kompletní obsah ve **čtyřech jazycích**: 🇨🇿 čeština, 🇬🇧 angličtina, 🇩🇪 němčina,
+  🇫🇷 francouzština (přepínač v hlavičce i patičce, hreflang a lokalizovaná sitemap pro SEO).
+- **Hry** — 1768 titulů, **100 % s magazínovým článkem** (CZ). Žánr, délka hraní, počet
   hráčů 👥, obal/screenshoty. Katalog s hledáním a filtry (platforma, žánr, homebrew 🆓,
   must-play ⭐, logické 🧩, pro více hráčů). Postupné čtení (předchozí/další) u platforem i her.
 - **Hardware & emulace** — průvodci pro Anbernic RG35XX Pro, R36S, Batocera, Raspberry Pi,
@@ -68,10 +72,12 @@ src/pages/               domů, /platformy, /hry, /hardware, /o-projektu
 RetroWeb is a static [Astro](https://astro.build) site that turns curated Markdown notes
 into a browsable retro-gaming catalog:
 
-- **Platforms** — 38 consoles, handhelds and computers from the Atari 2600 (1977) through the
-  Nintendo DS to the PICO-8 / TIC-80 fantasy consoles, each with a long article (tech, links,
-  models, clones, today's scene) interwoven with period photos.
-- **Games** — 1363 titles, **100 % with a magazine-style write-up** (Czech). Genre, play-length,
+- **Platforms** — 42 consoles, handhelds and computers from the Atari 2600 (1977) through the
+  Nintendo DS, PlayStation 2, GameCube and Xbox to the PICO-8 / TIC-80 fantasy consoles, each with
+  a long article (tech, links, models, clones, today's scene) interwoven with period photos.
+- **Languages** — full content in **four languages**: 🇨🇿 Czech, 🇬🇧 English, 🇩🇪 German, 🇫🇷 French
+  (switcher in header and footer, hreflang and a localized sitemap for SEO).
+- **Games** — 1768 titles, **100 % with a magazine-style write-up**. Genre, play-length,
   player count 👥, box art / screenshots. Catalog with search and filters (platform, genre,
   homebrew 🆓, must-play ⭐, puzzle 🧩, multiplayer), plus prev/next reading navigation.
 - **Hardware & emulation** — guides for Anbernic RG35XX Pro, R36S, Batocera, Raspberry Pi,

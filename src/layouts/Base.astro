@@ -36,7 +36,7 @@ const alternates = localized
   ? LOCALES.map((l) => ({ hreflang: l, href: abs(localizePath(l, basePath)) }))
   : [];
 
-const OG_LOCALE: Record<string, string> = { cs: 'cs_CZ', en: 'en_GB', de: 'de_DE' };
+const OG_LOCALE: Record<string, string> = { cs: 'cs_CZ', en: 'en_GB', de: 'de_DE', fr: 'fr_FR' };
 const ogLocaleAlt = LOCALES.filter((l) => l !== locale);
 const jsonLd = {
   '@context': 'https://schema.org',
