@@ -3965,8 +3965,14 @@
           "teaser": null,
           "detail": null,
           "article": "Dragonborne je plnohodnotné akční RPG pro Game Boy Color, které svou ambicí připomíná klasické kapesní Zeldy i Dragon Questy. Vydáváš se do rozlehlého světa, prozkoumáváš kobky, řešíš hádanky, bojuješ s nepřáteli i draky a postupně odhaluješ příběh o dávné hrozbě. Na maličkou kapesní konzoli nabízí překvapivě obsáhlé dobrodružství s vlastní hudbou, questy a soubojovým systémem. Vyšlo i na skutečné cartridgi a stalo se jedním z nejznámějších moderních GBC titulů.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/game-boy-color/game-boy-color__dragonborne.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__dragonborne.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -3986,8 +3992,14 @@
           "teaser": null,
           "detail": null,
           "article": "Dragonyhm je nástupce oblíbeného GBC RPG Dragonborne a zároveň jeho vyladěnější, uhlazenější verze. Nabízí retro laděné akční RPG s vlivy Zeldy, Dragon Questu i Pokémonů: prozkoumáváš barevný svět, plníš questy, luštíš hádanky v kobkách a rozvíjíš postavu v soubojích. Oproti předchůdci přidává plynulejší ovládání, bohatší grafiku i příběh a znovu dokazuje, jak živá je dnešní Game Boy Color scéna. Vyšlo v prosinci 2024 i na fyzické cartridgi.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/game-boy-color/game-boy-color__dragonyhm.webp",
+          "gallery": [
+            {
+              "src": "/images/games/game-boy-color/game-boy-color__dragonyhm.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -12112,8 +12124,14 @@
           "teaser": null,
           "detail": null,
           "article": "Famidash je technicky ohromující demake mobilního hitu Geometry Dash pro osmibitové NES/Famicom. Autoři z tfdsoftu ručně přepsali 14 úrovní v čistém 6502 assembleru na mapperu MMC3 a zachovali to nejpodstatnější — nekompromisní rytmickou plošinovku, kde jediné klepnutí drží tvou kostičku ve skoku přesně načasovaném na hudbu. Kolem číhají bodce, pily a propasti a jediný chybný pixel znamená návrat na start úrovně. Nechybí praktický „practice mode\", chiptune předělávky původních skladeb, výběr ikon, ovládání kamery ani dvouhráčový režim. Že takhle svižná a plynulá hra běží na hardwaru z roku 1983, je jeden z nejlepších důkazů, jak daleko dnešní NES scéna došla. Připravuje se i cartridge vydání přes Kickstarter.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__famidash.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__famidash.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -12131,8 +12149,14 @@
           "teaser": null,
           "detail": null,
           "article": "Adventures in Gameland je novodobá NES plošinovka, která vypadá a hraje se, jako by vypadla přímo z počátku devadesátek — jenže s citem a řemeslem, jaké tehdejší licencované hry málokdy měly. Provázíš batolata z kresleného seriálu Rugrats jejich vlastní představou dobrodružství: hraješ za Tommyho i kamarády, sbíráš předměty, řešíš drobné hádanky a proskákáváš barevnými úrovněmi plnými velkých, roztomilých spritů. Hra vyšla na skutečné NES cartridgi u Limited Run Games a v emulované podobě i na moderních konzolích, kde přidává remasterovanou hudbu a ručně kreslený HD overlay. Milá poklona zlaté éře Nintenda, kterou zvládnou i děti, ale ocení hlavně nostalgici.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__rugrats-adventures-in-gameland.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__rugrats-adventures-in-gameland.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -12153,8 +12177,14 @@
           "teaser": null,
           "detail": null,
           "article": "Full Quiet je ambiciózní hororově laděné akční dobrodružství pro NES od studia Retrotainment Games, tvůrců série Halloween. Ocitáš se v tíživé, atmosférické krajině a probíjíš se lesy, jeskyněmi a opuštěnými staveními, zatímco sbíráš zdroje, vyrábíš vybavení a odhaluješ ponurý příběh. Hra kombinuje průzkum ve stylu metroidvanie s napínavým bojem a temným vizuálem, který posouvá osmibitovou paletu za hranici toho, co bys od NES čekal. Vyšla na kvalitní cartridgi s dřevěnou krabicí a patří k technicky i výtvarně nejvyzrálejším moderním NES titulům vůbec.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__full-quiet.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__full-quiet.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -12174,10 +12204,10 @@
           "teaser": null,
           "detail": null,
           "article": "Twin Dragons je vyleštěná akční plošinovka pro NES od francouzského Broke Studia. Dvojice malých dráčků se vydává zachránit unesené mládě a na cestě proskáče desítky pestrých úrovní plných nástrah, tajných zákoutí a nápaditých bossů. Hra staví na precizním ovládání, chytlavém chiptune soundtracku a designu, který připomíná to nejlepší z Nintenda i Capcomu zlaté éry — jen s moderním citem pro plynulost a férovost. Původně úspěšná kampaň na Kickstarteru, dnes jeden z nejdoporučovanějších moderních NES titulů pro nováčky i veterány.",
-          "image": "/images/games/nes/nes__twin-dragons.png",
+          "image": "/images/games/nes/nes__twin-dragons.webp",
           "gallery": [
             {
-              "src": "/images/games/nes/nes__twin-dragons.png",
+              "src": "/images/games/nes/nes__twin-dragons.webp",
               "label": "Obal",
               "kind": "box"
             }
@@ -12201,8 +12231,14 @@
           "teaser": null,
           "detail": null,
           "article": "Böbl je roztomilá plošinovka pro NES od německého Morphcat Games (autorů oceňovaných Micro Mages). Hraješ za malou bublinu, která se odráží světem sestaveným z jediné velké, propojené mapy — nemá žádné zbraně, jen chytré skákání, odrážení a využívání prostředí k překonání nepřátel i hádanek. Hra je technický skvost: díky promyšlené kompresi se do maličké cartridge vešel překvapivě rozlehlý svět s plynulou animací a svěží grafikou. Krátká, milá a nápaditá metroidvania, kterou zvládnou i děti.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__bobl.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__bobl.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -12222,8 +12258,14 @@
           "teaser": null,
           "detail": null,
           "article": "The 8-Bit Edition je věrný „downgrade\" moderní hitovky Alwa's Awakening zpátky na skutečné NES — a paradoxně působí, jako by tu byla už od roku 1990. Jako čarodějka Zoe prozkoumáváš propojený svět Alwy, získáváš kouzla, kterými vyvoláváš bloky, bubliny a blesky, a s jejich pomocí odemykáš nové cesty v nejlepší metroidvania tradici. Elden Pixels hru kompletně přepsali pro osmibitový hardware včetně cartridge vydání. Rozlehlá, chytře stavěná a nádherně pixelovaná dobrodružná plošinovka, která by obstála mezi klasikami té doby.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/nes/nes__alwa-s-awakening-8-bit-edition.webp",
+          "gallery": [
+            {
+              "src": "/images/games/nes/nes__alwa-s-awakening-8-bit-edition.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -15706,8 +15748,14 @@
           "teaser": null,
           "detail": null,
           "article": "Dottie Flowers je svěží akční plošinovka pro Super Nintendo, která zaujala na přehlídce Homebrew Games Summer Showcase 2024. Vede tě barevnými, pečlivě navrženými úrovněmi plnými nepřátel, tajných zákoutí a nápaditých bossů a hrdě předvádí, co šestnáctibitový hardware SNES umí — bohatou paletu, plynulou animaci i chytlavou hudbu. Design vychází z klasik devadesátek, ale s moderním citem pro tempo a férovost. Krásný důkaz, že SNES scéna žije a stále dokáže překvapit.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/snes/snes__dottie-flowers.webp",
+          "gallery": [
+            {
+              "src": "/images/games/snes/snes__dottie-flowers.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -19091,8 +19139,14 @@
           "teaser": null,
           "detail": null,
           "article": "Astebros je moderní roguelite plošinovka pro SEGA Mega Drive od Neofid Studios, tvůrců oceňovaného Demons of Asteborg. Vydáš se do procedurálně generovaných kobek se třemi hratelnými postavami, z nichž každá má vlastní silné i slabé stránky, a s každým průchodem sbíráš vylepšení, zbraně a poklady. Nabízí kooperaci pro dva hráče, nádhernou šestnáctibitovou grafiku a svižnou akci, která plně využívá možnosti Mega Drive. Vyšlo na skutečné cartridgi i na sběratelské kolekci Evercade — jeden z vrcholů současné Mega Drive homebrew scény.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mega-drive/mega-drive__astebros.webp",
+          "gallery": [
+            {
+              "src": "/images/games/mega-drive/mega-drive__astebros.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -28775,13 +28829,8 @@
           "teaser": null,
           "detail": null,
           "article": "Stovky vozů, precizní řízení a posedlost detailem. **Gran Turismo** pro PSP, vydané v roce 2009, přineslo na kapesní konzoli značku, která se proslavila jako \"skutečný simulátor řízení\". Studio Polyphony Digital pod vedením Kazunoriho Yamauchiho dlouho ladilo handheldovou verzi tak, aby unesla jméno série, a výsledkem byl jeden z nejrozsáhlejších závodních titulů na platformě.\n\nProti arkádám jako Ridge Racer stojí Gran Turismo na opačném pólu. Důraz je kladen na věrnost chování vozů, na rozdíly mezi jednotlivými auty a na poctivé řízení, které odměňuje cit a trénink. Hra nabídla obrovský vozový park čítající stovky licencovaných automobilů a řadu reálných i fiktivních tratí, což z ní udělalo skutečnou pastvu pro milovníky aut na cestách.\n\nVývojově šlo o náročný počin. Přenést rozsah a renomé Gran Turisma do PSP nebylo triviální, a proto vývoj trval déle, než se původně čekalo. Když hra konečně vyšla, potvrdila, že kapesní konzole zvládne i ambici simulátorového závodění s velkým obsahem.\n\nKulturní význam série je nepřehlédnutelný. Gran Turismo patří mezi nejúspěšnější značky v historii PlayStationu a pro mnoho hráčů představuje vstupní bránu k zájmu o reálné automobily. Verze pro PSP tak přinesla kousek téhle prestiže do kapsy.\n\nPro hráče, kteří preferují poctivé řízení a sběratelskou radost z budování garáže, byla tahle hra splněním přání mít Gran Turismo všude s sebou. Je to titul pro ty, kdo k závodění přistupují s respektem a chutí pilovat každou zatáčku.\n\n**Proč hrát:** Rozsáhlý simulátor řízení se stovkami vozů přímo do kapsy. Pro fanoušky aut a poctivého ladění jízdy ideální volba.",
-          "image": "/images/games/psp/psp__gran-turismo.png",
+          "image": "/images/games/psp/psp__gran-turismo-title.webp",
           "gallery": [
-            {
-              "src": "/images/games/psp/psp__gran-turismo.png",
-              "label": "Obal",
-              "kind": "box"
-            },
             {
               "src": "/images/games/psp/psp__gran-turismo-snap.webp",
               "label": "Ze hry",
@@ -29994,13 +30043,8 @@
           "teaser": "Rare sci-fi střílečka; ambiciózní.",
           "detail": "Sci-fi střílečka z třetí osoby s prozkoumáváním planet a záchranou mimozemských „Tribals\" (musíš zachránit všechny pro postup). Ambiciózní a rozsáhlá, technicky působivá. Podceňovaná kvůli ovládání zaměřování.",
           "article": "Mimozemská invaze, planety k prozkoumání, hordy hmyzích nepřátel a parta hrdinů s těžkými zbraněmi, tak vypadá ambiciózní svět **Jet Force Gemini**, sci-fi střílečky z třetí osoby, kterou studio **Rare** vypustilo na Nintendo 64 v roce **1999**. Bylo to období, kdy Rare chrlilo jeden technicky působivý titul za druhým, a tahle hra patřila k jejich nejodvážnějším.\n\nHráč se ujímá několika postav a putuje napříč planetami, kde čistí prostředí od nepřátel a hlavně zachraňuje malé chlupaté tvory zvané Tribals. A právě tady je ten typický Rare zádrhel: pro postup ve hře musíte zachránit úplně všechny, což znamená, že nestačí jen prostřílet se vpřed. Jediný omylem zabitý Tribal vás nutí prozkoumávat úrovně znovu a pečlivěji, což hru proměňuje v kombinaci akce, sbírání a důkladného prozkoumávání.\n\nTechnicky šlo o pastvu pro oči. Detailní prostředí, množství nepřátel na obrazovce, propracovaný design světů i nápaditý bestiář ukazovaly, kam až dokázalo Rare hardware N64 hnát. Ambice byla cítit z každého koutu, ať už šlo o rozsah lokací, nebo o snahu kombinovat několik žánrových přístupů do jednoho velkého dobrodružství.\n\nHra si přesto vysloužila pověst podceňovaného titulu, a to hlavně kvůli ovládání míření. Zaměřování bylo na svou dobu netradiční a pro mnohé hráče těžkopádné, což odradilo část publika, které jinak mohlo objevit jednu z nejnápaditějších stříleček konzole. Je to klasický příklad hry, jejíž nápady a atmosféra předběhly to, jak pohodlně se s ní ovládalo.\n\nPro fanoušky Rare a sběratele zlaté éry N64 ale zůstává Jet Force Gemini fascinujícím kusem, který stojí za to dát šanci, obzvlášť pokud vám nevadí osahat si trochu nezvyklé ovládání a necháte se vtáhnout do jeho rozlehlého světa.\n\n**Proč hrát:** Pro ambiciózní, technicky působivou Rare sci-fi střílečku s rozsáhlými světy, která si zaslouží druhou šanci i přes svérázné míření.",
-          "image": "/images/games/n64/n64__jet-force-gemini.png",
+          "image": "/images/games/n64/n64__jet-force-gemini-title.webp",
           "gallery": [
-            {
-              "src": "/images/games/n64/n64__jet-force-gemini.png",
-              "label": "Obal",
-              "kind": "box"
-            },
             {
               "src": "/images/games/n64/n64__jet-force-gemini-snap.webp",
               "label": "Ze hry",
@@ -30388,13 +30432,8 @@
           "teaser": null,
           "detail": null,
           "article": "Třetí návštěva houbové herní party přinesla na šedou konzoli rozlučku s žánrem v jeho čtyřbitové éře, a to ve velkém stylu. Mario Party 3 uzavřelo trilogii na této platformě a obohatilo osvědčenou formuli o prvky, které posunuly soutěživost ještě o kus dál.\n\nNejvětší novinkou byl takzvaný souboj na hrací desce v podobě duelového režimu. Vedle klasické čtyřčlenné mela se nově dalo utkat dva na dva nebo přímo jeden na jednoho na speciálních mapách, kde si hráči najímali pomocníky a snažili se ubrat soupeři životy. Tento režim přidal sérii novou taktickou rovinu a možnost soustředěnějšího souboje pro menší skupinu. Vrátil se i sběr hvězd, mincí a desítky čerstvých minihher po každém kole.\n\nDo děje se zapojily i nové postavy a do soupisky přibyli další oblíbenci, takže pestrost obsazení rostla. Nově se objevily i předměty, které hráčům dávaly více možností, jak ovlivnit průběh hry, ukrást soupeři hvězdu nebo se bránit nástrahám. Strategická hloubka tak postupně sílila s každým dílem.\n\nVývojářem zůstalo studio Hudson Soft, které sérii na této konzoli dovedlo do zralé podoby, než se značka přesunula na nástupnické platformy. Trojka bývá ceněna za bohatství obsahu a za to, jak rozšířila možnosti pro různé počty hráčů, od velkých skupin až po duely ve dvou.\n\nMario Party 3 stojí jako důstojný závěr jedné éry. Pro hráče, kteří už znali předchozí díly a toužili po dalších mapách, postavách a minihhrách, šlo o přirozené vyústění a zároveň přemostění k budoucnosti série.\n\n**Proč hrát:** Obsahově nejbohatší díl trilogie na konzoli, který přidává duelový režim a širší obsazení, a důstojně uzavírá jednu éru herních party.",
-          "image": "/images/games/n64/n64__mario-party-3.png",
+          "image": "/images/games/n64/n64__mario-party-3-title.webp",
           "gallery": [
-            {
-              "src": "/images/games/n64/n64__mario-party-3.png",
-              "label": "Obal",
-              "kind": "box"
-            },
             {
               "src": "/images/games/n64/n64__mario-party-3-title.webp",
               "label": "Titulní obrazovka",
@@ -38834,8 +38873,14 @@
           "teaser": null,
           "detail": null,
           "article": "Intrepid Izzy je barevná akční plošinovka s prvky beat 'em up a metroidvanie pro SEGA Dreamcast od nizozemského Senile Teamu. Dobrodružka Izzy prozkoumává propojený svět, sbírá kostýmy, které jí dávají nové schopnosti, mlátí nepřátele a řeší hádanky cestou za rozbitým chrámem, do kterého se prokopala. Ručně kreslená grafika, plynulá animace a svěží humor z ní dělají jeden z nejsympatičtějších moderních Dreamcast titulů. Vyšlo v plné krabicové edici pro skutečnou konzoli.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/dreamcast/dreamcast__intrepid-izzy.webp",
+          "gallery": [
+            {
+              "src": "/images/games/dreamcast/dreamcast__intrepid-izzy.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -38855,8 +38900,14 @@
           "teaser": null,
           "detail": null,
           "article": "Xenocider je plně trojrozměrná arkádová „rail\" střílečka pro SEGA Dreamcast, otevřeně inspirovaná klasikou Space Harrier. Jako kybernetická bojovnice Xara se řítíš vstříc obrazovce, uhýbáš přívalům střel, ničíš vlny nepřátel a čelíš obřím bossům na exotických planetách. Vlastní 3D engine, svižné tempo a syté vizuály ukazují, že Dreamcast má i po letech co nabídnout. Vyšlo na skutečném GD-ROM disku v krabicové edici a patří k technicky nejambicióznějším dílům současné Dreamcast homebrew scény.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/dreamcast/dreamcast__xenocider.webp",
+          "gallery": [
+            {
+              "src": "/images/games/dreamcast/dreamcast__xenocider.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -53340,6 +53391,6 @@
     "withTeaser": 355,
     "withArticle": 1584,
     "platformImages": 39,
-    "gameImages": 1514
+    "gameImages": 1525
   }
 }
