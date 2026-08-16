@@ -29,6 +29,10 @@ tools/resolve_freecarts.py
 # stray download artefakty
 *.tmp
 
+# python cache
+__pycache__/
+*.pyc
+
 # Local Netlify folder
 .netlify
 .i18n-work/

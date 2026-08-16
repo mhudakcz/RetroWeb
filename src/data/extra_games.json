@@ -4550,6 +4550,330 @@
    "genre": "Platformer",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Tekken 4",
+   "genre": "Fighting",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tekken Tag Tournament",
+   "genre": "Fighting",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soul Reaver 2",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Legacy of Kain: Defiance",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Prince of Persia: Warrior Within",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Prince of Persia: The Two Thrones",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Baldur's Gate: Dark Alliance II",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Champions of Norrath",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dark Cloud",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Maximo: Ghosts to Glory",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ratchet & Clank: Going Commando",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ratchet: Deadlocked",
+   "genre": "Third-person shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Jak X: Combat Racing",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gradius V",
+   "genre": "Shoot 'em up",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "R-Type Final",
+   "genre": "Shoot 'em up",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Armored Core: Silent Line",
+   "genre": "Mecha Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Zone of the Enders",
+   "genre": "Mecha Action",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Contra: Shattered Soldier",
+   "genre": "Run and Gun",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Castlevania: Lament of Innocence",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Castlevania: Curse of Darkness",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Devil May Cry 2",
+   "genre": "Hack and Slash",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil Code: Veronica X",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil Outbreak",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fatal Frame",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Fatal Frame III: The Tormented",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Siren",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Haunting Ground",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Gitaroo Man",
+   "genre": "Rhythm",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Frequency",
+   "genre": "Rhythm",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Amplitude",
+   "genre": "Rhythm",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Guitar Hero II",
+   "genre": "Rhythm",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SSX Tricky",
+   "genre": "Sports",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SSX On Tour",
+   "genre": "Sports",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Burnout Revenge",
+   "genre": "Racing",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Burnout Dominator",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Underground",
+   "genre": "Racing",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Need for Speed: Underground 2",
+   "genre": "Racing",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Midnight Club 3: DUB Edition",
+   "genre": "Racing",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "TimeSplitters: Future Perfect",
+   "genre": "First-person shooter",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Psychonauts",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Way of the Samurai",
+   "genre": "Action-Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Yakuza",
+   "genre": "Action-Adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Shadow Hearts",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Shadow Hearts: Covenant",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wild Arms 3",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
   }
  ],
  "gamecube": [
@@ -5346,6 +5670,1998 @@
    "name": "OutRun 2",
    "genre": "Racing",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fable: The Lost Chapters",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dead or Alive Xtreme Beach Volleyball",
+   "genre": "Sports",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Otogi 2: Immortal Warriors",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gunvalkyrie",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kakuto Chojin: Back Alley Brutal",
+   "genre": "Fighting",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Blinx 2: Masters of Time and Space",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Voodoo Vince",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Brute Force",
+   "genre": "Squad Shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Counter-Strike",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Unreal Championship",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Unreal Championship 2: The Liandri Conflict",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "RalliSport Challenge 2",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Top Spin",
+   "genre": "Sports",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Links 2004",
+   "genre": "Sports",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NFL Fever 2004",
+   "genre": "Sports",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sudeki",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Under Fire: The Crusaders",
+   "genre": "Action/Strategy",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Online Episode I & II",
+   "genre": "Online Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "ToeJam & Earl III: Mission to Earth",
+   "genre": "Action/Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Crazy Taxi 3: High Roller",
+   "genre": "Racing/Arcade",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The House of the Dead III",
+   "genre": "Rail Shooter",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Genma Onimusha",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Painkiller: Hell Wars",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Full Spectrum Warrior",
+   "genre": "Tactical Shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Freedom Fighters",
+   "genre": "Third-person Shooter",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Hitman: Contracts",
+   "genre": "Stealth",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hitman: Blood Money",
+   "genre": "Stealth",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Splinter Cell: Pandora Tomorrow",
+   "genre": "Stealth",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia: Warrior Within",
+   "genre": "Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Burnout Revenge",
+   "genre": "Racing",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Def Jam: Fight for NY",
+   "genre": "Fighting",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Fahrenheit",
+   "genre": "Adventure",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Psi-Ops: The Mindgate Conspiracy",
+   "genre": "Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Second Sight",
+   "genre": "Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Suffering",
+   "genre": "Horror Action",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Manhunt",
+   "genre": "Horror Stealth",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Oddworld: Munch's Oddysee",
+   "genre": "Platformer/Puzzle",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Oddworld: Stranger's Wrath",
+   "genre": "Action/Platformer",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Enclave",
+   "genre": "Action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Under Fire: Heroes",
+   "genre": "Action RPG/Strategy",
+   "length": "L",
+   "flags": []
+  }
+ ],
+ "ps3": [
+  {
+   "name": "Uncharted: Drake's Fortune",
+   "genre": "Action-adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Uncharted 2: Among Thieves",
+   "genre": "Action-adventure",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Uncharted 3: Drake's Deception",
+   "genre": "Action-adventure",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Last of Us",
+   "genre": "Action-adventure/Survival horror",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "God of War III",
+   "genre": "Action/Hack and slash",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Metal Gear Solid 4: Guns of the Patriots",
+   "genre": "Stealth action",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "LittleBigPlanet",
+   "genre": "Platformer/Sandbox",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "LittleBigPlanet 2",
+   "genre": "Platformer/Sandbox",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "inFamous",
+   "genre": "Action/Open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "inFamous 2",
+   "genre": "Action/Open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Killzone 2",
+   "genre": "First-person shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Killzone 3",
+   "genre": "First-person shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Heavy Rain",
+   "genre": "Interactive drama",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Journey",
+   "genre": "Adventure",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Flower",
+   "genre": "Adventure/Art game",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Demon's Souls",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dark Souls",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Ni no Kuni: Wrath of the White Witch",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Ratchet & Clank Future: Tools of Destruction",
+   "genre": "Platformer/Shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Resistance: Fall of Man",
+   "genre": "First-person shooter",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Gran Turismo 5",
+   "genre": "Racing simulator",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Gran Turismo 6",
+   "genre": "Racing simulator",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "MotorStorm",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Heavenly Sword",
+   "genre": "Action/Hack and slash",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Valkyria Chronicles",
+   "genre": "Tactical RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Yakuza 3",
+   "genre": "Action-adventure/Beat 'em up",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Persona 5",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Red Dead Redemption",
+   "genre": "Action-adventure/Open world",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto V",
+   "genre": "Action-adventure/Open world",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls V: Skyrim",
+   "genre": "Action RPG/Open world",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Batman: Arkham Asylum",
+   "genre": "Action-adventure/Stealth",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Batman: Arkham City",
+   "genre": "Action-adventure/Open world",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Portal 2",
+   "genre": "Puzzle/First-person",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "BioShock Infinite",
+   "genre": "First-person shooter",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Beyond: Two Souls",
+   "genre": "Interactive drama",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "3D Dot Game Heroes",
+   "genre": "Action RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tokyo Jungle",
+   "genre": "Survival/Simulation",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Puppeteer",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Catherine",
+   "genre": "Puzzle/Adventure",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Metal Gear Solid HD Collection",
+   "genre": "Stealth action (compilation)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "ICO & Shadow of the Colossus HD Collection",
+   "genre": "Action-adventure (compilation)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dragon's Dogma",
+   "genre": "Action RPG/Open world",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dark Souls II",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sly Cooper: Thieves in Time",
+   "genre": "Platformer/Stealth",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "WipEout HD",
+   "genre": "Racing",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Yakuza 4",
+   "genre": "Action-adventure/Beat 'em up",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "God of War: Ascension",
+   "genre": "Action/Hack and slash",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fat Princess",
+   "genre": "Strategy/Multiplayer action",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Warhawk",
+   "genre": "First-person/Third-person shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "MotorStorm: Pacific Rift",
+   "genre": "Racing",
+   "length": "M",
+   "flags": []
+  }
+ ],
+ "ps4": [
+  {
+   "name": "God of War",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Marvel's Spider-Man",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Last of Us Part II",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Horizon Zero Dawn",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Bloodborne",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Uncharted 4: A Thief's End",
+   "genre": "Action-Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ghost of Tsushima",
+   "genre": "Action-Adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Death Stranding",
+   "genre": "Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Days Gone",
+   "genre": "Action-Adventure",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Detroit: Become Human",
+   "genre": "Interactive Drama",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ratchet & Clank",
+   "genre": "Action-Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gran Turismo Sport",
+   "genre": "Racing Sim",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Persona 5",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Nioh",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Shadow of the Colossus",
+   "genre": "Action-Adventure",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Witcher 3: Wild Hunt",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Red Dead Redemption 2",
+   "genre": "Action-Adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto V",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Elden Ring",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Dark Souls III",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sekiro: Shadows Die Twice",
+   "genre": "Action-Adventure",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Monster Hunter: World",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XV",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy VII Remake",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Nier: Automata",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Metal Gear Solid V: The Phantom Pain",
+   "genre": "Stealth Action",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 2",
+   "genre": "Survival Horror",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 7: Biohazard",
+   "genre": "Survival Horror",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom Eternal",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Destiny",
+   "genre": "FPS",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Overwatch",
+   "genre": "Team Shooter",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fortnite",
+   "genre": "Battle Royale",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Rocket League",
+   "genre": "Sports Arcade",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight",
+   "genre": "Metroidvania",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Celeste",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Cuphead",
+   "genre": "Run and Gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Hades",
+   "genre": "Roguelike Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Disco Elysium",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Cyberpunk 2077",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Assassin's Creed Origins",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed Odyssey",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Marvel's Spider-Man: Miles Morales",
+   "genre": "Action-Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Journey",
+   "genre": "Adventure",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dreams",
+   "genre": "Creative Sandbox",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Gravity Rush 2",
+   "genre": "Action-Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Until Dawn",
+   "genre": "Interactive Horror",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Horizon Forbidden West",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  }
+ ],
+ "xbox-360": [
+  {
+   "name": "Halo 3",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Halo: Reach",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Halo 4",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gears of War",
+   "genre": "Third-Person Shooter",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Gears of War 2",
+   "genre": "Third-Person Shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gears of War 3",
+   "genre": "Third-Person Shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Forza Motorsport 3",
+   "genre": "Racing",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Forza Motorsport 4",
+   "genre": "Racing",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Forza Horizon",
+   "genre": "Racing",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fable II",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fable III",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mass Effect",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mass Effect 2",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mass Effect 3",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fallout 3",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls V: Skyrim",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto IV",
+   "genre": "Action",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto V",
+   "genre": "Action",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Red Dead Redemption",
+   "genre": "Action",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "BioShock",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Portal 2",
+   "genre": "Puzzle",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Orange Box",
+   "genre": "Compilation",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Left 4 Dead",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Left 4 Dead 2",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dead Rising",
+   "genre": "Action",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Lost Odyssey",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Blue Dragon",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tales of Vesperia",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Braid",
+   "genre": "Puzzle Platformer",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Limbo",
+   "genre": "Puzzle Platformer",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Castle Crashers",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Trials HD",
+   "genre": "Racing/Platform",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Geometry Wars: Retro Evolved 2",
+   "genre": "Shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Bayonetta",
+   "genre": "Action",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dark Souls",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Deus Ex: Human Revolution",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Batman: Arkham Asylum",
+   "genre": "Action",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Batman: Arkham City",
+   "genre": "Action",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Assassin's Creed II",
+   "genre": "Action",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dead Space",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dead Space 2",
+   "genre": "Survival Horror",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Alan Wake",
+   "genre": "Action/Horror",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Crackdown",
+   "genre": "Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Viva Piñata",
+   "genre": "Simulation",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kameo: Elements of Power",
+   "genre": "Action Adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Perfect Dark Zero",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Saints Row 2",
+   "genre": "Action",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Borderlands 2",
+   "genre": "FPS/RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Minecraft: Xbox 360 Edition",
+   "genre": "Sandbox",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Bulletstorm",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "xbox-one": [
+  {
+   "name": "Halo 5: Guardians",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Halo: The Master Chief Collection",
+   "genre": "FPS compilation",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gears of War 4",
+   "genre": "Third-person shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gears 5",
+   "genre": "Third-person shooter",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Forza Horizon 2",
+   "genre": "Racing",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Forza Horizon 3",
+   "genre": "Racing",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Forza Horizon 4",
+   "genre": "Racing",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Forza Motorsport 5",
+   "genre": "Racing simulation",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Forza Motorsport 6",
+   "genre": "Racing simulation",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Forza Motorsport 7",
+   "genre": "Racing simulation",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sunset Overdrive",
+   "genre": "Action-platformer",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ori and the Blind Forest",
+   "genre": "Metroidvania platformer",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ori and the Will of the Wisps",
+   "genre": "Metroidvania platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Cuphead",
+   "genre": "Run and gun platformer",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sea of Thieves",
+   "genre": "Pirate adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "State of Decay 2",
+   "genre": "Survival",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Quantum Break",
+   "genre": "Action-adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "ReCore",
+   "genre": "Action-adventure platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Killer Instinct",
+   "genre": "Fighting",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rare Replay",
+   "genre": "Compilation",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Crackdown 3",
+   "genre": "Action-adventure",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Titanfall",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Titanfall 2",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Witcher 3: Wild Hunt",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Red Dead Redemption 2",
+   "genre": "Action-adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto V",
+   "genre": "Action-adventure",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Elden Ring",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom Eternal",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 2",
+   "genre": "Survival horror",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 7: Biohazard",
+   "genre": "Survival horror",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Monster Hunter: World",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed Origins",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed Odyssey",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Destiny 2",
+   "genre": "FPS",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Overwatch",
+   "genre": "Team-based shooter",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Rocket League",
+   "genre": "Sports",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight",
+   "genre": "Metroidvania",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hades",
+   "genre": "Roguelike action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Celeste",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Cyberpunk 2077",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fallout 4",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dark Souls III",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sekiro: Shadows Die Twice",
+   "genre": "Action-adventure",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Metal Gear Solid V: The Phantom Pain",
+   "genre": "Action-adventure",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Battlefield 1",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "switch": [
+  {
+   "name": "The Legend of Zelda: Breath of the Wild",
+   "genre": "Action-adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Legend of Zelda: Tears of the Kingdom",
+   "genre": "Action-adventure",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Mario Odyssey",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mario Kart 8 Deluxe",
+   "genre": "Racing",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Smash Bros. Ultimate",
+   "genre": "Fighting",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Splatoon 2",
+   "genre": "Shooter",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Splatoon 3",
+   "genre": "Shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Animal Crossing: New Horizons",
+   "genre": "Life simulation",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Mario Maker 2",
+   "genre": "Platformer / level editor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Luigi's Mansion 3",
+   "genre": "Action-adventure",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pokémon Sword and Shield",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pokémon Legends: Arceus",
+   "genre": "Action RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pokémon Scarlet and Violet",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fire Emblem: Three Houses",
+   "genre": "Tactical RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Xenoblade Chronicles 2",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Xenoblade Chronicles 3",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Metroid Dread",
+   "genre": "Action-adventure",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Kirby and the Forgotten Land",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Super Mario Bros. Wonder",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Bayonetta 3",
+   "genre": "Action",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Astral Chain",
+   "genre": "Action",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong Country: Tropical Freeze",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mario + Rabbids Kingdom Battle",
+   "genre": "Tactical RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ring Fit Adventure",
+   "genre": "Fitness / RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "1-2-Switch",
+   "genre": "Party",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "ARMS",
+   "genre": "Fighting",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Captain Toad: Treasure Tracker",
+   "genre": "Puzzle-platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "New Super Mario Bros. U Deluxe",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Mario 3D World + Bowser's Fury",
+   "genre": "Platformer",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pikmin 3 Deluxe",
+   "genre": "Strategy",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight",
+   "genre": "Metroidvania",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Hades",
+   "genre": "Roguelike",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Stardew Valley",
+   "genre": "Farming simulation",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Celeste",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dead Cells",
+   "genre": "Roguevania",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Into the Breach",
+   "genre": "Tactics / puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Witcher 3: Wild Hunt - Complete Edition",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "DOOM",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Mario Party Superstars",
+   "genre": "Party",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Mario RPG",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Advance Wars 1+2: Re-Boot Camp",
+   "genre": "Tactics",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Live A Live",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Octopath Traveler",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fire Emblem Engage",
+   "genre": "Tactical RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kirby Star Allies",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Yoshi's Crafted World",
+   "genre": "Platformer",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Persona 5 Royal",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Monster Hunter Rise",
+   "genre": "Action RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei V",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Untitled Goose Game",
+   "genre": "Puzzle / stealth-comedy",
+   "length": "S",
    "flags": []
   }
  ]

@@ -402,12 +402,16 @@ def best_boxart(game_name, names, idx):
     return None
 
 
-def fetch_games():
+def fetch_games(only=None):
+    """only: čárkou oddělené slugy platforem — omezí stahování jen na ně."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
+    wanted = set(only.split(",")) if only else None
 
     grand_total = grand_ok = 0
     for slug, repo in LIBRETRO.items():
+        if wanted and slug not in wanted:
+            continue
         games = plat_games.get(slug, [])
         if not games:
             continue
@@ -473,9 +477,10 @@ def fetch_screenshots(only=None):
     only: pokud zadáno, omezí se jen na tuto platformu (slug)."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
+    wanted = set(only.split(",")) if only else None
     grand = {"snap": 0, "title": 0}
     for slug, repo in LIBRETRO.items():
-        if only and slug != only:
+        if wanted and slug not in wanted:
             continue
         games = plat_games.get(slug, [])
         if not games:
@@ -567,9 +572,10 @@ def fetch_fallback_shots(only=None):
     obrázek (image = obal || title || snap). 'only' = omez na jednu platformu."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     plat_games = {p["slug"]: p["games"] for p in dataset["platforms"]}
+    wanted = set(only.split(",")) if only else None
     grand = 0
     for slug, repo in LIBRETRO.items():
-        if only and slug != only:
+        if wanted and slug not in wanted:
             continue
         games = plat_games.get(slug, [])
         # jen hry, které zatím nemají žádný obrázek (image je None v datasetu)
@@ -790,11 +796,12 @@ def fetch_games_wiki(only=None):
     """Pro hry BEZ obrázku zkus lead foto (obal/screenshot) z anglické Wikipedie.
     Přísné ověření (kategorie 'video game' + překryv názvu) proti falešným shodám."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
     ok = 0
     total = 0
     for plat in dataset["platforms"]:
         slug = plat["slug"]
-        if only and slug != only:
+        if wanted and slug not in wanted:
             continue
         missing = [g for g in plat["games"] if not g.get("image")]
         if not missing:
@@ -874,10 +881,11 @@ def fetch_games_itch(only=None):
     """Pro hry BEZ obrázku zkus oficiální cover z itch.io (homebrew/indie).
     Přísné párování názvu (containment / jaccard >= 0.6) proti falešným shodám."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
     ok = total = 0
     for plat in dataset["platforms"]:
         slug = plat["slug"]
-        if only and slug != only:
+        if wanted and slug not in wanted:
             continue
         missing = [g for g in plat["games"] if not g.get("image")]
         if not missing:
@@ -933,6 +941,100 @@ def fetch_games_itch(only=None):
     print(f"\nitch.io: dohledáno {ok}/{total} obrázků")
 
 
+_STEAM_SKIP = {
+    # slova, která ve jméně steamové aplikace znamenají, že to není samotná hra
+    "soundtrack", "ost", "dlc", "demo", "trailer", "artbook", "art book", "wallpaper",
+    "season pass", "expansion pass", "upgrade", "bundle", "beta", "server", "sdk",
+    "the final hours", "digital deluxe upgrade", "theme", "avatar",
+}
+# povolené přívlastky za shodným názvem (reedice téže hry = stejný obal)
+_STEAM_SUFFIX_OK = {
+    "remastered", "remaster", "hd", "definitive", "edition", "goty", "game", "of", "the",
+    "year", "complete", "enhanced", "anniversary", "collection", "redux", "classic",
+    "deluxe", "ultimate", "special", "gold", "director's", "directors", "cut", "plus",
+}
+
+
+def _steam_search(name, limit=6):
+    """Veřejné hledání aplikací na Steamu (bez API klíče) -> list (appid, title)."""
+    url = "https://steamcommunity.com/actions/SearchApps/" + urllib.parse.quote(name)
+    try:
+        data = json.loads(http_get(url))
+    except Exception:  # noqa
+        return []
+    return [(a["appid"], a["name"]) for a in data[:limit] if a.get("appid")]
+
+
+def _steam_clean(title):
+    """Steam si do názvů píše ochranné známky — bez odstranění by norm_name z
+    'DARK SOULS™ III' udělalo 'dark soulstm iii' a shoda by propadla."""
+    return P.re.sub(r"[™®©℠]", " ", title)
+
+
+def _steam_pick(game_name, hits):
+    """Vyber appid, jehož název je opravdu tatáž hra (ne DLC, soundtrack ani sequel)."""
+    gnorm = P.norm_name(game_name)
+    if len(gnorm) < 3:
+        return None
+    for appid, title in hits:
+        low = title.lower()
+        if any(w in low for w in _STEAM_SKIP):
+            continue
+        tnorm = P.norm_name(_steam_clean(title))
+        if not tnorm:
+            continue
+        if tnorm == gnorm:
+            return appid, title
+        # povol jen reedice: "BioShock" -> "BioShock Remastered"
+        if tnorm.startswith(gnorm + " "):
+            extra = tnorm[len(gnorm) + 1:].split()
+            if extra and all(w in _STEAM_SUFFIX_OK for w in extra):
+                return appid, title
+    return None
+
+
+def fetch_games_steam(only=None):
+    """Pro hry BEZ obrázku zkus portrétový box art ze Steamu (library_600x900, bez API klíče).
+    Přísné párování názvu (přesná shoda nebo povolená reedice) proti falešným shodám —
+    jinak by se k „BioShock" přilepil „BioShock Infinite"."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if wanted and slug not in wanted:
+            continue
+        missing = [g for g in plat["games"] if not g.get("image")]
+        if not missing:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} — bez obrázku: {len(missing)} ==")
+        for g in missing:
+            total += 1
+            time.sleep(0.35)  # šetrně ke Steamu
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.split(" -ish")[0].split(" / ")[0].strip()
+            hit = _steam_pick(base, _steam_search(base))
+            if not hit:
+                print(f"  [-] {g['name']}")
+                continue
+            appid, title = hit
+            src = ("https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/"
+                   f"{appid}/library_600x900.jpg")
+            try:
+                img = http_get(src)
+                if len(img) < 3000:
+                    print(f"  [-] {g['name']} (maly soubor)")
+                    continue
+                (out / f"{g['slug']}.jpg").write_bytes(img)
+                ok += 1
+                print(f"  [OK] {g['name']}  <- steam:{appid} {title}")
+            except Exception as e:  # noqa
+                print(f"  [x] {g['name']}: {e}")
+    print(f"\nSteam: dohledáno {ok}/{total} obrázků")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -940,7 +1042,7 @@ if __name__ == "__main__":
         fetch_platforms()
     if what in ("all", "games"):
         print("\n=== HRY (libretro-thumbnails) ===")
-        fetch_games()
+        fetch_games(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "optimize":
         print("=== OPTIMALIZACE ===")
         optimize_images()
@@ -965,3 +1067,6 @@ if __name__ == "__main__":
     if what == "games-itch":
         print("=== OBRÁZKY HER Z ITCH.IO (homebrew/indie bez obrázku) ===")
         fetch_games_itch(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-steam":
+        print("=== OBRÁZKY HER ZE STEAMU (portrétový box art, hry bez obrázku) ===")
+        fetch_games_steam(sys.argv[2] if len(sys.argv) > 2 else None)
