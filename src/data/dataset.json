@@ -28829,13 +28829,8 @@
           "teaser": null,
           "detail": null,
           "article": "Stovky vozů, precizní řízení a posedlost detailem. **Gran Turismo** pro PSP, vydané v roce 2009, přineslo na kapesní konzoli značku, která se proslavila jako \"skutečný simulátor řízení\". Studio Polyphony Digital pod vedením Kazunoriho Yamauchiho dlouho ladilo handheldovou verzi tak, aby unesla jméno série, a výsledkem byl jeden z nejrozsáhlejších závodních titulů na platformě.\n\nProti arkádám jako Ridge Racer stojí Gran Turismo na opačném pólu. Důraz je kladen na věrnost chování vozů, na rozdíly mezi jednotlivými auty a na poctivé řízení, které odměňuje cit a trénink. Hra nabídla obrovský vozový park čítající stovky licencovaných automobilů a řadu reálných i fiktivních tratí, což z ní udělalo skutečnou pastvu pro milovníky aut na cestách.\n\nVývojově šlo o náročný počin. Přenést rozsah a renomé Gran Turisma do PSP nebylo triviální, a proto vývoj trval déle, než se původně čekalo. Když hra konečně vyšla, potvrdila, že kapesní konzole zvládne i ambici simulátorového závodění s velkým obsahem.\n\nKulturní význam série je nepřehlédnutelný. Gran Turismo patří mezi nejúspěšnější značky v historii PlayStationu a pro mnoho hráčů představuje vstupní bránu k zájmu o reálné automobily. Verze pro PSP tak přinesla kousek téhle prestiže do kapsy.\n\nPro hráče, kteří preferují poctivé řízení a sběratelskou radost z budování garáže, byla tahle hra splněním přání mít Gran Turismo všude s sebou. Je to titul pro ty, kdo k závodění přistupují s respektem a chutí pilovat každou zatáčku.\n\n**Proč hrát:** Rozsáhlý simulátor řízení se stovkami vozů přímo do kapsy. Pro fanoušky aut a poctivého ladění jízdy ideální volba.",
-          "image": "/images/games/psp/psp__gran-turismo.png",
+          "image": "/images/games/psp/psp__gran-turismo-title.webp",
           "gallery": [
-            {
-              "src": "/images/games/psp/psp__gran-turismo.png",
-              "label": "Obal",
-              "kind": "box"
-            },
             {
               "src": "/images/games/psp/psp__gran-turismo-snap.webp",
               "label": "Ze hry",
@@ -29115,6 +29110,21 @@
           "rating": null
         }
       ]
+    },
+    {
+      "slug": "ps-vita",
+      "name": "Sony PlayStation Vita",
+      "short": "Vita",
+      "maker": "Sony",
+      "year": 2011,
+      "type": "handheld",
+      "color": "#2b5fd9",
+      "color2": "#12172e",
+      "image": "/images/platforms/ps-vita.png",
+      "photoBg": "dark",
+      "history": "Když Sony 17. prosince 2011 v Japonsku (a v únoru 2012 na západních trzích) uvedla PlayStation Vita, vypadalo to jako splněný sen každého, kdo si u PSP stěžoval na chybějící druhou páčku. Vita byla přehnaně dobře postavený kus hardwaru: nádherný OLED displej, čtyři procesorová jádra a dotyk zepředu i zezadu. Byl to zároveň **poslední velký pokus Sony o klasický handheld** — a přestože jde technicky o jeden z nejlépe navržených kapesních strojů historie, komerčně to nedopadlo.\n\nDůvodů bylo víc. Přímo proti Vitě stálo **Nintendo 3DS** s levnějším hardwarem, silnějšími značkami a rokem náskoku. Mnohem zásadnější ale byl nepřítel, se kterým nikdo nepočítal: **smartphony**. V roce 2012 už měl skoro každý v kapse zařízení, na kterém se hrálo zadarmo nebo za pár korun, a trh s drahými přenosnými konzolemi se začal hroutit. Sony navíc Vitu po pár letech prakticky přestala podporovat vlastními velkými tituly a nechala ji žít z japonských her a indie scény.\n\nA přesto — nebo právě proto — má Vita dnes pověst kultovní mašiny. Kdo si ji tehdy koupil, málokdy litoval.\n\n### Technika: grafika a zvuk\n\nSrdcem Vity je **čtyřjádrový ARM Cortex-A9**, doplněný grafikou **PowerVR SGX543MP4+** — tedy čtyřjádrovou variantou čipu, který v té době poháněl i špičkové tablety. Systém má **512 MB operační paměti a dalších 128 MB VRAM**, což z něj v roce 2012 dělalo nejvýkonnější kapesní herní stroj na trhu s výrazným náskokem před konkurencí.\n\nChloubou původního modelu je **5\" OLED displej s rozlišením 960 × 544 pixelů**, tedy přesně čtyřnásobek rozlišení PSP. Kombinace absolutní černé a nasycených barev byla tehdy doslova šokující a dodnes patří k tomu nejhezčímu, co si můžete v kapesní konzoli prohlížet. Pozdější model PCH-2000 přešel na LCD, což je jediná věc, kterou mu fanoušci nikdy neodpustili.\n\nOvládání bylo revolucí především kvůli **dvěma analogovým páčkám** — poprvé v historii kapesní konzole Sony. Vedle nich Vita nabízí **přední dotykový displej i zadní dotykovou plochu**, gyroskop s akcelerometrem a **dvě kamery**. Zadní touchpad byl přitom nápad, se kterým si vývojáři nikdy pořádně nevěděli rady — používal se spíš jako kuriozita než jako plnohodnotný vstup.\n\nZvuk obstarávají stereo reproduktory a kvalitní sluchátkový výstup; i s obyčejnými sluchátky zní Vita čistě a hlasitě.\n\n### Propojeni a periferie\n\nHry vycházely na **proprietárních kartách PS Vita** — malých flash médiích, která nahradila optické UMD z PSP. Vedle nich fungovala plnohodnotná **digitální distribuce přes PlayStation Store**, kde nakonec skončila drtivá většina indie katalogu.\n\nNejvětší bolestí platformy byly **paměťové karty Sony**. Vita odmítala běžné microSD a vyžadovala vlastní proprietární formát, jehož ceny byly absurdní — 32GB karta stála klidně tolik, co polovina konzole. Učebnicový příklad rozhodnutí, které platformě uškodilo víc než konkurence.\n\nKonektivita byla naopak silná: **Wi-Fi** ve všech modelech, u vybraných verzí i **3G**. Skvěle fungoval **Remote Play** — streamování her z PlayStationu 3 a hlavně z PlayStationu 4, kde Vita sloužila jako druhá obrazovka pro celou domácnost. Sony k tomu přidala **cross-buy** (koupíš hru jednou, hraješ na PS4 i na Vitě) a **cross-play** či cross-save mezi platformami.\n\n### Modely a revize\n\nRodina PS Vita zůstala poměrně sevřená:\n\n- **PCH-1000** (2011) — původní model s **5\" OLED displejem**, ve verzi s Wi-Fi i s 3G. Těžší, zato s nejlepším obrazem.\n- **PCH-2000 „Slim\"** (2013) — tenčí a o poznání lehčí revize s **LCD displejem** místo OLED, delší výdrží baterie, 1 GB vnitřní paměti a microUSB nabíjením. Praktičtější, ale vizuálně krok zpět.\n- **PlayStation TV (Vita TV)** (2013) — malý **setopbox** postavený na hardwaru Vity, který hry zobrazoval na televizi a ovládal se DualShockem. Kvůli omezené kompatibilitě (odpadly tituly závislé na dotyku a gyroskopu) šlo spíš o zajímavý experiment.\n\n### Klony a varianty\n\nKlasické klony Vity nevznikly — hardware byl uzavřený a složitý na napodobení. Její dědictví je jinde: Vita byla **první konzolí, která přesvědčivě ukázala, že plnohodnotné hry patří do kapsy**, a přesně tuhle myšlenku o deset let později dotáhla vlna přenosných herních PC. **Steam Deck**, ASUS ROG Ally a další stroje dělají v podstatě to, co Vita — jen s knihovnou, kterou už nedrží jediný výrobce.\n\nSony se k myšlence vrátila v roce 2023 zařízením **PlayStation Portal**, které ale není samostatnou konzolí: jde čistě o streamovací obrazovku pro PS5. Ironií je, že přesně tuhle funkci uměla Vita už o dekádu dřív — a uměla k tomu i hrát vlastní hry.\n\n### Dnesni scena\n\nVita má jednu z nejlepších **homebrew scén** vůbec. Průlom přinesl **HENkaku** a navazující nástroje, které umožnily spouštět vlastní kód prakticky na všech firmwarech. Výsledkem je konzole, ze které se dá udělat výborný emulační stroj — zvládá systémy od osmibitů přes PS1 a GBA až po slušnou část knihovny PSP — a která navíc podporuje běžné microSD karty přes redukci do slotu na herní karty. Tím se elegantně obchází původní hřích drahých paměťových karet.\n\nVýroba konzole skončila v roce **2019** a po ní i možnost nakupovat nové tituly v obchodě. Přesto Vita nepůsobí jako mrtvá platforma. Její katalog — plný **JRPG** (Persona 4 Golden, Danganronpa, Ys, Trails), skvělých portů a indie klenotů jako Hotline Miami nebo Spelunky — je dodnes silný důvod, proč si ji pořídit. A kdo drží v ruce původní OLED model, pochopí za pár vteřin, proč se jí říká nejkrásnější přenosná konzole, jaká kdy vznikla.",
+      "gameCount": 0,
+      "games": []
     },
     {
       "slug": "n64",
@@ -30048,13 +30058,8 @@
           "teaser": "Rare sci-fi střílečka; ambiciózní.",
           "detail": "Sci-fi střílečka z třetí osoby s prozkoumáváním planet a záchranou mimozemských „Tribals\" (musíš zachránit všechny pro postup). Ambiciózní a rozsáhlá, technicky působivá. Podceňovaná kvůli ovládání zaměřování.",
           "article": "Mimozemská invaze, planety k prozkoumání, hordy hmyzích nepřátel a parta hrdinů s těžkými zbraněmi, tak vypadá ambiciózní svět **Jet Force Gemini**, sci-fi střílečky z třetí osoby, kterou studio **Rare** vypustilo na Nintendo 64 v roce **1999**. Bylo to období, kdy Rare chrlilo jeden technicky působivý titul za druhým, a tahle hra patřila k jejich nejodvážnějším.\n\nHráč se ujímá několika postav a putuje napříč planetami, kde čistí prostředí od nepřátel a hlavně zachraňuje malé chlupaté tvory zvané Tribals. A právě tady je ten typický Rare zádrhel: pro postup ve hře musíte zachránit úplně všechny, což znamená, že nestačí jen prostřílet se vpřed. Jediný omylem zabitý Tribal vás nutí prozkoumávat úrovně znovu a pečlivěji, což hru proměňuje v kombinaci akce, sbírání a důkladného prozkoumávání.\n\nTechnicky šlo o pastvu pro oči. Detailní prostředí, množství nepřátel na obrazovce, propracovaný design světů i nápaditý bestiář ukazovaly, kam až dokázalo Rare hardware N64 hnát. Ambice byla cítit z každého koutu, ať už šlo o rozsah lokací, nebo o snahu kombinovat několik žánrových přístupů do jednoho velkého dobrodružství.\n\nHra si přesto vysloužila pověst podceňovaného titulu, a to hlavně kvůli ovládání míření. Zaměřování bylo na svou dobu netradiční a pro mnohé hráče těžkopádné, což odradilo část publika, které jinak mohlo objevit jednu z nejnápaditějších stříleček konzole. Je to klasický příklad hry, jejíž nápady a atmosféra předběhly to, jak pohodlně se s ní ovládalo.\n\nPro fanoušky Rare a sběratele zlaté éry N64 ale zůstává Jet Force Gemini fascinujícím kusem, který stojí za to dát šanci, obzvlášť pokud vám nevadí osahat si trochu nezvyklé ovládání a necháte se vtáhnout do jeho rozlehlého světa.\n\n**Proč hrát:** Pro ambiciózní, technicky působivou Rare sci-fi střílečku s rozsáhlými světy, která si zaslouží druhou šanci i přes svérázné míření.",
-          "image": "/images/games/n64/n64__jet-force-gemini.png",
+          "image": "/images/games/n64/n64__jet-force-gemini-title.webp",
           "gallery": [
-            {
-              "src": "/images/games/n64/n64__jet-force-gemini.png",
-              "label": "Obal",
-              "kind": "box"
-            },
             {
               "src": "/images/games/n64/n64__jet-force-gemini-snap.webp",
               "label": "Ze hry",
@@ -30442,13 +30447,8 @@
           "teaser": null,
           "detail": null,
           "article": "Třetí návštěva houbové herní party přinesla na šedou konzoli rozlučku s žánrem v jeho čtyřbitové éře, a to ve velkém stylu. Mario Party 3 uzavřelo trilogii na této platformě a obohatilo osvědčenou formuli o prvky, které posunuly soutěživost ještě o kus dál.\n\nNejvětší novinkou byl takzvaný souboj na hrací desce v podobě duelového režimu. Vedle klasické čtyřčlenné mela se nově dalo utkat dva na dva nebo přímo jeden na jednoho na speciálních mapách, kde si hráči najímali pomocníky a snažili se ubrat soupeři životy. Tento režim přidal sérii novou taktickou rovinu a možnost soustředěnějšího souboje pro menší skupinu. Vrátil se i sběr hvězd, mincí a desítky čerstvých minihher po každém kole.\n\nDo děje se zapojily i nové postavy a do soupisky přibyli další oblíbenci, takže pestrost obsazení rostla. Nově se objevily i předměty, které hráčům dávaly více možností, jak ovlivnit průběh hry, ukrást soupeři hvězdu nebo se bránit nástrahám. Strategická hloubka tak postupně sílila s každým dílem.\n\nVývojářem zůstalo studio Hudson Soft, které sérii na této konzoli dovedlo do zralé podoby, než se značka přesunula na nástupnické platformy. Trojka bývá ceněna za bohatství obsahu a za to, jak rozšířila možnosti pro různé počty hráčů, od velkých skupin až po duely ve dvou.\n\nMario Party 3 stojí jako důstojný závěr jedné éry. Pro hráče, kteří už znali předchozí díly a toužili po dalších mapách, postavách a minihhrách, šlo o přirozené vyústění a zároveň přemostění k budoucnosti série.\n\n**Proč hrát:** Obsahově nejbohatší díl trilogie na konzoli, který přidává duelový režim a širší obsazení, a důstojně uzavírá jednu éru herních party.",
-          "image": "/images/games/n64/n64__mario-party-3.png",
+          "image": "/images/games/n64/n64__mario-party-3-title.webp",
           "gallery": [
-            {
-              "src": "/images/games/n64/n64__mario-party-3.png",
-              "label": "Obal",
-              "kind": "box"
-            },
             {
               "src": "/images/games/n64/n64__mario-party-3-title.webp",
               "label": "Titulní obrazovka",
@@ -67793,12 +67793,12 @@
     }
   ],
   "stats": {
-    "platforms": 47,
+    "platforms": 48,
     "games": 2097,
     "withDetail": 476,
     "withTeaser": 355,
     "withArticle": 2093,
-    "platformImages": 47,
+    "platformImages": 48,
     "gameImages": 1929
   }
 }
