@@ -856,6 +856,10 @@ def fetch_games_wiki(only=None):
 _ITCH_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/120 Safari/537.36")
 
+# itch.io dává smysl jen tam, kde je katalog opravdu z itch.io / homebrew scény.
+# Na komerčních konzolích vrací shoda názvu cizí fan-game (viz fetch_games_itch).
+ITCH_OK = {"pico-8", "tic-80", "game-watch"}
+
 
 def _itch_search(name):
     """Vrátí list (title, url) z itch.io vyhledávání."""
@@ -881,9 +885,24 @@ def _itch_cover(page_url):
 
 def fetch_games_itch(only=None):
     """Pro hry BEZ obrázku zkus oficiální cover z itch.io (homebrew/indie).
-    Přísné párování názvu (containment / jaccard >= 0.6) proti falešným shodám."""
+    Přísné párování názvu (containment / jaccard >= 0.6) proti falešným shodám.
+
+    JEN pro homebrew platformy (ITCH_OK). Na komerčních konzolích se shoda názvu
+    trefí do úplně jiné hry — na itch.io existuje fan-game nebo stolní RPG stejného
+    jména („Bulletstorm", „The Last of Us", „Journey", „ARMS"), takže i přesná shoda
+    názvu vrátí cizí obrázek."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     wanted = set(only.split(",")) if only else None
+    if wanted:
+        skip = wanted - ITCH_OK
+        if skip:
+            print(f"  [!] itch.io přeskakuje komerční platformy: {', '.join(sorted(skip))}")
+        wanted &= ITCH_OK
+        if not wanted:
+            print("  itch.io: žádná z uvedených platforem není homebrew — nic k dělání")
+            return
+    else:
+        wanted = set(ITCH_OK)
     ok = total = 0
     for plat in dataset["platforms"]:
         slug = plat["slug"]
