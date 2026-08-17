@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 """Rozseká src_*.json na menší dávky (chunky) pro překladové agenty.
-Vytvoří chunks/<type>_<idx>.json a vypíše plán (list {in,out,type}) jako JSON."""
+Vytvoří chunks/<type>_<idx>.json a vypíše plán (list {in,out,type}) jako JSON.
+
+Použití: python tools/i18n_chunk.py <workdir> [--games N]
+
+--games N: kolik her na dávku (výchozí 12). Agent překládá do EN+DE+FR najednou,
+takže výstup je zhruba 3× objem vstupu — u dlouhých článků (~1900 znaků) naráží
+12 her na strop výstupních tokenů, pak zvol 6–8."""
 import json, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -10,6 +16,8 @@ CH.mkdir(parents=True, exist_ok=True)
 
 # velikost dávky podle typu (menší pro objemné články)
 SIZES = {"games": 12, "platforms": 2, "studios": 3, "hardware_sections": 1}
+if "--games" in sys.argv:
+    SIZES["games"] = int(sys.argv[sys.argv.index("--games") + 1])
 plan = []
 
 for typ, size in SIZES.items():
