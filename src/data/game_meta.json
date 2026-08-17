@@ -1302,9 +1302,21 @@
     "studio": "Gust",
     "year": "2014"
   },
+  "ps-vita__atelier-sophie-alchemist-of-mysterious-book": {
+    "studio": "Gust",
+    "year": "2016"
+  },
   "ps-vita__axiom-verge": {
     "studio": "Thomas Happ Games",
     "year": "2015"
+  },
+  "ps-vita__bastion": {
+    "studio": "Supergiant Games",
+    "year": "2015"
+  },
+  "ps-vita__binding-of-isaac-rebirth": {
+    "studio": "Nicalis",
+    "year": "2014"
   },
   "ps-vita__blazblue-chrono-phantasma": {
     "studio": "Arc System Works",
@@ -1350,6 +1362,10 @@
     "studio": "Media.Vision",
     "year": "2016"
   },
+  "ps-vita__disgaea-3-absence-of-detention": {
+    "studio": "Nippon Ichi Software",
+    "year": "2012"
+  },
   "ps-vita__disgaea-4-promise-revisited": {
     "studio": "Nippon Ichi Software",
     "year": "2014"
@@ -1357,6 +1373,10 @@
   "ps-vita__djmax-technika-tune": {
     "studio": "Neowiz",
     "year": "2012"
+  },
+  "ps-vita__dragon-quest-builders": {
+    "studio": "Square Enix",
+    "year": "2016"
   },
   "ps-vita__dragon-s-crown": {
     "studio": "Vanillaware",
@@ -1386,9 +1406,17 @@
     "studio": "SCE Japan Studio / Dimps / Shift",
     "year": "2014"
   },
+  "ps-vita__god-eater-2-rage-burst": {
+    "studio": "Shift",
+    "year": "2016"
+  },
   "ps-vita__god-of-war-collection": {
     "studio": "Santa Monica Studio / Sanzaru Games",
     "year": "2014"
+  },
+  "ps-vita__grand-kingdom": {
+    "studio": "Monochrome Corporation",
+    "year": "2016"
   },
   "ps-vita__gravity-rush": {
     "studio": "SCE Japan Studio",
@@ -1406,6 +1434,10 @@
     "studio": "Sega",
     "year": "2012"
   },
+  "ps-vita__helldivers": {
+    "studio": "Arrowhead Game Studios",
+    "year": "2015"
+  },
   "ps-vita__hot-shots-golf-world-invitational": {
     "studio": "Clap Hanz",
     "year": "2011"
@@ -1413,6 +1445,10 @@
   "ps-vita__hotline-miami": {
     "studio": "Dennaton Games",
     "year": "2013"
+  },
+  "ps-vita__hotline-miami-2-wrong-number": {
+    "studio": "Dennaton Games",
+    "year": "2015"
   },
   "ps-vita__injustice-gods-among-us-ultimate-edition": {
     "studio": "NetherRealm Studios / Armature Studio",
@@ -1430,6 +1466,14 @@
     "studio": "Nihon Falcom",
     "year": "2015"
   },
+  "ps-vita__legend-of-heroes-trails-of-cold-steel-ii": {
+    "studio": "Nihon Falcom",
+    "year": "2016"
+  },
+  "ps-vita__limbo": {
+    "studio": "Playdead",
+    "year": "2015"
+  },
   "ps-vita__littlebigplanet-ps-vita": {
     "studio": "Tarsier Studios / Double Eleven",
     "year": "2012"
@@ -1445,6 +1489,10 @@
   "ps-vita__metal-gear-solid-hd-collection": {
     "studio": "Armature Studio",
     "year": "2012"
+  },
+  "ps-vita__minecraft-playstation-vita-edition": {
+    "studio": "4J Studios",
+    "year": "2014"
   },
   "ps-vita__modnation-racers-road-trip": {
     "studio": "SCE San Diego Studio",
@@ -1466,6 +1514,10 @@
     "studio": "Vanillaware",
     "year": "2013"
   },
+  "ps-vita__natural-doctrine": {
+    "studio": "Kadokawa Games",
+    "year": "2014"
+  },
   "ps-vita__need-for-speed-most-wanted": {
     "studio": "Criterion Games",
     "year": "2012"
@@ -1485,6 +1537,22 @@
   "ps-vita__olliolli": {
     "studio": "Roll7",
     "year": "2014"
+  },
+  "ps-vita__olliolli2-welcome-to-olliwood": {
+    "studio": "Roll7",
+    "year": "2015"
+  },
+  "ps-vita__operation-abyss-new-tokyo-legacy": {
+    "studio": "Experience Inc.",
+    "year": "2015"
+  },
+  "ps-vita__oreshika-tainted-bloodlines": {
+    "studio": "Alfa System",
+    "year": "2015"
+  },
+  "ps-vita__papers-please": {
+    "studio": "3909 LLC",
+    "year": "2017"
   },
   "ps-vita__persona-4-dancing-all-night": {
     "studio": "Atlus",
@@ -1510,6 +1578,14 @@
     "studio": "Nihilistic Software",
     "year": "2012"
   },
+  "ps-vita__resogun": {
+    "studio": "Housemarque",
+    "year": "2015"
+  },
+  "ps-vita__retro-city-rampage-dx": {
+    "studio": "Vblank Entertainment",
+    "year": "2014"
+  },
   "ps-vita__ridge-racer": {
     "studio": "Cellius",
     "year": "2012"
@@ -1530,6 +1606,10 @@
     "studio": "DrinkBox Studios",
     "year": "2016"
   },
+  "ps-vita__shantae-and-pirate-s-curse": {
+    "studio": "WayForward",
+    "year": "2015"
+  },
   "ps-vita__shiren-wanderer-tower-of-fortune-and-dice-of-fate": {
     "studio": "Spike Chunsoft",
     "year": "2016"
@@ -1545,6 +1625,10 @@
   "ps-vita__sly-cooper-thieves-in-time": {
     "studio": "Sanzaru Games",
     "year": "2013"
+  },
+  "ps-vita__sonic-and-all-stars-racing-transformed": {
+    "studio": "Sumo Digital",
+    "year": "2012"
   },
   "ps-vita__soul-sacrifice": {
     "studio": "SCE Japan Studio / Marvelous AQL",
@@ -1570,6 +1654,10 @@
     "studio": "5pb. / Nitroplus",
     "year": "2016"
   },
+  "ps-vita__stranger-of-sword-city": {
+    "studio": "Experience Inc.",
+    "year": "2016"
+  },
   "ps-vita__street-fighter-x-tekken": {
     "studio": "Capcom",
     "year": "2012"
@@ -1582,16 +1670,32 @@
     "studio": "Housemarque",
     "year": "2012"
   },
+  "ps-vita__tales-of-hearts-r": {
+    "studio": "Bandai Namco Studios",
+    "year": "2014"
+  },
   "ps-vita__tearaway": {
     "studio": "Media Molecule",
+    "year": "2013"
+  },
+  "ps-vita__terraria": {
+    "studio": "Re-Logic / Engine Software",
     "year": "2013"
   },
   "ps-vita__thomas-was-alone": {
     "studio": "Mike Bithell Games",
     "year": "2013"
   },
+  "ps-vita__tokyo-xanadu": {
+    "studio": "Nihon Falcom",
+    "year": "2017"
+  },
   "ps-vita__toukiden-kiwami": {
     "studio": "Omega Force",
+    "year": "2014"
+  },
+  "ps-vita__txk": {
+    "studio": "Llamasoft",
     "year": "2014"
   },
   "ps-vita__ultimate-marvel-vs-capcom-3": {
@@ -1606,6 +1710,10 @@
     "studio": "Zipper Interactive",
     "year": "2012"
   },
+  "ps-vita__utawarerumono-mask-of-deception": {
+    "studio": "Aquaplus",
+    "year": "2017"
+  },
   "ps-vita__velocity-2x": {
     "studio": "FuturLab",
     "year": "2014"
@@ -1617,6 +1725,10 @@
   "ps-vita__wipeout-2048": {
     "studio": "Studio Liverpool",
     "year": "2012"
+  },
+  "ps-vita__world-of-final-fantasy": {
+    "studio": "Square Enix",
+    "year": "2016"
   },
   "ps-vita__ys-memories-of-celceta": {
     "studio": "Nihon Falcom",
