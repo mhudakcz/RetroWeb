@@ -84,6 +84,9 @@ WIKI = {
     "zx81": "ZX81",
     "vic20": "Commodore VIC-20",
     "atari-st": "Atari ST",
+    "pc-dos": "IBM Personal Computer",
+    "pc-9x": "Pentium (original)",
+    "pc-modern": "Gaming computer",
     "intellivision": "Intellivision",
     "jaguar": "Atari Jaguar",
     "amiga-cd32": "Amiga CD32",
@@ -133,6 +136,7 @@ LIBRETRO = {
     "zx81": "Sinclair_-_ZX81",
     "vic20": "Commodore_-_VIC-20",
     "atari-st": "Atari_-_ST",
+    "pc-dos": "DOS",
     "intellivision": "Mattel_-_Intellivision",
     "jaguar": "Atari_-_Jaguar",
     "amiga-cd32": "Commodore_-_Amiga",
@@ -973,6 +977,8 @@ _STEAM_SUFFIX_OK = {
     "remastered", "remaster", "hd", "definitive", "edition", "goty", "game", "of", "the",
     "year", "complete", "enhanced", "anniversary", "collection", "redux", "classic",
     "deluxe", "ultimate", "special", "gold", "director's", "directors", "cut", "plus",
+    # norm_name mění apostrof na mezeru, takže "Director's Cut" -> director / s / cut
+    "director", "s",
 }
 
 
@@ -992,14 +998,29 @@ def _steam_clean(title):
     return P.re.sub(r"[™®©℠]", " ", title)
 
 
+def _steam_is_skippable(title):
+    """Je to soundtrack/DLC/demo místo samotné hry?
+
+    Jednoslovné termíny se musí shodovat na celé slovo — dřív se hledal podřetězec
+    a 'ost' (soundtrack) tak zahodilo každý 'Lost Planet' i 'Ghost of Tsushima'."""
+    low = title.lower()
+    words = set(P.re.findall(r"[a-z0-9]+", low))
+    for w in _STEAM_SKIP:
+        if " " in w:
+            if w in low:
+                return True
+        elif w in words:
+            return True
+    return False
+
+
 def _steam_pick(game_name, hits):
     """Vyber appid, jehož název je opravdu tatáž hra (ne DLC, soundtrack ani sequel)."""
     gnorm = P.norm_name(game_name)
     if len(gnorm) < 3:
         return None
     for appid, title in hits:
-        low = title.lower()
-        if any(w in low for w in _STEAM_SKIP):
+        if _steam_is_skippable(title):
             continue
         tnorm = P.norm_name(_steam_clean(title))
         if not tnorm:
@@ -1009,7 +1030,12 @@ def _steam_pick(game_name, hits):
         # povol jen reedice: "BioShock" -> "BioShock Remastered"
         if tnorm.startswith(gnorm + " "):
             extra = tnorm[len(gnorm) + 1:].split()
-            if extra and all(w in _STEAM_SUFFIX_OK for w in extra):
+            if not extra:
+                continue
+            if all(w in _STEAM_SUFFIX_OK for w in extra):
+                return appid, title
+            # "<neco> Edition" je pořád tatáž hra: "Bulletstorm: Full Clip Edition"
+            if extra[-1] == "edition" and len(extra) <= 3:
                 return appid, title
     return None
 
@@ -1130,6 +1156,76 @@ def fetch_games_nintendo(only=None):
     print(f"\nNintendo eShop: dohledano {ok}/{total} obrazku")
 
 
+def _steam_screenshots(appid, limit=2):
+    """Vrátí URL prvních N screenshotů dané hry ze Steamu (veřejné appdetails API)."""
+    url = f"https://store.steampowered.com/api/appdetails?appids={appid}&filters=screenshots"
+    try:
+        data = json.loads(http_get(url))
+        shots = data[str(appid)]["data"]["screenshots"]
+    except Exception:  # noqa
+        return []
+    out = []
+    for sh in shots[:limit]:
+        src = sh.get("path_full") or sh.get("path_thumbnail")
+        if src:
+            out.append(src)
+    return out
+
+
+def fetch_games_steam_shots(only=None):
+    """Doplní hrám, které UŽ MAJÍ obal, dva snímky ze hry ze Steamu.
+
+    Retro platformy berou snímky z libretro (Named_Snaps / Named_Titles), jenže pro
+    moderní konzole tam žádné nejsou — proto tam hry měly jediný obrázek. Ukládá se
+    pod příponami -snap a -title, které parser skládá do galerie."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if wanted and slug not in wanted:
+            continue
+        # jen hry, které mají obal, ale ještě nemají snímky ze hry
+        targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 2]
+        if not targets:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} - bez snimku: {len(targets)} ==")
+        for g in targets:
+            total += 1
+            if (out / f"{g['slug']}-snap.jpg").exists() or (out / f"{g['slug']}-snap.webp").exists():
+                continue
+            time.sleep(0.35)
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.split(" -ish")[0].split(" / ")[0].strip()
+            hit = _steam_pick(base, _steam_search(base))
+            if not hit:
+                print(f"  [-] {g['name']}")
+                continue
+            appid, title = hit
+            shots = _steam_screenshots(appid)
+            if not shots:
+                print(f"  [-] {g['name']} (bez screenshotu)")
+                continue
+            saved = 0
+            for src, suffix in zip(shots, ("-snap", "-title")):
+                try:
+                    img = http_get(src)
+                    if len(img) < 3000:
+                        continue
+                    (out / f"{g['slug']}{suffix}.jpg").write_bytes(img)
+                    saved += 1
+                except Exception:  # noqa
+                    pass
+            if saved:
+                ok += 1
+                print(f"  [OK] {g['name']}  <- steam:{appid} ({saved} snimky)")
+            else:
+                print(f"  [x] {g['name']} (stazeni selhalo)")
+    print(f"\nSteam screenshoty: doplneno u {ok}/{total} her")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -1168,3 +1264,6 @@ if __name__ == "__main__":
     if what == "games-nintendo":
         print("=== OBRÁZKY HER Z NINTENDO ESHOPU (hry bez obrázku) ===")
         fetch_games_nintendo(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-steam-shots":
+        print("=== SNÍMKY ZE HRY ZE STEAMU (hry s obalem, ale bez galerie) ===")
+        fetch_games_steam_shots(sys.argv[2] if len(sys.argv) > 2 else None)

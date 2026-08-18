@@ -3,28 +3,37 @@
   "version": "2026.08.18",
   "date": "2026-08-18",
   "title": {
-   "cs": "Francouzština a obaly z eShopu",
-   "en": "French translation and eShop box art",
-   "de": "Französisch und eShop-Cover",
-   "fr": "Traduction française et jaquettes eShop"
+   "cs": "Web je kompletní ve čtyřech jazycích",
+   "en": "The site is complete in four languages",
+   "de": "Die Seite ist in vier Sprachen vollständig",
+   "fr": "Le site est complet en quatre langues"
   },
   "entries": [
    {
     "tag": "i18n",
     "text": {
-     "cs": "Doplňuje se francouzský překlad zbývajícího obsahu — dosud byla FR jen na části katalogu a zbytek padal na češtinu.",
-     "en": "The French translation of the remaining content is being filled in — until now FR covered only part of the catalog and the rest fell back to Czech.",
-     "de": "Die französische Übersetzung der restlichen Inhalte wird ergänzt — bisher deckte FR nur einen Teil des Katalogs ab, der Rest fiel auf Tschechisch zurück.",
-     "fr": "La traduction française du contenu restant est en cours — jusqu’ici, le FR ne couvrait qu’une partie du catalogue et le reste basculait en tchèque."
+     "cs": "Francouzština dohnala zbytek — všech 2504 her, 48 platforem, 23 studií i hardwarové průvodce jsou nově přeložené. Čeština, angličtina, němčina a francouzština teď pokrývají obsah úplně stejně; dosud FR zvládala jen část katalogu a zbytek padal na češtinu.",
+     "en": "French has caught up with the rest — all 2,504 games, 48 platforms, 23 studios and the hardware guides are now translated. Czech, English, German and French cover the content identically; until now FR handled only part of the catalog and the rest fell back to Czech.",
+     "de": "Französisch hat aufgeholt — alle 2.504 Spiele, 48 Plattformen, 23 Studios und die Hardware-Guides sind nun übersetzt. Tschechisch, Englisch, Deutsch und Französisch decken die Inhalte identisch ab; bisher schaffte FR nur einen Teil des Katalogs, der Rest fiel auf Tschechisch zurück.",
+     "fr": "Le français a rattrapé son retard — les 2 504 jeux, 48 plateformes, 23 studios et les guides matériels sont désormais traduits. Tchèque, anglais, allemand et français couvrent le contenu à l’identique ; jusqu’ici, le FR ne gérait qu’une partie du catalogue et le reste basculait en tchèque."
     }
    },
    {
     "tag": "images",
     "text": {
-     "cs": "Nový zdroj obalů: Nintendo eShop. Nintendo exkluzivity nejsou na Steamu ani v libretro-thumbnails, takže je to jediný volně dostupný zdroj jejich obalů.",
-     "en": "New box-art source: the Nintendo eShop. Nintendo exclusives are on neither Steam nor libretro-thumbnails, making this the only freely available source for their covers.",
-     "de": "Neue Cover-Quelle: der Nintendo eShop. Nintendo-Exklusivtitel gibt es weder auf Steam noch bei libretro-thumbnails, daher ist dies die einzige frei verfügbare Quelle.",
-     "fr": "Nouvelle source de jaquettes : le Nintendo eShop. Les exclusivités Nintendo ne sont ni sur Steam ni sur libretro-thumbnails, c’est donc la seule source librement accessible."
+     "cs": "Nový zdroj obalů: Nintendo eShop. Nintendo exkluzivity nejsou na Steamu ani v libretro-thumbnails, takže to byl jediný volně dostupný zdroj — Switch díky tomu skočil ze 47 na 105 obalů ze 113 her.",
+     "en": "New box-art source: the Nintendo eShop. Nintendo exclusives are on neither Steam nor libretro-thumbnails, so this was the only freely available source — it took the Switch from 47 to 105 covers out of 113 games.",
+     "de": "Neue Cover-Quelle: der Nintendo eShop. Nintendo-Exklusivtitel gibt es weder auf Steam noch bei libretro-thumbnails, dies war also die einzige frei verfügbare Quelle — die Switch stieg dadurch von 47 auf 105 Cover bei 113 Spielen.",
+     "fr": "Nouvelle source de jaquettes : le Nintendo eShop. Les exclusivités Nintendo ne sont ni sur Steam ni sur libretro-thumbnails, c’était donc la seule source librement accessible — la Switch est ainsi passée de 47 à 105 jaquettes sur 113 jeux."
+    }
+   },
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Přibyla tahle stránka se změnami — přehled toho, co na webu postupně přibývá.",
+     "en": "This changelog page was added — an overview of what keeps arriving on the site.",
+     "de": "Diese Änderungsseite kam dazu — ein Überblick darüber, was nach und nach auf die Seite kommt.",
+     "fr": "Cette page des nouveautés a été ajoutée — un aperçu de ce qui arrive peu à peu sur le site."
     }
    }
   ]
