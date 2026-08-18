@@ -1290,6 +1290,466 @@
     "year": "1985"
   },
   "nes__zelda-ii-adventure-of-link": {},
+  "pc-9x__aliens-versus-predator": {
+    "studio": "Rebellion Developments",
+    "year": "1999"
+  },
+  "pc-9x__blood": {
+    "studio": "Monolith Productions",
+    "year": "1997"
+  },
+  "pc-9x__counter-strike": {
+    "studio": "Valve",
+    "year": "2000"
+  },
+  "pc-9x__deus-ex": {
+    "studio": "Ion Storm",
+    "year": "2000"
+  },
+  "pc-9x__half-life-opposing-force": {
+    "studio": "Gearbox Software",
+    "year": "1999"
+  },
+  "pc-9x__operative-no-one-lives-forever": {
+    "studio": "Monolith Productions",
+    "year": "2000"
+  },
+  "pc-9x__quake-ii": {
+    "studio": "id Software",
+    "year": "1997"
+  },
+  "pc-9x__quake-iii-arena": {
+    "studio": "id Software",
+    "year": "1999"
+  },
+  "pc-9x__soldier-of-fortune": {
+    "studio": "Raven Software",
+    "year": "2000"
+  },
+  "pc-9x__star-wars-jedi-knight-dark-forces-ii": {
+    "studio": "LucasArts",
+    "year": "1997"
+  },
+  "pc-9x__system-shock-2": {
+    "studio": "Irrational Games",
+    "year": "1999"
+  },
+  "pc-9x__tom-clancy-s-rainbow-six": {
+    "studio": "Red Storm Entertainment",
+    "year": "1998"
+  },
+  "pc-9x__turok-dinosaur-hunter": {
+    "studio": "Iguana Entertainment",
+    "year": "1997"
+  },
+  "pc-9x__unreal-tournament": {
+    "studio": "Epic Games",
+    "year": "1999"
+  },
+  "pc-dos__aces-of-pacific": {
+    "studio": "Dynamix",
+    "year": "1992"
+  },
+  "pc-dos__alone-in-dark": {
+    "studio": "Infogrames",
+    "year": "1992"
+  },
+  "pc-dos__ancient-art-of-war": {
+    "studio": "Evryware",
+    "year": "1984"
+  },
+  "pc-dos__another-world": {
+    "studio": "Delphine Software",
+    "year": "1992"
+  },
+  "pc-dos__battle-isle": {
+    "studio": "Blue Byte",
+    "year": "1992"
+  },
+  "pc-dos__beneath-steel-sky": {
+    "studio": "Revolution Software",
+    "year": "1994"
+  },
+  "pc-dos__betrayal-at-krondor": {
+    "studio": "Dynamix",
+    "year": "1993"
+  },
+  "pc-dos__bio-menace": {
+    "studio": "Apogee Software",
+    "year": "1993"
+  },
+  "pc-dos__blake-stone-aliens-of-gold": {
+    "studio": "JAM Productions",
+    "year": "1993"
+  },
+  "pc-dos__caesar": {
+    "studio": "Impressions Games",
+    "year": "1992"
+  },
+  "pc-dos__catacomb-3-d": {
+    "studio": "id Software",
+    "year": "1991"
+  },
+  "pc-dos__comanche-maximum-overkill": {
+    "studio": "NovaLogic",
+    "year": "1992"
+  },
+  "pc-dos__cosmo-s-cosmic-adventure": {
+    "studio": "Apogee Software",
+    "year": "1992"
+  },
+  "pc-dos__crystal-caves": {
+    "studio": "Apogee Software",
+    "year": "1991"
+  },
+  "pc-dos__cyclones": {
+    "studio": "Raven Software",
+    "year": "1994"
+  },
+  "pc-dos__darklands": {
+    "studio": "MicroProse",
+    "year": "1992"
+  },
+  "pc-dos__day-of-tentacle": {
+    "studio": "LucasArts",
+    "year": "1993"
+  },
+  "pc-dos__digger": {
+    "studio": "Windmill Software",
+    "year": "1983"
+  },
+  "pc-dos__disney-s-aladdin": {
+    "studio": "Virgin Games",
+    "year": "1994"
+  },
+  "pc-dos__doom": {
+    "studio": "id Software",
+    "year": "1993"
+  },
+  "pc-dos__doom-ii-hell-on-earth": {
+    "studio": "id Software",
+    "year": "1994"
+  },
+  "pc-dos__elder-scrolls-arena": {
+    "studio": "Bethesda Softworks",
+    "year": "1994"
+  },
+  "pc-dos__eye-of-beholder": {
+    "studio": "Westwood Associates",
+    "year": "1991"
+  },
+  "pc-dos__eye-of-beholder-ii-legend-of-darkmoon": {
+    "studio": "Westwood Associates",
+    "year": "1991"
+  },
+  "pc-dos__f-19-stealth-fighter": {
+    "studio": "MicroProse",
+    "year": "1988"
+  },
+  "pc-dos__falcon-3-0": {
+    "studio": "Spectrum HoloByte",
+    "year": "1991"
+  },
+  "pc-dos__fifa-international-soccer": {
+    "studio": "Electronic Arts",
+    "year": "1994"
+  },
+  "pc-dos__flashback-quest-for-identity": {
+    "studio": "Delphine Software",
+    "year": "1993"
+  },
+  "pc-dos__frontier-elite-ii": {
+    "studio": "Frontier Developments",
+    "year": "1993"
+  },
+  "pc-dos__gabriel-knight-sins-of-fathers": {
+    "studio": "Sierra On-Line",
+    "year": "1993"
+  },
+  "pc-dos__halloween-harry": {
+    "studio": "SubZero Software",
+    "year": "1993"
+  },
+  "pc-dos__heretic": {
+    "studio": "Raven Software",
+    "year": "1994"
+  },
+  "pc-dos__hocus-pocus": {
+    "studio": "Moonlite Software",
+    "year": "1994"
+  },
+  "pc-dos__incredible-machine": {
+    "studio": "Dynamix",
+    "year": "1993"
+  },
+  "pc-dos__indiana-jones-and-fate-of-atlantis": {
+    "studio": "LucasArts",
+    "year": "1992"
+  },
+  "pc-dos__indiana-jones-and-last-crusade-graphic-adventure": {
+    "studio": "Lucasfilm Games",
+    "year": "1989"
+  },
+  "pc-dos__indianapolis-500-simulation": {
+    "studio": "Papyrus Design Group",
+    "year": "1989"
+  },
+  "pc-dos__jazz-jackrabbit": {
+    "studio": "Epic MegaGames",
+    "year": "1994"
+  },
+  "pc-dos__jill-of-jungle": {
+    "studio": "Epic MegaGames",
+    "year": "1992"
+  },
+  "pc-dos__king-s-quest-v-absence-makes-heart-go-yonder": {
+    "studio": "Sierra On-Line",
+    "year": "1990"
+  },
+  "pc-dos__king-s-quest-vi-heir-today-gone-tomorrow": {
+    "studio": "Sierra On-Line",
+    "year": "1992"
+  },
+  "pc-dos__lands-of-lore-throne-of-chaos": {
+    "studio": "Westwood Studios",
+    "year": "1993"
+  },
+  "pc-dos__lemmings": {
+    "studio": "DMA Design",
+    "year": "1991"
+  },
+  "pc-dos__links-challenge-of-golf": {
+    "studio": "Access Software",
+    "year": "1990"
+  },
+  "pc-dos__loom": {
+    "studio": "Lucasfilm Games",
+    "year": "1990"
+  },
+  "pc-dos__lords-of-realm": {
+    "studio": "Impressions Games",
+    "year": "1994"
+  },
+  "pc-dos__lure-of-temptress": {
+    "studio": "Revolution Software",
+    "year": "1992"
+  },
+  "pc-dos__magic-carpet": {
+    "studio": "Bullfrog Productions",
+    "year": "1994"
+  },
+  "pc-dos__maniac-mansion": {
+    "studio": "Lucasfilm Games",
+    "year": "1988"
+  },
+  "pc-dos__master-of-magic": {
+    "studio": "Simtex",
+    "year": "1994"
+  },
+  "pc-dos__master-of-orion": {
+    "studio": "Simtex",
+    "year": "1993"
+  },
+  "pc-dos__might-and-magic-iii-isles-of-terra": {
+    "studio": "New World Computing",
+    "year": "1991"
+  },
+  "pc-dos__monkey-island-2-lechuck-s-revenge": {
+    "studio": "LucasArts",
+    "year": "1991"
+  },
+  "pc-dos__monster-bash": {
+    "studio": "Apogee Software",
+    "year": "1993"
+  },
+  "pc-dos__nascar-racing": {
+    "studio": "Papyrus Design Group",
+    "year": "1994"
+  },
+  "pc-dos__oxyd": {
+    "studio": "Dongleware",
+    "year": "1992"
+  },
+  "pc-dos__panzer-general": {
+    "studio": "Strategic Simulations, Inc.",
+    "year": "1994"
+  },
+  "pc-dos__pipe-dream": {
+    "studio": "The Assembly Line",
+    "year": "1990"
+  },
+  "pc-dos__pool-of-radiance": {
+    "studio": "Strategic Simulations, Inc.",
+    "year": "1988"
+  },
+  "pc-dos__populous": {
+    "studio": "Bullfrog Productions",
+    "year": "1989"
+  },
+  "pc-dos__powermonger": {
+    "studio": "Bullfrog Productions",
+    "year": "1990"
+  },
+  "pc-dos__prehistorik-2": {
+    "studio": "Titus",
+    "year": "1993"
+  },
+  "pc-dos__raptor-call-of-shadows": {
+    "studio": "Cygnus Studios",
+    "year": "1994"
+  },
+  "pc-dos__ravenloft-strahd-s-possession": {
+    "studio": "DreamForge Intertainment",
+    "year": "1994"
+  },
+  "pc-dos__realms-of-arkania-blade-of-destiny": {
+    "studio": "Attic Entertainment Software",
+    "year": "1993"
+  },
+  "pc-dos__red-baron": {
+    "studio": "Dynamix",
+    "year": "1990"
+  },
+  "pc-dos__rise-of-triad-dark-war": {
+    "studio": "Apogee Software",
+    "year": "1994"
+  },
+  "pc-dos__sam-and-max-hit-road": {
+    "studio": "LucasArts",
+    "year": "1993"
+  },
+  "pc-dos__secret-of-monkey-island": {
+    "studio": "Lucasfilm Games",
+    "year": "1990"
+  },
+  "pc-dos__sensible-soccer": {
+    "studio": "Sensible Software",
+    "year": "1993"
+  },
+  "pc-dos__shadowcaster": {
+    "studio": "Raven Software",
+    "year": "1993"
+  },
+  "pc-dos__sid-meier-s-colonization": {
+    "studio": "MicroProse",
+    "year": "1994"
+  },
+  "pc-dos__sid-meier-s-railroad-tycoon": {
+    "studio": "MicroProse",
+    "year": "1990"
+  },
+  "pc-dos__skyroads": {
+    "studio": "Bluemoon Interactive",
+    "year": "1993"
+  },
+  "pc-dos__space-quest-iv-roger-wilco-and-time-rippers": {
+    "studio": "Sierra On-Line",
+    "year": "1991"
+  },
+  "pc-dos__spear-of-destiny": {
+    "studio": "id Software",
+    "year": "1992"
+  },
+  "pc-dos__speedball-2-brutal-deluxe": {
+    "studio": "The Bitmap Brothers",
+    "year": "1992"
+  },
+  "pc-dos__star-wars-tie-fighter": {
+    "studio": "Totally Games",
+    "year": "1994"
+  },
+  "pc-dos__star-wars-x-wing": {
+    "studio": "Totally Games",
+    "year": "1993"
+  },
+  "pc-dos__strike-commander": {
+    "studio": "Origin Systems",
+    "year": "1993"
+  },
+  "pc-dos__stunts": {
+    "studio": "Distinctive Software",
+    "year": "1990"
+  },
+  "pc-dos__syndicate": {
+    "studio": "Bullfrog Productions",
+    "year": "1993"
+  },
+  "pc-dos__system-shock": {
+    "studio": "Looking Glass Technologies",
+    "year": "1994"
+  },
+  "pc-dos__tajemstvi-osliho-ostrova": {
+    "studio": "Vochozka Trading",
+    "year": "1994"
+  },
+  "pc-dos__test-drive-ii-duel": {
+    "studio": "Distinctive Software",
+    "year": "1989"
+  },
+  "pc-dos__tetris": {
+    "studio": "Spectrum HoloByte",
+    "year": "1988"
+  },
+  "pc-dos__theme-park": {
+    "studio": "Bullfrog Productions",
+    "year": "1994"
+  },
+  "pc-dos__titus-fox-to-marrakech-and-back": {
+    "studio": "Titus",
+    "year": "1992"
+  },
+  "pc-dos__transport-tycoon": {
+    "studio": "Chris Sawyer Productions",
+    "year": "1994"
+  },
+  "pc-dos__ultima-underworld-ii-labyrinth-of-worlds": {
+    "studio": "Looking Glass Technologies",
+    "year": "1993"
+  },
+  "pc-dos__ultima-underworld-stygian-abyss": {
+    "studio": "Blue Sky Productions",
+    "year": "1992"
+  },
+  "pc-dos__ultima-vi-false-prophet": {
+    "studio": "Origin Systems",
+    "year": "1990"
+  },
+  "pc-dos__ultima-vii-black-gate": {
+    "studio": "Origin Systems",
+    "year": "1992"
+  },
+  "pc-dos__warlords-ii": {
+    "studio": "Strategic Studies Group",
+    "year": "1993"
+  },
+  "pc-dos__wasteland": {
+    "studio": "Interplay Productions",
+    "year": "1988"
+  },
+  "pc-dos__wing-commander": {
+    "studio": "Origin Systems",
+    "year": "1990"
+  },
+  "pc-dos__wing-commander-privateer": {
+    "studio": "Origin Systems",
+    "year": "1993"
+  },
+  "pc-dos__wizardry-vi-bane-of-cosmic-forge": {
+    "studio": "Sir-Tech Software",
+    "year": "1990"
+  },
+  "pc-dos__wizardry-vii-crusaders-of-dark-savant": {
+    "studio": "Sir-Tech Software",
+    "year": "1992"
+  },
+  "pc-dos__wolfenstein-3d": {
+    "studio": "id Software",
+    "year": "1992"
+  },
+  "pc-dos__zak-mckracken-and-alien-mindbenders": {
+    "studio": "Lucasfilm Games",
+    "year": "1988"
+  },
   "ps-vita__amnesia-memories": {
     "studio": "Idea Factory / Otomate",
     "year": "2015"

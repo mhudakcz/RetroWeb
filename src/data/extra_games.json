@@ -10696,5 +10696,846 @@
     "puzzle"
    ]
   }
+ ],
+ "pc-9x": [
+  {
+   "name": "Quake II",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Quake III Arena",
+   "genre": "FPS / Arena",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Unreal Tournament",
+   "genre": "FPS / Arena",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Half-Life: Opposing Force",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "System Shock 2",
+   "genre": "FPS / RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Deus Ex",
+   "genre": "FPS / RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Star Wars Jedi Knight: Dark Forces II",
+   "genre": "FPS / Akční",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six",
+   "genre": "Taktická FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Aliens versus Predator",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Soldier of Fortune",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Operative: No One Lives Forever",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Counter-Strike",
+   "genre": "Taktická FPS",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Blood",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Turok: Dinosaur Hunter",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  }
+ ],
+ "pc-dos": [
+  {
+   "name": "Jazz Jackrabbit",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Jill of the Jungle",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cosmo's Cosmic Adventure",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Crystal Caves",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Bio Menace",
+   "genre": "Run and gun plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hocus Pocus",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Bash",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Another World",
+   "genre": "Cinematická plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Flashback: The Quest for Identity",
+   "genre": "Cinematická plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rise of the Triad: Dark War",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Raptor: Call of the Shadows",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Halloween Harry",
+   "genre": "Run and gun plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Disney's Aladdin",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Titus the Fox: To Marrakech and Back",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prehistorik 2",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wolfenstein 3D",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom II: Hell on Earth",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "System Shock",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Ultima Underworld: The Stygian Abyss",
+   "genre": "Dungeon RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ultima Underworld II: Labyrinth of Worlds",
+   "genre": "Dungeon RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Spear of Destiny",
+   "genre": "FPS",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Catacomb 3-D",
+   "genre": "FPS",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Heretic",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "ShadowCaster",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "CyClones",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Blake Stone: Aliens of Gold",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Alone in the Dark",
+   "genre": "Survival horor",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Magic Carpet",
+   "genre": "Akční / 3D akce",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls: Arena",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Maniac Mansion",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Zak McKracken and the Alien Mindbenders",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Indiana Jones and the Last Crusade: The Graphic Adventure",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Loom",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Secret of Monkey Island",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Monkey Island 2: LeChuck's Revenge",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Indiana Jones and the Fate of Atlantis",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Day of the Tentacle",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sam & Max Hit the Road",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "King's Quest V: Absence Makes the Heart Go Yonder!",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "King's Quest VI: Heir Today, Gone Tomorrow",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Space Quest IV: Roger Wilco and the Time Rippers",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gabriel Knight: Sins of the Fathers",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Lure of the Temptress",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Beneath a Steel Sky",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ultima VII: The Black Gate",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Eye of the Beholder",
+   "genre": "Dungeon crawler",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Eye of the Beholder II: The Legend of Darkmoon",
+   "genre": "Dungeon crawler",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Might and Magic III: Isles of Terra",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wizardry VI: Bane of the Cosmic Forge",
+   "genre": "Dungeon crawler",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wizardry VII: Crusaders of the Dark Savant",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Betrayal at Krondor",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lands of Lore: The Throne of Chaos",
+   "genre": "Dungeon crawler",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pool of Radiance",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Darklands",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Wasteland",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Ultima VI: The False Prophet",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Realms of Arkania: Blade of Destiny",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Ravenloft: Strahd's Possession",
+   "genre": "Dungeon crawler",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Master of Orion",
+   "genre": "Tahová strategie (4X)",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Master of Magic",
+   "genre": "Tahová strategie (4X)",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sid Meier's Railroad Tycoon",
+   "genre": "Budovatelská strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sid Meier's Colonization",
+   "genre": "Tahová strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Panzer General",
+   "genre": "Tahová strategie (wargame)",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Populous",
+   "genre": "Božská strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Powermonger",
+   "genre": "Realtime strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Syndicate",
+   "genre": "Realtime taktika",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Transport Tycoon",
+   "genre": "Budovatelská strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Theme Park",
+   "genre": "Budovatelská strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Caesar",
+   "genre": "Budovatelská strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lords of the Realm",
+   "genre": "Tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Battle Isle",
+   "genre": "Tahová strategie (wargame)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Warlords II",
+   "genre": "Tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Ancient Art of War",
+   "genre": "Realtime strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander",
+   "genre": "Vesmírný simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars: X-Wing",
+   "genre": "Vesmírný simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars: TIE Fighter",
+   "genre": "Vesmírný simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Falcon 3.0",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Stunts",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Test Drive II: The Duel",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "F-19 Stealth Fighter",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Red Baron",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Comanche: Maximum Overkill",
+   "genre": "Letecký simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Indianapolis 500: The Simulation",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "NASCAR Racing",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Strike Commander",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander: Privateer",
+   "genre": "Vesmírný simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Frontier: Elite II",
+   "genre": "Vesmírný simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Aces of the Pacific",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lemmings",
+   "genre": "Logická",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Tetris",
+   "genre": "Logická",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Pipe Dream",
+   "genre": "Logická",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Oxyd",
+   "genre": "Logická",
+   "length": "L",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Incredible Machine",
+   "genre": "Logická",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Digger",
+   "genre": "Arkádová",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sensible Soccer",
+   "genre": "Sportovní",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "FIFA International Soccer",
+   "genre": "Sportovní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Links: The Challenge of Golf",
+   "genre": "Sportovní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Speedball 2: Brutal Deluxe",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SkyRoads",
+   "genre": "Arkádová",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tajemství Oslího ostrova",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  }
  ]
 }
