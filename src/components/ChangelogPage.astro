@@ -1,0 +1,162 @@
+---
+import changelog from '../data/changelog.json';
+import { DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+
+type Loc = Record<Locale, string>;
+type Entry = { tag: string; text: Loc };
+type Version = { version: string; date: string; title: Loc; entries: Entry[] };
+const versions = changelog as Version[];
+
+const T = {
+  cs: {
+    eyebrow: 'Změny',
+    h1: 'Co je nového',
+    intro: 'Přehled toho, co na RetroWebu přibylo a co se opravilo. Nejnovější nahoře.',
+    latest: 'nejnovější',
+  },
+  en: {
+    eyebrow: 'Changelog',
+    h1: "What's new",
+    intro: 'An overview of what has been added to RetroWeb and what got fixed. Newest first.',
+    latest: 'latest',
+  },
+  de: {
+    eyebrow: 'Änderungen',
+    h1: 'Was ist neu',
+    intro: 'Ein Überblick darüber, was auf RetroWeb dazugekommen ist und was behoben wurde. Neueste zuerst.',
+    latest: 'neueste',
+  },
+  fr: {
+    eyebrow: 'Nouveautés',
+    h1: 'Quoi de neuf',
+    intro: 'Un aperçu de ce qui a été ajouté à RetroWeb et de ce qui a été corrigé. Le plus récent en premier.',
+    latest: 'récent',
+  },
+}[locale];
+
+const TAGS: Record<string, Loc> = {
+  games: { cs: 'Hry', en: 'Games', de: 'Spiele', fr: 'Jeux' },
+  platform: { cs: 'Platformy', en: 'Platforms', de: 'Plattformen', fr: 'Plateformes' },
+  images: { cs: 'Obrázky', en: 'Images', de: 'Bilder', fr: 'Images' },
+  content: { cs: 'Obsah', en: 'Content', de: 'Inhalt', fr: 'Contenu' },
+  i18n: { cs: 'Jazyky', en: 'Languages', de: 'Sprachen', fr: 'Langues' },
+  fix: { cs: 'Oprava', en: 'Fix', de: 'Korrektur', fr: 'Correctif' },
+};
+
+const LOCALE_TAG: Record<Locale, string> = { cs: 'cs-CZ', en: 'en-GB', de: 'de-DE', fr: 'fr-FR' };
+const fmtDate = (iso: string) =>
+  new Date(iso + 'T00:00:00Z').toLocaleDateString(LOCALE_TAG[locale], {
+    day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+  });
+---
+
+<article class="container narrow">
+  <header class="head">
+    <p class="eyebrow">{T.eyebrow}</p>
+    <h1>{T.h1}</h1>
+    <p class="muted">{T.intro}</p>
+  </header>
+
+  <ol class="timeline">
+    {versions.map((v, i) => (
+      <li class="release">
+        <div class="marker" aria-hidden="true"></div>
+        <div class="body">
+          <div class="meta">
+            <span class="version">{v.version}</span>
+            <time datetime={v.date}>{fmtDate(v.date)}</time>
+            {i === 0 && <span class="badge-latest">{T.latest}</span>}
+          </div>
+          <h2>{v.title[locale]}</h2>
+          <ul class="entries">
+            {v.entries.map((e) => (
+              <li>
+                <span class:list={['tag', `tag-${e.tag}`]}>{(TAGS[e.tag] ?? TAGS.content)[locale]}</span>
+                <span class="text">{e.text[locale]}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </li>
+    ))}
+  </ol>
+</article>
+
+<style>
+  .narrow { max-width: 760px; }
+  .head { padding-block: 48px 8px; }
+  .head h1 { font-size: clamp(2rem, 5vw, 3rem); margin-top: 8px; }
+  .head .muted { margin-top: 10px; font-size: 1.06rem; }
+
+  .timeline { list-style: none; margin: 32px 0 64px; padding: 0; position: relative; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    bottom: 10px;
+    width: 2px;
+    background: linear-gradient(180deg, var(--accent), transparent);
+    opacity: 0.35;
+  }
+
+  .release { position: relative; padding-left: 34px; padding-bottom: 34px; }
+  .release:last-child { padding-bottom: 0; }
+  .marker {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--accent);
+  }
+  .release:first-child .marker { background: var(--accent); box-shadow: 0 0 0 4px rgba(255, 62, 127, 0.15); }
+
+  .meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .version { font-family: var(--mono, ui-monospace, monospace); font-size: 0.92rem; color: var(--accent); }
+  .meta time { font-size: 0.88rem; color: var(--muted); }
+  .badge-latest {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(54, 226, 255, 0.12);
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+
+  .release h2 { font-size: 1.32rem; margin-block: 6px 14px; }
+
+  .entries { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .entries li { display: flex; gap: 10px; align-items: baseline; }
+  .entries .text { color: var(--text); }
+
+  .tag {
+    flex: none;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--muted);
+    min-width: 84px;
+    text-align: center;
+  }
+  .tag-games { color: #7ee8a2; border-color: rgba(126, 232, 162, 0.35); background: rgba(126, 232, 162, 0.08); }
+  .tag-platform { color: #8fb8ff; border-color: rgba(143, 184, 255, 0.35); background: rgba(143, 184, 255, 0.08); }
+  .tag-images { color: #ffd580; border-color: rgba(255, 213, 128, 0.35); background: rgba(255, 213, 128, 0.08); }
+  .tag-i18n { color: #d8a8ff; border-color: rgba(216, 168, 255, 0.35); background: rgba(216, 168, 255, 0.08); }
+  .tag-fix { color: #ff9a9a; border-color: rgba(255, 154, 154, 0.35); background: rgba(255, 154, 154, 0.08); }
+
+  @media (max-width: 560px) {
+    .entries li { flex-direction: column; gap: 5px; }
+    .tag { align-self: flex-start; min-width: 0; }
+  }
+</style>

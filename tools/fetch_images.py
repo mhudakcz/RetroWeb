@@ -1056,6 +1056,80 @@ def fetch_games_steam(only=None):
     print(f"\nSteam: dohledáno {ok}/{total} obrázků")
 
 
+# platformy, které má smysl hledat v Nintendo eShopu (system_type ve fasetách)
+NINTENDO_SYSTEMS = {
+    "switch": "nintendoswitch",
+    "3ds": "3ds",
+}
+
+
+def _nintendo_search(name, system, limit=6):
+    """Veřejné vyhledávání Nintendo eShopu (bez API klíče) -> list (title, image_url)."""
+    q = urllib.parse.urlencode({
+        "q": name,
+        "fq": f"type:GAME AND system_type:{system}*",
+        "rows": str(limit),
+        "wt": "json",
+    })
+    try:
+        data = json.loads(http_get("https://search.nintendo-europe.com/en/select?" + q))
+    except Exception:  # noqa
+        return []
+    out = []
+    for doc in data.get("response", {}).get("docs", []):
+        img = doc.get("image_url")
+        if doc.get("title") and img:
+            out.append((doc["title"], img if img.startswith("http") else "https:" + img))
+    return out
+
+
+def fetch_games_nintendo(only=None):
+    """Pro hry BEZ obrázku stáhne oficiální packshot z Nintendo eShopu.
+
+    Nintendo exkluzivity nejsou na Steamu ani v libretro-thumbnails, takže tohle je
+    jediný volně dostupný zdroj jejich obalů. Párování je stejně přísné jako u Steamu
+    (přesná shoda nebo povolená reedice) — volnější shoda vrací úplně jiné hry."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if wanted and slug not in wanted:
+            continue
+        system = NINTENDO_SYSTEMS.get(slug)
+        if not system:
+            continue
+        missing = [g for g in plat["games"] if not g.get("image")]
+        if not missing:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} - bez obrazku: {len(missing)} ==")
+        for g in missing:
+            total += 1
+            time.sleep(0.3)
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.split(" -ish")[0].split(" / ")[0].strip()
+            hits = _nintendo_search(base, system)
+            # _steam_pick očekává (id, title); tady je "id" rovnou URL obrázku
+            pick = _steam_pick(base, [(url, title) for title, url in hits])
+            if not pick:
+                print(f"  [-] {g['name']}")
+                continue
+            url, title = pick
+            try:
+                img = http_get(url)
+                if len(img) < 3000:
+                    print(f"  [-] {g['name']} (maly soubor)")
+                    continue
+                (out / f"{g['slug']}.jpg").write_bytes(img)
+                ok += 1
+                print(f"  [OK] {g['name']}  <- eShop: {title}")
+            except Exception as e:  # noqa
+                print(f"  [x] {g['name']}: {e}")
+    print(f"\nNintendo eShop: dohledano {ok}/{total} obrazku")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -1091,3 +1165,6 @@ if __name__ == "__main__":
     if what == "games-steam":
         print("=== OBRÁZKY HER ZE STEAMU (portrétový box art, hry bez obrázku) ===")
         fetch_games_steam(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-nintendo":
+        print("=== OBRÁZKY HER Z NINTENDO ESHOPU (hry bez obrázku) ===")
+        fetch_games_nintendo(sys.argv[2] if len(sys.argv) > 2 else None)

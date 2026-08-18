@@ -30,6 +30,7 @@ export function localizePath(l: Locale, path: string): string {
  *  Root cesta sekce ('/', '/platformy', '/hry', …). */
 export const LOCALIZED_SECTIONS = new Set<string>([
   '/', '/podporit', '/kontakt', '/platformy', '/studia', '/hry', '/hardware', '/o-projektu',
+  '/zmeny',
 ]);
 
 /** Root sekce z cesty: '/platformy/game-boy' -> '/platformy', '/' -> '/'. */
@@ -55,6 +56,7 @@ export function localeFromPath(pathname: string): Locale {
 type Dict = Record<string, Record<Locale, string>>;
 const UI: Dict = {
   'nav.home': { cs: 'Domů', en: 'Home', de: 'Start', fr: 'Accueil' },
+  'footer.changelog': { cs: 'Co je nového', en: "What's new", de: 'Was ist neu', fr: 'Quoi de neuf' },
   'nav.platforms': { cs: 'Platformy', en: 'Platforms', de: 'Plattformen', fr: 'Plateformes' },
   'nav.games': { cs: 'Hry', en: 'Games', de: 'Spiele', fr: 'Jeux' },
   'nav.studios': { cs: 'Studia', en: 'Studios', de: 'Studios', fr: 'Studios' },

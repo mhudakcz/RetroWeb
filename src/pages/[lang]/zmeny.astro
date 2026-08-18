@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import ChangelogPage from '../../components/ChangelogPage.astro';
+import type { Locale } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
+}
+const locale = Astro.params.lang as Locale;
+const DESC = {
+  en: 'RetroWeb changelog — what was added, expanded and fixed.',
+  de: 'RetroWeb-Änderungen — was hinzukam, erweitert und behoben wurde.',
+  fr: 'Nouveautés de RetroWeb — ce qui a été ajouté, étoffé et corrigé.',
+}[locale];
+const TITLE = { en: "What's new", de: 'Was ist neu', fr: 'Quoi de neuf' }[locale];
+---
+
+<Base title={TITLE} description={DESC} locale={locale} localized>
+  <ChangelogPage locale={locale} />
+</Base>

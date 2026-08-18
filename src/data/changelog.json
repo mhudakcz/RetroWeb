@@ -1,0 +1,182 @@
+[
+ {
+  "version": "2026.08.18",
+  "date": "2026-08-18",
+  "title": {
+   "cs": "Francouzština a obaly z eShopu",
+   "en": "French translation and eShop box art",
+   "de": "Französisch und eShop-Cover",
+   "fr": "Traduction française et jaquettes eShop"
+  },
+  "entries": [
+   {
+    "tag": "i18n",
+    "text": {
+     "cs": "Doplňuje se francouzský překlad zbývajícího obsahu — dosud byla FR jen na části katalogu a zbytek padal na češtinu.",
+     "en": "The French translation of the remaining content is being filled in — until now FR covered only part of the catalog and the rest fell back to Czech.",
+     "de": "Die französische Übersetzung der restlichen Inhalte wird ergänzt — bisher deckte FR nur einen Teil des Katalogs ab, der Rest fiel auf Tschechisch zurück.",
+     "fr": "La traduction française du contenu restant est en cours — jusqu’ici, le FR ne couvrait qu’une partie du catalogue et le reste basculait en tchèque."
+    }
+   },
+   {
+    "tag": "images",
+    "text": {
+     "cs": "Nový zdroj obalů: Nintendo eShop. Nintendo exkluzivity nejsou na Steamu ani v libretro-thumbnails, takže je to jediný volně dostupný zdroj jejich obalů.",
+     "en": "New box-art source: the Nintendo eShop. Nintendo exclusives are on neither Steam nor libretro-thumbnails, making this the only freely available source for their covers.",
+     "de": "Neue Cover-Quelle: der Nintendo eShop. Nintendo-Exklusivtitel gibt es weder auf Steam noch bei libretro-thumbnails, daher ist dies die einzige frei verfügbare Quelle.",
+     "fr": "Nouvelle source de jaquettes : le Nintendo eShop. Les exclusivités Nintendo ne sont ni sur Steam ni sur libretro-thumbnails, c’est donc la seule source librement accessible."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.08.17",
+  "date": "2026-08-17",
+  "title": {
+   "cs": "100+ her na moderních platformách a PS Vita",
+   "en": "100+ games on modern platforms, plus the PS Vita",
+   "de": "100+ Spiele auf modernen Plattformen und die PS Vita",
+   "fr": "100+ jeux sur les plateformes modernes et la PS Vita"
+  },
+  "entries": [
+   {
+    "tag": "games",
+    "text": {
+     "cs": "Katalog vyrostl z 2097 na 2508 her. PS3, PS4, Xbox 360, Xbox One, Switch i PS Vita mají nově přes sto titulů, každý s plnohodnotným českým článkem.",
+     "en": "The catalog grew from 2,097 to 2,508 games. The PS3, PS4, Xbox 360, Xbox One, Switch and PS Vita now each carry over a hundred titles, every one with a full write-up.",
+     "de": "Der Katalog wuchs von 2.097 auf 2.508 Spiele. PS3, PS4, Xbox 360, Xbox One, Switch und PS Vita haben nun jeweils über hundert Titel, jeder mit einem vollwertigen Artikel.",
+     "fr": "Le catalogue est passé de 2 097 à 2 508 jeux. PS3, PS4, Xbox 360, Xbox One, Switch et PS Vita comptent désormais plus de cent titres chacune, tous avec un article complet."
+    }
+   },
+   {
+    "tag": "platform",
+    "text": {
+     "cs": "Přibyla PlayStation Vita jako 48. platforma — vlastní článek o hardwaru, foto konzole a 114 her.",
+     "en": "The PlayStation Vita joined as the 48th platform — its own hardware article, a console photo and 114 games.",
+     "de": "Die PlayStation Vita kam als 48. Plattform dazu — mit eigenem Hardware-Artikel, Konsolenfoto und 114 Spielen.",
+     "fr": "La PlayStation Vita rejoint le site comme 48e plateforme — article matériel dédié, photo de la console et 114 jeux."
+    }
+   },
+   {
+    "tag": "fix",
+    "text": {
+     "cs": "Odstraněno 12 chybných obalů z itch.io. Shoda podle názvu se tam trefila do fan-games a stolních RPG stejného jména — místo Titanfallu se zobrazovala Godzilla.",
+     "en": "Removed 12 wrong covers sourced from itch.io. Name matching there hit fan games and tabletop RPGs sharing a title — Titanfall was showing a picture of Godzilla.",
+     "de": "12 falsche Cover von itch.io entfernt. Der Namensabgleich traf dort Fan-Games und Pen-&-Paper-Rollenspiele gleichen Titels — statt Titanfall erschien Godzilla.",
+     "fr": "12 jaquettes erronées venant d’itch.io ont été supprimées. La correspondance par nom y tombait sur des fan-games et des JdR papier homonymes — Titanfall affichait Godzilla."
+    }
+   },
+   {
+    "tag": "images",
+    "text": {
+     "cs": "Obalů přibylo z 1917 na 2153 díky Steamu jako novému zdroji pro moderní platformy.",
+     "en": "Cover art went from 1,917 to 2,153 thanks to Steam as a new source for modern platforms.",
+     "de": "Die Zahl der Cover stieg von 1.917 auf 2.153, dank Steam als neuer Quelle für moderne Plattformen.",
+     "fr": "Le nombre de jaquettes est passé de 1 917 à 2 153 grâce à Steam, nouvelle source pour les plateformes modernes."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.08.16",
+  "date": "2026-08-16",
+  "title": {
+   "cs": "Pět nových platforem a delší články",
+   "en": "Five new platforms and longer articles",
+   "de": "Fünf neue Plattformen und längere Artikel",
+   "fr": "Cinq nouvelles plateformes et des articles plus longs"
+  },
+  "entries": [
+   {
+    "tag": "platform",
+    "text": {
+     "cs": "Přibyly PS3, PS4, Xbox 360, Xbox One a Nintendo Switch. PS2 a Xbox se zároveň rozrostly na 110 a 95 her.",
+     "en": "The PS3, PS4, Xbox 360, Xbox One and Nintendo Switch arrived. The PS2 and Xbox also grew to 110 and 95 games.",
+     "de": "PS3, PS4, Xbox 360, Xbox One und Nintendo Switch kamen dazu. PS2 und Xbox wuchsen zugleich auf 110 bzw. 95 Spiele.",
+     "fr": "PS3, PS4, Xbox 360, Xbox One et Nintendo Switch ont été ajoutées. La PS2 et la Xbox sont passées à 110 et 95 jeux."
+    }
+   },
+   {
+    "tag": "content",
+    "text": {
+     "cs": "394 příliš stručných článků bylo rozšířeno na plnou magazínovou délku — medián stoupl z 1408 na 1856 znaků.",
+     "en": "394 articles that were too brief got expanded to full magazine length — the median rose from 1,408 to 1,856 characters.",
+     "de": "394 zu knappe Artikel wurden auf volle Magazinlänge erweitert — der Median stieg von 1.408 auf 1.856 Zeichen.",
+     "fr": "394 articles trop courts ont été étoffés à une longueur de magazine — la médiane est passée de 1 408 à 1 856 caractères."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.08.14",
+  "date": "2026-08-14",
+  "title": {
+   "cs": "PS2, GameCube, Xbox a čtvrtý jazyk",
+   "en": "PS2, GameCube, Xbox and a fourth language",
+   "de": "PS2, GameCube, Xbox und eine vierte Sprache",
+   "fr": "PS2, GameCube, Xbox et une quatrième langue"
+  },
+  "entries": [
+   {
+    "tag": "platform",
+    "text": {
+     "cs": "Tři nové platformy se 180 hrami: PlayStation 2, GameCube a původní Xbox.",
+     "en": "Three new platforms with 180 games: the PlayStation 2, GameCube and the original Xbox.",
+     "de": "Drei neue Plattformen mit 180 Spielen: PlayStation 2, GameCube und das ursprüngliche Xbox.",
+     "fr": "Trois nouvelles plateformes et 180 jeux : PlayStation 2, GameCube et la Xbox d’origine."
+    }
+   },
+   {
+    "tag": "i18n",
+    "text": {
+     "cs": "Web dostal francouzštinu jako čtvrtý jazyk — přepínač, hreflang i lokalizovaná sitemap.",
+     "en": "French joined as the site's fourth language — switcher, hreflang and a localized sitemap included.",
+     "de": "Französisch kam als vierte Sprache dazu — inklusive Umschalter, hreflang und lokalisierter Sitemap.",
+     "fr": "Le français est devenu la quatrième langue du site — sélecteur, hreflang et sitemap localisé compris."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.07.15",
+  "date": "2026-07-15",
+  "title": {
+   "cs": "Angličtina a němčina kompletní",
+   "en": "English and German complete",
+   "de": "Englisch und Deutsch vollständig",
+   "fr": "Anglais et allemand complets"
+  },
+  "entries": [
+   {
+    "tag": "i18n",
+    "text": {
+     "cs": "Veškerý obsah — hry, platformy, studia i hardwarové průvodce — je přeložen do angličtiny a němčiny.",
+     "en": "All content — games, platforms, studios and hardware guides — is translated into English and German.",
+     "de": "Sämtliche Inhalte — Spiele, Plattformen, Studios und Hardware-Guides — sind ins Englische und Deutsche übersetzt.",
+     "fr": "Tout le contenu — jeux, plateformes, studios et guides matériels — est traduit en anglais et en allemand."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.06.20",
+  "date": "2026-06-20",
+  "title": {
+   "cs": "Spuštění RetroWebu",
+   "en": "RetroWeb launches",
+   "de": "RetroWeb startet",
+   "fr": "Lancement de RetroWeb"
+  },
+  "entries": [
+   {
+    "tag": "content",
+    "text": {
+     "cs": "První verze webu: katalog platforem a her postavený z kurátorských podkladů, hardwaroví průvodci a tmavé téma s retro akcenty.",
+     "en": "The first version of the site: a catalog of platforms and games built from curated notes, hardware guides and a dark theme with retro accents.",
+     "de": "Die erste Version der Seite: ein Katalog aus Plattformen und Spielen auf Basis kuratierter Notizen, Hardware-Guides und ein dunkles Design mit Retro-Akzenten.",
+     "fr": "Première version du site : un catalogue de plateformes et de jeux bâti sur des notes curatées, des guides matériels et un thème sombre aux accents rétro."
+    }
+   }
+  ]
+ }
+]
