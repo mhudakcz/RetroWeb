@@ -732,17 +732,21 @@ def optimize_images():
     """Zmenší a překomprimuje obrázky pro web. Hry -> WebP ~480px; platformy -> max 900px."""
     from PIL import Image
 
-    # --- hry: PNG -> WebP 480px ---
+    # --- hry: PNG/JPG -> WebP 480px ---
+    # JPG sem chodi ze Steamu a Nintendo eShopu (obaly i snimky ze hry, klidne 1920px),
+    # takze bez teto konverze by v repu lezely stovky MB.
     gdir = IMG / "games"
-    pngs = list(gdir.rglob("*.png"))
-    before = sum(p.stat().st_size for p in pngs)
+    srcs = [f for ext in ("*.png", "*.jpg", "*.jpeg") for f in gdir.rglob(ext)]
+    before = sum(p.stat().st_size for p in srcs)
     conv = 0
-    for p in pngs:
+    for p in srcs:
         try:
             im = Image.open(p)
             im.thumbnail((480, 480), Image.LANCZOS)
             if im.mode not in ("RGB", "RGBA"):
                 im = im.convert("RGBA")
+            if im.mode == "RGBA" and p.suffix.lower() != ".png":
+                im = im.convert("RGB")
             webp = p.with_suffix(".webp")
             im.save(webp, "WEBP", quality=80, method=6)
             p.unlink()
@@ -1067,18 +1071,25 @@ def fetch_games_steam(only=None):
                 print(f"  [-] {g['name']}")
                 continue
             appid, title = hit
-            src = ("https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/"
-                   f"{appid}/library_600x900.jpg")
-            try:
-                img = http_get(src)
-                if len(img) < 3000:
-                    print(f"  [-] {g['name']} (maly soubor)")
+            base_url = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps"
+            # portretovy obal nema na Steamu kazda hra -> fallback na sirokou hlavicku
+            # (web uz landscape obrazky bezne pouziva, kdyz misto obalu vezme title screen)
+            img = None
+            for src in (f"{base_url}/{appid}/library_600x900.jpg",
+                        f"{base_url}/{appid}/header.jpg"):
+                try:
+                    data = http_get(src)
+                except Exception:  # noqa
                     continue
-                (out / f"{g['slug']}.jpg").write_bytes(img)
-                ok += 1
-                print(f"  [OK] {g['name']}  <- steam:{appid} {title}")
-            except Exception as e:  # noqa
-                print(f"  [x] {g['name']}: {e}")
+                if len(data) >= 3000:
+                    img = data
+                    break
+            if img is None:
+                print(f"  [x] {g['name']} (bez pouzitelneho obrazku)")
+                continue
+            (out / f"{g['slug']}.jpg").write_bytes(img)
+            ok += 1
+            print(f"  [OK] {g['name']}  <- steam:{appid} {title}")
     print(f"\nSteam: dohledáno {ok}/{total} obrázků")
 
 
