@@ -1294,25 +1294,201 @@
     "studio": "Rebellion Developments",
     "year": "1999"
   },
+  "pc-9x__baldur-s-gate-ii-shadows-of-amn": {
+    "studio": "BioWare",
+    "year": "2000"
+  },
+  "pc-9x__blade-runner": {
+    "studio": "Westwood Studios",
+    "year": "1997"
+  },
   "pc-9x__blood": {
     "studio": "Monolith Productions",
     "year": "1997"
+  },
+  "pc-9x__broken-sword-ii-smoking-mirror": {
+    "studio": "Revolution Software",
+    "year": "1997"
+  },
+  "pc-9x__broken-sword-shadow-of-templars": {
+    "studio": "Revolution Software",
+    "year": "1996"
+  },
+  "pc-9x__carmageddon": {
+    "studio": "Stainless Games",
+    "year": "1997"
+  },
+  "pc-9x__championship-manager-3": {
+    "studio": "Sports Interactive",
+    "year": "1999"
+  },
+  "pc-9x__colin-mcrae-rally": {
+    "studio": "Codemasters",
+    "year": "1999"
+  },
+  "pc-9x__commandos-behind-enemy-lines": {
+    "studio": "Pyro Studios",
+    "year": "1998"
   },
   "pc-9x__counter-strike": {
     "studio": "Valve",
     "year": "2000"
   },
+  "pc-9x__curse-of-monkey-island": {
+    "studio": "LucasArts",
+    "year": "1997"
+  },
+  "pc-9x__dark-reign-future-of-war": {
+    "studio": "Auran",
+    "year": "1997"
+  },
+  "pc-9x__darkstone": {
+    "studio": "Delphine Software",
+    "year": "1999"
+  },
   "pc-9x__deus-ex": {
     "studio": "Ion Storm",
+    "year": "2000"
+  },
+  "pc-9x__diablo-ii": {
+    "studio": "Blizzard North",
+    "year": "2000"
+  },
+  "pc-9x__driver": {
+    "studio": "Reflections Interactive",
+    "year": "1999"
+  },
+  "pc-9x__dungeon-keeper": {
+    "studio": "Bullfrog Productions",
+    "year": "1997"
+  },
+  "pc-9x__escape-from-monkey-island": {
+    "studio": "LucasArts",
+    "year": "2000"
+  },
+  "pc-9x__falcon-4-0": {
+    "studio": "MicroProse",
+    "year": "1998"
+  },
+  "pc-9x__fallout-2": {
+    "studio": "Black Isle Studios",
+    "year": "1998"
+  },
+  "pc-9x__fifa-98-road-to-world-cup": {
+    "studio": "EA Canada",
+    "year": "1997"
+  },
+  "pc-9x__final-fantasy-vii": {
+    "studio": "Square",
+    "year": "1998"
+  },
+  "pc-9x__flight-unlimited-ii": {
+    "studio": "Looking Glass Studios",
+    "year": "1997"
+  },
+  "pc-9x__gabriel-knight-3-blood-of-sacred-blood-of-damned": {
+    "studio": "Sierra On-Line",
+    "year": "1999"
+  },
+  "pc-9x__gabriel-knight-beast-within": {
+    "studio": "Sierra On-Line",
+    "year": "1995"
+  },
+  "pc-9x__grand-prix-3": {
+    "studio": "MicroProse",
+    "year": "2000"
+  },
+  "pc-9x__grim-fandango": {
+    "studio": "LucasArts",
+    "year": "1998"
+  },
+  "pc-9x__ground-control": {
+    "studio": "Massive Entertainment",
     "year": "2000"
   },
   "pc-9x__half-life-opposing-force": {
     "studio": "Gearbox Software",
     "year": "1999"
   },
+  "pc-9x__hitman-codename-47": {
+    "studio": "IO Interactive",
+    "year": "2000"
+  },
+  "pc-9x__homeworld": {
+    "studio": "Relic Entertainment",
+    "year": "1999"
+  },
+  "pc-9x__icewind-dale": {
+    "studio": "Black Isle Studios",
+    "year": "2000"
+  },
+  "pc-9x__interstate-76": {
+    "studio": "Activision",
+    "year": "1997"
+  },
+  "pc-9x__jagged-alliance-2": {
+    "studio": "Sir-Tech Canada",
+    "year": "1999"
+  },
+  "pc-9x__last-express": {
+    "studio": "Smoking Car Productions",
+    "year": "1997"
+  },
+  "pc-9x__longest-journey": {
+    "studio": "Funcom",
+    "year": "2000"
+  },
+  "pc-9x__master-of-orion-ii-battle-at-antares": {
+    "studio": "Simtex",
+    "year": "1996"
+  },
+  "pc-9x__metal-gear-solid": {
+    "studio": "Konami",
+    "year": "2000"
+  },
+  "pc-9x__midtown-madness": {
+    "studio": "Angel Studios",
+    "year": "1999"
+  },
+  "pc-9x__might-and-magic-vi-mandate-of-heaven": {
+    "studio": "New World Computing",
+    "year": "1998"
+  },
+  "pc-9x__motocross-madness": {
+    "studio": "Rainbow Studios",
+    "year": "1998"
+  },
+  "pc-9x__myth-fallen-lords": {
+    "studio": "Bungie",
+    "year": "1997"
+  },
+  "pc-9x__nascar-racing-3": {
+    "studio": "Papyrus Design Group",
+    "year": "1999"
+  },
+  "pc-9x__neverhood": {
+    "studio": "The Neverhood, Inc.",
+    "year": "1996"
+  },
+  "pc-9x__nox": {
+    "studio": "Westwood Studios",
+    "year": "2000"
+  },
+  "pc-9x__oddworld-abe-s-oddysee": {
+    "studio": "Oddworld Inhabitants",
+    "year": "1997"
+  },
   "pc-9x__operative-no-one-lives-forever": {
     "studio": "Monolith Productions",
     "year": "2000"
+  },
+  "pc-9x__pod": {
+    "studio": "Ubi Soft",
+    "year": "1997"
+  },
+  "pc-9x__populous-beginning": {
+    "studio": "Bullfrog Productions",
+    "year": "1998"
   },
   "pc-9x__quake-ii": {
     "studio": "id Software",
@@ -1321,6 +1497,46 @@
   "pc-9x__quake-iii-arena": {
     "studio": "id Software",
     "year": "1999"
+  },
+  "pc-9x__re-volt": {
+    "studio": "Acclaim Studios London",
+    "year": "1999"
+  },
+  "pc-9x__riven-sequel-to-myst": {
+    "studio": "Cyan",
+    "year": "1997"
+  },
+  "pc-9x__rollcage": {
+    "studio": "Attention to Detail",
+    "year": "1999"
+  },
+  "pc-9x__rollercoaster-tycoon": {
+    "studio": "Chris Sawyer Productions",
+    "year": "1999"
+  },
+  "pc-9x__sanitarium": {
+    "studio": "DreamForge Intertainment",
+    "year": "1998"
+  },
+  "pc-9x__settlers-iii": {
+    "studio": "Blue Byte Software",
+    "year": "1998"
+  },
+  "pc-9x__shogun-total-war": {
+    "studio": "The Creative Assembly",
+    "year": "2000"
+  },
+  "pc-9x__sid-meier-s-alpha-centauri": {
+    "studio": "Firaxis Games",
+    "year": "1999"
+  },
+  "pc-9x__sid-meier-s-civilization-ii": {
+    "studio": "MicroProse",
+    "year": "1996"
+  },
+  "pc-9x__sims": {
+    "studio": "Maxis",
+    "year": "2000"
   },
   "pc-9x__soldier-of-fortune": {
     "studio": "Raven Software",
@@ -1334,17 +1550,69 @@
     "studio": "Irrational Games",
     "year": "1999"
   },
+  "pc-9x__theme-hospital": {
+    "studio": "Bullfrog Productions",
+    "year": "1997"
+  },
+  "pc-9x__thief-dark-project": {
+    "studio": "Looking Glass Studios",
+    "year": "1998"
+  },
+  "pc-9x__thief-ii-metal-age": {
+    "studio": "Looking Glass Studios",
+    "year": "2000"
+  },
+  "pc-9x__toca-touring-car-championship": {
+    "studio": "Codemasters",
+    "year": "1998"
+  },
   "pc-9x__tom-clancy-s-rainbow-six": {
     "studio": "Red Storm Entertainment",
     "year": "1998"
+  },
+  "pc-9x__tomb-raider": {
+    "studio": "Core Design",
+    "year": "1996"
+  },
+  "pc-9x__tomb-raider-ii": {
+    "studio": "Core Design",
+    "year": "1997"
+  },
+  "pc-9x__total-annihilation": {
+    "studio": "Cavedog Entertainment",
+    "year": "1997"
+  },
+  "pc-9x__transport-tycoon-deluxe": {
+    "studio": "Chris Sawyer Productions",
+    "year": "1995"
   },
   "pc-9x__turok-dinosaur-hunter": {
     "studio": "Iguana Entertainment",
     "year": "1997"
   },
+  "pc-9x__ultima-ix-ascension": {
+    "studio": "Origin Systems",
+    "year": "1999"
+  },
+  "pc-9x__ultima-online": {
+    "studio": "Origin Systems",
+    "year": "1997"
+  },
   "pc-9x__unreal-tournament": {
     "studio": "Epic Games",
     "year": "1999"
+  },
+  "pc-9x__vampire-masquerade-redemption": {
+    "studio": "Nihilistic Software",
+    "year": "2000"
+  },
+  "pc-9x__warcraft-ii-tides-of-darkness": {
+    "studio": "Blizzard Entertainment",
+    "year": "1995"
+  },
+  "pc-9x__zork-grand-inquisitor": {
+    "studio": "Activision",
+    "year": "1997"
   },
   "pc-dos__aces-of-pacific": {
     "studio": "Dynamix",
@@ -1749,6 +2017,306 @@
   "pc-dos__zak-mckracken-and-alien-mindbenders": {
     "studio": "Lucasfilm Games",
     "year": "1988"
+  },
+  "pc-modern__age-of-mythology": {
+    "studio": "Ensemble Studios",
+    "year": "2002"
+  },
+  "pc-modern__alien-isolation": {
+    "studio": "Creative Assembly",
+    "year": "2014"
+  },
+  "pc-modern__amnesia-dark-descent": {
+    "studio": "Frictional Games",
+    "year": "2010"
+  },
+  "pc-modern__anno-1800": {
+    "studio": "Blue Byte",
+    "year": "2019"
+  },
+  "pc-modern__assetto-corsa": {
+    "studio": "Kunos Simulazioni",
+    "year": "2014"
+  },
+  "pc-modern__baldur-s-gate-3": {
+    "studio": "Larian Studios",
+    "year": "2023"
+  },
+  "pc-modern__bastion": {
+    "studio": "Supergiant Games",
+    "year": "2011"
+  },
+  "pc-modern__battlefield-3": {
+    "studio": "DICE",
+    "year": "2011"
+  },
+  "pc-modern__battlefield-bad-company-2": {
+    "studio": "DICE",
+    "year": "2010"
+  },
+  "pc-modern__bioshock": {
+    "studio": "2K Boston",
+    "year": "2007"
+  },
+  "pc-modern__call-of-duty-4-modern-warfare": {
+    "studio": "Infinity Ward",
+    "year": "2007"
+  },
+  "pc-modern__crusader-kings-iii": {
+    "studio": "Paradox Development Studio",
+    "year": "2020"
+  },
+  "pc-modern__crysis": {
+    "studio": "Crytek",
+    "year": "2007"
+  },
+  "pc-modern__cuphead": {
+    "studio": "Studio MDHR",
+    "year": "2017"
+  },
+  "pc-modern__cyberpunk-2077": {
+    "studio": "CD Projekt RED",
+    "year": "2020"
+  },
+  "pc-modern__dark-souls-prepare-to-die-edition": {
+    "studio": "FromSoftware",
+    "year": "2012"
+  },
+  "pc-modern__dead-cells": {
+    "studio": "Motion Twin",
+    "year": "2018"
+  },
+  "pc-modern__dead-space": {
+    "studio": "EA Redwood Shores",
+    "year": "2008"
+  },
+  "pc-modern__deus-ex-human-revolution": {
+    "studio": "Eidos Montreal",
+    "year": "2011"
+  },
+  "pc-modern__devil-may-cry-5": {
+    "studio": "Capcom",
+    "year": "2019"
+  },
+  "pc-modern__dirt-rally": {
+    "studio": "Codemasters",
+    "year": "2015"
+  },
+  "pc-modern__disco-elysium": {
+    "studio": "ZA/UM",
+    "year": "2019"
+  },
+  "pc-modern__doom": {
+    "studio": "id Software",
+    "year": "2016"
+  },
+  "pc-modern__doom-eternal": {
+    "studio": "id Software",
+    "year": "2020"
+  },
+  "pc-modern__dragon-age-origins": {
+    "studio": "BioWare",
+    "year": "2009"
+  },
+  "pc-modern__elden-ring": {
+    "studio": "FromSoftware",
+    "year": "2022"
+  },
+  "pc-modern__elder-scrolls-online": {
+    "studio": "ZeniMax Online Studios",
+    "year": "2014"
+  },
+  "pc-modern__europa-universalis-iv": {
+    "studio": "Paradox Development Studio",
+    "year": "2013"
+  },
+  "pc-modern__f-e-r": {
+    "studio": "Monolith Productions",
+    "year": "2005"
+  },
+  "pc-modern__fallout-3": {
+    "studio": "Bethesda Game Studios",
+    "year": "2008"
+  },
+  "pc-modern__fallout-new-vegas": {
+    "studio": "Obsidian Entertainment",
+    "year": "2010"
+  },
+  "pc-modern__far-cry": {
+    "studio": "Crytek",
+    "year": "2004"
+  },
+  "pc-modern__fez": {
+    "studio": "Polytron Corporation",
+    "year": "2013"
+  },
+  "pc-modern__frostpunk": {
+    "studio": "11 bit studios",
+    "year": "2018"
+  },
+  "pc-modern__gothic-ii": {
+    "studio": "Piranha Bytes",
+    "year": "2002"
+  },
+  "pc-modern__guacamelee": {
+    "studio": "DrinkBox Studios",
+    "year": "2013"
+  },
+  "pc-modern__guild-wars-2": {
+    "studio": "ArenaNet",
+    "year": "2012"
+  },
+  "pc-modern__half-life-2": {
+    "studio": "Valve",
+    "year": "2004"
+  },
+  "pc-modern__homeworld-2": {
+    "studio": "Relic Entertainment",
+    "year": "2003"
+  },
+  "pc-modern__hyper-light-drifter": {
+    "studio": "Heart Machine",
+    "year": "2016"
+  },
+  "pc-modern__inside": {
+    "studio": "Playdead",
+    "year": "2016"
+  },
+  "pc-modern__just-cause-2": {
+    "studio": "Avalanche Studios",
+    "year": "2010"
+  },
+  "pc-modern__katana-zero": {
+    "studio": "Askiisoft",
+    "year": "2019"
+  },
+  "pc-modern__kingdom-come-deliverance": {
+    "studio": "Warhorse Studios",
+    "year": "2018"
+  },
+  "pc-modern__left-4-dead-2": {
+    "studio": "Valve",
+    "year": "2009"
+  },
+  "pc-modern__max-payne": {
+    "studio": "Remedy Entertainment",
+    "year": "2001"
+  },
+  "pc-modern__need-for-speed-most-wanted": {
+    "studio": "EA Black Box",
+    "year": "2005"
+  },
+  "pc-modern__neverwinter-nights": {
+    "studio": "BioWare",
+    "year": "2002"
+  },
+  "pc-modern__no-man-s-sky": {
+    "studio": "Hello Games",
+    "year": "2016"
+  },
+  "pc-modern__ori-and-blind-forest": {
+    "studio": "Moon Studios",
+    "year": "2015"
+  },
+  "pc-modern__ori-and-will-of-wisps": {
+    "studio": "Moon Studios",
+    "year": "2020"
+  },
+  "pc-modern__outlast": {
+    "studio": "Red Barrels",
+    "year": "2013"
+  },
+  "pc-modern__pillars-of-eternity": {
+    "studio": "Obsidian Entertainment",
+    "year": "2015"
+  },
+  "pc-modern__portal-2": {
+    "studio": "Valve",
+    "year": "2011"
+  },
+  "pc-modern__rimworld": {
+    "studio": "Ludeon Studios",
+    "year": "2018"
+  },
+  "pc-modern__rise-of-nations": {
+    "studio": "Big Huge Games",
+    "year": "2003"
+  },
+  "pc-modern__s-t-l-k-e-r-shadow-of-chernobyl": {
+    "studio": "GSC Game World",
+    "year": "2007"
+  },
+  "pc-modern__satisfactory": {
+    "studio": "Coffee Stain Studios",
+    "year": "2024"
+  },
+  "pc-modern__sekiro-shadows-die-twice": {
+    "studio": "FromSoftware",
+    "year": "2019"
+  },
+  "pc-modern__shovel-knight": {
+    "studio": "Yacht Club Games",
+    "year": "2014"
+  },
+  "pc-modern__spelunky": {
+    "studio": "Mossmouth",
+    "year": "2013"
+  },
+  "pc-modern__star-wars-knights-of-old-republic": {
+    "studio": "BioWare",
+    "year": "2003"
+  },
+  "pc-modern__starcraft-ii-wings-of-liberty": {
+    "studio": "Blizzard Entertainment",
+    "year": "2010"
+  },
+  "pc-modern__stellaris": {
+    "studio": "Paradox Development Studio",
+    "year": "2016"
+  },
+  "pc-modern__subnautica": {
+    "studio": "Unknown Worlds Entertainment",
+    "year": "2018"
+  },
+  "pc-modern__super-meat-boy": {
+    "studio": "Team Meat",
+    "year": "2010"
+  },
+  "pc-modern__supreme-commander": {
+    "studio": "Gas Powered Games",
+    "year": "2007"
+  },
+  "pc-modern__terraria": {
+    "studio": "Re-Logic",
+    "year": "2011"
+  },
+  "pc-modern__titanfall-2": {
+    "studio": "Respawn Entertainment",
+    "year": "2016"
+  },
+  "pc-modern__undertale": {
+    "studio": "Toby Fox",
+    "year": "2015"
+  },
+  "pc-modern__vampire-masquerade-bloodlines": {
+    "studio": "Troika Games",
+    "year": "2004"
+  },
+  "pc-modern__warcraft-iii-reign-of-chaos": {
+    "studio": "Blizzard Entertainment",
+    "year": "2002"
+  },
+  "pc-modern__warhammer-40-000-dawn-of-war": {
+    "studio": "Relic Entertainment",
+    "year": "2004"
+  },
+  "pc-modern__wolfenstein-new-order": {
+    "studio": "MachineGames",
+    "year": "2014"
+  },
+  "pc-modern__xcom-enemy-unknown": {
+    "studio": "Firaxis Games",
+    "year": "2012"
   },
   "ps-vita__amnesia-memories": {
     "studio": "Idea Factory / Otomate",

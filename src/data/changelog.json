@@ -1,5 +1,53 @@
 [
  {
+  "version": "2026.08.19",
+  "date": "2026-08-19",
+  "title": {
+   "cs": "PC přichází ve třech érách",
+   "en": "The PC arrives, split into three eras",
+   "de": "Der PC kommt — in drei Ären",
+   "fr": "Le PC arrive, en trois époques"
+  },
+  "entries": [
+   {
+    "tag": "platform",
+    "text": {
+     "cs": "PC je nově na webu, rozdělené podle výkonové éry: DOS (XT až 486), Pentium a Windows 9x, a moderní 64bitové PC s dnešními grafickými kartami. Každá éra má vlastní článek o hardwaru, protože technicky i způsobem hraní jde o tři odlišné světy.",
+     "en": "The PC has arrived, split by performance era: DOS (XT through 486), Pentium and Windows 9x, and the modern 64-bit PC with today's graphics cards. Each era gets its own hardware article, because technically — and in how you play them — these are three different worlds.",
+     "de": "Der PC ist nun dabei, aufgeteilt nach Leistungsära: DOS (XT bis 486), Pentium und Windows 9x sowie der moderne 64-Bit-PC mit heutigen Grafikkarten. Jede Ära hat einen eigenen Hardware-Artikel, denn technisch und spielerisch sind das drei verschiedene Welten.",
+     "fr": "Le PC fait son entrée, découpé par époque de puissance : DOS (du XT au 486), Pentium et Windows 9x, et le PC moderne 64 bits avec les cartes graphiques d’aujourd’hui. Chaque époque a son propre article matériel, car techniquement — et dans la façon d’y jouer — ce sont trois mondes distincts."
+    }
+   },
+   {
+    "tag": "games",
+    "text": {
+     "cs": "K PC přibylo 257 her — od Doomu, Monkey Islandu a X-COMu přes Quake, Diablo a Half-Life až po Skyrim, Hollow Knight a Factorio. Katalog tím vyrostl na 2765 titulů.",
+     "en": "257 PC games came with it — from Doom, Monkey Island and X-COM through Quake, Diablo and Half-Life to Skyrim, Hollow Knight and Factorio. That takes the catalog to 2,765 titles.",
+     "de": "257 PC-Spiele kamen dazu — von Doom, Monkey Island und X-COM über Quake, Diablo und Half-Life bis zu Skyrim, Hollow Knight und Factorio. Damit wächst der Katalog auf 2.765 Titel.",
+     "fr": "257 jeux PC l’accompagnent — de Doom, Monkey Island et X-COM à Quake, Diablo et Half-Life, jusqu’à Skyrim, Hollow Knight et Factorio. Le catalogue atteint ainsi 2 765 titres."
+    }
+   },
+   {
+    "tag": "images",
+    "text": {
+     "cs": "U her nově nezůstává jen obal — přibývají dva snímky ze hry. Doplnily se jak moderním konzolím (ze Steamu), tak retro platformám, které je dosud neměly. Her s více obrázky je přes dva tisíce.",
+     "en": "Games no longer stop at the cover — two in-game shots come with them. These were added both to modern consoles (from Steam) and to retro platforms that lacked them. Over two thousand games now carry more than one image.",
+     "de": "Bei Spielen bleibt es nicht mehr beim Cover — zwei Ingame-Aufnahmen kommen dazu. Ergänzt wurden sowohl moderne Konsolen (über Steam) als auch Retro-Plattformen, denen sie fehlten. Über zweitausend Spiele haben nun mehr als ein Bild.",
+     "fr": "Les jeux ne s’arrêtent plus à la jaquette — deux captures in-game les accompagnent. Elles ont été ajoutées aux consoles modernes (via Steam) comme aux plateformes rétro qui en manquaient. Plus de deux mille jeux ont désormais plusieurs images."
+    }
+   },
+   {
+    "tag": "fix",
+    "text": {
+     "cs": "Opraveno vyhledávání obalů na Steamu. Seznam slov, která znamenají „tohle není hra“, se testoval podřetězcem — a protože obsahoval „ost“ (soundtrack), zahazoval každé Lost Planet, Lost Odyssey i Ghost of Tsushima.",
+     "en": "Fixed cover lookup on Steam. The list of words meaning “this isn't the game itself” was matched as a substring — and since it contained “ost” (soundtrack), it threw away every Lost Planet, Lost Odyssey and Ghost of Tsushima.",
+     "de": "Die Cover-Suche auf Steam wurde korrigiert. Die Liste der Wörter für „das ist nicht das Spiel selbst“ wurde als Teilzeichenkette geprüft — und da sie „ost“ (Soundtrack) enthielt, verwarf sie jedes Lost Planet, Lost Odyssey und Ghost of Tsushima.",
+     "fr": "Correction de la recherche de jaquettes sur Steam. La liste des mots signifiant « ce n’est pas le jeu » était testée en sous-chaîne — et comme elle contenait « ost » (bande originale), elle rejetait tous les Lost Planet, Lost Odyssey et Ghost of Tsushima."
+    }
+   }
+  ]
+ },
+ {
   "version": "2026.08.18",
   "date": "2026-08-18",
   "title": {
