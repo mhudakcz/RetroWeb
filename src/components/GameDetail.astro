@@ -1,5 +1,5 @@
 ---
-import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink } from '../lib/data';
+import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink, seriesOfGame } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -19,6 +19,7 @@ const related = [...pool, ...pool].slice(startI, startI + 8);
 const nameHtml = mdInline(game.name);
 const shots = game.gallery.filter((g) => g.kind !== 'box' && g.src !== game.image);
 const playtime = playtimeLabel(game.length, game.est);
+const gameSeries = seriesOfGame(game.name, localeData(locale).series);
 const clean = (s: string) => s.replace(/[*_\x60]/g, '');
 
 const FLAG_T: Record<string, string> = {
@@ -73,6 +74,9 @@ const posText = {
         {game.studio && (studioLink(game.studio)
           ? <a class="tag tag-studio" href={lp(`/studia/${studioLink(game.studio)}`)}>{game.studio}</a>
           : <span class="tag">{game.studio}</span>)}
+        {gameSeries.map((s) => (
+          <a class="tag tag-series" href={lp(`/serie/${s.slug}`)}>{s.name}</a>
+        ))}
         {playtime && <span class="tag">⏱ {playtime}</span>}
         {game.players && <span class="tag tag-players">👥 {game.players}</span>}
         {game.rating && <span class="tag tag-rating">🛡 {game.rating}</span>}
@@ -201,6 +205,8 @@ const posText = {
   .tag-rating { color: #d8b4fe; border-color: color-mix(in srgb, #d8b4fe 40%, var(--border)); }
   .tag-studio { color: color-mix(in srgb, var(--accent) 75%, var(--text)); border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); }
   .tag-studio:hover { border-color: var(--accent); }
+  .tag-series { color: color-mix(in srgb, var(--accent) 75%, var(--text)); border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); text-decoration: none; }
+  .tag-series:hover { border-color: var(--accent); }
   .teaser { font-size: 1.15rem; line-height: 1.55; color: var(--text); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; margin-bottom: 22px; }
   .game-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
   .g-btn { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.7em 1.15em; border-radius: 999px; font-weight: 600; font-size: 0.92rem; color: #fff; background: linear-gradient(135deg, color-mix(in srgb, var(--c1) 70%, #000), color-mix(in srgb, var(--c1) 42%, #000)); border: 1px solid color-mix(in srgb, var(--c1) 60%, var(--border)); transition: transform 0.15s ease, box-shadow 0.15s ease; }

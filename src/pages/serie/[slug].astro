@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import SeriesDetail from '../../components/SeriesDetail.astro';
+import { series, getSeries } from '../../lib/data';
+
+export function getStaticPaths() {
+  return series.map((s) => ({ params: { slug: s.slug } }));
+}
+const { slug } = Astro.params;
+const s = getSeries(slug!)!;
+---
+
+<Base title={s.name} description={`${s.name} — historie série a všech ${s.gameCount} dílů v katalogu RetroWeb, napříč platformami.`} locale="cs" localized>
+  <SeriesDetail slug={slug!} locale="cs" />
+</Base>

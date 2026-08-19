@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SeriesIndex from '../../../components/SeriesIndex.astro';
+import type { Locale } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'en' } }, { params: { lang: 'de' } }, { params: { lang: 'fr' } }];
+}
+const locale = Astro.params.lang as Locale;
+const DESC = {
+  en: 'A guide to game series — Mario, Star Wars, Final Fantasy, Doom and more, across platforms.',
+  de: 'Ein Führer durch Spielereihen — Mario, Star Wars, Final Fantasy, Doom und mehr, plattformübergreifend.',
+  fr: 'Un guide des séries de jeux — Mario, Star Wars, Final Fantasy, Doom et plus, toutes plateformes confondues.',
+}[locale];
+const TITLE = { en: 'Game series', de: 'Spielereihen', fr: 'Séries de jeux' }[locale];
+---
+
+<Base title={TITLE} description={DESC} locale={locale} localized>
+  <SeriesIndex locale={locale} />
+</Base>

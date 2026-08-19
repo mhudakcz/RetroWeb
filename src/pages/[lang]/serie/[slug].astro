@@ -1,0 +1,18 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SeriesDetail from '../../../components/SeriesDetail.astro';
+import { localeData } from '../../../lib/data';
+import type { Locale } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return ['en', 'de', 'fr'].flatMap((lang) =>
+    localeData(lang).series.map((s) => ({ params: { lang, slug: s.slug } })),
+  );
+}
+const locale = Astro.params.lang as Locale;
+const s = localeData(locale).getSeries(Astro.params.slug!)!;
+---
+
+<Base title={s.name} description={`${s.name} — ${s.gameCount} games in the RetroWeb catalog, across platforms.`} locale={locale} localized>
+  <SeriesDetail slug={Astro.params.slug!} locale={locale} />
+</Base>

@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import SeriesIndex from '../../components/SeriesIndex.astro';
+import { series } from '../../lib/data';
+---
+
+<Base title="Herní série" description={`Průvodce ${series.length} herními sériemi — Mario, Star Wars, Final Fantasy, Doom a další, napříč platformami.`} locale="cs" localized>
+  <SeriesIndex locale="cs" />
+</Base>

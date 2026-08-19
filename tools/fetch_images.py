@@ -84,6 +84,22 @@ WIKI = {
     "zx81": "ZX81",
     "vic20": "Commodore VIC-20",
     "atari-st": "Atari ST",
+    "wii": "Wii",
+    "wii-u": "Wii U",
+    "ps5": "PlayStation 5",
+    "xbox-series": "Xbox Series X and Series S",
+    "switch-2": "Nintendo Switch 2",
+    "mega-cd": "Sega CD",
+    "sega-32x": "32X",
+    "sg-1000": "SG-1000",
+    "virtual-boy": "Virtual Boy",
+    "ngpc": "Neo Geo Pocket Color",
+    "wonderswan": "WonderSwan",
+    "3do": "3DO Interactive Multiplayer",
+    "cd-i": "CD-i",
+    "vectrex": "Vectrex",
+    "x68000": "X68000",
+    "pc-98": "PC-9800 series",
     "pc-dos": "IBM Personal Computer",
     "pc-9x": "Pentium (original)",
     "pc-modern": "Gaming computer",
@@ -136,6 +152,19 @@ LIBRETRO = {
     "zx81": "Sinclair_-_ZX81",
     "vic20": "Commodore_-_VIC-20",
     "atari-st": "Atari_-_ST",
+    "wii": "Nintendo_-_Wii",
+    "wii-u": "Nintendo_-_Wii_U",
+    "mega-cd": "Sega_-_Mega-CD_-_Sega_CD",
+    "sega-32x": "Sega_-_32X",
+    "sg-1000": "Sega_-_SG-1000",
+    "virtual-boy": "Nintendo_-_Virtual_Boy",
+    "ngpc": "SNK_-_Neo_Geo_Pocket_Color",
+    "wonderswan": "Bandai_-_WonderSwan_Color",
+    "3do": "The_3DO_Company_-_3DO",
+    "cd-i": "Philips_-_CD-i",
+    "vectrex": "GCE_-_Vectrex",
+    "x68000": "Sharp_-_X68000",
+    "pc-98": "NEC_-_PC-98",
     "pc-dos": "DOS",
     "intellivision": "Mattel_-_Intellivision",
     "jaguar": "Atari_-_Jaguar",
@@ -208,6 +237,8 @@ def fetch_platforms():
             print(f"  [skip] {existing[0].name} už existuje")
             continue
         try:
+            # Wikimedia při rychlé sérii dotazů začne odmítat stahování obrázků
+            time.sleep(1.0)
             src = wiki_image(title)
             if not src:
                 print(f"  [-] {slug}: bez obrazku ({title})")
@@ -1237,6 +1268,109 @@ def fetch_games_steam_shots(only=None):
     print(f"\nSteam screenshoty: doplneno u {ok}/{total} her")
 
 
+def _nintendo_search_urls(name, system, limit=6):
+    """Jako _nintendo_search, ale vrací (url_produktove_stranky, title)."""
+    q = urllib.parse.urlencode({
+        "q": name,
+        "fq": f"type:GAME AND system_type:{system}*",
+        "rows": str(limit),
+        "wt": "json",
+    })
+    try:
+        data = json.loads(http_get("https://search.nintendo-europe.com/en/select?" + q))
+    except Exception:  # noqa
+        return []
+    out = []
+    for doc in data.get("response", {}).get("docs", []):
+        url, title = doc.get("url"), doc.get("title")
+        if url and title:
+            out.append(("https://www.nintendo.com/en-gb" + url if url.startswith("/") else url, title))
+    return out
+
+
+_NIN_SHOT_RE = None
+
+
+def _nintendo_screenshots(page_url, limit=2):
+    """Vytáhne z produktové stránky Nintenda odkazy na snímky ze hry.
+
+    Nintendo je servíruje z cesty /06_screenshots/; varianty s '_TM_' jsou náhledy,
+    ty přeskakujeme, ať v galerii nekončí rozmazané miniatury."""
+    global _NIN_SHOT_RE
+    if _NIN_SHOT_RE is None:
+        _NIN_SHOT_RE = P.re.compile(r"https://\S+?/06_screenshots/\S+?\.(?:jpg|png)")
+    try:
+        html = http_get(page_url, headers={"User-Agent": _ITCH_UA}).decode("utf-8", "replace")
+    except Exception:  # noqa
+        return []
+    seen, out = set(), []
+    for m in _NIN_SHOT_RE.finditer(html):
+        u = m.group(0)
+        if "_TM_" in u or u in seen:
+            continue
+        seen.add(u)
+        out.append(u)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def fetch_games_nintendo_shots(only=None):
+    """Doplní hrám s obalem, ale bez galerie, dva snímky ze hry z Nintendo eShopu.
+
+    Nintendo exkluzivity nejsou na Steamu a libretro pro Switch nemá vůbec nic,
+    takže tohle je jejich jediný volně dostupný zdroj snímků."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if wanted and slug not in wanted:
+            continue
+        system = NINTENDO_SYSTEMS.get(slug)
+        if not system:
+            continue
+        targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 2]
+        if not targets:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} - bez snimku: {len(targets)} ==")
+        for g in targets:
+            total += 1
+            if (out / f"{g['slug']}-snap.jpg").exists() or (out / f"{g['slug']}-snap.webp").exists():
+                continue
+            time.sleep(0.3)
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.split(" -ish")[0].split(" / ")[0].strip()
+            hits = _nintendo_search_urls(base, system)
+            pick = _steam_pick(base, hits)  # (url_stranky, title) — stejne prisne parovani
+            if not pick:
+                print(f"  [-] {g['name']}")
+                continue
+            page_url, title = pick
+            shots = _nintendo_screenshots(page_url)
+            if not shots:
+                print(f"  [-] {g['name']} (bez snimku na strance)")
+                continue
+            saved = 0
+            for src, suffix in zip(shots, ("-snap", "-title")):
+                try:
+                    img = http_get(src, headers={"User-Agent": _ITCH_UA})
+                    if len(img) < 3000:
+                        continue
+                    (out / f"{g['slug']}{suffix}.jpg").write_bytes(img)
+                    saved += 1
+                except Exception:  # noqa
+                    pass
+            if saved:
+                ok += 1
+                print(f"  [OK] {g['name']}  <- eShop ({saved} snimky)")
+            else:
+                print(f"  [x] {g['name']} (stazeni selhalo)")
+    print(f"\nNintendo snimky: doplneno u {ok}/{total} her")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -1275,6 +1409,9 @@ if __name__ == "__main__":
     if what == "games-nintendo":
         print("=== OBRÁZKY HER Z NINTENDO ESHOPU (hry bez obrázku) ===")
         fetch_games_nintendo(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-nintendo-shots":
+        print("=== SNÍMKY ZE HRY Z NINTENDO ESHOPU (hry s obalem, ale bez galerie) ===")
+        fetch_games_nintendo_shots(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "games-steam-shots":
         print("=== SNÍMKY ZE HRY ZE STEAMU (hry s obalem, ale bez galerie) ===")
         fetch_games_steam_shots(sys.argv[2] if len(sys.argv) > 2 else None)

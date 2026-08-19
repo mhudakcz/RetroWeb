@@ -105,6 +105,75 @@ for (const [path, raw] of Object.entries(studioArticleFiles)) {
   studioArticles[slug] = raw;
 }
 
+export interface Series {
+  slug: string;
+  name: string;
+  games: GameWithPlatform[];
+  gameCount: number;
+  intro: string | null;
+}
+
+interface SeriesDef {
+  slug: string;
+  name: string;
+  match: string[];
+  /** názvy, které vzor chytí omylem — „Tower of Doom" není díl Doomu */
+  exclude?: string[];
+  intro?: Record<string, string>;
+}
+import seriesDefsRaw from '../data/series.json';
+const seriesDefs = seriesDefsRaw as SeriesDef[];
+
+/** Minimální počet her, aby série dostala vlastní stránku. */
+export const SERIES_MIN = 4;
+
+/** Párování na hranice slov — podřetězcem by „Ys" chytlo „Days" a „Ultima" chytla „Ultimate". */
+const RX_SPECIAL = /[.*+?^${}()|[\]\\]/g;
+const seriesPatterns = seriesDefs.map((d) => ({
+  def: d,
+  rx: d.match.map((m) => {
+    const lit = m.toLowerCase().replace(RX_SPECIAL, '\\$&');
+    return new RegExp('(?<![a-z0-9])' + lit + '(?![a-z0-9])');
+  }),
+}));
+
+function buildSeries(source: GameWithPlatform[], locale: string): Map<string, Series> {
+  const map = new Map<string, Series>();
+  for (const { def, rx } of seriesPatterns) {
+    const skip = (def.exclude || []).map((e) => e.toLowerCase());
+    const games = source.filter((g) => {
+      const n = g.name.toLowerCase();
+      if (skip.some((e) => n.includes(e))) return false;
+      return rx.some((r) => r.test(n));
+    });
+    games.sort((a, b) => (parseInt(a.year || '0') || 0) - (parseInt(b.year || '0') || 0));
+    map.set(def.slug, {
+      slug: def.slug,
+      name: def.name,
+      games,
+      gameCount: games.length,
+      intro: def.intro?.[locale] ?? def.intro?.cs ?? null,
+    });
+  }
+  return map;
+}
+
+const seriesMap = buildSeries(allGames, 'cs');
+/** Série s vlastní stránkou (≥ SERIES_MIN her), seřazené dle počtu her. */
+export const series: Series[] = [...seriesMap.values()]
+  .filter((s) => s.gameCount >= SERIES_MIN)
+  .sort((a, b) => b.gameCount - a.gameCount);
+export const getSeries = (slug: string) => seriesMap.get(slug);
+
+/** Série, do kterých hra patří (pro prolinkování z detailu hry). */
+export function seriesOfGame(name: string, all: Series[] = series): Series[] {
+  const n = name.toLowerCase();
+  return all.filter((s) => {
+    const def = seriesPatterns.find((p) => p.def.slug === s.slug);
+    return def ? def.rx.some((r) => r.test(n)) : false;
+  });
+}
+
 const studioMap = new Map<string, Studio>();
 for (const g of allGames) {
   const raw = (g.studio || '').trim();
@@ -264,6 +333,8 @@ export interface LocaleBundle {
   getGame: (slug: string) => GameWithPlatform | undefined;
   studios: Studio[];
   getStudio: (slug: string) => Studio | undefined;
+  series: Series[];
+  getSeries: (slug: string) => Series | undefined;
 }
 
 const bundleCache = new Map<string, LocaleBundle>();
@@ -272,7 +343,7 @@ const bundleCache = new Map<string, LocaleBundle>();
  *  (fallback na češtinu tam, kde překlad chybí). */
 export function localeData(locale: string): LocaleBundle {
   if (locale === 'cs') {
-    return { platforms, allGames, getPlatform, getGame, studios, getStudio };
+    return { platforms, allGames, getPlatform, getGame, studios, getStudio, series, getSeries };
   }
   const cached = bundleCache.get(locale);
   if (cached) return cached;
@@ -316,6 +387,11 @@ export function localeData(locale: string): LocaleBundle {
   }
   const locStudios = [...sMap.values()].filter((s) => s.gameCount >= STUDIO_MIN).sort((a, b) => b.gameCount - a.gameCount);
 
+  const serMap = buildSeries(locGames, locale);
+  const locSeries = [...serMap.values()]
+    .filter((s) => s.gameCount >= SERIES_MIN)
+    .sort((a, b) => b.gameCount - a.gameCount);
+
   const bundle: LocaleBundle = {
     platforms: locPlatforms,
     allGames: locGames,
@@ -323,6 +399,8 @@ export function localeData(locale: string): LocaleBundle {
     getGame: (slug) => gMap.get(slug),
     studios: locStudios,
     getStudio: (slug) => sMap.get(slug),
+    series: locSeries,
+    getSeries: (slug) => serMap.get(slug),
   };
   bundleCache.set(locale, bundle);
   return bundle;

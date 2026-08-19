@@ -1,0 +1,59 @@
+---
+import { localeData } from '../lib/data';
+import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
+const { series } = localeData(locale);
+---
+
+<section class="container head">
+  <p class="eyebrow">{t(locale, 'series.eyebrow')}</p>
+  <h1>{t(locale, 'series.title')}</h1>
+  <p class="muted lead">{t(locale, 'series.lead')}</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid series-grid">
+      {
+        series.map((s) => {
+          const years = s.games.map((g) => parseInt(g.year || '0')).filter(Boolean);
+          const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : null;
+          const plats = [...new Set(s.games.map((g) => g.platform.short))];
+          return (
+            <a class="card series-card" href={localizePath(locale, `/serie/${s.slug}`)}>
+              <div class="sc-body">
+                <h2>{s.name}</h2>
+                <p class="meta muted">
+                  {s.gameCount} {t(locale, 'games.count')} · {plats.length} {t(locale, 'platforms.count')}
+                  {span && <> · {span}</>}
+                </p>
+              </div>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .head { padding-block: 48px 0; }
+  .head h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 10px; }
+  .lead { font-size: 1.05rem; max-width: 640px; }
+  .eyebrow {
+    font-family: var(--font-pixel); font-size: 0.6rem; text-transform: uppercase;
+    letter-spacing: 0.5px; color: color-mix(in srgb, var(--accent) 80%, var(--text));
+  }
+  .series-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 24px; }
+  .series-card {
+    display: flex; align-items: center; gap: 12px; padding: 16px 18px;
+    text-decoration: none; color: inherit;
+  }
+  .series-card h2 { font-size: 1.05rem; margin: 0 0 4px; }
+  .series-card .meta { font-size: 0.84rem; margin: 0; }
+  .sc-body { flex: 1; min-width: 0; }
+  .arrow { color: var(--accent); flex: none; }
+  .series-card:hover { border-color: var(--accent); }
+</style>

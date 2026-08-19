@@ -1,0 +1,86 @@
+---
+import GameCard from './GameCard.astro';
+import { localeData, mdBlock } from '../lib/data';
+import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+interface Props { slug: string; locale?: Locale; }
+const { slug, locale = DEFAULT_LOCALE } = Astro.props;
+const s = localeData(locale).getSeries(slug)!;
+const intro = mdBlock(s.intro);
+const years = s.games.map((g) => parseInt(g.year || '0')).filter(Boolean);
+const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : null;
+
+// hry seskupené podle platformy, platformy podle roku vydání
+const byPlatform = new Map<string, { name: string; year: number; games: typeof s.games }>();
+for (const g of s.games) {
+  let e = byPlatform.get(g.platform.slug);
+  if (!e) {
+    e = { name: g.platform.name, year: g.platform.year, games: [] };
+    byPlatform.set(g.platform.slug, e);
+  }
+  e.games.push(g);
+}
+const groups = [...byPlatform.entries()]
+  .map(([slug, e]) => ({ slug, ...e }))
+  .sort((a, b) => a.year - b.year);
+---
+
+<article class="container narrow">
+  <nav class="crumbs muted" aria-label="breadcrumb">
+    <a href={localizePath(locale, '/serie')}>{t(locale, 'series.title')}</a> <span>/</span> <span>{s.name}</span>
+  </nav>
+
+  <header class="head">
+    <p class="eyebrow">{t(locale, 'series.eyebrow')}</p>
+    <h1>{s.name}</h1>
+    <div class="facts">
+      <span class="tag">{s.gameCount} {t(locale, 'series.inCatalog')}</span>
+      {span && <span class="tag">⏱ {span}</span>}
+      <span class="tag">{groups.length} {t(locale, 'platforms.count')}</span>
+    </div>
+  </header>
+
+  {intro && <div class="article prose" set:html={intro} />}
+
+  <section class="games">
+    <h2 class="sec-title">{t(locale, 'series.games')} <span class="muted">({s.gameCount})</span></h2>
+    {
+      groups.map((grp) => (
+        <div class="plat-group">
+          <h3 class="plat-title">
+            <a href={localizePath(locale, `/platformy/${grp.slug}`)}>{grp.name}</a>
+            <span class="muted"> · {grp.games.length}</span>
+          </h3>
+          <div class="grid grid-games">
+            {grp.games.map((g) => <GameCard game={g} platform={g.platform} locale={locale} />)}
+          </div>
+        </div>
+      ))
+    }
+  </section>
+</article>
+
+<style>
+  .narrow { max-width: 920px; }
+  .crumbs { padding-top: 26px; font-size: 0.86rem; }
+  .crumbs a { color: var(--accent); }
+  .head { margin: 18px 0 8px; }
+  .eyebrow {
+    font-family: var(--font-pixel); font-size: 0.6rem; text-transform: uppercase;
+    letter-spacing: 0.5px; color: color-mix(in srgb, var(--accent) 80%, var(--text));
+  }
+  .head h1 { font-size: clamp(1.9rem, 5vw, 2.9rem); margin-block: 8px 12px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    font-size: 0.82rem; padding: 0.4em 0.75em; border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+  }
+  .article { margin: 24px 0 8px; font-size: 1.04rem; }
+  .games { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
+  .sec-title { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 18px; }
+  .plat-group { margin-bottom: 28px; }
+  .plat-title { font-size: 1rem; margin: 0 0 12px; }
+  .plat-title a { color: var(--accent); text-decoration: none; }
+  .plat-title a:hover { text-decoration: underline; }
+</style>

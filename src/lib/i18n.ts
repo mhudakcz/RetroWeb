@@ -30,7 +30,7 @@ export function localizePath(l: Locale, path: string): string {
  *  Root cesta sekce ('/', '/platformy', '/hry', …). */
 export const LOCALIZED_SECTIONS = new Set<string>([
   '/', '/podporit', '/kontakt', '/platformy', '/studia', '/hry', '/hardware', '/o-projektu',
-  '/zmeny',
+  '/zmeny', '/serie',
 ]);
 
 /** Root sekce z cesty: '/platformy/game-boy' -> '/platformy', '/' -> '/'. */
@@ -60,6 +60,7 @@ const UI: Dict = {
   'nav.platforms': { cs: 'Platformy', en: 'Platforms', de: 'Plattformen', fr: 'Plateformes' },
   'nav.games': { cs: 'Hry', en: 'Games', de: 'Spiele', fr: 'Jeux' },
   'nav.studios': { cs: 'Studia', en: 'Studios', de: 'Studios', fr: 'Studios' },
+  'nav.series': { cs: 'Série', en: 'Series', de: 'Reihen', fr: 'Séries' },
   'nav.hardware': { cs: 'Hardware', en: 'Hardware', de: 'Hardware', fr: 'Matériel' },
   'nav.about': { cs: 'O projektu', en: 'About', de: 'Über', fr: 'À propos' },
   'nav.contact': { cs: 'Kontakt & přání', en: 'Contact & wishes', de: 'Kontakt & Wünsche', fr: 'Contact & souhaits' },
@@ -107,6 +108,19 @@ const UI: Dict = {
   'suggest.sub': { cs: 'Napiš mi ji — kurátorský výběr pořád rozšiřuju.', en: 'Tell me — I keep expanding the curated selection.', de: 'Schreib mir — ich erweitere die Auswahl laufend.', fr: "Dites-le-moi — j'enrichis sans cesse la sélection." },
   'suggest.btn': { cs: '💡 Navrhnout hru', en: '💡 Suggest a game', de: '💡 Spiel vorschlagen', fr: '💡 Proposer un jeu' },
   'crumbs.games': { cs: 'Hry', en: 'Games', de: 'Spiele', fr: 'Jeux' },
+
+  // série
+  'series.title': { cs: 'Herní série', en: 'Game series', de: 'Spielereihen', fr: 'Séries de jeux' },
+  'series.eyebrow': { cs: 'Značky', en: 'Franchises', de: 'Marken', fr: 'Franchises' },
+  'series.lead': {
+    cs: 'Velké herní značky napříč platformami a generacemi — od prvního dílu po ten poslední.',
+    en: 'The big game franchises across platforms and generations — from the first entry to the latest.',
+    de: 'Die großen Spielemarken über Plattformen und Generationen hinweg — vom ersten bis zum jüngsten Teil.',
+    fr: 'Les grandes franchises du jeu, toutes plateformes et générations confondues — du premier au dernier épisode.',
+  },
+  'series.inCatalog': { cs: 'her v katalogu', en: 'games in the catalog', de: 'Spiele im Katalog', fr: 'jeux au catalogue' },
+  'series.games': { cs: 'Díly série', en: 'Entries in the series', de: 'Teile der Reihe', fr: 'Épisodes de la série' },
+  'series.partOf': { cs: 'Součást série', en: 'Part of the series', de: 'Teil der Reihe', fr: 'Fait partie de la série' },
 
   // studia
   'studios.title': { cs: 'Herní studia', en: 'Game studios', de: 'Spiele-Studios', fr: 'Studios de jeux' },
