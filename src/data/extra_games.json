@@ -12629,5 +12629,3182 @@
     "mature"
    ]
   }
+ ],
+ "3do": [
+  {
+   "name": "Road Rash",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Need for Speed",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Return Fire",
+   "genre": "Akční",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gex",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Total Eclipse",
+   "genre": "Rail shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Crash 'n Burn",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Super Street Fighter II Turbo",
+   "genre": "Bojovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Samurai Shodown",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Way of the Warrior",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Killing Time",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "PO'ed",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Off-World Interceptor",
+   "genre": "Akční závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Escape from Monster Manor",
+   "genre": "FPS",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Novastorm",
+   "genre": "Rail shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Myst",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The 7th Guest",
+   "genre": "Logická adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Alone in the Dark",
+   "genre": "Survival horor",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "D",
+   "genre": "Hororová adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Policenauts",
+   "genre": "Detektivní adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Star Control II: The Ur-Quan Masters",
+   "genre": "Vesmírné RPG / strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Guardian War",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lucienne's Quest",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Immercenary",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Horde",
+   "genre": "Strategie / akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Syndicate",
+   "genre": "Taktická strategie",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Theme Park",
+   "genre": "Budovatelská strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wing Commander III: Heart of the Tiger",
+   "genre": "Vesmírný simulátor / FMV",
+   "length": "M",
+   "flags": []
+  }
+ ],
+ "cd-i": [
+  {
+   "name": "Hotel Mario",
+   "genre": "Logická plošinovka",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Link: The Faces of Evil",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zelda: The Wand of Gamelon",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zelda's Adventure",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Burn:Cycle",
+   "genre": "Sci-fi adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The 7th Guest",
+   "genre": "Logická adventura",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Myst",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dragon's Lair",
+   "genre": "Interaktivní film",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lemmings",
+   "genre": "Logická hra",
+   "length": "L",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mad Dog McCree",
+   "genre": "Střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Voyeur",
+   "genre": "Interaktivní film",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Zombie Dinos from Planet Zeltoid",
+   "genre": "Naučná akční hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sesame Street: Numbers",
+   "genre": "Naučná hra pro děti",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "mega-cd": [
+  {
+   "name": "Sonic CD",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Final Fight CD",
+   "genre": "Beat 'em up",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ecco the Dolphin",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Silpheed",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Popful Mail",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Flashback",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Heart of the Alien",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Earthworm Jim: Special Edition",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Keio Flying Squadron",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Robo Aleste",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soul Star",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Thunderhawk",
+   "genre": "Akční simulátor",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lethal Enforcers",
+   "genre": "Světelná střílečka",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Road Avenger",
+   "genre": "Arkádová akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Snatcher",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Lunar: The Silver Star",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lunar: Eternal Blue",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Shining Force CD",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Vay",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dark Wizard",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Heart of the Alien: Out of This World Parts I and II",
+   "genre": "Cinematická adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Rise of the Dragon",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Secret of Monkey Island",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Sherlock Holmes: Consulting Detective",
+   "genre": "FMV detektivní adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Night Trap",
+   "genre": "FMV interaktivní film",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sewer Shark",
+   "genre": "FMV rail shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ground Zero: Texas",
+   "genre": "FMV interaktivní film",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "ngpc": [
+  {
+   "name": "SNK vs. Capcom: The Match of the Millennium",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The King of Fighters R-2",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Fatal Fury: First Contact",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Samurai Shodown! 2",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SNK Gals' Fighters",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Last Blade: Beyond the Destiny",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Metal Slug: 1st Mission",
+   "genre": "Run and gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug: 2nd Mission",
+   "genre": "Run and gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dark Arms: Beast Buster 1999",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Faselei!",
+   "genre": "Taktická strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Big Bang Pro Wrestling",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rockman Battle & Fighters",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic the Hedgehog: Pocket Adventure",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SNK vs. Capcom: Card Fighters Clash",
+   "genre": "Karetní RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SNK vs. Capcom: Card Fighters' Clash 2: Expand Edition",
+   "genre": "Karetní RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Biomotor Unitron",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Densetsu no Ogre Battle Gaiden: Zenobia no Ouji",
+   "genre": "Strategické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Puzzle Bobble Mini",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Magical Drop Pocket",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Puyo Pop",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Baseball Stars Color",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Neo Turf Masters",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pocket Tennis Color",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  }
+ ],
+ "pc-98": [
+  {
+   "name": "Policenauts",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "YU-NO: A Girl Who Chants Love at the Bound of this World",
+   "genre": "Vizuální novela",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "EVE burst error",
+   "genre": "Vizuální novela",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Desire",
+   "genre": "Vizuální novela",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Doukyuusei 2",
+   "genre": "Vizuální novela",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sotsugyou: Graduation",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Knight 4",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Kichikuou Rance",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Nobunaga's Ambition: Lord of Darkness",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Romance of the Three Kingdoms III: Dragon of Destiny",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Uncharted Waters: New Horizons",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Princess Maker 2",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Power DoLLS",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Master of Monsters",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ys I: Ancient Ys Vanished",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ys II: Ancient Ys Vanished – The Final Chapter",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Brandish",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Popful Mail",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Slayer: The Legend of Heroes",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Emerald Dragon",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Xak: The Art of Visual Stage",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rusty",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "ALLTYNEX",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Touhou Reiiden ~ Highly Responsive to Prayers",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Touhou Fuumaroku ~ Story of Eastern Wonderland",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Touhou Yumejikuu ~ Phantasmagoria of Dim.Dream",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Touhou Gensoukyou ~ Lotus Land Story",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Touhou Kaikidan ~ Mystic Square",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew",
+    "mustplay"
+   ]
+  }
+ ],
+ "ps5": [
+  {
+   "name": "Demon's Souls",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Marvel's Spider-Man: Miles Morales",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Returnal",
+   "genre": "Akční roguelite",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Ratchet & Clank: Rift Apart",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ghost of Tsushima Director's Cut",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Death Stranding Director's Cut",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil Village",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Horizon Forbidden West",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "God of War Ragnarök",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "The Last of Us Part I",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Elden Ring",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Final Fantasy VII Rebirth",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Astro Bot",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Stellar Blade",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Black Myth: Wukong",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Final Fantasy XVI",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Baldur's Gate 3",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Cyberpunk 2077",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Persona 5 Royal",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Metaphor: ReFantazio",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Like a Dragon: Infinite Wealth",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dragon's Dogma 2",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tales of Arise",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Come: Deliverance II",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Hogwarts Legacy",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil 4",
+   "genre": "Survival horor / Akční",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Dead Space",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "The Callisto Protocol",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Alan Wake 2",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Silent Hill 2",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Deathloop",
+   "genre": "FPS / Immersive sim",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Ghostwire: Tokyo",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom Eternal",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Hitman 3",
+   "genre": "Stealth akce",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Metro Exodus Complete Edition",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dying Light 2 Stay Human",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sifu",
+   "genre": "Akční / Beat 'em up",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Warhammer 40,000: Space Marine 2",
+   "genre": "Akční střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Devil May Cry 5 Special Edition",
+   "genre": "Akční",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Gran Turismo 7",
+   "genre": "Závodní",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "F1 23",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed Unbound",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hot Wheels Unleashed",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Crew Motorfest",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 1 + 2",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Riders Republic",
+   "genre": "Sportovní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "MLB The Show 21",
+   "genre": "Sportovní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "EA Sports FC 24",
+   "genre": "Sportovní",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Stray",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Hades",
+   "genre": "Roguelike",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Kena: Bridge of Spirits",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sea of Stars",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dave the Diver",
+   "genre": "Adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  }
+ ],
+ "sega-32x": [
+  {
+   "name": "Doom",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Virtua Racing Deluxe",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Virtua Fighter",
+   "genre": "Bojovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars Arcade",
+   "genre": "Střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Knuckles' Chaotix",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Kolibri",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Shadow Squadron",
+   "genre": "Vesmírná střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metal Head",
+   "genre": "Akční",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Space Harrier",
+   "genre": "Arkádová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "After Burner Complete",
+   "genre": "Arkádová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat II",
+   "genre": "Bojovka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "WWF WrestleMania: The Arcade Game",
+   "genre": "Arkádová bojovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tempo",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  }
+ ],
+ "sg-1000": [
+  {
+   "name": "Congo Bongo",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Zaxxon",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Flicky",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Girl's Garden",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Monaco GP",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Star Force",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Elevator Action",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ninja Princess",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Doki Doki Penguin Land",
+   "genre": "Logická plošinovka",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Pitfall II: Lost Caverns",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lode Runner",
+   "genre": "Logická plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Castle",
+   "genre": "Logická plošinovka",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Gulkave",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  }
+ ],
+ "switch-2": [
+  {
+   "name": "Mario Kart World",
+   "genre": "Závodní",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Donkey Kong Bananza",
+   "genre": "Akční plošinovka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Nintendo Switch 2 Welcome Tour",
+   "genre": "Minihry",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV",
+   "genre": "Party hra",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kirby and the Forgotten Land: Nintendo Switch 2 Edition + Star-Crossed World",
+   "genre": "Akční plošinovka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Metroid Prime 4: Beyond",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pokémon Legends: Z-A",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hyrule Warriors: Age of Imprisonment",
+   "genre": "Akční / Musou",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kirby Air Riders",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Drag x Drive",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Mario Galaxy 1 + 2",
+   "genre": "Plošinovka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Fast Fusion",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cyberpunk 2077: Ultimate Edition",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Street Fighter 6",
+   "genre": "Bojová hra",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Split Fiction",
+   "genre": "Kooperativní akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Yakuza 0 Director's Cut",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Sonic X Shadow Generations",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bravely Default: Flying Fairy HD Remaster",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Survival Kids",
+   "genre": "Kooperativní survival",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hitman World of Assassination - Signature Edition",
+   "genre": "Stealth akce",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Deltarune",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars Outlaws",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sid Meier's Civilization VII",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  }
+ ],
+ "vectrex": [
+  {
+   "name": "Mine Storm",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Scramble",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Berzerk",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rip Off",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Armor Attack",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: The Motion Picture",
+   "genre": "Vesmírná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cosmic Chasm",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spike",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Web Wars",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fortress of Narzod",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Vector Pilot",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Protector",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Patriots",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  }
+ ],
+ "virtual-boy": [
+  {
+   "name": "Virtual Boy Wario Land",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mario's Tennis",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Teleroboxer",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Galactic Pinball",
+   "genre": "Pinball",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Red Alarm",
+   "genre": "Akční / 3D střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mario Clash",
+   "genre": "Arkádová plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Jack Bros.",
+   "genre": "Akční / Dungeon",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Panic Bomber",
+   "genre": "Logická",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "3-D Tetris",
+   "genre": "Logická",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Vertical Force",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Nester's Funky Bowling",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Golf",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Innsmouth no Yakata",
+   "genre": "Horor / Akční",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "wii-u": [
+  {
+   "name": "Super Mario 3D World",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mario Kart 8",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Smash Bros. for Wii U",
+   "genre": "Bojovka",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Splatoon",
+   "genre": "Akční / týmová střílečka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pikmin 3",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Legend of Zelda: The Wind Waker HD",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Legend of Zelda: Twilight Princess HD",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "New Super Mario Bros. U",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong Country: Tropical Freeze",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Xenoblade Chronicles X",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Bayonetta 2",
+   "genre": "Akční",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Captain Toad: Treasure Tracker",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Yoshi's Woolly World",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Mario Maker",
+   "genre": "Plošinovka / editor",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Fox Zero",
+   "genre": "Akční / letecká střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Nintendo Land",
+   "genre": "Party / minihry",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "ZombiU",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Game & Wario",
+   "genre": "Party / minihry",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rayman Legends",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mario Party 10",
+   "genre": "Party / desková",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wii Party U",
+   "genre": "Party / minihry",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Affordable Space Adventures",
+   "genre": "Logická adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Runbow",
+   "genre": "Plošinovka / party",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shovel Knight",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Wonderful 101",
+   "genre": "Akční",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter 3 Ultimate",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hyrule Warriors",
+   "genre": "Akční",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ninja Gaiden 3: Razor's Edge",
+   "genre": "Akční",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Assassin's Creed IV: Black Flag",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Batman: Arkham City - Armored Edition",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mass Effect 3: Special Edition",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Deus Ex: Human Revolution - Director's Cut",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Darksiders II",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tokyo Mirage Sessions #FE",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fatal Frame: Maiden of Black Water",
+   "genre": "Horor",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "LEGO City Undercover",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sonic Lost World",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell: Blacklist",
+   "genre": "Akční / stealth",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Injustice: Gods Among Us",
+   "genre": "Bojovka",
+   "length": "M",
+   "flags": []
+  }
+ ],
+ "wii": [
+  {
+   "name": "Super Mario Galaxy",
+   "genre": "Plošinovka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Legend of Zelda: Twilight Princess",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wii Sports",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Metroid Prime 3: Corruption",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Smash Bros. Brawl",
+   "genre": "Bojová",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mario Kart Wii",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wii Sports Resort",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "New Super Mario Bros. Wii",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Donkey Kong Country Returns",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Legend of Zelda: Skyward Sword",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Mario Galaxy 2",
+   "genre": "Plošinovka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Kirby's Epic Yarn",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Punch-Out!!",
+   "genre": "Arkádový sport",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sin and Punishment: Star Successor",
+   "genre": "Rail shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Xenoblade Chronicles",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Paper Mario",
+   "genre": "Plosinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Return to Dream Land",
+   "genre": "Plosinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wario Land: Shake It!",
+   "genre": "Plosinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Colors",
+   "genre": "Plosinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Epic Mickey",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Klonoa",
+   "genre": "Plosinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "A Boy and His Blob",
+   "genre": "Plosinovka",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Muramasa: The Demon Blade",
+   "genre": "Akcni RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Okami",
+   "genre": "Akcni adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "No More Heroes",
+   "genre": "Akcni adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 4: Wii Edition",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Monster Hunter Tri",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Metroid: Other M",
+   "genre": "Akcni adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fire Emblem: Radiant Dawn",
+   "genre": "Takticke RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Tales of Symphonia: Dawn of the New World",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Excite Truck",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mario Strikers Charged",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "WarioWare: Smooth Moves",
+   "genre": "Party / minihry",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rayman Raving Rabbids",
+   "genre": "Party / minihry",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mario Party 8",
+   "genre": "Party / desková",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wii Party",
+   "genre": "Party / minihry",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Boom Blox",
+   "genre": "Logická / party",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Guitar Hero III: Legends of Rock",
+   "genre": "Hudební / rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Beatles: Rock Band",
+   "genre": "Hudební / rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Just Dance 2",
+   "genre": "Hudební / taneční",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic & Sega All-Stars Racing",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mario & Sonic at the Olympic Games",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Silent Hill: Shattered Memories",
+   "genre": "Horor adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dead Space: Extraction",
+   "genre": "Railová střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The House of the Dead: Overkill",
+   "genre": "Railová střílečka",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil: The Umbrella Chronicles",
+   "genre": "Railová střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "MadWorld",
+   "genre": "Akční",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "No More Heroes 2: Desperate Struggle",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fragile Dreams: Farewell Ruins of the Moon",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "GoldenEye 007",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Call of Duty: Modern Warfare Reflex Edition",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Conduit",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Red Steel 2",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "World of Goo",
+   "genre": "Logická",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Cave Story",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "LostWinds",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "BIT.TRIP BEAT",
+   "genre": "Rytmická arkáda",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "wonderswan": [
+  {
+   "name": "Final Fantasy",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Final Fantasy II",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy IV",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Romancing SaGa",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Makaitoushi SaGa",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Front Mission",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Blue Wing Blitz",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wild Card",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Chocobo no Fushigi na Dungeon for WonderSwan",
+   "genre": "Roguelike RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Riviera: The Promised Land",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dicing Knight Period",
+   "genre": "Roguelike RPG",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Star Hearts: Hoshi to Daichi no Shisha",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Digimon Adventure 02: Tag Tamers",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Digital Monster Ver. WonderSwan",
+   "genre": "RPG / chov monster",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gunpey",
+   "genre": "Logická",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Klonoa: Moonlight Museum",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rockman & Forte: Mirai Kara no Chōsensha",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Makaimura for WonderSwan",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Guilty Gear Petit",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mr. Driller",
+   "genre": "Akční logická",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Puyo Puyo Tsu",
+   "genre": "Logická",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Judgement Silversword: Rebirth Edition",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Super Robot Taisen Compact",
+   "genre": "Taktická strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Shinseiki Evangelion: Shito Ikusei",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Digimon Adventure: Anode Tamer",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "From TV Animation One Piece: Grand Battle Swan Colosseum",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Terrors",
+   "genre": "Hororová adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "x68000": [
+  {
+   "name": "Final Fight",
+   "genre": "Beat 'em up",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Strider Hiryu",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ghouls 'n Ghosts",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Street Fighter II' Champion Edition",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gradius",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gradius II",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Salamander",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Parodius Da!",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Nemesis '90 Kai",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Akumajou Dracula",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Space Harrier",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Out Run",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "After Burner II",
+   "genre": "Akční / letecká",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cho Ren Sha 68K",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Thunder Force II",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Genocide",
+   "genre": "Akční",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Geograph Seal",
+   "genre": "Akční 3D",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Aquales",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rusty",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Mad Stalker: Full Metal Force",
+   "genre": "Beat 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Asuka 120% Burning Fest",
+   "genre": "Bojovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Granada",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Phalanx",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lagoon",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Cotton: Fantastic Night Dreams",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "xbox-series": [
+  {
+   "name": "Halo Infinite",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Forza Horizon 5",
+   "genre": "Závodní",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Starfield",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Senua's Saga: Hellblade II",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Microsoft Flight Simulator",
+   "genre": "Simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Forza Motorsport",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Psychonauts 2",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pentiment",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Grounded",
+   "genre": "Survival",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hi-Fi RUSH",
+   "genre": "Akční",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Indiana Jones and the Great Circle",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Avowed",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "South of Midnight",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Age of Mythology: Retold",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ori and the Will of the Wisps",
+   "genre": "Metroidvania",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Elden Ring",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Cyberpunk 2077",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Baldur's Gate 3",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 4",
+   "genre": "Akcni horor",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Yakuza: Like a Dragon",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Metaphor: ReFantazio",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "A Plague Tale: Requiem",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Star Wars Jedi: Survivor",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lies of P",
+   "genre": "Akcni RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Assassin's Creed Valhalla",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dying Light 2 Stay Human",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Hogwarts Legacy",
+   "genre": "Akcni RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Clair Obscur: Expedition 33",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dirt 5",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed Unbound",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops Cold War",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sniper Elite 5",
+   "genre": "Taktická střílečka",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+   "genre": "FPS / Survival",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Atomic Heart",
+   "genre": "FPS / Akční RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Ascent",
+   "genre": "Twin-stick shooter",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Tunic",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 1 + 2",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Riders Republic",
+   "genre": "Sportovní",
+   "length": "L",
+   "flags": []
+  }
  ]
 }

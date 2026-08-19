@@ -1371,6 +1371,130 @@ def fetch_games_nintendo_shots(only=None):
     print(f"\nNintendo snimky: doplneno u {ok}/{total} her")
 
 
+def _wiki_infobox_image(title):
+    """Nazev souboru z pole |image= v infoboxu clanku (typicky obal hry).
+
+    pageimages API nesvobodne soubory zasadne nevraci, proto se ctou primo
+    wikitext a nazev souboru; samotny soubor uz pres imageinfo stahnout jde."""
+    q = urllib.parse.urlencode({
+        "action": "query", "format": "json", "titles": title,
+        "prop": "revisions", "rvprop": "content", "rvslots": "main", "redirects": "1",
+    })
+    try:
+        data = json.loads(http_get("https://en.wikipedia.org/w/api.php?" + q))
+    except Exception:  # noqa
+        return None
+    for page in data.get("query", {}).get("pages", {}).values():
+        try:
+            wt = page["revisions"][0]["slots"]["main"]["*"]
+        except Exception:  # noqa
+            continue
+        for field in ("cover", "image"):
+            m = P.re.search(r"\|\s*" + field + r"\s*=\s*([^\n|}]+)", wt)
+            if not m:
+                continue
+            name = m.group(1).strip()
+            # nekdy je hodnota zapsana jako [[File:Neco.png|...]]
+            inner = P.re.search(r"File:([^|\]]+)", name)
+            if inner:
+                name = inner.group(1).strip()
+            name = name.strip("[] ").strip()
+            if name and "." in name:
+                return name
+    return None
+
+
+def _wiki_file_url(filename, width=600):
+    """URL nahledu souboru z Wikipedie (funguje i pro nesvobodne soubory)."""
+    q = urllib.parse.urlencode({
+        "action": "query", "format": "json", "titles": f"File:{filename}",
+        "prop": "imageinfo", "iiprop": "url", "iiurlwidth": str(width),
+    })
+    try:
+        data = json.loads(http_get("https://en.wikipedia.org/w/api.php?" + q))
+    except Exception:  # noqa
+        return None
+    for page in data.get("query", {}).get("pages", {}).values():
+        ii = (page.get("imageinfo") or [{}])[0]
+        return ii.get("thumburl") or ii.get("url")
+    return None
+
+
+def fetch_games_wiki_box(only=None):
+    """Pro hry BEZ obrazku vezme obal z infoboxu clanku na anglicke Wikipedii.
+
+    Posledni zdroj pro konzolove exkluzivity, ktere nejsou ani v libretro-thumbnails,
+    ani na Steamu ci v eShopu (Uncharted, God of War, Killzone, Gran Turismo...).
+    Overeni clanku je stejne prisne jako u fetch_games_wiki — kategorie musi
+    obsahovat 'video game', jinak by se trefil stejnojmenny film nebo kniha."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if wanted and slug not in wanted:
+            continue
+        missing = [g for g in plat["games"] if not g.get("image")]
+        if not missing:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        used_files = {}
+        print(f"\n== {slug} - bez obalu: {len(missing)} ==")
+        for g in missing:
+            total += 1
+            # na hru pripadaji ctyri dotazy (hledani, kategorie, wikitext, soubor);
+            # pri kratsi prodleve zacne Wikimedia odmitat a vypada to jako
+            # "clanek nema obrazek", i kdyz ho ma
+            time.sleep(1.5)
+            base = P.re.sub(r"\([^)]*\)", " ", g["name"])
+            base = base.split(" -ish")[0].split(" / ")[0].strip()
+            # PRISNA shoda nazvu: volnejsi parovani napasovalo 'Killzone 2'
+            # i 'inFamous 2' na clanek o PRVNIM dilu serie
+            gnorm = P.norm_name(base)
+            picked = None
+            for query in (f"{base} video game", f"{base} {plat['short']} video game"):
+                for title in _wiki_search(query):
+                    # z nazvu clanku pryc rozlisovaci zavorka: 'Flower (video game)'
+                    bare = P.re.sub(r"\([^)]*\)", " ", title).strip()
+                    if P.norm_name(bare) != gnorm or not _wiki_is_videogame(title):
+                        continue
+                    picked = title
+                    break
+                if picked:
+                    break
+            if not picked:
+                print(f"  [-] {g['name']}")
+                continue
+            fname = _wiki_infobox_image(picked)
+            if not fname:
+                print(f"  [-] {g['name']} (v infoboxu neni obrazek: {picked})")
+                continue
+            # kdyz stejny soubor sedne na vic her, je to spatna shoda (jiny dil serie)
+            if fname in used_files:
+                print(f"  [-] {g['name']} (obal uz pouzit u: {used_files[fname]})")
+                continue
+            used_files[fname] = g["name"]
+            src = _wiki_file_url(fname)
+            if not src:
+                print(f"  [-] {g['name']} (soubor nedostupny: {fname})")
+                continue
+            try:
+                img = http_get(src, headers={"User-Agent": _ITCH_UA})
+                if len(img) < 3000:
+                    print(f"  [-] {g['name']} (maly soubor)")
+                    continue
+                ext = os.path.splitext(urllib.parse.urlparse(src).path)[1].lower()
+                if ext not in (".jpg", ".jpeg", ".png", ".gif", ".webp"):
+                    ext = ".jpg"
+                (out / f"{g['slug']}{ext}").write_bytes(img)
+                ok += 1
+                print(f"  [OK] {g['name']}  <- WP:{picked} / {fname}")
+            except Exception as e:  # noqa
+                print(f"  [x] {g['name']}: {str(e)[:60]}")
+    print(f"\nWikipedia obaly: dohledano {ok}/{total}")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -1412,6 +1536,9 @@ if __name__ == "__main__":
     if what == "games-nintendo-shots":
         print("=== SNÍMKY ZE HRY Z NINTENDO ESHOPU (hry s obalem, ale bez galerie) ===")
         fetch_games_nintendo_shots(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-wiki-box":
+        print("=== OBALY Z INFOBOXU NA WIKIPEDII (hry bez obrázku) ===")
+        fetch_games_wiki_box(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "games-steam-shots":
         print("=== SNÍMKY ZE HRY ZE STEAMU (hry s obalem, ale bez galerie) ===")
         fetch_games_steam_shots(sys.argv[2] if len(sys.argv) > 2 else None)

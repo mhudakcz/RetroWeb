@@ -35,17 +35,20 @@ for f in sorted(glob.glob(str(BASE / "out_*.json"))):
     m = re.match(r"out_(.+)_(\d+)\.json", Path(f).name)
     if not m:
         continue
-    plat = m.group(1)
+    plat_default = m.group(1)
     try:
         items = json.loads(Path(f).read_text("utf-8"))
         if not isinstance(items, list):
             raise ValueError("není pole")
     except Exception as e:
-        stats.setdefault(plat, {}).setdefault("vadne_davky", []).append(f"{Path(f).name}: {e}")
+        stats.setdefault(plat_default, {}).setdefault("vadne_davky", []).append(f"{Path(f).name}: {e}")
         continue
 
-    s = stats.setdefault(plat, {})
     for it in items:
+        # dávka může být i mezplatformní (jedna značka napříč konzolemi) —
+        # pak si každá hra nese vlastní platformu a jméno souboru je jen štítek
+        plat = (it.get("platform") or plat_default).strip()
+        s = stats.setdefault(plat, {})
         s["navrzeno"] = s.get("navrzeno", 0) + 1
         name = (it.get("name") or "").strip()
         art = (it.get("article") or "").strip()
