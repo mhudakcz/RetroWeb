@@ -49,7 +49,7 @@ Uloz nastrojem Write do ${out} VALIDNI JSON tvaru:
 {"<slug>": {"cs": "...", "en": "...", "de": "...", "fr": "..."}, ...}
 se VSEMI slugy z teto davky. Uvozovky uvnitr textu escapuj jako \\". Zadny text mimo JSON.
 Vrat kratke potvrzeni.`
-  return agent(prompt, { label: `serie:${pad(i)}`, phase: 'Intra' })
+  return agent(prompt, { label: `serie:${pad(i)}`, phase: 'Intra', model: 'sonnet' })
 }))
 
 return { batches: batches.length, done: results.filter(Boolean).length }

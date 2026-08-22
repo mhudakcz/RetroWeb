@@ -108,6 +108,27 @@ WIKI = {
     "amiga-cd32": "Amiga CD32",
 }
 
+# ---- platforma -> konkrétní soubor na Wikimedia Commons ----
+# U některých platforem je v infoboxu článku LOGO, ne fotka konzole
+# (Switch, Switch 2, Xbox Series, CD-i) — tady se pro ně snímek určuje ručně.
+PLATFORM_PHOTO_FILE = {
+    "switch": "Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+    "switch-2": "Nintendo Switch 2 in Docking Console.jpg",
+    # pozor: "Xbox Series XとSeries S.jpg" je fotka krabic v regálu, ne konzolí
+    "xbox-series": "Xbox Series X mit Controller (transparent background).png",
+    "cd-i": "Philips CD-i 210 player (30179599718).jpg",
+    # v infoboxu článku je logo WonderSwanu, ne konzole
+    "wonderswan": "WonderSwan-Color-Blue-Left.png",
+    # původní snímek měl vedle černého Xboxu i BÍLÝ Xbox One S, kterému
+    # odmazávání pozadí vykouslo hranu (bílá konzole splývá s bílým podkladem);
+    # tenhle je jen černý hardware a už s průhledností
+    "xbox-one": "Microsoft-Xbox-One-Console-wKinect.png",
+}
+
+# Platformy, u kterých se pozadí NESMÍ odmazávat — produkt je sám bílý,
+# takže výplň od okraje by se prokousala do konzole.
+PLATFORM_TRIM_SKIP = {"xbox-one", "wii", "dreamcast", "wii-u"}
+
 # ---- platforma -> libretro-thumbnails repo (boxarty) ----
 LIBRETRO = {
     "game-boy": "Nintendo_-_Game_Boy",
@@ -239,7 +260,10 @@ def fetch_platforms():
         try:
             # Wikimedia při rychlé sérii dotazů začne odmítat stahování obrázků
             time.sleep(1.0)
-            src = wiki_image(title)
+            # u platforem, kde je v infoboxu logo místo konzole, bereme
+            # ručně určený snímek z Commons (viz PLATFORM_PHOTO_FILE)
+            override = PLATFORM_PHOTO_FILE.get(slug)
+            src = _wiki_file_url(override, width=1200) if override else wiki_image(title)
             if not src:
                 print(f"  [-] {slug}: bez obrazku ({title})")
                 continue
@@ -1495,6 +1519,94 @@ def fetch_games_wiki_box(only=None):
     print(f"\nWikipedia obaly: dohledano {ok}/{total}")
 
 
+def trim_platform_bg(only=None, thresh=232):
+    """U fotek platforem s bilym pozadim udela z pozadi pruhlednost.
+
+    Fotky konzoli z Wikipedie jsou casto produktove snimky na bilem podkladu.
+    Na karte pak vznikne bily obdelnik s tvrdym okrajem, ktery vedle vyrezu
+    na tmavem gradientu vypada jako nalepena zaplata. Vyplnovy algoritmus
+    zacina VYHRADNE od okraju obrazku, takze bile plochy uvnitr produktu
+    (napr. bila konzole) zustanou — odstrani se jen pozadi spojite s ramem.
+
+    only: carkou oddelene slugy; bez nich se vezmou platformy oznacene
+    v platform_bg.json jako 'light'.
+    """
+    from PIL import Image
+    from collections import deque
+
+    pdir = IMG / "platforms"
+    bg_file = ROOT / "src" / "data" / "platform_bg.json"
+    if only:
+        slugs = set(only.split(","))
+    else:
+        bg = json.loads(bg_file.read_text("utf-8")) if bg_file.exists() else {}
+        slugs = {k for k, v in bg.items() if v == "light"} - PLATFORM_TRIM_SKIP
+    if not slugs:
+        print("  zadne platformy se svetlym pozadim")
+        return
+
+    done = 0
+    for slug in sorted(slugs):
+        src = next((f for f in pdir.glob(f"{slug}.*") if f.suffix.lower() != ".svg"), None)
+        if not src:
+            print(f"  [-] {slug}: fotka nenalezena")
+            continue
+        try:
+            im = Image.open(src).convert("RGBA")
+        except Exception as e:  # noqa
+            print(f"  [x] {slug}: {e}")
+            continue
+        w, h = im.size
+        px = im.load()
+
+        def is_bg(x, y):
+            r, g, b, a = px[x, y]
+            return a > 0 and r >= thresh and g >= thresh and b >= thresh
+
+        seen = bytearray(w * h)
+        q = deque()
+        for x in range(w):
+            for y in (0, h - 1):
+                if is_bg(x, y) and not seen[y * w + x]:
+                    seen[y * w + x] = 1
+                    q.append((x, y))
+        for y in range(h):
+            for x in (0, w - 1):
+                if is_bg(x, y) and not seen[y * w + x]:
+                    seen[y * w + x] = 1
+                    q.append((x, y))
+
+        cleared = 0
+        while q:
+            x, y = q.popleft()
+            px[x, y] = (255, 255, 255, 0)
+            cleared += 1
+            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nx, ny = x + dx, y + dy
+                if 0 <= nx < w and 0 <= ny < h and not seen[ny * w + nx] and is_bg(nx, ny):
+                    seen[ny * w + nx] = 1
+                    q.append((nx, ny))
+
+        ratio = cleared / (w * h)
+        # kdyz by zmizela vic nez tri ctvrtiny obrazku, je to spatne rozpoznany
+        # snimek (svetly produkt splyva s pozadim) — nechame ho radeji bez zmeny
+        if ratio > 0.75:
+            print(f"  [-] {slug}: preskoceno, odmazalo by {ratio:.0%} obrazku")
+            continue
+        if ratio < 0.02:
+            print(f"  [-] {slug}: bile pozadi u okraju nenalezeno")
+            continue
+        dst = src.with_suffix(".png")
+        im.save(dst, "PNG", optimize=True)
+        if dst != src:
+            src.unlink()
+        done += 1
+        print(f"  [OK] {slug}: pozadi odmazano ({ratio:.0%} obrazku) -> {dst.name}")
+
+    print(f"\nPruhledne pozadi: upraveno {done} fotek")
+    print("Spust jeste 'classify' a parse_content.py, at se prekresli karty.")
+
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -1512,6 +1624,9 @@ if __name__ == "__main__":
     if what == "screenshots":
         print("=== SCREENSHOTY (Named_Snaps + Named_Titles) ===")
         fetch_screenshots(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "trim-bg":
+        print("=== ODSTRANĚNÍ BÍLÉHO POZADÍ U FOTEK PLATFOREM ===")
+        trim_platform_bg(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "classify":
         print("=== KLASIFIKACE POZADÍ PLATFOREM ===")
         classify_platform_bg()

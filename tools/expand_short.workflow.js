@@ -36,7 +36,7 @@ Pro KAZDOU hru napis ROZSIRENOU verzi clanku v CESTINE:
 Uloz nastrojem Write do ${c.out} VALIDNI JSON objekt {"<slug>": "<rozsireny clanek>", ...} se VSEMI slugy z ${c.in}.
 Odstavce oddeluj jako \\n\\n. Uvozovky uvnitr textu escapuj jako \\". Zadny text mimo JSON.
 Vrat kratke potvrzeni s poctem her a prumernou delkou.`
-  return agent(prompt, { label: `exp:${pad(c.i)}`, phase: 'Expand' })
+  return agent(prompt, { label: `exp:${pad(c.i)}`, phase: 'Expand', model: 'sonnet' })
 }))
 
 return { chunks: n, done: results.filter(Boolean).length }

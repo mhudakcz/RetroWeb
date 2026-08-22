@@ -57,7 +57,7 @@ Clanek ("article"):
 Uloz nastrojem Write do ${j.out} VALIDNI JSON pole techto objektu (${j.count} polozek).
 Uvozovky uvnitr textu escapuj jako \\". Zadny text mimo JSON.
 Vrat kratke potvrzeni s poctem her.`
-  return agent(prompt, { label: `hry:${j.slug}/${j.i}`, phase: 'Generate' })
+  return agent(prompt, { label: `hry:${j.slug}/${j.i}`, phase: 'Generate', model: 'sonnet' })
 }))
 
 return { jobs: jobs.length, done: results.filter(Boolean).length }

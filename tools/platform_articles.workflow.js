@@ -39,7 +39,7 @@ konkurenci, cim si ji lide pamatuji a jak se k ni da dostat dnes (emulace, Batoc
 legalni zdroje her). Kdyz si necim nejsi jisty, napis to obecneji nebo vynech.
 
 Uloz nastrojem Write. Vrat kratke potvrzeni s poctem znaku.`
-  return agent(prompt, { label: `clanek:${p.slug}`, phase: 'Articles' })
+  return agent(prompt, { label: `clanek:${p.slug}`, phase: 'Articles', model: 'sonnet' })
 }))
 
 return { platforms: platforms.length, done: results.filter(Boolean).length }

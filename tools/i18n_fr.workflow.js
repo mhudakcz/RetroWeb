@@ -17,15 +17,23 @@ const STRUCT = {
 
 // poradi: nejdriv male sekce (rychle), pak hry
 const ORDER = ['hardware_sections', 'studios', 'platforms', 'games']
+// Hotove davky lze predat v `skip` (napr. "games_007") — bez toho se pri
+// navazovani startuje agent i pro hotove davky jen aby vratil SKIP.
+const skip = new Set((typeof args === 'string' ? JSON.parse(args) : args).skip || [])
+
 const chunks = []
+let skipped = 0
 for (const type of ORDER) {
   const n = counts[type] || 0
   for (let i = 0; i < n; i++) {
-    chunks.push({ type, in: `${base}/chunks/${type}_${pad(i)}.json`, out: `${base}/chunks/${type}_${pad(i)}_out.json` })
+    const name = `${type}_${pad(i)}`
+    if (skip.has(name)) { skipped++; continue }
+    chunks.push({ type, name, in: `${base}/chunks/${name}.json`, out: `${base}/chunks/${name}_out.json` })
   }
 }
 
-log(`FR preklad: ${chunks.length} davek (Sonnet 5)`)
+log(`FR preklad: ${chunks.length} davek k prekladu` +
+    (skipped ? `, ${skipped} uz hotovych preskoceno bez agenta` : ''))
 
 const results = await parallel(chunks.map((c, i) => () => {
   const prompt = `Idempotentni prekladova uloha do FRANCOUZSTINY.
