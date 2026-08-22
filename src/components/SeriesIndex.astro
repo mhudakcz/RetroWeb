@@ -22,6 +22,11 @@ const { series } = localeData(locale);
           const plats = [...new Set(s.games.map((g) => g.platform.short))];
           return (
             <a class="card series-card" href={localizePath(locale, `/serie/${s.slug}`)}>
+              {s.image && (
+                <span class="sc-art">
+                  <img src={s.image} alt="" loading="lazy" decoding="async" />
+                </span>
+              )}
               <div class="sc-body">
                 <h2>{s.name}</h2>
                 <p class="meta muted">
@@ -47,13 +52,17 @@ const { series } = localeData(locale);
     letter-spacing: 0.5px; color: color-mix(in srgb, var(--accent) 80%, var(--text));
   }
   .series-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 24px; }
+  /* koláž obalů je 1200x480 — v malém čtverečku by z ní byl jen barevný flek,
+     proto jde přes celou šířku karty a text je pod ní */
   .series-card {
-    display: flex; align-items: center; gap: 12px; padding: 16px 18px;
+    display: flex; flex-direction: column; padding: 0; overflow: hidden;
     text-decoration: none; color: inherit;
   }
+  .sc-art { display: block; aspect-ratio: 1200 / 420; overflow: hidden; }
+  .sc-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .sc-body { padding: 14px 16px 4px; }
   .series-card h2 { font-size: 1.05rem; margin: 0 0 4px; }
   .series-card .meta { font-size: 0.84rem; margin: 0; }
-  .sc-body { flex: 1; min-width: 0; }
-  .arrow { color: var(--accent); flex: none; }
+  .arrow { color: var(--accent); align-self: flex-end; padding: 0 16px 12px; }
   .series-card:hover { border-color: var(--accent); }
 </style>

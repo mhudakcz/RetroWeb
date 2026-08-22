@@ -41,6 +41,12 @@ const groups = [...byPlatform.entries()]
     </div>
   </header>
 
+  {s.image && (
+    <figure class="series-art">
+      <img src={s.image} alt={`${s.name} – obaly dílů série`} decoding="async" />
+    </figure>
+  )}
+
   {intro && <div class="article prose" set:html={intro} />}
 
   <section class="games">
@@ -76,6 +82,11 @@ const groups = [...byPlatform.entries()]
     font-size: 0.82rem; padding: 0.4em 0.75em; border-radius: 999px;
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
   }
+  .series-art {
+    margin: 22px 0 4px; border-radius: var(--radius); overflow: hidden;
+    border: 1px solid var(--border-soft); line-height: 0;
+  }
+  .series-art img { width: 100%; height: auto; display: block; }
   .article { margin: 24px 0 8px; font-size: 1.04rem; }
   .games { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
   .sec-title { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 18px; }

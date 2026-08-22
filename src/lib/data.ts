@@ -121,6 +121,8 @@ export interface Series {
   games: GameWithPlatform[];
   gameCount: number;
   intro: string | null;
+  /** koláž z obalů dílů, generuje tools/series_art.py */
+  image: string | null;
 }
 
 interface SeriesDef {
@@ -136,6 +138,12 @@ const seriesDefs = seriesDefsRaw as SeriesDef[];
 
 /** Minimální počet her, aby série dostala vlastní stránku. */
 export const SERIES_MIN = 4;
+
+// koláže z obalů dílů (tools/series_art.py) — u série bez obalů prostě nejsou
+const seriesArtFiles = import.meta.glob('../../public/images/series/*.webp', { eager: true });
+const seriesArt = new Set(
+  Object.keys(seriesArtFiles).map((p) => p.split('/').pop()!.replace(/\.webp$/, '')),
+);
 
 /** Párování na hranice slov — podřetězcem by „Ys" chytlo „Days" a „Ultima" chytla „Ultimate". */
 const RX_SPECIAL = /[.*+?^${}()|[\]\\]/g;
@@ -163,6 +171,7 @@ function buildSeries(source: GameWithPlatform[], locale: string): Map<string, Se
       games,
       gameCount: games.length,
       intro: def.intro?.[locale] ?? def.intro?.cs ?? null,
+      image: seriesArt.has(def.slug) ? `/images/series/${def.slug}.webp` : null,
     });
   }
   return map;
