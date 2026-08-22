@@ -26,7 +26,7 @@ Disketová mechanika používala vlastní formát **880 kB** na 3,5" disketě. K
 
 Řada Amig byla široká. Začalo to drahou profesionální **Amiga 1000** (1985), brzy ji následovaly dva pilíře: domácí **Amiga 500** (1987) v podobě klávesnice „all-in-one", která se stala nejprodávanějším a nejpopulárnějším herním modelem, a desktopová **Amiga 2000** se sloty pro profesionální nasazení.
 
-Na přelomu desetiletí přišla **Amiga 3000** a v roce 1992 generace s novým **čipsetem AGA**: levná **Amiga 1200** (nástupce A500 s 256 barvami z palety 16,8 milionu) a výkonná **Amiga 4000**. Commodore zkusil i konzoli **CDTV** (1991) a později herní **Amigu CD32** (1993) s mechanikou CD-ROM — první 32bitovou herní konzoli s CD na trhu. Komerčně přišla pozdě; v roce 1994 Commodore zbankrotoval.
+Na přelomu desetiletí přišla **Amiga 3000** a v roce 1992 hned dva nové modely. **Amiga 600** byla poslední na starším čipsetu ECS — kompaktní A500 bez numerické klávesnice, se slotem na PCMCIA a možností interního disku, kterou ale hráči brali jako krok vedle. Skutečnou novinkou byla generace s **čipsetem AGA**: levná **Amiga 1200** (nástupce A500 s 256 barvami z palety 16,8 milionu) a výkonná **Amiga 4000**. Commodore zkusil i konzoli **CDTV** (1991) a později herní **Amigu CD32** (1993) s mechanikou CD-ROM — první 32bitovou herní konzoli s CD na trhu. Komerčně přišla pozdě; v roce 1994 Commodore zbankrotoval.
 
 ### Klony a varianty
 

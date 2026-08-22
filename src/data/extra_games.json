@@ -2528,6 +2528,84 @@
    "genre": "Fighting",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Poklad",
+   "genre": "Textová adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Poklad 2",
+   "genre": "Textová adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Podraz 3",
+   "genre": "Textová adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Podraz 4",
+   "genre": "Textová adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Podraz 5",
+   "genre": "Textová adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Indiana Jones 3",
+   "genre": "Textová adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tetris 2",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "F.I.R.E.",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rychlé šípy: Záhada hlavolamu",
+   "genre": "Adventura s grafikou",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Jméno růže",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Xor",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Krtek a autíčko",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
   }
  ],
  "atari-2600": [
@@ -11316,6 +11394,205 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Unreal",
+   "genre": "Stříleč (FPS)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Quake",
+   "genre": "Stříleč (FPS)",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Serious Sam: The First Encounter",
+   "genre": "Stříleč (FPS)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sacrifice",
+   "genre": "Akční strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Giants: Citizen Kabuto",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Messiah",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Divine Divinity",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Syberia",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Outcast",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Brány Skeldalu",
+   "genre": "RPG (dungeon crawler)",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Brány Skeldalu 2",
+   "genre": "Adventura / RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fish Fillets",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Half-Life",
+   "genre": "Stříleč (FPS)",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "StarCraft",
+   "genre": "Strategie (RTS)",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Tajemství Oslího ostrova",
+   "genre": "Adventura (point-and-click)",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Dračí Historie",
+   "genre": "RPG (fantasy)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Polda",
+   "genre": "Adventura (detektivní komedie)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Polda 2",
+   "genre": "Adventura (detektivní komedie)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Horké léto",
+   "genre": "Adventura (detektivní)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "7 dní a 7 nocí",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Asmodeus: Ukradený trůn",
+   "genre": "RPG (fantasy)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Legenda o Zlatém Nezdaru",
+   "genre": "Adventura (komediální fantasy)",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Belegost",
+   "genre": "RPG (fantasy)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ve stínu havrana",
+   "genre": "RPG (fantasy)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hidden & Dangerous",
+   "genre": "Taktická akce (druhá světová válka)",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Original War",
+   "genre": "Real-time strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dostihy a sázky",
+   "genre": "Sportovní/sázková simulace",
+   "length": "M",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -12044,6 +12321,209 @@
    "genre": "Adventura",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Quake",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Duke Nukem 3D",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Hexen: Beyond Heretic",
+   "genre": "Fantasy FPS",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Descent",
+   "genre": "Vesmírný akční simulátor",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Descent II",
+   "genre": "Vesmírný akční simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Blood",
+   "genre": "Akční FPS / Horor",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Shadow Warrior",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Redneck Rampage",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Star Wars: Dark Forces",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Full Throttle",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Discworld",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Star Wars: Rebel Assault",
+   "genre": "Interaktivní film / Rail shooter",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Strife: Quest for the Sovereign",
+   "genre": "FPS / RPG hybrid",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Terminal Velocity",
+   "genre": "Vesmírná akční stříleč",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ishar: Legend of the Fortress",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ishar 2: Messengers of Doom",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ishar 3: The Seven Gates of Infinity",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Albion",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls II: Daggerfall",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Realms of Arkania: Star Trail",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Realms of Arkania: Shadows over Riva",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Septerra Core: Legacy of the Creator",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Outcast",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Normality",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Little Big Adventure",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Little Big Adventure 2: Twinsen's Odyssey",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Might and Magic IV: Clouds of Xeen",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Ultima VIII: Pagan",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "pc-modern": [
@@ -12626,6 +13106,103 @@
    "length": "L",
    "flags": [
     "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Arcanum: Of Steamworks and Magick Obscura",
+   "genre": "CRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mafia",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mafia II",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Operation Flashpoint: Cold War Crisis",
+   "genre": "Taktická střílečka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Vietcong",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Arma 2",
+   "genre": "Vojenská simulace",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Machinarium",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Samorost 3",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Botanicula",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Factorio",
+   "genre": "Strategie / simulace budování",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Beat Saber",
+   "genre": "VR rytmická hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Euro Truck Simulator 2",
+   "genre": "Simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hidden & Dangerous 2",
+   "genre": "Taktická akce",
+   "length": "M",
+   "flags": [
     "mature"
    ]
   }

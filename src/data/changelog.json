@@ -1,5 +1,62 @@
 [
  {
+  "version": "2026.08.22",
+  "date": "2026-08-22",
+  "title": {
+   "cs": "Série, jedna věta ke každé hře a propojené verze",
+   "en": "Series, a one-liner for every game, and linked versions",
+   "de": "Reihen, ein Satz zu jedem Spiel und verknüpfte Fassungen",
+   "fr": "Séries, une phrase par jeu et versions reliées"
+  },
+  "entries": [
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Nová sekce Série provází velké herní značky napříč platformami a generacemi — Mario, Star Wars, Final Fantasy, Doom a další. Každá má průvodní text a pás obalů svých dílů, takže je na první pohled vidět, jak se značka měnila.",
+     "en": "A new Series section walks the big franchises across platforms and generations — Mario, Star Wars, Final Fantasy, Doom and more. Each has an introduction and a strip of its covers, so you can see at a glance how the brand changed.",
+     "de": "Ein neuer Bereich Reihen führt durch die großen Marken über Plattformen und Generationen — Mario, Star Wars, Final Fantasy, Doom und mehr. Jede hat einen Einführungstext und eine Reihe ihrer Cover, sodass die Entwicklung der Marke sofort sichtbar ist.",
+     "fr": "Une nouvelle section Séries parcourt les grandes franchises à travers plateformes et générations — Mario, Star Wars, Final Fantasy, Doom et d’autres. Chacune a un texte d’introduction et une bande de jaquettes, pour voir d’un coup d’œil l’évolution de la marque."
+    }
+   },
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Každá hra v katalogu má teď úvodní shrnující větu — verdikt a jeden konkrétní detail, proč právě ona stojí za pozornost. Dosud ji mělo jen 355 her z více než tří tisíc.",
+     "en": "Every game in the catalog now opens with a one-line summary — a verdict plus the one detail that makes it worth your time. Until now only 355 games out of more than three thousand had one.",
+     "de": "Jedes Spiel im Katalog beginnt jetzt mit einem Einzeiler — ein Urteil plus das eine Detail, das es lohnenswert macht. Bisher hatten das nur 355 von über dreitausend Spielen.",
+     "fr": "Chaque jeu du catalogue s’ouvre désormais sur une phrase de synthèse — un verdict et le détail qui le rend digne d’intérêt. Jusqu’ici, seuls 355 jeux sur plus de trois mille en avaient une."
+    }
+   },
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Tentýž titul na více platformách je nově propojený a u 167 z nich najdeš i poznámku, čím se verze lišily. V osmibitové a šestnáctibitové éře to nebyla formalita: jiný počet barev, jiná hudba, vystřižené úrovně. U Prince of Persia se třeba dozvíš, proč je verze na Amize plynulejší než na Commodore 64.",
+     "en": "The same title on several platforms is now cross-linked, and 167 of them come with a note on how the versions differed. In the 8-bit and 16-bit era that was no formality: fewer colours, different music, cut levels. For Prince of Persia, for instance, you'll learn why the Amiga version moves more smoothly than the Commodore 64 one.",
+     "de": "Derselbe Titel auf mehreren Plattformen ist nun verlinkt, und bei 167 davon gibt es eine Notiz, wie sich die Fassungen unterschieden. In der 8- und 16-Bit-Ära war das keine Formsache: weniger Farben, andere Musik, gestrichene Level. Bei Prince of Persia erfährst du etwa, warum die Amiga-Fassung flüssiger läuft als die auf dem Commodore 64.",
+     "fr": "Un même titre présent sur plusieurs plateformes est maintenant relié, et 167 d’entre eux sont accompagnés d’une note sur les différences entre versions. À l’époque 8 et 16 bits, ce n’était pas un détail : moins de couleurs, une autre musique, des niveaux coupés. Pour Prince of Persia, vous apprendrez par exemple pourquoi la version Amiga est plus fluide que celle du Commodore 64."
+    }
+   },
+   {
+    "tag": "games",
+    "text": {
+     "cs": "Katalog doplnily klasiky, které tu chyběly — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — a česká scéna: Brány Skeldalu, Tajemství Oslího ostrova, Dračí Historie, Polda, Fish Fillets, Mafia, Operation Flashpoint i tituly Františka Fuky pro ZX Spectrum. Celkem 3279 her.",
+     "en": "The catalog gained classics that were missing — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — plus the Czech scene: Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint and František Fuka's ZX Spectrum titles. 3,279 games in total.",
+     "de": "Der Katalog bekam fehlende Klassiker — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — dazu die tschechische Szene: Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint und František Fukas ZX-Spectrum-Titel. Insgesamt 3.279 Spiele.",
+     "fr": "Le catalogue s’est enrichi de classiques qui manquaient — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — ainsi que de la scène tchèque : Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint et les titres ZX Spectrum de František Fuka. 3 279 jeux en tout."
+    }
+   },
+   {
+    "tag": "images",
+    "text": {
+     "cs": "Studia i platformy dostaly pás obalů svých her — u PC řekne víc než fotka béžové skříně. Fotky konzolí mají průhledné pozadí místo bílého a dlouhé články o platformách nově začínají rozcestníkem po sekcích.",
+     "en": "Studios and platforms now show a strip of their games' covers — for the PC that says more than a photo of a beige box. Console photos have transparent backgrounds instead of white, and long platform articles now open with a jump list of their sections.",
+     "de": "Studios und Plattformen zeigen nun eine Reihe ihrer Spiele-Cover — beim PC sagt das mehr als das Foto eines beigen Gehäuses. Konsolenfotos haben transparente statt weiße Hintergründe, und lange Plattform-Artikel beginnen jetzt mit einer Sprungliste ihrer Abschnitte.",
+     "fr": "Studios et plateformes affichent désormais une bande des jaquettes de leurs jeux — pour le PC, cela en dit plus qu’une photo de boîtier beige. Les photos de consoles ont un fond transparent au lieu de blanc, et les longs articles de plateformes commencent par un sommaire de leurs sections."
+    }
+   }
+  ]
+ },
+ {
   "version": "2026.08.19",
   "date": "2026-08-19",
   "title": {

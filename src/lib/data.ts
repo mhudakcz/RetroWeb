@@ -77,7 +77,17 @@ export interface Studio {
   games: GameWithPlatform[];
   gameCount: number;
   article: string | null;
+  /** koláž z obalů her studia, generuje tools/studio_art.py */
+  image: string | null;
 }
+
+// existující koláže; studia s málo obaly ji prostě nemají
+const studioArtFiles = import.meta.glob('../../public/images/studios/*.webp', { eager: true });
+const studioArt = new Set(
+  Object.keys(studioArtFiles).map((p) => p.split('/').pop()!.replace(/\.webp$/, '')),
+);
+const studioImage = (slug: string): string | null =>
+  studioArt.has(slug) ? `/images/studios/${slug}.webp` : null;
 
 export const studioSlug = (name: string): string =>
   name
@@ -145,6 +155,16 @@ const seriesArt = new Set(
   Object.keys(seriesArtFiles).map((p) => p.split('/').pop()!.replace(/\.webp$/, '')),
 );
 
+// koláže z obalů her platformy (tools/platform_art.py) — u PC řekne víc než
+// fotka béžové skříně; existují jen pro platformy, kde se vyrobily
+const platArtFiles = import.meta.glob('../../public/images/platforms/extra/*-games.webp', { eager: true });
+const platArt = new Set(
+  Object.keys(platArtFiles).map((p) => p.split('/').pop()!.replace(/-games\.webp$/, '')),
+);
+/** Pás obalů her dané platformy, pokud existuje. */
+export const platformGamesArt = (slug: string): string | null =>
+  platArt.has(slug) ? `/images/platforms/extra/${slug}-games.webp` : null;
+
 /** Párování na hranice slov — podřetězcem by „Ys" chytlo „Days" a „Ultima" chytla „Ultimate". */
 const RX_SPECIAL = /[.*+?^${}()|[\]\\]/g;
 const seriesPatterns = seriesDefs.map((d) => ({
@@ -201,7 +221,7 @@ for (const g of allGames) {
   if (STUDIO_SKIP.has(slug)) continue;
   let s = studioMap.get(slug);
   if (!s) {
-    s = { slug, name: raw, games: [], gameCount: 0, article: studioArticles[slug] ?? null };
+    s = { slug, name: raw, games: [], gameCount: 0, article: studioArticles[slug] ?? null, image: studioImage(slug) };
     studioMap.set(slug, s);
   }
   s.games.push(g);
@@ -308,6 +328,18 @@ export function platformNeighbors(slug: string): { prev: Platform | null; next: 
   };
 }
 
+// poznámky, čím se lišily verze téhož titulu na jednotlivých platformách
+// (tools/version_notes.workflow.js), klíč = normalizovaný název hry
+import versionNotesRaw from '../data/version_notes.json';
+const versionNotes = versionNotesRaw as Record<string, Record<string, string>>;
+
+/** Text o rozdílech mezi verzemi téhož titulu, nebo null. */
+export function versionNote(name: string, locale = 'cs'): string | null {
+  const n = versionNotes[normGameName(name)];
+  if (!n) return null;
+  return n[locale] ?? n.cs ?? null;
+}
+
 /** Kolik let smí být mezi vydáními, aby šlo o verze TÉŽE hry.
  *  Bez toho by se Doom z roku 1993 spojil s rebootem z roku 2016 —
  *  stejný název, ale jiná hra. */
@@ -356,6 +388,38 @@ export function platformsByType(): { type: PlatformType; label: string; tagline:
 
 // ---------------------------------------------------------------- markdown
 export const mdBlock = (s: string | null | undefined): string => (s ? (marked.parse(s) as string) : '');
+
+/** Nadpisy `### …` z markdownu + jejich id, na obsah dlouhého článku.
+ *  Články o platformách mají pět sekcí a bez rozcestníku je čtenář v textu nenajde. */
+export function mdHeadings(src: string | null | undefined): { id: string; text: string }[] {
+  if (!src) return [];
+  const out: { id: string; text: string }[] = [];
+  const seen = new Set<string>();
+  for (const m of src.matchAll(/^###\s+(.+)$/gm)) {
+    const text = m[1].replace(/[*_`]/g, '').trim();
+    let id = text
+      .normalize('NFKD')
+      .replace(/\p{M}/gu, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+    if (!id) continue;
+    let uniq = id;
+    let i = 2;
+    while (seen.has(uniq)) uniq = `${id}-${i++}`;
+    seen.add(uniq);
+    out.push({ id: uniq, text });
+  }
+  return out;
+}
+
+/** Doplní `id` k `<h3>` v už vyrenderovaném HTML, aby na ně vedly odkazy z obsahu. */
+export function mdBlockAnchored(src: string | null | undefined): string {
+  const html = mdBlock(src);
+  const ids = mdHeadings(src).map((h) => h.id);
+  let i = 0;
+  return html.replace(/<h3>/g, () => (i < ids.length ? `<h3 id="${ids[i++]}">` : '<h3>'));
+}
 export const mdInline = (s: string | null | undefined): string => (s ? (marked.parseInline(s) as string) : '');
 
 // ---------------------------------------------------------------- lokalizace obsahu (EN/DE)
@@ -422,7 +486,7 @@ export function localeData(locale: string): LocaleBundle {
     if (STUDIO_SKIP.has(slug)) continue;
     let s = sMap.get(slug);
     if (!s) {
-      s = { slug, name: raw, games: [], gameCount: 0, article: sT[slug] ?? studioArticles[slug] ?? null };
+      s = { slug, name: raw, games: [], gameCount: 0, article: sT[slug] ?? studioArticles[slug] ?? null, image: studioImage(slug) };
       sMap.set(slug, s);
     }
     s.games.push(g);

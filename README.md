@@ -7,7 +7,7 @@ a hardware jako Anbernic RG35XX&nbsp;Pro, R36S a Batocera.
 
 *A guide to the world of retro gaming — platform history, legendary games and hardware.*
 
-`67 platforem` · `2765 her` · `99 % článků` · `92 % obrázků` · `🇨🇿 🇬🇧 🇩🇪 🇫🇷` · `Astro` · `static`
+`67 platforem` · `3279 her` · `99 % článků` · `90 % obrázků` · `🇨🇿 🇬🇧 🇩🇪 🇫🇷` · `Astro` · `static`
 
 **🌐 Produkce (live):** [retrowebcz.netlify.app](https://retrowebcz.netlify.app) &nbsp;·&nbsp; **🧪 Náhled (GitHub Pages, noindex):** [mhudakcz.github.io/RetroWeb](https://mhudakcz.github.io/RetroWeb/)
 
@@ -27,7 +27,7 @@ Markdown podkladů generuje přehledný katalog retro hraní:
   klony vč. českých, dnešní scéna) prokládaný dobovými fotkami.
 - **Jazyky** — kompletní obsah ve **čtyřech jazycích**: 🇨🇿 čeština, 🇬🇧 angličtina, 🇩🇪 němčina
   a 🇫🇷 francouzština. Přepínač v hlavičce i patičce, hreflang a lokalizovaná sitemap pro SEO.
-- **Hry** — 2765 titulů, **99 % s magazínovým článkem** (CZ). Žánr, délka hraní, počet
+- **Hry** — 3279 titulů, **99 % s magazínovým článkem** a jednou úvodní větou u každé (CZ). Žánr, délka hraní, počet
   hráčů 👥, obal/screenshoty. Katalog s hledáním a filtry (platforma, žánr, homebrew 🆓,
   must-play ⭐, logické 🧩, pro více hráčů). Postupné čtení (předchozí/další) u platforem i her.
 - **Hardware & emulace** — průvodci pro Anbernic RG35XX Pro, R36S, Batocera, Raspberry Pi,
@@ -89,7 +89,7 @@ into a browsable retro-gaming catalog:
   models, clones, today's scene) interwoven with period photos.
 - **Languages** — full content in **four languages**: 🇨🇿 Czech, 🇬🇧 English, 🇩🇪 German and
   🇫🇷 French. Switcher in header and footer, hreflang and a localized sitemap for SEO.
-- **Games** — 2765 titles, **99 % with a magazine-style write-up**. Genre, play-length,
+- **Games** — 3279 titles, **99 % with a magazine-style write-up** and a one-line summary each. Genre, play-length,
   player count 👥, box art / screenshots. Catalog with search and filters (platform, genre,
   homebrew 🆓, must-play ⭐, puzzle 🧩, multiplayer), plus prev/next reading navigation.
 - **Hardware & emulation** — guides for Anbernic RG35XX Pro, R36S, Batocera, Raspberry Pi,

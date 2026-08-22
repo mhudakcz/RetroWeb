@@ -119,6 +119,8 @@ const UI: Dict = {
     fr: 'Les grandes franchises du jeu, toutes plateformes et générations confondues — du premier au dernier épisode.',
   },
   'series.inCatalog': { cs: 'her v katalogu', en: 'games in the catalog', de: 'Spiele im Katalog', fr: 'jeux au catalogue' },
+  'series.titles': { cs: 'titulů v katalogu', en: 'titles in the catalog', de: 'Titel im Katalog', fr: 'titres au catalogue' },
+  'series.versions': { cs: 'verzí napříč platformami', en: 'versions across platforms', de: 'Fassungen über Plattformen', fr: 'versions toutes plateformes' },
   'series.games': { cs: 'Díly série', en: 'Entries in the series', de: 'Teile der Reihe', fr: 'Épisodes de la série' },
   'game.sameSeries': { cs: 'Ze stejné série', en: 'From the same series', de: 'Aus derselben Reihe', fr: 'De la même série' },
   'game.alsoOn': { cs: 'Tentýž titul jinde', en: 'The same title elsewhere', de: 'Derselbe Titel woanders', fr: 'Le même titre ailleurs' },

@@ -28,6 +28,12 @@ const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : nu
     </div>
   </header>
 
+  {studio.image && (
+    <figure class="studio-art">
+      <img src={studio.image} alt={`${studio.name} – obaly her studia`} decoding="async" />
+    </figure>
+  )}
+
   {article && <div class="article prose" set:html={article} />}
 
   <section class="games">
@@ -53,6 +59,11 @@ const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : nu
     font-size: 0.82rem; padding: 0.4em 0.75em; border-radius: 999px;
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
   }
+  .studio-art {
+    margin: 22px 0 4px; border-radius: var(--radius); overflow: hidden;
+    border: 1px solid var(--border-soft); line-height: 0;
+  }
+  .studio-art img { width: 100%; height: auto; display: block; }
   .article { margin: 24px 0 8px; font-size: 1.04rem; }
   .games { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
   .sec-title { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 18px; }

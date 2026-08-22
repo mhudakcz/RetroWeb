@@ -14,6 +14,20 @@ Největší dědictví původního Xboxu ale neleží v křemíku, nýbrž v sí
 
 Fenoménem, který službu vynesl do nebes, se stal **Halo 2** v roce 2004. Jeho multiplayer přes Xbox Live doslova definoval online konzolové střílečky a na roky přilepil miliony hráčů k obrazovkám. Model předplatného a propracovaná infrastruktura se pak staly šablonou, kterou dodnes kopíruje celé odvětví.
 
+### Modely a revize
+
+Xbox se prodával v jediné podobě a Microsoft ho na rozdíl od konkurence nikdy nezmenšil —
+žádná „Slim" verze nepřišla. Uvnitř se ale konzole měnila: existuje několik **revizí
+základní desky**, které se liší DVD mechanikou a čipy, a právě podle nich se pozná, jak
+snadno se stroj upravuje. Rané revize se daly softwarově odemknout přes chybu v uložených
+pozicích některých her, u pozdějších už bylo potřeba sáhnout do hardwaru. Pro dnešní
+sběratele je to první věc, kterou u nabízeného kusu zjišťuje.
+
+Vedle standardní černé verze vyšly limitované edice — nejznámější je průhledná
+**Crystal**, dále barevné varianty vázané na konkrétní hry nebo regiony. Ovladač prošel
+jednou zásadní obměnou: původní **Duke**, pověstný svou velikostí, vystřídal menší
+**Controller S**, původně určený pro japonský trh, který se pak stal standardem všude.
+
 ### Periferie a ovladače
 
 Původní ovladač Xboxu vešel do dějin pod přezdívkou **"Duke"** — obří, těžký kontroler, který se stal terčem posměchu kvůli svým rozměrům, jež nevyhovovaly menším rukám (a zejména japonskému trhu). Microsoft na kritiku rychle zareagoval a představil menší, ergonomičtější **Controller S**, který se posléze stal standardem a inspiroval i pozdější ovladače Xboxu 360.

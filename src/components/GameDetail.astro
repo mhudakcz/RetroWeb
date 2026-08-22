@@ -1,5 +1,5 @@
 ---
-import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink, seriesOfGame, sameGameElsewhere } from '../lib/data';
+import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink, seriesOfGame, sameGameElsewhere, versionNote, normGameName } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -21,18 +21,25 @@ const shots = game.gallery.filter((g) => g.kind !== 'box' && g.src !== game.imag
 const playtime = playtimeLabel(game.length, game.est);
 const gameSeries = seriesOfGame(game.name, localeData(locale).series);
 const elsewhere = sameGameElsewhere(game, localeData(locale).allGames);
+const verNote = elsewhere.length > 0 ? versionNote(game.name, locale) : null;
 // další díly série — bez těch, které už jsou v „Tentýž titul jinde"
 const elsewhereSlugs = new Set([game.slug, ...elsewhere.map((g) => g.slug)]);
 const seriesPicks = gameSeries.flatMap((s) =>
   s.games.filter((g) => !elsewhereSlugs.has(g.slug)).map((g) => ({ g, series: s })),
 );
-// dedup přes série (crossovery patří do dvou) a rozumný strop na stránku
-const seenPick = new Set<string>();
-const siblings = seriesPicks.filter(({ g }) => {
-  if (seenPick.has(g.slug)) return false;
-  seenPick.add(g.slug);
-  return true;
-}).slice(0, 12);
+// jeden titul = jeden odkaz. Bez toho tu Prince of Persia: The Sands of Time
+// visel třikrát (PS2, GCN, Xbox) — stejná hra, jen jiná platforma.
+const seenTitle = new Map<string, { g: (typeof seriesPicks)[number]['g']; plats: string[] }>();
+for (const { g } of seriesPicks) {
+  const key = normGameName(g.name);
+  const e = seenTitle.get(key);
+  if (e) {
+    if (!e.plats.includes(g.platform.short)) e.plats.push(g.platform.short);
+  } else {
+    seenTitle.set(key, { g, plats: [g.platform.short] });
+  }
+}
+const siblings = [...seenTitle.values()].slice(0, 12);
 const clean = (s: string) => s.replace(/[*_\x60]/g, '');
 
 const FLAG_T: Record<string, string> = {
@@ -151,6 +158,7 @@ const posText = {
   {elsewhere.length > 0 && (
     <section class="elsewhere">
       <h2 class="els-title">{t(locale, 'game.alsoOn')} <span class="muted">({elsewhere.length})</span></h2>
+      {verNote && <p class="els-note">{verNote}</p>}
       <div class="els-row">
         {elsewhere.map((g) => (
           <a class="els-item" href={lp(`/hry/${g.slug}`)} style={`--c1:${g.platform.color}; --c2:${g.platform.color2}`}>
@@ -177,7 +185,7 @@ const posText = {
         ))}
       </h2>
       <div class="els-row">
-        {siblings.map(({ g }) => (
+        {siblings.map(({ g, plats }) => (
           <a class="els-item" href={lp(`/hry/${g.slug}`)} style={`--c1:${g.platform.color}; --c2:${g.platform.color2}`}>
             <span class="els-thumb">
               {g.image ? <img src={g.image} alt="" loading="lazy" decoding="async" />
@@ -185,7 +193,7 @@ const posText = {
             </span>
             <span class="els-text">
               <span class="els-plat" set:html={mdInline(g.name)} />
-              <span class="els-year muted">{g.platform.short}{g.year ? ` · ${g.year}` : ''}</span>
+              <span class="els-year muted">{plats.join(' · ')}{g.year ? ` · ${g.year}` : ''}</span>
             </span>
           </a>
         ))}
@@ -284,6 +292,11 @@ const posText = {
   .els-text { display: flex; flex-direction: column; line-height: 1.25; }
   .els-plat { font-size: 0.88rem; }
   .els-year { font-size: 0.76rem; }
+  .els-note {
+    margin: 0 0 14px; font-size: 0.95rem; color: var(--muted);
+    border-left: 3px solid color-mix(in srgb, var(--accent) 45%, var(--border));
+    padding-left: 12px; max-width: 66ch;
+  }
   .els-serieslink { color: var(--accent); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
   .els-serieslink:hover { text-decoration: underline; }
   .teaser { font-size: 1.15rem; line-height: 1.55; color: var(--text); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; margin-bottom: 22px; }

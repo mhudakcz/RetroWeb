@@ -555,6 +555,10 @@ def build():
     game_players = json.loads(players_file.read_text(encoding="utf-8")) if players_file.exists() else {}
     meta_file = ROOT / "src" / "data" / "game_meta.json"
     game_meta = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
+    # dogenerované teasery (slug -> věta); použijí se jen tam, kde ho podklady nemají,
+    # aby ručně psané teasery z MD průvodce zůstaly nedotčené
+    teaser_file = ROOT / "src" / "data" / "game_teasers.json"
+    extra_teasers = json.loads(teaser_file.read_text(encoding="utf-8")) if teaser_file.exists() else {}
     ratings_file = ROOT / "src" / "data" / "game_ratings.json"
     game_ratings_raw = json.loads(ratings_file.read_text(encoding="utf-8")) if ratings_file.exists() else {}
     # zploštění na jeden štítek: preferuj PEGI, jinak ESRB
@@ -650,6 +654,12 @@ def build():
                 gslug = f"{gslug}-{seen_gslugs[gslug]}"
             else:
                 seen_gslugs[gslug] = 1
+
+            if not teaser and gslug in extra_teasers:
+                t = (extra_teasers[gslug] or "").strip()
+                if t:
+                    teaser = t
+                    matched_teaser += 1
 
             # fallback rok/studio z Wikidata (game_meta.json), když je z podkladů nemáme
             gm = game_meta.get(gslug) or {}

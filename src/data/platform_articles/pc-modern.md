@@ -18,6 +18,27 @@ Základem zůstala **klávesnice a myš**, dvojice, kterou žádná konzole nikd
 
 Přibyly i periferie, které konzole nemají — **VR headsety**, vysokofrekvenční monitory, volanty i páky pro simulátory. Na straně paměti se prostřídaly generace **DDR** až po DDR5, ale největší praktický rozdíl udělalo úložiště: přechod z pevných disků na **SSD** a dál na **NVMe** disky připojené přes PCI Express zkrátil načítací obrazovky z desítek sekund na jednotky a umožnil hrám streamovat obrovské otevřené světy za běhu.
 
+### Generace a revize
+
+Na PC neexistuje „model", jen generace komponent — a mezi začátkem a koncem této éry
+je propast, jakou konzole nikdy nezažily. Rok 2001 znamenal **Pentium 4** a **Athlon XP**
+s jedním jádrem; herní zlom přinesly **programovatelné shadery** (GeForce 3, Radeon 9700
+a DirectX 9), díky nimž hry poprvé vypadaly jinak než jako sada nasvícených textur.
+
+V roce 2003 přišel **Athlon 64** a s ním architektura x86-64, tedy 64bitové adresování,
+které dnes bereme jako samozřejmost. Skutečnou revolucí v obyčejném počítači ale bylo
+**více jader**: od Core 2 Dua se rozdíl mezi „procesorem na kancelář" a „procesorem na hry"
+začal měřit hlavně jejich počtem a v roce 2017 ho **Ryzen** vyhnal do osmi a víc.
+Grafika mezitím prošla unifikovanými shadery (GeForce 8800), DirectX 11 a 12, Vulkanem
+a nakonec **ray tracingem** s upscalováním (DLSS, FSR), které ubraný výkon dohání
+dopočítáváním pixelů.
+
+Nejcitelnější změnu ale nepřinesl výkon, nýbrž úložiště. Přechod z **pevného disku na SSD**
+a později **NVMe** zkrátil načítání z desítek sekund na jednotky a u velkých otevřených světů
+rozhodl o tom, jestli je hra plynulá. Poslední kapitolou jsou **přenosná herní PC** —
+Steam Deck a jeho následovníci — kde se skládačka komponent poprvé zabalila do jednoho
+zařízení s pevně danou konfigurací, tedy vlastně do něčeho velmi podobného konzoli.
+
 ### Digitální distribuce a služby
 
 **Steam** spustil Valve v roce **2003** a hráči ho zpočátku upřímně nenáviděli — hlavně proto, že bez něj v roce 2004 nešlo spustit Half-Life 2, tehdy zcela nevídaná podmínka. Během několika let se ale z nutného zla stal nejpohodlnější způsob, jak hry kupovat, aktualizovat a mít je navždy dostupné. Následovaly **GOG.com** se hrami bez ochran a s péčí o staré tituly, **Epic Games Store** i předplatné **Game Pass**.

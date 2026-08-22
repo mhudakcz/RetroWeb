@@ -1762,13 +1762,25 @@
     "studio": "ELF",
     "year": "1996"
   },
+  "pc-9x__7-dni-7-noci": {
+    "studio": "domácí vývojářský tým",
+    "year": "1998"
+  },
   "pc-9x__aliens-versus-predator": {
     "studio": "Rebellion Developments",
     "year": "1999"
   },
+  "pc-9x__asmodeus-ukradeny-trun": {
+    "studio": "malé české studio",
+    "year": "1997"
+  },
   "pc-9x__baldur-s-gate-ii-shadows-of-amn": {
     "studio": "BioWare",
     "year": "2000"
+  },
+  "pc-9x__belegost": {
+    "studio": "malé české studio",
+    "year": "1999"
   },
   "pc-9x__blade-runner": {
     "studio": "Westwood Studios",
@@ -1777,6 +1789,14 @@
   "pc-9x__blood": {
     "studio": "Monolith Productions",
     "year": "1997"
+  },
+  "pc-9x__brany-skeldalu": {
+    "studio": "Napoleon Games",
+    "year": "1998"
+  },
+  "pc-9x__brany-skeldalu-2": {
+    "studio": "Napoleon Games",
+    "year": "2002"
   },
   "pc-9x__broken-sword-ii-smoking-mirror": {
     "studio": "Revolution Software",
@@ -1826,6 +1846,18 @@
     "studio": "Blizzard North",
     "year": "2000"
   },
+  "pc-9x__divine-divinity": {
+    "studio": "Larian Studios",
+    "year": "2002"
+  },
+  "pc-9x__dostihy-sazky": {
+    "studio": "malé české studio",
+    "year": "1998"
+  },
+  "pc-9x__draci-historie": {
+    "studio": "malé české studio",
+    "year": "1998"
+  },
   "pc-9x__driver": {
     "studio": "Reflections Interactive",
     "year": "1999"
@@ -1854,6 +1886,10 @@
     "studio": "Square",
     "year": "1998"
   },
+  "pc-9x__fish-fillets": {
+    "studio": "ALTAR Interactive",
+    "year": "1998"
+  },
   "pc-9x__flight-unlimited-ii": {
     "studio": "Looking Glass Studios",
     "year": "1997"
@@ -1865,6 +1901,10 @@
   "pc-9x__gabriel-knight-beast-within": {
     "studio": "Sierra On-Line",
     "year": "1995"
+  },
+  "pc-9x__giants-citizen-kabuto": {
+    "studio": "Planet Moon Studios",
+    "year": "2000"
   },
   "pc-9x__grand-prix-3": {
     "studio": "MicroProse",
@@ -1878,8 +1918,16 @@
     "studio": "Massive Entertainment",
     "year": "2000"
   },
+  "pc-9x__half-life": {
+    "studio": "Valve",
+    "year": "1998"
+  },
   "pc-9x__half-life-opposing-force": {
     "studio": "Gearbox Software",
+    "year": "1999"
+  },
+  "pc-9x__hidden-and-dangerous": {
+    "studio": "Illusion Softworks",
     "year": "1999"
   },
   "pc-9x__hitman-codename-47": {
@@ -1889,6 +1937,10 @@
   "pc-9x__homeworld": {
     "studio": "Relic Entertainment",
     "year": "1999"
+  },
+  "pc-9x__horke-leto": {
+    "studio": "malé české studio",
+    "year": "1997"
   },
   "pc-9x__icewind-dale": {
     "studio": "Black Isle Studios",
@@ -1906,6 +1958,10 @@
     "studio": "Smoking Car Productions",
     "year": "1997"
   },
+  "pc-9x__legenda-o-zlatem-nezdaru": {
+    "studio": "domácí vývojářský tým",
+    "year": "1999"
+  },
   "pc-9x__longest-journey": {
     "studio": "Funcom",
     "year": "2000"
@@ -1913,6 +1969,10 @@
   "pc-9x__master-of-orion-ii-battle-at-antares": {
     "studio": "Simtex",
     "year": "1996"
+  },
+  "pc-9x__messiah": {
+    "studio": "Shiny Entertainment",
+    "year": "2000"
   },
   "pc-9x__metal-gear-solid": {
     "studio": "Konami",
@@ -1954,13 +2014,33 @@
     "studio": "Monolith Productions",
     "year": "2000"
   },
+  "pc-9x__original-war": {
+    "studio": "Altar Interactive",
+    "year": "2001"
+  },
+  "pc-9x__outcast": {
+    "studio": "Appeal",
+    "year": "1999"
+  },
   "pc-9x__pod": {
     "studio": "Ubi Soft",
     "year": "1997"
   },
+  "pc-9x__polda": {
+    "studio": "Zima Software",
+    "year": "1998"
+  },
+  "pc-9x__polda-2": {
+    "studio": "Zima Software",
+    "year": "1999"
+  },
   "pc-9x__populous-beginning": {
     "studio": "Bullfrog Productions",
     "year": "1998"
+  },
+  "pc-9x__quake": {
+    "studio": "id Software",
+    "year": "1996"
   },
   "pc-9x__quake-ii": {
     "studio": "id Software",
@@ -1986,9 +2066,17 @@
     "studio": "Chris Sawyer Productions",
     "year": "1999"
   },
+  "pc-9x__sacrifice": {
+    "studio": "Shiny Entertainment",
+    "year": "2000"
+  },
   "pc-9x__sanitarium": {
     "studio": "DreamForge Intertainment",
     "year": "1998"
+  },
+  "pc-9x__serious-sam-first-encounter": {
+    "studio": "Croteam",
+    "year": "2001"
   },
   "pc-9x__settlers-iii": {
     "studio": "Blue Byte Software",
@@ -2018,9 +2106,21 @@
     "studio": "LucasArts",
     "year": "1997"
   },
+  "pc-9x__starcraft": {
+    "studio": "Blizzard Entertainment",
+    "year": "1998"
+  },
+  "pc-9x__syberia": {
+    "studio": "Microïds",
+    "year": "2002"
+  },
   "pc-9x__system-shock-2": {
     "studio": "Irrational Games",
     "year": "1999"
+  },
+  "pc-9x__tajemstvi-osliho-ostrova": {
+    "studio": "malé české studio",
+    "year": "1997"
   },
   "pc-9x__theme-hospital": {
     "studio": "Bullfrog Productions",
@@ -2070,12 +2170,20 @@
     "studio": "Origin Systems",
     "year": "1997"
   },
+  "pc-9x__unreal": {
+    "studio": "Epic MegaGames / Digital Extremes",
+    "year": "1998"
+  },
   "pc-9x__unreal-tournament": {
     "studio": "Epic Games",
     "year": "1999"
   },
   "pc-9x__vampire-masquerade-redemption": {
     "studio": "Nihilistic Software",
+    "year": "2000"
+  },
+  "pc-9x__ve-stinu-havrana": {
+    "studio": "malé české studio",
     "year": "2000"
   },
   "pc-9x__warcraft-ii-tides-of-darkness": {
@@ -2089,6 +2197,10 @@
   "pc-dos__aces-of-pacific": {
     "studio": "Dynamix",
     "year": "1992"
+  },
+  "pc-dos__albion": {
+    "studio": "Blue Byte",
+    "year": "1996"
   },
   "pc-dos__alone-in-dark": {
     "studio": "Infogrames",
@@ -2122,6 +2234,10 @@
     "studio": "JAM Productions",
     "year": "1993"
   },
+  "pc-dos__blood": {
+    "studio": "Monolith Productions",
+    "year": "1997"
+  },
   "pc-dos__caesar": {
     "studio": "Impressions Games",
     "year": "1992"
@@ -2154,9 +2270,21 @@
     "studio": "LucasArts",
     "year": "1993"
   },
+  "pc-dos__descent": {
+    "studio": "Parallax Software",
+    "year": "1995"
+  },
+  "pc-dos__descent-ii": {
+    "studio": "Parallax Software",
+    "year": "1996"
+  },
   "pc-dos__digger": {
     "studio": "Windmill Software",
     "year": "1983"
+  },
+  "pc-dos__discworld": {
+    "studio": "Perfect Entertainment",
+    "year": "1995"
   },
   "pc-dos__disney-s-aladdin": {
     "studio": "Virgin Games",
@@ -2170,9 +2298,17 @@
     "studio": "id Software",
     "year": "1994"
   },
+  "pc-dos__duke-nukem-3d": {
+    "studio": "3D Realms",
+    "year": "1996"
+  },
   "pc-dos__elder-scrolls-arena": {
     "studio": "Bethesda Softworks",
     "year": "1994"
+  },
+  "pc-dos__elder-scrolls-ii-daggerfall": {
+    "studio": "Bethesda Softworks",
+    "year": "1996"
   },
   "pc-dos__eye-of-beholder": {
     "studio": "Westwood Associates",
@@ -2202,6 +2338,10 @@
     "studio": "Frontier Developments",
     "year": "1993"
   },
+  "pc-dos__full-throttle": {
+    "studio": "LucasArts",
+    "year": "1995"
+  },
   "pc-dos__gabriel-knight-sins-of-fathers": {
     "studio": "Sierra On-Line",
     "year": "1993"
@@ -2213,6 +2353,10 @@
   "pc-dos__heretic": {
     "studio": "Raven Software",
     "year": "1994"
+  },
+  "pc-dos__hexen-beyond-heretic": {
+    "studio": "Raven Software",
+    "year": "1995"
   },
   "pc-dos__hocus-pocus": {
     "studio": "Moonlite Software",
@@ -2233,6 +2377,18 @@
   "pc-dos__indianapolis-500-simulation": {
     "studio": "Papyrus Design Group",
     "year": "1989"
+  },
+  "pc-dos__ishar-2-messengers-of-doom": {
+    "studio": "Silmarils",
+    "year": "1993"
+  },
+  "pc-dos__ishar-3-seven-gates-of-infinity": {
+    "studio": "Silmarils",
+    "year": "1994"
+  },
+  "pc-dos__ishar-legend-of-fortress": {
+    "studio": "Silmarils",
+    "year": "1992"
   },
   "pc-dos__jazz-jackrabbit": {
     "studio": "Epic MegaGames",
@@ -2261,6 +2417,14 @@
   "pc-dos__links-challenge-of-golf": {
     "studio": "Access Software",
     "year": "1990"
+  },
+  "pc-dos__little-big-adventure": {
+    "studio": "Adeline Software International",
+    "year": "1994"
+  },
+  "pc-dos__little-big-adventure-2-twinsen-s-odyssey": {
+    "studio": "Adeline Software International",
+    "year": "1997"
   },
   "pc-dos__loom": {
     "studio": "Lucasfilm Games",
@@ -2294,6 +2458,10 @@
     "studio": "New World Computing",
     "year": "1991"
   },
+  "pc-dos__might-and-magic-iv-clouds-of-xeen": {
+    "studio": "New World Computing",
+    "year": "1992"
+  },
   "pc-dos__monkey-island-2-lechuck-s-revenge": {
     "studio": "LucasArts",
     "year": "1991"
@@ -2305,6 +2473,14 @@
   "pc-dos__nascar-racing": {
     "studio": "Papyrus Design Group",
     "year": "1994"
+  },
+  "pc-dos__normality": {
+    "studio": "Gremlin Interactive",
+    "year": "1996"
+  },
+  "pc-dos__outcast": {
+    "studio": "Appeal",
+    "year": "1999"
   },
   "pc-dos__oxyd": {
     "studio": "Dongleware",
@@ -2334,6 +2510,10 @@
     "studio": "Titus",
     "year": "1993"
   },
+  "pc-dos__quake": {
+    "studio": "id Software",
+    "year": "1996"
+  },
   "pc-dos__raptor-call-of-shadows": {
     "studio": "Cygnus Studios",
     "year": "1994"
@@ -2346,9 +2526,21 @@
     "studio": "Attic Entertainment Software",
     "year": "1993"
   },
+  "pc-dos__realms-of-arkania-shadows-over-riva": {
+    "studio": "Attic Entertainment",
+    "year": "1996"
+  },
+  "pc-dos__realms-of-arkania-star-trail": {
+    "studio": "Attic Entertainment",
+    "year": "1994"
+  },
   "pc-dos__red-baron": {
     "studio": "Dynamix",
     "year": "1990"
+  },
+  "pc-dos__redneck-rampage": {
+    "studio": "Xatrix Entertainment",
+    "year": "1997"
   },
   "pc-dos__rise-of-triad-dark-war": {
     "studio": "Apogee Software",
@@ -2365,6 +2557,14 @@
   "pc-dos__sensible-soccer": {
     "studio": "Sensible Software",
     "year": "1993"
+  },
+  "pc-dos__septerra-core-legacy-of-creator": {
+    "studio": "Valkyrie Studios",
+    "year": "1999"
+  },
+  "pc-dos__shadow-warrior": {
+    "studio": "3D Realms",
+    "year": "1997"
   },
   "pc-dos__shadowcaster": {
     "studio": "Raven Software",
@@ -2394,6 +2594,14 @@
     "studio": "The Bitmap Brothers",
     "year": "1992"
   },
+  "pc-dos__star-wars-dark-forces": {
+    "studio": "LucasArts",
+    "year": "1995"
+  },
+  "pc-dos__star-wars-rebel-assault": {
+    "studio": "LucasArts",
+    "year": "1993"
+  },
   "pc-dos__star-wars-tie-fighter": {
     "studio": "Totally Games",
     "year": "1994"
@@ -2401,6 +2609,10 @@
   "pc-dos__star-wars-x-wing": {
     "studio": "Totally Games",
     "year": "1993"
+  },
+  "pc-dos__strife-quest-for-sovereign": {
+    "studio": "Rogue Entertainment",
+    "year": "1996"
   },
   "pc-dos__strike-commander": {
     "studio": "Origin Systems",
@@ -2421,6 +2633,10 @@
   "pc-dos__tajemstvi-osliho-ostrova": {
     "studio": "Vochozka Trading",
     "year": "1994"
+  },
+  "pc-dos__terminal-velocity": {
+    "studio": "Terminal Reality",
+    "year": "1995"
   },
   "pc-dos__test-drive-ii-duel": {
     "studio": "Distinctive Software",
@@ -2457,6 +2673,10 @@
   "pc-dos__ultima-vii-black-gate": {
     "studio": "Origin Systems",
     "year": "1992"
+  },
+  "pc-dos__ultima-viii-pagan": {
+    "studio": "Origin Systems",
+    "year": "1994"
   },
   "pc-dos__warlords-ii": {
     "studio": "Strategic Studies Group",
@@ -2506,6 +2726,14 @@
     "studio": "Blue Byte",
     "year": "2019"
   },
+  "pc-modern__arcanum-of-steamworks-and-magick-obscura": {
+    "studio": "Troika Games",
+    "year": "2001"
+  },
+  "pc-modern__arma-2": {
+    "studio": "Bohemia Interactive",
+    "year": "2009"
+  },
   "pc-modern__assetto-corsa": {
     "studio": "Kunos Simulazioni",
     "year": "2014"
@@ -2526,9 +2754,17 @@
     "studio": "DICE",
     "year": "2010"
   },
+  "pc-modern__beat-saber": {
+    "studio": "Beat Games",
+    "year": "2018"
+  },
   "pc-modern__bioshock": {
     "studio": "2K Boston",
     "year": "2007"
+  },
+  "pc-modern__botanicula": {
+    "studio": "Amanita Design",
+    "year": "2012"
   },
   "pc-modern__call-of-duty-4-modern-warfare": {
     "studio": "Infinity Ward",
@@ -2598,6 +2834,10 @@
     "studio": "ZeniMax Online Studios",
     "year": "2014"
   },
+  "pc-modern__euro-truck-simulator-2": {
+    "studio": "SCS Software",
+    "year": "2012"
+  },
   "pc-modern__europa-universalis-iv": {
     "studio": "Paradox Development Studio",
     "year": "2013"
@@ -2605,6 +2845,10 @@
   "pc-modern__f-e-r": {
     "studio": "Monolith Productions",
     "year": "2005"
+  },
+  "pc-modern__factorio": {
+    "studio": "Wube Software",
+    "year": "2020"
   },
   "pc-modern__fallout-3": {
     "studio": "Bethesda Game Studios",
@@ -2642,6 +2886,10 @@
     "studio": "Valve",
     "year": "2004"
   },
+  "pc-modern__hidden-and-dangerous-2": {
+    "studio": "Illusion Softworks",
+    "year": "2003"
+  },
   "pc-modern__homeworld-2": {
     "studio": "Relic Entertainment",
     "year": "2003"
@@ -2670,6 +2918,18 @@
     "studio": "Valve",
     "year": "2009"
   },
+  "pc-modern__machinarium": {
+    "studio": "Amanita Design",
+    "year": "2009"
+  },
+  "pc-modern__mafia": {
+    "studio": "Illusion Softworks",
+    "year": "2002"
+  },
+  "pc-modern__mafia-ii": {
+    "studio": "2K Czech",
+    "year": "2010"
+  },
   "pc-modern__max-payne": {
     "studio": "Remedy Entertainment",
     "year": "2001"
@@ -2685,6 +2945,10 @@
   "pc-modern__no-man-s-sky": {
     "studio": "Hello Games",
     "year": "2016"
+  },
+  "pc-modern__operation-flashpoint-cold-war-crisis": {
+    "studio": "Bohemia Interactive",
+    "year": "2001"
   },
   "pc-modern__ori-and-blind-forest": {
     "studio": "Moon Studios",
@@ -2717,6 +2981,10 @@
   "pc-modern__s-t-l-k-e-r-shadow-of-chernobyl": {
     "studio": "GSC Game World",
     "year": "2007"
+  },
+  "pc-modern__samorost-3": {
+    "studio": "Amanita Design",
+    "year": "2016"
   },
   "pc-modern__satisfactory": {
     "studio": "Coffee Stain Studios",
@@ -2773,6 +3041,10 @@
   "pc-modern__vampire-masquerade-bloodlines": {
     "studio": "Troika Games",
     "year": "2004"
+  },
+  "pc-modern__vietcong": {
+    "studio": "Pterodon",
+    "year": "2003"
   },
   "pc-modern__warcraft-iii-reign-of-chaos": {
     "studio": "Blizzard Entertainment",
@@ -7662,5 +7934,53 @@
   "xbox__voodoo-vince": {
     "studio": "Beep Industries",
     "year": "2003"
+  },
+  "zx-spectrum__f-i-r-e": {
+    "studio": "Fuxoft (František Fuka, Michal Hlaváč)",
+    "year": "1988"
+  },
+  "zx-spectrum__indiana-jones-3": {
+    "studio": "Fuxoft",
+    "year": "1990"
+  },
+  "zx-spectrum__jmeno-ruze": {
+    "studio": "Jiří Koudelka (George K.)",
+    "year": "1991"
+  },
+  "zx-spectrum__krtek-auticko": {
+    "studio": "Kybersoft",
+    "year": "1990"
+  },
+  "zx-spectrum__podraz-3": {
+    "studio": "Fuxoft",
+    "year": "1986"
+  },
+  "zx-spectrum__podraz-4": {
+    "studio": "Fuxoft / Antok Software",
+    "year": "1986"
+  },
+  "zx-spectrum__podraz-5": {
+    "studio": "František Fuka, Daniel Pražák",
+    "year": "1988"
+  },
+  "zx-spectrum__poklad": {
+    "studio": "Fuxoft",
+    "year": "1984"
+  },
+  "zx-spectrum__poklad-2": {
+    "studio": "Fuxoft",
+    "year": "1985"
+  },
+  "zx-spectrum__rychle-sipy-zahada-hlavolamu": {
+    "studio": "Májasoft / CIDsoft (Petr a Ondřej Mihula)",
+    "year": "1988"
+  },
+  "zx-spectrum__tetris-2": {
+    "studio": "Fuxoft",
+    "year": "1990"
+  },
+  "zx-spectrum__xor": {
+    "studio": "GCC (Marek Trmač)",
+    "year": "1990"
   }
 }

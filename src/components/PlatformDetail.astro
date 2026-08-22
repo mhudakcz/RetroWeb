@@ -1,7 +1,7 @@
 ---
 import PlatformEmblem from './PlatformEmblem.astro';
 import GameCard from './GameCard.astro';
-import { localeData, TYPE_LABEL, mdBlock, platformNeighbors, GENRE_CATS, genreCats } from '../lib/data';
+import { localeData, TYPE_LABEL, mdBlock, mdBlockAnchored, mdHeadings, platformNeighbors, platformGamesArt, GENRE_CATS, genreCats } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -9,7 +9,10 @@ interface Props { slug: string; locale?: Locale; }
 const { slug, locale = DEFAULT_LOCALE } = Astro.props;
 const { getPlatform } = localeData(locale);
 const platform = getPlatform(slug)!;
-const history = mdBlock(platform.history);
+const history = mdBlockAnchored(platform.history);
+// rozcestník po sekcích článku — bez něj je v dlouhém textu nikdo nenajde
+const historyToc = mdHeadings(platform.history);
+const gamesArt = platformGamesArt(platform.slug);
 const withDetail = platform.games.filter((g) => g.detail).length;
 const { prev, next } = platformNeighbors(platform.slug);
 const lp = (p: string) => localizePath(locale, p);
@@ -54,7 +57,17 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
     <section class="section history-sec">
       <div class="container narrow">
         <h2 class="sec-title">{t(locale, 'detail.history')}</h2>
+        {historyToc.length > 1 && (
+          <nav class="art-toc" aria-label={t(locale, 'detail.history')}>
+            {historyToc.map((h) => <a href={`#${h.id}`}>{h.text}</a>)}
+          </nav>
+        )}
         <div class="prose" set:html={history} />
+        {gamesArt && (
+          <figure class="games-art">
+            <img src={gamesArt} alt={`${platform.name} – obaly her`} loading="lazy" decoding="async" />
+          </figure>
+        )}
       </div>
     </section>
   )
@@ -170,6 +183,19 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
   .pcell[hidden] { display: none; }
   .empty { text-align: center; padding: 36px 0; }
   .history-sec { background: var(--bg-2); border-block: 1px solid var(--border-soft); }
+  .games-art {
+    margin: 26px 0 0; border-radius: var(--radius); overflow: hidden;
+    border: 1px solid var(--border-soft); line-height: 0;
+  }
+  .games-art img { width: 100%; height: auto; display: block; }
+  .art-toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 22px; }
+  .art-toc a {
+    font-size: 0.84rem; padding: 0.38em 0.8em; border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--muted); text-decoration: none;
+  }
+  .art-toc a:hover { border-color: var(--accent); color: var(--text); }
+  .history-sec :global(h3) { scroll-margin-top: 80px; }
   .prose { font-size: 1.04rem; }
   .pager {
     display: flex;

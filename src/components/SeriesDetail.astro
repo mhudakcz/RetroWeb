@@ -1,6 +1,5 @@
 ---
-import GameCard from './GameCard.astro';
-import { localeData, mdBlock } from '../lib/data';
+import { localeData, mdBlock, mdInline, normGameName } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -11,18 +10,29 @@ const intro = mdBlock(s.intro);
 const years = s.games.map((g) => parseInt(g.year || '0')).filter(Boolean);
 const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : null;
 
-// hry seskupené podle platformy, platformy podle roku vydání
-const byPlatform = new Map<string, { name: string; year: number; games: typeof s.games }>();
+// JEDEN TITUL = jeden záznam, platformy jen vyjmenované. Dřív se stejná hra
+// v seznamu opakovala za každou platformu (Lemmings desetkrát).
+const byTitle = new Map<
+  string,
+  { g: (typeof s.games)[number]; year: number; versions: (typeof s.games)[number][] }
+>();
 for (const g of s.games) {
-  let e = byPlatform.get(g.platform.slug);
-  if (!e) {
-    e = { name: g.platform.name, year: g.platform.year, games: [] };
-    byPlatform.set(g.platform.slug, e);
+  const key = normGameName(g.name);
+  const y = parseInt(g.year || '') || g.platform.year;
+  const e = byTitle.get(key);
+  if (e) {
+    e.versions.push(g);
+    if (y < e.year) { e.year = y; e.g = g; }
+  } else {
+    byTitle.set(key, { g, year: y, versions: [g] });
   }
-  e.games.push(g);
 }
-const groups = [...byPlatform.entries()]
-  .map(([slug, e]) => ({ slug, ...e }))
+const platCount = new Set(s.games.map((g) => g.platform.slug)).size;
+const entries = [...byTitle.values()]
+  .map((e) => ({
+    ...e,
+    versions: [...e.versions].sort((a, b) => a.platform.year - b.platform.year),
+  }))
   .sort((a, b) => a.year - b.year);
 ---
 
@@ -35,9 +45,12 @@ const groups = [...byPlatform.entries()]
     <p class="eyebrow">{t(locale, 'series.eyebrow')}</p>
     <h1>{s.name}</h1>
     <div class="facts">
-      <span class="tag">{s.gameCount} {t(locale, 'series.inCatalog')}</span>
+      <span class="tag">{entries.length} {t(locale, 'series.titles')}</span>
+      {s.gameCount > entries.length && (
+        <span class="tag">{s.gameCount} {t(locale, 'series.versions')}</span>
+      )}
       {span && <span class="tag">⏱ {span}</span>}
-      <span class="tag">{groups.length} {t(locale, 'platforms.count')}</span>
+      <span class="tag">{platCount} {t(locale, 'platforms.count')}</span>
     </div>
   </header>
 
@@ -50,20 +63,35 @@ const groups = [...byPlatform.entries()]
   {intro && <div class="article prose" set:html={intro} />}
 
   <section class="games">
-    <h2 class="sec-title">{t(locale, 'series.games')} <span class="muted">({s.gameCount})</span></h2>
-    {
-      groups.map((grp) => (
-        <div class="plat-group">
-          <h3 class="plat-title">
-            <a href={localizePath(locale, `/platformy/${grp.slug}`)}>{grp.name}</a>
-            <span class="muted"> · {grp.games.length}</span>
-          </h3>
-          <div class="grid grid-games">
-            {grp.games.map((g) => <GameCard game={g} platform={g.platform} locale={locale} />)}
-          </div>
-        </div>
-      ))
-    }
+    <h2 class="sec-title">{t(locale, 'series.games')} <span class="muted">({entries.length})</span></h2>
+    <ol class="entries">
+      {
+        entries.map((e) => (
+          <li class="entry">
+            <a class="e-thumb" href={localizePath(locale, `/hry/${e.g.slug}`)}
+               style={`--c1:${e.g.platform.color}; --c2:${e.g.platform.color2}`}>
+              {e.g.image ? <img src={e.g.image} alt="" loading="lazy" decoding="async" />
+                         : <span class="e-ph pixel">{e.g.platform.short}</span>}
+            </a>
+            <div class="e-body">
+              <h3 class="e-name">
+                <a href={localizePath(locale, `/hry/${e.g.slug}`)} set:html={mdInline(e.g.name)} />
+                {e.year ? <span class="muted e-year"> · {e.year}</span> : null}
+              </h3>
+              {e.g.teaser && <p class="e-teaser muted" set:html={mdInline(e.g.teaser)} />}
+              <div class="e-plats">
+                {e.versions.map((v) => (
+                  <a class="e-plat" href={localizePath(locale, `/hry/${v.slug}`)}
+                     style={`--c1:${v.platform.color}`} title={v.platform.name}>
+                    {v.platform.short}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
   </section>
 </article>
 
@@ -90,8 +118,29 @@ const groups = [...byPlatform.entries()]
   .article { margin: 24px 0 8px; font-size: 1.04rem; }
   .games { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
   .sec-title { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 18px; }
-  .plat-group { margin-bottom: 28px; }
-  .plat-title { font-size: 1rem; margin: 0 0 12px; }
-  .plat-title a { color: var(--accent); text-decoration: none; }
-  .plat-title a:hover { text-decoration: underline; }
+  .entries { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .entry {
+    display: flex; gap: 14px; padding: 12px; border: 1px solid var(--border-soft);
+    border-radius: var(--radius); background: var(--surface);
+  }
+  .e-thumb {
+    flex: none; width: 64px; height: 64px; border-radius: 10px; overflow: hidden;
+    display: grid; place-items: center;
+    background: radial-gradient(120% 120% at 50% 20%, var(--c1), var(--c2));
+  }
+  .e-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .e-ph { font-size: 0.55rem; color: #fff; }
+  .e-body { flex: 1; min-width: 0; }
+  .e-name { font-size: 1rem; margin: 0 0 4px; }
+  .e-name a { color: inherit; text-decoration: none; }
+  .e-name a:hover { color: var(--accent); }
+  .e-year { font-weight: 400; font-size: 0.9rem; }
+  .e-teaser { font-size: 0.9rem; margin: 0 0 8px; }
+  .e-plats { display: flex; flex-wrap: wrap; gap: 6px; }
+  .e-plat {
+    font-family: var(--font-pixel); font-size: 0.52rem; text-decoration: none;
+    padding: 0.42em 0.6em; border-radius: 6px; color: var(--muted);
+    border: 1px solid color-mix(in srgb, var(--c1) 40%, var(--border));
+  }
+  .e-plat:hover { color: #fff; background: var(--c1); }
 </style>
