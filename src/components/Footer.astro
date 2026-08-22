@@ -5,6 +5,12 @@ import type { Locale } from '../lib/i18n';
 import LangSwitcher from './LangSwitcher.astro';
 const { locale = DEFAULT_LOCALE, localized = false } = Astro.props as { locale?: Locale; localized?: boolean };
 const lp = (p: string) => navHref(locale, p);
+
+// Počet her je v patičce, a ta je na každé z >14 000 stránek — kdyby tu bylo
+// přesné číslo, přidání JEDNÉ hry změní všechny soubory v dist a hosting pak
+// při každém nasazení nahrává celý web znovu. Zaokrouhlení na stovky drží
+// patičku beze změny, dokud katalog nepřeleze další stovku.
+const gamesRounded = Math.floor(stats.games / 100) * 100;
 ---
 
 <footer class="site-footer">
@@ -18,7 +24,7 @@ const lp = (p: string) => navHref(locale, p);
         <h4>{t(locale, 'footer.content')}</h4>
         <ul class="links">
           <li><a href={lp('/platformy')}>{t(locale, 'nav.platforms')} ({stats.platforms})</a></li>
-          <li><a href={lp('/hry')}>{t(locale, 'nav.games')} ({stats.games})</a></li>
+          <li><a href={lp('/hry')}>{t(locale, 'nav.games')} ({gamesRounded}+)</a></li>
           <li><a href={lp('/hardware')}>{t(locale, 'footer.hardwareLink')}</a></li>
           <li><a href={lp('/o-projektu')}>{t(locale, 'footer.aboutLink')}</a></li>
           <li><a href={lp('/zmeny')}>{t(locale, 'footer.changelog')}</a></li>

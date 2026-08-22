@@ -120,6 +120,7 @@ const UI: Dict = {
   },
   'series.inCatalog': { cs: 'her v katalogu', en: 'games in the catalog', de: 'Spiele im Katalog', fr: 'jeux au catalogue' },
   'series.games': { cs: 'Díly série', en: 'Entries in the series', de: 'Teile der Reihe', fr: 'Épisodes de la série' },
+  'game.sameSeries': { cs: 'Ze stejné série', en: 'From the same series', de: 'Aus derselben Reihe', fr: 'De la même série' },
   'game.alsoOn': { cs: 'Tentýž titul jinde', en: 'The same title elsewhere', de: 'Derselbe Titel woanders', fr: 'Le même titre ailleurs' },
   'series.partOf': { cs: 'Součást série', en: 'Part of the series', de: 'Teil der Reihe', fr: 'Fait partie de la série' },
 

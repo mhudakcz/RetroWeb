@@ -811,21 +811,42 @@ def optimize_images():
     after = sum(f.stat().st_size for f in gdir.rglob("*.webp"))
     print(f"Hry: {conv} obrázků -> WebP, {before//1024//1024} MB -> {after//1024//1024} MB")
 
-    # --- platformy: zmenšit velké (mimo gif kvůli animaci) ---
+    # --- platformy: zmenšit na 900 px a převést na WebP (mimo gif kvůli animaci) ---
+    # PNG s průhledností jsou u fotek konzolí těžké (i 350 kB); WebP umí alfu taky
+    # a je řádově menší, což se u deploye celého webu sečte.
     pdir = IMG / "platforms"
-    pcount = 0
+    pcount = pconv = 0
+    pbefore = pafter = 0
     for p in list(pdir.iterdir()):
-        if p.suffix.lower() == ".gif":
+        if not p.is_file() or p.suffix.lower() == ".gif":
             continue
         try:
+            before = p.stat().st_size
             im = Image.open(p)
+            resized = False
             if max(im.size) > 900:
                 im.thumbnail((900, 900), Image.LANCZOS)
-                im.save(p)
-                pcount += 1
+                resized = True
+            if p.suffix.lower() == ".webp":
+                if resized:
+                    im.save(p, "WEBP", quality=86, method=6)
+                    pcount += 1
+                continue
+            if im.mode not in ("RGB", "RGBA"):
+                im = im.convert("RGBA")
+            webp = p.with_suffix(".webp")
+            im.save(webp, "WEBP", quality=86, method=6)
+            p.unlink()
+            pconv += 1
+            pbefore += before
+            pafter += webp.stat().st_size
         except Exception as e:  # noqa
             print(f"  [x] {p.name}: {e}")
-    print(f"Platformy: zmenšeno {pcount} velkých obrázků")
+    msg = f"Platformy: zmenšeno {pcount}"
+    if pconv:
+        msg += (f", {pconv} převedeno na WebP "
+                f"({pbefore // 1024 // 1024} MB -> {pafter // 1024 // 1024} MB)")
+    print(msg)
 
 
 def _wiki_search(query, limit=4):
@@ -922,6 +943,13 @@ _ITCH_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 # itch.io dává smysl jen tam, kde je katalog opravdu z itch.io / homebrew scény.
 # Na komerčních konzolích vrací shoda názvu cizí fan-game (viz fetch_games_itch).
 ITCH_OK = {"pico-8", "tic-80", "game-watch"}
+
+# Steam se smi pouzivat jen pro platformy od roku 2000. U starsich to nefunguje:
+# Steam vraci datum vydani NA STEAMU, ne originalni (DOOM + DOOM II ma na Steamu
+# rok 2007, i kdyz hra je z 1993), takze rok nejde pouzit k overeni. Shoda podle
+# nazvu pak u kazde stare hry s modernim rebootem sedne na ten reboot — DOS Doom
+# z roku 1993 takhle dostal screenshoty z DOOMa 2016. Retro platformy maji libretro.
+STEAM_MIN_PLATFORM_YEAR = 2000
 
 
 def _itch_search(name):
@@ -1110,6 +1138,10 @@ def fetch_games_steam(only=None):
         slug = plat["slug"]
         if wanted and slug not in wanted:
             continue
+        if plat["year"] < STEAM_MIN_PLATFORM_YEAR:
+            if wanted and slug in wanted:
+                print(f"  [!] {slug}: Steam se pro platformy před {STEAM_MIN_PLATFORM_YEAR} nepoužívá")
+            continue
         missing = [g for g in plat["games"] if not g.get("image")]
         if not missing:
             continue
@@ -1250,6 +1282,10 @@ def fetch_games_steam_shots(only=None):
     for plat in dataset["platforms"]:
         slug = plat["slug"]
         if wanted and slug not in wanted:
+            continue
+        if plat["year"] < STEAM_MIN_PLATFORM_YEAR:
+            if wanted and slug in wanted:
+                print(f"  [!] {slug}: Steam se pro platformy před {STEAM_MIN_PLATFORM_YEAR} nepoužívá")
             continue
         # jen hry, které mají obal, ale ještě nemají snímky ze hry
         targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 2]

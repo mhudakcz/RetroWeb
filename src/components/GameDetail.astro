@@ -21,6 +21,18 @@ const shots = game.gallery.filter((g) => g.kind !== 'box' && g.src !== game.imag
 const playtime = playtimeLabel(game.length, game.est);
 const gameSeries = seriesOfGame(game.name, localeData(locale).series);
 const elsewhere = sameGameElsewhere(game, localeData(locale).allGames);
+// další díly série — bez těch, které už jsou v „Tentýž titul jinde"
+const elsewhereSlugs = new Set([game.slug, ...elsewhere.map((g) => g.slug)]);
+const seriesPicks = gameSeries.flatMap((s) =>
+  s.games.filter((g) => !elsewhereSlugs.has(g.slug)).map((g) => ({ g, series: s })),
+);
+// dedup přes série (crossovery patří do dvou) a rozumný strop na stránku
+const seenPick = new Set<string>();
+const siblings = seriesPicks.filter(({ g }) => {
+  if (seenPick.has(g.slug)) return false;
+  seenPick.add(g.slug);
+  return true;
+}).slice(0, 12);
 const clean = (s: string) => s.replace(/[*_\x60]/g, '');
 
 const FLAG_T: Record<string, string> = {
@@ -156,6 +168,31 @@ const posText = {
     </section>
   )}
 
+  {siblings.length > 0 && (
+    <section class="elsewhere">
+      <h2 class="els-title">
+        {t(locale, 'game.sameSeries')}
+        {gameSeries.map((s) => (
+          <> <a class="els-serieslink" href={lp(`/serie/${s.slug}`)}>{s.name} →</a></>
+        ))}
+      </h2>
+      <div class="els-row">
+        {siblings.map(({ g }) => (
+          <a class="els-item" href={lp(`/hry/${g.slug}`)} style={`--c1:${g.platform.color}; --c2:${g.platform.color2}`}>
+            <span class="els-thumb">
+              {g.image ? <img src={g.image} alt="" loading="lazy" decoding="async" />
+                       : <span class="els-ph pixel">{g.platform.short}</span>}
+            </span>
+            <span class="els-text">
+              <span class="els-plat" set:html={mdInline(g.name)} />
+              <span class="els-year muted">{g.platform.short}{g.year ? ` · ${g.year}` : ''}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
   {related.length > 0 && (
     <section class="related">
       <div class="related-head">
@@ -247,6 +284,8 @@ const posText = {
   .els-text { display: flex; flex-direction: column; line-height: 1.25; }
   .els-plat { font-size: 0.88rem; }
   .els-year { font-size: 0.76rem; }
+  .els-serieslink { color: var(--accent); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+  .els-serieslink:hover { text-decoration: underline; }
   .teaser { font-size: 1.15rem; line-height: 1.55; color: var(--text); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; margin-bottom: 22px; }
   .game-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
   .g-btn { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.7em 1.15em; border-radius: 999px; font-weight: 600; font-size: 0.92rem; color: #fff; background: linear-gradient(135deg, color-mix(in srgb, var(--c1) 70%, #000), color-mix(in srgb, var(--c1) 42%, #000)); border: 1px solid color-mix(in srgb, var(--c1) 60%, var(--border)); transition: transform 0.15s ease, box-shadow 0.15s ease; }
