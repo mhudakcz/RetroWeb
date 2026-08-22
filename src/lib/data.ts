@@ -105,6 +105,16 @@ for (const [path, raw] of Object.entries(studioArticleFiles)) {
   studioArticles[slug] = raw;
 }
 
+/** Normalizace názvu hry pro párování téhož titulu napříč platformami.
+ *  Odpovídá norm_name() v tools/parse_content.py. */
+export function normGameName(s: string): string {
+  let x = s.replace(/[’`]/g, "'").replace(/\([^)]*\)/g, ' ');
+  x = x.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase();
+  x = x.replace(/&/g, ' and ').replace(/[/:+\-–—.,!?'"]/g, ' ');
+  x = x.replace(/\b(the|a|an)\b/g, ' ').replace(/\s+/g, ' ').trim();
+  return x;
+}
+
 export interface Series {
   slug: string;
   name: string;
@@ -287,6 +297,33 @@ export function platformNeighbors(slug: string): { prev: Platform | null; next: 
     prev: i > 0 ? arr[i - 1] : null,
     next: i >= 0 && i < arr.length - 1 ? arr[i + 1] : null,
   };
+}
+
+/** Kolik let smí být mezi vydáními, aby šlo o verze TÉŽE hry.
+ *  Bez toho by se Doom z roku 1993 spojil s rebootem z roku 2016 —
+ *  stejný název, ale jiná hra. */
+const SAME_GAME_YEARS = 6;
+
+const releaseYear = (g: GameWithPlatform): number =>
+  parseInt(g.year || '') || g.platform.year;
+
+/** Tentýž titul na jiných platformách (párování podle normalizovaného názvu
+ *  a blízkého roku vydání). Seřazeno chronologicky, aby šlo číst vývoj verzí. */
+export function sameGameElsewhere(
+  game: GameWithPlatform,
+  all: GameWithPlatform[],
+): GameWithPlatform[] {
+  const key = normGameName(game.name);
+  if (!key) return [];
+  const y = releaseYear(game);
+  return all
+    .filter(
+      (g) =>
+        g.slug !== game.slug &&
+        normGameName(g.name) === key &&
+        Math.abs(releaseYear(g) - y) <= SAME_GAME_YEARS,
+    )
+    .sort((a, b) => releaseYear(a) - releaseYear(b) || a.platform.name.localeCompare(b.platform.name));
 }
 
 export function gameNeighbors(platform: Platform, slug: string): { prev: Game | null; next: Game | null } {
