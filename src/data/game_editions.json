@@ -1,0 +1,16 @@
+{
+ "_comment": "Explicitni skupiny vydani teze hry. Automaticke parovani podle nazvu a blizkeho roku selze u dvou pripadu: (1) stary titul dostane po letech novou edici na modernich konzolich (Doom z roku 1993 vysel znovu v roce 2019), (2) reboot nese stejny nazev jako original (Doom 2016). Slug uvedeny v nektere skupine se paruje VYHRADNE v jejim ramci a rok se neresi.",
+ "groups": {
+  "doom-1993": [
+   "pc-dos__doom",
+   "jaguar__doom",
+   "sega-32x__doom"
+  ],
+  "doom-2016": [
+   "pc-modern__doom",
+   "ps4__doom",
+   "xbox-one__doom",
+   "switch__doom"
+  ]
+ }
+}

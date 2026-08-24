@@ -253,6 +253,54 @@
     "studio": "Ozark Softscape",
     "year": "1983"
   },
+  "cardboard__anshar-wars-2": {
+    "studio": "Campfire Union",
+    "year": "2015"
+  },
+  "cardboard__bait": {
+    "studio": "Resolution Games",
+    "year": "2015"
+  },
+  "cardboard__cardboard-camera": {
+    "studio": "Google",
+    "year": "2016"
+  },
+  "cardboard__cardboard-design-lab": {
+    "studio": "Google",
+    "year": "2015"
+  },
+  "cardboard__chair-in-room-greenwater": {
+    "studio": "Wolf & Wood Interactive",
+    "year": "2016"
+  },
+  "cardboard__dreadhalls": {
+    "studio": "White Door Games",
+    "year": "2015"
+  },
+  "cardboard__incell-vr": {
+    "studio": "Nival",
+    "year": "2015"
+  },
+  "cardboard__inmind-vr": {
+    "studio": "Nival",
+    "year": "2015"
+  },
+  "cardboard__lands-end": {
+    "studio": "Ustwo Games",
+    "year": "2015"
+  },
+  "cardboard__sisters": {
+    "studio": "Otherworld Interactive",
+    "year": "2015"
+  },
+  "cardboard__titans-of-space": {
+    "studio": "DrashVR",
+    "year": "2015"
+  },
+  "cardboard__vanguard-v": {
+    "studio": "Wemade",
+    "year": "2015"
+  },
   "cd-i__7th-guest": {
     "studio": "Trilobyte",
     "year": "1994"
@@ -3010,10 +3058,6 @@
     "studio": "Moon Studios",
     "year": "2020"
   },
-  "pc-modern__original-war": {
-    "studio": "Cinemax",
-    "year": "2001"
-  },
   "pc-modern__outlast": {
     "studio": "Red Barrels",
     "year": "2013"
@@ -3138,6 +3182,18 @@
     "studio": "Relic Entertainment",
     "year": "2004"
   },
+  "pc-modern__witcher": {
+    "studio": "CD Projekt RED",
+    "year": "2007"
+  },
+  "pc-modern__witcher-2-assassins-of-kings": {
+    "studio": "CD Projekt RED",
+    "year": "2011"
+  },
+  "pc-modern__witcher-3-wild-hunt": {
+    "studio": "CD Projekt RED",
+    "year": "2015"
+  },
   "pc-modern__wolfenstein-new-order": {
     "studio": "MachineGames",
     "year": "2014"
@@ -3149,6 +3205,114 @@
   "pc-modern__ylands": {
     "studio": "Bohemia Interactive",
     "year": "2019"
+  },
+  "pc-vr__arizona-sunshine": {
+    "studio": "Vertigo Games",
+    "year": "2016"
+  },
+  "pc-vr__asgard-s-wrath": {
+    "studio": "Sanzaru Games",
+    "year": "2019"
+  },
+  "pc-vr__assetto-corsa": {
+    "studio": "Kunos Simulazioni",
+    "year": "2016"
+  },
+  "pc-vr__beat-saber": {
+    "studio": "Beat Games",
+    "year": "2018"
+  },
+  "pc-vr__blade-and-sorcery": {
+    "studio": "WarpFrog",
+    "year": "2018"
+  },
+  "pc-vr__bonelab": {
+    "studio": "Stress Level Zero",
+    "year": "2022"
+  },
+  "pc-vr__boneworks": {
+    "studio": "Stress Level Zero",
+    "year": "2019"
+  },
+  "pc-vr__budget-cuts": {
+    "studio": "Neat Corporation",
+    "year": "2018"
+  },
+  "pc-vr__elder-scrolls-v-skyrim-vr": {
+    "studio": "Bethesda Game Studios",
+    "year": "2018"
+  },
+  "pc-vr__elite-dangerous": {
+    "studio": "Frontier Developments",
+    "year": "2016"
+  },
+  "pc-vr__google-earth-vr": {
+    "studio": "Google",
+    "year": "2016"
+  },
+  "pc-vr__half-life-2-vr-mod": {
+    "studio": "Community (Valve)",
+    "year": "2021"
+  },
+  "pc-vr__half-life-alyx": {
+    "studio": "Valve",
+    "year": "2020"
+  },
+  "pc-vr__into-radius": {
+    "studio": "CM Games",
+    "year": "2020"
+  },
+  "pc-vr__iracing": {
+    "studio": "iRacing.com Motorsport Simulations",
+    "year": "2017"
+  },
+  "pc-vr__job-simulator": {
+    "studio": "Owlchemy Labs",
+    "year": "2016"
+  },
+  "pc-vr__lab": {
+    "studio": "Valve",
+    "year": "2016"
+  },
+  "pc-vr__lone-echo": {
+    "studio": "Ready at Dawn",
+    "year": "2017"
+  },
+  "pc-vr__microsoft-flight-simulator": {
+    "studio": "Asobo Studio",
+    "year": "2021"
+  },
+  "pc-vr__no-man-s-sky": {
+    "studio": "Hello Games",
+    "year": "2019"
+  },
+  "pc-vr__onward": {
+    "studio": "Downpour Interactive",
+    "year": "2016"
+  },
+  "pc-vr__pavlov-vr": {
+    "studio": "Vankrupt Games",
+    "year": "2017"
+  },
+  "pc-vr__star-wars-squadrons": {
+    "studio": "Motive Studio",
+    "year": "2020"
+  },
+  "pc-vr__superhot-vr": {
+    "studio": "SUPERHOT Team",
+    "year": "2016"
+  },
+  "pc-vr__tilt-brush": {
+    "studio": "Google (Skillman & Hackett)",
+    "year": "2016"
+  },
+  "pc-vr__vacation-simulator": {
+    "studio": "Owlchemy Labs",
+    "year": "2019"
+  },
+  "pc-vr__walking-dead-saints-and-sinners": {
+    "studio": "Skydance Interactive",
+    "year": "2020"
   },
   "ps-vita__amnesia-memories": {
     "studio": "Idea Factory / Otomate",
@@ -5114,6 +5278,174 @@
     "studio": "Saber Interactive",
     "year": "2024"
   },
+  "psvr2__firewall-ultra": {
+    "studio": "First Contact Entertainment",
+    "year": "2023"
+  },
+  "psvr2__gran-turismo-7": {
+    "studio": "Polyphony Digital",
+    "year": "2023"
+  },
+  "psvr2__horizon-call-of-mountain": {
+    "studio": "Firesprite / Guerrilla Games",
+    "year": "2023"
+  },
+  "psvr2__kayak-vr-mirage": {
+    "studio": "Better Than Life",
+    "year": "2023"
+  },
+  "psvr2__moss": {
+    "studio": "Polyarc",
+    "year": "2023"
+  },
+  "psvr2__moss-book-ii": {
+    "studio": "Polyarc",
+    "year": "2023"
+  },
+  "psvr2__no-man-s-sky": {
+    "studio": "Hello Games",
+    "year": "2023"
+  },
+  "psvr2__resident-evil-4-vr-mode": {
+    "studio": "Capcom",
+    "year": "2023"
+  },
+  "psvr2__resident-evil-village-vr-mode": {
+    "studio": "Capcom",
+    "year": "2023"
+  },
+  "psvr2__star-wars-tales-from-galaxy-s-edge-enhanced-edition": {
+    "studio": "ILMxLAB",
+    "year": "2023"
+  },
+  "psvr2__switchback-vr": {
+    "studio": "Firesprite",
+    "year": "2023"
+  },
+  "psvr2__synapse": {
+    "studio": "nDreams",
+    "year": "2023"
+  },
+  "psvr2__tetris-effect-connected": {
+    "studio": "Monstars / Resonair (Enhance)",
+    "year": "2023"
+  },
+  "psvr2__walking-dead-saints-and-sinners-chapter-2-retribution": {
+    "studio": "Skydance Interactive",
+    "year": "2023"
+  },
+  "psvr__astro-bot-rescue-mission": {
+    "studio": "Team Asobi (Japan Studio)",
+    "year": "2018"
+  },
+  "psvr__batman-arkham-vr": {
+    "studio": "Rocksteady Studios",
+    "year": "2016"
+  },
+  "psvr__beat-saber": {
+    "studio": "Beat Games",
+    "year": "2019"
+  },
+  "psvr__blood-and-truth": {
+    "studio": "SIE London Studio",
+    "year": "2019"
+  },
+  "psvr__borderlands-2-vr": {
+    "studio": "Gearbox Software",
+    "year": "2019"
+  },
+  "psvr__concrete-genie": {
+    "studio": "PixelOpus",
+    "year": "2019"
+  },
+  "psvr__doom-vfr": {
+    "studio": "id Software",
+    "year": "2017"
+  },
+  "psvr__dreams": {
+    "studio": "Media Molecule",
+    "year": "2020"
+  },
+  "psvr__everybody-s-golf-vr": {
+    "studio": "Clap Hanz",
+    "year": "2019"
+  },
+  "psvr__farpoint": {
+    "studio": "Impulse Gear",
+    "year": "2017"
+  },
+  "psvr__firewall-zero-hour": {
+    "studio": "First Contact Entertainment",
+    "year": "2018"
+  },
+  "psvr__ghost-giant": {
+    "studio": "Zoink",
+    "year": "2019"
+  },
+  "psvr__job-simulator": {
+    "studio": "Owlchemy Labs",
+    "year": "2016"
+  },
+  "psvr__marvel-s-iron-man-vr": {
+    "studio": "Camouflaj",
+    "year": "2020"
+  },
+  "psvr__moss": {
+    "studio": "Polyarc",
+    "year": "2018"
+  },
+  "psvr__moss-book-ii": {
+    "studio": "Polyarc",
+    "year": "2022"
+  },
+  "psvr__no-man-s-sky": {
+    "studio": "Hello Games",
+    "year": "2019"
+  },
+  "psvr__persistence": {
+    "studio": "Firesprite",
+    "year": "2018"
+  },
+  "psvr__resident-evil-7-biohazard-vr": {
+    "studio": "Capcom",
+    "year": "2017"
+  },
+  "psvr__rez-infinite": {
+    "studio": "Monstars / Resonair (Enhance)",
+    "year": "2016"
+  },
+  "psvr__sairento-vr": {
+    "studio": "Mixed Realms",
+    "year": "2017"
+  },
+  "psvr__star-wars-squadrons": {
+    "studio": "Motive Studio",
+    "year": "2020"
+  },
+  "psvr__statik": {
+    "studio": "Tarsier Studios",
+    "year": "2017"
+  },
+  "psvr__superhot-vr": {
+    "studio": "SUPERHOT Team",
+    "year": "2017"
+  },
+  "psvr__tetris-effect": {
+    "studio": "Monstars / Resonair (Enhance)",
+    "year": "2018"
+  },
+  "psvr__thumper": {
+    "studio": "Drool",
+    "year": "2016"
+  },
+  "psvr__until-dawn-rush-of-blood": {
+    "studio": "Supermassive Games",
+    "year": "2016"
+  },
+  "psvr__wipeout-omega-collection-vr": {
+    "studio": "EPOS Game Studios",
+    "year": "2017"
+  },
   "saturn__fighting-vipers": {
     "studio": "Sega AM2",
     "year": "1996"
@@ -5991,6 +6323,54 @@
     "studio": "General Consumer Electronics",
     "year": "1983"
   },
+  "vfx1__descent": {
+    "studio": "Parallax Software",
+    "year": "1995"
+  },
+  "vfx1__descent-ii": {
+    "studio": "Parallax Software",
+    "year": "1996"
+  },
+  "vfx1__doom": {
+    "studio": "id Software",
+    "year": "1993"
+  },
+  "vfx1__heretic": {
+    "studio": "Raven Software",
+    "year": "1994"
+  },
+  "vfx1__hexen-beyond-heretic": {
+    "studio": "Raven Software",
+    "year": "1995"
+  },
+  "vfx1__magic-carpet": {
+    "studio": "Bullfrog Productions",
+    "year": "1994"
+  },
+  "vfx1__mechwarrior-2-31st-century-combat": {
+    "studio": "Activision",
+    "year": "1995"
+  },
+  "vfx1__quake": {
+    "studio": "id Software",
+    "year": "1996"
+  },
+  "vfx1__star-wars-dark-forces": {
+    "studio": "LucasArts",
+    "year": "1995"
+  },
+  "vfx1__system-shock": {
+    "studio": "Looking Glass Technologies",
+    "year": "1994"
+  },
+  "vfx1__terminal-velocity": {
+    "studio": "Terminal Reality",
+    "year": "1995"
+  },
+  "vfx1__wing-commander-iii-heart-of-tiger": {
+    "studio": "Origin Systems",
+    "year": "1994"
+  },
   "virtual-boy__3-d-tetris": {
     "studio": "T&E Soft",
     "year": "1996"
@@ -6042,6 +6422,46 @@
   "virtual-boy__virtual-boy-wario-land": {
     "studio": "Nintendo R&D1",
     "year": "1995"
+  },
+  "virtuality__boxing": {
+    "studio": "W Industries",
+    "year": "1994"
+  },
+  "virtuality__buggy-ball": {
+    "studio": "W Industries",
+    "year": "1994"
+  },
+  "virtuality__dactyl-nightmare": {
+    "studio": "W Industries",
+    "year": "1991"
+  },
+  "virtuality__dactyl-nightmare-2": {
+    "studio": "W Industries",
+    "year": "1994"
+  },
+  "virtuality__exorex": {
+    "studio": "W Industries",
+    "year": "1993"
+  },
+  "virtuality__grid-busters": {
+    "studio": "W Industries",
+    "year": "1991"
+  },
+  "virtuality__legend-quest": {
+    "studio": "W Industries",
+    "year": "1991"
+  },
+  "virtuality__total-destruction": {
+    "studio": "W Industries",
+    "year": "1994"
+  },
+  "virtuality__vtol": {
+    "studio": "W Industries",
+    "year": "1994"
+  },
+  "virtuality__zone-hunter": {
+    "studio": "W Industries",
+    "year": "1993"
   },
   "wii-u__affordable-space-adventures": {
     "studio": "KnapNok Games / Nifflas' Games",

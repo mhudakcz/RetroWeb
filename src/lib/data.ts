@@ -341,6 +341,7 @@ export function platformNeighbors(slug: string): { prev: Platform | null; next: 
 // poznámky, čím se lišily verze téhož titulu na jednotlivých platformách
 // (tools/version_notes.workflow.js), klíč = normalizovaný název hry
 import versionNotesRaw from '../data/version_notes.json';
+import editionsRaw from '../data/game_editions.json';
 const versionNotes = versionNotesRaw as Record<string, Record<string, string>>;
 
 /** Text o rozdílech mezi verzemi téhož titulu, nebo null. */
@@ -355,8 +356,47 @@ export function versionNote(name: string, locale = 'cs'): string | null {
  *  stejný název, ale jiná hra. */
 const SAME_GAME_YEARS = 6;
 
+/** Ruční skupiny vydání. Heuristika „stejný název + blízký rok“ neustojí dva
+ *  případy: starý titul vydaný znovu po desetiletích (Doom z roku 1993 se
+ *  na PS5 dostal až v roce 2019) a reboot se stejným názvem (Doom 2016).
+ *  Slug uvedený ve skupině se páruje jen v jejím rámci a rok se neřeší. */
+const editionOf = new Map<string, string>();
+for (const [id, slugs] of Object.entries(
+  (editionsRaw as { groups: Record<string, string[]> }).groups,
+)) {
+  for (const slug of slugs) editionOf.set(slug, id);
+}
+
 const releaseYear = (g: GameWithPlatform): number =>
   parseInt(g.year || '') || g.platform.year;
+
+/** Přípony, kterými vydavatelé značí pozdější vydání téhož titulu.
+ *  „Cave Story+“ nebo „Burnout Paradise Remastered“ jsou tatáž hra jako
+ *  originál, jen pod delším jménem — bez tohohle by se nespárovaly.
+ *  Schválně sem NEpatří „Classic“ (Celeste Classic je jiná, starší hra)
+ *  ani „Remake“ (předělávka bývá samostatný titul). */
+const EDITION_SUFFIX =
+  /\s*(?:[-–—:]\s*)?\b(?:enhanced|complete|definitive|special|ultimate|deluxe|premium|anniversary|legendary|redux|remaster(?:ed)?|hd|goty|game of the year|director's cut|gold|platinum)\b[\w' ]*$/i;
+
+/** Název bez edicní přípony. Vrací i příznak, jestli se něco odřízlo —
+ *  jen tehdy totiž smíme prominout odstup let (remaster vychází i po dekádě). */
+function editionKey(name: string): { key: string; suffixed: boolean } {
+  let x = name;
+  let suffixed = false;
+  for (let i = 0; i < 3; i++) {
+    const y = x.replace(EDITION_SUFFIX, '').trim();
+    if (y === x || !y) break;
+    x = y;
+    suffixed = true;
+  }
+  // „Cave Story+“ — plus se do přípony výše nevejde, ale znamená totéž
+  const plus = x.replace(/\s*\+$/, '').trim();
+  if (plus && plus !== x) {
+    x = plus;
+    suffixed = true;
+  }
+  return { key: normGameName(x), suffixed };
+}
 
 /** Tentýž titul na jiných platformách (párování podle normalizovaného názvu
  *  a blízkého roku vydání). Seřazeno chronologicky, aby šlo číst vývoj verzí. */
@@ -364,17 +404,33 @@ export function sameGameElsewhere(
   game: GameWithPlatform,
   all: GameWithPlatform[],
 ): GameWithPlatform[] {
-  const key = normGameName(game.name);
-  if (!key) return [];
+  const byName = (list: GameWithPlatform[]) =>
+    list.sort(
+      (a, b) => releaseYear(a) - releaseYear(b) || a.platform.name.localeCompare(b.platform.name),
+    );
+
+  const edition = editionOf.get(game.slug);
+  if (edition) {
+    return byName(all.filter((g) => g.slug !== game.slug && editionOf.get(g.slug) === edition));
+  }
+
+  const me = editionKey(game.name);
+  if (!me.key) return [];
   const y = releaseYear(game);
-  return all
-    .filter(
-      (g) =>
-        g.slug !== game.slug &&
-        normGameName(g.name) === key &&
-        Math.abs(releaseYear(g) - y) <= SAME_GAME_YEARS,
-    )
-    .sort((a, b) => releaseYear(a) - releaseYear(b) || a.platform.name.localeCompare(b.platform.name));
+  return byName(
+    all.filter((g) => {
+      if (g.slug === game.slug) return false;
+      // hra zařazená do skupiny se páruje jen uvnitř ní, ať se sem
+      // klasický Doom nepřilepí k rebootu jen proto, že roky vyšly
+      if (editionOf.has(g.slug)) return false;
+      const other = editionKey(g.name);
+      if (other.key !== me.key) return false;
+      // Odstup let hlídá jen shodné názvy — tam totiž může jít o reboot.
+      // Když je jedna strana označená jako pozdější edice, je vztah jistý.
+      if (me.suffixed || other.suffixed) return true;
+      return Math.abs(releaseYear(g) - y) <= SAME_GAME_YEARS;
+    }),
+  );
 }
 
 export function gameNeighbors(platform: Platform, slug: string): { prev: Game | null; next: Game | null } {

@@ -13326,12 +13326,6 @@
    ]
   },
   {
-   "name": "Original War",
-   "genre": "Real-time strategie",
-   "length": "L",
-   "flags": []
-  },
-  {
    "name": "Chaser",
    "genre": "Akční střílečka (FPS)",
    "length": "M",
@@ -13362,6 +13356,30 @@
    "genre": "Vojenská simulace / taktická střílečka",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "The Witcher",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Witcher 2: Assassins of Kings",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Witcher 3: Wild Hunt",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "3do": [
@@ -16538,6 +16556,763 @@
    "name": "Riders Republic",
    "genre": "Sportovní",
    "length": "L",
+   "flags": []
+  }
+ ],
+ "cardboard": [
+  {
+   "name": "Lands End",
+   "genre": "Puzzle adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "InCell VR",
+   "genre": "Závodní arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "InMind VR",
+   "genre": "Arkádová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sisters",
+   "genre": "Horor",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Vanguard V",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chair in a Room: Greenwater",
+   "genre": "Hororová adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Bait!",
+   "genre": "Simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dreadhalls",
+   "genre": "Horor",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Cardboard Camera",
+   "genre": "Kreativní nástroj",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cardboard Design Lab",
+   "genre": "Technické demo",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Anshar Wars 2",
+   "genre": "Vesmírná střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Titans of Space",
+   "genre": "Vzdělávací simulace",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "pc-vr": [
+  {
+   "name": "Half-Life: Alyx",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Beat Saber",
+   "genre": "Rytmicka hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SUPERHOT VR",
+   "genre": "Akcni",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Boneworks",
+   "genre": "Akcni adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Bonelab",
+   "genre": "Akcni adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Lab",
+   "genre": "Herni sbirka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Job Simulator",
+   "genre": "Simulator/komedie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Vacation Simulator",
+   "genre": "Simulator/komedie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Budget Cuts",
+   "genre": "Akcni stealth",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lone Echo",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Asgard's Wrath",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Elite Dangerous",
+   "genre": "Vesmirna simulace",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "No Man's Sky",
+   "genre": "Vesmirna simulace/pruzkum",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "The Elder Scrolls V: Skyrim VR",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Half-Life 2: VR Mod",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Pavlov VR",
+   "genre": "Akční / multiplayerová střílečka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Onward",
+   "genre": "Akční / taktická FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Blade & Sorcery",
+   "genre": "Akční (fyzikální bojovka)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Into the Radius",
+   "genre": "Survival akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Walking Dead: Saints & Sinners",
+   "genre": "Akční adventura / survival horor",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Arizona Sunshine",
+   "genre": "Akční střílečka (zombie)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Star Wars: Squadrons",
+   "genre": "Simulátor / vesmírná bojovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "iRacing",
+   "genre": "Závodní simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Assetto Corsa",
+   "genre": "Závodní simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Microsoft Flight Simulator",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Google Earth VR",
+   "genre": "Explorativní / vizualizační nástroj",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tilt Brush",
+   "genre": "Tvůrčí nástroj / VR malba",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "psvr2": [
+  {
+   "name": "Horizon Call of the Mountain",
+   "genre": "Akcni adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gran Turismo 7",
+   "genre": "Zavodni simulace (VR mod)",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Resident Evil Village VR Mode",
+   "genre": "Akcni horor",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 4 VR Mode",
+   "genre": "Akcni horor",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Synapse",
+   "genre": "Akcni strilecka (telekineze)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Firewall Ultra",
+   "genre": "Takticka strilecka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kayak VR: Mirage",
+   "genre": "Sportovni simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "No Man's Sky",
+   "genre": "Sci-fi pruzkumna adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars: Tales from the Galaxy's Edge - Enhanced Edition",
+   "genre": "Akcni adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Moss",
+   "genre": "Plosinovka / puzzle adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Moss: Book II",
+   "genre": "Plosinovka / puzzle adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Walking Dead: Saints & Sinners - Chapter 2: Retribution",
+   "genre": "Akcni horor / survival",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Switchback VR",
+   "genre": "On-rails strilecka (horor)",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Tetris Effect: Connected",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  }
+ ],
+ "psvr": [
+  {
+   "name": "Astro Bot Rescue Mission",
+   "genre": "Plosinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Resident Evil 7: Biohazard VR",
+   "genre": "Akcni horor",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Blood & Truth",
+   "genre": "Akcni adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tetris Effect",
+   "genre": "Puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Beat Saber",
+   "genre": "Rytmicka hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Moss",
+   "genre": "Akcni adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Moss: Book II",
+   "genre": "Akcni adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Farpoint",
+   "genre": "Sci-fi strilecka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rez Infinite",
+   "genre": "Shmup / hudebni akce",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wipeout Omega Collection VR",
+   "genre": "Zavodni",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Until Dawn: Rush of Blood",
+   "genre": "Horor rail shooter",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Batman: Arkham VR",
+   "genre": "Akcni adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Superhot VR",
+   "genre": "Akcni FPS",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Persistence",
+   "genre": "Sci-fi horor",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Statik",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Thumper",
+   "genre": "Rytmická akce",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Firewall Zero Hour",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Ghost Giant",
+   "genre": "Dobrodružná adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Marvel's Iron Man VR",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sairento VR",
+   "genre": "Akční střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Job Simulator",
+   "genre": "Simulace / komedie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Everybody's Golf VR",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dreams",
+   "genre": "Tvůrčí nástroj",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Concrete Genie",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "No Man's Sky",
+   "genre": "Sci-fi průzkumná hra",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars: Squadrons",
+   "genre": "Vesmírná bitevní simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Borderlands 2 VR",
+   "genre": "FPS / Loot shooter",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Doom VFR",
+   "genre": "Akční horor FPS",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "vfx1": [
+  {
+   "name": "Descent",
+   "genre": "Akcni simulator",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Descent II",
+   "genre": "Akcni simulator",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Doom",
+   "genre": "Akcni strilecka",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Heretic",
+   "genre": "Akcni strilecka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Magic Carpet",
+   "genre": "Akcni strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "System Shock",
+   "genre": "Akcni adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Quake",
+   "genre": "Akcni strilecka",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Wing Commander III: Heart of the Tiger",
+   "genre": "Simulator",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "MechWarrior 2: 31st Century Combat",
+   "genre": "Simulator",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Terminal Velocity",
+   "genre": "Akcni strilecka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Dark Forces",
+   "genre": "Akcni strilecka",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Hexen: Beyond Heretic",
+   "genre": "Akcni strilecka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  }
+ ],
+ "virtuality": [
+  {
+   "name": "Dactyl Nightmare",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dactyl Nightmare 2",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Legend Quest",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Grid Busters",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "VTOL",
+   "genre": "Letecká akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Zone Hunter",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Exorex",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Boxing",
+   "genre": "Sportovní hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Buggy Ball",
+   "genre": "Sportovní hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Total Destruction",
+   "genre": "Vozidlová akce",
+   "length": "S",
    "flags": []
   }
  ]
