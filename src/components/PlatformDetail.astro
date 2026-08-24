@@ -57,12 +57,17 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
     <section class="section history-sec">
       <div class="container narrow">
         <h2 class="sec-title">{t(locale, 'detail.history')}</h2>
+        {platform.historyFallback && (
+          <p class="i18n-pending">
+            <strong>{t(locale, 'i18n.pending.title')}</strong> {t(locale, 'i18n.pending.body')}
+          </p>
+        )}
         {historyToc.length > 1 && (
           <nav class="art-toc" aria-label={t(locale, 'detail.history')}>
             {historyToc.map((h) => <a href={`#${h.id}`}>{h.text}</a>)}
           </nav>
         )}
-        <div class="prose" set:html={history} />
+        <div class="prose" lang={platform.historyFallback ? 'cs' : undefined} set:html={history} />
         {gamesArt && (
           <figure class="games-art">
             <img src={gamesArt} alt={`${platform.name} – obaly her`} loading="lazy" decoding="async" />

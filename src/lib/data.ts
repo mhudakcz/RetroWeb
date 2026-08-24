@@ -26,9 +26,14 @@ export interface Game {
   playUrl: string | null;
   players: string | null;
   rating: string | null;
+  /** Pole, ktera v teto jazykove mutaci jeste nejsou prelozena a ukazuji cesky
+   *  original. V ceske mutaci je pole vzdy prazdne. */
+  fallback?: ('teaser' | 'detail' | 'article')[];
 }
 
 export interface Platform {
+  /** Historie platformy jeste neni v teto mutaci prelozena, ukazuje se cesky. */
+  historyFallback?: boolean;
   slug: string;
   name: string;
   short: string;
@@ -532,11 +537,17 @@ export function localeData(locale: string): LocaleBundle {
     const ph = pT[p.slug];
     const games = p.games.map((g) => {
       const o = gT[g.slug];
+      // Chybejici preklad neznamena prazdnou stranku — vypise se cesky original.
+      // Aby to ctenar poznal, drzi si hra seznam poli, ktera takhle propadla.
+      const fallback: ('teaser' | 'detail' | 'article')[] = [];
+      if (g.teaser && !o?.teaser) fallback.push('teaser');
+      if (g.detail && !o?.detail) fallback.push('detail');
+      if (g.article && !o?.article) fallback.push('article');
       return o
-        ? { ...g, teaser: o.teaser ?? g.teaser, detail: o.detail ?? g.detail, article: o.article ?? g.article }
-        : g;
+        ? { ...g, teaser: o.teaser ?? g.teaser, detail: o.detail ?? g.detail, article: o.article ?? g.article, fallback }
+        : { ...g, fallback };
     });
-    return { ...p, history: ph?.history ?? p.history, games };
+    return { ...p, history: ph?.history ?? p.history, historyFallback: !!p.history && !ph?.history, games };
   });
 
   const pMap = new Map(locPlatforms.map((p) => [p.slug, p]));

@@ -8,6 +8,18 @@ const { slug, locale = DEFAULT_LOCALE } = Astro.props;
 const { getGame } = localeData(locale);
 const game = getGame(slug)!;
 const platform = game.platform;
+
+// Chybejici preklad se nahrazuje ceskym originalem. Upozorneni davame jen kdyz
+// je nepreloceny hlavni text — u samotne uvodni vety by hlaska stala skoro
+// vsude a citelnost stranky by tim jen utrpela. Vetu resi atribut lang.
+// Popisek snimku je v datasetu cesky. Preklada se podle 'kind', ktery parser
+// uklada vedle nej — bez toho stalo na anglicke strance "Titulni obrazovka".
+const shotLabel = (s: { kind: string; label: string }) =>
+  ['box', 'snap', 'title'].includes(s.kind) ? t(locale, `shot.${s.kind}`) : s.label;
+
+const fb = game.fallback ?? [];
+const bodyInCzech = fb.includes('article') || fb.includes('detail');
+const teaserInCzech = fb.includes('teaser');
 const lp = (p: string) => localizePath(locale, p);
 
 const { prev, next } = gameNeighbors(platform, game.slug);
@@ -109,19 +121,27 @@ const posText = {
     <section class="shotbar">
       {shots.map((s) => (
         <figure>
-          <img src={s.src} alt={`${clean(game.name)} – ${s.label}`} loading="lazy" decoding="async" />
-          <figcaption>{s.label}</figcaption>
+          <img src={s.src} alt={`${clean(game.name)} – ${shotLabel(s)}`} loading="lazy" decoding="async" />
+          <figcaption>{shotLabel(s)}</figcaption>
         </figure>
       ))}
     </section>
   )}
 
-  {game.teaser && <p class="teaser" set:html={mdInline(game.teaser)}></p>}
+  {game.teaser && (
+    <p class="teaser" lang={teaserInCzech ? 'cs' : undefined} set:html={mdInline(game.teaser)}></p>
+  )}
+
+  {bodyInCzech && (
+    <p class="i18n-pending">
+      <strong>{t(locale, 'i18n.pending.title')}</strong> {t(locale, 'i18n.pending.body')}
+    </p>
+  )}
 
   {game.article ? (
-    <div class="prose detail article" set:html={mdBlock(game.article)} />
+    <div class="prose detail article" lang={bodyInCzech ? 'cs' : undefined} set:html={mdBlock(game.article)} />
   ) : game.detail ? (
-    <div class="prose detail" set:html={mdBlock(game.detail)} />
+    <div class="prose detail" lang={bodyInCzech ? 'cs' : undefined} set:html={mdBlock(game.detail)} />
   ) : (
     <div class="no-detail">
       <p class="muted">{noDetail} <a href={lp(`/platformy/${platform.slug}`)}>{platform.name}</a>.</p>

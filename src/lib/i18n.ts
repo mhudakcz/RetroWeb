@@ -72,6 +72,21 @@ const UI: Dict = {
   'nav.openMenu': { cs: 'Otevřít menu', en: 'Open menu', de: 'Menü öffnen', fr: 'Ouvrir le menu' },
   'nav.closeMenu': { cs: 'Zavřít menu', en: 'Close menu', de: 'Menü schließen', fr: 'Fermer le menu' },
   'nav.language': { cs: 'Jazyk', en: 'Language', de: 'Sprache', fr: 'Langue' },
+  'shot.box': { cs: 'Obal', en: 'Box art', de: 'Verpackung', fr: 'Jaquette' },
+  'shot.snap': { cs: 'Ze hry', en: 'In-game', de: 'Aus dem Spiel', fr: 'En jeu' },
+  'shot.title': { cs: 'Titulní obrazovka', en: 'Title screen', de: 'Titelbildschirm', fr: 'Écran-titre' },
+  'i18n.pending.title': {
+    cs: 'Zatím bez překladu',
+    en: 'Not translated yet',
+    de: 'Noch nicht übersetzt',
+    fr: 'Pas encore traduit',
+  },
+  'i18n.pending.body': {
+    cs: 'Tento text je zatím jen v češtině. Na překladu pracujeme, zkuste se sem podívat později.',
+    en: 'This text is still only in Czech. We are working on the translation — please check back later.',
+    de: 'Dieser Text liegt bisher nur auf Tschechisch vor. Wir arbeiten an der Übersetzung — schauen Sie später wieder vorbei.',
+    fr: 'Ce texte n’existe pour l’instant qu’en tchèque. La traduction est en cours — revenez plus tard.',
+  },
 
   'footer.tagline': {
     cs: 'Průvodce světem retro hraní — historie platforem, legendární hry a tipy pro handheldy jako Anbernic RG35XX Pro a R36S nebo Batocera na PC.',
