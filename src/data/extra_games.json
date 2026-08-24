@@ -19563,5 +19563,150 @@
    "length": "S",
    "flags": []
   }
+ ],
+ "quest": [
+  {
+   "name": "Beat Saber",
+   "genre": "Rytmicka hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Superhot VR",
+   "genre": "Akcni strelecka hra",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Bonelab",
+   "genre": "Akční fyzikální simulace",
+   "length": "M",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Red Matter",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Red Matter 2",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Demeo",
+   "genre": "Tahová strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Onward",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Contractors",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "GORN",
+   "genre": "Fyzikální bojovka",
+   "length": "S",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Thrill of the Fight",
+   "genre": "Sportovní simulace (box)",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Until You Fall",
+   "genre": "Rytmická akce",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "In Death: Unchained",
+   "genre": "Roguelike",
+   "length": "M",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cubism",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Puzzling Places",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Batman: Arkham Shadow",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Assassin's Creed Nexus VR",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Ghosts of Tabor",
+   "genre": "Taktická extrakční střílečka",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  }
  ]
 }

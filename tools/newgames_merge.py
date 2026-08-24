@@ -12,6 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import parse_content as P
+import json_repair
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parent.parent
@@ -37,7 +38,12 @@ for f in sorted(glob.glob(str(BASE / "out_*.json"))):
         continue
     plat_default = m.group(1)
     try:
-        items = json.loads(Path(f).read_text("utf-8"))
+        # Agenti občas zapíšou do článku doslovný konec řádku místo escapované
+        # sekvence. Bez opravy by celá dávka spadla na řídicí znak.
+        items = json_repair.loads(
+            Path(f).read_text("utf-8"),
+            on_repair=lambda e: print(f"  [~] {Path(f).name}: opraven řídicí znak v textu ({e.msg})"),
+        )
         if not isinstance(items, list):
             raise ValueError("není pole")
     except Exception as e:
