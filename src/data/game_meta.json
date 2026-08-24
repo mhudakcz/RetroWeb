@@ -2718,6 +2718,10 @@
     "studio": "Creative Assembly",
     "year": "2014"
   },
+  "pc-modern__american-truck-simulator": {
+    "studio": "SCS Software",
+    "year": "2016"
+  },
   "pc-modern__amnesia-dark-descent": {
     "studio": "Frictional Games",
     "year": "2010"
@@ -2734,9 +2738,21 @@
     "studio": "Bohemia Interactive",
     "year": "2009"
   },
+  "pc-modern__arma-3": {
+    "studio": "Bohemia Interactive",
+    "year": "2013"
+  },
+  "pc-modern__arma-armed-assault": {
+    "studio": "Bohemia Interactive",
+    "year": "2006"
+  },
   "pc-modern__assetto-corsa": {
     "studio": "Kunos Simulazioni",
     "year": "2014"
+  },
+  "pc-modern__attentat-1942": {
+    "studio": "Charles Games",
+    "year": "2017"
   },
   "pc-modern__baldur-s-gate-3": {
     "studio": "Larian Studios",
@@ -2770,6 +2786,18 @@
     "studio": "Infinity Ward",
     "year": "2007"
   },
+  "pc-modern__chaser": {
+    "studio": "Cauldron",
+    "year": "2003"
+  },
+  "pc-modern__chuchel": {
+    "studio": "Amanita Design",
+    "year": "2018"
+  },
+  "pc-modern__creaks": {
+    "studio": "Amanita Design",
+    "year": "2020"
+  },
   "pc-modern__crusader-kings-iii": {
     "studio": "Paradox Development Studio",
     "year": "2020"
@@ -2789,6 +2817,10 @@
   "pc-modern__dark-souls-prepare-to-die-edition": {
     "studio": "FromSoftware",
     "year": "2012"
+  },
+  "pc-modern__dayz": {
+    "studio": "Bohemia Interactive",
+    "year": "2018"
   },
   "pc-modern__dead-cells": {
     "studio": "Motion Twin",
@@ -2833,6 +2865,10 @@
   "pc-modern__elder-scrolls-online": {
     "studio": "ZeniMax Online Studios",
     "year": "2014"
+  },
+  "pc-modern__euro-truck-simulator": {
+    "studio": "SCS Software",
+    "year": "2008"
   },
   "pc-modern__euro-truck-simulator-2": {
     "studio": "SCS Software",
@@ -2886,6 +2922,10 @@
     "studio": "Valve",
     "year": "2004"
   },
+  "pc-modern__happy-game": {
+    "studio": "Amanita Design",
+    "year": "2021"
+  },
   "pc-modern__hidden-and-dangerous-2": {
     "studio": "Illusion Softworks",
     "year": "2003"
@@ -2914,6 +2954,10 @@
     "studio": "Warhorse Studios",
     "year": "2018"
   },
+  "pc-modern__kingdom-come-deliverance-ii": {
+    "studio": "Warhorse Studios",
+    "year": "2025"
+  },
   "pc-modern__left-4-dead-2": {
     "studio": "Valve",
     "year": "2009"
@@ -2930,9 +2974,17 @@
     "studio": "2K Czech",
     "year": "2010"
   },
+  "pc-modern__mashinky": {
+    "studio": "Jan Zelený",
+    "year": "2020"
+  },
   "pc-modern__max-payne": {
     "studio": "Remedy Entertainment",
     "year": "2001"
+  },
+  "pc-modern__medieval-engineers": {
+    "studio": "Keen Software House",
+    "year": "2015"
   },
   "pc-modern__need-for-speed-most-wanted": {
     "studio": "EA Black Box",
@@ -2958,9 +3010,17 @@
     "studio": "Moon Studios",
     "year": "2020"
   },
+  "pc-modern__original-war": {
+    "studio": "Cinemax",
+    "year": "2001"
+  },
   "pc-modern__outlast": {
     "studio": "Red Barrels",
     "year": "2013"
+  },
+  "pc-modern__pilgrims": {
+    "studio": "Amanita Design",
+    "year": "2019"
   },
   "pc-modern__pillars-of-eternity": {
     "studio": "Obsidian Entertainment",
@@ -2998,6 +3058,14 @@
     "studio": "Yacht Club Games",
     "year": "2014"
   },
+  "pc-modern__someday-you-ll-return": {
+    "studio": "CBE Software",
+    "year": "2020"
+  },
+  "pc-modern__space-engineers": {
+    "studio": "Keen Software House",
+    "year": "2019"
+  },
   "pc-modern__spelunky": {
     "studio": "Mossmouth",
     "year": "2013"
@@ -3026,6 +3094,10 @@
     "studio": "Gas Powered Games",
     "year": "2007"
   },
+  "pc-modern__svoboda-1945-liberation": {
+    "studio": "Charles Games",
+    "year": "2021"
+  },
   "pc-modern__terraria": {
     "studio": "Re-Logic",
     "year": "2011"
@@ -3033,6 +3105,10 @@
   "pc-modern__titanfall-2": {
     "studio": "Respawn Entertainment",
     "year": "2016"
+  },
+  "pc-modern__ufo-aftermath": {
+    "studio": "ALTAR Interactive",
+    "year": "2003"
   },
   "pc-modern__undertale": {
     "studio": "Toby Fox",
@@ -3042,9 +3118,17 @@
     "studio": "Troika Games",
     "year": "2004"
   },
+  "pc-modern__vaporum": {
+    "studio": "Fatbot Games",
+    "year": "2017"
+  },
   "pc-modern__vietcong": {
     "studio": "Pterodon",
     "year": "2003"
+  },
+  "pc-modern__vietcong-2": {
+    "studio": "Pterodon",
+    "year": "2005"
   },
   "pc-modern__warcraft-iii-reign-of-chaos": {
     "studio": "Blizzard Entertainment",
@@ -3061,6 +3145,10 @@
   "pc-modern__xcom-enemy-unknown": {
     "studio": "Firaxis Games",
     "year": "2012"
+  },
+  "pc-modern__ylands": {
+    "studio": "Bohemia Interactive",
+    "year": "2019"
   },
   "ps-vita__amnesia-memories": {
     "studio": "Idea Factory / Otomate",

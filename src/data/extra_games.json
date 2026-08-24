@@ -13205,6 +13205,163 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "Space Engineers",
+   "genre": "Stavební simulace / sandbox",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Medieval Engineers",
+   "genre": "Stavební simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mashinky",
+   "genre": "Strategie / stavební simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Someday You'll Return",
+   "genre": "Psychologická adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "CHUCHEL",
+   "genre": "Klikací adventura / komedie",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Creaks",
+   "genre": "Logická plošinovka",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Happy Game",
+   "genre": "Surrealistická adventura",
+   "length": "S",
+   "flags": [
+    "puzzle",
+    "mature"
+   ]
+  },
+  {
+   "name": "Attentat 1942",
+   "genre": "Vzdělávací adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Svoboda 1945: Liberation",
+   "genre": "Vzdělávací adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Come: Deliverance II",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Euro Truck Simulator",
+   "genre": "Simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "American Truck Simulator",
+   "genre": "Simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Vietcong 2",
+   "genre": "Taktická válečná akce (FPS)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Arma 3",
+   "genre": "Vojenská simulace / taktická střílečka",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "DayZ",
+   "genre": "Survival / open-world akce",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Pilgrims",
+   "genre": "Point-and-click logická adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Original War",
+   "genre": "Real-time strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Chaser",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "UFO: Aftermath",
+   "genre": "Tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Vaporum",
+   "genre": "Dungeon crawler",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Ylands",
+   "genre": "Sandbox / stavební adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Arma: Armed Assault",
+   "genre": "Vojenská simulace / taktická střílečka",
+   "length": "XL",
+   "flags": []
   }
  ],
  "3do": [

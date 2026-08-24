@@ -100,6 +100,13 @@ WIKI = {
     "vectrex": "Vectrex",
     "x68000": "X68000",
     "pc-98": "PC-9800 series",
+    "vfx1": "VFX1 Headgear",
+    "virtuality": "Virtuality (product)",
+    "cardboard": "Google Cardboard",
+    "pc-vr": "Oculus Rift",
+    "psvr": "PlayStation VR",
+    "psvr2": "PlayStation VR2",
+    "quest": "Meta Quest 3",
     "pc-dos": "IBM Personal Computer",
     "pc-9x": "Pentium (original)",
     "pc-modern": "Gaming computer",
@@ -119,6 +126,10 @@ PLATFORM_PHOTO_FILE = {
     "cd-i": "Philips CD-i 210 player (30179599718).jpg",
     # v infoboxu článku je logo WonderSwanu, ne konzole
     "wonderswan": "WonderSwan-Color-Blue-Left.png",
+    # clanek o Quest ma nesvobodny produktovy snimek; tenhle je na Commons
+    "quest": "Meta Quest 3 front View.jpg",
+    # infobox clanku dava snimek s obrazovkou; tenhle je cely set na zelenem platne
+    "psvr2": "PSVR2 (Non-Stereoscopic).png",
     # původní snímek měl vedle černého Xboxu i BÍLÝ Xbox One S, kterému
     # odmazávání pozadí vykouslo hranu (bílá konzole splývá s bílým podkladem);
     # tenhle je jen černý hardware a už s průhledností
@@ -128,6 +139,16 @@ PLATFORM_PHOTO_FILE = {
 # Platformy, u kterých se pozadí NESMÍ odmazávat — produkt je sám bílý,
 # takže výplň od okraje by se prokousala do konzole.
 PLATFORM_TRIM_SKIP = {"xbox-one", "wii", "dreamcast", "wii-u"}
+
+# Fotky nafocene na zelenem platne (chroma key). Bily prah je na ne slepy, tak
+# se u nich misto "skoro bila" hleda "vyrazne zelena" a nakonec se odstrani
+# zeleny nadech, ktery plátno vrha na okraje produktu.
+PLATFORM_CHROMA = {"psvr2"}
+
+# Vyjimky z globalniho prahu. Kdyz je produkt cely tmavy, snese se prah mnohem
+# nize a odmaze i sedive studiove pozadi, ktere by jinak zustalo jako svetly
+# obdelnik. Naopak u svetleho produktu je nizky prah nebezpecny.
+PLATFORM_TRIM_THRESH = {"vfx1": 160}
 
 # ---- platforma -> libretro-thumbnails repo (boxarty) ----
 LIBRETRO = {
@@ -1555,8 +1576,12 @@ def fetch_games_wiki_box(only=None):
     print(f"\nWikipedia obaly: dohledano {ok}/{total}")
 
 
-def trim_platform_bg(only=None, thresh=232):
+def trim_platform_bg(only=None, base_thresh=250):
     """U fotek platforem s bilym pozadim udela z pozadi pruhlednost.
+
+    Prah je zamerne vysoko (jen temer ciste bila). S nizsim se vypln prokouse do
+    svetlych casti produktu — bily pasek PlayStation VR takhle prisel o kusy,
+    protoze sedobila plocha jeste prosla jako pozadi.
 
     Fotky konzoli z Wikipedie jsou casto produktove snimky na bilem podkladu.
     Na karte pak vznikne bily obdelnik s tvrdym okrajem, ktery vedle vyrezu
@@ -1576,7 +1601,7 @@ def trim_platform_bg(only=None, thresh=232):
         slugs = set(only.split(","))
     else:
         bg = json.loads(bg_file.read_text("utf-8")) if bg_file.exists() else {}
-        slugs = {k for k, v in bg.items() if v == "light"} - PLATFORM_TRIM_SKIP
+        slugs = ({k for k, v in bg.items() if v == "light"} | PLATFORM_CHROMA) - PLATFORM_TRIM_SKIP
     if not slugs:
         print("  zadne platformy se svetlym pozadim")
         return
@@ -1595,9 +1620,22 @@ def trim_platform_bg(only=None, thresh=232):
         w, h = im.size
         px = im.load()
 
+        chroma = slug in PLATFORM_CHROMA
+        thresh = PLATFORM_TRIM_THRESH.get(slug, base_thresh)
+
         def is_bg(x, y):
             r, g, b, a = px[x, y]
-            return a > 0 and r >= thresh and g >= thresh and b >= thresh
+            if not a:
+                return False
+            if chroma:
+                # Platno je syta zelen; bily plast (r~g~b) ani cerne polstrovani
+                # ji nemaji.
+                # Prah zamerne NEjde nize: tmava zelen uz je k nerozeznani od
+                # cerne gumy se zelenym odleskem a vypln se do ni prokouse
+                # (headset PSVR2 takhle prisel o polstrovani i pasek). Za cenu
+                # toho ve snimku zustane jemny vrzeny stin.
+                return g > 60 and g >= r + 28 and g >= b + 28
+            return r >= thresh and g >= thresh and b >= thresh
 
         seen = bytearray(w * h)
         q = deque()
@@ -1624,6 +1662,53 @@ def trim_platform_bg(only=None, thresh=232):
                     q.append((nx, ny))
 
         ratio = cleared / (w * h)
+        # Nektera fotka ma pozadi jen skoro bile (svetle sede studio). Prisny prah
+        # ho nenajde, tak se zkusi jeste jednou mirneji — u platforem v
+        # PLATFORM_TRIM_SKIP se to nedela, tam by se vypln prokousala do produktu.
+        if ratio < 0.02 and not chroma and slug not in PLATFORM_TRIM_SKIP and thresh > 236:
+            im = Image.open(src).convert("RGBA")
+            px = im.load()
+            seen = bytearray(w * h)
+            q = deque()
+            soft = 236
+
+            def is_bg2(x, y):
+                r, g, b, a = px[x, y]
+                return a > 0 and r >= soft and g >= soft and b >= soft
+
+            for x in range(w):
+                for y in (0, h - 1):
+                    if is_bg2(x, y) and not seen[y * w + x]:
+                        seen[y * w + x] = 1
+                        q.append((x, y))
+            for y in range(h):
+                for x in (0, w - 1):
+                    if is_bg2(x, y) and not seen[y * w + x]:
+                        seen[y * w + x] = 1
+                        q.append((x, y))
+            cleared = 0
+            while q:
+                x, y = q.popleft()
+                px[x, y] = (255, 255, 255, 0)
+                cleared += 1
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    nx, ny = x + dx, y + dy
+                    if 0 <= nx < w and 0 <= ny < h and not seen[ny * w + nx] and is_bg2(nx, ny):
+                        seen[ny * w + nx] = 1
+                        q.append((nx, ny))
+            ratio = cleared / (w * h)
+        if chroma and ratio >= 0.02:
+            # Platno vrha na obrys produktu zeleny lem. Zbylym pixelum se zelena
+            # slozka stlaci na uroven cerveno-modreho prumeru, cimz lem zesedne.
+            for y in range(h):
+                for x in range(w):
+                    r, g, b, a = px[x, y]
+                    if not a:
+                        continue
+                    cap = (r + b) // 2 + 10
+                    if g > cap:
+                        px[x, y] = (r, cap, b, a)
+
         # kdyz by zmizela vic nez tri ctvrtiny obrazku, je to spatne rozpoznany
         # snimek (svetly produkt splyva s pozadim) — nechame ho radeji bez zmeny
         if ratio > 0.75:

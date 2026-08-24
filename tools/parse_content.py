@@ -61,7 +61,7 @@ def find_image(subdir, stem):
 
 # ---------------------------------------------------------------------------
 # Registr platforem: slug, název, metadata, barvy a aliasy nadpisů (z obou souborů).
-# Pořadí = pořadí na webu. type: handheld | console | computer | arcade | fantasy
+# Pořadí = pořadí na webu. type: handheld | console | computer | arcade | fantasy | vr
 # ---------------------------------------------------------------------------
 PLATFORMS = [
     dict(slug="game-boy", name="Nintendo Game Boy", short="GB", maker="Nintendo",
@@ -259,6 +259,27 @@ PLATFORMS = [
     dict(slug="game-watch", name="Nintendo Game & Watch", short="G&W", maker="Nintendo",
          year=1980, type="handheld", color="#b0902a", color2="#332808",
          aliases=["Nintendo Game & Watch"]),
+    dict(slug="vfx1", name="Forte VFX1", short="VFX1", maker="Forte Technologies",
+         year=1995, type="vr", color="#7b3fb8", color2="#1b0f2e",
+         aliases=["Forte VFX1 Headgear", "VFX1"]),
+    dict(slug="virtuality", name="Virtuality", short="VRTY", maker="Virtuality Group",
+         year=1991, type="vr", color="#12b5a5", color2="#07272a",
+         aliases=["Virtuality 1000", "Virtuality arcade"]),
+    dict(slug="cardboard", name="Google Cardboard", short="CBRD", maker="Google",
+         year=2014, type="vr", color="#c98a3e", color2="#2b1d0c",
+         aliases=["Google Cardboard", "Cardboard VR"]),
+    dict(slug="pc-vr", name="PC VR (Rift, Vive, Index)", short="PCVR", maker="Oculus / HTC / Valve",
+         year=2016, type="vr", color="#2f7ad6", color2="#0d1c33",
+         aliases=["Oculus Rift", "HTC Vive", "Valve Index", "SteamVR"]),
+    dict(slug="psvr", name="PlayStation VR", short="PSVR", maker="Sony",
+         year=2016, type="vr", color="#1f5fd0", color2="#0a1226",
+         aliases=["Sony PlayStation VR", "PS VR"]),
+    dict(slug="psvr2", name="PlayStation VR2", short="PSVR2", maker="Sony",
+         year=2023, type="vr", color="#1b3fcc", color2="#080d22",
+         aliases=["Sony PlayStation VR2", "PS VR2"]),
+    dict(slug="quest", name="Meta Quest", short="Quest", maker="Meta (Oculus)",
+         year=2019, type="vr", color="#4a5ad8", color2="#12142e",
+         aliases=["Oculus Quest", "Meta Quest 2", "Meta Quest 3"]),
     dict(slug="pico-8", name="PICO-8", short="PICO-8", maker="Lexaloffle (fantasy konzole)",
          year=2015, type="fantasy", color="#ff004d", color2="#3a0013",
          aliases=["PICO-8 (fantasy konzole)", "Fantasy konzole — PICO-8 a TIC-80",

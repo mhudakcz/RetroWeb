@@ -4,7 +4,7 @@ import dataset from '../data/dataset.json';
 marked.setOptions({ gfm: true, breaks: false });
 
 // ---------------------------------------------------------------- typy
-export type PlatformType = 'handheld' | 'console' | 'computer' | 'arcade' | 'fantasy';
+export type PlatformType = 'handheld' | 'console' | 'computer' | 'arcade' | 'fantasy' | 'vr';
 export type GameLength = 'S' | 'M' | 'L' | 'XL';
 export type GameFlag = 'homebrew' | 'mustplay' | 'mature' | 'puzzle';
 
@@ -141,6 +141,9 @@ interface SeriesDef {
   match: string[];
   /** názvy, které vzor chytí omylem — „Tower of Doom" není díl Doomu */
   exclude?: string[];
+  /** výslovný seznam slugů — pro kolekce, které nespojuje název, ale něco jiného
+   *  (třeba původ: české a slovenské hry). Použije se místo `match`. */
+  games?: string[];
   intro?: Record<string, string>;
 }
 import seriesDefsRaw from '../data/series.json';
@@ -179,11 +182,14 @@ function buildSeries(source: GameWithPlatform[], locale: string): Map<string, Se
   const map = new Map<string, Series>();
   for (const { def, rx } of seriesPatterns) {
     const skip = (def.exclude || []).map((e) => e.toLowerCase());
-    const games = source.filter((g) => {
-      const n = g.name.toLowerCase();
-      if (skip.some((e) => n.includes(e))) return false;
-      return rx.some((r) => r.test(n));
-    });
+    const explicit = def.games ? new Set(def.games) : null;
+    const games = explicit
+      ? source.filter((g) => explicit.has(g.slug))
+      : source.filter((g) => {
+          const n = g.name.toLowerCase();
+          if (skip.some((e) => n.includes(e))) return false;
+          return rx.some((r) => r.test(n));
+        });
     games.sort((a, b) => (parseInt(a.year || '0') || 0) - (parseInt(b.year || '0') || 0));
     map.set(def.slug, {
       slug: def.slug,
@@ -205,11 +211,13 @@ export const series: Series[] = [...seriesMap.values()]
 export const getSeries = (slug: string) => seriesMap.get(slug);
 
 /** Série, do kterých hra patří (pro prolinkování z detailu hry). */
-export function seriesOfGame(name: string, all: Series[] = series): Series[] {
+export function seriesOfGame(name: string, all: Series[] = series, slug?: string): Series[] {
   const n = name.toLowerCase();
   return all.filter((s) => {
     const def = seriesPatterns.find((p) => p.def.slug === s.slug);
-    return def ? def.rx.some((r) => r.test(n)) : false;
+    if (!def) return false;
+    if (def.def.games) return slug ? def.def.games.includes(slug) : false;
+    return def.rx.some((r) => r.test(n));
   });
 }
 
@@ -247,13 +255,14 @@ export const studioLink = (name: string | null): string | null => {
 };
 
 // ---------------------------------------------------------------- skupiny / popisky
-export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'fantasy'];
+export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'vr', 'fantasy'];
 
 export const TYPE_LABEL: Record<PlatformType, string> = {
   console: 'Herní konzole',
   handheld: 'Kapesní konzole',
   computer: 'Domácí počítače',
   arcade: 'Arkády',
+  vr: 'Virtuální realita',
   fantasy: 'Fantasy konzole',
 };
 
@@ -262,6 +271,7 @@ export const TYPE_TAGLINE: Record<PlatformType, string> = {
   handheld: 'Hraní do kapsy — srdce dnešních zařízení jako Anbernic.',
   computer: '8bitové a 16bitové počítače domácí éry.',
   arcade: 'Herny, mince a nekompromisní obtížnost.',
+  vr: 'Headsety od kutilských devadesátek po dnešní samostatné brýle.',
   fantasy: 'Moderní „virtuální“ konzole s nostalgickými limity.',
 };
 

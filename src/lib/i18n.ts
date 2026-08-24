@@ -219,6 +219,8 @@ const UI: Dict = {
   'type.handheld.label': { cs: 'Kapesní konzole', en: 'Handhelds', de: 'Handhelds', fr: 'Consoles portables' },
   'type.computer.label': { cs: 'Domácí počítače', en: 'Home computers', de: 'Heimcomputer', fr: 'Ordinateurs familiaux' },
   'type.arcade.label': { cs: 'Arkády', en: 'Arcades', de: 'Arcades', fr: 'Arcades' },
+  'type.vr.label': { cs: 'Virtuální realita', en: 'Virtual reality', de: 'Virtuelle Realität', fr: 'Réalité virtuelle' },
+  'type.vr.tag': { cs: 'Headsety od kutilských devadesátek po dnešní samostatné brýle.', en: 'Headsets from the DIY nineties to today’s standalone goggles.', de: 'Headsets von den Bastel-Neunzigern bis zu heutigen Standalone-Brillen.', fr: 'Des casques des années 90 bricoleuses aux lunettes autonomes d’aujourd’hui.' },
   'type.fantasy.label': { cs: 'Fantasy konzole', en: 'Fantasy consoles', de: 'Fantasy-Konsolen', fr: 'Consoles fantasy' },
   'type.console.tag': { cs: 'Stroje pod televizi, které definovaly herní generace.', en: 'Machines under the TV that defined gaming generations.', de: 'Geräte unterm Fernseher, die Gaming-Generationen prägten.', fr: 'Des machines sous la télé qui ont défini des générations de jeu.' },
   'type.handheld.tag': { cs: 'Hraní do kapsy — srdce dnešních zařízení jako Anbernic.', en: 'Gaming in your pocket — the heart of today’s devices like Anbernic.', de: 'Gaming für die Tasche — das Herz heutiger Geräte wie Anbernic.', fr: "Le jeu dans la poche — le cœur des appareils actuels comme Anbernic." },
