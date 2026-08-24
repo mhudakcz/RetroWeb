@@ -649,6 +649,7 @@ def build():
 
         games = []
         seen_gslugs = {}
+        dup_games = 0
         for g in games_raw:
             pi, _ = best_match(g["name"], plus_list, used_plus)
             si, _ = best_match(g["name"], short_list, used_short)
@@ -671,10 +672,15 @@ def build():
 
             gslug = slugify_game(slug, g["name"], g["order"])
             if gslug in seen_gslugs:
-                seen_gslugs[gslug] += 1
-                gslug = f"{gslug}-{seen_gslugs[gslug]}"
-            else:
-                seen_gslugs[gslug] = 1
+                # Tentýž titul podruhé na jedné platformě. Vzniká to tím, že
+                # některé podklady uvádějí hry po skupinách („Cadillacs and
+                # Dinosaurs / Captain Commando / Knights of the Round“) a rozpad
+                # takové skupiny se potká se samostatnou položkou jinde v textu.
+                # Dřív se druhý výskyt uložil pod slugem s příponou -2 a platforma
+                # pak ukazovala dvě karty téže hry, každou s vlastním článkem.
+                dup_games += 1
+                continue
+            seen_gslugs[gslug] = 1
 
             if not teaser and gslug in extra_teasers:
                 t = (extra_teasers[gslug] or "").strip()
@@ -716,6 +722,9 @@ def build():
                 rating=game_ratings.get(gslug),
             ))
             total_games += 1
+
+        if dup_games:
+            print(f"  [!] {slug}: {dup_games}x tentyz titul v podkladech dvakrat, druhy vypusten")
 
         platforms_out.append(dict(
             slug=slug, name=p["name"], short=p["short"], maker=p["maker"],

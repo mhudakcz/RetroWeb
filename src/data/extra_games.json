@@ -283,12 +283,6 @@
    "flags": []
   },
   {
-   "name": "Out Run",
-   "genre": "Racing",
-   "length": "M",
-   "flags": []
-  },
-  {
    "name": "Sega Rally Championship",
    "genre": "Racing",
    "length": "M",
@@ -1612,6 +1606,62 @@
    "genre": "Action / Sandbox",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Birds of Prey",
+   "genre": "Letecký simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Knights of the Sky",
+   "genre": "Letecký simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wings",
+   "genre": "Letecká adventura / simulátor",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Silent Service II",
+   "genre": "Ponorkový simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Gunship 2000",
+   "genre": "Vrtulníkový simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Epic",
+   "genre": "Letecký simulátor / akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fighter Bomber",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "F-16 Combat Pilot",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "TFX",
+   "genre": "Letecký simulátor",
+   "length": "M",
+   "flags": []
   }
  ],
  "c64": [
@@ -1696,8 +1746,52 @@
    "flags": []
   },
   {
-   "name": "Defender of the Crown",
-   "genre": "Strategy",
+   "name": "Blue Max",
+   "genre": "Letecká akční simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Solo Flight",
+   "genre": "Civilní letecká simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gunship",
+   "genre": "Vrtulníková bojová simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Project Stealth Fighter",
+   "genre": "Letecká bojová simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Airborne Ranger",
+   "genre": "Taktická akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ace of Aces",
+   "genre": "Letecká bojová simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fighter Pilot",
+   "genre": "Letecká bojová simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sub Battle Simulator",
+   "genre": "Ponorková simulace",
    "length": "M",
    "flags": []
   }
@@ -2604,6 +2698,56 @@
   {
    "name": "Krtek a autíčko",
    "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fighter Pilot",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Tomahawk",
+   "genre": "Vrtulníkový simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "F-16 Combat Pilot",
+   "genre": "Letecký bojový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Silent Service",
+   "genre": "Ponorkový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Strike Force Harrier",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spitfire 40",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ace of Aces",
+   "genre": "Letecký bojový simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dam Busters",
+   "genre": "Bombardovací simulátor",
    "length": "S",
    "flags": []
   }
@@ -3631,12 +3775,6 @@
   },
   {
    "name": "Power Stone 2",
-   "genre": "Fighting",
-   "length": "S",
-   "flags": []
-  },
-  {
-   "name": "Soul Calibur",
    "genre": "Fighting",
    "length": "S",
    "flags": []
@@ -5383,6 +5521,60 @@
    "name": "Wild Arms 3",
    "genre": "JRPG",
    "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Ace Combat 04: Shattered Skies",
+   "genre": "Letecka akce",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ace Combat 5: The Unsung War",
+   "genre": "Letecka akce",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ace Combat Zero: The Belkan War",
+   "genre": "Letecka akce",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Naval Ops: Warship Gunner",
+   "genre": "Akcni strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Naval Ops: Commander",
+   "genre": "Taktika / Akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sky Odyssey",
+   "genre": "Letecka adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Secret Weapons Over Normandy",
+   "genre": "Letecka akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Top Gun: Combat Zones",
+   "genre": "Letecka akce",
+   "length": "S",
    "flags": []
   }
  ],
@@ -12025,6 +12217,291 @@
    "genre": "Sportovní/sázková simulace",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Command & Conquer: Tiberian Sun",
+   "genre": "Realtimova strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Command & Conquer: Red Alert 2",
+   "genre": "Realtimova strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Age of Empires",
+   "genre": "Realtimova strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Age of Empires II: The Age of Kings",
+   "genre": "Realtimova strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wing Commander IV: The Price of Freedom",
+   "genre": "Vesmirny simulator",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander: Prophecy",
+   "genre": "Vesmirny simulator",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: X-Wing vs. TIE Fighter",
+   "genre": "Vesmirny simulator",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: X-Wing Alliance",
+   "genre": "Vesmirny simulator",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Need for Speed III: Hot Pursuit",
+   "genre": "Zavodni",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Need for Speed: Porsche Unleashed",
+   "genre": "Zavodni",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Polda 3",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Homeworld: Cataclysm",
+   "genre": "Realtimova strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fallout",
+   "genre": "Postapokalyptické RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Baldur's Gate",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Planescape: Torment",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Might and Magic VII: For Blood and Honor",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Diablo",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls II: Daggerfall",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Jane's AH-64D Longbow",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Jane's Longbow 2",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Comanche 3",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Enemy Engaged: Comanche vs Hokum",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "European Air War",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Jane's WWII Fighters",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Jane's USAF",
+   "genre": "Simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Jane's F-15",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "F-22 Lightning 3",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Flight Unlimited III",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Microsoft Combat Flight Simulator",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Apache Longbow",
+   "genre": "Simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Silent Hunter",
+   "genre": "Ponorkový simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wolfpack",
+   "genre": "Ponorkový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Harpoon Classic '97",
+   "genre": "Námořní strategie / simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fighting Steel",
+   "genre": "Námořní simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "688(I) Hunter/Killer",
+   "genre": "Ponorkový simulátor",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Jane's Fleet Command",
+   "genre": "Námořní strategie / simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "M1 Tank Platoon II",
+   "genre": "Tankový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Steel Beasts",
+   "genre": "Tankový simulátor",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Panzer Elite",
+   "genre": "Tankový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "iM1A2 Abrams",
+   "genre": "Tankový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Destroyer Command",
+   "genre": "Námořní simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Panzer Commander",
+   "genre": "Tankový simulátor",
+   "length": "M",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -12956,6 +13433,230 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "Command & Conquer",
+   "genre": "Strategie (RTS)",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Command & Conquer: Red Alert",
+   "genre": "Strategie (RTS)",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dune II: The Building of a Dynasty",
+   "genre": "Strategie (RTS)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Warcraft: Orcs & Humans",
+   "genre": "Strategie (RTS)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wing Commander II: Vengeance of the Kilrathi",
+   "genre": "Vesmírná bojová simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander III: Heart of the Tiger",
+   "genre": "Vesmírná bojová simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wing Commander Armada",
+   "genre": "Strategie / Vesmírná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Silent Service",
+   "genre": "Ponorkova simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Silent Service II",
+   "genre": "Ponorkova simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Aces of the Deep",
+   "genre": "Ponorkova simulace",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Harpoon",
+   "genre": "Namorni strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Red Storm Rising",
+   "genre": "Ponorkova simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gato",
+   "genre": "Ponorkova simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sub Battle Simulator",
+   "genre": "Ponorkova simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "688 Attack Sub",
+   "genre": "Ponorkova simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Great Naval Battles: North Atlantic 1939-1943",
+   "genre": "Namorni strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Task Force 1942",
+   "genre": "Namorni strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "SSN-21 Seawolf",
+   "genre": "Ponorkova simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wolfpack",
+   "genre": "Ponorkova simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "North Atlantic '86",
+   "genre": "Namorni strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Gunship 2000",
+   "genre": "Vrtulníková simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "LHX Attack Chopper",
+   "genre": "Vrtulníková simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "A-10 Tank Killer",
+   "genre": "Letecká simulace (útočné letadlo)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Their Finest Hour: The Battle of Britain",
+   "genre": "Letecká simulace (2. světová válka)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Secret Weapons of the Luftwaffe",
+   "genre": "Letecká simulace (2. světová válka)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Chuck Yeager's Advanced Flight Trainer 2.0",
+   "genre": "Letecká simulace (výcvik)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "B-17 Flying Fortress",
+   "genre": "Letecká simulace (bombardér)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Knights of the Sky",
+   "genre": "Letecká simulace (1. světová válka)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "F-15 Strike Eagle III",
+   "genre": "Letecká simulace (stíhačka)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Aces Over Europe",
+   "genre": "Letecká simulace (2. světová válka)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Microsoft Flight Simulator 5.0",
+   "genre": "Civilní letecká simulace",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "F-14 Fleet Defender",
+   "genre": "Letecká simulace (stíhačka)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "JetFighter II: Advanced Tactical Fighter",
+   "genre": "Letecká simulace (stíhačka)",
+   "length": "S",
+   "flags": []
   }
  ],
  "pc-modern": [
@@ -13812,6 +14513,481 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Polda 4",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Polda 5",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Polda 6",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Polda 7",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Black Mirror",
+   "genre": "Hororová adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Black Mirror II: Reigning Evil",
+   "genre": "Hororová adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "NiBiRu: Age of Secrets",
+   "genre": "Adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Command & Conquer: Generals",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Command & Conquer 3: Tiberium Wars",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Command & Conquer: Red Alert 3",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Age of Empires III",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Age of Empires IV",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Age of Empires II: Definitive Edition",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Homeworld: Deserts of Kharak",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Homeworld 3",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Homeworld Remastered Collection",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Halo: Combat Evolved",
+   "genre": "Sci-fi FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Halo: The Master Chief Collection",
+   "genre": "Sci-fi FPS",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gears 5",
+   "genre": "Akční adventura (third-person shooter)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Gears Tactics",
+   "genre": "Tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Underground",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Carbon",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Shift",
+   "genre": "Závodní simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed Heat",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Elder Scrolls III: Morrowind",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls IV: Oblivion",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Elder Scrolls V: Skyrim",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Fallout 4",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Fallout 76",
+   "genre": "Akční RPG (online)",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fallout Tactics: Brotherhood of Steel",
+   "genre": "Taktické RPG / Strategie",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Gothic",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Divine Divinity",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Divinity: Original Sin II",
+   "genre": "Tahové RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mass Effect 2",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Dragon Age: Inquisition",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Pillars of Eternity II: Deadfire",
+   "genre": "Izometrické RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dragon Age II",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dragon Age: The Veilguard",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mass Effect",
+   "genre": "Sci-fi RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mass Effect Legendary Edition",
+   "genre": "Sci-fi RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Icewind Dale II",
+   "genre": "Klasické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Neverwinter Nights 2",
+   "genre": "Klasické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "IL-2 Sturmovik",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "IL-2 Sturmovik: Forgotten Battles",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "IL-2 Sturmovik: Cliffs of Dover",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "IL-2 Sturmovik: Battle of Stalingrad",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lock On: Modern Air Combat",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "DCS World",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Microsoft Flight Simulator",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Microsoft Flight Simulator X",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "X-Plane 11",
+   "genre": "Letecký simulátor",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "War Thunder",
+   "genre": "Akční letecká hra",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Ace Combat 7: Skies Unknown",
+   "genre": "Akční letecká hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Tom Clancy's H.A.W.X",
+   "genre": "Akční letecká hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Strike Fighters 2",
+   "genre": "Letecký simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Silent Hunter III",
+   "genre": "Simulátor ponorky",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Silent Hunter 4: Wolves of the Pacific",
+   "genre": "Simulátor ponorky",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Silent Hunter 5: Battle of the Atlantic",
+   "genre": "Simulátor ponorky",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dangerous Waters",
+   "genre": "Vojenský simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Battlestations: Midway",
+   "genre": "Akční strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Battlestations: Pacific",
+   "genre": "Akční strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ship Simulator Extremes",
+   "genre": "Simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Naval Action",
+   "genre": "MMO simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Atlantic Fleet",
+   "genre": "Taktická strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Cold Waters",
+   "genre": "Simulátor ponorky",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "UBOAT",
+   "genre": "Simulátor ponorky",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sea Power: Naval Combat in the Missile Age",
+   "genre": "Vojenský simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "World of Warships",
+   "genre": "Akční MMO",
+   "length": "XL",
+   "flags": []
   }
  ],
  "3do": [
@@ -17744,6 +18920,60 @@
   {
    "name": "Total Destruction",
    "genre": "Vozidlová akce",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "atari-8bit": [
+  {
+   "name": "Moon Patrol",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Choplifter",
+   "genre": "Akční záchranná hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Super Cobra",
+   "genre": "Vertikální střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Preppie!",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pitfall II: Lost Caverns",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Donkey Kong",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dropzone",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Encounter!",
+   "genre": "3D střílečka",
    "length": "S",
    "flags": []
   }

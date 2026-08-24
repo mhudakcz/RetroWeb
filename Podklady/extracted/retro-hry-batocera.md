@@ -970,7 +970,6 @@ Kurátorský výběr nejlepších her podle platformy. Hodí se na horizontáln�
 40. Adventure II XE 🆓 — *Action-adventure (homebrew)* · ⏱ L
 41. Star Wars: The Empire Strikes Back — *Shooter / Action* · ⏱ S
 42. Star Trek: Strategic Operations Simulator — *Space combat sim* · ⏱ S
-43. Eastern Front 1941 — *Strategy (war)* · ⏱ L
 
 ---
 

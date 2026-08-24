@@ -193,17 +193,53 @@
     "studio": "Arzest",
     "year": "2014"
   },
+  "amiga__birds-of-prey": {
+    "studio": "Electronic Arts",
+    "year": "1991"
+  },
+  "amiga__epic": {
+    "studio": "Digital Image Design",
+    "year": "1992"
+  },
+  "amiga__f-16-combat-pilot": {
+    "studio": "Digital Integration",
+    "year": "1989"
+  },
+  "amiga__fighter-bomber": {
+    "studio": "Digital Integration",
+    "year": "1989"
+  },
+  "amiga__gunship-2000": {
+    "studio": "MicroProse",
+    "year": "1993"
+  },
   "amiga__hunter": {
     "studio": "Activision",
     "year": "1991"
+  },
+  "amiga__knights-of-sky": {
+    "studio": "MicroProse",
+    "year": "1990"
   },
   "amiga__moonstone-hard-days-knight": {
     "studio": "Mindscape",
     "year": "1991"
   },
+  "amiga__silent-service-ii": {
+    "studio": "MicroProse",
+    "year": "1990"
+  },
   "amiga__super-stardust": {
     "studio": "Bloodhouse",
     "year": "1994"
+  },
+  "amiga__tfx": {
+    "studio": "Digital Image Design",
+    "year": "1993"
+  },
+  "amiga__wings": {
+    "studio": "Cinemaware",
+    "year": "1990"
   },
   "arcade__contra": {
     "studio": "Konami",
@@ -241,17 +277,81 @@
     "studio": "Namco",
     "year": "1983"
   },
+  "atari-8bit__choplifter": {
+    "studio": "Broderbund",
+    "year": "1982"
+  },
+  "atari-8bit__donkey-kong": {
+    "studio": "Atari",
+    "year": "1983"
+  },
+  "atari-8bit__dropzone": {
+    "studio": "Archer Maclean",
+    "year": "1984"
+  },
+  "atari-8bit__encounter": {
+    "studio": "Novagen",
+    "year": "1983"
+  },
+  "atari-8bit__moon-patrol": {
+    "studio": "Atari",
+    "year": "1983"
+  },
+  "atari-8bit__pitfall-ii-lost-caverns": {
+    "studio": "Activision",
+    "year": "1984"
+  },
+  "atari-8bit__preppie": {
+    "studio": "Adventure International",
+    "year": "1982"
+  },
+  "atari-8bit__super-cobra": {
+    "studio": "Parker Brothers",
+    "year": "1983"
+  },
+  "c64__ace-of-aces": {
+    "studio": "Artech Digital Entertainments",
+    "year": "1986"
+  },
+  "c64__airborne-ranger": {
+    "studio": "MicroProse",
+    "year": "1987"
+  },
   "c64__archon-light-and-dark": {
     "studio": "Free Fall Associates",
+    "year": "1983"
+  },
+  "c64__blue-max": {
+    "studio": "Synapse Software",
     "year": "1983"
   },
   "c64__defender-of-crown-2": {
     "studio": "Cinemaware",
     "year": "1986"
   },
+  "c64__fighter-pilot": {
+    "studio": "Digital Integration",
+    "year": "1985"
+  },
+  "c64__gunship": {
+    "studio": "MicroProse",
+    "year": "1986"
+  },
   "c64__m-u-l-e": {
     "studio": "Ozark Softscape",
     "year": "1983"
+  },
+  "c64__project-stealth-fighter": {
+    "studio": "MicroProse",
+    "year": "1987"
+  },
+  "c64__solo-flight": {
+    "studio": "MicroProse",
+    "year": "1983"
+  },
+  "c64__sub-battle-simulator": {
+    "studio": "Epyx",
+    "year": "1987"
   },
   "cardboard__anshar-wars-2": {
     "studio": "Campfire Union",
@@ -2086,17 +2186,37 @@
     "studio": "ELF",
     "year": "1996"
   },
+  "pc-9x__688-hunter-killer": {
+    "studio": "Sonalysts",
+    "year": "1997"
+  },
   "pc-9x__7-dni-7-noci": {
     "studio": "domácí vývojářský tým",
     "year": "1998"
+  },
+  "pc-9x__age-of-empires": {
+    "studio": "Ensemble Studios",
+    "year": "1997"
+  },
+  "pc-9x__age-of-empires-ii-age-of-kings": {
+    "studio": "Ensemble Studios",
+    "year": "1999"
   },
   "pc-9x__aliens-versus-predator": {
     "studio": "Rebellion Developments",
     "year": "1999"
   },
+  "pc-9x__apache-longbow": {
+    "studio": "Digital Integration",
+    "year": "1998"
+  },
   "pc-9x__asmodeus-ukradeny-trun": {
     "studio": "malé české studio",
     "year": "1997"
+  },
+  "pc-9x__baldur-s-gate": {
+    "studio": "BioWare",
+    "year": "1998"
   },
   "pc-9x__baldur-s-gate-ii-shadows-of-amn": {
     "studio": "BioWare",
@@ -2142,6 +2262,18 @@
     "studio": "Codemasters",
     "year": "1999"
   },
+  "pc-9x__comanche-3": {
+    "studio": "NovaLogic",
+    "year": "1997"
+  },
+  "pc-9x__command-and-conquer-red-alert-2": {
+    "studio": "Westwood Studios",
+    "year": "2000"
+  },
+  "pc-9x__command-and-conquer-tiberian-sun": {
+    "studio": "Westwood Studios",
+    "year": "1999"
+  },
   "pc-9x__commandos-behind-enemy-lines": {
     "studio": "Pyro Studios",
     "year": "1998"
@@ -2162,9 +2294,17 @@
     "studio": "Delphine Software",
     "year": "1999"
   },
+  "pc-9x__destroyer-command": {
+    "studio": "Fresh3D",
+    "year": "2001"
+  },
   "pc-9x__deus-ex": {
     "studio": "Ion Storm",
     "year": "2000"
+  },
+  "pc-9x__diablo": {
+    "studio": "Blizzard North",
+    "year": "1996"
   },
   "pc-9x__diablo-ii": {
     "studio": "Blizzard North",
@@ -2190,13 +2330,33 @@
     "studio": "Bullfrog Productions",
     "year": "1997"
   },
+  "pc-9x__elder-scrolls-ii-daggerfall": {
+    "studio": "Bethesda Softworks",
+    "year": "1996"
+  },
+  "pc-9x__enemy-engaged-comanche-vs-hokum": {
+    "studio": "Razorworks",
+    "year": "1999"
+  },
   "pc-9x__escape-from-monkey-island": {
     "studio": "LucasArts",
     "year": "2000"
   },
+  "pc-9x__european-air-war": {
+    "studio": "MicroProse",
+    "year": "1998"
+  },
+  "pc-9x__f-22-lightning-3": {
+    "studio": "NovaLogic",
+    "year": "1999"
+  },
   "pc-9x__falcon-4-0": {
     "studio": "MicroProse",
     "year": "1998"
+  },
+  "pc-9x__fallout": {
+    "studio": "Interplay Productions",
+    "year": "1997"
   },
   "pc-9x__fallout-2": {
     "studio": "Black Isle Studios",
@@ -2205,6 +2365,10 @@
   "pc-9x__fifa-98-road-to-world-cup": {
     "studio": "EA Canada",
     "year": "1997"
+  },
+  "pc-9x__fighting-steel": {
+    "studio": "Quantum Quality Productions",
+    "year": "1998"
   },
   "pc-9x__final-fantasy-vii": {
     "studio": "Square",
@@ -2217,6 +2381,10 @@
   "pc-9x__flight-unlimited-ii": {
     "studio": "Looking Glass Studios",
     "year": "1997"
+  },
+  "pc-9x__flight-unlimited-iii": {
+    "studio": "Looking Glass Studios",
+    "year": "1999"
   },
   "pc-9x__gabriel-knight-3-blood-of-sacred-blood-of-damned": {
     "studio": "Sierra On-Line",
@@ -2250,6 +2418,10 @@
     "studio": "Gearbox Software",
     "year": "1999"
   },
+  "pc-9x__harpoon-classic-97": {
+    "studio": "TalonSoft",
+    "year": "1997"
+  },
   "pc-9x__hidden-and-dangerous": {
     "studio": "Illusion Softworks",
     "year": "1999"
@@ -2262,6 +2434,10 @@
     "studio": "Relic Entertainment",
     "year": "1999"
   },
+  "pc-9x__homeworld-cataclysm": {
+    "studio": "Barking Dog Studios",
+    "year": "2000"
+  },
   "pc-9x__horke-leto": {
     "studio": "malé české studio",
     "year": "1997"
@@ -2270,6 +2446,10 @@
     "studio": "Black Isle Studios",
     "year": "2000"
   },
+  "pc-9x__im1a2-abrams": {
+    "studio": "Interactive Magic",
+    "year": "1997"
+  },
   "pc-9x__interstate-76": {
     "studio": "Activision",
     "year": "1997"
@@ -2277,6 +2457,30 @@
   "pc-9x__jagged-alliance-2": {
     "studio": "Sir-Tech Canada",
     "year": "1999"
+  },
+  "pc-9x__jane-s-ah-64d-longbow": {
+    "studio": "Origin Systems",
+    "year": "1996"
+  },
+  "pc-9x__jane-s-f-15": {
+    "studio": "Electronic Arts (Jane's Combat Simulations)",
+    "year": "1998"
+  },
+  "pc-9x__jane-s-fleet-command": {
+    "studio": "Sonalysts",
+    "year": "1999"
+  },
+  "pc-9x__jane-s-longbow-2": {
+    "studio": "Origin Systems",
+    "year": "1997"
+  },
+  "pc-9x__jane-s-usaf": {
+    "studio": "Electronic Arts (Jane's Combat Simulations)",
+    "year": "1999"
+  },
+  "pc-9x__jane-s-wwii-fighters": {
+    "studio": "Electronic Arts (Jane's Combat Simulations)",
+    "year": "1998"
   },
   "pc-9x__last-express": {
     "studio": "Smoking Car Productions",
@@ -2290,6 +2494,10 @@
     "studio": "Funcom",
     "year": "2000"
   },
+  "pc-9x__m1-tank-platoon-ii": {
+    "studio": "MicroProse",
+    "year": "1998"
+  },
   "pc-9x__master-of-orion-ii-battle-at-antares": {
     "studio": "Simtex",
     "year": "1996"
@@ -2302,6 +2510,10 @@
     "studio": "Konami",
     "year": "2000"
   },
+  "pc-9x__microsoft-combat-flight-simulator": {
+    "studio": "Microsoft (Aces Studio)",
+    "year": "1998"
+  },
   "pc-9x__midtown-madness": {
     "studio": "Angel Studios",
     "year": "1999"
@@ -2309,6 +2521,10 @@
   "pc-9x__might-and-magic-vi-mandate-of-heaven": {
     "studio": "New World Computing",
     "year": "1998"
+  },
+  "pc-9x__might-and-magic-vii-for-blood-and-honor": {
+    "studio": "New World Computing",
+    "year": "1999"
   },
   "pc-9x__motocross-madness": {
     "studio": "Rainbow Studios",
@@ -2321,6 +2537,14 @@
   "pc-9x__nascar-racing-3": {
     "studio": "Papyrus Design Group",
     "year": "1999"
+  },
+  "pc-9x__need-for-speed-iii-hot-pursuit": {
+    "studio": "Electronic Arts",
+    "year": "1998"
+  },
+  "pc-9x__need-for-speed-porsche-unleashed": {
+    "studio": "Electronic Arts",
+    "year": "2000"
   },
   "pc-9x__neverhood": {
     "studio": "The Neverhood, Inc.",
@@ -2346,6 +2570,18 @@
     "studio": "Appeal",
     "year": "1999"
   },
+  "pc-9x__panzer-commander": {
+    "studio": "TalonSoft",
+    "year": "1998"
+  },
+  "pc-9x__panzer-elite": {
+    "studio": "Wings Simulations",
+    "year": "1999"
+  },
+  "pc-9x__planescape-torment": {
+    "studio": "Black Isle Studios",
+    "year": "1999"
+  },
   "pc-9x__pod": {
     "studio": "Ubi Soft",
     "year": "1997"
@@ -2357,6 +2593,10 @@
   "pc-9x__polda-2": {
     "studio": "Zima Software",
     "year": "1999"
+  },
+  "pc-9x__polda-3": {
+    "studio": "Zima Software",
+    "year": "2000"
   },
   "pc-9x__populous-beginning": {
     "studio": "Bullfrog Productions",
@@ -2418,6 +2658,10 @@
     "studio": "MicroProse",
     "year": "1996"
   },
+  "pc-9x__silent-hunter": {
+    "studio": "Aeon Electronic Entertainment",
+    "year": "1996"
+  },
   "pc-9x__sims": {
     "studio": "Maxis",
     "year": "2000"
@@ -2430,9 +2674,21 @@
     "studio": "LucasArts",
     "year": "1997"
   },
+  "pc-9x__star-wars-x-wing-alliance": {
+    "studio": "Totally Games",
+    "year": "1999"
+  },
+  "pc-9x__star-wars-x-wing-vs-tie-fighter": {
+    "studio": "Totally Games",
+    "year": "1997"
+  },
   "pc-9x__starcraft": {
     "studio": "Blizzard Entertainment",
     "year": "1998"
+  },
+  "pc-9x__steel-beasts": {
+    "studio": "eSim Games",
+    "year": "2000"
   },
   "pc-9x__syberia": {
     "studio": "Microïds",
@@ -2514,13 +2770,41 @@
     "studio": "Blizzard Entertainment",
     "year": "1995"
   },
+  "pc-9x__wing-commander-iv-price-of-freedom": {
+    "studio": "Origin Systems",
+    "year": "1996"
+  },
+  "pc-9x__wing-commander-prophecy": {
+    "studio": "Origin Systems",
+    "year": "1997"
+  },
+  "pc-9x__wolfpack": {
+    "studio": "Interactive Magic",
+    "year": "1997"
+  },
   "pc-9x__zork-grand-inquisitor": {
     "studio": "Activision",
     "year": "1997"
   },
+  "pc-dos__10-tank-killer": {
+    "studio": "Dynamix",
+    "year": "1989"
+  },
+  "pc-dos__688-attack-sub": {
+    "studio": "Electronic Arts",
+    "year": "1989"
+  },
+  "pc-dos__aces-of-deep": {
+    "studio": "Dynamix / Sierra",
+    "year": "1994"
+  },
   "pc-dos__aces-of-pacific": {
     "studio": "Dynamix",
     "year": "1992"
+  },
+  "pc-dos__aces-over-europe": {
+    "studio": "Dynamix",
+    "year": "1993"
   },
   "pc-dos__albion": {
     "studio": "Blue Byte",
@@ -2536,6 +2820,10 @@
   },
   "pc-dos__another-world": {
     "studio": "Delphine Software",
+    "year": "1992"
+  },
+  "pc-dos__b-17-flying-fortress": {
+    "studio": "MicroProse",
     "year": "1992"
   },
   "pc-dos__battle-isle": {
@@ -2570,9 +2858,21 @@
     "studio": "id Software",
     "year": "1991"
   },
+  "pc-dos__chuck-yeager-s-advanced-flight-trainer-2-0": {
+    "studio": "Electronic Arts",
+    "year": "1989"
+  },
   "pc-dos__comanche-maximum-overkill": {
     "studio": "NovaLogic",
     "year": "1992"
+  },
+  "pc-dos__command-and-conquer": {
+    "studio": "Westwood Studios",
+    "year": "1995"
+  },
+  "pc-dos__command-and-conquer-red-alert": {
+    "studio": "Westwood Studios",
+    "year": "1996"
   },
   "pc-dos__cosmo-s-cosmic-adventure": {
     "studio": "Apogee Software",
@@ -2626,6 +2926,10 @@
     "studio": "3D Realms",
     "year": "1996"
   },
+  "pc-dos__dune-ii-building-of-dynasty": {
+    "studio": "Westwood Studios",
+    "year": "1992"
+  },
   "pc-dos__elder-scrolls-arena": {
     "studio": "Bethesda Softworks",
     "year": "1994"
@@ -2641,6 +2945,14 @@
   "pc-dos__eye-of-beholder-ii-legend-of-darkmoon": {
     "studio": "Westwood Associates",
     "year": "1991"
+  },
+  "pc-dos__f-14-fleet-defender": {
+    "studio": "MicroProse",
+    "year": "1994"
+  },
+  "pc-dos__f-15-strike-eagle-iii": {
+    "studio": "MicroProse",
+    "year": "1992"
   },
   "pc-dos__f-19-stealth-fighter": {
     "studio": "MicroProse",
@@ -2670,9 +2982,25 @@
     "studio": "Sierra On-Line",
     "year": "1993"
   },
+  "pc-dos__gato": {
+    "studio": "Spectrum HoloByte",
+    "year": "1985"
+  },
+  "pc-dos__great-naval-battles-north-atlantic-1939-1943": {
+    "studio": "Strategic Simulations, Inc. (SSI)",
+    "year": "1992"
+  },
+  "pc-dos__gunship-2000": {
+    "studio": "MicroProse",
+    "year": "1991"
+  },
   "pc-dos__halloween-harry": {
     "studio": "SubZero Software",
     "year": "1993"
+  },
+  "pc-dos__harpoon": {
+    "studio": "Three-Sixty Pacific",
+    "year": "1989"
   },
   "pc-dos__heretic": {
     "studio": "Raven Software",
@@ -2718,6 +3046,10 @@
     "studio": "Epic MegaGames",
     "year": "1994"
   },
+  "pc-dos__jetfighter-ii-advanced-tactical-fighter": {
+    "studio": "Velocity Development",
+    "year": "1991"
+  },
   "pc-dos__jill-of-jungle": {
     "studio": "Epic MegaGames",
     "year": "1992"
@@ -2730,6 +3062,10 @@
     "studio": "Sierra On-Line",
     "year": "1992"
   },
+  "pc-dos__knights-of-sky": {
+    "studio": "MicroProse",
+    "year": "1990"
+  },
   "pc-dos__lands-of-lore-throne-of-chaos": {
     "studio": "Westwood Studios",
     "year": "1993"
@@ -2737,6 +3073,10 @@
   "pc-dos__lemmings": {
     "studio": "DMA Design",
     "year": "1991"
+  },
+  "pc-dos__lhx-attack-chopper": {
+    "studio": "Electronic Arts",
+    "year": "1990"
   },
   "pc-dos__links-challenge-of-golf": {
     "studio": "Access Software",
@@ -2778,6 +3118,10 @@
     "studio": "Simtex",
     "year": "1993"
   },
+  "pc-dos__microsoft-flight-simulator-5-0": {
+    "studio": "Bruce Artwick Organization / Microsoft",
+    "year": "1993"
+  },
   "pc-dos__might-and-magic-iii-isles-of-terra": {
     "studio": "New World Computing",
     "year": "1991"
@@ -2801,6 +3145,10 @@
   "pc-dos__normality": {
     "studio": "Gremlin Interactive",
     "year": "1996"
+  },
+  "pc-dos__north-atlantic-86": {
+    "studio": "Strategic Studies Group (SSG)",
+    "year": "1986"
   },
   "pc-dos__outcast": {
     "studio": "Appeal",
@@ -2862,6 +3210,10 @@
     "studio": "Dynamix",
     "year": "1990"
   },
+  "pc-dos__red-storm-rising": {
+    "studio": "MicroProse",
+    "year": "1988"
+  },
   "pc-dos__redneck-rampage": {
     "studio": "Xatrix Entertainment",
     "year": "1997"
@@ -2877,6 +3229,10 @@
   "pc-dos__secret-of-monkey-island": {
     "studio": "Lucasfilm Games",
     "year": "1990"
+  },
+  "pc-dos__secret-weapons-of-luftwaffe": {
+    "studio": "LucasArts",
+    "year": "1991"
   },
   "pc-dos__sensible-soccer": {
     "studio": "Sensible Software",
@@ -2902,6 +3258,14 @@
     "studio": "MicroProse",
     "year": "1990"
   },
+  "pc-dos__silent-service": {
+    "studio": "MicroProse",
+    "year": "1985"
+  },
+  "pc-dos__silent-service-ii": {
+    "studio": "MicroProse",
+    "year": "1990"
+  },
   "pc-dos__skyroads": {
     "studio": "Bluemoon Interactive",
     "year": "1993"
@@ -2917,6 +3281,10 @@
   "pc-dos__speedball-2-brutal-deluxe": {
     "studio": "The Bitmap Brothers",
     "year": "1992"
+  },
+  "pc-dos__ssn-21-seawolf": {
+    "studio": "Sonalysts Combat Simulations / Electronic Arts",
+    "year": "1994"
   },
   "pc-dos__star-wars-dark-forces": {
     "studio": "LucasArts",
@@ -2946,6 +3314,10 @@
     "studio": "Distinctive Software",
     "year": "1990"
   },
+  "pc-dos__sub-battle-simulator": {
+    "studio": "Epyx",
+    "year": "1987"
+  },
   "pc-dos__syndicate": {
     "studio": "Bullfrog Productions",
     "year": "1993"
@@ -2958,6 +3330,10 @@
     "studio": "Vochozka Trading",
     "year": "1994"
   },
+  "pc-dos__task-force-1942": {
+    "studio": "Strategic Simulations, Inc. (SSI)",
+    "year": "1992"
+  },
   "pc-dos__terminal-velocity": {
     "studio": "Terminal Reality",
     "year": "1995"
@@ -2969,6 +3345,10 @@
   "pc-dos__tetris": {
     "studio": "Spectrum HoloByte",
     "year": "1988"
+  },
+  "pc-dos__their-finest-hour-battle-of-britain": {
+    "studio": "Lucasfilm Games",
+    "year": "1989"
   },
   "pc-dos__theme-park": {
     "studio": "Bullfrog Productions",
@@ -3002,6 +3382,10 @@
     "studio": "Origin Systems",
     "year": "1994"
   },
+  "pc-dos__warcraft-orcs-and-humans": {
+    "studio": "Blizzard Entertainment",
+    "year": "1994"
+  },
   "pc-dos__warlords-ii": {
     "studio": "Strategic Studies Group",
     "year": "1993"
@@ -3013,6 +3397,18 @@
   "pc-dos__wing-commander": {
     "studio": "Origin Systems",
     "year": "1990"
+  },
+  "pc-dos__wing-commander-armada": {
+    "studio": "Origin Systems",
+    "year": "1994"
+  },
+  "pc-dos__wing-commander-ii-vengeance-of-kilrathi": {
+    "studio": "Origin Systems",
+    "year": "1991"
+  },
+  "pc-dos__wing-commander-iii-heart-of-tiger": {
+    "studio": "Origin Systems",
+    "year": "1994"
   },
   "pc-dos__wing-commander-privateer": {
     "studio": "Origin Systems",
@@ -3030,9 +3426,29 @@
     "studio": "id Software",
     "year": "1992"
   },
+  "pc-dos__wolfpack": {
+    "studio": "Mirage",
+    "year": "1990"
+  },
   "pc-dos__zak-mckracken-and-alien-mindbenders": {
     "studio": "Lucasfilm Games",
     "year": "1988"
+  },
+  "pc-modern__ace-combat-7-skies-unknown": {
+    "studio": "Bandai Namco Studios",
+    "year": "2019"
+  },
+  "pc-modern__age-of-empires-ii-definitive-edition": {
+    "studio": "Forgotten Empires",
+    "year": "2019"
+  },
+  "pc-modern__age-of-empires-iii": {
+    "studio": "Ensemble Studios",
+    "year": "2005"
+  },
+  "pc-modern__age-of-empires-iv": {
+    "studio": "Relic Entertainment",
+    "year": "2021"
   },
   "pc-modern__age-of-mythology": {
     "studio": "Ensemble Studios",
@@ -3074,6 +3490,10 @@
     "studio": "Kunos Simulazioni",
     "year": "2014"
   },
+  "pc-modern__atlantic-fleet": {
+    "studio": "Killerfish Games",
+    "year": "2015"
+  },
   "pc-modern__attentat-1942": {
     "studio": "Charles Games",
     "year": "2017"
@@ -3094,6 +3514,14 @@
     "studio": "DICE",
     "year": "2010"
   },
+  "pc-modern__battlestations-midway": {
+    "studio": "Eidos Hungary",
+    "year": "2007"
+  },
+  "pc-modern__battlestations-pacific": {
+    "studio": "Eidos Hungary",
+    "year": "2009"
+  },
   "pc-modern__beat-saber": {
     "studio": "Beat Games",
     "year": "2018"
@@ -3101,6 +3529,14 @@
   "pc-modern__bioshock": {
     "studio": "2K Boston",
     "year": "2007"
+  },
+  "pc-modern__black-mirror": {
+    "studio": "Future Games",
+    "year": "2003"
+  },
+  "pc-modern__black-mirror-ii-reigning-evil": {
+    "studio": "Cranberry Productions",
+    "year": "2009"
   },
   "pc-modern__botanicula": {
     "studio": "Amanita Design",
@@ -3117,6 +3553,22 @@
   "pc-modern__chuchel": {
     "studio": "Amanita Design",
     "year": "2018"
+  },
+  "pc-modern__cold-waters": {
+    "studio": "Killerfish Games",
+    "year": "2017"
+  },
+  "pc-modern__command-and-conquer-3-tiberium-wars": {
+    "studio": "EA Los Angeles",
+    "year": "2007"
+  },
+  "pc-modern__command-and-conquer-generals": {
+    "studio": "EA Pacific",
+    "year": "2003"
+  },
+  "pc-modern__command-and-conquer-red-alert-3": {
+    "studio": "EA Los Angeles",
+    "year": "2008"
   },
   "pc-modern__creaks": {
     "studio": "Amanita Design",
@@ -3138,6 +3590,10 @@
     "studio": "CD Projekt RED",
     "year": "2020"
   },
+  "pc-modern__dangerous-waters": {
+    "studio": "Sonalysts Combat Simulations",
+    "year": "2005"
+  },
   "pc-modern__dark-souls-prepare-to-die-edition": {
     "studio": "FromSoftware",
     "year": "2012"
@@ -3145,6 +3601,10 @@
   "pc-modern__dayz": {
     "studio": "Bohemia Interactive",
     "year": "2018"
+  },
+  "pc-modern__dcs-world": {
+    "studio": "Eagle Dynamics",
+    "year": "2013"
   },
   "pc-modern__dead-cells": {
     "studio": "Motion Twin",
@@ -3170,6 +3630,14 @@
     "studio": "ZA/UM",
     "year": "2019"
   },
+  "pc-modern__divine-divinity": {
+    "studio": "Larian Studios",
+    "year": "2002"
+  },
+  "pc-modern__divinity-original-sin-ii": {
+    "studio": "Larian Studios",
+    "year": "2017"
+  },
   "pc-modern__doom": {
     "studio": "id Software",
     "year": "2016"
@@ -3178,17 +3646,41 @@
     "studio": "id Software",
     "year": "2020"
   },
+  "pc-modern__dragon-age-ii": {
+    "studio": "BioWare",
+    "year": "2011"
+  },
+  "pc-modern__dragon-age-inquisition": {
+    "studio": "BioWare",
+    "year": "2014"
+  },
   "pc-modern__dragon-age-origins": {
     "studio": "BioWare",
     "year": "2009"
+  },
+  "pc-modern__dragon-age-veilguard": {
+    "studio": "BioWare",
+    "year": "2024"
   },
   "pc-modern__elden-ring": {
     "studio": "FromSoftware",
     "year": "2022"
   },
+  "pc-modern__elder-scrolls-iii-morrowind": {
+    "studio": "Bethesda Game Studios",
+    "year": "2002"
+  },
+  "pc-modern__elder-scrolls-iv-oblivion": {
+    "studio": "Bethesda Game Studios",
+    "year": "2006"
+  },
   "pc-modern__elder-scrolls-online": {
     "studio": "ZeniMax Online Studios",
     "year": "2014"
+  },
+  "pc-modern__elder-scrolls-v-skyrim": {
+    "studio": "Bethesda Game Studios",
+    "year": "2011"
   },
   "pc-modern__euro-truck-simulator": {
     "studio": "SCS Software",
@@ -3214,9 +3706,21 @@
     "studio": "Bethesda Game Studios",
     "year": "2008"
   },
+  "pc-modern__fallout-4": {
+    "studio": "Bethesda Game Studios",
+    "year": "2015"
+  },
+  "pc-modern__fallout-76": {
+    "studio": "Bethesda Game Studios",
+    "year": "2018"
+  },
   "pc-modern__fallout-new-vegas": {
     "studio": "Obsidian Entertainment",
     "year": "2010"
+  },
+  "pc-modern__fallout-tactics-brotherhood-of-steel": {
+    "studio": "Micro Forte",
+    "year": "2001"
   },
   "pc-modern__far-cry": {
     "studio": "Crytek",
@@ -3229,6 +3733,18 @@
   "pc-modern__frostpunk": {
     "studio": "11 bit studios",
     "year": "2018"
+  },
+  "pc-modern__gears-5": {
+    "studio": "The Coalition",
+    "year": "2019"
+  },
+  "pc-modern__gears-tactics": {
+    "studio": "Splash Damage",
+    "year": "2020"
+  },
+  "pc-modern__gothic": {
+    "studio": "Piranha Bytes",
+    "year": "2001"
   },
   "pc-modern__gothic-ii": {
     "studio": "Piranha Bytes",
@@ -3246,6 +3762,14 @@
     "studio": "Valve",
     "year": "2004"
   },
+  "pc-modern__halo-combat-evolved": {
+    "studio": "Bungie / Gearbox Software (PC port)",
+    "year": "2003"
+  },
+  "pc-modern__halo-master-chief-collection": {
+    "studio": "343 Industries",
+    "year": "2019"
+  },
   "pc-modern__happy-game": {
     "studio": "Amanita Design",
     "year": "2021"
@@ -3258,9 +3782,41 @@
     "studio": "Relic Entertainment",
     "year": "2003"
   },
+  "pc-modern__homeworld-3": {
+    "studio": "Blackbird Interactive",
+    "year": "2024"
+  },
+  "pc-modern__homeworld-deserts-of-kharak": {
+    "studio": "Blackbird Interactive",
+    "year": "2016"
+  },
+  "pc-modern__homeworld-remastered-collection": {
+    "studio": "Gearbox Software",
+    "year": "2015"
+  },
   "pc-modern__hyper-light-drifter": {
     "studio": "Heart Machine",
     "year": "2016"
+  },
+  "pc-modern__icewind-dale-ii": {
+    "studio": "Black Isle Studios",
+    "year": "2002"
+  },
+  "pc-modern__il-2-sturmovik": {
+    "studio": "1C:Maddox Games",
+    "year": "2001"
+  },
+  "pc-modern__il-2-sturmovik-battle-of-stalingrad": {
+    "studio": "1C Game Studios",
+    "year": "2014"
+  },
+  "pc-modern__il-2-sturmovik-cliffs-of-dover": {
+    "studio": "1C:Maddox Games",
+    "year": "2011"
+  },
+  "pc-modern__il-2-sturmovik-forgotten-battles": {
+    "studio": "1C:Maddox Games",
+    "year": "2003"
   },
   "pc-modern__inside": {
     "studio": "Playdead",
@@ -3286,6 +3842,10 @@
     "studio": "Valve",
     "year": "2009"
   },
+  "pc-modern__lock-on-modern-air-combat": {
+    "studio": "Eagle Dynamics",
+    "year": "2003"
+  },
   "pc-modern__machinarium": {
     "studio": "Amanita Design",
     "year": "2009"
@@ -3302,6 +3862,18 @@
     "studio": "Jan Zelený",
     "year": "2020"
   },
+  "pc-modern__mass-effect": {
+    "studio": "BioWare",
+    "year": "2007"
+  },
+  "pc-modern__mass-effect-2": {
+    "studio": "BioWare",
+    "year": "2010"
+  },
+  "pc-modern__mass-effect-legendary-edition": {
+    "studio": "BioWare",
+    "year": "2021"
+  },
   "pc-modern__max-payne": {
     "studio": "Remedy Entertainment",
     "year": "2001"
@@ -3310,13 +3882,53 @@
     "studio": "Keen Software House",
     "year": "2015"
   },
+  "pc-modern__microsoft-flight-simulator": {
+    "studio": "Asobo Studio",
+    "year": "2020"
+  },
+  "pc-modern__microsoft-flight-simulator-x": {
+    "studio": "Microsoft Game Studios",
+    "year": "2006"
+  },
+  "pc-modern__naval-action": {
+    "studio": "Game Labs",
+    "year": "2018"
+  },
+  "pc-modern__need-for-speed": {
+    "studio": "Ghost Games",
+    "year": "2015"
+  },
+  "pc-modern__need-for-speed-carbon": {
+    "studio": "EA Black Box",
+    "year": "2006"
+  },
+  "pc-modern__need-for-speed-heat": {
+    "studio": "Ghost Games",
+    "year": "2019"
+  },
   "pc-modern__need-for-speed-most-wanted": {
     "studio": "EA Black Box",
     "year": "2005"
   },
+  "pc-modern__need-for-speed-shift": {
+    "studio": "Slightly Mad Studios",
+    "year": "2009"
+  },
+  "pc-modern__need-for-speed-underground": {
+    "studio": "EA Black Box",
+    "year": "2003"
+  },
   "pc-modern__neverwinter-nights": {
     "studio": "BioWare",
     "year": "2002"
+  },
+  "pc-modern__neverwinter-nights-2": {
+    "studio": "Obsidian Entertainment",
+    "year": "2006"
+  },
+  "pc-modern__nibiru-age-of-secrets": {
+    "studio": "Future Games",
+    "year": "2005"
   },
   "pc-modern__no-man-s-sky": {
     "studio": "Hello Games",
@@ -3346,6 +3958,26 @@
     "studio": "Obsidian Entertainment",
     "year": "2015"
   },
+  "pc-modern__pillars-of-eternity-ii-deadfire": {
+    "studio": "Obsidian Entertainment",
+    "year": "2018"
+  },
+  "pc-modern__polda-4": {
+    "studio": "Zima Software",
+    "year": "2002"
+  },
+  "pc-modern__polda-5": {
+    "studio": "Zima Software",
+    "year": "2005"
+  },
+  "pc-modern__polda-6": {
+    "studio": "Zima Software",
+    "year": "2014"
+  },
+  "pc-modern__polda-7": {
+    "studio": "Zima Software",
+    "year": "2022"
+  },
   "pc-modern__portal-2": {
     "studio": "Valve",
     "year": "2011"
@@ -3370,13 +4002,33 @@
     "studio": "Coffee Stain Studios",
     "year": "2024"
   },
+  "pc-modern__sea-power-naval-combat-in-missile-age": {
+    "studio": "Triassic Games",
+    "year": "2024"
+  },
   "pc-modern__sekiro-shadows-die-twice": {
     "studio": "FromSoftware",
     "year": "2019"
   },
+  "pc-modern__ship-simulator-extremes": {
+    "studio": "VSTEP",
+    "year": "2010"
+  },
   "pc-modern__shovel-knight": {
     "studio": "Yacht Club Games",
     "year": "2014"
+  },
+  "pc-modern__silent-hunter-4-wolves-of-pacific": {
+    "studio": "Ubisoft Romania",
+    "year": "2007"
+  },
+  "pc-modern__silent-hunter-5-battle-of-atlantic": {
+    "studio": "Ubisoft Romania",
+    "year": "2010"
+  },
+  "pc-modern__silent-hunter-iii": {
+    "studio": "Ubisoft Romania",
+    "year": "2005"
   },
   "pc-modern__someday-you-ll-return": {
     "studio": "CBE Software",
@@ -3402,6 +4054,10 @@
     "studio": "Paradox Development Studio",
     "year": "2016"
   },
+  "pc-modern__strike-fighters-2": {
+    "studio": "Third Wire Productions",
+    "year": "2008"
+  },
   "pc-modern__subnautica": {
     "studio": "Unknown Worlds Entertainment",
     "year": "2018"
@@ -3425,6 +4081,14 @@
   "pc-modern__titanfall-2": {
     "studio": "Respawn Entertainment",
     "year": "2016"
+  },
+  "pc-modern__tom-clancy-s-h-w-x": {
+    "studio": "Ubisoft Romania",
+    "year": "2009"
+  },
+  "pc-modern__uboat": {
+    "studio": "Deep Water Studio",
+    "year": "2023"
   },
   "pc-modern__ufo-aftermath": {
     "studio": "ALTAR Interactive",
@@ -3450,6 +4114,10 @@
     "studio": "Pterodon",
     "year": "2005"
   },
+  "pc-modern__war-thunder": {
+    "studio": "Gaijin Entertainment",
+    "year": "2012"
+  },
   "pc-modern__warcraft-iii-reign-of-chaos": {
     "studio": "Blizzard Entertainment",
     "year": "2002"
@@ -3473,6 +4141,14 @@
   "pc-modern__wolfenstein-new-order": {
     "studio": "MachineGames",
     "year": "2014"
+  },
+  "pc-modern__world-of-warships": {
+    "studio": "Wargaming",
+    "year": "2015"
+  },
+  "pc-modern__x-plane-11": {
+    "studio": "Laminar Research",
+    "year": "2017"
   },
   "pc-modern__xcom-enemy-unknown": {
     "studio": "Firaxis Games",
@@ -4046,6 +4722,18 @@
     "studio": "Spike Chunsoft",
     "year": "2016"
   },
+  "ps2__ace-combat-04-shattered-skies": {
+    "studio": "Project Aces / Namco",
+    "year": "2001"
+  },
+  "ps2__ace-combat-5-unsung-war": {
+    "studio": "Project Aces / Namco",
+    "year": "2004"
+  },
+  "ps2__ace-combat-zero-belkan-war": {
+    "studio": "Project Aces / Namco",
+    "year": "2006"
+  },
   "ps2__amplitude": {
     "studio": "Harmonix",
     "year": "2003"
@@ -4274,6 +4962,14 @@
     "studio": "Rockstar San Diego",
     "year": "2005"
   },
+  "ps2__naval-ops-commander": {
+    "studio": "Koei",
+    "year": "2004"
+  },
+  "ps2__naval-ops-warship-gunner": {
+    "studio": "Koei",
+    "year": "2003"
+  },
   "ps2__need-for-speed-most-wanted": {
     "studio": "EA Black Box",
     "year": "2005"
@@ -4358,6 +5054,10 @@
     "studio": "Level-5",
     "year": "2005"
   },
+  "ps2__secret-weapons-over-normandy": {
+    "studio": "Totally Games / LucasArts",
+    "year": "2003"
+  },
   "ps2__shadow-hearts": {
     "studio": "Sacnoth",
     "year": "2001"
@@ -4385,6 +5085,10 @@
   "ps2__siren": {
     "studio": "Sony Computer Entertainment (Project Siren)",
     "year": "2004"
+  },
+  "ps2__sky-odyssey": {
+    "studio": "Cross Company",
+    "year": "2001"
   },
   "ps2__sly-2-band-of-thieves": {
     "studio": "Sucker Punch",
@@ -4448,6 +5152,10 @@
   },
   "ps2__tony-hawk-s-pro-skater-3": {
     "studio": "Neversoft",
+    "year": "2001"
+  },
+  "ps2__top-gun-combat-zones": {
+    "studio": "Digital Fusion",
     "year": "2001"
   },
   "ps2__viewtiful-joe": {
@@ -8719,9 +9427,25 @@
     "studio": "Beep Industries",
     "year": "2003"
   },
+  "zx-spectrum__ace-of-aces": {
+    "studio": "US Gold",
+    "year": "1986"
+  },
+  "zx-spectrum__dam-busters": {
+    "studio": "US Gold",
+    "year": "1985"
+  },
+  "zx-spectrum__f-16-combat-pilot": {
+    "studio": "Digital Integration",
+    "year": "1989"
+  },
   "zx-spectrum__f-i-r-e": {
     "studio": "Fuxoft (František Fuka, Michal Hlaváč)",
     "year": "1988"
+  },
+  "zx-spectrum__fighter-pilot": {
+    "studio": "Digital Integration",
+    "year": "1984"
   },
   "zx-spectrum__indiana-jones-3": {
     "studio": "Fuxoft",
@@ -8759,9 +9483,25 @@
     "studio": "Májasoft / CIDsoft (Petr a Ondřej Mihula)",
     "year": "1988"
   },
+  "zx-spectrum__silent-service": {
+    "studio": "MicroProse",
+    "year": "1988"
+  },
+  "zx-spectrum__spitfire-40": {
+    "studio": "Mirrorsoft",
+    "year": "1985"
+  },
+  "zx-spectrum__strike-force-harrier": {
+    "studio": "Mirrorsoft",
+    "year": "1984"
+  },
   "zx-spectrum__tetris-2": {
     "studio": "Fuxoft",
     "year": "1990"
+  },
+  "zx-spectrum__tomahawk": {
+    "studio": "Digital Integration",
+    "year": "1986"
   },
   "zx-spectrum__xor": {
     "studio": "GCC (Marek Trmač)",
