@@ -693,6 +693,7 @@ def build():
             gallery = []
             for suffix, label, kind in (("", "Obal", "box"),
                                         ("-snap", "Ze hry", "snap"),
+                                        ("-snap2", "Ze hry", "snap"),
                                         ("-title", "Titulní obrazovka", "title")):
                 src = find_image(sub, f"{gslug}{suffix}")
                 if src:
@@ -706,7 +707,8 @@ def build():
                 # hlavní obrázek: obal, jinak fallback na titulní/herní obrazovku
                 image=(find_image(sub, gslug)
                        or find_image(sub, f"{gslug}-title")
-                       or find_image(sub, f"{gslug}-snap")),
+                       or find_image(sub, f"{gslug}-snap")
+                       or find_image(sub, f"{gslug}-snap2")),
                 gallery=gallery,
                 link=game_links.get(gslug),
                 playUrl=game_play.get(gslug),

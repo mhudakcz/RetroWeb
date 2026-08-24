@@ -1296,7 +1296,8 @@ def fetch_games_steam_shots(only=None):
 
     Retro platformy berou snímky z libretro (Named_Snaps / Named_Titles), jenže pro
     moderní konzole tam žádné nejsou — proto tam hry měly jediný obrázek. Ukládá se
-    pod příponami -snap a -title, které parser skládá do galerie."""
+    pod příponami -snap a -snap2 (oba jsou ze hry, Steam titulní obrazovky nemá),
+    které parser skládá do galerie."""
     dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
     wanted = set(only.split(",")) if only else None
     ok = total = 0
@@ -1332,7 +1333,7 @@ def fetch_games_steam_shots(only=None):
                 print(f"  [-] {g['name']} (bez screenshotu)")
                 continue
             saved = 0
-            for src, suffix in zip(shots, ("-snap", "-title")):
+            for src, suffix in zip(shots, ("-snap", "-snap2")):
                 try:
                     img = http_get(src)
                     if len(img) < 3000:
@@ -1435,7 +1436,7 @@ def fetch_games_nintendo_shots(only=None):
                 print(f"  [-] {g['name']} (bez snimku na strance)")
                 continue
             saved = 0
-            for src, suffix in zip(shots, ("-snap", "-title")):
+            for src, suffix in zip(shots, ("-snap", "-snap2")):
                 try:
                     img = http_get(src, headers={"User-Agent": _ITCH_UA})
                     if len(img) < 3000:

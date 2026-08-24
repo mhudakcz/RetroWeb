@@ -378,22 +378,70 @@
     "studio": "Intelligent Systems",
     "year": "2003"
   },
+  "game-boy-advance__alien-hominid-advance": {
+    "studio": "1st Playable Productions",
+    "year": "2007"
+  },
   "game-boy-advance__anguna": {},
   "game-boy-advance__astro-boy-omega-factor": {},
   "game-boy-advance__banjo-kazooie-grunty-s-revenge": {},
   "game-boy-advance__bionicle-game": {},
   "game-boy-advance__boktai-sun-is-in-your-hand": {},
+  "game-boy-advance__bomberman-tournament": {
+    "studio": "Hudson Soft",
+    "year": "2001"
+  },
+  "game-boy-advance__breath-of-fire": {
+    "studio": "Capcom",
+    "year": "2001"
+  },
+  "game-boy-advance__breath-of-fire-ii": {
+    "studio": "Capcom",
+    "year": "2002"
+  },
   "game-boy-advance__broken-circle": {},
   "game-boy-advance__car-battler-joe": {},
   "game-boy-advance__castlevania-aria-of-sorrow": {},
   "game-boy-advance__castlevania-circle-of-moon": {},
   "game-boy-advance__castlevania-harmony-of-dissonance": {},
+  "game-boy-advance__contra-advance-alien-wars-ex": {
+    "studio": "Konami",
+    "year": "2002"
+  },
+  "game-boy-advance__crash-bandicoot-2-n-tranced": {
+    "studio": "Vicarious Visions",
+    "year": "2003"
+  },
+  "game-boy-advance__crash-bandicoot-huge-adventure": {
+    "studio": "Vicarious Visions",
+    "year": "2002"
+  },
+  "game-boy-advance__crash-nitro-kart": {
+    "studio": "Vicarious Visions",
+    "year": "2003"
+  },
   "game-boy-advance__denki-blocks": {},
+  "game-boy-advance__dragon-ball-z-legacy-of-goku-ii": {
+    "studio": "Webfoot Technologies",
+    "year": "2002"
+  },
   "game-boy-advance__drill-dozer": {},
   "game-boy-advance__drome-racers": {},
+  "game-boy-advance__duke-nukem-advance": {
+    "studio": "Torus Games",
+    "year": "2002"
+  },
+  "game-boy-advance__f-zero-maximum-velocity": {
+    "studio": "Nintendo",
+    "year": "2001"
+  },
   "game-boy-advance__final-fantasy-i-and-ii-dawn-of-souls": {
     "studio": "Tose Co.",
     "year": "2004"
+  },
+  "game-boy-advance__final-fantasy-iv-advance": {
+    "studio": "Square Enix",
+    "year": "2005"
   },
   "game-boy-advance__final-fantasy-tactics-advance": {},
   "game-boy-advance__final-fantasy-vi-advance": {},
@@ -435,6 +483,10 @@
     "studio": "Nintendo Software Technology",
     "year": "2004"
   },
+  "game-boy-advance__mega-man-and-bass": {
+    "studio": "Capcom",
+    "year": "2002"
+  },
   "game-boy-advance__mega-man-battle-network-3": {
     "studio": "Capcom",
     "year": "2002"
@@ -444,6 +496,10 @@
   "game-boy-advance__mega-man-zero-2": {
     "studio": "Inti Creates",
     "year": "2003"
+  },
+  "game-boy-advance__metal-slug-advance": {
+    "studio": "SNK Playmore",
+    "year": "2004"
   },
   "game-boy-advance__metroid-fusion": {},
   "game-boy-advance__metroid-zero-mission": {},
@@ -456,17 +512,53 @@
     "studio": "Mitchell Corporation",
     "year": "2005"
   },
+  "game-boy-advance__rayman-3-hoodlum-havoc": {
+    "studio": "Ubisoft",
+    "year": "2003"
+  },
+  "game-boy-advance__rayman-advance": {
+    "studio": "Ubisoft",
+    "year": "2001"
+  },
   "game-boy-advance__rebelstar-tactical-command": {
     "studio": "Codo Technologies",
     "year": "2005"
   },
   "game-boy-advance__rhythm-tengoku": {},
+  "game-boy-advance__riviera-promised-land": {
+    "studio": "Sting",
+    "year": "2005"
+  },
+  "game-boy-advance__shantae": {
+    "studio": "WayForward Technologies",
+    "year": "2002"
+  },
+  "game-boy-advance__shining-soul": {
+    "studio": "Nex Entertainment",
+    "year": "2002"
+  },
+  "game-boy-advance__shining-soul-ii": {
+    "studio": "Nex Entertainment",
+    "year": "2003"
+  },
+  "game-boy-advance__sigma-star-saga": {
+    "studio": "WayForward Technologies",
+    "year": "2005"
+  },
   "game-boy-advance__sonic-advance": {
     "studio": "Sonic Team",
     "year": "2001"
   },
   "game-boy-advance__sonic-advance-1-3": {},
   "game-boy-advance__sonic-advance-2": {},
+  "game-boy-advance__spyro-2-season-of-flame": {
+    "studio": "Digital Eclipse",
+    "year": "2002"
+  },
+  "game-boy-advance__spyro-season-of-ice": {
+    "studio": "Digital Eclipse",
+    "year": "2001"
+  },
   "game-boy-advance__star-wars-episode-iii-revenge-of-sith": {},
   "game-boy-advance__star-wars-new-droid-army": {
     "studio": "Helixe",
@@ -477,7 +569,19 @@
     "studio": "Crawfish Interactive",
     "year": "2002"
   },
+  "game-boy-advance__summon-night-swordcraft-story": {
+    "studio": "Flight-Plan",
+    "year": "2004"
+  },
+  "game-boy-advance__summon-night-swordcraft-story-2": {
+    "studio": "Flight-Plan",
+    "year": "2005"
+  },
   "game-boy-advance__super-mario-advance-4-super-mario-bros-3": {},
+  "game-boy-advance__superman-countdown-to-apokolips": {
+    "studio": "Digital Eclipse",
+    "year": "2003"
+  },
   "game-boy-advance__sword-of-mana": {},
   "game-boy-advance__tactics-ogre-knight-of-lodis": {
     "studio": "Quest",
@@ -491,8 +595,20 @@
   "game-boy-advance__wario-land-4": {},
   "game-boy-advance__warioware-inc-mega-microgame": {},
   "game-boy-advance__warioware-inc-mega-microgames": {},
+  "game-boy-advance__x-men-reign-of-apocalypse": {
+    "studio": "Konami",
+    "year": "2001"
+  },
+  "game-boy-advance__yoshi-s-island-super-mario-advance-3": {
+    "studio": "Nintendo",
+    "year": "2002"
+  },
   "game-boy-color__alone-in-dark-new-nightmare": {
     "studio": "Infogrames",
+    "year": "2001"
+  },
+  "game-boy-color__batman-chaos-in-gotham": {
+    "studio": "WayForward Technologies",
     "year": "2001"
   },
   "game-boy-color__bionic-commando-elite-forces": {},
@@ -502,6 +618,14 @@
   },
   "game-boy-color__bomberman-max-red-blue-challenger": {
     "studio": "Hudson Soft",
+    "year": "2000"
+  },
+  "game-boy-color__bomberman-quest": {
+    "studio": "Hudson Soft",
+    "year": "2000"
+  },
+  "game-boy-color__bust-move-millennium": {
+    "studio": "Taito",
     "year": "2000"
   },
   "game-boy-color__conker-s-pocket-tales": {},
@@ -521,6 +645,10 @@
     "studio": "Enix",
     "year": "1998"
   },
+  "game-boy-color__dragon-warrior-monsters-2-cobi-s-journey": {
+    "studio": "Enix",
+    "year": "2001"
+  },
   "game-boy-color__dragonborne": {
     "studio": "Spacebot Interactive",
     "year": "2020"
@@ -531,6 +659,10 @@
   },
   "game-boy-color__dual-gear": {
     "year": "2020"
+  },
+  "game-boy-color__frogger": {
+    "studio": "SIMS Co.",
+    "year": "1998"
   },
   "game-boy-color__game-and-watch-gallery-3": {},
   "game-boy-color__grand-theft-auto": {
@@ -544,6 +676,10 @@
     "year": "1992"
   },
   "game-boy-color__kirby-tilt-n-tumble": {},
+  "game-boy-color__konami-krazy-racers": {
+    "studio": "Konami",
+    "year": "2001"
+  },
   "game-boy-color__legend-of-river-king-2": {
     "studio": "Natsume",
     "year": "2001"
@@ -564,6 +700,14 @@
     "year": "2001"
   },
   "game-boy-color__metal-gear-ghost-babel": {},
+  "game-boy-color__mickey-s-racing-adventure": {
+    "studio": "Left Field Productions",
+    "year": "2000"
+  },
+  "game-boy-color__pac-man-special-color-edition": {
+    "studio": "Namco",
+    "year": "1999"
+  },
   "game-boy-color__perfect-dark": {
     "studio": "Rare",
     "year": "2000"
@@ -580,7 +724,15 @@
   },
   "game-boy-color__pokemon-puzzle-challenge": {},
   "game-boy-color__pokemon-red-blue-yellow": {},
+  "game-boy-color__pokemon-trading-card-game": {
+    "studio": "Hudson Soft",
+    "year": "1998"
+  },
   "game-boy-color__power-quest": {},
+  "game-boy-color__powerpuff-girls-bad-mojo-jojo": {
+    "studio": "WayForward Technologies",
+    "year": "2000"
+  },
   "game-boy-color__r-type-dx": {},
   "game-boy-color__rayman": {
     "studio": "Ubisoft",
@@ -595,6 +747,14 @@
   "game-boy-color__smurfs-nightmare": {
     "studio": "VD-dev",
     "year": "1997"
+  },
+  "game-boy-color__spider-man": {
+    "studio": "Torus Games",
+    "year": "2000"
+  },
+  "game-boy-color__spongebob-squarepants-legend-of-lost-spatula": {
+    "studio": "WayForward Technologies",
+    "year": "2001"
   },
   "game-boy-color__star-heritage-1-black-cobra": {},
   "game-boy-color__star-wars-episode-i-racer": {},
@@ -618,6 +778,10 @@
     "studio": "Vicarious Visions",
     "year": "2000"
   },
+  "game-boy-color__tony-hawk-s-pro-skater-2": {
+    "studio": "Natsume",
+    "year": "2001"
+  },
   "game-boy-color__top-gear-pocket": {},
   "game-boy-color__turok-2-seeds-of-evil": {
     "studio": "Bit Managers / Acclaim",
@@ -629,9 +793,33 @@
   "game-boy-color__wendy-every-witch-way": {
     "year": "2001"
   },
+  "game-boy__alleyway": {
+    "studio": "Nintendo / Intelligent Systems",
+    "year": "1989"
+  },
   "game-boy__arkanoid-doh-it-again": {},
   "game-boy__avenging-spirit": {},
   "game-boy__balloon-kid": {},
+  "game-boy__base-wars-cyber-stadium": {
+    "studio": "Namco / Sculptured Software",
+    "year": "1991"
+  },
+  "game-boy__batman-return-of-joker": {
+    "studio": "Sunsoft",
+    "year": "1992"
+  },
+  "game-boy__batman-video-game": {
+    "studio": "Sunsoft",
+    "year": "1990"
+  },
+  "game-boy__battleship": {
+    "studio": "Mindscape",
+    "year": "1993"
+  },
+  "game-boy__battletoads": {
+    "studio": "Rare",
+    "year": "1991"
+  },
   "game-boy__bionic-commando": {},
   "game-boy__boxxle": {},
   "game-boy__bubble-bobble": {
@@ -639,7 +827,15 @@
     "year": "1986"
   },
   "game-boy__castlevania-adventure": {},
+  "game-boy__castlevania-ii-belmont-s-revenge": {
+    "studio": "Konami",
+    "year": "1991"
+  },
   "game-boy__catrap": {},
+  "game-boy__chessmaster": {
+    "studio": "The Software Toolworks",
+    "year": "1990"
+  },
   "game-boy__daedalian-opus": {},
   "game-boy__deadeus": {
     "year": "2019"
@@ -655,19 +851,67 @@
     "studio": "Square",
     "year": "1990"
   },
+  "game-boy__final-fantasy-legend-iii": {
+    "studio": "Square",
+    "year": "1993"
+  },
   "game-boy__game-and-watch-gallery": {},
+  "game-boy__game-boy-wars": {
+    "studio": "Kaga Create",
+    "year": "1991"
+  },
+  "game-boy__game-boy-wars-2": {
+    "studio": "Kaga Create",
+    "year": "1993"
+  },
   "game-boy__gargoyle-s-quest": {},
+  "game-boy__golf": {
+    "studio": "Nintendo",
+    "year": "1990"
+  },
   "game-boy__gradius-interstellar-assault": {},
   "game-boy__harvest-moon-gb": {},
   "game-boy__kid-dracula": {},
+  "game-boy__kid-icarus-of-myths-and-monsters": {
+    "studio": "Nintendo",
+    "year": "1991"
+  },
   "game-boy__kirby-s-dream-land-2": {},
   "game-boy__kwirk": {},
+  "game-boy__legend-of-river-king-gb": {
+    "studio": "Natsume",
+    "year": "1997"
+  },
   "game-boy__legend-of-zelda-link-s-awakening": {},
   "game-boy__mario-s-picross": {},
+  "game-boy__mega-man-dr-wily-s-revenge": {
+    "studio": "Capcom / Minakuchi Engineering",
+    "year": "1991"
+  },
+  "game-boy__mega-man-ii": {
+    "studio": "Capcom / Minakuchi Engineering",
+    "year": "1991"
+  },
+  "game-boy__mega-man-iii": {
+    "studio": "Capcom / Minakuchi Engineering",
+    "year": "1992"
+  },
   "game-boy__mega-man-v": {},
   "game-boy__metroid-ii-return-of-samus": {},
   "game-boy__mole-mania": {},
+  "game-boy__monopoly": {
+    "studio": "Nintendo",
+    "year": "1991"
+  },
   "game-boy__mortal-kombat": {},
+  "game-boy__motocross-maniacs": {
+    "studio": "Konami",
+    "year": "1989"
+  },
+  "game-boy__ninja-gaiden-shadow": {
+    "studio": "Tecmo",
+    "year": "1991"
+  },
   "game-boy__nintendo-world-cup": {},
   "game-boy__operation-c": {},
   "game-boy__petit-pixel": {},
@@ -680,20 +924,52 @@
   "game-boy__r-type": {},
   "game-boy__robr": {},
   "game-boy__sheep-it-up": {},
+  "game-boy__solar-striker": {
+    "studio": "Nintendo",
+    "year": "1990"
+  },
   "game-boy__street-fighter-ii": {
     "studio": "Capcom",
     "year": "1991"
   },
   "game-boy__super-mario-land-2-6-golden-coins": {},
   "game-boy__survival-kids": {},
+  "game-boy__sword-of-hope": {
+    "studio": "Kemco",
+    "year": "1989"
+  },
   "game-boy__sword-of-hope-ii": {},
+  "game-boy__teenage-mutant-ninja-turtles-fall-of-foot-clan": {
+    "studio": "Konami",
+    "year": "1990"
+  },
+  "game-boy__tennis": {
+    "studio": "Nintendo",
+    "year": "1989"
+  },
   "game-boy__tetris": {},
   "game-boy__tobu-tobu-girl": {},
   "game-boy__tobu-tobu-girl-deluxe": {},
   "game-boy__trip-world": {},
+  "game-boy__ultima-runes-of-virtue": {
+    "studio": "Origin Systems / Infinity Interactive",
+    "year": "1991"
+  },
+  "game-boy__ultima-runes-of-virtue-ii": {
+    "studio": "Origin Systems / Infinity Interactive",
+    "year": "1993"
+  },
+  "game-boy__wario-land-ii": {
+    "studio": "Nintendo R&D1",
+    "year": "1998"
+  },
   "game-boy__wario-land-super-mario-land-3": {},
   "game-boy__wave-race": {
     "studio": "Nintendo Entertainment Analysis & Development",
+    "year": "1992"
+  },
+  "game-boy__yoshi": {
+    "studio": "Nintendo / Game Freak",
     "year": "1992"
   },
   "game-gear__castle-of-illusion": {},

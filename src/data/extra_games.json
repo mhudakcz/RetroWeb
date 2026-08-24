@@ -2822,6 +2822,182 @@
    "genre": "Platformer",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Wario Land II",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mega Man: Dr. Wily's Revenge",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mega Man II",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mega Man III",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Castlevania II: Belmont's Revenge",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Batman: The Video Game",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Batman: Return of the Joker",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kid Icarus: Of Myths and Monsters",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Solar Striker",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Battletoads",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ninja Gaiden Shadow",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alleyway",
+   "genre": "Puzzle (arkádová)",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Yoshi",
+   "genre": "Puzzle (padající kostky)",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Final Fantasy Legend III",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Game Boy Wars",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Game Boy Wars 2",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Motocross Maniacs",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tennis",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Golf",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ultima: Runes of Virtue",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ultima: Runes of Virtue II",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Sword of Hope",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Base Wars: Cyber Stadium",
+   "genre": "Sportovní / Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Legend of the River King GB",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Battleship",
+   "genre": "Strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Chessmaster",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monopoly",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
   }
  ],
  "game-gear": [
@@ -3135,6 +3311,180 @@
    "name": "Mario Tennis: Power Tour",
    "genre": "Sport / Tenis",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mega Man & Bass",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Contra Advance: The Alien Wars EX",
+   "genre": "Run and gun / Akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alien Hominid Advance",
+   "genre": "Run and gun / Akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug Advance",
+   "genre": "Run and gun / Akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shantae",
+   "genre": "Akční plošinovka / Metroidvania",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Crash Bandicoot: The Huge Adventure",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Crash Bandicoot 2: N-Tranced",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Spyro: Season of Ice",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spyro 2: Season of Flame",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rayman Advance",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rayman 3: Hoodlum Havoc",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Superman: Countdown to Apokolips",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "X-Men: Reign of Apocalypse",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Duke Nukem Advance",
+   "genre": "Run and gun / Akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy IV Advance",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Riviera: The Promised Land",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "F-Zero: Maximum Velocity",
+   "genre": "Zavodni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Yoshi's Island: Super Mario Advance 3",
+   "genre": "Plosinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Summon Night: Swordcraft Story",
+   "genre": "Akcni RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Summon Night: Swordcraft Story 2",
+   "genre": "Akcni RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shining Soul",
+   "genre": "Akcni RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shining Soul II",
+   "genre": "Akcni RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Ball Z: The Legacy of Goku II",
+   "genre": "Akcni RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Breath of Fire",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Breath of Fire II",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sigma Star Saga",
+   "genre": "RPG/Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bomberman Tournament",
+   "genre": "Akcni puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Crash Nitro Kart",
+   "genre": "Zavodni",
+   "length": "S",
    "flags": []
   }
  ],
@@ -3627,6 +3977,88 @@
    "length": "L",
    "flags": [
     "homebrew"
+   ]
+  },
+  {
+   "name": "Pokémon Trading Card Game",
+   "genre": "Karetní strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Warrior Monsters 2: Cobi's Journey",
+   "genre": "JRPG / sbírání monster",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Konami Krazy Racers",
+   "genre": "Závodní / kart racer",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Batman: Chaos in Gotham",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Powerpuff Girls: Bad Mojo Jojo",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "SpongeBob SquarePants: Legend of the Lost Spatula",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Bomberman Quest",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mickey's Racing Adventure",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pac-Man: Special Color Edition",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Frogger",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 2",
+   "genre": "Sportovní / akční",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bust-A-Move Millennium",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
    ]
   }
  ],
