@@ -5576,6 +5576,34 @@
    "genre": "Letecka akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Burnout",
+   "genre": "Závodní (arkádové)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Burnout 2: Point of Impact",
+   "genre": "Závodní (arkádové)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor: Frontline",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Medal of Honor: Rising Sun",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "gamecube": [
@@ -12599,6 +12627,24 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Delta Force",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SWAT 3: Close Quarters Battle",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six: Rogue Spear",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -15334,6 +15380,165 @@
    "name": "Worms W.M.D.",
    "genre": "Tahová strategie",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor: Allied Assault",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Medal of Honor: Pacific Assault",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor: Airborne",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor",
+   "genre": "Akcni FPS",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Call of Duty 2",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Call of Duty: World at War",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Call of Duty: Modern Warfare 2",
+   "genre": "Akcni FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Battlefield 1942",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Battlefield Vietnam",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Battlefield 2",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Battlefield 4",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Battlefield 1",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Battlefield V",
+   "genre": "Akční FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "BioShock 2",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "BioShock Infinite",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Call of Duty: Black Ops",
+   "genre": "Akcni strilecka (FPS)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Call of Duty: Black Ops II",
+   "genre": "Akcni strilecka (FPS)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Call of Duty: Modern Warfare 3",
+   "genre": "Akcni strilecka (FPS)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Advanced Warfare",
+   "genre": "Akcni strilecka (FPS)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: WWII",
+   "genre": "Akcni strilecka (FPS)",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Call of Duty: Warzone",
+   "genre": "Battle royale / Akcni strilecka",
+   "length": "XL",
    "flags": []
   }
  ],
