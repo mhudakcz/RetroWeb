@@ -8203,6 +8203,67 @@
    "genre": "Sportovní",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Yakuza Kiwami",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Yakuza Kiwami 2",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Yakuza 5 Remastered",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Yakuza 6: The Song of Life",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Judgment",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Lost Judgment",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Yakuza 3 Remastered",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "xbox-360": [
@@ -12502,6 +12563,42 @@
    "genre": "Tankový simulátor",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Grand Theft Auto",
+   "genre": "Akční hra s otevřeným světem",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto 2",
+   "genre": "Akční hra s otevřeným světem",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "X-COM: Apocalypse",
+   "genre": "Tahová strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Worms 2",
+   "genre": "Tahová bojová strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Worms Armageddon",
+   "genre": "Tahová bojová strategie",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "pc-dos": [
@@ -13656,6 +13753,20 @@
    "name": "JetFighter II: Advanced Tactical Fighter",
    "genre": "Letecká simulace (stíhačka)",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "X-COM: UFO Defense",
+   "genre": "Tahová strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "X-COM: Terror from the Deep",
+   "genre": "Tahová strategie",
+   "length": "XL",
    "flags": []
   }
  ],
@@ -14988,6 +15099,242 @@
    "genre": "Akční MMO",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Grand Theft Auto III",
+   "genre": "Akční adventura (open world)",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto: Vice City",
+   "genre": "Akční adventura (open world)",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto: San Andreas",
+   "genre": "Akční adventura (open world)",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto IV",
+   "genre": "Akční adventura (open world)",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto V",
+   "genre": "Akční adventura (open world)",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Max Payne 2: The Fall of Max Payne",
+   "genre": "Akční střílečka (třetí osoba)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Max Payne 3",
+   "genre": "Akční střílečka (třetí osoba)",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Far Cry 2",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Far Cry 3",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Far Cry 3: Blood Dragon",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Far Cry 4",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Far Cry Primal",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Far Cry 5",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Far Cry 6",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Hitman 2: Silent Assassin",
+   "genre": "Stealth akce",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Hitman: Absolution",
+   "genre": "Stealth akce",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Hitman",
+   "genre": "Stealth akce",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell: Chaos Theory",
+   "genre": "Stealth akce",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell: Double Agent",
+   "genre": "Stealth akce",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Metal Gear Solid V: The Phantom Pain",
+   "genre": "Stealth akce",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell",
+   "genre": "Stealth akce",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Diablo IV",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Diablo II: Resurrected",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "XCOM 2",
+   "genre": "Tahová strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "XCOM: Chimera Squad",
+   "genre": "Tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Unreal Tournament 2004",
+   "genre": "Aréna střílečka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Unreal Tournament 3",
+   "genre": "Aréna střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Unreal II: The Awakening",
+   "genre": "Sci-fi střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms W.M.D.",
+   "genre": "Tahová strategie",
+   "length": "M",
+   "flags": []
   }
  ],
  "3do": [
@@ -16281,6 +16628,40 @@
    "length": "L",
    "flags": [
     "mustplay"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto V",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Like a Dragon: Ishin!",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Diablo IV",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay",
+    "mature"
    ]
   }
  ],

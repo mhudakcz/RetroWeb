@@ -2402,6 +2402,14 @@
     "studio": "MicroProse",
     "year": "2000"
   },
+  "pc-9x__grand-theft-auto": {
+    "studio": "DMA Design",
+    "year": "1997"
+  },
+  "pc-9x__grand-theft-auto-2": {
+    "studio": "DMA Design",
+    "year": "1999"
+  },
   "pc-9x__grim-fandango": {
     "studio": "LucasArts",
     "year": "1998"
@@ -2780,6 +2788,18 @@
   },
   "pc-9x__wolfpack": {
     "studio": "Interactive Magic",
+    "year": "1997"
+  },
+  "pc-9x__worms-2": {
+    "studio": "Team17",
+    "year": "1997"
+  },
+  "pc-9x__worms-armageddon": {
+    "studio": "Team17",
+    "year": "1999"
+  },
+  "pc-9x__x-com-apocalypse": {
+    "studio": "Mythos Games",
     "year": "1997"
   },
   "pc-9x__zork-grand-inquisitor": {
@@ -3430,6 +3450,14 @@
     "studio": "Mirage",
     "year": "1990"
   },
+  "pc-dos__x-com-terror-from-deep": {
+    "studio": "MicroProse",
+    "year": "1995"
+  },
+  "pc-dos__x-com-ufo-defense": {
+    "studio": "Mythos Games",
+    "year": "1994"
+  },
   "pc-dos__zak-mckracken-and-alien-mindbenders": {
     "studio": "Lucasfilm Games",
     "year": "1988"
@@ -3622,6 +3650,14 @@
     "studio": "Capcom",
     "year": "2019"
   },
+  "pc-modern__diablo-ii-resurrected": {
+    "studio": "Vicarious Visions / Blizzard Entertainment",
+    "year": "2021"
+  },
+  "pc-modern__diablo-iv": {
+    "studio": "Blizzard Entertainment",
+    "year": "2023"
+  },
   "pc-modern__dirt-rally": {
     "studio": "Codemasters",
     "year": "2015"
@@ -3726,6 +3762,34 @@
     "studio": "Crytek",
     "year": "2004"
   },
+  "pc-modern__far-cry-2": {
+    "studio": "Ubisoft Montreal",
+    "year": "2008"
+  },
+  "pc-modern__far-cry-3": {
+    "studio": "Ubisoft Montreal",
+    "year": "2012"
+  },
+  "pc-modern__far-cry-3-blood-dragon": {
+    "studio": "Ubisoft Montreal",
+    "year": "2013"
+  },
+  "pc-modern__far-cry-4": {
+    "studio": "Ubisoft Montreal",
+    "year": "2014"
+  },
+  "pc-modern__far-cry-5": {
+    "studio": "Ubisoft Montreal",
+    "year": "2018"
+  },
+  "pc-modern__far-cry-6": {
+    "studio": "Ubisoft Toronto",
+    "year": "2021"
+  },
+  "pc-modern__far-cry-primal": {
+    "studio": "Ubisoft Montreal",
+    "year": "2016"
+  },
   "pc-modern__fez": {
     "studio": "Polytron Corporation",
     "year": "2013"
@@ -3749,6 +3813,26 @@
   "pc-modern__gothic-ii": {
     "studio": "Piranha Bytes",
     "year": "2002"
+  },
+  "pc-modern__grand-theft-auto-iii": {
+    "studio": "DMA Design / Rockstar North",
+    "year": "2002"
+  },
+  "pc-modern__grand-theft-auto-iv": {
+    "studio": "Rockstar North",
+    "year": "2008"
+  },
+  "pc-modern__grand-theft-auto-san-andreas": {
+    "studio": "Rockstar North",
+    "year": "2005"
+  },
+  "pc-modern__grand-theft-auto-v": {
+    "studio": "Rockstar North",
+    "year": "2015"
+  },
+  "pc-modern__grand-theft-auto-vice-city": {
+    "studio": "Rockstar North",
+    "year": "2003"
   },
   "pc-modern__guacamelee": {
     "studio": "DrinkBox Studios",
@@ -3777,6 +3861,18 @@
   "pc-modern__hidden-and-dangerous-2": {
     "studio": "Illusion Softworks",
     "year": "2003"
+  },
+  "pc-modern__hitman": {
+    "studio": "IO Interactive",
+    "year": "2016"
+  },
+  "pc-modern__hitman-2-silent-assassin": {
+    "studio": "IO Interactive",
+    "year": "2002"
+  },
+  "pc-modern__hitman-absolution": {
+    "studio": "IO Interactive",
+    "year": "2012"
   },
   "pc-modern__homeworld-2": {
     "studio": "Relic Entertainment",
@@ -3878,8 +3974,20 @@
     "studio": "Remedy Entertainment",
     "year": "2001"
   },
+  "pc-modern__max-payne-2-fall-of-max-payne": {
+    "studio": "Remedy Entertainment",
+    "year": "2003"
+  },
+  "pc-modern__max-payne-3": {
+    "studio": "Rockstar Studios",
+    "year": "2012"
+  },
   "pc-modern__medieval-engineers": {
     "studio": "Keen Software House",
+    "year": "2015"
+  },
+  "pc-modern__metal-gear-solid-v-phantom-pain": {
+    "studio": "Kojima Productions",
     "year": "2015"
   },
   "pc-modern__microsoft-flight-simulator": {
@@ -4086,6 +4194,18 @@
     "studio": "Ubisoft Romania",
     "year": "2009"
   },
+  "pc-modern__tom-clancy-s-splinter-cell": {
+    "studio": "Ubisoft Montreal",
+    "year": "2003"
+  },
+  "pc-modern__tom-clancy-s-splinter-cell-chaos-theory": {
+    "studio": "Ubisoft Montreal",
+    "year": "2005"
+  },
+  "pc-modern__tom-clancy-s-splinter-cell-double-agent": {
+    "studio": "Ubisoft",
+    "year": "2006"
+  },
   "pc-modern__uboat": {
     "studio": "Deep Water Studio",
     "year": "2023"
@@ -4097,6 +4217,18 @@
   "pc-modern__undertale": {
     "studio": "Toby Fox",
     "year": "2015"
+  },
+  "pc-modern__unreal-ii-awakening": {
+    "studio": "Legend Entertainment",
+    "year": "2003"
+  },
+  "pc-modern__unreal-tournament-2004": {
+    "studio": "Epic Games / Digital Extremes",
+    "year": "2004"
+  },
+  "pc-modern__unreal-tournament-3": {
+    "studio": "Epic Games",
+    "year": "2007"
   },
   "pc-modern__vampire-masquerade-bloodlines": {
     "studio": "Troika Games",
@@ -4146,9 +4278,21 @@
     "studio": "Wargaming",
     "year": "2015"
   },
+  "pc-modern__worms-w-m-d": {
+    "studio": "Team17",
+    "year": "2016"
+  },
   "pc-modern__x-plane-11": {
     "studio": "Laminar Research",
     "year": "2017"
+  },
+  "pc-modern__xcom-2": {
+    "studio": "Firaxis Games",
+    "year": "2016"
+  },
+  "pc-modern__xcom-chimera-squad": {
+    "studio": "Firaxis Games",
+    "year": "2020"
   },
   "pc-modern__xcom-enemy-unknown": {
     "studio": "Firaxis Games",
@@ -5838,6 +5982,10 @@
     "studio": "thatgamecompany",
     "year": "2012"
   },
+  "ps4__judgment": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2018"
+  },
   "ps4__killzone-shadow-fall": {
     "studio": "Guerrilla Games",
     "year": "2013"
@@ -5861,6 +6009,10 @@
   "ps4__little-nightmares": {
     "studio": "Tarsier Studios",
     "year": "2017"
+  },
+  "ps4__lost-judgment": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2021"
   },
   "ps4__marvel-s-spider-man": {
     "studio": "Insomniac Games",
@@ -6042,6 +6194,26 @@
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2015"
   },
+  "ps4__yakuza-3-remastered": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2019"
+  },
+  "ps4__yakuza-5-remastered": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2015"
+  },
+  "ps4__yakuza-6-song-of-life": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2016"
+  },
+  "ps4__yakuza-kiwami": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2016"
+  },
+  "ps4__yakuza-kiwami-2": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2017"
+  },
   "ps4__yakuza-like-dragon": {
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2020"
@@ -6102,6 +6274,10 @@
     "studio": "Capcom",
     "year": "2020"
   },
+  "ps5__diablo-iv": {
+    "studio": "Blizzard Entertainment",
+    "year": "2023"
+  },
   "ps5__doom-eternal": {
     "studio": "id Software",
     "year": "2021"
@@ -6150,6 +6326,10 @@
     "studio": "Polyphony Digital",
     "year": "2022"
   },
+  "ps5__grand-theft-auto-v": {
+    "studio": "Rockstar Games",
+    "year": "2022"
+  },
   "ps5__hades": {
     "studio": "Supergiant Games",
     "year": "2021"
@@ -6182,9 +6362,17 @@
     "studio": "Naughty Dog",
     "year": "2022"
   },
+  "ps5__like-dragon-gaiden-man-who-erased-his-name": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2023"
+  },
   "ps5__like-dragon-infinite-wealth": {
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2024"
+  },
+  "ps5__like-dragon-ishin": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2023"
   },
   "ps5__marvel-s-spider-man-miles-morales": {
     "studio": "Insomniac Games",
