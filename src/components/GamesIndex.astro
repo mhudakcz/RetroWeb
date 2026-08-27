@@ -1,6 +1,6 @@
 ---
 import GameCard from './GameCard.astro';
-import { localeData, stats, platformsByTypeLoc, GENRE_CATS, genreCats } from '../lib/data';
+import { localeData, stats, platformsByTypeLoc, GENRE_CATS, genreCats, alphaLetter } from '../lib/data';
 import { t, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -9,6 +9,11 @@ const { allGames } = localeData(locale);
 const FLAGS = ['homebrew', 'mustplay', 'mature', 'puzzle'] as const;
 const norm = (s: string) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
 const platformGroups = platformsByTypeLoc(locale);
+// Vypis her se filtruje v prohlizeci, takze kotvy jako u serii by nesedely —
+// pismeno je proto dalsi filtr, ne odkaz.
+const letters = [...new Set(allGames.map((g) => alphaLetter(g.name)))].sort((a, b) =>
+  a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b, 'cs'),
+);
 const genreCounts: Record<string, number> = Object.fromEntries(
   GENRE_CATS.map(([k]) => [k, allGames.filter((g) => genreCats(g.genre).includes(k)).length])
 );
@@ -40,6 +45,10 @@ const genreCounts: Record<string, number> = Object.fromEntries(
       <button class="chip" data-multi="1" type="button">{t(locale, 'games.multiplayer')}</button>
       <button class="chip" data-detail="1" type="button">{t(locale, 'games.commented')}</button>
     </div>
+    <div class="chips alpha-chips" role="group" aria-label={t(locale, 'series.jump')}>
+      <button class="chip letter on" data-letter="" type="button">{t(locale, 'games.allLetters')}</button>
+      {letters.map((l) => <button class="chip letter" data-letter={l} type="button">{l}</button>)}
+    </div>
   </div>
   <p class="result-count muted" id="count" aria-live="polite"></p>
 </section>
@@ -50,6 +59,7 @@ const genreCounts: Record<string, number> = Object.fromEntries(
       {allGames.map((g) => (
         <div class="cell"
           data-name={norm(g.name.replace(/[*_\x60]/g, ''))}
+          data-letter={alphaLetter(g.name)}
           data-platform={g.platform.slug}
           data-flags={g.flags.join(' ')}
           data-genre={genreCats(g.genre).join(' ')}
@@ -79,7 +89,7 @@ const genreCounts: Record<string, number> = Object.fromEntries(
   const word = grid.dataset.word || 'games';
 
   const activeFlags = new Set<string>();
-  let needDetail = false, needMulti = false;
+  let needDetail = false, needMulti = false, letter = '';
   const norm = (s: string) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
   function matches(cell: HTMLElement, plat: string, gen: string, term: string, ignore?: 'plat' | 'genre') {
@@ -88,6 +98,7 @@ const genreCounts: Record<string, number> = Object.fromEntries(
     if (term && !name.includes(term)) return false;
     if (ignore !== 'plat' && plat && cell.dataset.platform !== plat) return false;
     if (ignore !== 'genre' && gen && !(cell.dataset.genre ?? '').split(' ').includes(gen)) return false;
+    if (letter && cell.dataset.letter !== letter) return false;
     if (needDetail && cell.dataset.detail !== '1') return false;
     if (needMulti && cell.dataset.multi !== '1') return false;
     for (const f of activeFlags) if (!flags.includes(f)) return false;
@@ -123,6 +134,12 @@ const genreCounts: Record<string, number> = Object.fromEntries(
   genre.addEventListener('change', apply);
   for (const chip of chips) {
     chip.addEventListener('click', () => {
+      if (chip.dataset.letter !== undefined) {
+        letter = chip.dataset.letter;
+        for (const c of chips) if (c.dataset.letter !== undefined) c.classList.toggle('on', c === chip);
+        apply();
+        return;
+      }
       if (chip.dataset.detail) needDetail = !needDetail;
       else if (chip.dataset.multi) needMulti = !needMulti;
       else if (chip.dataset.flag) { const f = chip.dataset.flag; activeFlags.has(f) ? activeFlags.delete(f) : activeFlags.add(f); }
@@ -142,6 +159,8 @@ const genreCounts: Record<string, number> = Object.fromEntries(
   #q { flex: 1; min-width: 220px; }
   #q:focus, #platform:focus, #genre:focus { border-color: var(--accent); outline: none; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .alpha-chips { margin-top: 8px; }
+  .chip.letter { min-width: 34px; padding-inline: 8px; text-align: center; }
   .chip { cursor: pointer; font-size: 0.8rem; font-weight: 600; padding: 0.55em 0.85em; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-family: inherit; transition: all 0.15s ease; }
   .chip:hover { color: var(--text); border-color: var(--accent); }
   .chip.on { background: linear-gradient(135deg, var(--accent), #ff7aa8); color: #1a0710; border-color: transparent; }

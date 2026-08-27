@@ -366,3 +366,39 @@ h3 {
   color: var(--text);
 }
 .i18n-pending strong { margin-right: 4px; }
+
+/* Abecedni rozcestnik nad dlouhym vypisem (serie, studia). Je ve sdilenem
+   souboru, protoze scopovany styl komponenty by na druhe strance neplatil. */
+.alpha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 24px 0 8px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.alpha a {
+  min-width: 32px;
+  padding: 5px 8px;
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.alpha a:hover { border-color: var(--accent); color: var(--accent); }
+
+/* kotva nesmi skoncit pod lepivou hlavickou */
+.alpha-group { margin-top: 30px; scroll-margin-top: 80px; }
+
+/* pixelovy font nema citelne verzalky — jedno pismeno v nem vypada jako ikona */
+.alpha-head {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin: 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-soft);
+}

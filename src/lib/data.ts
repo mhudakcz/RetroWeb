@@ -122,6 +122,36 @@ for (const [path, raw] of Object.entries(studioArticleFiles)) {
 
 /** Normalizace názvu hry pro párování téhož titulu napříč platformami.
  *  Odpovídá norm_name() v tools/parse_content.py. */
+/** Prvni pismeno pro abecedni razeni. Diakritika se odstranuje — ceska serie
+ *  zacinajici na „Č“ patri ctenari pod C, ne do zvlastni skupiny na konci
+ *  abecedy. Co nezacina pismenem (cislice, symbol) jde pod „#“. */
+export function alphaLetter(name: string): string {
+  const c = name.normalize('NFD').replace(/\p{M}/gu, '').charAt(0).toUpperCase();
+  return /[A-Z]/.test(c) ? c : '#';
+}
+
+/** Seradi polozky podle nazvu a rozdeli je do skupin po prvnim pismenu.
+ *  Vraci i poradi pismen, ve kterem se maji vypsat — „#“ az na konci. */
+export function groupByLetter<T extends { name: string }>(
+  items: T[],
+): { letters: string[]; groups: Map<string, T[]> } {
+  const groups = new Map<string, T[]>();
+  for (const it of [...items].sort((a, b) => a.name.localeCompare(b.name, 'cs'))) {
+    const k = alphaLetter(it.name);
+    const arr = groups.get(k);
+    if (arr) arr.push(it);
+    else groups.set(k, [it]);
+  }
+  const letters = [...groups.keys()].sort((a, b) =>
+    a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b, 'cs'),
+  );
+  return { letters, groups };
+}
+
+/** Kotva pro skupinu pismene — „#“ nesmi skoncit v URL jako fragment. */
+export const alphaAnchor = (letter: string): string =>
+  `pismeno-${letter === '#' ? 'ostatni' : letter}`;
+
 export function normGameName(s: string): string {
   let x = s.replace(/[’`]/g, "'").replace(/\([^)]*\)/g, ' ');
   x = x.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase();

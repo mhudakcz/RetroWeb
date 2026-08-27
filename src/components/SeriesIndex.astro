@@ -1,30 +1,11 @@
 ---
-import { localeData } from '../lib/data';
+import { localeData, groupByLetter, alphaAnchor } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
 const { series } = localeData(locale);
 
-// Devadesat serii v jedne mrizce se neda prochazet, proto se radi po pismenech.
-// Diakritika se pro zarazeni odstranuje — ceska serie zacinajici na "Č" patri
-// ctenari pod C, ne do zvlastni skupiny na konci abecedy.
-const firstLetter = (name: string): string => {
-  const c = name.normalize('NFD').replace(/\p{M}/gu, '').charAt(0).toUpperCase();
-  return /[A-Z]/.test(c) ? c : '#';
-};
-
-const groups = [...series]
-  .sort((a, b) => a.name.localeCompare(b.name, 'cs'))
-  .reduce<Map<string, typeof series>>((m, s) => {
-    const k = firstLetter(s.name);
-    (m.get(k) ?? m.set(k, []).get(k)!).push(s);
-    return m;
-  }, new Map());
-
-// '#' patri na konec, pismena podle abecedy
-const letters = [...groups.keys()].sort((a, b) =>
-  a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b, 'cs'),
-);
+const { letters, groups } = groupByLetter(series);
 ---
 
 <section class="container head">
@@ -36,11 +17,11 @@ const letters = [...groups.keys()].sort((a, b) =>
 <section class="section">
   <div class="container">
     <nav class="alpha" aria-label={t(locale, 'series.jump')}>
-      {letters.map((l) => <a href={`#pismeno-${l === '#' ? 'ostatni' : l}`}>{l}</a>)}
+      {letters.map((l) => <a href={`#${alphaAnchor(l)}`}>{l}</a>)}
     </nav>
 
     {letters.map((letter) => (
-    <div class="alpha-group" id={`pismeno-${letter === '#' ? 'ostatni' : letter}`}>
+    <div class="alpha-group" id={alphaAnchor(letter)}>
     <h2 class="alpha-head">{letter}</h2>
     <div class="grid series-grid">
       {
@@ -83,27 +64,6 @@ const letters = [...groups.keys()].sort((a, b) =>
   }
   .series-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 16px; }
 
-  .alpha {
-    display: flex; flex-wrap: wrap; gap: 6px;
-    margin: 24px 0 8px; padding-bottom: 18px;
-    border-bottom: 1px solid var(--border-soft);
-  }
-  .alpha a {
-    min-width: 32px; padding: 5px 8px; text-align: center;
-    border: 1px solid var(--border); border-radius: 8px;
-    font-weight: 600; font-size: 0.9rem; color: var(--text);
-    transition: border-color 0.15s ease, color 0.15s ease;
-  }
-  .alpha a:hover { border-color: var(--accent); color: var(--accent); }
-
-  .alpha-group { margin-top: 30px; }
-  /* kotva nesmi skoncit pod lepivou hlavickou */
-  .alpha-group { scroll-margin-top: 80px; }
-  /* pixelovy font nema citelne verzalky — jedno pismeno v nem vypada jako ikona */
-  .alpha-head {
-    font-size: 1.5rem; font-weight: 800; color: var(--accent);
-    margin: 0; padding-bottom: 6px; border-bottom: 1px solid var(--border-soft);
-  }
   /* koláž obalů je 1200x480 — v malém čtverečku by z ní byl jen barevný flek,
      proto jde přes celou šířku karty a text je pod ní */
   .series-card {

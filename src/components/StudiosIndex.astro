@@ -1,9 +1,11 @@
 ---
-import { localeData } from '../lib/data';
+import { localeData, groupByLetter, alphaAnchor } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
 const { studios } = localeData(locale);
+// pres dve stovky studii v jedne mrizce se neda prochazet
+const { letters, groups } = groupByLetter(studios);
 ---
 
 <section class="container head">
@@ -14,9 +16,16 @@ const { studios } = localeData(locale);
 
 <section class="section">
   <div class="container">
+    <nav class="alpha" aria-label={t(locale, 'series.jump')}>
+      {letters.map((l) => <a href={`#${alphaAnchor(l)}`}>{l}</a>)}
+    </nav>
+
+    {letters.map((letter) => (
+    <div class="alpha-group" id={alphaAnchor(letter)}>
+    <h2 class="alpha-head">{letter}</h2>
     <div class="grid studio-grid">
       {
-        studios.map((s) => {
+        groups.get(letter)!.map((s) => {
           const plats = [...new Set(s.games.map((g) => g.platform.short))].slice(0, 6);
           return (
             <a class="card studio-card" href={localizePath(locale, `/studia/${s.slug}`)}>
@@ -35,6 +44,8 @@ const { studios } = localeData(locale);
         })
       }
     </div>
+    </div>
+    ))}
   </div>
 </section>
 
@@ -42,7 +53,7 @@ const { studios } = localeData(locale);
   .head { padding-block: 48px 0; }
   .head h1 { font-size: clamp(2rem, 5vw, 3rem); margin-block: 8px 10px; }
   .lead { font-size: 1.05rem; max-width: 640px; }
-  .studio-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 24px; }
+  .studio-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 16px; }
   /* koláž je 1200x420 — proto jde přes celou šířku karty a text je pod ní */
   .studio-card { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
   .studio-card .sc-art { display: block; aspect-ratio: 1200 / 420; overflow: hidden; }
