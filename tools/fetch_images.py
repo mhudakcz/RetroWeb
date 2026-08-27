@@ -208,6 +208,10 @@ LIBRETRO = {
     "x68000": "Sharp_-_X68000",
     "pc-98": "NEC_-_PC-98",
     "pc-dos": "DOS",
+    # Windows 9x samostatny repozitar nema, ale rada titulu te doby vysla i pro
+    # DOS (Quake, Tomb Raider, Carmageddon), takze se obaly hledaji tam. Parovani
+    # je na presny nazev, takze se netrefi do nespravne hry.
+    "pc-9x": "DOS",
     "intellivision": "Mattel_-_Intellivision",
     "jaguar": "Atari_-_Jaguar",
     "amiga-cd32": "Commodore_-_Amiga",
