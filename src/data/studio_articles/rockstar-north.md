@@ -1,0 +1,17 @@
+Rockstar North je skotské vývojářské studio se sídlem v Edinburghu, které je hlavním tvůrcem série Grand Theft Auto. Studio navazuje na dědictví staršího týmu DMA Design a je zodpovědné za díly, jež definovaly celý žánr open-world akčních her – od Vice City přes San Andreas až po Grand Theft Auto V, jednu z komerčně nejúspěšnějších zábavních produkcí v historii. Rockstar North patří pod vydavatelství Rockstar Games a mateřskou skupinu Take-Two Interactive a jeho hry jsou známé rozsáhlými otevřenými světy, satirickým pohledem na americkou společnost a technickou ambicí, která opakovaně posouvala hranice toho, co dokázaly současné konzole a počítače zvládnout.
+
+## Historie
+
+Kořeny studia sahají k dundeeské firmě DMA Design, která se v osmdesátých a devadesátých letech proslavila plošinovkou Lemmings a poté prvním dílem Grand Theft Auto, jenž představil pohled shora na kriminální řádění v otevřeném městě a hráčům dal nebývalou svobodu volby mezi dodržováním zákona a jeho porušováním. Po akvizici vydavatelstvím Take-Two a začlenění pod nově vznikající značku Rockstar Games na konci devadesátých let bylo studio přejmenováno na Rockstar North a přesunulo své těžiště tvorby právě na sérii GTA, kterou zároveň přetavilo do plně trojrozměrné podoby.
+
+Přelomovým okamžikem byl Grand Theft Auto III, který jako jeden z prvních titulů přenesl koncept otevřeného světa do trojrozměrného prostředí s volným pohybem kamery, a bezprostředně na něj navázaly Vice City, zasazené do fiktivní verze Miami osmdesátých let, a San Andreas s rozlehlým státem inspirovaným Kalifornií a Nevadou. Tyto díly sérii katapultovaly mezi nejprodávanější značky herního průmyslu a zároveň ukázaly typický rukopis studia – rozsáhlé mapy inspirované reálnými americkými regiony, propracovaný soundtrack s licencovanou hudbou dobových rozhlasových stanic a černý humor mířený na popkulturu a americkou společnost.
+
+S příchodem Grand Theft Auto IV, zasazeného do fiktivního Liberty City inspirovaného New Yorkem, se studio zaměřilo na realističtější podání příběhu, postav i fyziky vozidel. Následující Grand Theft Auto V pak dovedlo koncept otevřeného světa k dosud nevídanému rozsahu díky třem hratelným protagonistům a městu Los Santos inspirovanému Los Angeles a jeho okolím. Hra vyšla postupně na několika generacích konzolí i na PC a stala se jedním z komerčně nejúspěšnějších zábavních titulů vůbec, mimo jiné i díky online multiplayerovému režimu GTA Online, který studio ve spolupráci s dalšími týmy Rockstar Games dlouhodobě rozšiřovalo o nový obsah, aktivity a vozidla.
+
+## Klíčové osobnosti
+
+Studio navazuje na odkaz Davida Jonese, spoluzakladatele DMA Design a klíčové postavy za vznikem první Grand Theft Auto i staršího hitu Lemmings, přestože se pozdější tvorbě pod hlavičkou Rockstar North už nevěnoval a z firmy odešel krátce po přejmenování studia. Dlouholetou tváří samotného Rockstar North byl Leslie Benzies, který stál v čele studia po řadu let a podílel se na produkčním vedení vývoje klíčových dílů série od Grand Theft Auto III až po Grand Theft Auto V, než se dráhy Benziese a Rockstar Games po letech spolupráce rozešly.
+
+## Současnost
+
+Rockstar North zůstává hlavním vývojářským studiem série Grand Theft Auto v rámci Rockstar Games a dlouhodobě se soustředí na rozšiřování Grand Theft Auto V a jeho online složky, zatímco zároveň pracuje na dalších dílech série pro nadcházející generaci hráčů. Studio si i po více než dvou dekádách udržuje pozici technologické špičky mezi vývojáři otevřených herních světů.

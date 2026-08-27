@@ -473,6 +473,39 @@ def index_boxarts(names):
     return idx
 
 
+# Poradova cisla dilu — rimska i arabska. Vic nez X se v nazvech her prakticky
+# nevyskytuje a "i" se vynechava zamerne, protoze prvni dil se cislem neoznacuje.
+_SEQUEL = {"ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
+           "2", "3", "4", "5", "6", "7", "8", "9", "10"}
+
+
+def _plausible_match(query, candidate):
+    """Zamitne kandidata, ktery je proti dotazu nesmyslne kratky.
+
+    Metrika dava vysoke skore i jednopismennym nazvum: hra "D (Europe) (Disc 1)"
+    se normalizuje na pouhe "d" a proti "Tomb Raider II" dostane 0.93, tedy nad
+    prahem. Kazda hra, ktera se nenapárovala presne, tak skoncila u "D" — na
+    PlayStationu takhle deset titulu dostalo tentyz screenshot.
+
+    Kandidat proto musi mit aspon polovicni delku dotazu a sdilet s nim aspon
+    jedno slovo delsi nez dva znaky.
+    """
+    q, c = P.norm_name(query), P.norm_name(candidate)
+    if not q or not c or len(c) < len(q) * 0.5:
+        return False
+    qt = {w for w in q.split() if len(w) > 2}
+    ct = {w for w in c.split() if len(w) > 2}
+    if qt and not (qt & ct):
+        return False
+    # Poradove cislo dilu musi sedet. Repozitar PlayStationu nema Tomb Raider II
+    # ani III, takze obe hry jinak spadnou na jednicku — a stejne tak by Doom II
+    # dostal obal Doomu.
+    qn = {w for w in q.split() if w in _SEQUEL}
+    if qn and not (qn & {w for w in c.split() if w in _SEQUEL}):
+        return False
+    return True
+
+
 def best_boxart(game_name, names, idx):
     key = P.norm_name(game_name)
     if key in idx:
@@ -481,7 +514,7 @@ def best_boxart(game_name, names, idx):
     best, best_sc = None, 0.0
     for n in names:
         sc = P.match_metrics(game_name, n)[0]
-        if sc > best_sc:
+        if sc > best_sc and _plausible_match(game_name, n):
             best_sc, best = sc, n
     if best and best_sc >= 0.78 and P.acceptable(game_name, best):
         return best

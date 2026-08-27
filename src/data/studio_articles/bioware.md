@@ -1,0 +1,17 @@
+BioWare je kanadské herní studio proslulé jako jeden z hlavních tvůrců moderního RPG žánru s důrazem na propracované vyprávění, morální volby a hluboce rozvinuté postavy. Za dobu své existence stálo za vznikem sérií Baldur's Gate, Mass Effect a Dragon Age, které patří mezi nejvýznamnější počiny žánru na počítačích i konzolích. BioWare si vybudovalo pověst studia, které dokáže spojit rozsáhlé fantasy či sci-fi světy s emocionálně silnými příběhy a systémem dialogů, jenž hráči dává skutečný pocit vlivu na osud postav i celého vyprávění. Právě tento důraz na příběh, morální dilemata a hluboké vztahy hráčovy postavy s jejími společníky se stal jakousi obchodní značkou celého studia a inspiroval řadu dalších vývojářů RPG žánru po celém světě.
+
+## Historie
+
+BioWare založila skupina lékařů a nadšenců počítačových her v polovině devadesátých let v kanadském Edmontonu, kteří svou první velkou hru vytvořili na motivech pravidel Dungeons & Dragons. Tímto titulem byl Baldur's Gate, jenž na konci devadesátých let oživil žánr počítačových RPG a stal se komerčním i kritickým úspěchem, na který navázalo ještě úspěšnější pokračování Baldur's Gate II: Shadows of Amn. Tyto hry definovaly styl studia — rozsáhlé příběhy, propracovaný systém družiníků a boj založený na pravidlech stolních RPG.
+
+Na začátku dvoutisících let BioWare rozšířilo svůj záběr o Neverwinter Nights a zejména o Star Wars: Knights of the Old Republic, který přenesl osvědčený přístup studia do vesmíru Star Wars a stal se jedním z nejceněnějších titulů pro první Xbox. Následovalo Jade Empire jako pokus o vlastní novou fantasy značku zasazenou do prostředí inspirovaného asijskou mytologií. Zásadní zlom přišel v roce 2007 s vydáním Mass Effect, sci-fi ságy s důrazem na volby hráče napříč celou trilogií, kdy se rozhodnutí z jednoho dílu promítala do dalších pokračování. Série se stala jednou z nejvýznamnějších herních sérií dané generace konzolí a dodnes bývá dávána za příklad propracovaného propojení příběhu, postav a hratelnosti akční RPG.
+
+Souběžně studio rozjelo fantasy sérii Dragon Age, počínaje Dragon Age: Origins v roce 2009, která se odklonila k temnějšímu a syrovějšímu pojetí fantasy světa oproti dřívějším titulům BioWare. BioWare v této době bylo součástí vydavatelství Electronic Arts, pod které spadá dodnes, a pokračovalo v dalších dílech obou vlajkových sérií, včetně Dragon Age II, Mass Effect 3 a rozsáhlého Dragon Age: Inquisition. Později studio vydalo i souborné Mass Effect Legendary Edition, které aktualizovalo a spojilo celou původní trilogii pro novější generaci hráčů. Novější díly, jako Dragon Age: The Veilguard, ukazují, že studio se i po desetiletích snaží udržet krok s proměnami herního trhu a s očekáváním dlouholetých fanoušků svých značek.
+
+## Klíčové osobnosti
+
+BioWare stojí na odkazu svých zakládajících tvůrců, kteří přišli z lékařského prostředí a svou vášeň pro stolní RPG přetavili do počítačové podoby už u Baldur's Gate. V průběhu let se u jednotlivých sérií střídala řada kreativních a herních ředitelů, kteří formovali směřování Mass Effect i Dragon Age, přičemž konkrétní složení týmů se projekt od projektu měnilo.
+
+## Současnost
+
+BioWare dnes působí jako studio Electronic Arts a soustředí se na další rozvoj svých dvou hlavních značek, Mass Effect a Dragon Age. Po vydání Dragon Age: The Veilguard studio čelí proměnlivé reakci hráčské komunity i trhu, ale zůstává aktivním vývojářským pracovištěm s dlouholetou tradicí a stále silnou fanouškovskou základnou stavějící na jeho klasických titulech.
