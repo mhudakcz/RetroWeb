@@ -47,7 +47,16 @@ for loc in LOCALES:
                     existing = {}
             except Exception:
                 existing = {}
-        existing.update(data)  # nové překryjí staré, zbytek se zachová
+        # Slučuje se PO POLÍCH. Mělký update() by u her nahradil celý záznam:
+        # dávka s pouhým {teaser} by přepsala {detail, article} a překlady článků
+        # by zmizely. Slovník se proto doplňuje klíč po klíči, ostatní typy
+        # (řetězec u studií, pole sekcí u hardwaru) se nahrazují celé.
+        for slug, val in data.items():
+            cur = existing.get(slug)
+            if isinstance(cur, dict) and isinstance(val, dict):
+                cur.update(val)
+            else:
+                existing[slug] = val
         dst.write_text(json.dumps(existing, ensure_ascii=False, indent=1), encoding="utf-8")
 
 print(f"sloučeno chunků: {ok}  | nevalidních: {bad}")
