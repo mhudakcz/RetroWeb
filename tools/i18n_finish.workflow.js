@@ -1,7 +1,7 @@
 export const meta = {
   name: 'i18n-finish',
   description: 'Idempotentní dojezd překladů: přeloží jen chybějící dávky (hotové přeskočí)',
-  phases: [{ title: 'Translate', detail: 'per-chunk: skip if valid out exists, else translate' }],
+  phases: [{ title: 'Translate', detail: 'per-chunk: skip if valid out exists, else translate', model: 'sonnet' }],
 }
 
 phase('Translate')
@@ -38,7 +38,8 @@ Přelož VŠECHNY textové hodnoty z češtiny do ANGLIČTINY a NĚMČINY.
 Pravidla: zachovej Markdown (## nadpisy, **tučné**, odkazy) i strukturu 1:1; NEPŘEKLÁDEJ vlastní jména (názvy her, konzolí, studií, lidí); překládej přirozeně; zachovej všechny klíče (slugy).
 Ulož nástrojem Write do ${c.out} VALIDNÍ JSON tvaru {"en": <struktura s EN texty>, "de": <struktura s DE texty>}. Pozor na uvozovky uvnitř řetězců (escapuj \\" nebo použij české „").
 Vrať krátké potvrzení.`
-  return agent(prompt, { label: `${c.type}/${pad(0)}`.replace('000', c.in.split('/').pop()), phase: 'Translate' })
+  // model MUSI byt nastaveny — bez nej agent zdedi model relace (Opus)
+  return agent(prompt, { label: `${c.type}/${pad(0)}`.replace('000', c.in.split('/').pop()), phase: 'Translate', model: 'sonnet' })
 }))
 
 return { chunks: chunks.length, done: results.filter(Boolean).length }

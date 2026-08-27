@@ -119954,7 +119954,7 @@
       "image": "/images/platforms/quest.webp",
       "photoBg": "dark",
       "history": "Když Facebook (tehdy ještě pod touto značkou, později přejmenovaný na **Meta**) v roce 2019 uvedl na trh **Oculus Quest**, šlo o tichou revoluci celého virtuálního odvětví. Do té doby platilo, že plnohodnotná VR znamená buď drahý headset napojený kabelem na výkonné PC (Oculus Rift, HTC Vive), nebo omezenější zážitek konzolí PlayStation VR se základnami rozmístěnými po pokoji. Quest byl první headset, který tohle pravidlo zrušil: samostatné zařízení s vlastním procesorem, které nepotřebuje k provozu žádný jiný počítač ani konzoli a nevyžaduje instalaci externích kamer či senzorů do místnosti.\n\nKlíčem k té svobodě bylo takzvané **inside-out sledování** — headset má vlastní kamery umístěné na svém těle, kterými snímá okolní prostor a v reálném čase si v něm dopočítává vlastní pozici i pozici ovladačů. Odpadají tak základny přišroubované na stěny i nutnost cokoliv kalibrovat před každým hraním; hráč si jednoduše nasadí headset, obejde volný prostor v pokoji a je v ní. Právě tahle jednoduchost, kombinovaná s rozumnou cenou, z Questu během několika let udělala nejrozšířenější VR platformu na světě a hlavní důvod, proč se virtuální realita z laboratorního experimentu proměnila v běžný spotřební produkt v obývacích pokojích.\n\nPod kapotou běží na headsetech systém odvozený od **Androidu**, upravený pro potřeby VR, a celá platforma stojí na čipech s architekturou **ARM** — tedy stejným rodokmenem jako mobilní telefony, ne herní konzole nebo PC. To definovalo i směr, kterým se Quest ubíral: spíš přístupný a mobilní zážitek pro širokou veřejnost než simulátor s fotorealistickou grafikou pro nadšence s nejnovější grafickou kartou.\n\n### Technika: grafika a zvuk\n\nPrvní Quest z roku 2019 pohánil mobilní čip **Qualcomm Snapdragon 835**, tedy křemík, který se do té doby objevoval hlavně v telefonech. Displej byl dvojice **OLED panelů**, které vynikaly sytým kontrastem a hlubokou černou, ale s postupujícím časem a nástupem levnějších modelů od nich Meta ustoupila. Quest 2 z roku 2020 přešel na výkonnější **Snapdragon XR2** a zároveň na **LCD displej** — krok, který na první pohled působil jako krok zpět, ale ve skutečnosti umožnil vyšší rozlišení a nižší výrobní náklady, což se promítlo do razantně nižší cena. Právě tahle kombinace z Questu 2 udělala nejprodávanější VR headset v historii vůbec.\n\nZvuková stránka se u standardních modelů řeší bez sluchátek: do stranic headsetu jsou zabudované reproduktory, které hrají prostorový zvuk přímo k uším, aniž by uzavíraly hráče od okolí; kdo chce lepší izolaci nebo soukromí, může připojit klasická sluchátka přes jack. Výkonově je celá platforma odkázána na mobilní čipy, takže grafická věrnost her nikdy nedosahuje úrovně PC VR, ale pro sedmdesát i více snímků za sekundu, které jsou u VR nutností proti nevolnosti, to bohatě stačí.\n\n### Propojení a periferie\n\nStandardní výbavou jsou dva pohybové ovladače (**Touch controllery**), které headset sleduje stejnými kamerami jako prostor kolem sebe — žádné externí senzory, žádné dráty. Novější generace navíc umí sledovat i samotné ruce hráče bez ovladačů vůbec, díky čemuž lze v části aplikací gestikulovat holými prsty. Pro hráče, kteří chtějí víc než mobilní výkon nabízí, existuje režim **Quest Link**: headset se připojí k výkonnému PC kabelem, nebo bezdrátově přes domácí Wi-Fi (varianta **Air Link**), a stane se z něj plnohodnotný PC VR headset schopný pustit i graficky náročné tituly, které by na vlastním čipu vůbec neběžely. Virtuální hranice hratelného prostoru, tzv. Guardian, si headset domaluje sám podle toho, co jeho kamery při rozhlédnutí zaznamenaly jako podlahu a překážky.\n\n### Modely a revize\n\nŘada odstartovala modelem **Quest 1** (2019) s OLED displejem a čipem Snapdragon 835. V roce 2020 přišel **Quest 2** — LCD displej, silnější Snapdragon XR2 a hlavně výrazně nižší cena, díky které se stal nejprodávanějším VR headsetem vůbec. Vedle běžné řady vznikl i drahý **Quest Pro**, cílený na profesionální nasazení a rozšířený o sledování očí a výrazu obličeje. Zlom přinesl rok 2023 a **Quest 3**: tenčí **pancake čočky** místo starších Fresnelových, výkonnější čip a barevné kamery na přední straně, které umožňují **průchod reality** (passthrough) v barvě — headset tak umí promítat živý obraz okolí a stavět do něj virtuální objekty, čímž se z čistě VR zařízení stal i nástroj pro tzv. smíšenou realitu. O rok později dorazil levnější **Quest 3S**, který výkon a passthrough kamery Questu 3 spojil se staršími a levnějšími Fresnelovými čočkami, aby platforma měla znovu dostupný vstupní model.\n\n### Klony a varianty\n\nPřímé klony ve stylu retro konzolí u Questu nedávají smysl, protože jde o aktuální, softwarově uzamčenou platformu — ale koncept samostatného, kabelu nezávislého headsetu s inside-out sledováním rychle převzala i konkurence. Čínská firma **Pico** (patřící ByteDance) staví headsety s velmi podobnou filozofií, HTC nabízí vlastní samostatné řady odvozené z Vive, a i Sony u PlayStation VR2 sáhlo po řešeních, která se Questu v mnohém přiblížila, byť headset zůstal závislý na konzoli. Nejblíž skutečné konkurenci v segmentu prémiových samostatných headsetů se pak dostal drahý Apple Vision Pro, mířící ale spíš na produktivitu než na hry.\n\n### Dnešní scéna\n\nMeta Quest zůstává aktivně prodávanou a podporovanou platformou, takže se k němu na rozdíl od retro konzolí nemusí sahat přes emulaci — nové kusy i hry jsou běžně k sehnání v obchodech i digitálně. Herní knihovna se prodává přes obchod přímo v headsetu, doplněný o **App Lab** pro menší a experimentální tituly, které se do hlavního výběru nedostaly. Mezi hráči zakořenil i nezávislý nástroj **SideQuest**, přes který lze do headsetu nahrávat aplikace mimo obchod Mety, včetně řady zdarma dostupných a komunitních projektů. Mezi nejznámější tituly patří rytmická akce **Beat Saber**, akční **Superhot VR**, survival horor **Resident Evil 4 VR**, rozsáhlé RPG **Asgard's Wrath 2** nebo odpočinkové **Walkabout Mini Golf** — výběr, který dobře ukazuje šíři platformy od intenzivní akce až po klidné společenské hraní. Díky Quest Linku a Air Linku si navíc majitelé mohou headset propojit i s vlastním PC a sáhnout po celé knihovně starší i náročnější PC VR produkce.",
-      "gameCount": 17,
+      "gameCount": 29,
       "games": [
         {
           "slug": "quest__beat-saber",
@@ -120383,6 +120383,298 @@
           "gallery": [
             {
               "src": "/images/games/quest/quest__ghosts-of-tabor.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__resident-evil-4",
+          "name": "Resident Evil 4",
+          "genre": "Akcni horor",
+          "length": "L",
+          "flags": [
+            "mustplay",
+            "mature"
+          ],
+          "year": "2021",
+          "studio": "Armature Studio / Capcom",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Resident Evil 4** ve VR verzi pro Quest převádí legendární akční horor z roku 2005 do první osoby s plným pohybem po prostředí španělské vesnice plné nakažených Ganados. Hráč řídí Leona Kennedyho při pátrání po prezidentově dceři, střílí z různých zbraní, kombinuje bylinky a řeší hádanky, přičemž základní herní smyčka – přežívání vln nepřátel v uzavřených prostorech a postupný postup příběhem – zůstává zachována, ale kompletně přepracovaná pro VR ovládání. Hra zahrnuje i klasické sekvence s obchodníkem, kde si hráč nakupuje a vylepšuje vybavení mezi jednotlivými kapitolami, nechybí ani přílohová mise s Adou Wong a hráč si může poradit s nepřáteli i tichou likvidací nožem nebo parírováním úderů v pravou chvíli.\n\nPřevod pro samostatný headset znamenal grafické přepracování modelů a osvětlení tak, aby hra běžela plynule na mobilním čipu Questu, a Armature přidalo fyzické nabíjení zbraní, otevírání batohu tažením ruky k rameni a míření skutečným natočením zbraně, čímž se boj stal mnohem náročnějším a intenzivnějším než v původní verzi. Délka relace se přizpůsobuje hráči – kapitoly lze hrát v krátkých úsecích nebo delších taženích, headset zvládne i delší hraní bez přehřívání, ale rychlé otáčení v boji s více nepřáteli může u citlivějších hráčů vyvolat nevolnost, kterou hra částečně řeší možnostmi komfortních nastavení jako tunelové vidění. Atmosféra původní hry, včetně napětí z omezené munice, se v první osobě ještě umocňuje a zvuková kulisa vesnice dodává hraní další vrstvu tísně.\n\nPřijetí bylo velmi kladné, kritici i hráči oceňovali, jak dobře se původní napětí a akce přenesly do VR, a titul se stal jedním z nejvýznamnějších důkazů, že i rozsáhlá AAA hra může fungovat na samostatném headsetu. Doporučit lze především hráčům, kteří mají rádi horor a akci a nevadí jim intenzivnější a fyzičtější zapojení během boje a kteří chtějí zažít známý příběh z úplně nové perspektivy, jež původní hru z roku 2005 v mnoha ohledech obohacuje o zcela nový rozměr napětí.",
+          "image": "/images/games/quest/quest__resident-evil-4.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__resident-evil-4.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__asgard-s-wrath-2",
+          "name": "Asgard's Wrath 2",
+          "genre": "Akcni RPG",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2023",
+          "studio": "Sanzaru Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Asgard's Wrath 2** je rozsáhlé akční RPG odehrávající se v egyptské mytologii, kde hráč jako mladý bůh putuje otevřeným světem, bojuje mečem, lukem a magií, řeší hádanky a ovládá i menšího společníka-lišku pro průzkum úzkých míst a přístup do skrytých prostor. Hra kombinuje soubojový systém postavený na fyzickém máchání zbraní s rozsáhlým rozvojem postavy, vedlejšími úkoly a narativním příběhem, který se odvíjí napříč desítkami hodin hraní. Svět je rozdělen na několik rozsáhlých oblastí s vlastními frakcemi, obchodníky a vedlejšími postavami, hráč se může rozhodnout, do jaké míry se věnuje hlavní dějové lince a do jaké míry bočnímu obsahu, a postupem hrou navíc odemyká nové schopnosti a vylepšení zbraní.\n\nJde o jeden z nejambicióznějších titulů vytvořených přímo pro samostatný headset – hra byla navržena tak, aby běžela nativně na čipu Questu bez nutnosti počítače, a přestože jde o rozsáhlý svět s mnoha systémy, optimalizace umožňuje plynulé prozkoumávání i souboje bez výraznějších propadů snímkové frekvence. Délka jedné herní relace může být libovolná díky přehlednému ukládání a rozdělení na kapitoly, ale vzhledem k rozsahu hry se počítá spíše s delšími seancemi. Pohyb v prostoru kombinuje teleportaci i plynulé přesuny, takže hráči náchylní k nevolnosti mohou nastavení přizpůsobit, zatímco fyzická námaha při boji zůstává mírnější než u čistě akčních titulů díky častému střídání s průzkumem a hádankami.\n\nHra byla při vydání chválena za rozsah obsahu, který na standalone headsetu dosud neměl obdoby, a mnoho recenzentů ji označilo za jeden z nejkomplexnějších VR titulů vůbec. Doporučit ji lze především hráčům, kteří hledají dlouhodobější RPG zážitek a chtějí vidět, kam až může VR hraní na samostatném headsetu dojít, přestože rozsah hry vyžaduje trpělivost a opakované delší seance než u kratších, akčnějších VR titulů, které se dají odbýt za pár desítek minut.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__walkabout-mini-golf",
+          "name": "Walkabout Mini Golf",
+          "genre": "Sportovni hra",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2019",
+          "studio": "Mighty Coconut",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Walkabout Mini Golf** je minigolfová hra, ve které hráči procházejí rozmanitá tematická hřiště – od egyptských pyramid přes vesmírné stanice až po vánoční městečka – a odpalují míček holí drženou v ruce přesně jako na skutečném hřišti. Fyzika míčku a odrazů je pečlivě propracovaná, takže úspěch závisí na skutečné přesnosti a citu pro sílu úderu, ne na náhodných mechanikách. Každé hřiště navíc skrývá vlastní tajemství a easter eggy, které motivují hráče k opakovaným návštěvám, řada drah obsahuje i skryté zkratky či bonusové údery, jež odměňují důkladný průzkum prostředí, a vývojáři pravidelně přidávají nová hřiště i mimo sezónu, čímž udržují hru živou i několik let po vydání.\n\nNa Meta Questu hra těží z toho, že samostatný headset umožňuje pohodlné, opakované hraní bez kabelů, což se hodí k neformální, společenské povaze titulu – většina hráčů ji využívá právě k online hraní s přáteli či rodinou na dálku, včetně hlasového chatu během hry a možnosti pořizovat společné fotografie z hřiště. Výkonové nároky jsou nízké, prostředí jsou stylizovaná a barevná, takže headset zvládne plynulé renderování bez problémů, a protože se hráč po většinu času pohybuje jen mírně a bez rychlých otáček kamery, riziko nevolnosti je minimální i při delším hraní.\n\nDíky tomu patří hra mezi tituly vhodné i pro delší relace v řádu desítek minut a pro nové uživatele VR, kteří se teprve seznamují s ovládáním headsetu. Walkabout Mini Golf získalo široké uznání za to, jak elegantně spojuje jednoduchá pravidla se sociálním zážitkem, a stalo se jedním z nejčastěji doporučovaných rodinných titulů na Questu díky pravidelným novým hřištím. Je ideální volbou pro hráče, kteří chtějí něco uvolněného, společenské a vhodné i pro ty, kdo mají s VR jen málo zkušeností nebo se obávají nevolnosti, protože samotné odpalování míčků nevyžaduje žádný prudký pohyb ani naklánění.",
+          "image": "/images/games/quest/quest__walkabout-mini-golf.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__walkabout-mini-golf.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__walking-dead-saints-and-sinners",
+          "name": "The Walking Dead: Saints & Sinners",
+          "genre": "Akcni prezivani",
+          "length": "L",
+          "flags": [
+            "mustplay",
+            "mature"
+          ],
+          "year": "2020",
+          "studio": "Skydance Interactive",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**The Walking Dead: Saints & Sinners** zasazuje hráče do zaplaveného New Orleans plného zombie, kde musí fyzicky bojovat improvizovanými i palnými zbraněmi, prohledávat opuštěné budovy pro suroviny a rozhodovat se mezi znepřátelenými frakcemi města. Boj je založen na skutečném zamachování a bodání, hráč musí zbraně fyzicky nabíjet, otevírat batoh tažením k rameni a zvedat předměty rukama, což z každého střetu dělá napínavou a fyzicky náročnou záležitost, kde chybný odhad vzdálenosti nebo pomalá reakce znamená zranění. Rozhodnutí, komu pomoci a koho zradit, ovlivňují další průběh příběhu a přístup k novým oblastem, a hra také nabízí rozsáhlý systém craftingu, kde si hráč vyrábí vlastní zbraně a vylepšení z nalezených surovin, včetně improvizovaných zbraní s omezenou životností.\n\nNa Questu hra funguje jako plnohodnotný standalone titul s otevřenými lokacemi a rozsáhlým craftingem, přičemž optimalizace pro mobilní čip znamenala určité grafické zjednodušení oproti PC verzi, ale základní herní smyčka zůstala nedotčena. Délka relací se přizpůsobuje hráči – svět lze prozkoumávat po částech, ale vzhledem k nárokům na management surovin a řízení času se hodí spíše delší sezení. Fyzická námaha je vyšší než u průměrné VR hry kvůli častému sklánění, zvedání a bodání, a intenzivnější souboje mohou u citlivějších hráčů vyvolat nevolnost, což hra částečně mitiguje možnostmi komfortních nastavení pohybu jako je vinětace při otáčení.\n\nHra byla při vydání přijata jako jeden z nejpropracovanějších VR titulů zaměřených na přežívání a boj zblízka, oceňovaná za atmosféru i hloubku systémů craftingu a rozhodování, které dávají hráči pocit skutečné odpovědnosti za osud postav kolem sebe. Doporučit ji lze především starším hráčům, kteří hledají náročný, atmosférický a fyzický zážitek a nevadí jim témata násilí a hororu zobrazená poměrně syrovým způsobem, a kteří chtějí zažít hlubší příběh, než je u zombie titulů obvyklé.",
+          "image": "/images/games/quest/quest__walking-dead-saints-and-sinners.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__walking-dead-saints-and-sinners.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__population-one",
+          "name": "Population: One",
+          "genre": "Battle royale strelecka hra",
+          "length": "M",
+          "flags": [],
+          "year": "2020",
+          "studio": "BigBox VR",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Population: One** je battle royale střelecká hra pro VR, ve které až třicet hráčů bojuje o přežití na zmenšující se mapě, sbírá zbraně a vybavení a snaží se zůstat posledním týmem či hráčem ve hře. Odlišuje se od klasických battle royale titulů tím, že hráči mohou fyzicky šplhat po stěnách budov a létat pomocí křídlových obleků, což přidává vertikální rozměr, jaký ploché battle royale hry nemají. Týmová hra ve trojicích je běžná volba, protože umožňuje kombinovat rozdílné role a taktiky při přesunech po mapě, hra také nabízí různé kategorie zbraní a vybavení s odlišnými vlastnostmi pro různé styly boje, od dálkových pušek po blízké útoky se sekyrou či nožem. Mapa se postupem času rozšiřovala o nové lokace a sezónní události, které přidávaly dočasné režimy hraní i speciální odměny za účast.\n\nNa Meta Questu hra běží jako plnohodnotný standalone multiplayerový titul s desítkami hráčů v jednom zápase, což je náročné na síťovou synchronizaci i výkon headsetu, a BigBox VR postupně optimalizovali hru tak, aby zápasy probíhaly plynule i na mobilním čipu bez zbytečných výpadků. Typický zápas trvá kolem patnácti až dvaceti minut, což odpovídá délce průměrné VR relace, a fyzický pohyb zahrnuje šplhání a manévrování ve vzduchu, které může u některých hráčů zpočátku vyvolávat nevolnost, než si zvyknou na styl letu a šplhání po vertikálních plochách.\n\nHra získala pozornost jako jeden z prvních úspěšných pokusů přenést žánr battle royale do VR a byla oceňována za to, jak dobře využívá možnosti pohybu ve třech rozměrech k taktickým rozhodnutím, která ve ploché verzi žánru prostě neexistují. Vhodná je především pro hráče, kteří mají rádi kompetitivní střelecké hry a chtějí vyzkoušet, jak se tento žánr mění, když se do něj přidá plná fyzická volnost pohybu VR a možnost bojovat i ve vzduchu.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__pistol-whip",
+          "name": "Pistol Whip",
+          "genre": "Rytmicka strelecka hra",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2019",
+          "studio": "Cloudhead Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Pistol Whip** spojuje střílečku od boku s rytmickou hrou tak, že hráč postupuje po lineární dráze skrz stylizované scenérie, střílí na nepřátele v rytmu hudby a uhýbá jejich střelám pohybem těla, aniž by se mohl kdykoliv zastavit. Každá úroveň je postavená kolem konkrétní skladby a její tempo, buben a melodie přímo diktují rytmus střelby a pohybu, takže se hra blíží spíš tanečnímu či hudebnímu výkonu než klasické střílečce. Volitelné modifikátory jako zpomalený čas či nekonečná munice umožňují hraní přizpůsobit vlastní dovednosti, hra nabízí i vlastní playlisty a možnost přidávat skladby z vlastní hudební knihovny, což uživatelům umožňuje vytvářet si zcela své vlastní úrovně na oblíbené písně, a různé vizuální styly scén, od noirové estetiky po neonové barvy, dávají každé skladbě odlišný charakter a náladu.\n\nNa Meta Questu hra využívá plnou volnost pohybu bez kabelů, což je pro tento styl hraní klíčové – hráč se neustále uhýbá, otáčí a přesouvá v rámci herního prostoru, a headset musí tyto pohyby zaznamenávat přesně a bez zpoždění, jinak se rytmický pocit rozpadá. Výkonové nároky jsou díky stylizované, ploché grafice nízké, takže se hra na standalone headsetu drží vysokých a stabilních snímkových frekvencí, což je pro přesné míření v rychlém tempu klíčové, a nízká latence odezvy přímo ovlivňuje pocit ze hry.\n\nTypická relace odpovídá délce jedné až několika skladeb, tedy několika minutám, a protože se hráč pohybuje plynule vpřed bez samovolné volby směru kamery, riziko nevolnosti je nízké ve srovnání s jinými akčními VR tituly. Pistol Whip bylo při vydání chváleno za originální spojení žánrů a za to, jak dobře využívá specifika VR k vytvoření zážitku, který není možný na plochém displeji. Často se uvádí jako doporučený titul pro hráče hledající energickou, hudebně založenou akci a pro ty, kdo chtějí VR fitness zážitek s výrazným vizuálním stylem a možností hrát na oblíbené skladby.",
+          "image": "/images/games/quest/quest__pistol-whip.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__pistol-whip.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__blade-and-sorcery-nomad",
+          "name": "Blade & Sorcery: Nomad",
+          "genre": "Akcni soubojova hra",
+          "length": "M",
+          "flags": [
+            "mature"
+          ],
+          "year": "2021",
+          "studio": "WarpFrog",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Blade & Sorcery: Nomad** je fyzikální soubojová hra, ve které hráč bojuje proti vlnám nepřátel meči, sekerami, luky i kouzly, přičemž vše se řídí realistickou fyzikou – zbraň se odráží od skutečného úderu, těla nepřátel reagují na fyzické zásahy a i drobné detaily jako natočení čepele při seknutí mají vliv na výsledek souboje. Hra nemá klasický příběh, jde spíše o pískoviště pro experimentování s různými zbraněmi a styly boje v různých arénách, od středověkých hradů po fantasy dungeony, a hráč může kombinovat zbraně v obou rukou libovolně, včetně současného držení meče a kouzelné magie, což umožňuje vytvářet vlastní nezvyklé kombinace boje na blízko i na dálku, například vrhání dýk telekinezí uprostřed souboje mečem.\n\nNomad je standalone verze původně PC VR hry Blade & Sorcery, a její převod na Meta Quest vyžadoval výrazné zjednodušení fyzikálních výpočtů a grafiky, aby vše běželo na mobilním čipu bez připojení k počítači, přičemž základní pocit fyzikálního soubojového systému zůstal zachován. Podpora modů z komunity navíc rozšířila hru i na standalonu o další zbraně, prostředí a celé nové herní režimy, které oficiální vydání samo o sobě nenabízí. Relace jsou obvykle kratší, soustředěné na jednotlivé souboje či vlny nepřátel, a vzhledem k intenzivnímu fyzickému zapojení – sekání, házení, uhýbání – je hra fyzicky náročná a u některých hráčů může vyvolat i mírnou nevolnost při rychlejších pohybech kamery a rychlém otáčení během boje.\n\nHra si díky otevřenému modding systému na PC verzi vybudovala silnou komunitu, a Nomad tuto popularitu přenesl i na standalone hráče, kteří ocenili možnost zažít fyzikální souboje bez nutnosti počítače. Doporučit ji lze především hráčům se zájmem o syrový, fyzický soubojový systém a těm, kdo nevadí vyšší nároky na fyzickou aktivitu a otevřená témata násilí bez narativního rámce, u kterého jde výsledný zážitek především o vlastní experimentování a zdokonalování techniky.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__vader-immortal-star-wars-vr-series",
+          "name": "Vader Immortal: A Star Wars VR Series",
+          "genre": "Akcni adventura",
+          "length": "S",
+          "flags": [],
+          "year": "2019",
+          "studio": "ILMxLAB",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Vader Immortal: A Star Wars VR Series** je trojdílná epizodická VR adventura odehrávající se ve světě Star Wars, kde se hráč jako pasažér lodi ocitne na planetě Mustafar pod dohledem Dartha Vadera a postupně odhaluje spiknutí spojené s temnou stranou Síly. Hra kombinuje příběhové pasáže s prozkoumáváním prostředí, řešením jednoduchých hádanek a soubojem se světelným mečem, který se ovládá fyzickým máváním a blokováním v reálném čase, včetně odrážení blasterových výstřelů zpět na nepřátele. Součástí každé epizody je i minihra Lightsaber Dojo, kde si hráč může zkušený souboj procvičit samostatně mimo hlavní příběh a odemykat další typy jílců světelného meče s různými vlastnostmi a vzhledem. Hlas Jamese Earla Jonese v roli Vadera dodává celému zážitku výraznou autenticitu a filmovou váhu, kterou umocňuje i důvěrně známá hudba Star Wars.\n\nVšechny tři epizody vyšly i jako standalone tituly hratelné přímo na Meta Quest headsetu bez nutnosti počítače, což umožnilo ILMxLAB využít filmovou kvalitu vizuálu Star Wars vesmíru při zachování plynulého výkonu na mobilním čipu. Každá epizoda je relativně krátká, na jedno posezení v řádu hodiny, což odpovídá spíš filmové než herní délce, a soubojové pasáže se světelným mečem jsou navrženy tak, aby byly přístupné i méně zkušeným hráčům. Pohyb prostorem je řešen převážně teleportací, takže riziko nevolnosti je nízké a hra je vhodná i pro začátečníky ve VR, kteří se teprve seznamují se standalone headsetem.\n\nSérie byla při vydání chválena za autenticitu světa Star Wars a za to, jak dobře využívá VR k pocitu, že hráč skutečně stojí tváří v tvář Darthu Vaderovi. Doporučit ji lze především fanouškům Star Wars a hráčům hledajícím kratší, ale vizuálně a atmosféricky silný zážitek vhodný i jako úvod do VR pro nového uživatele headsetu, který se chce potkat se známými postavami z filmové série tváří v tvář a prožít vlastní malý kousek této ságy.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__moss",
+          "name": "Moss",
+          "genre": "Akcni adventura",
+          "length": "S",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2021",
+          "studio": "Polyarc",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Moss** je příběhová adventura, ve které hráč z pozice pozorovatele provází malou myšku jménem Quill příběhem plným hádanek, soubojů a průzkumu, přičemž hráč může prostředí přímo ovlivňovat, přesouvat platformy a pomáhat Quill v souboji proti nepřátelům, zatímco hlavní postavu ovládá klasicky pomocí ovladače. Quill sama o sobě komunikuje s hráčem gesty a pohledy, což vytváří nezvykle osobní pouto mezi hráčem a postavou, a některým hádankám předchází nutnost spolupracovat – hráč drží jednu část mechanismu, zatímco Quill ovládá druhou a společně tak odemykají cestu dál. Svět hry je rozdělen do několika kapitol s odlišným vizuálním laděním, od hlubokých lesů po zřícené ruiny, a každá přidává nové typy hádanek i nepřátel. Hudební doprovod dokresluje pohádkovou atmosféru a spolu s detailně vyřezaným prostředím vytváří dojem, že hráč nahlíží do živé knihy.\n\nTento hybridní přístup – kde hráč je současně obr shlížející na miniaturní svět a zároveň aktivní účastník dění – funguje na Meta Quest headsetu velmi dobře díky přesnému sledování hlavy a rukou bez nutnosti počítače, což umožňuje detailní interakci s prostředím jako přetáčení pák či posouvání mechanismů. Grafický styl je stylizovaný a barevný, takže nárok na výkon headsetu je zvládnutelný bez ztráty plynulosti, a protože se kamera pohybuje převážně staticky nebo pomalu, riziko nevolnosti je velmi nízké, což z ní dělá vhodnou volbu i pro citlivější hráče a pro ty, kdo se teprve seznamují s VR.\n\nDélka příběhu odpovídá kratšímu, ucelenému zážitku na několik hodin, vhodném k dohrání na jedno či dvě posezení. Moss bylo při vydání širokoce chváleno za emotivní příběh, roztomilou hlavní postavu a inovativní způsob, jakým využívá VR perspektivu k vyprávění. Často se uvádí jako jeden z nejlépe napsaných VR titulů a doporučuje se především hráčům hledajícím příběhový, emočně působivý zážitek bez vysokých nároků na akční reflexy či fyzickou aktivitu a s minimálním rizikem nevolnosti.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__i-expect-you-to-die",
+          "name": "I Expect You To Die",
+          "genre": "Logicka adventura",
+          "length": "S",
+          "flags": [
+            "puzzle"
+          ],
+          "year": "2016",
+          "studio": "Schell Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**I Expect You To Die** je logická adventura inspirovaná špionážními filmy, ve které hráč jako tajný agent sedí ve statických kabinách – autech, letadlech, kancelářích – a musí pomocí telekinetických schopností manipulovat s předměty, aby zneškodnil pasti a splnil misi dříve, než ho past zabije. Každá úroveň je uzavřená hádanka s více možnými řešeními, kde hráč experimentuje, umírá a zkouší to znovu, dokud nenajde správný postup, přičemž humorné komentáře při neúspěchu často vyvolají úsměv a motivují hráče zkusit misi znovu jiným způsobem. Každá mise má vlastní téma inspirované klasickými špionážními filmy, od podmořských stanic po vlaková kupé, a hráč často musí řešit více úkolů najednou pod časovým tlakem, což zvyšuje pocit napětí i u znovu opakovaných pokusů. Rozlišení jednotlivých předmětů a jejich funkce vyžaduje pozorné zkoumání okolí, což je častým zdrojem překvapivých řešení.\n\nSezení hry ve statické pozici – hráč sedí na místě během celé mise – z ní dělá jeden z nejpohodlnějších VR titulů vůbec, protože eliminuje pohyb v prostoru jako zdroj nevolnosti, a díky tomu funguje bezvadně i na samostatném Meta Quest headsetu bez počítače. Nízké nároky na výkon dovolují stabilní snímkovou frekvenci i při detailní manipulaci s předměty pomocí ovladačů, která je jádrem celé hry. Jednotlivé úrovně trvají desítky minut až hodinu, takže se hodí jak na krátké, tak delší relace, a celá hra jako celek nabízí několik hodin obsahu bez rizika únavy z pohybu.\n\nHra byla oceňována za důmyslný humor, chytře navržené hádanky a za to, jak dobře demonstruje, že VR nemusí znamenat rychlý pohyb ani akci, aby byla zábavná. Často se doporučuje jako ideální první VR titul právě díky nízkému riziku nevolnosti a přístupným mechanikám vhodným pro úplné začátečníky i pro hráče citlivé na klasickou VR nevolnost, kteří se jiným žánrům raději vyhýbají a hledají spíš klidnější, přemýšlivý zážitek.",
+          "image": "/images/games/quest/quest__i-expect-you-to-die.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__i-expect-you-to-die.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__job-simulator",
+          "name": "Job Simulator",
+          "genre": "Komedialni simulace",
+          "length": "S",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2019",
+          "studio": "Owlchemy Labs",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Job Simulator** je komediální simulace, ve které hráč v budoucnosti ovládané roboty navštěvuje muzeum věnované zaniklé lidské práci a zkouší si na vlastní kůži čtyři povolání – kancelářského pracovníka, kuchaře, mechanika a prodavače – přičemž každá úloha se řeší absurdními a přehnanými interakcemi s předměty, jako je házení sponek nebo vaření pomocí nesprávných ingrediencí. Roboti komentující lidské chování s ironickým humorem dodávají celé hře nezaměnitelný tón a každé povolání obsahuje vlastní sadu vtipných úkolů a náhodných situací k prozkoumání. Prostředí jsou plná interaktivních detailů, se kterými si hráč může hrát i mimo hlavní úkoly, což podporuje volné experimentování, a fyzikální chování předmětů je záměrně přehnané a komické, takže i chyby a nepodařené pokusy působí zábavně, ne frustrujícně.\n\nHra byla jedním z prvních titulů, které ukázaly, jak zábavné může být jednoduché fyzické uchopování a manipulace s předměty ve VR, a na Meta Questu funguje spolehlivě díky nízkým nárokům na výkon a stylizované, barevné grafice, která se dobře hodí k mobilnímu čipu. Hra se hraje vsedě nebo ve stoje na místě, převážně bez pohybu v prostoru, takže riziko nevolnosti je minimální, a jednotlivá povolání lze dokončit v řádu desítek minut, což z ní dělá ideální krátkou relaci pro přátele nebo rodinu, kteří VR teprve zkoušejí poprvé a chtějí se seznámit se základním ovládáním rukou.\n\nJob Simulator se stal jedním z nejčastěji uváděných příkladů toho, jak přístupná a komediální VR hra může být, a dodnes patří mezi tituly doporučované novým uživatelům jako první ukázka možností fyzické interakce ve virtuální realitě. Vhodný je především pro hráče hledající odlehčenou zábavu, sociálně sdílený zážitek a pro ty, kdo VR představují poprvé někomu jinému a chtějí vidět jeho reakci na absurdní situace, které hra přirozeně nabízí bez nutnosti složitých instrukcí či dlouhého tutoriálu.",
+          "image": "/images/games/quest/quest__job-simulator.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__job-simulator.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "quest__eleven-table-tennis",
+          "name": "Eleven Table Tennis",
+          "genre": "Sportovni simulace",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2016",
+          "studio": "For Fun Labs",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Eleven Table Tennis** je realistická simulace stolního tenisu, ve které hráč drží ovladač jako raketu a odpaluje míček s fyzikou, jež se snaží co nejvěrněji přiblížit skutečné hře – včetně rotace míčku, různých typů podání a odrazů od stolu, které reagují na úhel a rychlost úderu přesně jako v reálném sportu. Hra nabízí i trénink proti počítačové protistraně s nastavitelnou obtížností pro ty, kdo se teprve učí základy, a žebříčky hráčů umožňují sledovat vlastní pokrok v čase. K dispozici je také režim spolupráce, kdy dva hráči hrají čtyřhru proti dvěma dalším, což vyžaduje komunikaci a součinnost obou partnerů, a hra podporuje i rozlišení ruky, kterou hráč drží raketu, a nastavení její délky a váhy pro co nejvěrnější pocit ze hry.\n\nNa Meta Questu hra profituje z přesného sledování ovladače bez nutnosti počítače, což umožňuje jemné doladění úderů a rotace, na kterých simulace stojí, a nízké nároky na grafický výkon dovolují stabilní a plynulé prostředí i při rychlých výměnách. Fyzická aktivita je při hraní znatelná, protože hráč skutečně odpaluje míčky pohybem paže podobně jako u reálného stolního tenisu, což z ní dělá oblíbený titul i pro ty, kdo hledají lehkou fyzickou zátěž a chtějí si při hraní i trochu zacvičit, aniž by museli opouštět domov a hledat skutečný stůl.\n\nNevolnost prakticky nehrozí, protože hráč stojí na místě a nedochází k umělému pohybu kamery, a relace může trvat od několika minut po delší zápasy podle chuti hráče. Hra získala pověst jedné z nejlépe zpracovaných sportovních VR simulací díky preciznosti fyziky a online multiplayeru, který umožňuje hrát proti hráčům z celého světa. Doporučuje se především fanouškům stolního tenisu a hráčům, kteří chtějí ve VR zažít sportovní napětí bez rizika nevolnosti a s minimálními nároky na volný prostor kolem hráče.",
+          "image": "/images/games/quest/quest__eleven-table-tennis.webp",
+          "gallery": [
+            {
+              "src": "/images/games/quest/quest__eleven-table-tennis.webp",
               "label": "Obal",
               "kind": "box"
             }
@@ -121037,11 +121329,11 @@
   ],
   "stats": {
     "platforms": 74,
-    "games": 3746,
+    "games": 3758,
     "withDetail": 476,
     "withTeaser": 3399,
-    "withArticle": 3742,
+    "withArticle": 3754,
     "platformImages": 74,
-    "gameImages": 3274
+    "gameImages": 3281
   }
 }

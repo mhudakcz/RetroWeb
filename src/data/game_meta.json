@@ -8587,6 +8587,10 @@
     "studio": "EPOS Game Studios",
     "year": "2017"
   },
+  "quest__asgard-s-wrath-2": {
+    "studio": "Sanzaru Games",
+    "year": "2023"
+  },
   "quest__assassin-s-creed-nexus-vr": {
     "studio": "Ubisoft Red Storm",
     "year": "2023"
@@ -8598,6 +8602,10 @@
   "quest__beat-saber": {
     "studio": "Beat Games",
     "year": "2019"
+  },
+  "quest__blade-and-sorcery-nomad": {
+    "studio": "WarpFrog",
+    "year": "2021"
   },
   "quest__bonelab": {
     "studio": "Stress Level Zero",
@@ -8615,6 +8623,10 @@
     "studio": "Resolution Games",
     "year": "2021"
   },
+  "quest__eleven-table-tennis": {
+    "studio": "For Fun Labs",
+    "year": "2016"
+  },
   "quest__ghosts-of-tabor": {
     "studio": "Combat Waffle Studios",
     "year": "2022"
@@ -8623,13 +8635,33 @@
     "studio": "Free Lives",
     "year": "2020"
   },
+  "quest__i-expect-you-to-die": {
+    "studio": "Schell Games",
+    "year": "2016"
+  },
   "quest__in-death-unchained": {
     "studio": "Superbright",
     "year": "2020"
   },
+  "quest__job-simulator": {
+    "studio": "Owlchemy Labs",
+    "year": "2019"
+  },
+  "quest__moss": {
+    "studio": "Polyarc",
+    "year": "2021"
+  },
   "quest__onward": {
     "studio": "Downpour Interactive",
     "year": "2019"
+  },
+  "quest__pistol-whip": {
+    "studio": "Cloudhead Games",
+    "year": "2019"
+  },
+  "quest__population-one": {
+    "studio": "BigBox VR",
+    "year": "2020"
   },
   "quest__puzzling-places": {
     "studio": "PortalOne",
@@ -8643,6 +8675,10 @@
     "studio": "Vertical Robot",
     "year": "2022"
   },
+  "quest__resident-evil-4": {
+    "studio": "Armature Studio / Capcom",
+    "year": "2021"
+  },
   "quest__superhot-vr": {
     "studio": "SUPERHOT Team",
     "year": "2017"
@@ -8653,6 +8689,18 @@
   },
   "quest__until-you-fall": {
     "studio": "Schell Games",
+    "year": "2020"
+  },
+  "quest__vader-immortal-star-wars-vr-series": {
+    "studio": "ILMxLAB",
+    "year": "2019"
+  },
+  "quest__walkabout-mini-golf": {
+    "studio": "Mighty Coconut",
+    "year": "2019"
+  },
+  "quest__walking-dead-saints-and-sinners": {
+    "studio": "Skydance Interactive",
     "year": "2020"
   },
   "saturn__albert-odyssey-legend-of-eldean": {

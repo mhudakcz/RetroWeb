@@ -25,7 +25,13 @@ I18N = ROOT / "src" / "data" / "i18n"
 
 
 def have(typ):
-    """slug -> set jazyků, ve kterých už je přeložený"""
+    """(slug, pole) -> set jazyků, ve kterých už to pole přeložené je.
+
+    Nestačí sledovat samotný slug. Hra může mít přeložený článek a zároveň
+    postrádat úvodní větu — dřív se v takovém případě považovala za hotovou
+    a věta se do fronty nikdy nedostala, takže 91 % cizojazyčných stránek
+    mělo českou větu i po „dokončeném“ překladu.
+    """
     got = {}
     for loc in LOCALES:
         f = I18N / loc / f"{typ}.json"
@@ -35,16 +41,35 @@ def have(typ):
             d = json.loads(f.read_text("utf-8"))
         except Exception:
             continue
-        for slug in d:
-            got.setdefault(slug, set()).add(loc)
+        for slug, val in d.items():
+            fields = val.keys() if isinstance(val, dict) else ("_",)
+            for fld in fields:
+                if isinstance(val, dict) and not (val.get(fld) or "").strip():
+                    continue
+                got.setdefault((slug, fld), set()).add(loc)
     return got
 
 
 def gap(typ, src):
-    """nech jen slugy, kterým chybí aspoň jeden jazyk (nebo jsou označené jako stale)"""
+    """Nech jen to, co aspoň v jednom jazyce chybí.
+
+    U položek, které jsou slovníkem polí, se do výstupu dávají POUZE pole,
+    která opravdu chybí — agent tak nepřekládá znovu to, co už hotové je.
+    """
     got = have(typ)
-    return {s: v for s, v in src.items()
-            if s in STALE or got.get(s, set()) < set(LOCALES)}
+    out = {}
+    for slug, val in src.items():
+        if not isinstance(val, dict):
+            if slug in STALE or got.get((slug, "_"), set()) < set(LOCALES):
+                out[slug] = val
+            continue
+        missing = {
+            fld: v for fld, v in val.items()
+            if slug in STALE or got.get((slug, fld), set()) < set(LOCALES)
+        }
+        if missing:
+            out[slug] = missing
+    return out
 
 
 d = json.loads((ROOT / "src/data/dataset.json").read_text("utf-8"))

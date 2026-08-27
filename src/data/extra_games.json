@@ -19707,6 +19707,100 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "Resident Evil 4",
+   "genre": "Akcni horor",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Asgard's Wrath 2",
+   "genre": "Akcni RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Walkabout Mini Golf",
+   "genre": "Sportovni hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Walking Dead: Saints & Sinners",
+   "genre": "Akcni prezivani",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Population: One",
+   "genre": "Battle royale strelecka hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pistol Whip",
+   "genre": "Rytmicka strelecka hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Blade & Sorcery: Nomad",
+   "genre": "Akcni soubojova hra",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Vader Immortal: A Star Wars VR Series",
+   "genre": "Akcni adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Moss",
+   "genre": "Akcni adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "I Expect You To Die",
+   "genre": "Logicka adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Job Simulator",
+   "genre": "Komedialni simulace",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Eleven Table Tennis",
+   "genre": "Sportovni simulace",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
   }
  ]
 }
