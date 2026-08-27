@@ -10657,6 +10657,71 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Slay the Spire",
+   "genre": "Deckbuilder / Roguelike",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Balatro",
+   "genre": "Karetní hra / Deckbuilder",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Inscryption",
+   "genre": "Karetní hra / Horor",
+   "length": "M",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Monster Train",
+   "genre": "Deckbuilder / Roguelike",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Vampire Survivors",
+   "genre": "Akční roguelike",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cult of the Lamb",
+   "genre": "Akční roguelike / Simulace",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Baba Is You",
+   "genre": "Logická hra / Puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Return of the Obra Dinn",
+   "genre": "Adventura / Detektivní puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
   }
  ],
  "ps-vita": [
@@ -15540,6 +15605,180 @@
    "genre": "Battle royale / Akcni strilecka",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Hearthstone",
+   "genre": "Digitální sběratelská karetní hra",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Magic: The Gathering Arena",
+   "genre": "Digitální sběratelská karetní hra",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Magic: The Gathering — Duels of the Planeswalkers",
+   "genre": "Digitální sběratelská karetní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Slay the Spire",
+   "genre": "Roguelike deckbuilder",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Inscryption",
+   "genre": "Karetní horor / adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Balatro",
+   "genre": "Roguelike deckbuilder",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Monster Train",
+   "genre": "Roguelike deckbuilder",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gwent: The Witcher Card Game",
+   "genre": "Digitální sběratelská karetní hra",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Thronebreaker: The Witcher Tales",
+   "genre": "RPG s karetními souboji",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Legends of Runeterra",
+   "genre": "Digitální sběratelská karetní hra",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Yu-Gi-Oh! Master Duel",
+   "genre": "Digitální sběratelská karetní hra",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Papers, Please",
+   "genre": "Simulace / puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Return of the Obra Dinn",
+   "genre": "Detektivní adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle",
+    "mature"
+   ]
+  },
+  {
+   "name": "Outer Wilds",
+   "genre": "Průzkumná adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Baba Is You",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "FTL: Faster Than Light",
+   "genre": "Tahová strategie / roguelike",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Darkest Dungeon",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "A Short Hike",
+   "genre": "Průzkumná adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "ANIMAL WELL",
+   "genre": "Metroidvania / puzzle plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Pizza Tower",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Vampire Survivors",
+   "genre": "Akční roguelite",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cult of the Lamb",
+   "genre": "Akční roguelite / správa osady",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "3do": [
@@ -16867,6 +17106,45 @@
    "flags": [
     "mustplay",
     "mature"
+   ]
+  },
+  {
+   "name": "Balatro",
+   "genre": "Karetní roguelike",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Inscryption",
+   "genre": "Karetní horor / roguelike deckbuilder",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "Vampire Survivors",
+   "genre": "Akční roguelite (bullet heaven)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cult of the Lamb",
+   "genre": "Akční roguelike / life sim",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Slay the Spire",
+   "genre": "Karetní roguelike (deckbuilder)",
+   "length": "M",
+   "flags": [
+    "mustplay"
    ]
   }
  ],

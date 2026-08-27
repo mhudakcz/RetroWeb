@@ -5113,6 +5113,10 @@
     "studio": "Frictional Games",
     "year": "2010"
   },
+  "pc-modern__animal-well": {
+    "studio": "Billy Basso",
+    "year": "2024"
+  },
   "pc-modern__anno-1800": {
     "studio": "Blue Byte",
     "year": "2019"
@@ -5144,6 +5148,14 @@
   "pc-modern__attentat-1942": {
     "studio": "Charles Games",
     "year": "2017"
+  },
+  "pc-modern__baba-is-you": {
+    "studio": "Hempuli Oy (Arvi Teikari)",
+    "year": "2019"
+  },
+  "pc-modern__balatro": {
+    "studio": "LocalThunk",
+    "year": "2024"
   },
   "pc-modern__baldur-s-gate-3": {
     "studio": "Larian Studios",
@@ -5301,6 +5313,10 @@
     "studio": "Crytek",
     "year": "2007"
   },
+  "pc-modern__cult-of-lamb": {
+    "studio": "Massive Monster",
+    "year": "2022"
+  },
   "pc-modern__cuphead": {
     "studio": "Studio MDHR",
     "year": "2017"
@@ -5316,6 +5332,10 @@
   "pc-modern__dark-souls-prepare-to-die-edition": {
     "studio": "FromSoftware",
     "year": "2012"
+  },
+  "pc-modern__darkest-dungeon": {
+    "studio": "Red Hook Studios",
+    "year": "2016"
   },
   "pc-modern__dayz": {
     "studio": "Bohemia Interactive",
@@ -5489,6 +5509,10 @@
     "studio": "11 bit studios",
     "year": "2018"
   },
+  "pc-modern__ftl-faster-than-light": {
+    "studio": "Subset Games",
+    "year": "2012"
+  },
   "pc-modern__gears-5": {
     "studio": "The Coalition",
     "year": "2019"
@@ -5533,6 +5557,10 @@
     "studio": "ArenaNet",
     "year": "2012"
   },
+  "pc-modern__gwent-witcher-card-game": {
+    "studio": "CD Projekt Red",
+    "year": "2018"
+  },
   "pc-modern__half-life-2": {
     "studio": "Valve",
     "year": "2004"
@@ -5548,6 +5576,10 @@
   "pc-modern__happy-game": {
     "studio": "Amanita Design",
     "year": "2021"
+  },
+  "pc-modern__hearthstone": {
+    "studio": "Blizzard Entertainment",
+    "year": "2014"
   },
   "pc-modern__hidden-and-dangerous-2": {
     "studio": "Illusion Softworks",
@@ -5605,6 +5637,10 @@
     "studio": "1C:Maddox Games",
     "year": "2003"
   },
+  "pc-modern__inscryption": {
+    "studio": "Daniel Mullins Games",
+    "year": "2021"
+  },
   "pc-modern__inside": {
     "studio": "Playdead",
     "year": "2016"
@@ -5629,6 +5665,10 @@
     "studio": "Valve",
     "year": "2009"
   },
+  "pc-modern__legends-of-runeterra": {
+    "studio": "Riot Games",
+    "year": "2020"
+  },
   "pc-modern__lock-on-modern-air-combat": {
     "studio": "Eagle Dynamics",
     "year": "2003"
@@ -5644,6 +5684,14 @@
   "pc-modern__mafia-ii": {
     "studio": "2K Czech",
     "year": "2010"
+  },
+  "pc-modern__magic-gathering-arena": {
+    "studio": "Wizards of the Coast Digital",
+    "year": "2019"
+  },
+  "pc-modern__magic-gathering-duels-of-planeswalkers": {
+    "studio": "Stainless Games",
+    "year": "2009"
   },
   "pc-modern__mashinky": {
     "studio": "Jan Zelený",
@@ -5705,6 +5753,10 @@
     "studio": "Microsoft Game Studios",
     "year": "2006"
   },
+  "pc-modern__monster-train": {
+    "studio": "Shiny Shoe",
+    "year": "2020"
+  },
   "pc-modern__naval-action": {
     "studio": "Game Labs",
     "year": "2018"
@@ -5761,8 +5813,16 @@
     "studio": "Moon Studios",
     "year": "2020"
   },
+  "pc-modern__outer-wilds": {
+    "studio": "Mobius Digital",
+    "year": "2019"
+  },
   "pc-modern__outlast": {
     "studio": "Red Barrels",
+    "year": "2013"
+  },
+  "pc-modern__papers-please": {
+    "studio": "Lucas Pope",
     "year": "2013"
   },
   "pc-modern__pilgrims": {
@@ -5776,6 +5836,10 @@
   "pc-modern__pillars-of-eternity-ii-deadfire": {
     "studio": "Obsidian Entertainment",
     "year": "2018"
+  },
+  "pc-modern__pizza-tower": {
+    "studio": "Tour De Pizza",
+    "year": "2023"
   },
   "pc-modern__polda-4": {
     "studio": "Zima Software",
@@ -5796,6 +5860,10 @@
   "pc-modern__portal-2": {
     "studio": "Valve",
     "year": "2011"
+  },
+  "pc-modern__return-of-obra-dinn": {
+    "studio": "Lucas Pope",
+    "year": "2018"
   },
   "pc-modern__rimworld": {
     "studio": "Ludeon Studios",
@@ -5829,6 +5897,10 @@
     "studio": "VSTEP",
     "year": "2010"
   },
+  "pc-modern__short-hike": {
+    "studio": "Adam Robinson-Yu",
+    "year": "2019"
+  },
   "pc-modern__shovel-knight": {
     "studio": "Yacht Club Games",
     "year": "2014"
@@ -5844,6 +5916,10 @@
   "pc-modern__silent-hunter-iii": {
     "studio": "Ubisoft Romania",
     "year": "2005"
+  },
+  "pc-modern__slay-spire": {
+    "studio": "Mega Crit Games",
+    "year": "2019"
   },
   "pc-modern__someday-you-ll-return": {
     "studio": "CBE Software",
@@ -5893,6 +5969,10 @@
     "studio": "Re-Logic",
     "year": "2011"
   },
+  "pc-modern__thronebreaker-witcher-tales": {
+    "studio": "CD Projekt Red",
+    "year": "2018"
+  },
   "pc-modern__titanfall-2": {
     "studio": "Respawn Entertainment",
     "year": "2016"
@@ -5940,6 +6020,10 @@
   "pc-modern__vampire-masquerade-bloodlines": {
     "studio": "Troika Games",
     "year": "2004"
+  },
+  "pc-modern__vampire-survivors": {
+    "studio": "poncle",
+    "year": "2022"
   },
   "pc-modern__vaporum": {
     "studio": "Fatbot Games",
@@ -6008,6 +6092,10 @@
   "pc-modern__ylands": {
     "studio": "Bohemia Interactive",
     "year": "2019"
+  },
+  "pc-modern__yu-gi-oh-master-duel": {
+    "studio": "Konami",
+    "year": "2022"
   },
   "pc-vr__arizona-sunshine": {
     "studio": "Vertigo Games",
@@ -8079,6 +8167,10 @@
     "studio": "Team Asobi",
     "year": "2024"
   },
+  "ps5__balatro": {
+    "studio": "LocalThunk",
+    "year": "2024"
+  },
   "ps5__baldur-s-gate-3": {
     "studio": "Larian Studios",
     "year": "2023"
@@ -8094,6 +8186,10 @@
   "ps5__crew-motorfest": {
     "studio": "Ivory Tower",
     "year": "2023"
+  },
+  "ps5__cult-of-lamb": {
+    "studio": "Massive Monster",
+    "year": "2022"
   },
   "ps5__cyberpunk-2077": {
     "studio": "CD Projekt RED",
@@ -8199,6 +8295,10 @@
     "studio": "Milestone",
     "year": "2021"
   },
+  "ps5__inscryption": {
+    "studio": "Daniel Mullins Games",
+    "year": "2024"
+  },
   "ps5__kena-bridge-of-spirits": {
     "studio": "Ember Lab",
     "year": "2021"
@@ -8279,6 +8379,10 @@
     "studio": "Bloober Team",
     "year": "2024"
   },
+  "ps5__slay-spire": {
+    "studio": "Mega Crit",
+    "year": "2023"
+  },
   "ps5__stellar-blade": {
     "studio": "Shift Up",
     "year": "2024"
@@ -8294,6 +8398,10 @@
   "ps5__tony-hawk-s-pro-skater-1-2": {
     "studio": "Vicarious Visions",
     "year": "2021"
+  },
+  "ps5__vampire-survivors": {
+    "studio": "poncle",
+    "year": "2024"
   },
   "ps5__warhammer-40-000-space-marine-2": {
     "studio": "Saber Interactive",
@@ -9229,6 +9337,14 @@
     "studio": "Thomas Happ Games",
     "year": "2017"
   },
+  "switch__baba-is-you": {
+    "studio": "Hempuli",
+    "year": "2019"
+  },
+  "switch__balatro": {
+    "studio": "LocalThunk",
+    "year": "2024"
+  },
   "switch__bayonetta-2": {
     "studio": "PlatinumGames",
     "year": "2018"
@@ -9264,6 +9380,10 @@
   "switch__crash-team-racing-nitro-fueled": {
     "studio": "Beenox",
     "year": "2019"
+  },
+  "switch__cult-of-lamb": {
+    "studio": "Massive Monster",
+    "year": "2022"
   },
   "switch__cuphead": {
     "studio": "StudioMDHR",
@@ -9344,6 +9464,10 @@
   "switch__hyrule-warriors-age-of-calamity": {
     "studio": "Omega Force",
     "year": "2020"
+  },
+  "switch__inscryption": {
+    "studio": "Daniel Mullins Games",
+    "year": "2022"
   },
   "switch__into-breach": {
     "studio": "Subset Games",
@@ -9441,6 +9565,10 @@
     "studio": "Capcom",
     "year": "2021"
   },
+  "switch__monster-train": {
+    "studio": "Shiny Shoe",
+    "year": "2021"
+  },
   "switch__new-super-mario-bros-u-deluxe": {
     "studio": "Nintendo EAD",
     "year": "2012"
@@ -9509,6 +9637,10 @@
     "studio": "Ubisoft Montpellier",
     "year": "2017"
   },
+  "switch__return-of-obra-dinn": {
+    "studio": "Lucas Pope",
+    "year": "2023"
+  },
   "switch__ring-fit-adventure": {
     "studio": "Nintendo EPD",
     "year": "2019"
@@ -9528,6 +9660,10 @@
   "switch__shovel-knight-treasure-trove": {
     "studio": "Yacht Club Games",
     "year": "2017"
+  },
+  "switch__slay-spire": {
+    "studio": "MegaCrit",
+    "year": "2020"
   },
   "switch__sonic-mania": {
     "studio": "Christian Whitehead, Headcannon, PagodaWest Games",
@@ -9624,6 +9760,10 @@
   "switch__valkyria-chronicles-4": {
     "studio": "Sega",
     "year": "2018"
+  },
+  "switch__vampire-survivors": {
+    "studio": "poncle",
+    "year": "2022"
   },
   "switch__warioware-get-it-together": {
     "studio": "Intelligent Systems",
