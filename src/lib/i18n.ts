@@ -72,6 +72,7 @@ const UI: Dict = {
   'nav.openMenu': { cs: 'Otevřít menu', en: 'Open menu', de: 'Menü öffnen', fr: 'Ouvrir le menu' },
   'nav.closeMenu': { cs: 'Zavřít menu', en: 'Close menu', de: 'Menü schließen', fr: 'Fermer le menu' },
   'nav.language': { cs: 'Jazyk', en: 'Language', de: 'Sprache', fr: 'Langue' },
+  'series.jump': { cs: 'Přejít na písmeno', en: 'Jump to letter', de: 'Zum Buchstaben', fr: 'Aller à la lettre' },
   'shot.box': { cs: 'Obal', en: 'Box art', de: 'Verpackung', fr: 'Jaquette' },
   'shot.snap': { cs: 'Ze hry', en: 'In-game', de: 'Aus dem Spiel', fr: 'En jeu' },
   'shot.title': { cs: 'Titulní obrazovka', en: 'Title screen', de: 'Titelbildschirm', fr: 'Écran-titre' },

@@ -31600,8 +31600,14 @@
           "teaser": "Svět celý z papíru, který mluví k hráči přes fotoaparát Vity. Originalita Media Molecule.",
           "detail": null,
           "article": "**Tearaway** je hra, která se ani na okamžik nesnaží předstírat, že běží na jiném zařízení, než na jakém skutečně běží. Celý její svět je vyroben z papíru a hráč do něj nevstupuje jako neviditelná kamera, ale jako doslova přítomná postava: v nebi papírového světa je díra a v ní se objeví vaše tvář nasnímaná předním fotoaparátem Vity. Poslíček Iota, případně jeho protějšek Atoi, nese vzkaz určený právě vám a cesta k jeho doručení vede přes lesy, hory i podivná města slepená z kartonu, lepenky a barevného papíru.\n\nMedia Molecule postavilo hratelnost na tom, že hráč sahá do světa zvenčí. Prsty se protlačí zadním dotykovým panelem a v úrovni se objeví jako obří ukazováky, jimiž lze odhrnout překážku nebo vystřelit nepřítele do vzduchu. Bubny se rozeznívají klepnutím, papírové předměty se vystřihují prstem přímo po nakreslené lince a vlastní kresby i fotografie se pak objevují na postavách a v prostředí. Plošinovková část je záměrně mírná a přístupná, důraz leží na objevování a na tom, co do světa přinese sám hráč. Postupně přibývají tvůrčí zadání: obyvatelé si žádají korunu, veverčí kožich nebo motýla, hráč je vystřihne z barevného papíru přímo na dotykové obrazovce a výtvor pak zůstane v úrovni a nese jeho vlastní rukopis.\n\nVýtvarně jde o jeden z nejcharakterističtějších titulů celé generace — všechno má viditelné záhyby, přehyby a vlákna papíru, stíny padají jako na modelu na stole a hudba s folkovými nástroji a broukanými melodiemi to celé drží pohromadě. Dobově byla hra přijata výborně a bývala uváděna jako nejlepší argument, proč si Vitu pořídit, jen se jí vyčítala krátkost. Později vznikla rozšířená verze pro PlayStation 4, ale právě ta původní dává největší smysl: bez dotykových panelů, kamery a mikrofonu Vity by polovina jejích nápadů nemohla vůbec existovat. Dnes působí jako malý osobní dárek, ne jako technologické demo, a to je vzácné.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/ps-vita/ps-vita__tearaway.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/ps-vita/ps-vita__tearaway.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -31619,8 +31625,14 @@
           "teaser": "Sackboyho plošinovka z látky a kartonu, přenesená na handheld, kde sedí možná ještě lépe.",
           "detail": null,
           "article": "**LittleBigPlanet PS Vita** vzalo sérii o šitém panáčkovi Sackboyovi a přeneslo ji na hardware, který jí kupodivu sedí ještě lépe než domácí konzole. Základ zůstal beze změny — plošinovka ve dvou a půl rozměrech, kde se běhá, skáče a chytá se předmětů v prostředí slepeném z látky, kartonu, zipů a knoflíků. Kampaň provází barevnou cestou plnou pastí, vozíků a rozmarných strojů a jako vždy nabízí i sbírání materiálů a nálepek, které se pak dají použít při vlastní tvorbě úrovní. Vedle hlavní kampaně je tu i sada rychlých arkádových miniher navržených přímo pro dotykové ovládání, které se hodí na pár minut v tramvaji.\n\nNovinkou je práce s dotykem. Přední panel slouží k tahání a mačkání gumových bloků, zadní k protlačování plošin dopředu, a některé úrovně jsou postavené celé kolem toho, že hráč do světa zasahuje prsty místo Sackboyem. Tarsier Studios a Double Eleven se přitom nespokojily s pouhým převodem: editor úrovní je tu kompletní a díky dotykové obrazovce se v něm kreslí a rozmisťují objekty výrazně příjemněji než gamepadem. Vznikla tak celá řada komunitních minihier, které s klasickou plošinovkou neměly společného vůbec nic a využívaly hardware Vity po svém. Editor přitom zvládá i logické obvody a vlastní zvuky, takže hranice mezi hraním a tvorbou je tu tenčí než jinde.\n\nTechnicky si hra držela čistý vzhled a plynulost, byť s menším počtem objektů na scéně než na PlayStation 3. Zvuk a hudba zůstaly v duchu série — směs cirkusových, world music a elektronických motivů, které se vrství podle toho, kudy hráč zrovna prochází. Dobové přijetí bylo velmi dobré a titul se často označoval za nejlepší díl série po druhém pokračování. Dnes je jeho hodnota rozporná: samotná kampaň funguje výborně a stále baví, ale online sdílení uživatelských úrovní už v posledních letech skončilo, takže největší přednost celé značky je hůř dostupná, než bývala.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/ps-vita/ps-vita__littlebigplanet-ps-vita.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/ps-vita/ps-vita__littlebigplanet-ps-vita.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -32765,8 +32777,14 @@
           "teaser": "Hudební puzzle, kde skladba roste s každým smazaným barevným čtvercem.",
           "detail": null,
           "article": "**Lumines: Electronic Symphony** vyšel spolu se startem PlayStation Vita a rychle se stal tím titulem, kterým se konzole předváděla. Princip je jednoduchý a návykový zároveň: shora padají čtvercové bloky složené ze dvou barev, hráč je otáčí a skládá tak, aby vznikly jednobarevné čtverce o velikosti dva krát dva. Ty pak smete časová linka, která přejíždí hrací plochu zleva doprava v rytmu právě hrající skladby. Čím lépe hráč načasuje velké shluky, tím větší řetěz se při jednom průchodu smaže.\n\nZ toho vzniká hra, která se hraje spíš jako hudební nástroj než jako klasická skládačka. Každé pole má vlastní skladbu, vlastní barevné schéma i vlastní rychlost linky, a s přechodem na další úroveň se změní všechno najednou, takže hráč musí neustále přeučovat oči i ruce. Přibyly speciální bloky, systém avatarů s drobnými schopnostmi a ukazatel zkušeností, který odemyká další obsah, takže hra nabízí důvod se vracet i po zvládnutí základního režimu. Vedle nekonečné jízdy jsou k dispozici i časové a soubojové varianty. Přestupy mezi poli navíc probíhají plynule, bez přerušení hry, takže jedno sezení dokáže trvat i desítky minut a pořád působí jako jediná dlouhá skladba.\n\nSoundtrack je hlavní hvězdou. Elektronická hudba tvoří páteř zážitku a každý dotek bloku vydá zvuk, který do skladby zapadne, takže i běžné hraní zní jako improvizace. Vizuál doprovází pozadí reagující na dění na ploše, díky čemuž i prosté skládání kostek působí jako hudební klip. Na Vitě se hra ovládá tlačítky i dotykem a ostrý displej s výraznými barvami sedí abstraktnímu vizuálnímu stylu dokonale. Recenzenti titul přijali velmi dobře a řada z nich ho označila za nejlepší důvod, proč si konzoli pořídit hned na začátku. Dnes jde stále o jednu z nejlépe padnoucích kapesních her vůbec, protože kombinuje krátká sezení s pocitem, že hráč hudbu netvoří náhodou.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/ps-vita/ps-vita__lumines-electronic-symphony.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/ps-vita/ps-vita__lumines-electronic-symphony.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -33245,8 +33263,14 @@
           "teaser": "Plošinovka, kde sbírané noty rovnou skládají hranou skladbu úrovně.",
           "detail": null,
           "article": "**Sound Shapes** je plošinovka, ve které hráč nesbírá mince, ale noty, a každá sebraná nota se okamžitě stane součástí skladby, jež v úrovni hraje. Postupem levelu se tak hudba vrství a roste, z jednoduchého rytmu se stává plnohodnotná píseň a hráč má pocit, že ji svým pohybem sám skládá. Ovládaná postava je prostá koule, která se dokáže přilepit na některé povrchy a odlepit se od nich, což z pohybu dělá otázku načasování ve chvíli, kdy se plošiny pohybují v rytmu skladby.\n\nKampaň je rozdělena na alba, z nichž každé má vlastní výtvarníka a vlastního hudebníka, takže se výrazně liší nejen zvukem, ale i vizuálním stylem. Jedno album působí jako abstraktní grafika, jiné jako průmyslová krajina, další jako pochmurné město. Na tvorbě se podíleli známí hudebníci a výtvarníci, což hře dodalo pověst projektu na pomezí hry a hudebního alba. Vedle kampaně nabízí titul plnohodnotný editor, kde si hráč postaví vlastní úroveň i skladbu zároveň, protože rozmístění not přímo určuje melodii. Přidány jsou i režimy zaměřené na rychlost a přežití, které stejný materiál používají výrazně dravěji.\n\nVita verze vyšla souběžně s vydáním pro PlayStation 3 a nabízela sdílený postup mezi oběma přístroji, což byla v roce 2012 lákavá novinka. Dotykový displej editor výrazně zpříjemňuje a přenosná forma sedí hře, jejíž jednotlivé úrovně trvají několik minut. Kritika titul přijala velmi dobře a oceňovala hlavně to, jak přirozeně propojil hraní se skládáním hudby, aniž by z toho udělal rytmickou hru v běžném slova smyslu. Dodnes patří Sound Shapes k nejoriginálnějším věcem, jaké na Vitě vyšly, a zůstává jedním z nejlepších příkladů hry, kterou je stejně důležité poslouchat jako hrát. Se sluchátky na uších se z něj stává zážitek, jaký na kapesní konzoli nemá mnoho obdob, a i po letech dokáže překvapit tím, jak samozřejmě propojuje pohyb, obraz a zvuk do jednoho celku.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/ps-vita/ps-vita__sound-shapes.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/ps-vita/ps-vita__sound-shapes.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -105875,8 +105899,14 @@
           "teaser": "Turnajová podívaná s Capture the Flag, Domination i Assault místo pouhého deathmatche.",
           "detail": null,
           "article": "**Unreal Tournament** vzal svět prvního Unrealu a proměnil ho v podívanou pro davy, ve které se hráč probojovává turnajem od podřadných zápasů až po souboj s šampionem. Na rozdíl od konkurence nesázel jen na klasický deathmatch: nabídl Capture the Flag, Domination, Assault s postupným plněním úkolů na vojenských mapách i týmové režimy, takže z jedné hry vznikl celý balík odlišných zážitků. Zbraně jsou navržené tak, že každá má dva režimy palby a vlastní taktiku, od odražených nábojů shock rifle přes kombo s jádrem plazmy až po biopušku, která zaplevelí chodbu lepkavými kapkami. Souboje jsou pomalejší a čitelnější než v Quaku, o to víc záleží na kontrole prostoru.\n\nPo technické stránce stavěl na Unreal Engine, který uměl bohatě texturované prostředí, prosvícené barevné světlo a působivé efekty na dobovém hardwaru, včetně podpory pro tehdejší 3D akcelerátory. Mapy jsou pestré, od kosmických stanic přes zaprášené pevnosti až po ikonickou Facing Worlds se dvěma věžemi na asteroidu, kterou zná i člověk, co UT nikdy nehrál. Hudba běží na trackerových skladbách, které se mění podle tempa boje, a hlas komentátora s hláškami o zásahových sériích se stal součástí kultury žánru. Boti s nastavitelnou obtížností byli tak dobří, že hra fungovala plnohodnotně i bez připojení k internetu.\n\nDobově sklidil Unreal Tournament nadšené přijetí a v mnoha anketách porazil i Quake III Arena, zejména díky rozmanitosti režimů a přístupnosti pro nováčky. Podpora mutátorů a otevřenost pro tvorbu map z něj udělaly oblíbenou půdu pro modding, který žil ještě dlouho po vydání pokračování. Dnes je to jedna z nejzábavnějších stříleček té éry k rychlému zapnutí, hlavně proto, že s boty nabídne kompletní zážitek okamžitě. Ovládání a rychlost jsou dodnes příjemné, jen rozhraní a menu prozradí, že jde o hru z konce devadesátých let.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__unreal-tournament.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__unreal-tournament.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -105934,8 +105964,14 @@
           "teaser": "Střílečka s RPG prvky na vraždící vesmírné lodi; vodítkem jsou jen záznamy mrtvých.",
           "detail": null,
           "article": "**System Shock 2** začíná probuzením na hvězdné lodi, kde je něco strašlivě špatně. Posádka je mrtvá nebo proměněná, po chodbách bloudí infikovaní lidé, kteří se za své činy omlouvají, a jediným vodítkem jsou audiozáznamy zanechané těmi, co nepřežili. Hra kombinuje střílečku z pohledu první osoby s rolovými prvky: hráč si vybírá vojenskou minulost, rozděluje kybernetické moduly do dovedností, hackuje zámky a bezpečnostní systémy, opravuje techniku nebo rozvíjí psionické schopnosti. Munice je vzácná, zbraně se opotřebovávají a zasekávají, takže i obyčejný souboj je rozhodnutí, jestli se do něj vůbec pouštět, nebo raději proběhnout kolem.\n\nPrávě tenhle nedostatek dělá z lodi děsivé místo. Zvuk je hlavní nástroj hry, protože kroky za přepážkou a vzdálené sténání slyšíte dřív, než uvidíte nepřítele, a rádiové hlasy vás vedou k dalšímu cíli, aniž byste tušili, komu vlastně věříte. Příběhový obrat v polovině hry patří k nejlépe provedeným v žánru a postava umělé inteligence, která se do dění vloží, se stala ikonou herního psaní. Technicky stavěl titul na enginu s propracovanou simulací předmětů a inventáře, běžel na běžných počítačích konce dekády a nabízel i kooperativní hru, byť s dobovými omezeními.\n\nProdeje zdaleka nedosáhly kvalit hry a System Shock 2 byl dlouho známý spíš jako legenda předávaná mezi hráči než jako hit. Jeho vliv je ale těžko přehlédnutelný: propojení simulace prostředí, rolového rozvoje a vyprávění skrz nalezené záznamy se stalo základem celého proudu her, ke kterému se hlásí pozdější sci-fi hororové akce i imerzivní simulace. Dnes potřebuje trochu trpělivosti kvůli tuhé ekonomice zdrojů a strohému rozhraní, ale atmosféra funguje dál a moderní vydání i komunitní úpravy usnadňují rozjezd. Pro fanoušky napínavého sci-fi zůstává povinnou zastávkou.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__system-shock-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__system-shock-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -106196,8 +106232,14 @@
           "teaser": "Džungle plná dinosaurů a mimozemské techniky; nepřátelé vybíhají znenadání z husté mlhy.",
           "detail": null,
           "article": "**Turok: Dinosaur Hunter** přinesl na PC džungli plnou dinosaurů, mimozemské technologie a nepřátel, kteří na hráče vybíhají z husté mlhy. Hráč se ujímá indiánského válečníka střežícího hranici mezi světy a proráží si cestu Ztraceným světem, ve kterém se pravěká zvířata potkávají s ozbrojenými vojáky a kyborgy. Struktura je epizodická: každá úroveň je rozlehlá spleť plošin, jeskyní, chrámů a řek, ve které hráč sbírá klíče, hledá tajemství a shromažďuje části mocného artefaktu potřebného pro finální souboj. Vedle střelby se hodně skáče a šplhá, což tehdy nebylo v žánru běžné.\n\nVýzbroj patří k tomu nejlepšímu, co hra nabízí, protože kombinuje luk s tichými výstřely, klasické pistole a brokovnice i těžkou sci-fi techniku, která protivníky doslova rozmetá. Souboje s dinosaury působí jinak než přestřelky s lidmi, protože zvířata útočí zblízka, rychle a v houfech. Verze pro PC využívala hardwarovou akceleraci a nabídla vyšší rozlišení a čistší obraz, než jaký hráči znali z konzole, hustá mlha kolem hráče ale zůstala poznávacím znamením i tady, protože maskovala dohlednost a zároveň dodávala prostředí tíseň. Zvuk pracuje se vzdáleným řevem, bubny a šuměním džungle a atmosféru drží velmi dobře.\n\nPůvodní konzolová verze byla dobově velkým úspěchem a značka na sebe navázala další díly. PC vydání sklidilo o něco smíšenější přijetí, protože v roce 1997 už na počítačích soupeřilo se špičkou žánru, ale ocenilo se právě zpracování obrazu a rozlehlost úrovní. Dnes je Turok zajímavý hlavně jako průsečík konzolové a počítačové školy stříleček, s důrazem na průzkum a plošinové pasáže. Skákání z pohledu první osoby a snadné zabloudění jsou jeho největší slabiny, moderní upravená vydání ale výrazně zlepšila dohlednost i ovládání.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__turok-dinosaur-hunter.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__turok-dinosaur-hunter.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -106218,8 +106260,14 @@
           "teaser": "Pokračování hry, co definovala akční RPG, a udělalo z jejího receptu žánrový standard.",
           "detail": null,
           "article": "**Diablo II** dorazil v roce 2000 jako pokračování hry, která čtyři roky předtím definovala akční RPG, a udělal z jejího receptu žánrový standard na dlouhá léta dopředu. Hráč si vybírá jednu z pěti postav, každou s vlastním stylem boje, a prochází čtyřmi akty, které ho vedou z pouštních měst přes džungli až do samotného pekla. Ovládání je čistě myší: klikáte na nepřátele, sbíráte hromady náhodně generované kořisti a rozdělujete body do rozsáhlých stromů dovedností, jejichž kombinace dělají z každé postavy prakticky jinou hru. Náhodně sestavované úrovně a nekonečné variace předmětů znamenaly, že se svět po každém novém založení postavy proměnil, a právě to drželo hráče u obrazovky stovky hodin.\n\nTechnicky stál Diablo II na klasickém dvourozměrném izometrickém enginu s ručně kreslenými sprity, který ale šlo volitelně akcelerovat přes Direct3D nebo Glide. Na tehdejších 3D kartách přibylo dynamické osvětlení a průhlednosti, které temným kobkám a deštivým nocím velmi slušely, zatímco v softwarovém režimu hra bez problémů běžela i na slabších Pentiích. Rozlišení 800x600 patřilo k příjemnému nadstandardu a celý vizuál byl navržený tak, aby zůstal čitelný i při desítkách nepřátel na obrazovce. Atmosféru drží pohromadě hudba Matta Uelmena, jejíž akustická kytara z tábora Rogue patří k nejlépe zapamatovatelným motivům své éry, a zvukový design plný skřípání kovu, vzdálených výkřiků a dutých ozvěn podzemí.\n\nDobově šlo o obrovský úspěch a služba Battle.net z hry udělala společenskou záležitost, kde se obchodovalo s předměty a stavěly se postavy podle sdílených návodů. Vliv na žánr je těžké přecenit, protože celá generace pozdějších loot her staví na struktuře, kterou Diablo II vybrousil do detailu. Dnes působí překvapivě svěže: ovládání je okamžitě srozumitelné, tempo rychlé a smyčka hledání lepšího vybavení funguje stejně dobře jako před dvaceti lety. Svůj věk dává znát hlavně úzký inventář a chybějící moderní pohodlí, na což ale existuje široká komunitní podpora.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__diablo-ii.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__diablo-ii.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -106636,8 +106684,14 @@
           "teaser": "Civilization v kosmu se sedmi ideologickými frakcemi místo národů a vlastním hlasem.",
           "detail": null,
           "article": "**Sid Meier's Alpha Centauri** začíná přesně tam, kde Civilization končila: kolonizační loď dorazí k soustavě Alpha Centauri, posádka se rozhádá a na cizí planetu vystoupí sedm ideologických frakcí, z nichž každá má vlastní představu o tom, k čemu vlastně lidstvo je. Místo národů tu tedy stojí proti sobě věřící, ekologové, technokraté, vojáci nebo obchodníci, a jejich vůdci mají dost vyhraněný hlas na to, aby si je člověk pamatoval ještě dlouho po dohrání. Planeta sama je přitom nehostinná, plná rudé mlhy a podivného života.\n\nZákladní tahový rámec je příbuzný Civilization, ale skoro všechno je posunuté o krok dál. Jednotky se nevybírají ze seznamu, nýbrž se skládají v dílně z podvozku, zbraně, pancíře a speciálního vybavení, takže technologický pokrok se okamžitě promítá do toho, co dokáže hráčova armáda. Společnost se ladí přes sociální inženýrství, kde volba ekonomiky, hodnot a politiky přímo mění chování vlastních měst. Prostředí navíc není pasivní kulisa: znečištění a terraformování probouzí domorodé mentální červy, a čím víc hráč krajinu ničí, tím tvrději se mu to vrací. Tajné projekty, obdoba divů světa, doprovázejí krátké sekvence a citace, které z technologií dělají filozofické teze.\n\nAtmosféra je hlavní deviza. Textové záznamy, hlasy vůdců a datalinky vytvářejí sourodou vizi budoucnosti, která se čtenářsky blíží dobré science fiction knize, a hudba i zvuky planety podtrhují pocit, že člověk je tady jen návštěvník. Dobová kritika hru přijala výborně a často ji řadila mezi nejlepší tahové strategie vůbec, i když vizuálně už v roce 1999 působila stroze proti barevné konkurenci. Později vyšel datadisk Alien Crossfire s dalšími frakcemi a novými technologiemi. Dnes je Alpha Centauri stále mimořádně ctěná, protože její nápady s návrhem jednotek a společenským laděním nikdo pořádně nezopakoval.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__sid-meier-s-alpha-centauri.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__sid-meier-s-alpha-centauri.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -106993,8 +107047,14 @@
           "teaser": "Otevírá jednou z nejlepších úvodních scén v historii adventur — klaun a bomba v kavárně.",
           "detail": null,
           "article": "**Broken Sword: The Shadow of the Templars** zacina jednou z nejlepe zapamatovanych uvodnich scen v historii adventur: americky turista George Stobbart sedi pred parizskou kavarnou, kdyz do ni vejde klaun s harmonikou a odejde s aktovkou, ve ktere tika bomba. Z nahodneho svedka se stava vysetrovatel, ktery spolu s novinarkou Nicole Collard rozplete stopu vedouci pres stredovekou historii, ztracene rukopisy a spolek navazujici na templarsky rad. Pribeh vede hrace z Parize do Irska, Spanelska, Syrie i Skotska a stridave se hraje za oba hrdiny, takze se stejna zapletka odkryva ze dvou stran.\n\nOvladani je klasicke point and click s jednoduchym rozhranim, kde kurzor sam napovi, s cim lze pracovat. Hadanky jsou vetsinou logicke a zasazene do situace, takze hrac postupuje spis rozhovorem a pozorovanim nez slepym zkousenim inventare; nekolik pasti, ve kterych lze zemrit, vsak hra prece jen obsahuje a doporucuje se prubezne ukladat. Technicky sla o dvourozmernou hru s rucne kreslenymi pozadimi a plne animovanymi postavami, ktera vysla ve verzich pro DOS i Windows a na tehdejsich Pentiich bezela hladce z CD, vcetne plneho dabingu a animovanych mezisekvenci.\n\nVytvarne provedeni je hlavni duvod, proc hra zestarla tak dobre: pozadi maji akvarelovou barevnost, animace postav vychazi z tradicniho kresleneho filmu a orchestralni hudba s naznakem etnickych nastroju drzi ton dobrodruzneho filmu spis nez detektivky. Humor je suchy a britsky, dialogy dobre napsane a nasili zustava v pozadi. Dobova kritika hru radila mezi to nejlepsi, co v polovine devadesatych let v zanru vyslo, a serie diky ni pokracovala dalsimi dily az do soucasnosti. Dnes je Broken Sword casto doporucovanym vstupem do klasickych adventur, protoze je pristupny, dobre vypraveny a nevyzaduje trpelivost s nesmyslnymi hadankami.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__broken-sword-shadow-of-templars.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__broken-sword-shadow-of-templars.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -107499,8 +107559,14 @@
           "teaser": "Licence britského šampionátu cestovních vozů; těsné závodění nárazník na nárazník.",
           "detail": null,
           "article": "**TOCA Touring Car Championship** přinesl na počítače licenci britského šampionátu cestovních vozů a s ní i závodní styl, který se od formulí i od oválů zásadně liší. Vozy vycházejí ze sériových sedanů, jsou pomalejší, ale ohromně agresivní: závodí se v těsných skupinách, kontakt patří ke koloritu a boj o pozici se často odehrává nárazníkem na nárazník. Kampaň vede hráče celou sezonou po britských okruzích, se dvěma závody na víkend, bodováním a soupeři, kteří si pamatují, jak jste se k nim před chvílí chovali.\n\nJízdní model stojí někde mezi arkádou a simulací. Auto je znát, přetáčivost přichází při hrubém plynu a obrubníky se dají využít i zneužít, ale hra zároveň neodrazuje složitým nastavováním. Důležitou roli hraje model poškození — ulomený nárazník, promáčklý bok nebo poškozené řízení mají viditelný i cítitelný dopad. Zajímavostí je systém trestů: pokud jezdíte přes trávu, zkracujete si trať nebo soupeře vyloženě odstřelujete, dostanete napomenutí a při opakování diskvalifikaci, což hru drží v mantinelech férového závodění. Grafika využívala 3D akceleraci a zvuk sází na hluboký řev motorů, hlas komisaře a skřípání plechu.\n\nDobově byla hra vnímána jako jeden z nejzábavnějších závodních titulů své generace právě proto, že našla rovnováhu mezi přístupností a věrohodností. Recenzenti chválili souboje s umělou inteligencí, přesnost okruhů a atmosféru šampionátu, výhrady mířily hlavně k menšímu počtu vozů a tratí. Série se stala jednou z pilířových značek Codemasters a její přístup k závodění s kontaktem ovlivnil řadu pozdějších titulů. Dnes je TOCA hrou, u které se dá okamžitě sednout a jezdit, a přitom stále nabízí dost hloubky na to, aby vylepšování časů dávalo smysl. Souboje v houfu cestovních vozů navíc stárnou lépe než technologické výstřelky té doby, protože stojí na chování aut a na chytře postavených okruzích, ne na efektech.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__toca-touring-car-championship.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__toca-touring-car-championship.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -107680,8 +107746,14 @@
           "teaser": "Futuristické závody s koly přesahujícími karoserii — jezdí se po stropě jako po zemi.",
           "detail": null,
           "article": "**Rollcage** vzal futuristické závodění a přidal mu jeden zásadní nápad: vozy mají obrovská kola přesahující karoserii, takže jsou plně obousměrné a jezdí stejně dobře na kolech i na střeše. Převrácení tedy není trest, ale běžná součást jízdy — auto se otočí, pokračuje dál a hráč se přirozeně naučí využívat stěny a stropy tunelů jako plnohodnotnou část trati. Z toho vyplývá i tempo hry, které je extrémně rychlé a chvílemi hraničí s chaosem.\n\nTratě jsou navržené tak, aby tuhle mechaniku využily. Vedou tunely, propletenými konstrukcemi a kolem prostředí, které se dá rozbít — sloupy, ploty a části budov mizí pod nájezdem a mění vzhled okruhu během závodu. K tomu se sbírají zbraně a bonusy, od raket po miny, což z každého kola dělá menší bitvu o pozici. Ovládání vyžaduje zvyk, protože při takové rychlosti je nutné plánovat dopředu a číst trať spíš intuitivně než reflexivně. Technicky šlo o hru využívající 3D akceleraci s výrazným smyslem pro pocit rychlosti a s temným, industriálním vzhledem. Hudební doprovod sází na elektronické taneční skladby a rytmicky drží tempo závodů.\n\nDobově byla hra chválena za originalitu, tempo a destrukci prostředí, výtky mířily na obtížné ovládání a na to, že v tom největším zmatku se dá jen těžko udržet přehled. I tak si našla oddané publikum a dočkala se pokračování, které nápad rozvedlo dál. Vliv titulu je patrný v pozdějších antigravitačních i arkádových závodech, které pracují s převrácenou perspektivou a s tratěmi ve třech rozměrech. Dnes je Rollcage především rychlá a hlučná zábava, u které se pár minut hraní mění v nečekaně dlouhé sezení. Nejlépe vynikne ve více hráčích, kde se z jízdy po stropě tunelu a z bourání sloupů stává společná groteska. A i po letech je osvěžující potkat závodní hru, která si vůbec nedělá starosti s tím, kterou stranou nahoru vlastně jedete.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__rollcage.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__rollcage.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -107702,8 +107774,14 @@
           "teaser": "První osoba bez střílení — Garrett smí jen krást a plížit se městem plným magie.",
           "detail": null,
           "article": "**Thief: The Dark Project** postavil hráče do bot zloděje Garretta a udělal něco, co bylo v roce 1998 skoro kacířské: dal mu pohled z první osoby, ale zakázal mu střílet. Hra se odehrává v bezejmenném městě, kde se středověká architektura mísí s parními stroji a pohanskou magií, a Garrett se v něm živí vykrádáním sídel bohatých šlechticů. Zakázky se zpočátku tváří jako obyčejné loupeže, postupně se ale zamotají do konfliktu mezi rigidním kultem Hammeritů a starým lesním božstvem, takže druhá polovina kampaně opouští městské střechy a vede do hrobek, chrámů a míst, kde se hráč poprvé v žánru učí bát tmy z opačné strany.\n\nCelý herní systém stojí na světle a zvuku. Ve spodní části obrazovky svítí drahokam, který ukazuje, jak moc je Garrett vidět, a podle povrchu pod nohama se mění hlasitost kroků: po mramoru a kovu je slyšet z půlky sálu, po koberci a mechu prakticky vůbec. K tomu slouží arzenál speciálních šípů, který se stal učebnicovým: vodní šíp uhasí pochodeň, mechový šíp vytvoří tichý koberec, provazový šíp otevře cestu nahoru a hlukový šíp odláká stráž jinam. Nepřátelé nejsou kulisa, reagují na otevřené dveře, na zmizelé světlo i na krvavou stopu a mezi klidem, podezřením a pátráním přecházejí postupně. Technicky za tím stál engine s pokročilým šířením zvuku po prostoru a zvuková stránka hry je dodnes to nejsilnější, co nabízí: šumění větru, mumlání stráží pro sebe a znepokojivé ambientní smyčky drží hráče v napětí líp než jakákoli hudební kulisa.\n\nDobově šlo o titul, který kritika přijala nadšeně a který si okamžitě získal oddanou komunitu, i když komerčně nikdy nepřerostl velké akční značky. Jeho vliv je ale nepřehlédnutelný, prakticky každá pozdější stealth hra si od něj půjčila alespoň měřič viditelnosti nebo práci se zvukem. Dnes hru drží při životě fanouškovské patche a stovky uživatelských misí, a přestože textury i modely postav zestárly, návrh úrovní a atmosféra fungují bez omluv.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__thief-dark-project.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__thief-dark-project.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108100,8 +108178,14 @@
           "teaser": "Revoluce grafiky roku 1998; místo kovových základen barevná džungle planety Na Pali.",
           "detail": null,
           "article": "**Unreal** vtrhl v roce 1998 do žánru stříleček z pohledu první osoby a okamžitě ukázal, že technologie umí být stejně důležitá jako design levelů. Vlastní Unreal Engine přinesl barevné, organické prostředí mimozemské planety Na Pali plné hustých lesů, jeskyní, vodopádů a starobylých chrámů, což byl naprostý protiklad k tehdy dominantním temným kovovým základnám a vesmírným stanicím. Hráč se v kůži vězně, který jako jediný přežije havárii transportní lodi, postupně mění v toho, kdo dokáže čelit brutální rase Skaarj a pomoci utlačovanému domorodému lidu Nali.\n\nHratelnost stavěla na průzkumu, atmosféře a překvapivě rozmanitém arzenálu zbraní, z nichž nejvýraznější byl ASMD Shock Rifle s ničivým kombem primární a sekundární střely. Level design často odměňoval trpělivost a všímavost, ne jen rychlé reflexy, což hru citelně odlišovalo od dynamičtějších konkurentů typu Quake. Na Windows 9x počítačích byl Unreal zároveň nechvalně proslulý svými hardwarovými nároky – ke skutečně plynulému běhu s vysokými detaily potřeboval výkonnou grafickou kartu a rychlý procesor, takže se mnoha hráčům spojil právě se vzpomínkou na nutný upgrade sestavy. Hra navíc obsahovala i multiplayerový režim, který později rozvinul samostatný Unreal Tournament.\n\nDobové recenze oceňovaly především vizuální stránku, hudbu a hutnou atmosféru cizí planety, byť umělá inteligence nepřátel a proměnlivé tempo hry byly občas kritizovány jako nevyrovnané. Grafický engine se následně stal základem pro řadu dalších her a upevnil studia Epic a Digital Extremes jako klíčová jména herního průmyslu na další dekády. Dnes Unreal působí jako důležitý mezník – titul, který ukázal, že střílečka může být také vizuálně ohromující a téměř kontemplativní zážitek z objevování cizího světa, ne jen souboj v úzkých koridorech.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__unreal.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__unreal.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108181,8 +108265,14 @@
           "teaser": "Tři odlišné herní styly v jedné hře – surfař, RTS bojovnice i obří monstrum Kabuto.",
           "detail": null,
           "article": "**Giants: Citizen Kabuto** z roku 2000 je jedna z nejpodivnějších a nejoriginálnějších her své doby – akční adventura kombinovaná s prvky strategie, ve které se hráč postupně stane všemi třemi znepřátelenými frakcemi příběhu. Nejprve hraje za surfujícího dobrodruha Reznora, poté za bojovnice z kmene Meccarynů ovládané z ptačí perspektivy podobně jako v RTS, a nakonec za obřího mimozemského tvora jménem Kabuto, který požírá vše, co mu stojí v cestě, a doslova roste s každým dalším soustem. Tento střídavý pohled na tentýž konflikt z různých úhlů byl v roce vydání naprosto unikátní a hráči tak postupně skládali dohromady mozaiku téhož ostrova ze tří naprosto odlišných perspektiv.\n\nKaždá ze tří kampaní nabízela odlišný styl hraní i tempo – akční přestřelky, taktické velení jednotkám a ničivou destrukci prostředí obřím monstrem – a hra mezi nimi dokázala plynule přepínat, aniž by ztratila soudržnost. Grafický engine byl na Windows 9x počítačích na svou dobu velmi náročný, ale nabízel barevné, tropické prostředí ostrova a přesvědčivé animace, zejména u obřího Kabuta. Humor hry byl výrazně černý a sebeironický, s ostrými dialogy a parodií na herní klišé.\n\nKritika ocenila odvahu studia Planet Moon Studios experimentovat se třemi žánry v jedné hře a technickou stránku titulu, byť si někteří hráči stěžovali na nevyrovnanou obtížnost mezi kampaněmi. Hudební doprovod a namluvení postav dodávaly celému příběhu filmový nádech, který kontrastoval s často groteskní a přehnanou akcí na obrazovce. Giants: Citizen Kabuto se nikdy nestal komerčním trhákem, ale vydobyl si pověst kultovní klasiky, na kterou fanoušci vzpomínají jako na jednu z nejoriginálnějších her přelomu tisíciletí. I s odstupem let působí jeho nápaditost a žánrová odvaha překvapivě svěže.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__giants-citizen-kabuto.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__giants-citizen-kabuto.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108202,8 +108292,14 @@
           "teaser": "Andílek Bob posedá těla postav a přebírá jejich schopnosti v temné satirické adventuře.",
           "detail": null,
           "article": "**Messiah** z roku 2000 od studia Shiny Entertainment je akční adventura postavená na neobvyklém konceptu posedlosti – hráč ovládá andílka Boba, který se dokáže vznášet nad úrovněmi a vlétat do těl postav, jimiž následně přebírá plnou kontrolu. Každá posedlá postava má vlastní schopnosti, zbraně i sociální postavení, od obyčejných strážných po prostitutky a vojáky, což hru posouvalo do temného, satirického vyprávění o zkorumpovaném městě budoucnosti plném náboženských motivů a společenského úpadku.\n\nHratelnost stavěla na hádankách řešených právě díky přebírání různých těl – hráč musel promyslet, kterou postavu je potřeba ovládnout, aby se dostal dál, otevřel dveře nebo přesvědčil strážného. Grafický engine, který později posloužil i pro Sacrifice, přinášel na Windows 9x počítačích výraznou, plně 3D stylizovanou grafiku s plynulou animací postav, ačkoliv vývoj hry byl neobvykle dlouhý a provázely ho technické i produkční potíže, které se na finálním výsledku částečně podepsaly. Atmosféra byla temná a groteskní zároveň, s černým humorem a společenskou satirou ukrytou pod vrstvou násilí a vulgarity, což hru řadilo mezi nejkontroverznější akční adventury své doby.\n\nDobové recenze byly rozporuplné – oceňovaly originalitu konceptu a technickou stránku, ale kritizovaly nevyrovnané tempo a kontroverzní obsah, který v některých zemích vedl k cenzurním zásahům a úpravám lokalizovaných verzí. Messiah se nikdy nestal masovým hitem, ale zůstává zajímavou ukázkou odvážného designérského experimentu z přelomu tisíciletí, kdy si vývojáři troufali riskovat víc než dnešní velkorozpočtové produkce. Dnes je zajímavý především jako kuriozita a doklad toho, jak neotřele dokázala tehdejší akční adventura přistupovat k mechanice ovládání postav.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__messiah.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__messiah.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108286,8 +108382,14 @@
           "teaser": "Kultovní český dungeon crawler; krokování spletitými chodbami plnými pastí a nestvůr.",
           "detail": null,
           "article": "**Brány Skeldalu** z roku 1998 jsou jednou z nejvýznamnějších českých her devadesátých let a dodnes se těší pověsti kultovní klasiky domácí tvorby. Studio Napoleon Games stvořilo krokovací dungeon crawler ve fantasy světě, kde hráč sestavuje družinu dobrodruhů a prochází spletitými podzemními chodbami, hrady a jeskyněmi plnými pastí, hádanek a nestvůr, přičemž postup mapou vyžadoval trpělivost a pečlivé zaznamenávání odbočujících chodeb. Hra vycházela z tradice západních RPG jako Might and Magic, ale nesla si vlastní, výrazně českou atmosféru, smysl pro detail a specifický vypravěčský styl, který dodnes vyvolává silnou nostalgii u tehdejších hráčů.\n\nHratelnost stavěla na tahových soubojích, správě družiny a postupném rozvoji postav, přičemž značný důraz kladla i na řešení hádanek a objevování skrytých částí mapy. Textové popisy a dialogy byly psané s péčí a humorem, což hru odlišovalo od řady zahraničních konkurentů, kteří na lokální kontext nemohli brát ohled. Na Windows 9x počítačích hra fungovala i na skromnějším hardwaru, což ji zpřístupnilo širokému okruhu tehdejších českých hráčů, pro něž šlo nezřídka o první seriózní RPG zážitek na domácím počítači.\n\nDobové ohlasy byly vřelé, hra si získala věrnou fanouškovskou základnu a stala se jedním z pilířů rodícího se českého herního průmyslu spolu s tituly jako Fish Fillets. Slovní zásoba, jména postav i drobné vtipy odkazující na českou realitu dávaly hře nezaměnitelnou domácí identitu, kterou zahraniční RPG té doby logicky postrádaly. Její vliv přetrvává dodnes – hra se dočkala pokračování i moderních remasterovaných verzí, které jí umožnily oslovit i nové generace hráčů. Brány Skeldalu zůstávají připomínkou doby, kdy čeští vývojáři dokazovali, že dokážou konkurovat světové špičce i s omezenými prostředky.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__brany-skeldalu.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__brany-skeldalu.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108411,8 +108513,14 @@
           "teaser": "Česká fantasy RPG čerpající z Dračího doupěte; izometrické akční dobrodružství.",
           "detail": null,
           "article": "**Dračí Historie** je česká fantasy hra pro DOS a Windows 9x, která čerpá z domácí tradice stolní hry Dračí doupě a přenáší její svět do podoby izometrického počítačového dobrodružství. Hráč prochází rozlehlou herní mapou, plní úkoly, bojuje s nestvůrami a rozvíjí postavu v soubojích s klasickými fantasy nepřáteli, přičemž hra kombinuje prvky akční hry s jednoduchými RPG mechanikami, jako je sbírání předmětů, vylepšování výbavy a postup příběhem napříč několika kapitolami. Systém soubojů i pohybu po mapě je zjednodušený tak, aby byl přístupný i hráčům, kteří se s fantasy RPG teprve seznamovali prostřednictvím stolní předlohy.\n\nTechnické provedení odpovídá menší domácí produkci konce devadesátých let – grafika je jednodušší než u zahraničních konkurentů podobného žánru, avšak hra se snaží kompenzovat to důrazem na známé fantasy prostředí, které bylo v Česku díky Dračímu doupěti mimořádně populární. Atmosféra hry těží právě z této domácí znalosti a oblíbenosti fantasy univerza, díky čemuž oslovila publikum, které by k zahraničním RPG jinak nemuselo najít cestu, a hudební doprovod se snaží navodit pochmurnou, dobrodružnou náladu.\n\nDračí Historie v době vydání nepatřila mezi technicky nejambicióznější tituly, ale díky spojení s populární domácí značkou si našla své místo v paměti hráčů, kteří vyrůstali na knihách a stolní hře Dračí doupě. Dnes je vnímána spíše jako kuriozita a doklad toho, jak se domácí studia snažila přenést úspěšné literární a herní značky do digitální podoby, než jako technicky nadčasový titul. Pro fanoušky historie české herní scény jde přesto o zajímavý artefakt dokládající rozmanitost tehdejší domácí produkce a snahu propojit počítačové hry s tradicí domácí fantasy literatury a stolních her, která v devadesátých letech tvořila důležitou součást české popkultury.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__draci-historie.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__draci-historie.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108432,8 +108540,14 @@
           "teaser": "Nemotorný policista a absurdní případy plné typicky českého humoru; klasická adventura.",
           "detail": null,
           "article": "**Polda** je česká komediální adventura, ve které se hráč stává nemotorným policistou řešícím kriminální případ plný absurdních situací a typicky českého humoru, přičemž vyšetřování ho zavede do řady bizarních prostředí a k setkání s podivínskými postavičkami. Hra postavená na klasickém point-and-click principu nabízí kombinování předmětů, rozhovory s pestrou galerií postaviček a řadu vtipných, často parodických scének, které si dělají legraci z policejní práce i z dobových společenských reálií. Hratelnost je přímočará a soustředí se hlavně na vtip a atmosféru, nikoli na složité logické hádanky, takže hra plyne svižně a nechává vyniknout zejména dialogy a situační komiku jednotlivých scén.\n\nGrafické zpracování odpovídá menší domácí produkci konce devadesátých let – ručně kreslená prostředí a jednoduše animované postavy vytvářejí osobitý, karikaturní vzhled, který ladí s celkovým humorným vyzněním hry a dodává jednotlivým lokacím rozpoznatelnou vizuální identitu. Ozvučení a dabing hrají v Poldovi klíčovou roli, protože velká část komiky stojí právě na hlasových projevech postav a jejich hláškách, z nichž řada zlidověla mezi tehdejšími hráči a dodnes se objevuje v citacích na fanouškovských fórech i v běžné řeči generace, která hru hrála v dětství či dospívání.\n\nV době vydání se Polda stal jedním z nejoblíbenějších domácích titulů právě díky svému osobitému humoru srozumitelnému českému publiku, což mu vyneslo i několik pokračování. Hra je dodnes vzpomínána jako jedna z ikon české herní tvorby devadesátých let a příklad toho, že úspěch nemusí stát na technické vyspělosti, ale na dobře trefeném humoru a znalosti domácího publika. Pro řadu pamětníků zůstává Polda synonymem pro zlatou éru českých adventur a hra se dodnes objevuje v přehledech nejvýznamnějších domácích titulů devadesátých let po boku dalších komediálních klasik té doby.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__polda.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__polda.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108548,8 +108662,14 @@
           "teaser": "Temné podzemní fantasy RPG pojmenované po trpasličím městě ze severské mytologie.",
           "detail": null,
           "article": "**Belegost** je česká fantasy hra, jejíž název odkazuje na jméno trpasličího města ze severské a tolkienovské mytologie, a tomu odpovídá i celkové zasazení hry do temného, podzemního fantasy světa, kde hráč postupně objevuje osud kdysi mocné trpasličí civilizace. Hráč prochází spletitými chodbami a rozlehlými podzemními lokacemi, bojuje s nestvůrami a postupně rozvíjí svou postavu, přičemž hra kombinuje prvky akčního RPG s průzkumem prostředí připomínajícím klasické podzemní dungeony plné pastí a skrytých pokladů, kterými se hráč musí prokousávat postupně, aby posílil svou postavu před náročnějšími souboji.\n\nPo technické stránce jde o typického zástupce menší domácí produkce konce devadesátých let – grafika je znatelně jednodušší, ale hra se snaží kompenzovat to hutnou, temnou atmosférou podzemního světa a důrazem na průzkum a souboje s rostoucí obtížností. Zvukový doprovod a hudba dobře dokreslují ponurou, tíživou náladu podzemního prostředí, kterým se hráč musí prokousat směrem k cíli své výpravy za záchranou ohroženého trpasličího království, zatímco rostoucí síla nepřátel v hlubších patrech nutí hráče postupovat obezřetně a promyšleně.\n\nBelegost se v době vydání pohyboval spíše na okraji zájmu hráčů ve srovnání s velkými zahraničními RPG téže éry, jejichž rozpočty i velikost vývojářského týmu byly nesrovnatelně větší, ale pro fanoušky domácí fantasy tvorby představoval další doklad snahy menších českých studií vytvořit vlastní žánrové dílo. Dnes je hra vnímána především jako historická kuriozita a zajímavý doklad dokládající celkovou rozmanitost tehdejší domácí RPG scény, která se pokoušela čerpat i z mezinárodně známé fantasy mytologie a přenést ji do vlastního herního zpracování s omezenými, ale poctivě využitými prostředky.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__belegost.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__belegost.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108650,8 +108770,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Command & Conquer: Tiberian Sun** navázala na první díl slavné strategické série a přenesla boj mezi organizací GDI a Bratrstvem Nod do blízké budoucnosti zdevastované záhadnou látkou tiberium, která proměnila celé krajiny v nebezpečné, ale zároveň cennou surovinu. Hra rozvinula osvědčenou mechaniku sbírání zdrojů, budování základny a řízení jednotek o nové prvky, jako je střídání dne a noci ovlivňující viditelnost na bojišti, letecké jednotky schopné rychlých přesunů nebo kyborgy a genetické mutanty v řadách Nodu, kteří dodali frakci temnější a nebezpečnější charakter. Kampaně obou stran byly opět propojeny hraně natočenými filmovými sekvencemi, které daly příběhu o boji o tiberium filmový nádech a patřily k tehdejším lákadlům celého žánru realtimových strategií.\n\nPo technické stránce šlo o ambiciózní krok. Hra běžela na vylepšeném enginu, který umožňoval složitější a členitější terén, více jednotek najednou na obrazovce a propracovanější vizuální efekty explozí a požárů, což si na tehdejších strojích s Windows 9x vybíralo daň na výkonu a hra měla při vydání i řadu technických problémů, které si vyžádaly opravné patche. Atmosféru dotvářela hudba Franka Klepackiho, dlouholetého skladatele série, který spojil elektronickou a rockovou složku do charakteristického zvuku Command & Conquer a vytvořil melodie, které si hráči pamatují dodnes.\n\nI přes počáteční nedostatky se Tiberian Sun stala oblíbenou součástí série a rozšířila příběh tiberiové války o další, temnější kapitolu, doplněnou později datadiskem Firestorm. Dnes je vnímána jako přechodová hra mezi klasickým stylem prvního Command & Conquer a modernějším pojetím pozdějších strategií, a pro fanoušky RTS z konce devadesátých let zůstává nostalgickou záležitostí, na kterou se vzpomíná s respektem k jejímu rozsahu, ambicím i atmosféře sci-fi budoucnosti sužované tiberiem. Kombinace pochmurného vyprávění a morálně nejednoznačných frakcí dala sérii témata, na kterých stavěly i pozdější díly, a řada hráčů dodnes považuje právě tento titul za moment, kdy se z Command & Conquer stala rozsáhlejší sci-fi saga s vlastní mytologií.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__command-and-conquer-tiberian-sun.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__command-and-conquer-tiberian-sun.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108671,8 +108797,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Command & Conquer: Red Alert 2** zavedla hráče zpět do alternativní historie, v níž studená válka mezi Sověty a Aliancí přerostla v otevřený konflikt o samotné území Spojených států. Namísto temného tónu Tiberian Sun si hra osvojila přiznaně nadsazený, místy až komiksový styl - ať šlo o psí jednotky, medvědy jako sovětskou zbraň, nebo přehnaně vlastenecké americké velitele pronášející hlášky s nadhledem. Hratelnostně jde o klasickou stavbu základny, těžbu rud a soupeření dvou odlišně pojatých frakcí, kde Sověti sázejí na hrubou sílu, těžkou techniku a psychické zbraně, zatímco Aliance staví na pokročilé technologii, mobilitě a přesnosti.\n\nHra vynikala přehledností a vyváženým tempem, díky čemuž se stala jednou z nejhranějších strategií své doby na počítačích s Windows 9x, a to jak v kampani, tak zejména v online multiplayeru. Filmové mezihry s živými herci dodávaly kampani filmovou atmosféru a humor, hudbu opět složil Frank Klepacki, jehož skladby patří k nejrozpoznatelnějším motivům celé série a dodnes zůstávají spojeny s obrazem sovětské invaze do Ameriky. Grafický styl kombinoval izometrický pohled s barevnými efekty a jasně čitelnými jednotkami, což hru dělalo přístupnou i méně zkušeným hráčům a zjednodušovalo orientaci i v rozsáhlejších bitvách.\n\nRed Alert 2 se dočkala rozšíření Yuri's Revenge, které přidalo třetí frakci a nové jednotky, a dodnes je mnoha fanoušky považována za jeden z vrcholů klasické éry Command & Conquer. Jednoduchá dostupnost, výrazné frakce a nadsazený příběh z ní udělaly hru, ke které se komunita vrací i s odstupem desítek let, včetně moderních fanouškovských úprav, komunitních serverů a aktivního online multiplayeru. Právě přístupnost, s jakou hra kombinovala rychlé tempo, srozumitelné jednotky a nadsázku v příběhu, z ní udělala ideální vstupní bránu do žánru realtimových strategií pro celou generaci hráčů, kteří se s Windows 9x setkávali poprvé, a mnozí si na ni dodnes vzpomínají jako na jednu z prvních skutečně velkých her na svém počítači.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__command-and-conquer-red-alert-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__command-and-conquer-red-alert-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108751,8 +108883,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Wing Commander: Prophecy** se vrátila od filmově pojatých dílů zpět k akčnějšímu vesmírnému simulátoru a přinesla nový engine i novou generaci pilotů v čele s nadějným stíhačem Coltem, který se poprvé ocitá ve víru událostí přesahujících obyčejnou hlídkovou misi. Příběh se odehrává po skončení války s Kilrathi a představuje nové, záhadné a mnohem nebezpečnější nepřátele, kterým se v příběhu série přezdívá Nephilim, což hře dodalo temnější a naléhavější tón oproti předchozím dílům plným politiky a intrik.\n\nHratelnostně se Prophecy vrátila k důrazu na akční vesmírné bitvy s méně rozsáhlými filmovými vložkami, přičemž nový 3D engine umožňoval detailnější modely lodí, plynulejší souboje i efektnější exploze na tehdejších počítačích s Windows 9x. Hráč postupně létal na více typech stíhaček, řídil systémy štítů a zbraní a procházel kampaní rozdělenou do několika misí s rozvětvenými cestami podle výsledků předchozích bitev, což dodávalo hře pocit důsledků vlastních rozhodnutí. Zvuková stránka a hudba pomáhaly budovat pocit narůstajícího ohrožení, které téma nových, hmyzu podobných nepřátel přinášelo do jinak známého univerza.\n\nProphecy se dočkala i datadisku Secret Ops, který příběh dále rozvíjel a šířil online formou, což byl na svou dobu nezvyklý distribuční model. V rámci série je Prophecy ceněna jako návrat k jádru vesmírného simulátoru po nákladném filmovém experimentu čtvrtého dílu a pro řadu hráčů představuje vyváženější a hratelnější zážitek, i když nedosáhla stejné popularity a rozpočtu jako předchozí díly série. Postava Colta a jeho postupný vzestup od nezkušeného nováčka k respektovanému pilotovi zároveň nabídly osobnější a přímočařejší příběhovou linku, než jaké byly hráči zvyklí z rozvětvených politických zápletek dřívějších dílů Wing Commander.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__wing-commander-prophecy.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__wing-commander-prophecy.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108770,8 +108908,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Star Wars: X-Wing vs. TIE Fighter** přinesla do oblíbené série vesmírných simulátorů ze světa Star Wars výrazný posun směrem k multiplayeru a soubojům mezi živými hráči. Na rozdíl od předchozích dílů, které se soustředily na propracované singleplayerové kampaně za Republiku nebo Impérium, tento titul postavil do centra zájmu souboje více hráčů proti sobě po síti, kde si každý mohl vybrat stranu Republiky s X-wingy a A-wingy nebo Impéria s TIE fightery a bombardéry a utkat se v přehledně navržených misích.\n\nHra si zachovala důraz na simulátorové ovládání lodí, řízení energie mezi zbraněmi, štíty a motory a taktické využívání terénu i formací, jen tentokrát v kooperativních i soupeřících misích navržených přímo pro více hráčů najednou. Grafika a modely lodí byly na svou dobu detailní a na počítačích s Windows 9x hra těžila z tehdy ještě relativně nové podpory síťového hraní přes internet i lokální sítě, což byl pro řadu hráčů první seriózní zážitek s online vesmírnými bitvami ze světa Star Wars a s koordinací celých letek proti soupeři.\n\nAbsence rozsáhlé singleplayerové kampaně při vydání sklidila od části hráčů kritiku, na kterou později reagovalo rozšíření Balance of Power přidávající desítky nových misí a příběhový rámec. I tak si hra díky svému multiplayerovému zaměření vydobyla pevné místo v historii série a dodnes je zmiňována jako důležitý mezikrok mezi klasickými díly X-Wing a pozdějším, rozsáhlejším X-Wing Alliance, který multiplayer i singleplayer propojil do jednoho celku. Pro tehdejší hráče na Windows 9x navíc znamenala jeden z prvních skutečně dostupných způsobů, jak si po síti zahrát rozsáhlé letecké bitvy zasazené přímo do univerza Star Wars, a to ještě dříve, než se online hraní stalo v žánru vesmírných simulátorů samozřejmostí.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__star-wars-x-wing-vs-tie-fighter.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__star-wars-x-wing-vs-tie-fighter.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108869,8 +109013,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Homeworld: Cataclysm** navázala na oceňovanou vesmírnou strategii Homeworld a přenesla hráče o několik let dále do stejného vesmíru, tentokrát z pohledu posádky těžební lodi Kuun-Lan, která se stává první obětí a zároveň nadějí proti záhadné mimozemské nákaze zvané Beast, schopné infikovat a přeprogramovat i lodě samotného hráče na svou stranu. Tento koncept vnesl do žánru vesmírných RTS nový, hororový prvek napětí, protože ztráta jednotky v boji mohla znamenat, že se ta samá loď za chvíli obrátí proti vlastní flotile a musí být zničena vlastníma rukama.\n\nHratelnostně hra navázala na trojrozměrné bojiště prvního Homeworldu, kde hráč řídí flotilu lodí v plně manévrovatelném vesmírném prostoru bez omezení na jednu rovinu, doplněné o nové jednotky, upgrady lodí a taktické možnosti, jak čelit šíření nákazy dříve, než pohltí celou flotilu. Na počítačích s Windows 9x hra běžela na vylepšené verzi enginu původního Homeworldu a nabízela atmosférickou, temnější grafiku i hudbu, která umocňovala pocit izolace a narůstající hrozby uprostřed hlubokého vesmíru daleko od domovské planety.\n\nAčkoliv vývoj měl na starosti jiný tým než původní Homeworld, Cataclysm si zachovala kvalitu, ovládání i atmosféru předchůdce a mnoha hráči je dodnes hodnocena jako plnohodnotné a v některých ohledech i temnější a napínavější pokračování díky tématu nákazy měnící spojence v nepřátele. Díl rozšířil příběh vesmírné sáhy Homeworld o další kapitolu a pro fanoušky žánru zůstává ceněnou, i když poněkud opomíjenou položkou v jeho historii. Motiv nákazy, která postupně stravuje vlastní flotilu, dodal jinak čistě strategické hře i psychologický a hororový rozměr, jaký se v realtimových strategiích konce devadesátých let objevoval jen zřídka, a právě tím se Cataclysm odlišuje od většiny ostatních vesmírných strategií své doby.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__homeworld-cataclysm.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__homeworld-cataclysm.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108891,8 +109041,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Fallout** zavedl hráče do rozpadlé Kalifornie po jaderné válce, kde se z podzemního krytu Vault 13 vydávají hledat náhradní vodní čip, aby zachránili domovský úkryt před vyschnutím. Cesta pustinou se ale brzy zamotá do mnohem širšího konfliktu mezi frakcemi, mutanty a pozůstatky staré civilizace, a hráč si sám určuje, jestli bude diplomat, zloděj nebo někdo, kdo problémy řeší bouchačkou. Svět je otevřený a plný alternativních řešení, takže tatáž otázka se dá vyřešit desítkami způsobů podle zvolených dovedností a morálky, a cesta hráče vede přes města jako Junktown, The Hub nebo zamořený Necropolis.\n\nHra běží na izometrickém pohledu s tahovým souborem podle systému SPECIAL, který kombinuje sedm základních atributů s desítkami dovedností a vlastností, díky čemuž je každá postava jinak schopná v boji, hackování, přemlouvání nebo léčení. Souboje probíhají na akční body a umožňují cílit na konkrétní části těla, takže i drobná přestřelka je taktickou hádankou, kam mířit a kolik bodů si šetřit na útěk. Volby v dialogu i činy v terénu se promítají do systému pověsti a karmy, který ovlivňuje, jak se k hráči chovají jednotlivé frakce i to, jak hra ve výsledku skončí. Vizuálně hra sází na temnou, ironickou retro-atmosféru poloviny 20. století s pin-up plakáty a robotickými pomocníky, doprovázenou melancholickou swingovou a jazzovou hudbou, která kontrastuje s brutalitou světa, a atmosféru dokresluje i rádio a hlášky náhodných setkání v pustině.\n\nFallout se stal jedním z nejvlivnějších CRPG devadesátých let a definoval žánr postapokalyptické hry na dlouhá léta dopředu, i díky černému humoru a nekompromisnímu, dospělému tónu bez příkras. Navázala na něj celá řada pokračování, od přímého Fallout 2 až po pozdější díly Fallout 3 a Fallout: New Vegas, které stavěly na stejném světě a jeho pravidlech. Dnes působí hra svým textovým a systémovým důrazem stále svěže, byť grafika a ovládání logicky zestárly; pro fanoušky hlubokých RPG s reálnými důsledky rozhodnutí je to ale povinná jízda.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__fallout.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__fallout.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108977,8 +109133,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Diablo** proslavil žánr akčního RPG s pohledem shora a nekonečně generovaným dungeonem pod městečkem Tristram, kam se hráč vydává vyšetřit temnou hrozbu prýštící z katedrály a nakonec čelí samotnému demonickému princi Diablovi. Na výběr jsou tři odlišné postavy — bojovník, mág a lupička — každá s jiným stylem hraní, ale společným cílem: sestupovat hlouběji, sbírat lepší výbavu a silnější kouzla, a postupně odhalovat, co se s obyvateli Tristramu a jejich katedrálou vlastně stalo.\n\nHratelnost stojí na jednoduchém, návykovém principu klikání myší na nepřátele a sbírání kořisti, doplněném o systém náhodně generovaných úrovní a předmětů, který zajišťuje, že žádný průchod dungeonem není stejný. Postava roste přidělováním bodů do síly, magie, obratnosti a odolnosti a postupně se vybavuje zbraněmi, zbrojí i kouzelnými svitky, které se liší podle vzácnosti a náhodně přidělených vlastností. Temná, gotická atmosféra s pochmurnou hudbou a minimalistickým, ale atmosférickým vyprávěním vytváří pocit permanentního ohrožení, který umocňuje i možnost hry po síti s dalšími hráči přes tehdejší službu Battle.net. Technicky hra zvládá plynule běžet i na tehdy běžných PC a nabízí přímočaré ovládání jedinou rukou na myši, které z ní udělalo vzor pro celou generaci následovníků a přístupný vstup do žánru i pro méně zkušené hráče.\n\nDiablo od Blizzard North fakticky definovalo žánr hack'n'slash akčních RPG a jeho vliv je patrný v desítkách pozdějších her, které kopírovaly jeho smyčku sbírání kořisti a postupu úrovněmi, včetně vlastního pokračování Diablo II. I s odstupem desetiletí je jasně vidět, proč se stalo fenoménem — jednoduchá pravidla, temná atmosféra a nutkání sestoupit ještě o patro níž fungují dodnes stejně spolehlivě jako v roce 1996.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__diablo.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__diablo.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -108998,8 +109160,14 @@
           "teaser": null,
           "detail": null,
           "article": "**The Elder Scrolls II: Daggerfall** zasadil hráče do rozlehlé provincie High Rock a Hammerfell, kde se z bezvýznamného poutníka po ztroskotání lodi postupně stává hráč zapletený do politických intrik, tajných spolků a nadpřirozeného spiknutí kolem záhadného ducha krále Lysandu. Svět hry byl v době vydání nezvykle obrovský, s tisíci prakticky nekonečně generovaných měst, vesnic a dungeonů, takže hráč mohl volně cestovat na kterou stranu mapy chtěl a plnit hlavní i vedlejší úkoly v libovolném pořadí.\n\nPostavu si hráč sestavuje z široké nabídky ras, povolání a dovedností, přičemž svobodu podtrhuje i možnost vstoupit do frakcí jako mocné gildy mágů, zlodějské cechy nebo rytířské řády, každý s vlastními úkoly, odměnami a povinnostmi vůči hráčově postavě, které mohou hráče postavit i proti jiné frakci. Souborový systém je v reálném čase a kombinuje meleé, magii i lukostřelbu, doplněnou o pokročilé mechaniky jako plavání, levitaci nebo šplhání po stěnách, které byly na svou dobu nezvyklé a otevíraly cesty k místům, kam se jinak nedalo dostat. Technicky hra běžela na vylepšeném enginu a nabízela tehdy ambiciózní 3D prostředí s procedurálně generovaným světem, i když ji provázela řada chyb a nedokonalostí, na které si hráči dobově stěžovali a které vedly k několika opravným patchům.\n\nDaggerfall je dnes vnímán jako klíčový milník pro celou sérii The Elder Scrolls, protože nastavil ambici otevřeného světa a svobody volby, na kterou navázaly pozdější díly Morrowind, Oblivion i Skyrim, přestože každý z nich zvolil vlastní míru toho, jak velký a jak detailní svět má nabídnout. Přes technické neduhy zůstává pro fanoušky staré školy fascinující ukázkou toho, jak dalece sahaly ambice open-world RPG už v polovině devadesátých let, a dodnes jej udržuje při životě i aktivní komunita fanouškovských oprav a modifikací.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__elder-scrolls-ii-daggerfall.gif",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__elder-scrolls-ii-daggerfall.gif",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109093,8 +109261,14 @@
           "teaser": null,
           "detail": null,
           "article": "**European Air War** zasadil hráče do kokpitů stíhaček druhé světové války nad evropským bojištěm a nabídl kampaně za několik znepřátelených stran, včetně amerických, britských a německých letek. Hra navazovala na tradici historických leteckých simulátorů a snažila se kombinovat věrné modely tehdejších strojů - jako P-51 Mustang, Spitfire nebo Messerschmitt Bf 109 - s dynamickou kampaní, ve které výsledky jednotlivých misí ovlivňovaly další vývoj války. Hráč mohl volit mezi zjednodušeným a plně simulačním modelem letu, což hru otevíralo širšímu publiku i náročným fanoušků historických simulátorů. Kampaň sledovala vývoj války na západní frontě, takže se hráč postupně setkával s novými typy letadel na obou stranách konfliktu podle toho, jak se měnila situace v jednotlivých letech. Dynamický charakter kampaně znamenal, že výsledky jednotlivých misí měly reálný dopad na to, jaké úkoly a jaké nepřátelské síly hráč potká v misích následujících.\n\nVizuálně hra stavěla na tehdejších 3D akcelerátorech a nabízela rozsáhlé, i když podle dnešních měřítek jednoduché, mapy evropského bojiště s proměnlivým počasím a viditelností. Zvukové efekty motorů a palubních zbraní, spolu s hlasovými hláškami wingmanů, dodávaly misím filmovou atmosféru vzdušných bitev. Historická věrnost výzbroje a letadel byla jednou z věcí, kterými si hra u fanoušků leteckých simulátorů druhé světové války vydobyla dobré jméno, stejně jako důraz na taktiku formací a spolupráci s ostatními piloty letky.\n\nEuropean Air War je dnes připomínán jako jeden z posledních velkých leteckých simulátorů druhé světové války z devadesátých let, který ještě stihl vyjít v éře, kdy tento podžánr byl na PC velmi živý. Pro moderního hráče jde o zajímavý pohled do doby, kdy se historické letecké simulace snažily skloubit realismus s přístupností, a i s dnešními nástroji na emulaci zůstává hratelným kusem historie žánru.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__european-air-war.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__european-air-war.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109112,8 +109286,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Jane's WWII Fighters** rozšířil značku Jane's Combat Simulations o druhou světovou válku a nabídl hráčům detailní modely tehdejších stíhaček spolu s kampaněmi na evropském i pacifickém bojišti. Důraz byl kladen na autentické chování letadel, poškození jednotlivých komponent a nutnost sledovat palivo, munici a poškození motoru během delších misí, což hru odlišovalo od arkádovějších konkurentů. Hráči si mohli zvolit úroveň realismu podle vlastních preferencí, od zjednodušeného ovládání až po plně simulační model, který vyžadoval znalost skutečných leteckých postupů. Kampaně na evropském i pacifickém bojišti nabízely odlišné typy letadel i odlišný charakter misí, od doprovodu bombardérů po souboje s japonskými stíhačkami nad Pacifikem. Rozmanitost prostředí, od evropských měst po tichomořské ostrovy, dodávala hře pestrost, kterou řada dobových konkurentů zaměřených jen na jedno bojiště nenabízela.\n\nGrafické zpracování využívalo tehdejší 3D akcelerátory a nabízelo detailně vymodelované stroje i terén, byť rozsah mapy a hustota efektů odpovídaly technickým možnostem konce devadesátých let. Zvuková stránka - burácení pístových motorů, palubní kulomety a hlášky velitelů letek - dobře podporovala pocit ponoření do historických vzdušných bitev. Hra se stala součástí širší řady Jane's Combat Simulations, která v té době patřila k nejrespektovanějším značkám vojenských simulátorů na PC.\n\nJane's WWII Fighters je dnes vnímán jako kvalitní zástupce dobové vlny historických leteckých simulátorů, který dokázal nabídnout hloubku bez nadměrné komplikovanosti ovládání. Pro fanoušky historie žánru je zajímavý i tím, jak ukazuje přechod značky Jane's od moderních konfliktů k historickým tématům, a i po letech zůstává hratelnou ukázkou kvality tehdejších simulátorů druhé světové války.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__jane-s-wwii-fighters.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__jane-s-wwii-fighters.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109188,8 +109368,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Flight Unlimited III** navázal na oceňovanou sérii civilních leteckých simulátorů studia Looking Glass Studios a přinesl vylepšený model počasí, terénu a chování letadel oproti předchozím dílům. Na rozdíl od bojových simulátorů se hra soustředila na civilní létání a akrobacii, přičemž kladla velký důraz na realistický model aerodynamiky jednotlivých strojů a na přesvědčivé zobrazení oblačnosti a atmosférických jevů, kterými byla série Flight Unlimited dlouho známá. Hráči mohli zkoušet různé typy letadel od malých sportovních strojů po větší civilní letadla a věnovat se jak volným letům, tak strukturovaným výcvikovým scénářům a akrobatickým manévrům. Série se od počátku profilovala jako simulátor pro ty, kteří chtějí zažít radost z letu samotného, bez tlaku bojových cílů a časových limitů. Hra také nabízela nástroje pro volný let bez konkrétního cíle, kdy si hráč mohl jen vychutnávat pohled na krajinu a proměnlivé počasí, což bylo v žánru dominovaném bojovými simulátory poměrně neobvyklé.\n\nGrafický engine nabízel na svou dobu neobvykle přesvědčivé zobrazení mraků a atmosférických efektů, což byl dlouhodobý rozpoznávací znak série a jeden z důvodů, proč byla ceněna i mezi hráči, kteří o bojové simulátory neměli zájem. Model letu se snažil co nejvěrněji reagovat na vstupy hráče a podmínky počasí, díky čemuž hra fungovala i jako neformální výukový nástroj základů pilotování. Zvukové zpracování motorů a prostředí dotvářelo klidnou, meditativní atmosféru civilního létání, odlišnou od napětí bojových simulátorů.\n\nFlight Unlimited III je dnes připomínán jako poslední díl série od Looking Glass Studios a ukázka toho, jak vysoko byla laťka civilních leteckých simulátorů nastavena už na konci devadesátých let. Pro fanoušky letectví a civilního létání zůstává hra zajímavá i s odstupem let, především díky důrazu na atmosféru a věrné modelování letu, ne na akci a zbraně.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__flight-unlimited-iii.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__flight-unlimited-iii.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109207,8 +109393,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Microsoft Combat Flight Simulator** vycházel z technologické základny populárního civilního Microsoft Flight Simulatoru a přenesl ji do bojového prostředí druhé světové války, konkrétně do bitvy o Británii. Hráč se mohl postavit na stranu britského RAF nebo německé Luftwaffe a absolvovat kampaň s historicky inspirovanými misemi, přičemž hra těžila z propracovaného modelu letu, který byl dědictvím civilní série Microsoftu. Kombinace důvěryhodné aerodynamiky s bojovými prvky - střelbou, poškozením letadel a taktikou letek - z hry učinila oblíbenou volbu pro hráče hledající něco mezi arkádovou akcí a plnou vojenskou simulací. Hra umožňovala i vlastní úpravy a tvorbu misí, což se v komunitě setkalo s velkým zájmem a prodloužilo její životnost o další roky. Postupné odemykání nových typů letadel podle výsledků v kampani navíc dávalo hráči důvod vracet se k dokončeným misím a zlepšovat svůj výkon. Volba mezi stíhačkou a bombardérem měla vliv i na charakter jednotlivých úkolů, protože doprovodné a bombardovací mise vyžadovaly odlišnou taktiku i odlišné vnímání okolního vzdušného prostoru.\n\nGrafické zpracování krajiny jižní Anglie a kanálu La Manche patřilo k tomu nejlepšímu, co tehdejší simulátory nabízely, a to díky zázemí, které Microsoft do vývoje leteckých titulů dlouhodobě investoval. Zvuková stránka, od hukotu pístových motorů po palubní kulomety, dobře podporovala atmosféru historických vzdušných bitev nad Anglií. Hra také nabízela multiplayerové mise, ve kterých se hráči mohli utkat v historicky motivovaných leteckých bitvách.\n\nMicrosoft Combat Flight Simulator je dnes připomínán jako úspěšný pokus přenést kvality civilní letecké simulace do bojového prostředí a založit tak novou řadu titulů zaměřenou na historické vzdušné konflikty. Pro fanoušky letecké historie a bitvy o Británii zůstává hra zajímavou ukázkou toho, jak se na konci devadesátých let prolínaly civilní a vojenské letecké simulátory.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__microsoft-combat-flight-simulator.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__microsoft-combat-flight-simulator.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109304,8 +109496,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Fighting Steel** se zaměřil na povrchové bitvy druhé světové války mezi bitevními loděmi, křižníky a torpédoborci, na rozdíl od většiny ponorkových simulátorů, které v té době na trhu dominovaly. Hráč velel jednotlivým plavidlům nebo celým svazům v historicky inspirovaných i fiktivních střetnutích, přičemž musel řešit manévrování, míření hlavních děl na velké vzdálenosti a rozhodování o rozdělení paluby a posádky mezi protipožární opatření a obsluhu zbraní, když loď utrpěla zásah.\n\nHra nabízela poměrně detailní model balistiky a poškození, kdy jednotlivé zásahy mohly poškodit konkrétní části lodi, od věží hlavních děl přes strojovnu až po řízení, což dodávalo bitvám na hladině realistickou nepředvídatelnost. Grafické zpracování moře a modelů lodí bylo na tehdejší poměry přesvědčivé, zejména při pohledu z paluby na dopadající granáty a hořící nepřátelské plavidlo, a zvuková stránka s duněním výstřelů hlavních děl a hlášeními důstojníků dobře navozovala atmosféru velké námořní bitvy. Kampaň i jednotlivé scénáře umožňovaly hráči zažít několik klíčových typů bitev typických pro válku na moři.\n\nFighting Steel bývá připomínán jako jeden z mála simulátorů své doby, který se věnoval právě klasickým bitvám hladinových lodí místo dominujícího tématu ponorkové války, a proto zůstal oblíbený u úzké, ale věrné skupiny fanoušků námořní historie. Dnes hru ocení především hráči se zájmem o taktiku dělostřeleckých duelů na moři a o technické detaily bitevních lodí druhé světové války, i když tempo hry je ve srovnání s pozdějšími akčnějšími tituly spíše rozvážné a vyžaduje trpělivost při sledování dlouhých manévrů. Právě tato rozvážnost a důraz na přesné vedení palby jsou ale hlavním důvodem, proč se k hře fanoušci žánru čas od času vracejí i s odstupem mnoha let.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__fighting-steel.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__fighting-steel.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109500,8 +109698,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Grand Theft Auto 2** navazuje na první díl stejným pohledem shora, ale přesouvá děj do blíže neurčené budoucnosti a nabízí větší, propracovanější město rozdělené do tří obvodů s odlišným charakterem. Novinkou je systém reputace u jednotlivých gangů, kdy si hráč plněním jejich zakázek buduje důvěru u jedné skupiny, zatímco si zároveň může znepřátelit jinou. Tento prvek přidal hře vrstvu taktického rozhodování, protože přátelství s jedním gangem mohlo znamenat nepřátelství s dalším a proměnu vlastního okolí v nebezpečné a hlídané území, kam se hráč musel vracet jen s opatrností.\n\nHratelnost zůstává věrná osvědčenému vzorci krádeží automobilů, plnění misí a útěků před policií, přičemž systém hvězdiček označujících úroveň pronásledování byl rozšířen a zpřísněn o nová stádia nasazení bezpečnostních složek. Přibyly nové zbraně, vozidla i možnost využívat automaty s bonusy přímo ve městě, včetně dočasných vylepšení postavy. Grafický styl zůstal věrný izometrickému pohledu prvního dílu, ale s vyšší úrovní detailu a barevnější, futuristicky laděnou paletou připomínající syrové industriální čtvrti. Ozvučení opět těžilo z rádiových stanic parodujících dobovou popkulturu a reklamu, což hře dodávalo stejný ironický tón jako předchůdci.\n\nV době vydání už Grand Theft Auto 2 stálo ve stínu připravovaného trojrozměrného přechodu série, a proto nepůsobilo tak průlomově jako první díl, i když bylo hodnoceno jako zdařilé vylepšení základního konceptu a nabídlo více obsahu i systémovou hloubku. Systém gangovské reputace se stal jedním z prvků, které se v obměněné podobě vracely i do pozdějších dílů série. Dnes je vnímáno především jako poslední zastávka staré dvourozměrné éry GTA, hratelně stále funkční, ale zastíněné revolucí, která přišla hned následující rok s přechodem do 3D a s ním i s celosvětovým průlomem série.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__grand-theft-auto-2.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__grand-theft-auto-2.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109521,8 +109725,14 @@
           "teaser": null,
           "detail": null,
           "article": "**X-COM: Apocalypse** je třetím dílem kultovní série o obraně Země proti mimozemské invazi a jako první ji zasazuje do jediného obrovského futuristického města Mega-Primus, rozděleného do desítek samostatných obvodů se svou vlastní správou a náladou obyvatel. Hráč opět řídí organizaci X-COM, staví a vybavuje základny, verbuje a vycvičuje agenty a vede vyšetřování podivných incidentů, které postupně odhalují síť infiltrace ze strany mimozemských kultů i korporací působících přímo uvnitř města. Struktura hry tak kombinuje strategickou správu zdrojů s detektivní linkou pátrání po zdroji hrozby a jejích skutečných strůjcích.\n\nTaktické bitvy, tvořící jádro série, tu poprvé nabízejí volbu mezi klasickým tahovým systémem a nově zavedeným reálným časem s možností kdykoli hru zpauzovat a zadat příkazy, což byla v rámci žánru výrazná novinka a dodnes diskutovaná změna. Souboje se odehrávají v hustě zastavěném městském prostředí s civilisty, dopravou a poškozovatelnou architekturou, kde každý zásah rakety může strhnout celou budovu a s ní i nechráněné kolemjdoucí, což zvyšovalo napětí i nároky na taktiku. Správa základen, výzkum technologií a výroba vybavení zůstávají stejně komplexní jako v předchozích dílech, doplněné o obchodování a proměnlivé diplomatické vztahy s jednotlivými frakcemi uvnitř města.\n\nApocalypse byl v době vydání přijat s respektem k ambicióznímu rozsahu, i když jej část hráčů kritizovala za komplikovanost, přebujelost systémů a technickou náročnost na tehdejší počítače. V rámci série je dnes ceněn právě pro odvážné městské prostředí a volbu bojového systému, přestože se v mnohém odklonil od syrové atmosféry prvních dvou dílů. Pro fanoušky tahových strategií zůstává náročným, ale odměňujícím zážitkem, který dodnes ukazuje hloubku a systémovou ambici, jaké byl žánr v devadesátých letech schopen dosáhnout.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__x-com-apocalypse.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__x-com-apocalypse.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109599,8 +109809,14 @@
           "teaser": null,
           "detail": null,
           "article": "**SWAT 3: Close Quarters Battle** vyšlo v roce 1999 pod hlavičkou Sierra a na rozdíl od akčních stříleček té doby stavělo na pomalém, taktickém přístupu k násilí, kdy zbraň je až posledním prostředkem řešení situace. Hráč velí jednotce zásahové policejní jednotky SWAT a jeho úkolem není jen střílet, ale hlavně řídit tým - rozdělovat parťáky, zadávat rozkazy k proniknutí do místnosti, vyjednávat se zadrženými nebo použít neletální prostředky, jako jsou obušky či slzný plyn, tam, kde to situace umožňuje. Mise zahrnují záchranu rukojmích, zásahy proti ozbrojeným pachatelům i vyjednávání, přičemž nesprávný nebo unáhlený postup často znamená smrt rukojmích, spoluhráčů nebo zbytečné zabití civilisty, což se v hodnocení mise počítá jako neúspěch.\n\nHra kladla mimořádný důraz na umělou inteligenci civilistů i protivníků a na to, jak hráč se svým týmem komunikuje - k dispozici byl propracovaný systém příkazů pro pohyb, vyklizení místností, otevírání dveří s krytím a zacházení se zadrženými osobami, takže úspěch často závisel víc na trpělivosti a komunikaci než na míření. Vizuálně šlo o temné, stísněné interiéry budov, sklady, byty i veřejné prostory, které v kombinaci s tichou, napjatou hudbou a důrazem na to, že jediný špatný krok může misi ukončit, vytvářely atmosféru mnohem blíže reálné policejní akci než béčkové přestřelce plné efektních animací.\n\nDobové ohlasy hru řadily mezi nejlepší taktické střílečky své generace, oceňována byla především hloubka misí, chování AI a citlivé zpracování tématu zásahových jednotek. SWAT 3 ovlivnil pozdější taktické tituly zaměřené na policejní a protiteroristické zásahy a je dodnes zmiňován jako jeden z důležitých předchůdců současných taktických her tohoto typu, včetně novějších her stavějících na podobném pomalém a promyšleném tempu. I s dnešní zastaralou grafikou zůstává napínavým zážitkem pro hráče, které baví promyšlený postup víc než reflexy a rychlá střelba.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__swat-3-close-quarters-battle.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__swat-3-close-quarters-battle.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -109618,8 +109834,14 @@
           "teaser": null,
           "detail": null,
           "article": "**Tom Clancy's Rainbow Six: Rogue Spear** vydalo studio Red Storm Entertainment v roce 1999 jako pokračování prvního Rainbow Six a rozvinulo jeho recept na realistickou taktickou střílečku postavenou na přípravě stejně jako na samotné akci. Hráč před každou misí sestavuje plán postupu více týmů, určuje trasy, body vstupu, výzbroj i přesné časování akcí, a teprve poté sleduje, jak se plán promítne do reálného průběhu zásahu - často stačí jediný zásah k tomu, aby postava zemřela, takže opatrnost a důkladná příprava mají větší váhu než reflexy a rychlá reakce. Mise vycházejí z fiktivních i reálně inspirovaných protiteroristických operací po celém světě, od záchrany rukojmích v letadle či na lodi po zneškodnění výbušnin a zadržení pachatelů.\n\nOproti prvnímu dílu nabídla Rogue Spear vylepšenou grafiku, více misí, širší nabídku zbraní i rozšířené možnosti nastavení výbavy jednotky před akcí, takže hráč mohl taktiku přizpůsobit konkrétní situaci mnohem podrobněji. Hra následně dostala několik datadisků rozšiřujících nabídku misí, zbraní a prostředí, což ukazuje, jak silnou hráčskou základnu si dokázala vybudovat. Multiplayer, ve kterém proti sobě stály malé týmy hráčů v režimu na jeden život bez respawnu, patřil k tomu, co hru dlouhodobě drželo při životě v tehdejší komunitě fanoušků taktických stříleček a soutěžních klanových zápasů.\n\nDobově byla Rogue Spear přijata jako zdařilé zlepšení oproti původnímu Rainbow Six a spolu se SWAT 3 formovala žánr taktických vojenských stříleček na konci devadesátých let, kdy důraz na plánování a realismus stál v přímém protikladu k rychlým akčním střílečkám. Dnes je vnímána jako jeden ze základních kamenů celé série Rainbow Six, která o mnoho let později vyústila v masově populární Rainbow Six Siege, a jako doklad toho, jak důkladné plánování dokázalo být ve střílečce stejně napínavé jako samotná přestřelka.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-9x/pc-9x__tom-clancy-s-rainbow-six-rogue-spear.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-9x/pc-9x__tom-clancy-s-rainbow-six-rogue-spear.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -121334,6 +121556,6 @@
     "withTeaser": 3399,
     "withArticle": 3754,
     "platformImages": 74,
-    "gameImages": 3281
+    "gameImages": 3318
   }
 }
