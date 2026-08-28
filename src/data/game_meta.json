@@ -6320,6 +6320,10 @@
     "studio": "From Software",
     "year": "1997"
   },
+  "playstation__azure-dreams": {
+    "studio": "Racjin",
+    "year": "1997"
+  },
   "playstation__battle-arena-toshinden": {
     "studio": "Tamsoft",
     "year": "1995"
@@ -6351,6 +6355,10 @@
   "playstation__bushido-blade": {
     "year": "1997"
   },
+  "playstation__bushido-blade-2": {
+    "studio": "Light Weight",
+    "year": "1998"
+  },
   "playstation__bust-groove": {
     "studio": "Metro Graphics",
     "year": "1998"
@@ -6370,6 +6378,10 @@
     "studio": "Human Entertainment",
     "year": "1997"
   },
+  "playstation__colony-wars": {
+    "studio": "Psygnosis",
+    "year": "1997"
+  },
   "playstation__cool-boarders": {
     "studio": "UEP Systems",
     "year": "1996"
@@ -6381,6 +6393,10 @@
   "playstation__dance-dance-revolution": {
     "studio": "Konami",
     "year": "1999"
+  },
+  "playstation__descent-maximum": {
+    "studio": "Parallax Software",
+    "year": "1997"
   },
   "playstation__destruction-derby": {
     "studio": "Reflections Interactive",
@@ -6418,6 +6434,14 @@
   "playstation__gran-turismo-2": {
     "year": "1999"
   },
+  "playstation__guilty-gear": {
+    "studio": "Arc System Works",
+    "year": "1998"
+  },
+  "playstation__harvest-moon-back-to-nature": {
+    "studio": "Victor Interactive Software",
+    "year": "1999"
+  },
   "playstation__hot-shots-golf": {
     "studio": "Camelot Software Planning",
     "year": "1997"
@@ -6435,6 +6459,10 @@
   },
   "playstation__kula-world": {
     "studio": "Game Design Sweden",
+    "year": "1998"
+  },
+  "playstation__legend-of-legaia": {
+    "studio": "Contrail",
     "year": "1998"
   },
   "playstation__lego-racers": {
@@ -6466,6 +6494,10 @@
   "playstation__mega-man-legends": {
     "year": "1997"
   },
+  "playstation__mega-man-legends-2": {
+    "studio": "Capcom",
+    "year": "2000"
+  },
   "playstation__metal-gear-solid": {
     "year": "1998"
   },
@@ -6475,6 +6507,10 @@
   "playstation__need-for-speed-ii": {
     "studio": "Electronic Arts",
     "year": "1997"
+  },
+  "playstation__omega-boost": {
+    "studio": "Polygon Magic",
+    "year": "1999"
   },
   "playstation__pandemonium": {
     "studio": "Toys for Bob",
@@ -6493,6 +6529,10 @@
   "playstation__point-blank": {
     "studio": "Namco",
     "year": "1997"
+  },
+  "playstation__policenauts": {
+    "studio": "Konami",
+    "year": "1996"
   },
   "playstation__populous-beginning": {
     "year": "1999"
@@ -6513,6 +6553,10 @@
   "playstation__ridge-racer-revolution": {
     "studio": "Namco",
     "year": "1995"
+  },
+  "playstation__rival-schools-united-by-fate": {
+    "studio": "Capcom",
+    "year": "1999"
   },
   "playstation__silent-hill": {
     "year": "1999"
@@ -6578,6 +6622,10 @@
     "studio": "Namco",
     "year": "1997"
   },
+  "playstation__tobal-no-1": {
+    "studio": "Dream Factory",
+    "year": "1996"
+  },
   "playstation__tomb-raider-chronicles": {
     "year": "2000"
   },
@@ -6622,6 +6670,10 @@
   "playstation__wild-arms": {
     "studio": "Media.Vision",
     "year": "1997"
+  },
+  "playstation__wild-arms-2": {
+    "studio": "Media.Vision",
+    "year": "1999"
   },
   "playstation__worms-armageddon": {
     "studio": "Team17",
@@ -9059,6 +9111,18 @@
     "studio": "Remedy Entertainment",
     "year": "2023"
   },
+  "ps5__alan-wake-remastered": {
+    "studio": "Remedy Entertainment",
+    "year": "2021"
+  },
+  "ps5__alone-in-dark": {
+    "studio": "Pieces Interactive",
+    "year": "2024"
+  },
+  "ps5__armored-core-vi-fires-of-rubicon": {
+    "studio": "FromSoftware",
+    "year": "2023"
+  },
   "ps5__astro-bot": {
     "studio": "Team Asobi",
     "year": "2024"
@@ -9075,21 +9139,57 @@
     "studio": "Game Science",
     "year": "2024"
   },
+  "ps5__blasphemous-2": {
+    "studio": "The Game Kitchen",
+    "year": "2023"
+  },
   "ps5__callisto-protocol": {
     "studio": "Striking Distance Studios",
     "year": "2022"
+  },
+  "ps5__chants-of-sennaar": {
+    "studio": "Rundisc",
+    "year": "2023"
+  },
+  "ps5__chicory-colorful-tale": {
+    "studio": "Greg Lobanov",
+    "year": "2021"
+  },
+  "ps5__cocoon": {
+    "studio": "Geometric Interactive",
+    "year": "2023"
+  },
+  "ps5__crash-bandicoot-4-it-s-about-time": {
+    "studio": "Toys for Bob",
+    "year": "2021"
   },
   "ps5__crew-motorfest": {
     "studio": "Ivory Tower",
     "year": "2023"
   },
+  "ps5__crisis-core-final-fantasy-vii-reunion": {
+    "studio": "Square Enix",
+    "year": "2022"
+  },
   "ps5__cult-of-lamb": {
     "studio": "Massive Monster",
+    "year": "2022"
+  },
+  "ps5__cuphead": {
+    "studio": "Studio MDHR",
     "year": "2022"
   },
   "ps5__cyberpunk-2077": {
     "studio": "CD Projekt RED",
     "year": "2022"
+  },
+  "ps5__dark-pictures-anthology-devil-in-me": {
+    "studio": "Supermassive Games",
+    "year": "2022"
+  },
+  "ps5__dark-pictures-anthology-house-of-ashes": {
+    "studio": "Supermassive Games",
+    "year": "2021"
   },
   "ps5__dave-diver": {
     "studio": "Mintrocket",
@@ -9098,6 +9198,10 @@
   "ps5__dead-space": {
     "studio": "Motive Studio",
     "year": "2023"
+  },
+  "ps5__death-s-door": {
+    "studio": "Acid Nerve",
+    "year": "2021"
   },
   "ps5__death-stranding-director-s-cut": {
     "studio": "Kojima Productions",
@@ -9111,17 +9215,37 @@
     "studio": "Bluepoint Games",
     "year": "2020"
   },
+  "ps5__destruction-allstars": {
+    "studio": "Lucid Games",
+    "year": "2021"
+  },
   "ps5__devil-may-cry-5-special-edition": {
     "studio": "Capcom",
     "year": "2020"
+  },
+  "ps5__diablo-ii-resurrected": {
+    "studio": "Blizzard Entertainment",
+    "year": "2021"
   },
   "ps5__diablo-iv": {
     "studio": "Blizzard Entertainment",
     "year": "2023"
   },
+  "ps5__dirt-5": {
+    "studio": "Codemasters",
+    "year": "2020"
+  },
   "ps5__doom-eternal": {
     "studio": "id Software",
     "year": "2021"
+  },
+  "ps5__dragon-age-veilguard": {
+    "studio": "BioWare",
+    "year": "2024"
+  },
+  "ps5__dragon-quest-iii-hd-2d-remake": {
+    "studio": "Square Enix",
+    "year": "2025"
   },
   "ps5__dragon-s-dogma-2": {
     "studio": "Capcom",
@@ -9135,6 +9259,14 @@
     "studio": "EA Vancouver",
     "year": "2023"
   },
+  "ps5__ea-sports-wrc": {
+    "studio": "Codemasters",
+    "year": "2023"
+  },
+  "ps5__eiyuden-chronicle-hundred-heroes": {
+    "studio": "Rabbit & Bear Studios",
+    "year": "2024"
+  },
   "ps5__elden-ring": {
     "studio": "FromSoftware",
     "year": "2022"
@@ -9143,9 +9275,21 @@
     "studio": "Codemasters",
     "year": "2023"
   },
+  "ps5__f1-24": {
+    "studio": "Codemasters",
+    "year": "2024"
+  },
+  "ps5__fifa-23": {
+    "studio": "EA Vancouver",
+    "year": "2022"
+  },
   "ps5__final-fantasy-vii-rebirth": {
     "studio": "Square Enix",
     "year": "2024"
+  },
+  "ps5__final-fantasy-vii-remake-intergrade": {
+    "studio": "Square Enix",
+    "year": "2021"
   },
   "ps5__final-fantasy-xvi": {
     "studio": "Square Enix",
@@ -9167,13 +9311,29 @@
     "studio": "Polyphony Digital",
     "year": "2022"
   },
+  "ps5__granblue-fantasy-relink": {
+    "studio": "Cygames",
+    "year": "2024"
+  },
   "ps5__grand-theft-auto-v": {
     "studio": "Rockstar Games",
     "year": "2022"
   },
+  "ps5__grid-legends": {
+    "studio": "Codemasters",
+    "year": "2022"
+  },
+  "ps5__guilty-gear-strive": {
+    "studio": "Arc System Works",
+    "year": "2021"
+  },
   "ps5__hades": {
     "studio": "Supergiant Games",
     "year": "2021"
+  },
+  "ps5__helldivers-2": {
+    "studio": "Arrowhead Game Studios",
+    "year": "2024"
   },
   "ps5__hitman-3": {
     "studio": "IO Interactive",
@@ -9187,13 +9347,29 @@
     "studio": "Guerrilla Games",
     "year": "2022"
   },
+  "ps5__horizon-zero-dawn-remastered": {
+    "studio": "Guerrilla Games",
+    "year": "2024"
+  },
   "ps5__hot-wheels-unleashed": {
     "studio": "Milestone",
     "year": "2021"
   },
+  "ps5__immortality": {
+    "studio": "Half Mermaid",
+    "year": "2022"
+  },
   "ps5__inscryption": {
     "studio": "Daniel Mullins Games",
     "year": "2024"
+  },
+  "ps5__it-takes-two": {
+    "studio": "Hazelight Studios",
+    "year": "2021"
+  },
+  "ps5__jusant": {
+    "studio": "DON'T NOD",
+    "year": "2023"
   },
   "ps5__kena-bridge-of-spirits": {
     "studio": "Ember Lab",
@@ -9207,6 +9383,18 @@
     "studio": "Naughty Dog",
     "year": "2022"
   },
+  "ps5__last-of-us-part-ii-remastered": {
+    "studio": "Naughty Dog",
+    "year": "2024"
+  },
+  "ps5__lego-star-wars-skywalker-saga": {
+    "studio": "Traveller's Tales",
+    "year": "2022"
+  },
+  "ps5__lies-of-p": {
+    "studio": "Neowiz Round8 Studio",
+    "year": "2023"
+  },
   "ps5__like-dragon-gaiden-man-who-erased-his-name": {
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2023"
@@ -9219,9 +9407,25 @@
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2023"
   },
+  "ps5__little-nightmares-ii": {
+    "studio": "Tarsier Studios",
+    "year": "2021"
+  },
+  "ps5__madden-nfl-24": {
+    "studio": "EA Tiburon",
+    "year": "2023"
+  },
+  "ps5__marvel-s-spider-man-2": {
+    "studio": "Insomniac Games",
+    "year": "2023"
+  },
   "ps5__marvel-s-spider-man-miles-morales": {
     "studio": "Insomniac Games",
     "year": "2020"
+  },
+  "ps5__metal-gear-solid-delta-snake-eater": {
+    "studio": "Konami",
+    "year": "2025"
   },
   "ps5__metaphor-refantazio": {
     "studio": "Atlus",
@@ -9235,17 +9439,85 @@
     "studio": "San Diego Studio",
     "year": "2021"
   },
+  "ps5__mortal-kombat-1": {
+    "studio": "NetherRealm Studios",
+    "year": "2023"
+  },
+  "ps5__motogp-24": {
+    "studio": "Milestone",
+    "year": "2024"
+  },
+  "ps5__nba-2k24": {
+    "studio": "Visual Concepts",
+    "year": "2023"
+  },
   "ps5__need-for-speed-unbound": {
     "studio": "Criterion Games",
     "year": "2022"
+  },
+  "ps5__octopath-traveler-ii": {
+    "studio": "Square Enix",
+    "year": "2023"
+  },
+  "ps5__outlast-trials": {
+    "studio": "Red Barrels",
+    "year": "2024"
+  },
+  "ps5__overcooked-all-you-can-eat": {
+    "studio": "Ghost Town Games / Team17",
+    "year": "2020"
+  },
+  "ps5__party-animals": {
+    "studio": "Recreate Games",
+    "year": "2023"
+  },
+  "ps5__persona-3-reload": {
+    "studio": "Atlus",
+    "year": "2024"
   },
   "ps5__persona-5-royal": {
     "studio": "Atlus",
     "year": "2022"
   },
+  "ps5__persona-5-tactica": {
+    "studio": "Atlus",
+    "year": "2023"
+  },
+  "ps5__pga-tour-2k23": {
+    "studio": "HB Studios",
+    "year": "2022"
+  },
+  "ps5__plague-tale-requiem": {
+    "studio": "Asobo Studio",
+    "year": "2022"
+  },
+  "ps5__planet-of-lana": {
+    "studio": "Wishfully Studios",
+    "year": "2024"
+  },
+  "ps5__prince-of-persia-lost-crown": {
+    "studio": "Ubisoft Montpellier",
+    "year": "2024"
+  },
+  "ps5__psychonauts-2": {
+    "studio": "Double Fine Productions",
+    "year": "2021"
+  },
+  "ps5__quarry": {
+    "studio": "Supermassive Games",
+    "year": "2022"
+  },
   "ps5__ratchet-and-clank-rift-apart": {
     "studio": "Insomniac Games",
     "year": "2021"
+  },
+  "ps5__remnant-ii": {
+    "studio": "Gunfire Games",
+    "year": "2023"
+  },
+  "ps5__resident-evil-2": {
+    "studio": "Capcom",
+    "year": "2023"
   },
   "ps5__resident-evil-4": {
     "studio": "Capcom",
@@ -9259,9 +9531,25 @@
     "studio": "Housemarque",
     "year": "2021"
   },
+  "ps5__ride-5": {
+    "studio": "Milestone",
+    "year": "2023"
+  },
   "ps5__riders-republic": {
     "studio": "Ubisoft Annecy",
     "year": "2021"
+  },
+  "ps5__rise-of-ronin": {
+    "studio": "Team Ninja",
+    "year": "2024"
+  },
+  "ps5__rollerdrome": {
+    "studio": "Roll7",
+    "year": "2022"
+  },
+  "ps5__sackboy-big-adventure": {
+    "studio": "Sumo Digital",
+    "year": "2020"
   },
   "ps5__sea-of-stars": {
     "studio": "Sabotage Studio",
@@ -9271,12 +9559,44 @@
     "studio": "Sloclap",
     "year": "2022"
   },
+  "ps5__signalis": {
+    "studio": "rose-engine",
+    "year": "2023"
+  },
   "ps5__silent-hill-2": {
     "studio": "Bloober Team",
     "year": "2024"
   },
   "ps5__slay-spire": {
     "studio": "Mega Crit",
+    "year": "2023"
+  },
+  "ps5__slitterhead": {
+    "studio": "Bokeh Game Studio",
+    "year": "2024"
+  },
+  "ps5__snowrunner": {
+    "studio": "Saber Interactive",
+    "year": "2021"
+  },
+  "ps5__solar-ash": {
+    "studio": "Heart Machine",
+    "year": "2021"
+  },
+  "ps5__sonic-frontiers": {
+    "studio": "Sonic Team",
+    "year": "2022"
+  },
+  "ps5__split-fiction": {
+    "studio": "Hazelight Studios",
+    "year": "2025"
+  },
+  "ps5__star-ocean-divine-force": {
+    "studio": "tri-Ace",
+    "year": "2022"
+  },
+  "ps5__star-wars-jedi-survivor": {
+    "studio": "Respawn Entertainment",
     "year": "2023"
   },
   "ps5__stellar-blade": {
@@ -9287,13 +9607,49 @@
     "studio": "BlueTwelve Studio",
     "year": "2022"
   },
+  "ps5__street-fighter-6": {
+    "studio": "Capcom",
+    "year": "2023"
+  },
   "ps5__tales-of-arise": {
     "studio": "Bandai Namco Studios",
     "year": "2021"
   },
+  "ps5__tchia": {
+    "studio": "Awaceb",
+    "year": "2023"
+  },
+  "ps5__tekken-8": {
+    "studio": "Bandai Namco Studios",
+    "year": "2024"
+  },
+  "ps5__test-drive-unlimited-solar-crown": {
+    "studio": "KT Racing",
+    "year": "2024"
+  },
+  "ps5__tomb-raider-i-iii-remastered": {
+    "studio": "Aspyr",
+    "year": "2024"
+  },
   "ps5__tony-hawk-s-pro-skater-1-2": {
     "studio": "Vicarious Visions",
     "year": "2021"
+  },
+  "ps5__tunic": {
+    "studio": "Isometricorp Games",
+    "year": "2023"
+  },
+  "ps5__uncharted-legacy-of-thieves-collection": {
+    "studio": "Naughty Dog",
+    "year": "2022"
+  },
+  "ps5__unicorn-overlord": {
+    "studio": "Vanillaware",
+    "year": "2024"
+  },
+  "ps5__until-dawn": {
+    "studio": "Ballistic Moon",
+    "year": "2024"
   },
   "ps5__vampire-survivors": {
     "studio": "poncle",
@@ -9302,6 +9658,10 @@
   "ps5__warhammer-40-000-space-marine-2": {
     "studio": "Saber Interactive",
     "year": "2024"
+  },
+  "ps5__wo-long-fallen-dynasty": {
+    "studio": "Team Ninja",
+    "year": "2023"
   },
   "psp__3rd-birthday": {
     "year": "2010"
@@ -11506,6 +11866,10 @@
     "studio": "Remedy Entertainment",
     "year": "2012"
   },
+  "xbox-360__alpha-protocol": {
+    "studio": "Obsidian Entertainment",
+    "year": "2010"
+  },
   "xbox-360__assassin-s-creed-ii": {
     "studio": "Ubisoft Montreal",
     "year": "2009"
@@ -11529,6 +11893,10 @@
   "xbox-360__battlefield-3": {
     "studio": "DICE",
     "year": "2011"
+  },
+  "xbox-360__battlefield-bad-company": {
+    "studio": "DICE",
+    "year": "2008"
   },
   "xbox-360__battlefield-bad-company-2": {
     "studio": "DICE",
@@ -11574,13 +11942,37 @@
     "studio": "Infinity Ward",
     "year": "2007"
   },
+  "xbox-360__call-of-duty-black-ops": {
+    "studio": "Treyarch",
+    "year": "2010"
+  },
+  "xbox-360__call-of-duty-black-ops-ii": {
+    "studio": "Treyarch",
+    "year": "2012"
+  },
   "xbox-360__call-of-duty-modern-warfare-2": {
     "studio": "Infinity Ward",
     "year": "2009"
   },
+  "xbox-360__call-of-duty-modern-warfare-3": {
+    "studio": "Infinity Ward, Sledgehammer Games, Raven Software",
+    "year": "2011"
+  },
+  "xbox-360__call-of-duty-world-at-war": {
+    "studio": "Treyarch",
+    "year": "2008"
+  },
   "xbox-360__castle-crashers": {
     "studio": "The Behemoth",
     "year": "2008"
+  },
+  "xbox-360__castlevania-harmony-of-despair": {
+    "studio": "Konami",
+    "year": "2010"
+  },
+  "xbox-360__comic-jumper-adventures-of-captain-smiley": {
+    "studio": "Twisted Pixel Games",
+    "year": "2010"
   },
   "xbox-360__condemned-criminal-origins": {
     "studio": "Monolith Productions",
@@ -11594,6 +11986,10 @@
     "studio": "Ruffian Games",
     "year": "2010"
   },
+  "xbox-360__crysis-2": {
+    "studio": "Crytek",
+    "year": "2011"
+  },
   "xbox-360__dance-central": {
     "studio": "Harmonix",
     "year": "2010"
@@ -11605,6 +12001,10 @@
   "xbox-360__dark-souls-ii": {
     "studio": "FromSoftware",
     "year": "2014"
+  },
+  "xbox-360__dead-island": {
+    "studio": "Techland",
+    "year": "2011"
   },
   "xbox-360__dead-rising": {
     "studio": "Capcom",
@@ -11618,6 +12018,14 @@
     "studio": "Visceral Games",
     "year": "2011"
   },
+  "xbox-360__deadlight": {
+    "studio": "Tequila Works",
+    "year": "2012"
+  },
+  "xbox-360__deadly-premonition": {
+    "studio": "Access Games",
+    "year": "2010"
+  },
   "xbox-360__deus-ex-human-revolution": {
     "studio": "Eidos Montreal",
     "year": "2011"
@@ -11625,6 +12033,14 @@
   "xbox-360__devil-may-cry-4": {
     "studio": "Capcom",
     "year": "2008"
+  },
+  "xbox-360__diablo-iii": {
+    "studio": "Blizzard Entertainment",
+    "year": "2013"
+  },
+  "xbox-360__dirt-2": {
+    "studio": "Codemasters",
+    "year": "2009"
   },
   "xbox-360__dirt-3": {
     "studio": "Codemasters",
@@ -11642,6 +12058,10 @@
     "studio": "Capcom",
     "year": "2012"
   },
+  "xbox-360__dust-elysian-tail": {
+    "studio": "Humble Hearts",
+    "year": "2012"
+  },
   "xbox-360__elder-scrolls-iv-oblivion": {
     "studio": "Bethesda Game Studios",
     "year": "2006"
@@ -11649,6 +12069,14 @@
   "xbox-360__elder-scrolls-v-skyrim": {
     "studio": "Bethesda Game Studios",
     "year": "2011"
+  },
+  "xbox-360__enchanted-arms": {
+    "studio": "From Software",
+    "year": "2006"
+  },
+  "xbox-360__enslaved-odyssey-to-west": {
+    "studio": "Ninja Theory",
+    "year": "2010"
   },
   "xbox-360__eternal-sonata": {
     "studio": "tri-Crescendo",
@@ -11674,6 +12102,14 @@
     "studio": "Ubisoft Montreal",
     "year": "2012"
   },
+  "xbox-360__fez": {
+    "studio": "Polytron Corporation",
+    "year": "2012"
+  },
+  "xbox-360__fight-night-round-3": {
+    "studio": "EA Chicago",
+    "year": "2006"
+  },
   "xbox-360__final-fantasy-xiii": {
     "studio": "Square Enix",
     "year": "2010"
@@ -11681,6 +12117,10 @@
   "xbox-360__forza-horizon": {
     "studio": "Playground Games",
     "year": "2012"
+  },
+  "xbox-360__forza-motorsport-2": {
+    "studio": "Turn 10 Studios",
+    "year": "2007"
   },
   "xbox-360__forza-motorsport-3": {
     "studio": "Turn 10 Studios",
@@ -11734,6 +12174,10 @@
     "studio": "343 Industries",
     "year": "2012"
   },
+  "xbox-360__halo-combat-evolved-anniversary": {
+    "studio": "343 Industries, Saber Interactive",
+    "year": "2011"
+  },
   "xbox-360__halo-reach": {
     "studio": "Bungie",
     "year": "2010"
@@ -11741,6 +12185,18 @@
   "xbox-360__halo-wars": {
     "studio": "Ensemble Studios",
     "year": "2009"
+  },
+  "xbox-360__hydro-thunder-hurricane": {
+    "studio": "Vector Unit",
+    "year": "2010"
+  },
+  "xbox-360__ilomilo": {
+    "studio": "Southend Interactive",
+    "year": "2010"
+  },
+  "xbox-360__infinite-undiscovery": {
+    "studio": "tri-Ace",
+    "year": "2008"
   },
   "xbox-360__just-cause-2": {
     "studio": "Avalanche Studios",
@@ -11753,6 +12209,10 @@
   "xbox-360__kingdoms-of-amalur-reckoning": {
     "studio": "Big Huge Games",
     "year": "2012"
+  },
+  "xbox-360__l-noire": {
+    "studio": "Team Bondi",
+    "year": "2011"
   },
   "xbox-360__last-remnant": {
     "studio": "Square Enix",
@@ -11778,6 +12238,10 @@
     "studio": "Capcom",
     "year": "2006"
   },
+  "xbox-360__magna-carta-2": {
+    "studio": "Softmax",
+    "year": "2010"
+  },
   "xbox-360__mass-effect": {
     "studio": "BioWare",
     "year": "2007"
@@ -11790,6 +12254,10 @@
     "studio": "BioWare",
     "year": "2012"
   },
+  "xbox-360__maw": {
+    "studio": "Twisted Pixel Games",
+    "year": "2009"
+  },
   "xbox-360__max-payne-3": {
     "studio": "Rockstar Studios",
     "year": "2012"
@@ -11798,6 +12266,14 @@
     "studio": "PlatinumGames",
     "year": "2013"
   },
+  "xbox-360__metro-2033": {
+    "studio": "4A Games",
+    "year": "2010"
+  },
+  "xbox-360__midnight-club-los-angeles": {
+    "studio": "Rockstar San Diego",
+    "year": "2008"
+  },
   "xbox-360__minecraft-xbox-360-edition": {
     "studio": "4J Studios",
     "year": "2012"
@@ -11805,6 +12281,10 @@
   "xbox-360__need-for-speed-hot-pursuit": {
     "studio": "Criterion Games",
     "year": "2010"
+  },
+  "xbox-360__need-for-speed-most-wanted": {
+    "studio": "EA Black Box",
+    "year": "2005"
   },
   "xbox-360__nier": {
     "studio": "Cavia",
@@ -11818,6 +12298,10 @@
     "studio": "Valve",
     "year": "2007"
   },
+  "xbox-360__outland": {
+    "studio": "Housemarque",
+    "year": "2011"
+  },
   "xbox-360__pac-man-championship-edition-dx": {
     "studio": "Bandai Namco",
     "year": "2010"
@@ -11830,9 +12314,29 @@
     "studio": "Valve",
     "year": "2011"
   },
+  "xbox-360__prince-of-persia": {
+    "studio": "Ubisoft Montreal",
+    "year": "2008"
+  },
+  "xbox-360__project-gotham-racing-3": {
+    "studio": "Bizarre Creations",
+    "year": "2005"
+  },
   "xbox-360__project-gotham-racing-4": {
     "studio": "Bizarre Creations",
     "year": "2007"
+  },
+  "xbox-360__prototype": {
+    "studio": "Radical Entertainment",
+    "year": "2009"
+  },
+  "xbox-360__race-driver-grid": {
+    "studio": "Codemasters",
+    "year": "2008"
+  },
+  "xbox-360__rayman-origins": {
+    "studio": "Ubisoft Montpellier",
+    "year": "2011"
   },
   "xbox-360__red-dead-redemption": {
     "studio": "Rockstar San Diego",
@@ -11842,6 +12346,10 @@
     "studio": "Capcom",
     "year": "2009"
   },
+  "xbox-360__resident-evil-6": {
+    "studio": "Capcom",
+    "year": "2012"
+  },
   "xbox-360__resonance-of-fate": {
     "studio": "tri-Ace",
     "year": "2010"
@@ -11849,6 +12357,10 @@
   "xbox-360__rez-hd": {
     "studio": "Q Entertainment / HexaDrive",
     "year": "2008"
+  },
+  "xbox-360__risen": {
+    "studio": "Piranha Bytes",
+    "year": "2010"
   },
   "xbox-360__rock-band-3": {
     "studio": "Harmonix",
@@ -11866,9 +12378,25 @@
     "studio": "Firaxis Games",
     "year": "2008"
   },
+  "xbox-360__skate": {
+    "studio": "EA Black Box",
+    "year": "2007"
+  },
+  "xbox-360__skate-2": {
+    "studio": "EA Black Box",
+    "year": "2009"
+  },
   "xbox-360__skate-3": {
     "studio": "EA Black Box",
     "year": "2010"
+  },
+  "xbox-360__sonic-unleashed": {
+    "studio": "Sonic Team",
+    "year": "2008"
+  },
+  "xbox-360__south-park-stick-of-truth": {
+    "studio": "Obsidian Entertainment",
+    "year": "2014"
   },
   "xbox-360__spec-ops-line": {
     "studio": "Yager Development",
@@ -11878,9 +12406,17 @@
     "studio": "Black Rock Studio",
     "year": "2010"
   },
+  "xbox-360__splosion-man": {
+    "studio": "Twisted Pixel Games",
+    "year": "2009"
+  },
   "xbox-360__ssx": {
     "studio": "EA Canada",
     "year": "2012"
+  },
+  "xbox-360__stacking": {
+    "studio": "Double Fine Productions",
+    "year": "2011"
   },
   "xbox-360__star-ocean-last-hope": {
     "studio": "tri-Ace",
@@ -11894,6 +12430,14 @@
     "studio": "Namco Tales Studio",
     "year": "2008"
   },
+  "xbox-360__test-drive-unlimited": {
+    "studio": "Eden Games",
+    "year": "2006"
+  },
+  "xbox-360__tom-clancy-s-ghost-recon-future-soldier": {
+    "studio": "Ubisoft Paris",
+    "year": "2012"
+  },
   "xbox-360__tom-clancy-s-rainbow-six-vegas": {
     "studio": "Ubisoft Montreal",
     "year": "2006"
@@ -11906,9 +12450,21 @@
     "studio": "Neversoft",
     "year": "2006"
   },
+  "xbox-360__toy-soldiers": {
+    "studio": "Signal Studios",
+    "year": "2010"
+  },
+  "xbox-360__trials-evolution": {
+    "studio": "RedLynx",
+    "year": "2012"
+  },
   "xbox-360__trials-hd": {
     "studio": "RedLynx",
     "year": "2009"
+  },
+  "xbox-360__two-worlds-ii": {
+    "studio": "Reality Pump",
+    "year": "2011"
   },
   "xbox-360__vanquish": {
     "studio": "PlatinumGames",
@@ -11918,9 +12474,21 @@
     "studio": "Rare",
     "year": "2006"
   },
+  "xbox-360__walking-dead": {
+    "studio": "Telltale Games",
+    "year": "2012"
+  },
   "xbox-360__witcher-2-assassins-of-kings-enhanced-edition": {
     "studio": "CD Projekt RED",
     "year": "2012"
+  },
+  "xbox-360__wolf-among-us": {
+    "studio": "Telltale Games",
+    "year": "2013"
+  },
+  "xbox-360__wolfenstein": {
+    "studio": "Raven Software",
+    "year": "2009"
   },
   "xbox-one__alien-isolation": {
     "studio": "Creative Assembly",
@@ -11966,6 +12534,14 @@
     "studio": "Dlala Studios",
     "year": "2020"
   },
+  "xbox-one__borderlands-3": {
+    "studio": "Gearbox Software",
+    "year": "2019"
+  },
+  "xbox-one__bulletstorm-full-clip-edition": {
+    "studio": "People Can Fly",
+    "year": "2017"
+  },
   "xbox-one__burnout-paradise-remastered": {
     "studio": "Criterion Games",
     "year": "2018"
@@ -11989,6 +12565,14 @@
   "xbox-one__crackdown-3": {
     "studio": "Sumo Digital",
     "year": "2019"
+  },
+  "xbox-one__crash-team-racing-nitro-fueled": {
+    "studio": "Beenox",
+    "year": "2019"
+  },
+  "xbox-one__crew-2": {
+    "studio": "Ivory Tower",
+    "year": "2018"
   },
   "xbox-one__cuphead": {
     "studio": "Studio MDHR",
@@ -12026,9 +12610,25 @@
     "studio": "Capcom",
     "year": "2019"
   },
+  "xbox-one__diablo-iii-ultimate-evil-edition": {
+    "studio": "Blizzard Entertainment",
+    "year": "2014"
+  },
+  "xbox-one__dirt-4": {
+    "studio": "Codemasters",
+    "year": "2017"
+  },
+  "xbox-one__dirt-5": {
+    "studio": "Codemasters",
+    "year": "2020"
+  },
   "xbox-one__dirt-rally": {
     "studio": "Codemasters",
     "year": "2016"
+  },
+  "xbox-one__disco-elysium-final-cut": {
+    "studio": "ZA/UM",
+    "year": "2021"
   },
   "xbox-one__dishonored-2": {
     "studio": "Arkane Studios",
@@ -12050,6 +12650,10 @@
     "studio": "BioWare",
     "year": "2014"
   },
+  "xbox-one__dragon-s-dogma-dark-arisen": {
+    "studio": "Capcom",
+    "year": "2016"
+  },
   "xbox-one__dying-light": {
     "studio": "Techland",
     "year": "2015"
@@ -12058,13 +12662,37 @@
     "studio": "FromSoftware",
     "year": "2022"
   },
+  "xbox-one__elder-scrolls-v-skyrim-special-edition": {
+    "studio": "Bethesda Game Studios",
+    "year": "2016"
+  },
   "xbox-one__evil-within": {
     "studio": "Tango Gameworks",
     "year": "2014"
   },
+  "xbox-one__f1-2019": {
+    "studio": "Codemasters",
+    "year": "2019"
+  },
   "xbox-one__fallout-4": {
     "studio": "Bethesda Game Studios",
     "year": "2015"
+  },
+  "xbox-one__far-cry-4": {
+    "studio": "Ubisoft Montreal",
+    "year": "2014"
+  },
+  "xbox-one__far-cry-5": {
+    "studio": "Ubisoft Montreal",
+    "year": "2018"
+  },
+  "xbox-one__farming-simulator-19": {
+    "studio": "Giants Software",
+    "year": "2018"
+  },
+  "xbox-one__fifa-17": {
+    "studio": "EA Vancouver",
+    "year": "2016"
   },
   "xbox-one__final-fantasy-xv": {
     "studio": "Square Enix",
@@ -12118,6 +12746,10 @@
     "studio": "Rockstar North",
     "year": "2013"
   },
+  "xbox-one__greedfall": {
+    "studio": "Spiders",
+    "year": "2019"
+  },
   "xbox-one__grounded": {
     "studio": "Obsidian Entertainment",
     "year": "2020"
@@ -12154,6 +12786,10 @@
     "studio": "Playdead",
     "year": "2016"
   },
+  "xbox-one__just-cause-3": {
+    "studio": "Avalanche Studios",
+    "year": "2015"
+  },
   "xbox-one__killer-instinct": {
     "studio": "Double Helix Games",
     "year": "2013"
@@ -12164,6 +12800,14 @@
   },
   "xbox-one__little-nightmares": {
     "studio": "Tarsier Studios",
+    "year": "2017"
+  },
+  "xbox-one__madden-nfl-17": {
+    "studio": "EA Tiburon",
+    "year": "2016"
+  },
+  "xbox-one__mass-effect-andromeda": {
+    "studio": "BioWare",
     "year": "2017"
   },
   "xbox-one__metal-gear-solid-v-phantom-pain": {
@@ -12178,12 +12822,28 @@
     "studio": "Monolith Productions",
     "year": "2014"
   },
+  "xbox-one__middle-earth-shadow-of-war": {
+    "studio": "Monolith Productions",
+    "year": "2017"
+  },
   "xbox-one__minecraft-dungeons": {
     "studio": "Mojang Studios",
     "year": "2020"
   },
   "xbox-one__monster-hunter-world": {
     "studio": "Capcom",
+    "year": "2018"
+  },
+  "xbox-one__nba-2k17": {
+    "studio": "Visual Concepts",
+    "year": "2016"
+  },
+  "xbox-one__need-for-speed": {
+    "studio": "Ghost Games",
+    "year": "2015"
+  },
+  "xbox-one__ni-no-kuni-ii-revenant-kingdom": {
+    "studio": "Level-5",
     "year": "2018"
   },
   "xbox-one__nier-automata-become-as-gods-edition": {
@@ -12218,9 +12878,17 @@
     "studio": "PUBG Corporation",
     "year": "2017"
   },
+  "xbox-one__powerwash-simulator": {
+    "studio": "FuturLab",
+    "year": "2022"
+  },
   "xbox-one__prey": {
     "studio": "Arkane Studios",
     "year": "2017"
+  },
+  "xbox-one__project-cars": {
+    "studio": "Slightly Mad Studios",
+    "year": "2015"
   },
   "xbox-one__project-cars-2": {
     "studio": "Slightly Mad Studios",
@@ -12233,6 +12901,10 @@
   "xbox-one__quantum-break": {
     "studio": "Remedy Entertainment",
     "year": "2016"
+  },
+  "xbox-one__rage-2": {
+    "studio": "id Software, Avalanche Studios",
+    "year": "2019"
   },
   "xbox-one__rare-replay": {
     "studio": "Rare",
@@ -12278,9 +12950,21 @@
     "studio": "FromSoftware",
     "year": "2019"
   },
+  "xbox-one__shadow-of-tomb-raider": {
+    "studio": "Eidos Montreal",
+    "year": "2018"
+  },
   "xbox-one__shovel-knight": {
     "studio": "Yacht Club Games",
     "year": "2015"
+  },
+  "xbox-one__star-wars-battlefront": {
+    "studio": "DICE",
+    "year": "2015"
+  },
+  "xbox-one__star-wars-battlefront-ii": {
+    "studio": "DICE",
+    "year": "2017"
   },
   "xbox-one__star-wars-jedi-fallen-order": {
     "studio": "Respawn Entertainment",
@@ -12302,6 +12986,10 @@
     "studio": "SUPERHOT Team",
     "year": "2016"
   },
+  "xbox-one__team-sonic-racing": {
+    "studio": "Sumo Digital",
+    "year": "2019"
+  },
   "xbox-one__tell-me-why": {
     "studio": "DONTNOD Entertainment",
     "year": "2020"
@@ -12313,6 +13001,14 @@
   "xbox-one__titanfall-2": {
     "studio": "Respawn Entertainment",
     "year": "2016"
+  },
+  "xbox-one__tom-clancy-s-division": {
+    "studio": "Ubisoft Massive",
+    "year": "2016"
+  },
+  "xbox-one__tom-clancy-s-division-2": {
+    "studio": "Ubisoft Massive",
+    "year": "2019"
   },
   "xbox-one__tom-clancy-s-rainbow-six-siege": {
     "studio": "Ubisoft Montreal",
@@ -12329,6 +13025,30 @@
   "xbox-one__unravel": {
     "studio": "Coldwood Interactive",
     "year": "2016"
+  },
+  "xbox-one__vampyr": {
+    "studio": "Dontnod Entertainment",
+    "year": "2018"
+  },
+  "xbox-one__vanquish": {
+    "studio": "PlatinumGames",
+    "year": "2017"
+  },
+  "xbox-one__warframe": {
+    "studio": "Digital Extremes",
+    "year": "2013"
+  },
+  "xbox-one__wasteland-3": {
+    "studio": "inXile Entertainment",
+    "year": "2020"
+  },
+  "xbox-one__way-out": {
+    "studio": "Hazelight Studios",
+    "year": "2018"
+  },
+  "xbox-one__what-remains-of-edith-finch": {
+    "studio": "Giant Sparrow",
+    "year": "2017"
   },
   "xbox-one__witcher-3-wild-hunt": {
     "studio": "CD Projekt RED",
@@ -12354,6 +13074,18 @@
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2020"
   },
+  "xbox-one__yakuza-like-dragon": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2020"
+  },
+  "xbox-series__age-of-empires-ii-definitive-edition": {
+    "studio": "Forgotten Empires",
+    "year": "2022"
+  },
+  "xbox-series__age-of-empires-iv": {
+    "studio": "Relic Entertainment",
+    "year": "2023"
+  },
   "xbox-series__age-of-mythology-retold": {
     "studio": "World's Edge",
     "year": "2024"
@@ -12364,6 +13096,10 @@
   },
   "xbox-series__assassin-s-creed-valhalla": {
     "studio": "Ubisoft Montreal",
+    "year": "2020"
+  },
+  "xbox-series__astroneer": {
+    "studio": "System Era Softworks",
     "year": "2020"
   },
   "xbox-series__atomic-heart": {
@@ -12382,25 +13118,77 @@
     "studio": "Treyarch",
     "year": "2020"
   },
+  "xbox-series__chicory-colorful-tale": {
+    "studio": "Finji",
+    "year": "2022"
+  },
   "xbox-series__clair-obscur-expedition-33": {
     "studio": "Sandfall Interactive",
     "year": "2025"
+  },
+  "xbox-series__cocoon": {
+    "studio": "Geometric Interactive",
+    "year": "2023"
+  },
+  "xbox-series__crew-motorfest": {
+    "studio": "Ivory Tower",
+    "year": "2023"
+  },
+  "xbox-series__cult-of-lamb": {
+    "studio": "Massive Monster",
+    "year": "2022"
   },
   "xbox-series__cyberpunk-2077": {
     "studio": "CD Projekt Red",
     "year": "2022"
   },
+  "xbox-series__dead-space": {
+    "studio": "Motive Studio",
+    "year": "2023"
+  },
+  "xbox-series__death-s-door": {
+    "studio": "Acid Nerve",
+    "year": "2021"
+  },
+  "xbox-series__diablo-ii-resurrected": {
+    "studio": "Vicarious Visions / Blizzard Entertainment",
+    "year": "2021"
+  },
+  "xbox-series__diablo-iv": {
+    "studio": "Blizzard Entertainment",
+    "year": "2023"
+  },
   "xbox-series__dirt-5": {
     "studio": "Codemasters",
     "year": "2020"
+  },
+  "xbox-series__doom-eternal": {
+    "studio": "id Software",
+    "year": "2020"
+  },
+  "xbox-series__dredge": {
+    "studio": "Black Salt Games",
+    "year": "2023"
   },
   "xbox-series__dying-light-2-stay-human": {
     "studio": "Techland",
     "year": "2022"
   },
+  "xbox-series__ea-sports-fc-24": {
+    "studio": "EA Vancouver",
+    "year": "2023"
+  },
+  "xbox-series__ea-sports-wrc": {
+    "studio": "Codemasters",
+    "year": "2023"
+  },
   "xbox-series__elden-ring": {
     "studio": "FromSoftware",
     "year": "2022"
+  },
+  "xbox-series__f1-23": {
+    "studio": "Codemasters",
+    "year": "2023"
   },
   "xbox-series__forza-horizon-5": {
     "studio": "Playground Games",
@@ -12410,13 +13198,29 @@
     "studio": "Turn 10 Studios",
     "year": "2023"
   },
+  "xbox-series__gears-5": {
+    "studio": "The Coalition",
+    "year": "2020"
+  },
+  "xbox-series__grid-legends": {
+    "studio": "Codemasters",
+    "year": "2022"
+  },
   "xbox-series__grounded": {
     "studio": "Obsidian Entertainment",
     "year": "2022"
   },
+  "xbox-series__hades": {
+    "studio": "Supergiant Games",
+    "year": "2021"
+  },
   "xbox-series__halo-infinite": {
     "studio": "343 Industries",
     "year": "2021"
+  },
+  "xbox-series__halo-master-chief-collection": {
+    "studio": "343 Industries",
+    "year": "2020"
   },
   "xbox-series__hi-fi-rush": {
     "studio": "Tango Gameworks",
@@ -12426,13 +13230,41 @@
     "studio": "Avalanche Software",
     "year": "2023"
   },
+  "xbox-series__hot-wheels-unleashed": {
+    "studio": "Milestone",
+    "year": "2021"
+  },
+  "xbox-series__immortals-of-aveum": {
+    "studio": "Ascendant Studios",
+    "year": "2023"
+  },
   "xbox-series__indiana-jones-and-great-circle": {
     "studio": "MachineGames",
     "year": "2024"
   },
+  "xbox-series__it-takes-two": {
+    "studio": "Hazelight Studios",
+    "year": "2021"
+  },
   "xbox-series__lies-of-p": {
     "studio": "Round8 Studio",
     "year": "2023"
+  },
+  "xbox-series__like-dragon-gaiden-man-who-erased-his-name": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2023"
+  },
+  "xbox-series__like-dragon-infinite-wealth": {
+    "studio": "Ryu Ga Gotoku Studio",
+    "year": "2024"
+  },
+  "xbox-series__madden-nfl-24": {
+    "studio": "EA Tiburon",
+    "year": "2023"
+  },
+  "xbox-series__mass-effect-legendary-edition": {
+    "studio": "BioWare",
+    "year": "2021"
   },
   "xbox-series__metaphor-refantazio": {
     "studio": "Atlus",
@@ -12442,9 +13274,25 @@
     "studio": "Asobo Studio",
     "year": "2021"
   },
+  "xbox-series__mortal-kombat-1": {
+    "studio": "NetherRealm Studios",
+    "year": "2023"
+  },
+  "xbox-series__motogp-23": {
+    "studio": "Milestone",
+    "year": "2023"
+  },
+  "xbox-series__nba-2k24": {
+    "studio": "Visual Concepts",
+    "year": "2023"
+  },
   "xbox-series__need-for-speed-unbound": {
     "studio": "Criterion Games",
     "year": "2022"
+  },
+  "xbox-series__neon-white": {
+    "studio": "Angel Matrix",
+    "year": "2023"
   },
   "xbox-series__ori-and-will-of-wisps": {
     "studio": "Moon Studios",
@@ -12454,6 +13302,18 @@
     "studio": "Obsidian Entertainment",
     "year": "2022"
   },
+  "xbox-series__persona-3-reload": {
+    "studio": "P Studio / Atlus",
+    "year": "2024"
+  },
+  "xbox-series__persona-5-royal": {
+    "studio": "P Studio / Atlus",
+    "year": "2022"
+  },
+  "xbox-series__pizza-tower": {
+    "studio": "Tour De Pizza",
+    "year": "2024"
+  },
   "xbox-series__plague-tale-requiem": {
     "studio": "Asobo Studio",
     "year": "2022"
@@ -12462,17 +13322,37 @@
     "studio": "Double Fine Productions",
     "year": "2021"
   },
+  "xbox-series__remnant-ii": {
+    "studio": "Gunfire Games",
+    "year": "2023"
+  },
   "xbox-series__resident-evil-4": {
     "studio": "Capcom",
     "year": "2023"
+  },
+  "xbox-series__resident-evil-village": {
+    "studio": "Capcom",
+    "year": "2021"
   },
   "xbox-series__riders-republic": {
     "studio": "Ubisoft Annecy",
     "year": "2021"
   },
+  "xbox-series__rocket-league": {
+    "studio": "Psyonix",
+    "year": "2020"
+  },
   "xbox-series__s-t-l-k-e-r-2-heart-of-chornobyl": {
     "studio": "GSC Game World",
     "year": "2024"
+  },
+  "xbox-series__scarlet-nexus": {
+    "studio": "Bandai Namco Studios / Tose",
+    "year": "2021"
+  },
+  "xbox-series__sea-of-stars": {
+    "studio": "Sabotage Studio",
+    "year": "2023"
   },
   "xbox-series__senua-s-saga-hellblade-ii": {
     "studio": "Ninja Theory",
@@ -12486,6 +13366,10 @@
     "studio": "Compulsion Games",
     "year": "2025"
   },
+  "xbox-series__spiritfarer": {
+    "studio": "Thunder Lotus Games",
+    "year": "2020"
+  },
   "xbox-series__star-wars-jedi-survivor": {
     "studio": "Respawn Entertainment",
     "year": "2023"
@@ -12493,6 +13377,14 @@
   "xbox-series__starfield": {
     "studio": "Bethesda Game Studios",
     "year": "2023"
+  },
+  "xbox-series__street-fighter-6": {
+    "studio": "Capcom",
+    "year": "2023"
+  },
+  "xbox-series__tekken-8": {
+    "studio": "Bandai Namco Studios",
+    "year": "2024"
   },
   "xbox-series__tony-hawk-s-pro-skater-1-2": {
     "studio": "Vicarious Visions",
@@ -12502,6 +13394,18 @@
     "studio": "Andrew Shouldice / Finji",
     "year": "2022"
   },
+  "xbox-series__two-point-campus": {
+    "studio": "Two Point Studios",
+    "year": "2022"
+  },
+  "xbox-series__vampire-survivors": {
+    "studio": "poncle",
+    "year": "2022"
+  },
+  "xbox-series__wo-long-fallen-dynasty": {
+    "studio": "Team Ninja",
+    "year": "2023"
+  },
   "xbox-series__yakuza-like-dragon": {
     "studio": "Ryu Ga Gotoku Studio",
     "year": "2020"
@@ -12510,6 +13414,14 @@
     "studio": "GlyphX Games",
     "year": "2005"
   },
+  "xbox__airforce-delta-storm": {
+    "studio": "Cavia",
+    "year": "2002"
+  },
+  "xbox__amped-2": {
+    "studio": "Vicious Cycle Software",
+    "year": "2004"
+  },
   "xbox__amped-freestyle-snowboarding": {
     "studio": "Indie Built",
     "year": "2001"
@@ -12517,6 +13429,10 @@
   "xbox__arx-fatalis": {
     "studio": "Arkane Studios",
     "year": "2004"
+  },
+  "xbox__azurik-rise-of-perathia": {
+    "studio": "Adrenium Games",
+    "year": "2001"
   },
   "xbox__baldur-s-gate-dark-alliance": {
     "studio": "Snowblind Studios",
@@ -12541,6 +13457,10 @@
   "xbox__blinx-time-sweeper": {
     "studio": "Artoon",
     "year": "2002"
+  },
+  "xbox__blood-wake": {
+    "studio": "Stormfront Studios",
+    "year": "2001"
   },
   "xbox__bloodrayne": {
     "studio": "Terminal Reality",
@@ -12578,9 +13498,21 @@
     "studio": "Starbreeze Studios",
     "year": "2004"
   },
+  "xbox__colin-mcrae-rally-04": {
+    "studio": "Codemasters",
+    "year": "2004"
+  },
   "xbox__conflict-desert-storm": {
     "studio": "Pivotal Games",
     "year": "2002"
+  },
+  "xbox__conflict-desert-storm-ii-back-to-baghdad": {
+    "studio": "Pivotal Games",
+    "year": "2003"
+  },
+  "xbox__conflict-vietnam": {
+    "studio": "Pivotal Games",
+    "year": "2004"
   },
   "xbox__conker-live-and-reloaded": {
     "studio": "Rare",
@@ -12750,12 +13682,28 @@
     "studio": "Day 1 Studios",
     "year": "2002"
   },
+  "xbox__mechassault-2-lone-wolf": {
+    "studio": "Day 1 Studios",
+    "year": "2004"
+  },
   "xbox__metal-arms-glitch-in-system": {
     "studio": "Swingin' Ape Studios",
     "year": "2003"
   },
   "xbox__metal-gear-solid-2-substance": {
     "studio": "Konami",
+    "year": "2003"
+  },
+  "xbox__metal-wolf-chaos": {
+    "studio": "FromSoftware",
+    "year": "2004"
+  },
+  "xbox__midnight-club-3-dub-edition": {
+    "studio": "Rockstar San Diego",
+    "year": "2005"
+  },
+  "xbox__midnight-club-ii": {
+    "studio": "Rockstar San Diego",
     "year": "2003"
   },
   "xbox__midtown-madness-3": {
@@ -12768,6 +13716,22 @@
   },
   "xbox__mortal-kombat-deception": {
     "studio": "Midway",
+    "year": "2004"
+  },
+  "xbox__mx-vs-atv-unleashed": {
+    "studio": "Rainbow Studios",
+    "year": "2005"
+  },
+  "xbox__need-for-speed-most-wanted": {
+    "studio": "EA Black Box",
+    "year": "2005"
+  },
+  "xbox__need-for-speed-underground": {
+    "studio": "EA Black Box",
+    "year": "2003"
+  },
+  "xbox__need-for-speed-underground-2": {
+    "studio": "EA Black Box",
     "year": "2004"
   },
   "xbox__nfl-fever-2004": {
@@ -12854,6 +13818,10 @@
     "studio": "Digital Illusions CE",
     "year": "2004"
   },
+  "xbox__rayman-3-hoodlum-havoc": {
+    "studio": "Ubisoft Montpellier",
+    "year": "2003"
+  },
   "xbox__red-dead-revolver": {
     "studio": "Rockstar San Diego",
     "year": "2004"
@@ -12877,6 +13845,18 @@
   "xbox__silent-hill-2-restless-dreams": {
     "studio": "Konami",
     "year": "2001"
+  },
+  "xbox__sims": {
+    "studio": "Edge of Reality / Maxis",
+    "year": "2003"
+  },
+  "xbox__sims-bustin-out": {
+    "studio": "Electronic Arts",
+    "year": "2003"
+  },
+  "xbox__sonic-heroes": {
+    "studio": "Sonic Team",
+    "year": "2004"
   },
   "xbox__soulcalibur-ii": {
     "studio": "Project Soul",
@@ -12946,9 +13926,17 @@
     "studio": "Red Storm Entertainment",
     "year": "2002"
   },
+  "xbox__tom-clancy-s-ghost-recon-island-thunder": {
+    "studio": "Red Storm Entertainment",
+    "year": "2003"
+  },
   "xbox__tom-clancy-s-rainbow-six-3": {
     "studio": "Ubisoft Montreal",
     "year": "2003"
+  },
+  "xbox__tom-clancy-s-rainbow-six-3-black-arrow": {
+    "studio": "Ubisoft / Red Storm Entertainment",
+    "year": "2004"
   },
   "xbox__tom-clancy-s-splinter-cell": {
     "studio": "Ubisoft Montreal",
@@ -12957,6 +13945,18 @@
   "xbox__tom-clancy-s-splinter-cell-chaos-theory": {
     "studio": "Ubisoft Montreal",
     "year": "2005"
+  },
+  "xbox__tony-hawk-s-pro-skater-4": {
+    "studio": "Neversoft",
+    "year": "2002"
+  },
+  "xbox__tony-hawk-s-underground": {
+    "studio": "Neversoft",
+    "year": "2003"
+  },
+  "xbox__tony-hawk-s-underground-2": {
+    "studio": "Neversoft",
+    "year": "2004"
   },
   "xbox__top-spin": {
     "studio": "PAM Development",
@@ -12973,6 +13973,10 @@
   "xbox__unreal-championship-2-liandri-conflict": {
     "studio": "Digital Extremes",
     "year": "2005"
+  },
+  "xbox__urbz-sims-in-city": {
+    "studio": "Electronic Arts",
+    "year": "2004"
   },
   "xbox__voodoo-vince": {
     "studio": "Beep Industries",
