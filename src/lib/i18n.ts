@@ -4,6 +4,23 @@ export const LOCALES = ['cs', 'en', 'de', 'fr'] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = 'cs';
 
+/** Jazyky, pro ktere se pri buildu opravdu generuji stranky.
+ *
+ *  Nahled na GitHub Pages stavi jen cestinu: web ve vsech ctyrech mutacich ma
+ *  pres 20 000 stranek a bezmala 1 GB, coz je presne strop, ktery GitHub Pages
+ *  na web dava. Produkce na Netlify zadny takovy limit nema, takze tam se
+ *  stavi vsechno.
+ *
+ *  Ridi se promennou ONLY_CS=1 pri buildu. */
+export const BUILD_LOCALES: Locale[] =
+  import.meta.env.ONLY_CS === '1' ? [] : ['en', 'de', 'fr'];
+
+/** getStaticPaths pro stranky pod /[lang]/. */
+export const localePaths = () => BUILD_LOCALES.map((lang) => ({ params: { lang } }));
+
+/** Jazyky nabizene v prepinaci — bez tech, ktere se v tomto buildu negeneruji. */
+export const SWITCH_LOCALES: Locale[] = [DEFAULT_LOCALE, ...BUILD_LOCALES];
+
 export const LOCALE_NAME: Record<Locale, string> = {
   cs: 'Čeština',
   en: 'English',

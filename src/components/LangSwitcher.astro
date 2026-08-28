@@ -1,5 +1,5 @@
 ---
-import { LOCALES, LOCALE_NAME, LOCALE_FLAG, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import { LOCALES, SWITCH_LOCALES, LOCALE_NAME, LOCALE_FLAG, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
 interface Props {
@@ -27,7 +27,7 @@ const target = (l: Locale) => (localized ? localizePath(l, basePath) : localizeP
     <span class="chev" aria-hidden="true">▾</span>
   </summary>
   <ul class="lang-menu" role="menu">
-    {LOCALES.map((l) => (
+    {SWITCH_LOCALES.map((l) => (
       <li role="none">
         <a role="menuitem" href={target(l)} hreflang={l} class:list={['lang-item', { on: l === locale }]}>
           <span class="flag">{LOCALE_FLAG[l]}</span> <span>{LOCALE_NAME[l]}</span>

@@ -1,5 +1,12 @@
 [
  {
+  "slug": "ace-combat",
+  "name": "Ace Combat",
+  "match": [
+   "Ace Combat"
+  ]
+ },
+ {
   "slug": "age-of-empires",
   "name": "Age of Empires",
   "match": [
@@ -11,6 +18,13 @@
    "de": "Die Age-of-Empires-Reihe begann 1997, als das US-Studio Ensemble Studios im Auftrag von Microsoft eine Strategie in der antiken Welt veröffentlichte. Spieler bauen darin von Grund auf eine Zivilisation auf, sammeln Rohstoffe, durchlaufen technologische Zeitalter und führen Armeen in Echtzeit – ein Rezept, das zur Grundlage der ganzen Serie wurde. Die historische Atmosphäre, Dutzende spielbare Zivilisationen mit eigenen Einheiten und die empfindliche Balance zwischen Wirtschaft und Militär hoben das Spiel von der Konkurrenz ab und prägten das Genre der historischen Echtzeitstrategie über Jahre hinweg.\n\nDer Nachfolger Age of Empires II: The Age of Kings von 1999 und sein Add-on The Conquerors gelten bis heute als Höhepunkt der Serie – ausgewogene Zivilisationen, aufwendige historische Kampagnen und ein tiefer Mehrspielermodus machten das Spiel zum Dauerbrenner, um den eine bis heute aktive professionelle Esport-Szene entstand. Age of Empires III (2005) verlegte das Geschehen in die Kolonialzeit und führte Heimatstadt-Karten ein, doch nach der Schließung von Ensemble Studios 2009 wurde es um die Serie lange still. Zurück kam sie mit den remasterten Definitive-Edition-Fassungen und vor allem mit Age of Empires IV von 2021, entwickelt von Relic Entertainment und World's Edge, das zum klassischen Rezept zurückkehrte und bewies, dass es auch Jahrzehnte später noch funktioniert.",
    "fr": "La série Age of Empires a débuté en 1997, lorsque le studio américain Ensemble Studios a publié chez Microsoft une stratégie plantée dans le monde antique. Le joueur y bâtit une civilisation à partir de rien, récolte des ressources, traverse des âges technologiques et commande des armées en temps réel — une formule qui est devenue le socle de toute la série. L'atmosphère historique, des dizaines de civilisations jouables aux unités distinctes et l'équilibre délicat entre économie et art militaire l'ont démarquée de ses concurrentes et ont aidé à définir le genre de la stratégie historique en temps réel.\n\nLa suite, Age of Empires II : The Age of Kings, sortie en 1999, et son extension The Conquerors, restent considérées comme le sommet de la série : civilisations équilibrées, campagnes historiques soignées et multijoueur profond en ont fait un pilier autour duquel s'est bâtie une scène esport professionnelle toujours active aujourd'hui. Age of Empires III (2005) a transposé l'action à l'époque coloniale et introduit les cartes de ville natale, mais après la fermeture d'Ensemble Studios en 2009, la série s'est tue pendant des années. Elle est revenue avec les éditions remasterisées Definitive Edition, puis surtout avec Age of Empires IV en 2021, signé Relic Entertainment et World's Edge, qui a renoué avec la formule classique en prouvant qu'elle fonctionnait toujours des décennies plus tard."
   }
+ },
+ {
+  "slug": "alan-wake",
+  "name": "Alan Wake",
+  "match": [
+   "Alan Wake"
+  ]
  },
  {
   "slug": "animal-crossing",
@@ -65,6 +79,13 @@
   }
  },
  {
+  "slug": "bayonetta",
+  "name": "Bayonetta",
+  "match": [
+   "Bayonetta"
+  ]
+ },
+ {
   "slug": "bioshock",
   "name": "BioShock",
   "match": [
@@ -89,6 +110,20 @@
    "de": "Borderlands kam 2009 mit einer Idee, die heute selbstverständlich klingt und die damals niemand umsetzte: ein Ego-Shooter, in dem jeder Gegner Beute fallen lässt und die Waffen im Moment des Fundes erzeugt werden, sodass es zwei identische Gewehre praktisch nicht gibt. Gearbox verpackte das in einen comichaft konturierten Grafikstil, der das Spiel sofort erkennbar machte und es bis heute frisch hält, siedelte es auf dem von Verrückten beherrschten Planeten Pandora an und gab den Spielern vier Vault Hunter mit eigenen Fähigkeitsbäumen. Der Koop für bis zu vier Leute war von Anfang an das Herzstück und ergab zusammen mit dem stetigen Stufenaufstieg jene Schleife, die man heute Looter-Shooter nennt.\n\nBorderlands 2 von 2012 ist für die meisten der Höhepunkt, und der Grund ist schnell benannt: Handsome Jack, ein Bösewicht, der das ganze Spiel hindurch auf den Spieler einredet und dabei zugleich komisch und abstoßend ist, dazu deutlich besseres Schreiben, dichtere Missionen und umfangreiche Zusatzabenteuer. Borderlands: The Pre-Sequel verlegte die Handlung auf einen Mond mit geringer Schwerkraft und Sauerstoffmodulen, was den Gefechten Vertikalität gab, die Reihe aber eher zur Seite als nach vorn schob. Borderlands 3 lieferte 2019 das beste Schussgefühl der Marke und mehrere Planeten statt eines einzigen. Der Einfluss reicht weit über die Serie hinaus: Ohne Borderlands sähe eine ganze Reihe heutiger Actionspiele mit Zufallsbeute und endlos wachsenden Zahlen anders aus.",
    "fr": "Borderlands est arrivé en 2009 avec une idée qui paraît évidente aujourd'hui et que personne ne réalisait alors: un jeu de tir à la première personne où chaque ennemi lâche du butin et où les armes sont générées à la volée, si bien que deux fusils identiques n'existent pratiquement pas. Gearbox l'a habillé d'un style graphique aux contours de bande dessinée qui le rendait reconnaissable au premier coup d'œil et l'empêche encore de vieillir, l'a posé sur Pandore, planète livrée aux psychopathes, et a confié aux joueurs quatre Vault Hunters aux arbres de compétences distincts. La coopération jusqu'à quatre en était le cœur dès le premier jour et, avec la montée régulière en niveaux, a donné la boucle que l'on range désormais sous le nom de looter shooter.\n\nBorderlands 2, en 2012, reste le sommet pour la plupart des joueurs, et la raison est simple à nommer: Handsome Jack, un méchant qui vous parle pendant tout le jeu et parvient à être drôle et détestable à la fois, servi par une écriture nettement meilleure, des missions plus denses et de longues extensions. Borderlands: The Pre-Sequel a déplacé l'action sur une lune à faible gravité avec des modules d'oxygène, ce qui a donné de la verticalité aux combats mais a fait bouger la série de côté plutôt que vers l'avant. Borderlands 3, en 2019, a offert les meilleures sensations de tir de la marque et plusieurs planètes au lieu d'une seule. L'influence dépasse largement la série: sans Borderlands, quantité de jeux d'action actuels bâtis sur le butin aléatoire et l'escalade infinie des chiffres auraient une autre allure."
   }
+ },
+ {
+  "slug": "breath-of-fire",
+  "name": "Breath of Fire",
+  "match": [
+   "Breath of Fire"
+  ]
+ },
+ {
+  "slug": "broken-sword",
+  "name": "Broken Sword",
+  "match": [
+   "Broken Sword"
+  ]
  },
  {
   "slug": "burnout",
@@ -253,6 +288,13 @@
   }
  },
  {
+  "slug": "counter-strike",
+  "name": "Counter-Strike",
+  "match": [
+   "Counter-Strike"
+  ]
+ },
+ {
   "slug": "crash-bandicoot",
   "name": "Crash Bandicoot",
   "match": [
@@ -264,6 +306,13 @@
    "de": "Die Crash-Bandicoot-Reihe startete 1996 als Exklusivtitel für Sony PlayStation und wurde schnell zu einem Gesicht der Konsole. Entwickelt von Naughty Dog, war es ein lineares 3D-Plattformspiel, in dem der Bandicoot durch korridorartige Levels voller Fallen, Kisten und Gegner läuft, die durch Springen, Rutschen oder den charakteristischen Drehangriff besiegt werden. Im Vergleich zu offeneren 3D-Plattformern jener Zeit setzte die Serie auf zügiges Tempo, klare Wegführung und sorgfältig gebaute Levels mit steigendem Schwierigkeitsgrad. Die Fortsetzungen Crash Bandicoot 2: Cortex Strikes Back und vor allem Crash Bandicoot 3: Warped perfektionierten dies mit Fahrzeugen, Gleitflügen und mehr Levelvielfalt und gelten bis heute als Höhepunkt der Trilogie.\n\nNachdem sich Naughty Dog abgewandt hatte, übernahmen andere Studios die Entwicklung, und die Serie verlor in den 2000ern an Qualität und Identität. Die Wende kam 2017, als das Remaster Crash Bandicoot N. Sane Trilogy die ersten drei Teile modernisiert neuen wie zurückkehrenden Spielern zugänglich machte und später auch auf Nintendo Switch erschien. Bestätigt wurde das Comeback durch ein Remaster von Crash Team Racing sowie durch den neuen, direkt an Warped anknüpfenden Teil Crash Bandicoot 4: It's About Time. Crash Bandicoot bleibt ein Symbol für das goldene Zeitalter der 3D-Plattformer der späten Neunziger und ein Beweis, dass solides Leveldesign Jahrzehnte überdauert.",
    "fr": "La série Crash Bandicoot débute en 1996 en exclusivité sur Sony PlayStation et devient vite l'une des mascottes de la console. Créée par Naughty Dog, il s'agit d'une plate-forme 3D linéaire où le bandicoot traverse des niveaux en couloir remplis de pièges, de caisses et d'ennemis, affrontés en sautant, en glissant ou grâce à son attaque tournante. Face aux plates-formes 3D plus ouvertes de l'époque, la série misait sur un rythme rapide, un chemin clair et des niveaux soigneusement construits, à difficulté progressive. Les suites Crash Bandicoot 2: Cortex Strikes Back et surtout Crash Bandicoot 3: Warped ont porté cette formule à son sommet, ajoutant véhicules, glisse aérienne et plus de variété, et sont considérées comme l'apogée de la trilogie.\n\nAprès le départ de Naughty Dog, d'autres studios ont repris le développement et, durant les années 2000, la série a perdu en qualité et en identité. Le tournant survient en 2017 avec le remaster Crash Bandicoot N. Sane Trilogy, qui redonne vie aux trois premiers jeux dans une version modernisée, avant d'arriver aussi sur Nintendo Switch. Ce retour s'est confirmé avec un remaster de Crash Team Racing et avec le nouvel épisode Crash Bandicoot 4: It's About Time, qui fait directement suite à Warped. Crash Bandicoot reste un symbole de l'âge d'or des plates-formes 3D de la fin des années quatre-vingt-dix et la preuve qu'un level design soigné traverse bien les décennies."
   }
+ },
+ {
+  "slug": "crazy-taxi",
+  "name": "Crazy Taxi",
+  "match": [
+   "Crazy Taxi"
+  ]
  },
  {
   "slug": "dark-souls",
@@ -278,6 +327,23 @@
    "de": "Die Reihe, der ein ganzes Genre seinen Namen verdankt, begann 2009 mit Demon's Souls auf der PlayStation 3, dem kaum jemand Erfolg zutraute. FromSoftware baute es auf umgekehrter Logik auf: Gewöhnliche Gegner bleiben auch nach zwanzig Stunden gefährlich, der Tod gehört zum Lernen, und erklärt wird fast nichts. Dark Souls trieb die Idee 2011 mit dem verschachtelten Lordran auf die Spitze: Abkürzungen führen zu längst entzündeten Leuchtfeuern zurück, die Karte liest sich wie Architektur, nicht wie eine Liste von Levels. Seelen sind zugleich Erfahrung und Währung, sie bleiben am Ort des Todes liegen, und man hat einen einzigen Versuch, sie zurückzuholen.\n\nEbenso wichtig sind Atmosphäre und Erzählweise. Die Geschichte setzt sich aus Gegenstandsbeschreibungen, zerfallenen Kulissen und wenigen Sätzen von Figuren zusammen, die ihre eigene Lage kaum durchschauen; den Rest denkt man sich dazu. Der asynchrone Mehrspielermodus mit Botschaften am Boden, Blutflecken fremder Tode und Invasionen machte aus der einsamen Pilgerfahrt ein geteiltes Erlebnis. Dark Souls II spaltete die Fangemeinde, Bloodborne erhöhte 2015 das Tempo und verlegte den Horror nach Yharnam, Dark Souls III schloss den Kreis, Dark Souls Remastered brachte den Erstling 2018 auf die Switch. Als Höhepunkte gelten das erste Dark Souls und Bloodborne: das eine für den Weltenbau, das andere für den Mut zu neuen Regeln.",
    "fr": "La série à laquelle tout un genre doit son nom commence en 2009 avec Demon's Souls sur PlayStation 3, un jeu sur lequel personne n'aurait parié. FromSoftware le construit sur une logique inversée : le moindre ennemi reste dangereux après vingt heures, la mort fait partie de l'apprentissage et le jeu n'explique presque rien. Dark Souls porte l'idée à sa perfection en 2011 avec Lordran, monde entrelacé où les raccourcis ramènent vers un feu de camp déjà allumé et où la carte se lit comme une architecture, non comme une liste de niveaux. Les âmes servent d'expérience et de monnaie, restent là où l'on tombe, et il n'y a qu'une tentative pour les récupérer.\n\nL'atmosphère et la narration comptent autant. Le récit s'assemble à partir de descriptions d'objets, de décors en ruine et de quelques phrases de personnages qui ne comprennent pas leur situation ; le joueur imagine le reste. Le multijoueur asynchrone — messages tracés au sol, taches de sang rejouant la mort des autres, invasions dans votre partie — donne à ce pèlerinage solitaire un goût d'expérience partagée. Dark Souls II divise, Bloodborne accélère en 2015 et transporte l'horreur gothique à Yharnam, Dark Souls III referme la boucle et Dark Souls Remastered amène le premier épisode sur Switch en 2018. On cite comme sommets le premier Dark Souls et Bloodborne : l'un pour son monde, l'autre pour avoir osé changer ses règles."
   }
+ },
+ {
+  "slug": "dead-space",
+  "name": "Dead Space",
+  "match": [
+   "Dead Space"
+  ]
+ },
+ {
+  "slug": "descent",
+  "name": "Descent",
+  "match": [
+   "Descent"
+  ],
+  "exclude": [
+   "Dark Descent"
+  ]
  },
  {
   "slug": "deus-ex",
@@ -319,6 +385,13 @@
   }
  },
  {
+  "slug": "dirt",
+  "name": "DiRT",
+  "match": [
+   "DiRT"
+  ]
+ },
+ {
   "slug": "disgaea",
   "name": "Disgaea",
   "match": [
@@ -330,6 +403,20 @@
    "de": "Disgaea: Hour of Darkness erschien 2003 für die PlayStation 2, und das Taktik-Rollenspiel von Nippon Ichi Software setzte sich sofort vom ernsten Ton des Genres ab. Prinz Laharl erwacht aus langem Schlaf und stellt fest, dass um den Thron der Netherworld überraschend viele Bewerber raufen — die Geschichte lebt von Sarkasmus, übertriebenen Gesten und Anime-Übermut. Unter der Komik schlägt jedoch eines der tiefsten Systeme, die rundenbasierte Taktik je hatte: Figuren stapeln sich zu Türmen und schleudern einander über das Schlachtfeld, Geo-Panels ändern die Regeln ganzer Feldgruppen, und in der Dark Assembly wird über neue Gesetze vor einem Senat aus Dämonen abgestimmt, den man notfalls auch mit Gewalt überzeugen kann.\n\nDer eigentliche Reiz liegt in Zahlen ohne Bremse. Stufen reichen bis 9999, Waffen werden in einer eigenen Item World verbessert, und Schaden wird in Millionen gezählt, sodass das Spiel lange nach dem Abspann weitergeht. Cursed Memories, Absence of Justice auf der PlayStation 3 und A Promise Unforgotten bauten das Gerüst weiter aus, während die tragbaren Fassungen auf PSP und PS Vita Disgaea zum idealen Reisebegleiter machten. Der fünfte Teil Alliance of Vengeance kam auch auf die Switch, und 2018 folgte mit Disgaea 1 Complete eine moderne Rückkehr zum ursprünglichen Abenteuer. Für Freunde japanischer Taktik bleibt die Reihe der Maßstab für Umfang.",
    "fr": "Disgaea: Hour of Darkness sort sur PlayStation 2 en 2003, et le RPG tactique de Nippon Ichi Software prend aussitôt le contre-pied du sérieux ambiant. Le prince Laharl se réveille d'un long sommeil pour découvrir une bagarre étonnamment fournie autour du trône du Netherworld : le récit carbure au sarcasme, aux gestes outrés et à la démesure façon anime. Sous la comédie bat pourtant l'un des systèmes les plus profonds jamais offerts par la tactique au tour par tour : les personnages s'empilent en tours et se projettent d'un bout à l'autre du champ de bataille, les geo panels réécrivent les règles de zones entières, et au Dark Assembly les nouvelles lois se votent devant un sénat de démons qu'on peut, en dernier recours, convaincre par la force.\n\nLa vraie magie tient à des chiffres sans frein. Les niveaux grimpent jusqu'à 9999, les armes se perfectionnent dans leur propre Item World et les dégâts se comptent en millions, si bien que la partie se poursuit longtemps après le générique. Cursed Memories, Absence of Justice sur PlayStation 3 et A Promise Unforgotten élargissent l'édifice, tandis que les versions portables sur PSP et PS Vita font de Disgaea un compagnon de voyage idéal. Le cinquième épisode, Alliance of Vengeance, atteint aussi la Switch, et 2018 apporte Disgaea 1 Complete, retour modernisé à l'aventure d'origine. La série reste la référence en matière de générosité."
   }
+ },
+ {
+  "slug": "dishonored",
+  "name": "Dishonored",
+  "match": [
+   "Dishonored"
+  ]
+ },
+ {
+  "slug": "divinity",
+  "name": "Divinity",
+  "match": [
+   "Divinity"
+  ]
  },
  {
   "slug": "donkey-kong",
@@ -388,6 +475,41 @@
   }
  },
  {
+  "slug": "dragon-s-dogma",
+  "name": "Dragon's Dogma",
+  "match": [
+   "Dragon's Dogma"
+  ]
+ },
+ {
+  "slug": "dune",
+  "name": "Dune",
+  "match": [
+   "Dune"
+  ]
+ },
+ {
+  "slug": "eye-of-the-beholder",
+  "name": "Eye of the Beholder",
+  "match": [
+   "Eye of the Beholder"
+  ]
+ },
+ {
+  "slug": "f-15-strike-eagle",
+  "name": "F-15 Strike Eagle",
+  "match": [
+   "F-15 Strike Eagle"
+  ]
+ },
+ {
+  "slug": "fable",
+  "name": "Fable",
+  "match": [
+   "Fable"
+  ]
+ },
+ {
   "slug": "fallout",
   "name": "Fallout",
   "match": [
@@ -412,6 +534,13 @@
    "de": "Das erste Far Cry von 2004 war vor allem eine Technikdemonstration. Das deutsche Studio Crytek stellte damit seine CryEngine vor und mit ihr eine Tropeninsel, wie sie auf dem PC bis dahin niemand gesehen hatte: Sichtweiten über Kilometer, dichte Vegetation und Gegner, die sich aufteilten, umgingen und Verstärkung riefen. Der Spieler bekam ein weites, offenes Gelände, ein Ziel am anderen Ende und völlige Freiheit auf dem Weg dorthin — schleichend durchs Unterholz, per Boot entlang der Küste oder mit roher Gewalt. Diese Betonung der Improvisation im offenen Raum blieb der Marke erhalten, auch nachdem Ubisoft sie übernommen hatte.\n\nFar Cry 2 verlegte die Handlung in ein namenloses afrikanisches Land und ergänzte raue Details: klemmende Waffen, Malariaanfälle und Feuer, das sich von selbst durch trockenes Gras frisst. Der eigentliche Wendepunkt kam 2012 mit Far Cry 3, dessen Inselkarte aus Außenposten, Funktürmen zum Freischalten von Gebieten, Jagd und leisem Ausschalten eine Struktur begründete, die danach viele Open-World-Spiele kopierten — und dessen Gegenspieler Vaas zu einer der meistzitierten Spielfiguren seiner Generation wurde. Teil 4 wiederholte das Rezept im himalayischen Kyrat, Primal führte die Formel in die Steinzeit, und Far Cry 5 setzte 2018 auf eine Sekte im ländlichen Montana. Die Reihe bleibt ein Lehrstück, wie aus einem technischen Schaustück eine Genre-Schablone wird.",
    "fr": "Le premier Far Cry, sorti en 2004, était une démonstration technique. Le studio allemand Crytek y présentait son CryEngine et, avec lui, une île tropicale comme aucun PC n'en avait affiché: des distances d'affichage kilométriques, une végétation dense et des ennemis capables de se séparer, contourner et appeler des renforts. Le joueur recevait un vaste terrain ouvert, un objectif à l'autre bout et toute liberté pour y parvenir — en rampant dans les fourrés, en longeant la côte en bateau ou en fonçant de face. Cette improvisation en espace ouvert est restée la marque de fabrique de la série, même après sa reprise par Ubisoft.\n\nFar Cry 2 a déplacé l'action dans un pays africain jamais nommé et ajouté des détails rugueux: armes qui s'enrayent, crises de paludisme, incendies se propageant seuls dans l'herbe sèche. Le vrai basculement arrive en 2012 avec Far Cry 3, dont la carte insulaire faite d'avant-postes, de tours radio révélant le territoire, de chasse et d'éliminations discrètes a fondé une structure copiée ensuite par quantité de jeux en monde ouvert — et dont l'antagoniste Vaas est devenu l'un des personnages les plus cités de sa génération. Far Cry 4 a rejoué la partition dans le Kyrat himalayen, Primal a ramené la formule à la préhistoire, et Far Cry 5 a misé en 2018 sur une secte du Montana rural. La série reste un cas d'école: la vitrine technologique devenue modèle de genre."
   }
+ },
+ {
+  "slug": "fatal-frame",
+  "name": "Fatal Frame",
+  "match": [
+   "Fatal Frame"
+  ]
  },
  {
   "slug": "final-fantasy",
@@ -453,6 +582,13 @@
   }
  },
  {
+  "slug": "front-mission",
+  "name": "Front Mission",
+  "match": [
+   "Front Mission"
+  ]
+ },
+ {
   "slug": "gears-of-war",
   "name": "Gears of War",
   "match": [
@@ -480,6 +616,20 @@
   }
  },
  {
+  "slug": "golden-axe",
+  "name": "Golden Axe",
+  "match": [
+   "Golden Axe"
+  ]
+ },
+ {
+  "slug": "gradius",
+  "name": "Gradius",
+  "match": [
+   "Gradius"
+  ]
+ },
+ {
   "slug": "gran-turismo",
   "name": "Gran Turismo",
   "match": [
@@ -504,6 +654,13 @@
    "de": "Grand Theft Auto begann 1997 als Draufsicht auf eine Stadt, in der man keiner festen Route folgte, sondern aus dem Auto steigen, ein anderes nehmen und fahren konnte, wohin man wollte. Der Fahndungsstern war schon da als Maß dafür, wie weit man übers Ziel hinausgeschossen war, Aufträge kamen per Telefon, und das Autoradio machte aus dem Fahren eine Stimmung statt einer bloßen Ortsveränderung. Der zweite Teil ergänzte 1999 rivalisierende Banden und eine Gunst, die man gewinnen und verlieren konnte, doch der eigentliche Bruch kam mit Grand Theft Auto III im Jahr 2001: dieselbe Stadt, nur räumlich gebaut und über die Schulter gefilmt. Freies Spiel in einer zusammenhängenden dreidimensionalen Welt wurde von da an ein eigenes Genre.\n\nVice City setzte 2002 auf die Achtziger, eine Neonpalette und einen Soundtrack als Hauptfigur; San Andreas erweiterte zwei Jahre später die Karte auf einen ganzen Bundesstaat und ergänzte Fähigkeiten, Kleidung und Landschaft zwischen den Städten. Beide gelten meist als Höhepunkt jener Ära, und zwar wegen ihres unverwechselbaren Charakters, nicht wegen der Größe. Die Handhelds bekamen eine eigene Linie, von Grand Theft Auto Advance über Liberty City Stories und Vice City Stories auf der PSP bis zu Chinatown Wars. Grand Theft Auto IV verschärfte danach Ton und Physik, Grand Theft Auto V teilte 2013 die Geschichte auf drei Protagonisten auf. Die Reihe löste durchweg Streit über Gewalt in Spielen aus und setzte zugleich den Maßstab, an dem offene Welten bis heute gemessen werden.",
    "fr": "Grand Theft Auto a commencé en 1997 par une vue de dessus sur une ville sans itinéraire imposé : on pouvait sortir de sa voiture, en prendre une autre et rouler où bon semblait. L'étoile de recherche mesurait déjà à quel point on avait dépassé les bornes, les missions arrivaient par téléphone, et l'autoradio faisait de la conduite une ambiance et pas un simple déplacement. Le deuxième épisode, en 1999, a ajouté des gangs rivaux et une faveur à gagner ou perdre, mais la vraie rupture est venue avec Grand Theft Auto III en 2001 : la même ville, construite dans l'espace et filmée derrière l'épaule. Le jeu libre dans un monde tridimensionnel continu est devenu, dès lors, un genre à part entière.\n\nVice City a misé en 2002 sur les années quatre-vingt, une palette néon et une bande-son tenant le rôle d'un personnage principal ; San Andreas, deux ans plus tard, a élargi la carte à un État entier et ajouté compétences, vêtements et campagne entre les villes. On cite souvent ces deux-là comme le sommet de l'époque, pour leur caractère reconnaissable plus que pour leur superficie. Les portables ont eu leur propre lignée, de Grand Theft Auto Advance à Chinatown Wars en passant par Liberty City Stories et Vice City Stories sur PSP. Grand Theft Auto IV a durci le ton et la physique, et Grand Theft Auto V, en 2013, a réparti le récit entre trois protagonistes. La série a nourri les débats sur la violence dans le jeu vidéo tout en fixant l'étalon auquel les mondes ouverts se mesurent encore."
   }
+ },
+ {
+  "slug": "guitar-hero",
+  "name": "Guitar Hero",
+  "match": [
+   "Guitar Hero"
+  ]
  },
  {
   "slug": "half-life",
@@ -558,6 +715,27 @@
   }
  },
  {
+  "slug": "just-cause",
+  "name": "Just Cause",
+  "match": [
+   "Just Cause"
+  ]
+ },
+ {
+  "slug": "killzone",
+  "name": "Killzone",
+  "match": [
+   "Killzone"
+  ]
+ },
+ {
+  "slug": "king-s-quest",
+  "name": "King's Quest",
+  "match": [
+   "King's Quest"
+  ]
+ },
+ {
   "slug": "kirby",
   "name": "Kirby",
   "match": [
@@ -571,6 +749,41 @@
   }
  },
  {
+  "slug": "klonoa",
+  "name": "Klonoa",
+  "match": [
+   "Klonoa"
+  ]
+ },
+ {
+  "slug": "left-4-dead",
+  "name": "Left 4 Dead",
+  "match": [
+   "Left 4 Dead"
+  ]
+ },
+ {
+  "slug": "lego-racers",
+  "name": "Lego Racers",
+  "match": [
+   "Lego Racers"
+  ]
+ },
+ {
+  "slug": "little-nightmares",
+  "name": "Little Nightmares",
+  "match": [
+   "Little Nightmares"
+  ]
+ },
+ {
+  "slug": "littlebigplanet",
+  "name": "LittleBigPlanet",
+  "match": [
+   "LittleBigPlanet"
+  ]
+ },
+ {
   "slug": "mario",
   "name": "Mario",
   "match": [
@@ -582,6 +795,13 @@
    "de": "Als Super Mario Bros. 1985 auf dem NES erschien, war das nicht bloß ein weiteres Jump-and-Run — es war das Lehrbuch, an dem sich das ganze Genre seither orientiert. Der Klempner mit der roten Mütze war schon in den Automaten Donkey Kong und Mario Bros. aufgetaucht, doch erst im Pilzkönigreich bekam er das, was die Reihe bis heute ausmacht: absolut präzise Sprungsteuerung, Leveldesign, das ohne eine einzige Zeile Text unterrichtet, und eine Welt voller Geheimnisse hinter unscheinbaren Ziegelsteinen. Super Mario Bros. 3 ergänzte Kostüme und eine Weltkarte, Super Mario World auf dem SNES öffnete eine weitläufige, verbundene Landschaft und brachte Yoshi mit.\n\nDer Bruch kam 1996 mit Super Mario 64. Der Analogstick des N64 und eine frei drehbare Kamera machten aus Mario das erste wirklich funktionierende dreidimensionale Actionspiel und setzten Regeln, die andere Studios eine ganze Generation lang abschrieben. Es folgten Super Mario Sunshine auf dem GameCube, Super Mario Galaxy mit seinen Gravitationsspielereien und später Super Mario Odyssey. Auf den Handhelds lief eine eigene Linie: Super Mario Land, Super Mario Advance auf dem GBA, New Super Mario Bros. auf dem DS oder Super Mario 3D Land. Als Höhepunkte gelten meist Super Mario Bros. 3, Super Mario World, Super Mario 64 und Galaxy — jeder davon hat das Genre nicht nur verfeinert, sondern neu definiert. Nebenher wuchsen Mario Kart, Paper Mario und Mario & Luigi zu eigenen Marken heran.",
    "fr": "Quand Super Mario Bros. est arrivé sur NES en 1985, ce n'était pas un jeu de plates-formes de plus : c'était le manuel que tout le genre suit depuis. Le plombier à la casquette rouge était déjà apparu dans les bornes Donkey Kong et Mario Bros., mais c'est le Royaume Champignon qui lui a donné ce qui définit encore la série aujourd'hui : un contrôle du saut d'une précision absolue, un level design qui enseigne sans une seule ligne de texte, et un monde rempli de secrets cachés derrière une brique d'apparence banale. Super Mario Bros. 3 a ajouté les costumes et la carte du monde, tandis que Super Mario World sur SNES ouvrait un paysage vaste et interconnecté et amenait Yoshi.\n\nLe basculement est venu en 1996 avec Super Mario 64. Le stick analogique de la N64 et une caméra librement orientable ont fait de Mario le premier jeu d'action en trois dimensions réellement jouable, et ont posé des règles que les autres studios ont recopiées pendant toute une génération. Ont suivi Super Mario Sunshine sur GameCube, Super Mario Galaxy et ses jeux de gravité, puis Super Mario Odyssey. Une ligne parallèle vivait sur les portables : Super Mario Land, Super Mario Advance sur GBA, New Super Mario Bros. sur DS ou Super Mario 3D Land. On cite comme sommets Super Mario Bros. 3, Super Mario World, Super Mario 64 et Galaxy — chacun n'a pas seulement amélioré le genre, il l'a redéfini. Autour de la série principale ont grandi Mario Kart, Paper Mario ou Mario & Luigi."
   }
+ },
+ {
+  "slug": "marvel-s-spider-man",
+  "name": "Marvel's Spider-Man",
+  "match": [
+   "Marvel's Spider-Man"
+  ]
  },
  {
   "slug": "mass-effect",
@@ -650,6 +870,13 @@
   }
  },
  {
+  "slug": "metal-slug",
+  "name": "Metal Slug",
+  "match": [
+   "Metal Slug"
+  ]
+ },
+ {
   "slug": "metroid",
   "name": "Metroid",
   "match": [
@@ -661,6 +888,13 @@
    "de": "Metroid erschien 1986 und schwamm von der ersten Minute an gegen den Strom. Während die Plattformer ringsum die Spieler von links nach rechts schoben, setzte Metroid sie im dunklen Labyrinth des Planeten Zebes aus und ließ sie ihren Weg selbst finden. Kopfgeldjägerin Samus Aran sammelte nach und nach Fähigkeiten, vom Morph Ball über Raketen bis zum höheren Sprung, und jede davon öffnete zuvor verschlossene Orte. So entstand das Prinzip, das heute Metroidvania heißt: die Karte als Rätsel, Einsamkeit statt Dialogen und eine Atmosphäre, die von Musik und leeren Gängen getragen wird.\n\nDer zweite Teil auf dem Game Boy führte die Reihe in engere Tunnel, doch der eigentliche Höhepunkt war Super Metroid von 1994. Steuerung, Kartenführung und ein Erzählen fast ohne ein einziges Wort dienen bis heute als Lehrbuch des Genres. Auf dem GameCube bewies Retro Studios mit Metroid Prime, dass dieselbe Logik auch in der Ich-Perspektive trägt: Das Scannen der Umgebung ersetzte Gespräche, und die Reihe bekam einen zweiten, ebenso starken Zweig. Es folgten Metroid Fusion und Metroid: Zero Mission auf dem GBA, Metroid Prime Hunters auf dem DS, das Remake Metroid: Samus Returns auf dem 3DS und 2021 Metroid Dread auf der Switch, das nach langer Pause zur zweidimensionalen Form zurückkehrte und die unerbittlichen E.M.M.I. einführte.",
    "fr": "Metroid est sorti en 1986 et prenait déjà le contre-pied de son époque. Alors que les plateformers voisins poussaient le joueur de la gauche vers la droite, Metroid le lâchait dans le labyrinthe obscur de la planète Zebes en le laissant trouver son chemin seul. La chasseuse de primes Samus Aran accumulait peu à peu des capacités, du Morph Ball aux missiles en passant par un saut plus haut, et chacune ouvrait des zones jusque-là inaccessibles. Ainsi naissait le principe que l'on appelle aujourd'hui le metroidvania : une carte pensée comme une énigme, la solitude à la place des dialogues et une atmosphère portée par la musique et les couloirs vides.\n\nLe deuxième épisode sur Game Boy a resserré les tunnels, mais le véritable sommet reste Super Metroid, en 1994. Sa maniabilité, son usage de la carte et sa narration presque sans un mot servent encore de manuel au genre. Sur GameCube, Retro Studios a ensuite prouvé avec Metroid Prime que la même logique tenait à la première personne : scanner l'environnement remplaçait la parole, et la série gagnait une seconde branche tout aussi forte. Ont suivi Metroid Fusion et Metroid: Zero Mission sur GBA, Metroid Prime Hunters sur DS, le remake Metroid: Samus Returns sur 3DS, puis en 2021 Metroid Dread sur Switch, retour à la deux dimensions et à ses implacables poursuivants E.M.M.I."
   }
+ },
+ {
+  "slug": "midnight-club",
+  "name": "Midnight Club",
+  "match": [
+   "Midnight Club"
+  ]
  },
  {
   "slug": "might-and-magic",
@@ -729,6 +963,13 @@
   }
  },
  {
+  "slug": "ni-no-kuni",
+  "name": "Ni no Kuni",
+  "match": [
+   "Ni no Kuni"
+  ]
+ },
+ {
   "slug": "ninja-gaiden",
   "name": "Ninja Gaiden",
   "match": [
@@ -795,6 +1036,20 @@
   }
  },
  {
+  "slug": "pole-position",
+  "name": "Pole Position",
+  "match": [
+   "Pole Position"
+  ]
+ },
+ {
+  "slug": "portal",
+  "name": "Portal",
+  "match": [
+   "Portal"
+  ]
+ },
+ {
   "slug": "prince-of-persia",
   "name": "Prince of Persia",
   "match": [
@@ -808,6 +1063,20 @@
   }
  },
  {
+  "slug": "project-gotham-racing",
+  "name": "Project Gotham Racing",
+  "match": [
+   "Project Gotham Racing"
+  ]
+ },
+ {
+  "slug": "psychonauts",
+  "name": "Psychonauts",
+  "match": [
+   "Psychonauts"
+  ]
+ },
+ {
   "slug": "quake",
   "name": "Quake",
   "match": [
@@ -819,6 +1088,13 @@
    "de": "Quake erschien 1996 von id Software als direkter Nachfolger von Doom, bedeutete aber einen völlig anderen Sprung nach vorn – die erste wirklich dreidimensionale Spielwelt, in der Spieler nach oben und unten blicken konnten, mit Leveldesign aus echten Treppen, Brücken und vertikalen Räumen. Es lief auf DOS- und frühen Windows-9x-Rechnern mit Pentium-Prozessoren und wurde durch eine düstere, gotisch-industrielle Atmosphäre geprägt, unterstützt von einem dichten Soundtrack, an dem Trent Reznor mitwirkte. Neben der Solokampagne gegen dämonische Gegner brachte Quake auch einen Netzwerk-Mehrspielermodus mit, der zum Fundament für das gesamte Arena-Shooter-Genre wurde.\n\nDie Fortsetzung Quake II (1997) verlegte die Geschichte in ein Science-Fiction-Setting rund um den Kampf gegen die außerirdischen Strogg und verbesserte sowohl die Grafik-Engine als auch das Waffenarsenal. Zum eigentlichen Höhepunkt der Serie wurde jedoch Quake III Arena (1999), das ganz auf eine Story-Kampagne verzichtete und alles auf schnelle, rein multiplayerorientierte Action setzte – es wurde zu einer der Säulen der frühen E-Sport-Szene und erschien sogar für die Sega Dreamcast. Quake bewies, dass 3D-Action schnell und präzise zugleich sein kann, und legte den Grundstein für moderne Arena- und Wettkampf-Shooter, deren Einfluss im Genre bis heute spürbar ist.",
    "fr": "Quake est sorti en 1996 chez id Software comme successeur direct de Doom, mais il représentait un bond en avant totalement différent – le premier véritable monde de jeu tridimensionnel, où le joueur pouvait regarder vers le haut et le bas, avec un level design fait de vrais escaliers, ponts et espaces verticaux. Le jeu tournait sur DOS et les premiers ordinateurs Windows 9x à processeur Pentium, et se définissait par une atmosphère sombre, gothique et industrielle, renforcée par une bande-son dense à laquelle Trent Reznor a contribué. Outre sa campagne solo contre des ennemis démoniaques, Quake a introduit un multijoueur en réseau qui est devenu le fondement de tout le genre des jeux de tir en arène.\n\nLa suite, Quake II (1997), a déplacé l'intrigue dans un univers de science-fiction centré sur la guerre contre les extraterrestres Strogg, tout en améliorant le moteur graphique et l'arsenal d'armes. Le véritable sommet de la série reste toutefois Quake III Arena (1999), qui a totalement abandonné la campagne narrative pour tout miser sur une action rapide et purement multijoueur – devenant l'un des piliers de la scène esport naissante, et sortant même sur la console Sega Dreamcast. Quake a ainsi prouvé qu'une action en 3D pouvait être à la fois rapide et précise, posant les bases des jeux de tir en arène et compétitifs modernes dont l'influence se fait encore sentir aujourd'hui dans le genre."
   }
+ },
+ {
+  "slug": "r-type",
+  "name": "R-Type",
+  "match": [
+   "R-Type"
+  ]
  },
  {
   "slug": "ratchet-and-clank",
@@ -847,6 +1123,13 @@
   }
  },
  {
+  "slug": "red-dead-redemption",
+  "name": "Red Dead Redemption",
+  "match": [
+   "Red Dead Redemption"
+  ]
+ },
+ {
   "slug": "resident-evil",
   "name": "Resident Evil",
   "match": [
@@ -859,6 +1142,41 @@
    "de": "Resident Evil erschien 1996 für die PlayStation und prägte den Begriff Survival Horror. Ein Anwesen in den Wäldern vor Raccoon City, feste Kamerawinkel, vorgerenderte Hintergründe und eine Steuerung, die die Figur eher dreht als direkt bewegt — alles diente dem Ziel, dem Spieler die Sicht um die Ecke zu nehmen und ihn im Unbehagen zu lassen. Dazu ein enges Inventar, knappe Munition und eine Schreibmaschine, an der sich genau so oft speichern ließ, wie noch Farbbänder übrig waren. Die Spannung entstand weniger aus dem Schreckmoment als aus dem Rechnen: Habe ich genug Kugeln, um diesen Gang noch einmal zu betreten?\n\nDer zweite Teil mit Leon und Claire erweiterte die Struktur um zwei ineinandergreifende Kampagnen, Nemesis fügte einen Verfolger hinzu, der dem Spieler quer durch die Stadt auf den Fersen bleibt, und Code: Veronica überführte die Reihe auf dem Dreamcast in vollständig dreidimensionale Schauplätze. Das GameCube-Remake des ersten Teils gilt bis heute als eine der gelungensten Rückkehren zu einem alten Spiel überhaupt. Die eigentliche Revolution brachte jedoch Resident Evil 4 mit Schulterkamera und Zielen in Echtzeit — sein Aufbau der Actionszenen wurde binnen weniger Jahre von der ganzen Branche übernommen. Als der sechste Teil im Dauerfeuer versank, holte Resident Evil 7 die Reihe in die Egoperspektive und in ein beklemmendes Haus zurück, während die Remakes des zweiten und dritten Teils zeigten, dass der klassische Grundriss auch nach über zwanzig Jahren trägt.",
    "fr": "Resident Evil est sorti sur PlayStation en 1996 et a défini la notion de survival horror. Un manoir dans les bois près de Raccoon City, des caméras fixes, des décors pré-calculés et une maniabilité qui fait pivoter le personnage plutôt que de le déplacer directement : tout servait à empêcher le joueur de voir au-delà du coin et à le laisser mal à l'aise. À cela s'ajoutaient un inventaire étriqué, des munitions rares et une machine à écrire permettant exactement autant de sauvegardes qu'il restait de rubans encreurs. La tension naissait moins du sursaut que du calcul : ai-je assez de balles pour emprunter ce couloir une fois de plus ?\n\nLe deuxième épisode, mené par Leon et Claire, a élargi la structure en deux campagnes entrelacées, Nemesis a ajouté un poursuivant qui traque le joueur à travers la ville, et Code: Veronica a fait passer la série à des environnements entièrement en trois dimensions sur Dreamcast. Le remake du premier épisode sur GameCube est encore considéré comme l'un des retours les mieux menés vers un ancien jeu. La véritable révolution est pourtant venue de Resident Evil 4, avec sa caméra à l'épaule et sa visée en temps réel : en quelques années, toute l'industrie avait adopté sa façon d'agencer l'action. Quand le sixième épisode s'est noyé dans la fusillade, Resident Evil 7 a ramené la série à la première personne et dans une maison oppressante, tandis que les remakes des deuxième et troisième volets ont montré que le plan classique fonctionne encore plus de vingt ans après."
   }
+ },
+ {
+  "slug": "resistance",
+  "name": "Resistance",
+  "match": [
+   "Resistance"
+  ]
+ },
+ {
+  "slug": "ridge-racer",
+  "name": "Ridge Racer",
+  "match": [
+   "Ridge Racer"
+  ]
+ },
+ {
+  "slug": "road-rash",
+  "name": "Road Rash",
+  "match": [
+   "Road Rash"
+  ]
+ },
+ {
+  "slug": "romance-of-the-three-kingdoms",
+  "name": "Romance of the Three Kingdoms",
+  "match": [
+   "Romance of the Three Kingdoms"
+  ]
+ },
+ {
+  "slug": "saints-row",
+  "name": "Saints Row",
+  "match": [
+   "Saints Row"
+  ]
  },
  {
   "slug": "shin-megami-tensei",
@@ -887,6 +1205,27 @@
   }
  },
  {
+  "slug": "silent-hunter",
+  "name": "Silent Hunter",
+  "match": [
+   "Silent Hunter"
+  ]
+ },
+ {
+  "slug": "silent-service",
+  "name": "Silent Service",
+  "match": [
+   "Silent Service"
+  ]
+ },
+ {
+  "slug": "skate",
+  "name": "Skate",
+  "match": [
+   "Skate"
+  ]
+ },
+ {
   "slug": "sonic-the-hedgehog",
   "name": "Sonic the Hedgehog",
   "match": [
@@ -898,6 +1237,13 @@
    "de": "Sonic the Hedgehog erschien 1991 auf dem Mega Drive mit einem klaren Auftrag: Sega ein Maskottchen zu geben, das nicht Mario ist. Der blaue Igel sprang deshalb nicht vorsichtig, sondern raste über Loopings und Sprungfedern in einem Tempo, für das die Hardware jener Jahre kaum gebaut war. Die Reihe definiert sich über den Schwung — beschleunigt wird nicht per Knopfdruck, sondern über das Terrain — und über die Ringe, die klassische Leben durch einen eleganten Kompromiss aus Strafe und zweiter Chance ersetzten. Dazu kommen eine knallige Farbpalette, jazzig gefärbte Musik und Dr. Robotnik, ein Gegenspieler, der eher als Karikatur denn als Bedrohung wirkt.\n\nSonic the Hedgehog 2 brachte Tails und den Spin Dash, mit dem sich Tempo endlich auch aus dem Stand aufbauen ließ, und gilt vielen als ausgewogenster Teil der klassischen Ära. Sonic CD nutzte das Mega CD für Zeitreisen zwischen den Fassungen ein und desselben Levels, Sonic 3 und Sonic & Knuckles ließen sich zu einem einzigen riesigen Spiel zusammenstecken. Master System und Game Gear bekamen unterdessen eigene, deutlich langsamere Versionen — ein Kapitel für sich. Auf dem 32X erschien Knuckles Chaotix, auf dem Dreamcast wagte die Reihe mit Sonic Adventure den Schritt ins Dreidimensionale, auf dem GBA lief Sonic Advance. Als Höhepunkte gelten Sonic 2, das zusammengesteckte Sonic 3 & Knuckles und Sonic CD; später kam Sonic Mania hinzu, das den Rhythmus der Sechzehnbit-Ära genau traf.",
    "fr": "Sonic the Hedgehog est sorti en 1991 sur Mega Drive avec une consigne claire : donner à Sega une mascotte qui ne serait pas Mario. Le hérisson bleu ne sautait donc pas prudemment, il fonçait à travers loopings et ressorts à une vitesse pour laquelle les consoles de l'époque n'étaient guère conçues. La série se définit par l'inertie — on n'accélère pas avec un bouton mais avec le relief — et par les anneaux, qui ont remplacé les vies classiques par un élégant compromis entre punition et seconde chance. S'y ajoutent une palette de couleurs éclatante, une musique aux accents jazz et Dr. Robotnik, un adversaire qui tient davantage de la caricature que de la menace.\n\nSonic the Hedgehog 2 a introduit Tails et le spin dash, qui permettait enfin de lancer la vitesse à l'arrêt, et passe pour l'épisode le mieux équilibré de l'ère classique. Sonic CD a exploité le Mega CD pour voyager entre les versions passées et futures d'un même niveau, tandis que Sonic 3 et Sonic & Knuckles pouvaient s'assembler en un seul jeu gigantesque. La Master System et la Game Gear ont reçu pendant ce temps leurs propres versions, bien plus lentes : un chapitre à part. La 32X a eu Knuckles Chaotix, la Dreamcast a fait entrer la série en 3D avec Sonic Adventure, et la GBA a accueilli Sonic Advance. On cite comme sommets Sonic 2, le Sonic 3 & Knuckles assemblé et Sonic CD, rejoints plus tard par Sonic Mania, qui a retrouvé le rythme de l'ère seize bits avec une précision remarquable."
   }
+ },
+ {
+  "slug": "soulcalibur",
+  "name": "Soulcalibur",
+  "match": [
+   "Soulcalibur"
+  ]
  },
  {
   "slug": "splatoon",
@@ -939,6 +1285,13 @@
   }
  },
  {
+  "slug": "ssx",
+  "name": "SSX",
+  "match": [
+   "SSX"
+  ]
+ },
+ {
   "slug": "star-trek",
   "name": "Star Trek",
   "match": [
@@ -978,6 +1331,20 @@
   }
  },
  {
+  "slug": "streets-of-rage",
+  "name": "Streets of Rage",
+  "match": [
+   "Streets of Rage"
+  ]
+ },
+ {
+  "slug": "teenage-mutant-ninja-turtles",
+  "name": "Teenage Mutant Ninja Turtles",
+  "match": [
+   "Teenage Mutant Ninja Turtles"
+  ]
+ },
+ {
   "slug": "tekken",
   "name": "Tekken",
   "match": [
@@ -989,6 +1356,13 @@
    "de": "Tekken erschien 1994 auf Namcos Spielhallenhardware und wurde schon im Jahr darauf zu einem der ersten guten Gründe, sich eine PlayStation zu kaufen. Die Idee dahinter war fast banal: Jede der vier Tasten steuert eine Gliedmaße der Figur. Daraus wuchs ein Kampfsystem, in dem man keine abstrakten Befehle lernt, sondern konkrete Tritte und Schläge, und in dem jeder der Dutzenden Kämpfer eine eigene Kampfkunst und Hunderte von Bewegungen mitbringt. Tekken 3 brachte diesen Ansatz 1997 zur Vollendung — es führte echtes seitliches Ausweichen ein, das die Kämpfe endlich wirklich dreidimensional machte, und wird bis heute regelmäßig zu den besten Prügelspielen aller Zeiten gezählt.\n\nDie folgenden Jahre wechselten zwischen Experiment und Rückkehr zur Sicherheit. Tekken Tag Tournament brachte Kämpfe im Doppel, Tekken 4 versuchte es mit unebenen Arenen und Höhenunterschieden und erntete Ratlosigkeit, und Tekken 5 kehrte 2004 zu dem Tempo und der Klarheit zurück, die man von der Marke erwartete. Tekken 6 und Tekken Tag Tournament 2 vergrößerten das Aufgebot auf Ausmaße, die in den Neunzigern niemand für möglich gehalten hätte, während Handheld-Fassungen wie Dark Resurrection die Serie in die Hosentasche brachten. Tekken 7 schloss die lange Familiensaga der Mishimas ab und wurde zum festen Bestandteil der Turnierszene. Neben Virtua Fighter ist Tekken der Hauptgrund, warum dreidimensionale Prügelspiele überhaupt ein eigenes Genre sind.",
    "fr": "Tekken apparaît en 1994 sur les bornes d'arcade de Namco et devient, dès l'année suivante, l'une des premières bonnes raisons d'acheter une PlayStation. Son idée était pourtant presque banale : chacun des quatre boutons commande un membre du personnage. De là naît un système de combat où l'on n'apprend pas des commandes abstraites mais des coups de pied et de poing concrets, et où chacun des dizaines de combattants possède son art martial et ses centaines de mouvements. Tekken 3, en 1997, porte l'approche à son point d'équilibre — il introduit une véritable esquive latérale qui rend enfin les affrontements pleinement tridimensionnels, et on le cite encore parmi les meilleurs jeux de combat jamais produits.\n\nLes années suivantes alternent expériences et retours au classicisme. Tekken Tag Tournament amène les duels en duo, Tekken 4 tente des arènes irrégulières avec des différences de hauteur et récolte la perplexité, puis Tekken 5 renoue en 2004 avec la vitesse et la netteté qu'on attendait de la marque. Tekken 6 et Tekken Tag Tournament 2 gonflent le casting jusqu'à des proportions inimaginables dans les années quatre-vingt-dix, tandis que des versions portables comme Dark Resurrection glissent la série dans une poche. Tekken 7 referme la longue saga familiale des Mishima et s'installe durablement dans le circuit compétitif. Avec Virtua Fighter, Tekken est la principale raison pour laquelle le combat en trois dimensions existe comme genre à part entière."
   }
+ },
+ {
+  "slug": "tetris",
+  "name": "Tetris",
+  "match": [
+   "Tetris"
+  ]
  },
  {
   "slug": "the-elder-scrolls",
@@ -1047,6 +1421,27 @@
   }
  },
  {
+  "slug": "timesplitters",
+  "name": "TimeSplitters",
+  "match": [
+   "TimeSplitters"
+  ]
+ },
+ {
+  "slug": "titanfall",
+  "name": "Titanfall",
+  "match": [
+   "Titanfall"
+  ]
+ },
+ {
+  "slug": "tom-clancy-s-rainbow-six",
+  "name": "Tom Clancy's Rainbow Six",
+  "match": [
+   "Tom Clancy's Rainbow Six"
+  ]
+ },
+ {
   "slug": "tomb-raider",
   "name": "Tomb Raider",
   "match": [
@@ -1084,6 +1479,27 @@
    "de": "Total War begann im Jahr 2000 mit Shogun: Total War von Creative Assembly und verband von Anfang an eine rundenbasierte Strategiekarte mit spektakulären Echtzeitschlachten mit Tausenden Einheiten auf dem Bildschirm. Genau diese Verbindung - Reichsaufbau, Diplomatie und Wirtschaft auf der Karte, gepaart mit taktischer Führung auf dem Schlachtfeld - ist das Markenzeichen der Serie und hebt sie sowohl von klassischen rundenbasierten als auch von reinen Echtzeitstrategien ab. Die Atmosphäre lebt von historischen, später auch fantastischen Schauplätzen, die jede Entscheidung bedeutsam wirken lassen, vom Mikromanagement einer einzelnen Einheit bis zum Schicksal einer ganzen Zivilisation.\n\nAuf Shogun folgten Medieval: Total War und 2004 Rome: Total War, das oft als einer der Höhepunkte der Serie gilt - wegen ausgefeilter Schlachten, eines eindrucksvollen altrömischen Settings und eines technischen Sprungs bei Einheiten und Gelände. Die Serie entwickelte sich weiter über Medieval II, Empire und Napoleon bis zu Shogun 2, Rome II und Attila, bevor Creative Assembly später mit Total War: Warhammer einen Fantasy-Zweig eröffnete. Durch die enge Verschmelzung von strategischer und taktischer Ebene prägte Total War das gesamte Genre der großen historischen und fantastischen Strategiespiele nachhaltig und gilt für viele bis heute als Maßstab, an dem sich ähnliche Titel messen.",
    "fr": "Total War débute en 2000 avec Shogun: Total War chez Creative Assembly, mêlant dès le départ une carte stratégique au tour par tour à des batailles en temps réel spectaculaires réunissant des milliers d'unités à l'écran. Cette fusion - construction d'empire, diplomatie et économie sur la carte, associée au commandement tactique sur le champ de bataille - est la marque de fabrique de la série et la distingue aussi bien des stratégies classiques au tour par tour que des jeux en temps réel purs. Son atmosphère repose sur des décors historiques, puis fantastiques, qui donnent du poids à chaque décision, de la gestion d'une seule unité au destin d'une civilisation entière.\n\nShogun est suivi de Medieval: Total War puis, en 2004, de Rome: Total War, souvent cité comme l'un des sommets de la série pour ses batailles abouties, son cadre romain antique saisissant et un vrai bond technique dans le rendu des unités et des terrains. La série continue d'évoluer avec Medieval II, Empire et Napoléon, puis Shogun 2, Rome II et Attila, avant que Creative Assembly n'ouvre plus tard une branche fantastique avec Total War: Warhammer. En fusionnant aussi étroitement les couches stratégique et tactique, Total War a profondément marqué tout le genre des grandes stratégies historiques et fantastiques, et reste pour beaucoup une référence à laquelle on compare encore les jeux similaires."
   }
+ },
+ {
+  "slug": "trine",
+  "name": "Trine",
+  "match": [
+   "Trine"
+  ]
+ },
+ {
+  "slug": "turok",
+  "name": "Turok",
+  "match": [
+   "Turok"
+  ]
+ },
+ {
+  "slug": "twisted-metal",
+  "name": "Twisted Metal",
+  "match": [
+   "Twisted Metal"
+  ]
  },
  {
   "slug": "ultima",
@@ -1125,6 +1541,27 @@
   }
  },
  {
+  "slug": "valkyria-chronicles",
+  "name": "Valkyria Chronicles",
+  "match": [
+   "Valkyria Chronicles"
+  ]
+ },
+ {
+  "slug": "virtua-fighter",
+  "name": "Virtua Fighter",
+  "match": [
+   "Virtua Fighter"
+  ]
+ },
+ {
+  "slug": "warcraft",
+  "name": "Warcraft",
+  "match": [
+   "Warcraft"
+  ]
+ },
+ {
   "slug": "warhammer",
   "name": "Warhammer",
   "match": [
@@ -1151,6 +1588,13 @@
   }
  },
  {
+  "slug": "wild-arms",
+  "name": "Wild Arms",
+  "match": [
+   "Wild Arms"
+  ]
+ },
+ {
   "slug": "wing-commander",
   "name": "Wing Commander",
   "match": [
@@ -1162,6 +1606,13 @@
    "de": "Wing Commander erschien 1990 für DOS-PCs aus dem Hause Origin Systems und wurde als einer der ersten Weltraum-Kampfsimulatoren bekannt, der stark auf Erzählung setzte: Missionen schalteten sich je nach Ausgang vorheriger Kämpfe frei, sodass Spieler spürten, wie ihre eigene Leistung das Schicksal des gesamten Feldzugs gegen die feindliche Rasse der Kilrathi beeinflusste. Die Serie zeichnete sich durch die Kombination anspruchsvoller Cockpit-Luftkämpfe mit filmisch inszenierten Zwischensequenzen aus, was sie eher zu einer interaktiven Weltraumoper als zu reiner Action machte.\n\nDer Erfolg des ersten Teils führte zu Wing Commander II und anschließend zu vollständig realverfilmten Zwischensequenzen in Wing Commander III und IV, die gefilmte Szenen mit Schauspielern und eine ausgeprägtere, von Spielerentscheidungen abhängige Verzweigung der Geschichte kombinierten. Die Reihe erschien zudem für die Konsole 3DO und unterstützte das damals experimentelle Headset Forte VFX1 für eine immersive Cockpit-Perspektive, was den Anspruch der Serie zeigte, die technischen Grenzen des Genres zu verschieben. Als Höhepunkt der Serie gilt meist der Übergang zur filmischen Erzählweise in Wing Commander III, dank der Kombination aus starkem Missionsdesign und ambitionierter Produktion. Wing Commander half, das erzählgetriebene Weltraum-Simulator-Genre zu definieren, und beeinflusste eine ganze Generation von Spielen, die filmisches Erzählen mit Action-Gameplay verbinden wollten.",
    "fr": "Wing Commander est sorti en 1990 sur PC sous DOS, développé par Origin Systems, et s'est fait connaître comme l'un des premiers simulateurs de combat spatial fortement centrés sur la narration : les missions se débloquaient selon l'issue des combats précédents, si bien que le joueur sentait sa propre performance influencer le destin de toute la campagne contre la race ennemie des Kilrathis. La série se définissait par l'association de combats aériens exigeants aux commandes du cockpit et de cinématiques mises en scène, ce qui en faisait davantage une opéra spatial interactif qu'une simple action.\n\nLe succès du premier jeu a donné naissance à Wing Commander II, puis à des cinématiques entièrement filmées avec de véritables acteurs dans Wing Commander III et IV, associées à une intrigue plus richement ramifiée selon les choix du joueur. La série est également parue sur la console 3DO et prenait en charge le casque alors expérimental Forte VFX1 pour une vue immersive du cockpit, illustrant l'ambition de repousser les limites techniques du genre. Le passage à une narration cinématographique dans Wing Commander III est généralement considéré comme le sommet de la série, grâce à l'alliance d'un solide design de missions et d'une production ambitieuse. Wing Commander a contribué à définir le genre du simulateur spatial porté par le récit et a influencé toute une génération de jeux cherchant à fusionner narration cinématographique et jouabilité d'action."
   }
+ },
+ {
+  "slug": "wizardry",
+  "name": "Wizardry",
+  "match": [
+   "Wizardry"
+  ]
  },
  {
   "slug": "wolfenstein",
@@ -1202,6 +1653,13 @@
    "de": "Die X-COM-Reihe begann 1994 mit UFO: Enemy Unknown von Mythos Games, veröffentlicht von MicroProse für PC/DOS. Das Spiel verband strategische Basisverwaltung, Forschung und Finanzen mit rundenbasierten Gefechten gegen eine Alien-Invasion, in denen jeder Soldat dauerhaft sterben konnte. Diese Mischung aus endgültigem Verlust, Spannung vor einem unbekannten Gegner und der Notwendigkeit, jeden Schritt sorgfältig zu planen, prägte die ganze Serie und beeinflusste das Genre der rundenbasierten Taktik über Jahrzehnte. Die Fortsetzungen Terror from the Deep und Apocalypse erweiterten die Mechaniken, doch das Grundprinzip - die Verteidigung der Erde gegen eine außerirdische Bedrohung durch X-COM - blieb gleich.\n\nNach einigen schwächeren Action-Ablegern wurde es lange still um die Serie, bis Firaxis Games sie 2012 mit XCOM: Enemy Unknown wiederbelebte. Die neue Version bewahrte den Kern - rundenbasierte Kämpfe, Angst vor Einheitenverlust, Basisverwaltung - machte ihn aber mit klarerer Steuerung und höherem Tempo zugänglicher. Der Erfolg bestätigte sich mit XCOM 2, das Schwierigkeit und Tiefe weiter steigerte. Das Reboot von 2012 gilt heute oft als Höhepunkt der Serie, weil es klassische Prinzipien elegant mit modernem Design verband, und prägte zusammen mit dem ursprünglichen UFO: Enemy Unknown die Welle rundenbasierter Taktikspiele, die danach folgte.",
    "fr": "La série X-COM débute en 1994 avec UFO: Enemy Unknown, créé par Mythos Games et édité par MicroProse pour PC/DOS. Le jeu combinait gestion stratégique d'une base, recherche et finances avec des combats tactiques au tour par tour contre une invasion extraterrestre, où chaque soldat pouvait mourir définitivement. Ce mélange de pertes permanentes, de tension face à un ennemi inconnu et de planification minutieuse est devenu la marque de la série et a influencé le genre tactique pendant des décennies. Les suites Terror from the Deep et Apocalypse ont enrichi les mécaniques, mais le principe de base - défendre la Terre au sein de l'organisation secrète X-COM - est resté le même.\n\nAprès quelques spin-offs d'action plus faibles, la série s'est tue longtemps, jusqu'à ce que Firaxis Games la relance en 2012 avec XCOM: Enemy Unknown. Cette nouvelle version a conservé l'essentiel - combats au tour par tour, peur de perdre ses unités, gestion de base - tout en le rendant plus accessible grâce à des commandes plus claires et un rythme plus soutenu. Le succès s'est confirmé avec XCOM 2, qui a renforcé la difficulté et la profondeur tactique. Ce reboot de 2012 est considéré comme le sommet de la série, tant il a marié avec élégance principes classiques et design moderne, influençant, avec l'UFO: Enemy Unknown original, toute la vague de jeux de tactique au tour par tour qui a suivi."
   }
+ },
+ {
+  "slug": "x-men-legends",
+  "name": "X-Men Legends",
+  "match": [
+   "X-Men Legends"
+  ]
  },
  {
   "slug": "x-wing",

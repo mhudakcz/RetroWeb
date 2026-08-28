@@ -18090,7 +18090,7 @@
       "image": "/images/platforms/mega-drive.webp",
       "photoBg": "dark",
       "history": "Na konci osmdesátých let Nintendo ovládalo herní svět tak suverénně, že se zdálo nepřemožitelné. Pak ale přišla Sega s konzolí, která měla úplně jiný temperament. **Mega Drive** (v Severní Americe prodávaný jako **Genesis**) dorazil v Japonsku roku 1988, do Ameriky o rok později a do Evropy v roce 1990. Sega vsadila na rychlost, drzost a image „cool\" alternativy pro starší publikum — a chvíli měla 16bitový trh prakticky sama pro sebe, protože Super Nintendo dorazilo až později.\n\nSymbolem téhle filozofie se stal **Sonic the Hedgehog**. Tam, kde byl Mario rozvážný a dobrosrdečný, byl Sonic o rychlosti, postoji a sebevědomí. Slavný americký slogan „Genesis does what Nintendon't\" shrnoval celou strategii: být rychlejší, dospělejší a ochotnější jít na hranu. Symbolická byla kauza kolem hry **Mortal Kombat** — zatímco verze pro SNES krev cenzurovala, na Genesis šla po zadání kódu odemknout, což Sege u teenagerů vyneslo nemalé body.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je procesor **Motorola 68000** taktovaný na zhruba 7,6 MHz — tedy stejná rodina CPU, jaká pohání Amigu i rané Macintoshe. O zvuk a kompatibilitu se staral ještě pomocný osmibitový **Zilog Z80**, který dokázal řídit zvukový subsystém (a v režimu kompatibility i odbavit hry pro starší Master System).\n\nGrafika běží v rozlišení kolem **320×224** bodů. Z palety **512 barev** lze najednou zobrazit 61 barev (čtyři palety po šestnácti, s nulou jako průhlednou) — to byla oproti pozdějšímu SNES citelná nevýhoda a důvod, proč mívají hry na Mega Drive odvážnější, kontrastnější paletu. Naopak v pohybu konzole excelovala: hardware zvládal dvě scrollovací vrstvy plus vrstvu spritů a dovolil **až 80 spritů** na obrazovce, díky čemuž si svižné hry jako Sonic, Streets of Rage nebo Gunstar Heroes udrží tempo i v největším chaosu.\n\nZvuk obstarává FM čip **Yamaha YM2612** se šesti FM kanály, doplněný o čip **SN76489** se třemi tóny a šumem. Výsledkem je charakteristický „drsnější\", syntetický zvuk, který dal vzniknout legendárním soundtrackům — třeba hudbě Yuza Koshira ke **Streets of Rage 2**.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/2.webp\" alt=\"Sega Genesis Model 2 se šestitlačítkovým ovladačem\" loading=\"lazy\"><figcaption>Sega Genesis Model 2 se šestitlačítkovým ovladačem</figcaption></figure>\n\n### Propojeni a periferie\n\nMega Drive vychází vstříc multiplayeru — má **dva porty pro ovladače** a původní gamepad měl tři tlačítka, později přibyl populární **šestitlačítkový** model kvůli bojovkám typu Street Fighter II. Pro fanoušky závodů a sportu existoval rozbočovač **Team Player** (resp. 4-Player Adaptor) umožňující hru až čtyř hráčů.\n\nZ příslušenství stojí za zmínku světelná pistole **Menacer**, periferie **SEGA Activator** snímající pohyb a u japonské verze i modem pro službu Sega Meganet. Konzole se k televizi připojovala přes RF nebo kompozitní/RGB výstup; u prvních modelů byl k dispozici i sluchátkový výstup s regulací hlasitosti na předním panelu.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/3.webp\" alt=\"Japonský Sega Mega Drive, první model\" loading=\"lazy\"><figcaption>Japonský Sega Mega Drive, první model</figcaption></figure>\n\n### Modely a revize\n\nSega vydala několik hardwarových verzí. Původní **Model 1** (1988) měl onen sluchátkový jack a u nejstarších kusů nápis „High Definition Graphics\". Štíhlejší a levnější **Model 2** (1993) sluchátkový výstup vypustil a zjednodušil zvukové obvody (proslul mírně odlišným, „suššším\" zvukem). Existoval i kompaktní **Model 3** od Majesca a později licencované redesigny.\n\nK systému patřily i nástavby: **Sega CD** (v Japonsku Mega-CD) přidalo mechaniku na CD a hry s plnohodnotným zvukem a videosekvencemi, zatímco **32X** byl 32bitový výkonový nástavec nasazovaný na slot kartridže. Oba doplňky komerčně spíš pohořely a dnes jsou připomínkou toho, jak Sega svou náskokovou pozici postupně ztrácela.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/mega-drive/1.webp\" alt=\"Sega CDX – kombinace Genesis a Sega CD\" loading=\"lazy\"><figcaption>Sega CDX – kombinace Genesis a Sega CD</figcaption></figure>\n\n### Klony a varianty\n\nMega Drive je jednou z mála starších konzolí, jejíž klony se vyrábějí dodnes. Po vypršení patentů zaplavily trh levné varianty — nejznámější jsou modely **AtGames** (řada Sega Genesis/Mega Drive Classic s předinstalovanými hrami), čínské handheldy a all-in-one konzole. V Brazílii drží licenci firma **Tectoy**, která Mega Drive nepřetržitě prodává po desetiletí, vydávala i lokální exkluzivity a dotáhla to k vlastním novým revizím — Brazílie je tak největší žijící baštou této konzole.\n\nV Československu a širším východním bloku nebyl Mega Drive díky ceně a dovozním bariérám tak rozšířený jako osmibitové počítače; do popředí se dostal spíš až v devadesátých letech přes šedý dovoz a později právě přes levné klony.\n\n### Dnesni scena\n\nEmulace Mega Drive je dnes naprosto vyzrálá — jádra jako **Genesis Plus GX** běží spolehlivě i na slabém hardwaru a na moderních retro handheldech jdou hry plynule. Pozoruhodná je ovšem hlavně **homebrew scéna**, která patří k nejimpozantnějším vůbec. Vycházejí technicky vyspělé novinky jako **Demons of Asteborg**, **Xeno Crisis** nebo atmosférický **Tanglewood**, leckdy i na skutečných kartridžích. Protože Sega komunitu spíše toleruje, scéna kvete a Mega Drive tak třicet pět let po startu pořád žije.",
-      "gameCount": 104,
+      "gameCount": 106,
       "games": [
         {
           "slug": "mega-drive__sonic-hedgehog-1-3",
@@ -21462,6 +21462,44 @@
               "kind": "box"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__phantasy-star-iii-generations-of-doom",
+          "name": "Phantasy Star III: Generations of Doom",
+          "genre": "JRPG",
+          "length": "L",
+          "flags": [],
+          "year": "1990",
+          "studio": "Sega",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Phantasy Star III: Generations of Doom** je vlastně dvě odlišné hry sešité do jedné – rozsáhlá sci-fi a fantasy JRPG od Segy, která namísto lineárního příběhu jednoho hrdiny staví na myšlence rodové linie táhnoucí se přes tři generace. Hráč na začátku volí, s kým se ožení hlavní postava, a toto rozhodnutí pak určuje, jakým směrem se odvíjí zbytek dobrodružství – jaké postavy se přidají do party, jaké lokace navštíví a jak celý příběh nakonec skončí. Tento větvící se systém byl v roce 1990 na konzolích naprosto neobvyklý a dodnes se o něm mluví jako o jednom z prvních pokusů o skutečně nelineární vyprávění v žánru JRPG.\n\nHratelnost zůstává klasickým tahovým soubojovým systémem s pohledem shora a průzkumem měst a dungeonů, který Phantasy Star proslavil už na Master Systemu. Mega Drive přineslo hře barevnější prostředí a plynulejší animace, hudební doprovod ale působí strožeji a méně nápadně než u dvojky nebo čtyřky, což bývá jedna z hlavních výtek. Odlišný vývojářský tým i posun směrem k fantasy tématice namísto vesmírné sci-fi z předchozích dílů rozdělil fanoušky – řada z nich hru vnímala jako odbočku od hlavní linie série, než se s příchodem čtvrtého dílu ukázalo, jak se generační příběh zapojuje do celkové mytologie série.\n\nDobové přijetí bylo rozpačité, hra se často srovnávala s druhým dílem a vycházela z něj hůř, především kvůli jednodušší grafice postav a méně výrazným charakterům. S odstupem let si ale Generations of Doom vysloužilo uznání právě pro odvážný narativní experiment – větvení příběhu podle sňatku hrdiny bylo v době vydání ojedinělé a inspirovalo pozdější diskuze o nelineárním vyprávění v RPG. Dnes je hra zajímavá především pro fanoušky série a žánru, kteří ocení historický význam mechaniky, i když jako samostatný titul působí archaičtěji než jiné segovské RPG své doby.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "mega-drive__golden-axe-iii",
+          "name": "Golden Axe III",
+          "genre": "Beat 'em up",
+          "length": "S",
+          "flags": [],
+          "year": "1993",
+          "studio": "Sega",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Golden Axe III** je třetí díl Segovy fantasy mlátičky, který na rozdíl od prvních dvou dílů nevyšel v arkádách, ale byl vytvořen rovnou jako exkluzivní titul pro Mega Drive. Hráči se opět vydávají jako jeden ze tří bojovníků – tentokrát nově zvolených, s vlastními zbraněmi a kouzelnými schopnostmi – do lineárního postupu plného soubojů s vlnami nepřátel, jízdami na hřbetech fantastických stvoření a souboji s bossy na konci úrovní. Základní kostra zůstává věrná sérii – rubání mečem, magické útoky sbírané od malých skřítků a kooperativní hraní až pro dva hráče u jedné obrazovky.\n\nOproti předchozím dílům přidává třetí Golden Axe možnost volby mezi několika transformacemi postav během souboje, které dočasně mění jejich útoky, rychlost i vzhled, a nabízí také rozvětvenou strukturu úrovní, kdy si hráč po dokončení stage může vybrat, kterou cestou půjde dál, čímž vznikají různé varianty průchodu hrou i odlišné závěrečné souboje. Vizuálně hra těží z možností Mega Drive naplno – barevné pozadí, plynulá animace bojovníků i nestvůr a hudební podkres navazují na atmosféru předchozích dílů, byť už bez té syrové arkádové razance, kterou měl první Golden Axe ve výherních automatech. Obtížnost je oproti jedničce a dvojce o něco vlídnější a hra víc staví na variabilitě než na tvrdém opakovaném umírání, což ocenili hráči, kteří starší díly považovali za frustrující.\n\nProtože hra nikdy nevyšla v Severní Americe a v Evropě i Japonsku zůstala jen na Mega Drive bez arkádové sesterské verze, zůstala dlouho méně známá než první dva díly. Mezi fanoušky série je ale ceněná právě pro rozvětvenou strukturu, systém proměn a nové mechaniky, které se do žádného dalšího Golden Axe titulu už nevrátily. Dnes se hraje jako zajímavá odbočka: méně ikonická než původní Golden Axe, ale svým způsobem ambicióznější a pro fanoušky beat 'em upů z šestnáctibitové éry pořád zábavná i díky variabilitě, kterou nabízí při opakovaném hraní.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -26307,7 +26345,7 @@
       "image": "/images/platforms/playstation.webp",
       "photoBg": "dark",
       "history": "Když Sony v prosinci 1994 vypustila v Japonsku svůj první herní stroj, jen málokdo tušil, že právě začíná konec éry, v níž herní trh dělily mezi sebe Nintendo a Sega. **PlayStation** vznikl paradoxně z trosek nepovedeného partnerství — Sony původně připravovala CD doplněk pro Super Nintendo, ale Nintendo spolupráci na poslední chvíli zrušilo a uzavřelo dohodu s Philipsem. Pokořená, ale odhodlaná Sony svůj projekt přetavila v samostatnou konzoli a s ní porazila oba dosavadní krále.\n\nKlíčem k úspěchu byla sázka na **CD-ROM** místo drahých kartridží. To znamenalo levnější výrobu, mnohonásobně větší kapacitu (filmové scény, dabing, kvalitní hudba) a nižší bariéru pro studia. Sony se navíc k vývojářům chovala vstřícně a budovala „dospělejší\" image hraní mířenou na teenagery a mladé dospělé. Výsledek? Přes 100 milionů prodaných kusů a generace, která definovala moderní hraní. **Final Fantasy VII** zpopularizoval JRPG na Západě, **Resident Evil** a **Silent Hill** vytvořily žánr survival hororu, **Metal Gear Solid** a **Tomb Raider** ukázaly sílu 3D vyprávění a **Gran Turismo** povýšil závodní simulace.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole je 32bitový procesor **MIPS R3000A** taktovaný na zhruba 33,8 MHz, doplněný o specializovaný geometrický koprocesor **GTE** pro výpočty 3D transformací. Grafické jádro zvládalo vykreslit řádově statisíce texturovaných polygonů za sekundu a pracovalo v rozlišeních zhruba od 256×224 až po 640×480 bodů s paletou až 16,7 milionu barev.\n\nPlayStation má ovšem nezaměnitelný vizuální „rukopis\", který dnes zažívá nostalgickou renesanci. Konzole totiž neuměla **perspektivně korigovat textury** ani počítat hloubku přesně s plovoucí desetinnou čárkou — souřadnice zaokrouhlovala na celá čísla. Výsledkem je charakteristické „plavání\" a roztřesení textur i polygonů při pohybu kamery. Hardware navíc postrádal pořádný z-buffer, takže se hojně využívala mlha a tma ke skrytí kreslicí vzdálenosti. Právě tuhle estetiku dnes indie tvůrci záměrně napodobují pod hlavičkou „PS1 style\".\n\nZvuk obstarával vyhrazený čip **SPU** s **24 hardwarovými kanály**, podporou ADPCM vzorků a hardwarovým reverbem. Díky tomu hry zněly bohatě a kromě syntetizované hudby mohly přehrávat i plnohodnotné **CD Audio** stopy přímo z disku.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/playstation/2.webp\" alt=\"Oficiální multitap pro až čtyři hráče\" loading=\"lazy\"><figcaption>Oficiální multitap pro až čtyři hráče</figcaption></figure>\n### Propojeni a periferie\n\nStandardem byla **paměťová karta** s kapacitou 128 kB (15 bloků), do níž se ukládaly pozice — naprostá nutnost u rozsáhlých RPG. Konzole měla dva porty na ovladače a dva na karty.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/playstation/4.webp\" alt=\"Vzácný analogový joystick PlayStation (SCPH-1110)\" loading=\"lazy\"><figcaption>Vzácný analogový joystick PlayStation (SCPH-1110)</figcaption></figure>\nPůvodní ovladač byl bez páček; zlomem se stal **DualShock** (1997/1998) se dvěma analogovými páčkami a vibracemi, jenž předznamenal dnešní standard. Mezi periferie patřil **multitap** pro připojení až čtyř (resp. osmi) hráčů, světelná pistole **GunCon** od Namca, volant, taneční podložky a v Japonsku i modem a myš. Pro propojení dvou konzolí existoval **Link Cable** (např. pro split do dvou obrazovek v závodních hrách). Výstup šel přes proprietární **multi-out** konektor, který nabízel kompozit, S-Video i RGB SCART — RGB dávalo nejostřejší obraz.\n\n<figure class=\"article-photo\"><img src=\"/images/platforms/extra/playstation/6.webp\" alt=\"Zmenšený PS one s ovladačem a paměťovou kartou\" loading=\"lazy\"><figcaption>Zmenšený PS one s ovladačem a paměťovou kartou</figcaption></figure>\n### Modely a revize\n\nOriginální model nesl označení **SCPH-1000** a další číselné řady. Postupné revize zlevňovaly výrobu a řešily problémy — proslulé byly potíže s opotřebenou optikou a přeskakováním u starších kusů, které se daly zmírnit obrácením konzole. Pozdější verze také odebraly oddělený **paralelní (parallel I/O)** port využívaný cheatovacími zařízeními a sériový port.\n\nVelkým redesignem byl v roce 2000 **PS one** — výrazně menší, zaoblená konzole určená pro novou generaci kupujících, k níž šel dokoupit i malý LCD displej pro hraní mimo televizi. Konzole zůstala plně kompatibilní s původní knihovnou. Nástupce **PlayStation 2** navíc uměl díky příbuznému hardwaru přehrávat drtivou většinu her z PS1, čímž životnost titulů ještě prodloužil.\n\n### Klony a varianty\n\nSony si značku přísně chránila, takže legálních „klonů\" v duchu famiclonů prakticky neexistovalo. V postsovětském a východoevropském prostoru — Česko nevyjímaje — se ovšem fenoménem stalo **pirátství**: díky modchipům (malé čipy obcházející regionální a ochrannou kontrolu) a vypalovaným CD se PlayStation v 90. letech a kolem přelomu tisíciletí šířil i u nás, kde originální tituly byly pro mnohé finančně nedostupné. Tržnice a bazary s vypálenými disky byly tehdy běžnou realitou. Šlo o šedou až černou scénu, nikoli o oficiální klony hardwaru.\n\n### Dnesni scena\n\nEmulace PS1 patří k nejvyzrálejším vůbec. Na PC i přenosných systémech exceluje **DuckStation**, na slabších zařízeních a v rámci RetroArch dobře poslouží jádro **PCSX-ReARMed**. Emulátory navíc nabízejí vylepšení, o nichž se v 90. letech nikomu nesnilo — vyšší interní rozlišení, perspektivní korekci textur (konec „plavání\"), filtrování a širokoúhlý hack.\n\nSony samo vydalo v roce 2018 miniaturní **PlayStation Classic** s předinstalovanými hrami. Pro skutečné nadšence ale zůstává nejvděčnější cestou emulace s vlastními zálohami disků — jen je dobré počítat s tím, že CD obrazy zaberou na SD kartě výrazně víc místa než kartridžové konzole. Knihovna je tak bohatá, že tou nejtěžší otázkou zůstává: čím začít.",
-      "gameCount": 155,
+      "gameCount": 159,
       "games": [
         {
           "slug": "playstation__final-fantasy-vii",
@@ -31634,6 +31672,86 @@
               "kind": "box"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__r-type-delta",
+          "name": "R-Type Delta",
+          "genre": "Shmup",
+          "length": "S",
+          "flags": [],
+          "year": "1998",
+          "studio": "Irem",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**R-Type Delta** znamenal razantní grafický skok pro legendární sérii vodorovně orientovaných stříleček z produkce studia Irem – z tradiční 2D pixelové grafiky se přesunula do plně trojrozměrného prostředí, i když hratelnost zůstala věrná klasickému schématu postupu zleva doprava. Hráč opět ovládá stíhačku R-9, sbírá vylepšení zbraní a především manipuluje s ikonickým modulem Force, kulovým štítem, který lze vystřelit, přitáhnout zpět nebo jím obalit trup lodi a měnit tak úhel palby. Level design zůstává nemilosrdně obtížný, plný úzkých průchodů a nutnosti memorovat vzorce nepřátel, což je pro sérii typické už od arkádových začátků. Hráč si navíc může vybrat mezi několika verzemi lodi, z nichž každá zachází s modulem Force trochu jinak.\n\nPo technické stránce hra na PlayStationu působí velmi důstojně – trojrozměrná pozadí, plynulá animace bossů a atmosférická, industriálně laděná hudba vytvářejí sevřenou, temnou náladu, která ladí s vizí boje lidstva proti mimozemské entitě Bydo. Přechod ke 3D grafice s sebou nesl i určité kompromisy v přehlednosti projektilů na obrazovce, což ostřílení fanoušci žánru museli časem překousnout, ale celkově hra obstála jako důstojný nástupce předchozích dílů a jedna z posledních vlajkových lodí klasického stylu shoot 'em up na této generaci konzolí. Jednotlivé úrovně navíc nabízejí značnou vizuální rozmanitost, od organických biomechanických tunelů až po strohé kovové stanice.\n\nV době vydání šlo o titul určený spíše úzkému okruhu věrných fanoušků žánru, než ustoupil do niky ve prospěch akčnějších 3D stříleček a žánr jako takový na hlavních konzolích postupně ztrácel dech. Dnes je R-Type Delta ceněn jako zajímavý přechodový bod mezi 2D a 3D érou střílenic a sběratelský kousek pro fanoušky staré školy, byť jeho vysoká obtížnost a nekompromisní design odrazují příležitostné hráče, kteří by čekali odlehčenější zážitek. Pro mnohé fanoušky žánru zůstává poslední velkou klasickou epizodou série předtím, než se R-Type na dlouhou dobu odmlčel.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__persona-2-eternal-punishment",
+          "name": "Persona 2: Eternal Punishment",
+          "genre": "JRPG",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2000",
+          "studio": "Atlus",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Persona 2: Eternal Punishment** je přímé pokračování Innocent Sin a druhá polovina příběhu, který se odehrává v současné japonské metropoli zmítané podivnými fámami, jež se doslova mění ve skutečnost. Hráči se ujímají party mladých hrdinů kolem novinářky Maya Amano, kteří pomocí schopnosti přivolávat Persony, alternativní podoby vlastní psychiky, čelí démonickým silám i vlastním traumatům z minulosti. Bojový systém staví na sbírání a vyjednávání s démony metodou Contact, kdy lze nepřítele v souboji přesvědčit, vyděsit nebo rozesmát a tím ho naverbovat do party, což hru odlišuje od klasického grindování a dává jí výrazně sociální rozměr. Party postupně roste o další postavy s vlastní minulostí propojenou s hlavní zápletkou o fámách, které se stávají skutečností, a hráč mezi souboji tráví čas i procházením města a rozhovory, jež odhalují další vrstvy příběhu.\n\nPo grafické stránce hra na PlayStationu využívá stylizované postavičky na předrenderovaných pozadích a atmosféru dotváří výrazný soundtrack s jazzovými a acid-jazzovými prvky, který se stal jedním z poznávacích znamení rané éry série Persona ještě před přechodem k modernějšímu vizuálu. Příběh je temnější a dospělejší než u většiny tehdejších JRPG, řeší témata identity, viny a manipulace médii a veřejným míněním, a i díky tomu si vysloužil pověst kultovní záležitosti mezi fanoušky žánru.\n\nV západním vydání tehdy hráči dostali pouze tuto druhou polovinu příběhu, zatímco Innocent Sin zůstal dlouho výsadou Japonska, což hru na dlouhá léta obestřelo aurou vzácnosti a nedostupnosti. Dnes je Eternal Punishment považován za jeden z nejvýznamnějších přechodových titulů mezi starší a moderní Personou a jeho vliv je patrný i v pozdějších dílech série, které převzaly a rozvinuly koncept sociálních interakcí přímo v boji. I s odstupem let hra působí překvapivě sebevědomě a jako doklad toho, že Atlus měl osobitou uměleckou vizi ještě dávno předtím, než se série stala celosvětově proslulou.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__tekken",
+          "name": "Tekken",
+          "genre": "Bojová hra",
+          "length": "S",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1995",
+          "studio": "Namco",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Tekken** přenesl na PlayStation revoluci, kterou o rok dříve rozpoutal v hernách automat studia Namco – trojrozměrnou bojovou aritmetiku postavenou na čtyřech tlačítkách odpovídajících jednotlivým končetinám bojovníka. Místo klasického 2D pohybu do stran hra nabízela plné 3D pole s možností úhybů do hloubky, což spolu s propracovaným systémem komb a odlišnou sadou pohybů pro každou postavu vytvořilo základ, na kterém série stojí dodnes. Výběr bojovníků od karatisty Kazuyi Mishimy po zápasícího medvěda Kumu byl na svou dobu nezvykle pestrý a každá postava měla vlastní krátký, ale nápaditě odvyprávěný příběhový motiv, zasazený do rodinné ságy klanu Mishima, na které série staví dodnes. Souboje byly rychlé, přímočaré a odměňovaly hráče, kteří si osvojili konkrétní kombinace tlačítek pro jednotlivé postavy, což vytvořilo živou soutěživou scénu kolem hry ještě v arkádách.\n\nKonverze na PlayStation byla technicky velmi zdařilá a hru posunula k mnohem širšímu publiku, než jaké mají klasické arkádové skříně – textury byly oproti automatu jemně vylepšené a hra běžela plynule i v náročnějších soubojích s více efekty na obrazovce. Přidaná byla také exkluzivní obsahová nadstavba v podobě tréninkového režimu a galerie, které z domácí verze dělaly plnohodnotnější zážitek než mincovky v hernách. Atmosféru dotvářela elektronická hudba a digitalizované hlasové efekty, tehdy poměrně nezvyklá kombinace mimo japonské arkádové sály. Domácí verze navíc umožnila hráčům trénovat kombinace v klidu bez fronty u automatu.\n\nTekken se stal jedním z launchových trumfů konzole a nastartoval jednu z nejúspěšnějších bojových sérií v historii videoher. Z dnešního pohledu působí ovladatelnost strojeně a paleta postav skromně oproti pozdějším dílům, ale jako historický milník a základní kámen celé série má nezastupitelné místo v katalogu první PlayStation. Bez tohoto prvního kroku by se jen těžko rodily pozdější díly, které bojové hry ve 3D prostředí definovaly na dlouhá léta dopředu.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "playstation__rage-racer",
+          "name": "Rage Racer",
+          "genre": "Závodní",
+          "length": "M",
+          "flags": [],
+          "year": "1996",
+          "studio": "Namco",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Rage Racer** byl třetím dílem populární závodní série Ridge Racer a v jejím rámci znamenal citelný posun k temnější, industriální estetice – místo slunných pobřežních tratí nabídl špinavější, mlhavější prostředí lomů, přístavů a hornatých silnic. Namco si od série tentokrát ponechalo osvědčený systém driftování jako základní dovednost postupu tratí, ale rozšířilo ho o propracovanější kariérní režim, v němž si hráč vydělanými penězi kupoval a vylepšoval vozy a postupně se probojovával mezi výkonnostní třídy až k nejrychlejším strojům. Tento důraz na dlouhodobý postup a budování vlastního vozového parku dodal sérii, dosud spíše arkádové, hlubší strukturu, kterou hráči oceňovali při opakovaném hraní.\n\nTechnicky hra těžila z už zaběhnutého enginu předchozích dílů, ale výrazně vylepšila texturování a osvětlení tratí, díky čemuž vizuál působil o poznání atmosféričtěji než poměrně sterilní neonové závodění prvních dvou dílů série. Elektronická a taneční hudba doprovázející závody zůstala žánrovou vizitkou série a spolu s citelným pocitem rychlosti patřila k tomu, co si hráči na Ridge Raceru cenili nejvíc. Ovládání zůstalo přístupné začátečníkům, ale zvládnutí driftů v ostrých zatáčkách vyžadovalo cvik, což hře dodávalo dostatečnou hloubku pro opakované hraní. Trati byly komponovány tak, aby střídaly dlouhé rychlé úseky s technickými pasážemi plnými ostrých zatáček, a hráč tak musel přizpůsobovat styl jízdy podle aktuálního vozu i konkrétní trasy.\n\nRage Racer nebyl na první pohled tak okamžitě chytlavý jako předchozí Ridge Racer Revolution, ale díky propracovanějšímu kariérnímu módu a temnější atmosféře je dnes mnoha fanoušky vnímán jako jeden z nejzajímavějších dílů série na první PlayStation, byť ho v popularitě později zastínil čtvrtý díl s podtitulem Type 4. Právě propojení kariérního postupu s výraznou vizuální proměnou série z něj ale dělá důležitý mezikrok směrem k pozdější, propracovanější podobě značky Ridge Racer.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -46710,7 +46828,7 @@
       "image": "/images/platforms/ps2.webp",
       "photoBg": "dark",
       "history": "Když Sony v březnu 2000 v Japonsku (a na podzim téhož roku v Evropě a Severní Americe) uvedla PlayStation 2, navazovala na fenomenální úspěch prvního PlayStationu z pozice sebevědomého lídra. Nešlo ale o pouhé pokračování — PS2 se stala kulturním fenoménem, který definoval celou generaci a nakonec se zapsal do historie jako **vůbec nejprodávanější herní konzole všech dob** s více než 155 miliony prodaných kusů. Klíčem k tomuto triumfu nebyl jen výkon, ale geniální strategické rozhodnutí: PS2 uměla přehrávat **DVD filmy**. V době, kdy byly samostatné DVD přehrávače drahé, koupila spousta domácností PS2 vlastně jako levný přehrávač — a herní knihovna už si je získala sama.\n\nSony navíc chytře vsadila na kontinuitu. PS2 byla **zpětně kompatibilní s hrami pro PlayStation 1**, takže nový majitel nepřicházel o svou dosavadní sbírku. Díky obrovské instalované základně, silné podpoře vydavatelů a knihovně čítající tisíce titulů se PS2 udržela na trhu neuvěřitelně dlouho — oficiální výroba skončila teprve v **roce 2013**, tedy plných třináct let po premiéře.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole byl proslulý procesor **Emotion Engine**, 128bitové CPU taktované na necelých 300 MHz s vektorovými jednotkami (VU0 a VU1) optimalizovanými pro výpočet fyziky a transformace 3D geometrie. O vykreslování se staral čip **Graphics Synthesizer** s extrémně rychlou embedded videopamětí, který sázel spíš na obrovskou výplňovou rychlost (fillrate) než na tehdy moderní efekty. Konzole disponovala **32 MB hlavní paměti RDRAM**, což bylo v kontextu doby relativně málo a nutilo vývojáře k důmyslné optimalizaci.\n\nArchitektura PS2 byla pověstně **náročná na programování** — vyždímat z ní maximum trvalo roky. Zatímco rané tituly vypadaly někdy rozpačitě, pozdní hry jako **God of War II**, **Shadow of the Colossus** nebo **Gran Turismo 4** ukázaly, co ve stroji doopravdy dřímalo. O zvuk se staral vlastní procesor **SPU2** s 48 hlasy a podporou prostorového zvuku, díky čemuž hry nabízely bohatý orchestrální soundtrack i Dolby efekty.\n\n### Periferie a příslušenství\n\nKe konzoli se dodával přepracovaný ovladač **DualShock 2** — navenek téměř totožný s originálem, ale s **analogově citlivými tlačítky**, což u řady her přinášelo jemnější ovládání plynu či síly stisku. Naprostou revolucí byla kamera **EyeToy**, která snímala hráče a vtahovala jeho pohyby přímo do dění na obrazovce; předběhla tak éru pohybového ovládání o několik let.\n\nNechyběla ani karta **Network Adapter** pro online hraní (u pozdějších Slim modelů už integrovaná), taneční podložky pro sérii Dance Dance Revolution, mikrofony pro SingStar, plastové kytary pro Guitar Hero, buzzery pro kvízy Buzz! a nespočet volantů. Ukládání obstarávaly **paměťové karty** o kapacitě 8 MB.\n\n### Modely a revize\n\nPůvodní **\"tlustá\" PS2 (fat)** byla mohutná černá krabice s vertikálně orientovaným stojanem a čelní šachtou na paměťové karty. Klíčovou vychytávkou byl **rozšiřující slot (expansion bay)** na zadní straně, do kterého šlo nainstalovat **pevný disk (HDD)** — ten využívala legendární verze **Final Fantasy XI** nebo hra SOCOM a hlavně on umožňoval instalaci her přes homebrew.\n\nV roce 2004 přišla dramaticky zmenšená revize **PS2 Slimline (Slim)**, tenká jako kniha, s integrovaným síťovým adaptérem, ale bez interní šachty pro HDD. Právě Slim se stala dlouhodobým bestsellerem a prodávala se ještě dlouho do éry PlayStationu 3.\n\n### Význam a odkaz\n\nPlayStation 2 je bez nadsázky **nejúspěšnější a nejvlivnější konzole v dějinách**. Její obří knihovna pokrývá naprosto každý žánr — od monumentálních JRPG přes brutální akce, závody, bojovky až po umělecké skvosty jako **ICO** a **Okami**. Právě na PS2 vznikla řada sérií, které dodnes tvoří páteř herního průmyslu: God of War, Kingdom Hearts, Devil May Cry, Ratchet & Clank či Jak and Daxter.\n\nPro dnešní retrohráče je skvělou zprávou vyspělý emulátor **PCSX2**, který na výkonném PC zvládá drtivou většinu knihovny ve vyšším rozlišení. PS2 tak zůstává živou pokladnicí — možná největší, jakou kdy jedna konzole nabídla.",
-      "gameCount": 186,
+      "gameCount": 190,
       "games": [
         {
           "slug": "ps2__grand-theft-auto-iii",
@@ -53135,6 +53253,84 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "ps2__armored-core-2",
+          "name": "Armored Core 2",
+          "genre": "Akční mecha simulace",
+          "length": "M",
+          "flags": [],
+          "year": "2000",
+          "studio": "FromSoftware",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Armored Core 2** byla první hra série, která přestoupila z PlayStation na PlayStation 2, a hráčům ukázala, jak výrazně nová generace konzolí promění stavbu a souboje obřích bojových robotů zvaných Ravens. Jádrem hry zůstává hluboký systém customizace: hráč skládá vlastního mecha z desítek dílů – noh, zbraní, generátorů, chladičů i pancíře – a musí vyvažovat váhu, energetickou spotřebu a odolnost tak, aby stroj obstál v konkrétní misi. Kampaň provádí hráče sérií vojenských zakázek na kolonizované planetě, kde korporace bojují o nadvládu, a vedle příběhových misí nabízí i arénu, kde lze poměřit síly s dalšími piloty.\n\nTechnicky hra naplno využila výkon nového PS2 hardwaru – prostředí byla rozlehlejší, modely mechů detailnější a snímková frekvence v soubojích znatelně stabilnější než u předchozích dílů. Atmosféru dotváří strohý, industriální design měst a základen a elektronicko-orchestrální hudba, která podtrhuje chladnou, technokratickou náladu světa ovládaného zbrojařskými korporacemi. Ovládání zůstává náročné a vyžaduje zvyknutí – hra klade důraz na management energie a přehřívání zbraní spíše než na reflexy.\n\nV době vydání ocenili fanoušci mecha žánru právě hloubku customizace a pocit progrese, i když misijní design a chování protivníků působí ve srovnání s pozdějšími díly strojeněji. Hra zároveň rozšířila výběr misí o nepovinné vedlejší zakázky a soutěže v aréně, což prodloužilo hrací dobu nad rámec samotné hlavní dějové linky a dalo hráčům prostor experimentovat s různými konfiguracemi mechů bez rizika selhání v klíčové misi.\n\nArmored Core 2 nicméně upevnila základ, na kterém FromSoftware stavělo další roky, a spolu s pozdějším rozšířením Armored Core 2: Another Age ukázala, že si studio troufá na PS2 rozvíjet sérii rychleji a odvážněji než na předchozí konzoli. Pro sběratele i dnes hra představuje zajímavý pohled na počátky jedné z nejvytrvalejších mecha sérií v herní historii a na styl, který FromSoftware později přenesl i do zcela odlišných žánrů.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "ps2__armored-core-3",
+          "name": "Armored Core 3",
+          "genre": "Akční mecha simulace",
+          "length": "M",
+          "flags": [],
+          "year": "2002",
+          "studio": "FromSoftware",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Armored Core 3** přesunula sérii do zcela nového herního světa a přinesla přepracovaný systém arény i frakčních misí, čímž nastartovala takzvanou druhou generaci příběhu Armored Core. Hráč se opět ujímá role žoldáckého pilota Ravena, který si buduje kariéru plněním zakázek pro soupeřící korporace v podzemním městě zvaném Layered City – uzavřeném prostoru, kam se lidstvo stáhlo po ekologické katastrofě na povrchu. Stejně jako předchozí díly staví hra na precizní stavbě mecha z jednotlivých komponent, ale nabízí širší paletu dílů, propracovanější systém poškození a vyváženější ekonomiku odměn za splněné mise.\n\nGrafika i technické zpracování na PlayStation 2 udělaly znatelný krok vpřed – textury jsou detailnější, exploze a efekty zbraní působivější a snímková frekvence v soubojích stabilnější. Podzemní prostředí Layered City dodává hře klaustrofobní, industriální atmosféru, kterou umocňuje elektronická hudba s temnějším, mechaničtějším nádechem než u dvojky. Hratelnost zůstává nekompromisní vůči nováčkům – úspěch v misích závisí na pečlivém vyvážení výzbroje, energie a hmotnosti stroje.\n\nPříběh doplňují krátké textové a obrazové sekvence mezi misemi, které postupně odhalují politické pletichy korporací ovládajících podzemní město, aniž by hru zatěžovaly rozsáhlými filmečky – vyprávění tak zůstává úsporné a nechává hlavní prostor samotným soubojům a budování stroje.\n\nArmored Core 3 je fanoušky žánru často zmiňována jako jeden z nejvyváženějších a nejpřístupnějších dílů rané éry série, který zároveň nabídl dostatek hloubky pro hráče toužící po dokonalé stavbě mecha. Dodnes se k ní vrací příznivci mechanických simulátorů jako k ukázce toho, jak FromSoftware dokázalo skloubit strategickou přípravu s akčními souboji, a hra se stala odrazovým můstkem pro dvě přímá pokračování, Silent Line a Nexus, která rozvíjela stejný herní svět na téže konzoli.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "ps2__silent-hill-4-room",
+          "name": "Silent Hill 4: The Room",
+          "genre": "Survival horor",
+          "length": "M",
+          "flags": [
+            "mature"
+          ],
+          "year": "2004",
+          "studio": "Konami (Team Silent)",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Silent Hill 4: The Room** se od předchozích dílů série odklonila neobvyklým vyprávěcím rámcem: hlavní hrdina Henry Townshend zjišťuje, že jeho byt se záhadně uzamkl zevnitř a jediným únikem je díra ve zdi koupelny, která ho přenáší do pokřivených verzí Silent Hillu i jiných míst. Hra tak střídá fázi bezpečného, ale čím dál nepříjemnějšího bytu, který se postupně mění a je napadán nadpřirozenými jevy, s průzkumem klasických hororových lokací plných hádanek a nepřátel. Nová mechanika spočívá v tom, že po určité části hry hráče doprovází duch Eileen, o kterou je nutné pečovat a chránit ji v boji, což mění dynamiku soubojů i pohybu prostorem.\n\nNa PlayStation 2 hra těžila z osvědčeného vizuálního stylu série – mlhavých, rozostřených textur skrývajících technická omezení a zároveň umocňujících neklid z prostředí. Zvukový doprovod Akiry Jamaoky opět patřil k nejsilnějším stránkám hry: minimalistické, industriální tóny a nepříjemné ambientní zvuky vytvářejí napětí i bez explicitních leknutí. Level design bytu, který se postupně stává čím dál nehostinnějším, byl v době vydání vnímán jako odvážný, i když opakující se návraty do stejných lokací rozdělily část hráčské základny.\n\nSouboje jsou navíc oproti předchozím dílům syrovější a méně vybavené – zbraně se opotřebovávají a ničí, což hráče nutí spoléhat spíš na útěk a řešení hádanek než na přímou konfrontaci s nepřítelem, a umocňuje tak pocit bezmoci typický pro sérii.\n\nKritika i fanoušci se v hodnocení The Room rozcházeli víc než u jiných dílů série – oceňovali atmosféru, symboliku uzavřeného bytu a nápaditý úvod, ale vytýkali repetitivnost druhé poloviny hry, kdy se hráč vrací stejnými cestami zpět, a méně intuitivní boj s doprovodem Eileen. Přesto si hra díky nezvyklé struktuře a temné, klaustrofobní náladě získala vlastní okruh příznivců a dodnes je zmiňována jako nejexperimentálnější a nejkontroverznější díl klasické silnohillovské éry, který se od formule předchozích dílů odklonil možná až příliš odvážně.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "ps2__tony-hawk-s-underground-2",
+          "name": "Tony Hawk's Underground 2",
+          "genre": "Sportovní arkáda",
+          "length": "M",
+          "flags": [],
+          "year": "2004",
+          "studio": "Neversoft",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Tony Hawk's Underground 2** navázala na úspěšný první díl a ještě víc posunula sérii od čistě sportovní simulace směrem k příběhové, arkádové zábavě. Hráč spolu s kamarádem Bamem Margerou prochází sérii měst na fiktivním World Destruction Tour, kde neplní jen klasické skateboardové výzvy, ale i vtipné, často absurdní úkoly mimo prkno – od demolice cizích vozidel přes graffiti až po nejrůznější žertíky ve stylu skejťácké subkultury. Hra zachovává osvědčený combo systém a triky z předchozích dílů, přidává ale nové manuály, revert a možnost hrát i za postavu bez prkna.\n\nNa PlayStation 2 hra běžela svižně a nabízela rozlehlejší, otevřenější úrovně než starší díly, což umocňovalo pocit volného průzkumu měst. Soundtrack kombinující punk, hip-hop a rock zůstal jedním z hlavních tahounů atmosféry a spolu s bujarým, škádlivým humorem dotvářel nezaměnitelný tón série. Grafické zpracování postav a prostředí bylo na svou dobu čisté a přehledné, byť už tehdy začínalo být znát stárnutí enginu ve srovnání s konkurenčními sportovními tituly.\n\nHra také zavedla režim World Destruction Tour se soutěžním týmem hráčů proti počítačovým soupeřům a přidala editor vlastních triků a úrovní, což prodloužilo životnost hry i po dohrání hlavní kampaně.\n\nUnderground 2 byla v době vydání přijata jako zábavné, i když o něco méně vyvážené pokračování než jednička – část hráčů oceňovala nadsázku, humor a nové herní mody, jiní naopak postrádali vážnější tón a propracovanější příběh předchozích dílů série. Dnes hra funguje především jako nostalgická vzpomínka na vrchol popularity skateboardových her v polovině dekády a na éru, kdy série Tony Hawk ještě definovala žánr arkádových sportovních her, než ji o pár let později vystřídaly realističtější simulace jako Skate.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -55357,7 +55553,7 @@
       "image": "/images/platforms/wii.webp",
       "photoBg": "dark",
       "history": "Když Nintendo na podzim roku 2006 uvedlo konzoli, která se během vývoje jmenovala kódově **Revolution**, málokdo tušil, že se z ní stane jeden z největších hitů herní historie. Wii bylo malé, tiché, bílé a na první pohled skoro nenápadné — vedle mohutných skříní PlayStation 3 a Xbox 360 vypadalo jako set-top box. Nintendo totiž vědomě odmítlo hrát závod ve výkonu, který soupeři rozjeli, a místo toho vsadilo všechno na jedinou kartu: **na způsob, jakým se hry ovládají**.\n\nTou kartou byl ovladač **Wii Remote**, tvarem připomínající televizní dálkové ovládání. Díky akcelerometrům a infračervenému snímání vůči **senzorové liště** položené na televizi uměl reagovat na naklánění, švihy i míření na obrazovku. Přídavný **Nunchuk** připojený kabelem přidal analogovou páčku a druhou sadu senzorů pro levou ruku. Ovládání bylo natolik intuitivní, že ke konzoli poprvé usedli lidé, kteří do té doby nikdy nedrželi gamepad — prarodiče, rodiče, celé rodiny.\n\nVýsledek předčil i ta nejoptimističtější očekávání. Wii se prodalo **přes 101 milionu kusů**, tedy víc než PlayStationu 3 i Xboxu 360, a to navzdory tomu, že šlo o technicky nejslabší konzoli generace. Nintendo dokázalo, že vítězem nemusí být ten s nejlepší grafikou — stačí nabídnout něco, co ostatní nemají, za cenu, kterou si může dovolit skoro každý.\n\n### Technika: grafika a zvuk\n\nUvnitř Wii se skrývala evoluce hardwaru GameCube, ne revoluce. Procesor **IBM PowerPC „Broadway\"** byl v podstatě rychlejší verzí staršího čipu Gekko, o grafiku se staral **ATI „Hollywood\"**, tedy vylepšený nástupce čipu Flipper. Konzole disponovala **88 MB paměti** rozdělené mezi rychlou 1T-SRAM a pomalejší GDDR3, jako médium používala **12cm optické disky** a hry ukládala na **512 MB vnitřní flash paměti** doplnitelné o **SD kartu**.\n\nNejvýraznějším technickým limitem bylo rozlišení: Wii nabízelo **maximálně 480p**, tedy pouze standardní rozlišení v době, kdy konkurence běžela v HD a domácnosti hromadně přecházely na velké ploché televizory. Na moderním panelu proto Wii vypadá měkce a rozmazaně. Nintendo tuhle nevýhodu vyvažovalo **výrazným, čistým a barevným výtvarným stylem** — hry jako **Super Mario Galaxy** nebo **The Legend of Zelda: Skyward Sword** stárnou vizuálně mnohem lépe, než by odpovídalo jejich technickým parametrům.\n\n### Periferie a příslušenství\n\nKlíčovou roli sehrála přibalená hra **Wii Sports**. Pět jednoduchých disciplín — tenis, bowling, box, golf a baseball — ovládaných švihem ruky se stalo tím nejlepším možným demem konzole a v mnoha domácnostech to byl vůbec první titul, který lidé vyzkoušeli. Právě Wii Sports v podstatě prodalo konzoli samo o sobě.\n\nPeriferií vzniklo obrovské množství. **Wii MotionPlus** doplnil do ovladače gyroskop a výrazně zpřesnil snímání pohybu; naplno ho využilo **Wii Sports Resort**. **Wii Balance Board**, plošina reagující na přenášení váhy, otevřela s **Wii Fit** celou vlnu fitness a wellness titulů. Přibyly plastové nástavce jako **Wii Wheel** pro **Mario Kart Wii** nebo **Wii Zapper** pro střílečky a klasičtější **Classic Controller** pro hry z Virtual Console.\n\nSilnou stránkou byla **zpětná kompatibilita s GameCube**. Původní model měl pod odklopnou krytkou čtyři porty na ovladače GameCube i dva sloty na paměťové karty, takže starší hry běžely nativně a hráči nemuseli nic vyhazovat.\n\n### Modely a revize\n\nWii bylo od začátku výrazně **online konzolí**. Vestavěná Wi-Fi, systém **WiiConnect24** a rozhraní rozdělené do „kanálů\" nabídly **Wii Shop Channel** s digitálním obchodem, službu **WiiWare** pro menší původní hry a hlavně **Virtual Console** — legální nabídku klasik z NES, SNES, Nintenda 64, Segy Mega Drive a dalších platforem. Pro spoustu hráčů to byl vůbec první snadný způsob, jak se ke starým hrám dostat. Kanál **Mii** s tvorbou vlastních avatarů se stal jedním ze symbolů celé éry.\n\nHardware prošel několika revizemi. Model **Wii Family Edition** z roku 2011 už počítal jen s vodorovným položením a **vypustil podporu GameCube** — porty i sloty na paměťové karty zmizely. Ještě dál šlo **Wii mini** z roku 2012: levná, kompaktní verze s výklopnou horní mechanikou, bez Wi-Fi a online funkcí, bez slotu na SD kartu, bez GameCube a s pouze kompozitním video výstupem. Šlo o rozpočtový stroj do posledních let života platformy, kterou v roce 2012 nahradilo zpětně kompatibilní Wii U.\n\n### Dnešní scéna\n\nWii dnes patří k nejdostupnějším retro konzolím vůbec — vyrobilo se jich tolik, že konzole i hry jsou levné. Na moderní televizi se vyplatí použít komponentní kabel nebo externí upscaler, jinak je obraz z kompozitu velmi měkký. **Wii Shop Channel byl ukončen**, takže digitálně zakoupené tituly už nelze pořizovat; z legálních cest zbývají fyzické disky a moderní remastery a předělávky vybraných her na Nintendo Switch.\n\nEmulace je ve výborném stavu. **Dolphin** zvládá Wii i GameCube ve vysokém rozlišení, s vyhlazováním a širokoúhlými úpravami; ovládání se dá řešit myší a klávesnicí, nebo připojit původní Wii Remote přes Bluetooth. Wii podporuje i **Batocera**, takže si titul lze pustit na herním PC či silnějším mini-PC — slabší kapesní zařízení už ale na pohybové hry většinou nestačí.\n\nŽivá zůstává také **homebrew scéna**. Přes **Homebrew Channel** lze na konzoli provozovat vlastní software, emulátory starších platforem, přehrávače médií i nástroje pro spouštění her z USB disku či SD karty. Právě kombinace nízké ceny, obrovské knihovny a otevřené komunity dělá z Wii jednu z nejvděčnějších konzolí, po kterých dnes může retro hráč sáhnout.",
-      "gameCount": 59,
+      "gameCount": 61,
       "games": [
         {
           "slug": "wii__super-mario-galaxy",
@@ -57365,6 +57561,46 @@
           "teaser": "Den rychlé plošinovky, noc soubojů s Werehogem; na Wii jiné pojetí od studia Dimps.",
           "detail": null,
           "article": "Sonic Unleashed vyšlo v listopadu 2008 na Xboxu 360 a PlayStationu 3 ve verzi od Sonic Teamu, souběžně ale dorazilo i na Wii a PlayStation 2 v odlišném pojetí od studia Dimps, které se sérii věnovalo hlavně na handheldech, konkrétně v sérii Sonic Rush pro Nintendo DS. Základní premisa zůstala stejná - přes den rychlé plošinovkové běhání, v noci pomalejší soubojové pasáže s vlkodlačím Werehogem - ale provedení bylo kvůli slabšímu hardwaru Wii zásadně jiné.\n\nWii verze používala podobný, graficky méně náročný engine jako paralelní vydání pro PlayStation 2, s převážně 2,5D level designem místo otevřenějších 3D úrovní z verze pro Xbox 360 a PlayStation 3. Navíc využívala pohybové ovládání Wii Remotu - Werehogovy útoky šlo ovládat švihy ovladačem místo tlačítek, což byla oproti ostatním verzím unikátní vlastnost jen tohoto konkrétního vydání. Level design i hub světy, kterými se Sonic mezi misemi pohyboval, byly oproti HD verzím zjednodušené a kratší, ale zase přizpůsobené širšímu, méně hardcore publiku Wii.\n\nKritika Wii verze byla smíšená - oceňovala se snaha přizpůsobit ovládání konzoli, ale pohybové ovládání soubojů řada recenzentů považovala za méně přesné než klasické tlačítkové schéma z výkonnějších HD verzí pro Xbox 360 a PlayStation 3.\n\nI přesto si Wii verze díky jednoduššímu přístupu a známé postavičce Sonika našla vlastní publikum mezi hráči, kteří v té generaci vlastnili právě jen Nintendo konzoli a o výkonnostně náročnější HD vydání ani nestáli.\n\nSdílený vývoj s PS2 verzí u studia Dimps znamenal, že obě tato vydání byla obsahově téměř totožná, jen s drobnými rozdíly danými odlišnými ovládacími prvky obou konzolí - Wii verze navíc nabízela volbu klasického ovládání tlačítky pro hráče, kteří pohybové snímání raději preferovali vypnuté. Grafický výkon obou verzí přitom zůstával o poznání skromnější než u dvojice HD vydání.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "wii__mario-party-9",
+          "name": "Mario Party 9",
+          "genre": "Párty hra",
+          "length": "M",
+          "flags": [],
+          "year": "2012",
+          "studio": "Nd Cube",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Mario Party 9** znamenala pro dlouholetou párty sérii poměrně výraznou změnu základních pravidel. Namísto tradičního bloudění po herní desce, kde každá postava táhne samostatně, sbírá mince a snaží se nakoupit hvězdy na náhodně se přesouvajících polích, tady všichni hráči cestují společně v jednom vozítku po předem dané lineární trase a o pořadí i výsledky bojují hlavně v minihrách rozesetých podél cesty. Sbírají se v nich body namísto klasických hvězd, které se teprve na konci kola vyměňují za trofeje, což hru zpřehlednilo a zrychlilo, ale zároveň připravilo o část svobody, vyjednávání a taktizování, na kterých stály starší díly série od dob Nintenda 64.\n\nNa Wii hra plně těžila z pohybového ovládání Wii Remote, přes které se odehrává naprostá většina z několika desítek minihe – od jednoduchých reflexních soubojů, přes rytmické výzvy, až po sofistikovanější kooperativní úkoly vyžadující souhru mezi hráči u obrazovky. Grafické zpracování je barevné, nadsazené a technicky nenáročné, typické pro Nintendo párty tituly té doby, hudba je odlehčená, veselá a doprovází atmosféru rodinné zábavy, na kterou byla hra jasně cílená. Kromě klasického herního módu pro deskovou hru nabízí i samostatný soubor minihe pro až osm hráčů najednou přes lokální multiplayer, což z ní dělalo oblíbenou volbu na večírky a rodinné sešlosti.\n\nDobové přijetí bylo smíšené – recenze oceňovaly novou dynamiku, rychlejší tempo partií a přístupnost pro méně zkušené či mladší hráče, ale dlouholetí fanoušci sérii vytýkali právě ztrátu strategické hloubky, kterou předchozí díly stavěly na vlastnictví polí, hvězd a nepředvídatelných událostech na desce. Devátý díl tak zůstává v komunitě spíše kontroverzní kapitolou série, experimentem, který citelně změnil směr, jímž se Mario Party později ubíralo i v dalších generacích konzolí, a to i navzdory tomu, že jako čistě partová zábava na společné hraní na jednom gauči funguje velmi dobře dodnes.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "wii__resident-evil-darkside-chronicles",
+          "name": "Resident Evil: The Darkside Chronicles",
+          "genre": "Rail shooter (light gun)",
+          "length": "M",
+          "flags": [
+            "mature"
+          ],
+          "year": "2009",
+          "studio": "Cavia",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Resident Evil: The Darkside Chronicles** navázala na úspěšný koncept Umbrella Chronicles a přinesla na Wii další rail shooter, v němž hráč nechodí po prostředí sám, ale je automaticky veden po předem dané trase a plně se soustředí na míření a střelbu pomocí Wii Remote, ideálně v kombinaci se samostatně prodávaným nástavcem Zapper. Příběh se tentokrát vrací k událostem z Resident Evil 2 a z odbočky Resident Evil: Code Veronica, které převypráví z pohledu Leona Kennedyho a Clairé Redfield, a propojuje je novým rámcovým příběhem odehrávajícím se o několik let později, kdy si oba hrdinové vzpomínky na hrůzy z minulosti znovu prožívají.\n\nHratelnostně hra staví na přesném míření do tmavých a klaustrofobických prostředí, na úhybných manévrech prováděných pohybem Wii Remote a především na kooperativním režimu pro dva hráče, který zůstává jádrem celého zážitku – ať už kampaň procházíte sami s parťákem řízeným umělou inteligencí, nebo s kamarádem vedle sebe na gauči. Vizuálně jde o citelný krok vpřed oproti Umbrella Chronicles, s temnější atmosférou, hustší mlhou, propracovanějšími modely postav a lépe nasvícenými lokacemi, i když technické provedení stále jasně ukazuje limity Wii hardwaru ve srovnání s tehdejšími konzolemi vyšší generace. Zvuková stránka střídá tíživé ambientní pasáže s napínavými akčními tématy a spolu s dobře známými zombie a mutanty z bestiáře Resident Evil vytváří solidní, místy opravdu úzkostnou hororovou atmosféru.\n\nV recenzích byla hra hodnocena jako kompetentní, ale o něco méně inspirovaný nástupce prvního dílu – kritizováno bylo hlavně poněkud mechanické přepracování už dobře známých příběhů a menší množství skutečně nových nápadů oproti předchůdci. Přesto se Darkside Chronicles stal oblíbenou položkou mezi příznivci light-gun žánru na Wii a dodnes je ceněný především pro kooperativní hraní ve dvou a pro nostalgické znovuprožití klíčových momentů série z nového, akčnějšího úhlu pohledu.",
           "image": null,
           "gallery": [],
           "link": null,
@@ -63757,7 +63993,7 @@
       "image": "/images/platforms/xbox-360.webp",
       "photoBg": "dark",
       "history": "Když Microsoft v listopadu 2005 vypustil do světa Xbox 360, udělal z konkurentů rázem generaci pozadu — byla to totiž vůbec první konzole sedmé generace, o celý rok předběhla Sony i PlayStation 3. Po ne úplně přesvědčivém debutu původního Xboxu vsadil Microsoft na razantní úder: technicky ambiciózní stroj stavěný na plné HD rozlišení, propracovanou online službu a odvážnou myšlenku, že hraní má být sociální zážitek propojený přes internet. Sázka vyšla — Xbox 360 se stal jedním z nejvlivnějších strojů své éry a definoval, jak dodnes vypadá konzolové hraní online.\n\nStart byl doprovázen nedostatkem kusů na skladech, ale knihovna se rychle zaplnila tituly jako **Perfect Dark Zero** či **Project Gotham Racing 3** a o rok později dorazil **Gears of War**, který spolu s **Halo 3** (2007) z Xboxu 360 udělal domovskou platformu pro celou generaci střílel z pohledu třetí i první osoby. Microsoft dokázal přitáhnout exkluzivity i multiplatformní tituly současně a po většinu generace platilo, že verze pro Xbox 360 byla technicky referenční — právě sem vývojáři mířili jako na hlavní platformu.\n\n### Technika: grafika a zvuk\n\nSrdcem konzole byl tříjádrový procesor **IBM PowerPC \"Xenon\"** taktovaný na 3,2 GHz, přičemž každé jádro zvládalo dva hardwarové vlákna — celkem tedy šest simultánních vláken výpočtu. O grafiku se staral čip **ATI \"Xenos\"**, navržený společně s ATI (později pohlcenou AMD), který jako jeden z prvních na světě používal **unifikovanou shaderovou architekturu** — tedy shadery schopné počítat jak vertexy, tak pixely podle aktuální potřeby, namísto pevně oddělených jednotek. Xenos navíc obsahoval 10 MB rychlé paměti eDRAM přímo na čipu, což usnadňovalo antialiasing bez ztráty výkonu.\n\nKonzole měla 512 MB sdílené paměti a byla stavěná primárně pro HD éru: podporovala výstup 720p, 1080i a později i 1080p, což byl v roce 2005 zásadní skok oproti standardnímu rozlišení předchozí generace. Zvuk zajišťoval vícekanálový Dolby Digital výstup, později podpořený i formáty jako Dolby TrueHD u vybraných titulů. HDMI konektor přibyl až u pozdějších revizí — první modely se spoléhaly na komponentní a kompozitní video.\n\n### Xbox Live, Achievements a online\n\nPokud má Xbox 360 jeden skutečně přelomový přínos, je to proměna **Xbox Live** ve standard, podle kterého se dodnes měří online konzolové hraní. Jednotný účet Gamertag, přehledný seznam přátel napříč všemi hrami, integrovaný hlasový chat, jednoduchý matchmaking a stahovatelný obsah přes **Xbox Live Marketplace** — to vše fungovalo hladce a konzistentně bez ohledu na to, jakou hru jste zrovna hráli.\n\nZásadní novinkou byly **Achievementy** — body (Gamerscore) udělované za splnění konkrétních výzev ve hře, viditelné na profilu a srovnatelné s přáteli. Tenhle na první pohled drobný nápad se ukázal jako mimořádně návykový a dnes je samozřejmou součástí prakticky každé herní platformy, od PlayStationu přes Steam až po mobilní hry. Xbox Live Arcade zase otevřel prostor menším, levnějším a experimentálnějším hrám a stal se předobrazem dnešních digitálních distribucí.\n\n### Periferie (Kinect, ovladače)\n\nStandardní ovladač Xbox 360 se stal referenčním vzorem pro herní paddy na dlouhá léta díky pohodlnému úchopu a asymetrickému rozložení pák. K dispozici byly bezdrátové i drátové verze, speciální edice k příležitosti konkrétních her a řada příslušenství — od volantů přes arkádové páky až po headsety pro hlasový chat.\n\nNejvětší periferní událostí byl v listopadu 2010 **Kinect** — pohybový senzor s kamerou a mikrofonem, který uměl snímat pohyb celého těla a rozpoznávat hlasové povely bez nutnosti držet ovladač. Kinect se prodával v milionech kusů a krátce se dokonce zapsal do Guinessovy knihy rekordů jako nejrychleji prodávané spotřební elektronické zařízení. Byť dlouhodobě nepřinesl slibovanou revoluci v jádru hraní, otevřel dveře žánru fitness a rodinných párty her a ukázal směr, kterým se později vydaly i jiné platformy.\n\n### Modely, revize a Red Ring of Death\n\nXbox 360 prošel za svou životnost několika hardwarovými vlnami. První generace nabízela varianty **Core** (bez pevného disku, jen se základní výbavou) a **Premium/Pro** (s harddiskem a bezdrátovým ovladačem), v roce 2007 přibyl prémiový model **Elite** s větším diskem a HDMI výstupem. V roce 2010 dorazil kompletně předělaný **Xbox 360 S (Slim)** — tišší, menší, s integrovaným Wi-Fi a portem pro Kinect, a v roce 2013 ještě odlehčená verze **Xbox 360 E** ve stylu tehdy již vydaného Xboxu One.\n\nPrvní generace konzolí se ale zapsala do historie i temnou stránkou: notoricky známý **Red Ring of Death** — tři blikající červené kroužky kolem tlačítka napájení signalizující fatální hardwarovou poruchu. Za problémem stálo přehřívání čipů kvůli nedostatečnému chlazení a bezolovnaté pájce, která praskala při teplotních cyklech. Míra poruchovosti byla natolik vysoká, že Microsoft prodloužil záruku na tři roky a na opravy vyhradil přes miliardu dolarů. Pozdější revize (zejména model Slim s přepracovaným, chladnějším čipsetem) problém prakticky vyřešily.\n\n### Význam a odkaz\n\nXbox 360 se za dobu své životnosti prodal ve zhruba 84 milionech kusů a výroba oficiálně skončila v roce 2016, poté co konzoli deset let podporoval nepřetržitý tok her i aktualizací. Jeho skutečný odkaz ale nespočívá jen v prodejních číslech — je to platforma, která normalizovala online multiplayer s hlasovým chatem, Achievementy jako univerzální měřítko herního pokroku a digitální distribuci jako plnohodnotnou alternativu k fyzickým médiím. Dnes patří k oblíbeným cílům emulace (Xenia) i sběratelství a řada jeho generačních klasik, od Mass Effectu po Halo, zůstává dodnes referenčními tituly svého žánru.",
-      "gameCount": 175,
+      "gameCount": 178,
       "games": [
         {
           "slug": "xbox-360__halo-3",
@@ -68891,6 +69127,65 @@
           "playUrl": null,
           "players": null,
           "rating": null
+        },
+        {
+          "slug": "xbox-360__ace-combat-6-fires-of-liberation",
+          "name": "Ace Combat 6: Fires of Liberation",
+          "genre": "Letecká akce",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2007",
+          "studio": "Project Aces",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Ace Combat 6: Fires of Liberation** je arkádový letecký simulátor, který se odehrává ve fiktivní zemi Strangereal a vypráví příběh osvobozovací války z pohledu stíhacího pilota. Hráč se v kampani postupně dostává k desítkám licencovaných i fiktivních letounů, od klasických stíhaček přes bombardéry až po experimentální stroje, a v každé misi řeší jinou taktickou situaci — od doprovodu konvoje přes obranu města po ničení nepřátelských základen. Ovládání je záměrně přístupné a arkádové, takže se hra soustředí spíše na efektní souboje a spektakulární výbuchy než na realistickou fyziku letu.\n\nNa Xboxu 360 šlo o jednu z mála skutečně exkluzivních značek platformy a zároveň o technologický skok pro celou sérii — hra jako první v řadě naplno využila výkon nové generace, s rozsáhlými bojišti, hustým provozem jednotek na zemi i ve vzduchu a dramatickými změnami počasí, které ovlivňují viditelnost i taktiku. Zvukový doprovod byl doplněn orchestrální hudbou, jež podtrhuje epický tón jednotlivých misí, a rádiová komunikace mezi piloty dodává bitvám filmovou atmosféru. Hra rovněž nabízela online multiplayer pro souboje více hráčů najednou, což byla v tehdejší době u leteckých akcí spíše výjimka.\n\nDobové recenze oceňovaly především rozsah a rozmanitost misí, počet dostupných letounů a celkovou audiovizuální stránku, která patřila k tomu nejlepšímu, co Xbox 360 v žánru nabízel. Vyzdvihovaly také dynamické bitevní pole, kde se situace na obloze i na zemi mění podle toho, jak si hráč v misi vede, takže stejný scénář může při druhém průchodu vypadat citelně jinak. Právě exkluzivita pro tuto konzoli z Ace Combat 6 udělala vyhledávaný titul mezi majiteli jiných platforem, kteří si sérii chtěli vyzkoušet, a mnozí ho brali jako jeden z důvodů, proč si Xbox 360 vůbec pořídit. Dodnes hra funguje jako zábavná, přístupná ukázka toho, jak si letecké akce dokážou hrát na blockbuster, aniž by hráče zatěžovaly komplikovanou simulací — a pro fanoušky série zůstává jedním z nejpřipomínaných dílů celé generace konzolí.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "xbox-360__call-of-duty-3",
+          "name": "Call of Duty 3",
+          "genre": "Akční střílečka",
+          "length": "S",
+          "flags": [],
+          "year": "2006",
+          "studio": "Treyarch",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Call of Duty 3** zavedl hráče zpět do druhé světové války, konkrétně do bojů o osvobození Francie v létě 1944, a odehrává se z pohledu vojáků několika spojeneckých armád — amerických, britských, kanadských a polských. Hra navazuje na strukturu předchozích dílů: lineární mise proložené skriptovanými momenty, důraz na filmovou choreografii bitev a střídání perspektiv mezi jednotlivými postavami. Novinkou byly kontextové akce vyžadující rychlé stisky tlačítek při soubojích na blízko nebo při ovládání vozidel, což mělo dodat větší dynamiku pěchotním i vozidlovým pasážím.\n\nNa Xboxu 360 šlo o díl, který v sérii vznikl přímo pro tuto generaci konzolí — vývoje se ujalo studio Treyarch, zatímco Infinity Ward se v té době věnovalo přípravě moderního Modern Warfare. Grafický engine přinesl hustší bojiště, větší počet jednotek na obrazovce a působivější efekty exploze a ohně, i když se hra oproti pozdějším dílům série stále držela poměrně přímočaré, koridorové stavby úrovní. Zvuková stránka stavěla na intenzivní palbě, křiku spolubojovníků a orchestrální hudbě, která dobovým titulům o druhé světové válce dodávala patřičný patos.\n\nRecenze titul hodnotily jako solidní, ale ne přelomový přírůstek do série — oceňovaly rozmanitost misí a vozidlových pasáží, jízdu na motocyklu i ovládání tanků, kritizovaly ale opotřebené téma druhé světové války, které se v té době v žánru objevovalo už poměrně často a hráčům začínalo splývat mezi jednotlivými konkurenčními sériemi. Multiplayerová složka nicméně na Xboxu 360 přilákala slušnou hráčskou základnu díky online souboji přes Xbox Live, kde si hra udržela vlastní komunitu i po vydání dalších pokračování. Z dnešního pohledu je Call of Duty 3 zajímavý spíš jako přechodový bod série mezi historickými válkami a moderní tematikou, kterou definoval až následující Modern Warfare, a jako připomínka doby, kdy ještě druhá světová válka byla pro střílečky hlavním tématem.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "xbox-360__armored-core-4",
+          "name": "Armored Core 4",
+          "genre": "Akční mech simulátor",
+          "length": "M",
+          "flags": [],
+          "year": "2007",
+          "studio": "FromSoftware",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Armored Core 4** přenesl dlouholetou sérii bitev v robotických mechách na novou generaci konzolí a zároveň částečně restartoval její herní systém. Hráč si sestavuje vlastního mecha z desítek dílů — noh, zbraní, generátorů a dalšího vybavení — a v arénách i příběhových misích bojuje proti dalším mechům i velkým bossům. Oproti starším dílům série hra zrychlila tempo soubojů zavedením takzvaného boost driftu, který umožňuje plynulé přelety a rychlé manévrování ve vzduchu, takže se souboje více podobají rychlé letecké akrobacii než pomalejším pozemním přestřelkám z předchozích generací.\n\nNa Xboxu 360 se nová generace projevila hlavně v rozlehlosti bojišť a v pocitu rychlosti — mechy se pohybují svižněji, kamera reaguje na prudké obraty a destrukce prostředí i vizuální efekty výbuchů a laserů dostaly citelně vyšší úroveň oproti předchozím dílům na starších konzolích. Přesto si hra zachovala náročnou křivku učení typickou pro sérii: sestavování mecha vyžaduje pochopení vztahu mezi váhou, energií a výzbrojí a začátečníka snadno odradí, než pochopí základní principy stavby stroje. Zvukovou stránku doplňuje elektronický a orchestrální podklad, který umocňuje pocit chladné, technologické budoucnosti, v níž se příběh odehrává.\n\nDobové ohlasy oceňovaly rychlejší a akčnější pojetí soubojů i grafický skok, zároveň ale poukazovaly na to, že hra zůstává poměrně nepřístupná pro nováčky a že příběh je vyprávěn strohým, útržkovitým způsobem typickým pro celou značku. Pro věrné fanoušky série šlo přesto o vítaný restart, který připravil půdu pro další díly na této generaci konzolí. Dnes je Armored Core 4 zajímavý především jako předstupeň pozdější tvorby studia FromSoftware a jako ukázka toho, jak se dá mechanický žánr přizpůsobit rychlejšímu, akčnějšímu stylu hraní.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
         }
       ]
     },
@@ -68906,7 +69201,7 @@
       "image": "/images/platforms/ps3.webp",
       "photoBg": "dark",
       "history": "Když Sony v listopadu 2006 v Japonsku a Severní Americe (a o rok později, v březnu 2007, i v Evropě) uvedlo PlayStation 3, navazovalo na úspěch předchůdce s pocitem, že si může dovolit téměř cokoliv. Výsledkem byl stroj plný odvážných rozhodnutí — vlastní exotický procesor, vestavěná Blu-ray mechanika, bezplatná online síť — ale i vysoká cena, která z PS3 udělala nejdražší konzoli generace. Základní model stál v USA 499 dolarů, výbavnější verze 599, a Sony na každém kusu dlouho prodělávalo. Vysoká cena spolu s nepřístupnou architekturou zajistily PS3 pomalý start, Xbox 360 měl náskok téměř rok. Přesto se PS3 nakonec vypracovalo v jednu z nejúspěšnějších konzolí historie s bohatou knihovnou exkluzivit.\n\n### Technika: Cell a grafika\n\nSrdcem PlayStationu 3 byl procesor **Cell Broadband Engine**, vyvinutý ve spolupráci Sony, Toshiby a IBM. Šlo o radikálně odlišnou architekturu: jedno hlavní jádro **PPE** na bázi PowerPC doplňovalo osm vedlejších jednotek **SPE (Synergistic Processing Elements)** pro masivně paralelní výpočty. Teoreticky obrovský výkon, prakticky ale Cell kladl na vývojáře nezvyklé nároky — kód bylo nutné ručně rozdělovat mezi jednotky, a řada raných multiplatformních her proto na PS3 běžela hůř než na Xboxu 360.\n\nO grafiku se staral čip **RSX** od Nvidie, odvozený od řady GeForce 7, s 256 MB vlastní paměti. Komunikoval s Cellem přes rychlou sběrnici a společně dokázaly generovat scény v rozlišení až 1080p — jedna z prvních konzolí s plnou podporou HD. Zvládnout kombinaci obou architektur vyžadovalo čas, a tak se výpravné tituly jako **Uncharted 2**, **The Last of Us** či **God of War III** objevily až později.\n\n### Blu-ray a multimédia\n\nJedním z nejvýznamnějších tahů Sony bylo vestavění mechaniky **Blu-ray Disc** do každé konzole. PS3 se tak stala nejlevnějším Blu-ray přehrávačem na trhu a nevědomky sehrála roli ve **válce formátů proti HD DVD** — díky obrovské instalované základně PlayStationů podpořila Sony svůj formát a konkurenční HD DVD (podporované mimo jiné Microsoftem) v roce 2008 z trhu zmizelo. Blu-ray zároveň vyřešilo praktický problém: hry pro PS3 zabíraly desítky gigabajtů, na což by DVD nestačilo. Konzole navíc přehrávala hudbu, fotografie a video a sloužila jako mediální centrum obývacího pokoje.\n\n### PlayStation Network a online\n\nPS3 přinesla i **PlayStation Network (PSN)** — službu, kterou Sony na rozdíl od Xbox Live nabízelo pro online hraní **zdarma**. To byl silný argument pro řadu hráčů, i když PSN dlouho zaostávalo za konkurencí v pohodlí a stabilitě (nejbolestivější byl bezpečnostní incident z roku 2011, kdy síť byla na týdny odstavena). Postupem času se rozrostlo o předplatné **PlayStation Plus** a digitální obchod a stalo se základem pro další generace konzolí.\n\n### Modely a revize (fat, Slim, Super Slim)\n\nPrvní generace, dnes přezdívaná **'fat' PS3**, přišla ve verzích podle kapacity disku — nejdražší modely měly zpětnou kompatibilitu s PlayStationem 2, zprvu hardwarovou, později jen softwarovou, u levnějších modelů nakonec zcela vypuštěnou. V roce 2009 přišla menší, tišší **PS3 Slim** se sníženou spotřebou i cenou, v roce 2012 ji doplnila kompaktnější **PS3 Super Slim** s posuvným krytem mechaniky. Redesigny pomohly Sony snížit náklady natolik, že se z prodělečného hardwaru stal výdělečný produkt.\n\n### Význam a odkaz\n\nI přes pomalý start se PlayStation 3 nakonec prodalo přibližně **87 milionů kusů** a stalo se domovem her, které dodnes patří k nejvýznamnějším v historii média — od **Metal Gear Solid 4** a **Demon's Souls**, jenž položil základ žánru soulslike, přes **Journey** a **Heavy Rain** až po vrcholná díla studia Naughty Dog. Náročná architektura Cellu sice PS3 zpomalila na startu, ale zároveň donutila vývojáře hledat nečekaně efektivní řešení. Výroba skončila postupně mezi lety 2015 a 2017. Dnes je PS3 pro emulaci jedním z nejnáročnějších cílů vůbec — kombinace Cellu a RSX se napodobuje jen s obtížemi (projekt RPCS3 přesto dělá pozoruhodné pokroky), takže pro řadu hráčů zůstává originál nejspolehlivější cestou, jak si klasiku zahrát.",
-      "gameCount": 189,
+      "gameCount": 192,
       "games": [
         {
           "slug": "ps3__uncharted-drake-s-fortune",
@@ -74445,6 +74740,65 @@
               "kind": "box"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "ps3__resistance-2",
+          "name": "Resistance 2",
+          "genre": "Akční střílečka (FPS)",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2008",
+          "studio": "Insomniac Games",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Resistance 2** navazuje na úvodní díl trilogie a posouvá alternativní historii invaze mimozemských Chimer do ještě epičtějších rozměrů. Hráč se znovu ujímá vojáka Nathana Halea, jehož tělo je nakaženo chimerským virem a postupně se z něj stává něco mezi člověkem a nepřítelem, kterého bojuje. Kampaň tentokrát opouští Evropu a vede přes zdevastovaná americká města od San Franciska po Chicago, kde se hráč postupně dozvídá, jak katastrofálně invaze zasáhla Spojené státy a jak zoufalá je obrana zbytků lidstva. Proti hráči se staví i obří bossové, kteří v sérii dodávají pocit skutečné hrozby a měřítka, jaké tehdejší střílečky málokdy nabízely, a souboje s nimi patří k nejpamátnějším momentům hry.\n\nHratelnost stojí na klasickém FPS základu obohaceném o omezenější výběr zbraní najednou, což tlačí hráče k taktičtějšímu rozhodování než v otevřenější jedničce. Výzbroj kombinuje pozemské zbraně s podivnými chimerskými technologiemi, které umožňují netradiční způsoby likvidace nepřátel, například střelbu za roh nebo zpomalení času. Velký důraz byl kladen na kooperativní režim pro osm hráčů se samostatnou kampaní odehrávající se paralelně s hlavním příběhem a na rozsáhlý online multiplayer pro až šedesát hráčů, což byl na konzole v té době nezvyklý rozsah a ukazoval, kam se síťové hraní na PS3 mohlo posouvat. Insomniac Games využili výkon konzole k vykreslení rozlehlých bojišť a masových soubojů s mnoha nepřáteli na obrazovce najednou, aniž by hra ztrácela plynulost.\n\nAtmosféra hry těží z ponuré vize okupované Ameriky a industriální, tíživé hudby podtrhující beznaděj odboje proti přesile, zatímco vizuální stránka střídá zničená velkoměsta s temnými podzemními komplexy. Dobové ohlasy oceňovaly především bossfighty, rozmanitost prostředí a multiplayerovou složku, byť někteří hráči jedničky postrádali sdílenou obrazovku kooperace, kterou dvojka nahradila výhradně online formou. V kontextu žánru šlo o jednu z ambicióznějších konzolových střílek dané generace, která ukázala, že i exkluzivní konzolová série dokáže soupeřit rozsahem s velkými multiplatformními hity. Dodnes se na ni vzpomíná jako na technicky i obsahově solidní pokračování, které umělo pracovat s velkým měřítkem svého světa a nabídnout hráčům pestrou směs akce, atmosféry a týmové spolupráce.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "ps3__armored-core-4",
+          "name": "Armored Core 4",
+          "genre": "Akční simulace mechů",
+          "length": "M",
+          "flags": [],
+          "year": "2006",
+          "studio": "FromSoftware",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Armored Core 4** znamenal restart dlouholeté série mechanizovaných bojových simulátorů od studia FromSoftware pro novou generaci konzolí. Hra zasazuje hráče do role pilota takzvaného Next, vysoce pokročilého bojového mecha, a nechává ho procházet příběhem odehrávajícím se v éře, kdy se svět zotavuje z rozsáhlého konfliktu a moc drží nadnárodní korporace řídící obří létající pevnosti zvané Cradly. Konflikt mezi těmito korporacemi a odbojovými silami tvoří pozadí pro sérii misí, v nichž hráč postupně stoupá mezi elitní piloty a odhaluje politické pletichy stojící za válkou.\n\nOproti starším dílům série se čtvrtý Armored Core zaměřil na rychlejší a vzdušnější boj – mechy dokážou déle a plynuleji létat pomocí boosteru, což zásadně mění taktiku soubojů a dává hře svižnější, arkádovější tempo než předchozí, více pozemně orientované díly. Hráč si stále detailně sestavuje vlastního robota z desítek dílů ovlivňujících váhu, rychlost, pancéřování i výzbroj, přičemž je nutné hlídat rovnováhu mezi silou zbraní a pohyblivostí stroje, a právě tato hloubka customizace zůstává jádrem série i v tomto restartu. Grafický engine využil výkon PS3 k vykreslení rozlehlých arén, zničených měst a velkolepých soubojů s obřími bossy, kteří testují jak reflexy, tak promyšlenost hráčovy sestavy.\n\nHudební doprovod a zvuková stránka podtrhují industriální, mechanickou atmosféru bitev, zatímco příběh je vyprávěn spíše útržkovitě a strohým textem doplněným briefingy, což je pro sérii typické a ponechává větší prostor fantazii hráče. Dobové přijetí bylo smíšené až pozitivní – ocenění sklidila rychlost a akčnost soubojů i odvaha přepracovat zavedený vzorec série, kritice naopak čelila strmá obtížnost, nepřehlednost pro nováčky a poměrně krátká kampaň. Pro fanoušky mecha žánru šlo o důležitý restart, který připravil půdu pro další díly série na PS3 a dodnes se řadí mezi respektované, byť náročnější tituly žánru zaměřeného na budování a pilotování vlastního bojového stroje.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "ps3__armored-core-v",
+          "name": "Armored Core V",
+          "genre": "Akční simulace mechů",
+          "length": "M",
+          "flags": [],
+          "year": "2012",
+          "studio": "FromSoftware",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Armored Core V** je pátý číslovaný díl mechové série od FromSoftware a v mnoha ohledech nejambicióznější pokus přiblížit sérii širšímu publiku a modernímu online hraní. Hráč opět usedá do kokpitu válečného mecha zvaného Armored Core a bojuje jménem jedné z frakcí ve světě zdevastovaném dřívějším konfliktem, kde jednotlivé korporace, žoldnéřské jednotky a odbojové skupiny soupeří o kontrolu nad zbývajícími zdroji a územím na povrchu i pod ním, kam se lidstvo částečně stáhlo po předchozí katastrofě.\n\nOproti předchozím dílům přinesla hra výraznější důraz na týmovou spolupráci a taktiku – ve hře se objevil systém velení, kdy hráč může vydávat rozkazy spolubojovníkům ovládaným umělou inteligencí nebo jinými hráči, a mise často vyžadují obsazování a obranu kontrolních bodů spíše než čistě přímočaré akční průchody jako ve starších dílech. Customizace mechů zůstala stejně hluboká jako dřív, s rozsáhlou nabídkou dílů ovlivňujících výzbroj, pohyblivost i obranu a s možností jemně ladit každý aspekt stroje, a hra kladla větší důraz na kooperativní a soutěžní multiplayer, který se stal jedním z hlavních pilířů obsahu včetně rozsáhlého teamového režimu s dobýváním základen mimo hlavní kampaň.\n\nTechnicky hra na PS3 nabídla detailnější prostředí a propracovanější efekty explozí a poškození než starší díly, i když engine série byl i v této době stále poznat po svém osobitém, technickém a záměrně těžkopádnějším ovládání, které si série tradičně drží a které od hráčů vyžaduje trpělivost a nácvik. Atmosféra zůstává temná a válečná, s elektronickou a industriální hudbou doprovázející bitvy a s minimalistickým vyprávěním příběhu skrze textové zprávy a briefingy. Dobové ohlasy oceňovaly ambici v posunu k taktičtějšímu a týmovému hraní i propracovanost multiplayerových režimů, zároveň ale poukazovaly na to, že se hra vzdálila některým tradičním prvkům série a jednohráčská kampaň působila oproti online složce jako vedlejší. Pro hráče se zájmem o mechy a taktické akční souboje jde o zajímavý, byť polarizující díl s vlastní identitou v rámci celé série, který experimentoval se směrem, jímž se série mohla ubírat.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -126144,7 +126498,7 @@
       "image": "/images/platforms/pc-9x.webp",
       "photoBg": "dark",
       "history": "Druhá polovina devadesátých let byla pro PC obdobím, kdy se z kancelářské bedny stal nejmocnější herní stroj na světě. Odstartoval to příchod procesorů **Intel Pentium** a v roce 1995 systém **Windows 95** s 32bitovým prostředím a jednotným rozhraním hardwaru. Do té doby si každá hra řešila ovladače sama — hráč v instalátoru ručně vybíral model zvukové karty a nastavoval **IRQ**, DMA kanál a adresu portu, a když se netrefil, hra mlčela nebo spadla. S nástupem **DirectX** éra magických čísel skončila.\n\nPřechod nebyl okamžitý: roky 1995 až 1997 patřily titulům vycházejícím v DOSové i windowsové verzi, teprve konec desetiletí pak Windows naplno. Zároveň se rozjela nejrychlejší technologická spirála v dějinách hraní — co bylo na jaře špičkou, bylo o Vánocích průměr. Herně šlo o zlatý věk: vznikl tu moderní **FPS** v podobě Quake, Unrealu a Half-Life, rozkvetly realtimové strategie, simulátory i první velká 3D RPG — a protože PC nebylo uzavřenou konzolí, vyrostla kolem něj obrovská scéna modderů.\n\n### Technika: grafika a zvuk\n\nNejvětším tématem éry byly **3D akcelerátory**. Do roku 1996 se veškerá 3D grafika počítala softwarově na procesoru — odtud ty hrubé, škubající se textury v rozlišení 320×200. Pak přišla firma 3dfx s kartou **Voodoo Graphics** a rozhraním **Glide** a rozdíl byl propastný. Hardwarová akcelerace přinesla **bilineární filtrování textur**, korekci perspektivy, průhlednost, vyšší rozlišení a hlavně plynulost. GLQuake na Voodoo byl pro spoustu lidí okamžikem, kdy se hraní na PC změnilo nadobro.\n\nPrvní Voodoo byla ještě přídavná karta propojená kabelem s běžnou 2D grafikou, **Voodoo2** uměla režim SLI se dvěma kartami vedle sebe. Konkurence ale náskok rychle dohnala: NVIDIA přišla s čipy **RIVA TNT** a TNT2, které spojily 2D i 3D na jedné kartě a sázely na **OpenGL** a Direct3D, a v roce 1999 vydala **GeForce 256** — první běžnou kartu s hardwarovým **T&L**, tedy s výpočtem geometrie a osvětlení přímo na grafickém čipu. ATI mezitím nabízela řadu **Rage** a v roce 2000 první **Radeon**. Éra 3dfx skončila.\n\nZvuk měl vlastní vývoj. Standardem zůstávala řada **Sound Blaster**, od SB16 přes **AWE32** a AWE64 s wavetable syntézou pro lepší MIDI hudbu, později přišly karty s hardwarovou akcelerací a 3D zvukem **A3D** a **EAX**, díky nimž bylo slyšet, že střelba přichází zezadu. Zásadní byl také **CD-ROM**: hry začaly místo čipové hudby přehrávat plnohodnotné **CD Audio** stopy. Na konci éry se přidal **MP3**.\n\n### Propojeni a periferie\n\nZáklad sestavy se během několika let posunul z desítek na stovky megahertzů. Pentium doplnily instrukce **MMX**, paměti přešly z **EDO RAM** na **SDRAM** a grafika se přestěhovala ze sběrnice **PCI** na vyhrazený port **AGP** s rychlejším přístupem do hlavní paměti.\n\nPro ovládání se ustálil dodnes platný standard: **klávesnice a myš**. Ve střílečkách se prosadilo schéma **WASD + myš**, tedy pohyb levou rukou a rozhlížení pravou — kombinace zrozená v komunitě kolem Quake. Simulátory si žádaly **joysticky** a létací sady, závody **volanty** se zpětnou vazbou.\n\nNejvětší společenskou změnou bylo síťové hraní. Nejdřív se hrálo přes **modem** a přímé vytáčené spojení dvou počítačů, pak přes **dial-up** připojení s vysokým pingem a účtem za telefon, který doma nikdo nechtěl vysvětlovat. Objevily se první online služby a lobby systémy. Legendou se staly **LAN party** — víkendy, kdy se do jedné místnosti stahovaly bedny, monitory a metry kabelů kvůli Quake nebo StarCraftu.\n\n### Modely a revize\n\nPC se od konzolí lišilo tím, že žádný „model\" neexistoval — sestava byla vždy skládačka. Přesto lze éru rozdělit podle procesorů: **Pentium** a jeho verze s MMX, poté **Pentium II** v kazetě do slotu a nakonec **Pentium III**. Souběžně se měnila média: **diskety** dosloužily a jediným nosičem se stal **CD-ROM**. Instalace o stovkách megabajtů přestaly být výjimkou a velké hry vycházely na několika discích.\n\n### Klony a varianty\n\nOtevřenost architektury byla největší silou PC. Kompatibilní počítače stavěl kdokoli a procesory nedodával jen Intel — soupeřem byla **AMD** s řadou **K6** a od roku 1999 s **Athlonem**, který Intelu poprvé skutečně zatopil, levnou alternativu nabízel také **Cyrix**. Díky téhle konkurenci se ceny držely nízko a výkon rostl závratným tempem.\n\nV českém prostředí to znamenalo boom skládaných sestav z počítačových burz a malých lokálních prodejců. Značková kompletní PC kupovaly hlavně firmy, hráči si stroj skládali po dílech a upgradovali postupně — nová grafika letos, procesor příští rok. Herní časopisy s přiloženými CD byly zdrojem demoverzí i ovladačů.\n\n### Dnesni scena\n\nRetro PC hraní má dnes několik cest. U přechodových DOSových titulů pomáhá **DOSBox**, u klasických adventur **ScummVM**. Windowsové hry z konce devadesátek se ale často rozběhnou přímo na moderním systému, případně v **režimu kompatibility** a s komunitními patchi pro rychlé procesory a širokoúhlá rozlišení. Pro tituly psané pro Glide existují **wrappery** **nGlide** a **dgVoodoo**, které staré volání přeloží na dnešní grafické rozhraní.\n\nNejpohodlnějším legálním zdrojem je **GOG.com** s předpřipravenými verzemi bez ochran. Pro největší klasiky existují i **source porty** postavené na uvolněných zdrojových kódech — enginy odvozené od Quake nabízejí vyšší rozlišení, moderní ovládání i síťovou hru. A pak je tu nejpoctivější varianta: postavit si dobovou **retro sestavu** s Pentiem, Voodoo kartou a Sound Blasterem. Shánění dílů se stalo sběratelským koníčkem a pocit z CRT monitoru emulace nenahradí.",
-      "gameCount": 170,
+      "gameCount": 173,
       "games": [
         {
           "slug": "pc-9x__quake-ii",
@@ -129551,24 +129905,8 @@
           "teaser": "Návrat k akčnějšímu tónu a nový engine; proti Coltovi stojí záhadní Nephilim.",
           "detail": null,
           "article": "**Wing Commander: Prophecy** se vrátila od filmově pojatých dílů zpět k akčnějšímu vesmírnému simulátoru a přinesla nový engine i novou generaci pilotů v čele s nadějným stíhačem Coltem, který se poprvé ocitá ve víru událostí přesahujících obyčejnou hlídkovou misi. Příběh se odehrává po skončení války s Kilrathi a představuje nové, záhadné a mnohem nebezpečnější nepřátele, kterým se v příběhu série přezdívá Nephilim, což hře dodalo temnější a naléhavější tón oproti předchozím dílům plným politiky a intrik.\n\nHratelnostně se Prophecy vrátila k důrazu na akční vesmírné bitvy s méně rozsáhlými filmovými vložkami, přičemž nový 3D engine umožňoval detailnější modely lodí, plynulejší souboje i efektnější exploze na tehdejších počítačích s Windows 9x. Hráč postupně létal na více typech stíhaček, řídil systémy štítů a zbraní a procházel kampaní rozdělenou do několika misí s rozvětvenými cestami podle výsledků předchozích bitev, což dodávalo hře pocit důsledků vlastních rozhodnutí. Zvuková stránka a hudba pomáhaly budovat pocit narůstajícího ohrožení, které téma nových, hmyzu podobných nepřátel přinášelo do jinak známého univerza.\n\nProphecy se dočkala i datadisku Secret Ops, který příběh dále rozvíjel a šířil online formou, což byl na svou dobu nezvyklý distribuční model. V rámci série je Prophecy ceněna jako návrat k jádru vesmírného simulátoru po nákladném filmovém experimentu čtvrtého dílu a pro řadu hráčů představuje vyváženější a hratelnější zážitek, i když nedosáhla stejné popularity a rozpočtu jako předchozí díly série. Postava Colta a jeho postupný vzestup od nezkušeného nováčka k respektovanému pilotovi zároveň nabídly osobnější a přímočařejší příběhovou linku, než jaké byly hráči zvyklí z rozvětvených politických zápletek dřívějších dílů Wing Commander.",
-          "image": "/images/games/pc-9x/pc-9x__wing-commander-prophecy.webp",
-          "gallery": [
-            {
-              "src": "/images/games/pc-9x/pc-9x__wing-commander-prophecy.webp",
-              "label": "Obal",
-              "kind": "box"
-            },
-            {
-              "src": "/images/games/pc-9x/pc-9x__wing-commander-prophecy-snap.webp",
-              "label": "Ze hry",
-              "kind": "snap"
-            },
-            {
-              "src": "/images/games/pc-9x/pc-9x__wing-commander-prophecy-title.webp",
-              "label": "Titulní obrazovka",
-              "kind": "title"
-            }
-          ],
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -131054,6 +131392,67 @@
               "kind": "box"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-9x__midtown-madness-2",
+          "name": "Midtown Madness 2",
+          "genre": "Závodní",
+          "length": "S",
+          "flags": [],
+          "year": "2000",
+          "studio": "Angel Studios",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Midtown Madness 2** je arkádový závodní titul od Angel Studios, který v roce 2000 navázal na první díl a přenesl otevřené městské závodění do Londýna a San Franciska. Hráč mohl v libovolném pořadí projíždět ulicemi, parky, tramvajovými kolejemi i interiéry stanic metra, srážet dopravní kužely, plašit chodce a najíždět do protijedoucích aut, aniž by hra trestala nesprávnou jízdu jinak než poškozením karoserie. Oproti prvnímu dílu přibyla motocyklová kategorie vozidel a možnost volně přepínat mezi auty, což zvyšovalo pocit svobody v otevřeném světě, který byl v té době ještě poměrně neobvyklým konceptem. Hra nabízela vedle závodů na čas i volnou jízdu městem bez cíle.\n\nPo technické stránce hra těžila z barevné, přehledné grafiky a plynulého pocitu rychlosti, i když modely obou měst byly z pochopitelných důvodů silně zjednodušené a sloužily především jako kulisa pro efektní honičky. Ozvučení dokreslovaly řev motorů, kvílení pneumatik a hlášky protihráčů, díky nimž hra působila živě i v jednorázových trénincích mimo kariérní režim. Chování ostatního provozu a chodců, kteří se snažili uhýbat z cesty řítícímu se vozu, přispívalo k chaotickému, ale zábavnému dojmu z jízdy městem. Multiplayer po síti nebo internetu patřil k tehdy ceněným vlastnostem a přispíval k dojmu, že jde o zábavu určenou spíš k soupeření s kamarády než k dokonalé simulaci řízení.\n\nDobově byla hra vnímána jako zdařilé pokračování, které rozšířilo úspěšný recept prvního dílu o nové prostředí a vozidla, aniž by zásadně měnilo jeho charakter. V žánru arkádových městských závodů zanechala stopu jako jeden z titulů, které předznamenaly pozdější otevřené závodní hry, byť sama zůstala spíše lehčí zábavou než technologickým milníkem. Řada hráčů dodnes vzpomíná na sérii jako na průkopníka otevřených městských závodů. Dnes působí Midtown Madness 2 jako příjemná retro připomínka doby, kdy stačilo otevřené město, hrstka aut a žádná pravidla k tomu, aby hra bavila na dlouhé hodiny.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-9x__nascar-racing-2",
+          "name": "NASCAR Racing 2",
+          "genre": "Závodní simulace",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1996",
+          "studio": "Papyrus Design Group",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**NASCAR Racing 2** z roku 1996 od studia Papyrus navázal na první díl série a prohloubil pověst vývojářů jako specialistů na realistickou simulaci okruhových závodů amerického šampionátu NASCAR. Hra nabízela sezónu s reálnými tratěmi i vozy a kladla důraz na fyzikální model chování vozu, opotřebení pneumatik a nastavení podvozku, což z ní dělalo mnohem náročnější a technický titul než tehdejší arkádové závodní hry. Hráč si mohl nastavení vozu upravovat do detailu podle typu okruhu a povětrnostních podmínek, což ocenili zejména hráči hledající skutečnou simulaci, nikoli jen efektní jízdu. Součástí byl i editor tratí a možnost upravovat parametry soupeřů, což prodlužovalo životnost hry o vlastní obsah komunity.\n\nUmělá inteligence soupeřů patřila v té době k nejlépe hodnoceným prvkům hry, protože počítačem řízení jezdci reagovali na dění na trati, drafting a kolizní situace věrohodněji než konkurence. Grafické zpracování zůstávalo v mezích tehdejších možností, ale plynulost a čitelnost při vysokých rychlostech byly na svou dobu vzorové. Zvuková stránka stavěla na burácení motorů a rádiové komunikaci s boxy, což prohlubovalo dojem opravdového závodního víkendu. Hra podporovala i multiplayer, díky čemuž se stala oblíbenou i v raných online závodních ligách, kde se hráči scházeli k pravidelným závodům podle skutečného kalendáře NASCAR.\n\nNASCAR Racing 2 je dnes připomínán jako jeden z titulů, které definovaly žánr počítačových závodních simulací a ovlivnily pozdější díly série i konkurenční simulátory. Papyrus si díky němu upevnil pověst studia schopného nabídnout hloubku bez obětování hratelnosti. Pro současného hráče jde už spíš o historickou záležitost kvůli zastaralé grafice, ale fanoušci simulačního žánru v něm stále nacházejí poctivý základ mechanik, které se v podstatě nezměnily dodnes a na kterých stavěly i další díly série.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-9x__tomb-raider-iii-adventures-of-lara-croft",
+          "name": "Tomb Raider III: Adventures of Lara Croft",
+          "genre": "Akční adventura",
+          "length": "M",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1998",
+          "studio": "Core Design",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Tomb Raider III: Adventures of Lara Croft** vyšel v roce 1998 od studia Core Design a poslal Laru Croft na cestu napříč čtyřmi kontinenty za úlomky záhadného meteoritu, od indických džunglí přes londýnské kanalizace až po pacifické ostrovy a antarktické základny. Hra zachovala osvědčenou kombinaci akrobatického skákání po plošinách, řešení prostorových hádanek a přestřelek s divokou zvěří i lidskými protivníky, ale oproti předchozím dílům umožnila hráči volit pořadí, v jakém jednotlivé oblasti navštíví, což přineslo větší pocit volnosti do jinak lineárního vyprávění. Nechyběla ani vozidla jako čtyřkolka nebo malá ponorka, kterými se dalo v některých úsecích projíždět a rychleji tak překonávat rozlehlejší pasáže.\n\nLevel design šel v mnoha pasážích do větší komplexnosti a obtížnosti než dřívější díly, s rozvětvenými cestami a náročnějšími skoky, což si vysloužilo smíšené reakce – část hráčů oceňovala výzvu, jiní ji vnímali jako frustrující. Technicky hra běžela na vylepšené verzi enginu předchozích dílů a nabídla rozmanitější prostředí i počasí, včetně bouřek a sněhu, které ovlivňovaly viditelnost i atmosféru jednotlivých úrovní. Hudba a zvuková kulisa dál stavěly na tajemné, dobrodružné atmosféře, kterou série proslavila, byť už bez tak výrazného překvapivého efektu jako u prvního dílu. Ovládání zůstalo věrné mřížkovému stylu pohybu předchozích dílů, což od hráčů vyžadovalo trpělivost a přesnost při odhadování skoků.\n\nV dobovém kontextu šlo o další komerčně úspěšný přírůstek do série, který ovšem naznačoval, že tempo jednoho dílu ročně začíná sérii vyčerpávat po stránce nápadů. Přesto zůstává Tomb Raider III významným mezníkem žánru akčních adventur devadesátých let a pro fanoušky série je dodnes hratelnou připomínkou éry, kdy Lara Croft patřila mezi nejikoničtější postavy počítačových her a její dobrodružství definovala celý žánr třetí osoby.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -147214,11 +147613,11 @@
   ],
   "stats": {
     "platforms": 74,
-    "games": 4548,
+    "games": 4569,
     "withDetail": 476,
     "withTeaser": 4548,
-    "withArticle": 4544,
+    "withArticle": 4565,
     "platformImages": 74,
-    "gameImages": 4017
+    "gameImages": 4016
   }
 }

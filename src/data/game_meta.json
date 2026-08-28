@@ -2735,6 +2735,10 @@
     "studio": "Sega",
     "year": "1991"
   },
+  "mega-drive__golden-axe-iii": {
+    "studio": "Sega",
+    "year": "1993"
+  },
   "mega-drive__gunstar-heroes": {},
   "mega-drive__herzog-zwei": {
     "studio": "Technosoft",
@@ -2789,6 +2793,10 @@
   "mega-drive__pga-lemmings": {},
   "mega-drive__phantasy-star-ii": {
     "year": "1989"
+  },
+  "mega-drive__phantasy-star-iii-generations-of-doom": {
+    "studio": "Sega",
+    "year": "1990"
   },
   "mega-drive__phantasy-star-iv": {},
   "mega-drive__pier-solar-ish": {},
@@ -4131,6 +4139,10 @@
     "studio": "Angel Studios",
     "year": "1999"
   },
+  "pc-9x__midtown-madness-2": {
+    "studio": "Angel Studios",
+    "year": "2000"
+  },
   "pc-9x__might-and-magic-vi-mandate-of-heaven": {
     "studio": "New World Computing",
     "year": "1998"
@@ -4146,6 +4158,10 @@
   "pc-9x__myth-fallen-lords": {
     "studio": "Bungie",
     "year": "1997"
+  },
+  "pc-9x__nascar-racing-2": {
+    "studio": "Papyrus Design Group",
+    "year": "1996"
   },
   "pc-9x__nascar-racing-3": {
     "studio": "Papyrus Design Group",
@@ -4354,6 +4370,10 @@
   "pc-9x__tomb-raider-ii": {
     "studio": "Core Design",
     "year": "1997"
+  },
+  "pc-9x__tomb-raider-iii-adventures-of-lara-croft": {
+    "studio": "Core Design",
+    "year": "1998"
   },
   "pc-9x__total-annihilation": {
     "studio": "Cavedog Entertainment",
@@ -6826,6 +6846,10 @@
     "studio": "Atlus",
     "year": "1996"
   },
+  "playstation__persona-2-eternal-punishment": {
+    "studio": "Atlus",
+    "year": "2000"
+  },
   "playstation__point-blank": {
     "studio": "Namco",
     "year": "1997"
@@ -6839,6 +6863,14 @@
   },
   "playstation__porsche-challenge": {
     "year": "1997"
+  },
+  "playstation__r-type-delta": {
+    "studio": "Irem",
+    "year": "1998"
+  },
+  "playstation__rage-racer": {
+    "studio": "Namco",
+    "year": "1996"
   },
   "playstation__resident-evil-2": {
     "year": "1998"
@@ -6905,6 +6937,10 @@
   "playstation__tarzan": {
     "studio": "Eurocom",
     "year": "1999"
+  },
+  "playstation__tekken": {
+    "studio": "Namco",
+    "year": "1995"
   },
   "playstation__tekken-3": {
     "year": "1998"
@@ -7459,6 +7495,14 @@
     "studio": "SCE Japan Studio",
     "year": "2003"
   },
+  "ps2__armored-core-2": {
+    "studio": "FromSoftware",
+    "year": "2000"
+  },
+  "ps2__armored-core-3": {
+    "studio": "FromSoftware",
+    "year": "2002"
+  },
   "ps2__armored-core-silent-line": {
     "studio": "FromSoftware",
     "year": "2003"
@@ -7995,6 +8039,10 @@
     "studio": "Konami",
     "year": "2003"
   },
+  "ps2__silent-hill-4-room": {
+    "studio": "Konami (Team Silent)",
+    "year": "2004"
+  },
   "ps2__silent-hill-shattered-memories": {
     "studio": "Climax Studios",
     "year": "2010"
@@ -8123,6 +8171,10 @@
     "studio": "Neversoft",
     "year": "2003"
   },
+  "ps2__tony-hawk-s-underground-2": {
+    "studio": "Neversoft",
+    "year": "2004"
+  },
   "ps2__top-gun-combat-zones": {
     "studio": "Digital Fusion",
     "year": "2001"
@@ -8186,6 +8238,14 @@
   "ps3__3d-dot-game-heroes": {
     "studio": "Silicon Studio",
     "year": "2009"
+  },
+  "ps3__armored-core-4": {
+    "studio": "FromSoftware",
+    "year": "2006"
+  },
+  "ps3__armored-core-v": {
+    "studio": "FromSoftware",
+    "year": "2012"
   },
   "ps3__assassin-s-creed": {
     "studio": "Ubisoft Montreal",
@@ -8722,6 +8782,10 @@
   "ps3__resident-evil-5": {
     "studio": "Capcom",
     "year": "2009"
+  },
+  "ps3__resistance-2": {
+    "studio": "Insomniac Games",
+    "year": "2008"
   },
   "ps3__resistance-3": {
     "studio": "Insomniac Games",
@@ -12090,6 +12154,10 @@
     "studio": "Hudson Soft",
     "year": "2007"
   },
+  "wii__mario-party-9": {
+    "studio": "Nd Cube",
+    "year": "2012"
+  },
   "wii__mario-strikers-charged": {
     "studio": "Next Level Games",
     "year": "2007"
@@ -12145,6 +12213,10 @@
   "wii__resident-evil-4-wii-edition": {
     "studio": "Capcom",
     "year": "2007"
+  },
+  "wii__resident-evil-darkside-chronicles": {
+    "studio": "Cavia",
+    "year": "2009"
   },
   "wii__resident-evil-umbrella-chronicles": {
     "studio": "Capcom",
@@ -12426,6 +12498,10 @@
     "studio": "Tecno Soft",
     "year": "1988"
   },
+  "xbox-360__ace-combat-6-fires-of-liberation": {
+    "studio": "Project Aces",
+    "year": "2007"
+  },
   "xbox-360__alan-wake": {
     "studio": "Remedy Entertainment",
     "year": "2010"
@@ -12437,6 +12513,10 @@
   "xbox-360__alpha-protocol": {
     "studio": "Obsidian Entertainment",
     "year": "2010"
+  },
+  "xbox-360__armored-core-4": {
+    "studio": "FromSoftware",
+    "year": "2007"
   },
   "xbox-360__assassin-s-creed": {
     "studio": "Ubisoft Montreal",
@@ -12521,6 +12601,10 @@
   "xbox-360__call-of-duty-2": {
     "studio": "Infinity Ward",
     "year": "2005"
+  },
+  "xbox-360__call-of-duty-3": {
+    "studio": "Treyarch",
+    "year": "2006"
   },
   "xbox-360__call-of-duty-4-modern-warfare": {
     "studio": "Infinity Ward",

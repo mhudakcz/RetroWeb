@@ -496,9 +496,16 @@ def _plausible_match(query, candidate):
     q, c = P.norm_name(query), P.norm_name(candidate)
     if not q or not c or len(c) < len(q) * 0.5:
         return False
-    qt = {w for w in q.split() if len(w) > 2}
-    ct = {w for w in c.split() if len(w) > 2}
-    if qt and not (qt & ct):
+    # KAZDE vyznamne slovo dotazu musi byt i v kandidatovi. Bez toho se
+    # podnazev, ktery hry odlisuje, proste ignoruje: "Wing Commander: Prophecy"
+    # se napároval na "Wing Commander (1990)", tedy na uplne jinou hru.
+    # Naopak slova navic u kandidata vadit nemuzou — jsou to regionalni znacky
+    # a cisla disku, "Doom (USA) (Rev 1)".
+    # Prah ctyr znaku vynechava spojky: repozitar pise "&" jako "_", takze
+    # "Command & Conquer" by jinak vzdy propadlo na chybejicim "and".
+    qt = {w for w in q.split() if len(w) >= 4}
+    ct = set(c.split())
+    if qt and not qt.issubset(ct):
         return False
     # Poradove cislo dilu musi sedet. Repozitar PlayStationu nema Tomb Raider II
     # ani III, takze obe hry jinak spadnou na jednicku — a stejne tak by Doom II
