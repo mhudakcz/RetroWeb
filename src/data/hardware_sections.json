@@ -952,6 +952,58 @@
    ]
   },
   {
+   "title": "Ukládání postupu, vyskočení ze hry a zkratky",
+   "body": [
+    "Nejdůležitější věc, kterou si na emulaci člověk musí zvyknout: **ukládá se dvěma různými způsoby** a každý má jiné vlastnosti. **Herní save** je ten, který nabízí sama hra — sejv na paměťovou kartu u PlayStationu, baterií zálohovaná paměť v kazetě u SNESu, heslo u starších her. Emulátor ho ukládá do souboru (`.srm`, `.sav`) přesně tak, jak by to udělal originální stroj. **Save state** naproti tomu žádná hra nezná: je to okamžitý snímek celé paměti emulátoru, který se dá udělat kdykoli, klidně uprostřed skoku, a stejně tak kdykoli obnovit.",
+    "Save state je pohodlnější, ale křehčí. Je svázaný s konkrétním emulačním jádrem a jeho verzí — po aktualizaci firmwaru nebo po přechodu na jiné jádro se nemusí načíst a nedá se s tím nic dělat. Rozumné pravidlo tedy zní: **dlouhý postup ukládej herním savem**, save state používej na to, na co se hodí — těžkou pasáž, souboj s bossem, hru bez ukládání, nebo když prostě musíte za dvě minuty vystoupit z tramvaje.",
+    "Na R36S se všechno ovládá kombinacemi s tlačítkem **Select**, které v ArkOS slouží jako takzvaný hotkey — držíte ho a přidáte druhé tlačítko. Malé tlačítko **FN** nad displejem je vyhrazené pro jas a hlasitost. Kombinace stojí za to se naučit hned první den; jsou to čtyři, které používáte pořád.",
+    "Vyskočit ze hry se vyplatí **vždy zkratkou, ne vypnutím konzole**. Herní save se totiž z paměti na kartu zapisuje často až ve chvíli, kdy se emulátor zavírá; když místo toho podržíte vypínač nebo necháte dojít baterii, poslední rozehraná hodina může být pryč, i když jste ve hře řádně uložili. Stejně tak je dobré nechat konzoli vypnout přes nabídku systému, ne natvrdo — u zařízení s Linuxem to navíc chrání kartu před poškozením souborového systému.",
+    "Zkratky výše platí pro **RetroArch**, přes který běží naprostá většina systémů. Samostatné emulátory — PPSSPP pro PSP, DraStic pro Nintendo DS, Flycast či ScummVM ve vlastním rozhraní — mají vlastní menu a vlastní kombinace; u nich se do nabídky obvykle dostanete jiným tlačítkem a ukládání řešíte v ní. Pokud tedy některá kombinace ve hře nefunguje, skoro jistě jde o hru, která neběží pod RetroArchem.",
+    "Na **ROCKNIX** (nástupce JELOS) se hotkey vybírá při prvním nastavení a drtivá většina lidí volí opět Select; systém si pak zkratky RetroArche nastaví sám podle detekovaného ovladače (Settings → Controller & Bluetooth). Rozložení je proto v praxi stejné jako v ArkOS, ale aktuální tabulku má ROCKNIX ve své wiki — po velké aktualizaci se vyplatí do ní nahlédnout.",
+    "Uložené pozice leží na kartě ve složce se savy (podle firmwaru typicky `saves/` nebo `roms/…/`) a **před každou aktualizací firmwaru nebo přepisem karty si je zkopírujte na počítač** — upgrade je smaže překvapivě snadno. Je to otázka jednoho přetažení složky a ušetří to hodně mrzutosti."
+   ],
+   "keys": [
+    {
+     "firmware": "ArkOS (a v praxi i ROCKNIX)",
+     "note": "Hotkey je **Select**. Kombinace lze v RetroArchi předefinovat v Settings → Input → Hotkeys.",
+     "rows": [
+      [
+       "Select + Start",
+       "Ukončit hru a vrátit se do nabídky"
+      ],
+      [
+       "Select + R1",
+       "Uložit pozici (save state) do aktivního slotu"
+      ],
+      [
+       "Select + L1",
+       "Načíst pozici z aktivního slotu"
+      ],
+      [
+       "Select + X",
+       "Rychlé menu RetroArche — sloty, jádro, shadery, restart hry"
+      ],
+      [
+       "Select + R2",
+       "Zrychlený běh (fast forward)"
+      ],
+      [
+       "Select + B",
+       "Snímek obrazovky"
+      ],
+      [
+       "FN + ↑ / ↓",
+       "Jas displeje"
+      ],
+      [
+       "FN + ← / →",
+       "Hlasitost"
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "title": "Obraz, zvuk a shadery",
    "body": [
     "Displej **640×480 ve 4:3** je pro retro emulaci velmi vhodný — řada konzolí dané éry pracovala v podobném poměru, takže obraz vyplní panel bez ošklivých černých pruhů po stranách. IPS panel nabízí slušné pozorovací úhly a barvy; jas je dostačující do interiéru, na přímém slunci ovšem bojuje. Mezi várkami se kvalita panelů liší.",
@@ -1217,6 +1269,87 @@
     "Přestože je RG35XX Pro vertikální \"Game Boy\" handheld, Anbernic ho ergonomicky vyladil tak, aby seděl v ruce lépe než původní model. **D-pad** je přesný a vhodný pro plošinovky a bojovky, akční tlačítka mají příjemný zdvih a **dvě analogové páčky** umístěné pod displejem řeší dlouholetý nedostatek řady — díky nim je hraní 3D her na PS1 a N64 skutečně pohodlné. Páčky podporují i stisk (L3/R3), což některé hry využívají.",
     "Ramenní tlačítka **L1/R1 a L2/R2** jsou u vertikálních handheldů vždy trochu kompromisem kvůli tvaru těla, ale u Pro jsou rozumně dostupná. Funkční tlačítko (Menu/Function) v kombinaci s dalšími tlačítky slouží jako rychlé klávesové zkratky — vyvolání herního menu RetroArche, uložení a načtení pozice, změna jasu či hlasitosti, případně rychlé vypnutí. Konkrétní kombinace se liší podle firmwaru, takže se vyplatí naučit se zkratky daného systému (např. v muOS a Knulli jsou dokumentované).",
     "Pro delší hraní je vhodné počítat s tím, že kompaktní vertikální tělo méně vyhovuje velkým rukám než větší horizontální handheldy (např. sourozenecký RG35XX H). Pokud preferujete \"landscape\" pocit jako u Game Gearu nebo PSP, může být H verze pohodlnější; Pro je naopak ideální pro fanoušky klasického svislého formátu a pro hraní na cestách, kde se cení malé rozměry."
+   ]
+  },
+  {
+   "title": "Ukládání postupu, vyskočení ze hry a zkratky",
+   "body": [
+    "Nejdůležitější věc, kterou si na emulaci člověk musí zvyknout: **ukládá se dvěma různými způsoby** a každý má jiné vlastnosti. **Herní save** je ten, který nabízí sama hra — sejv na paměťovou kartu u PlayStationu, baterií zálohovaná paměť v kazetě u SNESu, heslo u starších her. Emulátor ho ukládá do souboru (`.srm`, `.sav`) přesně tak, jak by to udělal originální stroj. **Save state** naproti tomu žádná hra nezná: je to okamžitý snímek celé paměti emulátoru, který se dá udělat kdykoli, klidně uprostřed skoku, a stejně tak kdykoli obnovit.",
+    "Save state je pohodlnější, ale křehčí. Je svázaný s konkrétním emulačním jádrem a jeho verzí — po aktualizaci firmwaru nebo po přechodu na jiné jádro se nemusí načíst a nedá se s tím nic dělat. Rozumné pravidlo tedy zní: **dlouhý postup ukládej herním savem**, save state používej na to, na co se hodí — těžkou pasáž, souboj s bossem, hru bez ukládání, nebo když prostě musíte za dvě minuty vystoupit z tramvaje.",
+    "Konkrétní kombinace se tady liší podle firmwaru, protože každý si hotkey mapuje po svém — a je to první věc, kterou po instalaci custom firmwaru zjistíte. Na **stock systému od Anbernicu** je to nejjednodušší: konzole má vpředu samostatné tlačítko **Function**, jeho stiskem se vyvolá herní nabídka a v ní najdete uložení pozice, načtení i ukončení hry. Žádné kombinace se učit nemusíte. U **muOS** a **Knulli** se pracuje se zkratkami, které jsou v tabulkách níže.",
+    "Vyskočit ze hry se vyplatí **vždy zkratkou, ne vypnutím konzole**. Herní save se totiž z paměti na kartu zapisuje často až ve chvíli, kdy se emulátor zavírá; když místo toho podržíte vypínač nebo necháte dojít baterii, poslední rozehraná hodina může být pryč, i když jste ve hře řádně uložili. Stejně tak je dobré nechat konzoli vypnout přes nabídku systému, ne natvrdo — u zařízení s Linuxem to navíc chrání kartu před poškozením souborového systému.",
+    "Zkratky výše platí pro **RetroArch**, přes který běží naprostá většina systémů. Samostatné emulátory — PPSSPP pro PSP, DraStic pro Nintendo DS, Flycast či ScummVM ve vlastním rozhraní — mají vlastní menu a vlastní kombinace; u nich se do nabídky obvykle dostanete jiným tlačítkem a ukládání řešíte v ní. Pokud tedy některá kombinace ve hře nefunguje, skoro jistě jde o hru, která neběží pod RetroArchem.",
+    "Uložené pozice leží na kartě ve složce se savy (podle firmwaru typicky `saves/` nebo `roms/…/`) a **před každou aktualizací firmwaru nebo přepisem karty si je zkopírujte na počítač** — upgrade je smaže překvapivě snadno. Je to otázka jednoho přetažení složky a ušetří to hodně mrzutosti."
+   ],
+   "keys": [
+    {
+     "firmware": "muOS",
+     "note": "Hotkey je tlačítko **Menu**.",
+     "rows": [
+      [
+       "Menu + Start",
+       "Ukončit hru"
+      ],
+      [
+       "Menu + R2",
+       "Uložit pozici (save state)"
+      ],
+      [
+       "Menu + L2",
+       "Načíst pozici"
+      ],
+      [
+       "Menu + X",
+       "Menu RetroArche"
+      ],
+      [
+       "Menu + R1",
+       "Zrychlený běh (fast forward)"
+      ],
+      [
+       "Menu + Y",
+       "Zobrazit FPS"
+      ],
+      [
+       "Menu + tlačítka hlasitosti",
+       "Jas displeje"
+      ]
+     ]
+    },
+    {
+     "firmware": "Knulli (větev Batocery)",
+     "note": "Hotkey je tlačítko **Function** — držte ho a přidejte druhé tlačítko.",
+     "rows": [
+      [
+       "Function + Start",
+       "Ukončit hru a vrátit se do EmulationStation"
+      ],
+      [
+       "Function + ↑",
+       "Uložit pozici do aktivního slotu"
+      ],
+      [
+       "Function + ↓",
+       "Načíst pozici z aktivního slotu"
+      ],
+      [
+       "Function + →",
+       "Menu emulátoru"
+      ],
+      [
+       "Function + A",
+       "Zrychlený běh (fast forward)"
+      ],
+      [
+       "Function + L1",
+       "Snímek obrazovky"
+      ],
+      [
+       "Function + tlačítka hlasitosti",
+       "Jas displeje"
+      ]
+     ]
+    }
    ]
   },
   {

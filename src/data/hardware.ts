@@ -8,6 +8,10 @@ export interface HardwareSpec {
 export interface HardwareSection {
   title: string;
   body: string[]; // odstavce (markdown inline)
+  /** Volitelna tabulka kombinaci tlacitek. Zkratky jsou svou povahou tabulka —
+   *  v odstavci se ctou spatne a clovek je hleda ocima. Nekolik skupin proto,
+   *  ze kazdy firmware ma vlastni sadu. */
+  keys?: { firmware: string; note?: string; rows: [string, string][] }[];
 }
 
 export interface HardwareItem {

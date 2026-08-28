@@ -22,7 +22,7 @@ const canPlay = m.canPlay ?? hw.canPlay;
 const options = m.options ?? hw.options;
 const otherTagline = (h: any) => metaAll[h.slug]?.tagline ?? h.tagline;
 
-type Sec = { title: string; body: string[] };
+type Sec = { title: string; body: string[]; keys?: { firmware: string; note?: string; rows: [string, string][] }[] };
 const secSrc: Record<string, Sec[]> =
   locale === DEFAULT_LOCALE ? (hardwareSectionsCs as any) : (hardwareSectionsLoc(locale) as any);
 const sections: Sec[] = secSrc[hw.slug] ?? hw.sections;
@@ -91,6 +91,22 @@ const LVL: Record<string, string> = { ok: t(locale, 'hwlvl.ok'), most: t(locale,
     <section class="long" id={toc[i].id}>
       <h2>{sec.title}</h2>
       <div class="prose">{sec.body.map((p) => <p set:html={mdInline(p)} />)}</div>
+      {sec.keys?.map((k) => (
+        <div class="keys">
+          <h3>{k.firmware}</h3>
+          {k.note && <p class="muted note" set:html={mdInline(k.note)} />}
+          <table>
+            <tbody>
+              {k.rows.map(([combo, action]) => (
+                <tr>
+                  <th scope="row" set:html={mdInline(combo)} />
+                  <td set:html={mdInline(action)} />
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
     </section>
   ))}
 
@@ -167,6 +183,24 @@ const LVL: Record<string, string> = { ok: t(locale, 'hwlvl.ok'), most: t(locale,
   .toc a:hover { text-decoration: underline; }
   .long { margin-top: 30px; scroll-margin-top: 80px; }
   .long h2 { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 12px; }
+
+  /* tabulka klavesovych zkratek */
+  .keys { margin-top: 18px; }
+  .keys h3 { font-size: 1rem; margin: 0 0 4px; }
+  .keys .note { font-size: .86rem; margin: 0 0 8px; }
+  .keys table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+  .keys tr + tr { border-top: 1px solid var(--line); }
+  .keys th, .keys td { text-align: left; padding: 7px 10px 7px 0; vertical-align: top; }
+  .keys th {
+    font-weight: 600; white-space: nowrap; width: 1%; padding-right: 18px;
+    font-family: var(--mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+  }
+  @media (max-width: 460px) {
+    /* na uzkem displeji se kombinace a popis nevejdou vedle sebe */
+    .keys th, .keys td { display: block; width: auto; padding: 0; }
+    .keys th { padding-top: 8px; }
+    .keys td { padding-bottom: 8px; }
+  }
   @media (max-width: 560px) { .toc ol { columns: 1; } }
   .options { margin-top: 36px; }
   .options h2 { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 16px; }
