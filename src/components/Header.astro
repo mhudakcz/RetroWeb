@@ -1,5 +1,5 @@
 ---
-import { t, localizePath, navHref, LOCALES, DEFAULT_LOCALE } from '../lib/i18n';
+import { t, localizePath, navHref, localePrefix, LOCALES, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 import LangSwitcher from './LangSwitcher.astro';
 
@@ -56,6 +56,15 @@ const NAV: [string, string][] = [
         <span class="t-dark">{t(locale, 'theme.dark')}</span><span class="t-light">{t(locale, 'theme.light')}</span>
       </button>
     </nav>
+    <div class="search" data-prefix={localePrefix(locale)}>
+      <input id="site-search" type="search" autocomplete="off" spellcheck="false"
+             placeholder={t(locale, 'search.placeholder')} aria-label={t(locale, 'search.label')}
+             role="combobox" aria-expanded="false" aria-controls="search-results" />
+      <div id="search-results" class="search-results" role="listbox" hidden
+           data-empty={t(locale, 'search.empty')}
+           data-kind-g={t(locale, 'search.kind.g')} data-kind-p={t(locale, 'search.kind.p')}
+           data-kind-r={t(locale, 'search.kind.r')} data-kind-d={t(locale, 'search.kind.d')}></div>
+    </div>
     <LangSwitcher locale={locale} localized={localized} drop="down" />
     <button id="theme-toggle" class="theme-toggle" type="button" aria-label={t(locale, 'theme.toggle')} title={t(locale, 'theme.toggle')}>
       <span class="t-dark">🌙</span><span class="t-light">☀️</span>
@@ -65,6 +74,122 @@ const NAV: [string, string][] = [
     </button>
   </div>
 </header>
+
+<script is:inline>
+  (function () {
+    var input = document.getElementById('site-search');
+    var box = document.getElementById('search-results');
+    if (!input || !box) return;
+    var wrap = input.parentElement;
+    var prefix = wrap.getAttribute('data-prefix') || '';
+    var PATH = { g: '/hry/', p: '/platformy/', r: '/serie/', d: '/studia/' };
+    var KIND = {
+      g: box.getAttribute('data-kind-g'), p: box.getAttribute('data-kind-p'),
+      r: box.getAttribute('data-kind-r'), d: box.getAttribute('data-kind-d'),
+    };
+    var index = null, loading = false, cursor = -1, rows = [];
+
+    // Bez diakritiky a interpunkce — musi odpovidat fold() v search.json.ts
+    function fold(s) {
+      return s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    }
+
+    function load() {
+      if (index || loading) return Promise.resolve();
+      loading = true;
+      return fetch(prefix + '/search.json')
+        .then(function (r) { return r.json(); })
+        .then(function (d) { index = d; loading = false; })
+        .catch(function () { loading = false; });
+    }
+
+    function search(q) {
+      var f = fold(q);
+      if (!f || !index) return [];
+      var starts = [], has = [];
+      for (var i = 0; i < index.length; i++) {
+        var r = index[i];
+        var at = r.f.indexOf(f);
+        if (at === 0) starts.push(r);
+        else if (at > 0) has.push(r);
+      }
+      // typy krome her jdou napred — je jich malo a hleda se na ne cileneji
+      var out = starts.concat(has);
+      out.sort(function (a, b) {
+        var ra = a.t === 'g' ? 1 : 0, rb = b.t === 'g' ? 1 : 0;
+        return ra - rb || a.n.length - b.n.length;
+      });
+      return out.slice(0, 12);
+    }
+
+    function render(list) {
+      rows = list;
+      cursor = -1;
+      if (!list.length) {
+        box.innerHTML = '<p class="sr-empty">' + box.getAttribute('data-empty') + '</p>';
+        box.hidden = false;
+        input.setAttribute('aria-expanded', 'true');
+        return;
+      }
+      var html = '';
+      for (var i = 0; i < list.length; i++) {
+        var r = list[i];
+        var url = prefix + PATH[r.t] + r.s;
+        var meta = r.t === 'g' && r.x ? r.x : KIND[r.t];
+        html += '<a class="sr-item" role="option" href="' + url + '">' +
+                '<span class="sr-name"></span><span class="sr-meta"></span></a>';
+      }
+      box.innerHTML = html;
+      var items = box.querySelectorAll('.sr-item');
+      for (var j = 0; j < items.length; j++) {
+        items[j].querySelector('.sr-name').textContent = list[j].n;
+        items[j].querySelector('.sr-meta').textContent =
+          list[j].t === 'g' && list[j].x ? list[j].x : KIND[list[j].t];
+      }
+      box.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function close() {
+      box.hidden = true;
+      input.setAttribute('aria-expanded', 'false');
+      cursor = -1;
+    }
+
+    function move(d) {
+      var items = box.querySelectorAll('.sr-item');
+      if (!items.length) return;
+      if (cursor >= 0) items[cursor].classList.remove('on');
+      cursor = (cursor + d + items.length) % items.length;
+      items[cursor].classList.add('on');
+      items[cursor].scrollIntoView({ block: 'nearest' });
+    }
+
+    var timer;
+    input.addEventListener('input', function () {
+      var q = input.value.trim();
+      clearTimeout(timer);
+      if (q.length < 2) { close(); return; }
+      timer = setTimeout(function () {
+        load().then(function () { render(search(q)); });
+      }, 120);
+    });
+    input.addEventListener('focus', load);
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+      else if (e.key === 'Escape') { close(); input.blur(); }
+      else if (e.key === 'Enter') {
+        var items = box.querySelectorAll('.sr-item');
+        if (cursor >= 0 && items[cursor]) { e.preventDefault(); items[cursor].click(); }
+      }
+    });
+    document.addEventListener('click', function (e) {
+      if (!wrap.contains(e.target)) close();
+    });
+  })();
+</script>
 
 <script is:inline>
   (function () {
