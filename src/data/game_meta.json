@@ -3751,6 +3751,10 @@
     "studio": "Digital Integration",
     "year": "1998"
   },
+  "pc-9x__asheron-s-call": {
+    "studio": "Turbine Entertainment",
+    "year": "1999"
+  },
   "pc-9x__asmodeus-ukradeny-trun": {
     "studio": "malé české studio",
     "year": "1997"
@@ -3890,6 +3894,10 @@
   "pc-9x__european-air-war": {
     "studio": "MicroProse",
     "year": "1998"
+  },
+  "pc-9x__everquest": {
+    "studio": "Verant Interactive",
+    "year": "1999"
   },
   "pc-9x__f-22-lightning-3": {
     "studio": "NovaLogic",
@@ -4053,6 +4061,10 @@
   },
   "pc-9x__master-of-orion-ii-battle-at-antares": {
     "studio": "Simtex",
+    "year": "1996"
+  },
+  "pc-9x__meridian-59": {
+    "studio": "Archetype Interactive",
     "year": "1996"
   },
   "pc-9x__messiah": {
@@ -4242,6 +4254,10 @@
   "pc-9x__steel-beasts": {
     "studio": "eSim Games",
     "year": "2000"
+  },
+  "pc-9x__subspace": {
+    "studio": "Virgin Interactive",
+    "year": "1997"
   },
   "pc-9x__swat-3-close-quarters-battle": {
     "studio": "Sierra",
@@ -5221,6 +5237,10 @@
     "studio": "Irrational Games",
     "year": "2013"
   },
+  "pc-modern__black-desert-online": {
+    "studio": "Pearl Abyss",
+    "year": "2015"
+  },
   "pc-modern__black-mirror": {
     "studio": "Future Games",
     "year": "2003"
@@ -5300,6 +5320,18 @@
   "pc-modern__command-and-conquer-red-alert-3": {
     "studio": "EA Los Angeles",
     "year": "2008"
+  },
+  "pc-modern__counter-strike-2": {
+    "studio": "Valve",
+    "year": "2023"
+  },
+  "pc-modern__counter-strike-global-offensive": {
+    "studio": "Valve",
+    "year": "2012"
+  },
+  "pc-modern__counter-strike-source": {
+    "studio": "Valve",
+    "year": "2004"
   },
   "pc-modern__creaks": {
     "studio": "Amanita Design",
@@ -5393,6 +5425,10 @@
     "studio": "id Software",
     "year": "2020"
   },
+  "pc-modern__dota-2": {
+    "studio": "Valve",
+    "year": "2013"
+  },
   "pc-modern__dragon-age-ii": {
     "studio": "BioWare",
     "year": "2011"
@@ -5440,6 +5476,10 @@
   "pc-modern__europa-universalis-iv": {
     "studio": "Paradox Development Studio",
     "year": "2013"
+  },
+  "pc-modern__eve-online": {
+    "studio": "CCP Games",
+    "year": "2003"
   },
   "pc-modern__f-e-r": {
     "studio": "Monolith Productions",
@@ -5505,6 +5545,10 @@
     "studio": "Polytron Corporation",
     "year": "2013"
   },
+  "pc-modern__final-fantasy-xiv-realm-reborn": {
+    "studio": "Square Enix",
+    "year": "2013"
+  },
   "pc-modern__frostpunk": {
     "studio": "11 bit studios",
     "year": "2018"
@@ -5552,6 +5596,10 @@
   "pc-modern__guacamelee": {
     "studio": "DrinkBox Studios",
     "year": "2013"
+  },
+  "pc-modern__guild-wars": {
+    "studio": "ArenaNet",
+    "year": "2005"
   },
   "pc-modern__guild-wars-2": {
     "studio": "ArenaNet",
@@ -5661,6 +5709,10 @@
     "studio": "Warhorse Studios",
     "year": "2025"
   },
+  "pc-modern__league-of-legends": {
+    "studio": "Riot Games",
+    "year": "2009"
+  },
   "pc-modern__left-4-dead-2": {
     "studio": "Valve",
     "year": "2009"
@@ -5669,9 +5721,17 @@
     "studio": "Riot Games",
     "year": "2020"
   },
+  "pc-modern__lineage-ii": {
+    "studio": "NCSoft",
+    "year": "2003"
+  },
   "pc-modern__lock-on-modern-air-combat": {
     "studio": "Eagle Dynamics",
     "year": "2003"
+  },
+  "pc-modern__lost-ark": {
+    "studio": "Smilegate",
+    "year": "2019"
   },
   "pc-modern__machinarium": {
     "studio": "Amanita Design",
@@ -5793,6 +5853,10 @@
     "studio": "Obsidian Entertainment",
     "year": "2006"
   },
+  "pc-modern__new-world": {
+    "studio": "Amazon Games",
+    "year": "2021"
+  },
   "pc-modern__nibiru-age-of-secrets": {
     "studio": "Future Games",
     "year": "2005"
@@ -5820,6 +5884,10 @@
   "pc-modern__outlast": {
     "studio": "Red Barrels",
     "year": "2013"
+  },
+  "pc-modern__overwatch-2": {
+    "studio": "Blizzard Entertainment",
+    "year": "2022"
   },
   "pc-modern__papers-please": {
     "studio": "Lucas Pope",
@@ -5861,6 +5929,14 @@
     "studio": "Valve",
     "year": "2011"
   },
+  "pc-modern__pubg-battlegrounds": {
+    "studio": "PUBG Studios",
+    "year": "2017"
+  },
+  "pc-modern__rainbow-six-siege": {
+    "studio": "Ubisoft Montreal",
+    "year": "2015"
+  },
   "pc-modern__return-of-obra-dinn": {
     "studio": "Lucas Pope",
     "year": "2018"
@@ -5872,6 +5948,10 @@
   "pc-modern__rise-of-nations": {
     "studio": "Big Huge Games",
     "year": "2003"
+  },
+  "pc-modern__runescape": {
+    "studio": "Jagex",
+    "year": "2001"
   },
   "pc-modern__s-t-l-k-e-r-shadow-of-chernobyl": {
     "studio": "GSC Game World",
@@ -5933,6 +6013,10 @@
     "studio": "Mossmouth",
     "year": "2013"
   },
+  "pc-modern__star-wars-galaxies": {
+    "studio": "Sony Online Entertainment",
+    "year": "2003"
+  },
   "pc-modern__star-wars-knights-of-old-republic": {
     "studio": "BioWare",
     "year": "2003"
@@ -5964,6 +6048,10 @@
   "pc-modern__svoboda-1945-liberation": {
     "studio": "Charles Games",
     "year": "2021"
+  },
+  "pc-modern__team-fortress-2": {
+    "studio": "Valve",
+    "year": "2007"
   },
   "pc-modern__terraria": {
     "studio": "Re-Logic",
@@ -6017,6 +6105,10 @@
     "studio": "Epic Games",
     "year": "2007"
   },
+  "pc-modern__valorant": {
+    "studio": "Riot Games",
+    "year": "2020"
+  },
   "pc-modern__vampire-masquerade-bloodlines": {
     "studio": "Troika Games",
     "year": "2004"
@@ -6064,6 +6156,10 @@
   "pc-modern__wolfenstein-new-order": {
     "studio": "MachineGames",
     "year": "2014"
+  },
+  "pc-modern__world-of-warcraft": {
+    "studio": "Blizzard Entertainment",
+    "year": "2004"
   },
   "pc-modern__world-of-warships": {
     "studio": "Wargaming",

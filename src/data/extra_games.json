@@ -14265,6 +14265,32 @@
    "genre": "Taktická střílečka",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "EverQuest",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Asheron's Call",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Meridian 59",
+   "genre": "MMORPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "SubSpace",
+   "genre": "Online akční střílečka",
+   "length": "M",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -17333,6 +17359,146 @@
    "length": "M",
    "flags": [
     "mature"
+   ]
+  },
+  {
+   "name": "World of Warcraft",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Final Fantasy XIV: A Realm Reborn",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "EVE Online",
+   "genre": "MMORPG / vesmírná simulace",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "RuneScape",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Guild Wars",
+   "genre": "MMORPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Star Wars Galaxies",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Lineage II",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Black Desert Online",
+   "genre": "MMORPG (akční)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "New World",
+   "genre": "MMORPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lost Ark",
+   "genre": "MMORPG (akční, izometrické)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dota 2",
+   "genre": "MOBA",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "League of Legends",
+   "genre": "MOBA",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Valorant",
+   "genre": "Taktická střílečka",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Counter-Strike: Global Offensive",
+   "genre": "Taktická střílečka",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Counter-Strike 2",
+   "genre": "Taktická střílečka",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Counter-Strike: Source",
+   "genre": "Taktická střílečka",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "PUBG: Battlegrounds",
+   "genre": "Battle royale",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Overwatch 2",
+   "genre": "Hrdinská střílečka",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Team Fortress 2",
+   "genre": "Hrdinská střílečka",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rainbow Six Siege",
+   "genre": "Taktická střílečka",
+   "length": "XL",
+   "flags": [
+    "mustplay"
    ]
   }
  ],
