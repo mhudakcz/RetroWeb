@@ -212,6 +212,9 @@ LIBRETRO = {
     # DOS (Quake, Tomb Raider, Carmageddon), takze se obaly hledaji tam. Parovani
     # je na presny nazev, takze se netrefi do nespravne hry.
     "pc-9x": "DOS",
+    # Forte VFX1 byl headset pro DOSove PC — vsechny hry na nem jsou DOSove
+    # tituly (Descent, Doom, System Shock), takze obaly i snimky sedi tamtez.
+    "vfx1": "DOS",
     "intellivision": "Mattel_-_Intellivision",
     "jaguar": "Atari_-_Jaguar",
     "amiga-cd32": "Commodore_-_Amiga",
