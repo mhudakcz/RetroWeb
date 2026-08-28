@@ -1,0 +1,97 @@
+---
+/**
+ * Seznam her, ve kterem se kazdy titul objevi JEDNOU a jeho platformy jsou
+ * stitky pod nazvem.
+ *
+ * Serie i studia sdruzuji hry napric platformami, takze bez sloucení podle
+ * nazvu vypadal vypis jako porucha — Bethesda mela trikrat Skyrim a trikrat
+ * Fallout 3, serie Lemmings desetkrat totez. Zastupcem skupiny je nejstarsi
+ * vydani, protoze u serii se cte vyvoj v case.
+ */
+import { localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+import { mdInline, normGameName } from '../lib/data';
+import type { GameWithPlatform } from '../lib/data';
+
+interface Props {
+  games: GameWithPlatform[];
+  locale?: Locale;
+}
+const { games, locale = DEFAULT_LOCALE } = Astro.props;
+
+type Entry = { g: GameWithPlatform; year: number; versions: GameWithPlatform[] };
+const byTitle = new Map<string, Entry>();
+for (const g of games) {
+  const key = normGameName(g.name);
+  const y = parseInt(g.year || '') || g.platform.year;
+  const e = byTitle.get(key);
+  if (e) {
+    e.versions.push(g);
+    if (y < e.year) {
+      e.year = y;
+      e.g = g;
+    }
+  } else {
+    byTitle.set(key, { g, year: y, versions: [g] });
+  }
+}
+
+const entries = [...byTitle.values()]
+  .map((e) => ({ ...e, versions: [...e.versions].sort((a, b) => a.platform.year - b.platform.year) }))
+  .sort((a, b) => a.year - b.year || a.g.name.localeCompare(b.g.name, 'cs'));
+---
+
+<ol class="entries">
+  {entries.map((e) => (
+    <li class="entry">
+      <a class="e-thumb" href={localizePath(locale, `/hry/${e.g.slug}`)}
+         style={`--c1:${e.g.platform.color}; --c2:${e.g.platform.color2}`}>
+        {e.g.image ? <img src={e.g.image} alt="" loading="lazy" decoding="async" />
+                   : <span class="e-ph pixel">{e.g.platform.short}</span>}
+      </a>
+      <div class="e-body">
+        <h3 class="e-name">
+          <a href={localizePath(locale, `/hry/${e.g.slug}`)} set:html={mdInline(e.g.name)} />
+          {e.year ? <span class="muted e-year"> · {e.year}</span> : null}
+        </h3>
+        {e.g.teaser && <p class="e-teaser muted" set:html={mdInline(e.g.teaser)} />}
+        <div class="e-plats">
+          {e.versions.map((v) => (
+            <a class="e-plat" href={localizePath(locale, `/hry/${v.slug}`)}
+               style={`--c1:${v.platform.color}`} title={v.platform.name}>
+              {v.platform.short}
+            </a>
+          ))}
+        </div>
+      </div>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .entries { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .entry {
+    display: flex; gap: 14px; padding: 12px; border: 1px solid var(--border-soft);
+    border-radius: var(--radius); background: var(--surface);
+  }
+  .e-thumb {
+    flex: none; width: 64px; height: 64px; border-radius: 10px; overflow: hidden;
+    display: grid; place-items: center;
+    background: radial-gradient(120% 120% at 50% 20%, var(--c1), var(--c2));
+  }
+  .e-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .e-ph { font-size: 0.55rem; color: #fff; }
+  .e-body { flex: 1; min-width: 0; }
+  .e-name { font-size: 1rem; margin: 0 0 4px; }
+  .e-name a { color: inherit; text-decoration: none; }
+  .e-name a:hover { color: var(--accent); }
+  .e-year { font-weight: 400; font-size: 0.9rem; }
+  .e-teaser { font-size: 0.9rem; margin: 0 0 8px; }
+  .e-plats { display: flex; flex-wrap: wrap; gap: 6px; }
+  .e-plat {
+    font-family: var(--font-pixel); font-size: 0.52rem; text-decoration: none;
+    padding: 0.42em 0.6em; border-radius: 6px; color: var(--muted);
+    border: 1px solid color-mix(in srgb, var(--c1) 40%, var(--border));
+  }
+  .e-plat:hover { color: #fff; background: var(--c1); }
+</style>

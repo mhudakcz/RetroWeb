@@ -1,5 +1,6 @@
 ---
 import { localeData, mdBlock, mdInline, normGameName } from '../lib/data';
+import GameEntryList from './GameEntryList.astro';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -64,34 +65,7 @@ const entries = [...byTitle.values()]
 
   <section class="games">
     <h2 class="sec-title">{t(locale, 'series.games')} <span class="muted">({entries.length})</span></h2>
-    <ol class="entries">
-      {
-        entries.map((e) => (
-          <li class="entry">
-            <a class="e-thumb" href={localizePath(locale, `/hry/${e.g.slug}`)}
-               style={`--c1:${e.g.platform.color}; --c2:${e.g.platform.color2}`}>
-              {e.g.image ? <img src={e.g.image} alt="" loading="lazy" decoding="async" />
-                         : <span class="e-ph pixel">{e.g.platform.short}</span>}
-            </a>
-            <div class="e-body">
-              <h3 class="e-name">
-                <a href={localizePath(locale, `/hry/${e.g.slug}`)} set:html={mdInline(e.g.name)} />
-                {e.year ? <span class="muted e-year"> · {e.year}</span> : null}
-              </h3>
-              {e.g.teaser && <p class="e-teaser muted" set:html={mdInline(e.g.teaser)} />}
-              <div class="e-plats">
-                {e.versions.map((v) => (
-                  <a class="e-plat" href={localizePath(locale, `/hry/${v.slug}`)}
-                     style={`--c1:${v.platform.color}`} title={v.platform.name}>
-                    {v.platform.short}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </li>
-        ))
-      }
-    </ol>
+    <GameEntryList games={s.games} locale={locale} />
   </section>
 </article>
 
@@ -118,29 +92,4 @@ const entries = [...byTitle.values()]
   .article { margin: 24px 0 8px; font-size: 1.04rem; }
   .games { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
   .sec-title { font-size: clamp(1.3rem, 3vw, 1.6rem); margin-bottom: 18px; }
-  .entries { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
-  .entry {
-    display: flex; gap: 14px; padding: 12px; border: 1px solid var(--border-soft);
-    border-radius: var(--radius); background: var(--surface);
-  }
-  .e-thumb {
-    flex: none; width: 64px; height: 64px; border-radius: 10px; overflow: hidden;
-    display: grid; place-items: center;
-    background: radial-gradient(120% 120% at 50% 20%, var(--c1), var(--c2));
-  }
-  .e-thumb img { width: 100%; height: 100%; object-fit: cover; }
-  .e-ph { font-size: 0.55rem; color: #fff; }
-  .e-body { flex: 1; min-width: 0; }
-  .e-name { font-size: 1rem; margin: 0 0 4px; }
-  .e-name a { color: inherit; text-decoration: none; }
-  .e-name a:hover { color: var(--accent); }
-  .e-year { font-weight: 400; font-size: 0.9rem; }
-  .e-teaser { font-size: 0.9rem; margin: 0 0 8px; }
-  .e-plats { display: flex; flex-wrap: wrap; gap: 6px; }
-  .e-plat {
-    font-family: var(--font-pixel); font-size: 0.52rem; text-decoration: none;
-    padding: 0.42em 0.6em; border-radius: 6px; color: var(--muted);
-    border: 1px solid color-mix(in srgb, var(--c1) 40%, var(--border));
-  }
-  .e-plat:hover { color: #fff; background: var(--c1); }
 </style>

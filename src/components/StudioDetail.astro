@@ -1,5 +1,5 @@
 ---
-import GameCard from './GameCard.astro';
+import GameEntryList from './GameEntryList.astro';
 import { localeData, mdBlock } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
@@ -38,9 +38,7 @@ const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : nu
 
   <section class="games">
     <h2 class="sec-title">{t(locale, 'studio.gamesOf')} <span class="muted">({studio.gameCount})</span></h2>
-    <div class="grid grid-games">
-      {studio.games.map((g) => <GameCard game={g} platform={g.platform} showPlatform locale={locale} />)}
-    </div>
+    <GameEntryList games={studio.games} locale={locale} />
   </section>
 </article>
 
