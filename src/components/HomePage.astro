@@ -4,17 +4,12 @@ import GameCard from './GameCard.astro';
 import HardwareArt from './HardwareArt.astro';
 import { platformsByType, allGames, stats } from '../lib/data';
 import { hardware } from '../data/hardware';
-import { t, navHref, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
+import { t, navHref, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
 const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
 const lp = (p: string) => navHref(locale, p);
 const groups = platformsByType();
-
-// Sest samostatnych sekci s kartami delalo z uvodni strany 26 obrazovek.
-// Vsechny platformy jsou proto v JEDNE mrizce a typ se prepina zalozkami —
-// strana je kratka a zadna platforma nezmizi za proklikem.
-const allPlatforms = groups.flatMap((g) => g.items.map((p) => ({ p, type: g.type })));
 const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6);
 ---
 
@@ -38,36 +33,24 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="sec-head">
-      <div>
-        <p class="eyebrow">{t(locale, 'nav.platforms')}</p>
-        <h2>{t(locale, 'home.platformsTag')}</h2>
-      </div>
-      <span class="muted count">{stats.platforms} {t(locale, 'platforms.count')}</span>
-    </div>
-
-    <div class="type-tabs" role="tablist">
-      <button class="chip on" data-type="" type="button">
-        {t(locale, 'games.allLetters')} <span class="tt-n">{allPlatforms.length}</span>
-      </button>
-      {groups.map((g) => (
-        <button class="chip" data-type={g.type} type="button">
-          {t(locale, `type.${g.type}.label`)} <span class="tt-n">{g.items.length}</span>
-        </button>
-      ))}
-    </div>
-
-    <div class="grid grid-platforms" id="plat-grid">
-      {allPlatforms.map(({ p, type }) => (
-        <div class="plat-cell" data-type={type}>
-          <PlatformCard platform={p} locale={locale} />
+{
+  groups.map((group) => (
+    <section class="section">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <p class="eyebrow">{t(locale, `type.${group.type}.label`)}</p>
+            <h2>{t(locale, `type.${group.type}.tag`)}</h2>
+          </div>
+          <span class="muted count">{group.items.length} {t(locale, 'platforms.count')}</span>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+        <div class="grid grid-platforms">
+          {group.items.map((p) => <PlatformCard platform={p} locale={locale} />)}
+        </div>
+      </div>
+    </section>
+  ))
+}
 
 <section class="section hw-sec">
   <div class="container">
@@ -119,7 +102,6 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
 
 <style>
   .hero {
-    position: relative;  /* kotva pro mrizku v ::after */
     border-bottom: 1px solid var(--border-soft);
     background:
       radial-gradient(800px 380px at 18% -10%, rgba(255, 62, 127, 0.16), transparent 60%),
@@ -170,55 +152,4 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   .hw-body h3 { font-size: 1rem; line-height: 1.25; }
   .hw-body .muted { font-size: 0.82rem; margin-top: 3px; }
   .section + .section { padding-top: 8px; }
-
-  .type-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 4px; }
-  .type-tabs .tt-n {
-    margin-left: 6px; font-size: 0.78em; color: var(--muted); font-variant-numeric: tabular-nums;
-  }
-  .type-tabs .chip.on .tt-n { color: inherit; opacity: 0.75; }
-  .plat-cell[hidden] { display: none; }
-
-  /* --- hero --- */
-  .hero-inner { position: relative; z-index: 1; }
-  .hero::after {
-    /* mrizka jako na starem CRT, mizi smerem dolu */
-    content: '';
-    position: absolute; inset: 0; pointer-events: none;
-    background-image:
-      linear-gradient(color-mix(in srgb, var(--accent) 9%, transparent) 1px, transparent 1px),
-      linear-gradient(90deg, color-mix(in srgb, var(--accent) 9%, transparent) 1px, transparent 1px);
-    background-size: 46px 46px;
-    mask-image: linear-gradient(180deg, #000 0%, transparent 78%);
-    -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 78%);
-  }
-  .hero h1 { letter-spacing: -0.02em; }
-  .hero .stats {
-    gap: 28px; padding: 18px 22px; border-radius: 14px;
-    border: 1px solid var(--border-soft);
-    background: color-mix(in srgb, var(--surface) 70%, transparent);
-    backdrop-filter: blur(6px);
-    width: fit-content;
-  }
-  .hero .stats .num { font-size: 1.9rem; line-height: 1; }
-  @media (max-width: 640px) {
-    .hero .stats { gap: 18px; padding: 14px 16px; width: 100%; }
-    .hero .stats .num { font-size: 1.45rem; }
-  }
 </style>
-<script is:inline>
-  (function () {
-    var grid = document.getElementById('plat-grid');
-    if (!grid) return;
-    var tabs = document.querySelectorAll('.type-tabs .chip');
-    var cells = grid.querySelectorAll('.plat-cell');
-    for (var i = 0; i < tabs.length; i++) {
-      tabs[i].addEventListener('click', function (e) {
-        var want = e.currentTarget.getAttribute('data-type');
-        for (var j = 0; j < tabs.length; j++) tabs[j].classList.toggle('on', tabs[j] === e.currentTarget);
-        for (var k = 0; k < cells.length; k++) {
-          cells[k].hidden = !!want && cells[k].getAttribute('data-type') !== want;
-        }
-      });
-    }
-  })();
-</script>
