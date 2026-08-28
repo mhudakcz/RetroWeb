@@ -2291,6 +2291,10 @@
     "studio": "Ubisoft Montreal",
     "year": "2003"
   },
+  "gamecube__prince-of-persia-two-thrones": {
+    "studio": "Ubisoft Montreal",
+    "year": "2005"
+  },
   "gamecube__resident-evil": {
     "studio": "Capcom",
     "year": "2002"
@@ -2314,6 +2318,10 @@
   "gamecube__soulcalibur-ii": {
     "studio": "Namco",
     "year": "2003"
+  },
+  "gamecube__ssx-on-tour": {
+    "studio": "EA Canada",
+    "year": "2005"
   },
   "gamecube__ssx-tricky": {
     "studio": "EA Sports BIG",
@@ -2363,6 +2371,10 @@
     "studio": "Free Radical Design",
     "year": "2002"
   },
+  "gamecube__timesplitters-future-perfect": {
+    "studio": "Free Radical Design",
+    "year": "2005"
+  },
   "gamecube__viewtiful-joe": {
     "studio": "Clover Studio",
     "year": "2003"
@@ -2378,6 +2390,10 @@
   "gamecube__warioware-inc-mega-party-game": {
     "studio": "Nintendo",
     "year": "2003"
+  },
+  "gamecube__x-men-legends-ii-rise-of-apocalypse": {
+    "studio": "Raven Software",
+    "year": "2005"
   },
   "intellivision__advanced-dungeons-and-dragons": {
     "year": "1982"
@@ -5169,6 +5185,10 @@
     "studio": "Bandai Namco Studios",
     "year": "2019"
   },
+  "pc-modern__advent-rising": {
+    "studio": "GlyphX Games",
+    "year": "2005"
+  },
   "pc-modern__age-of-empires-ii-definitive-edition": {
     "studio": "Forgotten Empires",
     "year": "2019"
@@ -5224,6 +5244,10 @@
   "pc-modern__assassin-s-creed": {
     "studio": "Ubisoft Montreal",
     "year": "2008"
+  },
+  "pc-modern__assassin-s-creed-ii": {
+    "studio": "Ubisoft Montreal",
+    "year": "2010"
   },
   "pc-modern__assetto-corsa": {
     "studio": "Kunos Simulazioni",
@@ -5325,6 +5349,10 @@
     "studio": "Cranberry Productions",
     "year": "2009"
   },
+  "pc-modern__borderlands": {
+    "studio": "Gearbox Software",
+    "year": "2009"
+  },
   "pc-modern__botanicula": {
     "studio": "Amanita Design",
     "year": "2012"
@@ -5373,6 +5401,10 @@
     "studio": "Sledgehammer Games",
     "year": "2017"
   },
+  "pc-modern__castle-crashers": {
+    "studio": "The Behemoth",
+    "year": "2012"
+  },
   "pc-modern__chaser": {
     "studio": "Cauldron",
     "year": "2003"
@@ -5408,6 +5440,10 @@
   "pc-modern__command-and-conquer-red-alert-3": {
     "studio": "EA Los Angeles",
     "year": "2008"
+  },
+  "pc-modern__condemned-criminal-origins": {
+    "studio": "Monolith Productions",
+    "year": "2006"
   },
   "pc-modern__counter-strike-2": {
     "studio": "Valve",
@@ -5485,6 +5521,10 @@
     "studio": "Ion Storm",
     "year": "2003"
   },
+  "pc-modern__devil-may-cry-3-dante-s-awakening-special-edition": {
+    "studio": "Capcom",
+    "year": "2006"
+  },
   "pc-modern__devil-may-cry-5": {
     "studio": "Capcom",
     "year": "2019"
@@ -5500,6 +5540,10 @@
   "pc-modern__diablo-iv": {
     "studio": "Blizzard Entertainment",
     "year": "2023"
+  },
+  "pc-modern__dirt-2": {
+    "studio": "Codemasters",
+    "year": "2009"
   },
   "pc-modern__dirt-rally": {
     "studio": "Codemasters",
@@ -5525,6 +5569,10 @@
     "studio": "id Software",
     "year": "2016"
   },
+  "pc-modern__doom-3": {
+    "studio": "id Software",
+    "year": "2004"
+  },
   "pc-modern__doom-eternal": {
     "studio": "id Software",
     "year": "2020"
@@ -5548,6 +5596,10 @@
   "pc-modern__dragon-age-veilguard": {
     "studio": "BioWare",
     "year": "2024"
+  },
+  "pc-modern__dreamfall-longest-journey": {
+    "studio": "Funcom",
+    "year": "2006"
   },
   "pc-modern__elden-ring": {
     "studio": "FromSoftware",
@@ -5589,9 +5641,17 @@
     "studio": "Monolith Productions",
     "year": "2005"
   },
+  "pc-modern__fable-lost-chapters": {
+    "studio": "Lionhead Studios",
+    "year": "2005"
+  },
   "pc-modern__factorio": {
     "studio": "Wube Software",
     "year": "2020"
+  },
+  "pc-modern__fahrenheit": {
+    "studio": "Quantic Dream",
+    "year": "2005"
   },
   "pc-modern__fallout-3": {
     "studio": "Bethesda Game Studios",
@@ -5664,6 +5724,10 @@
   "pc-modern__gears-5": {
     "studio": "The Coalition",
     "year": "2019"
+  },
+  "pc-modern__gears-of-war": {
+    "studio": "Epic Games",
+    "year": "2007"
   },
   "pc-modern__gears-tactics": {
     "studio": "Splash Damage",
@@ -5749,6 +5813,10 @@
     "studio": "IO Interactive",
     "year": "2012"
   },
+  "pc-modern__hitman-blood-money": {
+    "studio": "IO Interactive",
+    "year": "2006"
+  },
   "pc-modern__homeworld-2": {
     "studio": "Relic Entertainment",
     "year": "2003"
@@ -5797,6 +5865,10 @@
     "studio": "Playdead",
     "year": "2016"
   },
+  "pc-modern__jade-empire-special-edition": {
+    "studio": "BioWare",
+    "year": "2007"
+  },
   "pc-modern__just-cause": {
     "studio": "Avalanche Studios",
     "year": "2006"
@@ -5817,9 +5889,17 @@
     "studio": "Warhorse Studios",
     "year": "2025"
   },
+  "pc-modern__last-remnant": {
+    "studio": "Square Enix",
+    "year": "2009"
+  },
   "pc-modern__league-of-legends": {
     "studio": "Riot Games",
     "year": "2009"
+  },
+  "pc-modern__left-4-dead": {
+    "studio": "Valve",
+    "year": "2008"
   },
   "pc-modern__left-4-dead-2": {
     "studio": "Valve",
@@ -5840,6 +5920,10 @@
   "pc-modern__lost-ark": {
     "studio": "Smilegate",
     "year": "2019"
+  },
+  "pc-modern__lost-planet-extreme-condition": {
+    "studio": "Capcom",
+    "year": "2007"
   },
   "pc-modern__machinarium": {
     "studio": "Amanita Design",
@@ -5880,6 +5964,10 @@
   "pc-modern__mass-effect-legendary-edition": {
     "studio": "BioWare",
     "year": "2021"
+  },
+  "pc-modern__maw": {
+    "studio": "Twisted Pixel Games",
+    "year": "2009"
   },
   "pc-modern__max-payne": {
     "studio": "Remedy Entertainment",
@@ -5928,6 +6016,10 @@
   "pc-modern__monster-train": {
     "studio": "Shiny Shoe",
     "year": "2020"
+  },
+  "pc-modern__mx-vs-atv-unleashed": {
+    "studio": "Rainbow Studios",
+    "year": "2006"
   },
   "pc-modern__naval-action": {
     "studio": "Game Labs",
@@ -5984,6 +6076,10 @@
   "pc-modern__operation-flashpoint-cold-war-crisis": {
     "studio": "Bohemia Interactive",
     "year": "2001"
+  },
+  "pc-modern__orange-box": {
+    "studio": "Valve",
+    "year": "2007"
   },
   "pc-modern__ori-and-blind-forest": {
     "studio": "Moon Studios",
@@ -6049,13 +6145,33 @@
     "studio": "Valve",
     "year": "2011"
   },
+  "pc-modern__prince-of-persia": {
+    "studio": "Ubisoft Montreal",
+    "year": "2009"
+  },
+  "pc-modern__prince-of-persia-two-thrones": {
+    "studio": "Ubisoft Montreal",
+    "year": "2005"
+  },
   "pc-modern__pubg-battlegrounds": {
     "studio": "PUBG Studios",
     "year": "2017"
   },
+  "pc-modern__punisher": {
+    "studio": "Volition",
+    "year": "2005"
+  },
+  "pc-modern__race-driver-grid": {
+    "studio": "Codemasters",
+    "year": "2008"
+  },
   "pc-modern__rainbow-six-siege": {
     "studio": "Ubisoft Montreal",
     "year": "2015"
+  },
+  "pc-modern__rayman-raving-rabbids": {
+    "studio": "Ubisoft Montpellier",
+    "year": "2006"
   },
   "pc-modern__return-of-obra-dinn": {
     "studio": "Lucas Pope",
@@ -6076,6 +6192,10 @@
   "pc-modern__s-t-l-k-e-r-shadow-of-chernobyl": {
     "studio": "GSC Game World",
     "year": "2007"
+  },
+  "pc-modern__saints-row-2": {
+    "studio": "Volition",
+    "year": "2009"
   },
   "pc-modern__samorost-3": {
     "studio": "Amanita Design",
@@ -6137,6 +6257,10 @@
     "studio": "Mossmouth",
     "year": "2013"
   },
+  "pc-modern__ssx-on-tour": {
+    "studio": "EA Canada",
+    "year": "2005"
+  },
   "pc-modern__star-wars-galaxies": {
     "studio": "Sony Online Entertainment",
     "year": "2003"
@@ -6144,6 +6268,10 @@
   "pc-modern__star-wars-knights-of-old-republic": {
     "studio": "BioWare",
     "year": "2003"
+  },
+  "pc-modern__star-wars-republic-commando": {
+    "studio": "LucasArts",
+    "year": "2005"
   },
   "pc-modern__starcraft-ii-wings-of-liberty": {
     "studio": "Blizzard Entertainment",
@@ -6160,6 +6288,10 @@
   "pc-modern__subnautica": {
     "studio": "Unknown Worlds Entertainment",
     "year": "2018"
+  },
+  "pc-modern__suffering-ties-that-bind": {
+    "studio": "Surreal Software",
+    "year": "2005"
   },
   "pc-modern__super-meat-boy": {
     "studio": "Team Meat",
@@ -6181,6 +6313,10 @@
     "studio": "Re-Logic",
     "year": "2011"
   },
+  "pc-modern__test-drive-unlimited": {
+    "studio": "Eden Games",
+    "year": "2007"
+  },
   "pc-modern__thronebreaker-witcher-tales": {
     "studio": "CD Projekt Red",
     "year": "2018"
@@ -6200,6 +6336,10 @@
   "pc-modern__tom-clancy-s-rainbow-six-rogue-spear": {
     "studio": "Red Storm Entertainment",
     "year": "1999"
+  },
+  "pc-modern__tom-clancy-s-rainbow-six-vegas": {
+    "studio": "Ubisoft Montreal",
+    "year": "2007"
   },
   "pc-modern__tom-clancy-s-splinter-cell": {
     "studio": "Ubisoft Montreal",
@@ -6248,6 +6388,10 @@
   "pc-modern__unreal-tournament-3": {
     "studio": "Epic Games",
     "year": "2007"
+  },
+  "pc-modern__valkyria-chronicles": {
+    "studio": "Sega",
+    "year": "2014"
   },
   "pc-modern__valorant": {
     "studio": "Riot Games",
@@ -6301,9 +6445,17 @@
     "studio": "CD Projekt RED",
     "year": "2015"
   },
+  "pc-modern__wolfenstein": {
+    "studio": "Raven Software",
+    "year": "2009"
+  },
   "pc-modern__wolfenstein-new-order": {
     "studio": "MachineGames",
     "year": "2014"
+  },
+  "pc-modern__world-of-goo": {
+    "studio": "2D Boy",
+    "year": "2008"
   },
   "pc-modern__world-of-warcraft": {
     "studio": "Blizzard Entertainment",
@@ -7443,6 +7595,10 @@
     "studio": "Koei",
     "year": "2003"
   },
+  "ps2__fahrenheit": {
+    "studio": "Quantic Dream",
+    "year": "2005"
+  },
   "ps2__fatal-frame": {
     "studio": "Tecmo",
     "year": "2002"
@@ -7454,6 +7610,10 @@
   "ps2__fatal-frame-iii-tormented": {
     "studio": "Tecmo",
     "year": "2005"
+  },
+  "ps2__fight-night-round-3": {
+    "studio": "EA Chicago",
+    "year": "2006"
   },
   "ps2__final-fantasy-x": {
     "studio": "Square",
@@ -7555,6 +7715,10 @@
     "studio": "Capcom",
     "year": "2005"
   },
+  "ps2__hitman-blood-money": {
+    "studio": "IO Interactive",
+    "year": "2006"
+  },
   "ps2__ico": {
     "studio": "Team Ico",
     "year": "2001"
@@ -7575,6 +7739,10 @@
     "studio": "Naughty Dog",
     "year": "2005"
   },
+  "ps2__just-cause": {
+    "studio": "Avalanche Studios",
+    "year": "2006"
+  },
   "ps2__katamari-damacy": {
     "studio": "Namco",
     "year": "2004"
@@ -7586,6 +7754,10 @@
   "ps2__kessen-ii": {
     "studio": "Koei",
     "year": "2001"
+  },
+  "ps2__killer7": {
+    "studio": "Grasshopper Manufacture",
+    "year": "2005"
   },
   "ps2__killzone": {
     "studio": "Guerrilla Games",
@@ -7643,6 +7815,10 @@
     "studio": "Rockstar San Diego",
     "year": "2003"
   },
+  "ps2__mx-vs-atv-unleashed": {
+    "studio": "Rainbow Studios",
+    "year": "2005"
+  },
   "ps2__naval-ops-commander": {
     "studio": "Koei",
     "year": "2004"
@@ -7651,9 +7827,17 @@
     "studio": "Koei",
     "year": "2003"
   },
+  "ps2__nba-street-v3": {
+    "studio": "EA Canada",
+    "year": "2005"
+  },
   "ps2__nba-street-vol-2": {
     "studio": "EA Black Box",
     "year": "2003"
+  },
+  "ps2__need-for-speed-carbon": {
+    "studio": "Electronic Arts",
+    "year": "2006"
   },
   "ps2__need-for-speed-most-wanted": {
     "studio": "EA Black Box",
@@ -7715,6 +7899,10 @@
     "studio": "Double Fine Productions",
     "year": "2005"
   },
+  "ps2__punisher": {
+    "studio": "Volition",
+    "year": "2005"
+  },
   "ps2__puyo-pop-fever": {
     "studio": "Sega",
     "year": "2004"
@@ -7746,6 +7934,10 @@
   "ps2__rayman-3-hoodlum-havoc": {
     "studio": "Ubisoft Montpellier",
     "year": "2003"
+  },
+  "ps2__rayman-raving-rabbids": {
+    "studio": "Ubisoft Montpellier",
+    "year": "2006"
   },
   "ps2__red-dead-revolver": {
     "studio": "Rockstar San Diego",
@@ -7803,6 +7995,10 @@
     "studio": "Konami",
     "year": "2003"
   },
+  "ps2__silent-hill-shattered-memories": {
+    "studio": "Climax Studios",
+    "year": "2010"
+  },
   "ps2__singstar": {
     "studio": "London Studio / SCEE",
     "year": "2004"
@@ -7839,6 +8035,10 @@
     "studio": "Sonic Team",
     "year": "2003"
   },
+  "ps2__sonic-unleashed": {
+    "studio": "Dimps",
+    "year": "2008"
+  },
   "ps2__soul-reaver-2": {
     "studio": "Crystal Dynamics",
     "year": "2001"
@@ -7870,6 +8070,10 @@
   "ps2__suffering": {
     "studio": "Surreal Software",
     "year": "2004"
+  },
+  "ps2__suffering-ties-that-bind": {
+    "studio": "Surreal Software",
+    "year": "2005"
   },
   "ps2__suikoden-iii": {
     "studio": "Konami",
@@ -7959,6 +8163,10 @@
     "studio": "Studio Liverpool",
     "year": "2002"
   },
+  "ps2__x-men-legends-ii-rise-of-apocalypse": {
+    "studio": "Raven Software",
+    "year": "2005"
+  },
   "ps2__xenosaga-episode-i": {
     "studio": "Monolith Soft",
     "year": "2002"
@@ -7977,6 +8185,14 @@
   },
   "ps3__3d-dot-game-heroes": {
     "studio": "Silicon Studio",
+    "year": "2009"
+  },
+  "ps3__assassin-s-creed": {
+    "studio": "Ubisoft Montreal",
+    "year": "2007"
+  },
+  "ps3__assassin-s-creed-ii": {
+    "studio": "Ubisoft Montreal",
     "year": "2009"
   },
   "ps3__assassin-s-creed-iii": {
@@ -8007,6 +8223,10 @@
     "studio": "DICE",
     "year": "2011"
   },
+  "ps3__battlefield-bad-company": {
+    "studio": "DICE",
+    "year": "2008"
+  },
   "ps3__battlefield-bad-company-2": {
     "studio": "DICE",
     "year": "2010"
@@ -8014,6 +8234,10 @@
   "ps3__bayonetta": {
     "studio": "PlatinumGames",
     "year": "2010"
+  },
+  "ps3__beatles-rock-band": {
+    "studio": "Harmonix",
+    "year": "2009"
   },
   "ps3__bejeweled-3": {
     "studio": "PopCap Games",
@@ -8034,6 +8258,10 @@
   "ps3__bioshock-infinite": {
     "studio": "Irrational Games",
     "year": "2013"
+  },
+  "ps3__borderlands": {
+    "studio": "Gearbox Software",
+    "year": "2009"
   },
   "ps3__borderlands-2": {
     "studio": "Gearbox Software",
@@ -8063,6 +8291,10 @@
     "studio": "Infinity Ward",
     "year": "2009"
   },
+  "ps3__castle-crashers": {
+    "studio": "The Behemoth",
+    "year": "2010"
+  },
   "ps3__castlevania-lords-of-shadow": {
     "studio": "MercurySteam",
     "year": "2010"
@@ -8070,6 +8302,14 @@
   "ps3__catherine": {
     "studio": "Atlus",
     "year": "2011"
+  },
+  "ps3__colin-mcrae-dirt": {
+    "studio": "Codemasters",
+    "year": "2008"
+  },
+  "ps3__command-and-conquer-red-alert-3": {
+    "studio": "EA Los Angeles",
+    "year": "2009"
   },
   "ps3__dante-s-inferno": {
     "studio": "Visceral Games",
@@ -8095,6 +8335,10 @@
     "studio": "Visceral Games",
     "year": "2011"
   },
+  "ps3__dead-space-extraction": {
+    "studio": "Eurocom",
+    "year": "2011"
+  },
   "ps3__demon-s-souls": {
     "studio": "FromSoftware",
     "year": "2009"
@@ -8110,6 +8354,10 @@
   "ps3__diablo-iii": {
     "studio": "Blizzard Entertainment",
     "year": "2013"
+  },
+  "ps3__dirt-2": {
+    "studio": "Codemasters",
+    "year": "2009"
   },
   "ps3__dirt-3": {
     "studio": "Codemasters",
@@ -8155,9 +8403,21 @@
     "studio": "Bethesda Game Studios",
     "year": "2011"
   },
+  "ps3__enchanted-arms": {
+    "studio": "From Software",
+    "year": "2007"
+  },
   "ps3__enslaved-odyssey-to-west": {
     "studio": "Ninja Theory",
     "year": "2010"
+  },
+  "ps3__eternal-sonata": {
+    "studio": "tri-Crescendo",
+    "year": "2009"
+  },
+  "ps3__f-e-r": {
+    "studio": "Monolith Productions",
+    "year": "2007"
   },
   "ps3__fallout-3": {
     "studio": "Bethesda Game Studios",
@@ -8167,6 +8427,10 @@
     "studio": "Obsidian Entertainment",
     "year": "2010"
   },
+  "ps3__far-cry-2": {
+    "studio": "Ubisoft Montreal",
+    "year": "2008"
+  },
   "ps3__far-cry-3": {
     "studio": "Ubisoft Montreal",
     "year": "2012"
@@ -8174,6 +8438,10 @@
   "ps3__fat-princess": {
     "studio": "Titan Studios",
     "year": "2009"
+  },
+  "ps3__fight-night-round-3": {
+    "studio": "EA Chicago",
+    "year": "2006"
   },
   "ps3__final-fantasy-xiii": {
     "studio": "Square Enix",
@@ -8287,6 +8555,10 @@
     "studio": "Media Molecule",
     "year": "2011"
   },
+  "ps3__lost-planet-extreme-condition-colonies-edition": {
+    "studio": "Capcom",
+    "year": "2008"
+  },
   "ps3__machinarium": {
     "studio": "Amanita Design",
     "year": "2010"
@@ -8303,6 +8575,10 @@
     "studio": "Rockstar Studios",
     "year": "2012"
   },
+  "ps3__medal-of-honor-airborne": {
+    "studio": "EA Los Angeles",
+    "year": "2007"
+  },
   "ps3__metal-gear-rising-revengeance": {
     "studio": "PlatinumGames",
     "year": "2013"
@@ -8314,6 +8590,10 @@
   "ps3__metal-gear-solid-hd-collection": {
     "studio": "Kojima Productions / Bluepoint Games",
     "year": "2011"
+  },
+  "ps3__midnight-club-los-angeles": {
+    "studio": "Rockstar San Diego",
+    "year": "2008"
   },
   "ps3__might-and-magic-clash-of-heroes": {
     "studio": "Capybara Games",
@@ -8363,6 +8643,10 @@
     "studio": "Clover Studio / HexaDrive",
     "year": "2012"
   },
+  "ps3__orange-box": {
+    "studio": "Valve",
+    "year": "2007"
+  },
   "ps3__papo-and-yo": {
     "studio": "Minority",
     "year": "2012"
@@ -8387,9 +8671,17 @@
     "studio": "PopCap Games",
     "year": "2011"
   },
+  "ps3__portal": {
+    "studio": "Valve",
+    "year": "2007"
+  },
   "ps3__portal-2": {
     "studio": "Valve",
     "year": "2011"
+  },
+  "ps3__prince-of-persia": {
+    "studio": "Ubisoft Montreal",
+    "year": "2008"
   },
   "ps3__prototype": {
     "studio": "Radical Entertainment",
@@ -8398,6 +8690,10 @@
   "ps3__puppeteer": {
     "studio": "SCE Japan Studio",
     "year": "2013"
+  },
+  "ps3__race-driver-grid": {
+    "studio": "Codemasters",
+    "year": "2008"
   },
   "ps3__ratchet-and-clank-future-crack-in-time": {
     "studio": "Insomniac Games",
@@ -8447,6 +8743,10 @@
     "studio": "Harmonix",
     "year": "2010"
   },
+  "ps3__saints-row-2": {
+    "studio": "Volition",
+    "year": "2008"
+  },
   "ps3__saints-row-third": {
     "studio": "Volition",
     "year": "2011"
@@ -8458,6 +8758,14 @@
   "ps3__siren-blood-curse": {
     "studio": "SCE Japan Studio",
     "year": "2008"
+  },
+  "ps3__skate": {
+    "studio": "EA Black Box",
+    "year": "2007"
+  },
+  "ps3__skate-2": {
+    "studio": "EA Black Box",
+    "year": "2009"
   },
   "ps3__skate-3": {
     "studio": "EA Black Box",
@@ -8482,6 +8790,10 @@
   "ps3__sonic-generations": {
     "studio": "Sonic Team",
     "year": "2011"
+  },
+  "ps3__sonic-unleashed": {
+    "studio": "Sonic Team",
+    "year": "2008"
   },
   "ps3__sound-shapes": {
     "studio": "Queasy Games",
@@ -8515,9 +8827,17 @@
     "studio": "Namco Tales Studio",
     "year": "2012"
   },
+  "ps3__tales-of-vesperia": {
+    "studio": "Namco Tales Studio",
+    "year": "2009"
+  },
   "ps3__tales-of-xillia": {
     "studio": "Bandai Namco Studios",
     "year": "2013"
+  },
+  "ps3__team-fortress-2": {
+    "studio": "Valve",
+    "year": "2007"
   },
   "ps3__test-drive-unlimited-2": {
     "studio": "Eden Games",
@@ -8526,6 +8846,10 @@
   "ps3__tokyo-jungle": {
     "studio": "Crispy's / SCE Japan Studio",
     "year": "2012"
+  },
+  "ps3__tom-clancy-s-rainbow-six-vegas": {
+    "studio": "Ubisoft Montreal",
+    "year": "2007"
   },
   "ps3__tomb-raider": {
     "studio": "Crystal Dynamics",
@@ -8563,6 +8887,10 @@
     "studio": "Naughty Dog",
     "year": "2007"
   },
+  "ps3__unreal-tournament-3": {
+    "studio": "Epic Games",
+    "year": "2007"
+  },
   "ps3__valkyria-chronicles": {
     "studio": "Sega/Media.Vision",
     "year": "2008"
@@ -8594,6 +8922,10 @@
   "ps3__wolf-among-us": {
     "studio": "Telltale Games",
     "year": "2013"
+  },
+  "ps3__wolfenstein": {
+    "studio": "Raven Software",
+    "year": "2009"
   },
   "ps3__xcom-enemy-unknown": {
     "studio": "Firaxis Games",
@@ -9866,6 +10198,10 @@
   "psp__3rd-birthday": {
     "year": "2010"
   },
+  "psp__burnout-dominator": {
+    "studio": "Criterion Games",
+    "year": "2007"
+  },
   "psp__burnout-legends": {
     "year": "2005"
   },
@@ -9875,11 +10211,23 @@
   "psp__dissidia-final-fantasy-012": {
     "year": "2008"
   },
+  "psp__echochrome": {
+    "studio": "SCE Japan Studio",
+    "year": "2008"
+  },
   "psp__field-commander": {
     "year": "2006"
   },
   "psp__fifa-street-2": {
     "year": "2006"
+  },
+  "psp__fight-night-round-3": {
+    "studio": "EA Chicago",
+    "year": "2006"
+  },
+  "psp__flow": {
+    "studio": "thatgamecompany",
+    "year": "2008"
   },
   "psp__god-of-war-chains-of-olympus": {
     "year": "2008"
@@ -9907,6 +10255,10 @@
   },
   "psp__killzone-liberation": {
     "year": "2006"
+  },
+  "psp__littlebigplanet": {
+    "studio": "SCE Cambridge Studio",
+    "year": "2009"
   },
   "psp__locoroco": {
     "year": "2006"
@@ -9956,6 +10308,10 @@
   "psp__silent-hill-origins": {
     "year": "2007"
   },
+  "psp__silent-hill-shattered-memories": {
+    "studio": "Climax Studios",
+    "year": "2010"
+  },
   "psp__star-trek-tactical-assault": {
     "year": "2006"
   },
@@ -9979,6 +10335,10 @@
   },
   "psp__wipeout-pure": {
     "year": "2004"
+  },
+  "psp__x-men-legends-ii-rise-of-apocalypse": {
+    "studio": "Vicarious Visions",
+    "year": "2005"
   },
   "psp__ys-oath-in-felghana": {
     "year": "2010"
@@ -11750,6 +12110,10 @@
     "studio": "Vanillaware",
     "year": "2009"
   },
+  "wii__need-for-speed-carbon": {
+    "studio": "Electronic Arts",
+    "year": "2006"
+  },
   "wii__new-super-mario-bros-wii": {
     "studio": "Nintendo EAD",
     "year": "2009"
@@ -11801,6 +12165,10 @@
   "wii__sonic-colors": {
     "studio": "Sonic Team",
     "year": "2010"
+  },
+  "wii__sonic-unleashed": {
+    "studio": "Dimps",
+    "year": "2008"
   },
   "wii__super-mario-galaxy": {
     "studio": "Nintendo EAD",
@@ -12070,6 +12438,10 @@
     "studio": "Obsidian Entertainment",
     "year": "2010"
   },
+  "xbox-360__assassin-s-creed": {
+    "studio": "Ubisoft Montreal",
+    "year": "2007"
+  },
   "xbox-360__assassin-s-creed-ii": {
     "studio": "Ubisoft Montreal",
     "year": "2009"
@@ -12102,9 +12474,17 @@
     "studio": "DICE",
     "year": "2010"
   },
+  "xbox-360__battlestations-midway": {
+    "studio": "Eidos Hungary",
+    "year": "2007"
+  },
   "xbox-360__bayonetta": {
     "studio": "PlatinumGames",
     "year": "2010"
+  },
+  "xbox-360__beatles-rock-band": {
+    "studio": "Harmonix",
+    "year": "2009"
   },
   "xbox-360__bioshock": {
     "studio": "2K Boston/Irrational Games",
@@ -12138,6 +12518,10 @@
     "studio": "Criterion Games",
     "year": "2008"
   },
+  "xbox-360__call-of-duty-2": {
+    "studio": "Infinity Ward",
+    "year": "2005"
+  },
   "xbox-360__call-of-duty-4-modern-warfare": {
     "studio": "Infinity Ward",
     "year": "2007"
@@ -12170,9 +12554,21 @@
     "studio": "Konami",
     "year": "2010"
   },
+  "xbox-360__colin-mcrae-dirt": {
+    "studio": "Codemasters",
+    "year": "2007"
+  },
   "xbox-360__comic-jumper-adventures-of-captain-smiley": {
     "studio": "Twisted Pixel Games",
     "year": "2010"
+  },
+  "xbox-360__command-and-conquer-3-tiberium-wars": {
+    "studio": "EA Los Angeles",
+    "year": "2007"
+  },
+  "xbox-360__command-and-conquer-red-alert-3": {
+    "studio": "EA Los Angeles",
+    "year": "2008"
   },
   "xbox-360__condemned-criminal-origins": {
     "studio": "Monolith Productions",
@@ -12282,6 +12678,10 @@
     "studio": "tri-Crescendo",
     "year": "2007"
   },
+  "xbox-360__f-e-r": {
+    "studio": "Monolith Productions",
+    "year": "2006"
+  },
   "xbox-360__fable-ii": {
     "studio": "Lionhead Studios",
     "year": "2008"
@@ -12297,6 +12697,10 @@
   "xbox-360__fallout-new-vegas": {
     "studio": "Obsidian Entertainment",
     "year": "2010"
+  },
+  "xbox-360__far-cry-2": {
+    "studio": "Ubisoft Montreal",
+    "year": "2008"
   },
   "xbox-360__far-cry-3": {
     "studio": "Ubisoft Montreal",
@@ -12358,6 +12762,10 @@
     "studio": "Rockstar North",
     "year": "2013"
   },
+  "xbox-360__guitar-hero-ii": {
+    "studio": "Budcat Creations",
+    "year": "2007"
+  },
   "xbox-360__guitar-hero-iii-legends-of-rock": {
     "studio": "Neversoft",
     "year": "2007"
@@ -12397,6 +12805,10 @@
   "xbox-360__infinite-undiscovery": {
     "studio": "tri-Ace",
     "year": "2008"
+  },
+  "xbox-360__just-cause": {
+    "studio": "Avalanche Studios",
+    "year": "2006"
   },
   "xbox-360__just-cause-2": {
     "studio": "Avalanche Studios",
@@ -12462,6 +12874,10 @@
     "studio": "Rockstar Studios",
     "year": "2012"
   },
+  "xbox-360__medal-of-honor-airborne": {
+    "studio": "EA Los Angeles",
+    "year": "2007"
+  },
   "xbox-360__metal-gear-rising-revengeance": {
     "studio": "PlatinumGames",
     "year": "2013"
@@ -12477,6 +12893,10 @@
   "xbox-360__minecraft-xbox-360-edition": {
     "studio": "4J Studios",
     "year": "2012"
+  },
+  "xbox-360__need-for-speed-carbon": {
+    "studio": "Electronic Arts",
+    "year": "2006"
   },
   "xbox-360__need-for-speed-hot-pursuit": {
     "studio": "Criterion Games",
@@ -12509,6 +12929,10 @@
   "xbox-360__perfect-dark-zero": {
     "studio": "Rare",
     "year": "2005"
+  },
+  "xbox-360__portal": {
+    "studio": "Valve",
+    "year": "2007"
   },
   "xbox-360__portal-2": {
     "studio": "Valve",
@@ -12626,9 +13050,17 @@
     "studio": "Team Meat",
     "year": "2010"
   },
+  "xbox-360__supreme-commander": {
+    "studio": "Gas Powered Games",
+    "year": "2008"
+  },
   "xbox-360__tales-of-vesperia": {
     "studio": "Namco Tales Studio",
     "year": "2008"
+  },
+  "xbox-360__team-fortress-2": {
+    "studio": "Valve",
+    "year": "2007"
   },
   "xbox-360__test-drive-unlimited": {
     "studio": "Eden Games",
@@ -12665,6 +13097,10 @@
   "xbox-360__two-worlds-ii": {
     "studio": "Reality Pump",
     "year": "2011"
+  },
+  "xbox-360__unreal-tournament-3": {
+    "studio": "Epic Games",
+    "year": "2008"
   },
   "xbox-360__vanquish": {
     "studio": "PlatinumGames",
@@ -13950,6 +14386,10 @@
     "studio": "Ubisoft",
     "year": "2003"
   },
+  "xbox__black": {
+    "studio": "Criterion Games",
+    "year": "2006"
+  },
   "xbox__blinx-2-masters-of-time-and-space": {
     "studio": "Artoon",
     "year": "2004"
@@ -13988,6 +14428,10 @@
   },
   "xbox__burnout-revenge": {
     "studio": "Criterion Games",
+    "year": "2005"
+  },
+  "xbox__castlevania-curse-of-darkness": {
+    "studio": "Konami Computer Entertainment Tokyo",
     "year": "2005"
   },
   "xbox__champions-of-norrath": {
@@ -14126,6 +14570,10 @@
     "studio": "Rockstar North",
     "year": "2003"
   },
+  "xbox__grand-theft-auto-san-andreas": {
+    "studio": "Rockstar North",
+    "year": "2005"
+  },
   "xbox__gunvalkyrie": {
     "studio": "Smilebit",
     "year": "2002"
@@ -14161,6 +14609,10 @@
   "xbox__jet-set-radio-future": {
     "studio": "Smilebit",
     "year": "2002"
+  },
+  "xbox__just-cause": {
+    "studio": "Avalanche Studios",
+    "year": "2006"
   },
   "xbox__kakuto-chojin-back-alley-brutal": {
     "studio": "Dream Publishing",
@@ -14246,6 +14698,10 @@
     "studio": "EA BIG",
     "year": "2005"
   },
+  "xbox__need-for-speed-carbon": {
+    "studio": "Electronic Arts",
+    "year": "2006"
+  },
   "xbox__need-for-speed-hot-pursuit-2": {
     "studio": "EA Black Box",
     "year": "2002"
@@ -14317,6 +14773,10 @@
   "xbox__prince-of-persia-sands-of-time": {
     "studio": "Ubisoft Montreal",
     "year": "2003"
+  },
+  "xbox__prince-of-persia-two-thrones": {
+    "studio": "Ubisoft Montreal",
+    "year": "2005"
   },
   "xbox__prince-of-persia-warrior-within": {
     "studio": "Ubisoft Montreal",
@@ -14406,6 +14866,10 @@
     "studio": "EA Canada",
     "year": "2003"
   },
+  "xbox__ssx-on-tour": {
+    "studio": "EA Canada",
+    "year": "2005"
+  },
   "xbox__star-wars-battlefront": {
     "studio": "Pandemic Studios",
     "year": "2004"
@@ -14461,6 +14925,10 @@
   "xbox__timesplitters-2": {
     "studio": "Free Radical Design",
     "year": "2002"
+  },
+  "xbox__timesplitters-future-perfect": {
+    "studio": "Free Radical Design",
+    "year": "2005"
   },
   "xbox__toejam-and-earl-iii-mission-to-earth": {
     "studio": "Visual Concepts",

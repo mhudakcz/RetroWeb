@@ -4384,6 +4384,48 @@
    "genre": "Sport / Fotbal",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "X-Men Legends II: Rise of Apocalypse",
+   "genre": "akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fight Night Round 3",
+   "genre": "sportovní hra (box)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Burnout Dominator",
+   "genre": "arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "flOw",
+   "genre": "evoluční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "LittleBigPlanet",
+   "genre": "plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "echochrome",
+   "genre": "hlavolam",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Silent Hill: Shattered Memories",
+   "genre": "survival horor",
+   "length": "M",
+   "flags": []
   }
  ],
  "game-boy-color": [
@@ -6375,6 +6417,90 @@
    "genre": "Hudební / karaoke hra",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Killer7",
+   "genre": "akční adventura / on-rails akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fahrenheit",
+   "genre": "Interaktivní drama / Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Punisher",
+   "genre": "Akční střílečka (TPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "X-Men Legends II: Rise of Apocalypse",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "MX vs. ATV Unleashed",
+   "genre": "závodní / motokros arkáda",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NBA Street V3",
+   "genre": "sportovní arkáda (streetball)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Suffering: Ties That Bind",
+   "genre": "survival horor / akce z pohledu třetí osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rayman Raving Rabbids",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hitman: Blood Money",
+   "genre": "stealth akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fight Night Round 3",
+   "genre": "sportovní hra (box)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Carbon",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Just Cause",
+   "genre": "open-world akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sonic Unleashed",
+   "genre": "plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Silent Hill: Shattered Memories",
+   "genre": "survival horor",
+   "length": "M",
+   "flags": []
   }
  ],
  "gamecube": [
@@ -6772,6 +6898,30 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Prince of Persia: The Two Thrones",
+   "genre": "Akční adventura / plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SSX On Tour",
+   "genre": "Arkádový snowboarding",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "TimeSplitters: Future Perfect",
+   "genre": "FPS / akční střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "X-Men Legends II: Rise of Apocalypse",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
   }
  ],
  "xbox": [
@@ -7842,6 +7992,54 @@
    "name": "MotoGP 2",
    "genre": "Motocyklové závody",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia: The Two Thrones",
+   "genre": "Akční adventura / plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Castlevania: Curse of Darkness",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SSX On Tour",
+   "genre": "Arkádový snowboarding",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "TimeSplitters: Future Perfect",
+   "genre": "FPS / akční střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Grand Theft Auto: San Andreas",
+   "genre": "akční open world",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Black",
+   "genre": "FPS akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Carbon",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Just Cause",
+   "genre": "open-world akce",
+   "length": "L",
    "flags": []
   }
  ],
@@ -8990,6 +9188,192 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "F.E.A.R.",
+   "genre": "FPS horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six Vegas",
+   "genre": "taktická střílečka z pohledu první osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Enchanted Arms",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fight Night Round 3",
+   "genre": "sportovní hra (box)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Orange Box",
+   "genre": "Kolekce her (FPS, logická hra)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Eternal Sonata",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Skate",
+   "genre": "Sportovní (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Unreal Tournament 3",
+   "genre": "arénová střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor: Airborne",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Team Fortress 2",
+   "genre": "týmová multiplayerová střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Colin McRae: DiRT",
+   "genre": "zavodni (rallye/offroad)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Portal",
+   "genre": "logicka hra / plosinovka z prvni osoby",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tales of Vesperia",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Castle Crashers",
+   "genre": "beat 'em up / akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Saints Row 2",
+   "genre": "open-world akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Battlefield: Bad Company",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Race Driver: GRID",
+   "genre": "závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Midnight Club: Los Angeles",
+   "genre": "závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Unleashed",
+   "genre": "plošinovka / akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer: Red Alert 3",
+   "genre": "real-time strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Far Cry 2",
+   "genre": "akční FPS",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Beatles: Rock Band",
+   "genre": "rytmická hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dead Space: Extraction",
+   "genre": "on-rails střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed II",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Borderlands",
+   "genre": "looter shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wolfenstein",
+   "genre": "střílečka z pohledu první osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "DiRT 2",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Skate 2",
+   "genre": "sportovní hra",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lost Planet: Extreme Condition - Colonies Edition",
+   "genre": "akční střílečka z pohledu třetí osoby",
+   "length": "M",
+   "flags": []
   }
  ],
  "ps4": [
@@ -11308,6 +11692,108 @@
    "flags": [
     "puzzle"
    ]
+  },
+  {
+   "name": "F.E.A.R.",
+   "genre": "FPS horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty 2",
+   "genre": "FPS / válečná střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Guitar Hero II",
+   "genre": "hudební / rytmická hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Carbon",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Just Cause",
+   "genre": "open-world akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Supreme Commander",
+   "genre": "real-time strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer 3: Tiberium Wars",
+   "genre": "real-time strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Battlestations: Midway",
+   "genre": "strategie a akce (letecké a námořní bitvy)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Unreal Tournament 3",
+   "genre": "arénová střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor: Airborne",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Team Fortress 2",
+   "genre": "týmová multiplayerová střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Colin McRae: DiRT",
+   "genre": "zavodni (rallye/offroad)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Portal",
+   "genre": "logicka hra / plosinovka z prvni osoby",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer: Red Alert 3",
+   "genre": "real-time strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Far Cry 2",
+   "genre": "akční FPS",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Beatles: Rock Band",
+   "genre": "rytmická hra",
+   "length": "S",
+   "flags": []
   }
  ],
  "xbox-one": [
@@ -18742,6 +19228,210 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Devil May Cry 3: Dante's Awakening Special Edition",
+   "genre": "Akční hra (hack and slash)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia: The Two Thrones",
+   "genre": "Akční adventura / plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SSX On Tour",
+   "genre": "Arkádový snowboarding",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Jade Empire: Special Edition",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Doom 3",
+   "genre": "FPS / Horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Republic Commando",
+   "genre": "Taktická FPS",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fable: The Lost Chapters",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fahrenheit",
+   "genre": "Interaktivní drama / Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Advent Rising",
+   "genre": "Akční adventura / TPS",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Punisher",
+   "genre": "Akční střílečka (TPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "MX vs. ATV Unleashed",
+   "genre": "závodní / motokros arkáda",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Suffering: Ties That Bind",
+   "genre": "survival horor / akce z pohledu třetí osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Condemned: Criminal Origins",
+   "genre": "survival horor / akce z pohledu první osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rayman Raving Rabbids",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hitman: Blood Money",
+   "genre": "stealth akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dreamfall: The Longest Journey",
+   "genre": "adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Gears of War",
+   "genre": "third-person střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lost Planet: Extreme Condition",
+   "genre": "akční střílečka z pohledu třetí osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six Vegas",
+   "genre": "taktická střílečka z pohledu první osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Orange Box",
+   "genre": "Kolekce her (FPS, logická hra)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "World of Goo",
+   "genre": "fyzikalni puzzle",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Left 4 Dead",
+   "genre": "kooperativni strilecka z prvni osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Castle Crashers",
+   "genre": "beat 'em up / akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Saints Row 2",
+   "genre": "open-world akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Last Remnant",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Race Driver: GRID",
+   "genre": "závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Valkyria Chronicles",
+   "genre": "taktická RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed II",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Borderlands",
+   "genre": "looter shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wolfenstein",
+   "genre": "střílečka z pohledu první osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "DiRT 2",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Test Drive Unlimited",
+   "genre": "závodní hra / open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Maw",
+   "genre": "plošinovka",
+   "length": "S",
+   "flags": []
   }
  ],
  "3do": [
@@ -21981,6 +22671,18 @@
    "name": "BIT.TRIP BEAT",
    "genre": "Rytmická arkáda",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Carbon",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Unleashed",
+   "genre": "plošinovka",
+   "length": "M",
    "flags": []
   }
  ],
