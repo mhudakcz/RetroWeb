@@ -13,7 +13,7 @@ const groups = platformsByType();
 const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6);
 ---
 
-<section class="hero scanlines">
+<section class="hero scanlines hero-wide">
   <div class="container hero-inner">
     <p class="eyebrow">{t(locale, 'home.eyebrow')}</p>
     <h1>
@@ -33,9 +33,19 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   </div>
 </section>
 
+<nav class="jump" aria-label={t(locale, 'home.jump')}>
+  <div class="container jump-inner">
+    {groups.map((g) => (
+      <a href={`#typ-${g.type}`}>
+        {t(locale, `type.${g.type}.label`)} <span class="j-n">{g.items.length}</span>
+      </a>
+    ))}
+  </div>
+</nav>
+
 {
   groups.map((group) => (
-    <section class="section">
+    <section class="section" id={`typ-${group.type}`}>
       <div class="container">
         <div class="sec-head">
           <div>
@@ -102,6 +112,8 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
 
 <style>
   .hero {
+    position: relative;  /* kotva pro kolaz v ::before */
+    overflow: hidden;
     border-bottom: 1px solid var(--border-soft);
     background:
       radial-gradient(800px 380px at 18% -10%, rgba(255, 62, 127, 0.16), transparent 60%),
@@ -152,4 +164,65 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   .hw-body h3 { font-size: 1rem; line-height: 1.25; }
   .hw-body .muted { font-size: 0.82rem; margin-top: 3px; }
   .section + .section { padding-top: 8px; }
+
+  /* --- hero varianta --- */
+  /* A: kolaz obalu jako pozadi za textem.
+     Vrstvy jsou v JEDNOM background misto ::before a ::after — hero uz ma
+     pseudoprvek od .scanlines a dva dalsi se o poradi vykresleni peraly.
+     Prvni vrstva je prekryv (kryje text), posledni je kolaz. */
+  .hero-wide {
+    background:
+      linear-gradient(95deg,
+        var(--bg) 0%,
+        var(--bg) 46%,
+        color-mix(in srgb, var(--bg) 92%, transparent) 58%,
+        color-mix(in srgb, var(--bg) 60%, transparent) 78%,
+        color-mix(in srgb, var(--bg) 28%, transparent) 100%),
+      linear-gradient(180deg,
+        transparent 55%,
+        color-mix(in srgb, var(--bg) 70%, transparent) 80%,
+        var(--bg) 100%),
+      url('/images/hero-wide.webp') center / cover no-repeat,
+      var(--bg);
+  }
+  .hero-wide .hero-inner { position: relative; z-index: 2; }
+  /* Lead je mensi a lehci nez nadpis, takze mu prekryv pozadi nestaci —
+     dostava vlastni podklad, aby se nemusel cist pres obaly. */
+  .hero-wide .lead {
+    max-width: 34em;
+    padding: 2px 14px 2px 0;
+    background: linear-gradient(90deg,
+      var(--bg) 0%, var(--bg) 78%, transparent 100%);
+  }
+  /* --- konec hero varianty --- */
+
+  /* Rozcestnik typu platforem. Bez nej se na VR uplne dole scrollovalo pres
+     vsechny konzole, handheldy i pocitace. Lepi se pod hlavicku, takze je
+     po ruce i uprostred strany. */
+  .jump {
+    position: sticky; top: 64px; z-index: 40;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .jump-inner {
+    display: flex; gap: 8px; overflow-x: auto; padding-block: 10px;
+    scrollbar-width: none;
+  }
+  .jump-inner::-webkit-scrollbar { display: none; }
+  .jump a {
+    flex: none; padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--border); color: var(--text);
+    font-size: 0.85rem; font-weight: 600; white-space: nowrap;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .jump a:hover { border-color: var(--accent); color: var(--accent); }
+  .jump .j-n { color: var(--muted); font-size: 0.9em; margin-left: 4px; }
+
+  /* kotva nesmi skoncit pod hlavickou ani pod rozcestnikem */
+  .section[id^='typ-'] { scroll-margin-top: 118px; }
+  @media (max-width: 900px) {
+    .jump { top: 0; }
+    .section[id^='typ-'] { scroll-margin-top: 56px; }
+  }
 </style>
