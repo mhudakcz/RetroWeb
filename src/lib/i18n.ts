@@ -72,6 +72,7 @@ const UI: Dict = {
   'nav.openMenu': { cs: 'Otevřít menu', en: 'Open menu', de: 'Menü öffnen', fr: 'Ouvrir le menu' },
   'nav.closeMenu': { cs: 'Zavřít menu', en: 'Close menu', de: 'Menü schließen', fr: 'Fermer le menu' },
   'nav.language': { cs: 'Jazyk', en: 'Language', de: 'Sprache', fr: 'Langue' },
+  'home.showAll': { cs: 'Zobrazit všech', en: 'Show all', de: 'Alle anzeigen', fr: 'Tout afficher' },
   'search.placeholder': { cs: 'Hledat…', en: 'Search…', de: 'Suchen…', fr: 'Rechercher…' },
   'search.label': { cs: 'Hledat na webu', en: 'Search the site', de: 'Website durchsuchen', fr: 'Rechercher sur le site' },
   'search.empty': { cs: 'Nic nenalezeno', en: 'Nothing found', de: 'Nichts gefunden', fr: 'Aucun résultat' },

@@ -434,6 +434,18 @@ h3 {
   /* bez zalomeni by flex-basis nepomohl a pole by vytlacilo navigaci */
   .site-header .bar { flex-wrap: wrap; height: auto; padding-bottom: 10px; }
   .search { order: 10; flex-basis: 100%; margin: 8px 0 0; }
+
+  .alpha-group { scroll-margin-top: 12px; }
   .search input, .search input:focus { width: 100%; }
   .search-results { left: 0; right: auto; width: 100%; }
 }
+
+/* odkaz na plny vypis pod nahledem sekce na uvodni strane */
+.more-link { margin: 16px 0 0; text-align: center; }
+.more-link a {
+  display: inline-block; padding: 9px 18px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text);
+  font-size: 0.9rem; font-weight: 600;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.more-link a:hover { border-color: var(--accent); color: var(--accent); }

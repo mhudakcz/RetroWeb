@@ -236,6 +236,7 @@ const NAV: [string, string][] = [
   .site-header {
     position: sticky;
     top: 0;
+    /* na mobilu viz @media nize — dvouradkova lepiva hlavicka bere prilis mista */
     z-index: 50;
     background: rgba(11, 12, 17, 0.78);
     backdrop-filter: blur(12px);
@@ -479,5 +480,12 @@ const NAV: [string, string][] = [
     .logo-text {
       display: none;
     }
+  }
+
+  @media (max-width: 900px) {
+    /* Po pridani vyhledavani se lista na uzkem displeji zalomi do dvou radku.
+       Jako lepiva by ukusovala pres 100 px z 812, proto se tu odroluje pryc;
+       na desktopu je jednoradkova a kotvena zustava. */
+    .site-header { position: static; }
   }
 </style>

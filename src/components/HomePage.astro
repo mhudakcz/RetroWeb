@@ -4,12 +4,17 @@ import GameCard from './GameCard.astro';
 import HardwareArt from './HardwareArt.astro';
 import { platformsByType, allGames, stats } from '../lib/data';
 import { hardware } from '../data/hardware';
-import { t, navHref, DEFAULT_LOCALE } from '../lib/i18n';
+import { t, navHref, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
 const { locale = DEFAULT_LOCALE } = Astro.props as { locale?: Locale };
 const lp = (p: string) => navHref(locale, p);
 const groups = platformsByType();
+
+// Uvodni strana mela pres 17 000 px, tedy skoro 26 obrazovek — jen sekce konzoli
+// 36 karet. Kazdy typ proto ukazuje jen nahled a zbytek je za odkazem na uz
+// existujici filtrovany vypis platforem.
+const HOME_PREVIEW = 8;
 const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6);
 ---
 
@@ -45,8 +50,15 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
           <span class="muted count">{group.items.length} {t(locale, 'platforms.count')}</span>
         </div>
         <div class="grid grid-platforms">
-          {group.items.map((p) => <PlatformCard platform={p} locale={locale} />)}
+          {group.items.slice(0, HOME_PREVIEW).map((p) => <PlatformCard platform={p} locale={locale} />)}
         </div>
+        {group.items.length > HOME_PREVIEW && (
+          <p class="more-link">
+            <a href={`${localizePath(locale, '/platformy')}?typ=${group.type}`}>
+              {t(locale, 'home.showAll')} {group.items.length} {t(locale, 'platforms.count')} →
+            </a>
+          </p>
+        )}
       </div>
     </section>
   ))
