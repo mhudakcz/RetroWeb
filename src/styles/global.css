@@ -431,12 +431,8 @@ h3 {
 
 /* Na uzkych displejich by pole vytlacilo navigaci; schova se pod pruh. */
 @media (max-width: 900px) {
-  /* bez zalomeni by flex-basis nepomohl a pole by vytlacilo navigaci */
-  .site-header .bar { flex-wrap: wrap; height: auto; padding-bottom: 10px; }
-  .search { order: 10; flex-basis: 100%; margin: 8px 0 0; }
-
-  .alpha-group { scroll-margin-top: 12px; }
-  .search input, .search input:focus { width: 100%; }
-  .search-results { left: 0; right: auto; width: 100%; }
+  /* Hledani je na uzkych displejich schovane. V lite by zabralo cely radek,
+     hlavicka by zdvojnasobila vysku a pole se pretahovalo pres hero. */
+  .search { display: none; }
 }
 
