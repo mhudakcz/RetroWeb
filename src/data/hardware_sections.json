@@ -64,6 +64,49 @@
    ]
   },
   {
+   "title": "Ukládání postupu, vyskočení ze hry a zkratky",
+   "body": [
+    "Nejdůležitější věc, kterou si na emulaci člověk musí zvyknout: **ukládá se dvěma různými způsoby** a každý má jiné vlastnosti. **Herní save** je ten, který nabízí sama hra — sejv na paměťovou kartu u PlayStationu, baterií zálohovaná paměť v kazetě u SNESu, heslo u starších her. Emulátor ho ukládá do souboru (`.srm`, `.sav`) přesně tak, jak by to udělal originální stroj. **Save state** naproti tomu žádná hra nezná: je to okamžitý snímek celé paměti emulátoru, který se dá udělat kdykoli, klidně uprostřed skoku, a stejně tak kdykoli obnovit.",
+    "Save state je pohodlnější, ale křehčí. Je svázaný s konkrétním emulačním jádrem a jeho verzí — po aktualizaci firmwaru nebo po přechodu na jiné jádro se nemusí načíst a nedá se s tím nic dělat. Rozumné pravidlo tedy zní: **dlouhý postup ukládej herním savem**, save state používej na to, na co se hodí — těžkou pasáž, souboj s bossem, hru bez ukládání, nebo když prostě musíte za dvě minuty vystoupit z tramvaje.",
+    "Telefon nemá tlačítko Select ani Function, takže tu odpadají kombinace, na kterých stojí handheldy — všechno se dělá **přes obrazovku**. V RetroArchu má dotykový překryv tlačítko s ikonou (podle vzhledu překryvu nájezdník z Space Invaders, nebo prostě Menu), které otevře **Quick Menu** — a v něm najdete Save State, Load State, volbu slotu i ukončení hry. Kolečkem dole se překryv přepíná mezi stránkou s ovladačem a stránkou s těmito funkcemi. Samostatné emulátory jako **PPSSPP**, **Dolphin** nebo **NetherSX2** mají vlastní tlačítko pauzy v rohu obrazovky a ukládání řešíte v jejich nabídce.",
+    "Pokud připojíte **Bluetooth gamepad**, vyplatí se pár minut na nastavení. RetroArch na Androidu totiž na rozdíl od handheldových firmwarů **nemá hotkey přednastavený** — dokud v Settings → Input → Hotkeys neurčíte tlačítko, které hotkey spouští (obvykle Select), žádné kombinace fungovat nebudou a pro uložení pozice budete pokaždé sahat na displej. Jakmile ho nastavíte, chová se to stejně pohodlně jako na kapesní konzoli.",
+    "Na mobilu má vyskakování ze hry ještě jeden háček navíc: **systém může aplikaci na pozadí kdykoli ukončit**, aby uvolnil paměť. Herní save se přitom z paměti na disk zapisuje často až ve chvíli, kdy se hra řádně zavírá — když emulátor odmávnete z přehledu spuštěných aplikací nebo ho systém odstřelí sám, poslední rozehraná hodina může být pryč, i když jste ve hře uložili. Zvykněte si hru ukončovat z nabídky emulátoru a nenechávat ji dlouho běžet na pozadí.",
+    "Uložené pozice leží v `Android/data/com.retroarch/files/RetroArch/` ve složkách `saves/` (herní savy) a `states/` (save state). Na **Androidu 11 a novějším** je složka `Android/data` kvůli scoped storage pro většinu správců souborů neviditelná, takže nejjistější cesta k záloze vede přes **USB kabel do počítače**. Udělejte ji vždycky před přeinstalací emulátoru nebo přechodem na nový telefon — odinstalace aplikace ty složky smaže s sebou."
+   ],
+   "keys": [
+    {
+     "firmware": "RetroArch — dotykové ovládání",
+     "note": "Fyzická tlačítka tu nejsou; všechno vede přes překryv na displeji.",
+     "rows": [
+      [
+       "Ikona na překryvu",
+       "Otevře Quick Menu emulátoru"
+      ],
+      [
+       "Quick Menu → Save State",
+       "Uloží pozici do aktivního slotu"
+      ],
+      [
+       "Quick Menu → Load State",
+       "Načte pozici z aktivního slotu"
+      ],
+      [
+       "Quick Menu → State Slot",
+       "Přepne slot (0–9), aby se pozice nepřepisovaly"
+      ],
+      [
+       "Quick Menu → Close Content",
+       "Ukončí hru a korektně zapíše herní save"
+      ],
+      [
+       "Kolečko dole na překryvu",
+       "Přepne stránku překryvu (ovladač ↔ funkce)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "title": "Obraz, zvuk a shadery",
    "body": [
     "Emulátory nabízejí bohaté možnosti úpravy **obrazu**. Základní volbou je poměr stran (zachovat originální 4:3, nebo roztáhnout) a způsob škálování. **Integer scaling** zvětšuje obraz v celočíselných násobcích, takže pixely zůstávají ostré a rovnoměrné bez rozmazání. U 3D systémů (PSP, PS2, GameCube) můžete navíc zvednout **interní rozlišení** (2x, 3x, 4x), čímž z původně rozmazaných her uděláte ostrý obraz v HD i 4K, pokud na to čip stačí.",
@@ -462,6 +505,45 @@
     "Plnohodnotný zážitek přináší až **fyzický ovladač**. iOS výborně podporuje bezdrátové gamepady **DualSense, DualShock 4 i ovladače Xbox** přes Bluetooth a celou škálu MFi ovladačů. Spárování je rychlé a funguje systémově, takže ovladač okamžitě funguje napříč všemi emulátory. Pro pohodlnou seanci na gauči s telefonem postaveným před sebou nebo s obrazem na TV je to ideální.",
     "Zvláštní kategorií jsou **mechanické gripy s telefonem uprostřed** — typicky **Backbone One** (ve verzi pro USB-C i Lightning), **GameSir G8** nebo Razer Kishi. Tyto kontroléry obejmou iPhone z obou stran a promění ho v handheld připomínající Nintendo Switch nebo PlayStation Portal, s fyzickými tlačítky, páčkami a často průchozím nabíjením. To je pro vážnou emulaci na cestách nejlepší řešení, protože spojuje displej telefonu s pohodlným hmatovým ovládáním.",
     "iPad nabízí navíc unikátní možnost ovládání **Apple Pencil**, což se hodí u Nintenda DS a her stavěných na dotykové pero (Phantom Hourglass, Brain Training, kreslicí a strategické tituly). Velká obrazovka iPadu zároveň činí dotykové ovládání pohodlnějším než na malém telefonu."
+   ]
+  },
+  {
+   "title": "Ukládání postupu, vyskočení ze hry a zkratky",
+   "body": [
+    "Nejdůležitější věc, kterou si na emulaci člověk musí zvyknout: **ukládá se dvěma různými způsoby** a každý má jiné vlastnosti. **Herní save** je ten, který nabízí sama hra — sejv na paměťovou kartu u PlayStationu, baterií zálohovaná paměť v kazetě u SNESu, heslo u starších her. Emulátor ho ukládá do souboru (`.srm`, `.sav`) přesně tak, jak by to udělal originální stroj. **Save state** naproti tomu žádná hra nezná: je to okamžitý snímek celé paměti emulátoru, který se dá udělat kdykoli, klidně uprostřed skoku, a stejně tak kdykoli obnovit.",
+    "Save state je pohodlnější, ale křehčí. Je svázaný s konkrétním emulačním jádrem a jeho verzí — po aktualizaci firmwaru nebo po přechodu na jiné jádro se nemusí načíst a nedá se s tím nic dělat. Rozumné pravidlo tedy zní: **dlouhý postup ukládej herním savem**, save state používej na to, na co se hodí — těžkou pasáž, souboj s bossem, hru bez ukládání, nebo když prostě musíte za dvě minuty vystoupit z tramvaje.",
+    "Na iOS je situace o něco přívětivější, protože **Delta** — dnes hlavní emulátor nintendovských konzolí — má ukládání vyřešené elegantně. Ve skinu ovládání je tlačítko **Menu**, které hru pozastaví a nabídne Save State i Load State; pozice se ukládají jako pojmenované snímky s náhledem, dají se přejmenovat, zamknout proti přepsání a mazat. Kdo nechce pokaždé otvírat nabídku, má k dispozici **gesta s podrženým tlačítkem Menu** — dvojité ťuknutí uloží, dlouhý stisk načte.",
+    "Delta k tomu navíc dělá **automatické save state na pozadí**, takže i po pádu aplikace se dá vrátit o kousek zpátky. Přesto platí i tady, co říká přímo dokumentace Delty: **spolehlivější je herní save**, save state berte jako pojistku. Ostatní emulátory na iOS — **RetroArch** (stejný dotykový překryv a Quick Menu jako na Androidu), **PPSSPP**, **DolphiniOS** nebo **Provenance** — mají každý vlastní nabídku pauzy, do které se dostanete tlačítkem v rohu obrazovky.",
+    "Na mobilu má vyskakování ze hry ještě jeden háček navíc: **systém může aplikaci na pozadí kdykoli ukončit**, aby uvolnil paměť. Herní save se přitom z paměti na disk zapisuje často až ve chvíli, kdy se hra řádně zavírá — když emulátor odmávnete z přehledu spuštěných aplikací nebo ho systém odstřelí sám, poslední rozehraná hodina může být pryč, i když jste ve hře uložili. Zvykněte si hru ukončovat z nabídky emulátoru a nenechávat ji dlouho běžet na pozadí.",
+    "Zálohování je na iOS **důležitější než kdekoli jinde**, protože k souborům aplikací se člověk tak snadno nedostane a odinstalace aplikace bere savy s sebou. U aplikací instalovaných mimo App Store (přes AltStore a podobné) navíc po vypršení podpisu přestane emulátor jít spustit a přeinstalace je pak jediná cesta. Řešením je **Delta Sync** v nastavení Delty — synchronizace her, savů, save state, skinů i mapování ovladačů na **Dropbox nebo Google Drive**. Rozdíl mezi nimi stojí za pozornost: na Dropboxu savy skončí ve viditelné složce `Apps/Delta Emulator/`, odkud si je můžete kdykoli stáhnout, kdežto na Google Disku leží ve skrytém úložišti aplikace, ke kterému se nedostane nic než sama Delta."
+   ],
+   "keys": [
+    {
+     "firmware": "Delta",
+     "note": "Gesta fungují, když **držíte tlačítko Menu** ve skinu ovládání.",
+     "rows": [
+      [
+       "Menu",
+       "Pauza — v nabídce Save State a Load State"
+      ],
+      [
+       "Menu + dvojité ťuknutí",
+       "Rychlé uložení pozice"
+      ],
+      [
+       "Menu + dlouhý stisk",
+       "Rychlé načtení pozice"
+      ],
+      [
+       "Menu + tažení do strany",
+       "Zrychlený běh (fast forward)"
+      ],
+      [
+       "Menu + libovolné tlačítko",
+       "Podrží tlačítko stisknuté (hold)"
+      ]
+     ]
+    }
    ]
   },
   {
