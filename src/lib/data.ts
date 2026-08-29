@@ -671,11 +671,19 @@ export interface MagazineIssue {
   hry: GameWithPlatform[];
   /** Hry, u kterých rok neznáme a zařadily se podle roku platformy. */
   odhad: Set<string>;
+  /** Koláž obalů z tohoto čísla (tools/magazine_art.py), pokud existuje. */
+  image: string | null;
   prev: string | null;
   next: string | null;
 }
 
 const magTexts = magazineText as Record<string, any>;
+
+// obálky čísel (tools/magazine_art.py) — u čísla bez obalů prostě není
+const magArtFiles = import.meta.glob('../../public/images/magazine/*.webp', { eager: true });
+const magArt = new Set(
+  Object.keys(magArtFiles).map((p) => p.split('/').pop()!.replace(/\.webp$/, '')),
+);
 
 /** Čísla, která mají hotový redakční text — jen ta se na webu ukazují. */
 export const magazineIssues: MagazineIssue[] = (() => {
@@ -697,6 +705,7 @@ export const magazineIssues: MagazineIssue[] = (() => {
       platformy: (v.platformy as string[]).map(getPlatform).filter(Boolean) as Platform[],
       hry: (v.hry as string[]).map(getGame).filter(Boolean) as GameWithPlatform[],
       odhad: new Set<string>(v.odhad_roku || []),
+      image: magArt.has(v.id) ? `/images/magazine/${v.id}.webp` : null,
       prev: i > 0 ? vydana[i - 1].id : null,
       next: i + 1 < vydana.length ? vydana[i + 1].id : null,
     };

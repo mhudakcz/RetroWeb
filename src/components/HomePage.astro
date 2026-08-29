@@ -34,6 +34,8 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
 </section>
 
 <nav class="jump" aria-label={t(locale, 'home.jump')}>
+  <span class="fade fade-l" aria-hidden="true"></span>
+  <span class="fade fade-r" aria-hidden="true"></span>
   <div class="container jump-inner">
     {groups.map((g) => (
       <a href={`#typ-${g.type}`}>
@@ -109,6 +111,41 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
     </section>
   )
 }
+
+<script is:inline>
+  (function () {
+    var nav = document.querySelector('.jump');
+    var strip = nav && nav.querySelector('.jump-inner');
+    if (!strip) return;
+
+    var levy = nav.querySelector('.fade-l');
+    var pravy = nav.querySelector('.fade-r');
+
+    // Viditelnost drzi skript, ne trida v CSS — je to jedina hodnota, o kterou
+    // se nikdo jiny nepere, a stin se tak chova stejne v dev i v produkci.
+    function stav() {
+      var lze = strip.scrollWidth - strip.clientWidth;
+      levy.style.opacity = strip.scrollLeft > 4 ? '1' : '0';
+      pravy.style.opacity = (lze > 4 && strip.scrollLeft < lze - 4) ? '1' : '0';
+    }
+
+    // Kolecko mysi dava jen deltaY; bez tohohle by se pas na desktopu
+    // nedal posunout vubec (dotyk a trackpad funguji i bez toho).
+    strip.addEventListener('wheel', function (e) {
+      if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+      var lze = strip.scrollWidth - strip.clientWidth;
+      if (lze <= 0) return;
+      var novy = strip.scrollLeft + e.deltaY;
+      if (novy < 0 || novy > lze) return;   // na kraji at scrolluje stranka
+      e.preventDefault();
+      strip.scrollLeft = novy;
+    }, { passive: false });
+
+    strip.addEventListener('scroll', stav, { passive: true });
+    window.addEventListener('resize', stav);
+    stav();
+  })();
+</script>
 
 <style>
   .hero {
@@ -208,8 +245,22 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   .jump-inner {
     display: flex; gap: 8px; overflow-x: auto; padding-block: 10px;
     scrollbar-width: none;
+    scroll-behavior: smooth;
+    /* aby posledni pilulka nekoncila presne na hrane stinu */
+    scroll-padding-inline: 24px;
   }
   .jump-inner::-webkit-scrollbar { display: none; }
+
+  /* Rozcestnik se na uzsi obrazovce nevejde a posuvnik je schovany, takze by
+     nebylo poznat, ze pokracuje. Stiny na krajich to ukazou a mizi podle toho,
+     na ktere strane jeste neco je (viditelnost nastavuje skript vyse). */
+  .fade {
+    position: absolute; top: 0; bottom: 0; width: 42px;
+    pointer-events: none; z-index: 2; opacity: 0; transition: opacity .18s ease;
+  }
+  .fade-l { left: 0; background: linear-gradient(90deg, var(--bg), transparent); }
+  .fade-r { right: 0; background: linear-gradient(270deg, var(--bg), transparent); }
+
   .jump a {
     flex: none; padding: 6px 12px; border-radius: 999px;
     border: 1px solid var(--border); color: var(--text);

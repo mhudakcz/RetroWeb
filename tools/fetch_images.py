@@ -1776,6 +1776,129 @@ def trim_platform_bg(only=None, base_thresh=250):
     print("Spust jeste 'classify' a parse_content.py, at se prekresli karty.")
 
 
+
+# ---------------------------------------------------------------------------
+# App Store — jediny zdroj, ktery u mobilnich her da obal i snimky ze hry
+# ---------------------------------------------------------------------------
+def _appstore_search(name, limit=8):
+    """Verejne vyhledavaci API iTunes. Bez klice a bez registrace."""
+    q = urllib.parse.urlencode({
+        "term": name, "entity": "software", "country": "us",
+        "limit": str(limit), "media": "software",
+    })
+    try:
+        data = json.loads(http_get("https://itunes.apple.com/search?" + q))
+    except Exception:  # noqa
+        return []
+    return data.get("results") or []
+
+
+def _appstore_pick(name, results):
+    """Vybere zaznam, ktery opravdu odpovida nazvu hry.
+
+    App Store radi vysledky po svem — na dotaz "Monument Valley" vrati jako prvni
+    "Monument Valley 3". Bez teto kontroly by kazdy dil serie dostal obal toho
+    nejnovejsiho; je to presne ta chyba, kterou uz jednou udelalo parovani obalu
+    z libretra u Tomb Raideru.
+    """
+    q_num = {w for w in P.norm_name(name).split() if w in _SEQUEL}
+    for r in results:
+        title = r.get("trackName") or ""
+        if not title or not _plausible_match(name, title):
+            continue
+        # _plausible_match hlida cislo dilu jen kdyz je v DOTAZU. Tady je potreba
+        # i opacny smer: na "Angry Birds" vraci obchod jako prvni "Angry Birds 2"
+        # a jednicka by dostala obal dvojky.
+        c_num = {w for w in P.norm_name(title).split() if w in _SEQUEL}
+        if c_num - q_num:
+            continue
+        # Hlavni cast nazvu nesmi pridavat vyznamova slova navic. Puvodni
+        # "Angry Birds" uz v obchode neni a bez tehle kontroly by misto nej
+        # vysel obal "Angry Birds Friends". Podnazev za dvojteckou je v poradku
+        # ("Cut the Rope: Physics Puzzle" je porad tataz hra).
+        head = P.re.split(r"[:–—]", title)[0]
+        extra = {w for w in P.norm_name(head).split() if len(w) >= 4} -                 {w for w in P.norm_name(name).split()}
+        if extra:
+            continue
+        if r.get("primaryGenreName") not in ("Games", "Entertainment"):
+            continue
+        return r
+    return None
+
+
+def _appstore_big(url, size="1024x1024bb"):
+    """Prepise rozmer v URL obrazku z App Storu na vetsi variantu."""
+    return P.re.sub(r"/\d+x\d+bb(-\d+)?\.(jpg|png|webp)$", "/" + size + ".jpg", url)
+
+
+def fetch_games_appstore(only=None):
+    """Obaly a snimky ze hry z App Storu (vychozi platforma: mobil).
+
+    Mobilni hra nema obal v klasickem smyslu — jeji "obal" je ikona aplikace,
+    kterou lide znaji z plochy telefonu, takze se pouzije jako hlavni obrazek.
+    Snimky se berou prednostne z iPadu: jsou na sirku a do galerie sednou lip
+    nez uzke portretove snimky z telefonu.
+    """
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else {"mobil"}
+    ok_cover = ok_shots = total = 0
+
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if slug not in wanted:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        targets = [g for g in plat["games"]
+                   if (not g.get("image")) or len(g.get("gallery") or []) < 2]
+        print("\n== " + slug + ": " + str(len(targets)) + " her bez obalu nebo bez snimku ==")
+
+        for g in targets:
+            total += 1
+            gslug = g["slug"]
+            ma_obal = bool(g.get("image"))
+            ma_snimky = any((out / (gslug + "-snap" + x + ".jpg")).exists() for x in ("", "2"))
+            if ma_obal and ma_snimky:
+                continue
+            time.sleep(0.35)
+            hit = _appstore_pick(g["name"], _appstore_search(g["name"]))
+            if not hit:
+                print("  [-] " + g["name"])
+                continue
+
+            if not ma_obal:
+                icon = hit.get("artworkUrl512") or hit.get("artworkUrl100")
+                if icon:
+                    try:
+                        img = http_get(_appstore_big(icon))
+                        if len(img) > 3000:
+                            (out / (gslug + ".jpg")).write_bytes(img)
+                            ok_cover += 1
+                    except Exception:  # noqa
+                        pass
+
+            saved = 0
+            if not ma_snimky:
+                shots = (hit.get("ipadScreenshotUrls") or [])[:2] \
+                    or (hit.get("screenshotUrls") or [])[:2]
+                for src, suffix in zip(shots, ("-snap", "-snap2")):
+                    try:
+                        img = http_get(_appstore_big(src, "1200x1200bb"))
+                        if len(img) < 3000:
+                            continue
+                        (out / (gslug + suffix + ".jpg")).write_bytes(img)
+                        saved += 1
+                    except Exception:  # noqa
+                        pass
+                if saved:
+                    ok_shots += 1
+
+            print("  [OK] " + g["name"] + "  <- " + str(hit.get("trackName")) +
+                  " (" + str(saved) + " snimku)")
+
+    print("\nApp Store: obalu " + str(ok_cover) + ", snimku u " + str(ok_shots) +
+          " her (z " + str(total) + ")")
+
 if __name__ == "__main__":
     what = sys.argv[1] if len(sys.argv) > 1 else "all"
     if what in ("all", "platforms"):
@@ -1823,6 +1946,9 @@ if __name__ == "__main__":
     if what == "games-wiki-box":
         print("=== OBALY Z INFOBOXU NA WIKIPEDII (hry bez obrázku) ===")
         fetch_games_wiki_box(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-appstore":
+        print("=== OBALY A SNÍMKY Z APP STORU (mobilní hry) ===")
+        fetch_games_appstore(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "games-steam-shots":
         print("=== SNÍMKY ZE HRY ZE STEAMU (hry s obalem, ale bez galerie) ===")
         fetch_games_steam_shots(sys.argv[2] if len(sys.argv) > 2 else None)

@@ -275,13 +275,14 @@ const NAV: [string, string][] = [
   .nav {
     display: flex;
     gap: 4px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .nav-link {
-    padding: 0.5em 0.85em;
+    padding: 0.5em 0.72em;
     border-radius: 999px;
     font-weight: 600;
     font-size: 0.92rem;
+    white-space: nowrap;
     color: var(--muted);
     transition: color 0.15s ease, background 0.15s ease;
   }
@@ -418,7 +419,11 @@ const NAV: [string, string][] = [
     transform: rotate(-45deg);
   }
 
-  @media (max-width: 760px) {
+  /* Prah pro hamburger vychazi z mereni, ne z odhadu: cela lista (logo 140,
+     navigace ~610, hledani 170, prepinac jazyka 115, prepinac rezimu 38 plus
+     mezery a odsazeni) potrebuje ~1180 px. Pod tim se navigace driv lamala do
+     druheho radku uvnitr listy vysoke 64 px — presne ta "rozbita" hlavicka. */
+  @media (max-width: 1200px) {
     .nav-toggle {
       display: grid;
     }
@@ -434,6 +439,7 @@ const NAV: [string, string][] = [
     }
     .nav {
       position: absolute;
+      flex-wrap: wrap;
       top: 64px;
       left: 0;
       right: 0;

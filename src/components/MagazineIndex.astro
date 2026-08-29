@@ -29,6 +29,7 @@ const celkemHer = magazineIssues.reduce((n, v) => n + v.hry.length, 0);
       <div class="grid issues">
         {issues.map((v) => (
           <a class="issue" href={`/magazin/${v.id}`}>
+            {v.image && <img class="art" src={v.image} alt="" loading="lazy" decoding="async" />}
             <span class="num">{v.rok}<i>/</i>{v.cislo}</span>
             <strong>{v.titulek || `Číslo ${v.cislo}`}</strong>
             <span class="muted meta">
@@ -36,6 +37,7 @@ const celkemHer = magazineIssues.reduce((n, v) => n + v.hry.length, 0);
               {v.platformy.length > 0 && <> · {plural(v.platformy.length, 'nový stroj', 'nové stroje', 'nových strojů')}</>}
             </span>
             {v.tema && <span class="tema muted">Téma: {v.tema.nadpis}</span>}
+            <span class="precteno" hidden>Přečteno</span>
           </a>
         ))}
       </div>
@@ -46,6 +48,23 @@ const celkemHer = magazineIssues.reduce((n, v) => n + v.hry.length, 0);
 {rocniky.length === 0 && (
   <section class="container"><p class="muted">Zatím nevyšlo žádné číslo.</p></section>
 )}
+
+<script is:inline>
+  (function () {
+    var l;
+    try { l = JSON.parse(localStorage.getItem('retroweb.magazin.otevrena') || '[]'); }
+    catch (e) { return; }
+    if (!l.length) return;
+    var karty = document.querySelectorAll('a.issue');
+    for (var i = 0; i < karty.length; i++) {
+      var id = (karty[i].getAttribute('href') || '').split('/').pop();
+      if (l.indexOf(id) === -1) continue;
+      karty[i].classList.add('read');
+      var z = karty[i].querySelector('.precteno');
+      if (z) z.hidden = false;
+    }
+  })();
+</script>
 
 <style>
   .head { padding-top: 34px; }
@@ -62,6 +81,11 @@ const celkemHer = magazineIssues.reduce((n, v) => n + v.hry.length, 0);
       radial-gradient(120% 130% at 10% 0%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 60%);
   }
   .issue:hover { border-color: var(--accent); }
+  .art {
+    width: calc(100% + 32px); margin: -16px -16px 8px; display: block;
+    aspect-ratio: 1200 / 480; object-fit: cover;
+    border-radius: 13px 13px 0 0;
+  }
   .num {
     font-family: var(--mono, ui-monospace, monospace); font-size: .78rem;
     letter-spacing: .1em; color: var(--accent);
@@ -69,4 +93,20 @@ const celkemHer = magazineIssues.reduce((n, v) => n + v.hry.length, 0);
   .num i { opacity: .5; font-style: normal; }
   .issue strong { font-size: 1.02rem; line-height: 1.25; }
   .meta, .tema { font-size: .84rem; }
+
+  /* Uz otevrene cislo se jen zklidni — schovavat ho by bylo horsi nez nechat
+     ho videt, casopis se listuje i podruhe. */
+  .issue { position: relative; }
+  .issue.read { border-style: dashed; }
+  .issue.read .art { opacity: .55; }
+  .issue.read:hover .art { opacity: 1; }
+  .precteno {
+    position: absolute; top: 10px; right: 10px;
+    padding: 3px 8px; border-radius: 999px;
+    background: color-mix(in srgb, var(--bg) 80%, transparent);
+    border: 1px solid var(--line);
+    font-size: .72rem; font-weight: 600; color: var(--muted);
+    backdrop-filter: blur(4px);
+  }
+  .issue:not(.read) .precteno { display: none; }
 </style>
