@@ -61,7 +61,7 @@ def find_image(subdir, stem):
 
 # ---------------------------------------------------------------------------
 # Registr platforem: slug, název, metadata, barvy a aliasy nadpisů (z obou souborů).
-# Pořadí = pořadí na webu. type: handheld | console | computer | arcade | fantasy | vr
+# Pořadí = pořadí na webu. type: handheld | console | computer | arcade | fantasy | vr | mobile
 # ---------------------------------------------------------------------------
 PLATFORMS = [
     dict(slug="game-boy", name="Nintendo Game Boy", short="GB", maker="Nintendo",
@@ -280,6 +280,9 @@ PLATFORMS = [
     dict(slug="quest", name="Meta Quest", short="Quest", maker="Meta (Oculus)",
          year=2019, type="vr", color="#4a5ad8", color2="#12142e",
          aliases=["Oculus Quest", "Meta Quest 2", "Meta Quest 3"]),
+    dict(slug="mobil", name="Mobil (iOS a Android)", short="Mobil", maker="Apple a Google",
+         year=2008, type="mobile", color="#3ddc84", color2="#10261a",
+         aliases=["Mobil (iOS a Android)", "Mobilní hry", "iOS a Android"]),
     dict(slug="pico-8", name="PICO-8", short="PICO-8", maker="Lexaloffle (fantasy konzole)",
          year=2015, type="fantasy", color="#ff004d", color2="#3a0013",
          aliases=["PICO-8 (fantasy konzole)", "Fantasy konzole — PICO-8 a TIC-80",

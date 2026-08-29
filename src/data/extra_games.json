@@ -25338,5 +25338,1509 @@
     "mustplay"
    ]
   }
+ ],
+ "mobil": [
+  {
+   "name": "Angry Birds",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Angry Birds 2",
+   "genre": "Arkáda",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Bad Piggies",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Cut the Rope",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Cut the Rope 2",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Fruit Ninja",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Jetpack Joyride",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Doodle Jump",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tiny Wings",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Temple Run",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Temple Run 2",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Subway Surfers",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Where's My Water?",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Peggle",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Plants vs. Zombies",
+   "genre": "Tower defense",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Plants vs. Zombies 2",
+   "genre": "Tower defense",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Candy Crush Saga",
+   "genre": "Puzzle",
+   "length": "XL",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Flow Free",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Drop7",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Osmos HD",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Fieldrunners",
+   "genre": "Tower defense",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "N.O.V.A. Near Orbit Vanguard Alliance",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Infinity Blade",
+   "genre": "Akční RPG",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Infinity Blade II",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Infinity Blade III",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rayman Jungle Run",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rayman Fiesta Run",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic Dash",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Punch Quest",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Super Hexagon",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ridiculous Fishing",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Threes!",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "2048",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Blek",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Plague Inc.",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Game Dev Story",
+   "genre": "Simulátor",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Anomaly Warzone Earth",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monument Valley",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Monument Valley 2",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Room",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Room Two",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Room Three",
+   "genre": "Puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Room: Old Sins",
+   "genre": "Puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Device 6",
+   "genre": "Textová hra",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Year Walk",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sayonara Wild Hearts",
+   "genre": "Rytmická",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alto's Adventure",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Alto's Odyssey",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Gorogoa",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Florence",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Old Man's Journey",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "FRAMED",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "FRAMED 2",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "A Dark Room",
+   "genre": "Textová hra",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lifeline",
+   "genre": "Textová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "80 Days",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sorcery!",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Heaven's Vault",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Papers, Please",
+   "genre": "Simulátor",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mini Metro",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Mini Motorways",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Smash Hit",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Does not Commute",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "KAMI 2",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "INKS.",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Card Crawl",
+   "genre": "Karetní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Card Thief",
+   "genre": "Karetní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Reigns",
+   "genre": "Karetní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Reigns: Her Majesty",
+   "genre": "Karetní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Hitman GO",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Lara Croft GO",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Deus Ex GO",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Grand Mountain Adventure",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "DISTRAINT",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rusty Lake Hotel",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rusty Lake: Roots",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cube Escape: Paradox",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Machinarium",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Botanicula",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Samorost 3",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "CHUCHEL",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Creaks",
+   "genre": "Puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Shadowgun",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shadowgun Legends",
+   "genre": "FPS",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dead Trigger",
+   "genre": "FPS",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Dead Trigger 2",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Clash of Clans",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Clash Royale",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Boom Beach",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hay Day",
+   "genre": "Simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Brawl Stars",
+   "genre": "Akční",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Rush",
+   "genre": "Tower defense",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Kingdom Rush Frontiers",
+   "genre": "Tower defense",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Rush Origins",
+   "genre": "Tower defense",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Rush Vengeance",
+   "genre": "Tower defense",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bloons TD 6",
+   "genre": "Tower defense",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "The Battle of Polytopia",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sid Meier's Civilization VI",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "XCOM: Enemy Unknown",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "XCOM 2 Collection",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Rome: Total War",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Company of Heroes",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Bad North",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Into the Breach",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "FTL: Faster Than Light",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Out There",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Banner Saga",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pocket City",
+   "genre": "Budovatelská",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SimCity BuildIt",
+   "genre": "Budovatelská",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fallout Shelter",
+   "genre": "Simulátor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Football Manager 2024 Mobile",
+   "genre": "Sportovní",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Star Traders: Frontiers",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Grand Theft Auto III",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto: Vice City",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto: San Andreas",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mature",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Grand Theft Auto: Chinatown Wars",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Max Payne Mobile",
+   "genre": "Akční",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Bully: Anniversary Edition",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Knights of the Old Republic",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Baldur's Gate: Enhanced Edition",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Icewind Dale: Enhanced Edition",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Planescape: Torment: Enhanced Edition",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Chrono Trigger",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Final Fantasy VII",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy IX",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Final Fantasy VI Pixel Remaster",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dragon Quest III",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Minecraft",
+   "genre": "Sandbox",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Terraria",
+   "genre": "Sandbox",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Stardew Valley",
+   "genre": "Simulátor",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Don't Starve: Pocket Edition",
+   "genre": "Survival",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dead Cells",
+   "genre": "Roguelike",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Streets of Rage 4",
+   "genre": "Beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Grimvalor",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Evoland",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Secret of Monkey Island: Special Edition",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Broken Sword: Shadow of the Templars",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Beneath a Steel Sky: Remastered",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Grim Fandango Remastered",
+   "genre": "Point-and-click adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Day of the Tentacle Remastered",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Limbo",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Inside",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Bastion",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Transistor",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Oceanhorn",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Oceanhorn 2: Knights of the Lost Realm",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Life is Strange",
+   "genre": "Adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Resident Evil 4",
+   "genre": "Survival horor",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Assassin's Creed Mirage",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Death Stranding",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Hitman: Blood Money — Reprisal",
+   "genre": "Akční",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Slay the Spire",
+   "genre": "Karetní",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Vampire Survivors",
+   "genre": "Roguelike",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Balatro",
+   "genre": "Karetní",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sky: Children of the Light",
+   "genre": "Adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "PUBG Mobile",
+   "genre": "Battle royale",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Call of Duty: Mobile",
+   "genre": "FPS",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fortnite",
+   "genre": "Battle royale",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Garena Free Fire",
+   "genre": "Battle royale",
+   "length": "XL",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Among Us",
+   "genre": "Party hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Roblox",
+   "genre": "Sandbox",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Mobile Legends: Bang Bang",
+   "genre": "MOBA",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Arena of Valor",
+   "genre": "MOBA",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "League of Legends: Wild Rift",
+   "genre": "MOBA",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Teamfight Tactics",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Legends of Runeterra",
+   "genre": "Karetní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hearthstone",
+   "genre": "Karetní",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Marvel Snap",
+   "genre": "Karetní",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rocket League Sideswipe",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Critical Ops",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Standoff 2",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Modern Combat 5: Blackout",
+   "genre": "FPS",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Asphalt 8: Airborne",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Asphalt 9: Legends",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Real Racing 3",
+   "genre": "Závodní",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "CSR Racing 2",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: No Limits",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Horizon Chase",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Data Wing",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pokémon GO",
+   "genre": "AR hra",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Genshin Impact",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Honkai: Star Rail",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fire Emblem Heroes",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fate/Grand Order",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Puzzle & Dragons",
+   "genre": "Puzzle",
+   "length": "XL",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Monster Strike",
+   "genre": "Akční",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Summoners War: Sky Arena",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Arknights",
+   "genre": "Tower defense",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Blue Archive",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Azur Lane",
+   "genre": "Shmup",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "AFK Arena",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Raid: Shadow Legends",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Galaxy of Heroes",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Marvel Contest of Champions",
+   "genre": "Fighting",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Marvel Puzzle Quest",
+   "genre": "Puzzle",
+   "length": "XL",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Super Mario Run",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mario Kart Tour",
+   "genre": "Závodní",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Animal Crossing: Pocket Camp",
+   "genre": "Simulátor",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Pokémon Masters EX",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dragalia Lost",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Crossy Road",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pac-Man 256",
+   "genre": "Arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Geometry Dash",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Downwell",
+   "genre": "Roguelike",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Soul Knight",
+   "genre": "Roguelike",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Archero",
+   "genre": "Roguelike",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Survivor.io",
+   "genre": "Roguelike",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sky Force Reloaded",
+   "genre": "Shmup",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Deemo",
+   "genre": "Rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Cytus II",
+   "genre": "Rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "VOEZ",
+   "genre": "Rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Muse Dash",
+   "genre": "Rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Beatstar",
+   "genre": "Rytmická",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Five Nights at Freddy's",
+   "genre": "Horor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Granny",
+   "genre": "Horor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Egg, Inc.",
+   "genre": "Idle",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "AdVenture Capitalist",
+   "genre": "Idle",
+   "length": "L",
+   "flags": []
+  }
  ]
 }

@@ -4,7 +4,7 @@ import dataset from '../data/dataset.json';
 marked.setOptions({ gfm: true, breaks: false });
 
 // ---------------------------------------------------------------- typy
-export type PlatformType = 'handheld' | 'console' | 'computer' | 'arcade' | 'fantasy' | 'vr';
+export type PlatformType = 'handheld' | 'console' | 'computer' | 'arcade' | 'fantasy' | 'vr' | 'mobile';
 export type GameLength = 'S' | 'M' | 'L' | 'XL';
 export type GameFlag = 'homebrew' | 'mustplay' | 'mature' | 'puzzle';
 
@@ -290,7 +290,7 @@ export const studioLink = (name: string | null): string | null => {
 };
 
 // ---------------------------------------------------------------- skupiny / popisky
-export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'vr', 'fantasy'];
+export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'mobile', 'vr', 'fantasy'];
 
 export const TYPE_LABEL: Record<PlatformType, string> = {
   console: 'Herní konzole',
@@ -299,6 +299,7 @@ export const TYPE_LABEL: Record<PlatformType, string> = {
   arcade: 'Arkády',
   vr: 'Virtuální realita',
   fantasy: 'Fantasy konzole',
+  mobile: 'Mobil',
 };
 
 export const TYPE_TAGLINE: Record<PlatformType, string> = {
@@ -308,6 +309,7 @@ export const TYPE_TAGLINE: Record<PlatformType, string> = {
   arcade: 'Herny, mince a nekompromisní obtížnost.',
   vr: 'Headsety od kutilských devadesátek po dnešní samostatné brýle.',
   fantasy: 'Moderní „virtuální“ konzole s nostalgickými limity.',
+  mobile: 'Hry, které se vešly do telefonu — a předělaly herní trh.',
 };
 
 export const LENGTH_LABEL: Record<GameLength, string> = {
