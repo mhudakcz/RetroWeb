@@ -2,7 +2,15 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 // Web o retro hraní – statický výstup.
+// Nahled na GitHub Pages stavi jen cestinu (ONLY_CS=1). Promenna se sem musi
+// dostat pres vite.define: Astro pousti do import.meta.env jen promenne s
+// prefixem PUBLIC_ a holy process.env se v modulech pri buildu neprojevi.
+const ONLY_CS = process.env.ONLY_CS === '1';
+
 export default defineConfig({
+  vite: {
+    define: { __ONLY_CS__: JSON.stringify(ONLY_CS) },
+  },
   site: 'https://retrowebcz.netlify.app',
   integrations: [
     sitemap({

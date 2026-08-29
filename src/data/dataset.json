@@ -151520,7 +151520,7 @@
       "type": "mobile",
       "color": "#3ddc84",
       "color2": "#10261a",
-      "image": null,
+      "image": "/images/platforms/mobil.webp",
       "photoBg": "dark",
       "history": "Mobilní hraní je v tomhle průvodci zvláštní kapitola. Není to hardware, který by se dal postavit na poličku vedle Mega Drivu, není to ani jedna konzole s jasným začátkem a koncem — a přesto je to od roku 2008 největší herní platforma na světě. Pro celou jednu generaci to navíc byla platforma **první**: než někdo poprvé vzal do ruky ovladač, měl už za sebou stovky hodin v Angry Birds nebo Subway Surfers.\n\nZačalo to nenápadně. Když Apple v červenci 2008 otevřel **App Store**, hry v něm byly spíš vedlejší produkt — telefon se prodával jako komunikační a hudební zařízení. Jenže dotykový displej, akcelerometr a hlavně distribuce, ve které mohl dvoučlenný tým prodávat celému světu bez vydavatele, spustily něco, co si nikdo nenaplánoval. Během dvou let se z „aplikací\" staly hry a z her byznys, který během dekády přerostl konzole i počítače dohromady.\n\n## Éra, kdy se všechno vymýšlelo znovu\n\nPrvní roky App Storu jsou dodnes fascinující, protože **nikdo netušil, jak se na dotykové obrazovce vlastně hraje**. Klasické ovládání odpadlo, a tak se hledalo od nuly. *Trism* (2008) stavěl na naklánění telefonu, *Flight Control* (2009) vymyslel kreslení tras prstem a rozjel celý žánr, *Canabalt* (2009) zredukoval hru na jediné tlačítko a založil tím nekonečné běhání, ze kterého později vyrostly *Temple Run* i *Subway Surfers*. *Tiny Wings* a *Cut the Rope* dokázaly, že jednoduchá fyzika a hezká grafika stačí na světový hit.\n\nCeny byly přitom směšné — dolar, dva. To zpětně vypadá jako detail, ale byla to tektonická změna: hráči si zvykli, že hra stojí míň než káva, a vývojáři museli objem dohnat množstvím. Tahle rovnice později porodila mikrotransakce a free-to-play, ale nejdřív z ní vytěžila celá vlna malých studií. **Rovio** udělalo *Angry Birds* jako svou dvaapadesátou hru — těch předchozích jedenapadesát nikdo nezná.\n\nUkázalo se taky, že telefon není jen na kratochvíli v tramvaji. *Infinity Blade* (2010) běžel na Unreal Enginu a vypadal líp než leckterá hra na tehdejších konzolích. *Superbrothers: Sword & Sworcery EP* (2011) dokázal, že mobilní hra může být umělecké dílo. A *The Room* (2012) s *Monument Valley* (2014) otevřely žánr „prémiové hry na dotyk\", který dodnes patří k tomu nejlepšímu, co na telefonu je.\n\n## Když se z her stal průmysl\n\nKolem roku 2012 se všechno zlomilo. **Free-to-play** přestal být experiment a stal se normou: *Candy Crush Saga*, *Clash of Clans*, *Puzzle & Dragons*. Hra už se neprodávala, hra se provozovala — s denními odměnami, energií, která se dobíjí, a nabídkami, které vyprší za dvě hodiny. Studia jako **Supercell** nebo **King** vydělávala víc než velké konzolové značky.\n\nJe snadné tuhle éru odsoudit a leccos si to zaslouží. Ale bylo by nepoctivé předstírat, že v ní nevznikly dobré hry. *Clash Royale* je mimořádně chytrý návrh, *Kingdom Rush* patří ke špičce žánru tower defense a *Plague Inc.* je malý designérský klenot. A z japonské větve žánru — **gacha** — vyrostly věci jako *Genshin Impact*, který je bez debat velká hra, jen se platí jinak, než jsme zvyklí.\n\nZároveň běžela druhá linka, tišší a pro retrohráče zajímavější: **porty**. Na telefon se dostaly *GTA III*, *Vice City* i *San Andreas*, celý *Knights of the Old Republic*, *Baldur's Gate*, *Chrono Trigger*, *Final Fantasy IX*, *Monkey Island*, *Grim Fandango*. Kus herní historie, který by jinak zůstal na starých discích, se najednou vešel do kapsy — a s dotykovým ovládáním, které u point-and-click adventur funguje dokonce líp než myš.\n\n## Kam se to dostalo dnes\n\nDnešní mobil je zvláštní směs. Na jedné straně **top-grossing žebříčky**, kterým vévodí *Monopoly GO!*, *Royal Match* nebo *Whiteout Survival* — hry navržené primárně jako mašina na peníze. Na druhé straně telefony s čipy, které utáhnou *Resident Evil 4*, *Death Stranding* i *Assassin's Creed Mirage* v plné verzi, a předplatné jako **Apple Arcade** a **Netflix Games**, kde je *Hades*, *Into the Breach* nebo *Sonic Mania Plus* bez jediné reklamy.\n\nPro retrohráče je tu ještě třetí, důležitá vrstva: telefon je zároveň **plnohodnotný emulátor**. Od roku 2024 povoluje App Store retro emulátory přímo, na Androidu fungují už dávno — takže vedle *Balatra* a *Vampire Survivors* si na tom samém displeji pustíte SNES, PlayStation nebo Amigu. Jak na to, najdete v sekcích [Hardware](/hardware/ios) a [Android](/hardware/android).\n\n## Jak jsme to tady pojali\n\nMobilní hry vedeme jako **jednu platformu**, ne zvlášť iOS a Android. Drtivá většina titulů vyšla na obojím, často ve stejný den, a rozdělení by znamenalo stovky duplicit. Kde je hra exkluzivní — *Infinity Blade*, *Device 6* a další jen na iOS — je to zmíněné přímo v textu hry.\n\nVýběr je záměrně široký. Jsou tu zakladatelé i dnešní hity, autorské skvosty i komerční fenomény, které za skvělé hry nikdo neoznačí. *Coin Master* nebo *Gacha Life* tu nejsou proto, že by je někdo doporučoval, ale proto, že bez nich by byl obrázek mobilního hraní nepravdivý — a tenhle web se snaží o obrázek, ne o žebříček.",
       "gameCount": 316,
@@ -151850,8 +151850,14 @@
           "teaser": "Odrážení kuliček mezi kolíky s nakažlivou fanfárou při trefě. Návykové jako málokterá hra.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__peggle.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__peggle.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -151875,8 +151881,14 @@
           "teaser": "Obrana zahrady rostlinami proti zombie hordě. Tower defense s humorem a dokonalým tempem.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__plants-vs-zombies.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__plants-vs-zombies.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152021,8 +152033,14 @@
           "teaser": "Jeden z prvních tower defense titulů na mobilu, který ukázal, že žánr sem patří.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__fieldrunners.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__fieldrunners.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152229,8 +152247,14 @@
           "teaser": "Nemilosrdná rytmická arkáda; smrt přichází během vteřin, restart je okamžitý.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__super-hexagon.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__super-hexagon.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152280,8 +152304,14 @@
           "teaser": "Elegantní posouvací puzzle se sčítáním dlaždic; předloha, kterou později zastínil 2048.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__threes.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__threes.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152305,8 +152335,14 @@
           "teaser": "Prostý posouvací puzzle se sčítáním čísel, co během pár týdnů dobyl telefony světa.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__2048.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__2048.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152380,8 +152416,14 @@
           "teaser": "Satirická simulace herního studia od Kairosoftu; vlastní hity i vlastní krachy.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__game-dev-story.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__game-dev-story.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152403,8 +152445,14 @@
           "teaser": "Tower defense obrácený naruby — místo věží řídíte kolonu, co jimi prochází.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__anomaly-warzone-earth.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__anomaly-warzone-earth.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152429,8 +152477,14 @@
           "teaser": "Nemožné escherovské stavby v krátké, ale vizuálně strhující procházce.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__monument-valley.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__monument-valley.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152455,8 +152509,14 @@
           "teaser": "Pokračování s matkou a dcerou; stejná optická hravost, o něco delší příběh.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__monument-valley-2.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__monument-valley-2.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152481,8 +152541,14 @@
           "teaser": "Dotyková hlavolamová krabička — otáčíte, odemykáte a zoomujete do mechanismů.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__room.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__room.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152506,8 +152572,14 @@
           "teaser": "Víc místností a mechanismů; pokračování drží stejně hypnotické tempo jako první díl.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__room-two.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__room-two.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152531,8 +152603,14 @@
           "teaser": "Série opouští jednu krabici a propojuje více místností do jednoho hlavolamu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__room-three.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__room-three.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152605,8 +152683,14 @@
           "teaser": "Temná pohádka podle staré švédské tradice nočních vizí; od tvůrců Device 6.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__year-walk.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__year-walk.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152627,8 +152711,14 @@
           "teaser": "Hudební akce jako jízda skrz koncepční album; motorky, karty a syntopový beat.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__sayonara-wild-hearts.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__sayonara-wild-hearts.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152700,8 +152790,14 @@
           "teaser": "Čtyři ručně kreslená políčka, která se posouvají a skládají do jednoho hlavolamu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__gorogoa.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__gorogoa.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152725,8 +152821,14 @@
           "teaser": "Krátký komiksový příběh vztahu, kde puzzle mechaniky vyprávějí emoce místo textu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__florence.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__florence.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152748,8 +152850,14 @@
           "teaser": "Tichá procházka krajinou; terén posouváte prstem, aby stařec mohl jít dál.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__old-man-s-journey.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__old-man-s-journey.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152773,8 +152881,14 @@
           "teaser": "Přeskládejte komiksové panely, aby útěk hrdiny před pronásledovateli dopadl dobře.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__framed.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__framed.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152823,8 +152937,14 @@
           "teaser": "Textová hra o přežití, co se z pár řádků u ohně rozroste v celý svět.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__dark-room.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__dark-room.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152871,8 +152991,14 @@
           "teaser": "Steampunková adaptace Julesa Verna s tisíci větvenými cestami kolem světa.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__80-days.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__80-days.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152919,8 +153045,14 @@
           "teaser": "Kultovní simulátor hraničního úředníka. Morální dilemata na každém razítku.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__papers-please.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__papers-please.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152944,8 +153076,14 @@
           "teaser": "Minimalistická strategie o plánování linek metra; elegance v jednoduchosti.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__mini-metro.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__mini-metro.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -152967,8 +153105,14 @@
           "teaser": "Duchovní pokračování Mini Metro, tentokrát se silnicemi místo kolejí.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__mini-motorways.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__mini-motorways.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153037,8 +153181,14 @@
           "teaser": "Barvy se šíří přes papírové origami; elegantní puzzle o skládání odstínů.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__kami-2.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__kami-2.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153085,8 +153235,14 @@
           "teaser": "Solitaire jako dungeon crawler; karty jsou nepřátelé, poklady i pasti.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__card-crawl.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__card-crawl.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153133,8 +153289,14 @@
           "teaser": "Vládněte tahem prstu doleva nebo doprava; Tinder v hávu středověké vlády.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__reigns.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__reigns.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153156,8 +153318,14 @@
           "teaser": "Pokračování Reigns z pohledu královny; stejné swipe rozhodování, nový úhel.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__reigns-her-majesty.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__reigns-her-majesty.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153182,8 +153350,14 @@
           "teaser": "Hitman jako tahová deskovka; plíživá strategie na dioramatických políčkách.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__hitman-go.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__hitman-go.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153208,8 +153382,14 @@
           "teaser": "Stejný tahový princip jako Hitman GO, tentokrát v kůži Lary Croft.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__lara-croft-go.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__lara-croft-go.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153256,8 +153436,14 @@
           "teaser": "Volné lyžování a snowboarding v otevřených horách; zimní sporty bez tlaku.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__grand-mountain-adventure.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__grand-mountain-adventure.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153279,8 +153465,14 @@
           "teaser": "Ponurý psychologický horor o exekutorovi, který obětoval duši za kariéru.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__distraint.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__distraint.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153302,8 +153494,14 @@
           "teaser": "Surrealistická point-and-click hororová hádanka; hosté hotelu nejsou lidé.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__rusty-lake-hotel.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__rusty-lake-hotel.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153325,8 +153523,14 @@
           "teaser": "Pěstujte rodinný strom plný podivných mutací; temný surrealismus Rusty Lake.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__rusty-lake-roots.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__rusty-lake-roots.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153348,8 +153552,14 @@
           "teaser": "Escape room z univerza Rusty Lake; detektiv Dale uvězněný ve vlastní vizi.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__cube-escape-paradox.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__cube-escape-paradox.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153373,8 +153583,14 @@
           "teaser": "Ručně kreslené dobrodružství malého robota; poetická point-and-click klasika.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__machinarium.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__machinarium.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153396,8 +153612,14 @@
           "teaser": "Pětice rostlinných tvorečků zachraňuje strom; hravá point-and-click pohádka.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__botanicula.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__botanicula.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153419,8 +153641,14 @@
           "teaser": "Kouzelník s flétnou putuje mezi planetami; nejrozsáhlejší Samorost od Amanity.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__samorost-3.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__samorost-3.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153442,8 +153670,14 @@
           "teaser": "Chlupatá koule honí třešeň napříč gagy; komediální point-and-click od Amanity.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__chuchel.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__chuchel.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153467,8 +153701,14 @@
           "teaser": "Temně kouzelný logický plošinovkový horor od tvůrců Machinarium.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__creaks.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__creaks.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153707,8 +153947,14 @@
           "teaser": "Tower defense, který se stal měřítkem žánru; pestré věže a nápadití nepřátelé.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__kingdom-rush.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__kingdom-rush.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153730,8 +153976,14 @@
           "teaser": "Druhý díl s novými hrdiny a prostředími; rozšiřuje osvědčenou tower defense formuli.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__kingdom-rush-frontiers.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__kingdom-rush-frontiers.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153753,8 +154005,14 @@
           "teaser": "Prequel zasazený do světa elfů, s vlastní sadou věží a hrdinů.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__kingdom-rush-origins.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__kingdom-rush-origins.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153776,8 +154034,14 @@
           "teaser": "Čtvrtý díl, ve kterém hrajete za padoucha Vez'nana místo obránců království.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__kingdom-rush-vengeance.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__kingdom-rush-vengeance.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153799,8 +154063,14 @@
           "teaser": "3D tower defense s opičkami, co pomocí věží praskají balonky svým nepřátelům.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__bloons-td-6.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__bloons-td-6.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153824,8 +154094,14 @@
           "teaser": "Minimalistická 4X strategie; celou civilizaci vybudujete během pár minut.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__battle-of-polytopia.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__battle-of-polytopia.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153847,8 +154123,14 @@
           "teaser": "Mobilní port slavné tahové strategie o budování civilizace od kamene až po vesmír.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__sid-meier-s-civilization-vi.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__sid-meier-s-civilization-vi.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153872,8 +154154,14 @@
           "teaser": "Tahová taktika o obraně Země před mimozemšťany; permadeath vojáků zvyšuje sázky.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__xcom-enemy-unknown.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__xcom-enemy-unknown.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153941,8 +154229,14 @@
           "teaser": "Válečná realtime strategie s důrazem na kryty a ničitelné prostředí druhé světové.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__company-of-heroes.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__company-of-heroes.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153964,8 +154258,14 @@
           "teaser": "Roguelike taktika, kde bráníte ostrovy před vikingy; strohý vizuál, napínavé souboje.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__bad-north.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__bad-north.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -153989,8 +154289,14 @@
           "teaser": "Tahová taktika mechů proti obřímu hmyzu od tvůrců FTL; každý tah lze dopředu spočítat.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__into-breach.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__into-breach.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154014,8 +154320,14 @@
           "teaser": "Roguelike simulátor vesmírné lodi s permadeath; ikonická indie hra, co odstartovala žánr.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__ftl-faster-than-light.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__ftl-faster-than-light.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154037,8 +154349,14 @@
           "teaser": "Sci-fi survival o průzkumu vesmíru; docházející palivo a kyslík nutí k opatrnosti.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__out-there.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__out-there.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154060,8 +154378,14 @@
           "teaser": "Vikingská taktická RPG s ručně kreslenou animací; karavana táhne krajinou vstříc záhubě.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__banner-saga.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__banner-saga.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154083,8 +154407,14 @@
           "teaser": "Offline city builder pro mobil; budování měst bez nutnosti věčného připojení k internetu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__pocket-city.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__pocket-city.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154129,8 +154459,14 @@
           "teaser": "Nečekaně strhující vedlejší produkt Bethesdy; správa vault se stala fenoménem.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__fallout-shelter.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__fallout-shelter.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154175,8 +154511,14 @@
           "teaser": "Textově bohatá vesmírná RPG od malého týmu; svoboda volby připomíná stolní hry.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__star-traders-frontiers.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__star-traders-frontiers.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154200,8 +154542,14 @@
           "teaser": "Převratný 3D akční sandbox, který kdysi předefinoval celý žánr open-world her.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__grand-theft-auto-iii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__grand-theft-auto-iii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154226,8 +154574,14 @@
           "teaser": "Neonová osmdesátá léta Miami v podání kultovního sandboxu od Rockstaru.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__grand-theft-auto-vice-city.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__grand-theft-auto-vice-city.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154252,8 +154606,14 @@
           "teaser": "Nejrozlehlejší GTA své éry; tři města, gangy a spousta obsahu navíc.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__grand-theft-auto-san-andreas.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__grand-theft-auto-san-andreas.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154350,8 +154710,14 @@
           "teaser": "Legendární Star Wars RPG od BioWare s jedním z nejslavnějších zvratů v žánru.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__star-wars-knights-of-old-republic.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__star-wars-knights-of-old-republic.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154373,8 +154739,14 @@
           "teaser": "Klasická D&D RPG, která před desítkami let nastavila laťku pro celý žánr.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__baldur-s-gate-enhanced-edition.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__baldur-s-gate-enhanced-edition.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154396,8 +154768,14 @@
           "teaser": "Bojově zaměřenější sourozenec Baldur's Gate s důrazem na taktiku a dungeony.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__icewind-dale-enhanced-edition.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__icewind-dale-enhanced-edition.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154419,8 +154797,14 @@
           "teaser": "RPG proslulé příběhem a dialogy; často označované za literární vrchol žánru.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__planescape-torment-enhanced-edition.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__planescape-torment-enhanced-edition.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154444,8 +154828,14 @@
           "teaser": "Časem cestující JRPG klasika od dream-týmu tvůrců Final Fantasy a Dragon Quest.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__chrono-trigger.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__chrono-trigger.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154492,8 +154882,14 @@
           "teaser": "Návrat k pohádkovější, středověké fantasy podobě série po sci-fi VII a VIII.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__final-fantasy-ix.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__final-fantasy-ix.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154588,8 +154984,14 @@
           "teaser": "2D sandbox inspirovaný Minecraftem, který si vybudoval vlastní obří svět obsahu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__terraria.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__terraria.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154613,8 +155015,14 @@
           "teaser": "Farmářská idylka od jediného tvůrce; osobní projekt, který přerostl očekávání.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__stardew-valley.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__stardew-valley.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154661,8 +155069,14 @@
           "teaser": "Roguevania s napjatým soubojem; každý běh je jiný a smrt tu neznamená konec.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__dead-cells.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__dead-cells.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154684,8 +155098,14 @@
           "teaser": "Návrat legendární beat 'em up série po dvou desetiletích, teď i v kapse.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__streets-of-rage-4.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__streets-of-rage-4.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154730,8 +155150,14 @@
           "teaser": "Hra o historii her samotných; postupně prochází vývojem grafiky i žánru RPG.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__evoland.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__evoland.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154755,8 +155181,14 @@
           "teaser": "Legendární pirátská adventura ve zbrusu nové grafice, s komentářem tvůrců.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__secret-of-monkey-island-special-edition.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__secret-of-monkey-island-special-edition.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154826,8 +155258,14 @@
           "teaser": "Film noir adventura ze Země mrtvých od Tima Schafera; klenot staré LucasArts.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__grim-fandango-remastered.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__grim-fandango-remastered.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154851,8 +155289,14 @@
           "teaser": "Bláznivá cestovatelská adventura s časovými smyčkami; pokračování Maniac Mansion.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__day-of-tentacle-remastered.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__day-of-tentacle-remastered.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154876,8 +155320,14 @@
           "teaser": "Černobílá temná plošinovka plná smrtelně nebezpečných hádanek a tíživé atmosféry.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__limbo.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__limbo.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154901,8 +155351,14 @@
           "teaser": "Ponuré dystopické dobrodružství od tvůrců Limba; vrcholí šokujícím koncem.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__inside.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__inside.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154924,8 +155380,14 @@
           "teaser": "Akční RPG, kde svět doslova vzniká pod nohama hrdiny; vypravěč komentuje každý krok.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__bastion.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__bastion.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154947,8 +155409,14 @@
           "teaser": "Sci-fi akční RPG od tvůrců Bastionu s bojovým systémem mezi tahy a real-time akcí.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__transistor.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__transistor.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -154992,8 +155460,14 @@
           "teaser": "Pokračování oblíbené zeldovky s rozlehlejším světem a plynulejšími souboji.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__oceanhorn-2-knights-of-lost-realm.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__oceanhorn-2-knights-of-lost-realm.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155016,8 +155490,14 @@
           "teaser": "Epizodická adventura o cestování časem a těžkých volbách s trvalými následky.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__life-is-strange.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__life-is-strange.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155041,8 +155521,14 @@
           "teaser": "Survival horor, jehož kamera přes rameno v roce 2005 předefinovala celý žánr.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__resident-evil-4.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__resident-evil-4.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155065,8 +155551,14 @@
           "teaser": "Návrat ke kořenům série — parkour a nenápadné vraždění v historickém Bagdádu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__assassin-s-creed-mirage.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__assassin-s-creed-mirage.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155089,8 +155581,14 @@
           "teaser": "Neotřelá hra o doručování zásilek od Hidea Kojimy; spojuje hráče napříč světem.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__death-stranding.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__death-stranding.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155138,8 +155636,14 @@
           "teaser": "Průkopník žánru karetních roguelike; každý běh je jiná kombinace karet a strategie.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__slay-spire.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__slay-spire.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155163,8 +155667,14 @@
           "teaser": "Minimalistická přežívačka, která odstartovala celý žánr bullet-heaven her.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__vampire-survivors.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__vampire-survivors.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155188,8 +155698,14 @@
           "teaser": "Pokerový roguelike, co dokáže pohltit na hodiny jedním jednoduchým pravidlem navíc.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__balatro.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__balatro.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155211,8 +155727,14 @@
           "teaser": "Emotivní sociální dobrodružství od tvůrců Journey; létání a spolupráce místo násilí.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__sky-children-of-light.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__sky-children-of-light.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155334,8 +155856,14 @@
           "teaser": "Sociální detektivka o odhalování zrádce mezi posádkou; boom přišel roky po vydání.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__among-us.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__among-us.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -155522,8 +156050,14 @@
           "teaser": "Bleskové souboje na šest kol; zhuštěný karetní design od spoluautorů Hearthstone.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__marvel-snap.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__marvel-snap.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156086,8 +156620,14 @@
           "teaser": "Gacha RPG proslavené záplavou YouTuberských reklam; sbírání šampionů a frakcí.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__raid-shadow-legends.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__raid-shadow-legends.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156132,8 +156672,14 @@
           "teaser": "3D bojovka s marvelovskými hrdiny; souboje jeden na jednoho a nekonečno komb.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__marvel-contest-of-champions.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__marvel-contest-of-champions.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156157,8 +156703,14 @@
           "teaser": "Match-3 hádanka propojená s RPG sbíráním marvelovských hrdinů a jejich sil.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__marvel-puzzle-quest.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__marvel-puzzle-quest.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156320,8 +156872,14 @@
           "teaser": "Nekonečný Pac-Man v bludišti, které žene glitch po patách; od tvůrců Crossy Road.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__pac-man-256.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__pac-man-256.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156345,8 +156903,14 @@
           "teaser": "Rytmická plošinovka s brutální obtížností; editor chrlí nekonečno fanouškovských levelů.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__geometry-dash.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__geometry-dash.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156370,8 +156934,14 @@
           "teaser": "Roguelike sestup studnou se zbraněmi místo bot; minimalistický pixel art, drtivé tempo.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__downwell.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__downwell.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156416,8 +156986,14 @@
           "teaser": "Roguelike, kde postava střílí sama a hráč jen uhýbá; jednoduchý princip, co se stal hitem.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__archero.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__archero.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156462,8 +157038,14 @@
           "teaser": "Vertikální shmup s pečlivě vyladěným upgradovým systémem; jeden z nejlepších na mobilu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__sky-force-reloaded.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__sky-force-reloaded.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156554,8 +157136,14 @@
           "teaser": "Roztomilá anime rytmovka, kde postavičky běží a bijí noty; oblíbená i mimo mobily.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__muse-dash.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__muse-dash.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156600,8 +157188,14 @@
           "teaser": "Hororová klasika s animatronikami a kamerovým systémem; odstartovala celý fenomén.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__five-nights-at-freddy-s.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__five-nights-at-freddy-s.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156623,8 +157217,14 @@
           "teaser": "Hororová úniková hra před babičkou hlídající dům; napětí z každého vrzajícího schodu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__granny.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__granny.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156669,8 +157269,14 @@
           "teaser": "Jedna z her, které nastartovaly boom idle klikaček na mobilech.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__adventure-capitalist.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__adventure-capitalist.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156716,8 +157322,14 @@
           "teaser": "Fyzikální plošinovka, kde nakláněním telefonu koulíte roztomilé Rolandy levely.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__rolando.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__rolando.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156761,8 +157373,14 @@
           "teaser": "Prstem kreslíte trajektorie letadel k bezpečnému přistání; ikonická dotyková arkáda.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__flight-control.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__flight-control.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156786,8 +157404,14 @@
           "teaser": "Jednotlačítkový nekonečný běh, který založil celý žánr endless runnerů.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__canabalt.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__canabalt.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -156972,8 +157596,14 @@
           "teaser": "Adventura s výraznou pixel-art grafikou a atmosferickým soundtrackem Jima Guthrieho.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__superbrothers-sword-and-sworcery-ep.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__superbrothers-sword-and-sworcery-ep.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157116,8 +157746,14 @@
           "teaser": "Humorné akční RPG plné sebeironie, které si utahuje z žánrových klišé.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__bard-s-tale.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__bard-s-tale.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157258,8 +157894,14 @@
           "teaser": "Nenásilná průzkumná plošinovka o pěstování mimozemského ekosystému na Marsu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__waking-mars.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__waking-mars.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157333,8 +157975,14 @@
           "teaser": "Temně poetická plošinovka s fyzikou; jedna z prvních ukázek grafiky Unity na mobilu.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__badland.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__badland.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157402,8 +158050,14 @@
           "teaser": "Kvízové kolo štěstí, které se díky sdílení na sítích šířilo bleskovou rychlostí.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__trivia-crack.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__trivia-crack.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157471,8 +158125,14 @@
           "teaser": "Sbírka karet superhrdinů s tahovými souboji; mobilní odnož konzolové bitky od NetherRealm.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__injustice-gods-among-us.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__injustice-gods-among-us.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157494,8 +158154,14 @@
           "teaser": "Blokatá střílečka v Minecraft stylu s multiplayerem a nekonečnou nabídkou zbraní a skinů.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__pixel-gun-3d.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__pixel-gun-3d.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157542,8 +158208,14 @@
           "teaser": "Mobilní pokračování kyberpunkového Human Revolution; stealth akce zmenšená do kapsy.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__deus-ex-fall.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__deus-ex-fall.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157588,8 +158260,14 @@
           "teaser": "Vizuálně nádherná plošinovka o lišce hledající ukradené zlato; styl jako z pohádky.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__leo-s-fortune.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__leo-s-fortune.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157636,8 +158314,14 @@
           "teaser": "Roguelike dungeon od Rocketcat Games; permadeath a několik odlišně hratelných povolání.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__wayward-souls.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__wayward-souls.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157734,8 +158418,14 @@
           "teaser": "Ručně vyrobené papírové městečko nafotografované jako scéna; volné pokračování Lume.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__lumino-city.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__lumino-city.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157759,8 +158449,14 @@
           "teaser": "Karetní bojovka navazující na konzolový díl; ikoničtí zabijáci ve sběratelské podobě.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__mortal-kombat-x.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__mortal-kombat-x.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157904,8 +158600,14 @@
           "teaser": "Detektivní hra prohledávající archiv videozáznamů; klíčová slova skládají příběh vraždy.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__her-story.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__her-story.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157975,8 +158677,14 @@
           "teaser": "Craftingové akční RPG plné humoru a překvapivě hluboké výbavy postav.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__crashlands.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__crashlands.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -157998,8 +158706,14 @@
           "teaser": "Povedený mobilní port klasického akčního RPG z roku 2006.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__titan-quest.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__titan-quest.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158021,8 +158735,14 @@
           "teaser": "Legendární CRPG z roku 2000 konečně v kapse; jedna z nejlepších her žánru.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__baldur-s-gate-ii-enhanced-edition.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__baldur-s-gate-ii-enhanced-edition.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158261,8 +158981,14 @@
           "teaser": "Nechvalně proslulé šplhání kladivem do kopce; hra testující trpělivost.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__getting-over-it-with-bennett-foddy.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__getting-over-it-with-bennett-foddy.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158330,8 +159056,14 @@
           "teaser": "Jednoduchá padací arkáda od Voodoo; typický hyper-casual hit své doby.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__helix-jump.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__helix-jump.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158353,8 +159085,14 @@
           "teaser": "Klasická verze RuneScape z roku 2007 konečně i na mobilních telefonech.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__old-school-runescape.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__old-school-runescape.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158401,8 +159139,14 @@
           "teaser": "Puzzle o díře, co pohlcuje celé město; krátké, vtipné a originální.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__donut-county.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__donut-county.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158447,8 +159191,14 @@
           "teaser": "Absurdní parodie golfu, kde místo míčku lítá cokoliv jiného.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__what-golf.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__what-golf.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158473,8 +159223,14 @@
           "teaser": "Puzzle od Capybara Games spojující tahové bitvy s barevnými řetězy.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__grindstone.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__grindstone.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158517,8 +159273,14 @@
           "teaser": "Fyzikální plošinovka s nemotornou postavičkou; humor z chaosu ovládání.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__human-fall-flat.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__human-fall-flat.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158563,8 +159325,14 @@
           "teaser": "Strategické budování království ve 2D; jednoduché ovládání, hluboký systém.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__kingdom-two-crowns.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__kingdom-two-crowns.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158586,8 +159354,14 @@
           "teaser": "Metroidvania od tvůrce Castlevanie Kojiho Igarashiho v plnohodnotném mobilním vydání.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__bloodstained-ritual-of-night.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__bloodstained-ritual-of-night.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158612,8 +159386,14 @@
           "teaser": "Klaustrofobní horor s nezničitelným votřelcem v patách; jen útěk a schovávání, žádné boje.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__alien-isolation.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__alien-isolation.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158657,8 +159437,14 @@
           "teaser": "Mobilní obdoba Fall Guys; chaotická překážková battle royale pro davy hráčů najednou.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__stumble-guys.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__stumble-guys.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158920,8 +159706,14 @@
           "teaser": "Survival horor s hradem upírky Lady Dimitrescu, jednou z nejikoničtějších postav série.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__resident-evil-village.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__resident-evil-village.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -158944,8 +159736,14 @@
           "teaser": "Oceňovaný roguelike o útěku z podsvětí; příběh se s každou smrtí posouvá dál, ne dokola.",
           "detail": null,
           "article": null,
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/mobil/mobil__hades.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/mobil/mobil__hades.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -159725,7 +160523,7 @@
     "withDetail": 476,
     "withTeaser": 4864,
     "withArticle": 4565,
-    "platformImages": 74,
-    "gameImages": 4016
+    "platformImages": 75,
+    "gameImages": 4149
   }
 }

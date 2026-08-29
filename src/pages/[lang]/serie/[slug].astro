@@ -3,9 +3,10 @@ import Base from '../../../layouts/Base.astro';
 import SeriesDetail from '../../../components/SeriesDetail.astro';
 import { localeData } from '../../../lib/data';
 import type { Locale } from '../../../lib/i18n';
+import { BUILD_LOCALES } from '../../../lib/i18n';
 
 export function getStaticPaths() {
-  return ['en', 'de', 'fr'].flatMap((lang) =>
+  return BUILD_LOCALES.flatMap((lang) =>
     localeData(lang).series.map((s) => ({ params: { lang, slug: s.slug } })),
   );
 }

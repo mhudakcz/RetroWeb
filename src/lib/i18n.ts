@@ -11,9 +11,12 @@ export const DEFAULT_LOCALE: Locale = 'cs';
  *  na web dava. Produkce na Netlify zadny takovy limit nema, takze tam se
  *  stavi vsechno.
  *
- *  Ridi se promennou ONLY_CS=1 pri buildu. */
-export const BUILD_LOCALES: Locale[] =
-  import.meta.env.ONLY_CS === '1' ? [] : ['en', 'de', 'fr'];
+ *  Ridi se promennou ONLY_CS=1 pri buildu. Hodnotu dosazuje vite.define
+ *  v astro.config.mjs — pres import.meta.env by neprosla, tam Astro pousti jen
+ *  promenne s prefixem PUBLIC_. */
+declare const __ONLY_CS__: boolean;
+
+export const BUILD_LOCALES: Locale[] = __ONLY_CS__ ? [] : ['en', 'de', 'fr'];
 
 /** getStaticPaths pro stranky pod /[lang]/. */
 export const localePaths = () => BUILD_LOCALES.map((lang) => ({ params: { lang } }));

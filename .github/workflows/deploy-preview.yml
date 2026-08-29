@@ -27,9 +27,17 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # Nahled stavi JEN cestinu. Vsechny ctyri mutace maji pres 20 000 stranek
+      # a bezmala 1 GB, coz je presne strop, ktery GitHub Pages na web dava.
       - run: npm run build
+        env:
+          ONLY_CS: '1'
       - name: Úprava pro náhled (base /RetroWeb, noindex)
         run: |
+          # 0) pryc s cizojazycnymi statickymi strankami (index, kontakt, podporit).
+          #    Zbytek mutaci uz ONLY_CS nepostavil, tyhle nejsou dynamicke, takze
+          #    by v nahledu zustaly jako slepe konce bez prepinace jazyka.
+          rm -rf dist/en dist/de dist/fr
           # 1) noindex do hlavičky každé stránky
           find dist -name '*.html' -print0 | xargs -0 sed -i 's#<head>#<head><meta name="robots" content="noindex, nofollow">#'
           # 2) prefixuj root-absolutní href/src na /RetroWeb/ (chrání externí i // )
