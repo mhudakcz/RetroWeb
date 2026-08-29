@@ -7,7 +7,7 @@ davek po N kusech a po dobehnuti workflow je slouci zpet do
 src/data/game_teasers.json.
 
 Pouziti:
-  python tools/teasers_prep.py <workdir> [--size 25]   pripravi davky
+  python tools/teasers_prep.py <workdir> [--size 25] [--platform mobil]
   python tools/teasers_prep.py <workdir> --merge       slouci vystupy
 """
 import io
@@ -22,7 +22,7 @@ TEASER_FILE = ROOT / "src/data/game_teasers.json"
 MIN_LEN, MAX_LEN = 30, 140
 
 
-def load_missing() -> list[dict]:
+def load_missing(platform: str | None = None) -> list[dict]:
     data = json.loads((ROOT / "src/data/dataset.json").read_text("utf-8"))
     teasers = json.loads(TEASER_FILE.read_text("utf-8")) if TEASER_FILE.exists() else {}
     articles = {}
@@ -31,6 +31,10 @@ def load_missing() -> list[dict]:
 
     out = []
     for p in data["platforms"]:
+        # nova platforma se doplnuje po castech; bez filtru by davka nabrala
+        # i stovky her odjinud, ktere na vetu jeste cekaji
+        if platform and p["slug"] != platform:
+            continue
         for g in p["games"]:
             if g.get("teaser") or teasers.get(g["slug"]):
                 continue
@@ -51,9 +55,9 @@ def load_missing() -> list[dict]:
     return out
 
 
-def prepare(work: Path, size: int) -> int:
+def prepare(work: Path, size: int, platform: str | None = None) -> int:
     work.mkdir(parents=True, exist_ok=True)
-    missing = load_missing()
+    missing = load_missing(platform)
     if not missing:
         print("vsechny hry uz uvodni vetu maji")
         return 0
@@ -107,7 +111,8 @@ def main() -> int:
         merge(work)
         return 0
     size = int(sys.argv[sys.argv.index("--size") + 1]) if "--size" in sys.argv else 25
-    prepare(work, size)
+    platform = sys.argv[sys.argv.index("--platform") + 1] if "--platform" in sys.argv else None
+    prepare(work, size, platform)
     return 0
 
 

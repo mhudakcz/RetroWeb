@@ -16101,5 +16101,405 @@
  "mobil__adventure-capitalist": {
   "studio": "Hyper Hippo",
   "year": "2014"
+ },
+ "mobil__trism": {
+  "studio": "Demiforce",
+  "year": "2008"
+ },
+ "mobil__rolando": {
+  "studio": "HandCircus",
+  "year": "2008"
+ },
+ "mobil__pocket-god": {
+  "studio": "Bolt Creative",
+  "year": "2009"
+ },
+ "mobil__flight-control": {
+  "studio": "Firemint",
+  "year": "2009"
+ },
+ "mobil__canabalt": {
+  "studio": "Semi Secret Software",
+  "year": "2009"
+ },
+ "mobil__real-racing": {
+  "studio": "Firemint",
+  "year": "2009"
+ },
+ "mobil__words-with-friends": {
+  "studio": "Zynga",
+  "year": "2009"
+ },
+ "mobil__zenonia": {
+  "studio": "Gamevil",
+  "year": "2009"
+ },
+ "mobil__robot-unicorn-attack": {
+  "studio": "[adult swim] games",
+  "year": "2010"
+ },
+ "mobil__secret-of-monkey-island-2-special-edition": {
+  "studio": "LucasArts",
+  "year": "2010"
+ },
+ "mobil__sonic-cd": {
+  "studio": "SEGA",
+  "year": "2011"
+ },
+ "mobil__tiny-tower": {
+  "studio": "NimbleBit",
+  "year": "2011"
+ },
+ "mobil__superbrothers-sword-and-sworcery-ep": {
+  "studio": "Capybara Games",
+  "year": "2011"
+ },
+ "mobil__battleheart": {
+  "studio": "Mika Mobile",
+  "year": "2011"
+ },
+ "mobil__dungeon-raid": {
+  "studio": "Fireflame Games",
+  "year": "2011"
+ },
+ "mobil__contre-jour": {
+  "studio": "Mokus Games",
+  "year": "2011"
+ },
+ "mobil__final-fantasy-tactics-war-of-lions": {
+  "studio": "Square Enix",
+  "year": "2011"
+ },
+ "mobil__another-world-20th-anniversary-edition": {
+  "studio": "DotEmu",
+  "year": "2012"
+ },
+ "mobil__bard-s-tale": {
+  "studio": "inXile Entertainment",
+  "year": "2012"
+ },
+ "mobil__draw-something": {
+  "studio": "OMGPOP",
+  "year": "2012"
+ },
+ "mobil__spaceteam": {
+  "studio": "Henry Smith",
+  "year": "2012"
+ },
+ "mobil__hill-climb-racing": {
+  "studio": "Fingersoft",
+  "year": "2012"
+ },
+ "mobil__pou": {
+  "studio": "Zakeh",
+  "year": "2012"
+ },
+ "mobil__10000000": {
+  "studio": "EightyEight Games",
+  "year": "2012"
+ },
+ "mobil__waking-mars": {
+  "studio": "Tiger Style",
+  "year": "2012"
+ },
+ "mobil__hundreds": {
+  "studio": "Semi Secret Software",
+  "year": "2013"
+ },
+ "mobil__flappy-bird": {
+  "studio": "dotGears",
+  "year": "2013"
+ },
+ "mobil__badland": {
+  "studio": "Frogmind",
+  "year": "2013"
+ },
+ "mobil__my-talking-tom": {
+  "studio": "Outfit7",
+  "year": "2013"
+ },
+ "mobil__zombie-tsunami": {
+  "studio": "Mobigame",
+  "year": "2013"
+ },
+ "mobil__trivia-crack": {
+  "studio": "Etermax",
+  "year": "2013"
+ },
+ "mobil__quizup": {
+  "studio": "Plain Vanilla",
+  "year": "2013"
+ },
+ "mobil__dumb-ways-to-die": {
+  "studio": "Metro Trains Melbourne",
+  "year": "2013"
+ },
+ "mobil__injustice-gods-among-us": {
+  "studio": "NetherRealm Studios",
+  "year": "2013"
+ },
+ "mobil__pixel-gun-3d": {
+  "studio": "Cubic Games",
+  "year": "2013"
+ },
+ "mobil__township": {
+  "studio": "Playrix",
+  "year": "2013"
+ },
+ "mobil__deus-ex-fall": {
+  "studio": "Eidos-Montréal",
+  "year": "2013"
+ },
+ "mobil__8-ball-pool": {
+  "studio": "Miniclip",
+  "year": "2013"
+ },
+ "mobil__leo-s-fortune": {
+  "studio": "1337 & Senri",
+  "year": "2014"
+ },
+ "mobil__best-fiends": {
+  "studio": "Seriously",
+  "year": "2014"
+ },
+ "mobil__wayward-souls": {
+  "studio": "Rocketcat Games",
+  "year": "2014"
+ },
+ "mobil__toy-blast": {
+  "studio": "Peak Games",
+  "year": "2015"
+ },
+ "mobil__agar-io": {
+  "studio": "Matheus Valadares",
+  "year": "2015"
+ },
+ "mobil__prune": {
+  "studio": "Joel McDonald",
+  "year": "2015"
+ },
+ "mobil__lumino-city": {
+  "studio": "State of Play",
+  "year": "2015"
+ },
+ "mobil__mortal-kombat-x": {
+  "studio": "NetherRealm Studios",
+  "year": "2015"
+ },
+ "mobil__marvel-future-fight": {
+  "studio": "Netmarble",
+  "year": "2015"
+ },
+ "mobil__hitman-sniper": {
+  "studio": "Square Enix Montréal",
+  "year": "2015"
+ },
+ "mobil__grand-theft-auto-liberty-city-stories": {
+  "studio": "Rockstar Games",
+  "year": "2015"
+ },
+ "mobil__coin-master": {
+  "studio": "Moon Active",
+  "year": "2015"
+ },
+ "mobil__slither-io": {
+  "studio": "Steve Howse",
+  "year": "2016"
+ },
+ "mobil__her-story": {
+  "studio": "Sam Barlow",
+  "year": "2016"
+ },
+ "mobil__lords-mobile": {
+  "studio": "IGG",
+  "year": "2016"
+ },
+ "mobil__gardenscapes": {
+  "studio": "Playrix",
+  "year": "2016"
+ },
+ "mobil__crashlands": {
+  "studio": "Butterscotch Shenanigans",
+  "year": "2016"
+ },
+ "mobil__titan-quest": {
+  "studio": "HandyGames",
+  "year": "2016"
+ },
+ "mobil__baldur-s-gate-ii-enhanced-edition": {
+  "studio": "Beamdog",
+  "year": "2016"
+ },
+ "mobil__fifa-mobile": {
+  "studio": "Electronic Arts",
+  "year": "2016"
+ },
+ "mobil__honkai-impact-3rd": {
+  "studio": "miHoYo",
+  "year": "2016"
+ },
+ "mobil__homescapes": {
+  "studio": "Playrix",
+  "year": "2017"
+ },
+ "mobil__toon-blast": {
+  "studio": "Peak Games",
+  "year": "2017"
+ },
+ "mobil__wordscapes": {
+  "studio": "PeopleFun",
+  "year": "2017"
+ },
+ "mobil__golf-clash": {
+  "studio": "Playdemic",
+  "year": "2017"
+ },
+ "mobil__efootball-pes": {
+  "studio": "Konami",
+  "year": "2017"
+ },
+ "mobil__empires-and-puzzles": {
+  "studio": "Small Giant Games",
+  "year": "2017"
+ },
+ "mobil__merge-dragons": {
+  "studio": "Gram Games",
+  "year": "2017"
+ },
+ "mobil__getting-over-it-with-bennett-foddy": {
+  "studio": "Bennett Foddy",
+  "year": "2017"
+ },
+ "mobil__grid-autosport": {
+  "studio": "Feral Interactive",
+  "year": "2017"
+ },
+ "mobil__rise-of-kingdoms": {
+  "studio": "Lilith Games",
+  "year": "2018"
+ },
+ "mobil__helix-jump": {
+  "studio": "Voodoo",
+  "year": "2018"
+ },
+ "mobil__old-school-runescape": {
+  "studio": "Jagex",
+  "year": "2018"
+ },
+ "mobil__gacha-life": {
+  "studio": "Lunime",
+  "year": "2018"
+ },
+ "mobil__donut-county": {
+  "studio": "Ben Esposito",
+  "year": "2018"
+ },
+ "mobil__dandara": {
+  "studio": "Long Hat House",
+  "year": "2018"
+ },
+ "mobil__what-golf": {
+  "studio": "Triband",
+  "year": "2019"
+ },
+ "mobil__grindstone": {
+  "studio": "Capybara Games",
+  "year": "2019"
+ },
+ "mobil__sneaky-sasquatch": {
+  "studio": "RAC7 Games",
+  "year": "2019"
+ },
+ "mobil__human-fall-flat": {
+  "studio": "Curve Digital",
+  "year": "2019"
+ },
+ "mobil__toca-life-world": {
+  "studio": "Toca Boca",
+  "year": "2020"
+ },
+ "mobil__kingdom-two-crowns": {
+  "studio": "Raw Fury",
+  "year": "2020"
+ },
+ "mobil__bloodstained-ritual-of-night": {
+  "studio": "ArtPlay",
+  "year": "2020"
+ },
+ "mobil__alien-isolation": {
+  "studio": "Feral Interactive",
+  "year": "2021"
+ },
+ "mobil__fantasian": {
+  "studio": "Mistwalker",
+  "year": "2021"
+ },
+ "mobil__stumble-guys": {
+  "studio": "Kitka Games",
+  "year": "2021"
+ },
+ "mobil__uma-musume-pretty-derby": {
+  "studio": "Cygames",
+  "year": "2021"
+ },
+ "mobil__royal-match": {
+  "studio": "Dream Games",
+  "year": "2021"
+ },
+ "mobil__pokemon-unite": {
+  "studio": "TiMi Studio Group",
+  "year": "2021"
+ },
+ "mobil__diablo-immortal": {
+  "studio": "Blizzard Entertainment",
+  "year": "2022"
+ },
+ "mobil__goddess-of-victory-nikke": {
+  "studio": "Shift Up",
+  "year": "2022"
+ },
+ "mobil__star-wars-knights-of-old-republic-ii": {
+  "studio": "Aspyr Media",
+  "year": "2022"
+ },
+ "mobil__monopoly-go": {
+  "studio": "Scopely",
+  "year": "2023"
+ },
+ "mobil__whiteout-survival": {
+  "studio": "Century Games",
+  "year": "2023"
+ },
+ "mobil__last-war-survival": {
+  "studio": "FirstFun",
+  "year": "2023"
+ },
+ "mobil__sonic-mania-plus": {
+  "studio": "SEGA",
+  "year": "2023"
+ },
+ "mobil__resident-evil-village": {
+  "studio": "Capcom",
+  "year": "2023"
+ },
+ "mobil__hades": {
+  "studio": "Supergiant Games",
+  "year": "2024"
+ },
+ "mobil__wuthering-waves": {
+  "studio": "Kuro Games",
+  "year": "2024"
+ },
+ "mobil__zenless-zone-zero": {
+  "studio": "HoYoverse",
+  "year": "2024"
+ },
+ "mobil__call-of-duty-warzone-mobile": {
+  "studio": "Activision",
+  "year": "2024"
+ },
+ "mobil__squad-busters": {
+  "studio": "Supercell",
+  "year": "2024"
  }
 }
