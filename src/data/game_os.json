@@ -1,0 +1,23 @@
+{
+ "_comment": "Na ktere z dvojice iOS/Android hra opravdu vysla. Uvadi se jen VYJIMKY — u platformy 'mobil' je vychozi stav obojí, protoze drtiva vetsina titulu vysla soucasne. Overeno z dokumentace vydavatelu a herniho tisku, ne odhadem; kdyz mobilni vydani doloz\u00edt nejde, hra do katalogu nepatri.",
+ "mobil__trism": ["iOS"],
+ "mobil__rolando": ["iOS"],
+ "mobil__tiny-wings": ["iOS"],
+ "mobil__infinity-blade": ["iOS"],
+ "mobil__infinity-blade-ii": ["iOS"],
+ "mobil__infinity-blade-iii": ["iOS"],
+ "mobil__device-6": ["iOS"],
+ "mobil__year-walk": ["iOS"],
+ "mobil__transistor": ["iOS"],
+ "mobil__sayonara-wild-hearts": ["iOS"],
+ "mobil__mini-motorways": ["iOS"],
+ "mobil__grindstone": ["iOS"],
+ "mobil__sneaky-sasquatch": ["iOS"],
+ "mobil__fantasian": ["iOS"],
+ "mobil__oceanhorn-2-knights-of-lost-realm": ["iOS"],
+ "mobil__hades": ["iOS"],
+ "mobil__resident-evil-4": ["iOS"],
+ "mobil__resident-evil-village": ["iOS"],
+ "mobil__assassin-s-creed-mirage": ["iOS"],
+ "mobil__death-stranding": ["iOS"]
+}

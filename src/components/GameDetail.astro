@@ -103,6 +103,7 @@ const posText = {
       <div class="facts">
         {game.genre && <span class="tag tag-genre" style={`--c1:${platform.color}`}>{game.genre}</span>}
         {game.year && <span class="tag">{game.year}</span>}
+        {game.os?.map((o) => <span class="tag tag-os">{o}</span>)}
         {game.studio && (studioLink(game.studio)
           ? <a class="tag tag-studio" href={lp(`/studia/${studioLink(game.studio)}`)}>{game.studio}</a>
           : <span class="tag">{game.studio}</span>)}
@@ -289,6 +290,7 @@ const posText = {
   h1 { font-size: clamp(1.8rem, 5vw, 2.7rem); margin-block: 12px 16px; }
   .facts { display: flex; flex-wrap: wrap; gap: 8px; }
   .tag-genre { color: color-mix(in srgb, var(--c1) 70%, var(--text)); border-color: color-mix(in srgb, var(--c1) 40%, var(--border)); }
+  .tag-os { color: #9fd8ff; border-color: color-mix(in srgb, #9fd8ff 40%, var(--border)); }
   .tag-players { color: var(--accent-2, #6ee7c7); border-color: color-mix(in srgb, var(--accent-2, #6ee7c7) 40%, var(--border)); }
   .tag-rating { color: #d8b4fe; border-color: color-mix(in srgb, #d8b4fe 40%, var(--border)); }
   .tag-studio { color: color-mix(in srgb, var(--accent) 75%, var(--text)); border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); }

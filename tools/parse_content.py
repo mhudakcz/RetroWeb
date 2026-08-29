@@ -577,6 +577,12 @@ def build():
     game_play = json.loads(play_file.read_text(encoding="utf-8")) if play_file.exists() else {}
     players_file = ROOT / "src" / "data" / "game_players.json"
     game_players = json.loads(players_file.read_text(encoding="utf-8")) if players_file.exists() else {}
+    os_file = ROOT / "src" / "data" / "game_os.json"
+    # Na mobilu je "platforma" ve skutecnosti dvojice obchodu. Vetsina her vysla
+    # na obou, takze se uvadeji jen vyjimky a zbytek dostane obojí.
+    game_os = {k: v for k, v in
+               (json.loads(os_file.read_text(encoding="utf-8")) if os_file.exists() else {}).items()
+               if not k.startswith("_")}
     meta_file = ROOT / "src" / "data" / "game_meta.json"
     game_meta = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
     # dogenerované teasery (slug -> věta); použijí se jen tam, kde ho podklady nemají,
@@ -722,6 +728,7 @@ def build():
                 link=game_links.get(gslug),
                 playUrl=game_play.get(gslug),
                 players=game_players.get(gslug),
+                os=(game_os.get(gslug) or ["iOS", "Android"]) if slug == "mobil" else None,
                 rating=game_ratings.get(gslug),
             ))
             total_games += 1

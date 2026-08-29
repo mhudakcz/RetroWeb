@@ -25,6 +25,8 @@ export interface Game {
   link: string | null;
   playUrl: string | null;
   players: string | null;
+  /** Obchody, ve kterych hra na mobilu opravdu vysla. Jinde nez na 'mobil' null. */
+  os?: string[] | null;
   rating: string | null;
   /** Pole, ktera v teto jazykove mutaci jeste nejsou prelozena a ukazuji cesky
    *  original. V ceske mutaci je pole vzdy prazdne. */
