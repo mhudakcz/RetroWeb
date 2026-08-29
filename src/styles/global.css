@@ -429,10 +429,20 @@ h3 {
 .sr-meta { flex: none; font-size: 0.72rem; color: var(--muted); }
 .sr-empty { margin: 0; padding: 10px; font-size: 0.88rem; color: var(--muted); }
 
-/* Na uzkych displejich by pole vytlacilo navigaci; schova se pod pruh. */
-@media (max-width: 900px) {
-  /* Hledani je na uzkych displejich schovane. V lite by zabralo cely radek,
-     hlavicka by zdvojnasobila vysku a pole se pretahovalo pres hero. */
-  .search { display: none; }
+/* Hledani se schovava az na opravdu uzkem displeji.
+   Drive bylo pryc uz od 900 px, protoze v lite soupeřilo s vodorovnou
+   navigaci. Ta se ale ted sklada do hamburgeru uz od 1200 px a s ni mizi
+   i prepinace jazyka a rezimu, takze v lite zustava logo, pole a hamburger —
+   a to se vejde hluboko pod 500 px. */
+@media (max-width: 620px) {
+  /* Na mobilu se z prepinace jazyka necha jen vlajecka — nazev jazyka bere
+     115 px, ktere jsou pro vyhledavaci pole potrebnejsi. Po rozkliknuti je
+     v nabidce nazev videt cely. */
+  .lang-dd > summary .name { display: none; }
+  .lang-dd > summary .chev { margin-left: 2px; }
+}
+@media (max-width: 1200px) {
+  /* v uzsi lite uz pole nemusi byt tak siroke */
+  .search { min-width: 0; flex: 1 1 auto; max-width: 260px; }
 }
 

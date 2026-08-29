@@ -484,7 +484,9 @@ const NAV: [string, string][] = [
       margin-right: 6px;
     }
   }
-  @media (max-width: 380px) {
+  /* Na mobilu zustava jen znacka loga — napis RetroWeb bere 100 px, ktere
+     potrebuje vyhledavaci pole. Znacka odkazuje na uvod stejne dobre. */
+  @media (max-width: 520px) {
     .logo-text {
       display: none;
     }
