@@ -16497,5 +16497,125 @@
  "mobil__squad-busters": {
   "studio": "Supercell",
   "year": "2024"
+ },
+ "pc-modern__hearts-of-iron-ii": {
+  "studio": "Paradox Development Studio",
+  "year": "2005"
+ },
+ "pc-modern__hearts-of-iron-iii": {
+  "studio": "Paradox Development Studio",
+  "year": "2009"
+ },
+ "pc-modern__hearts-of-iron-iv": {
+  "studio": "Paradox Development Studio",
+  "year": "2016"
+ },
+ "pc-modern__europa-universalis-ii": {
+  "studio": "Paradox Development Studio",
+  "year": "2001"
+ },
+ "pc-modern__europa-universalis-iii": {
+  "studio": "Paradox Development Studio",
+  "year": "2007"
+ },
+ "pc-modern__crusader-kings-ii": {
+  "studio": "Paradox Development Studio",
+  "year": "2012"
+ },
+ "pc-modern__victoria-ii": {
+  "studio": "Paradox Development Studio",
+  "year": "2010"
+ },
+ "pc-modern__victoria-3": {
+  "studio": "Paradox Development Studio",
+  "year": "2022"
+ },
+ "pc-dos__sid-meier-s-civilization": {
+  "studio": "MicroProse",
+  "year": "1991"
+ },
+ "pc-modern__sid-meier-s-civilization-iii": {
+  "studio": "Firaxis Games",
+  "year": "2001"
+ },
+ "pc-modern__sid-meier-s-civilization-v": {
+  "studio": "Firaxis Games",
+  "year": "2010"
+ },
+ "pc-modern__sid-meier-s-civilization-vi": {
+  "studio": "Firaxis Games",
+  "year": "2016"
+ },
+ "pc-dos__simcity": {
+  "studio": "Maxis",
+  "year": "1989"
+ },
+ "pc-9x__simcity-3000": {
+  "studio": "Maxis",
+  "year": "1999"
+ },
+ "pc-modern__simcity-4": {
+  "studio": "Maxis",
+  "year": "2003"
+ },
+ "pc-modern__simcity": {
+  "studio": "Maxis",
+  "year": "2013"
+ },
+ "pc-modern__cities-skylines": {
+  "studio": "Colossal Order",
+  "year": "2015"
+ },
+ "pc-modern__cities-skylines-ii": {
+  "studio": "Colossal Order",
+  "year": "2023"
+ },
+ "pc-modern__tropico-4": {
+  "studio": "Haemimont Games",
+  "year": "2011"
+ },
+ "pc-modern__tropico-6": {
+  "studio": "Limbic Entertainment",
+  "year": "2019"
+ },
+ "pc-9x__medieval-total-war": {
+  "studio": "The Creative Assembly",
+  "year": "2002"
+ },
+ "pc-modern__rome-total-war": {
+  "studio": "The Creative Assembly",
+  "year": "2004"
+ },
+ "pc-modern__medieval-ii-total-war": {
+  "studio": "The Creative Assembly",
+  "year": "2006"
+ },
+ "pc-modern__total-war-shogun-2": {
+  "studio": "The Creative Assembly",
+  "year": "2011"
+ },
+ "pc-modern__total-war-warhammer-ii": {
+  "studio": "The Creative Assembly",
+  "year": "2017"
+ },
+ "pc-modern__total-war-three-kingdoms": {
+  "studio": "The Creative Assembly",
+  "year": "2019"
+ },
+ "ps3__silent-hill-homecoming": {
+  "studio": "Double Helix Games",
+  "year": "2008"
+ },
+ "ps3__silent-hill-downpour": {
+  "studio": "Vatra Games",
+  "year": "2012"
+ },
+ "ps3__silent-hill-hd-collection": {
+  "studio": "Hijinx Studios",
+  "year": "2012"
+ },
+ "ps5__silent-hill-f": {
+  "studio": "NeoBards Entertainment",
+  "year": "2025"
  }
 }

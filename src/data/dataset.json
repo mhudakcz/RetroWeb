@@ -71296,7 +71296,7 @@
       "image": "/images/platforms/ps3.webp",
       "photoBg": "dark",
       "history": "Když Sony v listopadu 2006 v Japonsku a Severní Americe (a o rok později, v březnu 2007, i v Evropě) uvedlo PlayStation 3, navazovalo na úspěch předchůdce s pocitem, že si může dovolit téměř cokoliv. Výsledkem byl stroj plný odvážných rozhodnutí — vlastní exotický procesor, vestavěná Blu-ray mechanika, bezplatná online síť — ale i vysoká cena, která z PS3 udělala nejdražší konzoli generace. Základní model stál v USA 499 dolarů, výbavnější verze 599, a Sony na každém kusu dlouho prodělávalo. Vysoká cena spolu s nepřístupnou architekturou zajistily PS3 pomalý start, Xbox 360 měl náskok téměř rok. Přesto se PS3 nakonec vypracovalo v jednu z nejúspěšnějších konzolí historie s bohatou knihovnou exkluzivit.\n\n### Technika: Cell a grafika\n\nSrdcem PlayStationu 3 byl procesor **Cell Broadband Engine**, vyvinutý ve spolupráci Sony, Toshiby a IBM. Šlo o radikálně odlišnou architekturu: jedno hlavní jádro **PPE** na bázi PowerPC doplňovalo osm vedlejších jednotek **SPE (Synergistic Processing Elements)** pro masivně paralelní výpočty. Teoreticky obrovský výkon, prakticky ale Cell kladl na vývojáře nezvyklé nároky — kód bylo nutné ručně rozdělovat mezi jednotky, a řada raných multiplatformních her proto na PS3 běžela hůř než na Xboxu 360.\n\nO grafiku se staral čip **RSX** od Nvidie, odvozený od řady GeForce 7, s 256 MB vlastní paměti. Komunikoval s Cellem přes rychlou sběrnici a společně dokázaly generovat scény v rozlišení až 1080p — jedna z prvních konzolí s plnou podporou HD. Zvládnout kombinaci obou architektur vyžadovalo čas, a tak se výpravné tituly jako **Uncharted 2**, **The Last of Us** či **God of War III** objevily až později.\n\n### Blu-ray a multimédia\n\nJedním z nejvýznamnějších tahů Sony bylo vestavění mechaniky **Blu-ray Disc** do každé konzole. PS3 se tak stala nejlevnějším Blu-ray přehrávačem na trhu a nevědomky sehrála roli ve **válce formátů proti HD DVD** — díky obrovské instalované základně PlayStationů podpořila Sony svůj formát a konkurenční HD DVD (podporované mimo jiné Microsoftem) v roce 2008 z trhu zmizelo. Blu-ray zároveň vyřešilo praktický problém: hry pro PS3 zabíraly desítky gigabajtů, na což by DVD nestačilo. Konzole navíc přehrávala hudbu, fotografie a video a sloužila jako mediální centrum obývacího pokoje.\n\n### PlayStation Network a online\n\nPS3 přinesla i **PlayStation Network (PSN)** — službu, kterou Sony na rozdíl od Xbox Live nabízelo pro online hraní **zdarma**. To byl silný argument pro řadu hráčů, i když PSN dlouho zaostávalo za konkurencí v pohodlí a stabilitě (nejbolestivější byl bezpečnostní incident z roku 2011, kdy síť byla na týdny odstavena). Postupem času se rozrostlo o předplatné **PlayStation Plus** a digitální obchod a stalo se základem pro další generace konzolí.\n\n### Modely a revize (fat, Slim, Super Slim)\n\nPrvní generace, dnes přezdívaná **'fat' PS3**, přišla ve verzích podle kapacity disku — nejdražší modely měly zpětnou kompatibilitu s PlayStationem 2, zprvu hardwarovou, později jen softwarovou, u levnějších modelů nakonec zcela vypuštěnou. V roce 2009 přišla menší, tišší **PS3 Slim** se sníženou spotřebou i cenou, v roce 2012 ji doplnila kompaktnější **PS3 Super Slim** s posuvným krytem mechaniky. Redesigny pomohly Sony snížit náklady natolik, že se z prodělečného hardwaru stal výdělečný produkt.\n\n### Význam a odkaz\n\nI přes pomalý start se PlayStation 3 nakonec prodalo přibližně **87 milionů kusů** a stalo se domovem her, které dodnes patří k nejvýznamnějším v historii média — od **Metal Gear Solid 4** a **Demon's Souls**, jenž položil základ žánru soulslike, přes **Journey** a **Heavy Rain** až po vrcholná díla studia Naughty Dog. Náročná architektura Cellu sice PS3 zpomalila na startu, ale zároveň donutila vývojáře hledat nečekaně efektivní řešení. Výroba skončila postupně mezi lety 2015 a 2017. Dnes je PS3 pro emulaci jedním z nejnáročnějších cílů vůbec — kombinace Cellu a RSX se napodobuje jen s obtížemi (projekt RPCS3 přesto dělá pozoruhodné pokroky), takže pro řadu hráčů zůstává originál nejspolehlivější cestou, jak si klasiku zahrát.",
-      "gameCount": 192,
+      "gameCount": 195,
       "games": [
         {
           "slug": "ps3__uncharted-drake-s-fortune",
@@ -77040,7 +77040,7 @@
           "year": "2008",
           "studio": "Insomniac Games",
           "est": null,
-          "teaser": null,
+          "teaser": "Kampaň vede zpustošenou Amerikou; obří bossové dávají hře nebývalé měřítko.",
           "detail": null,
           "article": "**Resistance 2** navazuje na úvodní díl trilogie a posouvá alternativní historii invaze mimozemských Chimer do ještě epičtějších rozměrů. Hráč se znovu ujímá vojáka Nathana Halea, jehož tělo je nakaženo chimerským virem a postupně se z něj stává něco mezi člověkem a nepřítelem, kterého bojuje. Kampaň tentokrát opouští Evropu a vede přes zdevastovaná americká města od San Franciska po Chicago, kde se hráč postupně dozvídá, jak katastrofálně invaze zasáhla Spojené státy a jak zoufalá je obrana zbytků lidstva. Proti hráči se staví i obří bossové, kteří v sérii dodávají pocit skutečné hrozby a měřítka, jaké tehdejší střílečky málokdy nabízely, a souboje s nimi patří k nejpamátnějším momentům hry.\n\nHratelnost stojí na klasickém FPS základu obohaceném o omezenější výběr zbraní najednou, což tlačí hráče k taktičtějšímu rozhodování než v otevřenější jedničce. Výzbroj kombinuje pozemské zbraně s podivnými chimerskými technologiemi, které umožňují netradiční způsoby likvidace nepřátel, například střelbu za roh nebo zpomalení času. Velký důraz byl kladen na kooperativní režim pro osm hráčů se samostatnou kampaní odehrávající se paralelně s hlavním příběhem a na rozsáhlý online multiplayer pro až šedesát hráčů, což byl na konzole v té době nezvyklý rozsah a ukazoval, kam se síťové hraní na PS3 mohlo posouvat. Insomniac Games využili výkon konzole k vykreslení rozlehlých bojišť a masových soubojů s mnoha nepřáteli na obrazovce najednou, aniž by hra ztrácela plynulost.\n\nAtmosféra hry těží z ponuré vize okupované Ameriky a industriální, tíživé hudby podtrhující beznaděj odboje proti přesile, zatímco vizuální stránka střídá zničená velkoměsta s temnými podzemními komplexy. Dobové ohlasy oceňovaly především bossfighty, rozmanitost prostředí a multiplayerovou složku, byť někteří hráči jedničky postrádali sdílenou obrazovku kooperace, kterou dvojka nahradila výhradně online formou. V kontextu žánru šlo o jednu z ambicióznějších konzolových střílek dané generace, která ukázala, že i exkluzivní konzolová série dokáže soupeřit rozsahem s velkými multiplatformními hity. Dodnes se na ni vzpomíná jako na technicky i obsahově solidní pokračování, které umělo pracovat s velkým měřítkem svého světa a nabídnout hráčům pestrou směs akce, atmosféry a týmové spolupráce.",
           "image": null,
@@ -77060,7 +77060,7 @@
           "year": "2006",
           "studio": "FromSoftware",
           "est": null,
-          "teaser": null,
+          "teaser": "Restart mechové série pro novou generaci konzolí; pilotujete pokročilý stroj Next.",
           "detail": null,
           "article": "**Armored Core 4** znamenal restart dlouholeté série mechanizovaných bojových simulátorů od studia FromSoftware pro novou generaci konzolí. Hra zasazuje hráče do role pilota takzvaného Next, vysoce pokročilého bojového mecha, a nechává ho procházet příběhem odehrávajícím se v éře, kdy se svět zotavuje z rozsáhlého konfliktu a moc drží nadnárodní korporace řídící obří létající pevnosti zvané Cradly. Konflikt mezi těmito korporacemi a odbojovými silami tvoří pozadí pro sérii misí, v nichž hráč postupně stoupá mezi elitní piloty a odhaluje politické pletichy stojící za válkou.\n\nOproti starším dílům série se čtvrtý Armored Core zaměřil na rychlejší a vzdušnější boj – mechy dokážou déle a plynuleji létat pomocí boosteru, což zásadně mění taktiku soubojů a dává hře svižnější, arkádovější tempo než předchozí, více pozemně orientované díly. Hráč si stále detailně sestavuje vlastního robota z desítek dílů ovlivňujících váhu, rychlost, pancéřování i výzbroj, přičemž je nutné hlídat rovnováhu mezi silou zbraní a pohyblivostí stroje, a právě tato hloubka customizace zůstává jádrem série i v tomto restartu. Grafický engine využil výkon PS3 k vykreslení rozlehlých arén, zničených měst a velkolepých soubojů s obřími bossy, kteří testují jak reflexy, tak promyšlenost hráčovy sestavy.\n\nHudební doprovod a zvuková stránka podtrhují industriální, mechanickou atmosféru bitev, zatímco příběh je vyprávěn spíše útržkovitě a strohým textem doplněným briefingy, což je pro sérii typické a ponechává větší prostor fantazii hráče. Dobové přijetí bylo smíšené až pozitivní – ocenění sklidila rychlost a akčnost soubojů i odvaha přepracovat zavedený vzorec série, kritice naopak čelila strmá obtížnost, nepřehlednost pro nováčky a poměrně krátká kampaň. Pro fanoušky mecha žánru šlo o důležitý restart, který připravil půdu pro další díly série na PS3 a dodnes se řadí mezi respektované, byť náročnější tituly žánru zaměřeného na budování a pilotování vlastního bojového stroje.",
           "image": null,
@@ -77080,9 +77080,75 @@
           "year": "2012",
           "studio": "FromSoftware",
           "est": null,
-          "teaser": null,
+          "teaser": "Nejambicióznější díl mechové série, s důrazem na online souboje o území.",
           "detail": null,
           "article": "**Armored Core V** je pátý číslovaný díl mechové série od FromSoftware a v mnoha ohledech nejambicióznější pokus přiblížit sérii širšímu publiku a modernímu online hraní. Hráč opět usedá do kokpitu válečného mecha zvaného Armored Core a bojuje jménem jedné z frakcí ve světě zdevastovaném dřívějším konfliktem, kde jednotlivé korporace, žoldnéřské jednotky a odbojové skupiny soupeří o kontrolu nad zbývajícími zdroji a územím na povrchu i pod ním, kam se lidstvo částečně stáhlo po předchozí katastrofě.\n\nOproti předchozím dílům přinesla hra výraznější důraz na týmovou spolupráci a taktiku – ve hře se objevil systém velení, kdy hráč může vydávat rozkazy spolubojovníkům ovládaným umělou inteligencí nebo jinými hráči, a mise často vyžadují obsazování a obranu kontrolních bodů spíše než čistě přímočaré akční průchody jako ve starších dílech. Customizace mechů zůstala stejně hluboká jako dřív, s rozsáhlou nabídkou dílů ovlivňujících výzbroj, pohyblivost i obranu a s možností jemně ladit každý aspekt stroje, a hra kladla větší důraz na kooperativní a soutěžní multiplayer, který se stal jedním z hlavních pilířů obsahu včetně rozsáhlého teamového režimu s dobýváním základen mimo hlavní kampaň.\n\nTechnicky hra na PS3 nabídla detailnější prostředí a propracovanější efekty explozí a poškození než starší díly, i když engine série byl i v této době stále poznat po svém osobitém, technickém a záměrně těžkopádnějším ovládání, které si série tradičně drží a které od hráčů vyžaduje trpělivost a nácvik. Atmosféra zůstává temná a válečná, s elektronickou a industriální hudbou doprovázející bitvy a s minimalistickým vyprávěním příběhu skrze textové zprávy a briefingy. Dobové ohlasy oceňovaly ambici v posunu k taktičtějšímu a týmovému hraní i propracovanost multiplayerových režimů, zároveň ale poukazovaly na to, že se hra vzdálila některým tradičním prvkům série a jednohráčská kampaň působila oproti online složce jako vedlejší. Pro hráče se zájmem o mechy a taktické akční souboje jde o zajímavý, byť polarizující díl s vlastní identitou v rámci celé série, který experimentoval se směrem, jímž se série mohla ubírat.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "ps3__silent-hill-homecoming",
+          "name": "Silent Hill: Homecoming",
+          "genre": "Survival horor",
+          "length": "M",
+          "flags": [
+            "mature"
+          ],
+          "year": "2008",
+          "studio": "Double Helix Games",
+          "est": null,
+          "teaser": "Survival horor s vojákem, který se vrací domů a pátrá po zmizelém bratrovi.",
+          "detail": null,
+          "article": "**Silent Hill: Homecoming** vypráví o vojákovi Alexi Shepherdovi, který se po zranění vrací domů do fiktivního amerického městečka Shepherd's Glen a zjišťuje, že jeho mladší bratr beze stopy zmizel. Hledání ho zavede přes mlhou zahalené ulice až do paralelního, temného Silent Hillu, kde se realita rozpadá a mění se v noční můru plnou pokřivených monster a rezavých industriálních prostor. Hra klade důraz na osobní, rodinné drama, které se postupně odhaluje formou vzpomínek a fragmentů, typicky pro celou sérii.\n\nHomecoming vyvíjelo americké studio Double Helix Games, takže šlo o jeden z prvních dílů série svěřených primárně západnímu vývojáři, a bylo to znát – soubojový systém je akčnější a plynulejší než u předchozích japonských dílů, s možností úhybů a kombinovaných útoků, ale zároveň ubylo pomalého, tíživého tempa, které fanoušci na sérii milovali. Vizuálně hra sází na temné, deštěm zbrocené interiéry a groteskní design nepřátel a atmosféra zůstává hutná i přes rychlejší akci.\n\nKritika i fanoušci přijali Homecoming rozporuplně: soubojový systém chválili, ale vytýkali hře menší otevřenost, kratší herní dobu a příběh, který místy sklouzává k jednoduššímu hororu typu jump-scare na úkor psychologické hloubky předchozích dílů. Přesto zůstává respektovaným pokusem o modernizaci série pro generaci konzolí PlayStation 3 a Xbox 360.\n\n**Proč hrát:** Pro fanoušky akčnějšího survival hororu, kteří ocení plynulejší souboje než u starších dílů Silent Hill, ale nečekají psychologickou hloubku původní trilogie.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "ps3__silent-hill-downpour",
+          "name": "Silent Hill: Downpour",
+          "genre": "Survival horor",
+          "length": "M",
+          "flags": [
+            "mature"
+          ],
+          "year": "2012",
+          "studio": "Vatra Games",
+          "est": null,
+          "teaser": "Survival horor s uprchlým vězněm; déšť signalizuje přechod do temnějšího světa.",
+          "detail": null,
+          "article": "**Silent Hill: Downpour** staví do hlavní role uprchlého vězně Murphyho Pendletona, kterého po havárii transportu vyplivne temný les kdesi u městečka Silent Hill. Otevřenější, částečně sandboxové prostředí umožňuje procházet ulice v libovolném pořadí, plnit vedlejší úkoly a narážet na útržky Murphyho minulosti, které postupně odhalují, proč skončil ve vězení a čeho lituje. Klíčovým herním prvkem je déšť – jakmile začne pršet, město se promění, ulice se bortí a na hráče útočí agresivnější varianta nepřátel, což hru odlišuje od lineárnějších předchůdců.\n\nVývoje se ujalo brněnské studio Vatra Games, pro které šlo o první velký zahraniční projekt, a hra tak nese punc menšího týmu, který se snažil vrátit sérii blíž k pomalejšímu, průzkumnému tempu prvních dílů. Soubojový systém je záměrně nemotorný a zbraně se rychle ničí, takže hra hráče spíš tlačí k útěku než k boji, což odpovídá duchu klasického Silent Hillu. Zvuková stránka a ponurá městská atmosféra patří k tomu nejsilnějšímu, co Downpour nabízí.\n\nTechnicky hra trpěla dobovými problémy s výkonem a propady snímkové frekvence, které recenzenti kritizovali, přestože oceňovali odvahu vrátit se k pomalejšímu tempu a otevřenější struktuře. Mezi fanoušky série má Downpour dodnes rozporuplnou pověst – pro jedny je to nedoceněný návrat ke kořenům, pro druhé technicky nedotažený díl.\n\n**Proč hrát:** Pro hráče, kteří dají přednost průzkumu a atmosféře před akcí a odpustí technické neduhy výměnou za návrat k pomalejšímu tempu klasického Silent Hillu.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "ps3__silent-hill-hd-collection",
+          "name": "Silent Hill HD Collection",
+          "genre": "Survival horor",
+          "length": "L",
+          "flags": [
+            "mature"
+          ],
+          "year": "2012",
+          "studio": "Hijinx Studios",
+          "est": null,
+          "teaser": "Remasterovaná kolekce dílů Silent Hill 2 a 3 pro jednu generaci konzolí.",
+          "detail": null,
+          "article": "**Silent Hill HD Collection** spojuje do jednoho balíčku remasterované verze druhého a třetího dílu série, tedy Silent Hill 2 a Silent Hill 3, které řada hráčů i kritiků považuje za vrchol celé značky. Cílem kolekce bylo zpřístupnit oba tituly nové generaci hráčů na PlayStation 3 v aktualizovaném rozlišení, s přepracovaným osvětlením a drobnými úpravami ovládání, aniž by se sáhlo do samotné struktury příběhu nebo hádanek.\n\nNa rozdíl od podobných remasterů jiných sérií se ale kolekce nesetkala s vřelým přijetím. Za převod nebylo zodpovědné původní japonské studio, nýbrž externí tým, který během úprav přišel o část zdrojových souborů a hru musel částečně rekonstruovat – výsledkem byly chybějící zvukové efekty, upravená hudba oproti originálu a znatelně horší mlžné efekty, které byly pro atmosféru obou dílů klíčové. Fanoušci tak kolekci vytýkali, že namísto věrného remasteru nabízí spíš zhoršenou verzi ikonických her.\n\nPřesto zůstává HD Collection pro řadu hráčů jediným pohodlným způsobem, jak si na konzoli PlayStation 3 zahrát oba díly pohromadě, a i s technickými nedostatky nabízí jádro toho, co dělá Silent Hill 2 a 3 klasikou žánru – psychologicky hutné příběhy, ikonické nepřátele a hudbu, jejíž atmosféra funguje i přes zhoršenou kvalitu zvuku.\n\n**Proč hrát:** Pro hráče bez přístupu k originálům z PS2, kteří chtějí zažít Silent Hill 2 a 3 na jedné konzoli a smíří se s tím, že zvuková a vizuální stránka je oproti originálu znatelně slabší.",
           "image": null,
           "gallery": [],
           "link": null,
@@ -82731,7 +82797,7 @@
       "image": "/images/platforms/ps5.webp",
       "photoBg": "dark",
       "history": "Když v listopadu 2020 dorazila na trh **PlayStation 5**, přišla do světa, který zrovna neměl náladu na oslavy. Pandemie uzavřela obchody, výrobní linky vázly a nová konzole Sony se pro velkou část hráčů stala spíš předmětem lovu než běžného nákupu. Přesto — nebo právě proto — se PS5 zapsala jako jeden z nejočekávanějších hardwarových startů v historii herního průmyslu. Rozměrný bílo-černý stroj s výraznými křivkami rozděloval názory na první pohled, ale to, co uměl uvnitř, bylo mnohem zajímavější než jeho design.\n\nSony tentokrát nepřicházelo s revolucí v architektuře, jak to udělalo u PlayStationu 3. Naopak — pokračovalo v osvědčené cestě nastolené s PS4 a postavilo konzoli na **standardním x86-64 hardwaru od AMD**. Skutečná novinka ležela jinde: v úložišti. Extrémně rychlé **vlastní SSD** nebylo jen marketingovým číslem, ale prvkem, který změnil samotný návrh her — konec dlouhých nahrávacích obrazovek, konec skrytých \"výtahů\" a chodeb, které měly maskovat načítání dat.\n\nPS5 je zároveň jedinou platformou v tomto přehledu, která **není retro**. Je to aktuální generace, stroj, který se dnes běžně prodává a na němž vycházejí nové hry. Do soupisu ji zařazujeme kvůli úplnosti obrazu — jako poslední článek dlouhé řady, která začala šedou krabicí s CD mechanikou v roce 1994.\n\n### Technika: grafika a zvuk\n\nZákladem PS5 je **osmijádrový procesor AMD architektury Zen 2** doplněný grafickým jádrem **RDNA 2**. Obojí vychází z technologií, které AMD v téže době nasazovalo do počítačů, což znovu potvrdilo strategii \"hardware blízký PC, snadné portování\". Grafika poprvé v historii konzolí Sony zvládá **hardwarově akcelerovaný ray tracing** — výpočet odrazů, stínů a osvětlení sledováním paprsků, který dřív patřil výhradně do světa filmové produkce a drahých pracovních stanic.\n\nKlíčovou zbraní je ale zmiňované **SSD s vlastním řadičem** a dedikovanou jednotkou pro dekompresi dat. Ta odlehčuje procesoru a umožňuje proudit obsah do paměti tempem, které klasické konzolové pevné disky nikdy nenabídly. Vývojáři díky tomu mohli navrhovat světy s okamžitými přechody mezi lokacemi a s podstatně detailnějšími texturami. Ukázkovým příkladem, na němž šlo přínos poznat na první pohled, byl **Ratchet & Clank: Rift Apart**.\n\nKe zvuku přistoupilo Sony s vlastním řešením prostorového audia, které se snaží umístit zdroje zvuku do trojrozměrného prostoru kolem hráče i na běžných sluchátkách. Na obrazové straně konzole počítá s **4K rozlišením**, vyšší snímkovou frekvencí a **HDR**, přičemž řada her nabízí volbu mezi režimem s důrazem na kvalitu a režimem s důrazem na plynulost.\n\n### DualSense a periferie\n\nNejvětší překvapení PS5 se ale skrývalo v ovladači. **DualSense** opustil dvacet let starý název DualShock a s ním i klasické dunivé vibrace. Nahradila je **haptická odezva**, která dokáže simulovat překvapivě jemné vjemy — zrnitý písek pod nohama, kapky deště, cvaknutí mechanismu. K tomu přibyly **adaptivní spouště**, jež kladou proměnlivý odpor: napínání tětivy, zadrhávající se zbraň nebo tuhá brzda se najednou daly cítit v prstech.\n\nPředinstalovaná hra **Astro's Playroom** sloužila jako působivá ukázka obojího a pro mnoho hráčů zůstala nejlepší demonstrací toho, co ovladač umí. Ke konzoli se později připojil i headset **PlayStation VR2**, který navázal na virtuální realitu z éry PS4, tentokrát s vlastním sledováním pohybu bez nutnosti externí kamery.\n\n### Modely a revize\n\nSouběžně s klasickým modelem uvedlo Sony i **Digital Edition** — variantu **bez optické mechaniky**, levnější, ale odkázanou výhradně na digitální nákupy. Volba mezi diskovou a čistě digitální verzí se tak stala běžnou součástí rozhodování při koupi.\n\nPozději dorazila **Slim** revize s menší a lehčí skříní a s možností mechaniku k základnímu tělu připojit dodatečně, a nakonec i výkonnější **PS5 Pro** pro hráče, kteří chtěli z konzole vytáhnout maximum obrazové kvality. Stejně jako u PS4 Pro platí, že hry zůstávají kompatibilní napříč modely — Pro nabízí lepší obraz, ne jinou knihovnu.\n\n### PSN, zpětná kompatibilita a hry\n\nPS5 je **zpětně kompatibilní s PlayStationem 4**. Naprostá většina her z předchozí generace na ní běží, často s vyšší plynulostí a stabilnějším obrazem, a přenést lze i uložené pozice. Pro majitele velkých knihoven šlo o zásadní argument — přechod na novou konzoli neznamenal začínat od nuly.\n\nKatalog PS5 se opíral o silné jednohráčové značky: remake **Demon's Souls**, **Marvel's Spider-Man: Miles Morales**, **Returnal**, **Horizon Forbidden West** nebo **God of War Ragnarök**. Předplatné **PlayStation Plus** se mezitím rozvětvilo do několika úrovní, z nichž ty vyšší nabízejí katalog stažitelných i streamovaných her včetně starších titulů ze zpětného katalogu Sony.\n\nPrvních zhruba dva roky ale platforma bojovala s něčím jiným než s konkurencí: **s nedostatkem kusů**. Celosvětový nedostatek čipů srazil výrobu, konzole mizely z e-shopů během vteřin a překupníci je přeprodávali s vysokou přirážkou. Situace se srovnala až později a dohnala PS5 zpátky do role běžně dostupného zboží.\n\n### Dnešní scéna\n\nProtože jde o **aktuální generaci**, neplatí u PS5 nic z toho, na co jsme u starších platforem zvyklí. **Emulace prakticky neexistuje** — a i kdyby se objevila, chybí jí smysl: konzole se stále prodává a hry pro ni vycházejí. Na zařízeních jako Batocera nebo příruční Anbernic si PS5 nezahrajete a ani v dohledné době nezahrajete.\n\nCesta k hrám vede standardně: fyzické disky u modelů s mechanikou, digitální nákupy v PlayStation Store, nebo předplatné. Bazarová nabídka konzolí i her je bohatá a hry předchozí generace pořídíte na disku často za zlomek původní ceny. Pro sběratele je zajímavé i to, že disková PS5 dokáže přehrát **fyzické hry z PS4** — z pohledu dlouhodobého uchování knihovny to není maličkost. Za pár let se z PS5 stane další kapitola retro historie; zatím ale píše tu současnou.",
-      "gameCount": 152,
+      "gameCount": 153,
       "games": [
         {
           "slug": "ps5__demon-s-souls",
@@ -87972,6 +88038,28 @@
               "kind": "box"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "ps5__silent-hill-f",
+          "name": "Silent Hill f",
+          "genre": "Survival horor",
+          "length": "L",
+          "flags": [
+            "mature"
+          ],
+          "year": "2025",
+          "studio": "NeoBards Entertainment",
+          "est": null,
+          "teaser": "První Silent Hill zasazený do Japonska 60. let; scénář psal Ryukishi07, tvůrce Higurashi.",
+          "detail": null,
+          "article": "**Silent Hill f** přenáší legendární hororovou značku Konami poprvé mimo americké maloměsto, kterým se série proslavila, a zasazuje děj do japonského venkova šedesátých let. Hlavní hrdinkou je středoškolačka, jejíž rodné městečko se jedné mlžné noci promění v temnou, květinami přerostlou verzi sebe sama plnou znetvořených bytostí. Volba historického Japonska místo současné Ameriky dává hororu jiný rytmus – k tradičním motivům série jako mlha, rušený rozhlas a psychologická úzkost přidává dobové kulturní tlaky, rodinné vztahy a vizuální jazyk, který čerpá z japonské grotesky a symboliky květin jako rozkladu i krásy zároveň.\n\nHratelně jde o klasický survival horor s důrazem na průzkum, sbírání předmětů a řešení hádanek, boj se ale odehrává výhradně nablízko – hrdinka nemá po ruce střelné zbraně, jen improvizované nástroje, úhyby a časované bloky. Nedostatek munice tak nahrazuje riziko šarvátek z bezprostřední blízkosti a nutnost promýšlet, kdy se do souboje vůbec pouštět. Prostředí je záměrně klaustrofobní a vizuálně husté, mlha a záplavy rostlin nahrazují chladnou ocel z předchozích dílů a atmosféra staví hlavně na tichu přerušovaném útržky zvuku.\n\nZa hrou stojí studio NeoBards Entertainment, scénář ale napsal Ryukishi07, autor vizuální novely Higurashi no Naku Koro ni, což vysvětluje důraz na postupně odhalované trauma a nespolehlivé vyprávění hlavní hrdinky. Silent Hill f přichází v době, kdy se značka po letech spin-offů a remaku dvojky vrací k původním hrám, a je prvním dílem hlavní řady, který se neodehrává v titulním městě Silent Hill – sázka, jež rozděluje fanoušky na ty, kdo oceňují osvěžení, a na ty, kterým chybí známé ulice a stará mlha.\n\n**Proč hrát:** Osloví fanoušky psychologického hororu a japonské grotesky, kteří ocení nový kulturní kontext i soubojový systém bez střelných zbraní, spíš než ty, co čekají klasické ulice Silent Hillu.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -124302,7 +124390,7 @@
       "image": "/images/platforms/pc-dos.webp",
       "photoBg": "dark",
       "history": "Když IBM v roce 1981 představilo svůj **IBM PC**, na hry nikdo nemyslel. Byl to drahý kancelářský stroj s procesorem **Intel 8088**, textovou obrazovkou, pípajícím reproduktorem a systémem **MS-DOS** ovládaným z příkazového řádku. Vedle barevného Commodoru 64 působilo jako účetní v obleku, který přišel na dětskou oslavu. Jenže mělo jednu vlastnost, kterou nikdo jiný nenabídl: **otevřenou architekturu**. Zásuvné karty, dokumentovaná rozhraní a běžně dostupné komponenty znamenaly, že počítač mohl postavit kdokoli.\n\nA přesně to se stalo. Přes modely **XT** (1983) a **AT** s procesorem 80286 (1984) až po generace **386** a **486** se z PC stala nejrozšířenější platforma světa, kterou táhla armáda klonů a nemilosrdná cenová válka. Hardware se zlepšoval každý rok, zatímco uzavřené šestnáctibity zůstávaly zamrzlé v čase. Kolem roku 1992 bylo jasno: DOSové PC převálcovalo Amigu i Atari ST.\n\nÉra her pod DOSem vrcholila v první polovině devadesátých let. **Doom**, **X-COM**, **Dune II**, **Civilization** nebo adventury LucasArts a Sierry vznikaly pro stroj, který se ještě před deseti lety zmohl na čtyři barvy a jedno pípnutí.\n\n### Technika: grafika a zvuk\n\nGrafika procházela generacemi karet, které si hráč kupoval zvlášť. Nejstarší **CGA** zvládla 320×200 bodů ve **4 barvách** z krutě omezených palet (nechvalně proslulá azurová s purpurovou). **Hercules** nabízel ostrou monochromatickou grafiku, skvělou pro tabulky a mizernou pro hry. **EGA** (1984) posunula laťku na **16 barev** a rozlišení 640×350.\n\nSkutečným zlomem byla ale **VGA** z roku 1987. Její legendární **Mode 13h** nabídl 320×200 bodů ve **256 barvách** z palety 262 144 odstínů, a to v jednoduše adresovatelné lineární paměti — pro programátory hotový dárek. Najednou šlo dělat digitalizované obrázky, plynulé přechody a animace paletou. Právě VGA dala PC vizuální převahu nad Amigou a stala se standardem celé DOSové éry; později ji doplnily karty **SVGA** s vyššími rozlišeními.\n\nZvuk byl dlouho slabinou. Výchozím výstupem byl **PC speaker**, piezoreproduktor schopný v podstatě jen obdélníkového pípání. Vysvobozením byla karta **AdLib** (1987) s čipem **Yamaha OPL2**, která přinesla **FM syntézu** a devět kanálů skutečné hudby. Krátce nato ji převálcoval **Sound Blaster** od Creative: byl s AdLibem kompatibilní, navíc ale uměl přehrávat **digitální samply**, takže do her dorazily výbuchy, hlasy a bicí. Stal se standardem, na který cílily prakticky všechny hry. Na špičce trůnil drahý externí modul **Roland MT-32**, jehož zvuku se FM syntéza nemohla rovnat.\n\n### Propojeni a periferie\n\nZákladem byla **klávesnice**, a to doslova: hry od simulátorů po adventury počítaly s tím, že hráč má obě ruce na klávesách a pamatuje si desítky zkratek. **Myš** se z kancelářského doplňku stala herní nutností s rozmachem **point & click adventur** a strategií; bez ní by Monkey Island ani SimCity nedávaly smysl.\n\n**Joystick** se připojoval na analogový **herní port**, který zpočátku býval na samostatné kartě, později se standardně stěhoval na zvukovou kartu — jeden konektor tak sloužil pro joystick i pro MIDI. Analogové ovladače milovaly letecké simulátory. Nadšenci si přidávali modem pro hru po telefonní lince a v kancelářích a školách se objevovaly sítě, na nichž se hrál deathmatch.\n\n### Modely a revize\n\nVývoj PC se neměřil modely jednoho výrobce, ale generacemi procesorů. **8088** v původním PC a XT stačil na textovky a jednoduché arkády, **80286** v AT přinesl vyšší výkon, ale herní éru definovaly až **386** a hlavně **486** — teprve na něm běžely Doom nebo Wing Commander tak, jak měly. Rozdíly byly i uvnitř řad: 486SX bez matematického koprocesoru, 486DX s integrovaným FPU, dříve pak samostatné koprocesory **8087**, **287** a **387**.\n\nTypickou kuriozitou bylo **turbo tlačítko** na skříni. Nezrychlovalo, jak se všichni domnívali — naopak počítač zpomalovalo na původní takt, aby fungovaly starší hry s rychlostí svázanou s taktem procesoru. Neméně typický byl boj o **konvenční paměť**: soubory **config.sys** a **autoexec.bat**, ovladače **himem.sys** a EMM386, **EMS** a **XMS**, startovací diskety s různými konfiguracemi a věčná hláška o nedostatku paměti pár kilobajtů před cílem.\n\n### Klony a varianty\n\nKlíčem k rozmachu byla **IBM kompatibilita**. Poté, co firmy jako **Compaq** legálně napodobily BIOS, spustila se lavina klonů — počítače stavěli výrobci po celém světě a cena padala. Tím se PC lišilo od Amigy i Atari ST, které stály a padaly s jedinou firmou.\n\nMédia procházela vlastní evolucí: od **5,25\" disket** (360 kB, později 1,2 MB) přes **3,5\" diskety** (720 kB a 1,44 MB) až po **CD-ROM** na začátku devadesátých let. CD přineslo mluvené slovo, digitalizovanou hudbu a video — a vlnu her s nahranými herci. Instalace z osmi disket patřila k dobovému rituálu.\n\nV Československu se PC ve větším objemu objevila hlavně po roce 1989, kdy padla omezení dovozu a vznikly první počítačové obchody a burzy. Stroje byly drahé, často skládané z dovezených dílů, a hry se šířily hlavně na **kopírovaných disketách**, které kolovaly mezi kamarády i po školách.\n\n### Dnesni scena\n\nHraní DOSových her je dnes díky emulaci snadné. Standardem je **DOSBox** a jeho pokročilejší varianta **DOSBox-X**, která zvládne i náročnější dobové konfigurace. Na retro handheldech se používá stejný základ — **Batocera** i **RetroArch** (přes jádro **dosbox-pure**) rozjedou DOSovou hru bez řešení ovladačů zvukové karty a řádků v autoexecu.\n\nLegálním zdrojem je **GOG.com**, který prodává klasiky předpřipravené a nastavené v emulátoru. Adventury si zaslouží **ScummVM**, jenž místo emulace celého počítače spouští přímo herní data. Zvláštní kapitolou jsou **source porty**: po uvolnění zdrojových kódů vznikly desítky enginů pro Doom — od puristického **Chocolate Doom**, který věrně kopíruje původní chování, po moderní varianty s vysokým rozlišením. K tomu komunita dodává fanouškovské patche, opravy chyb, překlady a nové úrovně. DOSová éra tak nezůstala uzavřenou kapitolou, ale živou scénou.",
-      "gameCount": 173,
+      "gameCount": 175,
       "games": [
         {
           "slug": "pc-dos__jazz-jackrabbit",
@@ -130350,6 +130438,50 @@
           "players": null,
           "os": null,
           "rating": null
+        },
+        {
+          "slug": "pc-dos__sid-meier-s-civilization",
+          "name": "Sid Meier's Civilization",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1991",
+          "studio": "MicroProse",
+          "est": null,
+          "teaser": "Tahová strategie, která založila žánr 4X; vtahuje frází „ještě jeden tah“.",
+          "detail": null,
+          "article": "**Sid Meier's Civilization** postavila v roce 1991 celý žánr tahových strategií na novém principu: vedete jednu civilizaci od prvních osad v době kamenné až po vesmírný let, přičemž každé rozhodnutí – kam založit město, co zkoumat, s kým uzavřít mír – má dopad na desítky tahů dopředu. Návrh spojil budování měst, technologický strom, diplomacii a válčení do jednoho celku, kde nic nefunguje izolovaně: silná ekonomika živí armádu, armáda chrání obchodní cesty, obchod financuje vědu. Na hardwaru od XT po 486 běžela hra i s omezenou pamětí a grafikou, protože tahovost odpouštěla pomalejší procesory – hráč čekal jen na výpočet tahu soupeřů, ne na plynulou animaci.\n\nOvládání je čistě myší a klávesnicí přes mapu rozdělenou na políčka, menu měst a technologický strom, který se za tahovou hrou skrývá jako neviditelná kostra postupu. Hra proslula tím, že dokáže hráče držet u obrazovky dlouho přes plánovaný konec – tahová smyčka je navržená tak, že po dokončení jednoho kola vždy láká vyřešit ještě jeden nedodělaný úkol, založit ještě jedno město nebo dokončit poslední vynález. Tento efekt „ještě jednoho tahu“ se stal synonymem celého žánru 4X (eXplore, eXpand, eXploit, eXterminate) a Civilization jej nedefinovala jen slovně, ale i mechanicky – vítězství lze dosáhnout vojensky, technologicky, kulturně i diplomaticky, což hráčům nabízí několik paralelních cest k cíli.\n\nVliv hry na herní průmysl je těžko přeceňatelný: založila sérii, která pokračuje dodnes, inspirovala desítky konkurenčních 4X titulů a dodnes se učí na jejím konceptu vyváženého rozvoje civilizace. Na dobovém PC vyžadovala jen skromný výkon, takže ji hrálo obrovské množství lidí i na starších strojích, a stala se jedním z důvodů, proč se strategický žánr na počítačích tak rychle rozšířil.\n\n**Proč hrát:** Pro každého, kdo chce zažít zrod tahové 4X strategie v její nejčistší podobě a má trpělivost na hodiny plánování místo okamžité akce.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-dos__simcity",
+          "name": "SimCity",
+          "genre": "Budovatelská",
+          "length": "L",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1989",
+          "studio": "Maxis",
+          "est": null,
+          "teaser": "Simulace bez konce a bez vítězství; položila základy žánru city builderů.",
+          "detail": null,
+          "article": "**SimCity** z roku 1989 od studia Maxis obrátila logiku tehdejších her naruby: místo boje o vítězství nabídla nekonečnou simulaci, ve které hráč jako starosta zakládá zóny pro bydlení, průmysl a obchod, staví silnice, elektrárny a vodovody a sleduje, jak se z prázdné mapy stává živoucí metropole. Hra vycházela z fascinace městským plánováním a simulačními modely a výsledkem byl titul bez pevného konce a bez soupeře – jediným protivníkem je vlastní neschopnost udržet rozpočet, dopravu a spokojenost obyvatel v rovnováze. Na počítačích řady XT až 486 běžela SimCity díky jednoduché 2D grafice a políčkovému systému hladce i na skromnějším hardwaru, ovládala se myší přes menu nástrojů a mapu rozdělenou do čtverečků zóny.\n\nKlíčovým prvkem je zpětná vazba: špatně umístěná elektrárna zvedne znečištění a klesne hodnota pozemků, chybějící silnice ochromí dopravu a obyvatelé se odstěhují, přemrštěné daně zase zpomalí růst. Hra tak nenásilně učí systémovému myšlení a plánování s dlouhodobým dopadem, aniž by cokoliv vysvětlovala explicitně – hráč se dozvídá souvislosti tím, že sleduje grafy a hlášení poradců a experimentuje. Ke hře patřily i nahodilé katastrofy jako požáry, zemětřesení nebo přílet obřího monstra, které dodávaly simulaci nepředvídatelnost a humor.\n\nSimCity založila celý žánr city builderů a stala se vzorem pro pozdější simulační hry. Ukázala, že hra nemusí mít vítězství ani konec, aby dokázala hráče zaujmout na desítky hodin, a dodnes se na ni odkazuje jako na jeden z prvních skutečně úspěšných simulátorů správy města.\n\n**Proč hrát:** Ideální pro hráče, které baví budování a systémové plánování víc než souboje – klasika, která ukázala, že smysluplná hra nepotřebuje vítězství ani konec.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
         }
       ]
     },
@@ -130365,7 +130497,7 @@
       "image": "/images/platforms/pc-9x.webp",
       "photoBg": "dark",
       "history": "Druhá polovina devadesátých let byla pro PC obdobím, kdy se z kancelářské bedny stal nejmocnější herní stroj na světě. Odstartoval to příchod procesorů **Intel Pentium** a v roce 1995 systém **Windows 95** s 32bitovým prostředím a jednotným rozhraním hardwaru. Do té doby si každá hra řešila ovladače sama — hráč v instalátoru ručně vybíral model zvukové karty a nastavoval **IRQ**, DMA kanál a adresu portu, a když se netrefil, hra mlčela nebo spadla. S nástupem **DirectX** éra magických čísel skončila.\n\nPřechod nebyl okamžitý: roky 1995 až 1997 patřily titulům vycházejícím v DOSové i windowsové verzi, teprve konec desetiletí pak Windows naplno. Zároveň se rozjela nejrychlejší technologická spirála v dějinách hraní — co bylo na jaře špičkou, bylo o Vánocích průměr. Herně šlo o zlatý věk: vznikl tu moderní **FPS** v podobě Quake, Unrealu a Half-Life, rozkvetly realtimové strategie, simulátory i první velká 3D RPG — a protože PC nebylo uzavřenou konzolí, vyrostla kolem něj obrovská scéna modderů.\n\n### Technika: grafika a zvuk\n\nNejvětším tématem éry byly **3D akcelerátory**. Do roku 1996 se veškerá 3D grafika počítala softwarově na procesoru — odtud ty hrubé, škubající se textury v rozlišení 320×200. Pak přišla firma 3dfx s kartou **Voodoo Graphics** a rozhraním **Glide** a rozdíl byl propastný. Hardwarová akcelerace přinesla **bilineární filtrování textur**, korekci perspektivy, průhlednost, vyšší rozlišení a hlavně plynulost. GLQuake na Voodoo byl pro spoustu lidí okamžikem, kdy se hraní na PC změnilo nadobro.\n\nPrvní Voodoo byla ještě přídavná karta propojená kabelem s běžnou 2D grafikou, **Voodoo2** uměla režim SLI se dvěma kartami vedle sebe. Konkurence ale náskok rychle dohnala: NVIDIA přišla s čipy **RIVA TNT** a TNT2, které spojily 2D i 3D na jedné kartě a sázely na **OpenGL** a Direct3D, a v roce 1999 vydala **GeForce 256** — první běžnou kartu s hardwarovým **T&L**, tedy s výpočtem geometrie a osvětlení přímo na grafickém čipu. ATI mezitím nabízela řadu **Rage** a v roce 2000 první **Radeon**. Éra 3dfx skončila.\n\nZvuk měl vlastní vývoj. Standardem zůstávala řada **Sound Blaster**, od SB16 přes **AWE32** a AWE64 s wavetable syntézou pro lepší MIDI hudbu, později přišly karty s hardwarovou akcelerací a 3D zvukem **A3D** a **EAX**, díky nimž bylo slyšet, že střelba přichází zezadu. Zásadní byl také **CD-ROM**: hry začaly místo čipové hudby přehrávat plnohodnotné **CD Audio** stopy. Na konci éry se přidal **MP3**.\n\n### Propojeni a periferie\n\nZáklad sestavy se během několika let posunul z desítek na stovky megahertzů. Pentium doplnily instrukce **MMX**, paměti přešly z **EDO RAM** na **SDRAM** a grafika se přestěhovala ze sběrnice **PCI** na vyhrazený port **AGP** s rychlejším přístupem do hlavní paměti.\n\nPro ovládání se ustálil dodnes platný standard: **klávesnice a myš**. Ve střílečkách se prosadilo schéma **WASD + myš**, tedy pohyb levou rukou a rozhlížení pravou — kombinace zrozená v komunitě kolem Quake. Simulátory si žádaly **joysticky** a létací sady, závody **volanty** se zpětnou vazbou.\n\nNejvětší společenskou změnou bylo síťové hraní. Nejdřív se hrálo přes **modem** a přímé vytáčené spojení dvou počítačů, pak přes **dial-up** připojení s vysokým pingem a účtem za telefon, který doma nikdo nechtěl vysvětlovat. Objevily se první online služby a lobby systémy. Legendou se staly **LAN party** — víkendy, kdy se do jedné místnosti stahovaly bedny, monitory a metry kabelů kvůli Quake nebo StarCraftu.\n\n### Modely a revize\n\nPC se od konzolí lišilo tím, že žádný „model\" neexistoval — sestava byla vždy skládačka. Přesto lze éru rozdělit podle procesorů: **Pentium** a jeho verze s MMX, poté **Pentium II** v kazetě do slotu a nakonec **Pentium III**. Souběžně se měnila média: **diskety** dosloužily a jediným nosičem se stal **CD-ROM**. Instalace o stovkách megabajtů přestaly být výjimkou a velké hry vycházely na několika discích.\n\n### Klony a varianty\n\nOtevřenost architektury byla největší silou PC. Kompatibilní počítače stavěl kdokoli a procesory nedodával jen Intel — soupeřem byla **AMD** s řadou **K6** a od roku 1999 s **Athlonem**, který Intelu poprvé skutečně zatopil, levnou alternativu nabízel také **Cyrix**. Díky téhle konkurenci se ceny držely nízko a výkon rostl závratným tempem.\n\nV českém prostředí to znamenalo boom skládaných sestav z počítačových burz a malých lokálních prodejců. Značková kompletní PC kupovaly hlavně firmy, hráči si stroj skládali po dílech a upgradovali postupně — nová grafika letos, procesor příští rok. Herní časopisy s přiloženými CD byly zdrojem demoverzí i ovladačů.\n\n### Dnesni scena\n\nRetro PC hraní má dnes několik cest. U přechodových DOSových titulů pomáhá **DOSBox**, u klasických adventur **ScummVM**. Windowsové hry z konce devadesátek se ale často rozběhnou přímo na moderním systému, případně v **režimu kompatibility** a s komunitními patchi pro rychlé procesory a širokoúhlá rozlišení. Pro tituly psané pro Glide existují **wrappery** **nGlide** a **dgVoodoo**, které staré volání přeloží na dnešní grafické rozhraní.\n\nNejpohodlnějším legálním zdrojem je **GOG.com** s předpřipravenými verzemi bez ochran. Pro největší klasiky existují i **source porty** postavené na uvolněných zdrojových kódech — enginy odvozené od Quake nabízejí vyšší rozlišení, moderní ovládání i síťovou hru. A pak je tu nejpoctivější varianta: postavit si dobovou **retro sestavu** s Pentiem, Voodoo kartou a Sound Blasterem. Shánění dílů se stalo sběratelským koníčkem a pocit z CRT monitoru emulace nenahradí.",
-      "gameCount": 173,
+      "gameCount": 175,
       "games": [
         {
           "slug": "pc-9x__quake-ii",
@@ -135443,7 +135575,7 @@
           "year": "2000",
           "studio": "Angel Studios",
           "est": null,
-          "teaser": null,
+          "teaser": "Otevřené závodění Londýnem a San Franciskem bez pravidel a bez trestů za nehody.",
           "detail": null,
           "article": "**Midtown Madness 2** je arkádový závodní titul od Angel Studios, který v roce 2000 navázal na první díl a přenesl otevřené městské závodění do Londýna a San Franciska. Hráč mohl v libovolném pořadí projíždět ulicemi, parky, tramvajovými kolejemi i interiéry stanic metra, srážet dopravní kužely, plašit chodce a najíždět do protijedoucích aut, aniž by hra trestala nesprávnou jízdu jinak než poškozením karoserie. Oproti prvnímu dílu přibyla motocyklová kategorie vozidel a možnost volně přepínat mezi auty, což zvyšovalo pocit svobody v otevřeném světě, který byl v té době ještě poměrně neobvyklým konceptem. Hra nabízela vedle závodů na čas i volnou jízdu městem bez cíle.\n\nPo technické stránce hra těžila z barevné, přehledné grafiky a plynulého pocitu rychlosti, i když modely obou měst byly z pochopitelných důvodů silně zjednodušené a sloužily především jako kulisa pro efektní honičky. Ozvučení dokreslovaly řev motorů, kvílení pneumatik a hlášky protihráčů, díky nimž hra působila živě i v jednorázových trénincích mimo kariérní režim. Chování ostatního provozu a chodců, kteří se snažili uhýbat z cesty řítícímu se vozu, přispívalo k chaotickému, ale zábavnému dojmu z jízdy městem. Multiplayer po síti nebo internetu patřil k tehdy ceněným vlastnostem a přispíval k dojmu, že jde o zábavu určenou spíš k soupeření s kamarády než k dokonalé simulaci řízení.\n\nDobově byla hra vnímána jako zdařilé pokračování, které rozšířilo úspěšný recept prvního dílu o nové prostředí a vozidla, aniž by zásadně měnilo jeho charakter. V žánru arkádových městských závodů zanechala stopu jako jeden z titulů, které předznamenaly pozdější otevřené závodní hry, byť sama zůstala spíše lehčí zábavou než technologickým milníkem. Řada hráčů dodnes vzpomíná na sérii jako na průkopníka otevřených městských závodů. Dnes působí Midtown Madness 2 jako příjemná retro připomínka doby, kdy stačilo otevřené město, hrstka aut a žádná pravidla k tomu, aby hra bavila na dlouhé hodiny.",
           "image": null,
@@ -135465,7 +135597,7 @@
           "year": "1996",
           "studio": "Papyrus Design Group",
           "est": null,
-          "teaser": null,
+          "teaser": "Hluboká simulace okruhů NASCAR od studia Papyrus; detail nad arkádovou jízdou.",
           "detail": null,
           "article": "**NASCAR Racing 2** z roku 1996 od studia Papyrus navázal na první díl série a prohloubil pověst vývojářů jako specialistů na realistickou simulaci okruhových závodů amerického šampionátu NASCAR. Hra nabízela sezónu s reálnými tratěmi i vozy a kladla důraz na fyzikální model chování vozu, opotřebení pneumatik a nastavení podvozku, což z ní dělalo mnohem náročnější a technický titul než tehdejší arkádové závodní hry. Hráč si mohl nastavení vozu upravovat do detailu podle typu okruhu a povětrnostních podmínek, což ocenili zejména hráči hledající skutečnou simulaci, nikoli jen efektní jízdu. Součástí byl i editor tratí a možnost upravovat parametry soupeřů, což prodlužovalo životnost hry o vlastní obsah komunity.\n\nUmělá inteligence soupeřů patřila v té době k nejlépe hodnoceným prvkům hry, protože počítačem řízení jezdci reagovali na dění na trati, drafting a kolizní situace věrohodněji než konkurence. Grafické zpracování zůstávalo v mezích tehdejších možností, ale plynulost a čitelnost při vysokých rychlostech byly na svou dobu vzorové. Zvuková stránka stavěla na burácení motorů a rádiové komunikaci s boxy, což prohlubovalo dojem opravdového závodního víkendu. Hra podporovala i multiplayer, díky čemuž se stala oblíbenou i v raných online závodních ligách, kde se hráči scházeli k pravidelným závodům podle skutečného kalendáře NASCAR.\n\nNASCAR Racing 2 je dnes připomínán jako jeden z titulů, které definovaly žánr počítačových závodních simulací a ovlivnily pozdější díly série i konkurenční simulátory. Papyrus si díky němu upevnil pověst studia schopného nabídnout hloubku bez obětování hratelnosti. Pro současného hráče jde už spíš o historickou záležitost kvůli zastaralé grafice, ale fanoušci simulačního žánru v něm stále nacházejí poctivý základ mechanik, které se v podstatě nezměnily dodnes a na kterých stavěly i další díly série.",
           "image": null,
@@ -135487,9 +135619,51 @@
           "year": "1998",
           "studio": "Core Design",
           "est": null,
-          "teaser": null,
+          "teaser": "Akrobatické skákání a hádanky napříč čtyřmi kontinenty; poprvé volitelné pořadí levelů.",
           "detail": null,
           "article": "**Tomb Raider III: Adventures of Lara Croft** vyšel v roce 1998 od studia Core Design a poslal Laru Croft na cestu napříč čtyřmi kontinenty za úlomky záhadného meteoritu, od indických džunglí přes londýnské kanalizace až po pacifické ostrovy a antarktické základny. Hra zachovala osvědčenou kombinaci akrobatického skákání po plošinách, řešení prostorových hádanek a přestřelek s divokou zvěří i lidskými protivníky, ale oproti předchozím dílům umožnila hráči volit pořadí, v jakém jednotlivé oblasti navštíví, což přineslo větší pocit volnosti do jinak lineárního vyprávění. Nechyběla ani vozidla jako čtyřkolka nebo malá ponorka, kterými se dalo v některých úsecích projíždět a rychleji tak překonávat rozlehlejší pasáže.\n\nLevel design šel v mnoha pasážích do větší komplexnosti a obtížnosti než dřívější díly, s rozvětvenými cestami a náročnějšími skoky, což si vysloužilo smíšené reakce – část hráčů oceňovala výzvu, jiní ji vnímali jako frustrující. Technicky hra běžela na vylepšené verzi enginu předchozích dílů a nabídla rozmanitější prostředí i počasí, včetně bouřek a sněhu, které ovlivňovaly viditelnost i atmosféru jednotlivých úrovní. Hudba a zvuková kulisa dál stavěly na tajemné, dobrodružné atmosféře, kterou série proslavila, byť už bez tak výrazného překvapivého efektu jako u prvního dílu. Ovládání zůstalo věrné mřížkovému stylu pohybu předchozích dílů, což od hráčů vyžadovalo trpělivost a přesnost při odhadování skoků.\n\nV dobovém kontextu šlo o další komerčně úspěšný přírůstek do série, který ovšem naznačoval, že tempo jednoho dílu ročně začíná sérii vyčerpávat po stránce nápadů. Přesto zůstává Tomb Raider III významným mezníkem žánru akčních adventur devadesátých let a pro fanoušky série je dodnes hratelnou připomínkou éry, kdy Lara Croft patřila mezi nejikoničtější postavy počítačových her a její dobrodružství definovala celý žánr třetí osoby.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-9x__simcity-3000",
+          "name": "SimCity 3000",
+          "genre": "Budovatelská",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1999",
+          "studio": "Maxis",
+          "est": null,
+          "teaser": "Ikonická budovatelská hra o plánování, výstavbě a růstu vlastního města.",
+          "detail": null,
+          "article": "**SimCity 3000** navazuje na úspěšný předchůdce SimCity 2000 a v roce 1999 znovu potvrdil, že budování měst může být stejně návykové jako akční hra. Hráč zakládá novou obec doslova na zelené louce, rozděluje pozemky na obytné, průmyslové a komerční zóny, staví silnice, elektrárny a vodovody a sleduje, jak se z hrstky domů postupně rodí metropole. Rozpočet, daně, poptávka po jednotlivých typech zástavby a spokojenost obyvatel se neustále mění, takže hra nutí přemýšlet v dlouhodobých horizontech a reagovat na vlastní chyby – přehuštěná doprava, znečištění nebo kriminalita dokážou i prosperující město rychle srazit na kolena.\n\nOproti dvojce hra přidala propracovanější sousedské vztahy mezi městy v rámci regionu, možnost uzavírat dohody o sdílení elektřiny, vody nebo skládek, a rozšířila škálu speciálních budov i katastrof, které dokážou zpestřit i ten nejpečlivěji naplánovaný rozvoj. Izometrická grafika s detailně kresleným terénem a budovami působila v době vydání velmi svěže a spolu s klidnou, atmosférickou hudbou vytvářela pocit živého, dýchajícího města, které roste podle rozhodnutí hráče. Ovládání myší, přehledné panely a poradci upozorňující na problémy zpřístupnili hru i lidem, kteří se strategiím dosud vyhýbali.\n\nSimCity 3000 se stalo jedním z nejprodávanějších titulů žánru a na dlouhá léta definovalo, jak by měl vypadat seriózní budovatelský simulátor – jeho vliv je patrný na desítkách pozdějších her, které se pokoušely nabídnout podobnou hloubku správy města. Na dobovém PC s Windows 9x běží hra plynule i dnes a díky nenáročným systémovým požadavkům je jedním z nejsnadnějších způsobů, jak si vyzkoušet, proč měl žánr city-builderů v devadesátých letech takový úspěch.\n\n**Proč hrát:** Ideální volba pro každého, kdo má rád promyšlené plánování a chce vidět výsledky vlastních rozhodnutí růst budovu po budově, bez tlaku časového limitu.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-9x__medieval-total-war",
+          "name": "Medieval: Total War",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2002",
+          "studio": "The Creative Assembly",
+          "est": null,
+          "teaser": "Tahová strategie s velkolepými bitvami v reálném čase; průkopník žánru Total War.",
+          "detail": null,
+          "article": "**Medieval: Total War** z roku 2002 od studia The Creative Assembly rozvinul koncept, který o dva roky dříve nastínil Shogun: Total War, a přenesl bitvy tisíců jednotek do prostředí středověké Evropy, Blízkého východu a severní Afriky. Hra kombinuje tahovou strategickou mapu, na které hráč spravuje provincie, staví budovy, vybírá daně a plánuje diplomacii či náboženskou politiku, s bitvami v reálném čase, kde se na otevřeném terénu střetávají formace pěchoty, jízdy a obléhacích strojů. Právě tento hybrid tahové správy říše a taktických soubojů se stal ochrannou známkou celé série a Medieval ho výrazně vybrousil.\n\nHráč si volí jednu z evropských frakcí a snaží se rozšířit své území, udržet spokojenost poddaných a zároveň čelit nájezdům sousedů, křížovým výpravám nebo vnitřním vzpourám. Bitvy jsou přehledné díky jasně čitelným formacím a možnosti mikromanagementu jednotlivých oddílů, přesto zvládnou zprostředkovat pocit skutečně velkého středověkého tažení – zejména když se na bojiště přesune obléhání hradu s věžemi, beranidly a katapulty. Atmosféru dokresluje důraz na historické detaily, různorodost jednotek podle regionu a náboženský rozměr hry, kde křesťanské i muslimské frakce mají vlastní specifika.\n\nMedieval: Total War upevnil pozici série jako jednoho z nejvlivnějších strategických konceptů své éry a otevřel cestu pozdějším dílům, které dodnes patří mezi nejprodávanější strategie na PC. Ačkoliv grafika i ovládání nesou stopy své doby, základní hratelnost – souboj promyšlené strategie na mapě s napínavými bitvami v poli – funguje bez ztráty kvality i s odstupem let a hra se dá bez potíží rozjet i na běžném retro PC s Windows 9x.\n\n**Proč hrát:** Skvělá volba pro fanoušky historických strategií, kteří chtějí zažít bitvy tisíců jednotek v reálném čase a zároveň se ponořit do tahové správy středověké říše, aniž by museli sahat po zjednodušeních pozdějších dílů série.",
           "image": null,
           "gallery": [],
           "link": null,
@@ -135512,7 +135686,7 @@
       "image": "/images/platforms/pc-modern.webp",
       "photoBg": "dark",
       "history": "Zlom mezi „starým\" a „moderním\" PC nemá jediné datum, ale má jasné znaky. Někdy kolem roku 2001 přestalo být herní PC krabicí, do níž se cpe co nejrychlejší procesor, a stalo se strojem, kde hlavní práci odvádí **programovatelná grafická karta**. Krátce nato se přidala druhá revoluce: v roce 2003 uvedlo AMD procesor **Athlon 64** a s ním architekturu **x86-64**, tedy 64bitové rozšíření, které — na rozdíl od exotických slepých uliček — zůstalo plně zpětně kompatibilní se vším, co do té doby vzniklo. Intel ji po počátečním odporu převzal také a x86-64 se stalo společným jazykem celého odvětví, včetně herních konzolí.\n\nTřetí pilíř éry přišel s **vícejádrovými procesory**. Frekvence narazily na fyzikální strop a místo dalších gigahertzů začaly přibývat jádra, což donutilo herní studia přepsat způsob, jakým své enginy staví. Od poloviny dekády tak vývoj her přestal být otázkou jediné rychlé smyčky a stal se disciplínou paralelního programování — s odděleným vláknem pro fyziku, zvuk, streamování dat i vykreslování.\n\nA nad tím vším se odehrála změna, která hráče zasáhla víc než jakýkoli křemík: **digitální distribuce**. Krabice z regálu vystřídal účet, knihovna a stahování na pozadí. PC se z platformy, kterou konzoloví hráči v půlce nultých let odepisovali, stalo tou nejotevřenější a nejrozsáhlejší herní platformou vůbec.\n\n### Technika: grafika a zvuk\n\nKlíčovým okamžikem byly **programovatelné shadery**. Do té doby grafické karty uměly jen pevně danou sadu operací; s **DirectX 8** a kartou **GeForce 3** (2001) mohli vývojáři poprvé psát vlastní krátké programy běžící přímo na GPU pro každý vrchol a každý pixel. **DirectX 9** a **ATI Radeon 9700** (2002) posunuly hranici dál a výsledek byl vidět na první pohled: skutečné odlesky na mokrém asfaltu, vlnící se voda, měkké stíny, kůže a látky, které vypadaly jako kůže a látky. Hry jako Half-Life 2 nebo Far Cry ukázaly, co to znamená v praxi.\n\nDalší krok přinesly **unifikované shadery** — namísto oddělených jednotek pro vrcholy a pixely nastoupila univerzální pole výpočetních jader, která se dala využít i na obecné výpočty. Na to navázaly **DirectX 11** s tesselací a výpočetními shadery, později **DirectX 12** a otevřený **Vulkan**, jež daly vývojářům přístup blíž k hardwaru a snížily režii ovladače.\n\nSouběžně rostla i „hrubá\" čísla. Od rozlišení 1024×768 se hraní posunulo přes 1080p a 1440p ke **4K**, obnovovací frekvence z 60 Hz na 144 Hz i výš, **antialiasing** vyhladil zubaté hrany a **HDR** rozšířil rozsah jasu a barev. Poslední velkou kapitolou je **ray tracing** — výpočet odrazů, stínů a osvětlení sledováním paprsků, tedy postupem, jakým se dřív renderoval film přes noc. Protože je stále náročný, doprovázejí ho **upscalovací techniky** jako **DLSS** od Nvidie a **FSR** od AMD, které obraz počítají v nižším rozlišení a dopočítávají ho do plné velikosti.\n\n### Propojeni a periferie\n\nZákladem zůstala **klávesnice a myš**, dvojice, kterou žádná konzole nikdy nepřekonala v přesnosti míření a v počtu okamžitě dostupných příkazů. Vedle ní ale PC získalo plnou podporu **gamepadů**: ovladač Xboxu se stal de facto standardem, hry ho poznají samy a zobrazují jeho ikony, takže plošinovky a závody se hrají stejně pohodlně jako na konzoli.\n\nPřibyly i periferie, které konzole nemají — **VR headsety**, vysokofrekvenční monitory, volanty i páky pro simulátory. Na straně paměti se prostřídaly generace **DDR** až po DDR5, ale největší praktický rozdíl udělalo úložiště: přechod z pevných disků na **SSD** a dál na **NVMe** disky připojené přes PCI Express zkrátil načítací obrazovky z desítek sekund na jednotky a umožnil hrám streamovat obrovské otevřené světy za běhu.\n\n### Generace a revize\n\nNa PC neexistuje „model\", jen generace komponent — a mezi začátkem a koncem této éry\nje propast, jakou konzole nikdy nezažily. Rok 2001 znamenal **Pentium 4** a **Athlon XP**\ns jedním jádrem; herní zlom přinesly **programovatelné shadery** (GeForce 3, Radeon 9700\na DirectX 9), díky nimž hry poprvé vypadaly jinak než jako sada nasvícených textur.\n\nV roce 2003 přišel **Athlon 64** a s ním architektura x86-64, tedy 64bitové adresování,\nkteré dnes bereme jako samozřejmost. Skutečnou revolucí v obyčejném počítači ale bylo\n**více jader**: od Core 2 Dua se rozdíl mezi „procesorem na kancelář\" a „procesorem na hry\"\nzačal měřit hlavně jejich počtem a v roce 2017 ho **Ryzen** vyhnal do osmi a víc.\nGrafika mezitím prošla unifikovanými shadery (GeForce 8800), DirectX 11 a 12, Vulkanem\na nakonec **ray tracingem** s upscalováním (DLSS, FSR), které ubraný výkon dohání\ndopočítáváním pixelů.\n\nNejcitelnější změnu ale nepřinesl výkon, nýbrž úložiště. Přechod z **pevného disku na SSD**\na později **NVMe** zkrátil načítání z desítek sekund na jednotky a u velkých otevřených světů\nrozhodl o tom, jestli je hra plynulá. Poslední kapitolou jsou **přenosná herní PC** —\nSteam Deck a jeho následovníci — kde se skládačka komponent poprvé zabalila do jednoho\nzařízení s pevně danou konfigurací, tedy vlastně do něčeho velmi podobného konzoli.\n\n### Digitální distribuce a služby\n\n**Steam** spustil Valve v roce **2003** a hráči ho zpočátku upřímně nenáviděli — hlavně proto, že bez něj v roce 2004 nešlo spustit Half-Life 2, tehdy zcela nevídaná podmínka. Během několika let se ale z nutného zla stal nejpohodlnější způsob, jak hry kupovat, aktualizovat a mít je navždy dostupné. Následovaly **GOG.com** se hrami bez ochran a s péčí o staré tituly, **Epic Games Store** i předplatné **Game Pass**.\n\nZměnil se tím celý životní cyklus hry. Skončily krabice i představa, že hra je po vylisování hotová — nastoupilo pravidelné **patchování**, dodatečný obsah, **Steam Workshop** pro snadnou distribuci modifikací a **předběžný přístup**, kdy hráči kupují titul rozpracovaný a sledují, jak roste. Pro malá studia to byl zásadní obrat: cesta na trh přestala vést přes vydavatele a distributora.\n\n### Modding, indie a otevřenost\n\nPrávě otevřenost je vlastnost, kterou PC nikdo nevzal. **Modding** se z okrajové zábavy stal fenoménem — **Skyrim** má po letech tisíce modifikací měnících grafiku, mechaniky i celé nové kraje, **Minecraft** vybudoval kolem úprav vlastní kulturu a nejedna dnešní samostatná hra vznikla původně jako mod cizího titulu.\n\nSouběžně vyrostla **indie scéna**. Digitální distribuce jí dala pult a nástroje jako **Unity** nebo open source **Godot** výrobu; hry, které by v éře krabic neprošly schvalováním, si najednou našly statisíce hráčů. A do třetice je PC domovem **emulace** — právě tady vznikají a běží emulátory konzolí od osmibitů po nedávné generace.\n\n### Dnesni scena\n\nPoslední roky přinesly něco, co by na začátku éry znělo jako protimluv: **přenosné herní PC**. **Steam Deck** od Valve a stroje jako **ROG Ally** vypadají jako handheldy, ale uvnitř je běžné x86-64 PC. Deck navíc běží na Linuxu a hry pro Windows spouští přes kompatibilní vrstvu **Proton**, která fungovala natolik dobře, že z knihovny nakoupených her udělala prakticky přenositelný majetek napříč systémy i zařízeními.\n\nTím se kruh uzavírá. PC dnes není jen platforma s nejnovějšími hrami — je to jediné místo, kde se dá naráz hrát prakticky celá historie hraní: dnešní blockbustery v ray tracingu, indie klenoty, staré klasiky z GOG.com i emulované tituly z konzolí všech generací. Moderní PC je zároveň nejvýkonnějším herním strojem současnosti a nejlepším muzeem, jaké hraní má.",
-      "gameCount": 328,
+      "gameCount": 350,
       "games": [
         {
           "slug": "pc-modern__half-life-2",
@@ -146071,6 +146245,566 @@
           "gallery": [
             {
               "src": "/images/games/pc-modern/pc-modern__maw.webp",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__hearts-of-iron-ii",
+          "name": "Hearts of Iron II",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2005",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Fanoušky dodnes ceněný jako nejvyváženější díl; grandstrategie 2. světové války.",
+          "detail": null,
+          "article": "**Hearts of Iron II** je grandstrategie z roku 2005, ve které hráč od poloviny třicátých let řídí libovolný stát světa přes celou druhou světovou válku – od výzkumu a průmyslové výroby přes diplomacii až po nasazení divizí, letek a loďstev na mapě rozdělené do tisíců provincií. Hraje se v reálném čase s možností pauzy, takže si hráč sám volí tempo mezi klidnou správou ekonomiky za míru a hektickým řízením fronty za bojů, kdy je potřeba reagovat na pohyby nepřítele během vteřin.\n\nHra navazuje na první díl série a rozšiřuje ho o propracovanější technologický strom, národní ohniska v ranější, skriptované podobě a systém událostí, díky kterému se historie může vydat i alternativním směrem – malá evropská země může místo poražení skončit jako velmoc, pokud hráč zvládne diplomacii a výzkum lépe než AI protivníci. Právě otevřenost enginu přilákala moddery – řada pozdějších velkých modifikací, včetně proslulého alternativně-historického Kaiserreich, začínala právě na tomto základu, než se přesunula na novější díly série.\n\nI přes svůj věk zůstává Hearts of Iron II mezi částí komunity oblíbený díky rovnováze mezi hloubkou a přehledností, kterou pozdější Hearts of Iron III podle mnoha hráčů ztratil kvůli přemíře detailu, zatímco čtyřka o pár let později zase ubrala na komplexitě opačným směrem. S neoficiálními patchi umožňujícími běh na 64bitových systémech a moderních grafických kartách si hru lze bez větších potíží spustit i na dnešním počítači, byť rozhraní zůstává poplatné době vzniku.\n\n**Proč hrát:** Hodí se pro hráče grandstrategií, kteří chtějí druhou světovou válku prožít v hloubce, ale bez zahlcení mikromanagementem, jaký přinesla o čtyři roky mladší trojka.",
+          "image": "/images/games/pc-modern/pc-modern__hearts-of-iron-ii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__hearts-of-iron-ii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__hearts-of-iron-iii",
+          "name": "Hearts of Iron III",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2009",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Nejsložitější díl série s provinčním mapováním a hlubokou logistikou fronty.",
+          "detail": null,
+          "article": "**Hearts of Iron III** posunula škálu série o řád výš – mapu světa rozdělila na desítky tisíc provincií a hráči dala do rukou správu jednotlivých divizí, jejich přesné organizace, morálky i logistiky zásobování na frontě. Vyšla v roce 2009 jako přímé pokračování druhého dílu a už od premiéry byla vnímána jako nejnáročnější a nejpodrobnější Hearts of Iron ze všech, protože nahradila jednoduché přesuny armád komplexním systémem zásobovacích tras a stavu jednotek.\n\nNová úroveň detailu znamenala i nový typ hraní: hráč už neřeší jen tažení armád po mapě, ale skládá vlastní divize z jednotlivých praporů, řeší jejich doplňování za pochodu a sleduje stav infrastruktury v týlu i na frontě, protože špatně zásobená armáda přestává bojeschopně fungovat. Pro veterány předchozích dílů to byl vytoužený krok k realismu, pro nováčky ale často matoucí stěna čísel a menu, kterou hra ze začátku dostatečně nevysvětlovala a kterou museli hráči dohledávat po fórech a wiki.\n\nPostupné datadisky a patche, zejména Their Finest Hour, rozhraní i vyváženost hodně vylepšily a zpřístupnily hru širšímu okruhu hráčů, přesto si titul dodnes drží pověst nejsložitějšího dílu série – Hearts of Iron IV ji o pár let později nahradil citelně přístupnějším přístupem k podobným tématům. S dnešními neoficiálními úpravami pro 64bitové systémy a novější grafické karty je ale trojka stále bez potíží spustitelná i na aktuálním hardwaru.\n\n**Proč hrát:** Vhodné pro ostřílené hráče grandstrategií, kteří chtějí maximální detail velení divizí a nebojí se strávit hodiny čtením manuálů a fórových návodů.",
+          "image": "/images/games/pc-modern/pc-modern__hearts-of-iron-iii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__hearts-of-iron-iii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__hearts-of-iron-iv",
+          "name": "Hearts of Iron IV",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2016",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Nejpřístupnější díl série; obrovská modding komunita ho živí dodnes.",
+          "detail": null,
+          "article": "**Hearts of Iron IV** z roku 2016 vzala zpět krok od extrémní podrobnosti trojky a nabídla přehlednější systém národních ohnisek, přes který si každá země volí vlastní historickou nebo alternativní cestu druhou světovou válkou – ať jde o Německo směřující k jinému výsledku konfliktu, nebo malý stát, který se snaží zůstat neutrální. Základ zůstal stejný jako u předchozích dílů série – výzkum, výroba, diplomacie a velení armádám, letectvu i námořnictvu v reálném čase s pauzou – ale ovládání i rozhraní jsou citelně vstřícnější k nováčkům než u předchozích dvou dílů.\n\nPrávě přístupnost spolu s otevřeným moddingem z hry udělala dlouhodobě nejúspěšnější a nejhranější díl série. Komunita vytvořila stovky modifikací od drobných historických doplňků po rozsáhlé alternativní vesmíry, jako je již zmíněný Kaiserreich, a Paradox hru roky rozšiřuje o placené i bezplatné aktualizace s novými národními cestami pro další a další státy, díky čemuž se obsah hry od vydání mnohonásobně rozrostl.\n\nDíky tomu žije Hearts of Iron IV dodnes aktivní online komunitou i mnoho let po vydání, což se o starších dílech říct nedá. Cenou za přístupnost je menší důraz na logistiku a mikromanagement jednotlivých divizí ve srovnání s trojkou, což část hardcore veteránů sérii dodnes vyčítá, byť pozdější aktualizace některé z chybějících prvků částečně vrátily.\n\n**Proč hrát:** Nejlepší vstupní bod do celé série pro každého, kdo chce ochutnat grandstrategii o druhé světové válce bez zbytečné strohosti staršího ovládání.",
+          "image": "/images/games/pc-modern/pc-modern__hearts-of-iron-iv.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__hearts-of-iron-iv.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__europa-universalis-ii",
+          "name": "Europa Universalis II",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2001",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Klasika žánru pokrývající staletí dějin od středověku po napoleonské války.",
+          "detail": null,
+          "article": "**Europa Universalis II** z roku 2001 nechává hráče převzít vládu nad libovolným státem raného novověku a provést ho stoletími dějin – od počátku patnáctého století přes objevné plavby, kolonizaci a náboženské rozkoly až po napoleonské války na počátku 19. století. Řídí se diplomacie, obchod, náboženství i válčení, vše na mapě rozdělené do provincií a v reálném čase s možností zastavení, takže si hráč může v klidu naplánovat tah, než ho spustí.\n\nDruhý díl série zpřesnil a rozšířil systém z prvního Europa Universalis a stal se pro mnoho hráčů vzorem, jak má velká historická strategie s dlouhým časovým záběrem vypadat. Hra klade důraz na budování dynastií, správu kolonií a diplomatické vztahy mezi evropskými i mimoevropskými mocnostmi, přičemž nabízí nezvykle velkou volnost v tom, jakou cestu si zvolená země projde – malé italské knížectví se tak teoreticky může stát koloniální velmocí, pokud hráč zvládne diplomacii lépe než sousedé.\n\nVe srovnání s pozdějšími díly série působí ovládání i grafika archaicky a bez neoficiálních úprav se hůř spouští na současných počítačích, i proto bývá dnes doporučována spíš ostříleným fanouškům série než úplným nováčkům, kteří by měli raději začít u novějších dílů. Přesto si mezi purity drží pověst klasiky, ke které se řada hráčů čas od času vrací kvůli čistotě mechanik nezatížených pozdějšími přídavky a rozšířeními.\n\n**Proč hrát:** Tip pro fanoušky velkých historických strategií, kteří chtějí zažít kořeny série Europa Universalis v jejich nejpřímočařejší a nejméně zahlcené podobě.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__europa-universalis-iii",
+          "name": "Europa Universalis III",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2007",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Přechod na plně 3D mapu a přepracovaný obchodní systém oproti dvojce.",
+          "detail": null,
+          "article": "**Europa Universalis III** z roku 2007 přinesla sérii plně trojrozměrnou mapu a přepracovaný obchodní a diplomatický systém oproti dvojce, díky čemuž hra působila modernější a přístupnější, aniž by ztratila charakteristický důraz na dlouhé, staletí trvající partie od pozdního středověku po napoleonskou éru. Hráč znovu spravuje zvolený stát skrz diplomacii, obchod, kolonizaci a válčení, tentokrát ale s přehlednějším rozhraním a jasnějšími nápovědami, kam by se jeho země mohla historicky posunout.\n\nKromě grafické proměny přišel i přepracovaný systém obchodních komodit a misí, které hráči napovídaly, jakým směrem by se jeho země mohla ubírat, aniž by ho k tomu přímo nutily. Sérií datadisků – mimo jiné In Nomine, Heir to the Throne nebo Divine Wind – Paradox postupně rozšiřoval trojku o nová témata jako náboženské konflikty, dědické krize nebo dění v Asii a na Blízkém východě, čímž z ní udělal jeden z nejobsáhlejších titulů své doby na trhu historických strategií.\n\nPrávě množství obsahu ale zároveň znamená, že plnohodnotný zážitek dnes vyžaduje i většinu rozšíření, což může nováčka bez zkušeností se sérií zpočátku odradit svou rozsáhlostí. Přesto zůstává Europa Universalis III oblíbenou volbou pro hráče, kteří chtějí propracovanější a graficky přívětivější alternativu k předchozímu dílu, aniž by museli rovnou sahat po komplexnější a mladší čtyřce.\n\n**Proč hrát:** Vhodné pro hráče, kteří chtějí atmosféru rané Europa Universalis, ale ocení modernější mapu a přehlednější obchodní systém než u dvojky.",
+          "image": "/images/games/pc-modern/pc-modern__europa-universalis-iii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__europa-universalis-iii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__crusader-kings-ii",
+          "name": "Crusader Kings II",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2012",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Revoluční důraz na postavy a dynastie místo pouhé správy území a hranic.",
+          "detail": null,
+          "article": "**Crusader Kings II** z roku 2012 obrátila logiku grandstrategie naruby – místo abstraktní správy území staví do středu hry konkrétní postavu panovníka, jeho dynastii, vztahy, intriky a dědictví. Hráč tak neřídí jen stát, ale žije osudy jednotlivých vládců od středověku dál, řeší sňatky, spiknutí, nástupnictví i osobní vlastnosti postav, které ovlivňují, jak dobře nebo špatně se s nimi dá vládnout – schopný, ale krutý panovník může zemi vést jinak než zbožný slaboch na téže pozici, a po jeho smrti hra pokračuje s jeho dědicem, ať se to hráči hodí, nebo ne.\n\nTento důraz na postavy namísto pouhé mapy a čísel z Crusader Kings II udělal jeden z nejosobitějších titulů žánru a inspiroval i další Paradoxí hry, které po něm následovaly. Po vydání ho studio podporovalo dlouhé roky obsáhlou řadou datadisků a menších rozšíření, která postupně přidávala nové regiony, náboženské mechaniky i herní systémy jako republiky nebo kočovné říše, což z hlavní hry i s doplňky udělalo jeden z nejrozsáhlejších titulů celé firmy co do počtu placeného i bezplatného obsahu.\n\nMnožství DLC zároveň znamená, že cena za plný zážitek dnes výrazně převyšuje cenu základní hry, což bývá častou výtkou nových hráčů přicházejících k sérii poprvé a nevědoucích, které rozšíření skutečně potřebují. Přesto Crusader Kings II i po vydání trojky v roce 2020 zůstává mezi částí fanoušků oblíbený, mimo jiné díky vyzrálé a dobře odladěné podobě, kterou hra po letech postupných aktualizací nakonec získala a kterou nováček ocení stejně jako veterán série.\n\n**Proč hrát:** Ideální pro hráče, kteří chtějí grandstrategii postavenou na příbězích konkrétních postav a intrikách, ne jen na správě provincií a armád.",
+          "image": "/images/games/pc-modern/pc-modern__crusader-kings-ii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__crusader-kings-ii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__victoria-ii",
+          "name": "Victoria II",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2010",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Kultovní ekonomická grandstrategie 19. století s náročným, ale hlubokým obchodem.",
+          "detail": null,
+          "article": "**Victoria II** z roku 2010 je ekonomická grandstrategie odehrávající se v průmyslovém 19. století, kde hráč řídí stát nejen přes vojenskou sílu a diplomacii, ale hlavně přes hospodářství postavené na jednotlivých skupinách obyvatel, takzvaných pops. Ty pracují v továrnách a na polích, spotřebovávají zboží a podle svého společenského postavení a ideologie ovlivňují politiku, revoluční nálady i celkovou stabilitu země, kterou hráč spravuje – zanedbaná dělnická třída může snadno rozpoutat povstání, i když armáda zrovna vítězí na frontě.\n\nTento systém dělá z Victorie II jednu z nejhlubších a zároveň nejnáročnějších her v Paradoxím katalogu – pochopit provázanost obchodu, výroby a společenských tříd vyžaduje mnohem víc času a trpělivosti než u vojensky orientovaných dílů série, kde stačí spravovat armádu a diplomacii. Odměnou je ale simulace, která dodnes nemá u konkurence plnohodnotnou náhradu v podobnosti a hloubce, a právě proto si hra i přes svou obtížnost drží věrné jádro fanoušků, kteří se k ní vracejí i po letech navzdory dostupnosti novějších titulů.\n\nRozhraní a umělá inteligence zestárly a bez komunitních modů a neoficiálních úprav pro běh na moderním hardwaru je hra dnes o dost méně přístupná než novější tituly na trhu, což od ní řadu zájemců odrazuje hned v prvních hodinách. I tak ji řada hráčů považuje za nedostižnou v hloubce ekonomické simulace, kterou později ani přímý nástupce Victoria 3 podle části komunity zcela nenahradil, byť ji zpřístupnil mnohem širšímu publiku.\n\n**Proč hrát:** Pro hráče, které baví ekonomika víc než bitvy a jsou ochotní překousnout zastaralé rozhraní kvůli hloubce, jakou žádná jiná strategie nenabízí.",
+          "image": "/images/games/pc-modern/pc-modern__victoria-ii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__victoria-ii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__victoria-3",
+          "name": "Victoria 3",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2022",
+          "studio": "Paradox Development Studio",
+          "est": null,
+          "teaser": "Moderní návrat do viktoriánské éry s přepracovanou ekonomikou a výrobními řetězci.",
+          "detail": null,
+          "article": "**Victoria 3** z roku 2022 je moderní návrat do viktoriánského století, který přebírá základní myšlenku předchůdce – ekonomiku poháněnou skupinami obyvatel a výrobními řetězci – a staví ji na přepracovaných, přístupnějších základech. Hráč spravuje suroviny, továrny a obchodní trasy podobně jako ve dvojce, ale s přehlednějším rozhraním, jasnějším provázáním mezi ekonomikou a politikou a bez nutnosti dešifrovat desítky let staré menu, které dvojku dodnes drží mimo dosah běžného hráče.\n\nVálčení je oproti ekonomické části záměrně zjednodušené a odehrává se spíš na pozadí než jako hlavní náplň hraní, což po vydání rozdělilo fanoušky série – část ocenila důraz na hospodářství, obchod a diplomacii, jiná postrádala hlubší vojenský systém, na jaký byla zvyklá ze starší Victorie II a jejích detailních bitev. Paradox hru od vydání postupně vylepšuje aktualizacemi a datadisky, které řeší jak vyváženost ekonomiky a diplomacie, tak chybějící obsah a zpětnou vazbu komunity, takže se hra od premiéry citelně proměnila.\n\nI s počátečními nedostatky nabízí Victoria 3 dnes nejpřístupnější cestu, jak si vyzkoušet ekonomickou grandstrategii 19. století, aniž by hráč musel bojovat s archaickým rozhraním staršího dílu. Pro hráče, kteří dvojku odradila složitostí, tak znamená citelně kratší dobu, než se v systémech zorientují a začnou hru skutečně chápat a užívat si ji.\n\n**Proč hrát:** Dobrá volba pro hráče, kteří chtějí ekonomicky zaměřenou grandstrategii s moderním ovládáním a nevadí jim, že válčení tu hraje druhé housle.",
+          "image": "/images/games/pc-modern/pc-modern__victoria-3.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__victoria-3.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__sid-meier-s-civilization-iii",
+          "name": "Sid Meier's Civilization III",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2001",
+          "studio": "Firaxis Games",
+          "est": null,
+          "teaser": "Zavedla kulturní hranice a korupci; jeden z nejmilovanějších dílů Civilization.",
+          "detail": null,
+          "article": "**Sid Meier's Civilization III** z roku 2001 od studia Firaxis Games přinesla do tahové strategie o budování civilizace několik prvků, které se staly na dlouhá léta standardem série – kulturní hranice, jež se rozpínají podle vlivu měst a mohou přebírat cizí území bez jediné vypálené šipky, a systém korupce, kvůli kterému vzdálená území od hlavního města hůř fungují a nutí hráče přemýšlet o velikosti říše promyšleněji než dřív. Hráč tak neplánuje jen vojenskou expanzi, ale i to, kde má smysl zakládat další města, aby se říše nerozpadla vlastní neefektivitou.\n\nKaždá civilizace navíc dostala vlastní charakteristické rysy, vůdce a jednotky, což hře dodalo výraznější identitu jednotlivých národů oproti starším dílům série a odlišilo si každou partii podle zvolené civilizace. Rozšíření Play the World přineslo multiplayer pro více hráčů a Conquests pak sadu historických scénářů spolu s dalšími úpravami vyvážení, díky nimž se trojka dočkala dlouhého posmrtného života v komunitě hráčů tahových strategií i po vydání dalších dílů série.\n\nVe své době šlo o jeden z nejmilovanějších dílů série, byť s pozdějšími pokračováními, hlavně čtyřkou a pětkou, přišly modernější systémy, které dnešní nováčky bez nostalgické vazby spíš osloví víc a lépe je uvedou do žánru. Přesto trojka zůstává důležitým mezníkem – hodně mechanik, na které je série dodnes zvyklá a se kterými počítají i novější díly, se poprvé objevilo právě zde a odsud se šířilo dál.\n\n**Proč hrát:** Tip pro fanoušky Civilization, kteří chtějí poznat kořeny kulturních hranic a korupce, než se pustí do novějších a přístupnějších dílů série.",
+          "image": "/images/games/pc-modern/pc-modern__sid-meier-s-civilization-iii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__sid-meier-s-civilization-iii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__sid-meier-s-civilization-v",
+          "name": "Sid Meier's Civilization V",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2010",
+          "studio": "Firaxis Games",
+          "est": null,
+          "teaser": "Přechod na hexagonální mapu a jedna jednotka na políčko; revoluce v tahové strategii.",
+          "detail": null,
+          "article": "**Sid Meier's Civilization V** z roku 2010 opustila čtvercovou mapu předchozích dílů ve prospěch hexagonální sítě a zavedla pravidlo jedna jednotka na políčko, díky kterému se z pohybu armád stala mnohem taktičtější záležitost než dřív – hráč už nemohl jednoduše navršit desítky jednotek na jedno pole a čekat, kdo vyhraje počty, ale musel jednotky rozmisťovat po mapě s ohledem na terén a úzká hrdla. Ke slovu se dostaly i městské státy jako samostatná diplomatická síla a nový systém společenských politik nahradil dřívější formy vlády ze čtvrtého dílu.\n\nTyto změny v době vydání rozdělily hráče série – část ocenila hlubší taktiku bojů a přehlednější mapu, jiná postrádala některé mechaniky ze čtyřky, které se do pětky hned nedostaly a chyběly celé roky, než je doplnily datadisky. Gods & Kings a hlavně Brave New World ale hru postupně doplnily o náboženství, špionáž, kulturu a mezinárodní obchod natolik, že finální, plně rozšířená verze bývá dnes považována za jeden z nejvyváženějších zážitků v celé sérii Civilization.\n\nCivilization V patří i s odstupem let mezi nejhranější díly série díky přístupnému ovládání, propracovanému multiplayeru a rozsáhlé modding komunitě, která hru dodnes rozšiřuje o nové civilizace, mapy a scénáře, a to i dlouho po vydání šestého dílu, jenž na pětku navázal ještě propracovanějším systémem měst a distriktů. Řada hráčů navíc dodnes upřednostňuje pětku právě pro její přehlednější a méně rozkouskovanou mapu měst.\n\n**Proč hrát:** Skvělý vstupní bod do série pro nováčky i výborná volba pro veterány díky hexagonální taktice a vyváženému obsahu po obou datadiscích.",
+          "image": "/images/games/pc-modern/pc-modern__sid-meier-s-civilization-v.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__sid-meier-s-civilization-v.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__sid-meier-s-civilization-vi",
+          "name": "Sid Meier's Civilization VI",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2016",
+          "studio": "Firaxis Games",
+          "est": null,
+          "teaser": "Zavedla systém distriktů rozkládajících město do okolí; nejhlubší díl série.",
+          "detail": null,
+          "article": "**Sid Meier's Civilization VI** posunula tahovou strategii o krok dál tím, že město poprvé v sérii přestalo být jedním políčkem a rozlilo se do okolní krajiny formou samostatných distriktů. Vědecká čtvrť, komerční centrum nebo divadlo najednou zabírají vlastní pole na mapě, takže se plánování rozvoje mění v prostorovou hádanku, kde terén, sousedství civilizací a přírodní zdroje rozhodují stejnou měrou jako technologický strom. K tomu přibyl systém politik s kartami, které lze měnit podle aktuální situace, a odděleny byly i technologický a společenský (kulturní) strom, takže hráč rozvíjí vědu i civilizaci paralelně.\n\nHra zachovává základní kostru série založenou na budování říše od starověku po vesmírný věk, tahovém pohybu jednotek a diplomacii s umělou inteligencí vedoucích, kteří mají výrazné osobnosti a vlastní agendy. Firaxis Games po startu hru dlouhodobě rozšiřovalo o datadisky Rise and Fall a Gathering Storm, které přidaly éry úpadku a rozkvětu civilizací i klimatické změny jako herní mechaniku. Vizuálně hra vsadila na stylizovanou, barevnější grafiku než předchozí díl, což zpočátku rozdělilo fanoušky, ale s postupnými aktualizacemi rozhraní a vyvážením se ustálila jako nejucelenější verze konceptu 4X strategie, jaký série dosud nabídla.\n\nDíky množství civilizací, vůdců a herních režimů patří mezi tituly, které dokážou pohltit na desítky hodin v jedné rozehrané partii, a to i bez multiplayeru. Pro nováčky v žánru je vstup o něco náročnější než u starších dílů kvůli množství systémů, které se učí postupně.\n\n**Proč hrát:** Pro fanoušky tahových strategií, kteří chtějí nejpropracovanější a nejrozvětvenější díl Civilization s distrikty a politickými kartami, ale měli by počítat s delší křivkou učení.",
+          "image": "/images/games/pc-modern/pc-modern__sid-meier-s-civilization-vi.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__sid-meier-s-civilization-vi.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__simcity-4",
+          "name": "SimCity 4",
+          "genre": "Budovatelská",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2003",
+          "studio": "Maxis",
+          "est": null,
+          "teaser": "Legendární budovatelská klasika od Maxis s propracovanou simulací RCI zón.",
+          "detail": null,
+          "article": "**SimCity 4** dovedla klasickou simulaci budování měst od studia Maxis k dosud nejpodrobnější podobě, jakou série nabídla. Hráč nezakládá jen jedno město, ale spravuje celý region tvořený sousedícími pozemky, mezi kterými proudí obyvatelé za prací, doprava a znečištění, takže rozhodnutí v jednom městě se projeví i u sousedů. Základem zůstává systém RCI zón (rezidenční, komerční, industriální), jejichž poptávku hráč sleduje na grafech a reguluje daněmi, infrastrukturou a veřejnými službami, od hasičů přes školství po elektrárny.\n\nOproti předchozím dílům přibyla vrstva mikromanagementu i makropohledu na region a také propracovaný simulační engine, který bere v úvahu terén, sklon terénu pro stavbu silnic či hluk z letiště. Hra zároveň zůstala vizuálně stylizovaná, s nadhledovou izometrickou kamerou, a i po letech je ceněná především za hloubku ekonomické a dopravní simulace, kterou pozdější komerční pokusy v žánru dlouho nedokázaly předčit.\n\nKomunita kolem hry navíc dodnes udržuje modifikace a nástroje, které rozšiřují obsah budov a opravují chování simulace na moderním hardwaru, takže je hra i přes svůj věk stále hratelná a v mnoha ohledech nepřekonaná. Právě proto zůstává SimCity 4 pro řadu fanoušků žánru referenčním bodem, ke kterému se novější díly stále poměřují.\n\n**Proč hrát:** Ideální pro fanoušky hlubokých ekonomických simulací, kteří nevadí staršímu vzhledu a ocení propracovanost regionální správy měst, jakou pozdější díly série ani konkurence dlouho nenabídly.",
+          "image": "/images/games/pc-modern/pc-modern__simcity-4.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__simcity-4.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__simcity",
+          "name": "SimCity",
+          "genre": "Budovatelská",
+          "length": "L",
+          "flags": [],
+          "year": "2013",
+          "studio": "Maxis",
+          "est": null,
+          "teaser": "Kontroverzní restart s always-online DRM a malými pozemky; propadák, co poškodil značku.",
+          "detail": null,
+          "article": "**SimCity** z roku 2013 měl být restartem legendární série pro novou generaci hráčů, ale vydání provázela řada problémů, které z něj udělaly jeden z nejdiskutovanějších propadáků žánru. Hra vsadila na trvalé připojení k internetu i v singleplayeru (always-online DRM), oficiálně kvůli sdílenému simulačnímu enginu mezi sousedícími městy, v praxi ale servery při startu nezvládaly nápor hráčů a mnozí se ke svým rozehraným městům celé dny nedostali. Ke kritice přispěla i výrazně menší velikost stavebních pozemků oproti starším dílům, což omezovalo možnosti dlouhodobého plánování, na které byli fanoušci SimCity 4 zvyklí.\n\nPod povrchem přitom hra přinesla zajímavé nápady, především detailní simulaci dopravy po jednotlivých vozidlech a systém specializací měst, kdy se sousední města v regionu mohla zaměřit na těžbu, kulturu nebo obchod a vzájemně se doplňovat. Vizuálně šlo o hezky zpracovanou hru s plynulým přechodem mezi denní a noční simulací.\n\nReputaci ale poškodily jak technické problémy při startu, tak pocit, že hra byla navržena tak, aby vynucovala online připojení i tam, kde to hratelnosti nepřinášelo nic navíc. Studio Maxis a vydavatel Electronic Arts čelili za tento krok dlouhodobé kritice a k obnovení důvěry fanoušků v sérii už za života studia nedošlo.\n\n**Proč hrát:** Spíš historická zajímavost než doporučení bez výhrad, hra dnes vyžaduje online připojení a nabízí podstatně menší města než starší díly, takže noví hráči budovatelských strategií sáhnou lépe po SimCity 4 nebo Cities: Skylines.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__cities-skylines",
+          "name": "Cities: Skylines",
+          "genre": "Budovatelská",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2015",
+          "studio": "Colossal Order",
+          "est": null,
+          "teaser": "Nástupce, který po propadáku SimCity 2013 zachránil žánr díky Steam Workshopu.",
+          "detail": null,
+          "article": "**Cities: Skylines** přišlo jen dva roky po nepovedeném restartu SimCity a stalo se hrou, která žánr budovatelských simulací fakticky zachránila. Finské studio Colossal Order, které mělo zkušenosti z menší série Cities in Motion zaměřené na dopravu, postavilo hru na principu, který SimCity 2013 chyběl: rozsáhlé mapy bez umělého omezení velikosti, žádné vynucené online připojení a hluboká simulace dopravy, na které stojí většina výzev pozdní hry. Hráč zakládá a rozšiřuje město od nuly, řeší zónování, veřejnou dopravu, energetiku i odpadové hospodářství, přičemž dopravní zácpy patří mezi nejčastější problémy, které nutí přestavovat celé čtvrti.\n\nZásadní roli v úspěchu hry sehrála otevřenost vůči modifikacím přes Steam Workshop, díky které si komunita během let vytvořila tisíce doplňků od nových budov přes dopravní nástroje až po kompletní přepracování simulace. Vydavatel Paradox Interactive navíc hru dlouhodobě podporoval sérií rozšíření, která přidávala zimní klima, katastrofy, mosty a přístavy nebo kampusy vysokých škol, takže se základní hra postupně rozrostla o řadu volitelných vrstev.\n\nPrávě kombinace přístupnosti pro nové hráče a hloubky pro pokročilé z ní udělala dlouhodobě nejhranější budovatelskou strategii své generace a stala se referenčním titulem, se kterým se dnes srovnává většina nových her tohoto žánru.\n\n**Proč hrát:** Ideální volba pro každého, kdo chce stavět a spravovat město bez umělých omezení a s podporou tisíců komunitních modifikací, ať už je nováček nebo ostřílený veterán žánru.",
+          "image": "/images/games/pc-modern/pc-modern__cities-skylines.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__cities-skylines.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__cities-skylines-ii",
+          "name": "Cities: Skylines II",
+          "genre": "Budovatelská",
+          "length": "XL",
+          "flags": [],
+          "year": "2023",
+          "studio": "Colossal Order",
+          "est": null,
+          "teaser": "Pokračování, které při vydání trápily výkonnostní problémy; ambice předčily stav hry.",
+          "detail": null,
+          "article": "**Cities: Skylines II** navázalo na úspěšný první díl s ambicí posunout simulaci měst ještě dál, mimo jiné propracovanějším ekonomickým modelem, detailnější simulací jednotlivých obyvatel a jejich potřeb i vylepšenou dopravní sítí. Colossal Order slibovalo hlubší provázanost mezi zdravím, vzděláním a zaměstnaností obyvatel a jejich dopadem na chod města, což mělo hráčům dát více důvodů přemýšlet nad dlouhodobými důsledky rozhodnutí, ne jen nad okamžitým růstem počtu obyvatel.\n\nVydání ale poznamenaly výrazné výkonnostní problémy, hra měla vysoké nároky na hardware a propady snímkové frekvence i na výkonných sestavách, což při srovnání s vizuálně podobným, ale lépe optimalizovaným prvním dílem vyvolalo zklamání části komunity. Chyběla také okamžitá podpora Steam Workshopu, na kterou byli hráči zvyklí z předchozí hry, a doplnila se až s odstupem.\n\nVydavatel Paradox Interactive a Colossal Order po startu hru postupně opravovali a doplňovali formou aktualizací a placených rozšíření, podobně jako u předchozího dílu, takže se stav hry v čase průběžně zlepšoval a přibližoval k původním ambicím projektu. Systém zónování a stavby silnic zůstal ovládáním blízký prvnímu dílu, takže se v něm veteráni série zorientují rychle, zatímco propracovanější ekonomické grafy a statistiky ocení hráči, kteří chtějí do chodu města vidět víc pod povrchem.\n\n**Proč hrát:** Vhodné spíš pro fanoušky série, kteří chtějí nejnovější a nejpodrobnější simulaci a mají výkonný počítač i trpělivost s hrou, jejíž stav se dolaďuje formou aktualizací; kdo chce hru bez výhrad hned teď, sáhne po prvním díle.",
+          "image": "/images/games/pc-modern/pc-modern__cities-skylines-ii.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__cities-skylines-ii.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__tropico-4",
+          "name": "Tropico 4",
+          "genre": "Budovatelská",
+          "length": "L",
+          "flags": [],
+          "year": "2011",
+          "studio": "Haemimont Games",
+          "est": null,
+          "teaser": "Vtipná budovatelská satira na diktátora tropického ostrova; jeden z nejoblíbenějších dílů.",
+          "detail": null,
+          "article": "**Tropico 4** je budovatelská strategie s výraznou dávkou humoru, ve které se hráč vžívá do role El Presidente, vládce malého karibského ostrovního státu, kterého ovládá napříč studenou válkou i dobou po ní. Oproti klasickým budovatelským hrám typu SimCity zde nejde jen o ekonomiku a infrastrukturu, ale i o politiku: hráč musí vyvažovat vztahy s velmocemi, plnit sliby jednotlivým frakcím obyvatel od komunistů po nacionalisty a čelit hrozbám povstání, voleb nebo přírodních katastrof, zatímco kolem sebe buduje plantáže, továrny a turistický průmysl.\n\nStudio Haemimont Games doladilo formuli, kterou nastartoval již třetí díl, a přidalo nové budovy, mise i systém dynastie, kdy členové prezidentovy rodiny zastávají funkce v administrativě. Atmosféru dotváří ironický komentář vypravěče a karibská hudba, díky nimž hra působí odlehčeně i ve chvílích, kdy se řeší vážná témata jako korupce nebo diktatura.\n\nPrávě kombinace přístupné hratelnosti, satirického tónu a dostatečné hloubky ekonomických a politických mechanik z něj udělala mezi fanoušky série jeden z nejoblíbenějších a nejhranějších dílů, ke kterému se hráči vraceli i po vydání pozdějších pokračování. Ovládání zůstává klasické pro žánr izometrických budovatelských strategií, myší se zakládají budovy a spravují dekrety, takže vstup do hry je pro znalce podobných titulů intuitivní téměř okamžitě.\n\n**Proč hrát:** Skvělá volba pro každého, kdo chce budovatelskou strategii okořeněnou politikou a černým humorem, aniž by musel řešit přílišnou komplexitu; přístupné i pro hráče, kteří s žánrem teprve začínají.",
+          "image": "/images/games/pc-modern/pc-modern__tropico-4.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__tropico-4.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__tropico-6",
+          "name": "Tropico 6",
+          "genre": "Budovatelská",
+          "length": "L",
+          "flags": [],
+          "year": "2019",
+          "studio": "Limbic Entertainment",
+          "est": null,
+          "teaser": "Poprvé umožňuje spravovat víc ostrovů najednou; vývoj převzalo studio Limbic.",
+          "detail": null,
+          "article": "**Tropico 6** rozšířilo dlouholetou sérii o vládci karibského ostrova zásadní novinkou: hráč poprvé spravuje souostroví více ostrovů najednou, mezi kterými je potřeba budovat mosty a přístavy a rozdělovat mezi ně průmysl, zemědělství i turistiku. Vývoje se po předchozích dílech od Haemimont Games ujalo německé studio Limbic Entertainment, které konceptu zachovalo satirický tón i politické mechaniky, jako je vyvažování vztahů s velmocemi či plnění požadavků frakcí obyvatel, a doplnilo je o nové prvky, mimo jiné možnost krást slavné památky ze zahraničí a vystavovat je na vlastním ostrově.\n\nEkonomický a stavební systém se rozšířil o propracovanější dopravní infrastrukturu a detailnější správu jednotlivých ér od kolonialismu přes světové války a studenou válku až po moderní dobu, přičemž každá éra přináší vlastní technologie a politické tlaky. Grafika prošla oproti předchozím dílům citelným vizuálním posunem směrem k detailnějším modelům budov a postav.\n\nI díky tomu hra oslovila jak dlouholeté fanoušky série, tak nové hráče, kteří se s konceptem satirické budovatelské strategie setkali poprvé, a stala se jedním z komerčně nejúspěšnějších dílů série. Nový systém více ostrovů zároveň prodlužuje pozdní hru, protože hráč musí plánovat logistiku mezi jednotlivými částmi souostroví místo prostého rozšiřování jednoho území.\n\n**Proč hrát:** Pro hráče, kteří znají předchozí díly Tropico a chtějí si vyzkoušet správu více ostrovů najednou i nové mechaniky, ale ocení ho i nováčci hledající odlehčenou budovatelskou strategii s výrazným humorem.",
+          "image": "/images/games/pc-modern/pc-modern__tropico-6.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__tropico-6.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__rome-total-war",
+          "name": "Rome: Total War",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2004",
+          "studio": "The Creative Assembly",
+          "est": null,
+          "teaser": "Přelomový díl, který definoval sérii Total War; masivní bitvy antického Říma.",
+          "detail": null,
+          "article": "**Rome: Total War** je dílem, které v roce 2004 definovalo podobu celé série Total War na dlouhé roky dopředu a stalo se jedním z nejvlivnějších titulů žánru historických strategií. Hra spojuje tahovou strategickou mapu, na které hráč jako vůdce jedné z antických frakcí spravuje provincie, ekonomiku a diplomacii, s reálně odehrávanými bitvami, kde se na obrazovce mohou srazit tisíce jednotek najednou v plně trojrozměrném terénu. Právě tento kontrast mezi pomalým strategickým plánováním a taktickým chaosem bitevního pole dal sérii charakteristickou identitu, kterou pozdější díly už jen rozvíjely.\n\nStudio The Creative Assembly oproti předchozím dílům série (Shogun a Medieval) přesunulo dění z Japonska a středověké Evropy do antického Říma a okolních civilizací, což umožnilo zobrazit legie, válečné slony či fungující formace falangy. Kampaň nabízela hraní za Řím i za takzvané barbarské a exotické frakce, přičemž samotné dobytí Říma bylo možné jako jeden z hratelných scénářů.\n\nHra si díky kombinaci hloubky, přístupnosti a vizuální velkoleposti bitev získala široké publikum i mimo tradiční fanoušky strategií a odstartovala řadu pokračování, která dodnes definují žánr historických tahových a real-time strategií. Ovládání kombinuje tahové rozhodování na strategické mapě s přímým velením jednotkám v bitvách, kde hráč rozestavuje formace a řídí souboje v reálném čase, což byl v době vydání pro žánr strategií poměrně nový přístup.\n\n**Proč hrát:** Klíčový titul pro každého, koho zajímá historie žánru Total War nebo antický Řím, byť grafika a rozhraní dnes už logicky nesou stopy svého věku.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__medieval-ii-total-war",
+          "name": "Medieval II: Total War",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2006",
+          "studio": "The Creative Assembly",
+          "est": null,
+          "teaser": "Fanoušky často označovaný za vrchol série; středověké tažení s hlubokou strategií.",
+          "detail": null,
+          "article": "**Medieval II: Total War** rozšířil formuli, kterou nastartoval Rome: Total War, o středověkou Evropu, Blízký východ a severní Afriku a mezi fanoušky série je dodnes často zmiňovaný jako jeden z jejích vrcholů. Hráč vede jednu z evropských nebo mimoevropských frakcí od raného středověku přes křížové výpravy až po objevení Nového světa, přičemž kampaň kombinuje správu měst a provincií, diplomacii s papežem a dalšími vládci i budování armád složených z rytířů, lučištníků nebo obléhací techniky.\n\nStudio The Creative Assembly doplnilo bitevní systém o realističtější souboje jednotlivých formací, vylepšenou umělou inteligenci a nové mechaniky jako náboženství a heretiky, které ovlivňují stabilitu provincií. Kampaň navíc umožňovala i expedice do Ameriky po jejím objevení, což byla ve své době poměrně neobvyklá volba pro historickou strategii zaměřenou primárně na středověk.\n\nHloubka diplomatických a ekonomických systémů v kombinaci s vizuálně velkolepými bitvami, kde se mohou srazit stovky obrněných jednotek, z něj udělala referenční bod, ke kterému se fanoušci série vraceli i po vydání novějších dílů, mimo jiné díky aktivní modderské komunitě, která hru rozšiřovala o roky dalšího obsahu. Součástí hry byl i editor kampaní a bitev, díky kterému vznikly rozsáhlé neoficiální mody přidávající celé nové éry a frakce.\n\n**Proč hrát:** Doporučeníhodné pro fanoušky středověké historie a tahových strategií, kteří hledají hluboký a fanoušky dlouhodobě ceněný díl série Total War, i když je dnes potřeba počítat se staršími technickými limity.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__total-war-shogun-2",
+          "name": "Total War: Shogun 2",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2011",
+          "studio": "The Creative Assembly",
+          "est": null,
+          "teaser": "Návrat ke kořenům série ve feudálním Japonsku; jeden z nejlépe hodnocených dílů.",
+          "detail": null,
+          "article": "**Total War: Shogun 2** vrátil sérii po několika dílech zasazených do jiných období zpět tam, kde vše začalo: do feudálního Japonska. Hráč jako jeden z japonských klanů usiluje o sjednocení země pod svou vládou, přičemž kampaň klade důraz nejen na vojenskou expanzi, ale i na politiku, obchod a náboženství, které ovlivňují stabilitu a loajalitu provincií. Bitvy zůstávají jádrem hry, tentokrát s japonskými jednotkami jako samurajové, ašigaru s kopími nebo raná palná zbraň v podobě arkebuz, jejichž zavedení mění taktiku boje uprostřed kampaně.\n\nStudio The Creative Assembly se po zkušenostech s předchozími díly zaměřilo na zpřehlednění a vyladění hratelnosti, díky čemuž hra patří mezi technicky nejstabilnější a nejlépe vybalancované tituly série. Vizuálně se hra soustředila na stylizovanou krásu japonské krajiny, květy sakur a detailní zbroje jednotek, k čemuž přispěla i hudba čerpající z japonských nástrojů.\n\nPřidán byl také samostatný režim Avatar Conquest pro online souboje hráčů, který propojoval jednotlivé bitvy do širší mapové kampaně mezi klany hráčů. Kombinace vyladěných mechanik, atmosféry a přístupnosti z něj udělala mezi fanoušky i recenzenty jeden z nejlépe hodnocených dílů celé série, a to i díky přehlednému rozhraní kampaně, které usnadňuje orientaci v politických vztazích mezi jednotlivými klany.\n\n**Proč hrát:** Skvělý vstupní bod do série Total War i pro nováčky díky vyladěné hratelnosti a přehlednosti, zároveň dostatečně hluboký pro veterány hledající atmosféru feudálního Japonska.",
+          "image": "/images/games/pc-modern/pc-modern__total-war-shogun-2.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__total-war-shogun-2.jpg",
+              "label": "Obal",
+              "kind": "box"
+            }
+          ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__total-war-warhammer-ii",
+          "name": "Total War: Warhammer II",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2017",
+          "studio": "The Creative Assembly",
+          "est": null,
+          "teaser": "Přechod k fantasy světu Warhammer; spojená kampaň Mortal Empires s prvním dílem.",
+          "detail": null,
+          "article": "**Total War: Warhammer II** navazuje na první díl a přenáší sérii z historických bojišť do fantasy světa Warhammer, kde se o nadvládu nad kontinentem Ulthuan přou čtyři frakce: Vysocí elfové, Temní elfové, Skaveni a Ještěří lidé. Každá strana má vlastní styl hraní, jednotky i příběhovou kampaň postavenou na sběru magických artefaktů a závěrečném rituálu, který rozhoduje o vítězství. Oproti historickým dílům série tu přibývá magie, hrdinové s vlastními schopnostmi a nestvůry jako draci nebo obří krysí ohavnosti, takže bitvy působí divočeji a vizuálně efektněji než klasická střetnutí legií.\n\nHra kombinuje tahovou strategickou mapu, na níž hráč spravuje ekonomiku, diplomacii a výzkum, s bitvami v reálném čase, kde rozhoduje postavení jednotek, terén a morálka. The Creative Assembly ve Warhammer II vylepšilo frakční mechaniky z prvního dílu a přidalo hlubší rozvoj legendárních lordů v duchu RPG. Zásadní krok přišel po vydání, kdy studio propojilo mapy obou dílů do obří kampaně Mortal Empires zahrnující desítky frakcí a stovky hodin obsahu; pro řadu hráčů se právě tato spojená kampaň stala hlavním důvodem ke koupi.\n\nSérii to přineslo nové publikum z řad fanoušků deskové hry Warhammer Fantasy Battles i strategických hráčů, kteří ocenili odvahu opustit ryze historické prostředí. Třetí díl trilogii později uzavřel a všechny tři hry byly nakonec propojeny do jednoho rozsáhlého celku, čímž se Warhammer II stal spíše přechodovým, ale nepostradatelným článkem celé série.\n\n**Proč hrát:** Fanouškům tahových strategií a fantasy světa Warhammer, kteří ocení desítky až stovky hodin hraní v kampani Mortal Empires plné rozmanitých frakcí, hrdinů a velkolepých bitev.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__total-war-three-kingdoms",
+          "name": "Total War: Three Kingdoms",
+          "genre": "Strategie",
+          "length": "XL",
+          "flags": [],
+          "year": "2019",
+          "studio": "The Creative Assembly",
+          "est": null,
+          "teaser": "Historická Čína tří říší s důrazem na charismatické hrdiny a diplomacii.",
+          "detail": null,
+          "article": "**Total War: Three Kingdoms** opouští fantasy prostředí a vrací sérii k historii, byť silně stylizované – hráč velí jedné z frakcí bojujících o Čínu na sklonku dynastie Chan, v období legendárního příběhu Tří říší. Namísto anonymních generálů tu vystupují charismatičtí hrdinové jako Cao Cao, Liou Pej nebo Sun Ťien, kteří mají vlastní vlastnosti, vzájemné vztahy a soubojové schopnosti a dokážou v bitvě rozhodnout osobním duelem s nepřátelským velitelem. Hra nabízí dva režimy: realističtější Records, blížící se historickým pramenům, a barvitější Romance inspirovaný slavným románem, kde hrdinové bojují jako téměř nadlidští válečníci.\n\nKampaň klade větší důraz na diplomacii, sňatky, spiknutí a budování osobních vztahů mezi vládci než dřívější díly série, k čemuž The Creative Assembly vytvořilo propracovaný systém frakčních rysů a mezilidských vazeb. Bitvy zůstávají v reálném čase s taktickým řízením jednotek, ale duely hrdinů a jejich individuální schopnosti přidávají výrazný RPG rozměr. Vizuální styl i hudba čerpají z čínské estetiky a dobových motivů, čímž se hra citelně odlišuje od evropsky laděných předchůdců.\n\nThree Kingdoms se stal jedním z komerčně nejúspěšnějších dílů série a přitáhl i hráče, kteří se dosud fantasy světem ani evropskou historií Total War nezabývali. Ukázal, že značka dokáže fungovat i mimo zavedené prostředí, pokud nabídne dostatečně odlišný přístup k diplomacii, postavám a vyprávění.\n\n**Proč hrát:** Hráčům, kteří chtějí tahovou strategii s výraznými hrdiny, diplomacií a soubojovým duelovým systémem zasazenou do historicky inspirované Číny tří říší.",
+          "image": "/images/games/pc-modern/pc-modern__total-war-three-kingdoms.jpg",
+          "gallery": [
+            {
+              "src": "/images/games/pc-modern/pc-modern__total-war-three-kingdoms.jpg",
               "label": "Obal",
               "kind": "box"
             }
@@ -160771,11 +161505,11 @@
   ],
   "stats": {
     "platforms": 75,
-    "games": 4885,
+    "games": 4915,
     "withDetail": 476,
-    "withTeaser": 4864,
-    "withArticle": 4881,
+    "withTeaser": 4900,
+    "withArticle": 4911,
     "platformImages": 75,
-    "gameImages": 4191
+    "gameImages": 4208
   }
 }

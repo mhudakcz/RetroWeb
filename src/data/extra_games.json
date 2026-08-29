@@ -9460,6 +9460,30 @@
    "genre": "Akční simulace mechů",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Silent Hill: Homecoming",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Silent Hill: Downpour",
+   "genre": "Survival horor",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Silent Hill HD Collection",
+   "genre": "Survival horor",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "ps4": [
@@ -15942,6 +15966,20 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "SimCity 3000",
+   "genre": "Budovatelská",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Medieval: Total War",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -17171,6 +17209,22 @@
    "genre": "Adventura",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Sid Meier's Civilization",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SimCity",
+   "genre": "Budovatelská",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "pc-modern": [
@@ -19560,6 +19614,156 @@
    "genre": "plošinovka",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Hearts of Iron II",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hearts of Iron III",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hearts of Iron IV",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Europa Universalis II",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Europa Universalis III",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Crusader Kings II",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Victoria II",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Victoria 3",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Sid Meier's Civilization III",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Sid Meier's Civilization V",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sid Meier's Civilization VI",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SimCity 4",
+   "genre": "Budovatelská",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "SimCity",
+   "genre": "Budovatelská",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Cities: Skylines",
+   "genre": "Budovatelská",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cities: Skylines II",
+   "genre": "Budovatelská",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Tropico 4",
+   "genre": "Budovatelská",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tropico 6",
+   "genre": "Budovatelská",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Rome: Total War",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Medieval II: Total War",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Total War: Shogun 2",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Total War: Warhammer II",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Total War: Three Kingdoms",
+   "genre": "Strategie",
+   "length": "XL",
+   "flags": []
   }
  ],
  "3do": [
@@ -21563,6 +21767,14 @@
    "genre": "Akcni plosinovka",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Silent Hill f",
+   "genre": "Survival horor",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "sega-32x": [
