@@ -1,0 +1,207 @@
+---
+import GameCard from './GameCard.astro';
+import { getMagazineIssue, mdBlock, magazineIssues, plural } from '../lib/data';
+
+const { id } = Astro.props as { id: string };
+const v = getMagazineIssue(id)!;
+const prev = v.prev ? getMagazineIssue(v.prev) : null;
+const next = v.next ? getMagazineIssue(v.next) : null;
+
+// Hry v čísle se řadí podle platformy — v časopise byly recenze taky
+// pohromadě podle stroje, ne rozsypané.
+const podlePlatformy = [...new Map(
+  v.hry.map((g) => [g.platform.slug, v.hry.filter((x) => x.platform.slug === g.platform.slug)]),
+).entries()].sort((a, b) => b[1].length - a[1].length);
+
+const cislaRoku = magazineIssues.filter((x) => x.rok === v.rok);
+---
+
+<article class="mag">
+  <nav class="crumbs muted container" aria-label="breadcrumb">
+    <a href="/magazin">Magazín</a> <span>/</span> <span>{v.rok}</span>
+    <span>/</span> <span>číslo {v.cislo}</span>
+  </nav>
+
+  <header class="cover container">
+    <div class="cover-in">
+      <p class="issue">Ročník {v.rok} · číslo {v.cislo}</p>
+      <h1>{v.titulek || `Magazín ${v.rok}/${v.cislo}`}</h1>
+      <p class="counts muted">
+        {plural(v.hry.length, 'hra', 'hry', 'her')}
+        {v.platformy.length > 0 && <> · {plural(v.platformy.length, 'nová platforma', 'nové platformy', 'nových platforem')}</>}
+      </p>
+      {cislaRoku.length > 1 && (
+        <nav class="ynav" aria-label={`Čísla ročníku ${v.rok}`}>
+          {cislaRoku.map((c) => (
+            <a href={`/magazin/${c.id}`} class={c.id === v.id ? 'on' : ''}>{c.cislo}</a>
+          ))}
+        </nav>
+      )}
+    </div>
+  </header>
+
+  <div class="container narrow">
+    <section class="edit">
+      <h2 class="rub">Editorial</h2>
+      <div class="prose" set:html={mdBlock(v.editorial)} />
+    </section>
+
+    {v.platformy.length > 0 && (
+      <section class="novinky">
+        <h2 class="rub">Nové stroje</h2>
+        <div class="plats">
+          {v.platformy.map((p) => (
+            <a class="plat" href={`/platformy/${p.slug}`} style={`--c1:${p.color}; --c2:${p.color2}`}>
+              {p.image && <img src={p.image} alt={p.name} loading="lazy" decoding="async" />}
+              <div>
+                <strong>{p.name}</strong>
+                <span class="muted">{p.maker}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {v.tema && (
+      <section class="tema">
+        <h2 class="rub">Téma čísla</h2>
+        <h3>{v.tema.nadpis}</h3>
+        <div class="prose" set:html={mdBlock(v.tema.text)} />
+      </section>
+    )}
+
+    {v.zebricek.length > 0 && (
+      <section class="zebricek">
+        <h2 class="rub">Žebříček čísla</h2>
+        <ol>
+          {v.zebricek.map((z) => (
+            <li>
+              <a href={`/hry/${z.game.slug}`}>
+                {z.game.image && <img src={z.game.image} alt="" loading="lazy" decoding="async" />}
+                <div>
+                  <strong>{z.game.name}</strong>
+                  <span class="muted plat-name">{z.game.platform.name}</span>
+                  <p>{z.text}</p>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+  </div>
+
+  <section class="recenze container">
+    <h2 class="rub">V tomto čísle</h2>
+    {podlePlatformy.map(([slug, hry]) => (
+      <div class="blok">
+        <h3><a href={`/platformy/${slug}`}>{hry[0].platform.name}</a> <span class="muted">({hry.length})</span></h3>
+        <div class="grid grid-games">
+          {hry.map((g) => <GameCard game={g} platform={g.platform} />)}
+        </div>
+      </div>
+    ))}
+    {v.odhad.size > 0 && (
+      <p class="odhad muted">
+        U {plural(v.odhad.size, 'hry', 'her', 'her')} v tomto čísle neznáme přesný rok vydání —
+        zařadily se přibližně podle roku uvedení své platformy.
+      </p>
+    )}
+  </section>
+
+  <div class="container narrow">
+    <section class="chystame">
+      <h2 class="rub">Příště</h2>
+      <p>{v.chystame}</p>
+      {next && <a class="next" href={`/magazin/${next.id}`}>Číslo {next.rok}/{next.cislo} →</a>}
+    </section>
+
+    <nav class="pager">
+      {prev
+        ? <a href={`/magazin/${prev.id}`}>← {prev.rok}/{prev.cislo}</a>
+        : <span />}
+      {next && <a class="r" href={`/magazin/${next.id}`}>{next.rok}/{next.cislo} →</a>}
+    </nav>
+  </div>
+</article>
+
+<style>
+  .crumbs { display: flex; gap: 8px; font-size: 0.9rem; padding-top: 18px; }
+  .crumbs a { color: inherit; }
+
+  /* obálka — jediné místo, kde si stránka dovolí velké písmo */
+  .cover { margin-top: 14px; }
+  .cover-in {
+    border: 1px solid var(--line); border-radius: 16px; padding: 34px 28px 26px;
+    background:
+      radial-gradient(120% 140% at 12% 0%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 62%),
+      var(--panel, var(--bg));
+  }
+  .issue {
+    font-family: var(--mono, ui-monospace, monospace); text-transform: uppercase;
+    letter-spacing: .14em; font-size: .74rem; color: var(--accent); margin: 0 0 10px;
+  }
+  .cover h1 { font-size: clamp(1.9rem, 6vw, 3.2rem); line-height: 1.05; margin: 0 0 12px; }
+  .counts { font-size: .95rem; }
+  .ynav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+  .ynav a {
+    min-width: 34px; text-align: center; padding: 5px 9px; border: 1px solid var(--line);
+    border-radius: 8px; font-size: .88rem; color: var(--muted); text-decoration: none;
+  }
+  .ynav a.on { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .ynav a:hover { color: var(--text); }
+
+  .rub {
+    font-family: var(--mono, ui-monospace, monospace); text-transform: uppercase;
+    letter-spacing: .12em; font-size: .76rem; color: var(--accent);
+    margin: 0 0 12px; padding-bottom: 7px; border-bottom: 1px solid var(--line);
+  }
+  section { margin-top: 42px; }
+
+  .tema h3 { font-size: clamp(1.3rem, 3.4vw, 1.75rem); margin: 0 0 12px; }
+
+  .plats { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+  .plat {
+    display: flex; align-items: center; gap: 14px; padding: 12px 14px; text-decoration: none;
+    border: 1px solid var(--line); border-radius: 12px; color: inherit;
+    background: linear-gradient(120deg, color-mix(in srgb, var(--c1) 16%, transparent), transparent 70%);
+  }
+  .plat:hover { border-color: var(--c1); }
+  .plat img { width: 62px; height: 46px; object-fit: contain; }
+  .plat div { display: flex; flex-direction: column; gap: 2px; }
+  .plat span { font-size: .82rem; }
+
+  .zebricek ol { list-style: none; counter-reset: z; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .zebricek li { counter-increment: z; }
+  .zebricek a {
+    display: grid; grid-template-columns: 30px 54px 1fr; align-items: center; gap: 14px;
+    padding: 11px 13px; border: 1px solid var(--line); border-radius: 12px;
+    text-decoration: none; color: inherit;
+  }
+  .zebricek a:hover { border-color: var(--accent); }
+  .zebricek a::before {
+    content: counter(z); font-family: var(--mono, ui-monospace, monospace);
+    font-size: 1.4rem; color: var(--accent); text-align: center;
+  }
+  .zebricek img { width: 54px; height: 54px; object-fit: cover; border-radius: 7px; }
+  .zebricek div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .zebricek .plat-name { font-size: .78rem; }
+  .zebricek p { margin: 3px 0 0; font-size: .9rem; color: var(--muted); }
+
+  .recenze .blok { margin-top: 26px; }
+  .recenze h3 { font-size: 1.05rem; margin: 0 0 12px; }
+  .recenze h3 a { color: inherit; }
+  .odhad { margin-top: 24px; font-size: .88rem; }
+
+  .chystame p { margin: 0 0 12px; }
+  .next { font-weight: 600; }
+
+  .pager { display: flex; justify-content: space-between; margin: 40px 0 10px; }
+  .pager .r { margin-left: auto; }
+
+  @media (max-width: 520px) {
+    .zebricek a { grid-template-columns: 24px 44px 1fr; gap: 10px; }
+    .zebricek img { width: 44px; height: 44px; }
+  }
+</style>

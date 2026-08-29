@@ -645,3 +645,74 @@ export function platformsByTypeLoc(locale: string): { type: PlatformType; items:
     items: ps.filter((p) => p.type === type).sort((a, b) => a.year - b.year),
   })).filter((g) => g.items.length > 0);
 }
+
+/** České skloňování počtu: 1 hra, 2–4 hry, 5+ her. */
+export function plural(n: number, one: string, few: string, many: string): string {
+  return `${n} ${n === 1 ? one : n >= 2 && n <= 4 ? few : many}`;
+}
+
+// ---------------------------------------------------------------- magazín
+// Katalog rozdělený do „čísel“ podle roku vydání — jako kdyby v té době
+// vycházel časopis. Rejstřík (magazine.json) říká, co v kterém čísle je, a je
+// záměrně neměnný: přidání hry zakládá nové číslo, nepřeskládá stará.
+import magazineLedger from '../data/magazine.json';
+import magazineText from '../data/magazine_text.json';
+
+export interface MagazineIssue {
+  id: string;
+  rok: number;
+  cislo: number;
+  titulek: string;
+  editorial: string;
+  tema: { nadpis: string; text: string } | null;
+  zebricek: { game: GameWithPlatform; text: string }[];
+  chystame: string;
+  platformy: Platform[];
+  hry: GameWithPlatform[];
+  /** Hry, u kterých rok neznáme a zařadily se podle roku platformy. */
+  odhad: Set<string>;
+  prev: string | null;
+  next: string | null;
+}
+
+const magTexts = magazineText as Record<string, any>;
+
+/** Čísla, která mají hotový redakční text — jen ta se na webu ukazují. */
+export const magazineIssues: MagazineIssue[] = (() => {
+  const raw = (magazineLedger as any).vydani as any[];
+  const vydana = raw.filter((v) => magTexts[v.id]);
+  return vydana.map((v, i) => {
+    const t = magTexts[v.id];
+    return {
+      id: v.id,
+      rok: v.rok,
+      cislo: v.cislo,
+      titulek: t.titulek || '',
+      editorial: t.editorial,
+      tema: t.tema ?? null,
+      zebricek: (t.zebricek || [])
+        .map((z: any) => ({ game: getGame(z.slug), text: z.text }))
+        .filter((z: any) => z.game),
+      chystame: t.chystame || '',
+      platformy: (v.platformy as string[]).map(getPlatform).filter(Boolean) as Platform[],
+      hry: (v.hry as string[]).map(getGame).filter(Boolean) as GameWithPlatform[],
+      odhad: new Set<string>(v.odhad_roku || []),
+      prev: i > 0 ? vydana[i - 1].id : null,
+      next: i + 1 < vydana.length ? vydana[i + 1].id : null,
+    };
+  });
+})();
+
+export const getMagazineIssue = (id: string) => magazineIssues.find((v) => v.id === id);
+
+/** Čísla po ročnících, nejnovější ročník nahoře. */
+export function magazineByYear(): { rok: number; issues: MagazineIssue[] }[] {
+  const by = new Map<number, MagazineIssue[]>();
+  for (const v of magazineIssues) {
+    if (!by.has(v.rok)) by.set(v.rok, []);
+    by.get(v.rok)!.push(v);
+  }
+  return [...by.entries()]
+    .sort((a, b) => b[0] - a[0])
+    .map(([rok, issues]) => ({ rok, issues }));
+}

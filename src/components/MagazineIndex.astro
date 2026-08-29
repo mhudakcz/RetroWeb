@@ -1,0 +1,72 @@
+---
+import { magazineByYear, magazineIssues, plural } from '../lib/data';
+
+const rocniky = magazineByYear();
+const celkemHer = magazineIssues.reduce((n, v) => n + v.hry.length, 0);
+---
+
+<section class="container head">
+  <p class="eyebrow">Časopis, který nikdy nevyšel</p>
+  <h1>Magazín</h1>
+  <p class="muted lead">
+    Celý katalog rozdělený do čísel podle roku vydání — jako kdyby v té době vycházel herní
+    měsíčník. Každé číslo má úvodník, téma, žebříček a recenze her, které se ten rok objevily.
+    Zatím {plural(magazineIssues.length, 'číslo', 'čísla', 'čísel')} a {plural(celkemHer, 'hra', 'hry', 'her')}.
+  </p>
+  <p class="muted note">
+    Obsah vydaného čísla se už nemění. Když do katalogu přibudou hry ze starého roku,
+    vyjde k tomu ročníku <strong>další číslo</strong> — stejně jako by vyšlo tehdy.
+  </p>
+</section>
+
+{rocniky.map(({ rok, issues }) => (
+  <section class="section">
+    <div class="container">
+      <div class="sec-head">
+        <h2>{rok}</h2>
+        <span class="muted">{plural(issues.length, 'číslo', 'čísla', 'čísel')}</span>
+      </div>
+      <div class="grid issues">
+        {issues.map((v) => (
+          <a class="issue" href={`/magazin/${v.id}`}>
+            <span class="num">{v.rok}<i>/</i>{v.cislo}</span>
+            <strong>{v.titulek || `Číslo ${v.cislo}`}</strong>
+            <span class="muted meta">
+              {plural(v.hry.length, 'hra', 'hry', 'her')}
+              {v.platformy.length > 0 && <> · {plural(v.platformy.length, 'nový stroj', 'nové stroje', 'nových strojů')}</>}
+            </span>
+            {v.tema && <span class="tema muted">Téma: {v.tema.nadpis}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+))}
+
+{rocniky.length === 0 && (
+  <section class="container"><p class="muted">Zatím nevyšlo žádné číslo.</p></section>
+)}
+
+<style>
+  .head { padding-top: 34px; }
+  .lead { max-width: 46em; }
+  .note { max-width: 46em; font-size: .9rem; margin-top: 10px; }
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
+  .sec-head h2 { font-family: var(--mono, ui-monospace, monospace); font-size: 1.5rem; margin: 0; }
+
+  .issues { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .issue {
+    display: flex; flex-direction: column; gap: 5px; padding: 16px;
+    border: 1px solid var(--line); border-radius: 13px; text-decoration: none; color: inherit;
+    background:
+      radial-gradient(120% 130% at 10% 0%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 60%);
+  }
+  .issue:hover { border-color: var(--accent); }
+  .num {
+    font-family: var(--mono, ui-monospace, monospace); font-size: .78rem;
+    letter-spacing: .1em; color: var(--accent);
+  }
+  .num i { opacity: .5; font-style: normal; }
+  .issue strong { font-size: 1.02rem; line-height: 1.25; }
+  .meta, .tema { font-size: .84rem; }
+</style>

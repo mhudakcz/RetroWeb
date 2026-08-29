@@ -18,6 +18,8 @@ const stripLocale = (p: string): string => {
 const basePath = stripLocale(path);
 const isActive = (base: string) => (base === '/' ? basePath === '/' : basePath.startsWith(base));
 
+// Magazin zatim existuje jen v cestine, takze se do cizojazycne navigace nedava —
+// odkaz by vedl na stranku, ktera se v te mutaci nestavi.
 const NAV: [string, string][] = [
   ['/', 'nav.home'],
   ['/platformy', 'nav.platforms'],
@@ -25,6 +27,7 @@ const NAV: [string, string][] = [
   ['/serie', 'nav.series'],
   ['/studia', 'nav.studios'],
   ['/hardware', 'nav.hardware'],
+  ...(locale === DEFAULT_LOCALE ? ([['/magazin', 'nav.magazine']] as [string, string][]) : []),
   ['/o-projektu', 'nav.about'],
 ];
 ---

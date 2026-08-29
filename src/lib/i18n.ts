@@ -81,6 +81,7 @@ const UI: Dict = {
   'nav.games': { cs: 'Hry', en: 'Games', de: 'Spiele', fr: 'Jeux' },
   'nav.studios': { cs: 'Studia', en: 'Studios', de: 'Studios', fr: 'Studios' },
   'nav.series': { cs: 'Série', en: 'Series', de: 'Reihen', fr: 'Séries' },
+  'nav.magazine': { cs: 'Magazín', en: 'Magazine', de: 'Magazin', fr: 'Magazine' },
   'nav.hardware': { cs: 'Hardware', en: 'Hardware', de: 'Hardware', fr: 'Matériel' },
   'nav.about': { cs: 'O projektu', en: 'About', de: 'Über', fr: 'À propos' },
   'nav.contact': { cs: 'Kontakt & přání', en: 'Contact & wishes', de: 'Kontakt & Wünsche', fr: 'Contact & souhaits' },

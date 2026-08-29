@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import MagazineIssue from '../../components/MagazineIssue.astro';
+import { magazineIssues, getMagazineIssue } from '../../lib/data';
+
+export function getStaticPaths() {
+  return magazineIssues.map((v) => ({ params: { id: v.id } }));
+}
+const id = Astro.params.id!;
+const v = getMagazineIssue(id)!;
+---
+
+<Base
+  title={`Magazín ${v.rok}/${v.cislo} — ${v.titulek}`}
+  description={`${v.hry.length} her z roku ${v.rok}${v.tema ? ` · téma: ${v.tema.nadpis}` : ''}.`}
+  locale="cs"
+  localized
+>
+  <MagazineIssue id={id} />
+</Base>
