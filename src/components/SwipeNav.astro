@@ -1,0 +1,56 @@
+---
+// Přejetí prstem přepne na předchozí/další položku — na hře na sousední hru
+// platformy, na platformě na sousední platformu. Šipky v patičce dělají totéž,
+// jen se na telefonu musí doscrollovat.
+interface Props {
+  prev?: string | null;
+  next?: string | null;
+}
+const { prev = null, next = null } = Astro.props;
+---
+
+{(prev || next) && (
+  <div id="swipeNav" data-prev={prev ?? ''} data-next={next ?? ''} hidden></div>
+)}
+
+<script is:inline>
+  (function () {
+    var cfg = document.getElementById('swipeNav');
+    if (!cfg) return;
+    var prev = cfg.getAttribute('data-prev');
+    var next = cfg.getAttribute('data-next');
+    var x = 0, y = 0, cas = 0, platne = false;
+
+    // Gesto se NEBERE, kdyz zacalo v necem, co se samo posouva do stran
+    // (pas dalsich dilu, rozcestnik) nebo v lupe — tam prejeti uz neco znamena.
+    function vlastniGesto(el) {
+      for (var e = el; e && e !== document.body; e = e.parentElement) {
+        if (e.id === 'zoom') return false;
+        var st = window.getComputedStyle(e).overflowX;
+        if ((st === 'auto' || st === 'scroll') && e.scrollWidth > e.clientWidth + 4) return false;
+      }
+      return true;
+    }
+
+    document.addEventListener('touchstart', function (e) {
+      platne = e.touches.length === 1 && vlastniGesto(e.target);
+      if (!platne) return;
+      x = e.touches[0].clientX;
+      y = e.touches[0].clientY;
+      cas = Date.now();
+    }, { passive: true });
+
+    document.addEventListener('touchend', function (e) {
+      if (!platne || !e.changedTouches.length) return;
+      platne = false;
+      var dx = e.changedTouches[0].clientX - x;
+      var dy = e.changedTouches[0].clientY - y;
+      // Prah je vyssi nez v lupe: tady gesto odnavigovava pryc ze stranky,
+      // takze omylem spustene by bylo otravnejsi nez prehlednute.
+      if (Date.now() - cas > 700) return;
+      if (Math.abs(dx) < 90 || Math.abs(dx) < Math.abs(dy) * 2) return;
+      var cil = dx > 0 ? prev : next;
+      if (cil) window.location.href = cil;
+    }, { passive: true });
+  })();
+</script>

@@ -1,6 +1,7 @@
 ---
 import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink, seriesOfGame, sameGameElsewhere, versionNote, normGameName } from '../lib/data';
 import Lightbox from './Lightbox.astro';
+import SwipeNav from './SwipeNav.astro';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -251,6 +252,7 @@ const posText = {
 </article>
 
 <Lightbox locale={locale} />
+<SwipeNav prev={prev ? lp(`/hry/${prev.slug}`) : null} next={next ? lp(`/hry/${next.slug}`) : null} />
 
 <script is:inline>
   (function () {

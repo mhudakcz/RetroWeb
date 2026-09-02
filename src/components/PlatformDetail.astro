@@ -2,6 +2,7 @@
 import PlatformEmblem from './PlatformEmblem.astro';
 import GameCard from './GameCard.astro';
 import Lightbox from './Lightbox.astro';
+import SwipeNav from './SwipeNav.astro';
 import { localeData, TYPE_LABEL, mdBlock, mdBlockAnchored, mdHeadings, platformNeighbors, platformGamesArt, GENRE_CATS, genreCats } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
@@ -148,6 +149,8 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
   locale={locale}
   selector=".emblem.is-hero.has-photo img, .prose figure.article-photo img, .games-art img"
 />
+<SwipeNav prev={prev ? lp(`/platformy/${prev.slug}`) : null}
+          next={next ? lp(`/platformy/${next.slug}`) : null} />
 
 <style>
   .crumbs { padding-top: 26px; font-size: 0.86rem; }
