@@ -2276,6 +2276,360 @@
    "genre": "Ponorková simulace",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Ghosts'n Goblins",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Barbarian: The Ultimate Warrior",
+   "genre": "Akční / bojová hra",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Saboteur!",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Saboteur II: Avenging Angel",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Nebulus",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Thrust",
+   "genre": "Akční arkádovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Delta",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Head Over Heels",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Renegade",
+   "genre": "Mlátička",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Krakout",
+   "genre": "Arkádovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sanxion",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ultima V: Warriors of Destiny",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Bard's Tale II: The Destiny Knight",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Wasteland",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Zork I: The Great Underground Empire",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Hobbit",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Planetfall",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Deja Vu: A Nightmare Comes True",
+   "genre": "Grafická adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Pawn",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Guild of Thieves",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Wizardry: Proving Grounds of the Mad Overlord",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Phantasie",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "SimCity",
+   "genre": "Simulace / budovatelská hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Balance of Power",
+   "genre": "Politická strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Seven Cities of Gold",
+   "genre": "Strategie / průzkum",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lords of Conquest",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Ancient Art of War",
+   "genre": "Strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Nato Commander",
+   "genre": "Válečná strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kampfgruppe",
+   "genre": "Tahová válečná strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ogre",
+   "genre": "Tahová strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "War in Middle Earth",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Populous",
+   "genre": "God game / strategie",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wargame Construction Set",
+   "genre": "Nástroj na tvorbu wargames / strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pole Position",
+   "genre": "Závodní (arkádové)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Stunt Car Racer",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Test Drive",
+   "genre": "Závodní (simulace)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Grand Prix Circuit",
+   "genre": "Závodní (simulace F1)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kikstart 2",
+   "genre": "Závodní (motokros)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chase H.Q.",
+   "genre": "Závodní / akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lotus Esprit Turbo Challenge",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kick Off 2",
+   "genre": "Sportovní (fotbal)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Winter Games",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "World Games",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Leaderboard",
+   "genre": "Sportovní (golf)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Exolon",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Sentinel",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Skool Daze",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "X-Out",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Xenon 2: Megablast",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "1985: The Day After",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "atari-5200": [
@@ -2642,6 +2996,294 @@
    "genre": "Sport / Bojové",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Turrican",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Turrican II: The Final Fight",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Robocop",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cybernoid: The Fighting Machine",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Barbarian: The Ultimate Warrior",
+   "genre": "Bojová akce",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Chase H.Q.",
+   "genre": "Závodní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Operation Wolf",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The New Zealand Story",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Great Giana Sisters",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Blood Money",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chaos Strikes Back",
+   "genre": "Dungeon crawler RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bloodwych",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Elvira: Mistress of the Dark",
+   "genre": "Hororová adventura / RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Elvira II: The Jaws of Cerberus",
+   "genre": "Hororová adventura / RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Waxworks",
+   "genre": "Hororová adventura",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Secret of Monkey Island",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Indiana Jones and the Last Crusade: The Graphic Adventure",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zak McKracken and the Alien Mindbenders",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Loom",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Guild of Thieves",
+   "genre": "Textová adventura s grafikou",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Elite",
+   "genre": "Vesmírná obchodní simulace",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sim City",
+   "genre": "Budovatelská simulace",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Powermonger",
+   "genre": "Strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Midwinter",
+   "genre": "Akční strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Starglider",
+   "genre": "Vesmírný simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Defender of the Crown",
+   "genre": "Strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Balance of Power",
+   "genre": "Politická strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Centurion: Defender of Rome",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Falcon",
+   "genre": "Letecký simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "F/A-18 Interceptor",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lotus Esprit Turbo Challenge",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Lotus Turbo Challenge 2",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Super Cars II",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Hard Drivin'",
+   "genre": "Závodní simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Test Drive II: The Duel",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Vroom",
+   "genre": "Závodní simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ivan \"Ironman\" Stewart's Super Off Road",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Jimmy White's Whirlwind Snooker",
+   "genre": "Sportovní / Kulečník",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sensible Soccer",
+   "genre": "Sportovní / Fotbal",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "North & South",
+   "genre": "Akční strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "B.A.T.",
+   "genre": "RPG adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Titus the Fox: To Marrakech and Back",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Stormlord",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "neogeo": [
@@ -3232,6 +3874,335 @@
    "genre": "Bombardovací simulátor",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Barbarian: The Ultimate Warrior",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "mature"
+   ]
+  },
+  {
+   "name": "International Karate +",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Green Beret",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Renegade",
+   "genre": "Mlátička (beat 'em up)",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Batman: The Movie",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ghosts'n Goblins",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cauldron",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Yie Ar Kung-Fu",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Gryzor",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Turrican",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Hobbit",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Valhalla",
+   "genre": "Grafická adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tir Na Nog",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Lord of the Rings: Game One",
+   "genre": "Textová adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dracula",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "The Pawn",
+   "genre": "Textová adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Guild of Thieves",
+   "genre": "Textová adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sorcery+",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Doomdark's Revenge",
+   "genre": "Strategické RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Fairlight",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Chaos: The Battle of Wizards",
+   "genre": "Tahová strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Laser Squad",
+   "genre": "Tahová taktika",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rebelstar",
+   "genre": "Tahová taktika",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Nether Earth",
+   "genre": "Realtimová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Stonkers",
+   "genre": "Válečná strategie",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Theatre Europe",
+   "genre": "Válečná strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Falklands 82",
+   "genre": "Válečná strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Football Manager",
+   "genre": "Sportovní management",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Combat Lynx",
+   "genre": "Vrtulníkový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Chequered Flag",
+   "genre": "Závodní simulátor (F1)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Turbo Esprit",
+   "genre": "Akční závody / open world",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Trailblazer",
+   "genre": "Arkádové závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Stunt Car Racer",
+   "genre": "3D závody",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "BMX Simulator",
+   "genre": "Závodní (BMX)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kick Off",
+   "genre": "Sportovní (fotbal)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Emlyn Hughes International Soccer",
+   "genre": "Sportovní (fotbal)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Daley Thompson's Supertest",
+   "genre": "Sportovní (atletika, multi-event)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Enduro Racer",
+   "genre": "Závodní (motocykl)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chase H.Q.",
+   "genre": "Akční závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Robocop",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Batman: The Caped Crusader",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Uridium",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Nebulus",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Underwurlde",
+   "genre": "Plošinová adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Alien 8",
+   "genre": "Izometrická adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Starstrike II",
+   "genre": "3D vesmírná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wizball",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "atari-2600": [
@@ -3624,6 +4595,337 @@
    "genre": "Strategie",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Mega Man IV",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong Land",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong Land 2",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong Land III",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wizards & Warriors X: Fortress of Fear",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Disney's Aladdin",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Little Mermaid",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Addams Family",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alien 3",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Asterix",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ax Battler: A Legend of Golden Axe",
+   "genre": "Akční RPG",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "For the Frog the Bell Tolls",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rolan's Curse",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rolan's Curse II",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Scroll: The Legend of Yamato Takeru",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Willow",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spud's Adventure",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wizardry Gaiden III: Scripture of the Dark",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Cave Noire",
+   "genre": "Roguelike",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Dragon Quest Monsters",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Baseball",
+   "genre": "Sportovní simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chase H.Q.",
+   "genre": "Závodní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Days of Thunder",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Micro Machines",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ivan \"Ironman\" Stewart's Super Off Road",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Al Unser Jr. Turbo Racing",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Road Rash",
+   "genre": "Závodní akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NBA Jam",
+   "genre": "Sportovní arkáda",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "FIFA International Soccer",
+   "genre": "Sportovní simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Skate or Die: Bad 'N Rad",
+   "genre": "Sportovní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Nemesis",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Space Invaders",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Galaga & Galaxian",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Battle Unit Zeoth",
+   "genre": "Vertikální shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cosmo Tank",
+   "genre": "Vertikální shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cyraid",
+   "genre": "Vertikální shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Elevator Action",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Turrican",
+   "genre": "Run and gun",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "RoboCop",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Terminator 2: Judgment Day",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Yoshi's Cookie",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Klax",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Wordtris",
+   "genre": "Logická hra / slovní hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Tetris Attack",
+   "genre": "Logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pac-Attack",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Amazing Penguin",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Loopz",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Palamedes",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Bomberman GB",
+   "genre": "Akční logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Solomon's Club",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
   }
  ],
  "game-gear": [
@@ -4112,6 +5414,337 @@
    "genre": "Zavodni",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Donkey Kong Country",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man: Mysterio's Menace",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic Battle",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia: The Sands of Time",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Max Payne",
+   "genre": "Akční",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Sabre Wulf",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Boktai 2: Solar Boy Django",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dragon Ball Z: The Legacy of Goku",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Ball Z: Buu's Fury",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lunar Legend",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tales of Phantasia",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dragon Quest Monsters: Caravan Heart",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Shaman King: Master of Spirits",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Harry Potter and the Chamber of Secrets",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: The Fellowship of the Ring",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Magical Vacation",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mario Golf: Advance Tour",
+   "genre": "Golf / sportovni RPG",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "International Superstar Soccer Advance",
+   "genre": "Fotbal",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 3",
+   "genre": "Sportovni akce (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 4",
+   "genre": "Sportovni akce (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Underground",
+   "genre": "Sportovni akce (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Konami Krazy Racers",
+   "genre": "Zavodni (kart)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "V-Rally 3",
+   "genre": "Zavodni (rallye)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Underground",
+   "genre": "Zavodni (arkadove, tuning)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ready 2 Rumble Boxing: Round 2",
+   "genre": "Box (sportovni)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "ESPN International Track & Field",
+   "genre": "Atletika (sportovni)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "R-Type III: The Third Lightning",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "DOOM",
+   "genre": "FPS / akční střílečka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wolfenstein 3D",
+   "genre": "FPS / akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Serious Sam Advance",
+   "genre": "Akční střílečka (top-down)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Iridion 3D",
+   "genre": "Shmup (pseudo-3D)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Medal of Honor: Infiltrator",
+   "genre": "Akční střílečka (shora)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Space Invaders",
+   "genre": "Shmup (arkádová klasika)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Asteroids",
+   "genre": "Shmup (arkádová klasika)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spy Hunter",
+   "genre": "Akční střílečka (vozidlová)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Konami Collector's Series: Arcade Advanced",
+   "genre": "Shmup / arkádová kolekce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kuru Kuru Kururin",
+   "genre": "Akční puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Bust-A-Move Millennium",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Puyo Pop",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Bookworm",
+   "genre": "Slovní puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Bejeweled",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Zoo Keeper",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Dr. Mario & Puzzle League",
+   "genre": "Puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Yoshi Topsy-Turvy",
+   "genre": "Plošinovka s prvky puzzle",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Mario Party Advance",
+   "genre": "Párty / minihry",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "WarioWare: Twisted!",
+   "genre": "Párty / minihry",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "n64": [
@@ -4722,6 +6355,312 @@
    "flags": [
     "puzzle"
    ]
+  },
+  {
+   "name": "Ninja Five-O",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Batman Beyond: Return of the Joker",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "James Bond 007",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Toy Story 2",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Small Soldiers",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Men in Black: The Series - Crashdown",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Bugs Bunny: Crazy Castle 4",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Q*bert",
+   "genre": "Logická plošinovka",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Rocket Power: Team Rocket Rescue",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Disney's The Emperor's New Groove",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Azure Dreams",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Robopon: Sun Version / Star Version",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Robopon 2: Cross Version / Ring Version",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Rancher Explorer",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Quest for Camelot",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chicken Run",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Scooby-Doo! Classic Creep Capers",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Der Langrisser",
+   "genre": "Taktická RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tintin: Prisoners of the Sun",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fuurai no Shiren GB2: Sabaku no Majou",
+   "genre": "Roguelike RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "FIFA 2000",
+   "genre": "Sportovni (fotbal)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Madden NFL 2000",
+   "genre": "Sportovni (americky fotbal)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NHL Blades of Steel 2000",
+   "genre": "Sportovni (lední hokej)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NBA In the Zone 2000",
+   "genre": "Sportovni (basketbal)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "ESPN International Track & Field",
+   "genre": "Sportovni (atletika)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "International Superstar Soccer 2000",
+   "genre": "Sportovni (fotbal)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Micro Machines 1 and 2: Twin Turbo",
+   "genre": "Zavodni",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Le Mans 24 Hours",
+   "genre": "Zavodni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "WWF Attitude",
+   "genre": "Sportovni (wrestling)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "V-Rally: Championship Edition",
+   "genre": "Zavodni",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Space Invaders",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Asteroids",
+   "genre": "Arkádová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Centipede",
+   "genre": "Arkádová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Missile Command",
+   "genre": "Arkádová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cannon Fodder",
+   "genre": "Akční strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Aliens: Thanatos Encounter",
+   "genre": "Run-and-gun střílečka",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Army Men",
+   "genre": "Střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Midway's Greatest Arcade Hits",
+   "genre": "Sbírka arkádových stříleček",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Men in Black II: Alien Escape",
+   "genre": "Run-and-gun střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Puyo Pop",
+   "genre": "Logická puzzle hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Guru Logi Champ",
+   "genre": "Logická hra",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Puzzle Link",
+   "genre": "Puzzle kolekce",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Mr. Driller",
+   "genre": "Akční puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Chessmaster",
+   "genre": "Strategie / logická hra",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Monopoly",
+   "genre": "Rodinná deskovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Game of Life",
+   "genre": "Rodinná deskovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "UNO",
+   "genre": "Karetní rodinná hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Scrabble",
+   "genre": "Slovní rodinná hra",
+   "length": "S",
+   "flags": []
   }
  ],
  "saturn": [
@@ -25308,6 +27247,338 @@
   {
    "name": "Encounter!",
    "genre": "3D střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lode Runner",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pitfall!",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "River Raid",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Beamrider",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Zaxxon",
+   "genre": "Arkádovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Astro Chase",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shamus",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Q*bert",
+   "genre": "Arkádovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Frogger",
+   "genre": "Arkádovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Bounty Bob Strikes Back",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ultima III: Exodus",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ultima IV: Quest of the Avatar",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wizardry: Proving Grounds of the Mad Overlord",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Bard's Tale",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Zork I: The Great Underground Empire",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Temple of Apshai",
+   "genre": "RPG / dungeon crawler",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Alternate Reality: The City",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wizard's Crown",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Phantasie",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Hobbit",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pirates!",
+   "genre": "Akční adventura / strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Silent Service",
+   "genre": "Simulátor (ponorka)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Solo Flight",
+   "genre": "Letecký simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kennedy Approach",
+   "genre": "Simulátor (řízení letového provozu)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "NATO Commander",
+   "genre": "Strategie / wargame",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pinball Construction Set",
+   "genre": "Konstrukční sada",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Racing Destruction Set",
+   "genre": "Konstrukční sada / závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lords of Conquest",
+   "genre": "Strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SunDog: Frozen Legacy",
+   "genre": "Vesmírný obchodní simulátor / adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Cytron Masters",
+   "genre": "Strategie v reálném čase",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pitstop II",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Summer Games",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Summer Games II",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Winter Games",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "World Games",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "California Games",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Baseball",
+   "genre": "Sportovní (baseball)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Football",
+   "genre": "Sportovní (americký fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Soccer",
+   "genre": "Sportovní (fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Volleyball",
+   "genre": "Sportovní (volejbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Elite",
+   "genre": "Vesmírná obchodní simulace",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Fred",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Titan",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Aliens Neoplasma",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "UWOL: Quest for Money",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Krakout",
+   "genre": "Arkanoid / ničení cihliček",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Bounder",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spindizzy",
+   "genre": "Izometrická akční adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Trailblazer",
+   "genre": "Závodní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Livingstone, I Presume?",
+   "genre": "Akční adventura",
    "length": "S",
    "flags": []
   }
