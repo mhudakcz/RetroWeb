@@ -3,7 +3,7 @@ import PlatformEmblem from './PlatformEmblem.astro';
 import GameCard from './GameCard.astro';
 import Lightbox from './Lightbox.astro';
 import SwipeNav from './SwipeNav.astro';
-import { localeData, TYPE_LABEL, mdBlock, mdBlockAnchored, mdHeadings, platformNeighbors, platformGamesArt, GENRE_CATS, genreCats } from '../lib/data';
+import { localeData, TYPE_LABEL, mdBlock, mdBlockAnchored, mdHeadings, platformNeighbors, orderedPlatforms, platformGamesArt, GENRE_CATS, genreCats } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -17,6 +17,9 @@ const historyToc = mdHeadings(platform.history);
 const gamesArt = platformGamesArt(platform.slug);
 const withDetail = platform.games.filter((g) => g.detail).length;
 const { prev, next } = platformNeighbors(platform.slug);
+const poradi = orderedPlatforms();
+const platPos = poradi.findIndex((x) => x.slug === platform.slug) + 1;
+const platTotal = poradi.length;
 const lp = (p: string) => localizePath(locale, p);
 
 const genreCount = (k: string) => platform.games.filter((g) => genreCats(g.genre).includes(k)).length;
@@ -36,6 +39,22 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
   <nav class="crumbs muted" aria-label="breadcrumb">
     <a href={lp('/platformy')}>{t(locale, 'nav.platforms')}</a> <span>/</span> <span>{platform.name}</span>
   </nav>
+
+  {(prev || next) && (
+    <nav class="pager-top" aria-label="pager">
+      {prev ? (
+        <a class="pt-link prev" href={lp(`/platformy/${prev.slug}`)}>
+          <span class="dir">←</span><span class="pn">{prev.name}</span>
+        </a>
+      ) : <span />}
+      <span class="pt-pos muted">{platPos} / {platTotal}</span>
+      {next ? (
+        <a class="pt-link next" href={lp(`/platformy/${next.slug}`)}>
+          <span class="pn">{next.name}</span><span class="dir">→</span>
+        </a>
+      ) : <span />}
+    </nav>
+  )}
 
   <div class="hero">
     <div class="emblem-wrap">
@@ -153,6 +172,15 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
           next={next ? lp(`/platformy/${next.slug}`) : null} />
 
 <style>
+  /* Stejny pruh jako na strance hry — jina podoba by pusobila, ze jde o jinou
+     funkci. */
+  .pager-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 12px 0 4px; font-size: 0.85rem; }
+  .pt-link { display: inline-flex; align-items: center; gap: 7px; max-width: 42%; padding: 0.4em 0.7em; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--muted); transition: border-color 0.15s ease, color 0.15s ease; }
+  .pt-link:hover { border-color: var(--accent); color: var(--text); }
+  .pt-link .dir { color: var(--accent); flex: none; }
+  .pt-link .pn { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pt-pos { flex: none; font-size: 0.8rem; }
+
   .crumbs { padding-top: 26px; font-size: 0.86rem; }
   .crumbs a:hover { color: var(--accent); }
   .crumbs span { margin-inline: 4px; }
