@@ -140,7 +140,7 @@ PLATFORM_PHOTO_FILE = {
 
 # Platformy, u kterých se pozadí NESMÍ odmazávat — produkt je sám bílý,
 # takže výplň od okraje by se prokousala do konzole.
-PLATFORM_TRIM_SKIP = {"xbox-one", "wii", "dreamcast", "wii-u"}
+PLATFORM_TRIM_SKIP = {"xbox-one", "wii", "dreamcast", "wii-u", "atari-7800"}
 
 # Fotky nafocene na zelenem platne (chroma key). Bily prah je na ne slepy, tak
 # se u nich misto "skoro bila" hleda "vyrazne zelena" a nakonec se odstrani
