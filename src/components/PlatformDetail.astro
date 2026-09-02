@@ -95,6 +95,28 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
             <img src={gamesArt} alt={`${platform.name} – obaly her`} loading="lazy" decoding="async" />
           </figure>
         )}
+
+        {picks.length > 0 && (
+          <aside class="picks-box" style={`--c1:${platform.color}`}>
+            <h3 class="picks-h">{t(locale, 'picks.title')}</h3>
+            <p class="muted picks-lead">{t(locale, 'picks.lead')}</p>
+            <ol class="picks">
+              {picks.map((p) => (
+                <li>
+                  <a href={lp(`/hry/${p.game.slug}`)}>
+                    {p.game.image
+                      ? <img src={p.game.image} alt="" loading="lazy" decoding="async" />
+                      : <span class="ph pixel">{platform.short}</span>}
+                    <span class="p-text">
+                      <strong>{p.game.name}</strong>
+                      <span class="p-why">{p.why}</span>
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </aside>
+        )}
       </div>
     </section>
   )
@@ -114,31 +136,6 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
     </a>
   ) : <span />}
 </nav>
-
-{picks.length > 0 && (
-  <section class="section picks-sec" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
-    <div class="container">
-      <h2 class="sec-title">{t(locale, 'picks.title')}</h2>
-      <p class="muted picks-lead">{t(locale, 'picks.lead')}</p>
-      <ol class="picks">
-        {picks.map((p) => (
-          <li>
-            <a href={lp(`/hry/${p.game.slug}`)}>
-              {p.game.image
-                ? <img src={p.game.image} alt="" loading="lazy" decoding="async" />
-                : <span class="ph pixel">{platform.short}</span>}
-              <span class="p-text">
-                <strong>{p.game.name}</strong>
-                {p.game.year && <span class="p-year muted">{p.game.year}</span>}
-                <span class="p-why">{p.why}</span>
-              </span>
-            </a>
-          </li>
-        ))}
-      </ol>
-    </div>
-  </section>
-)}
 
 <section class="section">
   <div class="container">
@@ -230,22 +227,29 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
 
   /* Cim zacit — odpoved na otazku, kterou ma ctenar nad abecednim seznamem
      sta her. Cislovane, aby bylo videt, ze jde o poradi, ne o vycet. */
-  /* Podbarveni v barve platformy — sekce se tim oddeli od sousedniho vypisu
-     vsech her a je hned videt, ze jde o doporuceni, ne o dalsi seznam. */
-  .picks-sec {
+  /* Vyber sedi uvnitr clanku o platforme jako vlozeny ramecek, ne jako
+     samostatny pruh za nim — ctenar ho potka v miste, kde uz o platforme
+     neco vi a zacne ho zajimat, co si pustit. */
+  .picks-box {
+    margin: 32px 0 8px;
+    padding: 20px 22px 22px;
+    border: 1px solid color-mix(in srgb, var(--c1) 35%, var(--border));
+    border-left: 3px solid var(--c1);
+    border-radius: 12px;
     background:
-      linear-gradient(180deg, color-mix(in srgb, var(--c1) 13%, transparent), transparent 78%),
-      var(--bg-2);
-    border-block: 1px solid var(--border-soft);
-    padding-block: 32px;
+      linear-gradient(180deg, color-mix(in srgb, var(--c1) 9%, transparent), transparent 60%),
+      var(--surface);
   }
-  .picks-sec .sec-title { margin-bottom: 6px; }
-  .picks-sec .picks a { background: var(--bg); }
-  .picks-sec .picks a:hover { border-color: var(--c1); }
-  .picks-sec .picks a::before { color: color-mix(in srgb, var(--c1) 75%, var(--text)); }
-  .picks-lead { margin: 0 0 18px; max-width: 46em; }
+  .picks-h {
+    font-size: 1.15rem; margin: 0 0 4px;
+    color: color-mix(in srgb, var(--c1) 55%, var(--text));
+  }
+  .picks-lead { margin: 0 0 14px; font-size: 0.9rem; }
+  .picks-box .picks a { background: var(--bg); }
+  .picks-box .picks a:hover { border-color: var(--c1); }
+  .picks-box .picks a::before { color: color-mix(in srgb, var(--c1) 75%, var(--text)); }
   .picks { list-style: none; counter-reset: p; padding: 0; margin: 0;
-           display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+           display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
   .picks li { counter-increment: p; }
   .picks a {
     display: grid; grid-template-columns: 18px 40px 1fr; align-items: center; gap: 10px;

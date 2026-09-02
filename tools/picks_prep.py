@@ -33,7 +33,13 @@ def prepare(work: Path, pocet: int) -> None:
 
     n = 0
     for p in data["platforms"]:
-        if len(p["games"]) < MIN_HER or p["slug"] in hotovo:
+        cil = min(pocet, max(4, len(p["games"]) // 8))
+        maji = len(hotovo.get(p["slug"]) or [])
+        if len(p["games"]) < MIN_HER:
+            continue
+        # bez --doplnit se hotove platformy preskakuji; s nim se znovu zpracuji ty,
+        # kterym by dnes nalezelo vic titulu
+        if maji and not ("--doplnit" in sys.argv and maji < cil):
             continue
         hry = [{
             "slug": g["slug"], "name": g["name"],
@@ -41,6 +47,9 @@ def prepare(work: Path, pocet: int) -> None:
             "mustplay": "mustplay" in (g.get("flags") or []),
             "teaser": (g.get("teaser") or "")[:120],
         } for g in p["games"]]
+        # Velka a popularni platforma unese sirsi doporuceni: u sta her je osm
+        # titulu spis ochutnavka nez rozcestnik. Maly katalog si naopak ctenar
+        # projde cely, tam staci ctyri.
         payload = {"slug": p["slug"], "platform": p["name"], "rok": p["year"],
                    "pocet": min(pocet, max(4, len(hry) // 8)), "hry": hry}
         with io.open(work / f"picks_{n:03d}.json", "w", encoding="utf-8", newline="\n") as fh:
@@ -68,7 +77,7 @@ def merge(work: Path) -> None:
             print(f"  [x] {f.name}: {e}")
             continue
         slug = d.get("slug")
-        if slug not in plat_hry or slug in hotovo:
+        if slug not in plat_hry:
             continue
         vyber = []
         for it in d.get("vyber") or []:
@@ -81,7 +90,9 @@ def merge(work: Path) -> None:
                 spatne += 1
                 continue
             vyber.append({"slug": s, "why": why})
-        if len(vyber) >= 4:
+        # sirsi vyber stavajici prepise, uzsi ne — jinak by opakovany beh
+        # doporuceni zase osekal
+        if len(vyber) >= 4 and len(vyber) >= len(hotovo.get(slug) or []):
             hotovo[slug] = vyber
             pridano += 1
 
@@ -102,7 +113,7 @@ def main() -> int:
     if "--merge" in sys.argv:
         merge(work)
     else:
-        pocet = int(sys.argv[sys.argv.index("--pocet") + 1]) if "--pocet" in sys.argv else 8
+        pocet = int(sys.argv[sys.argv.index("--pocet") + 1]) if "--pocet" in sys.argv else 16
         prepare(work, pocet)
     return 0
 

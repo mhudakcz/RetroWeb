@@ -149,7 +149,7 @@ const UI: Dict = {
 
   // detail platformy / společné
   'detail.history': { cs: 'Historie & kontext', en: 'History & context', de: 'Geschichte & Kontext', fr: 'Histoire & contexte' },
-  'detail.recommended': { cs: 'Doporučené hry', en: 'Recommended games', de: 'Empfohlene Spiele', fr: 'Jeux recommandés' },
+  'detail.recommended': { cs: 'Hry na platformě', en: 'Games on this platform', de: 'Spiele auf dieser Plattform', fr: 'Jeux sur cette plateforme' },
   'detail.withComment': { cs: 's komentářem', en: 'with commentary', de: 'mit Kommentar', fr: 'avec commentaire' },
   'detail.year': { cs: 'Rok', en: 'Year', de: 'Jahr', fr: 'Année' },
   'filter.allGenres': { cs: 'Všechny žánry', en: 'All genres', de: 'Alle Genres', fr: 'Tous les genres' },

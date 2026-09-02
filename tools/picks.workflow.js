@@ -24,7 +24,11 @@ PRAVIDLA VYBERU:
 - Priznak "mustplay" je voditko, ne pravidlo; na nekterych platformach neni
   rozdany vubec, jinde je u vic her, nez kolik jich mas vybrat.
 - Miř na SIRKU, ne na jeden zanr: platforma se ma ukazat z vic stran. Kdyz na
-  ni vysla legendarni plosinovka, RPG i zavodni hra, at jsou v seberu vsechny.
+  ni vysla legendarni plosinovka, RPG i zavodni hra, at jsou ve vyberu vsechny.
+- ZANROVA PESTROST je pozadavek, ne doporuceni: pri osmi a vic titulech musi byt
+  zastoupeno aspon PET ruznych zanru. Sedm plosinovek za sebou je spatny vyber,
+  i kdyby to bylo sedm nejlepsich her platformy.
+- Poradi michej tak, aby hned za sebou nesly dve hry tehoz zanru.
 - Prednost maji tituly, ktere jsou pro platformu urcujici — bud protoze se na
   ni proslavily, nebo protoze ukazuji, co ten stroj umel.
 - U kapesnich konzoli a domacich pocitacu ber ohled i na to, co se na nich
