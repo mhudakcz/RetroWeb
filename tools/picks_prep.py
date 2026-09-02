@@ -33,7 +33,7 @@ def prepare(work: Path, pocet: int) -> None:
 
     n = 0
     for p in data["platforms"]:
-        cil = min(pocet, max(4, len(p["games"]) // 8))
+        cil = min(pocet, max(4, len(p["games"]) // 6))
         maji = len(hotovo.get(p["slug"]) or [])
         if len(p["games"]) < MIN_HER:
             continue
@@ -51,7 +51,7 @@ def prepare(work: Path, pocet: int) -> None:
         # titulu spis ochutnavka nez rozcestnik. Maly katalog si naopak ctenar
         # projde cely, tam staci ctyri.
         payload = {"slug": p["slug"], "platform": p["name"], "rok": p["year"],
-                   "pocet": min(pocet, max(4, len(hry) // 8)), "hry": hry}
+                   "pocet": min(pocet, max(4, len(hry) // 6)), "hry": hry}
         with io.open(work / f"picks_{n:03d}.json", "w", encoding="utf-8", newline="\n") as fh:
             json.dump(payload, fh, ensure_ascii=False, indent=1)
         n += 1
@@ -113,7 +113,7 @@ def main() -> int:
     if "--merge" in sys.argv:
         merge(work)
     else:
-        pocet = int(sys.argv[sys.argv.index("--pocet") + 1]) if "--pocet" in sys.argv else 16
+        pocet = int(sys.argv[sys.argv.index("--pocet") + 1]) if "--pocet" in sys.argv else 20
         prepare(work, pocet)
     return 0
 

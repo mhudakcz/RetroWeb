@@ -32,6 +32,8 @@ CILE = {
     # stredni
     "mega-cd": 45, "wonderswan": 45, "3do": 45, "atari-lynx": 40, "cps": 40,
     "game-gear": 50, "neogeo": 55, "atari-2600": 60,
+    # platformy, kde uzivatel chtel vic her (2. 9. 2026)
+    "master-system": 90, "saturn": 80, "java-mobil": 70, "quest": 55, "pico-8": 45,
     # velke knihovny — jen dalsi krok
     "master-system": 65, "pc-engine": 65, "wii-u": 65, "3ds": 80,
     "arcade": 130,
