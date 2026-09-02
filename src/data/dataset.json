@@ -111852,8 +111852,14 @@
           "teaser": "Prvotina šestnáctiletého Fuxofta, jedna z nejstarších dochovaných československých her.",
           "detail": null,
           "article": "**Poklad** vznikl v roce 1984 jako vůbec první hra šestnáctiletého Františka Fuky, pozdějšího legendárního Fuxoftu, a patří tak mezi nejstarší dochované počítačové hry vytvořené v Československu. Fuka ji naprogramoval na počítači svého kamaráda, protože vlastní ZX Spectrum si v té době ještě nemohl dovolit, a hru pak šířil na kazetách po malé komunitě tehdejších majitelů osmibitů, kteří si ji navzájem přehrávali a kopírovali. Hráč se v ní ocitá v kouzelné zemi rozdělené na mřížku místností ve třech patrech a jeho úkolem je najít pět ukrytých pokladů, přičemž s okolím komunikuje prostřednictvím jednoduchých textových příkazů a postupně si skládá mapu neznámého světa jen z popisů jednotlivých místností.\n\nOvládání je typické pro raný žánr textovek: hráč zadává stručné povely, zkoumá popisy místností a sbírá předměty, které mu otevírají cestu dál, přičemž jednotlivé úrovně na sebe logicky navazují a postup vyžaduje systematické zkoumání každého kouta. Grafika chybí úplně nebo je jen doplňková, veškerá atmosféra tak stojí na textu a představivosti hráče, což bylo v polovině osmdesátých let na ZX Spectrum a jeho tuzemských klonech běžné řešení, protože napsat textový parser bylo pro začínající programátory dostupnější než kreslit animované postavičky a navíc to nekladlo velké nároky na paměť.\n\nDobově se hra šířila spíše v úzkém okruhu přátel a počítačových klubů, oficiálně ji později, už jako historickou kuriozitu, vydalo nakladatelství Proxima v rámci kolekce Fuxoft uvádí. Dnes má Poklad hodnotu především jako doklad úplných začátků jednoho z nejplodnějších tvůrců československé scény a jako ukázka toho, jak skromnými prostředky se dala postavit celá herní zkušenost bez jakéhokoli komerčního zázemí. Pro dnešního hráče je spíš historickým artefaktem než hratelnou zábavou, protože žánr textovek dnes vyžaduje notnou dávku trpělivosti, historicky je ale nepominutelný jako první krok slavné autorské kariéry.\n\n**Proč hrát:** Kvůli historické hodnotě prvního kroku slavné autorské kariéry Fuxoftu má Poklad smysl hlavně pro sběratele a fanoušky čs. scény ochotné přijmout archaický textový parser.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__poklad-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__poklad-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111872,8 +111878,14 @@
           "teaser": "Přepracovaná verze Fukova Pokladu, vydaná až v kolekci Fuxoft uvádí.",
           "detail": null,
           "article": "**Poklad 2** není pokračováním příběhu, ale přepracovanou a rozšířenou verzí Fukova prvotinového Pokladu, kterou František Fuka navrhl už v roce 1985, tedy krátce po prvním díle, kdy už měl s vlastním ZX Spectrem více zkušeností. Oficiálně vyšla až mnohem později, v roce 1992, kdy ji nakladatelství Proxima zařadilo do retrospektivní kolekce Fuxoft uvádí spolu s dalšími staršími autorovými pracemi, aby je zachránilo před úplným zapomněním. Princip zůstává stejný: hráč prochází mřížku místností kouzelné země a hledá poklady, ovládání probíhá pomocí textového parseru s jednoduchými příkazy a k postupu je potřeba kombinovat nalezené předměty se správnými místy.\n\nOproti původní verzi je Poklad 2 rozsáhlejší, obsahuje více místností a propracovanější hádanky, takže lépe ukazuje, jak rychle se Fukovy programátorské i herně-návrhářské schopnosti v polovině osmdesátých let zlepšovaly a jak si postupně osvojoval principy, na kterých později stavěl mnohem ambicióznější tituly. Technicky jde stále o čistě textovou záležitost bez grafických prvků, hudba ani zvuky se v ní prakticky neuplatňují, veškerý důraz leží na popisech a logice hádanek, takže atmosféra vzniká jen v hlavě hráče.\n\nV kontextu domácí scény je Poklad 2 zajímavý hlavně jako spojnice mezi Fukovým raným pokusem a jeho pozdějšími, výrazně ambicióznějšími textovkami typu Podraz nebo Indiana Jones, na kterých je vidět, že si autor s každým dalším titulem víc věřil a nebál se rozšiřovat rozsah i složitost hádanek. Pro tehdejší hráče šlo o dostupnou zábavu, kterou stačilo opsat nebo přehrát z kazety mezi kamarády, protože oficiální distribuční kanály pro domácí produkci prakticky neexistovaly. Dnes je vnímán především jako historický doklad vývoje jednoho z klíčových autorů a jako malá kapitola v příběhu čs. textovkové tvorby, spíš než jako hra, ke které by se dnešní hráč vracel kvůli samotné hratelnosti nebo grafickému zpracování, jež v podstatě žádné nemá.\n\n**Proč hrát:** Jestli vás zajímá, jak se František Fuka postupně zdokonaloval k pozdějším Podrazům, je Poklad 2 zajímavou spojnicí ve vývoji jeho stylu – jinak jde spíš o historickou kuriozitu než hru pro dnešního hráče.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__poklad-2-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__poklad-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111892,8 +111904,14 @@
           "teaser": "Ironická textovka o programátorovi, který se snaží vykrást účet zlodějské bandy.",
           "detail": null,
           "article": "**Podraz 3** patří k nejznámějším textovkám Františka Fuky alias Fuxofta a vzniklo v roce 1986, oficiálně ji pak v roce 1992 vydala Proxima – Software v.o.s. Hráč se v ní ujímá nezaměstnaného programátora jménem Tim Coleman, jehož úkolem je vypátrat heslo k účtu skupiny zlodějů a převést z něj peníze jinam, což je zápletka, kterou Fuka podává s nadsázkou typickou pro celou sérii. Podobně jako u předchozích Fukových her jde o čistě textovou hru, kde se hráč pohybuje světem pomocí stručných příkazů, zkoumá okolí a řeší postupně navazující hádanky, aniž by potřeboval cokoli jiného než klávesnici a trpělivost.\n\nSilnou stránkou Podrazu 3 je humor a nadsázka, kterými Fuka okořenil jinak jednoduchý zápletkový rámec, a také plynulost, s jakou na sebe jednotlivé situace navazují – hráč nemusí bloudit rozsáhlou mapou, ale postupuje spíše lineárně od jedné scény ke druhé, což hru zpřístupnilo i méně zkušeným hráčům textovek. Technicky hra nevyžaduje nic navíc než textový režim ZX Spectra, veškerá atmosféra tak stojí na Fukově psaní, které bylo mezi vrstevníky ceněné pro vtip a nadhled, jímž se lišilo od suchopárnějších zahraničních předloh žánru, jaké se k nám tehdy dostávaly jen zřídka.\n\nV rámci série Podraz je trojka často zmiňována jako jeden z vrcholů, na které navázaly další díly čtyři a pět a dohromady vytvořily jeden z nejrozpoznatelnějších domácích herních brandů své doby. V dobovém kontextu, kdy byl import západních her pro ZX Spectrum do Československa složitý, představovaly Fukovy textovky jednu z mála domácích alternativ srovnatelné kvality a hráli je majitelé Didaktiků i spektrálních klonů po celé republice. Dnes se na Podraz 3 vzpomíná hlavně jako na ukázku svébytného humoru rodící se české herní tvorby a jako doklad, že i skromný textový parser dokázal vyprávět zapamatovatelný příběh.\n\n**Proč hrát:** Pro fanoušky svébytného humoru rodící se české herní tvorby patří Podraz 3 k vrcholům celé série a je skvělým vstupním bodem do Fukovy textovkové tvorby.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__podraz-3-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__podraz-3-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111912,8 +111930,14 @@
           "teaser": "Další díl série Podraz, který se po Československu šířil na kazetách bleskurychle.",
           "detail": null,
           "article": "**Podraz 4** navazuje na úspěšnou sérii Fuxoftových textovek a vzniklo v roce 1986, krátce nato hru šířila i slovenská skupina Antok Software, což dokládá, jak rychle se Fukovy hry po Československu rozcházely na kazetách mezi počítačovými kluby a jednotlivými nadšenci daleko za hranicemi Fukova bydliště. Stejně jako u ostatních dílů jde o čistě textovou adventuru ovládanou jednoduchými příkazy, kde hráč postupuje sledem na sebe navazujících situací a hádanek a musí si pamatovat souvislosti mezi dříve nalezenými indiciemi.\n\nPodraz 4 drží se stejnou recepturou jako předchozí díl – hlavní postavou je opět figurka z okraje společnosti, děj je protkaný ironií a černým humorem typickým pro Fukův rukopis a hra nevyžaduje žádné grafické ani zvukové vybavení nad rámec základního textového režimu ZX Spectra. Právě díky nenáročnosti na hardware se mohla snadno šířit i na tuzemských klonech typu Didaktik, které měly omezenější možnosti než originální britský stroj, a hrálo ji tak podstatně širší publikum, než jaké by dosáhla čistě grafická hra.\n\nPopularita série v čase rostla i díky tomu, že jednotlivé díly na sebe volně navazovaly stylem i humorem, takže si hráči, kteří si oblíbili trojku, rádi sáhli i po čtyřce a čekali na další pokračování, podobně jako na knižní nebo filmovou sérii. Skutečnost, že hru přebíraly a dále šířily i jiné skupiny mimo samotného autora, ukazuje, jak silně byla v tehdejší komunitě ceněná – oficiální distribuce byla omezená, a tak si dobré hry lidé prostě kopírovali a předávali dál na kazetách z ruky do ruky, často i mezi republikami. Podraz 4 tak zůstává důležitým dílkem v mozaice Fukovy tvorby a v paměti generace, která na Spectru vyrůstala; dnešnímu hráči nabízí spíš vzpomínkový zážitek než výzvu srovnatelnou se soudobými zahraničními adventurami, ale jako doklad toho, jak vynalézavě se dala z jednoho skromného stroje postavit celá herní série, zůstává dodnes cenný.\n\n**Proč hrát:** Kdo si oblíbil Podraz 3, ocení i pokračování se stejným humorem a stylem – Podraz 4 je dnes hlavně nostalgickou vzpomínkou na generaci, která vyrůstala na Spectru.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__podraz-4-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__podraz-4-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111932,8 +111956,14 @@
           "teaser": "Poslední díl klasické řady Podraz; na scénáři se s Fukou podílel i Daniel Pražák.",
           "detail": null,
           "article": "**Podraz 5** uzavírá klasickou řadu Fuxoftových textovek a na jeho vzniku se kromě Františka Fuky podílel i Daniel Pražák. Hra vyšla v roce 1988, přičemž ji souběžně šířilo hned několik skupin – slovenský Antok Software i české AmSoft a Immortal Software – což jen potvrzuje, jak živá byla tehdejší neoficiální distribuční síť mezi majiteli ZX Spectra a jeho domácích klonů, kde se kvalitní tituly šířily rychleji než jakákoli oficiální nabídka. Princip zůstává věrný předchozím dílům: čistě textová hra, kde hráč zadává stručné příkazy a postupuje řetězcem navazujících situací a hádanek, přičemž chybný krok často znamená nutnost vrátit se o pár tahů zpátky.\n\nSpoluautorství Daniela Pražáka přineslo do série nový pohled a spolu s Fukou dotáhli koncept na to, co bylo v rámci možností tehdejšího 48K Spectra myslitelné – hra se obejde bez grafiky, veškerý dojem vytváří text, humor a tempo vyprávění, které navazuje na osvědčený rukopis předchozích dílů. Stejně jako u předchozích dílů byl kladen důraz na plynulou návaznost scén, aby hráč neztrácel nit ani motivaci postupovat dál, i když hádanky postupně přituhovaly.\n\nPodraz 5 znamenal pro mnohé hráče symbolickou tečku za sérií, která provázela československou scénu ZX Spectrum po několik let a stala se jedním z nejrozpoznatelnějších domácích herních brandů osmdesátých let, srovnatelným ve své době s importovanými zahraničními adventurami. Fakt, že se jednotlivé díly šířily nezávisle přes více vydavatelských skupin současně, dodnes slouží jako doklad toho, jak populární a žádaná byla Fukova tvorba v komunitě, která neměla přístup k oficiálním západním distribučním kanálům a spoléhala se na vlastní neformální síť sdílení mezi počítačovými kluby, školami a jednotlivci. Z dnešního pohledu je Podraz 5 hlavně dokladem důslednosti, s jakou Fuka celou sérii dotáhl až do konce, což se v amatérské tvorbě té doby vůbec nerozumělo samo sebou, protože řada podobných projektů zůstala nedokončená už po prvním nebo druhém díle.\n\n**Proč hrát:** Pro fanoušky série je Podraz 5 důstojným a důsledně dotaženým zakončením jednoho z nejrozpoznatelnějších domácích herních brandů osmdesátých let.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__podraz-5-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__podraz-5-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111952,8 +111982,14 @@
           "teaser": "Fukova textová parodie na slavného filmového archeologa, navazující na díly 1 a 2.",
           "detail": null,
           "article": "**Indiana Jones 3** je další z Fukových textových adventur inspirovaných populární filmovou předlohou a vznikla v roce 1990, oficiálně ji pak v roce 1992 vydala Proxima – Software v.o.s. jako součást kolekce Fuxoft uvádí. Spolu s díly Indiana Jones 1 a 2 tvoří volnou sérii, v níž Fuka převyprávěl dobrodružství slavného filmového archeologa do podoby textového parseru ovládaného jednoduchými příkazy, přičemž hráč postupuje scénu po scéně a řeší hádanky odpovídající situacím, do jakých se filmová postava obvykle dostává.\n\nHra se drží osvědčeného schématu Fukových textovek – žádná grafika, důraz na plynulé řetězení scén a hádanek a hravý, ironický tón vyprávění, kterým Fuka oživoval i převzatý námět, takže hra nepůsobí jako mechanický převod filmu, ale jako svébytné vyprávění s vlastním rytmem. Neoficiální adaptace populárních filmů a knih byly pro tehdejší československou scénu typické, protože licence byly nedostupné, a autoři si tak sami \"přivlastňovali\" oblíbené postavy a přenášeli je do textového média, které nevyžadovalo nic víc než fantazii při psaní parseru a znalost filmové předlohy.\n\nPodle samotného Fuky patří série Indiana Jones k jeho nejznámějším pracím vedle Tetrisu 2 a Podrazu 3, a dodnes se na ni pamětníci rádi vrací jako na ukázku toho, jak vynalézavě se dala z omezených prostředků ZX Spectra vytěžit zábavná hra postavená jen na textu. Trojka v sérii přitom sklízela stejné ohlasy jako předchozí dva díly – hráči oceňovali především vtipné dialogy a nápadité řešení hádanek, které si s filmovou předlohou pohrávaly, aniž by ji otrocky kopírovaly scénu po scéně. Pro dnešního hráče je Indiana Jones 3 hlavně kulturní kuriozitou, ale právě v kontextu doby dokládá, jak silně filmové trháky ovlivňovaly i domácí, amatérsky vznikající herní tvorbu, a společně s Podrazy a Tetrisem 2 tvoří jádro toho, proč je Fuxoft dodnes zmiňován jako jedno z nejvýraznějších jmen rané československé počítačové scény.\n\n**Proč hrát:** Kvůli vtipným dialogům a nápaditému zpracování filmové předlohy stojí Indiana Jones 3 za pozornost jako kulturní kuriozita dokládající, jak silně trháky ovlivňovaly domácí tvorbu.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__indiana-jones-3-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__indiana-jones-3-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111974,8 +112010,14 @@
           "teaser": "Fukova mezinárodně nejúspěšnější hra; dodnes má fanoušky hlavně ve východní Evropě.",
           "detail": null,
           "article": "**Tetris 2** vytvořil František Fuka v roce 1990 pro ZX Spectrum a jeho tuzemské klony Didaktik a stal se jeho mezinárodně nejúspěšnější prací – ještě po třiceti letech se k ní hlásí fanoušci, především z východní Evropy, a nadšenci se pustili i do jejího moderního přepracování pro dnešní hardware i emulátory. Základní mechanika vychází z proslulého Tetrisu: hráč skládá padající kostky do kompletních řad, které pak mizí a uvolňují místo dalším dílkům ve čím dál rychlejším tempu, přičemž cílem je přežít co nejdéle, aniž by se hrací pole zaplnilo až po okraj.\n\nFukova verze ale nabídla něco, co v té době nebylo samozřejmostí – hru pro dva hráče najednou na jediné klávesnici ZX Spectra, tedy variantu, kde proti sobě mohli soupeřit dva lidé bez nutnosti druhého počítače nebo drahého periferního vybavení. Tehdy šlo o nápad, který výrazně zvýšil hratelnost i společenský rozměr hry, protože Tetris se tak dal hrát jako přímé souboje mezi kamarády, ne jen jako honba za vlastním skóre. Technicky je hra úsporná a rychlá, s jednoduchou, ale funkční grafikou i hudbou typickou pro osmibitové Spectrum, která dokázala hru odlišit od řady jiných domácích klonů stejného konceptu.\n\nTetris 2 patří dodnes k nejcitovanějším dílům celé Fukovy tvorby a je dokladem toho, že i skromný domácí klon dokázal místní scéně nabídnout vlastní, originálně pojaté zpracování světově proslulého konceptu. Podle Fukových vlastních slov mu hra dodnes přináší e-maily od fanoušků, hlavně z východní Evropy, kde si ji lidé pamatují jako jednu z prvních her, na kterých hráli proti sobě na jednom stroji, a nadšenci se pustili i do jejího moderního přepracování pro dnešní hardware, aby ji zpřístupnili nové generaci. Pro řadu pamětníků zůstává synonymem pro hraní Tetrisu na Spectru vůbec a jde o řídký případ domácí československé hry, jejíž sláva výrazně přesáhla hranice regionu, ve kterém vznikla.\n\n**Proč hrát:** Pro milovníky Tetrisu i historie čs. scény je Tetris 2 řídkým příkladem domácí hry, jejíž sláva výrazně přesáhla hranice regionu, kde vznikla.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__tetris-2-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__tetris-2-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -111994,8 +112036,14 @@
           "teaser": "Akční střílečka o raketě probíjející se vlnami nepřátel nad povrchem cizí planety.",
           "detail": null,
           "article": "**F.I.R.E.** je akční střílečka, kterou František Fuka vytvořil spolu s Michalem Hlaváčem v roce 1988; komerčně ji pak v roce 1992 vydal Ultrasoft. Název je zkratkou anglického spojení, které lze volně přeložit jako rychlá, důmyslná a riskantní likvidace, a přesně to hra od hráče vyžaduje – ovládá v ní malou raketu letící nad povrchem neznámé planety a musí ničit vlny nepřátel, aniž by narazila do terénu nebo se nechala zasáhnout palbou protivníků.\n\nHra je rozdělená do čtyř úrovní, z nichž každá končí soubojem s odlišným velkým nepřítelem – od nepřátelské rakety přes obří vosu a vesmírného draka až po hlavu s vrtulí. Tahle pestrost bossů byla na poměry domácí produkce pro ZX Spectrum nezvyklá a ukazovala, že i autoři známí především textovkami dokážou zvládnout rychlou akci s plynulým skrolováním a přehlednou grafikou, kde hráč musí sledovat současně vlastní pozici, palbu nepřátel i členitost terénu. Hudbu ke hře složil sám Fuka, který se hudbě na osmibitových strojích věnoval paralelně se svou programátorskou prací a chiptunům pro Spectrum se aktivně věnoval i v pozdějších letech.\n\nF.I.R.E. dokládá všestrannost Fuxoftovy tvorby, která nebyla omezená jen na textové adventury – ukázala, že autoři zvládnou i žánr rychlé akční střílečky, oblíbený u hráčů, kteří preferovali reflexy před textovými hádankami a vyžadovali od hry rychlé tempo a přehlednou odezvu na každý pohyb. Skutečnost, že se ke komerčnímu vydání hra dostala až o čtyři roky později prostřednictvím Ultrasoftu, zase ukazuje, jak dlouho mohla amatérsky vytvořená hra čekat, než ji některé z tehdejších tuzemských vydavatelství oficiálně zaštítilo. V rámci domácí produkce pro ZX Spectrum a jeho klony patří F.I.R.E. k technicky zdařilejším počinům konce osmdesátých let a dodnes se objevuje na seznamech nejzajímavějších československých her tohoto období, často po boku Fukových textovek jako důkaz, že jeho tvorba měla mnohem širší záběr, než by se dalo čekat od jediného autora.\n\n**Proč hrát:** Kdo hledá rychlou akční střílečku s přehlednou odezvou, najde ve F.I.R.E. jeden z technicky nejzdařilejších domácích shmupů konce osmdesátých let na ZX Spectru.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__f-i-r-e-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__f-i-r-e-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -112042,8 +112090,14 @@
           "teaser": "Navzdory názvu neadaptuje Eca; hrdinou je filmový inspektor Clouseau z Růžového pantera.",
           "detail": null,
           "article": "**Jméno růže** je adventura, kterou pod pseudonymem George K. vytvořil Jiří Koudelka a v roce 1991 ji vydala Proxima – Software v.o.s. Navzdory názvu neadaptuje stejnojmenný román Umberta Eca doslovně – hlavní postavou totiž není Ecův mnich Vilém z Baskervillu, ale filmový inspektor Jacques Clouseau, známý ze série Růžový panter, kterého děj vyšle do kláštera v Německu, kde sídlí tajemný řád jeptišek nazývaný Posxtey, aby tam vyšetřil podezřelé události skryté za klášterními zdmi.\n\nHra byla na poměry ZX Spectra nezvykle rozsáhlá, a protože se celá nevešla do 48 kilobajtů paměti najednou, musely se jednotlivé části průběžně dohrávat z paměťového média za chodu, což bylo na osmibitových strojích poměrně neobvyklé řešení. Kvůli tomu vyšla nejprve pouze pro počítače připojené k disketové mechanice Didaktik 40, teprve v roce 1993 vznikla úprava pro 128kilobajtové Spectrum, díky níž odpadla nutnost dohrávání a hra mohla vyjít i na kazetě, tedy ve formě dostupné mnohem širšímu okruhu hráčů.\n\nKombinace parodické zápletky, rozsáhlého světa a technicky náročného řešení dělá z Jména růže jednu z ambicióznějších domácích adventur začátku devadesátých let, kdy už se domácí scéna nebála pouštět do rozsáhlejších a technicky komplikovanějších projektů. Humor stavějící na kontrastu vážné literární předlohy a groteskní filmové postavy dával hře specifický tón, kterým se odlišovala od vážněji laděných zahraničních adventur i od dřívějších domácích textovek. Ukazuje také, jak volně tehdejší tvůrci pracovali s cizími předlohami a žánrovými schématy, když si z různých zdrojů – slavného románu i filmové komedie – poskládali svébytný, originálně pojatý příběh přizpůsobený chuti tehdejších domácích hráčů. Technická náročnost, kterou si hra vynutila kvůli svému rozsahu, z Jména růže dělá zajímavý doklad toho, kam až se dala domácí amatérská tvorba na sklonku éry osmibitů dotáhnout.\n\n**Proč hrát:** Kvůli originálnímu spojení vážné literární předlohy s groteskním filmovým humorem patří Jméno růže k ambicióznějším domácím adventurám počátku devadesátých let.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__jmeno-ruze-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__jmeno-ruze-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -112090,8 +112144,14 @@
           "teaser": "Plošinovka s populárním Krtkem Zdeňka Milera, mířená hlavně na nejmladší hráče.",
           "detail": null,
           "article": "**Krtek a autíčko** je akční plošinovka, kterou vytvořilo studio Kybersoft a v roce 1990 ji vydala Proxima – Software v.o.s.; hudbu ke hře složil Miroslav Hlavička. Hra staví na popularitě animovaného Krtka Zdeňka Milera, jedné z nejznámějších postav československé kultury, a přenáší ji do jednoduchého, ale nápaditého herního rámce srozumitelného i pro nejmladší hráče, kteří s počítačem teprve začínali.\n\nÚkolem hráče je v roli Krtka naložit bedny na náklaďák, přičemž mu v tom brání chaotické prostředí plné překážek a svérázných tvorů nazývaných \"pružíci\". Krtek přitom může s okolím aktivně pracovat – používat lopatu k odklízení překážek nebo jablka, jimiž dokáže pružící odlákat či zaměstnat, což hře dodává lehce strategický rozměr nad rámec obyčejného sbírání předmětů a nutí hráče promýšlet pořadí úkonů v každé místnosti. Hra podporuje ovládání přes Kempston joystick i předefinovatelné klávesy, což bylo na tehdejší poměry standardem u kvalitněji zpracovaných titulů a usnadňovalo hru i méně zkušeným hráčům.\n\nVolba tak důvěrně známé postavy z pro děti oblíbeného seriálu byla chytrým tahem, díky němuž si hra našla publikum i mezi mladšími hráči, kteří jinak textovky nebo akční střílečky nehráli a k počítači přistupovali spíš jako k hračce. Grafické zpracování postaviček i prostředí se drží roztomilého stylu předlohy a spolu s hudbou Miroslava Hlavičky vytváří atmosféru, která je nápadně odlehčenější než u drtivé většiny tehdejších akčních her. Krtek a autíčko dnes patří k roztomilejším kapitolám tuzemské tvorby pro ZX Spectrum – dokládá, že domácí studia dokázala pracovat i s lokálně zakotveným humorem a postavami, které měly pro československé publikum zcela jiný citový náboj než import ze zahraničí, a hra si díky tomu dodnes drží zvláštní místo mezi pamětníky.\n\n**Proč hrát:** Díky roztomilému zpracování oblíbené postavičky a odlehčené atmosféře je Krtek a autíčko příjemnou volbou i pro hráče, kteří se jinak akčním hrám na Spectru vyhýbali.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__krtek-auticko-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__krtek-auticko-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -112200,8 +112260,14 @@
           "teaser": "Ponorková simulace od MicroProse; kampaně a volitelná obtížnost od arkády po detail.",
           "detail": null,
           "article": "**Silent Service** přenesl na ZX Spectrum simulaci velení americké ponorce třídy Gato v Pacifiku za druhé světové války, a to formou, kterou proslavilo americké studio MicroProse na počítačích jako Commodore 64. Hráč velí ponorce, plánuje hlídky, sleduje konvoje nepřátelských lodí na mapě a rozhoduje, kdy zaútočit torpédy a kdy se raději potopit a čekat, až hloubkové nálože přejdou. Hra pracuje s reálnými historickými kampaněmi a umožňuje volit obtížnost od zjednodušené arkádové verze až po detailní simulaci s omezenou viditelností a nutností počítat úhly náměru, rychlost cíle a úhel odpalu torpéda, přičemž hráč mezi jednotlivými hlídkami postupuje v kariéře a získává zkušenosti i vyznamenání.\n\nNa Spectru je zpracování nutně skromnější než na výkonnějších strojích – pohledy z periskopu a mapa jsou vykreslené jednoduchou grafikou – ale základní mechanismy napětí z lovu a bytí lovena zůstávají funkční. Zvuková kulisa se omezuje na sonar a exploze, čímž umocňuje pocit tísně v uzavřeném prostoru ponorky, kde každé rozhodnutí o vynoření může znamenat setkání s nepřátelskou hlídkovou lodí. Tempo hry je záměrně pomalé a vyžaduje trpělivé plánování tras mezi jednotlivými hlídkovými oblastmi.\n\nSilent Service patřil k titulům, které na Spectru zpřístupnily žánr válečných simulátorů typický pro výkonnější počítače, a i přes technická omezení si udržel reputaci promyšlené a napínavé hry. Spolu s dalšími tituly MicroProse pomohl na osmibitových platformách zpopularizovat historicky ukotvené válečné simulace stavějící na reálných taktikách a na respektu k reálným taktikám ponorkové války. Dnes oceníte především atmosféru trpělivého lovu v temných vodách Pacifiku, i když ovládání a tempo hry vyžadují od hráče zvyklého na moderní akční tituly notnou dávku trpělivosti a ochotu přijmout pomalejší, přemýšlivější tempo hry.\n\n**Proč hrát:** Kdo ocení trpělivý, promyšlený lov v temných vodách Pacifiku, najde v Silent Service jeden z nejatmosféričtějších válečných simulátorů, jaké Spectrum nabídlo.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/zx-spectrum/zx-spectrum__silent-service-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/zx-spectrum/zx-spectrum__silent-service-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -124893,8 +124959,14 @@
           "teaser": "Nastavil laťku domácích převodů; proslulá lišta vylepšení a sedm planet impéria Bacterion.",
           "detail": null,
           "article": "**Gradius** byl jedním z prvních velkých titulů, které se na Sharp X68000 objevily, a hned od začátku nastavil laťku toho, co má domácí převod arkádové hry znamenat. Hráč pilotuje stíhačku Vic Viper proti impériu Bacterion a postupuje sedmi tematicky odlišnými etapami, od sopečné planety s chrliči lávy přes pole Moai soch až po biomechanické nitro nepřátelské základny. Klíčovou mechanikou je proslulá lišta vylepšení: sestřelení červených formací přidává kapsli, kterou hráč posouvá po ukazateli a pak sám rozhoduje, zda investuje do rychlosti, raket, dvojité střelby, laseru, satelitů Option nebo štítu. Právě tahle svoboda odlišila Gradius od konkurence a udělala z každého průchodu strategické rozhodování.\n\nNa X68000 hra ukázala, proč se počítači přezdívalo domácí arkáda. Hardwarové sprajty a několik nezávisle scrollovaných vrstev umožnily plynulý pohyb bez znatelného zpomalování i ve chvílích, kdy obrazovku zaplní hejno nepřátel, a barevná paleta dovolila zachovat charakteristické kontrastní pozadí. Zvuk využívá FM syntézu k tomu, aby přednesl slavné rytmické skladby, které patří k nejlépe zapamatovatelným melodiím osmdesátých let, a doplňují je vzorkované efekty výbuchů. Atmosféra je čistě sci-fi, chladná a strohá, přesto hra působí až hypnoticky díky dokonalému rytmu, ve kterém přicházejí jednotlivé vlny.\n\nDobově byl tento převod chápán jako jasný důkaz kvality nového stroje a pro řadu japonských hráčů to byla první hra, kterou na X68000 spustili. Vliv Gradiusu na žánr střílečky je fundamentální: systém volitelných vylepšení, satelity kopírující pohyb lodi i koncept memorizace rozmístění nepřátel převzaly desítky pozdějších titulů a celá řada z nich vznikla přímo u Konami. Dnes je hra kratší a přísnější, než jsou moderní hráči zvyklí, ale nabízí čistou a stále funkční hratelnost, u které se vyplácí trpělivost. Kdo chce pochopit kořeny japonských stříleček, začíná právě tady.\n\n**Proč hrát:** Kdo chce poznat kořeny japonských stříleček, najde v tomto převodu čistou, přísnou a stále funkční hratelnost, která odmění trpělivost.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/x68000/x68000__gradius-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/x68000/x68000__gradius-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -124915,8 +124987,14 @@
           "teaser": "Vysněná konverze arkádového hitu; rozdíly od předlohy se hledají jen těžko.",
           "detail": null,
           "article": "**Gradius II** je na Sharp X68000 tím, čemu se říká vysněná konverze: arkádový hit z konce osmdesátých let dorazil na domácí počítač v podobě, která se předloze přiblížila natolik, že se rozdíly hledají jen těžko. Vic Viper se opět postavil impériu Bacterion, tentokrát ale s výrazně rozšířeným systémem vylepšení, protože si hráč před startem vybírá z několika předpřipravených konfigurací lišty. Jedna sází na klasické rakety a laser, jiná na střelu do všech stran, další na miny nebo rozdvojený paprsek, a každá volba mění tempo hry i to, jak se dá vyrovnat s konkrétními úseky. K tomu přibyly nové etapy s ohnivými výtrysky, ledovými krystaly a slavnou galerií bossů z předchozích dílů.\n\nTechnicky jde o jednu z nejlépe hodnocených konverzí na platformě vůbec. Počítač zvládá obrovské množství pohyblivých objektů, propracované vícevrstvé pozadí i efekty, které na tehdejších konzolích nebyly myslitelné, a to při zachování plynulosti, na kterou žánr spoléhá. Hudba patří k tomu nejlepšímu, co Konami v éře FM syntézy vytvořilo, a X68000 s čipem Yamaha jí sedne mimořádně dobře; skladby doprovázející jednotlivé etapy mají epický náboj a dodávají hře pocit velkého vesmírného tažení. Digitalizované hlášky a výbuchy pak celý dojem zaokrouhlují.\n\nDobově tato verze fungovala jako trumf japonské počítačové scény a jako důvod, proč si stroj pořizovali fanoušci stříleček i několik let po jeho uvedení. Vliv Gradiusu II na žánr je patrný především v tom, jak pracuje s výběrem výzbroje a s eskalací obtížnosti, kde každá etapa představí novou hrozbu a nutí hráče měnit přístup. Dnes je hra i přes svůj věk skvěle hratelná, přehledná a férová, byť nemilosrdná; kdo zvládne první průchod, obvykle se vrací pro lepší skóre. Patří k titulům, kvůli kterým se emulace X68000 vyplatí zkusit i tomu, kdo o platformě nikdy neslyšel.\n\n**Proč hrát:** Pro fanoušky stříleček jde o férovou, přehlednou a nemilosrdnou výzvu, kvůli které stojí za to vyzkoušet emulaci X68000 i bez znalosti platformy.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/x68000/x68000__gradius-ii-snap.webp",
+          "gallery": [
+            {
+              "src": "/images/games/x68000/x68000__gradius-ii-snap.webp",
+              "label": "Ze hry",
+              "kind": "snap"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -125546,8 +125624,14 @@
           "teaser": "Mysteriózní vizuální novela na ostrově, kde experimenty s pamětí odhalí temné spiknutí.",
           "detail": null,
           "article": "**Desire** je mysteriózní vizuální novela odehrávající se na odlehlém tropickém ostrově, kde stojí výzkumné zařízení soukromé korporace. Novinář Albert a mladá Makoto se sem dostanou každý z jiného důvodu a postupně narazí na experimenty, které mají co do činění s lidskou pamětí a vědomím. Příběh se odvíjí ve dvou scénářích a teprve jejich propojení odhalí, co se na ostrově skutečně stalo a proč se odtud nikdo nemá vrátit.\n\nHra staví na principu dvojí perspektivy, který později proslavil EVE burst error: jednu událost vidíte z pohledu obou hrdinů a detaily, jež v jedné linii nedávají smysl, dostanou význam v té druhé. Interakce probíhá přes příkazové menu a prohledávání obrazovek, důraz je na pozorném čtení a na tom, kdy se rozhodnete přepnout na druhou postavu. Rozhodnutí nejsou četná, zato jsou zásadní, a hra počítá s tím, že ji projdete vícekrát, než si složíte úplný obraz. Ostrov sám funguje jako uzavřená scéna s omezeným počtem míst a postav, takže se hráč rychle zorientuje a může se soustředit na to, komu vlastně věřit. Napětí neroste z akce, ale z drobných rozporů mezi tím, co jednotlivé postavy tvrdí, a z toho, jak se stejná scéna liší podle toho, kdo ji zrovna prožívá.\n\nNa PC-98 patřil Desire k titulům, které ukázaly, že vizuální novela nemusí být jen sled obrázků. Kombinuje sci-fi thriller, melodrama i horor a mění tón podle toho, kterou postavu právě sledujete. Grafika sází na velké portréty a atmosférické scenérie ostrova, hudba na klidné, mírně tísnivé motivy. Titul se dočkal portů na Saturn, PlayStation i další systémy a spolu s ostatními hrami studia C's Ware pomohl vytvořit šablonu japonské příběhové adventury devadesátých let. Dnes se hraje pomalu a jeho síla je v postupném odkrývání; kdo má rád pozvolna gradující tajemství, najde tu jednu z klasik platformy.\n\n**Proč hrát:** Pro pomalu gradující, žánrově proměnlivé tajemství na ostrově, kde se sci-fi thriller mísí s melodramatem i hororem podle právě sledované postavy.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-98/pc-98__desire-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-98/pc-98__desire-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -125811,8 +125895,14 @@
           "teaser": "Tahová fantasy strategie, kde se místo armád povolávají příšery od skřítků až po draky.",
           "detail": null,
           "article": "**Master of Monsters** je tahová fantasy strategie, ve které hráč nevede na bojiště armádu lidí, ale povolává příšery. Jako jeden z pánů živlů obsazujete mapu, sbíráte energii z ovládnutých věží a z ní tvoříte nové bytosti, od skřítků a harpyjí až po draky a démony. Cílem je zničit soupeřovo sídlo dříve, než on zničí to vaše, a cesta k němu vede přes pomalé rozšiřování vlivu po hexové mapě.\n\nMechanicky jde o strategii s jednoduchými pravidly a překvapivou hloubkou. Každá jednotka má vlastní pohyb, útok na blízko i na dálku a odolnost proti různým typům poškození, a hlavně se s bojovými zkušenostmi vyvíjí do silnějších forem. Vzniká tak dilema, které hru definuje: postavit rychle mnoho slabých tvorů, nebo krmit zkušenostmi několik málo vyvolených? Terén ovlivňuje pohyb i regeneraci, věže se dají dobývat a přebírat, a protože energie je omezená, každé povolání příšery je investice, kterou nelze vzít zpět. Souboje se odehrávají automaticky poté, co určíte útočníka a cíl, takže veškeré rozhodování probíhá na mapě, v postavení jednotek a v načasování útoku. Hra také umožňuje partie více hráčů u jednoho stroje, což z ní v době vydání dělalo oblíbený titul pro společné večery. Jednotlivé mapy se liší rozložením věží, a tím i celým tempem partie.\n\nNa PC-98 hra vypadala střízlivě, s čitelnou mapou, drobnými ikonkami jednotek a stručnými bojovými animacemi, ale právě tahle přehlednost jí svědčí. Doprovod tvoří jednoduché, chytlavé melodie ve stylu tehdejších japonských wargames. Master of Monsters se dostal i na konzole, kde ho poznalo západní publikum, a spolu s dalšími tituly studia SystemSoft se řadí k základům japonské tahové strategie. Dnes patří k tomu nejlépe zestárlému, co na platformě vzniklo: pravidla se dají pochopit během pár minut, jedna partie zabere hodinu nebo dvě a taktická rozhodnutí jsou stále zajímavá.\n\n**Proč hrát:** Pro milovníky tahových strategií, kteří chtějí pravidla pochopit za pár minut a partii dohrát za hodinu nebo dvě — jedna z nejlépe zestárlých her na PC-98.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-98/pc-98__master-of-monsters-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-98/pc-98__master-of-monsters-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -125923,8 +126013,14 @@
           "teaser": "Komediální akční RPG s elfí lovkyní odměn, které fantasy klišé pravidelně shazuje.",
           "detail": null,
           "article": "**Popful Mail** je odlehčené akční RPG z boční perspektivy, v němž hraje hlavní roli elfí lovkyně odměn Mail, která se honí za nepolapitelným zločincem hlavně proto, že jí došly peníze. Tón je od první chvíle komediální: postavy se hádají, plány se hroutí a vážné fantasy klišé hra pravidelně shazuje. Vedle Mail se do party přidávají další hrdinové, mezi kterými se dá přepínat, a každý má jiný dosah a styl útoku, takže volba postavy mění způsob, jakým se dá daná pasáž projít.\n\nHratelnost stojí na plošinovkové akci — skákání, sekání, uhýbání střelám — doplněné o RPG vrstvu s obchody, vylepšováním výbavy a zkušenostmi. Úrovně jsou stavěné jako krátké, sevřené výpravy zakončené soubojem s bossem, což hře drží tempo. Na PC-98 se Falcom soustředil na výraznou, kreslenou grafiku s velkými čitelnými postavami a barevně sladěnými pozadími; portrétové vsuvky u dialogů dodávají celku nádech animovaného seriálu. Hudba je hravější a melodičtější než u vážnějších titulů studia a společně s vtipnými dialogy tvoří atmosféru, která se od tehdejší japonské produkce dost odlišovala.\n\nHra si dobově získala publikum právě lehkostí a tím, že nešla cestou tvrdého dungeonu. Později se dočkala předělávek na konzole, díky nimž se dostala i k západním hráčům, a její verze pro Sega CD patří k nejznámějším překladům svého druhu. Dnes je Popful Mail příjemným protipólem k vážnějším RPG té doby: dá se dohrát za pár večerů, akce má správný odpor a humor stárne překvapivě dobře, protože stojí na povahách postav, ne na dobových narážkách. Za pozornost stojí i to, jak dobře je hra rozvržená: obtížnost stoupá pozvolna, obchody se objevují právě ve chvíli, kdy dochází vybavení, a žádná pasáž netrvá tak dlouho, aby přestala bavit. Z pohledu dnešního hráče jde o jeden z nejpříjemnějších způsobů, jak si vyzkoušet, co PC-98 uměl v akčním žánru, aniž by bylo nutné bojovat s nemilosrdnou obtížností typickou pro jiné dobové tituly.\n\n**Proč hrát:** Pro ty, kdo chtějí odlehčenou alternativu k tvrdším RPG té doby, nabízí pár večerů svižné akce a humor, který stárne překvapivě dobře díky povahám postav.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-98/pc-98__popful-mail-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-98/pc-98__popful-mail-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -125945,8 +126041,14 @@
           "teaser": "Bod, kde Falcom opustil akční experimenty pro klasické tahové JRPG s důrazem na příběh.",
           "detail": null,
           "article": "**Dragon Slayer: The Legend of Heroes** je bod, ve kterém se Falcom odklonil od akčních experimentů série Dragon Slayer a napsal klasické tahové JRPG s důrazem na příběh. Hráč provází prince Seliose, který po smrti otce a uchvácení trůnu vyrůstá v ústraní a postupně se vrací, aby si své království vzal zpět. Vyprávění je členěné podle měst a království, kterými parta prochází, a každé z nich přináší vlastní menší zápletku — vzniká tak dojem cesty napříč obydleným světem, ne jen řetězu dungeonů.\n\nSoubojový systém je tahový a poloautomatický: hráč zadává obecnou strategii a postavy ji provádějí, což zrychluje běžné střety a šetří čas při průchodu mapou. Zásoby, kouzla a výbava se řeší v přehledných menu, obtížnost je mírnější než u dobových hardcore dungeonů a hra spoléhá spíš na to, že hráče potáhne dál osud postav. Na PC-98 vsadili tvůrci na barevně sytá města a portréty postav v dialozích; vysoké rozlišení dalo vyniknout detailům v pozadích a rozhraní zůstává i dnes čitelné. Hudba patří k tomu nejmelodičtějšímu, co Falcom v té době vytvořil, a několik motivů se v podobě aranží vrací v pozdějších hrách.\n\nVýznam téhle hry přerostl její vlastní kvality: založila linii Eiyuu Densetsu, ze které vyrostla dlouhá řada pokračování a nakonec i série Trails, jedna z nejrozsáhlejších vyprávěcích ság v žánru. Dobově se dostala na spoustu japonských platforem a dodnes je připomínána jako titul, který u Falcomu prosadil přístup postavený na postavách a světě. Dnes se hraje pohodlně a bez zbytečné frustrace — je to spíš klidná, dlouhá výprava než zkouška trpělivosti. Jistou daní je předvídatelnost: kdo zná pozdější japonská RPG, uhodne většinu zvratů dopředu, protože právě tahle hra pomáhala některé z nich vymyslet. Zůstává ale poctivě odvyprávěná a její tempo — pár hodin na království, pak zase dál — se drží dobře i dnes, byť jednotlivé souboje působí staromódně.\n\n**Proč hrát:** Pro fanoušky série Trails, kteří chtějí poznat její kořeny, je klidnou a poctivě odvyprávěnou výpravou — předvídatelnou pro znalce žánru, ale historicky nepominutelnou.",
-          "image": null,
-          "gallery": [],
+          "image": "/images/games/pc-98/pc-98__dragon-slayer-legend-of-heroes-title.webp",
+          "gallery": [
+            {
+              "src": "/images/games/pc-98/pc-98__dragon-slayer-legend-of-heroes-title.webp",
+              "label": "Titulní obrazovka",
+              "kind": "title"
+            }
+          ],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -167201,6 +167303,6 @@
     "withTeaser": 4900,
     "withArticle": 4911,
     "platformImages": 75,
-    "gameImages": 4439
+    "gameImages": 4456
   }
 }
