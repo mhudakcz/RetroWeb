@@ -54,6 +54,13 @@ for (const { g } of seriesPicks) {
 const siblings = [...seenTitle.values()].slice(0, 12);
 const clean = (s: string) => s.replace(/[*_\x60]/g, '');
 
+// Poradi musi odpovidat poradi [data-zoom] v dokumentu: obal je v hlavicce,
+// snimky az za ni.
+const zoomAll = [
+  ...(game.image ? [{ src: game.image, label: clean(game.name), pixel: false }] : []),
+  ...shots.map((sh) => ({ src: sh.src, label: shotLabel(sh), pixel: true })),
+];
+
 const FLAG_T: Record<string, string> = {
   homebrew: t(locale, 'flag.homebrew'), mustplay: t(locale, 'flag.mustplay'),
   mature: t(locale, 'flag.mature'), puzzle: t(locale, 'flag.puzzle'),
@@ -253,7 +260,20 @@ const posText = {
   <button class="z-nav z-prev" type="button" aria-label={t(locale, 'zoom.prev')}>‹</button>
   <figure class="z-fig">
     <img id="zoomImg" alt="" />
-    <figcaption id="zoomCap"></figcaption>
+    <figcaption>
+      <span id="zoomCap"></span>
+      <span id="zoomPoc" class="z-poc"></span>
+    </figcaption>
+    {zoomAll.length > 1 && (
+      <div id="zoomThumbs" class="z-thumbs">
+        {zoomAll.map((z, i) => (
+          <button class="z-thumb" type="button" data-i={i} title={z.label}>
+            <img src={z.src} alt="" loading="lazy" decoding="async"
+                 style={z.pixel ? 'image-rendering: pixelated' : undefined} />
+          </button>
+        ))}
+      </div>
+    )}
   </figure>
   <button class="z-nav z-next" type="button" aria-label={t(locale, 'zoom.next')}>›</button>
 </div>
@@ -293,6 +313,8 @@ const posText = {
     var box = document.getElementById('zoom');
     var img = document.getElementById('zoomImg');
     var cap = document.getElementById('zoomCap');
+    var poc = document.getElementById('zoomPoc');
+    var pas = document.getElementById('zoomThumbs');
     if (!box) return;
     var zdroje = [].slice.call(document.querySelectorAll('[data-zoom]'));
     if (!zdroje.length) { box.remove(); return; }
@@ -315,8 +337,24 @@ const posText = {
         };
         if (img.complete) hotovo(); else img.addEventListener('load', hotovo, { once: true });
       }
+      poc.textContent = zdroje.length > 1 ? (kde + 1) + ' / ' + zdroje.length : '';
+      if (pas) {
+        var t = pas.children;
+        for (var n = 0; n < t.length; n++) t[n].classList.toggle('on', n === kde);
+      }
       box.querySelector('.z-prev').hidden = zdroje.length < 2;
       box.querySelector('.z-next').hidden = zdroje.length < 2;
+    }
+
+    // Pas nahledu je vykresleny uz na serveru — prvky vyrobene za behu by
+    // nemely atribut data-astro-cid a scoped CSS by je minulo.
+    if (pas) {
+      var tl = pas.children;
+      for (var m = 0; m < tl.length; m++) {
+        (function (i) {
+          tl[i].addEventListener('click', function (e) { e.stopPropagation(); ukaz(i); });
+        })(m);
+      }
     }
 
     function otevri(i) {
@@ -389,7 +427,24 @@ const posText = {
     display: block; max-width: 92vw; max-height: 78vh; height: auto;
     border-radius: 10px; box-shadow: 0 30px 80px -20px #000;
   }
-  .z-fig figcaption { color: #e7e9f2; font-size: 0.92rem; font-weight: 600; text-align: center; }
+  .z-fig figcaption {
+    color: #e7e9f2; font-size: 0.92rem; font-weight: 600; text-align: center;
+    display: flex; align-items: baseline; gap: 10px; justify-content: center;
+  }
+  .z-poc { color: #9aa1b8; font-weight: 500; font-size: 0.85rem; }
+  .z-thumbs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+  .z-thumb {
+    width: 76px; height: 56px; padding: 0; overflow: hidden;
+    border-radius: 8px !important; border: 2px solid transparent !important;
+    background: #0b0c11 !important; opacity: 0.55; cursor: pointer;
+    transition: opacity 0.15s ease, border-color 0.15s ease;
+  }
+  .z-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .z-thumb:hover { opacity: 1; }
+  .z-thumb.on { opacity: 1; border-color: var(--accent) !important; }
+  @media (max-width: 560px) {
+    .z-thumb { width: 56px; height: 42px; }
+  }
   .zoom button {
     flex: none; border: 1px solid rgba(255, 255, 255, 0.22); background: rgba(255, 255, 255, 0.08);
     color: #fff; cursor: pointer; border-radius: 999px; line-height: 1;
