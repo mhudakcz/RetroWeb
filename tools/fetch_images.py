@@ -123,7 +123,9 @@ PLATFORM_PHOTO_FILE = {
     "switch-2": "Nintendo Switch 2 in Docking Console.jpg",
     # pozor: "Xbox Series XとSeries S.jpg" je fotka krabic v regálu, ne konzolí
     "xbox-series": "Xbox Series X mit Controller (transparent background).png",
-    "cd-i": "Philips CD-i 210 player (30179599718).jpg",
+    # puvodni snimek byl amatersky zaber na stole s kabely a zlutou stenou;
+    # mezi produktovymi fotkami ostatnich platforem pusobil cize
+    "cd-i": "CD-i-910-Console-Set.png",
     # v infoboxu článku je logo WonderSwanu, ne konzole
     "wonderswan": "WonderSwan-Color-Blue-Left.png",
     # clanek o Quest ma nesvobodny produktovy snimek; tenhle je na Commons
