@@ -40,20 +40,46 @@ python tools/magazine_prep.py .i18n-work/magazin
 a workflow `tools/magazine.workflow.js`. Obsah vydaného čísla se nikdy
 nemění — nové hry zakládají nová čísla.
 
-## Fronta
+## Fronta — změřeno 29. 8. 2026, katalog má 4 915 her
 
-- **Překlady**: platforma Mobil, magazín a nová hardwarová sekce o ukládání
-  jsou zatím jen česky. Magazín se schválně nedává do cizojazyčné navigace.
-- **Batch „whyplay"** se ztratil (psalo se do scratchpadu). Znovu přes
-  `whyplay_prep.py` — týká se ~3 100 článků bez závěrečné věty.
-- Rozšířit arkády (83 her), +50 na GBA/GB/GBC/Mega Drive/SNES/NES,
-  dotáhnout Switch, Saturn, Dreamcast, Master System na 150.
-- Úvodní texty sérií na 2200–2800 znaků u zbývajících ~80 sérií.
-- Lightbox / galerie u obrázků (dnes strop 480 px).
-- Hodnocení her — Metacritic nemá API a zakazuje scraping; procenta ze Steamu
-  fungují, ale pokrývají hlavně moderní PC.
-- Multiplayer info (lokální/online, počet hráčů).
-- ~140 mobilních her bez obalu (free-to-play tituly, volný zdroj neexistuje).
+**1. Závěrečná věta „Proč hrát" chybí u 3 191 her (64 %).** Největší díra
+v obsahu. Dávka `whyplay` se ztratila (psalo se do scratchpadu). Znovu:
+`python tools/whyplay_prep.py .i18n-work/why --size 25` → workflow
+`whyplay.workflow.js` → `--merge`. Zhruba 128 dávek.
+
+**2. Snímky ze hry chybí u 826 her, které mají obal.** App Store se u mobilu
+osvědčil; pro ostatní platformy existují `games-steam-shots` a
+`games-nintendo-shots`, které se dosud pustily jen zčásti.
+
+**3. 609 her (12 %) nemá žádný obrázek.** Nejhůř PC moderní (75), PC 9x (58),
+Xbox 360 (49), PS3 (46), Mobil (43 — stažené tituly, nedohledatelné),
+PS Vita (27), Xbox Series (24).
+
+**4. Překlady stojí na 66 %.** 1 640 her bez cizojazyčného článku a navíc celá
+platforma Mobil, magazín a hardwarová sekce o ukládání. Postup viz
+[[retroweb-obsah-workflow]] — `i18n_gap.py` → `i18n_new.workflow.js` → merge.
+
+**5. Úvody sérií jsou krátké — medián 1 191 znaků, žádný nepřesahuje 1 553.**
+Cíl 2 200–2 800 nebyl nikdy splněn, dřívější poznámka o hotových 10 sériích
+byla mylná (nesloučilo se). Týká se všech 155 sérií.
+
+**6. 155 her nemá rok vydání.** Kromě detailu hry to kazí i magazín, kam se
+takové hry zařazují jen odhadem podle roku platformy.
+
+**7. Drobnosti:** 33 her bez článku, 15 bez úvodní věty.
+
+**Malé platformy** (kdyby se chtělo rozšiřovat): Amiga CD32 10, Intellivision
+11, Jaguar 11, Atari 5200 11, 32X 13, SG-1000 13, Virtual Boy 13, CD-i 13,
+Vectrex 13, Atari 7800 14, ColecoVision 16, Atari 2600 jen 34, Master System
+38, PC Engine 38. Arkády mají 83.
+
+**Nedodělané funkce:** lightbox/galerie u obrázků (dnes strop 480 px),
+hodnocení her (Metacritic nemá API a zakazuje scraping; procenta ze Steamu
+fungují, ale pokrývají hlavně moderní PC), multiplayer info (lokální/online,
+počet hráčů).
+
+**Magazín** je pozastavený — uživatel 29. 8. 2026 řekl, že to chce udělat
+„malinko jinak". Ročník 1994 (7 čísel) zůstává na webu jako ukázka.
 
 ## Provozní poznámky
 
