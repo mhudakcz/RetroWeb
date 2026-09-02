@@ -116,7 +116,7 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
 </nav>
 
 {picks.length > 0 && (
-  <section class="section picks-sec">
+  <section class="section picks-sec" style={`--c1:${platform.color}; --c2:${platform.color2}`}>
     <div class="container">
       <h2 class="sec-title">{t(locale, 'picks.title')}</h2>
       <p class="muted picks-lead">{t(locale, 'picks.lead')}</p>
@@ -230,7 +230,19 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
 
   /* Cim zacit — odpoved na otazku, kterou ma ctenar nad abecednim seznamem
      sta her. Cislovane, aby bylo videt, ze jde o poradi, ne o vycet. */
+  /* Podbarveni v barve platformy — sekce se tim oddeli od sousedniho vypisu
+     vsech her a je hned videt, ze jde o doporuceni, ne o dalsi seznam. */
+  .picks-sec {
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--c1) 13%, transparent), transparent 78%),
+      var(--bg-2);
+    border-block: 1px solid var(--border-soft);
+    padding-block: 32px;
+  }
   .picks-sec .sec-title { margin-bottom: 6px; }
+  .picks-sec .picks a { background: var(--bg); }
+  .picks-sec .picks a:hover { border-color: var(--c1); }
+  .picks-sec .picks a::before { color: color-mix(in srgb, var(--c1) 75%, var(--text)); }
   .picks-lead { margin: 0 0 18px; max-width: 46em; }
   .picks { list-style: none; counter-reset: p; padding: 0; margin: 0;
            display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
