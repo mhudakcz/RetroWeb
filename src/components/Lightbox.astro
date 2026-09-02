@@ -1,0 +1,185 @@
+---
+// Lupa na obrázky. Sbírá obrázky podle CSS selektoru a listuje mezi nimi jako
+// jednou galerií — na stránce hry obal a snímky, na stránce platformy fotku
+// stroje, snímky v článku a pás obalů.
+//
+// Styly jsou schválně GLOBÁLNÍ: pás náhledů skládá skript za běhu a takové
+// prvky nemají atribut data-astro-cid, na který Astro scopuje CSS — se
+// scopovanými pravidly by náhledy zůstaly nenastylované.
+import { t, DEFAULT_LOCALE } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+
+interface Props {
+  locale?: Locale;
+  /** Co se do galerie sebere. Pořadí selektorů určuje pořadí v galerii. */
+  selector?: string;
+}
+const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
+---
+
+<div id="zoom" class="zoom" hidden data-sel={selector}>
+  <button class="z-close" type="button" aria-label={t(locale, 'zoom.close')}>×</button>
+  <button class="z-nav z-prev" type="button" aria-label={t(locale, 'zoom.prev')}>‹</button>
+  <figure class="z-fig">
+    <img id="zoomImg" alt="" />
+    <figcaption>
+      <span id="zoomCap"></span>
+      <span id="zoomPoc" class="z-poc"></span>
+    </figcaption>
+    <div id="zoomThumbs" class="z-thumbs"></div>
+  </figure>
+  <button class="z-nav z-next" type="button" aria-label={t(locale, 'zoom.next')}>›</button>
+</div>
+
+<script is:inline>
+  (function () {
+    var box = document.getElementById('zoom');
+    if (!box) return;
+    var img = document.getElementById('zoomImg');
+    var cap = document.getElementById('zoomCap');
+    var poc = document.getElementById('zoomPoc');
+    var pas = document.getElementById('zoomThumbs');
+
+    var zdroje = [].slice.call(document.querySelectorAll(box.getAttribute('data-sel')));
+    zdroje = zdroje.filter(function (e) { return e.tagName === 'IMG' && e.getAttribute('src'); });
+    if (!zdroje.length) { box.remove(); return; }
+    var kde = -1;
+
+    function popis(e) {
+      if (e.hasAttribute('data-zoom') && e.getAttribute('data-zoom')) return e.getAttribute('data-zoom');
+      var f = e.closest('figure');
+      var fc = f && f.querySelector('figcaption');
+      if (fc && fc.textContent.trim()) return fc.textContent.trim();
+      return e.getAttribute('alt') || '';
+    }
+
+    // Pixel art se zvetsuje jen na cely nasobek nativniho rozliseni — jinak
+    // vyjde cast pixelu 1px a cast 2px a obraz je kostrbaty.
+    function celyNasobek(im, maxSirka) {
+      var nat = im.naturalWidth;
+      if (!nat) return;
+      var k = Math.max(1, Math.floor(maxSirka / nat));
+      im.style.width = (nat * k) + 'px';
+      im.style.height = 'auto';
+    }
+
+    function ukaz(i) {
+      kde = (i + zdroje.length) % zdroje.length;
+      var z = zdroje[kde];
+      img.src = z.getAttribute('src');
+      img.alt = z.getAttribute('alt') || '';
+      cap.textContent = popis(z);
+      img.style.width = '';
+      img.style.height = '';
+      var pixel = z.hasAttribute('data-pixel');
+      img.style.imageRendering = pixel ? 'pixelated' : 'auto';
+      if (pixel) {
+        var dopocitat = function () {
+          celyNasobek(img, Math.min(window.innerWidth * 0.92,
+            window.innerHeight * 0.7 * (img.naturalWidth / img.naturalHeight)));
+        };
+        if (img.complete) dopocitat();
+        else img.addEventListener('load', dopocitat, { once: true });
+      }
+      poc.textContent = zdroje.length > 1 ? (kde + 1) + ' / ' + zdroje.length : '';
+      for (var n = 0; n < pas.children.length; n++) {
+        pas.children[n].classList.toggle('on', n === kde);
+      }
+      box.querySelector('.z-prev').hidden = zdroje.length < 2;
+      box.querySelector('.z-next').hidden = zdroje.length < 2;
+    }
+
+    if (zdroje.length > 1) {
+      for (var m = 0; m < zdroje.length; m++) {
+        (function (i) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'z-thumb';
+          b.title = popis(zdroje[i]);
+          var mi = document.createElement('img');
+          mi.src = zdroje[i].getAttribute('src');
+          mi.alt = '';
+          mi.loading = 'lazy';
+          if (zdroje[i].hasAttribute('data-pixel')) mi.style.imageRendering = 'pixelated';
+          b.appendChild(mi);
+          b.addEventListener('click', function (e) { e.stopPropagation(); ukaz(i); });
+          pas.appendChild(b);
+        })(m);
+      }
+    }
+
+    function otevri(i) {
+      ukaz(i);
+      box.hidden = false;
+      document.body.style.overflow = 'hidden';
+      box.querySelector('.z-close').focus();
+    }
+    function zavri() {
+      box.hidden = true;
+      document.body.style.overflow = '';
+    }
+
+    for (var j = 0; j < zdroje.length; j++) {
+      (function (i) {
+        zdroje[i].style.cursor = 'zoom-in';
+        zdroje[i].addEventListener('click', function () { otevri(i); });
+      })(j);
+    }
+    box.querySelector('.z-close').addEventListener('click', zavri);
+    box.querySelector('.z-prev').addEventListener('click', function (e) { e.stopPropagation(); ukaz(kde - 1); });
+    box.querySelector('.z-next').addEventListener('click', function (e) { e.stopPropagation(); ukaz(kde + 1); });
+    box.addEventListener('click', function (e) {
+      if (e.target === box || e.target.classList.contains('z-fig')) zavri();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (box.hidden) return;
+      if (e.key === 'Escape') zavri();
+      else if (e.key === 'ArrowLeft') ukaz(kde - 1);
+      else if (e.key === 'ArrowRight') ukaz(kde + 1);
+    });
+  })();
+</script>
+
+<style is:global>
+  .zoom {
+    position: fixed; inset: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    background: rgba(6, 7, 11, 0.92); backdrop-filter: blur(6px);
+    padding: 20px;
+  }
+  .zoom[hidden] { display: none; }
+  .z-fig { margin: 0; display: grid; place-items: center; gap: 12px; max-width: 100%; }
+  .z-fig > img {
+    display: block; max-width: 92vw; max-height: 70vh; height: auto;
+    border-radius: 10px; box-shadow: 0 30px 80px -20px #000;
+  }
+  .z-fig figcaption {
+    color: #e7e9f2; font-size: 0.92rem; font-weight: 600; text-align: center;
+    display: flex; align-items: baseline; gap: 10px; justify-content: center;
+  }
+  .z-poc { color: #9aa1b8; font-weight: 500; font-size: 0.85rem; }
+  .zoom button {
+    flex: none; border: 1px solid rgba(255, 255, 255, 0.22); background: rgba(255, 255, 255, 0.08);
+    color: #fff; cursor: pointer; border-radius: 999px; line-height: 1;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .zoom button:hover { background: rgba(255, 255, 255, 0.18); border-color: rgba(255, 255, 255, 0.45); }
+  .z-nav { width: 46px; height: 46px; font-size: 1.7rem; }
+  .z-nav[hidden] { visibility: hidden; display: block; }
+  .z-close { position: absolute; top: 16px; right: 16px; width: 40px; height: 40px; font-size: 1.4rem; }
+  .z-thumbs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; max-width: 92vw; }
+  .zoom .z-thumb {
+    width: 76px; height: 56px; padding: 0; overflow: hidden;
+    border-radius: 8px; border: 2px solid transparent;
+    background: #0b0c11; opacity: 0.55; cursor: pointer;
+    transition: opacity 0.15s ease, border-color 0.15s ease;
+  }
+  .zoom .z-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .zoom .z-thumb:hover { opacity: 1; }
+  .zoom .z-thumb.on { opacity: 1; border-color: var(--accent); }
+  @media (max-width: 560px) {
+    .zoom { padding: 12px; gap: 4px; }
+    .z-nav { width: 38px; height: 38px; font-size: 1.4rem; }
+    .zoom .z-thumb { width: 56px; height: 42px; }
+  }
+</style>
