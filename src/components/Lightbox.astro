@@ -133,6 +133,26 @@ const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
     box.addEventListener('click', function (e) {
       if (e.target === box || e.target.classList.contains('z-fig')) zavri();
     });
+    // Prejeti prstem: na telefonu je to prirozenejsi nez trefovat sipky.
+    // Gesto se bere jen kdyz je vodorovne — svisly tah at klidne scrolluje.
+    var tx = 0, ty = 0, tCas = 0;
+    box.addEventListener('touchstart', function (e) {
+      if (e.touches.length !== 1) return;
+      tx = e.touches[0].clientX;
+      ty = e.touches[0].clientY;
+      tCas = Date.now();
+    }, { passive: true });
+    box.addEventListener('touchend', function (e) {
+      if (!tCas || !e.changedTouches.length) return;
+      var dx = e.changedTouches[0].clientX - tx;
+      var dy = e.changedTouches[0].clientY - ty;
+      var dt = Date.now() - tCas;
+      tCas = 0;
+      if (zdroje.length < 2) return;
+      if (dt > 800 || Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+      ukaz(dx < 0 ? kde + 1 : kde - 1);
+    }, { passive: true });
+
     document.addEventListener('keydown', function (e) {
       if (box.hidden) return;
       if (e.key === 'Escape') zavri();
@@ -153,7 +173,7 @@ const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
   .z-fig { margin: 0; display: grid; place-items: center; gap: 12px; max-width: 100%; }
   /* Sipky sedi u obrazku, ne u okraju prekryvu — jinak by se centrovaly podle
      celeho sloupce vcetne popisku a pasu nahledu. */
-  .z-stage { display: flex; align-items: center; gap: 8px; max-width: 100%; }
+  .z-stage { display: flex; align-items: center; gap: 8px; max-width: 100%; touch-action: pan-y; }
   .z-stage img {
     display: block; max-height: 70vh; height: auto;
     /* Sirka se meri proti mistu MEZI sipkami, ne proti oknu — s 92vw se rada
