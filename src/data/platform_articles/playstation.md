@@ -11,6 +11,7 @@ PlayStation má ovšem nezaměnitelný vizuální „rukopis", který dnes zaž�
 Zvuk obstarával vyhrazený čip **SPU** s **24 hardwarovými kanály**, podporou ADPCM vzorků a hardwarovým reverbem. Díky tomu hry zněly bohatě a kromě syntetizované hudby mohly přehrávat i plnohodnotné **CD Audio** stopy přímo z disku.
 
 <figure class="article-photo"><img src="/images/platforms/extra/playstation/2.webp" alt="Oficiální multitap pro až čtyři hráče" loading="lazy"><figcaption>Oficiální multitap pro až čtyři hráče</figcaption></figure>
+
 ### Propojeni a periferie
 
 Standardem byla **paměťová karta** s kapacitou 128 kB (15 bloků), do níž se ukládaly pozice — naprostá nutnost u rozsáhlých RPG. Konzole měla dva porty na ovladače a dva na karty.
@@ -19,6 +20,7 @@ Standardem byla **paměťová karta** s kapacitou 128 kB (15 bloků), do níž s
 Původní ovladač byl bez páček; zlomem se stal **DualShock** (1997/1998) se dvěma analogovými páčkami a vibracemi, jenž předznamenal dnešní standard. Mezi periferie patřil **multitap** pro připojení až čtyř (resp. osmi) hráčů, světelná pistole **GunCon** od Namca, volant, taneční podložky a v Japonsku i modem a myš. Pro propojení dvou konzolí existoval **Link Cable** (např. pro split do dvou obrazovek v závodních hrách). Výstup šel přes proprietární **multi-out** konektor, který nabízel kompozit, S-Video i RGB SCART — RGB dávalo nejostřejší obraz.
 
 <figure class="article-photo"><img src="/images/platforms/extra/playstation/6.webp" alt="Zmenšený PS one s ovladačem a paměťovou kartou" loading="lazy"><figcaption>Zmenšený PS one s ovladačem a paměťovou kartou</figcaption></figure>
+
 ### Modely a revize
 
 Originální model nesl označení **SCPH-1000** a další číselné řady. Postupné revize zlevňovaly výrobu a řešily problémy — proslulé byly potíže s opotřebenou optikou a přeskakováním u starších kusů, které se daly zmírnit obrácením konzole. Pozdější verze také odebraly oddělený **paralelní (parallel I/O)** port využívaný cheatovacími zařízeními a sériový port.

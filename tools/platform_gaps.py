@@ -14,11 +14,14 @@ jsou, a aby se dalo omezit na obdobi, kde jsou multiplatformni vydani pravidlem.
 Pouziti:
   python tools/platform_gaps.py [--from 2005] [--to 2020] [--max-plat 1] [--limit 400]
 """
+import io
 import json
 import re
 import sys
 from collections import defaultdict
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 

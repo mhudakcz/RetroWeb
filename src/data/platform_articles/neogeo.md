@@ -17,6 +17,7 @@ Domácí AES používalo masivní cartridge — největší a nejdražší hern�
 Důležitou periferií byla **paměťová karta (Memory Card)**. Šlo o jeden z prvních systémů, který tento koncept uvedl: hráč mohl uložit svůj postup na kartu, vzít ji s sebou do herny, zasunout do automatu MVS se stejnou hrou a pokračovat tam, kde doma skončil. Toto propojení domova a herny bylo na svou dobu výjimečné. SNK později vydala i CD variantu s vlastním optickým mechanismem (viz dále).
 
 <figure class="article-photo"><img src="/images/platforms/extra/neogeo/1.webp" alt="Domácí konzole Neo Geo AES od SNK" loading="lazy"><figcaption>Domácí konzole Neo Geo AES od SNK</figcaption></figure>
+
 ### Modely a revize
 
 Základní rozdělení tvoří už zmíněné **MVS** (herní automaty, často s více sloty na cartridge — verze pro 1, 2, 4 i 6 her) a domácí **AES**. AES se prodávalo v různých regionálních variantách.

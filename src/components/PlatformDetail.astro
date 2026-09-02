@@ -3,7 +3,7 @@ import PlatformEmblem from './PlatformEmblem.astro';
 import GameCard from './GameCard.astro';
 import Lightbox from './Lightbox.astro';
 import SwipeNav from './SwipeNav.astro';
-import { localeData, TYPE_LABEL, mdBlock, mdBlockAnchored, mdHeadings, platformNeighbors, orderedPlatforms, platformGamesArt, GENRE_CATS, genreCats } from '../lib/data';
+import { localeData, TYPE_LABEL, mdBlock, mdBlockAnchored, mdHeadings, platformNeighbors, orderedPlatforms, picksFor, platformGamesArt, GENRE_CATS, genreCats } from '../lib/data';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -17,6 +17,7 @@ const historyToc = mdHeadings(platform.history);
 const gamesArt = platformGamesArt(platform.slug);
 const withDetail = platform.games.filter((g) => g.detail).length;
 const { prev, next } = platformNeighbors(platform.slug);
+const picks = picksFor(platform.slug);
 const poradi = orderedPlatforms();
 const platPos = poradi.findIndex((x) => x.slug === platform.slug) + 1;
 const platTotal = poradi.length;
@@ -114,6 +115,31 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
   ) : <span />}
 </nav>
 
+{picks.length > 0 && (
+  <section class="section picks-sec">
+    <div class="container">
+      <h2 class="sec-title">{t(locale, 'picks.title')}</h2>
+      <p class="muted picks-lead">{t(locale, 'picks.lead')}</p>
+      <ol class="picks">
+        {picks.map((p) => (
+          <li>
+            <a href={lp(`/hry/${p.game.slug}`)}>
+              {p.game.image
+                ? <img src={p.game.image} alt="" loading="lazy" decoding="async" />
+                : <span class="ph pixel">{platform.short}</span>}
+              <span class="p-text">
+                <strong>{p.game.name}</strong>
+                {p.game.year && <span class="p-year muted">{p.game.year}</span>}
+                <span class="p-why">{p.why}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
 <section class="section">
   <div class="container">
     <div class="games-head">
@@ -201,6 +227,41 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
   .facts { display: flex; flex-wrap: wrap; gap: 8px; }
   .narrow { max-width: 760px; }
   .sec-title { font-size: clamp(1.3rem, 3vw, 1.7rem); margin-bottom: 18px; }
+
+  /* Cim zacit — odpoved na otazku, kterou ma ctenar nad abecednim seznamem
+     sta her. Cislovane, aby bylo videt, ze jde o poradi, ne o vycet. */
+  .picks-sec .sec-title { margin-bottom: 6px; }
+  .picks-lead { margin: 0 0 18px; max-width: 46em; }
+  .picks { list-style: none; counter-reset: p; padding: 0; margin: 0;
+           display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .picks li { counter-increment: p; }
+  .picks a {
+    display: grid; grid-template-columns: 18px 40px 1fr; align-items: center; gap: 10px;
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 9px;
+    background: var(--surface); text-decoration: none; color: inherit; height: 100%;
+    transition: border-color 0.15s ease;
+  }
+  .picks a:hover { border-color: var(--accent); }
+  .picks a::before {
+    content: counter(p); font-family: var(--mono, ui-monospace, monospace);
+    font-size: 0.82rem; color: var(--accent); text-align: center;
+  }
+  .picks img { width: 40px; height: 40px; object-fit: cover; border-radius: 6px; display: block; }
+  .picks .ph { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 6px;
+               background: var(--surface-2); color: var(--muted); font-size: 0.6rem; }
+  .p-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.3; }
+  .p-text strong { font-size: 0.92rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .p-year { display: none; }
+  /* Duvod je to podstatne, ale ve dvou radcich — jinak z osmi polozek vznikne
+     pul stranky a seznam prestane fungovat jako rozcestnik. */
+  .p-why {
+    font-size: 0.8rem; color: var(--muted);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  @media (max-width: 520px) {
+    .picks a { grid-template-columns: 16px 34px 1fr; gap: 8px; }
+    .picks img, .picks .ph { width: 34px; height: 34px; }
+  }
   .games-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .games-head .sec-title { margin-bottom: 0; }
   #genre {

@@ -4,7 +4,7 @@ import dataset from '../data/dataset.json';
 marked.setOptions({ gfm: true, breaks: false });
 
 // ---------------------------------------------------------------- typy
-export type PlatformType = 'handheld' | 'console' | 'computer' | 'arcade' | 'fantasy' | 'vr' | 'mobile';
+export type PlatformType = 'handheld' | 'console' | 'computer' | 'arcade' | 'fantasy' | 'vr' | 'mobile' | 'web';
 export type GameLength = 'S' | 'M' | 'L' | 'XL';
 export type GameFlag = 'homebrew' | 'mustplay' | 'mature' | 'puzzle';
 
@@ -292,7 +292,7 @@ export const studioLink = (name: string | null): string | null => {
 };
 
 // ---------------------------------------------------------------- skupiny / popisky
-export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'mobile', 'vr', 'fantasy'];
+export const TYPE_ORDER: PlatformType[] = ['console', 'handheld', 'computer', 'arcade', 'mobile', 'web', 'vr', 'fantasy'];
 
 export const TYPE_LABEL: Record<PlatformType, string> = {
   console: 'Herní konzole',
@@ -302,6 +302,7 @@ export const TYPE_LABEL: Record<PlatformType, string> = {
   vr: 'Virtuální realita',
   fantasy: 'Fantasy konzole',
   mobile: 'Mobil',
+  web: 'Web',
 };
 
 export const TYPE_TAGLINE: Record<PlatformType, string> = {
@@ -312,6 +313,7 @@ export const TYPE_TAGLINE: Record<PlatformType, string> = {
   vr: 'Headsety od kutilských devadesátek po dnešní samostatné brýle.',
   fantasy: 'Moderní „virtuální“ konzole s nostalgickými limity.',
   mobile: 'Hry, které se vešly do telefonu — a předělaly herní trh.',
+  web: 'Flash, Java a HTML5 — hry na jedno kliknutí v prohlížeči.',
 };
 
 export const LENGTH_LABEL: Record<GameLength, string> = {
@@ -649,6 +651,19 @@ export function platformsByTypeLoc(locale: string): { type: PlatformType; items:
 /** České skloňování počtu: 1 hra, 2–4 hry, 5+ her. */
 export function plural(n: number, one: string, few: string, many: string): string {
   return `${n} ${n === 1 ? one : n >= 2 && n <= 4 ? few : many}`;
+}
+
+/** Kurátorský výběr „čím na téhle platformě začít" (tools/picks.workflow.js). */
+import platformPicks from '../data/platform_picks.json';
+
+export interface Pick { game: GameWithPlatform; why: string }
+
+export function picksFor(slug: string): Pick[] {
+  const raw = (platformPicks as Record<string, { slug: string; why: string }[]>)[slug];
+  if (!raw) return [];
+  return raw
+    .map((p) => ({ game: getGame(p.slug)!, why: p.why }))
+    .filter((p) => p.game);
 }
 
 // ---------------------------------------------------------------- magazín

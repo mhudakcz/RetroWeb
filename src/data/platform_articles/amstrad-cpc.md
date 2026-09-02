@@ -3,6 +3,7 @@ Když si Alan Sugar v roce 1984 usmyslel, že vyrobí počítač, jaký by si p�
 CPC se nejvíc prosadil v **Británii, Francii a Španělsku**, kde dodnes pěstuje silnou nostalgickou základnu. Ve Francii se z něj prakticky stal národní počítač a vznikla tu řada svébytných her i adventur. Pohání ho osmibitový procesor **Zilog Z80** taktovaný na 4 MHz, takže sdílel s mnoha tituly stejný základ jako Spectrum — porty mezi oběma platformami byly běžné, jen na Amstradu zpravidla v barevnější a vizuálně bohatší podobě.
 
 <figure class="article-photo"><img src="/images/platforms/extra/amstrad-cpc/1.webp" alt="Amstrad CPC 464 s monitorem" loading="lazy"><figcaption>Amstrad CPC 464 s monitorem</figcaption></figure>
+
 ### Technika: grafika a zvuk
 
 Grafiku obstarával obvod **CRTC (6845)** doplněný o čip pro generování barev z palety **27 barev**. CPC nabízel tři hlavní obrazové režimy a hra mezi nimi byla volbou kompromisu rozlišení versus počet barev:
@@ -16,6 +17,7 @@ Oproti Spectru měl CPC zásadní výhodu v tom, že **netrpěl tzv. attribute c
 O zvuk se staral známý čip **General Instrument AY-3-8912** se **třemi tónovými kanály plus generátorem šumu**. Stejný obvod znali majitelé Atari ST nebo MSX a ve verzi 128K i pozdější Spectra. Díky němu zvládal CPC slušnou hudbu i zvukové efekty a hudební scéna na něm vzkvétala.
 
 <figure class="article-photo"><img src="/images/platforms/extra/amstrad-cpc/2.webp" alt="Modulátor Amstrad MP-1 pro CPC 464" loading="lazy"><figcaption>Modulátor Amstrad MP-1 pro CPC 464</figcaption></figure>
+
 ### Propojení a periferie
 
 CPC měl od začátku pohodlné připojení **joysticku** přímo na zadní straně (standardní devítipinový konektor Atari), takže odpadla nutnost dokupovat rozhraní jako u Spectra. Klíčovou roli hrál **monitor**, který se dodával ve dvou variantách: monochromatický zelený **GT-65** a barevný **CTM-644**. Samotná základní jednotka napájení získávala právě z monitoru, takže šlo o promyšlený, ale zároveň svázaný systém.
@@ -39,6 +41,7 @@ Amstrad CPC nezplodil tolik neoficiálních klonů jako Spectrum, ale ve **vých
 Z hlediska **československé stopy** zůstával CPC u nás vzácnější než všudypřítomná Spectra a jejich domácí klony Didaktik — Amstrad se k nám oficiálně téměř nedostával a byl spíš záležitostí dovozu. Historicky tak u nás dominovaly stroje kompatibilní se Spectrem, zatímco CPC zůstal pro většinu českých a slovenských hráčů exotičtější volbou.
 
 <figure class="article-photo"><img src="/images/platforms/extra/amstrad-cpc/3.webp" alt="Děti hrající Paperboy na CPC 464" loading="lazy"><figcaption>Děti hrající Paperboy na CPC 464</figcaption></figure>
+
 ### Dnešní scéna
 
 Emulace Amstradu CPC je dnes bezproblémová. Mezi špičkové emulátory patří **WinAPE** a multiplatformní **CPCEC** či **Caprice32**; pohodlně běží i v rámci sběrného frontendu **RetroArch**. Originální záznamy her se distribuují jako obrazy disket (.DSK) nebo kazet.
