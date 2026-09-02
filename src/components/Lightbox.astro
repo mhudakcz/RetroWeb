@@ -19,16 +19,18 @@ const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
 
 <div id="zoom" class="zoom" hidden data-sel={selector}>
   <button class="z-close" type="button" aria-label={t(locale, 'zoom.close')}>×</button>
-  <button class="z-nav z-prev" type="button" aria-label={t(locale, 'zoom.prev')}>‹</button>
   <figure class="z-fig">
-    <img id="zoomImg" alt="" />
+    <div class="z-stage">
+      <button class="z-nav z-prev" type="button" aria-label={t(locale, 'zoom.prev')}>‹</button>
+      <img id="zoomImg" alt="" />
+      <button class="z-nav z-next" type="button" aria-label={t(locale, 'zoom.next')}>›</button>
+    </div>
     <figcaption>
       <span id="zoomCap"></span>
       <span id="zoomPoc" class="z-poc"></span>
     </figcaption>
     <div id="zoomThumbs" class="z-thumbs"></div>
   </figure>
-  <button class="z-nav z-next" type="button" aria-label={t(locale, 'zoom.next')}>›</button>
 </div>
 
 <script is:inline>
@@ -143,13 +145,16 @@ const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
 <style is:global>
   .zoom {
     position: fixed; inset: 0; z-index: 100;
-    display: flex; align-items: center; justify-content: center; gap: 8px;
+    display: flex; align-items: center; justify-content: center;
     background: rgba(6, 7, 11, 0.92); backdrop-filter: blur(6px);
     padding: 20px;
   }
   .zoom[hidden] { display: none; }
   .z-fig { margin: 0; display: grid; place-items: center; gap: 12px; max-width: 100%; }
-  .z-fig > img {
+  /* Sipky sedi u obrazku, ne u okraju prekryvu — jinak by se centrovaly podle
+     celeho sloupce vcetne popisku a pasu nahledu. */
+  .z-stage { display: flex; align-items: center; gap: 8px; max-width: 100%; }
+  .z-stage img {
     display: block; max-width: 92vw; max-height: 70vh; height: auto;
     border-radius: 10px; box-shadow: 0 30px 80px -20px #000;
   }
@@ -178,8 +183,21 @@ const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
   .zoom .z-thumb:hover { opacity: 1; }
   .zoom .z-thumb.on { opacity: 1; border-color: var(--accent); }
   @media (max-width: 560px) {
-    .zoom { padding: 12px; gap: 4px; }
-    .z-nav { width: 38px; height: 38px; font-size: 1.4rem; }
+    .zoom { padding: 12px; }
     .zoom .z-thumb { width: 56px; height: 42px; }
+    /* Na telefonu by sipky po stranach ukrojily z uzke obrazovky pres 90 px.
+       Obrazek proto zabere celou sirku a sipky se presunou pod nej — nic
+       neprekryvaji a palcem se trefi lip nez do okraje. */
+    .z-stage {
+      display: grid; grid-template-columns: auto auto;
+      justify-content: center; gap: 12px 16px;
+    }
+    /* Radky napevno: v DOM je obrazek az za levou sipkou, takze by ho
+       automaticke skladani gridu odsunulo na druhy radek a sipky by skoncily
+       diagonalne nad nim a pod nim. */
+    .z-stage img { grid-column: 1 / -1; grid-row: 1; max-width: 92vw; }
+    .z-prev { grid-column: 1; grid-row: 2; }
+    .z-next { grid-column: 2; grid-row: 2; }
+    .z-nav { width: 64px; height: 40px; font-size: 1.4rem; border-radius: 12px; }
   }
 </style>
