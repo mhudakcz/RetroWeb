@@ -1745,6 +1745,38 @@ def trim_platform_bg(only=None, base_thresh=250):
                         seen[ny * w + nx] = 1
                         q.append((nx, ny))
             ratio = cleared / (w * h)
+        # Vypln od okraju se nedostane do oblasti, kterou produkt uzavre do
+        # smycky — u 3DO zustal bily ostrov uvnitr kabelu od ovladace a na
+        # tmavem podkladu karty svitil jako zaplata. Zbyle ostrovy barvy pozadi,
+        # ktere se nedotykaji ramu, jsou proto taky pozadi; velke se pro jistotu
+        # nechavaji (to uz by nebyla dira, ale spatne rozpoznany produkt).
+        ostrovy = 0
+        limit = int(w * h * 0.08)
+        for sy in range(h):
+            for sx in range(w):
+                if seen[sy * w + sx] or not is_bg(sx, sy):
+                    continue
+                komponenta, fronta, u_okraje = [], deque([(sx, sy)]), False
+                seen[sy * w + sx] = 1
+                while fronta:
+                    x, y = fronta.popleft()
+                    komponenta.append((x, y))
+                    if x == 0 or y == 0 or x == w - 1 or y == h - 1:
+                        u_okraje = True
+                    for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                        nx, ny = x + dx, y + dy
+                        if 0 <= nx < w and 0 <= ny < h and not seen[ny * w + nx] and is_bg(nx, ny):
+                            seen[ny * w + nx] = 1
+                            fronta.append((nx, ny))
+                if u_okraje or len(komponenta) > limit:
+                    continue
+                for x, y in komponenta:
+                    px[x, y] = (255, 255, 255, 0)
+                cleared += len(komponenta)
+                ostrovy += 1
+        if ostrovy:
+            print(f"      uzavrenych ostrovu pozadi odmazano: {ostrovy}")
+
         if chroma and ratio >= 0.02:
             # Platno vrha na obrys produktu zeleny lem. Zbylym pixelum se zelena
             # slozka stlaci na uroven cerveno-modreho prumeru, cimz lem zesedne.
