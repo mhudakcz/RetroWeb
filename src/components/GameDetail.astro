@@ -123,12 +123,15 @@ const posText = {
   </header>
 
   {shots.length > 0 && (
-    <section class="shotbar">
-      {shots.map((s) => (
+    <section class="shotbar" data-more={shots.length > 2 ? shots.length - 2 : undefined}>
+      {shots.map((s, i) => (
         <figure>
           <img src={s.src} alt={`${clean(game.name)} – ${shotLabel(s)}`} loading="lazy" decoding="async"
                data-zoom={shotLabel(s)} data-pixel title={t(locale, 'zoom.open')} />
           <figcaption>{shotLabel(s)}</figcaption>
+          {i === 1 && shots.length > 2 && (
+            <span class="more-badge">+{shots.length - 2}</span>
+          )}
         </figure>
       ))}
     </section>
@@ -372,6 +375,20 @@ const posText = {
   .shotbar figure { display: grid; place-items: center; }
   .shotbar img { display: block; max-width: 100%; height: auto; background: #0b0c11; image-rendering: pixelated; }
   .shotbar figcaption { padding: 8px 12px; font-size: 0.82rem; color: var(--muted); font-weight: 600; text-align: center; }
+  /* Na strance zustava obal (v hlavicce) a dva snimky; treti a dalsi jsou
+     jen v DOM kvuli galerii, ktera si obrazky bere pres querySelectorAll
+     a najde i skryte. */
+  .shotbar figure:nth-of-type(n + 3) { display: none; }
+  .shotbar figure { position: relative; }
+  .more-badge {
+    position: absolute; right: 10px; bottom: 40px;
+    padding: 5px 11px; border-radius: 999px;
+    background: color-mix(in srgb, var(--bg) 72%, transparent);
+    border: 1px solid var(--border-soft);
+    backdrop-filter: blur(6px);
+    font-size: 0.85rem; font-weight: 700; color: var(--fg);
+    pointer-events: none;  /* klik projde na obrazek a otevre galerii */
+  }
   .related { margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--border-soft); }
   .related-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
   .related-head h2 { font-size: 1.15rem; }

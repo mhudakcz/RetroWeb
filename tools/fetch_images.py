@@ -1572,6 +1572,54 @@ def fetch_games_zxinfo(only=None):
     print("\nZXDB: doplneno u %d/%d her" % (ok, total))
 
 
+def dedupe_game_images(only=None):
+    """Smaze obrazky, ktere jsou u jedne hry ulozene dvakrat pod jinym jmenem.
+
+    Porovnava se obsah souboru, ne nazev — stejny snimek muze prijit ze
+    Steamu i z GOG, nebo se pri opakovanem behu s vyssim limitem ulozit
+    znovu do volne pozice. Ponechava se vzdy prvni vyskyt v poradi
+    obal, -snap, -snap2 .. -snap9, -title.
+    """
+    import hashlib
+
+    gdir = IMG / "games"
+    wanted = set(only.split(",")) if only else None
+    smazano = dotcenych = 0
+    for pdir in sorted(gdir.iterdir()):
+        if not pdir.is_dir() or (wanted and pdir.name not in wanted):
+            continue
+        # seskupit soubory podle hry
+        podle_hry = {}
+        for f in pdir.iterdir():
+            if not f.is_file():
+                continue
+            zaklad = f.stem
+            for suf in ["-title"] + [f"-snap{i}" for i in range(9, 1, -1)] + ["-snap"]:
+                if zaklad.endswith(suf):
+                    zaklad = zaklad[: -len(suf)]
+                    break
+            podle_hry.setdefault(zaklad, []).append(f)
+
+        for gslug, soubory in podle_hry.items():
+            poradi = [gslug, gslug + "-snap"] + [f"{gslug}-snap{i}" for i in range(2, 10)]
+            poradi.append(gslug + "-title")
+            klic = {p: i for i, p in enumerate(poradi)}
+            soubory.sort(key=lambda f: klic.get(f.stem, 99))
+            videne = {}
+            for f in soubory:
+                try:
+                    h = hashlib.md5(f.read_bytes()).hexdigest()
+                except Exception:  # noqa: BLE001
+                    continue
+                if h in videne:
+                    f.unlink(missing_ok=True)
+                    smazano += 1
+                    dotcenych += 1
+                else:
+                    videne[h] = f
+    print(f"\nDuplicity: smazano {smazano} souboru")
+
+
 def fetch_games_steam_shots(only=None):
     """Doplní hrám, které UŽ MAJÍ obal, dva snímky ze hry ze Steamu.
 
@@ -2231,6 +2279,9 @@ if __name__ == "__main__":
     if what == "games-zxinfo":
         print("=== OBRAZKY ZE ZXDB (ZX Spectrum) ===")
         fetch_games_zxinfo(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "dedupe":
+        print("=== ODSTRANENI DUPLICITNICH OBRAZKU U HER ===")
+        dedupe_game_images(sys.argv[2] if len(sys.argv) > 2 else None)
     if what == "games-gog":
         print("=== OBALY A SNIMKY Z GOG (hry bez obrazku) ===")
         fetch_games_gog(sys.argv[2] if len(sys.argv) > 2 else None)
