@@ -1012,6 +1012,7 @@ _ITCH_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 # itch.io dává smysl jen tam, kde je katalog opravdu z itch.io / homebrew scény.
 # Na komerčních konzolích vrací shoda názvu cizí fan-game (viz fetch_games_itch).
+GOG_OK = {"pc-dos", "pc-9x", "pc-modern", "web", "mobil"}  # GOG vede jen verze pro PC
 ITCH_OK = {"pico-8", "tic-80", "game-watch", "web"}  # web: rada prohlizecovek zije na itch.io
 
 # Steam se smi pouzivat jen pro platformy od roku 2000. U starsich to nefunguje:
@@ -1450,11 +1451,28 @@ def fetch_games_gog(only=None, shots_only=False):
         slug = plat["slug"]
         if wanted and slug not in wanted:
             continue
+        # GOG prodava hry pro PC. Na jine platforme proto nabidne bud uplne
+        # jinou verzi, nebo rovnou moderni remake pod puvodnim nazvem:
+        # "Wizardry: Proving Grounds of the Mad Overlord" sedi presne, jenze
+        # na Atari 800 vyslo roku 1981 a na GOG je remake z roku 2024. Stejne
+        # tak Prince of Persia na C64 dostal snimky z 3D dilu a Cannon Fodder
+        # na Amize verzi pro DOS. Rok platformy nestaci, protoze pc-dos i
+        # pc-9x jsou stare a GOG je pro ne naopak nejlepsi zdroj — rozhoduje
+        # tedy, jestli jde o PC linii.
+        if slug not in GOG_OK:
+            if wanted and slug in wanted:
+                print(f"  [!] {slug}: GOG prodava verze pro PC, na tuto platformu se nepouziva")
+            continue
+        prubezna = plat.get("type") in ("web", "mobile")
         if shots_only:
             cile = [g for g in plat["games"]
-                    if g.get("image") and len(g.get("gallery") or []) < 2]
+                    if g.get("image") and len(g.get("gallery") or []) < 10]
         else:
             cile = [g for g in plat["games"] if not g.get("image")]
+        if prubezna:
+            cile = [g for g in cile
+                    if str(g.get("year") or "0").isdigit()
+                    and int(g["year"]) >= STEAM_MIN_PLATFORM_YEAR]
         if not cile:
             continue
         out = IMG / "games" / slug
@@ -1577,7 +1595,12 @@ def dedupe_game_images(only=None):
 
     Porovnava se obsah souboru, ne nazev — stejny snimek muze prijit ze
     Steamu i z GOG, nebo se pri opakovanem behu s vyssim limitem ulozit
-    znovu do volne pozice. Ponechava se vzdy prvni vyskyt v poradi
+    znovu do volne pozice.
+
+    POZOR NA PORADI: pousti se az PO 'optimize'. Cerstve stazeny JPEG a uz
+    prevedeny WebP tehoz obrazku maji ruzne bajty, takze pred prevodem
+    kontrola duplicitu neodhali — presne to se stalo u XCOM 2, kde snap
+    a snap3 zustaly stejne. Ponechava se vzdy prvni vyskyt v poradi
     obal, -snap, -snap2 .. -snap9, -title.
     """
     import hashlib

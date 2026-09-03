@@ -26,16 +26,16 @@ ROOT = Path(__file__).resolve().parent.parent
 CILE = {
     # male knihovny — cil je blizko uplnosti
     "virtual-boy": 20, "vectrex": 25, "sega-32x": 25, "sg-1000": 25,
-    "atari-5200": 28, "jaguar": 28, "amiga-cd32": 28, "atari-7800": 30,
+    "atari-5200": 41, "jaguar": 28, "amiga-cd32": 28, "atari-7800": 44,
     "cd-i": 30, "game-watch": 30, "intellivision": 32, "colecovision": 32,
     "switch-2": 35, "ngpc": 35,
     # stredni
     "mega-cd": 45, "wonderswan": 45, "3do": 45, "atari-lynx": 40, "cps": 40,
-    "game-gear": 50, "neogeo": 55, "atari-2600": 60,
+    "game-gear": 50, "neogeo": 55, "atari-2600": 64,
     # platformy, kde uzivatel chtel vic her (2. 9. 2026)
     "saturn": 80, "java-mobil": 70, "quest": 55, "pico-8": 45,
     # velke knihovny — jen dalsi krok
-    "master-system": 90, "pc-engine": 65, "wii-u": 65, "3ds": 80,
+    "master-system": 90, "pc-engine": 65, "wii-u": 80, "3ds": 80,
     "arcade": 130,
     # domaci pocitace: knihovny v tisicich titulu, tady jde o dalsich ~50
     "c64": 115, "zx-spectrum": 101, "atari-8bit": 100, "atari-st": 70,
