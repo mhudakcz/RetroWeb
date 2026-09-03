@@ -1208,11 +1208,19 @@ def fetch_games_steam(only=None):
         slug = plat["slug"]
         if wanted and slug not in wanted:
             continue
-        if plat["year"] < STEAM_MIN_PLATFORM_YEAR:
+        # Web a mobil zaciname rokem vzniku platformy, ale hry na nich vychazeji
+        # dodnes — Kingdom Rush i Cookie Clicker na Steamu jsou. U takovych
+        # platforem rozhoduje rok HRY, ne rok platformy.
+        prubezna = plat.get("type") in ("web", "mobile")
+        if plat["year"] < STEAM_MIN_PLATFORM_YEAR and not prubezna:
             if wanted and slug in wanted:
                 print(f"  [!] {slug}: Steam se pro platformy před {STEAM_MIN_PLATFORM_YEAR} nepoužívá")
             continue
         missing = [g for g in plat["games"] if not g.get("image")]
+        if prubezna:
+            missing = [g for g in missing
+                       if str(g.get("year") or "0").isdigit()
+                       and int(g["year"]) >= STEAM_MIN_PLATFORM_YEAR]
         if not missing:
             continue
         out = IMG / "games" / slug
@@ -1354,12 +1362,18 @@ def fetch_games_steam_shots(only=None):
         slug = plat["slug"]
         if wanted and slug not in wanted:
             continue
-        if plat["year"] < STEAM_MIN_PLATFORM_YEAR:
+        # stejne jako u obalu: u webu a mobilu rozhoduje rok hry, ne platformy
+        prubezna = plat.get("type") in ("web", "mobile")
+        if plat["year"] < STEAM_MIN_PLATFORM_YEAR and not prubezna:
             if wanted and slug in wanted:
                 print(f"  [!] {slug}: Steam se pro platformy před {STEAM_MIN_PLATFORM_YEAR} nepoužívá")
             continue
         # jen hry, které mají obal, ale ještě nemají snímky ze hry
         targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 2]
+        if prubezna:
+            targets = [g for g in targets
+                       if str(g.get("year") or "0").isdigit()
+                       and int(g["year"]) >= STEAM_MIN_PLATFORM_YEAR]
         if not targets:
             continue
         out = IMG / "games" / slug
