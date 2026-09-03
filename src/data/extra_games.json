@@ -24957,6 +24957,279 @@
    "genre": "Bojovka",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "The Legend of Zelda: Breath of the Wild",
+   "genre": "Akční adventura",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Shantae and the Pirate's Curse",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Guacamelee! Super Turbo Championship Edition",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "DuckTales Remastered",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby and the Rainbow Curse",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "LEGO Marvel Super Heroes",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "LEGO Batman 3: Beyond Gotham",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mighty No. 9",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Freedom Planet",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Paper Mario: Color Splash",
+   "genre": "RPG / Adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Watch Dogs",
+   "genre": "Akční adventura / Open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Scribblenauts Unlimited",
+   "genre": "Puzzle adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Cave",
+   "genre": "Puzzle adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Guacamelee!",
+   "genre": "Akční adventura / Metroidvania",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Never Alone",
+   "genre": "Puzzle plošinovka / adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Swapper",
+   "genre": "Puzzle adventura / sci-fi",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Costume Quest 2",
+   "genre": "RPG (tahové, halloweenské)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic & All-Stars Racing Transformed",
+   "genre": "Závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fast Racing Neo",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wii Sports Club",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mario Tennis: Ultra Smash",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "NBA 2K13",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NBA 2K14",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "FIFA 13",
+   "genre": "Sportovní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wii Fit U",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sports Connection",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metroid Prime Trilogy",
+   "genre": "Akcni adventura (FPS)",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Devil's Third",
+   "genre": "Akcni strilecka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops II",
+   "genre": "Strilecka z pohledu prvni osoby (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Ghosts",
+   "genre": "Strilecka z pohledu prvni osoby (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Nano Assault Neo",
+   "genre": "Shmup (twin-stick strilecka)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Assault Android Cactus",
+   "genre": "Twin-stick strilecka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Steel Empire",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mercenary Kings",
+   "genre": "Run and gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Little Inferno",
+   "genre": "Puzzle simulace",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Trine 2: Director's Cut",
+   "genre": "Puzzle plošinovka",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Toki Tori 2+",
+   "genre": "Puzzle plošinovka",
+   "length": "M",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "World of Goo",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": [
+    "puzzle",
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Squids Odyssey",
+   "genre": "Puzzle strategie",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Mighty Switch Force! Hyper Drive Edition",
+   "genre": "Puzzle plošinovka",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
   }
  ],
  "wii": [
