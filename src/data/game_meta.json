@@ -698,8 +698,16 @@
     "studio": "Namco",
     "year": "1983"
   },
+  "atari-2600__activision-decathlon": {
+    "studio": "Activision",
+    "year": "1983"
+  },
   "atari-2600__asteroids": {
     "year": "1981"
+  },
+  "atari-2600__beamrider": {
+    "studio": "Activision",
+    "year": "1983"
   },
   "atari-2600__berzerk": {
     "year": "1982"
@@ -707,14 +715,46 @@
   "atari-2600__boxing": {
     "year": "1980"
   },
+  "atari-2600__chopper-command": {
+    "studio": "Activision",
+    "year": "1982"
+  },
+  "atari-2600__combat": {
+    "studio": "Atari, Inc.",
+    "year": "1977"
+  },
   "atari-2600__crystal-castles": {
     "year": "1984"
+  },
+  "atari-2600__dark-chambers": {
+    "studio": "Atari",
+    "year": "1988"
+  },
+  "atari-2600__defender": {
+    "studio": "Atari, Inc.",
+    "year": "1982"
   },
   "atari-2600__demon-attack": {
     "year": "1982"
   },
+  "atari-2600__donkey-kong": {
+    "studio": "Coleco",
+    "year": "1982"
+  },
+  "atari-2600__dragonstomper": {
+    "studio": "Starpath",
+    "year": "1982"
+  },
+  "atari-2600__e-t-extra-terrestrial": {
+    "studio": "Atari",
+    "year": "1982"
+  },
   "atari-2600__enduro": {
     "year": "1983"
+  },
+  "atari-2600__escape-from-mindmaster": {
+    "studio": "Starpath",
+    "year": "1982"
   },
   "atari-2600__grand-prix": {
     "year": "1982"
@@ -722,13 +762,33 @@
   "atari-2600__halo-2600": {
     "year": "2010"
   },
+  "atari-2600__haunted-house": {
+    "studio": "Atari",
+    "year": "1982"
+  },
+  "atari-2600__ice-hockey": {
+    "studio": "Activision",
+    "year": "1981"
+  },
+  "atari-2600__indy-500": {
+    "studio": "Atari, Inc.",
+    "year": "1977"
+  },
   "atari-2600__joust": {
     "year": "1983"
   },
   "atari-2600__kaboom": {
     "year": "1981"
   },
+  "atari-2600__kangaroo": {
+    "studio": "Atari, Inc.",
+    "year": "1983"
+  },
   "atari-2600__keystone-kapers": {
+    "year": "1983"
+  },
+  "atari-2600__mario-bros": {
+    "studio": "Atari, Inc.",
     "year": "1983"
   },
   "atari-2600__megamania": {
@@ -743,23 +803,103 @@
   "atari-2600__ms-pac-man": {
     "year": "1982"
   },
+  "atari-2600__night-driver": {
+    "studio": "Atari, Inc.",
+    "year": "1978"
+  },
+  "atari-2600__pele-s-soccer": {
+    "studio": "Atari, Inc.",
+    "year": "1981"
+  },
   "atari-2600__pitfall-ii-lost-caverns": {
     "year": "1984"
+  },
+  "atari-2600__pitstop": {
+    "studio": "Activision",
+    "year": "1983"
+  },
+  "atari-2600__pitstop-ii": {
+    "studio": "Activision",
+    "year": "1984"
+  },
+  "atari-2600__pole-position": {
+    "studio": "Atari, Inc.",
+    "year": "1983"
+  },
+  "atari-2600__popeye": {
+    "studio": "Parker Brothers",
+    "year": "1983"
   },
   "atari-2600__q-bert": {
     "year": "1983"
   },
+  "atari-2600__raiders-of-lost-ark": {
+    "studio": "Atari",
+    "year": "1982"
+  },
   "atari-2600__realsports-baseball": {
+    "year": "1982"
+  },
+  "atari-2600__realsports-football": {
+    "studio": "Atari, Inc.",
+    "year": "1982"
+  },
+  "atari-2600__realsports-tennis": {
+    "studio": "Atari, Inc.",
     "year": "1982"
   },
   "atari-2600__robot-tank": {
     "year": "1983"
   },
+  "atari-2600__secret-quest": {
+    "studio": "CBS Electronics",
+    "year": "1989"
+  },
   "atari-2600__space-invaders": {
     "year": "1980"
   },
+  "atari-2600__spider-man": {
+    "studio": "Parker Brothers",
+    "year": "1982"
+  },
+  "atari-2600__superman": {
+    "studio": "Atari, Inc.",
+    "year": "1979"
+  },
+  "atari-2600__swordquest-earthworld": {
+    "studio": "20th Century Fox Games",
+    "year": "1982"
+  },
+  "atari-2600__swordquest-fireworld": {
+    "studio": "20th Century Fox Games",
+    "year": "1983"
+  },
+  "atari-2600__swordquest-waterworld": {
+    "studio": "20th Century Fox Games",
+    "year": "1983"
+  },
+  "atari-5200__activision-decathlon": {
+    "studio": "Activision",
+    "year": "1984"
+  },
+  "atari-5200__ballblazer": {
+    "studio": "Lucasfilm Games",
+    "year": "1986"
+  },
+  "atari-5200__berzerk": {
+    "studio": "Atari (port)",
+    "year": "1983"
+  },
   "atari-5200__centipede": {
     "year": "1982"
+  },
+  "atari-5200__choplifter": {
+    "studio": "Brøderbund",
+    "year": "1983"
+  },
+  "atari-5200__congo-bongo": {
+    "studio": "Sega",
+    "year": "1984"
   },
   "atari-5200__defender": {
     "year": "1982"
@@ -767,14 +907,46 @@
   "atari-5200__dig-dug": {
     "year": "1983"
   },
+  "atari-5200__donkey-kong": {
+    "studio": "Atari (port)",
+    "year": "1982"
+  },
+  "atari-5200__frogger": {
+    "studio": "Parker Brothers",
+    "year": "1983"
+  },
   "atari-5200__galaxian": {
     "year": "1982"
+  },
+  "atari-5200__gremlins": {
+    "studio": "Atari, Inc.",
+    "year": "1984"
+  },
+  "atari-5200__h-e-r-o": {
+    "studio": "Activision",
+    "year": "1984"
+  },
+  "atari-5200__james-bond-007": {
+    "studio": "Parker Brothers",
+    "year": "1983"
   },
   "atari-5200__joust": {
     "year": "1984"
   },
+  "atari-5200__jungle-hunt": {
+    "studio": "Atari (port)",
+    "year": "1983"
+  },
+  "atari-5200__kangaroo": {
+    "studio": "Atari (port)",
+    "year": "1983"
+  },
   "atari-5200__missile-command": {
     "year": "1982"
+  },
+  "atari-5200__moon-patrol": {
+    "studio": "Atari (port)",
+    "year": "1983"
   },
   "atari-5200__ms-pac-man": {
     "year": "1983"
@@ -782,14 +954,70 @@
   "atari-5200__pac-man": {
     "year": "1982"
   },
+  "atari-5200__pitfall": {
+    "studio": "Activision",
+    "year": "1983"
+  },
+  "atari-5200__pitfall-ii-lost-caverns": {
+    "studio": "Activision",
+    "year": "1984"
+  },
   "atari-5200__pole-position": {
     "year": "1983"
+  },
+  "atari-5200__popeye": {
+    "studio": "Parker Brothers",
+    "year": "1983"
+  },
+  "atari-5200__quest-for-quintana-roo": {
+    "studio": "CBS Electronics",
+    "year": "1984"
+  },
+  "atari-5200__realsports-baseball": {
+    "studio": "Atari, Inc.",
+    "year": "1983"
+  },
+  "atari-5200__realsports-curling": {
+    "studio": "Ryan Witmer",
+    "year": "2018"
+  },
+  "atari-5200__realsports-football": {
+    "studio": "Atari, Inc.",
+    "year": "1982"
+  },
+  "atari-5200__realsports-soccer": {
+    "studio": "Atari, Inc.",
+    "year": "1982"
+  },
+  "atari-5200__realsports-tennis": {
+    "studio": "Atari, Inc.",
+    "year": "1983"
+  },
+  "atari-5200__rescue-on-fractalus": {
+    "studio": "Lucasfilm Games",
+    "year": "1985"
   },
   "atari-5200__river-raid": {
     "year": "1983"
   },
+  "atari-5200__robotron-2084": {
+    "studio": "Atari (port)",
+    "year": "1983"
+  },
+  "atari-5200__space-invaders": {
+    "studio": "Atari",
+    "year": "1982"
+  },
   "atari-5200__star-raiders": {
     "year": "1982"
+  },
+  "atari-5200__star-trek-strategic-operations-simulator": {
+    "studio": "Atari, Inc.",
+    "year": "1983"
+  },
+  "atari-7800__alien-brigade": {
+    "studio": "Atari Corporation",
+    "year": "1988"
   },
   "atari-7800__asteroids": {
     "year": "1986"
@@ -797,20 +1025,72 @@
   "atari-7800__ballblazer": {
     "year": "1987"
   },
+  "atari-7800__basketbrawl": {
+    "studio": "Atari Corporation",
+    "year": "1990"
+  },
+  "atari-7800__california-games": {
+    "studio": "Epyx",
+    "year": "1988"
+  },
   "atari-7800__centipede": {
     "year": "1986"
   },
+  "atari-7800__choplifter": {
+    "studio": "Atari Corporation",
+    "year": "1988"
+  },
   "atari-7800__commando": {
+    "year": "1988"
+  },
+  "atari-7800__dark-chambers": {
+    "studio": "Atari Corporation",
+    "year": "1988"
+  },
+  "atari-7800__desert-falcon": {
+    "studio": "Atari Corporation",
     "year": "1988"
   },
   "atari-7800__dig-dug": {
     "year": "1986"
   },
+  "atari-7800__fatal-run": {
+    "studio": "Atari Corporation",
+    "year": "1990"
+  },
   "atari-7800__galaga": {
     "year": "1986"
   },
+  "atari-7800__ikari-warriors": {
+    "studio": "Atari Corporation",
+    "year": "1990"
+  },
+  "atari-7800__impossible-mission": {
+    "studio": "Atari Corporation",
+    "year": "1988"
+  },
   "atari-7800__joust": {
     "year": "1986"
+  },
+  "atari-7800__karateka": {
+    "studio": "Atari Corporation",
+    "year": "1989"
+  },
+  "atari-7800__kung-fu-master": {
+    "studio": "Atari Corporation",
+    "year": "1987"
+  },
+  "atari-7800__mat-mania-challenge": {
+    "studio": "Atari Corporation",
+    "year": "1990"
+  },
+  "atari-7800__meltdown": {
+    "studio": "Atari Corporation",
+    "year": "1990"
+  },
+  "atari-7800__midnight-mutants": {
+    "studio": "Atari Corporation",
+    "year": "1990"
   },
   "atari-7800__ms-pac-man": {
     "year": "1986"
@@ -818,8 +1098,40 @@
   "atari-7800__pole-position-ii": {
     "year": "1986"
   },
+  "atari-7800__rampage": {
+    "studio": "Atari Corporation",
+    "year": "1988"
+  },
   "atari-7800__robotron-2084": {
     "year": "1986"
+  },
+  "atari-7800__scrapyard-dog": {
+    "studio": "Atari Corporation",
+    "year": "1990"
+  },
+  "atari-7800__summer-games": {
+    "studio": "Epyx",
+    "year": "1988"
+  },
+  "atari-7800__super-football": {
+    "studio": "Atari Corporation",
+    "year": "1987"
+  },
+  "atari-7800__title-match-pro-wrestling": {
+    "studio": "Atari Corporation",
+    "year": "1987"
+  },
+  "atari-7800__tower-toppler": {
+    "studio": "Atari Corporation",
+    "year": "1988"
+  },
+  "atari-7800__winter-games": {
+    "studio": "Epyx",
+    "year": "1988"
+  },
+  "atari-7800__xenophobe": {
+    "studio": "Atari Corporation",
+    "year": "1989"
   },
   "atari-7800__xevious": {
     "year": "1986"

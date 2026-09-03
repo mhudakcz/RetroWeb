@@ -2702,6 +2702,176 @@
    "genre": "Arcade / Action",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Popeye",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Frogger",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Berzerk",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Robotron: 2084",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Space Invaders",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Congo Bongo",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kangaroo",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Moon Patrol",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Jungle Hunt",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rescue on Fractalus!",
+   "genre": "Akční adventura / simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Strategic Operations Simulator",
+   "genre": "Sci-fi simulace / adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Quest for Quintana Roo",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pitfall!",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Pitfall II: The Lost Caverns",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "H.E.R.O.",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Choplifter!",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Gremlins",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "James Bond 007",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Baseball",
+   "genre": "Sportovni (baseball)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Football",
+   "genre": "Sportovni (americky fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Soccer",
+   "genre": "Sportovni (fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Tennis",
+   "genre": "Sportovni (tenis)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Activision Decathlon",
+   "genre": "Sportovni (atletika)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ballblazer",
+   "genre": "Sportovni / Zavodni (futuristicky sport)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Curling",
+   "genre": "Sportovni (curling)",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
   }
  ],
  "atari-7800": [
@@ -2768,6 +2938,144 @@
   {
    "name": "Pole Position II (7800)",
    "genre": "Racing",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ikari Warriors",
+   "genre": "Akční run-and-gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alien Brigade",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Choplifter",
+   "genre": "Akční záchranná mise",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Impossible Mission",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Karateka",
+   "genre": "Akční bojové dobrodružství",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Rampage",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tower Toppler",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Scrapyard Dog",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kung-Fu Master",
+   "genre": "Akční bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Desert Falcon",
+   "genre": "Shoot 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dark Chambers",
+   "genre": "Akční adventura / dungeon crawler",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Midnight Mutants",
+   "genre": "Hororová akční adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Fatal Run",
+   "genre": "Akční adventura / závodní",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Meltdown",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Xenophobe",
+   "genre": "Akční adventura / střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Basketbrawl",
+   "genre": "Sportovní (basketbal s prvky rvačky)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Summer Games",
+   "genre": "Sportovní kompilace (letní disciplíny)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Winter Games",
+   "genre": "Sportovní kompilace (zimní disciplíny)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "California Games",
+   "genre": "Sportovní kompilace (pouliční a plážové sporty)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Super Football",
+   "genre": "Americký fotbal (sportovní)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mat Mania Challenge",
+   "genre": "Wrestling (sportovní zápas)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Title Match Pro Wrestling",
+   "genre": "Wrestling (sportovní zápas)",
    "length": "S",
    "flags": []
   }
@@ -4229,6 +4537,200 @@
    "genre": "Racing",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Kangaroo",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Popeye",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Donkey Kong",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mario Bros.",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chopper Command",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Combat",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Defender",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Beamrider",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Superman",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Swordquest: EarthWorld",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Swordquest: FireWorld",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Swordquest: WaterWorld",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Raiders of the Lost Ark",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "E.T. the Extra-Terrestrial",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Haunted House",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Dark Chambers",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragonstomper",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Escape from the Mindmaster",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Secret Quest",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pole Position",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Night Driver",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Indy 500",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pitstop",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pitstop II",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ice Hockey",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pele's Soccer",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Football",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RealSports Tennis",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Activision Decathlon",
+   "genre": "Sportovní",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "master-system": [
