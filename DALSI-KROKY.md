@@ -90,3 +90,30 @@ počet hráčů).
 - Všechna generovací workflow musí mít `model: 'sonnet'`.
 - Články ke hrám bez článku: `articles_prep.py --platform <slug>` +
   `articles_new.workflow.js`, merge s `--prefix`. Teasery napřed, jsou vstup.
+
+## Stav k 3. 9. 2026
+
+Hotovo v teto davce:
+- **Cim zacit** — 768 doporuceni na 76 platformach. Velke platformy (100+ her)
+  maji 18-20 titulu, jedno doporuceni pripada na sest her v katalogu.
+- **135 novych her**: Master System 38->62, Saturn 46->81, Java a Symbian
+  30->69, Meta Quest 29->55, PICO-8 18->29.
+- **Pokryti textu 100 %** — vsech 5520 her ma clanek, uvodni vetu i "Proc hrat".
+  Webova platforma (102 her) a Java (30 her) clanky vubec nemely.
+- **Odkazy na hrani** u 34 ze 102 webovych her, kazdy overeny dotazem.
+- Opravena fotka Atari 7800 a pruhlednost PC VR.
+
+Zname mezery:
+- **Obaly**: Java a Symbian 0/69 — Wikipedie by u portu (Hitman, FIFA) vratila
+  obal konzolove verze, coz je u hry pro tlacitkovy telefon zavadejici. PICO-8
+  11/29 — hry ziji na lexaloffle BBS, kde vyhledavani nemame; itch.io nasel 0.
+  Quest 41/55.
+- **Snimky ze hry**: Xbox One 24 ze 150 her ma jen obal. Zdroj je Steam a napr.
+  Forza Motorsport 7 tam nikdy nebyla (Microsoft Store, stazena 2021).
+  Dorovnat by slo jen pres RAWG nebo IGDB, na to je potreba klic.
+- **Preklady**: EN/DE/FR stale na vlne 1, zbyva ~213 z 271 davek.
+
+POZOR na pracovni adresare: agenti vraceji SKIP, kdyz vystupni soubor uz
+existuje. Dva teasery se takhle ztratily na starych souborech z drivejsiho
+behu — vzdy overit, ze slugy ve vystupu odpovidaji vstupu, ne jen existenci
+souboru.
