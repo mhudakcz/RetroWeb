@@ -1139,6 +1139,20 @@ _STEAM_SUFFIX_OK = {
 }
 
 
+# Kolik snimku ze hry stahovat. Galerie pobere deset polozek (obal, titulni
+# obrazovka a snimky), takze osm snimku je strop, ktery ji jeste naplni.
+MAX_SNIMKU = 8
+
+
+def volne_snimky(out, gslug):
+    """Vrati jmena volnych pozic pro snimky ze hry (-snap, -snap2 .. -snap9)."""
+    jmena = [f"{gslug}-snap"] + [f"{gslug}-snap{i}" for i in range(2, 10)]
+    return [n for n in jmena
+            if not (out / f"{n}.jpg").exists()
+            and not (out / f"{n}.png").exists()
+            and not (out / f"{n}.webp").exists()]
+
+
 def _steam_search(name, limit=6):
     """Veřejné hledání aplikací na Steamu (bez API klíče) -> list (appid, title)."""
     url = "https://steamcommunity.com/actions/SearchApps/" + urllib.parse.quote(name)
@@ -1332,7 +1346,7 @@ def fetch_games_nintendo(only=None):
     print(f"\nNintendo eShop: dohledano {ok}/{total} obrazku")
 
 
-def _steam_screenshots(appid, limit=2):
+def _steam_screenshots(appid, limit=MAX_SNIMKU):
     """Vrátí URL prvních N screenshotů dané hry ze Steamu (veřejné appdetails API)."""
     url = f"https://store.steampowered.com/api/appdetails?appids={appid}&filters=screenshots"
     try:
@@ -1401,7 +1415,7 @@ def _gog_pick(game_name, hits):
     return None
 
 
-def _gog_images(pid, limit=2):
+def _gog_images(pid, limit=MAX_SNIMKU):
     """Vrati (obal, [snimky]) pro produkt. Obal je svisly 'logo2x'."""
     try:
         d = json.loads(http_get(_GOG_PRODUCT.format(pid=pid)))
@@ -1464,10 +1478,7 @@ def fetch_games_gog(only=None, shots_only=False):
                         pass
             # do prvni VOLNE pozice: kdyz uz hra jeden snimek ma, dalsi
             # musi jit do -snap2, ne se zahodit
-            volne = [n for n in (g["slug"] + "-snap", g["slug"] + "-snap2")
-                     if not (out / (n + ".jpg")).exists()
-                     and not (out / (n + ".png")).exists()
-                     and not (out / (n + ".webp")).exists()]
+            volne = volne_snimky(out, g["slug"])
             for jmeno, u in zip(volne, shots):
                 dest = out / (jmeno + ".jpg")
                 try:
@@ -1544,10 +1555,10 @@ def fetch_games_zxinfo(only=None):
             got = 0
             # Snimky se ukladaji do prvni VOLNE pozice. Pozicni mapovani by
             # u hry, ktera uz obal a jeden snimek ma, zahodilo vse ostatni.
-            volne = [n for n in (g["slug"], g["slug"] + "-snap", g["slug"] + "-snap2")
-                     if not (out / (n + ".png")).exists()
-                     and not (out / (n + ".webp")).exists()
-                     and not (out / (n + ".jpg")).exists()]
+            volne = volne_snimky(out, g["slug"])
+            # kdyz hra nema ani obal, prvni nalezeny obrazek slouzi jako obal
+            if not any((out / (g["slug"] + e)).exists() for e in (".png", ".webp", ".jpg")):
+                volne = [g["slug"]] + volne
             for jmeno, u in zip(volne, urls):
                 dest = out / (jmeno + ".png")
                 try:
@@ -1582,7 +1593,9 @@ def fetch_games_steam_shots(only=None):
                 print(f"  [!] {slug}: Steam se pro platformy před {STEAM_MIN_PLATFORM_YEAR} nepoužívá")
             continue
         # jen hry, které mají obal, ale ještě nemají snímky ze hry
-        targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 2]
+        # galerie pobere deset polozek, takze dobirame i hry, ktere uz nejaky
+        # snimek maji — fetcher existujici soubory preskoci, takze je to levne
+        targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 10]
         if prubezna:
             targets = [g for g in targets
                        if str(g.get("year") or "0").isdigit()
@@ -1596,10 +1609,7 @@ def fetch_games_steam_shots(only=None):
             total += 1
             # Volne pozice pro snimky. Drive se preskocila cela hra, jakmile
             # existoval -snap, takze hra s jednim snimkem uz druhy nedostala.
-            volne = [n for n in (f"{g['slug']}-snap", f"{g['slug']}-snap2")
-                     if not (out / f"{n}.jpg").exists()
-                     and not (out / f"{n}.png").exists()
-                     and not (out / f"{n}.webp").exists()]
+            volne = volne_snimky(out, g["slug"])
             if not volne:
                 continue
             time.sleep(0.35)
@@ -1694,7 +1704,9 @@ def fetch_games_nintendo_shots(only=None):
         system = NINTENDO_SYSTEMS.get(slug)
         if not system:
             continue
-        targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 2]
+        # galerie pobere deset polozek, takze dobirame i hry, ktere uz nejaky
+        # snimek maji — fetcher existujici soubory preskoci, takze je to levne
+        targets = [g for g in plat["games"] if g.get("image") and len(g.get("gallery") or []) < 10]
         if not targets:
             continue
         out = IMG / "games" / slug

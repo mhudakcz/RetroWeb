@@ -18295,6 +18295,14 @@
    "genre": "Strategie",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Dungeon Keeper 2",
+   "genre": "Budovatelská strategie",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "pc-dos": [
@@ -22077,6 +22085,32 @@
   {
    "name": "Total War: Three Kingdoms",
    "genre": "Strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Baldur's Gate: Siege of Dragonspear",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tyranny",
+   "genre": "RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Torment: Tides of Numenera",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Neverwinter Nights: Enhanced Edition",
+   "genre": "RPG",
    "length": "XL",
    "flags": []
   }

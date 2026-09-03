@@ -713,10 +713,14 @@ def build():
 
             sub = f"games/{slug}"
             gallery = []
-            for suffix, label, kind in (("", "Obal", "box"),
-                                        ("-snap", "Ze hry", "snap"),
-                                        ("-snap2", "Ze hry", "snap"),
-                                        ("-title", "Titulní obrazovka", "title")):
+            # obal, snimky ze hry (-snap, -snap2 .. -snap9) a titulni obrazovka;
+            # dohromady nejvyse deset polozek, aby galerie zustala prehledna
+            poradi = [("", "Obal", "box"), ("-snap", "Ze hry", "snap")]
+            poradi += [(f"-snap{i}", "Ze hry", "snap") for i in range(2, 10)]
+            poradi.append(("-title", "Titulní obrazovka", "title"))
+            for suffix, label, kind in poradi:
+                if len(gallery) >= 10:
+                    break
                 src = find_image(sub, f"{gslug}{suffix}")
                 if src:
                     gallery.append(dict(src=src, label=label, kind=kind))
@@ -730,7 +734,8 @@ def build():
                 image=(find_image(sub, gslug)
                        or find_image(sub, f"{gslug}-title")
                        or find_image(sub, f"{gslug}-snap")
-                       or find_image(sub, f"{gslug}-snap2")),
+                       or find_image(sub, f"{gslug}-snap2")
+                       or find_image(sub, f"{gslug}-snap3")),
                 gallery=gallery,
                 link=game_links.get(gslug),
                 playUrl=game_play.get(gslug),

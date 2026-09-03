@@ -6715,6 +6715,10 @@
     "studio": "Bullfrog Productions",
     "year": "1997"
   },
+  "pc-9x__dungeon-keeper-2": {
+    "studio": "Bullfrog Productions",
+    "year": "1999"
+  },
   "pc-9x__elder-scrolls-ii-daggerfall": {
     "studio": "Bethesda Softworks",
     "year": "1996"
@@ -8109,6 +8113,10 @@
     "studio": "Larian Studios",
     "year": "2023"
   },
+  "pc-modern__baldur-s-gate-siege-of-dragonspear": {
+    "studio": "Beamdog",
+    "year": "2016"
+  },
   "pc-modern__bastion": {
     "studio": "Supergiant Games",
     "year": "2011"
@@ -8933,6 +8941,10 @@
     "studio": "Obsidian Entertainment",
     "year": "2006"
   },
+  "pc-modern__neverwinter-nights-enhanced-edition": {
+    "studio": "Beamdog",
+    "year": "2018"
+  },
   "pc-modern__new-world": {
     "studio": "Amazon Games",
     "year": "2021"
@@ -9249,6 +9261,10 @@
     "studio": "Ubisoft",
     "year": "2006"
   },
+  "pc-modern__torment-tides-of-numenera": {
+    "studio": "inXile Entertainment",
+    "year": "2017"
+  },
   "pc-modern__total-war-shogun-2": {
     "studio": "The Creative Assembly",
     "year": "2011"
@@ -9276,6 +9292,10 @@
   "pc-modern__tropico-6": {
     "studio": "Limbic Entertainment",
     "year": "2019"
+  },
+  "pc-modern__tyranny": {
+    "studio": "Obsidian Entertainment",
+    "year": "2016"
   },
   "pc-modern__uboat": {
     "studio": "Deep Water Studio",

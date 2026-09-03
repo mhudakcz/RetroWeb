@@ -146074,7 +146074,7 @@
       "image": "/images/platforms/pc-9x.webp",
       "photoBg": "dark",
       "history": "Druhá polovina devadesátých let byla pro PC obdobím, kdy se z kancelářské bedny stal nejmocnější herní stroj na světě. Odstartoval to příchod procesorů **Intel Pentium** a v roce 1995 systém **Windows 95** s 32bitovým prostředím a jednotným rozhraním hardwaru. Do té doby si každá hra řešila ovladače sama — hráč v instalátoru ručně vybíral model zvukové karty a nastavoval **IRQ**, DMA kanál a adresu portu, a když se netrefil, hra mlčela nebo spadla. S nástupem **DirectX** éra magických čísel skončila.\n\nPřechod nebyl okamžitý: roky 1995 až 1997 patřily titulům vycházejícím v DOSové i windowsové verzi, teprve konec desetiletí pak Windows naplno. Zároveň se rozjela nejrychlejší technologická spirála v dějinách hraní — co bylo na jaře špičkou, bylo o Vánocích průměr. Herně šlo o zlatý věk: vznikl tu moderní **FPS** v podobě Quake, Unrealu a Half-Life, rozkvetly realtimové strategie, simulátory i první velká 3D RPG — a protože PC nebylo uzavřenou konzolí, vyrostla kolem něj obrovská scéna modderů.\n\n### Technika: grafika a zvuk\n\nNejvětším tématem éry byly **3D akcelerátory**. Do roku 1996 se veškerá 3D grafika počítala softwarově na procesoru — odtud ty hrubé, škubající se textury v rozlišení 320×200. Pak přišla firma 3dfx s kartou **Voodoo Graphics** a rozhraním **Glide** a rozdíl byl propastný. Hardwarová akcelerace přinesla **bilineární filtrování textur**, korekci perspektivy, průhlednost, vyšší rozlišení a hlavně plynulost. GLQuake na Voodoo byl pro spoustu lidí okamžikem, kdy se hraní na PC změnilo nadobro.\n\nPrvní Voodoo byla ještě přídavná karta propojená kabelem s běžnou 2D grafikou, **Voodoo2** uměla režim SLI se dvěma kartami vedle sebe. Konkurence ale náskok rychle dohnala: NVIDIA přišla s čipy **RIVA TNT** a TNT2, které spojily 2D i 3D na jedné kartě a sázely na **OpenGL** a Direct3D, a v roce 1999 vydala **GeForce 256** — první běžnou kartu s hardwarovým **T&L**, tedy s výpočtem geometrie a osvětlení přímo na grafickém čipu. ATI mezitím nabízela řadu **Rage** a v roce 2000 první **Radeon**. Éra 3dfx skončila.\n\nZvuk měl vlastní vývoj. Standardem zůstávala řada **Sound Blaster**, od SB16 přes **AWE32** a AWE64 s wavetable syntézou pro lepší MIDI hudbu, později přišly karty s hardwarovou akcelerací a 3D zvukem **A3D** a **EAX**, díky nimž bylo slyšet, že střelba přichází zezadu. Zásadní byl také **CD-ROM**: hry začaly místo čipové hudby přehrávat plnohodnotné **CD Audio** stopy. Na konci éry se přidal **MP3**.\n\n### Propojeni a periferie\n\nZáklad sestavy se během několika let posunul z desítek na stovky megahertzů. Pentium doplnily instrukce **MMX**, paměti přešly z **EDO RAM** na **SDRAM** a grafika se přestěhovala ze sběrnice **PCI** na vyhrazený port **AGP** s rychlejším přístupem do hlavní paměti.\n\nPro ovládání se ustálil dodnes platný standard: **klávesnice a myš**. Ve střílečkách se prosadilo schéma **WASD + myš**, tedy pohyb levou rukou a rozhlížení pravou — kombinace zrozená v komunitě kolem Quake. Simulátory si žádaly **joysticky** a létací sady, závody **volanty** se zpětnou vazbou.\n\nNejvětší společenskou změnou bylo síťové hraní. Nejdřív se hrálo přes **modem** a přímé vytáčené spojení dvou počítačů, pak přes **dial-up** připojení s vysokým pingem a účtem za telefon, který doma nikdo nechtěl vysvětlovat. Objevily se první online služby a lobby systémy. Legendou se staly **LAN party** — víkendy, kdy se do jedné místnosti stahovaly bedny, monitory a metry kabelů kvůli Quake nebo StarCraftu.\n\n### Modely a revize\n\nPC se od konzolí lišilo tím, že žádný „model\" neexistoval — sestava byla vždy skládačka. Přesto lze éru rozdělit podle procesorů: **Pentium** a jeho verze s MMX, poté **Pentium II** v kazetě do slotu a nakonec **Pentium III**. Souběžně se měnila média: **diskety** dosloužily a jediným nosičem se stal **CD-ROM**. Instalace o stovkách megabajtů přestaly být výjimkou a velké hry vycházely na několika discích.\n\n### Klony a varianty\n\nOtevřenost architektury byla největší silou PC. Kompatibilní počítače stavěl kdokoli a procesory nedodával jen Intel — soupeřem byla **AMD** s řadou **K6** a od roku 1999 s **Athlonem**, který Intelu poprvé skutečně zatopil, levnou alternativu nabízel také **Cyrix**. Díky téhle konkurenci se ceny držely nízko a výkon rostl závratným tempem.\n\nV českém prostředí to znamenalo boom skládaných sestav z počítačových burz a malých lokálních prodejců. Značková kompletní PC kupovaly hlavně firmy, hráči si stroj skládali po dílech a upgradovali postupně — nová grafika letos, procesor příští rok. Herní časopisy s přiloženými CD byly zdrojem demoverzí i ovladačů.\n\n### Dnesni scena\n\nRetro PC hraní má dnes několik cest. U přechodových DOSových titulů pomáhá **DOSBox**, u klasických adventur **ScummVM**. Windowsové hry z konce devadesátek se ale často rozběhnou přímo na moderním systému, případně v **režimu kompatibility** a s komunitními patchi pro rychlé procesory a širokoúhlá rozlišení. Pro tituly psané pro Glide existují **wrappery** **nGlide** a **dgVoodoo**, které staré volání přeloží na dnešní grafické rozhraní.\n\nNejpohodlnějším legálním zdrojem je **GOG.com** s předpřipravenými verzemi bez ochran. Pro největší klasiky existují i **source porty** postavené na uvolněných zdrojových kódech — enginy odvozené od Quake nabízejí vyšší rozlišení, moderní ovládání i síťovou hru. A pak je tu nejpoctivější varianta: postavit si dobovou **retro sestavu** s Pentiem, Voodoo kartou a Sound Blasterem. Shánění dílů se stalo sběratelským koníčkem a pocit z CRT monitoru emulace nenahradí.",
-      "gameCount": 175,
+      "gameCount": 176,
       "games": [
         {
           "slug": "pc-9x__quake-ii",
@@ -151507,6 +151507,28 @@
           "players": null,
           "os": null,
           "rating": null
+        },
+        {
+          "slug": "pc-9x__dungeon-keeper-2",
+          "name": "Dungeon Keeper 2",
+          "genre": "Budovatelská strategie",
+          "length": "L",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "1999",
+          "studio": "Bullfrog Productions",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Dungeon Keeper 2** dotáhl do dokonalosti nápad, se kterým první díl přišel: hrajete za zloducha, stavíte podzemní doupě a bráníte ho před otravnými hrdiny, kteří vám lezou do sklepa krást poklady. Bullfrog přesunul celou hru do plného 3D, což tehdy nebylo samozřejmé, a hlavně tím umožnil věc, kvůli které si ji lidé pamatují dodnes — kdykoli se můžete vtělit do vlastního přisluhovače a projít si to doupě jeho očima, z první osoby, s celou tou vlhkou tmou a ozvěnou kroků.\n\nSprávcovská část je pořád jádrem hry. Kopete chodby, vyzdíváte místnosti, lákáte netvory na jídlo a zlato, dohlížíte na to, aby se čerti nepohádali s temnými elfy, a když se někdo fláká, plácnete ho svojí obří rukou. Každý typ místnosti přitahuje jiné nájemníky a špatně poskládané doupě se rozpadne zevnitř dřív, než k němu dorazí první rytíř. Vedle toho běží regulérní válka: proti vám stojí buď hrdinové z povrchu, nebo jiný pán podzemí, a boj se vede o území, které je potřeba nejdřív vykopat.\n\nCo ale hru vyneslo nad ostatní strategie, je tón. Vypravěč komentuje vaše počínání s tak lenivým sarkasmem, že se vyplatí prohrávat jen kvůli hláškám, a celá hra si dělá legraci z fantasy klišé, aniž by přestala fungovat jako strategie. Bullfrog ji vydal jen rok předtím, než ho EA rozpustilo, takže je to zároveň jedna z posledních věcí, které tohle studio stihlo.\n\n**Proč hrát:** Podzemní budovatelská strategie, kterou nikdo pořádně nezopakoval — a vtělení do vlastního netvora z ní dělá zážitek, na jaký si z roku 1999 vzpomene málokterá hra.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
         }
       ]
     },
@@ -151522,7 +151544,7 @@
       "image": "/images/platforms/pc-modern.webp",
       "photoBg": "dark",
       "history": "Zlom mezi „starým\" a „moderním\" PC nemá jediné datum, ale má jasné znaky. Někdy kolem roku 2001 přestalo být herní PC krabicí, do níž se cpe co nejrychlejší procesor, a stalo se strojem, kde hlavní práci odvádí **programovatelná grafická karta**. Krátce nato se přidala druhá revoluce: v roce 2003 uvedlo AMD procesor **Athlon 64** a s ním architekturu **x86-64**, tedy 64bitové rozšíření, které — na rozdíl od exotických slepých uliček — zůstalo plně zpětně kompatibilní se vším, co do té doby vzniklo. Intel ji po počátečním odporu převzal také a x86-64 se stalo společným jazykem celého odvětví, včetně herních konzolí.\n\nTřetí pilíř éry přišel s **vícejádrovými procesory**. Frekvence narazily na fyzikální strop a místo dalších gigahertzů začaly přibývat jádra, což donutilo herní studia přepsat způsob, jakým své enginy staví. Od poloviny dekády tak vývoj her přestal být otázkou jediné rychlé smyčky a stal se disciplínou paralelního programování — s odděleným vláknem pro fyziku, zvuk, streamování dat i vykreslování.\n\nA nad tím vším se odehrála změna, která hráče zasáhla víc než jakýkoli křemík: **digitální distribuce**. Krabice z regálu vystřídal účet, knihovna a stahování na pozadí. PC se z platformy, kterou konzoloví hráči v půlce nultých let odepisovali, stalo tou nejotevřenější a nejrozsáhlejší herní platformou vůbec.\n\n### Technika: grafika a zvuk\n\nKlíčovým okamžikem byly **programovatelné shadery**. Do té doby grafické karty uměly jen pevně danou sadu operací; s **DirectX 8** a kartou **GeForce 3** (2001) mohli vývojáři poprvé psát vlastní krátké programy běžící přímo na GPU pro každý vrchol a každý pixel. **DirectX 9** a **ATI Radeon 9700** (2002) posunuly hranici dál a výsledek byl vidět na první pohled: skutečné odlesky na mokrém asfaltu, vlnící se voda, měkké stíny, kůže a látky, které vypadaly jako kůže a látky. Hry jako Half-Life 2 nebo Far Cry ukázaly, co to znamená v praxi.\n\nDalší krok přinesly **unifikované shadery** — namísto oddělených jednotek pro vrcholy a pixely nastoupila univerzální pole výpočetních jader, která se dala využít i na obecné výpočty. Na to navázaly **DirectX 11** s tesselací a výpočetními shadery, později **DirectX 12** a otevřený **Vulkan**, jež daly vývojářům přístup blíž k hardwaru a snížily režii ovladače.\n\nSouběžně rostla i „hrubá\" čísla. Od rozlišení 1024×768 se hraní posunulo přes 1080p a 1440p ke **4K**, obnovovací frekvence z 60 Hz na 144 Hz i výš, **antialiasing** vyhladil zubaté hrany a **HDR** rozšířil rozsah jasu a barev. Poslední velkou kapitolou je **ray tracing** — výpočet odrazů, stínů a osvětlení sledováním paprsků, tedy postupem, jakým se dřív renderoval film přes noc. Protože je stále náročný, doprovázejí ho **upscalovací techniky** jako **DLSS** od Nvidie a **FSR** od AMD, které obraz počítají v nižším rozlišení a dopočítávají ho do plné velikosti.\n\n### Propojeni a periferie\n\nZákladem zůstala **klávesnice a myš**, dvojice, kterou žádná konzole nikdy nepřekonala v přesnosti míření a v počtu okamžitě dostupných příkazů. Vedle ní ale PC získalo plnou podporu **gamepadů**: ovladač Xboxu se stal de facto standardem, hry ho poznají samy a zobrazují jeho ikony, takže plošinovky a závody se hrají stejně pohodlně jako na konzoli.\n\nPřibyly i periferie, které konzole nemají — **VR headsety**, vysokofrekvenční monitory, volanty i páky pro simulátory. Na straně paměti se prostřídaly generace **DDR** až po DDR5, ale největší praktický rozdíl udělalo úložiště: přechod z pevných disků na **SSD** a dál na **NVMe** disky připojené přes PCI Express zkrátil načítací obrazovky z desítek sekund na jednotky a umožnil hrám streamovat obrovské otevřené světy za běhu.\n\n### Generace a revize\n\nNa PC neexistuje „model\", jen generace komponent — a mezi začátkem a koncem této éry\nje propast, jakou konzole nikdy nezažily. Rok 2001 znamenal **Pentium 4** a **Athlon XP**\ns jedním jádrem; herní zlom přinesly **programovatelné shadery** (GeForce 3, Radeon 9700\na DirectX 9), díky nimž hry poprvé vypadaly jinak než jako sada nasvícených textur.\n\nV roce 2003 přišel **Athlon 64** a s ním architektura x86-64, tedy 64bitové adresování,\nkteré dnes bereme jako samozřejmost. Skutečnou revolucí v obyčejném počítači ale bylo\n**více jader**: od Core 2 Dua se rozdíl mezi „procesorem na kancelář\" a „procesorem na hry\"\nzačal měřit hlavně jejich počtem a v roce 2017 ho **Ryzen** vyhnal do osmi a víc.\nGrafika mezitím prošla unifikovanými shadery (GeForce 8800), DirectX 11 a 12, Vulkanem\na nakonec **ray tracingem** s upscalováním (DLSS, FSR), které ubraný výkon dohání\ndopočítáváním pixelů.\n\nNejcitelnější změnu ale nepřinesl výkon, nýbrž úložiště. Přechod z **pevného disku na SSD**\na později **NVMe** zkrátil načítání z desítek sekund na jednotky a u velkých otevřených světů\nrozhodl o tom, jestli je hra plynulá. Poslední kapitolou jsou **přenosná herní PC** —\nSteam Deck a jeho následovníci — kde se skládačka komponent poprvé zabalila do jednoho\nzařízení s pevně danou konfigurací, tedy vlastně do něčeho velmi podobného konzoli.\n\n### Digitální distribuce a služby\n\n**Steam** spustil Valve v roce **2003** a hráči ho zpočátku upřímně nenáviděli — hlavně proto, že bez něj v roce 2004 nešlo spustit Half-Life 2, tehdy zcela nevídaná podmínka. Během několika let se ale z nutného zla stal nejpohodlnější způsob, jak hry kupovat, aktualizovat a mít je navždy dostupné. Následovaly **GOG.com** se hrami bez ochran a s péčí o staré tituly, **Epic Games Store** i předplatné **Game Pass**.\n\nZměnil se tím celý životní cyklus hry. Skončily krabice i představa, že hra je po vylisování hotová — nastoupilo pravidelné **patchování**, dodatečný obsah, **Steam Workshop** pro snadnou distribuci modifikací a **předběžný přístup**, kdy hráči kupují titul rozpracovaný a sledují, jak roste. Pro malá studia to byl zásadní obrat: cesta na trh přestala vést přes vydavatele a distributora.\n\n### Modding, indie a otevřenost\n\nPrávě otevřenost je vlastnost, kterou PC nikdo nevzal. **Modding** se z okrajové zábavy stal fenoménem — **Skyrim** má po letech tisíce modifikací měnících grafiku, mechaniky i celé nové kraje, **Minecraft** vybudoval kolem úprav vlastní kulturu a nejedna dnešní samostatná hra vznikla původně jako mod cizího titulu.\n\nSouběžně vyrostla **indie scéna**. Digitální distribuce jí dala pult a nástroje jako **Unity** nebo open source **Godot** výrobu; hry, které by v éře krabic neprošly schvalováním, si najednou našly statisíce hráčů. A do třetice je PC domovem **emulace** — právě tady vznikají a běží emulátory konzolí od osmibitů po nedávné generace.\n\n### Dnesni scena\n\nPoslední roky přinesly něco, co by na začátku éry znělo jako protimluv: **přenosné herní PC**. **Steam Deck** od Valve a stroje jako **ROG Ally** vypadají jako handheldy, ale uvnitř je běžné x86-64 PC. Deck navíc běží na Linuxu a hry pro Windows spouští přes kompatibilní vrstvu **Proton**, která fungovala natolik dobře, že z knihovny nakoupených her udělala prakticky přenositelný majetek napříč systémy i zařízeními.\n\nTím se kruh uzavírá. PC dnes není jen platforma s nejnovějšími hrami — je to jediné místo, kde se dá naráz hrát prakticky celá historie hraní: dnešní blockbustery v ray tracingu, indie klenoty, staré klasiky z GOG.com i emulované tituly z konzolí všech generací. Moderní PC je zároveň nejvýkonnějším herním strojem současnosti a nejlepším muzeem, jaké hraní má.",
-      "gameCount": 350,
+      "gameCount": 354,
       "games": [
         {
           "slug": "pc-modern__half-life-2",
@@ -163509,6 +163531,88 @@
               "kind": "snap"
             }
           ],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__baldur-s-gate-siege-of-dragonspear",
+          "name": "Baldur's Gate: Siege of Dragonspear",
+          "genre": "RPG",
+          "length": "L",
+          "flags": [],
+          "year": "2016",
+          "studio": "Beamdog",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Siege of Dragonspear** zaplňuje mezeru, která v sáze zela sedmnáct let: co se stalo mezi koncem prvního Baldur's Gate a začátkem druhého dílu. Beamdog ji postavil na stejném Infinity Engine, takže vypadá i hraje se jako hra z konce devadesátek — izometrická perspektiva, ručně kreslená pozadí, pauzovatelný boj podle pravidel Dungeons & Dragons.\n\nPříběh začíná krátce po porážce Sarevoka. Vaše postava je v Bráně Baldurově hrdinou, jenže na severu se objeví armáda vedená Zářící dámou a vy vyrazíte v čele vojska proti ní. Tažení proto vypadá jinak než putování po mapě z jedničky: pohybujete se s armádou, řešíte tábor, zásoby a spojence a rozhodnutí, která uděláte, se promítají do toho, jak se k vám okolí chová. Kdo si přenese postavu z prvního dílu, dorazí do dvojky s hotovou historií.\n\nJe to expanze, která si nehraje na plnohodnotný třetí díl, a taky tak dlouho trvá — kolem pětadvaceti hodin. Sedí přesně tam, kam patří: mezi dvě hry, které bez ní přeskakovaly velký kus děje.\n\n**Proč hrát:** Chybějící článek mezi prvním a druhým Baldur's Gate, postavený na původním enginu — pro každého, kdo sérii dohrál a ptal se, co se stalo mezitím.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__tyranny",
+          "name": "Tyranny",
+          "genre": "RPG",
+          "length": "L",
+          "flags": [
+            "mustplay"
+          ],
+          "year": "2016",
+          "studio": "Obsidian Entertainment",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Tyranny** začíná tam, kde jiná fantasy RPG končí: temný pán už vyhrál. Kyros ovládl skoro celý známý svět a vy nejste hrdina, který ho svrhne — jste Osudový soudce, úředník jeho režimu, který má za úkol dohlédnout na to, aby poslední dobyté území poslouchalo. Obsidian tím obrátil obvyklé zadání naruby a postavil na tom celou hru.\n\nJeště než začnete hrát, projdete takzvaným Dobýváním: sérií rozhodnutí o tom, jak válka v předchozích letech probíhala. Kterému městu jste dali milost, které jste srovnali se zemí, komu jste pomohli. Svět, do kterého pak vstoupíte, je těmi volbami skutečně poskládaný — lidé si pamatují, co jste udělali, a některé frakce s vámi odmítnou mluvit dřív, než otevřete pusu. Málokterá hra dá hráči takhle konkrétní minulost.\n\nSoubojový systém navazuje na Pillars of Eternity, tedy izometrická partie s pauzou, ale nejzajímavější je systém kouzel, kde si zaklínadla skládáte sami z jader a přípon. Hlavní síla je ale ve psaní: hra vás pořád tlačí k tomu, abyste si vybrali, komu vlastně sloužíte, a žádná z odpovědí není čistá.\n\n**Proč hrát:** RPG, ve kterém zlo už zvítězilo a vy jste jeho úředník — a hra si za tím troufne stát až do konce, místo aby vás nakonec pustila do role zachránce.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__torment-tides-of-numenera",
+          "name": "Torment: Tides of Numenera",
+          "genre": "RPG",
+          "length": "L",
+          "flags": [],
+          "year": "2017",
+          "studio": "inXile Entertainment",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Tides of Numenera** je duchovní nástupce Planescape: Torment a nese to na sobě ve všem — je to hra, kde se skoro nebojuje, zato se hodně čte, a kde ústřední otázka nezní, jak porazit padoucha, ale co v životě člověka vlastně zbyde po tom, kdo v jeho těle žil před ním.\n\nSvět Devátého světa je postavený na stolním systému Numenera a odehrává se miliardu let v budoucnosti, na troskách osmi civilizací, které tu byly před námi. Technologie je tak stará, že ji obyvatelé považují za magii, a hra to používá k tomu, aby vypadala doopravdy cize — nejsou tu elfové ani trpaslíci, ale bytosti a mechanismy, které nikam nezapadají. Hrajete za Posledního opuštěného, tělo odložené nesmrtelnou bytostí, a jdete po tom, kdo jste.\n\nMísto soubojů řeší většinu situací Krize: scéna, kterou lze vyřešit řečí, lstí nebo útěkem stejně legitimně jako bojem. Kdo čeká akční RPG, bude zklamaný. Kdo hledá hru, která ho nechá číst dlouhé texty a rozhodovat se v nich, dostane jednu z mála takových, které po roce 2010 vznikly.\n\n**Proč hrát:** Nejbližší věc k Planescape: Torment, jaká kdy vyšla — cizí svět a hra, která dá přednost otázce před soubojem.",
+          "image": null,
+          "gallery": [],
+          "link": null,
+          "playUrl": null,
+          "players": null,
+          "os": null,
+          "rating": null
+        },
+        {
+          "slug": "pc-modern__neverwinter-nights-enhanced-edition",
+          "name": "Neverwinter Nights: Enhanced Edition",
+          "genre": "RPG",
+          "length": "XL",
+          "flags": [],
+          "year": "2018",
+          "studio": "Beamdog",
+          "est": null,
+          "teaser": null,
+          "detail": null,
+          "article": "**Neverwinter Nights: Enhanced Edition** vrací do provozu hru, která pro spoustu lidí znamenala víc než jen kampaň: BioWare k ní v roce 2002 přiložil kompletní editor modulů, a kolem něj vyrostla komunita, která pro ni dodnes vyrábí vlastní dobrodružství a provozuje perzistentní světy s desítkami hráčů.\n\nBeamdog upravil to, co bránilo hru dnes spustit: vyšší rozlišení, moderní operační systémy, síťová hra, která funguje bez obcházení, a podpora pro komunitní rozšíření, která se za dvě dekády nasbírala. V balíku jsou obě velké expanze, Shadows of Undrentide a Hordes of the Underdark, přičemž ta druhá patří k nejlepšímu, co pro pravidla třetí edice Dungeons & Dragons vzniklo.\n\nPůvodní kampaň je slabší část celku a je poctivé to říct — je zdlouhavá a společníci v ní nejsou zdaleka tak dobří jako v Baldur's Gate. Hodnota téhle hry je jinde: v expanzích a hlavně v tom, co k ní za dvacet let vytvořili hráči. Editor je pořád funkční a moduly se pořád vydávají.\n\n**Proč hrát:** Nejde ani tak o kampaň jako o dvě výborné expanze a živou komunitní tvorbu, která k téhle hře běží nepřetržitě přes dvacet let.",
+          "image": null,
+          "gallery": [],
           "link": null,
           "playUrl": null,
           "players": null,
@@ -188079,10 +188183,10 @@
   ],
   "stats": {
     "platforms": 77,
-    "games": 5520,
+    "games": 5525,
     "withDetail": 476,
     "withTeaser": 5520,
-    "withArticle": 5520,
+    "withArticle": 5525,
     "platformImages": 75,
     "gameImages": 4968
   }
