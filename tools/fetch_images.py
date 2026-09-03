@@ -1348,6 +1348,219 @@ def _steam_screenshots(appid, limit=2):
     return out
 
 
+# ---- GOG (bez API klice) ----
+# Libretro ma jen tituly, ktere nekdo doplnil do RetroArch sady, a Steam zas
+# nema starsi PC hry, ktere se na nej nikdy nedostaly. GOG stara PC vydani
+# prodava dodnes a jeho katalog je verejny — pro DOSove a devadesatkove
+# platformy je to nejlepsi zbyvajici zdroj.
+_GOG_SEARCH = "https://catalog.gog.com/v1/catalog?limit=8&query=like:{q}&locale=en-US&countryCode=US&currencyCode=USD"
+_GOG_PRODUCT = "https://api.gog.com/products/{pid}?expand=screenshots"
+# poradi od nejvetsiho — chceme co nejvetsi snimek, ktery jeste existuje
+_GOG_FORMATY = ("ggvgl_2x", "ggvgl", "ggvgm_2x", "ggvgm", "ggvgt_2x", "ggvgt")
+
+
+def _gog_search(name, limit=8):
+    """Hledani v katalogu GOG -> list (id, title)."""
+    url = _GOG_SEARCH.format(q=urllib.parse.quote(name))
+    try:
+        data = json.loads(http_get(url))
+    except Exception:  # noqa: BLE001
+        return []
+    out = []
+    for p in (data.get("products") or [])[:limit]:
+        if p.get("id") and p.get("title"):
+            out.append((p["id"], p["title"]))
+    return out
+
+
+def _gog_pick(game_name, hits):
+    """Vyber produkt, ktery je opravdu tataz hra.
+
+    Hledani na GOG je velmi volne — dotaz "Fish Fillets" vrati "Warpaws"
+    i "War Mechanic". Bez presne shody by se ke hre prilepil nahodny titul,
+    takze plati stejna prisnost jako u Steamu: bud presna shoda, nebo jen
+    povolena reedice ("Blade Runner - Enhanced Edition").
+    """
+    gnorm = P.norm_name(game_name)
+    if len(gnorm) < 3:
+        return None
+    for pid, title in hits:
+        if _steam_is_skippable(title):
+            continue
+        tnorm = P.norm_name(_steam_clean(title))
+        if not tnorm:
+            continue
+        if tnorm == gnorm:
+            return pid, title
+        if tnorm.startswith(gnorm + " "):
+            extra = tnorm[len(gnorm) + 1:].split()
+            if extra and all(w in _STEAM_SUFFIX_OK for w in extra):
+                return pid, title
+            if extra and extra[-1] == "edition" and len(extra) <= 3:
+                return pid, title
+    return None
+
+
+def _gog_images(pid, limit=2):
+    """Vrati (obal, [snimky]) pro produkt. Obal je svisly 'logo2x'."""
+    try:
+        d = json.loads(http_get(_GOG_PRODUCT.format(pid=pid)))
+    except Exception:  # noqa: BLE001
+        return None, []
+    logo = ((d.get("images") or {}).get("logo2x") or "")
+    if logo.startswith("//"):
+        logo = "https:" + logo
+    shots = []
+    for sh in (d.get("screenshots") or []):
+        podle = {x.get("formatter_name"): x.get("image_url")
+                 for x in (sh.get("formatted_images") or [])}
+        for f in _GOG_FORMATY:
+            if podle.get(f):
+                shots.append(podle[f])
+                break
+        if len(shots) >= limit:
+            break
+    return (logo or None), shots
+
+
+def fetch_games_gog(only=None, shots_only=False):
+    """Doplni obal a snimky ze hry z GOG.
+
+    shots_only=False: hry BEZ obrazku (stahne obal i dva snimky).
+    shots_only=True:  hry, ktere obal maji, ale nemaji snimky ze hry.
+    """
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else None
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if wanted and slug not in wanted:
+            continue
+        if shots_only:
+            cile = [g for g in plat["games"]
+                    if g.get("image") and len(g.get("gallery") or []) < 2]
+        else:
+            cile = [g for g in plat["games"] if not g.get("image")]
+        if not cile:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print(f"\n== {slug} — k doplneni: {len(cile)} ==")
+        for g in cile:
+            total += 1
+            hit = _gog_pick(g["name"], _gog_search(g["name"]))
+            if not hit:
+                continue
+            pid, title = hit
+            logo, shots = _gog_images(pid)
+            got = 0
+            if not shots_only and logo:
+                dest = out / f"{g['slug']}.jpg"
+                if not dest.exists() and not dest.with_suffix(".webp").exists():
+                    try:
+                        dest.write_bytes(http_get(logo))
+                        got += 1
+                    except Exception:  # noqa: BLE001
+                        pass
+            # do prvni VOLNE pozice: kdyz uz hra jeden snimek ma, dalsi
+            # musi jit do -snap2, ne se zahodit
+            volne = [n for n in (g["slug"] + "-snap", g["slug"] + "-snap2")
+                     if not (out / (n + ".jpg")).exists()
+                     and not (out / (n + ".png")).exists()
+                     and not (out / (n + ".webp")).exists()]
+            for jmeno, u in zip(volne, shots):
+                dest = out / (jmeno + ".jpg")
+                try:
+                    dest.write_bytes(http_get(u))
+                    got += 1
+                except Exception:  # noqa: BLE001
+                    pass
+            if got:
+                ok += 1
+                print(f"  [OK] {g['name']}  <- gog:{pid} {title} ({got} obr.)")
+    print(f"\nGOG: doplneno u {ok}/{total} her")
+
+
+# ---- ZXDB / ZXInfo (bez API klice) ----
+# Osmibitove Spectrum tituly nejsou ani na Steamu, ani na GOG a libretro sada
+# je nekompletni. ZXDB je nejuplnejsi verejny katalog Spectra vubec.
+_ZX_SEARCH = "https://api.zxinfo.dk/v3/search?query={q}&size=6&mode=compact"
+_ZX_MEDIA = "https://zxinfo.dk/media"
+
+
+def _zx_search(name):
+    """Hledani v ZXDB -> list (title, [url snimku])."""
+    try:
+        d = json.loads(http_get(_ZX_SEARCH.format(q=urllib.parse.quote(name))))
+    except Exception:  # noqa: BLE001
+        return []
+    out = []
+    for h in ((d.get("hits") or {}).get("hits") or []):
+        src = h.get("_source") or {}
+        title = src.get("title")
+        if not title:
+            continue
+        urls = []
+        for sc in (src.get("screens") or []):
+            u = sc.get("url")
+            if u:
+                urls.append(_ZX_MEDIA + u)
+        if urls:
+            out.append((title, urls))
+    return out
+
+
+def fetch_games_zxinfo(only=None):
+    """Doplni hram na Spectru obal (loading screen) a snimky ze hry z ZXDB.
+
+    ZXDB rozlisuje loading screen a in-game snimky jen nazvem souboru, takze
+    prvni obrazek bereme jako titulni a dalsi dva do galerie. Parovani je
+    stejne prisne jako u Steamu — hledani vraci i volne shody.
+    """
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else {"zx-spectrum"}
+    ok = total = 0
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if slug not in wanted:
+            continue
+        cile = [g for g in plat["games"]
+                if not g.get("image") or len(g.get("gallery") or []) < 2]
+        if not cile:
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        print("\n== %s - k doplneni: %d ==" % (slug, len(cile)))
+        for g in cile:
+            total += 1
+            gnorm = P.norm_name(g["name"])
+            urls = None
+            for title, u in _zx_search(g["name"]):
+                if P.norm_name(_steam_clean(title)) == gnorm:
+                    urls = u
+                    break
+            if not urls:
+                continue
+            got = 0
+            # Snimky se ukladaji do prvni VOLNE pozice. Pozicni mapovani by
+            # u hry, ktera uz obal a jeden snimek ma, zahodilo vse ostatni.
+            volne = [n for n in (g["slug"], g["slug"] + "-snap", g["slug"] + "-snap2")
+                     if not (out / (n + ".png")).exists()
+                     and not (out / (n + ".webp")).exists()
+                     and not (out / (n + ".jpg")).exists()]
+            for jmeno, u in zip(volne, urls):
+                dest = out / (jmeno + ".png")
+                try:
+                    dest.write_bytes(http_get(u))
+                    got += 1
+                except Exception:  # noqa: BLE001
+                    pass
+            if got:
+                ok += 1
+                print("  [OK] %s  <- zxdb (%d obr.)" % (g["name"], got))
+    print("\nZXDB: doplneno u %d/%d her" % (ok, total))
+
+
 def fetch_games_steam_shots(only=None):
     """Doplní hrám, které UŽ MAJÍ obal, dva snímky ze hry ze Steamu.
 
@@ -1381,7 +1594,13 @@ def fetch_games_steam_shots(only=None):
         print(f"\n== {slug} - bez snimku: {len(targets)} ==")
         for g in targets:
             total += 1
-            if (out / f"{g['slug']}-snap.jpg").exists() or (out / f"{g['slug']}-snap.webp").exists():
+            # Volne pozice pro snimky. Drive se preskocila cela hra, jakmile
+            # existoval -snap, takze hra s jednim snimkem uz druhy nedostala.
+            volne = [n for n in (f"{g['slug']}-snap", f"{g['slug']}-snap2")
+                     if not (out / f"{n}.jpg").exists()
+                     and not (out / f"{n}.png").exists()
+                     and not (out / f"{n}.webp").exists()]
+            if not volne:
                 continue
             time.sleep(0.35)
             base = P.re.sub(r"\([^)]*\)", " ", g["name"])
@@ -1396,12 +1615,12 @@ def fetch_games_steam_shots(only=None):
                 print(f"  [-] {g['name']} (bez screenshotu)")
                 continue
             saved = 0
-            for src, suffix in zip(shots, ("-snap", "-snap2")):
+            for src, jmeno in zip(shots, volne):
                 try:
                     img = http_get(src)
                     if len(img) < 3000:
                         continue
-                    (out / f"{g['slug']}{suffix}.jpg").write_bytes(img)
+                    (out / f"{jmeno}.jpg").write_bytes(img)
                     saved += 1
                 except Exception:  # noqa
                     pass
@@ -1997,6 +2216,15 @@ if __name__ == "__main__":
     if what == "games-appstore":
         print("=== OBALY A SNÍMKY Z APP STORU (mobilní hry) ===")
         fetch_games_appstore(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-zxinfo":
+        print("=== OBRAZKY ZE ZXDB (ZX Spectrum) ===")
+        fetch_games_zxinfo(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-gog":
+        print("=== OBALY A SNIMKY Z GOG (hry bez obrazku) ===")
+        fetch_games_gog(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-gog-shots":
+        print("=== SNIMKY ZE HRY Z GOG (hry s obalem, ale bez galerie) ===")
+        fetch_games_gog(sys.argv[2] if len(sys.argv) > 2 else None, shots_only=True)
     if what == "games-steam-shots":
         print("=== SNÍMKY ZE HRY ZE STEAMU (hry s obalem, ale bez galerie) ===")
         fetch_games_steam_shots(sys.argv[2] if len(sys.argv) > 2 else None)
