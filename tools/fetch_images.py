@@ -1012,7 +1012,7 @@ _ITCH_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 # itch.io dává smysl jen tam, kde je katalog opravdu z itch.io / homebrew scény.
 # Na komerčních konzolích vrací shoda názvu cizí fan-game (viz fetch_games_itch).
-ITCH_OK = {"pico-8", "tic-80", "game-watch"}
+ITCH_OK = {"pico-8", "tic-80", "game-watch", "web"}  # web: rada prohlizecovek zije na itch.io
 
 # Steam se smi pouzivat jen pro platformy od roku 2000. U starsich to nefunguje:
 # Steam vraci datum vydani NA STEAMU, ne originalni (DOOM + DOOM II ma na Steamu
