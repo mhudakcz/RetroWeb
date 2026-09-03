@@ -4337,6 +4337,154 @@
    "genre": "Action-platformer",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Ninja Gaiden",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alex Kidd: The Lost Stars",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Golden Axe Warrior",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Streets of Rage",
+   "genre": "Mlátička",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Aztec Adventure",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alien Syndrome",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Black Belt",
+   "genre": "Mlátička",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rastan",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cyborg Hunter",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Miracle Warriors: Seal of the Dark Lord",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Spellcaster",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kenseiden",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Indiana Jones and the Last Crusade",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Zillion II: The Tri Formation",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Alex Kidd: High-Tech World",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Enduro Racer",
+   "genre": "Závodní (motorky)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Battle Out Run",
+   "genre": "Závodní (akční)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "World Grand Prix",
+   "genre": "Závodní (formule)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "GP Rider",
+   "genre": "Závodní (motorky)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Great Soccer",
+   "genre": "Sportovní (fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Great Baseball",
+   "genre": "Sportovní (baseball)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Great Football",
+   "genre": "Sportovní (americký fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Olympic Gold",
+   "genre": "Sportovní (atletika, multi-event)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tennis Ace",
+   "genre": "Sportovní (tenis)",
+   "length": "S",
+   "flags": []
   }
  ],
  "game-boy": [
@@ -6710,6 +6858,234 @@
    "name": "Fighting Vipers",
    "genre": "Fighting",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bug!",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Bug Too!",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Die Hard Arcade",
+   "genre": "Akční / Beat 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Die Hard Trilogy",
+   "genre": "Akční (multižánrová)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil",
+   "genre": "Survival horor / Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Tomb Raider",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rayman",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Gungriffon",
+   "genre": "Akční / Mecha simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Elevator Action Returns",
+   "genre": "Akční plošinovka / Run and gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shining Wisdom",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Devil Summoner: Soul Hackers",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sakura Taisen",
+   "genre": "Taktická RPG / adventura",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sakura Taisen 2",
+   "genre": "Taktická RPG / adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mystaria: The Realms of Lore",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Riglord Saga",
+   "genre": "Taktická RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dragon Force II",
+   "genre": "Strategické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "D",
+   "genre": "Hororová adventura",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Mansion of Hidden Souls",
+   "genre": "Adventura / hádanky",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Daytona USA",
+   "genre": "Zavodni",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Sega Touring Car Championship",
+   "genre": "Zavodni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Manx TT Super Bike",
+   "genre": "Zavodni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Athlete Kings",
+   "genre": "Sportovni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "NBA Jam Tournament Edition",
+   "genre": "Sportovni",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "World Series Baseball",
+   "genre": "Sportovni",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Actua Golf",
+   "genre": "Sportovni",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Winter Heat",
+   "genre": "Sportovni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Off World Interceptor Extreme",
+   "genre": "Zavodni",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Thunder Force V",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Darius Gaiden",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soukyuu Gurentai",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Steel Empire",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shienryu",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Guardian Force",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Gokujou Parodius",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RayStorm",
+   "genre": "Shmup",
+   "length": "S",
    "flags": []
   }
  ],
@@ -27820,6 +28196,176 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Arizona Sunshine 2",
+   "genre": "Akční střílečka (zombie)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "The Climb 2",
+   "genre": "Plošinovka (lezení)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "After the Fall",
+   "genre": "Kooperativní akční střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Espire 1: VR Operative",
+   "genre": "Akční stealth",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hellsplit: Arena",
+   "genre": "Akční (soubojová aréna)",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Swords of Gargantua",
+   "genre": "Akční roguelite",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zombieland: Headshot Fever",
+   "genre": "Rail shooter / akční",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Light Brigade",
+   "genre": "Roguelite střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Eye of the Temple",
+   "genre": "Plošinovka / hádanka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Zenith: The Last City",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Falcon Age",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "A Fisherman's Tale",
+   "genre": "Puzzle adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "The Room VR: A Dark Matter",
+   "genre": "Puzzle adventura",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Trover Saves the Universe",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wraith: The Oblivion - Afterlife",
+   "genre": "Hororová adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Journey of the Gods",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Legendary Tales",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dungeons of Eternity",
+   "genre": "Akční RPG / roguelite",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Creed: Rise to Glory",
+   "genre": "Boxerská sportovní simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Climb",
+   "genre": "Horolezecká akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Racket: Nx",
+   "genre": "Sportovní arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Racket Fury: Table Tennis VR",
+   "genre": "Stolní tenis (sportovní simulace)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Golf+",
+   "genre": "Golfový simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "All-In-One Sports VR",
+   "genre": "Sportovní sbírka miniher",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "First Person Tennis: The Real Tennis Simulator",
+   "genre": "Tenisová simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ghost Town Mini Golf",
+   "genre": "Minigolf s hádankami",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
   }
  ],
  "mobil": [
@@ -30909,6 +31455,336 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "Metal Slug Mobile",
+   "genre": "Akcni plosinovka (run and gun)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ice Age 2: The Meltdown",
+   "genre": "Plosinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man 3",
+   "genre": "Akcni hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Hitman: Blood Money",
+   "genre": "Akcni stealth",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon Advanced Warfighter",
+   "genre": "Taktická akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Modern Combat: Sandstorm",
+   "genre": "Akcni strilecka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Iron Man",
+   "genre": "Akcni hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Incredible Hulk",
+   "genre": "Akcni hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Transformers",
+   "genre": "Akcni hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "James Bond 007: Quantum of Solace",
+   "genre": "Akcni strilecka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Doom II RPG",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Orcs & Elves II",
+   "genre": "RPG",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "TibiaME",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Puzzle Quest: Challenge of the Warlords",
+   "genre": "Puzzle RPG",
+   "length": "L",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Sacred Odyssey: Rise of Ayden",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dungeon Hunter",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Bard's Tale",
+   "genre": "RPG",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Broken Sword: The Shadow of the Templars",
+   "genre": "Adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Runaway: A Road Adventure",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy IV: The After Years",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Ferrari GT: Evolution",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Colin McRae Rally 2005",
+   "genre": "Závodní (rally)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Driver: Vegas",
+   "genre": "Závodní / akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "FIFA 08",
+   "genre": "Sportovní (fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Virtua Tennis",
+   "genre": "Sportovní (tenis)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Football Manager Handheld",
+   "genre": "Sportovní management / strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Most Wanted (mobile)",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rally Master Pro 3D",
+   "genre": "Závodní (rally)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fast & Furious: The Game",
+   "genre": "Závodní",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tiger Woods PGA Tour (mobile)",
+   "genre": "Sportovní (golf)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Space Invaders (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Asteroids (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Missile Command (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Galaga (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Centipede (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Terminator 3: War of the Machines",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Doom (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Alien Shooter (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Chicken Invaders (mobile)",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "pico-8": [
+  {
+   "name": "Jelpi",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Jasper's Journeys",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Chibi Knight",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Doko Roko",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Squareboy vs Bullies: Arena Edition",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Pico Kombat",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Hyperspace Dogfights",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Squidasteroids",
+   "genre": "Shmup",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Mokoshka",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": [
+    "homebrew"
+   ]
+  },
+  {
+   "name": "Ultra Business Tycoon III",
+   "genre": "Adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Adventures of Elena Temple",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
   }
  ]
 }
