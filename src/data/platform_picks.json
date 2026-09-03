@@ -922,49 +922,89 @@
  "java-mobil": [
   {
    "slug": "java-mobil__snake",
-   "why": "Byla přednastavená přímo v telefonech Nokia, takže se pro spoustu lidí stala vůbec první hrou na mobilu."
+   "why": "Nemusela se ani stahovat, protože byla součástí telefonu, a tak se stala prvním herním zážitkem naprosté většiny majitelů Nokie."
   },
   {
    "slug": "java-mobil__space-impact",
-   "why": "Ukázala, že i akční střílečka může fungovat na numerické klávesnici a miniaturním monochromatickém displeji."
+   "why": "Ukázala, že i monochromatický displej s pár tlačítky unese plynulou akci s postupem levelů a bossy na konci."
   },
   {
    "slug": "java-mobil__bounce",
-   "why": "Fyzikální hlavolamy s poskakující kuličkou ukázaly, že i telefonní hra může mít promyšlený level design."
+   "why": "Fyzika odrazů fungovala překvapivě přesně i na tehdejším procesoru, takže level design odměňoval trpělivost a přesnost."
   },
   {
    "slug": "java-mobil__tetris",
-   "why": "Univerzálně známé skládání kostek se na telefonu hrálo stejně dobře jako kdekoli jinde, ideální na pár minut čekání."
+   "why": "Skládání kostek nepotřebuje grafiku ani rychlé ovládání, a tak fungovalo na klávesnici stejně dobře jako kdekoli jinde."
+  },
+  {
+   "slug": "java-mobil__diamond-rush",
+   "why": "Gameloft s ní ukázal, že i tlačítkový telefon unese propracované levely s hádankami a únikovými sekvencemi."
   },
   {
    "slug": "java-mobil__doom-rpg",
-   "why": "Ukazuje, jak daleko se javové hry dostaly od Hada až po plnohodnotné tahové RPG s vlastním příběhem."
+   "why": "Tahový souboj bez nároků na rychlé reflexy obešel omezení klávesnice a dokázal, že i akční značka umí fungovat jako RPG."
+  },
+  {
+   "slug": "java-mobil__tower-bloxx",
+   "why": "Jediné tlačítko a přesný timing stačily k pocitu odměny, což z ní udělalo ideální hru na krátké chvíle čekání."
+  },
+  {
+   "slug": "java-mobil__final-fantasy-iv-after-years",
+   "why": "Velké jméno série na Javě dokazuje, jak vážně vydavatelé mobilní platformu brali navzdory jejím technickým omezením."
+  },
+  {
+   "slug": "java-mobil__space-invaders",
+   "why": "Přenos počítá jen s jedním tlačítkem navíc pro pohyb, a přesto si udržuje napětí z originálu z herny."
+  },
+  {
+   "slug": "java-mobil__orcs-and-elves-ii",
+   "why": "Vznikla přímo pro mobily, ne jako port, takže ovládání i tempo sednou na malý displej lépe než u konzolových adaptací."
+  },
+  {
+   "slug": "java-mobil__doom",
+   "why": "Legendární střílečka běžela na telefonu bez trojrozměrného hardwaru, což tehdy působilo jako malý technický zázrak."
   }
  ],
  "master-system": [
   {
-   "slug": "master-system__alex-kidd-in-miracle-world",
-   "why": "Sega ho stvořila jako vlastní tvář systému ještě předtím, než přišel Sonic, a definuje tak identitu tohoto stroje."
+   "slug": "master-system__wonder-boy-iii-dragon-s-trap",
+   "why": "Spojuje plošinovku, RPG prvky i proměny do zvířat tak elegantně, že dodnes patří mezi nejlépe hratelné tituly celé konzole."
   },
   {
    "slug": "master-system__phantasy-star",
-   "why": "Ukazuje, že osmibitová konzole zvládne rozsáhlé sci-fi RPG s vlastní hloubkou příběhu i světa, ne jen krátké arkádové odbočky."
+   "why": "Na osmibitovém stroji nabídla rozsah a ambice, jaké se v té době čekaly spíš od mnohem výkonnějších konzolí."
   },
   {
-   "slug": "master-system__golden-axe",
-   "why": "Kooperativní fantasy mlátička ukazuje, že Master System uměl i arkádovou akci pro dva hráče u jedné obrazovky."
+   "slug": "master-system__r-type",
+   "why": "Přenáší nemilosrdnou obtížnost a ikonický modul Force z arkádové předlohy beze ztráty tempa na domácí hardware."
   },
   {
-   "slug": "master-system__wonder-boy-iii-dragon-s-trap",
-   "why": "Spojuje plošinovku s průzkumem a RPG prvky způsobem, který obstál tak dobře, že si vysloužil moderní remake."
+   "slug": "master-system__golden-axe-warrior",
+   "why": "Navzdory názvu jde o jedno z nejpropracovanějších průzkumných dobrodružství na celé konzoli, blízké Zeldě."
   },
   {
    "slug": "master-system__out-run",
-   "why": "Domácí port slavné arkády dokazuje, že i osmibitový hardware dokázal přenést pocit rychlosti a volnosti silnice."
+   "why": "Definuje pocit arkádového závodění osmdesátek, i v domácí verzi zůstává symbolem stylu nad soutěživostí."
   },
   {
-   "slug": "master-system__space-harrier",
-   "why": "Přenáší na skromný hardware surrealistický 3D pocit letu arkádového originálu, který jinde byl technickým zázrakem."
+   "slug": "master-system__alex-kidd-in-miracle-world",
+   "why": "Byl prvním maskotem Segy a ukazuje, jak konzole hledala vlastní tvář ještě předtím, než přišel Sonic."
+  },
+  {
+   "slug": "master-system__golden-axe",
+   "why": "Přináší arkádovou fantasy mlátičku s výběrem postav v kompaktní, ale věrné domácí podobě."
+  },
+  {
+   "slug": "master-system__lemmings",
+   "why": "Jediné výrazné logické puzzle ve výběru dokazuje, že Master System uměl i pomalejší, přemýšlivé žánry."
+  },
+  {
+   "slug": "master-system__wonder-boy-in-monster-land",
+   "why": "Ukazuje, jak se čistě akční série Wonder Boy proměnila v propracovanější dobrodružství s RPG prvky."
+  },
+  {
+   "slug": "master-system__sonic-hedgehog",
+   "why": "I bez výkonu Mega Drivu dokázal tým vytvořit svěží level design specifický jen pro tuto verzi maskota."
   }
  ],
  "mega-cd": [
@@ -2216,49 +2256,93 @@
  "quest": [
   {
    "slug": "quest__beat-saber",
-   "why": "Nejpřístupnější vstup do VR vůbec – intuitivní ovládání zvládne kdokoli za pár minut a rychle se u toho zapotí i nehráč."
+   "why": "Nejznámější tvář platformy - první hra, kterou většina lidí zkusí hned po nasazení headsetu."
+  },
+  {
+   "slug": "quest__demeo",
+   "why": "Ukazuje, jak dobře se ve VR hraje společně kolem virtuálního stolu i na dálku s přáteli."
   },
   {
    "slug": "quest__superhot-vr",
-   "why": "Ukazuje, co VR umí jinak než hra na ploché obrazovce: mechanika plynutí času podle pohybu dává smysl teprve v prostoru kolem hráče."
+   "why": "Mechanika, kdy čas plyne jen s pohybem těla, dává smysl jedině ve VR, kde se skutečně uhýbá kulkám."
+  },
+  {
+   "slug": "quest__job-simulator",
+   "why": "Startovní titul, který nováčkům bez chuti na akci ukázal, co všechno se dá ve VR sebrat do ruky."
   },
   {
    "slug": "quest__resident-evil-4",
-   "why": "Dokazuje, že autonomní headset unese velkou konzolovou hru beze ztráty kvality, a pohled z první osoby dodává hororu úplně jiné napětí."
+   "why": "Dokazuje, že Quest uveze i velkou hru z konzolí - napětí zesílí, když zombie stojí přímo před vámi."
+  },
+  {
+   "slug": "quest__walkabout-mini-golf",
+   "why": "Sociální klasika platformy - hraje se skvěle sólo i na dálku s kamarády přímo v headsetu."
   },
   {
    "slug": "quest__asgard-s-wrath-2",
-   "why": "Ukazuje, jak daleko dnes zajde nativní VR RPG – desítky hodin obsahu, tři styly boje a rozsah srovnatelný s velkými konzolovými tituly."
+   "why": "Nejrozsáhlejší exkluzivní RPG na platformě - desítky hodin obsahu, jaké se do VR málokdy vejdou."
+  },
+  {
+   "slug": "quest__eye-of-temple",
+   "why": "Nejoriginálnější využití prostoru u hráče doma - žádné joysticky, jen skutečná chůze po místnosti."
+  },
+  {
+   "slug": "quest__red-matter-2",
+   "why": "Technicky nejambicióznější grafika na Questu, která ukazuje, kam až se dá dotáhnout mobilní VR hardware."
   }
  ],
  "saturn": [
   {
    "slug": "saturn__panzer-dragoon-saga",
-   "why": "Nejambicióznější RPG platformy: bitvy z Panzer Dragoon dostaly hloubku příběhu a soubojového systému, jaký jinde na Saturnu nenajdete."
+   "why": "Bitevní systém spojující tahovou strategii s pohybem po kolejnici ukazuje, jak originálně dokázala platforma pojmout žánr JRPG."
   },
   {
-   "slug": "saturn__nights-into-dreams",
-   "why": "Exkluzivní tvorba Sonic Teamu ukázala, že Saturn umí i jemný, snový pohyb – ne jen rychlé závody a bojovky."
-  },
-  {
-   "slug": "saturn__virtua-fighter-2",
-   "why": "Domácí verze arkádové bojovky, kvůli které si lidé kupovali Saturn především – 3D polygony, jaké tehdy nikdo jiný nenabídl."
-  },
-  {
-   "slug": "saturn__radiant-silvergun",
-   "why": "Shmup, který dlouho platil za nedostupnou legendu; ukazuje, proč byl Saturn rájem japonských arkádových přestřelek."
+   "slug": "saturn__daytona-usa",
+   "why": "Coby launchový titul definovala rychlost a arkádový pocit ze závodění, který měl Saturnu ukázat jeho grafické možnosti."
   },
   {
    "slug": "saturn__guardian-heroes",
-   "why": "Treasure spojili mlátičku s RPG prvky a větvením cest – žánrový hybrid, jaký na jiné platformě nenajdete."
+   "why": "Spojení mlátičky s propracovaným RPG vývojem postav a větvenými cestami předvádí nápaditost studia Treasure na tomto hardwaru."
+  },
+  {
+   "slug": "saturn__virtua-fighter-2",
+   "why": "Domácí verze arkádového hitu prokázala, že Saturn zvládá 3D bojovky s plynulostí, kterou konkurence tehdy nenabízela."
+  },
+  {
+   "slug": "saturn__nights-into-dreams",
+   "why": "Let vzdušnými sny bez padání a bez konce ukazuje jinou stránku hardwaru než závody či bojovky - čistou plynulost pohybu."
+  },
+  {
+   "slug": "saturn__shining-force-iii",
+   "why": "Taktické bitvy s hlubokým příběhem představují vrchol série, ke kterému se západní hráči kvůli chybějící lokalizaci dlouho nedostali."
+  },
+  {
+   "slug": "saturn__resident-evil",
+   "why": "Statická kamera a napjaté zásobování náboji ukazují, jak survival horor obstál i mimo svou domovskou platformu."
+  },
+  {
+   "slug": "saturn__sakura-taisen",
+   "why": "Propojení seznamovací simulace s bitvami mechanických kobu je jedním z nejosobitějších konceptů, jaké se na Saturnu objevily."
+  },
+  {
+   "slug": "saturn__radiant-silvergun",
+   "why": "Propracovaný systém kombinace zbraní a bodování udělal z této střílečky předmět uctívání mezi fanoušky žánru shmup."
   },
   {
    "slug": "saturn__dragon-force",
-   "why": "Strategie s armádami stovek jednotek na bojišti; jedinečný koncept, který se jinde na tehdejších konzolích neopakoval."
+   "why": "Bitvy stovek jednotek na obrazovce najednou dokazují, že Saturn dokázal strategii pojmout ve velkoleposti, jakou jinde nenajdete."
   },
   {
-   "slug": "saturn__sega-rally-championship",
-   "why": "Arkádové rally s citem pro povrch trati dokazuje, že Saturn zvládl i závody, ne jen bojovky a střílečky."
+   "slug": "saturn__rayman",
+   "why": "Ručně kreslená animace bezrukého hrdiny patří k vizuálně nejpůsobivějším plošinovkám, jaké se na konzoli objevily."
+  },
+  {
+   "slug": "saturn__nba-jam-tournament-edition",
+   "why": "Přehnané smeče a hra bez faulů ukazují, jak dobře si Saturn poradil s arkádovými porty sportovních her."
+  },
+  {
+   "slug": "saturn__baku-baku-animal",
+   "why": "Krmení zvířat místo řazení barev dodává klasickému puzzle konceptu překvapivě svěží a osobitý nápad."
   }
  ],
  "sega-32x": [
