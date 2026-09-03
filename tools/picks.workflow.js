@@ -31,6 +31,12 @@ PRAVIDLA VYBERU:
 - Poradi michej tak, aby hned za sebou nesly dve hry tehoz zanru.
 - Prednost maji tituly, ktere jsou pro platformu urcujici — bud protoze se na
   ni proslavily, nebo protoze ukazuji, co ten stroj umel.
+- Kdyz vstup obsahuje "zebricek", jsou to hry, ktere hraci dlouhodobe hodnoti
+  nejvys. Ber to jako silne voditko: takovy titul do vyberu patri, pokud proti
+  nemu nemluvi zanrova pestrost. Neni to ale prikaz a poradi zebricku
+  nekopiruj — zebricek nezna zanry ani to, co uz ve vyberu je.
+- Kdyz vstup obsahuje "uz_ve_vyberu", jsou to hry z drivejsiho vyberu.
+  Ponech je, pokud nemas dobry duvod nektarou nahradit, a doplnuj kolem nich.
 - U kapesnich konzoli a domacich pocitacu ber ohled i na to, co se na nich
   hraje dobre dnes.
 

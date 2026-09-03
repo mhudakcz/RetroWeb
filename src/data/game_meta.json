@@ -15534,6 +15534,10 @@
     "studio": "Ubisoft Montreal",
     "year": "2013"
   },
+  "wii-u__assault-android-cactus": {
+    "studio": "Witch Beam",
+    "year": "2016"
+  },
   "wii-u__batman-arkham-city-armored-edition": {
     "studio": "WB Games Montreal",
     "year": "2012"
@@ -15542,8 +15546,24 @@
     "studio": "PlatinumGames",
     "year": "2014"
   },
+  "wii-u__call-of-duty-black-ops-ii": {
+    "studio": "Treyarch",
+    "year": "2012"
+  },
+  "wii-u__call-of-duty-ghosts": {
+    "studio": "Infinity Ward",
+    "year": "2013"
+  },
   "wii-u__captain-toad-treasure-tracker": {
     "studio": "Nintendo EAD Tokyo",
+    "year": "2014"
+  },
+  "wii-u__cave": {
+    "studio": "Double Fine Productions",
+    "year": "2013"
+  },
+  "wii-u__costume-quest-2": {
+    "studio": "Double Fine Productions",
     "year": "2014"
   },
   "wii-u__darksiders-ii": {
@@ -15554,17 +15574,45 @@
     "studio": "Eidos-Montreal",
     "year": "2013"
   },
+  "wii-u__devil-s-third": {
+    "studio": "Valhalla Game Studios",
+    "year": "2015"
+  },
   "wii-u__donkey-kong-country-tropical-freeze": {
     "studio": "Retro Studios",
     "year": "2014"
+  },
+  "wii-u__ducktales-remastered": {
+    "studio": "WayForward Technologies",
+    "year": "2013"
+  },
+  "wii-u__fast-racing-neo": {
+    "studio": "Shin'en Multimedia",
+    "year": "2015"
   },
   "wii-u__fatal-frame-maiden-of-black-water": {
     "studio": "Koei Tecmo",
     "year": "2015"
   },
+  "wii-u__fifa-13": {
+    "studio": "EA Canada",
+    "year": "2012"
+  },
+  "wii-u__freedom-planet": {
+    "studio": "GalaxyTrail",
+    "year": "2016"
+  },
   "wii-u__game-and-wario": {
     "studio": "Intelligent Systems",
     "year": "2013"
+  },
+  "wii-u__guacamelee": {
+    "studio": "DrinkBox Studios",
+    "year": "2013"
+  },
+  "wii-u__guacamelee-super-turbo-championship-edition": {
+    "studio": "DrinkBox Studios",
+    "year": "2014"
   },
   "wii-u__hyrule-warriors": {
     "studio": "Omega Force",
@@ -15574,6 +15622,14 @@
     "studio": "NetherRealm Studios",
     "year": "2013"
   },
+  "wii-u__kirby-and-rainbow-curse": {
+    "studio": "HAL Laboratory",
+    "year": "2015"
+  },
+  "wii-u__legend-of-zelda-breath-of-wild": {
+    "studio": "Nintendo EPD",
+    "year": "2017"
+  },
   "wii-u__legend-of-zelda-twilight-princess-hd": {
     "studio": "Tantalus Media",
     "year": "2016"
@@ -15582,9 +15638,21 @@
     "studio": "Nintendo EAD",
     "year": "2013"
   },
+  "wii-u__lego-batman-3-beyond-gotham": {
+    "studio": "TT Games",
+    "year": "2014"
+  },
   "wii-u__lego-city-undercover": {
     "studio": "TT Fusion",
     "year": "2013"
+  },
+  "wii-u__lego-marvel-super-heroes": {
+    "studio": "TT Games",
+    "year": "2013"
+  },
+  "wii-u__little-inferno": {
+    "studio": "Tomorrow Corporation",
+    "year": "2012"
   },
   "wii-u__mario-kart-8": {
     "studio": "Nintendo EAD",
@@ -15594,13 +15662,49 @@
     "studio": "Nd Cube",
     "year": "2015"
   },
+  "wii-u__mario-tennis-ultra-smash": {
+    "studio": "Camelot Software Planning",
+    "year": "2015"
+  },
   "wii-u__mass-effect-3-special-edition": {
     "studio": "BioWare",
     "year": "2012"
   },
+  "wii-u__mercenary-kings": {
+    "studio": "Tribute Games",
+    "year": "2015"
+  },
+  "wii-u__metroid-prime-trilogy": {
+    "studio": "Retro Studios",
+    "year": "2015"
+  },
+  "wii-u__mighty-no-9": {
+    "studio": "Comcept / Inti Creates",
+    "year": "2016"
+  },
+  "wii-u__mighty-switch-force-hyper-drive-edition": {
+    "studio": "WayForward Technologies",
+    "year": "2013"
+  },
   "wii-u__monster-hunter-3-ultimate": {
     "studio": "Capcom",
     "year": "2013"
+  },
+  "wii-u__nano-assault-neo": {
+    "studio": "Shin'en Multimedia",
+    "year": "2013"
+  },
+  "wii-u__nba-2k13": {
+    "studio": "Visual Concepts",
+    "year": "2012"
+  },
+  "wii-u__nba-2k14": {
+    "studio": "Visual Concepts",
+    "year": "2013"
+  },
+  "wii-u__never-alone": {
+    "studio": "Upper One Games / E-Line Media",
+    "year": "2015"
   },
   "wii-u__new-super-mario-bros-u": {
     "studio": "Nintendo EAD",
@@ -15614,6 +15718,10 @@
     "studio": "Nintendo EAD",
     "year": "2012"
   },
+  "wii-u__paper-mario-color-splash": {
+    "studio": "Intelligent Systems",
+    "year": "2016"
+  },
   "wii-u__pikmin-3": {
     "studio": "Nintendo EAD",
     "year": "2013"
@@ -15626,9 +15734,21 @@
     "studio": "13AM Games",
     "year": "2015"
   },
+  "wii-u__scribblenauts-unlimited": {
+    "studio": "5th Cell",
+    "year": "2012"
+  },
+  "wii-u__shantae-and-pirate-s-curse": {
+    "studio": "WayForward Technologies",
+    "year": "2014"
+  },
   "wii-u__shovel-knight": {
     "studio": "Yacht Club Games",
     "year": "2014"
+  },
+  "wii-u__sonic-and-all-stars-racing-transformed": {
+    "studio": "Sumo Digital",
+    "year": "2012"
   },
   "wii-u__sonic-lost-world": {
     "studio": "Sonic Team",
@@ -15638,9 +15758,21 @@
     "studio": "Nintendo EAD",
     "year": "2015"
   },
+  "wii-u__sports-connection": {
+    "studio": "Ubisoft",
+    "year": "2012"
+  },
+  "wii-u__squids-odyssey": {
+    "studio": "The Game Bakers",
+    "year": "2013"
+  },
   "wii-u__star-fox-zero": {
     "studio": "PlatinumGames / Nintendo EPD",
     "year": "2016"
+  },
+  "wii-u__steel-empire": {
+    "studio": "Starfish-SD",
+    "year": "2015"
   },
   "wii-u__super-mario-3d-world": {
     "studio": "Nintendo EAD Tokyo",
@@ -15654,6 +15786,14 @@
     "studio": "Sora Ltd. / Bandai Namco Studios",
     "year": "2014"
   },
+  "wii-u__swapper": {
+    "studio": "Facepalm Games",
+    "year": "2014"
+  },
+  "wii-u__toki-tori-2": {
+    "studio": "Two Tribes",
+    "year": "2013"
+  },
   "wii-u__tokyo-mirage-sessions-fe": {
     "studio": "Atlus",
     "year": "2016"
@@ -15662,12 +15802,32 @@
     "studio": "Ubisoft Toronto",
     "year": "2013"
   },
+  "wii-u__trine-2-director-s-cut": {
+    "studio": "Frozenbyte",
+    "year": "2013"
+  },
+  "wii-u__watch-dogs": {
+    "studio": "Ubisoft Montreal",
+    "year": "2014"
+  },
+  "wii-u__wii-fit-u": {
+    "studio": "Nintendo",
+    "year": "2013"
+  },
   "wii-u__wii-party-u": {
     "studio": "Nd Cube",
     "year": "2013"
   },
+  "wii-u__wii-sports-club": {
+    "studio": "Nintendo",
+    "year": "2013"
+  },
   "wii-u__wonderful-101": {
     "studio": "PlatinumGames",
+    "year": "2013"
+  },
+  "wii-u__world-of-goo": {
+    "studio": "2D Boy",
     "year": "2013"
   },
   "wii-u__xenoblade-chronicles-x": {

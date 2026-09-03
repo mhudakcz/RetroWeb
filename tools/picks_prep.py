@@ -26,10 +26,31 @@ MIN_HER = 8          # pod tim se vyber nedela, seznam si ctenar projde cely
 MIN_LEN, MAX_LEN = 40, 220
 
 
+def _zebricek() -> dict:
+    """Slugy her, ktere externi zebricek radi mezi nejlepsi na platforme.
+
+    Bereme je jako voditko, ne jako hotovy vyber — zebricek nezna zanrovou
+    pestrost, kterou po agentovi chceme, a nektere tituly uz ve vyberu jsou.
+    """
+    if "--zebricek" not in sys.argv:
+        return {}
+    cesta = Path(sys.argv[sys.argv.index("--zebricek") + 1])
+    if not cesta.is_absolute():
+        cesta = ROOT / cesta
+    if not cesta.exists():
+        return {}
+    rep = json.loads(cesta.read_text("utf-8"))
+    out = {}
+    for slug, polozky in (rep.get("do_picku") or {}).items():
+        out[slug] = [{"slug": p[0], "name": p[1], "skore": p[2]} for p in polozky]
+    return out
+
+
 def prepare(work: Path, pocet: int) -> None:
     work.mkdir(parents=True, exist_ok=True)
     data = json.loads((ROOT / "src/data/dataset.json").read_text("utf-8"))
     hotovo = json.loads(OUT.read_text("utf-8")) if OUT.exists() else {}
+    zebricky = _zebricek()
 
     n = 0
     for p in data["platforms"]:
@@ -39,7 +60,8 @@ def prepare(work: Path, pocet: int) -> None:
             continue
         # bez --doplnit se hotove platformy preskakuji; s nim se znovu zpracuji ty,
         # kterym by dnes nalezelo vic titulu
-        if maji and not ("--doplnit" in sys.argv and maji < cil):
+        ma_zebricek = bool(zebricky.get(p["slug"]))
+        if maji and not ("--doplnit" in sys.argv and maji < cil) and not ma_zebricek:
             continue
         hry = [{
             "slug": g["slug"], "name": g["name"],
@@ -52,6 +74,10 @@ def prepare(work: Path, pocet: int) -> None:
         # projde cely, tam staci ctyri.
         payload = {"slug": p["slug"], "platform": p["name"], "rok": p["year"],
                    "pocet": min(pocet, max(4, len(hry) // 6)), "hry": hry}
+        if zebricky.get(p["slug"]):
+            payload["zebricek"] = zebricky[p["slug"]]
+        if hotovo.get(p["slug"]):
+            payload["uz_ve_vyberu"] = [x["slug"] for x in hotovo[p["slug"]]]
         with io.open(work / f"picks_{n:03d}.json", "w", encoding="utf-8", newline="\n") as fh:
             json.dump(payload, fh, ensure_ascii=False, indent=1)
         n += 1
