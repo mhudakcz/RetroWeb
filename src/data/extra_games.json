@@ -687,6 +687,18 @@
    "flags": [
     "homebrew"
    ]
+  },
+  {
+   "name": "Rockman & Forte",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Plok",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
   }
  ],
  "mega-drive": [
@@ -1015,6 +1027,38 @@
    "genre": "Beat 'em up",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "The Revenge of Shinobi",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Aerobiz Supersonic",
+   "genre": "Ekonomická strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Warsong",
+   "genre": "Tahová strategie (SRPG)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Rock n' Roll Racing",
+   "genre": "Závodní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Aerobiz",
+   "genre": "Ekonomická strategie",
+   "length": "L",
+   "flags": []
   }
  ],
  "nes": [
@@ -1342,6 +1386,106 @@
    "flags": [
     "homebrew"
    ]
+  },
+  {
+   "name": "Mike Tyson's Punch-Out!!",
+   "genre": "Sportovní hra (box)",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Double Dragon II: The Revenge",
+   "genre": "Akční mlátička (beat 'em up)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Crash 'n' the Boys: Street Challenge",
+   "genre": "Sportovní akční hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RoadBlasters",
+   "genre": "Akční závodní hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Baseball Stars II",
+   "genre": "Sportovní hra (baseball)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Town & Country Surf Designs: Thrilla's Surfari",
+   "genre": "Sportovní akční hra (surfing)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Fantastic Adventures of Dizzy",
+   "genre": "Akční adventura / plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Captain America and the Avengers",
+   "genre": "Akční mlátička",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Vegas Dream",
+   "genre": "Kasinová simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Code Name: Viper",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Little Nemo: The Dream Master",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Elevator Action",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Battle of Olympus",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Clash at Demonhead",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Super Dodge Ball",
+   "genre": "Sportovní hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "R.C. Pro-Am II",
+   "genre": "Závodní hra",
+   "length": "M",
+   "flags": []
   }
  ],
  "playstation": [
@@ -1909,6 +2053,38 @@
    "name": "Rage Racer",
    "genre": "Závodní",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lunar 2: Eternal Blue Complete",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Yu-Gi-Oh! Forbidden Memories",
+   "genre": "Karetní strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mega Man 8",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Brave Fencer Musashi",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pepsiman",
+   "genre": "Akční běh",
+   "length": "S",
    "flags": []
   }
  ],
@@ -2872,6 +3048,32 @@
    "flags": [
     "homebrew"
    ]
+  },
+  {
+   "name": "Miner 2049er Starring Bounty Bob",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Beamrider",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Vanguard",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Zaxxon",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "atari-7800": [
@@ -3077,6 +3279,12 @@
    "name": "Title Match Pro Wrestling",
    "genre": "Wrestling (sportovní zápas)",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Double Dragon",
+   "genre": "Mlátička (beat 'em up)",
+   "length": "M",
    "flags": []
   }
  ],
@@ -3958,6 +4166,28 @@
    "genre": "Fighting",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Raiden",
+   "genre": "Vertikální střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Brutal Sports Football",
+   "genre": "Sportovní akce",
+   "length": "S",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "NBA Jam: Tournament Edition",
+   "genre": "Sportovní arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "amiga-cd32": [
@@ -4731,6 +4961,38 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Phoenix",
+   "genre": "Vesmírná střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Barnstorming",
+   "genre": "Akční letecká hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Frogger",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Plaque Attack",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tennis",
+   "genre": "Sportovní hra (tenis)",
+   "length": "S",
+   "flags": []
   }
  ],
  "master-system": [
@@ -4985,6 +5247,18 @@
   {
    "name": "Tennis Ace",
    "genre": "Sportovní (tenis)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Lucky Dime Caper Starring Donald Duck",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Operation Wolf",
+   "genre": "Akční střílečka",
    "length": "S",
    "flags": []
   }
@@ -5576,6 +5850,34 @@
    "flags": [
     "puzzle"
    ]
+  },
+  {
+   "name": "Jungle Strike",
+   "genre": "Akční přestřelka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tumble Pop",
+   "genre": "Akční plošinovka s puzzle prvky",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "DuckTales",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Wario Blast Featuring Bomberman!",
+   "genre": "Akční puzzle",
+   "length": "S",
+   "flags": []
   }
  ],
  "game-gear": [
@@ -6395,6 +6697,26 @@
    "flags": [
     "mustplay"
    ]
+  },
+  {
+   "name": "Fire Emblem: The Binding Blade",
+   "genre": "Taktická RPG (SRPG)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "VeggieTales: LarryBoy and the Bad Apple",
+   "genre": "Rodinná plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pokemon Mystery Dungeon: Red Rescue Team",
+   "genre": "RPG s procedurálními dungeony (roguelike)",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "n64": [
@@ -6523,6 +6845,24 @@
    "genre": "Sim / RPG",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "007: The World Is Not Enough",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mega Man 64",
+   "genre": "Akční adventura (TPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bomberman Hero",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
   }
  ],
  "dreamcast": [
@@ -6605,6 +6945,36 @@
    "flags": [
     "homebrew"
    ]
+  },
+  {
+   "name": "Spider-Man",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six with Eagle Watch Missions",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NFL 2K1",
+   "genre": "Sportovní hra (americký fotbal)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six: Rogue Spear + Mission Pack - Urban Operations",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "NBA 2K1",
+   "genre": "Sportovní hra (basketbal)",
+   "length": "S",
+   "flags": []
   }
  ],
  "psp": [
@@ -6749,6 +7119,58 @@
    "genre": "survival horor",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "LEGO Batman: The Videogame",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Naruto Shippuden: Ultimate Ninja Impact",
+   "genre": "Akční bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: U.S. Navy SEALs - Fireteam Bravo",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: U.S. Navy SEALs - Fireteam Bravo 2",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei: Persona",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dragon Ball Z: Shin Budokai - Another Road",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Legend of Heroes, The: Trails in the Sky",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Kingdom Hearts: Birth by Sleep",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
   }
  ],
  "game-boy-color": [
@@ -7311,6 +7733,18 @@
    "genre": "Slovní rodinná hra",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Tomb Raider",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "007: The World Is Not Enough",
+   "genre": "Akční hra",
+   "length": "S",
+   "flags": []
   }
  ],
  "saturn": [
@@ -7589,6 +8023,24 @@
    "genre": "Shmup",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Dead or Alive",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Powerslave",
+   "genre": "Akční adventura (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Virtual On: Cyber Troopers",
+   "genre": "Akční bojová hra (mechy)",
+   "length": "S",
+   "flags": []
   }
  ],
  "nds": [
@@ -7847,6 +8299,44 @@
    "genre": "RPG",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Hotel Dusk: Room 215",
+   "genre": "Adventura (grafický román)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rhythm Heaven",
+   "genre": "Rytmická hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pokemon: Black Version",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Pokemon: Black Version 2",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Plants vs. Zombies",
+   "genre": "Tower defense / strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Professor Layton and the Diabolical Box",
+   "genre": "Logická adventura (hádanky)",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
   }
  ],
  "3ds": [
@@ -8072,6 +8562,38 @@
    "name": "Kirby: Planet Robobot",
    "genre": "Platformer",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pokemon Ultra Sun",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pokemon Ultra Moon",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter 3 Ultimate",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Tomodachi Life",
+   "genre": "Simulace života",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear Solid: Snake Eater 3D",
+   "genre": "Akční stealth",
+   "length": "L",
    "flags": []
   }
  ],
@@ -9384,6 +9906,34 @@
    "genre": "Sportovní arkáda",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Tales of the Abyss",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Legaia 2: Duel Saga",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Scarface: The World Is Yours",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Kingdom Hearts Re: Chain of Memories",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
   }
  ],
  "gamecube": [
@@ -9804,6 +10354,60 @@
    "name": "X-Men Legends II: Rise of Apocalypse",
    "genre": "akční RPG",
    "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lost Kingdoms II",
+   "genre": "Akční RPG s kartovým soubojovým systémem",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Jedi Knight II - Jedi Outcast",
+   "genre": "Akční střílečka z pohledu první i třetí osoby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Underground",
+   "genre": "Sportovní arkáda (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Riders",
+   "genre": "Závodní arkáda",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Baten Kaitos Origins",
+   "genre": "JRPG s kartovým soubojovým systémem",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Online Episode I & II Plus",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: The Return of the King",
+   "genre": "Akční hack'n'slash",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lost Kingdoms",
+   "genre": "Akční RPG s kartovým soubojovým systémem",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+   "genre": "Stealth akce",
+   "length": "M",
    "flags": []
   }
  ],
@@ -12301,6 +12905,68 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "LEGO Marvel Super Heroes",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell: Blacklist",
+   "genre": "Stealth akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Ball Z: Budokai HD Collection",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Drakengard 3",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": [
+    "mature"
+   ]
+  },
+  {
+   "name": "Armored Core: For Answer",
+   "genre": "Mechová akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Skylanders: Trap Team",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Disney-Pixar Toy Story 3",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "LittleBigPlanet 3",
+   "genre": "Plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Jak and Daxter Collection",
+   "genre": "Plošinovka (kompilace)",
+   "length": "L",
+   "flags": []
   }
  ],
  "ps4": [
@@ -23116,6 +23782,20 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "NBA Jam",
+   "genre": "Sportovní arkáda (basketbal)",
+   "length": "S",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Star Wars: Rebel Assault",
+   "genre": "Rail shooter / interaktivní film",
+   "length": "M",
+   "flags": []
   }
  ],
  "ngpc": [
@@ -24719,6 +25399,18 @@
    "genre": "Plošinovka",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "NBA Jam: Tournament Edition",
+   "genre": "Sportovní arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Stellar Assault",
+   "genre": "Vesmírná střílečka",
+   "length": "S",
+   "flags": []
   }
  ],
  "sg-1000": [
@@ -26162,6 +26854,42 @@
    "flags": [
     "mature"
    ]
+  },
+  {
+   "name": "Rhythm Heaven Fever",
+   "genre": "Rytmická hra",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Zack & Wiki: Quest for Barbaros' Treasure",
+   "genre": "Adventura s hádankami",
+   "length": "M",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+   "genre": "Bojová aréna",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Last Story",
+   "genre": "Akční JRPG",
+   "length": "L",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "LEGO Pirates of the Caribbean: The Video Game",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
   }
  ],
  "wonderswan": [
@@ -32592,6 +33320,20 @@
   {
    "name": "The Adventures of Elena Temple",
    "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  }
+ ],
+ "atari-lynx": [
+  {
+   "name": "Rampage",
+   "genre": "Akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ninja Gaiden",
+   "genre": "Akční mlátička",
    "length": "S",
    "flags": []
   }

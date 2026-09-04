@@ -170,8 +170,16 @@
     "studio": "Bandai Namco Entertainment",
     "year": "2017"
   },
+  "3ds__metal-gear-solid-snake-eater-3d": {
+    "studio": "Kojima Productions",
+    "year": "2012"
+  },
   "3ds__metroid-samus-returns": {
     "year": "2017"
+  },
+  "3ds__monster-hunter-3-ultimate": {
+    "studio": "Capcom",
+    "year": "2013"
   },
   "3ds__monster-hunter-4-ultimate": {
     "year": "2014"
@@ -192,6 +200,14 @@
   },
   "3ds__pokemon-sun-moon": {
     "year": "2016"
+  },
+  "3ds__pokemon-ultra-moon": {
+    "studio": "Game Freak",
+    "year": "2017"
+  },
+  "3ds__pokemon-ultra-sun": {
+    "studio": "Game Freak",
+    "year": "2017"
   },
   "3ds__pokemon-x-y": {
     "year": "2013"
@@ -228,6 +244,10 @@
   "3ds__tekken-3d-prime-edition": {
     "studio": "Arika",
     "year": "2012"
+  },
+  "3ds__tomodachi-life": {
+    "studio": "Nintendo",
+    "year": "2014"
   },
   "3ds__yoshi-s-new-island": {
     "studio": "Arzest",
@@ -705,6 +725,10 @@
   "atari-2600__asteroids": {
     "year": "1981"
   },
+  "atari-2600__barnstorming": {
+    "studio": "Activision",
+    "year": "1982"
+  },
   "atari-2600__beamrider": {
     "studio": "Activision",
     "year": "1983"
@@ -754,6 +778,10 @@
   },
   "atari-2600__escape-from-mindmaster": {
     "studio": "Starpath",
+    "year": "1982"
+  },
+  "atari-2600__frogger": {
+    "studio": "Parker Brothers",
     "year": "1982"
   },
   "atari-2600__grand-prix": {
@@ -811,6 +839,10 @@
     "studio": "Atari, Inc.",
     "year": "1981"
   },
+  "atari-2600__phoenix": {
+    "studio": "Atari",
+    "year": "1983"
+  },
   "atari-2600__pitfall-ii-lost-caverns": {
     "year": "1984"
   },
@@ -821,6 +853,10 @@
   "atari-2600__pitstop-ii": {
     "studio": "Activision",
     "year": "1984"
+  },
+  "atari-2600__plaque-attack": {
+    "studio": "Activision",
+    "year": "1983"
   },
   "atari-2600__pole-position": {
     "studio": "Atari, Inc.",
@@ -878,6 +914,10 @@
     "studio": "20th Century Fox Games",
     "year": "1983"
   },
+  "atari-2600__tennis": {
+    "studio": "Activision",
+    "year": "1981"
+  },
   "atari-5200__activision-decathlon": {
     "studio": "Activision",
     "year": "1984"
@@ -885,6 +925,10 @@
   "atari-5200__ballblazer": {
     "studio": "Lucasfilm Games",
     "year": "1986"
+  },
+  "atari-5200__beamrider": {
+    "studio": "Activision",
+    "year": "1984"
   },
   "atari-5200__berzerk": {
     "studio": "Atari (port)",
@@ -939,6 +983,10 @@
   },
   "atari-5200__kangaroo": {
     "studio": "Atari (port)",
+    "year": "1983"
+  },
+  "atari-5200__miner-2049er-starring-bounty-bob": {
+    "studio": "Big Five Software",
     "year": "1983"
   },
   "atari-5200__missile-command": {
@@ -1015,6 +1063,14 @@
     "studio": "Atari, Inc.",
     "year": "1983"
   },
+  "atari-5200__vanguard": {
+    "studio": "Atari",
+    "year": "1982"
+  },
+  "atari-5200__zaxxon": {
+    "studio": "Sega",
+    "year": "1982"
+  },
   "atari-7800__alien-brigade": {
     "studio": "Atari Corporation",
     "year": "1988"
@@ -1053,6 +1109,10 @@
   },
   "atari-7800__dig-dug": {
     "year": "1986"
+  },
+  "atari-7800__double-dragon": {
+    "studio": "Activision",
+    "year": "1989"
   },
   "atari-7800__fatal-run": {
     "studio": "Atari Corporation",
@@ -1433,6 +1493,14 @@
   },
   "atari-lynx__hydra": {
     "year": "1991"
+  },
+  "atari-lynx__ninja-gaiden": {
+    "studio": "Bethesda Softworks",
+    "year": "1991"
+  },
+  "atari-lynx__rampage": {
+    "studio": "Bethesda Softworks",
+    "year": "1990"
   },
   "atari-lynx__scrapyard-dog": {
     "year": "1990"
@@ -2218,6 +2286,14 @@
   "dreamcast__mr-driller": {
     "year": "2000"
   },
+  "dreamcast__nba-2k1": {
+    "studio": "Visual Concepts",
+    "year": "2000"
+  },
+  "dreamcast__nfl-2k1": {
+    "studio": "Visual Concepts",
+    "year": "2000"
+  },
   "dreamcast__phantasy-star-online": {
     "year": "2000"
   },
@@ -2245,7 +2321,19 @@
   "dreamcast__sonic-adventure-2": {
     "year": "2001"
   },
+  "dreamcast__spider-man": {
+    "studio": "Neversoft",
+    "year": "2000"
+  },
   "dreamcast__sword-of-berserk-guts-rage": {
+    "year": "2000"
+  },
+  "dreamcast__tom-clancy-s-rainbow-six-rogue-spear-mission-pack-urban-operations": {
+    "studio": "Red Storm Entertainment",
+    "year": "2000"
+  },
+  "dreamcast__tom-clancy-s-rainbow-six-with-eagle-watch-missions": {
+    "studio": "Red Storm Entertainment",
     "year": "2000"
   },
   "dreamcast__toy-commander": {
@@ -2397,6 +2485,10 @@
   "game-boy-advance__final-fantasy-tactics-advance": {},
   "game-boy-advance__final-fantasy-vi-advance": {},
   "game-boy-advance__fire-emblem": {},
+  "game-boy-advance__fire-emblem-binding-blade": {
+    "studio": "Intelligent Systems",
+    "year": "2002"
+  },
   "game-boy-advance__fire-emblem-sacred-stones": {
     "studio": "Intelligent Systems",
     "year": "2004"
@@ -2526,6 +2618,10 @@
   },
   "game-boy-advance__ninja-five-o": {},
   "game-boy-advance__pokemon-firered-leafgreen": {},
+  "game-boy-advance__pokemon-mystery-dungeon-red-rescue-team": {
+    "studio": "Chunsoft",
+    "year": "2005"
+  },
   "game-boy-advance__pokemon-ruby-sapphire-emerald": {},
   "game-boy-advance__polarium-advance": {
     "studio": "Mitchell Corporation",
@@ -2695,6 +2791,9 @@
     "studio": "Eden Games",
     "year": "2002"
   },
+  "game-boy-advance__veggietales-larryboy-and-bad-apple": {
+    "year": "2006"
+  },
   "game-boy-advance__wario-land-4": {},
   "game-boy-advance__warioware-inc-mega-microgame": {},
   "game-boy-advance__warioware-inc-mega-microgames": {
@@ -2723,6 +2822,9 @@
   "game-boy-advance__zoo-keeper": {
     "studio": "Success",
     "year": "2003"
+  },
+  "game-boy-color__007-world-is-not-enough": {
+    "year": "2000"
   },
   "game-boy-color__aliens-thanatos-encounter": {
     "studio": "HotGen",
@@ -3089,6 +3191,10 @@
     "year": "2001"
   },
   "game-boy-color__toki-tori": {},
+  "game-boy-color__tomb-raider": {
+    "studio": "Rage Software",
+    "year": "2000"
+  },
   "game-boy-color__tony-hawk-s-pro-skater": {
     "studio": "Vicarious Visions",
     "year": "2000"
@@ -3261,6 +3367,10 @@
     "year": "1991"
   },
   "game-boy__dragon-slayer-faria": {},
+  "game-boy__ducktales": {
+    "studio": "Capcom",
+    "year": "1990"
+  },
   "game-boy__elevator-action": {
     "studio": "Taito",
     "year": "1990"
@@ -3311,6 +3421,10 @@
   "game-boy__ivan-ironman-stewart-s-super-off-road": {
     "studio": "Tradewest",
     "year": "1990"
+  },
+  "game-boy__jungle-strike": {
+    "studio": "Ocean of America",
+    "year": "1994"
   },
   "game-boy__kid-dracula": {},
   "game-boy__kid-icarus-of-myths-and-monsters": {
@@ -3478,6 +3592,10 @@
     "year": "2019"
   },
   "game-boy__trip-world": {},
+  "game-boy__tumble-pop": {
+    "studio": "Data East",
+    "year": "1991"
+  },
   "game-boy__turrican": {
     "studio": "Rainbow Arts",
     "year": "1991"
@@ -3489,6 +3607,10 @@
   "game-boy__ultima-runes-of-virtue-ii": {
     "studio": "Origin Systems / Infinity Interactive",
     "year": "1993"
+  },
+  "game-boy__wario-blast-featuring-bomberman": {
+    "studio": "Hudson Soft",
+    "year": "1994"
   },
   "game-boy__wario-land-ii": {
     "studio": "Nintendo R&D1",
@@ -3623,6 +3745,10 @@
     "studio": "Monolith Soft",
     "year": "2003"
   },
+  "gamecube__baten-kaitos-origins": {
+    "studio": "tri-Crescendo / Monolith Soft",
+    "year": "2006"
+  },
   "gamecube__beyond-good-and-evil": {
     "studio": "Ubisoft",
     "year": "2003"
@@ -3695,6 +3821,18 @@
     "studio": "Nintendo EAD",
     "year": "2002"
   },
+  "gamecube__lord-of-rings-return-of-king": {
+    "studio": "EA Redwood Shores",
+    "year": "2003"
+  },
+  "gamecube__lost-kingdoms": {
+    "studio": "FromSoftware",
+    "year": "2002"
+  },
+  "gamecube__lost-kingdoms-ii": {
+    "studio": "FromSoftware",
+    "year": "2003"
+  },
   "gamecube__luigi-s-mansion": {
     "studio": "Nintendo EAD",
     "year": "2001"
@@ -3747,6 +3885,10 @@
     "studio": "Intelligent Systems",
     "year": "2004"
   },
+  "gamecube__phantasy-star-online-episode-i-and-ii-plus": {
+    "studio": "Sonic Team",
+    "year": "2003"
+  },
   "gamecube__pikmin": {
     "studio": "Nintendo EAD",
     "year": "2001"
@@ -3791,6 +3933,10 @@
     "studio": "Sonic Team",
     "year": "2004"
   },
+  "gamecube__sonic-riders": {
+    "studio": "Sonic Team",
+    "year": "2006"
+  },
   "gamecube__soulcalibur-ii": {
     "studio": "Namco",
     "year": "2003"
@@ -3810,6 +3956,10 @@
   "gamecube__star-fox-assault": {
     "studio": "Namco",
     "year": "2005"
+  },
+  "gamecube__star-wars-jedi-knight-ii-jedi-outcast": {
+    "studio": "Raven Software",
+    "year": "2003"
   },
   "gamecube__star-wars-rogue-squadron-ii-rogue-leader": {
     "studio": "Factor 5",
@@ -3850,6 +4000,14 @@
   "gamecube__timesplitters-future-perfect": {
     "studio": "Free Radical Design",
     "year": "2005"
+  },
+  "gamecube__tom-clancy-s-splinter-cell-pandora-tomorrow": {
+    "studio": "Ubisoft",
+    "year": "2004"
+  },
+  "gamecube__tony-hawk-s-underground": {
+    "studio": "Neversoft",
+    "year": "2003"
   },
   "gamecube__viewtiful-joe": {
     "studio": "Clover Studio",
@@ -3910,6 +4068,10 @@
   "jaguar__atari-karts": {
     "year": "1995"
   },
+  "jaguar__brutal-sports-football": {
+    "studio": "Krisalis Software",
+    "year": "1994"
+  },
   "jaguar__cybermorph": {
     "year": "1993"
   },
@@ -3921,6 +4083,14 @@
   },
   "jaguar__iron-soldier": {
     "year": "1994"
+  },
+  "jaguar__nba-jam-tournament-edition": {
+    "studio": "Midway",
+    "year": "1995"
+  },
+  "jaguar__raiden": {
+    "studio": "Seibu Kaihatsu",
+    "year": "1995"
   },
   "jaguar__rayman": {
     "year": "1995"
@@ -4308,6 +4478,10 @@
     "studio": "DMA Design",
     "year": "1991"
   },
+  "master-system__lucky-dime-caper-starring-donald-duck": {
+    "studio": "Sega",
+    "year": "1990"
+  },
   "master-system__master-of-darkness": {
     "studio": "SIMS Co., Ltd.",
     "year": "1992"
@@ -4327,6 +4501,10 @@
   "master-system__olympic-gold": {
     "studio": "Sega",
     "year": "1992"
+  },
+  "master-system__operation-wolf": {
+    "studio": "Taito",
+    "year": "1989"
   },
   "master-system__out-run": {
     "year": "1991"
@@ -4450,6 +4628,10 @@
     "studio": "Game Arts / Studio Alex",
     "year": "1992"
   },
+  "mega-cd__nba-jam": {
+    "studio": "Acclaim Entertainment",
+    "year": "1994"
+  },
   "mega-cd__night-trap": {
     "studio": "Digital Pictures",
     "year": "1992"
@@ -4502,6 +4684,10 @@
     "studio": "Core Design",
     "year": "1994"
   },
+  "mega-cd__star-wars-rebel-assault": {
+    "studio": "LucasArts",
+    "year": "1994"
+  },
   "mega-cd__thunderhawk": {
     "studio": "Core Design",
     "year": "1993"
@@ -4516,6 +4702,14 @@
   "mega-drive__adventures-of-batman-and-robin": {
     "studio": "Konami",
     "year": "1994"
+  },
+  "mega-drive__aerobiz": {
+    "studio": "Koei",
+    "year": "1991"
+  },
+  "mega-drive__aerobiz-supersonic": {
+    "studio": "Koei",
+    "year": "1993"
   },
   "mega-drive__aladdin": {},
   "mega-drive__alien-soldier": {},
@@ -4659,6 +4853,10 @@
     "year": "1991"
   },
   "mega-drive__ranger-x": {},
+  "mega-drive__revenge-of-shinobi": {
+    "studio": "Sega",
+    "year": "1989"
+  },
   "mega-drive__ristar": {},
   "mega-drive__road-rash": {
     "year": "1991"
@@ -4669,6 +4867,10 @@
   },
   "mega-drive__road-rash-ii": {
     "studio": "Electronic Arts",
+    "year": "1993"
+  },
+  "mega-drive__rock-n-roll-racing": {
+    "studio": "Silicon & Synapse",
     "year": "1993"
   },
   "mega-drive__rocket-knight-adventures": {},
@@ -4759,6 +4961,10 @@
   },
   "mega-drive__virtua-racing": {
     "year": "1994"
+  },
+  "mega-drive__warsong": {
+    "studio": "NCS",
+    "year": "1991"
   },
   "mega-drive__wiz-n-liz": {
     "studio": "Bizarre Creations",
@@ -6086,6 +6292,10 @@
     "studio": "Compile",
     "year": "1986"
   },
+  "n64__007-world-is-not-enough": {
+    "studio": "Eurocom",
+    "year": "2000"
+  },
   "n64__1080-snowboarding": {
     "year": "1998"
   },
@@ -6100,6 +6310,10 @@
   },
   "n64__bomberman-64": {
     "year": "1997"
+  },
+  "n64__bomberman-hero": {
+    "studio": "Hudson Soft",
+    "year": "1998"
   },
   "n64__command-and-conquer": {
     "year": "1999"
@@ -6144,6 +6358,10 @@
     "year": "2000"
   },
   "n64__mario-tennis": {
+    "year": "2000"
+  },
+  "n64__mega-man-64": {
+    "studio": "Capcom",
     "year": "2000"
   },
   "n64__mischief-makers": {
@@ -6257,6 +6475,10 @@
   "nds__grand-theft-auto-chinatown-wars": {
     "year": "2009"
   },
+  "nds__hotel-dusk-room-215": {
+    "studio": "Cing",
+    "year": "2007"
+  },
   "nds__jump-ultimate-stars": {
     "studio": "Ganbarion",
     "year": "2006"
@@ -6315,6 +6537,18 @@
     "studio": "Capcom",
     "year": "2001"
   },
+  "nds__plants-vs-zombies": {
+    "studio": "PopCap Games",
+    "year": "2010"
+  },
+  "nds__pokemon-black-version": {
+    "studio": "Game Freak",
+    "year": "2011"
+  },
+  "nds__pokemon-black-version-2": {
+    "studio": "Game Freak",
+    "year": "2012"
+  },
   "nds__pokemon-diamond-pearl": {
     "year": "2006"
   },
@@ -6327,6 +6561,14 @@
   "nds__professor-layton-and-curious-village": {
     "studio": "Level-5",
     "year": "2007"
+  },
+  "nds__professor-layton-and-diabolical-box": {
+    "studio": "Level-5",
+    "year": "2009"
+  },
+  "nds__rhythm-heaven": {
+    "studio": "Nintendo SPD / iNiS",
+    "year": "2009"
   },
   "nds__scribblenauts": {
     "studio": "5th Cell",
@@ -6453,6 +6695,14 @@
     "studio": "Elden Pixels",
     "year": "2020"
   },
+  "nes__baseball-stars-ii": {
+    "studio": "SNK",
+    "year": "1992"
+  },
+  "nes__battle-of-olympus": {
+    "studio": "Infinity",
+    "year": "1989"
+  },
   "nes__battletoads": {},
   "nes__bionic-commando": {
     "year": "1988"
@@ -6472,6 +6722,10 @@
     "studio": "Data East",
     "year": "1982"
   },
+  "nes__captain-america-and-avengers": {
+    "studio": "Data East",
+    "year": "1991"
+  },
   "nes__castlevania": {},
   "nes__castlevania-ii-simon-s-quest": {
     "studio": "Konami",
@@ -6482,11 +6736,23 @@
     "year": "1989"
   },
   "nes__chip-n-dale-rescue-rangers": {},
+  "nes__clash-at-demonhead": {
+    "studio": "Vic Tokai",
+    "year": "1989"
+  },
   "nes__cobra-triangle": {
     "studio": "Rare Ltd.",
     "year": "1989"
   },
+  "nes__code-name-viper": {
+    "studio": "Capcom",
+    "year": "1990"
+  },
   "nes__contra": {},
+  "nes__crash-n-boys-street-challenge": {
+    "studio": "Technos",
+    "year": "1992"
+  },
   "nes__crystalis": {},
   "nes__curse-of-possum-hollow": {},
   "nes__days-of-thunder": {
@@ -6494,6 +6760,10 @@
   },
   "nes__double-dragon": {
     "year": "1988"
+  },
+  "nes__double-dragon-ii-revenge": {
+    "studio": "Technos Japan",
+    "year": "1990"
   },
   "nes__dr-mario": {
     "studio": "Nintendo Research & Development 1",
@@ -6504,12 +6774,20 @@
   },
   "nes__dragon-warrior-iii-iv": {},
   "nes__ducktales": {},
+  "nes__elevator-action": {
+    "studio": "Taito",
+    "year": "1987"
+  },
   "nes__excitebike": {
     "year": "1984"
   },
   "nes__famidash": {
     "studio": "kandowontu / tfdsoft",
     "year": "2024"
+  },
+  "nes__fantastic-adventures-of-dizzy": {
+    "studio": "Codemasters",
+    "year": "1991"
   },
   "nes__faxanadu": {
     "year": "1987"
@@ -6541,6 +6819,10 @@
   "nes__life-force": {
     "studio": "Konami",
     "year": "1988"
+  },
+  "nes__little-nemo-dream-master": {
+    "studio": "Capcom",
+    "year": "1990"
   },
   "nes__little-samson": {},
   "nes__lizard": {
@@ -6580,6 +6862,10 @@
     "studio": "Capcom",
     "year": "1993"
   },
+  "nes__mike-tyson-s-punch-out": {
+    "studio": "Nintendo R&D3",
+    "year": "1987"
+  },
   "nes__nebs-n-debs": {},
   "nes__ninja-gaiden": {},
   "nes__ninja-gaiden-ii-dark-sword-of-chaos": {
@@ -6600,6 +6886,10 @@
   "nes__r-c-pro-am": {
     "year": "1988"
   },
+  "nes__r-c-pro-am-ii": {
+    "studio": "Rare",
+    "year": "1992"
+  },
   "nes__rad-racer": {
     "year": "1987"
   },
@@ -6609,6 +6899,10 @@
   },
   "nes__recca-summer-carnival-92": {},
   "nes__river-city-ransom": {},
+  "nes__roadblasters": {
+    "studio": "Mindscape",
+    "year": "1990"
+  },
   "nes__romance-of-three-kingdoms": {
     "year": "1988"
   },
@@ -6624,6 +6918,10 @@
   "nes__startropics": {},
   "nes__super-c": {
     "year": "1990"
+  },
+  "nes__super-dodge-ball": {
+    "studio": "Technos Japan",
+    "year": "1989"
   },
   "nes__super-mario-bros": {},
   "nes__super-mario-bros-3": {},
@@ -6642,12 +6940,20 @@
     "studio": "Alexey Pajitnov",
     "year": "1984"
   },
+  "nes__town-and-country-surf-designs-thrilla-s-surfari": {
+    "studio": "Kemco",
+    "year": "1989"
+  },
   "nes__track-and-field": {
     "year": "1985"
   },
   "nes__twin-dragons": {
     "studio": "Broke Studio",
     "year": "2019"
+  },
+  "nes__vegas-dream": {
+    "studio": "American Sammy",
+    "year": "1990"
   },
   "nes__wario-s-woods": {
     "studio": "Nintendo Research & Development 1",
@@ -9936,6 +10242,10 @@
     "studio": "Eighting",
     "year": "1999"
   },
+  "playstation__brave-fencer-musashi": {
+    "studio": "Square",
+    "year": "1998"
+  },
   "playstation__breath-of-fire-iii": {
     "studio": "Capcom",
     "year": "1997"
@@ -10077,6 +10387,10 @@
   "playstation__lego-stunt-rally": {
     "year": "2000"
   },
+  "playstation__lunar-2-eternal-blue-complete": {
+    "studio": "Game Arts",
+    "year": "1999"
+  },
   "playstation__lunar-silver-star-story-complete": {
     "studio": "Game Arts",
     "year": "1999"
@@ -10090,6 +10404,10 @@
   "playstation__medievil-2": {
     "studio": "SCE Cambridge Studio",
     "year": "2000"
+  },
+  "playstation__mega-man-8": {
+    "studio": "Capcom",
+    "year": "1997"
   },
   "playstation__mega-man-legends": {
     "year": "1997"
@@ -10121,6 +10439,10 @@
   },
   "playstation__parasite-eve": {
     "year": "1998"
+  },
+  "playstation__pepsiman": {
+    "studio": "KID",
+    "year": "1999"
   },
   "playstation__persona": {
     "studio": "Atlus",
@@ -10298,6 +10620,10 @@
   "playstation__wwf-smackdown": {
     "studio": "Yuke's",
     "year": "2000"
+  },
+  "playstation__yu-gi-oh-forbidden-memories": {
+    "studio": "Konami",
+    "year": "2002"
   },
   "ps-vita__amnesia-memories": {
     "studio": "Idea Factory / Otomate",
@@ -11095,6 +11421,10 @@
     "studio": "Square Enix",
     "year": "2005"
   },
+  "ps2__kingdom-hearts-re-chain-of-memories": {
+    "studio": "Jupiter",
+    "year": "2008"
+  },
   "ps2__klonoa-2-lunatea-s-veil": {
     "studio": "Namco",
     "year": "2001"
@@ -11106,6 +11436,10 @@
   "ps2__legacy-of-kain-defiance": {
     "studio": "Crystal Dynamics",
     "year": "2003"
+  },
+  "ps2__legaia-2-duel-saga": {
+    "studio": "Contrail",
+    "year": "2002"
   },
   "ps2__manhunt": {
     "studio": "Rockstar North",
@@ -11287,6 +11621,10 @@
     "studio": "Level-5",
     "year": "2005"
   },
+  "ps2__scarface-world-is-yours": {
+    "studio": "Radical Entertainment",
+    "year": "2006"
+  },
   "ps2__secret-weapons-over-normandy": {
     "studio": "Totally Games / LucasArts",
     "year": "2003"
@@ -11411,6 +11749,10 @@
     "studio": "Konami",
     "year": "2004"
   },
+  "ps2__tales-of-abyss": {
+    "studio": "Namco Tales Studio",
+    "year": "2005"
+  },
   "ps2__tekken-4": {
     "studio": "Namco",
     "year": "2002"
@@ -11522,6 +11864,10 @@
   "ps3__armored-core-4": {
     "studio": "FromSoftware",
     "year": "2006"
+  },
+  "ps3__armored-core-for-answer": {
+    "studio": "FromSoftware",
+    "year": "2008"
   },
   "ps3__armored-core-v": {
     "studio": "FromSoftware",
@@ -11707,6 +12053,10 @@
     "studio": "Nippon Ichi Software",
     "year": "2011"
   },
+  "ps3__disney-pixar-toy-story-3": {
+    "studio": "Avalanche Software",
+    "year": "2010"
+  },
   "ps3__divinity-ii-dragon-knight-saga": {
     "studio": "Larian Studios",
     "year": "2010"
@@ -11719,6 +12069,10 @@
     "studio": "BioWare",
     "year": "2009"
   },
+  "ps3__dragon-ball-z-budokai-hd-collection": {
+    "studio": "Artdink",
+    "year": "2012"
+  },
   "ps3__dragon-s-crown": {
     "studio": "Vanillaware",
     "year": "2013"
@@ -11726,6 +12080,10 @@
   "ps3__dragon-s-dogma": {
     "studio": "Capcom",
     "year": "2012"
+  },
+  "ps3__drakengard-3": {
+    "studio": "Access Games",
+    "year": "2014"
   },
   "ps3__echochrome": {
     "studio": "SCE Japan Studio",
@@ -11851,6 +12209,10 @@
     "studio": "Sucker Punch Productions",
     "year": "2011"
   },
+  "ps3__jak-and-daxter-collection": {
+    "studio": "Mass Media Inc.",
+    "year": "2012"
+  },
   "ps3__journey": {
     "studio": "Thatgamecompany",
     "year": "2012"
@@ -11883,6 +12245,10 @@
     "studio": "Naughty Dog",
     "year": "2013"
   },
+  "ps3__lego-marvel-super-heroes": {
+    "studio": "Traveller's Tales",
+    "year": "2013"
+  },
   "ps3__limbo": {
     "studio": "Playdead",
     "year": "2011"
@@ -11894,6 +12260,10 @@
   "ps3__littlebigplanet-2": {
     "studio": "Media Molecule",
     "year": "2011"
+  },
+  "ps3__littlebigplanet-3": {
+    "studio": "Sumo Digital",
+    "year": "2014"
   },
   "ps3__lost-planet-extreme-condition-colonies-edition": {
     "studio": "Capcom",
@@ -11954,6 +12324,10 @@
   "ps3__motorstorm-pacific-rift": {
     "studio": "Evolution Studios",
     "year": "2008"
+  },
+  "ps3__naruto-shippuden-ultimate-ninja-storm-3-full-burst": {
+    "studio": "CyberConnect2",
+    "year": "2013"
   },
   "ps3__nba-2k11": {
     "studio": "Visual Concepts",
@@ -12127,6 +12501,10 @@
     "studio": "EA Black Box",
     "year": "2010"
   },
+  "ps3__skylanders-trap-team": {
+    "studio": "Toys for Bob",
+    "year": "2014"
+  },
   "ps3__sleeping-dogs": {
     "studio": "United Front Games",
     "year": "2012"
@@ -12206,6 +12584,10 @@
   "ps3__tom-clancy-s-rainbow-six-vegas": {
     "studio": "Ubisoft Montreal",
     "year": "2007"
+  },
+  "ps3__tom-clancy-s-splinter-cell-blacklist": {
+    "studio": "Ubisoft Toronto",
+    "year": "2013"
   },
   "ps3__tomb-raider": {
     "studio": "Crystal Dynamics",
@@ -13571,6 +13953,10 @@
   "psp__dissidia-final-fantasy-012": {
     "year": "2008"
   },
+  "psp__dragon-ball-z-shin-budokai-another-road": {
+    "studio": "Dimps",
+    "year": "2007"
+  },
   "psp__echochrome": {
     "studio": "SCE Japan Studio",
     "year": "2008"
@@ -13616,6 +14002,18 @@
   "psp__killzone-liberation": {
     "year": "2006"
   },
+  "psp__kingdom-hearts-birth-by-sleep": {
+    "studio": "Square Enix",
+    "year": "2010"
+  },
+  "psp__legend-of-heroes-trails-in-sky": {
+    "studio": "Nihon Falcom",
+    "year": "2006"
+  },
+  "psp__lego-batman-videogame": {
+    "studio": "Traveller's Tales",
+    "year": "2008"
+  },
   "psp__littlebigplanet": {
     "studio": "SCE Cambridge Studio",
     "year": "2009"
@@ -13637,6 +14035,10 @@
   },
   "psp__metal-gear-solid-portable-ops": {
     "year": "2006"
+  },
+  "psp__naruto-shippuden-ultimate-ninja-impact": {
+    "studio": "CyberConnect2",
+    "year": "2011"
   },
   "psp__patapon": {
     "year": "2007"
@@ -13665,12 +14067,24 @@
   "psp__ridge-racer": {
     "year": "2004"
   },
+  "psp__shin-megami-tensei-persona": {
+    "studio": "Atlus",
+    "year": "2009"
+  },
   "psp__silent-hill-origins": {
     "year": "2007"
   },
   "psp__silent-hill-shattered-memories": {
     "studio": "Climax Studios",
     "year": "2010"
+  },
+  "psp__socom-u-s-navy-seals-fireteam-bravo": {
+    "studio": "Slant Six Games",
+    "year": "2005"
+  },
+  "psp__socom-u-s-navy-seals-fireteam-bravo-2": {
+    "studio": "Slant Six Games",
+    "year": "2006"
   },
   "psp__star-trek-tactical-assault": {
     "year": "2006"
@@ -14143,6 +14557,10 @@
   "saturn__daytona-usa-cce": {
     "year": "1995"
   },
+  "saturn__dead-or-alive": {
+    "studio": "Team Ninja / Tecmo",
+    "year": "1997"
+  },
   "saturn__devil-summoner-soul-hackers": {
     "studio": "Atlus",
     "year": "1997"
@@ -14220,6 +14638,10 @@
   "saturn__panzer-dragoon-ii-zwei": {
     "year": "1996"
   },
+  "saturn__powerslave": {
+    "studio": "Lobotomy Software",
+    "year": "1996"
+  },
   "saturn__rayman": {
     "studio": "Ubisoft",
     "year": "1996"
@@ -14291,6 +14713,10 @@
     "studio": "Core Design",
     "year": "1997"
   },
+  "saturn__virtual-on-cyber-troopers": {
+    "studio": "Sega AM3",
+    "year": "1996"
+  },
   "saturn__winter-heat": {
     "studio": "Sega",
     "year": "1997"
@@ -14323,6 +14749,10 @@
     "studio": "Probe Entertainment",
     "year": "1994"
   },
+  "sega-32x__nba-jam-tournament-edition": {
+    "studio": "Iguana Entertainment",
+    "year": "1995"
+  },
   "sega-32x__shadow-squadron": {
     "studio": "Sega",
     "year": "1995"
@@ -14333,6 +14763,10 @@
   },
   "sega-32x__star-wars-arcade": {
     "studio": "Sega",
+    "year": "1994"
+  },
+  "sega-32x__stellar-assault": {
+    "studio": "C.Dream",
     "year": "1994"
   },
   "sega-32x__tempo": {
@@ -14516,6 +14950,10 @@
     "year": "1993"
   },
   "snes__pilotwings": {},
+  "snes__plok": {
+    "studio": "Software Creations",
+    "year": "1993"
+  },
   "snes__pocky-and-rocky": {
     "year": "1993"
   },
@@ -14530,6 +14968,10 @@
   "snes__rendering-ranger-r2": {},
   "snes__rock-n-roll-racing": {
     "year": "1993"
+  },
+  "snes__rockman-and-forte": {
+    "studio": "Capcom",
+    "year": "1998"
   },
   "snes__romance-of-three-kingdoms-iv": {
     "year": "1995"
@@ -16190,6 +16632,10 @@
     "studio": "Retro Studios",
     "year": "2010"
   },
+  "wii__dragon-ball-z-budokai-tenkaichi-3": {
+    "studio": "Spike",
+    "year": "2007"
+  },
   "wii__epic-mickey": {
     "studio": "Junction Point Studios",
     "year": "2010"
@@ -16234,6 +16680,10 @@
     "studio": "Paon",
     "year": "2008"
   },
+  "wii__last-story": {
+    "studio": "Mistwalker",
+    "year": "2011"
+  },
   "wii__legend-of-zelda-skyward-sword": {
     "studio": "Nintendo EAD",
     "year": "2011"
@@ -16241,6 +16691,10 @@
   "wii__legend-of-zelda-twilight-princess": {
     "studio": "Nintendo EAD",
     "year": "2006"
+  },
+  "wii__lego-pirates-of-caribbean-video-game": {
+    "studio": "Traveller's Tales",
+    "year": "2011"
   },
   "wii__lostwinds": {
     "studio": "Frontier Developments",
@@ -16330,6 +16784,10 @@
     "studio": "Capcom",
     "year": "2007"
   },
+  "wii__rhythm-heaven-fever": {
+    "studio": "Nintendo",
+    "year": "2011"
+  },
   "wii__silent-hill-shattered-memories": {
     "studio": "Climax Studios",
     "year": "2009"
@@ -16397,6 +16855,10 @@
   "wii__xenoblade-chronicles": {
     "studio": "Monolith Soft",
     "year": "2011"
+  },
+  "wii__zack-and-wiki-quest-for-barbaros-treasure": {
+    "studio": "Capcom",
+    "year": "2007"
   },
   "wonderswan__blue-wing-blitz": {
     "studio": "Square",
