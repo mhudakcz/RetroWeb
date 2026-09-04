@@ -67,8 +67,9 @@ def zpet(zdroj: Path, cil: Path) -> None:
         except Exception:  # noqa: BLE001
             print(f"  [x] {novy}: nevalidni JSON")
             continue
-        if not (isinstance(d, dict) and d.get("en") and d.get("de")):
-            print(f"  [x] {novy}: chybi en nebo de")
+        # klic zavisi na jazyce behu: EN+DE ma i18n_finish, FR ma vlastni workflow
+        if not (isinstance(d, dict) and any(d.get(lc) for lc in ("en", "de", "fr"))):
+            print(f"  [x] {novy}: chybi prelozeny obsah")
             continue
         shutil.copyfile(out, zdroj / "chunks" / f"{puvodni}_out.json")
         vraceno += 1
