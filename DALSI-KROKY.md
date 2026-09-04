@@ -91,16 +91,53 @@ počet hráčů).
 - Články ke hrám bez článku: `articles_prep.py --platform <slug>` +
   `articles_new.workflow.js`, merge s `--prefix`. Teasery napřed, jsou vstup.
 
-## Stav k 4. 9. 2026
+## Stav k 4. 9. 2026 (preruseno na vyzadani)
 
 Katalog: **77 platforem, 5759 her**. Kazda ma clanek, uvodni vetu
 i zaverecne "Proc hrat"; zadny clanek neni kratsi nez 1400 znaku.
 
-Obrazky: bez obrazku 600 her, pod tremi 1542,
-pet a vic 1404. Galerie pobere deset polozek.
+Obrazky: bez obrazku 571 her, pod tremi 1542,
+pet a vic 1404. Galerie pobere deset polozek,
+na strance jsou videt dva snimky a znacka +N.
 
-Preklady: EN 5527, DE 5527, FR 3694 her z 5759.
+Preklady: EN 5527, DE 5527, FR 4488 her z 5759.
 "Cim zacit": 768 doporuceni na 76 platformach.
+
+Vsechno je zacommitovane. Na produkci zatim NENI nic z teto davky —
+uzivatel nasazeni odsouhlasil, ale az budou preklady vcetne FR.
+
+## KDE POKRACOVAT
+
+### 1. Francouzstina (rozdelana, 120 z 296 davek)
+Prace je v `.i18n-work/fr2`, hotove davky se preskoci. Aby se nespoustelo
+296 agentu kvuli zbytku (pri limitu relace spadnou naraz vsichni cekajici):
+
+    python tools/i18n_zbytek.py .i18n-work/fr2 .i18n-work/fr2-zbytek
+    # workflow tools/i18n_fr.workflow.js s args, ktere skript vypise
+    python tools/i18n_zbytek.py .i18n-work/fr2 .i18n-work/fr2-zbytek --zpet
+    python tools/i18n_merge.py .i18n-work/fr2
+
+### 2. Dorovnat EN a DE
+Chybi u ~230 nejnovejsich her (pribyly az po extrakci):
+
+    python tools/i18n_gap.py .i18n-work/tr3 en,de
+    python tools/i18n_chunk.py .i18n-work/tr3 --games 8
+    # workflow tools/i18n_finish.workflow.js
+    python tools/i18n_merge.py .i18n-work/tr3
+
+### 3. "Cim zacit" podle zebricku z Vimm's Lair
+Pripraveno, jeste nespusteno. 143 her je v zebriccich a chybi mezi
+doporucenimi:
+
+    python tools/picks_prep.py .i18n-work/picks5 --zebricek .i18n-work/vimm/report.json
+    # workflow tools/picks.workflow.js
+    python tools/picks_prep.py .i18n-work/picks5 --merge
+
+### 4. Nasazeni na produkci (odsouhlaseno, az budou preklady)
+
+    npm run build                      # ~16 minut, 24 tisic stranek
+    git push origin main
+    "/c/Users/Michal (admin)/AppData/Roaming/npm/netlify" deploy --prod --dir=dist
 
 ### Zdroje obrazku
 libretro (obaly i snimky) | Steam | Nintendo eShop | App Store | GOG (jen PC
@@ -111,21 +148,11 @@ POZOR NA PORADI: `dedupe` se pousti az PO `optimize`. Pred prevodem porovnava
 cerstvy JPEG proti uz prevedenemu WebP a duplicity neodhali — v jednom behu
 takhle proslo 1866 duplicitnich souboru.
 
-### Zebricky z Vimm's Lair
-`tools/vimm_ranks.py` stahne zebricky (28 platforem) a porovna s katalogem;
-`titles_prep.py` + `titles.workflow.js` k chybejicim titulum dopisi zaznamy
-podle zadaneho seznamu. Druha cast — dostat zebrickove hry do "Cim zacit" —
-je pripravena (`picks_prep.py --zebricek .i18n-work/vimm/report.json`), ale
-jeste nebyla spustena.
+Zdroje jsou uz vycerpane: posledni sweep dal 28 obalu z Wikipedie, Nintendo
+eShop k 157 hram nic. Co zbyva bez obrazku, volny zdroj nepokryva — Java
+a Symbian, PICO-8 (zije na lexaloffle BBS) a konzolove exkluzivity na PS3
+a Xbox 360; na ty by byl potreba klic k RAWG nebo IGDB.
 
 ### Limity relace
 Pri limitu spadnou naraz vsichni cekajici agenti, i ti, kteri meli vratit SKIP.
-Kdyz zbyva mala cast velke sady, pouzij `tools/i18n_zbytek.py <zdroj> <cil>`
-a po dokonceni `--zpet`.
-
-### Zbyva
-- FR preklad (bezi), pak dorovnat EN/DE u ~230 nejnovejsich her
-- "Cim zacit" podle zebricku
-- Nasazeni na produkci — uzivatel odsouhlasil, az budou preklady vcetne FR
-- Bez volneho zdroje: obaly na Jave a Symbianu, PICO-8 (lexaloffle BBS),
-  konzolove exkluzivity na PS3 a Xbox 360 (chce to klic k RAWG nebo IGDB)
+Limit se resetuje v celou hodinu (hlaska rika kterou). Proto `i18n_zbytek.py`.
