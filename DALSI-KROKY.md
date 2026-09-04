@@ -91,29 +91,41 @@ počet hráčů).
 - Články ke hrám bez článku: `articles_prep.py --platform <slug>` +
   `articles_new.workflow.js`, merge s `--prefix`. Teasery napřed, jsou vstup.
 
-## Stav k 3. 9. 2026
+## Stav k 4. 9. 2026
 
-Hotovo v teto davce:
-- **Cim zacit** — 768 doporuceni na 76 platformach. Velke platformy (100+ her)
-  maji 18-20 titulu, jedno doporuceni pripada na sest her v katalogu.
-- **135 novych her**: Master System 38->62, Saturn 46->81, Java a Symbian
-  30->69, Meta Quest 29->55, PICO-8 18->29.
-- **Pokryti textu 100 %** — vsech 5520 her ma clanek, uvodni vetu i "Proc hrat".
-  Webova platforma (102 her) a Java (30 her) clanky vubec nemely.
-- **Odkazy na hrani** u 34 ze 102 webovych her, kazdy overeny dotazem.
-- Opravena fotka Atari 7800 a pruhlednost PC VR.
+Katalog: **77 platforem, 5759 her**. Kazda ma clanek, uvodni vetu
+i zaverecne "Proc hrat"; zadny clanek neni kratsi nez 1400 znaku.
 
-Zname mezery:
-- **Obaly**: Java a Symbian 0/69 — Wikipedie by u portu (Hitman, FIFA) vratila
-  obal konzolove verze, coz je u hry pro tlacitkovy telefon zavadejici. PICO-8
-  11/29 — hry ziji na lexaloffle BBS, kde vyhledavani nemame; itch.io nasel 0.
-  Quest 41/55.
-- **Snimky ze hry**: Xbox One 24 ze 150 her ma jen obal. Zdroj je Steam a napr.
-  Forza Motorsport 7 tam nikdy nebyla (Microsoft Store, stazena 2021).
-  Dorovnat by slo jen pres RAWG nebo IGDB, na to je potreba klic.
-- **Preklady**: EN/DE/FR stale na vlne 1, zbyva ~213 z 271 davek.
+Obrazky: bez obrazku 600 her, pod tremi 1542,
+pet a vic 1404. Galerie pobere deset polozek.
 
-POZOR na pracovni adresare: agenti vraceji SKIP, kdyz vystupni soubor uz
-existuje. Dva teasery se takhle ztratily na starych souborech z drivejsiho
-behu — vzdy overit, ze slugy ve vystupu odpovidaji vstupu, ne jen existenci
-souboru.
+Preklady: EN 5527, DE 5527, FR 3694 her z 5759.
+"Cim zacit": 768 doporuceni na 76 platformach.
+
+### Zdroje obrazku
+libretro (obaly i snimky) | Steam | Nintendo eShop | App Store | GOG (jen PC
+linie: pc-dos, pc-9x, pc-modern, web, mobil — jinde nabizi jinou verzi nebo
+remake) | ZXDB (Spectrum) | itch.io | Wikipedia infobox.
+
+POZOR NA PORADI: `dedupe` se pousti az PO `optimize`. Pred prevodem porovnava
+cerstvy JPEG proti uz prevedenemu WebP a duplicity neodhali — v jednom behu
+takhle proslo 1866 duplicitnich souboru.
+
+### Zebricky z Vimm's Lair
+`tools/vimm_ranks.py` stahne zebricky (28 platforem) a porovna s katalogem;
+`titles_prep.py` + `titles.workflow.js` k chybejicim titulum dopisi zaznamy
+podle zadaneho seznamu. Druha cast — dostat zebrickove hry do "Cim zacit" —
+je pripravena (`picks_prep.py --zebricek .i18n-work/vimm/report.json`), ale
+jeste nebyla spustena.
+
+### Limity relace
+Pri limitu spadnou naraz vsichni cekajici agenti, i ti, kteri meli vratit SKIP.
+Kdyz zbyva mala cast velke sady, pouzij `tools/i18n_zbytek.py <zdroj> <cil>`
+a po dokonceni `--zpet`.
+
+### Zbyva
+- FR preklad (bezi), pak dorovnat EN/DE u ~230 nejnovejsich her
+- "Cim zacit" podle zebricku
+- Nasazeni na produkci — uzivatel odsouhlasil, az budou preklady vcetne FR
+- Bez volneho zdroje: obaly na Jave a Symbianu, PICO-8 (lexaloffle BBS),
+  konzolove exkluzivity na PS3 a Xbox 360 (chce to klic k RAWG nebo IGDB)
