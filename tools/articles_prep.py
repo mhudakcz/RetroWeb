@@ -60,8 +60,23 @@ def load_missing(platform: str | None) -> list[dict]:
     return rows
 
 
+
+def uklid_stare_vystupy(work: Path) -> None:
+    """Smaze vystupy z drivejsiho behu ve stejnem adresari.
+
+    Bez toho agent najde cizi <davka>_out.json, vrati SKIP a prislusne hry
+    zustanou nezpracovane, aniz to workflow ohlasi jako chybu.
+    """
+    stare = sorted(work.glob("*_out.json"))
+    for f in stare:
+        f.unlink()
+    if stare:
+        print(f"  (smazano {len(stare)} vystupu z drivejsiho behu)")
+
+
 def prepare(work: Path, platform: str | None, size: int) -> None:
     work.mkdir(parents=True, exist_ok=True)
+    uklid_stare_vystupy(work)
     rows = load_missing(platform)
     if not rows:
         print("vsechny hry uz clanek maji")

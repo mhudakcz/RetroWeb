@@ -20,6 +20,20 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
+
+def uklid_stare_vystupy(work: Path) -> None:
+    """Smaze vystupy z drivejsiho behu ve stejnem adresari.
+
+    Bez toho agent najde cizi <davka>_out.json, vrati SKIP a prislusne hry
+    zustanou nezpracovane, aniz to workflow ohlasi jako chybu.
+    """
+    stare = sorted(work.glob("*_out.json"))
+    for f in stare:
+        f.unlink()
+    if stare:
+        print(f"  (smazano {len(stare)} vystupu z drivejsiho behu)")
+
+
 def main() -> int:
     if len(sys.argv) < 3:
         print(__doc__)
@@ -33,6 +47,7 @@ def main() -> int:
     size = int(sys.argv[sys.argv.index("--size") + 1]) if "--size" in sys.argv else 10
 
     work.mkdir(parents=True, exist_ok=True)
+    uklid_stare_vystupy(work)
     chybi = json.loads(report.read_text("utf-8"))["chybi"]
     data = json.loads((ROOT / "src/data/dataset.json").read_text("utf-8"))
     jmena = {p["slug"]: p["name"] for p in data["platforms"]}

@@ -46,8 +46,23 @@ def _zebricek() -> dict:
     return out
 
 
+
+def uklid_stare_vystupy(work: Path) -> None:
+    """Smaze vystupy z drivejsiho behu ve stejnem adresari.
+
+    Bez toho agent najde cizi <davka>_out.json, vrati SKIP a prislusne hry
+    zustanou nezpracovane, aniz to workflow ohlasi jako chybu.
+    """
+    stare = sorted(work.glob("*_out.json"))
+    for f in stare:
+        f.unlink()
+    if stare:
+        print(f"  (smazano {len(stare)} vystupu z drivejsiho behu)")
+
+
 def prepare(work: Path, pocet: int) -> None:
     work.mkdir(parents=True, exist_ok=True)
+    uklid_stare_vystupy(work)
     data = json.loads((ROOT / "src/data/dataset.json").read_text("utf-8"))
     hotovo = json.loads(OUT.read_text("utf-8")) if OUT.exists() else {}
     zebricky = _zebricek()
