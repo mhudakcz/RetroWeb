@@ -20,27 +20,31 @@
  "3ds": [
   {
    "slug": "3ds__super-mario-3d-land",
-   "why": "Ukazuje přesně to, co mělo přesvědčit ke koupi 3DS – prostorové plošinky fungující i bez brýlí, které daly stereoskopickému displeji smysl."
-  },
-  {
-   "slug": "3ds__mario-kart-7",
-   "why": "Kapesní verze slavné série s lokálním multiplayerem bez nutnosti internetu dovede zabavit na cestách i o samotě."
+   "why": "Ukazuje, k čemu byl 3DS stavěný – 3D efekt tu není okoukaný trik, ale funguje jako herní mechanika."
   },
   {
    "slug": "3ds__legend-of-zelda-ocarina-of-time-3d",
-   "why": "Umožňuje odnést si v kapse jednu z nejvlivnějších her žánru, navíc s vylepšeným ovládáním oproti originálu z Nintenda 64."
+   "why": "Nejpřístupnější vstup do jedné z nejslavnějších her historie, navíc s ovládáním doladěným pro handheld."
+  },
+  {
+   "slug": "3ds__mario-kart-7",
+   "why": "Přenosná verze závodní klasiky, co se hraje stejně dobře v kapse jako u televize."
   },
   {
    "slug": "3ds__pokemon-x-y",
-   "why": "Přechod celé série do plné 3D grafiky a zároveň první díl vydaný naráz po celém světě – zlomový bod pro handheldové RPG."
+   "why": "Bod, kde série poprvé naplno přešla do 3D a vyšla po celém světě zároveň – ideální začátek pro nováčky."
   },
   {
-   "slug": "3ds__animal-crossing-new-leaf",
-   "why": "Definuje, k čemu je druhá obrazovka a StreetPass dobrý – neuspěchaný sim, který se hraje roky a odměňuje trpělivost."
+   "slug": "3ds__monster-hunter-4-ultimate",
+   "why": "Nejvýš hodnocený titul na 3DS a důkaz, že náročné akční RPG s lovem příšer patří i do kapsy."
   },
   {
    "slug": "3ds__fire-emblem-awakening",
-   "why": "Bez úspěchu téhle epizody by tahová taktika série dnes možná vůbec neexistovala; ukazuje, proč se z 3DS stal ráj strategických RPG."
+   "why": "Díl, co zachránil sérii před zrušením, a proto dnes definuje, čím Fire Emblem je."
+  },
+  {
+   "slug": "3ds__animal-crossing-new-leaf",
+   "why": "Odpočinkový protipól k akčním titulům na seznamu – ideální, když chcete jen v klidu budovat městečko."
   }
  ],
  "amiga": [
@@ -190,59 +194,99 @@
  "atari-2600": [
   {
    "slug": "atari-2600__pitfall",
-   "why": "Ukazuje, co všechno se dá vyždímat z pouhých 4 kilobajtů paměti — plynulý pohyb, atmosféru džungle i skutečné nebezpečí."
+   "why": "Ukázala, že i s hrstkou pixelů lze postavit rozlehlý dobrodružný svět plný pastí a lian."
   },
   {
    "slug": "atari-2600__space-invaders",
-   "why": "Prodala samotnou konzoli a naučila domácí hráče, že arkádový zážitek se vejde i do obýváku."
+   "why": "Ukazuje, proč se lidé kvůli jedné hře rozhodli koupit celou konzoli."
   },
   {
    "slug": "atari-2600__adventure",
-   "why": "Ukazuje kořeny celého žánru adventur — prostor k prozkoumávání, draky i skrytý vzkaz vývojáře čekající na objevení."
+   "why": "Z jednoho pixelu tečky vzešel celý žánr akčních adventur i první skrytý vzkaz vývojáře ve hře."
   },
   {
-   "slug": "atari-2600__enduro",
-   "why": "Nekonečná honba s časem přes déšť, mlhu i noc dokazuje, že i s pákou a jedním tlačítkem šlo postavit poctivou závodní hru."
+   "slug": "atari-2600__dragonstomper",
+   "why": "Dokazuje, že i osmibitový hardware unesl questy, inventář a vyprávění typické pro RPG."
+  },
+  {
+   "slug": "atari-2600__frogger",
+   "why": "Přenáší napínavou arkádovou předlohu do obýváku beze ztráty tempa i tlaku na rychlé rozhodování."
   },
   {
    "slug": "atari-2600__missile-command",
-   "why": "Napětí studené války proměněné v horečnaté klikání po obrazovce — jedna z nejúzkostnějších her, co kdy na 2600 vyšla."
+   "why": "Ukazuje, jak jednoduchá arkáda dokáže nést těžké téma a napětí studené války."
+  },
+  {
+   "slug": "atari-2600__haunted-house",
+   "why": "Strach tu vzniká z tmy a omezeného výhledu, ne z grafiky — děsivé i s minimem pixelů."
+  },
+  {
+   "slug": "atari-2600__yars-revenge",
+   "why": "Nejúspěšnější původní titul konzole dokazuje, co dokázali designéři, když nešlo o port arkády."
+  },
+  {
+   "slug": "atari-2600__activision-decathlon",
+   "why": "Sportovní maraton, který na jediné kazetě otestuje reflexy i vytrvalost hráčových palců."
+  },
+  {
+   "slug": "atari-2600__enduro",
+   "why": "Střídání dne a noci i mlhy dodává na první pohled prostému závodu překvapivě hutnou atmosféru."
+  },
+  {
+   "slug": "atari-2600__q-bert",
+   "why": "Izometrická pyramida krychlí ukazuje, jak neotřele umělo Atari 2600 pojmout i skákací hlavolam."
   }
  ],
  "atari-5200": [
   {
+   "slug": "atari-5200__pitfall",
+   "why": "Nejslavnější hra celé rané konzolové éry a dodnes vzor pro to, jak jednoduchý princip skákání proměnit v propracovaný svět."
+  },
+  {
    "slug": "atari-5200__star-raiders",
-   "why": "Ukazuje, proc lidi vubec sahli po Atari 5200 misto arkadoveho automatu doma - tehdy nevidany simulacni zazitek."
+   "why": "Vlajkový titul 5200 přenesený z Atari 8-bit počítačů - kombinace kokpitového pohledu a strategické mapy nemá na konzoli konkurenci."
   },
   {
    "slug": "atari-5200__pole-position",
-   "why": "Analogova packa konzole tu dava smysl vic nez kdekoli jinde - presne to, k cemu byl 5200 stavenej."
-  },
-  {
-   "slug": "atari-5200__ms-pac-man",
-   "why": "Kdyz uz na 5200 sahnete po bludisti, tahle verze je propracovanejsi a hrave bohatsi nez puvodni Pac-Man."
+   "why": "Analogová páčka 5200 dává kvalifikačnímu kolu i závodu pocit, jaký starší joysticky s osmi směry nikdy nenabídly."
   },
   {
    "slug": "atari-5200__missile-command",
-   "why": "Jiny typ napeti nez stribeni her okolo - pomale, taktické rozhodovani misto reflexu, a pritom porad drzi u obrazovky."
+   "why": "Napínavá obrana měst ukazuje, jak dobře se na 5200 přenášely arkádové hity se strategickým prvkem, ne jen reflexy."
+  },
+  {
+   "slug": "atari-5200__ms-pac-man",
+   "why": "Vypilovanější nástupce klasiky s víc bludišti a chytřejšími duchy - lepší volba pro dnešní hraní než původní Pac-Man."
+  },
+  {
+   "slug": "atari-5200__activision-decathlon",
+   "why": "Atletický víceboj naplno využívá analogovou páčku 5200, díky které jde přesně odstupňovat sílu hodu i rychlost běhu."
   }
  ],
  "atari-7800": [
   {
    "slug": "atari-7800__donkey-kong",
-   "why": "Ukazuje, jak věrně dovedla konzole napodobit automatovou klasiku, která položila základ celému žánru plošinovek."
+   "why": "Domácí port, který dokazuje, že 7800 přenesl arkádovou předlohu bez velkých kompromisů oproti automatu."
   },
   {
    "slug": "atari-7800__robotron-2084",
-   "why": "Zastupuje run & gun žánr a patří k nejrychlejším, nejchaotičtějším zážitkům, jaké katalog 7800 nabízí."
+   "why": "Frenetická arkádová akce v čisté podobě ukazuje, že 7800 zvládl i tempo, které jiné domácí konzole zadýchávalo."
   },
   {
    "slug": "atari-7800__ms-pac-man",
-   "why": "Bludiště a duchové v podání jedné z nejoblíbenějších arkádových postav dokazují, že konzole zvládla i tenhle žánr na výbornou."
+   "why": "Vedle Donkey Konga druhý pilíř arkádových portů, který dokazuje sílu 7800 v žánru bludišť."
+  },
+  {
+   "slug": "atari-7800__alien-brigade",
+   "why": "Nejvýše hodnocená hra žebříčku pro 7800 a jediná šance vyzkoušet light gun, kterou konzole nabízela."
   },
   {
    "slug": "atari-7800__pole-position-ii",
-   "why": "Zastupuje závodní žánr a přenáší dojem z automatu do obýváku přesněji, než na tehdejších konzolích bylo obvyklé."
+   "why": "Rychlost a pocit řízení, které v 80. letech definovaly žánr závodních arkád, tady přenesené domů beze ztráty tempa."
+  },
+  {
+   "slug": "atari-7800__karateka",
+   "why": "Filmové pojetí soubojů s promyšleným časováním ukazuje, že žánr bojových her nemusí stát na rychlosti reflexů."
   }
  ],
  "atari-8bit": [
@@ -313,20 +357,24 @@
  ],
  "atari-lynx": [
   {
+   "slug": "atari-lynx__rygar",
+   "why": "Akční plošinovka, kterou hráči dodnes řadí na vrchol katalogu Lynxu – ukazuje, co stroj zvládal na maximum."
+  },
+  {
    "slug": "atari-lynx__chip-s-challenge",
-   "why": "Byla to hra, se kterou většina majitelů Lynxe zapnula konzoli poprvé – ideální vstupní bod do celé knihovny."
+   "why": "Logická hra ze startovní nabídky Lynxu, která z konzole udělala váženého konkurenta v žánru hlavolamů."
+  },
+  {
+   "slug": "atari-lynx__s-t-u-n-runner",
+   "why": "Jediný domácí port slavné tunelové arkády mísící závody se střílením, hráči ho dlouhodobě hodnotí nejvýš ze všech."
   },
   {
    "slug": "atari-lynx__california-games",
-   "why": "Ukazuje, jak věrně se na displeji Lynxu přenesly barevné sportovní disciplíny z počítačové klasiky Epyxu."
-  },
-  {
-   "slug": "atari-lynx__rygar",
-   "why": "Často označovaná za nejlepší akční port na handheldu vůbec – dokládá, kam až hardware Lynxu dotáhl velké tituly."
+   "why": "Sbírka letních sportovních disciplín od Epyxu, která na startu Lynxu předváděla jeho barevnou grafiku a plynulost."
   },
   {
    "slug": "atari-lynx__wyvern-tales",
-   "why": "Čerstvé homebrew RPG dokazuje, že knihovnu Lynxu dodnes rozšiřuje živá scéna tvůrců, a stojí za hraní i dnes."
+   "why": "Nedávné homebrew JRPG dokazuje, že Lynx žije dál, a je skvělou volbou pro hraní na reálném hardwaru i dnes."
   }
  ],
  "atari-st": [
@@ -527,278 +575,278 @@
  ],
  "dreamcast": [
   {
-   "slug": "dreamcast__soulcalibur",
-   "why": "Dodnes se cituje jako důkaz, že domácí konzole může trumfnout arkádový hardware, a bojovkářům dala důvod Dreamcast koupit."
-  },
-  {
    "slug": "dreamcast__sonic-adventure",
-   "why": "Prodávala konzoli sama o sobě — kdo chtěl vidět Sonica konečně ve 3D, musel mít Dreamcast."
+   "why": "Patřila mezi tituly, které lidem v obchodě předváděly sílu nového hardwaru hned při startu konzole."
   },
   {
-   "slug": "dreamcast__crazy-taxi",
-   "why": "Ztělesňuje filozofii konzole: okamžitá zábava bez učení, kterou si zamilovali hráči i mimo hardcore okruh."
+   "slug": "dreamcast__soulcalibur",
+   "why": "Dodnes se uvádí jako důkaz, že Dreamcast zvládal grafiku na úrovni tehdejších arkádových automatů."
   },
   {
    "slug": "dreamcast__shenmue",
-   "why": "Rozpočet a ambice, které z části vysvětlují i finanční ústup Segy z výroby konzolí."
+   "why": "Rozpočtem i ambicí ukázala, kam až může zajít vyprávění a otevřený svět na konzoli té doby."
   },
   {
-   "slug": "dreamcast__jet-set-radio",
-   "why": "Vizuální styl, který inspiroval grafiky napříč herním průmyslem ještě dlouho po zániku konzole."
+   "slug": "dreamcast__crazy-taxi",
+   "why": "Pár minut stačí k pochopení, proč se arkádové hry právě na Dreamcastu hrály tak přirozeně."
   },
   {
    "slug": "dreamcast__skies-of-arcadia",
-   "why": "Dokazuje, že Dreamcast zvládal i rozsáhlá JRPG, ne jen arkádové porty a akční tituly."
+   "why": "Ukazuje, že Dreamcast dokázal hostit i rozsáhlé JRPG s vlastním, výrazně odlišným tónem."
+  },
+  {
+   "slug": "dreamcast__jet-set-radio",
+   "why": "Vizuálním stylem dodnes dokazuje, jak originální a odvážné mohly hry na této konzoli být."
   },
   {
    "slug": "dreamcast__phantasy-star-online",
-   "why": "Dreamcast měl vestavěný modem, a tahle hra ukazuje, co online hraní na konzoli umělo dřív, než se stalo běžným standardem."
+   "why": "Dreamcast jako první konzole nabídl plnohodnotné online RPG díky vestavěnému modemu."
   }
  ],
  "game-boy": [
   {
    "slug": "game-boy__tetris",
-   "why": "Je to hra, kterou lidé spojují se samotným Game Boyem nejvíc — bez ní by handheld možná nikdy neuspěl."
+   "why": "Byla součástí balení ke konzoli a dodnes je nejpřirozenějším důvodem, proč si Game Boy vzít znovu do ruky."
   },
   {
    "slug": "game-boy__pokemon-red-blue-yellow",
-   "why": "Ukazuje, jak dalece dokázal skromný hardware Game Boye unést propojení kabelem a celosvětovou posedlost sběratelstvím."
+   "why": "Odstartovala celosvětovou sérii a naplno využila propojovací kabel k výměně a chytání příšerek s kamarádem."
   },
   {
    "slug": "game-boy__legend-of-zelda-link-s-awakening",
-   "why": "Dokazuje, že rozsáhlá akční adventura s vlastním příběhem se vejde i do kapesní konzole beze ztráty hloubky."
+   "why": "Dokazuje, že i mimo Hyrule dokáže série vyprávět komorní, osobní příběh na malé monochromatické obrazovce."
   },
   {
-   "slug": "game-boy__super-mario-land",
-   "why": "Byl součástí launche a ukázal, že Nintendo umí přenést svou vlajkovou značku i na malou obrazovku."
+   "slug": "game-boy__super-mario-land-2-6-golden-coins",
+   "why": "Hráči ji dlouhodobě řadí mezi nejlepší tituly celé platformy díky rozvětvené mapě levelů místo lineárního postupu."
   },
   {
    "slug": "game-boy__metroid-ii-return-of-samus",
-   "why": "Ukazuje odvahu série jít do temnějších, osamělejších poloh, než dovolovaly barevné konzole té doby."
-  },
-  {
-   "slug": "game-boy__donkey-kong",
-   "why": "Patří k nejpropracovanějším plošinovkám na platformě a dokazuje, kolik obsahu se vešlo do jediného kazetu."
+   "why": "Klaustrofobní lov na poslední Metroidy ukazuje, že i monochromatický displej umí vykouzlit hutnou atmosféru."
   },
   {
    "slug": "game-boy__kirby-s-dream-land",
-   "why": "Vstupní bod pro nováčky díky přístupnému ovládání a krátkým, ale poctivě navrženým úrovním."
+   "why": "Debut růžové kuličky je geniálně jednoduchý koncept, přesně padnoucí na krátké herní seance na cestách."
   },
   {
-   "slug": "game-boy__mega-man-v",
-   "why": "Ukazuje, jak dobře fungovala akční plošinovková formule Mega Mana i na malém displeji s omezenou paletou."
+   "slug": "game-boy__donkey-kong",
+   "why": "Spojuje plošinovku s hlavolamy do přes sto úrovní, daleko za rámec původní arkádové předlohy."
   },
   {
    "slug": "game-boy__wario-land-super-mario-land-3",
-   "why": "Otevřel sérii, kde není cílem rychlost, ale hledání skrytých cest a bohatství — jiný pohled na plošinovku od Nintenda."
-  },
-  {
-   "slug": "game-boy__final-fantasy-legend-ii",
-   "why": "Patří k nejambicióznějším JRPG, jaké se na kapesní konzoli v devadesátých letech objevily."
+   "why": "Místo skákání na hlavu tu Wario boří zdi a sbírá poklady, což z ní dělá úplně jiný typ hry než ostatní Maria."
   },
   {
    "slug": "game-boy__turrican",
-   "why": "Dokazuje, že evropská scéna dokázala Game Boyi nabídnout stejně rozmáchlou akci jako japonští giganti."
+   "why": "Evropská run-and-gun legenda dokazuje, že Game Boy zvládl i rozlehlé, spletité akční úrovně, ne jen jednoduché arkády."
   },
   {
    "slug": "game-boy__castlevania-ii-belmont-s-revenge",
-   "why": "Napravuje neohrabanost prvního dílu a ukazuje, že náročná akce může být na Game Boyi i férová."
+   "why": "Vylepšuje ovládání a spravedlivější obtížnost první handheldové Castlevanie a ukazuje, kam se série dokázala posunout."
+  },
+  {
+   "slug": "game-boy__mega-man-v",
+   "why": "Vrcholí tu handheldová řada Mega Manů vlastním bossem místo recyklovaných soubojů ze starších NES dílů."
   },
   {
    "slug": "game-boy__prince-of-persia",
-   "why": "Technický kousek, který dokázal, že i plynulá rotoskopická animace má na Game Boyi místo."
-  },
-  {
-   "slug": "game-boy__nba-jam",
-   "why": "Ideální pro rychlé partie s kamarádem přes propojovací kabel, kdy realismus jde stranou kvůli zábavě."
-  },
-  {
-   "slug": "game-boy__micro-machines",
-   "why": "Multiplayerové závodění patřilo k tomu nejlepšímu, co šlo přes link kabel na Game Boyi hrát."
-  },
-  {
-   "slug": "game-boy__mortal-kombat",
-   "why": "Zajímavý paradox: krvavá arkádová bojovka přenesená na rodinnou kapesní konzoli beze změny podstaty."
+   "why": "Přenáší plynulost animací a napínavý tikající časový limit překvapivě věrně na malý monochromatický displej."
   },
   {
    "slug": "game-boy__r-type",
-   "why": "Patří k nejnáročnějším titulům své doby a ukazuje, že i pomalá, promyšlená střílečka obstojí na malém displeji."
+   "why": "Náročná, ikonická vesmírná střílečka dokazuje, že žánr shoot 'em up obstál i na kapesní konzoli."
   },
   {
-   "slug": "game-boy__dr-mario",
-   "why": "Skvělá volba pro chvíle, kdy chcete rychlou logickou hru bez nutnosti sledovat příběh."
+   "slug": "game-boy__mortal-kombat",
+   "why": "Kontroverzní krvavá bojovka v monochromatickém provedení je zvláštní, ale zajímavá kapitola historie konzole."
+  },
+  {
+   "slug": "game-boy__nba-jam",
+   "why": "Přehnaný arkádový basketbal se smečkami popírajícími fyziku ukazuje, že Game Boy zvládl i sportovní partičky pro dva."
+  },
+  {
+   "slug": "game-boy__micro-machines",
+   "why": "Závody miniaturek po kuchyňském stole a v umyvadle dokazují, že i malý displej unese vynalézavý level design."
+  },
+  {
+   "slug": "game-boy__final-fantasy-legend-ii",
+   "why": "Přináší čitelnější příběh a propracovanější svět než jednička a patří k vrcholům kapesních RPG od Square."
   },
   {
    "slug": "game-boy__harvest-moon-gb",
-   "why": "Nabízí úplně jiné tempo než zbytek knihovny — pomalé budování farmy místo akce a reflexů."
+   "why": "První přenosný díl klidné farmářské série ukazuje, že Game Boy zvládl i pomalé, nespěchající hraní."
+  },
+  {
+   "slug": "game-boy__dr-mario",
+   "why": "Návykový puzzle s viry je ideální pro krátké herní seance, přesně na to je kapesní konzole stvořená."
   },
   {
    "slug": "game-boy__tobu-tobu-girl",
-   "why": "Dokazuje, že i dnes vznikají nové hry pro originální hardware a že platforma pořád žije."
+   "why": "Nezávislý vývojář ji vydal desítky let po ukončení výroby konzole, a přesto působí jako ztracená klasika z devadesátek."
   }
  ],
  "game-boy-advance": [
   {
    "slug": "game-boy-advance__legend-of-zelda-minish-cap",
-   "why": "Nejpůsobivější 2D grafika, jakou GBA kdy předvedl, a jedinečný nápad se zmenšováním, který dodnes nemá obdoby."
-  },
-  {
-   "slug": "game-boy-advance__super-mario-advance-4-super-mario-bros-3",
-   "why": "Ukazuje, jak dokonale se legendární plošinovka z NES vejde do kapsy – ostré ovládání funguje stejně skvěle jako tehdy."
+   "why": "Patří k vizuálně nejdetailnějším 2D Zeldám a ukazuje, kam až GBA dotáhla grafiku klasické akční adventury."
   },
   {
    "slug": "game-boy-advance__golden-sun",
-   "why": "Definuje žánr JRPG na GBA rozsáhlým světem, propracovaným soubojovým systémem Djinnů a grafikou, která tehdy překvapila."
+   "why": "Vznikla přímo pro GBA a stala se vlastní značkou, podle níž se dodnes poměřují kapesní JRPG."
   },
   {
-   "slug": "game-boy-advance__yoshi-s-island-super-mario-advance-3",
-   "why": "Přenáší jeden z nejkrásnějších a nejnápaditějších plošinových zázraků SNES beze ztráty kouzla na malou obrazovku."
-  },
-  {
-   "slug": "game-boy-advance__metroid-fusion",
-   "why": "Dokazuje, že žánr metroidvania patří na handheld – sevřená stavba levelů a hutná atmosféra fungují famózně i v kapse."
-  },
-  {
-   "slug": "game-boy-advance__mario-kart-super-circuit",
-   "why": "První přenosný Mario Kart, který dokázal, že driftování a bitvy s krunýři fungují skvěle i bez analogové páčky."
-  },
-  {
-   "slug": "game-boy-advance__fire-emblem",
-   "why": "Přivedl tahovou taktiku s trvalou smrtí jednotek na Západ a stal se vstupní branou do celé série Fire Emblem."
-  },
-  {
-   "slug": "game-boy-advance__donkey-kong-country-2-diddy-s-kong-quest",
-   "why": "Patří mezi nejlépe hodnocené plošinovky vůbec a na malém displeji ztrácí z propracovaného designu jen málo."
+   "slug": "game-boy-advance__super-mario-advance-4-super-mario-bros-3",
+   "why": "Přináší jednu z nejmilovanějších plošinovek historie do kapsy, aniž by ztratila kouzlo originálu."
   },
   {
    "slug": "game-boy-advance__advance-wars",
-   "why": "Ukázal, že tahová strategie s jednotkami a terénem může být stejně návyková na cestách jako u stolního počítače."
+   "why": "Tahová strategie navržená přesně pro handheld, kolem které vyrostla celá generace fanoušků žánru."
   },
   {
-   "slug": "game-boy-advance__kirby-and-amazing-mirror",
-   "why": "Opouští lineární level design ostatních Kirbyho her ve prospěch propojené mapy s metroidvania nádechem."
+   "slug": "game-boy-advance__metroid-fusion",
+   "why": "Sevřenější a příběhovější než klasické Metroidy, ukazuje jinou, napjatější polohu série."
   },
   {
-   "slug": "game-boy-advance__pokemon-firered-leafgreen",
-   "why": "Nejucelenější a nejpřístupnější verze první generace Pokémonů, ideální vstupní bod do celé série na této konzoli."
+   "slug": "game-boy-advance__mario-kart-super-circuit",
+   "why": "Dokázal, že ikonická závodní série Nintenda funguje skvěle i bez analogové páčky a druhého displeje."
+  },
+  {
+   "slug": "game-boy-advance__fire-emblem",
+   "why": "Díl, který sérii poprvé přivedl na Západ a založil její dnešní popularitu mimo Japonsko."
+  },
+  {
+   "slug": "game-boy-advance__donkey-kong-country-2-diddy-s-kong-quest",
+   "why": "Port jedné z nejuznávanějších 16bitových plošinovek vůbec patří k vrcholům celého katalogu GBA."
   },
   {
    "slug": "game-boy-advance__castlevania-aria-of-sorrow",
-   "why": "Vrchol trojice GBA Castlevanií díky systému duší z poražených nepřátel, který mění a obohacuje celý soubojový systém."
+   "why": "Vrchol GBA metroidvanií díky systému sbírání duší poražených nepřátel, které mění styl hry."
+  },
+  {
+   "slug": "game-boy-advance__pokemon-firered-leafgreen",
+   "why": "Remake první generace spojuje moderní enginy s nostalgií a slouží jako definitivní verze Kanto."
   },
   {
    "slug": "game-boy-advance__warioware-inc-mega-microgame",
-   "why": "Stovky pětisekundových mikroher v jednom sezení definují žánr, který na GBA nikde jinde nenajdete v takové koncentraci."
+   "why": "Stovky pětisekundových mikroher předvádí, jak dobře handheld zvládal rychlé, přesné ovládání."
   },
   {
-   "slug": "game-boy-advance__sonic-advance-1-3",
-   "why": "Přesvědčivě dokázal, že rychlý 2D Sonic může fungovat i mimo Segu, a stal se nejlepší volbou pro fanoušky ježka na GBA."
-  },
-  {
-   "slug": "game-boy-advance__final-fantasy-tactics-advance",
-   "why": "Nabízí desítky hodin hluboké tahové taktiky a ukazuje, že GBA uneslo i rozsáhlé strategické RPG s vlastními pravidly."
-  },
-  {
-   "slug": "game-boy-advance__f-zero-maximum-velocity",
-   "why": "Vrátil po letech legendární sérii čistých antigravitačních závodů bez zbraní, kde rozhoduje jen rychlost a přesnost."
-  },
-  {
-   "slug": "game-boy-advance__r-type-iii-third-lightning",
-   "why": "Přenáší ceněný SNES shoot 'em up i s modulem Force, který mění pouhé uhýbání kulkám v promyšlenou taktiku."
-  },
-  {
-   "slug": "game-boy-advance__mega-man-zero",
-   "why": "Brutálně náročná akční plošinovka, která si mezi hardcore hráči vydobyla kultovní status díky stylu a nekompromisní obtížnosti."
+   "slug": "game-boy-advance__yoshi-s-island-super-mario-advance-3",
+   "why": "Port jedné z nejoceňovanějších SNES plošinovek si zachovává jedinečný kreslený vizuální styl."
   },
   {
    "slug": "game-boy-advance__doom",
-   "why": "Vměstnat legendární akci z roku 1993 do handheldu bez 3D akcelerátoru byl technický husarský kousek, který stojí za vyzkoušení."
+   "why": "Legendární FPS z počítačů běží i na kapesní konzoli bez akcelerátoru, což byl svého času malý zázrak."
+  },
+  {
+   "slug": "game-boy-advance__kirby-and-amazing-mirror",
+   "why": "Otevírá Kirbyho sérii propojenou mapou s metroidvania nádechem místo lineárních úrovní."
+  },
+  {
+   "slug": "game-boy-advance__final-fantasy-tactics-advance",
+   "why": "Desítky hodin hluboké tahové taktiky ukazují, že GBA uneslo i rozsáhlé strategické RPG."
+  },
+  {
+   "slug": "game-boy-advance__sonic-advance-1-3",
+   "why": "Trojice dílů dokazuje, že rychlé tempo modrého ježka funguje i mimo domovskou Segu."
+  },
+  {
+   "slug": "game-boy-advance__f-zero-maximum-velocity",
+   "why": "Ukazuje, že čistá rychlost bez zbraní a chaosu obstojí i vedle kartových závodů Maria."
+  },
+  {
+   "slug": "game-boy-advance__r-type-iii-third-lightning",
+   "why": "Modul Force mění obyčejné uhýbání střelám v promyšlenou taktiku, kterou žánr jinde nenabízí."
+  },
+  {
+   "slug": "game-boy-advance__mega-man-zero",
+   "why": "Nekompromisní obtížnost a stylová akce z něj dělají kultovní volbu pro hráče hledající výzvu."
   },
   {
    "slug": "game-boy-advance__tony-hawk-s-pro-skater-2",
-   "why": "Jedna z nejuznávanějších skateových her všech dob, mistrně zhuštěná do kapesní podoby beze ztráty tempa a stylu."
+   "why": "Přenáší přesné ovládání a systém comb triků skate klasiky do formátu, který se vejde do kapsy."
   }
  ],
  "game-boy-color": [
   {
    "slug": "game-boy-color__pokemon-gold-silver-crystal",
-   "why": "Vrchol první éry Pokémonů: dva propojené regiony a soubojový systém, který definuje handheldové RPG dodnes."
+   "why": "Nejrozsáhlejší RPG dostupné na GBC — dva propojené regiony a sběratelský tah, kvůli kterému si lidé konzoli vůbec kupovali."
   },
   {
    "slug": "game-boy-color__legend-of-zelda-link-s-awakening-dx",
-   "why": "Ukazuje, že GBC unese i křehké, emotivní vyprávění - ostrovní příběh bez Hyrule patří mezi nejsilnější zážitky série."
+   "why": "DX verze přidává barevný dungeon a fotoaparát navíc k originálu — ideální vstupní bod do kapesní klasiky série."
   },
   {
    "slug": "game-boy-color__wario-land-3",
-   "why": "Úrovně se mění s postupem hrou a staré cesty nabízejí nové zkratky - promyšlený design bez časového presu a životů."
+   "why": "Řešíte hádanky s Wariem, který nemůže zemřít a jehož schopnosti se mění podle toho, čím ho zrovna zasáhne nepřítel."
   },
   {
    "slug": "game-boy-color__metal-gear-ghost-babel",
-   "why": "Kojima tu napsal samostatný příběh mimo hlavní řadu, a přesto sedí do stealth série jako ulitý."
-  },
-  {
-   "slug": "game-boy-color__tetris-dx",
-   "why": "Ukazuje, jak málo stačí k dokonalé handheldové hře - jen barvy navíc a chytře uložené rekordy."
-  },
-  {
-   "slug": "game-boy-color__mario-tennis",
-   "why": "Sportovní licence, která se nebojí přidat vlastní postavu s vlastním růstem - proto se hraje ve várkách donekonečna."
+   "why": "Samostatný příběh mimo hlavní řadu, natěsnaný do pohledu shora — stealth, jaký na kapesní konzoli nikdo nečekal."
   },
   {
    "slug": "game-boy-color__shantae",
-   "why": "Pozdní vydání ukázalo, co dokázal Game Boy Color technicky vyždímat, než ho nahradila Advance éra."
-  },
-  {
-   "slug": "game-boy-color__warlocked",
-   "why": "Dokazuje, že i strategie v reálném čase může fungovat na křížku a tlačítkách, ne jen na myši a klávesnici."
+   "why": "Špičkově animovaný sprite hlavní hrdinky a proměny ve zvířata dokazují, co GBC ve svých posledních dnech ještě uměl."
   },
   {
    "slug": "game-boy-color__dragon-warrior-iii",
-   "why": "Systém povolání dává postavám volnost růstu, jakou tehdy handheldové RPG málokdy nabízela."
+   "why": "Systém povolání dovoluje sestavit si vlastní partu a hru si při druhém průchodu prakticky navrhnout znovu."
   },
   {
-   "slug": "game-boy-color__kirby-tilt-n-tumble",
-   "why": "Ovládání nakláněním celou konzolí místo tlačítek ukazuje, jak experimentální dokázal Game Boy Color být."
+   "slug": "game-boy-color__tomb-raider",
+   "why": "Patří mezi nejlépe hodnocené hry na platformě vůbec — důkaz, že i rozsáhlá 3D série šla přetavit do promyšlené 2D akce."
   },
   {
-   "slug": "game-boy-color__legend-of-zelda-oracle-of-seasons",
-   "why": "Propojení s Oracle of Ages přes systém hesel mění dvě oddělené hry v jeden velký příběh - unikát v sérii Zelda."
+   "slug": "game-boy-color__warlocked",
+   "why": "Ukazuje, že i žánr RTS s budováním základny a jednotkami šel na kapesní konzoli ovládat pohodlně bez myši."
+  },
+  {
+   "slug": "game-boy-color__legend-of-zelda-oracle-of-ages",
+   "why": "Hádankářštější a promyšlenější z dvojice Oracle her, jejichž příběhy se propojují přes systém hesel."
   },
   {
    "slug": "game-boy-color__r-type-dx",
-   "why": "Tvrdá, přesná střílečka staré školy dokazuje, že žánr shoot-'em-up patřil na handheld odjakživa."
-  },
-  {
-   "slug": "game-boy-color__ninja-five-o",
-   "why": "Vyšla už ke konci životnosti konzole, a přesto patří mezi technicky nejpropracovanější akce, co na ní kdy vyšly."
-  },
-  {
-   "slug": "game-boy-color__resident-evil-gaiden",
-   "why": "Bojový systém přepínající mezi pohybem a mířením zní jako žert, ale survival horor tu funguje překvapivě dobře."
-  },
-  {
-   "slug": "game-boy-color__rayman",
-   "why": "Plynulá animace a sytá barevnost ukazují, kam až se dala 2D grafika na této konzoli dotáhnout."
-  },
-  {
-   "slug": "game-boy-color__harvest-moon-2-gbc",
-   "why": "Farmářský klid v kapse - ideální hra na pomalé večery bez tlaku na výkon nebo rychlý postup."
+   "why": "Tvrdá, přesná obtížnost klasické vesmírné střílečky ukazuje, jak plynule GBC zvládal i akci s posuvem pozadí."
   },
   {
    "slug": "game-boy-color__batman-chaos-in-gotham",
-   "why": "Než studio proslavilo Shantae, zkusilo si na Batmanovi kombinaci soubojů, stealth pasáží i hádanek v jedné hře."
+   "why": "Kombinuje pěstní souboje, batarangy i plíživé pasáže a patří k nejucelenějším akčním adventurám, jaké GBC nabízí."
   },
   {
-   "slug": "game-boy-color__pokemon-pinball",
-   "why": "Kombinace flipperu se sbíráním Pokémonů dělá z klasického pinballu nečekaně návykovou smyčku."
+   "slug": "game-boy-color__resident-evil-gaiden",
+   "why": "Střídá průzkum s bojovým režimem řízeným jako radar ponorky — odvážný pokus přenést survival horor do kapsy."
+  },
+  {
+   "slug": "game-boy-color__ninja-five-o",
+   "why": "Vychází až v roce 2003, dlouho po vrcholu platformy, a přesto patří k technicky nejvytříbenějším akcím, jaké GBC dostal."
+  },
+  {
+   "slug": "game-boy-color__tetris-dx",
+   "why": "Jednoduché pravidlo a partie na pět minut i na hodinu — ideální hra pro kohokoli, kdo GBC teprve zapíná."
   },
   {
    "slug": "game-boy-color__grand-theft-auto",
-   "why": "Ukazuje, jak daleko šla adaptace kontroverzní série do pohledu shora vměstnaného na malou obrazovku."
+   "why": "Přesouvá kontroverzní open-world akci do pohledu shora na malý displej — kuriozita, kterou fanoušci série nesmí minout."
   },
   {
-   "slug": "game-boy-color__pokemon-trading-card-game",
-   "why": "Přenáší pravidla sběratelské karetní hry beze zbytku a dokazuje, že karty fungují i bez papíru v ruce."
+   "slug": "game-boy-color__kirby-tilt-n-tumble",
+   "why": "Nakláněním celé kazety vodíte Kirbyho bludištěm — pohybové ovládání, jaké tehdy žádná jiná kapesní hra nenabízela."
+  },
+  {
+   "slug": "game-boy-color__mario-tennis",
+   "why": "Kariérní režim s postavou, která se mezi zápasy zlepšuje, dělá z obyčejného tenisu překvapivě dlouhou výzvu."
+  },
+  {
+   "slug": "game-boy-color__pokemon-pinball",
+   "why": "Kazeta s vestavěným motorkem dodává cvaknutím skutečný hmatový feedback, jaký GBC jinak nenabízí."
+  },
+  {
+   "slug": "game-boy-color__harvest-moon-2-gbc",
+   "why": "Nabízí pomalé, nenáročné tempo mezi rychlejšími akčními tituly platformy — ideální oddech na cesty."
+  },
+  {
+   "slug": "game-boy-color__rayman",
+   "why": "Plynulá animace a barevná paleta ukazují, kam až šel GBC hardware ještě vyladit navzdory svým technickým limitům."
   }
  ],
  "game-gear": [
@@ -843,44 +891,52 @@
  ],
  "gamecube": [
   {
-   "slug": "gamecube__resident-evil-4",
-   "why": "Bez ní by dnešní akční adventury s kamerou přes rameno vypadaly úplně jinak - vznikla právě tady."
+   "slug": "gamecube__metroid-prime",
+   "why": "Bez ní se o klíčových hrách GameCube nedá mluvit - ukazuje, čím byla konzole ve svém vrcholu výjimečná."
   },
   {
    "slug": "gamecube__super-mario-sunshine",
-   "why": "Ukazuje, jak se dala nejslavnější plošinovková postava přenést do 3D tropického světa beze ztráty hravosti."
+   "why": "Ukazuje, jak moc si Nintendo trouflo experimentovat s vlastní ikonou uprostřed tropického ostrova."
   },
   {
-   "slug": "gamecube__metroid-prime",
-   "why": "Dokazuje, že i zavedenou akční sérii šlo bezpečně přepsat do pohledu z první osoby a nic tím neztratit."
+   "slug": "gamecube__resident-evil-4",
+   "why": "Formovala akční žánr na další desetiletí a zůstává jednou z nejvlivnějších her, co kdy vyšly."
   },
   {
    "slug": "gamecube__super-smash-bros-melee",
-   "why": "Rychlost a technická hloubka, kvůli které se hraje na turnajích dodnes, i přes bleskový vývoj za pouhý rok."
+   "why": "Dodnes žije na turnajích po celém světě, přestože vznikla za pouhý rok vývoje."
   },
   {
    "slug": "gamecube__legend-of-zelda-wind-waker",
-   "why": "Grafický styl, který si tehdy vysloužil kritiku, dnes patří k tomu nejpamátnějšímu, co na konzoli vyšlo."
+   "why": "Cel-shading, který tehdy dělil fanoušky, dnes stárne lépe než realistická grafika jiných dílů série."
   },
   {
    "slug": "gamecube__mario-kart-double-dash",
-   "why": "Spolujezdec házející předměty mění taktiku závodu a dělá z ní jednu z nejosobitějších variací série."
+   "why": "Spolujezdec házející předměty dává závodům týmovou taktiku, kterou pozdější díly série opustily."
   },
   {
    "slug": "gamecube__paper-mario-thousand-year-door",
-   "why": "Kombinace tahového boje, humoru a papírového výtvarného stylu, kterou hráči dodnes staví na vrchol série."
-  },
-  {
-   "slug": "gamecube__pikmin",
-   "why": "Miyamotova strategie s plynoucím časem místo nekonečna ukazuje úplně jinou stránku konzole než akční tituly."
-  },
-  {
-   "slug": "gamecube__tales-of-symphonia",
-   "why": "Zástupce JRPG žánru na konzoli, kde jinak dlouho dominovaly plošinovky a akce od Nintenda."
+   "why": "Papírový styl a bojový systém stály u zrodu obliby, kvůli které fanoušci roky žádali remake."
   },
   {
    "slug": "gamecube__star-wars-rogue-squadron-ii-rogue-leader",
-   "why": "Vesmírné bitvy, které při startu konzole sloužily jako efektní ukázka jejích grafických možností."
+   "why": "Launchový titul, který v roce 2001 ukázal, na co má GameCube coby grafický výkon."
+  },
+  {
+   "slug": "gamecube__tales-of-symphonia",
+   "why": "Rozsáhlý příběh a soubojový systém z ní dělaly bránu do žánru JRPG pro spoustu hráčů mimo Japonsko."
+  },
+  {
+   "slug": "gamecube__pikmin",
+   "why": "Miyamotova osobní hra o zahradničení a strategii ukazuje jinou stránku tvůrce Maria a Zeldy."
+  },
+  {
+   "slug": "gamecube__animal-crossing",
+   "why": "Klidná životní simulace bez pevného cíle, která na Západě debutovala právě tady a dodnes definuje žánr."
+  },
+  {
+   "slug": "gamecube__super-monkey-ball",
+   "why": "Launchová hra, která naklápěním celého světa místo kuličky ukázala nápaditost raného GameCube."
   }
  ],
  "intellivision": [
@@ -904,19 +960,19 @@
  "jaguar": [
   {
    "slug": "jaguar__tempest-2000",
-   "why": "Bez ní se o Jaguaru nemluví - nejcitovanější exkluzivní titul konzole, hypnotická trubice efektů a beatů, co jinde nenajdete."
-  },
-  {
-   "slug": "jaguar__alien-vs-predator",
-   "why": "Ukazuje, co strojem šlo udělat navíc - temná 3D střílečka, kterou lze projít ze tří úplně odlišných perspektiv."
-  },
-  {
-   "slug": "jaguar__iron-soldier",
-   "why": "Exkluzivní mechová simulace s ničitelným terénem, na které Jaguar předváděl výpočetní sílu, jíž se konkurence chlubit nemohla."
+   "why": "Ukazuje, co dokázal 64bitový výkon a vektorová grafika Jaguaru, a dodnes platí za nejcitovanější důvod si konzoli pořídit."
   },
   {
    "slug": "jaguar__rayman",
-   "why": "Jediný titul z výběru, který dnes rozjedete i bez nostalgických brýlí - půvabná a pořádně náročná skákačka na vlastních nohou."
+   "why": "Nabízí jeden z posledních velkých 2D plošinovkových zážitků své éry s animací, kterou žádná jiná hra na Jaguaru nepřekonala."
+  },
+  {
+   "slug": "jaguar__alien-vs-predator",
+   "why": "Umožňuje projít tutéž hororovou zápletku očima marína, vetřelce i predátora, což na konzolích tehdy nemělo obdoby."
+  },
+  {
+   "slug": "jaguar__iron-soldier",
+   "why": "Patří k nejlépe hodnoceným exkluzivitám Jaguaru a předvádí, jak velkou mechovou simulaci stroj unesl."
   }
  ],
  "java-mobil": [
@@ -967,132 +1023,136 @@
  ],
  "master-system": [
   {
-   "slug": "master-system__wonder-boy-iii-dragon-s-trap",
-   "why": "Spojuje plošinovku, RPG prvky i proměny do zvířat tak elegantně, že dodnes patří mezi nejlépe hratelné tituly celé konzole."
-  },
-  {
    "slug": "master-system__phantasy-star",
-   "why": "Na osmibitovém stroji nabídla rozsah a ambice, jaké se v té době čekaly spíš od mnohem výkonnějších konzolí."
+   "why": "Ukazuje, že i osmibitová konzole zvládla rozlehlé sci-fi RPG s mapovanými 3D chodbami dávno před šestnáctibity."
   },
   {
-   "slug": "master-system__r-type",
-   "why": "Přenáší nemilosrdnou obtížnost a ikonický modul Force z arkádové předlohy beze ztráty tempa na domácí hardware."
-  },
-  {
-   "slug": "master-system__golden-axe-warrior",
-   "why": "Navzdory názvu jde o jedno z nejpropracovanějších průzkumných dobrodružství na celé konzoli, blízké Zeldě."
+   "slug": "master-system__wonder-boy-iii-dragon-s-trap",
+   "why": "Spojuje plošinovku s průzkumem a proměnami v zvířata tak elegantně, že si o desítky let později vysloužila remake."
   },
   {
    "slug": "master-system__out-run",
-   "why": "Definuje pocit arkádového závodění osmdesátek, i v domácí verzi zůstává symbolem stylu nad soutěživostí."
+   "why": "Domácí verze arkádového hitu, kde volba trasy na křižovatkách dělá z každého průjezdu jinou jízdu."
+  },
+  {
+   "slug": "master-system__golden-axe-warrior",
+   "why": "Skrývá pod bojovým názvem nečekaně hluboké akční dobrodružství s vylepšováním výbavy a tajnými vchody do jeskyní."
+  },
+  {
+   "slug": "master-system__r-type",
+   "why": "I na omezenějším hardwaru drží napětí a taktiku legendárního modulu Force, který mění způsob střelby."
   },
   {
    "slug": "master-system__alex-kidd-in-miracle-world",
-   "why": "Byl prvním maskotem Segy a ukazuje, jak konzole hledala vlastní tvář ještě předtím, než přišel Sonic."
-  },
-  {
-   "slug": "master-system__golden-axe",
-   "why": "Přináší arkádovou fantasy mlátičku s výběrem postav v kompaktní, ale věrné domácí podobě."
+   "why": "Byl tváří Segy dřív než Sonic, a jeho kámen-nůžky-papír souboje s bossy patří k dobovým kuriozitám."
   },
   {
    "slug": "master-system__lemmings",
-   "why": "Jediné výrazné logické puzzle ve výběru dokazuje, že Master System uměl i pomalejší, přemýšlivé žánry."
+   "why": "Přináší na konzoli logickou hříčku, kde chytré rozdělování rolí lemíkům řeší i ta nejzapeklitější patra."
+  },
+  {
+   "slug": "master-system__golden-axe",
+   "why": "Osmibitový port jedné z nejznámějších arkádových mlátiček dokazuje, jak dobře se souboje sekyrou zredukovaly."
   },
   {
    "slug": "master-system__wonder-boy-in-monster-land",
-   "why": "Ukazuje, jak se čistě akční série Wonder Boy proměnila v propracovanější dobrodružství s RPG prvky."
+   "why": "Ukazuje přerod série z čisté plošinovky v akční RPG s vylepšováním výbavy, které inspirovalo pozdější díly."
   },
   {
    "slug": "master-system__sonic-hedgehog",
-   "why": "I bez výkonu Mega Drivu dokázal tým vytvořit svěží level design specifický jen pro tuto verzi maskota."
+   "why": "Dokazuje, že Master System dostal vlastního, plnohodnotného Sonika s jinými levely než slavná Genesis verze."
   }
  ],
  "mega-cd": [
   {
    "slug": "mega-cd__sonic-cd",
-   "why": "Definuje celou platformu – exkluzivní epizoda ságy, kterou žádná jiná konzole nikdy nedostala."
+   "why": "Sonic v podobě, jakou znal jen Mega-CD – s CD soundtrackem a animovanými předěly, které kartušová Genesis nikdy nenabídla."
   },
   {
    "slug": "mega-cd__snatcher",
-   "why": "Ukazuje, co CD nosič umožnil vyprávět: rozsáhlý kyberpunkový příběh s filmovým tempem, jaký na kartridži nešel."
+   "why": "Kodžimova detektivní adventura naplno využívá kapacitu CD – dabing a filmové střihy, na které si kartuše netroufly."
   },
   {
    "slug": "mega-cd__lunar-silver-star",
-   "why": "Zástupce JRPG na platformě, kde CD přineslo animované scény a nahraný dabing dřív, než to bylo jinde běžné."
+   "why": "Důvod, proč si lidé kupovali Mega-CD kvůli JRPG – namluvené dialogy a animované scény tehdy neměly na konzolích srovnání."
   },
   {
    "slug": "mega-cd__ecco-dolphin",
-   "why": "Nabízí zcela jiný zážitek než zbytek katalogu – meditativní podvodní dobrodružství místo tradiční akce."
+   "why": "Jediná hra ve výběru, která nesází na akci ani zápletku, ale na objevování a atmosféru podmořského světa."
   }
  ],
  "mega-drive": [
   {
    "slug": "mega-drive__sonic-hedgehog-1-3",
-   "why": "Rychlost a atituda, kterou Sega stavěla proti Mariovi, se stala vizitkou celé konzole."
+   "why": "Rychlost, smyčky a soundtrack, kterými se Sega vymezila proti Nintendu; bez ní si Mega Drive nepředstavíte."
   },
   {
    "slug": "mega-drive__streets-of-rage-2",
-   "why": "Souboj tří policistů proti gangu ukazuje, proč se právě na Mega Drive beat 'em up dostal na vrchol žánru."
+   "why": "Tři hráči najednou, nářadí jako zbraně a hudba Yuzo Koshiry, kterou fanoušci dodnes remixují."
   },
   {
    "slug": "mega-drive__phantasy-star-iv",
-   "why": "Nejambicióznější JRPG konzole dokazuje, že Mega Drive uměl vyprávět stejně velké příběhy jako konkurenční Super Nintendo."
+   "why": "Ukazuje, že Mega Drive uměl i rozsáhlé japonské RPG, ne jen rychlou akci a plošinovky."
   },
   {
    "slug": "mega-drive__gunstar-heroes",
-   "why": "Debut studia Treasure nabitý nápady na sekundu ukazuje, co dokáže hardware v rukou opravdových mistrů akce."
+   "why": "Nápaditost a šílené tempo, které dodnes definují, co znamená devadesátkový run & gun na Mega Drive."
+  },
+  {
+   "slug": "mega-drive__mortal-kombat-ii",
+   "why": "Bez cenzury Nintenda a s plným rozsahem fatalit; spor s SNES verzí je součástí historie konzole."
   },
   {
    "slug": "mega-drive__shining-force-i-and-ii",
-   "why": "Přístupná tahová taktika s roztomilými jednotkami otevřela žánr strategických RPG i hráčům, kteří se ho jinak báli."
-  },
-  {
-   "slug": "mega-drive__thunder-force-iv",
-   "why": "Plynulé změny rychlosti a hutná paralaxa dokazují, že Mega Drive patřil mezi nejsilnější stroje pro vesmírné střílečky."
+   "why": "Barevná tahová strategie s příběhem, díky které si žánr oblíbili i hráči, kteří jinak strategie neměli rádi."
   },
   {
    "slug": "mega-drive__ecco-dolphin",
-   "why": "Žádné zbraně, jen delfín v tichém oceánu; ukazuje, že konzole zvládla i křehkou, melancholickou atmosféru."
+   "why": "Naprosto odlišný tón než zbytek katalogu Segy; důkaz, že konzole zvládla i klidné, náročné dobrodružství."
   },
   {
-   "slug": "mega-drive__herzog-zwei",
-   "why": "Roky předběhl žánr RTS na PC a dokazuje, že velet armádám šlo na gamepadu stejně dobře jako na klávesnici s myší."
+   "slug": "mega-drive__thunder-force-iv",
+   "why": "Paralaxní scrolling a hudba, kterými Mega Drive dokazoval, že zvládne i nejrychlejší střílečky arkádové éry."
   },
   {
    "slug": "mega-drive__castlevania-bloodlines",
-   "why": "Jediný díl slavné série na této konzoli má rychlejší tempo a temnější tón než jeho sourozenci na Nintendu."
+   "why": "Jediný díl slavné série na této konzoli, a přitom plnohodnotný, gotický a nečekaně brutální."
   },
   {
-   "slug": "mega-drive__nhl-94",
-   "why": "Sportovní hra, kterou fanoušci hokeje dodnes modují a hrají, ukazuje sílu Mega Drive ve sportovních simulacích."
-  },
-  {
-   "slug": "mega-drive__virtua-racing",
-   "why": "Polygonová 3D grafika běžící díky speciálnímu čipu přímo v kazetě předvádí, kam až šla technika konzole natáhnout."
-  },
-  {
-   "slug": "mega-drive__another-world",
-   "why": "Filmové vyprávění bez jediného slova a vektorová grafika Érica Chahiho posunuly, co dokázal ukázat šestnáctibitový hardware."
-  },
-  {
-   "slug": "mega-drive__vectorman",
-   "why": "Předrenderovaná grafika robota z konce éry ukazuje, jak daleko se Mega Drive posunul za sedm let svého života."
-  },
-  {
-   "slug": "mega-drive__streets-of-rage",
-   "why": "Prvotina série teprve nastavila laťku pro slavnější pokračování a definovala zvuk celé značky beat 'em up her."
-  },
-  {
-   "slug": "mega-drive__ristar",
-   "why": "Plošinovka s hrdinou, co chytá nepřátele nataženýma rukama, nabízí originální mechaniku z pozdní, vyspělé éry konzole."
-  },
-  {
-   "slug": "mega-drive__road-rash-ii",
-   "why": "Motorkářské závody, kde soupeře srážíte obuškem z jedoucího stroje, patří mezi nejosobitější značky Mega Drive."
+   "slug": "mega-drive__herzog-zwei",
+   "why": "Předběhl žánr strategií v reálném čase o léta a ukázal, že i gamepad zvládne velení armádě."
   },
   {
    "slug": "mega-drive__landstalker",
-   "why": "Izometrické akční RPG s důmyslnými hádankami ukazuje, že Mega Drive zvládl i promyšlené, pomalejší dobrodružství."
+   "why": "Izometrická perspektiva a skákací hádanky nabízejí úplně jiný pohled na akční RPG než klasická Zelda."
+  },
+  {
+   "slug": "mega-drive__nhl-94",
+   "why": "Sportovní hra, kterou hráči i po desítkách let stále modují a hrají; ukázka, že Sega zvládla i simulace."
+  },
+  {
+   "slug": "mega-drive__another-world",
+   "why": "Filmové vyprávění bez jediného slova textu a vektorová grafika, která předběhla svou dobu."
+  },
+  {
+   "slug": "mega-drive__vectorman",
+   "why": "Předrenderované modely z pozdní éry konzole dokazují, kam až se dala vyždímat 16bitová grafika."
+  },
+  {
+   "slug": "mega-drive__virtua-racing",
+   "why": "Speciální čip zabudovaný v kartridži přinesl domů 3D polygony, které hardware sám zvládnout neměl."
+  },
+  {
+   "slug": "mega-drive__streets-of-rage",
+   "why": "Původní díl, který založil značku a ukázal, jak má vypadat pouliční mlátička na hardwaru Segy."
+  },
+  {
+   "slug": "mega-drive__ristar",
+   "why": "Pozdní plošinovka s neotřelou mechanikou tahání za ruce, dodnes hraná jako skrytý klenot knihovny."
+  },
+  {
+   "slug": "mega-drive__road-rash-ii",
+   "why": "Motorkářské závody, kde soupeře řešíte i obuškem; typický příklad drsnějšího tónu her na Mega Drive."
   }
  ],
  "mobil": [
@@ -1198,65 +1258,73 @@
  "n64": [
   {
    "slug": "n64__super-mario-64",
-   "why": "Titul, se kterým N64 vstoupilo do 3D éry, a proto je nejlogičtější branou na tuto konzoli."
+   "why": "Bez ní by dnešní 3D plošinovky vypadaly jinak – vynalezla jazyk volné kamery a analogového pohybu, na kterém staví hry dodnes."
   },
   {
    "slug": "n64__legend-of-zelda-ocarina-of-time",
-   "why": "Vrchol knihovny N64, na kterém je vidět, k čemu byl hardware navržen — rozlehlé 3D světy a plynulé vyprávění."
+   "why": "Přenesla akční adventuru do 3D tak elegantně, že její systém zaměřování na cíl okopírovala celá generace her po ní."
   },
   {
    "slug": "n64__goldeneye-007",
-   "why": "Ukazuje, že N64 uměla i akční střílečky s gamepadem, ne jen plošinovky a závody."
+   "why": "Dokázala, že střílečka má na gamepadu smysl, a čtyřhráčové zápasy o jednu obrazovku definovaly domácí večírky celé generace."
   },
   {
    "slug": "n64__mario-kart-64",
-   "why": "Bez čtyř ovladačů a téhle hry si večírky s N64 nikdo nedovede představit."
+   "why": "Čtyři hráči na jedné obrazovce a banánové slupky rozhodující o přátelství – kartová série v nejčistší podobě."
   },
   {
    "slug": "n64__banjo-kazooie",
-   "why": "Konkurenční odpověď na Maria od studia Rare ukazuje druhou velkou plošinovkovou školu konzole."
-  },
-  {
-   "slug": "n64__star-fox-64",
-   "why": "Rail střílečka s rumble packem předvádí, jak N64 experimentovala s ovládáním a vibrační zpětnou vazbou."
+   "why": "Ukazuje, jak daleko dokázalo studio Rare dotáhnout grafiku i design, když dostalo N64 naplno pod kontrolu."
   },
   {
    "slug": "n64__legend-of-zelda-majora-s-mask",
-   "why": "Temnější a experimentálnější sourozenec Ocariny ukazuje odvážnější polohu, kterou si N64 mohla dovolit."
+   "why": "Nabízí úplně jinou Zeldu, než by člověk čekal – tíseň z blížícího se konce světa a tři dny, které se pořád opakují."
+  },
+  {
+   "slug": "n64__star-fox-64",
+   "why": "Rumble Pak se díky ní poprvé stal součástí hraní, ne jen hračkou navrch, a rail střílečka ožila přímo v rukou."
   },
   {
    "slug": "n64__super-smash-bros",
-   "why": "Základ žánru, který dodnes definuje, jak vypadá multiplayerová bitka mezi nintendovskými postavami."
+   "why": "Založila celý žánr platformových bojovek a stala se povinnou volbou na každém večírku s víc než jedním gamepadem."
   },
   {
    "slug": "n64__paper-mario",
-   "why": "Jediné JRPG v tomto výběru dokazuje, že N64 zvládla i žánr, který jinak patřil spíš PlayStationu."
+   "why": "Dokazuje, že RPG na N64 nemusí být temné ani epické – stačí papírový svět, ostrý humor a chytrý tahový souboj."
+  },
+  {
+   "slug": "n64__mario-party",
+   "why": "Založila žánr konzolových párty her a proslavila se tím, že u ní kostka a minihry lámaly gamepady i kamarádství."
   }
  ],
  "nds": [
   {
    "slug": "nds__new-super-mario-bros",
-   "why": "Dokázala, že klasická 2D plošinovka dovede prodávat konzoli i patnáct let po nástupu 3D Maria."
-  },
-  {
-   "slug": "nds__nintendogs",
-   "why": "Ukázala, k čemu je dotykový displej dobrý jinak než jen na ovládání menu, a přitáhla k DS publikum mimo hráče."
+   "why": "Klasické mariovské skákání v moderním kabátě je nejpřirozenější branou do celé knihovny DS her."
   },
   {
    "slug": "nds__mario-kart-ds",
-   "why": "Online závody proti komukoli na světě poprvé změnily, co se od kapesní konzole vůbec čekávalo."
-  },
-  {
-   "slug": "nds__professor-layton-and-curious-village",
-   "why": "Odstartovala sérii, která proměnila ruční psaní na dotykovém displeji v samostatný hádankový žánr."
+   "why": "Ukazuje, jak dobře se DS hodil pro multiplayer nablízko i na dálku, a zůstává jedním z nejzábavnějších závodů na handheldu."
   },
   {
    "slug": "nds__pokemon-heartgold-soulsilver",
-   "why": "Návrat do Johto s pokémonem věrně pochodujícím za hráčem patří mezi nejmilovanější remaky celé série."
+   "why": "Zastupuje sérii, jež definovala DS jako přenosnou RPG konzoli, a patří k nejoblíbenějším dílům mezi fanoušky."
   },
   {
    "slug": "nds__legend-of-zelda-phantom-hourglass",
-   "why": "Meč i loď se poprvé ovládají výhradně stylusem, a dokazuje se tím, že se to dá udělat s citem."
+   "why": "Ukazuje, jak se i velká akční adventura dá ovládat čistě stylusem, od tažení meče po kreslení trasy na mapě."
+  },
+  {
+   "slug": "nds__nintendogs",
+   "why": "Přivedla ke konzoli hráče, kteří jinak videohry nehráli, a dodnes je nejpřímější ukázkou, k čemu byl dotykový displej DS."
+  },
+  {
+   "slug": "nds__metroid-prime-hunters",
+   "why": "Dokazuje, že si DS poradil i s akční střílečkou, a nabízí ovládání mířidly, na které handheldy dodnes nesáhly."
+  },
+  {
+   "slug": "nds__professor-layton-and-curious-village",
+   "why": "Spustila sérii hádankových adventur, které se staly synonymem DS, a funguje skvěle i jako oddechová hra na pár minut denně."
   }
  ],
  "neogeo": [
@@ -1283,64 +1351,76 @@
  ],
  "nes": [
   {
-   "slug": "nes__super-mario-bros",
-   "why": "Tahle hra byla pro miliony první důvod koupit NES — bez ní by konzole možná vůbec neuspěla."
+   "slug": "nes__super-mario-bros-3",
+   "why": "Mapa světa, kostým mývala a bezchybný level design z ní dělají pro mnoho hráčů vrchol žánru na téhle konzoli."
   },
   {
    "slug": "nes__legend-of-zelda",
-   "why": "Ukázala, že kazeta může uložit rozehranou hru, a otevřela svět, kterým šlo procházet v libovolném pořadí."
+   "why": "Baterie na uložení rozehrané hry a svoboda zkoumat mapu v libovolném pořadí byly na rok 1986 revoluční."
   },
   {
-   "slug": "nes__super-mario-bros-3",
-   "why": "Dorazila pozdě v životě NES a ukázala, kam až se dal osmibitový hardware ještě dotáhnout."
+   "slug": "nes__super-mario-bros",
+   "why": "Level 1-1 zůstává učebnicovou ukázkou herního designu a základním kamenem celého žánru plošinovek."
   },
   {
    "slug": "nes__metroid",
-   "why": "Místo lineárního postupu levelů nabídla bludiště plné slepých uliček a schovaných zkratek, neobvyklé na svou dobu."
+   "why": "Bez mapy a nápovědy nutí kreslit si vlastní poznámky; atmosféra izolace, kterou žánr dodnes napodobuje."
   },
   {
    "slug": "nes__mega-man-2",
-   "why": "Volba pořadí bossů dala hráči pocit kontroly nad obtížností, což byl na NES vzácný luxus."
-  },
-  {
-   "slug": "nes__final-fantasy",
-   "why": "Přinesla na Západ propracovaný systém povolání a soubojů, kterým se pak inspirovaly desítky dalších her."
-  },
-  {
-   "slug": "nes__contra",
-   "why": "Souběžná kooperace dvou hráčů na jedné obrazovce ukázala, jak společenskou zábavou dokázal NES být."
-  },
-  {
-   "slug": "nes__castlevania",
-   "why": "Pevné, téměř rytmické ovládání bičem donutilo hráče memorovat každý skok, což se stalo vzorem pro celou sérii."
+   "why": "Osm bossů v libovolném pořadí a jejich zbraně jako kámen-nůžky-papír definovaly vzorec celé série."
   },
   {
    "slug": "nes__tetris",
-   "why": "Jednoduchá pravidla a nekonečná znovuhratelnost z ní udělaly ideální ukázku, proč jsou logické hry na osmibitech nesmrtelné."
+   "why": "Padající kostičky proměnila v jeden z nejhratelnějších portů Tetrisu vůbec, jednoduchý na pochopení a těžký přestat hrát."
   },
   {
-   "slug": "nes__punch-out",
-   "why": "Souboj je hádanka gest a načasování, ne síla pěstí, takže funguje stejně dobře i po desítkách let."
+   "slug": "nes__contra",
+   "why": "Kooperace pro dva hráče a neúprosná obtížnost z ní udělaly synonymum pro celý žánr běhej a střílej."
+  },
+  {
+   "slug": "nes__castlevania",
+   "why": "Bič proti hordě klasických hororových monster a nemilosrdné skákání položily základ celé série."
+  },
+  {
+   "slug": "nes__final-fantasy",
+   "why": "Sestavení party ze čtyř hrdinů podle vlastního výběru povolání a tahové souboje ukázaly Západu, co japonské RPG umí."
   },
   {
    "slug": "nes__duck-hunt",
-   "why": "Spolu se Zapperem proměnila obývák v střelnici a řadě hráčů dala první vzpomínku na herní periferii."
+   "why": "Mířidlo Zapper a posměšný pes při každém minutí udělaly z lovu kachen jeden z nejvzpomínanějších zážitků éry."
   },
   {
-   "slug": "nes__excitebike",
-   "why": "Obsahovala editor tratí, takže si hráči mohli stavět vlastní závody dávno předtím, než to bylo běžné."
-  },
-  {
-   "slug": "nes__double-dragon",
-   "why": "Domácí verze musela oříznout možnosti arkádového originálu, přesto na NES založila žánr kooperativních mlátiček."
-  },
-  {
-   "slug": "nes__gradius",
-   "why": "Systém postupného vylepšování lodi tu hráče nutil riskovat sbírání kapslí uprostřed palby, což definovalo celý žánr."
+   "slug": "nes__kirby-s-adventure",
+   "why": "Přichází v posledních letech NES a ukazuje, kam až šlo dotáhnout starou osmibitovou grafiku."
   },
   {
    "slug": "nes__metal-gear",
-   "why": "Rádiové rozhovory a plížení místo střílení byly na osmibitové konzoli nečekaně ambiciózní narativní tah."
+   "why": "Rádiové rozhovory a plížení místo střelby přinesly na NES úplně jiný typ napětí než tehdejší akce."
+  },
+  {
+   "slug": "nes__double-dragon",
+   "why": "Kooperace pro dva hráče a pěstní souboje proti gangu z ní udělaly vzor pro celou generaci mlátiček na NES."
+  },
+  {
+   "slug": "nes__gradius",
+   "why": "Riskantní systém nabíjení vylepšení místo okamžitého sbírání bonusů dal střílečkám novou strategickou vrstvu."
+  },
+  {
+   "slug": "nes__punch-out",
+   "why": "Každý soupeř má vlastní rytmus a slabinu, takže box tu funguje spíš jako soubor hádanek než síla pěstí."
+  },
+  {
+   "slug": "nes__excitebike",
+   "why": "Editor tratí patřil v roce 1984 k naprosté raritě a dával hráčům nástroj stavět si vlastní výzvy."
+  },
+  {
+   "slug": "nes__tecmo-bowl",
+   "why": "Zúžený výběr hráčů a herních situací udělal z komplikovaného sportu čitelnou a rychlou zábavu na NES."
+  },
+  {
+   "slug": "nes__micro-mages",
+   "why": "Vznikla o desítky let později a dokazuje, že na starém hardwaru šlo naprogramovat i čtyřhráčovou kooperaci."
   }
  ],
  "ngpc": [
@@ -1546,27 +1626,27 @@
  "pc-engine": [
   {
    "slug": "pc-engine__bonk-s-adventure",
-   "why": "Slouží jako oficiální maskot konzole a ukazuje vlastní odpověď na Maria a Sonika — plošinovku, kde nepřátele porážíte hlavou místo skokem."
+   "why": "Coby oficiální maskot konzole ukazuje, jak vypadala Hudsonova domácí odpověď na Maria a Sonika."
   },
   {
    "slug": "pc-engine__r-type",
-   "why": "Ukazuje, proč se z konzole stal ráj pro shmupy — přesný port arkádové legendy s modulem Force naplno využívá grafický výkon stroje."
+   "why": "Patří k definujícím střílečkám osmdesátek a na PC Engine dokazuje, jak věrně dokázal stroj přenést arkádovou předlohu domů."
   },
   {
    "slug": "pc-engine__castlevania-rondo-of-blood",
-   "why": "Patřila mezi tituly, kvůli kterým si fanoušci konzoli dováželi ze zahraničí — CD formát dovolil animovaná intra a hudbu, jaké kartušové soupeře nezvládaly."
+   "why": "Na Západě byla dlouho jen legendou z importů, než fanoušci zjistili, že jde možná o nejlepší klasickou Castlevanii vůbec."
   },
   {
    "slug": "pc-engine__ys-book-i-and-ii",
-   "why": "Předvádí, k čemu bylo CD-ROM příslušenství doopravdy dobré — plně nadabované RPG s orchestrální hudbou v době, kdy to jiné konzole neuměly."
-  },
-  {
-   "slug": "pc-engine__devil-s-crush",
-   "why": "Digitální pinball tu dostal fantasy a okultní motivy, jaké na skutečném stole nikdy neuvidíte, a hraje se stejně návykově i dnes."
+   "why": "Patří mezi první CD hry s plným dabingem a orchestrální hudbou, čímž tehdy ukázala, k čemu je formát CD-ROM vlastně dobrý."
   },
   {
    "slug": "pc-engine__snatcher",
-   "why": "Dokazuje, že konzole neuměla jen akci — mluvené dialogy a filmová atmosféra CD verze z ní dělaly adventuru s dosahem daleko přes svou dobu."
+   "why": "Kyberpunková detektivka Hidea Kojimy dokazuje, že PC Engine CD zvládal i filmové, vypravěčsky náročné zážitky."
+  },
+  {
+   "slug": "pc-engine__devil-s-crush",
+   "why": "Digitální stůl plný příšer, gejzírů a efektů patří dodnes k nejlepším videoherním pinballům, jaké kdy vznikly."
   }
  ],
  "pc-modern": [
@@ -1690,83 +1770,83 @@
  "playstation": [
   {
    "slug": "playstation__final-fantasy-vii",
-   "why": "Přivedla miliony hráčů mimo Japonsko k žánru JRPG a proměnila konzoli v symbol devadesátkové popkultury."
+   "why": "Titul, který přivedl miliony hráčů mimo Japonsko k JRPG a proměnil PlayStation v místo pro velké příběhy."
   },
   {
    "slug": "playstation__metal-gear-solid",
-   "why": "Filmová režie, kamera a napětí dokázaly, že konzole zvládne vyprávět příběh jako velký film."
-  },
-  {
-   "slug": "playstation__resident-evil-2",
-   "why": "Definuje survival horor devadesátek napětím z omezené munice a klaustrofobními chodbami policejní stanice."
-  },
-  {
-   "slug": "playstation__gran-turismo",
-   "why": "Ukázala, že konzole zvládne i seriózní jízdní simulaci, ne jen arkádové sklouzávání do zatáček."
-  },
-  {
-   "slug": "playstation__tekken-3",
-   "why": "Nejvyladěnější bojovka generace s plynulým ovládáním, které dodnes drží jako referenční standard."
+   "why": "Ukázal, že konzole zvládne filmové vyprávění a plížení místo přímé palby, a nastavil laťku pro celý žánr stealth akcí."
   },
   {
    "slug": "playstation__crash-bandicoot-1-3",
-   "why": "Ukazuje, jak dobře konzole zvládá svižnou 3D plošinovkovou akci, a stala se její neformální tváří."
+   "why": "Trojice plošinovek, díky které měla konzole vlastní tvář a dokazovala, že 3D skákačky mohou být přesné jako ty 2D."
+  },
+  {
+   "slug": "playstation__resident-evil-2",
+   "why": "Definuje, jak napjatě dokáže survival horor na PlayStation působit díky omezené munici a stísněným prostorům policejní stanice."
+  },
+  {
+   "slug": "playstation__gran-turismo",
+   "why": "Přesvědčil hráče, že závodní simulace patří na konzoli stejně jako na PC, a stovkami aut ukázal sílu hardwaru."
+  },
+  {
+   "slug": "playstation__tekken-3",
+   "why": "Bojovka, u které fanoušci žánru na PlayStation zůstávali celé hodiny kvůli přesnému ovládání a hloubce rosteru."
   },
   {
    "slug": "playstation__castlevania-symphony-of-night",
-   "why": "Prozkoumávání propleteného zámku s RPG prvky učinilo z konzole domov nekonečně znovuhratelných světů."
-  },
-  {
-   "slug": "playstation__tomb-raider",
-   "why": "Odvážné 3D prostředí s hádankami v prostoru předznamenalo, kam se akční adventury na konzoli vydají."
-  },
-  {
-   "slug": "playstation__vagrant-story",
-   "why": "Temný, dospělý tón a propracovaný soubojový i craftingový systém patří mezi nejvíc podceňované klenoty knihovny."
-  },
-  {
-   "slug": "playstation__silent-hill",
-   "why": "Místo krve za rohem vsadila na psychologický neklid a dokázala, že horor může být tišší a děsivější."
-  },
-  {
-   "slug": "playstation__worms-armageddon",
-   "why": "Skvěle funguje jako večírková hra pro víc hráčů u jedné televize, plná chaosu a černého humoru."
-  },
-  {
-   "slug": "playstation__time-crisis",
-   "why": "Pedál pro kryt proměnil klasickou střílečku na kolejích v napínavý souboj s vlastním rytmem."
-  },
-  {
-   "slug": "playstation__spyro-dragon-1-3",
-   "why": "Nabízí pohodovou alternativu ke Crashovi, s otevřenějšími levely a příjemným tempem pro mladší i starší hráče."
+   "why": "Klenot, který spojil akční plošinovku s průzkumem propojeného světa a dal jméno celému hernímu žánru."
   },
   {
    "slug": "playstation__chrono-cross",
-   "why": "Desítky hratelných postav a paralelní světy ukazují, jak ambiciózní dokázala být pozdní éra konzole."
+   "why": "Duchovní pokračování Chrono Trigger dokazuje, jak daleko dokázalo JRPG na konci éry PS1 posunout vyprávění i hudbu."
+  },
+  {
+   "slug": "playstation__tomb-raider",
+   "why": "Hra, která proslavila akční 3D adventuru se skákáním po hrobkách a udělala z Lary Croft ikonu celé generace."
+  },
+  {
+   "slug": "playstation__silent-hill",
+   "why": "Ukazuje jinou stránku PlayStation hororu než Resident Evil - psychologický neklid místo přímé konfrontace se zombiemi."
+  },
+  {
+   "slug": "playstation__spyro-dragon-1-3",
+   "why": "Nabízí vedle Crashe měkčí, prozkoumávací pojetí 3D plošinovky, kde stačí létat mezi ostrovy a sbírat drahokamy."
+  },
+  {
+   "slug": "playstation__vagrant-story",
+   "why": "Ukazuje temnější, dospělejší tvář Squaresoftu s propracovaným soubojovým a craftingovým systémem mimo tradiční JRPG šablonu."
+  },
+  {
+   "slug": "playstation__worms-armageddon",
+   "why": "Tahová destrukce s bizarní výzbrojí červů dokazuje, že PlayStation uměla i chytrou, humorem nabitou multiplayerovou zábavu."
+  },
+  {
+   "slug": "playstation__time-crisis",
+   "why": "S pistolí a pedálem přinesla arkádové napětí přímo domů a proslavila light-gun žánr na konzoli."
   },
   {
    "slug": "playstation__tony-hawk-s-pro-skater-2",
-   "why": "Bezchybný herní loop skateboardingu ukázal, že sportovní hra může být stejně návyková jako akce."
+   "why": "Skateboardová hra, která přepsala pravidla sportovních titulů a dodnes drží pozici mezi nejlepšími hrami platformy."
   },
   {
    "slug": "playstation__command-and-conquer-red-alert",
-   "why": "Dokazuje, že strategie v reálném čase se dá hrát pohodlně i gamepadem, ne jen myší a klávesnicí."
+   "why": "Dokazuje, že i strategie v reálném čase, obvykle doména PC, se dala na konzoli zvládnout ovladačem beze ztráty hloubky."
   },
   {
    "slug": "playstation__parappa-rapper",
-   "why": "Založila rytmický žánr na konzolích a ukázala, jak hravě lze propojit hudbu s jednoduchým ovládáním."
+   "why": "Založil rytmický žánr, jak ho známe dnes, a jeho plochý vizuální styl je nezaměnitelný dodnes."
   },
   {
    "slug": "playstation__armored-core",
-   "why": "Nabízí hloubku stavebnice pro fanoušky mechů, kde vlastní design stroje rozhoduje o taktice bitvy."
+   "why": "Umožňuje sestavit vlastního mecha z desítek dílů a ukazuje mechanickou hloubku, kterou From Software proslavilo dodnes."
   },
   {
    "slug": "playstation__broken-sword-shadow-of-templars",
-   "why": "Klasická point-and-click adventura dokazuje, že pomalejší vyprávěcí žánry si na konzoli našly místo."
+   "why": "Ukazuje, že klasická point-and-click adventura obstála i na konzoli díky poutavému příběhu a atmosféře evropských měst."
   },
   {
    "slug": "playstation__wipeout-2097",
-   "why": "Antigravitační rychlost a elektronická hudba dodaly konzoli výrazně futuristickou, klubovou identitu."
+   "why": "Antigravitační závody se stylovou elektronickou hudbou definovaly, jak moderně a rychle dokázala PlayStation vypadat."
   }
  ],
  "ps-vita": [
@@ -1850,165 +1930,165 @@
  "ps2": [
   {
    "slug": "ps2__grand-theft-auto-san-andreas",
-   "why": "Ukazuje, jak daleko dokázala PS2 dotáhnout otevřený svět — od venkova po metropoli v jedné hratelné mapě."
+   "why": "Nejambicióznější otevřený svět celé generace PS2 a zároveň nejprodávanější hra na konzoli vůbec."
   },
   {
    "slug": "ps2__god-of-war",
-   "why": "Definoval žánr filmové akce s pevnou kamerou, který na konzoli okopírovala celá další generace her."
-  },
-  {
-   "slug": "ps2__final-fantasy-x",
-   "why": "Nejpřístupnější vstup do japonských RPG na této konzoli díky lineárnímu příběhu a jasně čitelnému soubojovému systému."
+   "why": "Ukazuje technické hranice PS2 na konci její životnosti — masivní souboje s bosy bez přestávek v akci."
   },
   {
    "slug": "ps2__shadow-of-colossus",
-   "why": "Ukazuje, že PS2 zvládla i minimalistický design — žádní běžní nepřátelé, jen obří bosové a prázdná krajina mezi nimi."
+   "why": "Jedinečný umělecký experiment, který dokazuje, že PS2 uměla i tichou, minimalistickou hru bez zaplněného HUD."
+  },
+  {
+   "slug": "ps2__final-fantasy-x",
+   "why": "Vstupní brána do JRPG pro celou generaci hráčů díky prvnímu plně namluvenému příběhu série."
   },
   {
    "slug": "ps2__metal-gear-solid-3-snake-eater",
-   "why": "Dokazuje, že stealth na PS2 uměl vyprávět stejně silný příběh jako přímočará akce, jen tišeji."
-  },
-  {
-   "slug": "ps2__gran-turismo-4",
-   "why": "Zástupce simulační strany závodů na PS2, kde jde víc o sbírání a ladění aut než o samotné vítězství."
+   "why": "Vrchol stealth žánru na konzoli — džungle, maskování a napětí, které PS2 zvládala bezkonkurenčně."
   },
   {
    "slug": "ps2__resident-evil-4",
-   "why": "Změnil pravidla akčních her natolik, že jeho kameru přes rameno převzaly desítky pozdějších titulů."
-  },
-  {
-   "slug": "ps2__kingdom-hearts-ii",
-   "why": "Spojuje japonské RPG se západní pohádkovou licencí Disney tak neotřele, že se to nikde jinde nezopakovalo."
-  },
-  {
-   "slug": "ps2__persona-4",
-   "why": "Nejlépe stárnoucí JRPG z celého katalogu — přístupné i hráčům, kteří k PS2 sahají poprvé až dnes."
+   "why": "Přepsala pravidla akčního hororu kamerou přes rameno a ovlivnila celý žánr na další dekádu."
   },
   {
    "slug": "ps2__ico",
-   "why": "Ukazuje uměleckou stranu konzole; hra postavená na tichu a emocích místo souboje a textu na obrazovce."
+   "why": "Minimalistický protipól velkých akcí knihovny PS2 — jen dva hrdinové, jedno gesto a tichý příběh."
+  },
+  {
+   "slug": "ps2__kingdom-hearts-ii",
+   "why": "Nejpropracovanější soubojový systém série díky reakčním příkazům, ideální vstup do světa Kingdom Hearts."
   },
   {
    "slug": "ps2__silent-hill-2",
-   "why": "Dokazuje, že PS2 zvládla i pomalý psychologický horor, který straší emocemi místo laciných leknutí."
+   "why": "Psychologický horor, který dokazuje, že PS2 zvládala i pomalé, atmosférické tempo bez akčních scén."
+  },
+  {
+   "slug": "ps2__gran-turismo-4",
+   "why": "Nejobsáhlejší závodní simulace generace, ukazující grafické i technické stropy konzole."
+  },
+  {
+   "slug": "ps2__persona-4",
+   "why": "Labutí píseň PS2 — spojení JRPG a školního simulátoru, které dodnes definuje sérii Persona."
   },
   {
    "slug": "ps2__tekken-5",
-   "why": "Reprezentuje bojové hry na PS2 v době, kdy měl žánr už pevná pravidla a hluboký roster postav."
+   "why": "Nejvyváženější bojovka série a pilíř turnajové scény celé éry PS2."
   },
   {
    "slug": "ps2__burnout-3-takedown",
-   "why": "Ukazuje arkádovou, adrenalinovou stranu závodění, protikladnou k pečlivému realismu Gran Turisma."
+   "why": "Arkádové závody v čisté podobě — bourání soupeřů je tu herní mechanika, ne trest."
   },
   {
    "slug": "ps2__ratchet-and-clank",
-   "why": "Zástupce plošinovek se zbraněmi a akcí, žánru, který PS2 zvládala stejně dobře jako předchozí generace konzolí."
+   "why": "Ukázka, jak dobře PS2 zvládala plynulé 3D plošinovky plné zbraní a černého humoru."
   },
   {
    "slug": "ps2__guitar-hero-ii",
-   "why": "Ukazuje periferii, která PS2 přinesla do obýváků — plastovou kytaru, s níž hra dává úplně jiný smysl."
+   "why": "Odstartovala fenomén plastových nástrojů, který na PS2 zaplnil obývací pokoje po celém světě."
   },
   {
    "slug": "ps2__timesplitters-2",
-   "why": "Zástupce střílečky z pohledu první osoby na konzoli, kde tenhle žánr tehdy obvykle patřil PC."
+   "why": "Nejlepší split-screen FPS generace pro parádní večery s kamarády u jedné obrazovky."
   },
   {
    "slug": "ps2__ssx-tricky",
-   "why": "Ukazuje, jak PS2 zvládala čistě arkádový sportovní žánr postavený na stylu, ne na realismu."
+   "why": "Extrémní arkádový snowboarding s přehnanými triky ukazuje odlehčenější stránku knihovny PS2."
   },
   {
    "slug": "ps2__gradius-v",
-   "why": "Zástupce klasického shoot 'em upu, žánru z osmibitové éry, kterému PS2 dala hardware pro velkolepé finále."
+   "why": "Návrat klasického shoot 'em upu z rukou Treasure dokazuje, že PS2 uměla i staromódní 2D akci."
   },
   {
    "slug": "ps2__katamari-damacy",
-   "why": "Ukazuje experimentální, nezávislejší tvář katalogu vedle velkých akčních blockbusterů kolem sebe."
+   "why": "Originální, ničím nezatížená hříčka nabízí protiváhu ke všem velkým akčním eposům na PS2."
   },
   {
    "slug": "ps2__disgaea-hour-of-darkness",
-   "why": "Zástupce tahové taktické RPG, žánru s obrovskou hloubkou pro hráče, kteří chtějí stovky hodin obsahu."
+   "why": "Bezedně hluboká tahová strategie pro hráče, kteří chtějí z PS2 vytěžit stovky hodin hraní."
   }
  ],
  "ps3": [
   {
    "slug": "ps3__uncharted-2-among-thieves",
-   "why": "Definuje filmovou akční adventuru své generace a je hlavním důvodem, proč si lidé PS3 vůbec pořizovali."
+   "why": "Filmová akrobatická akce s krytovou střelbou, která ukázala, co PS3 dokáže v nejlepší formě."
   },
   {
    "slug": "ps3__demon-s-souls",
-   "why": "Byla první, kým FromSoftware vyzkoušelo recept, který dnes formuje desítky her nazývaných soulslike po celém světě."
+   "why": "Tady začal celý žánr soulslike, a bez téhle exkluzivity by dnešní akční RPG vypadala jinak."
   },
   {
    "slug": "ps3__last-of-us",
-   "why": "Patří mezi nejceněnější příběhové hry generace a ukazuje, jak daleko se PS3 exkluzivity dostaly na konci životnosti."
+   "why": "Jeden z nejsilnějších příběhů generace dokázal, že konzole umí i tichou, lidskou dramatiku."
   },
   {
    "slug": "ps3__god-of-war-iii",
-   "why": "Uzavírá Kratosovu trilogii v technicky nejokázalejším podání, jaké PS3 v žánru hack and slash nabídla."
+   "why": "Technický vrchol trilogie naplno využil výkon PS3 v soubojích s obřími bossy jako Poseidon."
   },
   {
    "slug": "ps3__persona-5",
-   "why": "I na sklonku životnosti konzole ukázala, že styl a hratelnost JRPG dokážou předčit čistý grafický výkon."
+   "why": "Pozdní klenot dokazuje, že i na sklonku životnosti konzole přicházely zásadní hry."
   },
   {
    "slug": "ps3__journey",
-   "why": "Ukazuje jinou stránku PS3 než akční trháky – tichý, emocemi nabitý zážitek, který se stal symbolem umělecké ambice generace."
+   "why": "Krátký, beze slov sdílený zážitek s náhodným spoluhráčem, symbol umělecké ambice PS3."
   },
   {
    "slug": "ps3__metal-gear-solid-4-guns-of-patriots",
-   "why": "Uzavírá dekády starou ságu exkluzivně na PS3 a patří k technicky nejambicióznějším stealth hrám generace."
+   "why": "Poslední velká kapitola stealth ságy exkluzivně pro PS3, plná odkazů a napětí ze zakončení."
   },
   {
    "slug": "ps3__red-dead-redemption",
-   "why": "Otevřený svět starého západu patří k nejpropracovanějším a nejpamátnějším, jaké tahle generace konzolí nabídla."
+   "why": "Otevřený, umírající Divoký západ patří mezi nejambicióznější tituly celé generace."
   },
   {
    "slug": "ps3__heavy-rain",
-   "why": "Ukazuje, jak dalece dokázala PS3 posunout interaktivní vyprávění směrem k filmovému, větvenému příběhu."
+   "why": "Interaktivní thriller, kde rozhodnutí hráče mění osud postav, ukázal jinou cestu vyprávění."
   },
   {
    "slug": "ps3__grand-theft-auto-v",
-   "why": "Uzavírá generaci PS3 nejrozsáhlejším otevřeným světem série a zůstává jedním z nejhranějších titulů vůbec."
+   "why": "Obří otevřený svět se třemi hrdiny je technickým i obsahovým vrcholem generace PS3."
   },
   {
    "slug": "ps3__elder-scrolls-v-skyrim",
-   "why": "Nabízí stovky hodin volného průzkumu Severu a patří k titulům, které na PS3 nejvíc pohltily hráče do vlastního světa."
+   "why": "Rozlehlé fantasy RPG nabídlo na konzoli stovky hodin volného průzkumu draky sužované provincie."
   },
   {
    "slug": "ps3__l-noire",
-   "why": "Detektivní práce tu stojí na čtení výrazů ve tváři podezřelých, což byl na tehdejších konzolích unikátní přístup k vyprávění."
+   "why": "Detektivní adventura proslulá technologií MotionScan, která poprvé přenesla mimiku herců do hry."
   },
   {
    "slug": "ps3__bioshock",
-   "why": "Patří k nejvýraznějším střílečkám generace díky prostředí a příběhu, který jde hlouběji než většina akčních her."
+   "why": "Podmořská antiutopie s příběhem o hranicích svobody patří k myšlenkovým vrcholům generace."
   },
   {
    "slug": "ps3__gran-turismo-5",
-   "why": "Patří k technicky nejambicióznějším závodním simulátorům generace a představuje značku, se kterou je Sony spojováno dodnes."
+   "why": "Vlajková závodní simulace Sony s přes tisícovkou vozů dokládá technickou preciznost platformy."
   },
   {
    "slug": "ps3__call-of-duty-4-modern-warfare",
-   "why": "Nastartovala vlnu moderních vojenských střílenic, které pak dominovaly herní scéně po zbytek celé generace."
+   "why": "Přesunula sérii do současnosti a nastavila laťku pro celý žánr válečných střílíeček na konzolích."
   },
   {
    "slug": "ps3__rock-band-3",
-   "why": "Party formát s plastovými nástroji tu dosáhl svého technického maxima, než hudební žánr na čas zmizel z výsluní."
+   "why": "Vrchol éry plastových nástrojů ukazuje, že PS3 hostila naplno i hudební žánr."
   },
   {
    "slug": "ps3__littlebigplanet",
-   "why": "Proměnila konzoli v nástroj pro tvorbu vlastních her, ne jen v zařízení na jejich hraní."
+   "why": "Tvůrčí plošinovka s filozofií Play, Create, Share je symbolem kreativní stránky konzole."
   },
   {
    "slug": "ps3__portal-2",
-   "why": "Dokazuje, že i čistě mozková hádanka může na PS3 fungovat jako jeden z nejlépe hodnocených titulů generace."
+   "why": "Důmyslné pokračování puzzle klasiky patří mezi nejlépe hodnocené hry celé generace."
   },
   {
    "slug": "ps3__burnout-paradise",
-   "why": "Ukázala, jak dobře můžou arkádové závody fungovat bez tratí a časomíry, jen s volným městem k prozkoumání."
+   "why": "Arkádové závody v jednom otevřeném městě spojily rychlost s destrukcí bez nutnosti volit trať."
   },
   {
    "slug": "ps3__dark-souls",
-   "why": "Dotáhla nápad předchůdce do žánru, který dnes definuje desítky her po celém světě, a zůstává jeho nejvlivnějším příkladem."
+   "why": "Propojený svět bez loadingů prohloubil odkaz Demon's Souls a definoval moderní pojetí obtížnosti."
   }
  ],
  "ps4": [
@@ -2177,44 +2257,52 @@
  ],
  "psp": [
   {
-   "slug": "psp__monster-hunter-freedom-unite",
-   "why": "Kooperativní lov přes ad-hoc síť z ní udělal v Japonsku společenský fenomén a dodnes ukazuje, proč se PSP nosilo všude s sebou."
-  },
-  {
-   "slug": "psp__patapon",
-   "why": "Buben místo joysticku a armáda poslouchající rytmus – originál, který ukázal, že si PSP troufne i na úplně nový žánr."
+   "slug": "psp__metal-gear-solid-peace-walker",
+   "why": "Nese váhu plnohodnotného dílu série, s náborem vojáků a kooperativními misemi, které ukázaly, kam může přenosný Metal Gear dojít."
   },
   {
    "slug": "psp__god-of-war-chains-of-olympus",
-   "why": "Ready at Dawn na ní postavili prequel, jenž se akcí i grafikou směle měří s velkými konzolovými díly série."
-  },
-  {
-   "slug": "psp__lumines",
-   "why": "Hudba a padající bloky splývají v jeden hypnotický celek, který se stal neoficiální vlajkovou lodí launche konzole."
-  },
-  {
-   "slug": "psp__gta-liberty-city-stories",
-   "why": "Celé živé město v kapse dokázalo, že open-world akci nemusí definovat jen domácí konzole, a nastavilo laťku dalším portům."
-  },
-  {
-   "slug": "psp__final-fantasy-tactics-war-of-lions",
-   "why": "Přepracovaná klasika s novým překladem a přidanými scénami se stala definitivní verzí tahové taktiky pro celou generaci."
-  },
-  {
-   "slug": "psp__wipeout-pure",
-   "why": "Startovní titul, který antigravitační rychlostí a hudbou hned od spuštění ukázal, co grafický výkon PSP zvládne."
-  },
-  {
-   "slug": "psp__metal-gear-solid-peace-walker",
-   "why": "Budování základny, kooperativní mise a příběh na úrovni hlavních dílů posunuly stealth sérii do plnohodnotné kapesní podoby."
-  },
-  {
-   "slug": "psp__locoroco",
-   "why": "Nakláníš celý svět místo postavičky – fyzikální plošinovka, která si vystačí s čistou radostí místo tvrdé výzvy."
+   "why": "Ready at Dawn dokázali, že brutální souboje a filmová režie Kratova příběhu obstojí i na malé obrazovce beze slev."
   },
   {
    "slug": "psp__crisis-core-final-fantasy-vii",
-   "why": "Prequel k FF7 dal Zacku Fairovi vlastní příběh a udělal z handheldu místo, kde se odehrává klíčová kapitola ságy."
+   "why": "Vypráví osud Zacka Faira, který dává smysl celému příběhu Final Fantasy VII, a patří k nejsilnějším RPG na konzoli."
+  },
+  {
+   "slug": "psp__gta-liberty-city-stories",
+   "why": "Dokazuje, že rozlehlé otevřené město a svoboda série GTA se vejdou do kapesní konzole beze ztráty ambice."
+  },
+  {
+   "slug": "psp__monster-hunter-freedom-unite",
+   "why": "Desítky hodin lovu obřích monster a spolupráce s přáteli přes ad-hoc síť z ní udělaly definiční handheldový zážitek."
+  },
+  {
+   "slug": "psp__patapon",
+   "why": "Spojuje rytmickou hru s velením armádě do originálního konceptu, jaký jinde na žádné jiné konzoli nenajdete."
+  },
+  {
+   "slug": "psp__kingdom-hearts-birth-by-sleep",
+   "why": "Tři propojené příběhy Terry, Aquy a Ventuse patří k nejambicióznějším RPG, jaké kdy na PSP vyšlo."
+  },
+  {
+   "slug": "psp__locoroco",
+   "why": "Ovládání nakláněním celého světa místo postavičky je nápad tak čerstvý, že ho nenajdete na žádné jiné platformě."
+  },
+  {
+   "slug": "psp__final-fantasy-tactics-war-of-lions",
+   "why": "Přepracovaná grafika, nový překlad i animované scény dělají z téhle verze nejlepší způsob, jak taktiku poznat."
+  },
+  {
+   "slug": "psp__persona-3-portable",
+   "why": "Přidává hratelnou hrdinku a nabízí ideální vstupní bod do moderní Persony s jejím návykovým střídáním školy a bitev."
+  },
+  {
+   "slug": "psp__lumines",
+   "why": "Padající bloky splývají s elektronickou hudbou tak dokonale, že se staly nejcitovanějším důkazem síly PSP jako herního zařízení."
+  },
+  {
+   "slug": "psp__wipeout-pure",
+   "why": "Coby jeden z launchových titulů definoval, jak rychlá a vizuálně čistá může kapesní konzole vlastně být."
   }
  ],
  "psvr": [
@@ -2294,73 +2382,77 @@
  "saturn": [
   {
    "slug": "saturn__panzer-dragoon-saga",
-   "why": "Bitevní systém spojující tahovou strategii s pohybem po kolejnici ukazuje, jak originálně dokázala platforma pojmout žánr JRPG."
+   "why": "Bitva o poslední kopie tohoto RPG na dračím hřbetě z něj udělala jeden z nejdražších sběratelských kousků historie konzolí."
   },
   {
    "slug": "saturn__daytona-usa",
-   "why": "Coby launchový titul definovala rychlost a arkádový pocit ze závodění, který měl Saturnu ukázat jeho grafické možnosti."
-  },
-  {
-   "slug": "saturn__guardian-heroes",
-   "why": "Spojení mlátičky s propracovaným RPG vývojem postav a větvenými cestami předvádí nápaditost studia Treasure na tomto hardwaru."
-  },
-  {
-   "slug": "saturn__virtua-fighter-2",
-   "why": "Domácí verze arkádového hitu prokázala, že Saturn zvládá 3D bojovky s plynulostí, kterou konkurence tehdy nenabízela."
+   "why": "Arkádový launch titul, který měl divákům dokázat, že domácí konzole dokáže chrlit rychlou 3D grafiku jako herna."
   },
   {
    "slug": "saturn__nights-into-dreams",
-   "why": "Let vzdušnými sny bez padání a bez konce ukazuje jinou stránku hardwaru než závody či bojovky - čistou plynulost pohybu."
+   "why": "Létání snovým světem ukazuje, co uměl Sonic Team, když opustil ježka a vsadil na čistý pocit z pohybu."
+  },
+  {
+   "slug": "saturn__virtua-fighter-2",
+   "why": "Saturn se prodával i díky slibu věrných arkádových portů a tahle bojovka ten slib naplnila beze zbytku."
   },
   {
    "slug": "saturn__shining-force-iii",
-   "why": "Taktické bitvy s hlubokým příběhem představují vrchol série, ke kterému se západní hráči kvůli chybějící lokalizaci dlouho nedostali."
+   "why": "Na Západ dorazil jen první díl trilogie, takže tahle taktická RPG epika zůstává objevem, který si hráči doplňují až dodnes."
   },
   {
    "slug": "saturn__resident-evil",
-   "why": "Statická kamera a napjaté zásobování náboji ukazují, jak survival horor obstál i mimo svou domovskou platformu."
-  },
-  {
-   "slug": "saturn__sakura-taisen",
-   "why": "Propojení seznamovací simulace s bitvami mechanických kobu je jedním z nejosobitějších konceptů, jaké se na Saturnu objevily."
-  },
-  {
-   "slug": "saturn__radiant-silvergun",
-   "why": "Propracovaný systém kombinace zbraní a bodování udělal z této střílečky předmět uctívání mezi fanoušky žánru shmup."
+   "why": "Port zakladatele survival hororu dokazuje, že Saturn zvládl i temné, kamerově řízené hry, se kterými se spojuje spíš konkurenční PlayStation."
   },
   {
    "slug": "saturn__dragon-force",
-   "why": "Bitvy stovek jednotek na obrazovce najednou dokazují, že Saturn dokázal strategii pojmout ve velkoleposti, jakou jinde nenajdete."
+   "why": "Stovky vojáků na obrazovce najednou v tahové strategii, kterou tehdy žádná jiná konzole nezvládala."
+  },
+  {
+   "slug": "saturn__tomb-raider",
+   "why": "Lařiny akrobatické skoky mezi pastmi definovaly žánr akčních adventur devadesátek a Saturn si tuhle klasiku odbyl také."
   },
   {
    "slug": "saturn__rayman",
-   "why": "Ručně kreslená animace bezrukého hrdiny patří k vizuálně nejpůsobivějším plošinovkám, jaké se na konzoli objevily."
+   "why": "Ručně kreslený hrdina bez rukou a nohou dokazuje, že Saturn zvládal i evropské plošinovky plné preciznosti."
+  },
+  {
+   "slug": "saturn__guardian-heroes",
+   "why": "Mlátička s větvícím se příběhem a RPG prvky od studia Treasure patří mezi tituly, které dělaly ze Saturnu ráj japonských importů."
   },
   {
    "slug": "saturn__nba-jam-tournament-edition",
-   "why": "Přehnané smeče a hra bez faulů ukazují, jak dobře si Saturn poradil s arkádovými porty sportovních her."
+   "why": "Přehnané smeče a hráči v plamenech bez faulů - arkádový basketbal, který se na žádné konzoli nehrál vážně."
+  },
+  {
+   "slug": "saturn__sakura-taisen",
+   "why": "Spojení bitev robotů se seznamovací simulací je nápad, který na Západě dlouho nikdo neznal, přitom v Japonsku formoval celý žánr."
+  },
+  {
+   "slug": "saturn__radiant-silvergun",
+   "why": "Roky nedostupný a draze sháněný shmup, který dnes platí za jeden z vrcholů žánru na téhle konzoli."
   },
   {
    "slug": "saturn__baku-baku-animal",
-   "why": "Krmení zvířat místo řazení barev dodává klasickému puzzle konceptu překvapivě svěží a osobitý nápad."
+   "why": "Puzzle o krmení zvířat správnou potravou dokazuje, že Saturn uměl i odlehčenou zábavu mimo RPG a střílečky."
   }
  ],
  "sega-32x": [
   {
    "slug": "sega-32x__doom",
-   "why": "Ukazuje nejambicióznější stránku 32X - přenést ikonickou 3D střílečku na hardware, který na to nebyl úplně stavěný."
+   "why": "Dokazuje, že 32X zvládne rychlou 3D akci, na jakou si samotná Mega Drive nikdy netroufla."
   },
   {
    "slug": "sega-32x__virtua-racing-deluxe",
-   "why": "Nabízí nejplynulejší polygonovou grafiku, jakou nástavba dokázala vykreslit, s tratěmi a vozy, které arkáda neměla."
+   "why": "Přináší plně polygonové 3D závodění, které by na obyčejné Mega Drive nešlo vůbec spustit."
   },
   {
    "slug": "sega-32x__virtua-fighter",
-   "why": "Přináší domů průlomovou 3D bojovku a patří k technicky nejsilnějším ukázkám toho, co 32X uměl."
+   "why": "Definovala žánr 3D bojovek a na 32X ukazuje, kam se tehdejší konzole teprve chystaly."
   },
   {
    "slug": "sega-32x__knuckles-chaotix",
-   "why": "Jediná plošinovka odehrávající se ve sonicovském vesmíru, kterou si 32X může nárokovat jako vlastní."
+   "why": "Jediná opravdu exkluzivní plošinovka pro 32X a zvláštní, gumovým poutem svázaná odbočka od Sonica."
   }
  ],
  "sg-1000": [
@@ -2384,67 +2476,71 @@
  "snes": [
   {
    "slug": "snes__super-mario-world",
-   "why": "Byla propojena přímo s konzolí a stala se měřítkem, se kterým se dodnes srovnává každá 2D plošinovka."
-  },
-  {
-   "slug": "snes__super-metroid",
-   "why": "Ukazuje, jak dalece dokázal SNES vygradovat atmosféru a tempo prozkoumávání ke konci své životnosti."
-  },
-  {
-   "slug": "snes__legend-of-zelda-link-to-past",
-   "why": "Nastavila vzorec propojených světů a dungeonů, který akční adventury kopírují dodnes."
+   "why": "Byla součástí balíčku ke konzoli a dodnes zůstává nejpřirozenějším vstupem do knihovny SNES."
   },
   {
    "slug": "snes__chrono-trigger",
-   "why": "Spojila hvězdný tým tvůrců Dragon Questu a Final Fantasy do jednoho z vrcholů celé 16bitové éry."
-  },
-  {
-   "slug": "snes__donkey-kong-country",
-   "why": "Předrenderované modely přesvědčily svět, že SNES má na grafiku ještě víc, než se čekalo."
-  },
-  {
-   "slug": "snes__final-fantasy-vi",
-   "why": "Ansámblové vyprávění s deseti hratelnými postavami ukázalo, kam až se dal žánr JRPG na SNES dotáhnout."
+   "why": "Spojuje překvapivě rychlé tempo s několika různými konci a patří k titulům, kvůli kterým lidé konzoli sbírají dodnes."
   },
   {
    "slug": "snes__star-fox",
-   "why": "Speciální čip Super FX vecpal do klasické konzole polygonové 3D, které jinak fyzicky neumí."
+   "why": "Ukazuje, co SNES dokázal navíc díky přídavnému čipu Super FX – tehdy něco, co jiné konzole nezvládaly."
   },
   {
    "slug": "snes__secret-of-mana",
-   "why": "Umožnila akční RPG hrát ve třech najednou v době, kdy to byla naprostá vzácnost."
+   "why": "Umožňuje sdílet dobrodružství naráz třem hráčům u jedné obrazovky, což byla u RPG tehdy vzácnost."
   },
   {
-   "slug": "snes__super-mario-kart",
-   "why": "Založila celý žánr kartingových závodů, jehož pravidla platí ve hrách dodnes."
-  },
-  {
-   "slug": "snes__street-fighter-ii-turbo-hyper-fighting",
-   "why": "Přenesla domů souboje, kolem kterých se kdysi tvořily fronty v hernách, a rozjela bojovky na konzolích."
-  },
-  {
-   "slug": "snes__contra-iii-alien-wars",
-   "why": "Kombinuje zběsilou akci s efekty Mode 7 a patří k nejnáročnějším, ale nejuspokojivějším střílečkám generace."
+   "slug": "snes__super-metroid",
+   "why": "Prozkoumávání s minimem vedení a osamělá atmosféra vytvořily vzor, podle kterého se metroidvanie měří dodnes."
   },
   {
    "slug": "snes__f-zero",
-   "why": "Byla launchovou ukázkou, co dovede Mode 7 — pocit rychlosti, jaký předtím na konzolích nešel."
+   "why": "Bez jediného soupeře na obrazovce dokazuje, že napínavý závod nepotřebuje víc než čistou rychlost Mode 7 a hudbu."
   },
   {
-   "slug": "snes__kirby-super-star",
-   "why": "Nabízí osm menších her v jedné a druhého hráče kdykoliv pozve jako pomocníka do rozehrané akce."
+   "slug": "snes__legend-of-zelda-link-to-past",
+   "why": "Ukazuje, jak dalece dokázal SNES posunout akční adventuru oproti předchozí generaci konzolí."
+  },
+  {
+   "slug": "snes__street-fighter-ii-turbo-hyper-fighting",
+   "why": "Nabízí přesně vyladěné ovládání, díky kterému kolem ní vznikaly turnaje i mimo herny."
+  },
+  {
+   "slug": "snes__final-fantasy-vi",
+   "why": "Rozsáhlý příběh vyprávěný pohledem víc hrdinů najednou patří k tomu nejambicióznějšímu, co SNES v RPG nabídl."
+  },
+  {
+   "slug": "snes__contra-iii-alien-wars",
+   "why": "Nekompromisní run & gun se dvěma zbraněmi naráz patří mezi technicky nejambicióznější akce na konzoli."
+  },
+  {
+   "slug": "snes__donkey-kong-country",
+   "why": "Ukázala, jak razantně dokázala vizuální stránka her na SNES posunout dopředu i bez skoku na novou generaci."
   },
   {
    "slug": "snes__nba-jam",
-   "why": "Přenesla přehnanou arkádovou energii heren domů a stala se jedním z nejoblíbenějších párty titulů konzole."
-  },
-  {
-   "slug": "snes__tetris-attack",
-   "why": "Pod maskou Yoshiho se skrývá návykový japonský puzzle, jehož mechanika ovlivnila celý žánr spojovaček."
+   "why": "Ukazuje odlehčenou, arkádovou stránku knihovny SNES, ve které jde čistě o zábavu pro dva u gauče."
   },
   {
    "slug": "snes__earthbound",
-   "why": "Odehrává se v moderní Americe místo fantasy světa a humorem i příběhem si dodnes drží věrný kult fanoušků."
+   "why": "Odehrává se v současnosti místo fantasy světa, a ukazuje tak, jak široké spektrum uměla RPG na SNES pokrýt."
+  },
+  {
+   "slug": "snes__super-mario-kart",
+   "why": "Namísto realistických tratí staví na power-upech a chaosu, což se stalo vzorem pro desítky pozdějších her."
+  },
+  {
+   "slug": "snes__teenage-mutant-ninja-turtles-iv-turtles-in-time",
+   "why": "Umožňuje projít celou mlátičku až ve dvou a patří k nejplynulejším beat 'em up zážitkům na konzoli."
+  },
+  {
+   "slug": "snes__kirby-super-star",
+   "why": "Nabízí hned několik menších dobrodružství v jednom balení a druhého hráče kdykoliv přizve jako pomocníka."
+  },
+  {
+   "slug": "snes__tetris-attack",
+   "why": "Ukazuje, že SNES kromě velkých RPG a plošinovek zvládal i rychlé, návykové logické hry pro dva hráče u jedné obrazovky."
   }
  ],
  "switch": [
@@ -2728,69 +2824,101 @@
  "wii": [
   {
    "slug": "wii__wii-sports",
-   "why": "Byla součástí balení ke konzoli a přesvědčila i lidi, kteří jinak hry nehrají, aby si sáhli po ovladači."
+   "why": "Byla součástí balení konzole, takže se stala prvním kontaktem s pohybovým ovládáním pro naprostou většinu majitelů Wii."
   },
   {
    "slug": "wii__super-mario-galaxy",
-   "why": "Ukazuje, na co mělo Nintendo sílu, když spojilo nápaditý level design s technikou, kterou zvládla jen tahle konzole."
+   "why": "Ukazuje, jak daleko se dala dovést klasická plošinovka, když se gravitace kolem planetek stane hlavní herní mechanikou."
   },
   {
    "slug": "wii__legend-of-zelda-twilight-princess",
-   "why": "Startovní titul, který dokázal, že Wii unese i rozsáhlé, temně laděné dobrodružství pro zkušené hráče."
+   "why": "Nejrozsáhlejší a nejtemnější Zelda své doby dokázala, že Wii uneslo i velké tradiční dobrodružství, ne jen pohybové experimenty."
   },
   {
    "slug": "wii__mario-kart-wii",
-   "why": "Plastový volant přiložený ke hře oslovil i generaci hráčů, kteří jinak závodní žánr vůbec nehráli."
-  },
-  {
-   "slug": "wii__xenoblade-chronicles",
-   "why": "Ke konci životnosti konzole dokázalo, že i Wii unese rozlehlé RPG s desítkami hodin obsahu."
+   "why": "S přiloženým plastovým volantem otevřel závodění i lidem, kteří jinak ovladač do ruky neberou, a patří k nejhranějším titulům knihovny."
   },
   {
    "slug": "wii__super-smash-bros-brawl",
-   "why": "Spojuje postavy napříč historií Nintenda do jedné hratelné oslavy, ideální na hraní ve víc lidech u jedné televize."
+   "why": "Přivedl na Wii nejostřejší multiplayerovou tradici Nintenda a dokázal, že konzole zvládne i tvrdou soutěživou zábavu ve více lidech."
   },
   {
-   "slug": "wii__goldeneye-007",
-   "why": "Dokazuje, že Wii Remote dokáže ve střílečce mířit přesněji a přirozeněji než klasický gamepad."
-  },
-  {
-   "slug": "wii__warioware-smooth-moves",
-   "why": "Krátké a šílené minihry předvádějí ovladač Wii ze všech možných úhlů, doslova."
+   "slug": "wii__xenoblade-chronicles",
+   "why": "Pozdní vydání ukázalo, že i rozsáhlé, vyprávěním nabité JRPG má na skromném hardwaru Wii své místo."
   },
   {
    "slug": "wii__monster-hunter-tri",
-   "why": "Otevřelo evropským a americkým hráčům sérii, která se do té doby těšila úspěchu hlavně v Japonsku."
+   "why": "Poprvé zpřístupnil lov netvorů s online hraním i na Wii a otevřel sérii publiku mimo Japonsko."
+  },
+  {
+   "slug": "wii__goldeneye-007",
+   "why": "Dokazuje, že Wii Remote dokáže mířit v rychlé akční střílečce stejně přesvědčivě jako klasický gamepad."
+  },
+  {
+   "slug": "wii__warioware-smooth-moves",
+   "why": "Nejrychlejší a nejvtipnější způsob, jak si vyzkoušet, co všechno pohybové ovládání Wii vlastně umí."
   },
   {
    "slug": "wii__world-of-goo",
-   "why": "Nezávislý klenot dokazuje, že i drobné stahovatelné hry z WiiWare stály za pozornost vedle velkých titulů."
+   "why": "Ukazuje, že i nenápadné stahovatelné WiiWare tituly patří mezi nejchytřejší zážitky, jaké konzole nabídla."
+  },
+  {
+   "slug": "wii__rhythm-heaven-fever",
+   "why": "Přináší žánr čistě rytmických her, který jinde v knihovně Wii nenajdete, a spoléhá jen na cit pro tempo, ne na ukazatele."
   }
  ],
  "wii-u": [
   {
-   "slug": "wii-u__super-mario-3d-world",
-   "why": "Definuje knihovnu konzole nejlépe ze všech exkluzivit; famózní level design baví sólo i ve čtyřech u jedné televize."
+   "slug": "wii-u__mario-kart-8",
+   "why": "Nejvytříbenější díl série na této konzoli; antigravitační dráhy naplno využívají grafický výkon Wii U."
   },
   {
-   "slug": "wii-u__mario-kart-8",
-   "why": "Nejprodávanější a nejucelenější závodní hra generace; ideální vstupní bod, pokud chcete vyzkoušet z konzole jen jeden titul."
+   "slug": "wii-u__super-mario-3d-world",
+   "why": "Základní kámen knihovny Wii U; propojuje volnost 3D pohybu s precizním designem klasického Maria pro čtyři hráče."
+  },
+  {
+   "slug": "wii-u__legend-of-zelda-breath-of-wild",
+   "why": "Poslední a nejvýznamnější exkluzivita Wii U, která zároveň otevřela cestu k Switchi a předefinovala žánr."
   },
   {
    "slug": "wii-u__splatoon",
-   "why": "Dokazuje, že Nintendo umí vymyslet úplně novou značku i pozdě ve své historii; barvami zaplavený multiplayer nemá jinde obdobu."
-  },
-  {
-   "slug": "wii-u__pikmin-3",
-   "why": "Jediná strategie v tomto výběru a důkaz, že Wii U zvládla i pomalejší, promyšlené tempo mimo čistou akci."
-  },
-  {
-   "slug": "wii-u__legend-of-zelda-wind-waker-hd",
-   "why": "Nejkrásnější způsob, jak poznat konzoli graficky, i pro hráče, kteří výtvarný styl na GameCube kdysi odmítli."
+   "why": "Ukázka, že Nintendo umí vymyslet i úplně novou značku; barva na plátně místo klasických zabití rozhoduje o výhře."
   },
   {
    "slug": "wii-u__super-smash-bros-for-wii-u",
-   "why": "Největší nintendovský crossover na velké obrazovce; systém procent místo životů baví od prvního zápasu i nováčky."
+   "why": "Vlajková bojovka konzole, která navíc využívá GamePad pro sledování statistik a itemů mimo hlavní obrazovku."
+  },
+  {
+   "slug": "wii-u__bayonetta-2",
+   "why": "Exkluzivita, která by bez podpory Nintenda vůbec nevznikla; jedna z nejrychlejších a nejstylovějších akcí generace."
+  },
+  {
+   "slug": "wii-u__pikmin-3",
+   "why": "Návrat oblíbené série po deseti letech dokázal, jak dobře se strategie ovládá dotykovou mapou na GamePadu."
+  },
+  {
+   "slug": "wii-u__legend-of-zelda-wind-waker-hd",
+   "why": "Předělávka dílu z GameCube v HD kvalitě ukazuje, jak dobře stárne výtvarný styl, který kdysi rozdělil fanoušky."
+  },
+  {
+   "slug": "wii-u__donkey-kong-country-tropical-freeze",
+   "why": "Jedna z nejpřísněji propracovaných 2D plošinovek generace; parťáci na zádech mění způsob pohybu."
+  },
+  {
+   "slug": "wii-u__deus-ex-human-revolution-director-s-cut",
+   "why": "Nejucelenější verze ceněné akční RPG hry přináší na Wii U hloubku, kterou tu jinak najdete málokdy."
+  },
+  {
+   "slug": "wii-u__shovel-knight",
+   "why": "Indie klenot v čistě osmibitovém stylu dokazuje, že Wii U nabídla i vynikající eShop scénu mimo velká studia."
+  },
+  {
+   "slug": "wii-u__trine-2-director-s-cut",
+   "why": "Kooperativní fyzikální hádanky tří hrdinů patří k vizuálně nejpůsobivějším titulům z digitální nabídky Wii U."
+  },
+  {
+   "slug": "wii-u__assault-android-cactus",
+   "why": "Svižná twin-stick střílečka s partou androidních hrdinek ukazuje, že i menší studia uměla Wii U využít naplno."
   }
  ],
  "wonderswan": [
@@ -2832,83 +2960,83 @@
  "xbox": [
   {
    "slug": "xbox__halo-combat-evolved",
-   "why": "Bez tohoto titulu by konzole možná vůbec neuspěla – je to nejpřirozenější startovní bod pro poznání Xboxu."
+   "why": "Bez ní by se Xbox možná vůbec neprosadil - ovládání zbraní gamepadem, které dodnes kopírují jiné konzolové střílečky."
   },
   {
    "slug": "xbox__star-wars-knights-of-old-republic",
-   "why": "Ukazuje, že Xbox uměl nabídnout hluboké RPG s filmovým příběhem, který obstojí i mimo licenci Star Wars."
+   "why": "Konzolové RPG, které dokázalo, že rozsáhlý příběh s morálními volbami funguje i bez klávesnice a myši."
   },
   {
    "slug": "xbox__halo-2",
-   "why": "Patří sem kvůli online multiplayeru, který na konzolích tehdy nemělo obdoby a stál za vznikem Xbox Live jako fenoménu."
-  },
-  {
-   "slug": "xbox__ninja-gaiden",
-   "why": "Dokazuje, že konzole zvládla i nekompromisně těžkou akci se souboji na milimetry přesné jako žádná jiná platforma té doby."
+   "why": "Ukazuje, proč se Xbox Live stal pro konzolové hraní přelomem - online válčení v masovém měřítku předtím nikdo nezažil."
   },
   {
    "slug": "xbox__fable-lost-chapters",
-   "why": "Nejlepší dostupná verze hry, kde morálka hráče doslova mění vzhled hrdiny – přístupný vstup do konzolových RPG."
-  },
-  {
-   "slug": "xbox__burnout-3-takedown",
-   "why": "Ukazuje odvrácenou stranu závodních her; bourání soupeřů tu dává větší smysl než dojet první."
-  },
-  {
-   "slug": "xbox__tom-clancy-s-splinter-cell-chaos-theory",
-   "why": "Vrchol stealth žánru na této konzoli, kde se vyplácí trpělivost a pozorování víc než střelba."
+   "why": "Nejúplnější verze hry, kde se rozhodnutí propisují přímo do tváře hrdiny - ideální ukázka xboxového RPG s duší."
   },
   {
    "slug": "xbox__half-life-2",
-   "why": "Ukazuje, že Xbox dokázal přenést i hru stavěnou na síle PC beze ztráty toho, co ji dělalo výjimečnou."
+   "why": "Důkaz, že se na Xbox vešla i hra, která definovala moderní FPS design na počítačích."
   },
   {
    "slug": "xbox__elder-scrolls-iii-morrowind",
-   "why": "Otevřený svět tak rozlehlý, že na konzoli té doby nemá srovnání – ideální pro milovníky průzkumu."
+   "why": "První skutečně otevřený svět, do kterého se dalo na konzoli ztratit na desítky hodin bez pocitu omezení."
   },
   {
-   "slug": "xbox__forza-motorsport",
-   "why": "Založilo Microsoftu vlastní odpověď na simulační závody a dalo vzniknout jedné z jeho nejdůležitějších značek."
+   "slug": "xbox__tom-clancy-s-splinter-cell-chaos-theory",
+   "why": "Zástupce stealth žánru na Xboxu v jeho nejvyzrálejší podobě, kterou fanoušci dodnes považují za vrchol série."
   },
   {
-   "slug": "xbox__psychonauts",
-   "why": "Ukazuje kreativní stránku knihovny; originální humor a nápady, které na jiných platformách chybí."
+   "slug": "xbox__burnout-3-takedown",
+   "why": "Nejlepší ukázka toho, jak arkádové závody dokážou být adrenalinovější než realistické simulace."
   },
   {
-   "slug": "xbox__mortal-kombat-deadly-alliance",
-   "why": "Nejlepší vstup do bojovek na této konzoli díky restartu, kde postavy plynule mění styl boje."
+   "slug": "xbox__ninja-gaiden",
+   "why": "Hra, která na Xboxu nastavila laťku obtížnosti a preciznosti soubojového systému, s níž se roky srovnávaly další akce."
   },
   {
    "slug": "xbox__chronicles-of-riddick-escape-from-butcher-bay",
-   "why": "Filmová licence, která překvapivě patří mezi nejlepší střílečky generace, a proto ji nelze minout."
+   "why": "Filmová licence, co se stala jednou z nejlépe hodnocených střílecek generace a dodnes se o ní mluví jako o výjimce z pravidla."
+  },
+  {
+   "slug": "xbox__psychonauts",
+   "why": "Kultovní plošinovka, ke které se hráči vraceli roky poté, co komerčně propadla - dnes ceněná klasika."
+  },
+  {
+   "slug": "xbox__forza-motorsport",
+   "why": "Začátek závodní série, která dodnes patří mezi nejrespektovanější simulace na trhu."
   },
   {
    "slug": "xbox__phantasy-star-online-episode-i-and-ii",
-   "why": "Ukazuje ranou online éru konzolí; kooperativní RPG, které bylo na svou dobu neobvykle sociální."
+   "why": "Připomíná, že Xbox Live nebyla jediná cesta k online hraní na konzoli - kooperace ve čtyřech byla tehdy vzácností."
   },
   {
-   "slug": "xbox__def-jam-fight-for-ny",
-   "why": "Spojuje pouliční souboje s hudbou Def Jam Recordings – styl, který na konzoli nenajdete jinde."
-  },
-  {
-   "slug": "xbox__oddworld-munch-s-oddysee",
-   "why": "Launchový titul, který dokazuje, že Xbox uměl nabídnout i neotřelou plošinovku s hádankami místo čisté akce."
-  },
-  {
-   "slug": "xbox__metal-arms-glitch-in-system",
-   "why": "Skvělá ukázka toho, jak i méně známý titul dokázal nabídnout pestrou a zábavnou robotí akci."
-  },
-  {
-   "slug": "xbox__x-men-legends",
-   "why": "Kooperativní akční RPG pro čtyři hráče u jedné obrazovky, ideální ukázka sociální stránky knihovny."
-  },
-  {
-   "slug": "xbox__freedom-fighters",
-   "why": "Alternativní historie sovětské okupace USA dává nahlédnout do méně známých, ale kvalitních titulů knihovny."
+   "slug": "xbox__mortal-kombat-deadly-alliance",
+   "why": "Bojovka, která na Xboxu ukázala, že se i krvavá klasika dokáže reinkarnovat v plně 3D podobě."
   },
   {
    "slug": "xbox__star-wars-battlefront-ii",
-   "why": "Uzavírá výběr velkolepými bitvami ze ságy, kde se hráč z řadového vojáka může vypracovat na hrdinu."
+   "why": "Nejucelenější zážitek ze Star Wars válek na Xboxu, kde se dá hrát za obě strany konfliktu na zemi i ve vesmíru."
+  },
+  {
+   "slug": "xbox__def-jam-fight-for-ny",
+   "why": "Bojovka mimo mainstream, kde se souboje odehrávají v barech a na střechách místo v tradičních arénách."
+  },
+  {
+   "slug": "xbox__oddworld-munch-s-oddysee",
+   "why": "Ukázka, že Xbox od začátku lákal i menší studia s výraznou vizí, ne jen velké blockbustery."
+  },
+  {
+   "slug": "xbox__freedom-fighters",
+   "why": "Podceňovaná akce s velitelským systémem, kde se z obyčejného instalatéra stává vůdce ozbrojeného odboje."
+  },
+  {
+   "slug": "xbox__x-men-legends",
+   "why": "Skvělá volba pro hraní ve více lidech u jedné obrazovky - čtveřice mutantů a přepínání schopností za chodu."
+  },
+  {
+   "slug": "xbox__metal-arms-glitch-in-system",
+   "why": "Podceňovaná akce s robotem v hlavní roli a překvapivě pestrou nabídkou nepřátel i zbraní."
   }
  ],
  "xbox-360": [
