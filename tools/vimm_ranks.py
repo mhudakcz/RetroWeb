@@ -91,13 +91,20 @@ def report(work: Path) -> None:
         if not plat:
             continue
         # normalizovany index her na platforme
-        mame = {P.norm_name(g["name"]): g for g in plat["games"]}
+        mame = {}
+        for g in plat["games"]:
+            for varianta in _varianty(g["name"]):
+                mame.setdefault(varianta, g)
         ve_vyberu = {p["slug"] for p in (picks.get(slug) or [])}
 
         chybi, pridat = [], []
         for t in tituly:
-            n = P.norm_name(_uprav(t["nazev"]))
-            g = mame.get(n)
+            varianty = _varianty(_uprav(t["nazev"]))
+            n = varianty[0]
+            g = next((mame[v] for v in varianty if v in mame), None)
+            if not g:
+                g = next((_s_podtitulem(v, mame) for v in varianty
+                          if _s_podtitulem(v, mame)), None)
             if not g:
                 if not _pokryto_kompilaci(n, mame):
                     chybi.append(_uprav(t["nazev"]))
@@ -128,10 +135,46 @@ def _uprav(nazev: str) -> str:
     bez uprav by se proti katalogu neparovalo nic z toho."""
     nazev = html.unescape(nazev)
     nazev = re.sub(r"\s*[(~][^)]*\)?$", "", nazev).strip()
+    # "Pokemon: Blue Version" -> "Pokemon Blue"; slovo Version je jen zapis Vimmu
+    nazev = re.sub(r"\s+Version$", "", nazev).strip()
+
     m = re.match(r"^(.*),\s*(The|A|An)$", nazev)
     if m:
         nazev = f"{m.group(2)} {m.group(1)}"
     return nazev
+
+
+# znackove predpony, ktere jedna strana uvadi a druha ne
+_PREDPONY = ("shin megami tensei ", "tom clancy s ", "the elder scrolls iii ",
+             "elder scrolls iii the ", "disney s ", "sid meier s ")
+
+
+def _varianty(nazev: str) -> list:
+    """Normalizovany nazev plus varianta bez znackove predpony a bez podtitulu."""
+    zaklad = P.norm_name(nazev)
+    out = [zaklad]
+    for p in _PREDPONY:
+        if zaklad.startswith(p):
+            out.append(zaklad[len(p):])
+    # podtitul za dvojteckou nebo pomlckou muze mit jen jedna strana
+    kratky = P.norm_name(nazev.split(":")[0].split(" - ")[0])
+    if kratky and kratky not in out and len(kratky.split()) >= 2:
+        out.append(kratky)
+    return out
+
+
+def _s_podtitulem(n: str, mame: dict):
+    """Tentyz titul, jen s podtitulem navic.
+
+    Vimm pise "Street Fighter II Turbo", katalog "Street Fighter II Turbo:
+    Hyper Fighting". Aby se ale "Final Fantasy" neparovalo na "Final Fantasy
+    Tactics", musi jit o skutecny podtitul — dotaz musi mit aspon dve slova
+    a v katalogu smi nasledovat jen jeden zaznam.
+    """
+    if len(n.split()) < 2:
+        return None
+    shody = [g for kn, g in mame.items() if kn.startswith(n + " ")]
+    return shody[0] if len(shody) == 1 else None
 
 
 def _pokryto_kompilaci(n: str, mame: dict) -> bool:
