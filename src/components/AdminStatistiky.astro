@@ -1,0 +1,163 @@
+---
+/**
+ * Souhrnna statistika uzivatelu.
+ *
+ * Cisla chodi z databazove funkce statistiky(), ktera pusti jen e-maily
+ * uvedene v tabulce admini. Zamerne vraci jen souhrny — kolik lidi a co si
+ * oznacuji, ne kdo. Individualni seznamy tady zobrazit nejdou a nemely by.
+ */
+import { t, type Locale, localizePath } from '../lib/i18n';
+
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+---
+
+<section class="admin">
+  <h1>Statistiky</h1>
+  <p class="lead muted">Souhrnná čísla o uživatelích a jejich značkách. Bez identifikace konkrétních lidí.</p>
+
+  <p id="a-vyzva" hidden><a href={localizePath(locale, '/prihlaseni')}>{t(locale, 'ucet.prihlasit')}</a></p>
+  <p id="a-chyba" class="a-chyba" hidden role="alert"></p>
+  <p id="a-nacitam" class="muted">{t(locale, 'ucet.pracuji')}</p>
+
+  <div id="a-obsah" hidden>
+    <div class="a-dlazdice" id="a-cisla"></div>
+
+    <div class="a-sloupce">
+      <div class="a-panel">
+        <h2>Nejčastěji označované hry</h2>
+        <ol class="a-zebricek" id="a-hry"></ol>
+      </div>
+      <div class="a-panel">
+        <h2>Podle platforem</h2>
+        <ol class="a-zebricek" id="a-platformy"></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { statistiky, prihlasenyEmail } from '../lib/ucet';
+
+  const vyzva = document.getElementById('a-vyzva')!;
+  const chyba = document.getElementById('a-chyba')!;
+  const nacitam = document.getElementById('a-nacitam')!;
+  const obsah = document.getElementById('a-obsah')!;
+
+  const POPISKY: Record<string, string> = {
+    uzivatelu_celkem: 'registrovaných uživatelů',
+    uzivatelu_se_znackou: 'z toho s aspoň jednou značkou',
+    znacek_celkem: 'označených her celkem',
+    zajima: 'značek „Zajímá mě“',
+    hral: 'značek „Hrál jsem“',
+    novych_7dni: 'nových účtů za 7 dní',
+    aktivnich_30dni: 'aktivních za 30 dní',
+  };
+
+  let nazvyHer = new Map<string, string>();
+  let nazvyPlatforem = new Map<string, string>();
+
+  async function nactiIndex() {
+    try {
+      const o = await fetch('/search.json');
+      for (const r of (await o.json()) as { t: string; s: string; n: string }[]) {
+        if (r.t === 'g') nazvyHer.set(r.s, r.n);
+        else if (r.t === 'p') nazvyPlatforem.set(r.s, r.n);
+      }
+    } catch {
+      /* bez indexu se ukazou slugy */
+    }
+  }
+
+  function dlazdice(data: any) {
+    return Object.entries(POPISKY)
+      .map(([klic, popis]) => `<div class="a-dlazdicka">
+        <strong>${data[klic] ?? 0}</strong><span>${popis}</span>
+      </div>`)
+      .join('');
+  }
+
+  function zebricek(polozky: any[], jmeno: (r: any) => string, druhy?: (r: any) => string) {
+    if (!polozky.length) return '<li class="muted">Zatím nic.</li>';
+    const nejvic = Math.max(...polozky.map((r) => r.pocet));
+    return polozky
+      .map((r) => `<li>
+        <span class="a-jmeno">${jmeno(r)}</span>
+        <span class="a-pruh"><i style="width:${Math.round((r.pocet / nejvic) * 100)}%"></i></span>
+        <span class="a-cislo">${r.pocet}${druhy ? ` <em>${druhy(r)}</em>` : ''}</span>
+      </li>`)
+      .join('');
+  }
+
+  async function start() {
+    if (!prihlasenyEmail()) {
+      nacitam.hidden = true;
+      vyzva.hidden = false;
+      return;
+    }
+    try {
+      await nactiIndex();
+      const data = await statistiky();
+      document.getElementById('a-cisla')!.innerHTML = dlazdice(data);
+      document.getElementById('a-hry')!.innerHTML = zebricek(
+        data.nejcastejsi_hry || [],
+        (r) => `${nazvyHer.get(r.game_slug) || r.game_slug}
+                <em>${nazvyPlatforem.get(r.platform_slug) || r.platform_slug}</em>`,
+      );
+      document.getElementById('a-platformy')!.innerHTML = zebricek(
+        data.podle_platforem || [],
+        (r) => nazvyPlatforem.get(r.platform_slug) || r.platform_slug,
+        (r) => `${r.uzivatelu} lidí`,
+      );
+      nacitam.hidden = true;
+      obsah.hidden = false;
+    } catch (err) {
+      nacitam.hidden = true;
+      chyba.textContent = (err as Error).message;
+      chyba.hidden = false;
+    }
+  }
+
+  start();
+  document.addEventListener('retroweb:ucet', start);
+</script>
+
+<style is:global>
+  .admin { padding-block: 8px 40px; }
+  .admin h1 { margin-bottom: 10px; }
+  .admin .lead { margin-bottom: 26px; }
+  .a-chyba {
+    padding: 11px 14px; border-radius: 10px; font-size: 0.9rem;
+    background: color-mix(in srgb, #ff3e7f 14%, transparent);
+    border: 1px solid color-mix(in srgb, #ff3e7f 40%, transparent);
+  }
+
+  .a-dlazdice {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 12px; margin-bottom: 30px;
+  }
+  .a-dlazdicka {
+    display: flex; flex-direction: column; gap: 3px;
+    padding: 15px 17px; border: 1px solid var(--border-soft); border-radius: var(--radius);
+    background: color-mix(in srgb, var(--fg) 3%, transparent);
+  }
+  .a-dlazdicka strong { font-size: 1.7rem; line-height: 1.1; }
+  .a-dlazdicka span { font-size: 0.8rem; color: var(--muted); }
+
+  .a-sloupce { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+  .a-panel { border: 1px solid var(--border-soft); border-radius: var(--radius); overflow: hidden; }
+  .a-panel h2 {
+    font-size: 1rem; padding: 12px 16px; margin: 0;
+    background: color-mix(in srgb, var(--fg) 4%, transparent);
+  }
+  .a-zebricek { list-style: none; margin: 0; padding: 0; counter-reset: p; }
+  .a-zebricek li {
+    display: grid; grid-template-columns: 1fr 70px auto; align-items: center; gap: 10px;
+    padding: 8px 16px; border-top: 1px solid var(--border-soft); font-size: 0.88rem;
+  }
+  .a-jmeno em { font-style: normal; color: var(--muted); font-size: 0.8rem; }
+  .a-pruh { height: 5px; border-radius: 999px; background: var(--border-soft); overflow: hidden; }
+  .a-pruh i { display: block; height: 100%; background: var(--accent); }
+  .a-cislo { font-weight: 700; white-space: nowrap; }
+  .a-cislo em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 0.78rem; }
+</style>

@@ -55,6 +55,9 @@ const NAV: [string, string][] = [
       {NAV.map(([href, key]) => (
         <a href={navHref(locale, href)} class:list={['nav-link', { active: isActive(href) }]}>{t(locale, key)}</a>
       ))}
+      <a id="nav-ucet" href={navHref(locale, '/prihlaseni')} class="nav-link nav-ucet">
+        <span aria-hidden="true">☆</span> <span class="nav-ucet-text">{t(locale, 'nav.ucet')}</span>
+      </a>
       <button id="theme-nav" class="nav-link theme-nav" type="button">
         <span class="t-dark">{t(locale, 'theme.dark')}</span><span class="t-light">{t(locale, 'theme.light')}</span>
       </button>
@@ -77,6 +80,22 @@ const NAV: [string, string][] = [
     </button>
   </div>
 </header>
+
+<script>
+  import { prihlasenyEmail } from '../lib/ucet';
+
+  const odkaz = document.getElementById('nav-ucet') as HTMLAnchorElement | null;
+  if (odkaz) {
+    const predpona = odkaz.getAttribute('href')!.replace(/\/prihlaseni$/, '');
+    const prekresli = () => {
+      const prihlasen = !!prihlasenyEmail();
+      odkaz.href = `${predpona}/${prihlasen ? 'muj-seznam' : 'prihlaseni'}`;
+      odkaz.classList.toggle('je-prihlasen', prihlasen);
+    };
+    prekresli();
+    document.addEventListener('retroweb:ucet', prekresli);
+  }
+</script>
 
 <script is:inline>
   (function () {
@@ -236,6 +255,8 @@ const NAV: [string, string][] = [
 </script>
 
 <style>
+  .nav-ucet.je-prihlasen { color: #ffcf4d; }
+
   .site-header {
     position: sticky;
     top: 0;
