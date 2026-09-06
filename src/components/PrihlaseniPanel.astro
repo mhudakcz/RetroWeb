@@ -1,0 +1,169 @@
+---
+/**
+ * Prihlaseni kodem z e-mailu. Dva kroky: zadat adresu, opsat sestimistny kod.
+ * Heslo se nikde nezaklada — uzivatel si nema co pamatovat a my nemame co ztratit.
+ */
+import { t, type Locale, localizePath } from '../lib/i18n';
+
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+---
+
+<section class="ucet-panel">
+  <h1>{t(locale, 'ucet.titulek')}</h1>
+  <p class="lead muted">{t(locale, 'ucet.lead')}</p>
+
+  <!-- prihlaseny -->
+  <div class="u-blok" id="u-prihlasen" hidden>
+    <p class="u-stav"><span class="muted">{t(locale, 'ucet.prihlasenJako')}</span> <strong id="u-email"></strong></p>
+    <div class="u-akce">
+      <a class="btn btn-primary" href={localizePath(locale, '/muj-seznam')}>{t(locale, 'seznam.titulek')}</a>
+      <button type="button" class="btn" id="u-odhlasit">{t(locale, 'ucet.odhlasit')}</button>
+    </div>
+  </div>
+
+  <!-- krok 1: e-mail -->
+  <form class="u-blok" id="u-krok-email">
+    <label class="u-pole">
+      <span>{t(locale, 'ucet.email')}</span>
+      <input type="email" id="u-vstup-email" required autocomplete="email" inputmode="email" placeholder="vas@email.cz" />
+    </label>
+    <button type="submit" class="btn btn-primary" id="u-poslat">{t(locale, 'ucet.poslatKod')}</button>
+  </form>
+
+  <!-- krok 2: kod -->
+  <form class="u-blok" id="u-krok-kod" hidden>
+    <p class="u-stav"><span class="muted">{t(locale, 'ucet.kodOdeslan')}</span> <strong id="u-cil"></strong></p>
+    <label class="u-pole">
+      <span>{t(locale, 'ucet.kod')}</span>
+      <input type="text" id="u-vstup-kod" required inputmode="numeric" autocomplete="one-time-code"
+             pattern="[0-9]*" maxlength="8" placeholder="123456" />
+    </label>
+    <div class="u-akce">
+      <button type="submit" class="btn btn-primary" id="u-overit">{t(locale, 'ucet.overit')}</button>
+      <button type="button" class="btn" id="u-znovu">{t(locale, 'ucet.znovu')}</button>
+      <button type="button" class="btn" id="u-jiny">{t(locale, 'ucet.jinyEmail')}</button>
+    </div>
+  </form>
+
+  <p class="u-chyba" id="u-chyba" hidden role="alert"></p>
+
+  <div class="u-info">
+    <h2>{t(locale, 'ucet.kNecemu')}</h2>
+    <p class="muted">{t(locale, 'ucet.kNecemuText')}</p>
+  </div>
+</section>
+
+<script>
+  import { poslatKod, overitKod, odhlasit, prihlasenyEmail } from '../lib/ucet';
+
+  const krokEmail = document.getElementById('u-krok-email') as HTMLFormElement;
+  const krokKod = document.getElementById('u-krok-kod') as HTMLFormElement;
+  const blokPrihlasen = document.getElementById('u-prihlasen')!;
+  const chyba = document.getElementById('u-chyba')!;
+  const vstupEmail = document.getElementById('u-vstup-email') as HTMLInputElement;
+  const vstupKod = document.getElementById('u-vstup-kod') as HTMLInputElement;
+
+  let adresa = '';
+
+  function ukazChybu(text: string) {
+    chyba.textContent = text;
+    chyba.hidden = !text;
+  }
+
+  function prekresli() {
+    const email = prihlasenyEmail();
+    blokPrihlasen.hidden = !email;
+    krokEmail.hidden = !!email;
+    krokKod.hidden = true;
+    if (email) document.getElementById('u-email')!.textContent = email;
+  }
+
+  krokEmail.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    ukazChybu('');
+    adresa = vstupEmail.value.trim();
+    const tlacitko = document.getElementById('u-poslat') as HTMLButtonElement;
+    tlacitko.disabled = true;
+    try {
+      await poslatKod(adresa);
+      document.getElementById('u-cil')!.textContent = adresa;
+      krokEmail.hidden = true;
+      krokKod.hidden = false;
+      vstupKod.focus();
+    } catch (err) {
+      ukazChybu((err as Error).message);
+    } finally {
+      tlacitko.disabled = false;
+    }
+  });
+
+  krokKod.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    ukazChybu('');
+    const tlacitko = document.getElementById('u-overit') as HTMLButtonElement;
+    tlacitko.disabled = true;
+    try {
+      await overitKod(adresa, vstupKod.value);
+      prekresli();
+    } catch (err) {
+      ukazChybu((err as Error).message);
+    } finally {
+      tlacitko.disabled = false;
+    }
+  });
+
+  document.getElementById('u-znovu')!.addEventListener('click', async () => {
+    ukazChybu('');
+    try {
+      await poslatKod(adresa);
+    } catch (err) {
+      ukazChybu((err as Error).message);
+    }
+  });
+
+  document.getElementById('u-jiny')!.addEventListener('click', () => {
+    ukazChybu('');
+    krokKod.hidden = true;
+    krokEmail.hidden = false;
+    vstupEmail.focus();
+  });
+
+  document.getElementById('u-odhlasit')!.addEventListener('click', () => {
+    odhlasit();
+    prekresli();
+  });
+
+  prekresli();
+</script>
+
+<style>
+  .ucet-panel { max-width: 560px; margin: 0 auto; padding-block: 8px 40px; }
+  .ucet-panel h1 { margin-bottom: 10px; }
+  .ucet-panel .lead { margin-bottom: 26px; }
+  .u-blok {
+    display: flex; flex-direction: column; gap: 14px;
+    padding: 20px; border: 1px solid var(--border-soft); border-radius: var(--radius);
+    background: color-mix(in srgb, var(--fg) 3%, transparent);
+  }
+  .u-pole { display: flex; flex-direction: column; gap: 6px; }
+  .u-pole span { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+  .u-pole input {
+    padding: 11px 13px; border-radius: 10px;
+    border: 1px solid var(--border-soft); background: var(--bg); color: var(--fg);
+    font: inherit; font-size: 1rem;
+  }
+  .u-pole input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  #u-vstup-kod { letter-spacing: 0.35em; font-size: 1.2rem; text-align: center; }
+  .u-akce { display: flex; gap: 10px; flex-wrap: wrap; }
+  .u-stav { margin: 0; font-size: 0.92rem; }
+  .u-chyba {
+    margin-top: 14px; padding: 11px 14px; border-radius: 10px;
+    background: color-mix(in srgb, #ff3e7f 14%, transparent);
+    border: 1px solid color-mix(in srgb, #ff3e7f 40%, transparent);
+    font-size: 0.9rem;
+  }
+  .u-info { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--border-soft); }
+  .u-info h2 { font-size: 1.05rem; margin-bottom: 8px; }
+  .u-info p { font-size: 0.92rem; }
+</style>

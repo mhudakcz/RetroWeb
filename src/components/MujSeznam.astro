@@ -1,0 +1,284 @@
+---
+/**
+ * "Muj seznam" — hry, ktere si uzivatel oznacil.
+ *
+ * Pocita se se stovkami polozek, takze vychozi zobrazeni je po platformach
+ * (sbalene skupiny s poctem) a nad tim jsou filtry: platforma, druh znacky
+ * a hledani. Nazvy her se berou z /search.json, ktery web uz stavi pro
+ * naseptavac — v tabulce znacek jsou jen slugy.
+ */
+import { t, type Locale, localizePath } from '../lib/i18n';
+
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+---
+
+<section class="seznam" data-locale={locale}>
+  <h1>{t(locale, 'seznam.titulek')}</h1>
+  <p class="lead muted">{t(locale, 'seznam.lead')}</p>
+
+  <p class="s-vyzva" id="s-vyzva" hidden>
+    <a href={localizePath(locale, '/prihlaseni')}>{t(locale, 'znacka.prihlasSe')}</a>
+  </p>
+
+  <div class="s-obsah" id="s-obsah" hidden>
+    <div class="s-filtry">
+      <input type="search" id="s-hledat" placeholder={t(locale, 'seznam.hledat')} />
+      <select id="s-platforma"><option value="">{t(locale, 'seznam.vsechnyPlatformy')}</option></select>
+      <div class="s-prepinac" role="group">
+        <button type="button" data-druh="" class="je-zapnuto">{t(locale, 'seznam.vse')}</button>
+        <button type="button" data-druh="zajima">{t(locale, 'znacka.zajima')}</button>
+        <button type="button" data-druh="hral">{t(locale, 'znacka.hral')}</button>
+      </div>
+      <div class="s-prepinac" role="group">
+        <button type="button" data-pohled="platformy" class="je-zapnuto">{t(locale, 'seznam.vicPlatformy')}</button>
+        <button type="button" data-pohled="seznam">{t(locale, 'seznam.vicSeznam')}</button>
+      </div>
+    </div>
+
+    <p class="s-pocet muted"><strong id="s-cislo">0</strong> <span>{t(locale, 'seznam.pocet')}</span></p>
+    <div id="s-vypis"></div>
+    <p class="s-prazdno muted" id="s-prazdno" hidden>{t(locale, 'seznam.prazdny')}</p>
+    <p class="s-prazdno muted" id="s-nic" hidden>{t(locale, 'seznam.nicNenalezeno')}</p>
+  </div>
+</section>
+
+<script>
+  import { nactiZnacky, ulozZnacku, prihlasenyEmail, type Znacka } from '../lib/ucet';
+
+  const korene = document.querySelector<HTMLElement>('.seznam')!;
+  const locale = korene.dataset.locale || 'cs';
+  const predpona = locale === 'cs' ? '' : `/${locale}`;
+
+  const vyzva = document.getElementById('s-vyzva')!;
+  const obsah = document.getElementById('s-obsah')!;
+  const vypis = document.getElementById('s-vypis')!;
+  const cislo = document.getElementById('s-cislo')!;
+  const prazdno = document.getElementById('s-prazdno')!;
+  const nic = document.getElementById('s-nic')!;
+  const hledat = document.getElementById('s-hledat') as HTMLInputElement;
+  const vyberPlatformy = document.getElementById('s-platforma') as HTMLSelectElement;
+
+  const POPISKY = {
+    zajima: korene.querySelector<HTMLElement>('[data-druh="zajima"]')!.textContent!.trim(),
+    hral: korene.querySelector<HTMLElement>('[data-druh="hral"]')!.textContent!.trim(),
+    odznacit: 'Odznačit',
+  };
+
+  let znacky: Znacka[] = [];
+  let nazvyHer = new Map<string, string>();
+  let nazvyPlatforem = new Map<string, string>();
+  let filtrDruh = '';
+  let pohled = 'platformy';
+
+  const bezDiakritiky = (s: string) =>
+    s.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase();
+
+  async function nactiIndex() {
+    try {
+      const o = await fetch('/search.json');
+      const radky = (await o.json()) as { t: string; s: string; n: string }[];
+      for (const r of radky) {
+        if (r.t === 'g') nazvyHer.set(r.s, r.n);
+        else if (r.t === 'p') nazvyPlatforem.set(r.s, r.n);
+      }
+    } catch {
+      /* bez indexu se ukazou slugy, seznam porad funguje */
+    }
+  }
+
+  function nazevHry(slug: string) {
+    return nazvyHer.get(slug) || slug.split('__').pop()!.replace(/-/g, ' ');
+  }
+  function nazevPlatformy(slug: string) {
+    return nazvyPlatforem.get(slug) || slug;
+  }
+
+  function vyfiltrovane(): Znacka[] {
+    const dotaz = bezDiakritiky(hledat.value.trim());
+    const plat = vyberPlatformy.value;
+    return znacky.filter((z) => {
+      if (filtrDruh === 'zajima' && !z.zajima) return false;
+      if (filtrDruh === 'hral' && !z.hral) return false;
+      if (plat && z.platform_slug !== plat) return false;
+      if (dotaz && !bezDiakritiky(nazevHry(z.game_slug)).includes(dotaz)) return false;
+      return true;
+    });
+  }
+
+  function radek(z: Znacka): string {
+    const url = `${predpona}/hry/${z.game_slug}`;
+    const odznaky = [
+      z.zajima ? `<span class="s-odznak zajima">★ ${POPISKY.zajima}</span>` : '',
+      z.hral ? `<span class="s-odznak hral">✓ ${POPISKY.hral}</span>` : '',
+    ].join('');
+    return `<li class="s-radek">
+      <a class="s-nazev" href="${url}">${nazevHry(z.game_slug)}</a>
+      <span class="s-odznaky">${odznaky}</span>
+      <button type="button" class="s-zrusit" data-hra="${z.game_slug}"
+              data-platforma="${z.platform_slug}" title="${POPISKY.odznacit}">✕</button>
+    </li>`;
+  }
+
+  function vykresli() {
+    const data = vyfiltrovane();
+    cislo.textContent = String(data.length);
+    prazdno.hidden = znacky.length > 0;
+    nic.hidden = !(znacky.length > 0 && data.length === 0);
+
+    if (!data.length) {
+      vypis.innerHTML = '';
+      return;
+    }
+
+    if (pohled === 'seznam') {
+      const serazene = [...data].sort((a, b) =>
+        nazevHry(a.game_slug).localeCompare(nazevHry(b.game_slug), 'cs'));
+      vypis.innerHTML = `<ul class="s-vypis">${serazene.map(radek).join('')}</ul>`;
+      return;
+    }
+
+    // po platformach: nejvic oznacenych nahore, at je videt, cemu se ctenar venuje
+    const skupiny = new Map<string, Znacka[]>();
+    for (const z of data) {
+      if (!skupiny.has(z.platform_slug)) skupiny.set(z.platform_slug, []);
+      skupiny.get(z.platform_slug)!.push(z);
+    }
+    const poradi = [...skupiny.entries()].sort((a, b) => b[1].length - a[1].length);
+    vypis.innerHTML = poradi
+      .map(([plat, hry]) => {
+        const serazene = hry.sort((a, b) =>
+          nazevHry(a.game_slug).localeCompare(nazevHry(b.game_slug), 'cs'));
+        return `<details class="s-skupina" open>
+          <summary><span>${nazevPlatformy(plat)}</span> <em>${hry.length}</em></summary>
+          <ul class="s-vypis">${serazene.map(radek).join('')}</ul>
+        </details>`;
+      })
+      .join('');
+  }
+
+  vypis.addEventListener('click', async (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('.s-zrusit');
+    if (!b) return;
+    const hra = b.dataset.hra!;
+    b.disabled = true;
+    try {
+      await ulozZnacku(hra, b.dataset.platforma!, false, false);
+      znacky = znacky.filter((z) => z.game_slug !== hra);
+      naplnPlatformy();
+      vykresli();
+    } catch {
+      b.disabled = false;
+    }
+  });
+
+  function naplnPlatformy() {
+    const zvoleno = vyberPlatformy.value;
+    const pouzite = [...new Set(znacky.map((z) => z.platform_slug))]
+      .sort((a, b) => nazevPlatformy(a).localeCompare(nazevPlatformy(b), 'cs'));
+    const prvni = vyberPlatformy.options[0];
+    vyberPlatformy.innerHTML = '';
+    vyberPlatformy.appendChild(prvni);
+    for (const p of pouzite) {
+      const o = document.createElement('option');
+      o.value = p;
+      o.textContent = nazevPlatformy(p);
+      vyberPlatformy.appendChild(o);
+    }
+    if (pouzite.includes(zvoleno)) vyberPlatformy.value = zvoleno;
+  }
+
+  for (const b of korene.querySelectorAll<HTMLButtonElement>('[data-druh]')) {
+    b.addEventListener('click', () => {
+      filtrDruh = b.dataset.druh!;
+      for (const s of korene.querySelectorAll('[data-druh]')) s.classList.remove('je-zapnuto');
+      b.classList.add('je-zapnuto');
+      vykresli();
+    });
+  }
+  for (const b of korene.querySelectorAll<HTMLButtonElement>('[data-pohled]')) {
+    b.addEventListener('click', () => {
+      pohled = b.dataset.pohled!;
+      for (const s of korene.querySelectorAll('[data-pohled]')) s.classList.remove('je-zapnuto');
+      b.classList.add('je-zapnuto');
+      vykresli();
+    });
+  }
+  hledat.addEventListener('input', vykresli);
+  vyberPlatformy.addEventListener('change', vykresli);
+
+  async function start() {
+    if (!prihlasenyEmail()) {
+      vyzva.hidden = false;
+      obsah.hidden = true;
+      return;
+    }
+    vyzva.hidden = true;
+    obsah.hidden = false;
+    await nactiIndex();
+    znacky = await nactiZnacky();
+    naplnPlatformy();
+    vykresli();
+  }
+
+  start();
+  document.addEventListener('retroweb:ucet', start);
+</script>
+
+<style is:global>
+  .seznam { padding-block: 8px 40px; }
+  .seznam h1 { margin-bottom: 10px; }
+  .seznam .lead { margin-bottom: 24px; }
+  .s-vyzva a { color: var(--accent); font-weight: 600; }
+
+  .s-filtry { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+  .s-filtry input[type='search'], .s-filtry select {
+    padding: 9px 12px; border-radius: 10px; border: 1px solid var(--border-soft);
+    background: var(--bg); color: var(--fg); font: inherit; font-size: 0.9rem;
+  }
+  .s-filtry input[type='search'] { min-width: 210px; flex: 1 1 210px; }
+
+  .s-prepinac { display: inline-flex; border: 1px solid var(--border-soft); border-radius: 999px; overflow: hidden; }
+  .s-prepinac button {
+    padding: 8px 14px; border: 0; background: transparent; color: var(--muted);
+    font: inherit; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+  }
+  .s-prepinac button.je-zapnuto { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+
+  .s-pocet { font-size: 0.88rem; margin-bottom: 12px; }
+
+  .s-skupina { margin-bottom: 14px; border: 1px solid var(--border-soft); border-radius: var(--radius); overflow: hidden; }
+  .s-skupina summary {
+    display: flex; justify-content: space-between; align-items: center; gap: 10px;
+    padding: 11px 15px; cursor: pointer; font-weight: 700; font-size: 0.95rem;
+    background: color-mix(in srgb, var(--fg) 4%, transparent);
+  }
+  .s-skupina summary em { font-style: normal; color: var(--muted); font-weight: 600; font-size: 0.85rem; }
+
+  .s-vypis { list-style: none; margin: 0; padding: 0; }
+  .s-radek {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 15px; border-top: 1px solid var(--border-soft);
+  }
+  .s-vypis > .s-radek:first-child { border-top: 0; }
+  .s-nazev { flex: 1 1 auto; font-weight: 600; font-size: 0.93rem; }
+  .s-nazev:hover { color: var(--accent); }
+  .s-odznaky { display: flex; gap: 6px; flex-wrap: wrap; }
+  .s-odznak {
+    padding: 3px 9px; border-radius: 999px; font-size: 0.76rem; font-weight: 700;
+    border: 1px solid var(--border-soft); color: var(--muted); white-space: nowrap;
+  }
+  .s-odznak.zajima { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+  .s-odznak.hral { color: var(--accent-2, var(--accent)); }
+  .s-zrusit {
+    border: 0; background: transparent; color: var(--muted);
+    font-size: 1rem; line-height: 1; cursor: pointer; padding: 4px 6px; border-radius: 6px;
+  }
+  .s-zrusit:hover:not(:disabled) { color: #ff3e7f; background: color-mix(in srgb, #ff3e7f 12%, transparent); }
+  .s-prazdno { margin-top: 18px; font-size: 0.92rem; }
+
+  @media (max-width: 560px) {
+    .s-radek { flex-wrap: wrap; }
+    .s-nazev { flex: 1 1 100%; }
+  }
+</style>

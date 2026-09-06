@@ -32780,6 +32780,63 @@
    "genre": "Simulátor",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Samorost",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "mustplay",
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Samorost 2",
+   "genre": "Point-and-click adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Questionaut",
+   "genre": "Vzdělávací adventura",
+   "length": "S",
+   "flags": [
+    "puzzle"
+   ]
+  },
+  {
+   "name": "Shy Dwarf",
+   "genre": "Plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Osada",
+   "genre": "Interaktivní hudební video",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Stargate Online",
+   "genre": "MMO strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Outspace Game",
+   "genre": "MMO strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Obrana Ukrajiny",
+   "genre": "Sólo wargame",
+   "length": "M",
+   "flags": [
+    "mature"
+   ]
   }
  ],
  "java-mobil": [

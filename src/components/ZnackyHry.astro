@@ -1,0 +1,147 @@
+---
+/**
+ * "Zajima me" a "Hral jsem" — prepinaci stitky v hlavicce hry.
+ *
+ * Sedi v jednom radku s ostatnimi stitky (zanr, rok, studio), ale jsou to
+ * jedina interaktivni polozka radku, takze je oddeluje svisla linka a maji
+ * vlastni barvu. Zapnuty stitek se vybarvi, aby stav byl videt na prvni pohled.
+ *
+ * Stranky jsou staticke, stav se dotahuje az v prohlizeci — proto skryte,
+ * dokud nevime, jestli je ctenar prihlaseny.
+ */
+import { t, type Locale, localizePath } from '../lib/i18n';
+
+interface Props {
+  locale: Locale;
+  gameSlug: string;
+  platformSlug: string;
+}
+const { locale, gameSlug, platformSlug } = Astro.props;
+---
+
+<span class="znacky" data-hra={gameSlug} data-platforma={platformSlug} hidden>
+  <button type="button" class="tag zn-btn" data-druh="zajima" aria-pressed="false">
+    <span class="zn-ikona" aria-hidden="true">☆</span>{t(locale, 'znacka.zajima')}
+  </button>
+  <button type="button" class="tag zn-btn" data-druh="hral" aria-pressed="false">
+    <span class="zn-ikona" aria-hidden="true">○</span>{t(locale, 'znacka.hral')}
+  </button>
+</span>
+
+<a class="tag zn-vyzva" href={localizePath(locale, '/prihlaseni')} hidden>
+  ☆ {t(locale, 'znacka.prihlasSe')}
+</a>
+
+<script>
+  import { nactiZnacky, ulozZnacku, prihlasenyEmail } from '../lib/ucet';
+
+  const box = document.querySelector<HTMLElement>('.znacky');
+  const vyzva = document.querySelector<HTMLElement>('.zn-vyzva');
+  if (box && vyzva) {
+    const hra = box.dataset.hra!;
+    const platforma = box.dataset.platforma!;
+    const tlacitka = Array.from(box.querySelectorAll<HTMLButtonElement>('.zn-btn'));
+    const stav = { zajima: false, hral: false };
+
+    function vykresli() {
+      for (const b of tlacitka) {
+        const druh = b.dataset.druh as 'zajima' | 'hral';
+        const zapnuto = stav[druh];
+        b.setAttribute('aria-pressed', String(zapnuto));
+        b.classList.toggle('je-zapnuto', zapnuto);
+        const ikona = b.querySelector('.zn-ikona');
+        if (ikona) {
+          ikona.textContent = druh === 'zajima' ? (zapnuto ? '★' : '☆') : (zapnuto ? '✓' : '○');
+        }
+      }
+    }
+
+    async function zobrazPodleUctu() {
+      if (!prihlasenyEmail()) {
+        box.hidden = true;
+        vyzva.hidden = false;
+        return;
+      }
+      vyzva.hidden = true;
+      box.hidden = false;
+      const znacky = await nactiZnacky();
+      const moje = znacky.find((z) => z.game_slug === hra);
+      stav.zajima = !!moje?.zajima;
+      stav.hral = !!moje?.hral;
+      vykresli();
+    }
+
+    for (const b of tlacitka) {
+      b.addEventListener('click', async () => {
+        const druh = b.dataset.druh as 'zajima' | 'hral';
+        const puvodni = { ...stav };
+        stav[druh] = !stav[druh];
+        vykresli(); // okamzita odezva, zapis bezi na pozadi
+        b.disabled = true;
+        try {
+          await ulozZnacku(hra, platforma, stav.zajima, stav.hral);
+        } catch {
+          Object.assign(stav, puvodni); // zapis selhal, vratit zobrazeni
+          vykresli();
+        } finally {
+          b.disabled = false;
+        }
+      });
+    }
+
+    zobrazPodleUctu();
+    document.addEventListener('retroweb:ucet', zobrazPodleUctu);
+  }
+</script>
+
+<style>
+  /* Vlastni display prebije atribut hidden, takze by se obe varianty ukazaly
+     naraz — proto se skryte drzi natvrdo. */
+  .znacky[hidden], .zn-vyzva[hidden] { display: none !important; }
+
+  /* svisla linka oddeluje informacni stitky od interaktivnich */
+  .znacky, .zn-vyzva { position: relative; }
+  .znacky { display: inline-flex; gap: 8px; padding-left: 12px; margin-left: 4px; }
+  .zn-vyzva { margin-left: 16px; }
+  .znacky::before, .zn-vyzva::before {
+    content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+    width: 1px; height: 18px; background: var(--border-soft);
+  }
+  .zn-vyzva::before { left: -8px; }
+
+  .zn-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    font: inherit; font-size: 0.78rem; font-weight: 600;
+    cursor: pointer;
+    color: var(--muted);
+    border-style: dashed;              /* nezapnuty stav: jen nabidka */
+    background: transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+  }
+  .zn-btn:hover:not(:disabled) { color: var(--accent); border-color: var(--accent); }
+  .zn-btn:disabled { opacity: 0.55; cursor: default; }
+
+  .zn-btn[data-druh='zajima'].je-zapnuto {
+    border-style: solid;
+    color: #ffcf4d;
+    border-color: color-mix(in srgb, #ffcf4d 55%, transparent);
+    background: color-mix(in srgb, #ffcf4d 14%, transparent);
+  }
+  .zn-btn[data-druh='hral'].je-zapnuto {
+    border-style: solid;
+    color: #4ade80;
+    border-color: color-mix(in srgb, #4ade80 55%, transparent);
+    background: color-mix(in srgb, #4ade80 14%, transparent);
+  }
+
+  .zn-vyzva { color: var(--muted); border-style: dashed; font-size: 0.78rem; }
+  .zn-vyzva:hover { color: var(--accent); border-color: var(--accent); }
+
+  .zn-ikona { font-size: 0.85rem; line-height: 1; }
+
+  @media (max-width: 560px) {
+    .znacky { padding-left: 0; margin-left: 0; }
+    .znacky::before, .zn-vyzva::before { display: none; }
+    .zn-vyzva { margin-left: 0; }
+  }
+</style>

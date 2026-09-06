@@ -16136,6 +16136,10 @@
     "studio": "Neopets, Inc.",
     "year": "1999"
   },
+  "web__obrana-ukrajiny": {
+    "studio": "nezávislý český projekt",
+    "year": "2026"
+  },
   "web__ogame": {
     "studio": "Gameforge",
     "year": "2002"
@@ -16143,6 +16147,14 @@
   "web__one-chance": {
     "studio": "AwkwardSilenceGames",
     "year": "2010"
+  },
+  "web__osada": {
+    "studio": "Amanita Design",
+    "year": "2011"
+  },
+  "web__outspace-game": {
+    "studio": "české nezávislé studio",
+    "year": "2022"
   },
   "web__pandemic": {
     "studio": "Dark Realm Studios",
@@ -16172,6 +16184,10 @@
     "studio": "Eric Fredricksen",
     "year": "2002"
   },
+  "web__questionaut": {
+    "studio": "Amanita Design",
+    "year": "2008"
+  },
   "web__qwop": {
     "studio": "Bennett Foddy",
     "year": "2008"
@@ -16200,6 +16216,14 @@
     "studio": "Jagex",
     "year": "2001"
   },
+  "web__samorost": {
+    "studio": "Amanita Design",
+    "year": "2003"
+  },
+  "web__samorost-2": {
+    "studio": "Amanita Design",
+    "year": "2005"
+  },
   "web__sandspiel": {
     "studio": "Max Bittker",
     "year": "2018"
@@ -16207,6 +16231,10 @@
   "web__shell-shockers": {
     "studio": "Blue Wizard Digital",
     "year": "2017"
+  },
+  "web__shy-dwarf": {
+    "studio": "Amanita Design",
+    "year": "2009"
   },
   "web__skribbl-io": {
     "studio": "skribbl.io",
@@ -16222,6 +16250,10 @@
   },
   "web__sonny": {
     "studio": "Krin Juangbhanich",
+    "year": "2008"
+  },
+  "web__stargate-online": {
+    "studio": "české nezávislé studio",
     "year": "2008"
   },
   "web__stick-rpg": {

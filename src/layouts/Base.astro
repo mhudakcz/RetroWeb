@@ -12,6 +12,8 @@ interface Props {
   locale?: Locale;
   /** Má tato stránka i /en/ a /de/ variantu? (kvůli přepínači jazyků) */
   localized?: boolean;
+  /** Osobní stránky (účet, seznam) — ať je vyhledávače neindexují. */
+  noindex?: boolean;
 }
 const {
   title,
@@ -19,6 +21,7 @@ const {
   accent,
   locale = DEFAULT_LOCALE,
   localized = false,
+  noindex = false,
 } = Astro.props;
 const fullTitle = title === 'RetroWeb' ? title : `${title} · RetroWeb`;
 
@@ -57,6 +60,7 @@ const jsonLd = {
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
     {localized && <link rel="alternate" hreflang="x-default" href={abs(localizePath('cs', basePath))} />}

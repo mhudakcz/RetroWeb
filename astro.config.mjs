@@ -14,6 +14,8 @@ export default defineConfig({
   site: 'https://retrowebcz.netlify.app',
   integrations: [
     sitemap({
+      // osobni stranky do sitemap nepatri — pro nepřihlaseneho jsou prazdne
+      filter: (stranka) => !/\/(prihlaseni|muj-seznam|admin)\/?$/.test(stranka),
       i18n: {
         defaultLocale: 'cs',
         locales: { cs: 'cs', en: 'en', de: 'de', fr: 'fr' },

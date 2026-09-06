@@ -2,6 +2,7 @@
 import { localeData, playtimeLabel, mdBlock, mdInline, gameNeighbors, studioLink, seriesOfGame, sameGameElsewhere, versionNote, normGameName } from '../lib/data';
 import Lightbox from './Lightbox.astro';
 import SwipeNav from './SwipeNav.astro';
+import ZnackyHry from './ZnackyHry.astro';
 import { t, localizePath, DEFAULT_LOCALE } from '../lib/i18n';
 import type { Locale } from '../lib/i18n';
 
@@ -118,6 +119,7 @@ const posText = {
         {game.players && <span class="tag tag-players">👥 {game.players}</span>}
         {game.rating && <span class="tag tag-rating">🛡 {game.rating}</span>}
         {game.flags.map((f) => <span class="tag tag-flag">{FLAG_T[f]}</span>)}
+        <ZnackyHry locale={locale} gameSlug={game.slug} platformSlug={platform.slug} />
       </div>
     </div>
   </header>
