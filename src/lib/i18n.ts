@@ -269,7 +269,7 @@ const UI: Dict = {
   // typy platforem (sekce na homepage)
   'type.console.label': { cs: 'Herní konzole', en: 'Game consoles', de: 'Spielkonsolen', fr: 'Consoles de jeux' },
   'type.handheld.label': { cs: 'Kapesní konzole', en: 'Handhelds', de: 'Handhelds', fr: 'Consoles portables' },
-  'type.computer.label': { cs: 'Domácí počítače', en: 'Home computers', de: 'Heimcomputer', fr: 'Ordinateurs familiaux' },
+  'type.computer.label': { cs: 'Počítače', en: 'Computers', de: 'Computer', fr: 'Ordinateurs' },
   'type.arcade.label': { cs: 'Arkády', en: 'Arcades', de: 'Arcades', fr: 'Arcades' },
   'type.vr.label': { cs: 'Virtuální realita', en: 'Virtual reality', de: 'Virtuelle Realität', fr: 'Réalité virtuelle' },
   'type.vr.tag': { cs: 'Headsety od kutilských devadesátek po dnešní samostatné brýle.', en: 'Headsets from the DIY nineties to today’s standalone goggles.', de: 'Headsets von den Bastel-Neunzigern bis zu heutigen Standalone-Brillen.', fr: 'Des casques des années 90 bricoleuses aux lunettes autonomes d’aujourd’hui.' },
@@ -280,7 +280,7 @@ const UI: Dict = {
   'type.fantasy.label': { cs: 'Fantasy konzole', en: 'Fantasy consoles', de: 'Fantasy-Konsolen', fr: 'Consoles fantasy' },
   'type.console.tag': { cs: 'Stroje pod televizi, které definovaly herní generace.', en: 'Machines under the TV that defined gaming generations.', de: 'Geräte unterm Fernseher, die Gaming-Generationen prägten.', fr: 'Des machines sous la télé qui ont défini des générations de jeu.' },
   'type.handheld.tag': { cs: 'Hraní do kapsy — srdce dnešních zařízení jako Anbernic.', en: 'Gaming in your pocket — the heart of today’s devices like Anbernic.', de: 'Gaming für die Tasche — das Herz heutiger Geräte wie Anbernic.', fr: "Le jeu dans la poche — le cœur des appareils actuels comme Anbernic." },
-  'type.computer.tag': { cs: '8bitové a 16bitové počítače domácí éry.', en: '8-bit and 16-bit computers of the home era.', de: '8-Bit- und 16-Bit-Computer der Heim-Ära.', fr: "Les ordinateurs 8 bits et 16 bits de l'ère domestique." },
+  'type.computer.tag': { cs: 'Od osmibitů domácí éry po dnešní herní PC.', en: 'From 8-bit home machines to today’s gaming PCs.', de: 'Vom 8-Bit-Heimcomputer bis zum heutigen Gaming-PC.', fr: "Des machines 8 bits de l'ère domestique aux PC de jeu actuels." },
   'type.arcade.tag': { cs: 'Herny, mince a nekompromisní obtížnost.', en: 'Arcades, coins and uncompromising difficulty.', de: 'Spielhallen, Münzen und kompromisslose Schwierigkeit.', fr: 'Salles de jeux, pièces et difficulté sans concession.' },
   'type.fantasy.tag': { cs: 'Moderní „virtuální" konzole s nostalgickými limity.', en: 'Modern “virtual” consoles with nostalgic limits.', de: 'Moderne „virtuelle" Konsolen mit nostalgischen Grenzen.', fr: 'Des consoles « virtuelles » modernes aux limites nostalgiques.' },
 };

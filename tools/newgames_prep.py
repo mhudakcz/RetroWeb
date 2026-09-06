@@ -34,8 +34,10 @@ CILE = {
     "game-gear": 50, "neogeo": 55, "atari-2600": 64,
     # platformy, kde uzivatel chtel vic her (2. 9. 2026)
     "saturn": 80, "java-mobil": 70, "quest": 55, "pico-8": 45,
+    "nds": 110,
+    "wii": 100,
     # velke knihovny — jen dalsi krok
-    "master-system": 90, "pc-engine": 65, "wii-u": 80, "3ds": 80,
+    "master-system": 90, "pc-engine": 65, "wii-u": 80, "3ds": 105,
     "arcade": 130,
     # domaci pocitace: knihovny v tisicich titulu, tady jde o dalsich ~50
     "c64": 115, "zx-spectrum": 101, "atari-8bit": 100, "atari-st": 70,
