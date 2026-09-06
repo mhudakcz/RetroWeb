@@ -91,68 +91,68 @@ počet hráčů).
 - Články ke hrám bez článku: `articles_prep.py --platform <slug>` +
   `articles_new.workflow.js`, merge s `--prefix`. Teasery napřed, jsou vstup.
 
-## Stav k 4. 9. 2026 (preruseno na vyzadani)
+## Stav k 5. 9. 2026 (PC se vypina)
 
-Katalog: **77 platforem, 5759 her**. Kazda ma clanek, uvodni vetu
-i zaverecne "Proc hrat"; zadny clanek neni kratsi nez 1400 znaku.
+Katalog: **77 platforem, 5910 her**. Vse zacommitovane a odeslane
+na GitHub. Na produkci je jeste stav z 4. 9. — nove hry ani ucty tam nejsou.
 
-Obrazky: bez obrazku 571 her, pod tremi 1542,
-pet a vic 1404. Galerie pobere deset polozek,
-na strance jsou videt dva snimky a znacka +N.
+Preklady: EN 5766, DE 5766, FR 5766 her.
+Cim zacit: 800 doporuceni na 76 platformach.
+Obrazky: bez obrazku 722 her, pod tremi 1693.
 
-Preklady: EN 5527, DE 5527, FR 4488 her z 5759.
-"Cim zacit": 768 doporuceni na 76 platformach.
+### Co pribylo naposledy
+- 143 her na Nintendo DS (47 -> 106), 3DS (42 -> 101) a Wii (66 -> 91).
+  Duvod: kanon byl pokryty, ale ze vzorku druhe vrstvy chybelo na 3DS 11 ze 14
+  a na DS 10 ze 14. Rada kapesnich konzoli pritom po GBA (148) spadla na 47 a 42.
+- 8 ceskych prohlizecovek (Samorost 1 a 2, Questionaut, Shy Dwarf, Osada,
+  Stargate Online, Outspace Game, Obrana Ukrajiny) — vsechny s odkazem na hrani.
+- Uzivatelske ucty pres Supabase (prihlaseni kodem, znacky u her, Muj seznam,
+  administrace).
 
-Vsechno je zacommitovane. Na produkci zatim NENI nic z teto davky —
-uzivatel nasazeni odsouhlasil, ale az budou preklady vcetne FR.
+### KDE POKRACOVAT
 
-## KDE POKRACOVAT
+**1. Dodelat novych 151 her** (143 Nintendo + 8 web) podle kontrolniho seznamu:
 
-### 1. Francouzstina (rozdelana, 120 z 296 davek)
-Prace je v `.i18n-work/fr2`, hotove davky se preskoci. Aby se nespoustelo
-296 agentu kvuli zbytku (pri limitu relace spadnou naraz vsichni cekajici):
+    python tools/teasers_prep.py .i18n-work/teasers5      # 151 her bez uvodni vety
+    # workflow tools/teasers.workflow.js, pak --merge
+    python tools/fetch_images.py games "nds,3ds,wii"
+    python tools/fetch_images.py games-nintendo "nds,3ds,wii"
+    python tools/fetch_images.py screenshots "nds,3ds,wii"
+    python tools/fetch_images.py games-nintendo-shots "nds,3ds,wii"
+    python tools/fetch_images.py optimize
+    python tools/fetch_images.py dedupe      # POZOR: az PO optimize
+    python tools/series_art.py; python tools/studio_art.py
+    python tools/parse_content.py
 
-    python tools/i18n_zbytek.py .i18n-work/fr2 .i18n-work/fr2-zbytek
-    # workflow tools/i18n_fr.workflow.js s args, ktere skript vypise
-    python tools/i18n_zbytek.py .i18n-work/fr2 .i18n-work/fr2-zbytek --zpet
-    python tools/i18n_merge.py .i18n-work/fr2
+**2. Preklady novych her** (EN, DE i FR chybi u ~151):
 
-### 2. Dorovnat EN a DE
-Chybi u ~230 nejnovejsich her (pribyly az po extrakci):
+    python tools/i18n_gap.py .i18n-work/tr4 en,de,fr
+    python tools/i18n_chunk.py .i18n-work/tr4 --games 8
+    # workflow i18n_finish.workflow.js (EN+DE), pak i18n_fr.workflow.js (FR)
+    python tools/i18n_merge.py .i18n-work/tr4
 
-    python tools/i18n_gap.py .i18n-work/tr3 en,de
-    python tools/i18n_chunk.py .i18n-work/tr3 --games 8
-    # workflow tools/i18n_finish.workflow.js
-    python tools/i18n_merge.py .i18n-work/tr3
+**3. Vyzkouset prihlaseni.** Schema v Supabase bezi a zabezpeceni je overene
+(anonymni cteni prazdne, zapis odmitnut, statistiky jen pro adminy; admin
+mhudak.cz@gmail.com je vlozeny). ZBYVA JEDNA VEC, bez ktere to nepujde:
+sablona e-mailu musi obsahovat {{ .Token }}, jinak prijde odkaz misto kodu.
+    https://supabase.com/dashboard/project/kcnfrihxmlvnhwroiriy/auth/templates
+Prihlaseny pruchod nebyl otestovan — chybel k tomu e-mail uzivatele.
 
-### 3. "Cim zacit" podle zebricku z Vimm's Lair
-Pripraveno, jeste nespusteno. 143 her je v zebriccich a chybi mezi
-doporucenimi:
+**4. Nasazeni na produkci** (uzivatel odsouhlasil, az budou preklady):
 
-    python tools/picks_prep.py .i18n-work/picks5 --zebricek .i18n-work/vimm/report.json
-    # workflow tools/picks.workflow.js
-    python tools/picks_prep.py .i18n-work/picks5 --merge
-
-### 4. Nasazeni na produkci (odsouhlaseno, az budou preklady)
-
-    npm run build                      # ~16 minut, 24 tisic stranek
+    npm run build          # ~20 minut, pres 25 tisic stranek
     git push origin main
     "/c/Users/Michal (admin)/AppData/Roaming/npm/netlify" deploy --prod --dir=dist
 
-### Zdroje obrazku
-libretro (obaly i snimky) | Steam | Nintendo eShop | App Store | GOG (jen PC
-linie: pc-dos, pc-9x, pc-modern, web, mobil — jinde nabizi jinou verzi nebo
-remake) | ZXDB (Spectrum) | itch.io | Wikipedia infobox.
+**5. Volitelne: Amiga +25 her.** Ze vzorku ji chybely 4 ze 14 a na svuj vyznam
+ma jen 82 her. Ostatni 8/16bitove pocitace mezeru nemaji — Atari 800 a MSX
+nechybelo nic, C64 jedna hra, Atari ST a Amstrad dve.
 
-POZOR NA PORADI: `dedupe` se pousti az PO `optimize`. Pred prevodem porovnava
-cerstvy JPEG proti uz prevedenemu WebP a duplicity neodhali — v jednom behu
-takhle proslo 1866 duplicitnich souboru.
-
-Zdroje jsou uz vycerpane: posledni sweep dal 28 obalu z Wikipedie, Nintendo
-eShop k 157 hram nic. Co zbyva bez obrazku, volny zdroj nepokryva — Java
-a Symbian, PICO-8 (zije na lexaloffle BBS) a konzolove exkluzivity na PS3
-a Xbox 360; na ty by byl potreba klic k RAWG nebo IGDB.
-
-### Limity relace
-Pri limitu spadnou naraz vsichni cekajici agenti, i ti, kteri meli vratit SKIP.
-Limit se resetuje v celou hodinu (hlaska rika kterou). Proto `i18n_zbytek.py`.
+### Na co si dat pozor
+- `dedupe` az PO `optimize` — pred prevodem porovnava JPEG proti WebP a nic nenajde.
+- Vlastni `display` v CSS prebije atribut `hidden`; u novych komponent to bylo
+  potreba osetrit natvrdo, jinak se ukazaly vsechny stavy naraz.
+- Dlouhe davky poustet pres `tools/i18n_zbytek.py` — pri limitu relace spadnou
+  naraz vsichni cekajici agenti, i ti, kteri meli jen vratit SKIP.
+- GOG jen na PC linii (pc-dos, pc-9x, pc-modern, web, mobil); jinde nabizi jinou
+  verzi nebo remake.

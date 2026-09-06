@@ -107,18 +107,62 @@
     "studio": "Origin Systems",
     "year": "1995"
   },
+  "3ds__ace-attorney-spirit-of-justice": {
+    "studio": "Capcom",
+    "year": "2016"
+  },
+  "3ds__ace-combat-assault-horizon-legacy": {
+    "studio": "Access Games",
+    "year": "2011"
+  },
   "3ds__animal-crossing-new-leaf": {
+    "year": "2012"
+  },
+  "3ds__asphalt-3d": {
+    "studio": "Gameloft",
+    "year": "2011"
+  },
+  "3ds__azure-striker-gunvolt": {
+    "studio": "Inti Creates",
+    "year": "2014"
+  },
+  "3ds__azure-striker-gunvolt-2": {
+    "studio": "Inti Creates",
+    "year": "2016"
+  },
+  "3ds__brain-age-concentration-training": {
+    "studio": "Nintendo",
     "year": "2012"
   },
   "3ds__bravely-default": {
     "studio": "Silicon Studio",
     "year": "2012"
   },
+  "3ds__bravely-second-end-layer": {
+    "studio": "Silicon Studio",
+    "year": "2016"
+  },
+  "3ds__castlevania-lords-of-shadow-mirror-of-fate": {
+    "studio": "MercurySteam",
+    "year": "2013"
+  },
   "3ds__cave-story-3d": {
     "year": "2011"
   },
+  "3ds__code-name-s-t-e-m": {
+    "studio": "Intelligent Systems",
+    "year": "2015"
+  },
+  "3ds__crashmo": {
+    "studio": "Intelligent Systems",
+    "year": "2012"
+  },
   "3ds__donkey-kong-country-returns-3d": {
     "year": "2013"
+  },
+  "3ds__dragon-quest-vii-fragments-of-forgotten-past": {
+    "studio": "ArtePiazza",
+    "year": "2016"
   },
   "3ds__dragon-quest-viii": {
     "studio": "Level-5",
@@ -127,11 +171,43 @@
   "3ds__etrian-odyssey-iv": {
     "year": "2012"
   },
+  "3ds__etrian-odyssey-untold-millennium-girl": {
+    "studio": "Atlus",
+    "year": "2013"
+  },
+  "3ds__ever-oasis": {
+    "studio": "Grezzo",
+    "year": "2017"
+  },
+  "3ds__f1-2011": {
+    "studio": "Codemasters",
+    "year": "2011"
+  },
+  "3ds__fantasy-life": {
+    "studio": "Level-5",
+    "year": "2014"
+  },
+  "3ds__fifa-soccer-3d": {
+    "studio": "EA Sports",
+    "year": "2011"
+  },
   "3ds__fire-emblem-awakening": {
     "year": "2012"
   },
+  "3ds__fire-emblem-echoes-shadows-of-valentia": {
+    "studio": "Intelligent Systems",
+    "year": "2017"
+  },
   "3ds__fire-emblem-fates": {
     "year": "2015"
+  },
+  "3ds__gunman-clive": {
+    "studio": "Hörberg Productions",
+    "year": "2012"
+  },
+  "3ds__inazuma-eleven-go": {
+    "studio": "Level-5",
+    "year": "2013"
   },
   "3ds__kid-icarus-uprising": {
     "year": "2012"
@@ -143,6 +219,10 @@
   "3ds__kirby-planet-robobot": {
     "studio": "HAL Laboratory",
     "year": "2016"
+  },
+  "3ds__kirby-triple-deluxe": {
+    "studio": "HAL Laboratory",
+    "year": "2014"
   },
   "3ds__legend-of-zelda-link-between-worlds": {
     "studio": "Nintendo Entertainment Analysis & Development",
@@ -162,20 +242,52 @@
     "studio": "AlphaDream",
     "year": "2013"
   },
+  "3ds__mario-golf-world-tour": {
+    "studio": "Camelot Software Planning",
+    "year": "2014"
+  },
   "3ds__mario-kart-7": {
     "studio": "Nintendo Entertainment Analysis & Development",
     "year": "2011"
+  },
+  "3ds__mario-party-island-tour": {
+    "studio": "Nd Cube",
+    "year": "2013"
+  },
+  "3ds__mario-party-star-rush": {
+    "studio": "Nd Cube",
+    "year": "2016"
   },
   "3ds__mario-sports-superstars": {
     "studio": "Bandai Namco Entertainment",
     "year": "2017"
   },
+  "3ds__mario-tennis-open": {
+    "studio": "Camelot Software Planning",
+    "year": "2012"
+  },
+  "3ds__mega-man-legacy-collection": {
+    "studio": "Digital Eclipse",
+    "year": "2016"
+  },
   "3ds__metal-gear-solid-snake-eater-3d": {
     "studio": "Kojima Productions",
     "year": "2012"
   },
+  "3ds__metroid-prime-federation-force": {
+    "studio": "Next Level Games",
+    "year": "2016"
+  },
   "3ds__metroid-samus-returns": {
     "year": "2017"
+  },
+  "3ds__mighty-gunvolt": {
+    "studio": "Inti Creates",
+    "year": "2014"
+  },
+  "3ds__mighty-switch-force": {
+    "studio": "WayForward",
+    "year": "2011"
   },
   "3ds__monster-hunter-3-ultimate": {
     "studio": "Capcom",
@@ -188,12 +300,44 @@
     "studio": "Capcom",
     "year": "2015"
   },
+  "3ds__moon-chronicles": {
+    "studio": "Renegade Kid",
+    "year": "2014"
+  },
+  "3ds__nano-assault-ex": {
+    "studio": "Shin'en Multimedia",
+    "year": "2013"
+  },
+  "3ds__nba-2k13": {
+    "studio": "Cat Daddy Games",
+    "year": "2012"
+  },
+  "3ds__new-super-mario-bros-2": {
+    "studio": "Nintendo EAD",
+    "year": "2012"
+  },
   "3ds__paper-mario-sticker-star": {
     "studio": "Nintendo",
     "year": "2012"
   },
+  "3ds__persona-q-shadow-of-labyrinth": {
+    "studio": "Atlus / P-Studio",
+    "year": "2014"
+  },
+  "3ds__persona-q2-new-cinema-labyrinth": {
+    "studio": "Atlus",
+    "year": "2019"
+  },
   "3ds__phoenix-wright-ace-attorney-dual-destinies": {
     "year": "2013"
+  },
+  "3ds__picross-3d-round-2": {
+    "studio": "HAL Laboratory",
+    "year": "2015"
+  },
+  "3ds__pilotwings-resort": {
+    "studio": "Monster Games",
+    "year": "2011"
   },
   "3ds__pokemon-omega-ruby-alpha-sapphire": {
     "year": "2014"
@@ -212,8 +356,36 @@
   "3ds__pokemon-x-y": {
     "year": "2013"
   },
+  "3ds__pro-evolution-soccer-2011-3d": {
+    "studio": "Konami",
+    "year": "2011"
+  },
+  "3ds__professor-layton-and-azran-legacy": {
+    "studio": "Level-5",
+    "year": "2014"
+  },
+  "3ds__professor-layton-and-miracle-mask": {
+    "studio": "Level-5",
+    "year": "2012"
+  },
   "3ds__professor-layton-vs-phoenix-wright-ace-attorney": {
     "year": "2012"
+  },
+  "3ds__pushmo": {
+    "studio": "Intelligent Systems",
+    "year": "2011"
+  },
+  "3ds__puzzle-and-dragons-super-mario-bros-edition": {
+    "studio": "GungHo Online Entertainment",
+    "year": "2015"
+  },
+  "3ds__radiant-historia-perfect-chronology": {
+    "studio": "Atlus",
+    "year": "2018"
+  },
+  "3ds__rayman-3d": {
+    "studio": "Ubisoft",
+    "year": "2011"
   },
   "3ds__resident-evil-revelations": {
     "year": "2012"
@@ -222,14 +394,62 @@
     "studio": "Nintendo Software Planning & Development",
     "year": "2015"
   },
+  "3ds__rhythm-thief-and-emperor-s-treasure": {
+    "studio": "Sega",
+    "year": "2012"
+  },
+  "3ds__ridge-racer-3d": {
+    "studio": "Bandai Namco Games",
+    "year": "2011"
+  },
+  "3ds__rune-factory-4": {
+    "studio": "Neverland / Marvelous",
+    "year": "2013"
+  },
+  "3ds__scribblenauts-unlimited": {
+    "studio": "5th Cell",
+    "year": "2013"
+  },
+  "3ds__shantae-and-pirate-s-curse": {
+    "studio": "WayForward",
+    "year": "2014"
+  },
   "3ds__shin-megami-tensei-iv": {
     "year": "2013"
   },
   "3ds__shovel-knight": {
     "year": "2014"
   },
+  "3ds__sky-gamblers-air-supremacy": {
+    "studio": "Atypical Games",
+    "year": "2012"
+  },
+  "3ds__sonic-and-all-stars-racing-transformed": {
+    "studio": "Sumo Digital",
+    "year": "2012"
+  },
+  "3ds__sonic-generations": {
+    "studio": "Dimps",
+    "year": "2011"
+  },
+  "3ds__sonic-lost-world": {
+    "studio": "Dimps",
+    "year": "2013"
+  },
   "3ds__star-fox-64-3d": {
     "year": "2011"
+  },
+  "3ds__steamworld-dig": {
+    "studio": "Image & Form",
+    "year": "2013"
+  },
+  "3ds__steel-diver": {
+    "studio": "Nintendo",
+    "year": "2011"
+  },
+  "3ds__steel-diver-sub-wars": {
+    "studio": "Nintendo",
+    "year": "2013"
   },
   "3ds__super-mario-3d-land": {
     "studio": "Nintendo Entertainment Analysis & Development",
@@ -241,17 +461,33 @@
   "3ds__super-street-fighter-iv-3d-edition": {
     "year": "2011"
   },
+  "3ds__tank-troopers": {
+    "studio": "Nintendo",
+    "year": "2016"
+  },
   "3ds__tekken-3d-prime-edition": {
     "studio": "Arika",
     "year": "2012"
+  },
+  "3ds__tetris-axis": {
+    "studio": "Nintendo",
+    "year": "2011"
   },
   "3ds__tomodachi-life": {
     "studio": "Nintendo",
     "year": "2014"
   },
+  "3ds__xenoblade-chronicles-3d": {
+    "studio": "Monolith Soft",
+    "year": "2015"
+  },
   "3ds__yoshi-s-new-island": {
     "studio": "Arzest",
     "year": "2014"
+  },
+  "3ds__zero-escape-virtue-s-last-reward": {
+    "studio": "Chunsoft",
+    "year": "2012"
   },
   "amiga-cd32__banshee": {
     "year": "1994"
@@ -6422,6 +6658,10 @@
     "studio": "Chunsoft",
     "year": "2009"
   },
+  "nds__advance-wars-days-of-ruin": {
+    "studio": "Intelligent Systems",
+    "year": "2008"
+  },
   "nds__advance-wars-dual-strike": {
     "studio": "Intelligent Systems",
     "year": "2005"
@@ -6430,9 +6670,37 @@
     "studio": "Nintendo Entertainment Analysis & Development",
     "year": "2005"
   },
+  "nds__another-code-two-memories": {
+    "studio": "Cing",
+    "year": "2005"
+  },
+  "nds__asphalt-urban-gt": {
+    "studio": "Gameloft",
+    "year": "2004"
+  },
+  "nds__bangai-o-spirits": {
+    "studio": "Treasure",
+    "year": "2008"
+  },
+  "nds__big-brain-academy": {
+    "studio": "Nintendo",
+    "year": "2006"
+  },
+  "nds__boy-and-his-blob": {
+    "studio": "WayForward Technologies",
+    "year": "2009"
+  },
   "nds__brain-age": {
     "studio": "Nintendo Software Planning & Development",
     "year": "2005"
+  },
+  "nds__brain-age-2-more-training-in-minutes-day": {
+    "studio": "Nintendo",
+    "year": "2006"
+  },
+  "nds__call-of-duty-modern-warfare-mobilized": {
+    "studio": "n-Space",
+    "year": "2009"
   },
   "nds__castlevania-dawn-of-sorrow": {
     "year": "2005"
@@ -6452,6 +6720,34 @@
     "studio": "WayForward Technologies",
     "year": "2007"
   },
+  "nds__custom-robo-arena": {
+    "studio": "Noise",
+    "year": "2007"
+  },
+  "nds__deca-sports-ds": {
+    "studio": "Hudson Soft",
+    "year": "2009"
+  },
+  "nds__dementium-ii": {
+    "studio": "Renegade Kid",
+    "year": "2010"
+  },
+  "nds__dementium-ward": {
+    "studio": "Renegade Kid",
+    "year": "2007"
+  },
+  "nds__devil-survivor": {
+    "studio": "Atlus",
+    "year": "2009"
+  },
+  "nds__diddy-kong-racing-ds": {
+    "studio": "Rare",
+    "year": "2007"
+  },
+  "nds__dragon-quest-iv-chapters-of-chosen": {
+    "studio": "Square Enix",
+    "year": "2008"
+  },
   "nds__dragon-quest-ix-sentinels-of-starry-skies": {
     "year": "2009"
   },
@@ -6459,10 +6755,26 @@
     "studio": "Square Enix",
     "year": "2008"
   },
+  "nds__dragon-quest-vi-realms-of-revelation": {
+    "studio": "Square Enix",
+    "year": "2011"
+  },
   "nds__elite-beat-agents": {
     "year": "2006"
   },
+  "nds__etrian-odyssey": {
+    "studio": "Atlus",
+    "year": "2007"
+  },
   "nds__final-fantasy-iv": {
+    "year": "2007"
+  },
+  "nds__final-fantasy-tactics-a2-grimoire-of-rift": {
+    "studio": "Square Enix",
+    "year": "2007"
+  },
+  "nds__final-fantasy-xii-revenant-wings": {
+    "studio": "Square Enix / Racjin",
     "year": "2007"
   },
   "nds__fire-emblem-shadow-dragon": {
@@ -6472,7 +6784,15 @@
   "nds__ghost-trick-phantom-detective": {
     "year": "2010"
   },
+  "nds__golden-sun-dark-dawn": {
+    "studio": "Camelot Software Planning",
+    "year": "2010"
+  },
   "nds__grand-theft-auto-chinatown-wars": {
+    "year": "2009"
+  },
+  "nds__henry-hatsworth-in-puzzling-adventure": {
+    "studio": "EA Tiburon",
     "year": "2009"
   },
   "nds__hotel-dusk-room-215": {
@@ -6483,9 +6803,21 @@
     "studio": "Ganbarion",
     "year": "2006"
   },
+  "nds__kingdom-hearts-358-2-days": {
+    "studio": "Square Enix / h.a.n.d.",
+    "year": "2009"
+  },
   "nds__kirby-canvas-curse": {
     "studio": "HAL Laboratory",
     "year": "2005"
+  },
+  "nds__kirby-mass-attack": {
+    "studio": "HAL Laboratory",
+    "year": "2011"
+  },
+  "nds__kirby-squeak-squad": {
+    "studio": "HAL Laboratory",
+    "year": "2006"
   },
   "nds__kirby-super-star-ultra": {
     "studio": "HAL Laboratory",
@@ -6511,6 +6843,14 @@
     "studio": "Sega Sports R&D",
     "year": "2007"
   },
+  "nds__mario-and-sonic-at-olympic-winter-games": {
+    "studio": "Sega",
+    "year": "2009"
+  },
+  "nds__mario-hoops-3-on-3": {
+    "studio": "Square Enix",
+    "year": "2006"
+  },
   "nds__mario-kart-ds": {
     "year": "2005"
   },
@@ -6518,17 +6858,53 @@
     "studio": "Hudson Soft",
     "year": "2007"
   },
+  "nds__mario-vs-donkey-kong-mini-land-mayhem": {
+    "studio": "Nintendo Software Technology",
+    "year": "2010"
+  },
   "nds__mega-man-zx": {
     "year": "2006"
+  },
+  "nds__mega-man-zx-advent": {
+    "studio": "Inti Creates",
+    "year": "2007"
+  },
+  "nds__metal-slug-7": {
+    "studio": "SNK Playmore",
+    "year": "2008"
+  },
+  "nds__meteos": {
+    "studio": "Q Entertainment",
+    "year": "2005"
   },
   "nds__metroid-prime-hunters": {
     "year": "2006"
   },
+  "nds__moon": {
+    "studio": "Renegade Kid",
+    "year": "2009"
+  },
+  "nds__nanostray": {
+    "studio": "Shin'en Multimedia",
+    "year": "2005"
+  },
+  "nds__nanostray-2": {
+    "studio": "Shin'en Multimedia",
+    "year": "2008"
+  },
   "nds__need-for-speed-most-wanted": {
     "year": "2005"
   },
+  "nds__need-for-speed-nitro": {
+    "studio": "Firebrand Games",
+    "year": "2009"
+  },
   "nds__new-super-mario-bros": {
     "year": "2006"
+  },
+  "nds__ninja-gaiden-dragon-sword": {
+    "studio": "Team Ninja",
+    "year": "2008"
   },
   "nds__nintendogs": {
     "year": "2005"
@@ -6536,6 +6912,14 @@
   "nds__phoenix-wright-ace-attorney": {
     "studio": "Capcom",
     "year": "2001"
+  },
+  "nds__picross-3d": {
+    "studio": "Jupiter",
+    "year": "2009"
+  },
+  "nds__picross-ds": {
+    "studio": "Nintendo",
+    "year": "2007"
   },
   "nds__plants-vs-zombies": {
     "studio": "PopCap Games",
@@ -6558,6 +6942,10 @@
   "nds__pokemon-platinum": {
     "year": "2008"
   },
+  "nds__pro-evolution-soccer-2008": {
+    "studio": "Konami",
+    "year": "2007"
+  },
   "nds__professor-layton-and-curious-village": {
     "studio": "Level-5",
     "year": "2007"
@@ -6566,16 +6954,64 @@
     "studio": "Level-5",
     "year": "2009"
   },
+  "nds__professor-layton-and-unwound-future": {
+    "studio": "Level-5",
+    "year": "2008"
+  },
+  "nds__puzzle-quest-challenge-of-warlords": {
+    "studio": "Infinite Interactive",
+    "year": "2007"
+  },
+  "nds__radiant-historia": {
+    "studio": "Atlus",
+    "year": "2010"
+  },
+  "nds__retro-game-challenge": {
+    "studio": "Indieszero",
+    "year": "2009"
+  },
   "nds__rhythm-heaven": {
     "studio": "Nintendo SPD / iNiS",
     "year": "2009"
+  },
+  "nds__ridge-racer-ds": {
+    "studio": "Namco",
+    "year": "2005"
   },
   "nds__scribblenauts": {
     "studio": "5th Cell",
     "year": "2009"
   },
+  "nds__sega-superstars-tennis": {
+    "studio": "Sumo Digital",
+    "year": "2008"
+  },
+  "nds__shin-megami-tensei-strange-journey": {
+    "studio": "Atlus",
+    "year": "2010"
+  },
+  "nds__solatorobo-red-hunter": {
+    "studio": "CyberConnect2",
+    "year": "2011"
+  },
+  "nds__sonic-colors": {
+    "studio": "Dimps",
+    "year": "2010"
+  },
   "nds__sonic-rush": {
     "year": "2005"
+  },
+  "nds__space-invaders-extreme": {
+    "studio": "Taito",
+    "year": "2008"
+  },
+  "nds__star-fox-command": {
+    "studio": "Q-Games / Nintendo",
+    "year": "2006"
+  },
+  "nds__suikoden-tierkreis": {
+    "studio": "Konami",
+    "year": "2009"
   },
   "nds__super-mario-64-ds": {
     "year": "2004"
@@ -6584,8 +7020,44 @@
     "studio": "Nintendo",
     "year": "2006"
   },
+  "nds__tony-hawk-s-american-sk8land": {
+    "studio": "Vicarious Visions",
+    "year": "2005"
+  },
+  "nds__trace-memory": {
+    "studio": "Cing",
+    "year": "2005"
+  },
+  "nds__trackmania-ds": {
+    "studio": "Firebrand Games",
+    "year": "2008"
+  },
+  "nds__viewtiful-joe-double-trouble": {
+    "studio": "Capcom",
+    "year": "2005"
+  },
+  "nds__wario-master-of-disguise": {
+    "studio": "Suzak",
+    "year": "2007"
+  },
+  "nds__warioware-touched": {
+    "studio": "Nintendo",
+    "year": "2004"
+  },
   "nds__world-ends-with-you": {
     "year": "2007"
+  },
+  "nds__yoshi-s-island-ds": {
+    "studio": "Artoon",
+    "year": "2006"
+  },
+  "nds__yoshi-touch-and-go": {
+    "studio": "Nintendo",
+    "year": "2005"
+  },
+  "nds__zoo-keeper": {
+    "studio": "Genterprise",
+    "year": "2004"
   },
   "neogeo__aero-fighters-2": {
     "year": "1994"
@@ -16628,6 +17100,14 @@
     "studio": "Ubisoft Montpellier",
     "year": "2012"
   },
+  "wii__another-code-r-journey-into-lost-memories": {
+    "studio": "Cing",
+    "year": "2009"
+  },
+  "wii__arc-rise-fantasia": {
+    "studio": "imageepoch",
+    "year": "2010"
+  },
   "wii__beatles-rock-band": {
     "studio": "Harmonix",
     "year": "2009"
@@ -16635,6 +17115,10 @@
   "wii__bit-trip-beat": {
     "studio": "Gaijin Games",
     "year": "2009"
+  },
+  "wii__blaster-master-overdrive": {
+    "studio": "Backbone Entertainment",
+    "year": "2010"
   },
   "wii__boom-blox": {
     "studio": "EA Los Angeles",
@@ -16656,9 +17140,33 @@
     "studio": "High Voltage Software",
     "year": "2009"
   },
+  "wii__conduit-2": {
+    "studio": "High Voltage Software",
+    "year": "2011"
+  },
+  "wii__contra-rebirth": {
+    "studio": "Konami",
+    "year": "2009"
+  },
+  "wii__cursed-mountain": {
+    "studio": "Deep Silver Vienna",
+    "year": "2010"
+  },
+  "wii__de-blob": {
+    "studio": "Blue Tongue Entertainment",
+    "year": "2008"
+  },
   "wii__dead-space-extraction": {
     "studio": "Visceral Games",
     "year": "2009"
+  },
+  "wii__deadly-creatures": {
+    "studio": "Rainbow Studios",
+    "year": "2009"
+  },
+  "wii__disaster-day-of-crisis": {
+    "studio": "Monolith Soft",
+    "year": "2008"
   },
   "wii__donkey-kong-country-returns": {
     "studio": "Retro Studios",
@@ -16666,6 +17174,14 @@
   },
   "wii__dragon-ball-z-budokai-tenkaichi-3": {
     "studio": "Spike",
+    "year": "2007"
+  },
+  "wii__dragon-quest-swords-masked-queen-and-tower-of-mirrors": {
+    "studio": "Genius Sonority",
+    "year": "2007"
+  },
+  "wii__endless-ocean": {
+    "studio": "Arika",
     "year": "2007"
   },
   "wii__epic-mickey": {
@@ -16684,9 +17200,17 @@
     "studio": "tri-Crescendo",
     "year": "2009"
   },
+  "wii__ghost-squad": {
+    "studio": "Sega",
+    "year": "2007"
+  },
   "wii__goldeneye-007": {
     "studio": "Eurocom",
     "year": "2010"
+  },
+  "wii__gradius-rebirth": {
+    "studio": "Konami",
+    "year": "2008"
   },
   "wii__guitar-hero-iii-legends-of-rock": {
     "studio": "Neversoft",
@@ -16728,6 +17252,14 @@
     "studio": "Traveller's Tales",
     "year": "2011"
   },
+  "wii__link-s-crossbow-training": {
+    "studio": "Nintendo EAD",
+    "year": "2007"
+  },
+  "wii__little-king-s-story": {
+    "studio": "Cing",
+    "year": "2009"
+  },
   "wii__lostwinds": {
     "studio": "Frontier Developments",
     "year": "2008"
@@ -16756,6 +17288,18 @@
     "studio": "Next Level Games",
     "year": "2007"
   },
+  "wii__medal-of-honor-heroes-2": {
+    "studio": "EA",
+    "year": "2007"
+  },
+  "wii__mega-man-9": {
+    "studio": "Inti Creates / Capcom",
+    "year": "2008"
+  },
+  "wii__metal-slug-anthology": {
+    "studio": "SNK Playmore",
+    "year": "2007"
+  },
   "wii__metroid-other-m": {
     "studio": "Team Ninja",
     "year": "2010"
@@ -16763,6 +17307,10 @@
   "wii__metroid-prime-3-corruption": {
     "studio": "Retro Studios",
     "year": "2007"
+  },
+  "wii__metroid-prime-trilogy": {
+    "studio": "Retro Studios",
+    "year": "2009"
   },
   "wii__monster-hunter-tri": {
     "studio": "Capcom",
@@ -16790,6 +17338,14 @@
   },
   "wii__okami": {
     "studio": "Ready at Dawn",
+    "year": "2008"
+  },
+  "wii__pandora-s-tower": {
+    "studio": "Ganbarion",
+    "year": "2011"
+  },
+  "wii__prince-of-persia-rival-swords": {
+    "studio": "Ubisoft Montreal",
     "year": "2008"
   },
   "wii__punch-out": {
@@ -16820,6 +17376,10 @@
     "studio": "Nintendo",
     "year": "2011"
   },
+  "wii__rune-factory-frontier": {
+    "studio": "Neverland",
+    "year": "2009"
+  },
   "wii__silent-hill-shattered-memories": {
     "studio": "Climax Studios",
     "year": "2009"
@@ -16838,6 +17398,14 @@
   },
   "wii__sonic-unleashed": {
     "studio": "Dimps",
+    "year": "2008"
+  },
+  "wii__star-soldier-r": {
+    "studio": "Hudson Soft",
+    "year": "2009"
+  },
+  "wii__star-wars-force-unleashed": {
+    "studio": "Krome Studios",
     "year": "2008"
   },
   "wii__super-mario-galaxy": {
@@ -16859,6 +17427,10 @@
   "wii__tales-of-symphonia-dawn-of-new-world": {
     "studio": "Namco Tales Studio",
     "year": "2008"
+  },
+  "wii__tatsunoko-vs-capcom-ultimate-all-stars": {
+    "studio": "Capcom / Eighting",
+    "year": "2010"
   },
   "wii__wario-land-shake-it": {
     "studio": "Good-Feel",
