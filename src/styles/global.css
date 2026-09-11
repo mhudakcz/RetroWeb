@@ -446,3 +446,23 @@ h3 {
   .search { min-width: 0; flex: 1 1 auto; max-width: 260px; }
 }
 
+/* Na mobilu se nabidka ukotvuje k oknu, ne k poli.
+   Pole je tu uzke a u prave hrany, takze nabidka siroka 90vw ukotvena pres
+   right: 0 pretekala doleva mimo obrazovku. Hlavicka je sticky na top: 0,
+   takze fixed pod ni sedi spravne i po odrolovani. */
+@media (max-width: 640px) {
+  .search-results {
+    position: fixed;
+    top: 64px;
+    left: 10px;
+    right: 10px;
+    width: auto;
+    max-height: calc(100svh - 84px);
+  }
+  /* Dlouhy nazev hry se drive orizl vytecky uz v polovine; na uzkem displeji
+     radeji zalomit na dva radky a zkratku platformy dat pod nej. */
+  .sr-item { flex-wrap: wrap; align-items: flex-start; gap: 2px 10px; }
+  .sr-name { flex: 1 1 100%; white-space: normal; overflow: visible; }
+  .sr-meta { flex: none; }
+}
+
