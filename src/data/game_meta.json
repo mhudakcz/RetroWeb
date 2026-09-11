@@ -495,6 +495,9 @@
  "amiga-cd32__beneath-steel-sky": {
   "year": "1994"
  },
+ "amiga-cd32__flink": {
+  "year": "1994"
+ },
  "amiga-cd32__gloom": {
   "year": "1995"
  },
@@ -531,6 +534,9 @@
  },
  "amiga__bombuzal": {
   "year": "1989"
+ },
+ "amiga__bubble-bobble": {
+  "year": "1987"
  },
  "amiga__cannon-fodder": {
   "year": "1993"
@@ -693,6 +699,9 @@
  "amstrad-cpc__bomb-jack": {
   "year": "1986"
  },
+ "amstrad-cpc__boulder-dash": {
+  "year": "1984"
+ },
  "amstrad-cpc__bubble-bobble": {
   "year": "1987"
  },
@@ -717,8 +726,14 @@
  "amstrad-cpc__robocop": {
   "year": "1988"
  },
+ "amstrad-cpc__sir-fred": {
+  "year": "1985"
+ },
  "amstrad-cpc__switchblade": {
   "year": "1989"
+ },
+ "amstrad-cpc__targhan": {
+  "year": "1988"
  },
  "arcade__1942": {
   "year": "1984"
@@ -1100,6 +1115,9 @@
  "arcade__sea-wolf": {
   "studio": "Midway",
   "year": "1976"
+ },
+ "arcade__sega-rally": {
+  "year": "1995"
  },
  "arcade__sega-rally-championship": {
   "year": "1994"
@@ -1630,6 +1648,9 @@
  "atari-7800__dig-dug": {
   "year": "1986"
  },
+ "atari-7800__donkey-kong": {
+  "year": "1986"
+ },
  "atari-7800__double-dragon": {
   "studio": "Activision",
   "year": "1989"
@@ -1674,6 +1695,9 @@
  },
  "atari-7800__ms-pac-man": {
   "year": "1986"
+ },
+ "atari-7800__ninja-golf": {
+  "year": "1990"
  },
  "atari-7800__pole-position-ii": {
   "year": "1986"
@@ -1807,6 +1831,9 @@
  "atari-8bit__gateway-to-apshai": {
   "year": "1983"
  },
+ "atari-8bit__green-beret": {
+  "year": "1986"
+ },
  "atari-8bit__hobbit": {
   "studio": "Melbourne House",
   "year": "1983"
@@ -1833,6 +1860,9 @@
  "atari-8bit__lords-of-conquest": {
   "studio": "Electronic Arts",
   "year": "1986"
+ },
+ "atari-8bit__mercenary": {
+  "year": "1985"
  },
  "atari-8bit__miner-2049er": {
   "year": "1982"
@@ -2128,6 +2158,9 @@
   "studio": "Lucasfilm Games",
   "year": "1989"
  },
+ "atari-st__international-karate": {
+  "year": "1987"
+ },
  "atari-st__ivan-ironman-stewart-s-super-off-road": {
   "studio": "Leland / Virgin Games",
   "year": "1990"
@@ -2344,6 +2377,9 @@
  },
  "c64__giana-sisters": {
   "year": "1987"
+ },
+ "c64__golden-axe": {
+  "year": "1990"
  },
  "c64__grand-prix-circuit": {
   "studio": "Distinctive Software",
@@ -2719,6 +2755,9 @@
  "cps__cadillacs-and-dinosaurs": {
   "year": "1993"
  },
+ "cps__capcom-vs-snk-2": {
+  "year": "2001"
+ },
  "cps__captain-commando": {
   "year": "1991"
  },
@@ -2807,6 +2846,9 @@
  "dreamcast__garou-mark-of-wolves": {
   "year": "2000"
  },
+ "dreamcast__house-of-dead-2": {
+  "year": "1998"
+ },
  "dreamcast__intrepid-izzy": {
   "studio": "Senile Team",
   "year": "2020"
@@ -2851,6 +2893,9 @@
  },
  "dreamcast__spider-man": {
   "studio": "Neversoft",
+  "year": "2000"
+ },
+ "dreamcast__super-puzzle-fighter-ii-x": {
   "year": "2000"
  },
  "dreamcast__sword-of-berserk-guts-rage": {
@@ -4227,6 +4272,9 @@
   "year": "1991"
  },
  "game-gear__sonic-triple-trouble": {},
+ "game-gear__streets-of-rage": {
+  "year": "1992"
+ },
  "game-gear__tails-adventure": {},
  "game-gear__wonder-boy-iii-dragon-s-trap": {
   "studio": "Westone Bit Entertainment",
@@ -5038,7 +5086,9 @@
   "year": "1991"
  },
  "master-system__phantasy-star": {},
- "master-system__power-strike": {},
+ "master-system__power-strike": {
+  "year": "1988"
+ },
  "master-system__prince-of-persia": {
   "year": "1992"
  },
@@ -7416,6 +7466,9 @@
  "neogeo__pulstar": {
   "year": "1995"
  },
+ "neogeo__puzzle-bobble-bust-move": {
+  "year": "1994"
+ },
  "neogeo__real-bout-fatal-fury": {
   "year": "1995"
  },
@@ -7645,7 +7698,9 @@
  "nes__pac-man": {
   "year": "1984"
  },
- "nes__prince-of-persia": {},
+ "nes__prince-of-persia": {
+  "year": "1993"
+ },
  "nes__punch-out": {},
  "nes__r-c-pro-am": {
   "year": "1988"
@@ -7657,7 +7712,9 @@
  "nes__rad-racer": {
   "year": "1987"
  },
- "nes__rainbow-islands": {},
+ "nes__rainbow-islands": {
+  "year": "1988"
+ },
  "nes__rampart": {
   "year": "1991"
  },
@@ -10962,6 +11019,9 @@
   "studio": "nezávislý vývojář",
   "year": "2016"
  },
+ "pico-8__poom": {
+  "year": "2016"
+ },
  "pico-8__squareboy-vs-bullies-arena-edition": {
   "studio": "nezávislý vývojář",
   "year": "2016"
@@ -11048,6 +11108,9 @@
  "playstation__castlevania-symphony-of-night": {
   "year": "1997"
  },
+ "playstation__civilization-ii": {
+  "year": "1997"
+ },
  "playstation__clock-tower": {
   "studio": "Human Entertainment",
   "year": "1997"
@@ -11055,6 +11118,9 @@
  "playstation__colony-wars": {
   "studio": "Psygnosis",
   "year": "1997"
+ },
+ "playstation__command-and-conquer": {
+  "year": "1996"
  },
  "playstation__cool-boarders": {
   "studio": "UEP Systems",
@@ -11279,6 +11345,9 @@
  },
  "playstation__star-trek-invasion": {
   "year": "2000"
+ },
+ "playstation__star-wars-dark-forces": {
+  "year": "1996"
  },
  "playstation__star-wars-demolition": {
   "year": "2000"
@@ -15489,6 +15558,9 @@
   "studio": "Blue Shift",
   "year": "1996"
  },
+ "saturn__x-men-vs-street-fighter": {
+  "year": "1997"
+ },
  "sega-32x__after-burner-complete": {
   "studio": "Sega",
   "year": "1995"
@@ -16524,6 +16596,9 @@
   "year": "1994"
  },
  "vic20__adventureland": {
+  "year": "1982"
+ },
+ "vic20__avenger": {
   "year": "1982"
  },
  "vic20__cosmic-cruncher": {
@@ -20827,6 +20902,9 @@
   "studio": "MicroStyle",
   "year": "1989"
  },
+ "zx-spectrum__sword-of-ianna": {
+  "year": "2015"
+ },
  "zx-spectrum__target-renegade": {
   "year": "1988"
  },
@@ -20887,5 +20965,8 @@
  },
  "zx81__3d-monster-maze": {
   "year": "1981"
+ },
+ "zx81__mazogs": {
+  "year": "1982"
  }
 }
