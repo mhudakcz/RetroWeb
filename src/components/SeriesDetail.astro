@@ -61,15 +61,33 @@ const entries = [...byTitle.values()]
     </figure>
   )}
 
+  {intro && (
+    <nav class="art-toc" aria-label={t(locale, 'series.games')}>
+      <a class="toc-skok" href="#hry-v-serii">▤ {t(locale, 'series.games')}</a>
+    </nav>
+  )}
+
   {intro && <div class="article prose" set:html={intro} />}
 
-  <section class="games">
+  <section class="games" id="hry-v-serii">
     <h2 class="sec-title">{t(locale, 'series.games')} <span class="muted">({entries.length})</span></h2>
     <GameEntryList games={s.games} locale={locale} />
   </section>
 </article>
 
 <style>
+  /* Skok mimo clanek ke hram — u delsich uvodu je seznam dilu daleko dole. */
+  .art-toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; }
+  .toc-skok {
+    font-size: 0.84rem; padding: 0.38em 0.8em; border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--accent); font-weight: 700; text-decoration: none;
+  }
+  .toc-skok:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+  /* Hlavicka je sticky, takze cil skoku potrebuje odstup. */
+  #hry-v-serii { scroll-margin-top: 84px; }
+
   .narrow { max-width: 920px; }
   .crumbs { padding-top: 26px; font-size: 0.86rem; }
   .crumbs a { color: var(--accent); }

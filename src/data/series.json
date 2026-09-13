@@ -7,6 +7,13 @@
   ]
  },
  {
+  "slug": "advance-wars",
+  "name": "Advance Wars",
+  "match": [
+   "advance wars"
+  ]
+ },
+ {
   "slug": "age-of-empires",
   "name": "Age of Empires",
   "match": [
@@ -27,6 +34,24 @@
   ]
  },
  {
+  "slug": "alien",
+  "name": "Alien",
+  "match": [
+   "alien"
+  ],
+  "exclude": [
+   "alien 8",
+   "alien wars"
+  ]
+ },
+ {
+  "slug": "aliens",
+  "name": "Aliens",
+  "match": [
+   "aliens"
+  ]
+ },
+ {
   "slug": "animal-crossing",
   "name": "Animal Crossing",
   "match": [
@@ -38,6 +63,27 @@
    "de": "Animal Crossing begann 2001 in Japan als Dōbutsu no Mori auf dem Nintendo 64 und erreichte den Rest der Welt ein Jahr später in überarbeiteter Form auf dem GameCube. Nintendo baute das Ganze um eine Idee, die auf dem Papier kaum funktionieren kann: keine Gegner, kein Ende, kein Punktestand, dafür Uhr und Kalender, die an die echte Zeit gekoppelt sind. Das Dorf lebt weiter, auch wenn die Konsole aus bleibt — die Jahreszeiten wechseln, Fische und Insekten erscheinen je nach Monat und Tageszeit, und die Nachbarn erinnern sich, wie lange man fort war. Die Grundschleife ist ruhig bis meditativ: fangen, sammeln, verkaufen, bei Tom Nook den Hauskredit abstottern und wieder von vorn.\n\nRichtig geöffnet haben die Reihe erst die Handhelds. Wild World brachte das Dorf auf dem Nintendo DS in die Hosentasche, New Leaf machte den Spieler auf dem 3DS zum Bürgermeister und gab ihm die Mittel, den ganzen Ort umzugestalten. Der letzte große Teil, Animal Crossing: New Horizons für die Switch aus dem Jahr 2020, verlegte alles auf eine einsame Insel, ergänzte Handwerk und Geländegestaltung und erschien genau in dem Moment, in dem viele Menschen etwas Friedliches suchten — und wurde so weit über Nintendos Stammpublikum hinaus zum Phänomen. Sein Einfluss zieht sich durch eine ganze Welle von Spielen, die Herausforderung gegen Alltagsrhythmus und die Pflege eines eigenen Ortes eingetauscht haben.",
    "fr": "Animal Crossing est né en 2001 au Japon sous le nom de Dōbutsu no Mori sur Nintendo 64, avant d'atteindre le reste du monde un an plus tard dans une version remaniée pour GameCube. Nintendo a bâti l'ensemble sur une idée qui semble absurde sur le papier: pas d'ennemis, pas de fin, pas de score, mais une horloge et un calendrier calés sur le temps réel. Le village continue de vivre même console éteinte — les saisons défilent, poissons et insectes apparaissent selon le mois et l'heure, et les voisins se souviennent précisément de la durée de votre absence. La boucle de base est calme, presque méditative: pêcher, récolter, revendre, rembourser à Tom Nook le crédit de la maison, puis recommencer.\n\nCe sont les consoles portables qui ont réellement ouvert la série. Wild World a glissé le village dans la poche sur Nintendo DS, et New Leaf sur 3DS a promu le joueur au rang de maire, avec le pouvoir de redessiner la commune entière. Le dernier grand épisode en date, Animal Crossing: New Horizons sur Switch en 2020, a déplacé le décor sur une île déserte, ajouté l'artisanat et le modelage du terrain, et est arrivé au moment précis où beaucoup cherchaient quelque chose d'apaisant — ce qui en a fait un phénomène bien au-delà du public habituel de Nintendo. Son influence se retrouve dans toute une vague de jeux qui ont troqué le défi contre un rythme quotidien et le soin d'un lieu à soi."
   }
+ },
+ {
+  "slug": "arkanoid",
+  "name": "Arkanoid",
+  "match": [
+   "arkanoid"
+  ]
+ },
+ {
+  "slug": "armored-core",
+  "name": "Armored Core",
+  "match": [
+   "armored core"
+  ]
+ },
+ {
+  "slug": "asphalt",
+  "name": "Asphalt",
+  "match": [
+   "asphalt"
+  ]
  },
  {
   "slug": "assassins-creed",
@@ -64,6 +110,20 @@
    "de": "Als 1998 das erste Baldur's Gate erschien, galt das Computer-Rollenspiel vielen Stimmen als Genre im Rückzug. BioWare widerlegte diesen Eindruck binnen Wochen: Auf der hauseigenen Infinity Engine entstanden die Vergessenen Reiche nach den Regeln von Advanced Dungeons & Dragons, dazu ein Kampfmodell, das ein Jahrzehnt lang Maßstab blieb. Gekämpft wird in Echtzeit, doch ein Tastendruck friert alles ein, damit man jedem Mitglied der Gruppe neue Befehle erteilen kann. Darum herum lag eine handgemalte Landschaft von Candlekeep bis in die Stadt Baldur's Gate, bevölkert von Begleitern mit eigenen Ansichten, die sich untereinander stritten und die Gruppe nach einer falschen Entscheidung auch verließen.\n\nDen Höhepunkt sehen die meisten bis heute in Baldur's Gate II: Shadows of Amn von 2000 — größer, erzählerisch deutlich souveräner und voller Nebengeschichten, die anderswo für ein ganzes Spiel gereicht hätten. Das Add-on Throne of Bhaal führte die Geschichte des Bhaalsprößlings zu Ende. Auf Konsolen ging der Name einen völlig anderen Weg: Dark Alliance war ein geradliniges Actionspiel für zwei Spieler an einem Bildschirm. Nach langer Stille übernahm das belgische Studio Larian die Lizenz und veröffentlichte 2023 Baldur's Gate III, das mit der fünften D&D-Edition zu rundenbasierten Kämpfen zurückkehrte. Die Handschrift der frühen Teile prägt das isometrische Rollenspiel bis heute.",
    "fr": "Quand le premier Baldur's Gate sort en 1998, beaucoup considèrent le jeu de rôle sur ordinateur comme un genre en repli. BioWare renverse cette impression en quelques semaines: son moteur Infinity fait vivre les Royaumes Oubliés selon les règles d'Advanced Dungeons & Dragons et y ajoute un modèle de combat qui restera la référence pendant une décennie. Les affrontements se déroulent en temps réel, mais une simple touche fige l'action pour redistribuer les ordres à chaque membre du groupe. Autour de ce système s'étendaient des décors peints à la main, de Candlekeep jusqu'à la cité de Baldur's Gate, peuplés de compagnons qui avaient leurs propres convictions, se disputaient entre eux et pouvaient quitter l'équipe après un mauvais choix.\n\nLe sommet reste pour beaucoup Baldur's Gate II: Shadows of Amn, paru en 2000: plus vaste, bien plus assuré dans son écriture, riche de quêtes secondaires qui auraient ailleurs rempli un jeu entier. L'extension Throne of Bhaal a ensuite conclu l'histoire de l'enfant de Bhaal. Sur consoles, la marque a pris une tout autre direction avec Dark Alliance, jeu d'action direct pensé pour deux joueurs sur un même écran. Après un long silence, la licence est passée au studio belge Larian, dont Baldur's Gate III en 2023 est revenu au tour par tour et à la cinquième édition de D&D. L'empreinte des premiers épisodes reste visible dans tout le RPG isométrique."
   }
+ },
+ {
+  "slug": "banjo-kazooie",
+  "name": "Banjo-Kazooie",
+  "match": [
+   "banjo"
+  ]
+ },
+ {
+  "slug": "batman-arkham",
+  "name": "Batman: Arkham",
+  "match": [
+   "arkham"
+  ]
  },
  {
   "slug": "battlefield",
@@ -99,6 +159,13 @@
   }
  },
  {
+  "slug": "blaster-master",
+  "name": "Blaster Master",
+  "match": [
+   "blaster master"
+  ]
+ },
+ {
   "slug": "borderlands",
   "name": "Borderlands",
   "match": [
@@ -110,6 +177,20 @@
    "de": "Borderlands kam 2009 mit einer Idee, die heute selbstverständlich klingt und die damals niemand umsetzte: ein Ego-Shooter, in dem jeder Gegner Beute fallen lässt und die Waffen im Moment des Fundes erzeugt werden, sodass es zwei identische Gewehre praktisch nicht gibt. Gearbox verpackte das in einen comichaft konturierten Grafikstil, der das Spiel sofort erkennbar machte und es bis heute frisch hält, siedelte es auf dem von Verrückten beherrschten Planeten Pandora an und gab den Spielern vier Vault Hunter mit eigenen Fähigkeitsbäumen. Der Koop für bis zu vier Leute war von Anfang an das Herzstück und ergab zusammen mit dem stetigen Stufenaufstieg jene Schleife, die man heute Looter-Shooter nennt.\n\nBorderlands 2 von 2012 ist für die meisten der Höhepunkt, und der Grund ist schnell benannt: Handsome Jack, ein Bösewicht, der das ganze Spiel hindurch auf den Spieler einredet und dabei zugleich komisch und abstoßend ist, dazu deutlich besseres Schreiben, dichtere Missionen und umfangreiche Zusatzabenteuer. Borderlands: The Pre-Sequel verlegte die Handlung auf einen Mond mit geringer Schwerkraft und Sauerstoffmodulen, was den Gefechten Vertikalität gab, die Reihe aber eher zur Seite als nach vorn schob. Borderlands 3 lieferte 2019 das beste Schussgefühl der Marke und mehrere Planeten statt eines einzigen. Der Einfluss reicht weit über die Serie hinaus: Ohne Borderlands sähe eine ganze Reihe heutiger Actionspiele mit Zufallsbeute und endlos wachsenden Zahlen anders aus.",
    "fr": "Borderlands est arrivé en 2009 avec une idée qui paraît évidente aujourd'hui et que personne ne réalisait alors: un jeu de tir à la première personne où chaque ennemi lâche du butin et où les armes sont générées à la volée, si bien que deux fusils identiques n'existent pratiquement pas. Gearbox l'a habillé d'un style graphique aux contours de bande dessinée qui le rendait reconnaissable au premier coup d'œil et l'empêche encore de vieillir, l'a posé sur Pandore, planète livrée aux psychopathes, et a confié aux joueurs quatre Vault Hunters aux arbres de compétences distincts. La coopération jusqu'à quatre en était le cœur dès le premier jour et, avec la montée régulière en niveaux, a donné la boucle que l'on range désormais sous le nom de looter shooter.\n\nBorderlands 2, en 2012, reste le sommet pour la plupart des joueurs, et la raison est simple à nommer: Handsome Jack, un méchant qui vous parle pendant tout le jeu et parvient à être drôle et détestable à la fois, servi par une écriture nettement meilleure, des missions plus denses et de longues extensions. Borderlands: The Pre-Sequel a déplacé l'action sur une lune à faible gravité avec des modules d'oxygène, ce qui a donné de la verticalité aux combats mais a fait bouger la série de côté plutôt que vers l'avant. Borderlands 3, en 2019, a offert les meilleures sensations de tir de la marque et plusieurs planètes au lieu d'une seule. L'influence dépasse largement la série: sans Borderlands, quantité de jeux d'action actuels bâtis sur le butin aléatoire et l'escalade infinie des chiffres auraient une autre allure."
   }
+ },
+ {
+  "slug": "brain-age",
+  "name": "Brain Age",
+  "match": [
+   "brain age"
+  ]
+ },
+ {
+  "slug": "bravely-default",
+  "name": "Bravely Default",
+  "match": [
+   "bravely default"
+  ]
  },
  {
   "slug": "breath-of-fire",
@@ -140,6 +221,20 @@
    "de": "Die Burnout-Reihe begann 2001, als das britische Studio Criterion Games ein Arcade-Rennspiel vorstellte, das komplett auf Risiko setzte – je waghalsiger man im Gegenverkehr fuhr und je knapper ein Crash ausfiel, desto schneller füllte sich der Boost. Statt auf Simulationsrealismus zu setzen, setzte das Spiel auf Adrenalin, spektakuläre Zeitlupen-Crashs und aggressive Rivalität im dichten Verkehr und hob sich damit von Anfang an von anderen Rennserien ab. Dieses Prinzip aus Risiko und Belohnung blieb ihr Markenzeichen über die gesamte Serie hinweg.\n\nBurnout 2: Point of Impact führte 2002 die Takedown-Mechanik ein, also das gezielte Rammen von Gegnern von der Strecke, die Burnout 3: Takedown (2004) dann zur Perfektion brachte – bis heute als Höhepunkt der Serie gefeiert, dank brutaler Crash-Kreuzungen, dichtem Verkehr und rasantem Tempo. Nach Burnout Revenge (2005) brachte 2008 Burnout Paradise die große Wende: Die Serie zog in die offene Welt von Paradise City um und erhielt später ein Remaster für neuere Konsolen. Neben den Hauptteilen erschienen auch Handheld-Ableger wie Burnout Legends und Burnout Dominator für die PSP. Damit prägte die Serie das gesamte Arcade-Rennspiel-Genre, indem sie Zerstörung und Geschwindigkeit selbst zur Unterhaltung machte.",
    "fr": "La série Burnout a débuté en 2001, lorsque le studio britannique Criterion Games a lancé un jeu de course arcade entièrement bâti sur le risque : plus on roulait à contresens dans la circulation et plus on frôlait l'accident, plus le boost se remplissait vite. Plutôt que de viser le réalisme d'une simulation, elle misait sur l'adrénaline, des crashs spectaculaires au ralenti et une rivalité agressive dans un trafic dense, ce qui la distinguait dès le départ des autres séries de course. Ce principe de risque et de récompense est resté sa signature tout au long de son existence.\n\nBurnout 2: Point of Impact a introduit en 2002 la mécanique du Takedown, consistant à percuter délibérément ses adversaires, que Burnout 3: Takedown (2004) a ensuite portée à la perfection — toujours considéré comme le sommet de la série grâce à ses carrefours meurtriers, son trafic dense et son rythme effréné. Après Burnout Revenge (2005), l'année 2008 a marqué un tournant avec Burnout Paradise, qui a transposé la série dans la ville ouverte de Paradise City, avant de connaître plus tard une version remasterisée sur consoles récentes. À côté des épisodes principaux sont aussi parus des spin-offs sur portables, comme Burnout Legends et Burnout Dominator sur PSP. La série a ainsi marqué tout le genre de la course arcade en faisant de la destruction et de la vitesse un plaisir à part entière."
   }
+ },
+ {
+  "slug": "bust-a-groove",
+  "name": "Bust-A-Groove",
+  "match": [
+   "bust-a-groove"
+  ]
+ },
+ {
+  "slug": "bust-a-move",
+  "name": "Bust-A-Move",
+  "match": [
+   "bust-a-move"
+  ]
  },
  {
   "slug": "call-of-duty",
@@ -261,6 +356,20 @@
   }
  },
  {
+  "slug": "colin-mcrae-rally",
+  "name": "Colin McRae Rally",
+  "match": [
+   "colin mcrae rally"
+  ]
+ },
+ {
+  "slug": "comanche",
+  "name": "Comanche",
+  "match": [
+   "comanche"
+  ]
+ },
+ {
   "slug": "command-and-conquer",
   "name": "Command & Conquer",
   "match": [
@@ -272,6 +381,13 @@
    "de": "Command & Conquer hat die Echtzeitstrategie 1995 nicht erfunden, aber es hat festgelegt, wie das Genre das nächste Jahrzehnt aussehen würde. Westwood Studios knüpfte an das eigene Dune II an und ergänzte die Seitenleiste mit der Bauschlange, per Maus gesteuerte Truppen ohne Tastaturbefehle, Tiberium als einzigen Rohstoff, um den zu kämpfen sich lohnt, und vor allem zwei Fraktionen mit eigenem Charakter: das geordnete GDI und die fanatische Bruderschaft von Nod unter Kane. Realfilm-Zwischensequenzen, Rockmusik und trockener Humor gaben dem Spiel einen Ton, den im Genre niemand sonst hatte, und die Zielwahl auf einer strategischen Karte ließ den Feldzug wie einen echten Krieg wirken.\n\nRed Alert verlegte den Konflikt 1996 in eine alternative Geschichte, in der Tesla-Spulen gegen die Chronosphäre der Alliierten antraten, und war für viele der Einstieg in die gesamte Reihe; die PlayStation-Fassung erreichte ein Publikum, das von PC-Strategie nichts wusste. Tiberian Sun versuchte es 1999 mit einem düsteren Ton, Red Alert 2 legte im Jahr 2000 dagegen bei der Überzeichnung nach und gilt zusammen mit dem ersten Red Alert am häufigsten als Höhepunkt der Marke. Generals verließ 2003 Isometrie und Tiberium zugunsten von echtem 3D. Der Einfluss ist bis heute sichtbar: Basis, Sammler, Bauschlange und schnelles Klicken wurden zum Lehrbuchmodell des RTS, und die Serie steht für die Jahre, in denen ein neues Strategiespiel ein großes Ereignis war.",
    "fr": "Command & Conquer n'a pas inventé la stratégie en temps réel en 1995, mais il a décidé de l'allure du genre pour la décennie suivante. Westwood Studios a prolongé son propre Dune II en y ajoutant le panneau latéral et sa file de construction, des ordres donnés entièrement à la souris, le tibérium comme unique ressource pour laquelle il vaut la peine de se battre et surtout deux camps dotés d'une vraie personnalité: le GDI, discipliné, et la Confrérie du Nod, fanatique, menée par Kane. Les cinématiques tournées avec de vrais acteurs, la bande-son rock et l'humour pince-sans-rire donnaient au jeu un ton que personne d'autre n'avait, et le choix de la cible suivante sur une carte stratégique donnait à la campagne des allures de véritable guerre.\n\nRed Alert a déplacé le conflit en 1996 dans une histoire alternative où les bobines Tesla affrontent la Chronosphère alliée, et il a servi de porte d'entrée à quantité de joueurs; sa version PlayStation a touché un public qui ignorait tout de la stratégie sur PC. Tiberian Sun a tenté un registre plus sombre en 1999, tandis que Red Alert 2, en 2000, a poussé la démesure encore plus loin et reste, avec le premier Red Alert, l'épisode le plus souvent désigné comme sommet de la marque. Generals, en 2003, a abandonné l'isométrie et le tibérium pour de la vraie 3D. L'influence se voit encore: base, récolteur, file d'unités et clics rapides sont devenus le modèle de référence du RTS, et la série symbolise l'époque où un nouveau jeu de stratégie était un événement."
   }
+ },
+ {
+  "slug": "conflict",
+  "name": "Conflict",
+  "match": [
+   "conflict:"
+  ]
  },
  {
   "slug": "contra",
@@ -292,6 +408,13 @@
   "name": "Counter-Strike",
   "match": [
    "Counter-Strike"
+  ]
+ },
+ {
+  "slug": "crackdown",
+  "name": "Crackdown",
+  "match": [
+   "crackdown"
   ]
  },
  {
@@ -327,6 +450,20 @@
    "de": "Die Reihe, der ein ganzes Genre seinen Namen verdankt, begann 2009 mit Demon's Souls auf der PlayStation 3, dem kaum jemand Erfolg zutraute. FromSoftware baute es auf umgekehrter Logik auf: Gewöhnliche Gegner bleiben auch nach zwanzig Stunden gefährlich, der Tod gehört zum Lernen, und erklärt wird fast nichts. Dark Souls trieb die Idee 2011 mit dem verschachtelten Lordran auf die Spitze: Abkürzungen führen zu längst entzündeten Leuchtfeuern zurück, die Karte liest sich wie Architektur, nicht wie eine Liste von Levels. Seelen sind zugleich Erfahrung und Währung, sie bleiben am Ort des Todes liegen, und man hat einen einzigen Versuch, sie zurückzuholen.\n\nEbenso wichtig sind Atmosphäre und Erzählweise. Die Geschichte setzt sich aus Gegenstandsbeschreibungen, zerfallenen Kulissen und wenigen Sätzen von Figuren zusammen, die ihre eigene Lage kaum durchschauen; den Rest denkt man sich dazu. Der asynchrone Mehrspielermodus mit Botschaften am Boden, Blutflecken fremder Tode und Invasionen machte aus der einsamen Pilgerfahrt ein geteiltes Erlebnis. Dark Souls II spaltete die Fangemeinde, Bloodborne erhöhte 2015 das Tempo und verlegte den Horror nach Yharnam, Dark Souls III schloss den Kreis, Dark Souls Remastered brachte den Erstling 2018 auf die Switch. Als Höhepunkte gelten das erste Dark Souls und Bloodborne: das eine für den Weltenbau, das andere für den Mut zu neuen Regeln.",
    "fr": "La série à laquelle tout un genre doit son nom commence en 2009 avec Demon's Souls sur PlayStation 3, un jeu sur lequel personne n'aurait parié. FromSoftware le construit sur une logique inversée : le moindre ennemi reste dangereux après vingt heures, la mort fait partie de l'apprentissage et le jeu n'explique presque rien. Dark Souls porte l'idée à sa perfection en 2011 avec Lordran, monde entrelacé où les raccourcis ramènent vers un feu de camp déjà allumé et où la carte se lit comme une architecture, non comme une liste de niveaux. Les âmes servent d'expérience et de monnaie, restent là où l'on tombe, et il n'y a qu'une tentative pour les récupérer.\n\nL'atmosphère et la narration comptent autant. Le récit s'assemble à partir de descriptions d'objets, de décors en ruine et de quelques phrases de personnages qui ne comprennent pas leur situation ; le joueur imagine le reste. Le multijoueur asynchrone — messages tracés au sol, taches de sang rejouant la mort des autres, invasions dans votre partie — donne à ce pèlerinage solitaire un goût d'expérience partagée. Dark Souls II divise, Bloodborne accélère en 2015 et transporte l'horreur gothique à Yharnam, Dark Souls III referme la boucle et Dark Souls Remastered amène le premier épisode sur Switch en 2018. On cite comme sommets le premier Dark Souls et Bloodborne : l'un pour son monde, l'autre pour avoir osé changer ses règles."
   }
+ },
+ {
+  "slug": "dead-or-alive",
+  "name": "Dead or Alive",
+  "match": [
+   "dead or alive"
+  ]
+ },
+ {
+  "slug": "dead-rising",
+  "name": "Dead Rising",
+  "match": [
+   "dead rising"
+  ]
  },
  {
   "slug": "dead-space",
@@ -383,6 +520,13 @@
    "de": "Die Diablo-Reihe begann bereits 1996 bei Blizzard (damals in Zusammenarbeit mit dem Studio Condor) und begründete ein Genre von isometrischen Action-Rollenspielen mit endlos generierten Dungeons und dem zwanghaften Streben nach immer besserer Ausrüstung – ein Prinzip, das heute allgemein als „Loot“ bekannt ist. Die Fortsetzung Diablo II (2000) verfeinerte dieses Konzept: fünf unterschiedliche Charakterklassen mit eigenen Fähigkeitsbäumen, eine düstere, gotische Mittelalter-Fantasy-Atmosphäre und Online-Mehrspielermodus über Battle.net machten es zu einem der meistgespielten PC-Titel seiner Zeit. Es lief auf Pentium-Rechnern mit Windows 9x, und sein Einfluss auf das Genre ist bis heute spürbar.\n\nNach mehr als einem Jahrzehnt des Wartens erschien Diablo III (2012), das die Serie in modernere Grafik und zugänglichere Steuerung überführte, dabei aber den Kern aus endlosem Loot-Sammeln und dem Kampf gegen dämonische Horden bewahrte – das Spiel erreichte später auch die PlayStation 3, und in der erweiterten Eternal-Collection-Edition kam es 2018 auf die Nintendo Switch, was zeigte, dass Action-RPGs auch jenseits von Tastatur und Maus funktionieren. Diablo prägte damit eine Generation von Spielen, die auf Beutesystemen und endloser Progression aufbauen, und inspirierte Dutzende weitere Titel, die seine süchtig machende Schleife aus „töten, sammeln, verbessern“ nachzubilden versuchen.",
    "fr": "La série Diablo a vu le jour en 1996 chez Blizzard (alors en collaboration avec le studio Condor), fondant un genre de RPG d'action vu de dessus, basé sur des donjons générés à l'infini et la quête obsessionnelle d'un équipement toujours meilleur – un principe aujourd'hui appelé le « loot ». La suite, Diablo II (2000), a affiné ce concept : cinq classes de personnages distinctes avec leurs propres arbres de compétences, une atmosphère sombre de fantasy médiévale gothique, et un multijoueur en ligne via Battle.net en ont fait l'un des titres PC les plus joués de son époque. Il tournait sur des PC à processeur Pentium sous Windows 9x, et son influence sur le genre reste visible aujourd'hui.\n\nAprès plus d'une décennie d'attente, Diablo III (2012) est arrivé, apportant à la série des graphismes modernisés et des commandes plus accessibles tout en conservant le cœur du jeu fait de loot infini et de combats contre des hordes démoniaques – le jeu a ensuite été porté sur PlayStation 3, et son édition étendue Eternal Collection est arrivée sur Nintendo Switch en 2018, montrant que le RPG d'action fonctionne aussi au-delà du clavier et de la souris. Diablo a défini toute une génération de jeux construits autour des systèmes de butin et de la progression infinie, inspirant des titres qui tentent de reproduire sa boucle addictive « tuer, collecter, améliorer »."
   }
+ },
+ {
+  "slug": "dino-crisis",
+  "name": "Dino Crisis",
+  "match": [
+   "dino crisis"
+  ]
  },
  {
   "slug": "dirt",
@@ -482,10 +626,31 @@
   ]
  },
  {
+  "slug": "driver",
+  "name": "Driver",
+  "match": [
+   "driver"
+  ]
+ },
+ {
   "slug": "dune",
   "name": "Dune",
   "match": [
    "Dune"
+  ]
+ },
+ {
+  "slug": "earthworm-jim",
+  "name": "Earthworm Jim",
+  "match": [
+   "earthworm jim"
+  ]
+ },
+ {
+  "slug": "europa-universalis",
+  "name": "Europa Universalis",
+  "match": [
+   "europa universalis"
   ]
  },
  {
@@ -543,6 +708,20 @@
   ]
  },
  {
+  "slug": "fatal-fury",
+  "name": "Fatal Fury",
+  "match": [
+   "fatal fury"
+  ]
+ },
+ {
+  "slug": "fifa",
+  "name": "FIFA",
+  "match": [
+   "fifa"
+  ]
+ },
+ {
   "slug": "final-fantasy",
   "name": "Final Fantasy",
   "match": [
@@ -589,6 +768,20 @@
   ]
  },
  {
+  "slug": "gabriel-knight",
+  "name": "Gabriel Knight",
+  "match": [
+   "gabriel knight"
+  ]
+ },
+ {
+  "slug": "gauntlet",
+  "name": "Gauntlet",
+  "match": [
+   "gauntlet"
+  ]
+ },
+ {
   "slug": "gears-of-war",
   "name": "Gears of War",
   "match": [
@@ -601,6 +794,20 @@
    "de": "Gears of War erschien 2006 für die Xbox 360 und wurde sofort zum Aushängeschild einer ganzen Konsolengeneration. Epic Games baute das Spiel auf der damals neuen Unreal Engine 3 auf und stützte es auf ein einfaches, aber entscheidendes Prinzip: Wer im Freien stehen bleibt, ist tot. Das Andrücken an einen Betonblock, das Hetzen von Deckung zu Deckung und das kurze Herauslehnen für eine Salve gaben dem Third-Person-Shooter einen völlig neuen Rhythmus. Dazu kamen das aktive Nachladen, eine Kampagne für zwei Spieler im Koop und der Lancer, ein Sturmgewehr mit Kettensäge anstelle des Bajonetts. Der graue, staubige Planet Sera, auf dem die Menschheit gegen die aus dem Untergrund kriechende Locust Horde kämpft, verlieh der Reihe ein unverwechselbares Gesicht.\n\nMarcus Fenix und seine Truppe trugen eine Trilogie, die Epic 2011 mit Gears of War 3 abschloss — für viele bis heute der Höhepunkt, dank der dichten Erzählung und des Horde-Modus, der im zweiten Teil eingeführt wurde und den wellenbasierten Koop im Genre etablierte. Nach dem Prequel Judgment übernahm The Coalition, belebte die Marke mit Gears of War 4 und lieferte 2019 Gears 5 mit offeneren Schauplätzen und deutlich stärkerer Technik. Der Einfluss ist bis heute spürbar: Das von Gears populär gemachte Deckungssystem wurde für Jahre zum Standard im Actiongenre.",
    "fr": "Gears of War débarque sur Xbox 360 en 2006 et devient aussitôt la carte de visite de toute une génération de consoles. Epic Games bâtit le jeu sur l'Unreal Engine 3, alors flambant neuf, autour d'un principe simple mais décisif : rester à découvert, c'est mourir. Se coller à un bloc de béton, courir d'un abri à l'autre et se pencher le temps d'une rafale ont donné au jeu de tir à la troisième personne un rythme entièrement nouveau. Epic y ajoute le rechargement actif, une campagne coopérative à deux et le Lancer, un fusil d'assaut équipé d'une tronçonneuse à la place de la baïonnette. La planète Sera, grise et poussiéreuse, où l'humanité affronte la Locust Horde surgie du sous-sol, offre à la série une identité visuelle immédiatement reconnaissable.\n\nMarcus Fenix et son escouade portent une trilogie qu'Epic referme en 2011 avec Gears of War 3, encore considéré par beaucoup comme le sommet grâce à son récit resserré et au mode Horde, apparu dans le deuxième épisode et devenu la référence de la coopération par vagues. Après le préquel Judgment, The Coalition reprend le flambeau, relance la marque avec Gears of War 4 puis livre en 2019 Gears 5, aux environnements plus ouverts et à la technique nettement renforcée. L'héritage saute aux yeux : le système de couverture popularisé par Gears est devenu pour des années la grammaire par défaut du jeu d'action."
   }
+ },
+ {
+  "slug": "gg-aleste",
+  "name": "GG Aleste",
+  "match": [
+   "gg aleste"
+  ]
+ },
+ {
+  "slug": "ghost-recon",
+  "name": "Tom Clancy's Ghost Recon",
+  "match": [
+   "ghost recon"
+  ]
  },
  {
   "slug": "god-of-war",
@@ -620,6 +827,13 @@
   "name": "Golden Axe",
   "match": [
    "Golden Axe"
+  ]
+ },
+ {
+  "slug": "golden-sun",
+  "name": "Golden Sun",
+  "match": [
+   "golden sun"
   ]
  },
  {
@@ -643,6 +857,14 @@
   }
  },
  {
+  "slug": "grand-prix",
+  "name": "Grand Prix",
+  "match": [
+   "grand prix 2",
+   "grand prix 3"
+  ]
+ },
+ {
   "slug": "grand-theft-auto",
   "name": "Grand Theft Auto",
   "match": [
@@ -654,6 +876,13 @@
    "de": "Grand Theft Auto begann 1997 als Draufsicht auf eine Stadt, in der man keiner festen Route folgte, sondern aus dem Auto steigen, ein anderes nehmen und fahren konnte, wohin man wollte. Der Fahndungsstern war schon da als Maß dafür, wie weit man übers Ziel hinausgeschossen war, Aufträge kamen per Telefon, und das Autoradio machte aus dem Fahren eine Stimmung statt einer bloßen Ortsveränderung. Der zweite Teil ergänzte 1999 rivalisierende Banden und eine Gunst, die man gewinnen und verlieren konnte, doch der eigentliche Bruch kam mit Grand Theft Auto III im Jahr 2001: dieselbe Stadt, nur räumlich gebaut und über die Schulter gefilmt. Freies Spiel in einer zusammenhängenden dreidimensionalen Welt wurde von da an ein eigenes Genre.\n\nVice City setzte 2002 auf die Achtziger, eine Neonpalette und einen Soundtrack als Hauptfigur; San Andreas erweiterte zwei Jahre später die Karte auf einen ganzen Bundesstaat und ergänzte Fähigkeiten, Kleidung und Landschaft zwischen den Städten. Beide gelten meist als Höhepunkt jener Ära, und zwar wegen ihres unverwechselbaren Charakters, nicht wegen der Größe. Die Handhelds bekamen eine eigene Linie, von Grand Theft Auto Advance über Liberty City Stories und Vice City Stories auf der PSP bis zu Chinatown Wars. Grand Theft Auto IV verschärfte danach Ton und Physik, Grand Theft Auto V teilte 2013 die Geschichte auf drei Protagonisten auf. Die Reihe löste durchweg Streit über Gewalt in Spielen aus und setzte zugleich den Maßstab, an dem offene Welten bis heute gemessen werden.",
    "fr": "Grand Theft Auto a commencé en 1997 par une vue de dessus sur une ville sans itinéraire imposé : on pouvait sortir de sa voiture, en prendre une autre et rouler où bon semblait. L'étoile de recherche mesurait déjà à quel point on avait dépassé les bornes, les missions arrivaient par téléphone, et l'autoradio faisait de la conduite une ambiance et pas un simple déplacement. Le deuxième épisode, en 1999, a ajouté des gangs rivaux et une faveur à gagner ou perdre, mais la vraie rupture est venue avec Grand Theft Auto III en 2001 : la même ville, construite dans l'espace et filmée derrière l'épaule. Le jeu libre dans un monde tridimensionnel continu est devenu, dès lors, un genre à part entière.\n\nVice City a misé en 2002 sur les années quatre-vingt, une palette néon et une bande-son tenant le rôle d'un personnage principal ; San Andreas, deux ans plus tard, a élargi la carte à un État entier et ajouté compétences, vêtements et campagne entre les villes. On cite souvent ces deux-là comme le sommet de l'époque, pour leur caractère reconnaissable plus que pour leur superficie. Les portables ont eu leur propre lignée, de Grand Theft Auto Advance à Chinatown Wars en passant par Liberty City Stories et Vice City Stories sur PSP. Grand Theft Auto IV a durci le ton et la physique, et Grand Theft Auto V, en 2013, a réparti le récit entre trois protagonistes. La série a nourri les débats sur la violence dans le jeu vidéo tout en fixant l'étalon auquel les mondes ouverts se mesurent encore."
   }
+ },
+ {
+  "slug": "grandia",
+  "name": "Grandia",
+  "match": [
+   "grandia"
+  ]
  },
  {
   "slug": "guitar-hero",
@@ -689,6 +918,20 @@
   }
  },
  {
+  "slug": "harvest-moon",
+  "name": "Harvest Moon",
+  "match": [
+   "harvest moon"
+  ]
+ },
+ {
+  "slug": "hearts-of-iron",
+  "name": "Hearts of Iron",
+  "match": [
+   "hearts of iron"
+  ]
+ },
+ {
   "slug": "hitman",
   "name": "Hitman",
   "match": [
@@ -715,10 +958,59 @@
   }
  },
  {
+  "slug": "hot-shots-golf",
+  "name": "Hot Shots Golf",
+  "match": [
+   "hot shots golf"
+  ]
+ },
+ {
+  "slug": "house-of-the-dead",
+  "name": "The House of the Dead",
+  "match": [
+   "house of the dead"
+  ]
+ },
+ {
+  "slug": "hyrule-warriors",
+  "name": "Hyrule Warriors",
+  "match": [
+   "hyrule warriors"
+  ]
+ },
+ {
+  "slug": "icewind-dale",
+  "name": "Icewind Dale",
+  "match": [
+   "icewind dale"
+  ]
+ },
+ {
+  "slug": "infinity-blade",
+  "name": "Infinity Blade",
+  "match": [
+   "infinity blade"
+  ]
+ },
+ {
+  "slug": "ishar",
+  "name": "Ishar",
+  "match": [
+   "ishar"
+  ]
+ },
+ {
   "slug": "just-cause",
   "name": "Just Cause",
   "match": [
    "Just Cause"
+  ]
+ },
+ {
+  "slug": "kid-icarus",
+  "name": "Kid Icarus",
+  "match": [
+   "kid icarus"
   ]
  },
  {
@@ -733,6 +1025,13 @@
   "name": "King's Quest",
   "match": [
    "King's Quest"
+  ]
+ },
+ {
+  "slug": "kingdom-hearts",
+  "name": "Kingdom Hearts",
+  "match": [
+   "kingdom hearts"
   ]
  },
  {
@@ -781,6 +1080,34 @@
   "name": "LittleBigPlanet",
   "match": [
    "LittleBigPlanet"
+  ]
+ },
+ {
+  "slug": "luigis-mansion",
+  "name": "Luigi's Mansion",
+  "match": [
+   "luigi's mansion"
+  ]
+ },
+ {
+  "slug": "lumines",
+  "name": "Lumines",
+  "match": [
+   "lumines"
+  ]
+ },
+ {
+  "slug": "lunar",
+  "name": "Lunar",
+  "match": [
+   "lunar"
+  ]
+ },
+ {
+  "slug": "madden-nfl",
+  "name": "Madden NFL",
+  "match": [
+   "madden nfl"
   ]
  },
  {
@@ -897,6 +1224,13 @@
   ]
  },
  {
+  "slug": "midtown-madness",
+  "name": "Midtown Madness",
+  "match": [
+   "midtown madness"
+  ]
+ },
+ {
   "slug": "might-and-magic",
   "name": "Might and Magic",
   "match": [
@@ -950,6 +1284,27 @@
   }
  },
  {
+  "slug": "motogp",
+  "name": "MotoGP",
+  "match": [
+   "motogp"
+  ]
+ },
+ {
+  "slug": "motorstorm",
+  "name": "MotorStorm",
+  "match": [
+   "motorstorm"
+  ]
+ },
+ {
+  "slug": "nascar-racing",
+  "name": "NASCAR Racing",
+  "match": [
+   "nascar racing"
+  ]
+ },
+ {
   "slug": "need-for-speed",
   "name": "Need for Speed",
   "match": [
@@ -963,10 +1318,24 @@
   }
  },
  {
+  "slug": "neverwinter-nights",
+  "name": "Neverwinter Nights",
+  "match": [
+   "neverwinter nights"
+  ]
+ },
+ {
   "slug": "ni-no-kuni",
   "name": "Ni no Kuni",
   "match": [
    "Ni no Kuni"
+  ]
+ },
+ {
+  "slug": "nier",
+  "name": "NieR",
+  "match": [
+   "nier"
   ]
  },
  {
@@ -983,6 +1352,27 @@
   }
  },
  {
+  "slug": "oddworld",
+  "name": "Oddworld",
+  "match": [
+   "oddworld"
+  ]
+ },
+ {
+  "slug": "onimusha",
+  "name": "Onimusha",
+  "match": [
+   "onimusha"
+  ]
+ },
+ {
+  "slug": "patapon",
+  "name": "Patapon",
+  "match": [
+   "patapon"
+  ]
+ },
+ {
   "slug": "persona",
   "name": "Persona",
   "match": [
@@ -996,6 +1386,13 @@
   }
  },
  {
+  "slug": "phantasy-star",
+  "name": "Phantasy Star",
+  "match": [
+   "phantasy star"
+  ]
+ },
+ {
   "slug": "pikmin",
   "name": "Pikmin",
   "match": [
@@ -1007,6 +1404,13 @@
    "de": "Pikmin entstand 2001 für den GameCube aus einer Idee von Shigeru Miyamoto, der Ameisen im eigenen Garten beobachtete. Der Astronaut Captain Olimar stürzt auf einem unbekannten Planeten ab, sein Schiff zerbricht in Einzelteile, und die einzige Hilfe kommt von winzigen Pflanzenwesen, die ihm brav in einer Reihe hinterherlaufen. Das Spiel verband Echtzeitstrategie mit echtem Zeitdruck: dreißig Tage, jeder endet mit dem Sonnenuntergang, und wer seine Pikmin draußen stehen lässt, findet sie am nächsten Morgen nicht mehr. Rote trotzen dem Feuer, Gelbe der Elektrizität und fliegen weiter, Blaue überleben im Wasser, sodass jedes Hindernis die Frage aufwirft, wen man schickt und wie viele man zu opfern bereit ist.\n\nPikmin 2 strich 2004 das Tageslimit, führte violette und weiße Pikmin ein und schickte die Spieler in unterirdische Höhlen, wo aus dem Spiel eine deutlich härtere taktische Prüfung wurde. Pikmin 3 verteilte das Kommando auf drei Figuren und ergänzte Fels- und Flügel-Pikmin, wodurch das Planen paralleler Aufgaben zum Kern des Vergnügens wurde; auf der Switch fand es dann ein viel größeres Publikum. Pikmin 4 brachte 2023 den Hund Oatchi, Eis-Pikmin und nächtliche Ausflüge und ist der zugänglichste Teil für Neulinge. Als Höhepunkt gilt meist der zweite Teil wegen seines Umfangs und der dritte wegen seines klaren Aufbaus. Die Reihe blieb klein, aber einflussreich: Sie zeigte, wie Strategie am Controller funktioniert und wie stark das Thema Führung statt Gewalt wirken kann.",
    "fr": "Pikmin est né en 2001 sur GameCube d'une idée de Shigeru Miyamoto, venue en observant des fourmis dans son propre jardin. L'astronaute Captain Olimar s'écrase sur une planète inconnue, son vaisseau se brise en morceaux, et les seuls à pouvoir l'aider sont de minuscules créatures végétales qui le suivent sagement à la file. Le jeu mariait la stratégie en temps réel à une véritable pression: trente jours, chacun s'achevant au coucher du soleil, et les Pikmin laissés dehors ne passent pas la nuit. Les rouges résistent au feu, les jaunes à l'électricité et se lancent plus loin, les bleus survivent dans l'eau, si bien que chaque obstacle pose la question de qui envoyer et de combien on accepte d'en perdre.\n\nPikmin 2, en 2004, a supprimé la limite de jours, ajouté les Pikmin violets et blancs et envoyé le joueur dans des grottes souterraines, où l'ensemble devenait une épreuve tactique bien plus rude. Pikmin 3 a réparti le commandement entre trois personnages et introduit les Pikmin de roche et ailés, faisant de la gestion de tâches parallèles le cœur du plaisir; sa sortie sur Switch lui a enfin trouvé un large public. Pikmin 4, en 2023, a apporté le chien Oatchi, les Pikmin de glace et les expéditions nocturnes, et reste l'épisode le plus accueillant pour les débutants. On cite le plus souvent le deuxième comme sommet pour son contenu, et le troisième pour la clarté de sa conception. La série est restée modeste mais influente: elle a montré comment la stratégie peut vivre à la manette, et la force d'un jeu bâti sur le commandement plutôt que sur la violence."
   }
+ },
+ {
+  "slug": "pillars-of-eternity",
+  "name": "Pillars of Eternity",
+  "match": [
+   "pillars of eternity"
+  ]
  },
  {
   "slug": "pokemon",
@@ -1040,6 +1444,13 @@
   "name": "Pole Position",
   "match": [
    "Pole Position"
+  ]
+ },
+ {
+  "slug": "populous",
+  "name": "Populous",
+  "match": [
+   "populous"
   ]
  },
  {
@@ -1123,6 +1534,13 @@
   }
  },
  {
+  "slug": "realms-of-arkania",
+  "name": "Realms of Arkania",
+  "match": [
+   "realms of arkania"
+  ]
+ },
+ {
   "slug": "red-dead-redemption",
   "name": "Red Dead Redemption",
   "match": [
@@ -1165,6 +1583,13 @@
   ]
  },
  {
+  "slug": "robocop",
+  "name": "RoboCop",
+  "match": [
+   "robocop"
+  ]
+ },
+ {
   "slug": "romance-of-the-three-kingdoms",
   "name": "Romance of the Three Kingdoms",
   "match": [
@@ -1176,6 +1601,20 @@
   "name": "Saints Row",
   "match": [
    "Saints Row"
+  ]
+ },
+ {
+  "slug": "samorost",
+  "name": "Samorost",
+  "match": [
+   "samorost"
+  ]
+ },
+ {
+  "slug": "shadow-hearts",
+  "name": "Shadow Hearts",
+  "match": [
+   "shadow hearts"
   ]
  },
  {
@@ -1219,10 +1658,31 @@
   ]
  },
  {
+  "slug": "simcity",
+  "name": "SimCity",
+  "match": [
+   "simcity"
+  ]
+ },
+ {
   "slug": "skate",
   "name": "Skate",
   "match": [
    "Skate"
+  ]
+ },
+ {
+  "slug": "snk-vs-capcom",
+  "name": "SNK vs. Capcom",
+  "match": [
+   "snk vs. capcom"
+  ]
+ },
+ {
+  "slug": "socom",
+  "name": "SOCOM",
+  "match": [
+   "socom"
   ]
  },
  {
@@ -1246,6 +1706,16 @@
   ]
  },
  {
+  "slug": "spider-man",
+  "name": "Spider-Man",
+  "match": [
+   "spider-man"
+  ],
+  "exclude": [
+   "marvel's"
+  ]
+ },
+ {
   "slug": "splatoon",
   "name": "Splatoon",
   "match": [
@@ -1257,6 +1727,13 @@
    "de": "Splatoon erschien 2015 als neue Nintendo-Marke für die Wii U und brachte eine ungewöhnliche Sicht auf das Team-Shooter-Genre. Statt der Abschüsse entscheidet die Menge an Farbe, die auf dem Spielfeld versprüht wurde, über den Sieg; die Spieler steuern Tintenfischkinder, die zwischen einer menschlichen Form zum Schießen und einer Schwimmform für schnelle Bewegung in der eigenen Tintenfarbe wechseln. Dieses Prinzip nahm dem Genre Blut und Aggression und ersetzte sie durch einen bunten, jugendlichen Stil voller Streetwear-Mode und elektronischer Musik, wodurch Shooter einem Publikum zugänglich wurden, das klassische Militäraktion nie angerührt hätte. Der zentrale Modus bleibt Turf War, in dem Zusammenarbeit oft ein zielsicheres Team schlägt.\n\nDie Fortsetzung Splatoon 2 (2017) brachte das Konzept auf die Switch, ergänzte eine Kampagne sowie den Koop-Modus Salmon Run gegen Monsterwellen und erlaubte dank der Mobilität Online-Spiel von überall. Splatoon 3 (2022) erweiterte die Welt um das Zentrum Splatsville, führte den Dreiteams-Modus Tricolor Turf War ein und verfeinerte Salmon Run sowie das Ranglistenspiel. Über alle Teile hinweg verlässt sich die Serie auf regelmäßige Live-Events namens Splatfest, die die Community um saisonale Themen versammeln. Splatoon wurde eine der wenigen wirklich neuen großen Nintendo-Marken der letzten Jahre und zeigte, dass ein Shooter kompetitiv sein kann, ohne auf Gewalt oder Kriegsästhetik zu setzen.",
    "fr": "Splatoon voit le jour en 2015 comme nouvelle licence Nintendo sur Wii U et propose un regard inhabituel sur le jeu de tir en équipe. Plutôt que le nombre d'éliminations, c'est la quantité de peinture répandue sur le terrain qui décide de la victoire ; les joueurs incarnent des enfants-calamars passant d'une forme humaine pour tirer à une forme aquatique pour se déplacer dans leur couleur d'encre. Ce principe retire au genre le sang et le ton agressif, au profit d'un style coloré et juvénile, imprégné de mode streetwear et de musique électronique, ouvrant le tir à un public qui n'aurait jamais touché une action militaire classique. Le mode central reste le Turf War, où la coopération pour couvrir le terrain bat souvent une équipe plus précise.\n\nLa suite Splatoon 2 (2017) porte le concept sur Switch, ajoute une campagne solo et le mode coopératif Salmon Run contre des vagues de monstres, et permet de jouer en ligne de partout grâce à la portabilité de la console. Splatoon 3 (2022) agrandit le monde avec le hub de Splatville, introduit le mode à trois équipes Tricolor Turf War et affine Salmon Run et le jeu classé. Tout au long de la série, des événements réguliers, les Splatfest, rassemblent la communauté autour de thèmes saisonniers. Splatoon est devenue l'une des rares licences Nintendo majeures et nouvelles de ces dernières années, prouvant qu'un jeu de tir peut être compétitif sans violence ni esthétique guerrière."
   }
+ },
+ {
+  "slug": "splatterhouse",
+  "name": "Splatterhouse",
+  "match": [
+   "splatterhouse"
+  ]
  },
  {
   "slug": "splinter-cell",
@@ -1289,6 +1766,20 @@
   "name": "SSX",
   "match": [
    "SSX"
+  ]
+ },
+ {
+  "slug": "star-fox",
+  "name": "Star Fox",
+  "match": [
+   "star fox"
+  ]
+ },
+ {
+  "slug": "star-ocean",
+  "name": "Star Ocean",
+  "match": [
+   "star ocean"
   ]
  },
  {
@@ -1338,6 +1829,27 @@
   ]
  },
  {
+  "slug": "super-monkey-ball",
+  "name": "Super Monkey Ball",
+  "match": [
+   "super monkey ball"
+  ]
+ },
+ {
+  "slug": "swordquest",
+  "name": "Swordquest",
+  "match": [
+   "swordquest"
+  ]
+ },
+ {
+  "slug": "tactics-ogre",
+  "name": "Tactics Ogre",
+  "match": [
+   "tactics ogre"
+  ]
+ },
+ {
   "slug": "teenage-mutant-ninja-turtles",
   "name": "Teenage Mutant Ninja Turtles",
   "match": [
@@ -1378,6 +1890,13 @@
   }
  },
  {
+  "slug": "the-last-blade",
+  "name": "The Last Blade",
+  "match": [
+   "last blade"
+  ]
+ },
+ {
   "slug": "the-legend-of-zelda",
   "name": "The Legend of Zelda",
   "match": [
@@ -1389,6 +1908,20 @@
    "de": "The Legend of Zelda erschien 1986 und tat etwas, das Konsolenspiele jener Zeit selten wagten: Es setzte den Spieler ohne Pfeil und ohne Anleitung in eine offene Landschaft. Ein Modul mit Batteriepufferung erlaubte zudem, den Fortschritt zu speichern, sodass ein Abenteuer wochenlang dauern konnte. Drei Elemente prägen die Reihe seither: das Erkunden einer Welt, die sich mit jedem neuen Werkzeug weiter öffnet, Dungeons, die als Logikrätsel um einen zentralen Gegenstand gebaut sind, und ein Kampf, der auf Timing und dem Lesen des Gegners beruht. Der zweite Teil, Zelda II: The Adventure of Link, versuchte es mit Seitenansicht und Rollenspielwerten und blieb eine einsame Ausnahme; erst A Link to the Past führte die Rückkehr zur ursprünglichen Draufsicht zur Vollendung.\n\n1998 brachte Ocarina of Time auf dem N64 und damit das Anvisieren von Zielen, das den Nahkampf im dreidimensionalen Raum überhaupt erst löste — Actionspiele quer durch die Genres schreiben es bis heute ab. Majora's Mask ergänzte einen Dreitageszyklus und einen deutlich düstereren Ton. Auf den Handhelds lief eine starke Parallellinie: Link's Awakening auf dem Game Boy, das Gespann Oracle of Ages und Oracle of Seasons auf dem GBC, The Minish Cap auf dem GBA und A Link Between Worlds auf dem 3DS. Der GameCube bekam das gestalterisch mutige The Wind Waker. Ein Kapitel, an das die Reihe lieber nicht erinnert, sind die CD-i-Spiele, die außerhalb von Nintendo entstanden. Als Höhepunkte gelten heute A Link to the Past, Ocarina of Time und Breath of the Wild.",
    "fr": "The Legend of Zelda est sorti en 1986 et a osé ce que les jeux de console de l'époque tentaient rarement : lâcher le joueur dans un paysage ouvert, sans flèche et sans mode d'emploi. Une cartouche à pile permettait en outre de sauvegarder, si bien que l'aventure pouvait s'étirer sur des semaines. Trois éléments définissent la série et n'ont plus bougé depuis : l'exploration d'un monde qui s'ouvre à mesure qu'on acquiert des outils, des donjons conçus comme des énigmes logiques articulées autour d'un objet clé, et un combat fondé sur le timing et la lecture de l'adversaire. Le deuxième volet, Zelda II: The Adventure of Link, a tenté la vue de côté et des mécaniques de jeu de rôle : il est resté une exception isolée, et c'est A Link to the Past qui a porté à la perfection le retour à la vue de dessus.\n\n1998 a apporté Ocarina of Time sur N64, et avec lui le verrouillage de cible, qui a résolu la question du corps-à-corps dans un espace en trois dimensions — les jeux d'action de tous genres le reprennent encore. Majora's Mask y a ajouté un cycle de trois jours et un ton nettement plus sombre. Une forte lignée parallèle vivait sur les portables : Link's Awakening sur Game Boy, le duo Oracle of Ages et Oracle of Seasons sur GBC, The Minish Cap sur GBA et A Link Between Worlds sur 3DS. La GameCube a reçu l'audacieux The Wind Waker. Un chapitre que la série préfère oublier : les jeux CD-i, produits hors de Nintendo. On cite comme sommets A Link to the Past, Ocarina of Time et Breath of the Wild."
   }
+ },
+ {
+  "slug": "the-lord-of-the-rings",
+  "name": "The Lord of the Rings",
+  "match": [
+   "lord of the rings"
+  ]
+ },
+ {
+  "slug": "the-walking-dead",
+  "name": "The Walking Dead",
+  "match": [
+   "walking dead"
+  ]
  },
  {
   "slug": "the-witcher",
@@ -1419,6 +1952,20 @@
    "de": "Die Thief-Reihe startete 1998 mit Thief: The Dark Project auf dem PC und definierte damit im Grunde das Genre der Stealth-Action aus der Ich-Perspektive. Statt auf Feuerkraft setzte das Spiel auf Schleichen, das Zusammenspiel von Licht und Schatten sowie akustische Hinweise – als Dieb Garrett versuchte man, ungesehen und ungehört zu bleiben, Waffen waren stets nur letztes Mittel. Das Spiel spielte in einer düsteren, steampunk-artigen Welt namens Die Stadt, in der mittelalterliche Architektur mit mechanischen Elementen und okkulten Fraktionen verschmolz – das verlieh der Serie eine unverwechselbare Atmosphäre, ganz anders als die Shooter-Hits jener Zeit.\n\nDer Nachfolger Thief II: The Metal Age aus dem Jahr 2000 verfeinerte diese Stealth-Mechanik weiter und gilt bei vielen Spielern bis heute als Höhepunkt der Serie, dank seines durchdachten, offen lösbaren Missionsdesigns. Thief: Deadly Shadows brachte die Serie 2004 erstmals auch auf die Xbox und verband die Missionsstruktur mit einer begehbaren Hub-Version der Stadt, wobei konsolenbedingte Einschränkungen dazu führten, dass manche größeren Level in kleinere Abschnitte aufgeteilt werden mussten. Dennoch blieb Thief ein wichtiger Vorreiter des Immersive-Sim-Genres, der spätere Stealth-Spiele beeinflusste und dessen Fokus auf Schleichen und Improvisation sich in Titeln wie Splinter Cell oder Dishonored widerspiegelt.",
    "fr": "La série Thief a débuté en 1998 avec Thief: The Dark Project sur PC, définissant à elle seule le genre de l'infiltration à la première personne. Plutôt que de miser sur la puissance de feu, le jeu misait sur la discrétion, le jeu de lumière et d'ombre, et les indices sonores — dans la peau du voleur Garrett, il fallait rester invisible et silencieux, les armes n'étant qu'un dernier recours. L'action se déroulait dans un monde sombre, teinté de steampunk, appelé la Cité, où l'architecture médiévale se mêlait à des éléments mécaniques et à des factions occultes, ce qui donnait à la série une atmosphère bien distincte des grands succès du tir de l'époque.\n\nLa suite, Thief II: The Metal Age, sortie en 2000, a encore affiné cette mécanique d'infiltration et reste citée par de nombreux joueurs comme le sommet de la série grâce à des missions élaborées et à la résolution ouverte. Thief: Deadly Shadows, en 2004, a pour la première fois porté la série sur Xbox et associé la structure en missions à une version explorable de la Cité, même si les limites techniques de la console ont contraint à découper certains niveaux plus vastes en sections plus petites. Malgré cela, Thief est resté un père fondateur important du genre immersive sim, influençant les jeux d'infiltration ultérieurs, et son insistance sur la discrétion et l'improvisation trouve un écho dans des titres comme Splinter Cell ou Dishonored."
   }
+ },
+ {
+  "slug": "thunder-force",
+  "name": "Thunder Force",
+  "match": [
+   "thunder force"
+  ]
+ },
+ {
+  "slug": "time-crisis",
+  "name": "Time Crisis",
+  "match": [
+   "time crisis"
+  ]
  },
  {
   "slug": "timesplitters",
@@ -1548,10 +2095,24 @@
   ]
  },
  {
+  "slug": "viewtiful-joe",
+  "name": "Viewtiful Joe",
+  "match": [
+   "viewtiful joe"
+  ]
+ },
+ {
   "slug": "virtua-fighter",
   "name": "Virtua Fighter",
   "match": [
    "Virtua Fighter"
+  ]
+ },
+ {
+  "slug": "virtua-tennis",
+  "name": "Virtua Tennis",
+  "match": [
+   "virtua tennis"
   ]
  },
  {
@@ -1586,6 +2147,27 @@
    "de": "Wario tauchte zuerst als Marios Gegenspieler in Super Mario Land 2 auf, und Nintendo begriff schnell, dass ein raffgieriger Antiheld mit riesiger Nase eine eigene Reihe tragen kann. Wario Land: Super Mario Land 3 von 1994 baute sein Jump-and-run auf einem anderen Prinzip auf als Mario: nicht auf der Eleganz des Sprungs, sondern auf roher Kraft, Schulterattacken gegen Wände, Schatzsuche und einem möglichst hohen Münzberg am Ende. Virtual Boy Wario Land zeigte dann, dass sich selbst auf Nintendos unglücklichster Konsole ordentliche Arbeit leisten ließ.\n\nDie eigentliche Besonderheit kam mit Wario Land II, in dem der Held praktisch nicht sterben kann. Treffer kosten kein Leben, sondern verwandeln ihn: Er brennt, bläht sich auf, wird platt gedrückt, und der Spieler muss diese Zustände nutzen, um weiterzukommen. Wario Land 3 auf dem Game Boy Color und vor allem Wario Land 4 auf dem Game Boy Advance trieben die Idee auf die Spitze; der vierte Teil mit seinen hektischen Fluchten gegen die Uhr gilt vielen als Höhepunkt der Serie. Wario World brachte die Figur auf dem GameCube in drei Dimensionen, doch die größte Wirkung hatte am Ende ein ganz anderer Seitenzweig. WarioWare, Inc. zerlegte das Spielen in wenige Sekunden kurze Mikrospiele, in denen man das eine Wort der Anweisung kaum lesen kann, und begründete damit ein Format, zu dem die Branche immer wieder zurückkehrt.",
    "fr": "Wario est apparu d'abord comme adversaire de Mario dans Super Mario Land 2, et Nintendo a vite compris qu'un antihéros cupide au nez énorme pouvait porter sa propre série. Wario Land: Super Mario Land 3, en 1994, a bâti sa plateforme sur un principe différent de celui de Mario: non pas l'élégance du saut, mais la force brute, les charges d'épaule dans les murs, la chasse au trésor et le plus haut tas de pièces possible à la fin. Virtual Boy Wario Land a ensuite montré qu'un vrai travail restait possible même sur la console la moins heureuse de Nintendo, et il compte encore parmi le meilleur du Virtual Boy.\n\nLa vraie singularité est arrivée avec Wario Land II, où le héros ne peut pratiquement pas mourir. Au lieu de coûter des vies, les coups le transforment: il prend feu, gonfle, s'aplatit, et le joueur doit exploiter ces états pour avancer. Wario Land 3 sur Game Boy Color et surtout Wario Land 4 sur Game Boy Advance ont poussé l'idée à son terme; le quatrième épisode, avec ses fuites frénétiques contre la montre, passe souvent pour le sommet de la série. Wario World a fait passer le personnage en trois dimensions sur GameCube, mais le plus grand impact est venu d'une tout autre branche. WarioWare, Inc. a découpé le jeu en micro-parties de quelques secondes, où l'on a à peine le temps de lire le seul mot de la consigne, et a fondé un format auquel l'industrie revient sans cesse."
   }
+ },
+ {
+  "slug": "warioware",
+  "name": "WarioWare",
+  "match": [
+   "warioware"
+  ]
+ },
+ {
+  "slug": "wasteland",
+  "name": "Wasteland",
+  "match": [
+   "wasteland"
+  ]
+ },
+ {
+  "slug": "wave-race",
+  "name": "Wave Race",
+  "match": [
+   "wave race"
+  ]
  },
  {
   "slug": "wild-arms",
@@ -1713,5 +2295,12 @@
    "de": "Ys gehört zu den ältesten japanischen Action-Rollenspielreihen überhaupt. Den ersten Teil veröffentlichte Nihon Falcom 1987 für japanische Achtbit-Rechner, von wo er rasch auf MSX, PC-98 und den Sharp X68000 wanderte. Held ist der rothaarige Abenteurer Adol Christin, der in jedem Teil irgendwo am Rand der bekannten Welt strandet und von einem Rätsel weitergetrieben wird. Der ursprüngliche Kampf kannte nicht einmal eine Angriffstaste: Man rammte den Gegner einfach leicht außerhalb seiner Mitte. Das klingt nach einer Kuriosität, ergab aber ein schnelles, flüssiges System, das der Reihe zusammen mit der berühmten Musik von Falcom einen unverwechselbaren Schwung gab.\n\nYs hat über die Jahre mehrfach das Gewand gewechselt. Der dritte Teil wechselte in die Seitenansicht, das Remake Ys: The Oath in Felghana holte ihn zurück zur Action aus der Vogelperspektive, und Ys VI: The Ark of Napishtim festigte die moderne Form mit direktem Angriff und Sprung. Ys Seven auf der PSP ergänzte eine dreiköpfige Gruppe und den Wechsel der Figuren je nach Schadensart, woran Ys: Memories of Celceta auf der Vita anknüpfte. Als Höhepunkt gilt heute meist Ys VIII: Lacrimosa of Dana, eine Schiffbrüchigengeschichte auf einer unbekannten Insel, die die Reihe erstmals einem breiten westlichen Publikum öffnete. Das bislang letzte große Kapitel ist Ys IX: Monstrum Nox von 2019.",
    "fr": "Ys compte parmi les plus anciennes séries de jeux de rôle d'action japonais. Nihon Falcom a publié le premier épisode en 1987 sur les micro-ordinateurs huit bits japonais, avant une diffusion rapide vers le MSX, le PC-98 et le Sharp X68000. Le héros est l'aventurier roux Adol Christin, qui échoue à chaque volet quelque part aux confins du monde connu et se laisse entraîner par le mystère qu'il croise. Les combats d'origine n'avaient même pas de bouton d'attaque : il suffisait de percuter l'ennemi légèrement en dehors de son centre. Cela ressemble à une bizarrerie, mais le système était rapide et fluide et, avec la musique réputée de Falcom, il a donné à la série un élan reconnaissable entre tous.\n\nYs a changé d'habit plusieurs fois. Le troisième épisode est passé à une vue de côté, le remake Ys: The Oath in Felghana l'a ramené à l'action vue du dessus, et Ys VI: The Ark of Napishtim a fixé la forme moderne, avec attaque directe et saut. Ys Seven sur PSP a ajouté un groupe de trois personnages que l'on permute selon le type de dégâts, principe repris par Ys: Memories of Celceta sur Vita. Le sommet cité aujourd'hui est généralement Ys VIII: Lacrimosa of Dana, récit de naufragés sur une île inconnue qui a ouvert la série à un large public occidental. Le dernier grand chapitre en date est Ys IX: Monstrum Nox, sorti en 2019."
   }
+ },
+ {
+  "slug": "zork",
+  "name": "Zork",
+  "match": [
+   "zork"
+  ]
  }
 ]

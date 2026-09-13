@@ -1143,6 +1143,7 @@ _STEAM_SUFFIX_OK = {
 # Kolik snimku ze hry stahovat. Galerie pobere deset polozek (obal, titulni
 # obrazovka a snimky), takze osm snimku je strop, ktery ji jeste naplni.
 MAX_SNIMKU = 8
+CIL_GALERIE = 3  # obal + dva snimky, viz PRAVIDLA-HER.md
 
 
 def volne_snimky(out, gslug):
@@ -2244,6 +2245,222 @@ def _appstore_big(url, size="1024x1024bb"):
     return P.re.sub(r"/\d+x\d+bb(-\d+)?\.(jpg|png|webp)$", "/" + size + ".jpg", url)
 
 
+# ---- Microsoft Store (bez API klice) ----
+# Xbox exkluzivity Steam nevede a Wikipedie u casti her obal nedrzi (Minecraft
+# ma v infoboxu jen logo). Katalog Microsoft Store je verejny a ma u kazde hry
+# obal i klicovou grafiku ve vysokem rozliseni.
+MSSTORE_OK = {"xbox", "xbox-360", "xbox-one", "xbox-series", "pc-modern", "pc-9x"}
+
+# Rozliseni obrazku, ktere se z katalogu berou a v jakem poradi.
+# Poster je portretovy obal, BoxArt ctvercovy, zbytek je krajinna grafika,
+# ktera do galerie sedne jako snimek.
+_MS_OBAL = ("Poster", "BoxArt", "BrandedKeyArt")
+_MS_SNIMEK = ("Screenshot", "SuperHeroArt", "TitledHeroArt", "FeaturePromotionalSquareArt")
+
+_MS_VYNECHAT = (
+    "dlc", "bundle", "pack", "season pass", "add-on", "addon", "expansion",
+    "soundtrack", "demo", "trial", "avatar", "theme", "gamerpic", "currency",
+    "coins", "credits", "membership", "subscription",
+)
+
+
+def _msstore_search(name, limit=25):
+    """Naseptavac obchodu -> list (bigId, titul). Verejny endpoint, bez klice."""
+    q = urllib.parse.urlencode({
+        "market": "en-us",
+        "clientId": "7F27B536-CF6B-4C65-8638-A0F8CBDFCA65",
+        "sources": "DCatAll-Products",
+        "filter": "+ClientType:StoreWeb",
+        "counts": str(limit),
+        "query": name,
+    })
+    try:
+        d = json.loads(http_get("https://www.microsoft.com/msstoreapiprod/api/autosuggest?" + q))
+        sug = d.get("ResultSets", [{}])[0].get("Suggests", [])
+    except Exception:  # noqa
+        return []
+    out = []
+    for it in sug:
+        titul = it.get("Title") or ""
+        metas = it.get("Metas") or []
+        big = metas[0].get("Value") if metas else None
+        if titul and big:
+            out.append((big, titul))
+    return out
+
+
+# Nazvy s temito slovy jsou prodejni balicky. Jejich grafika nese pruhy typu
+# "Ultimate Collection / 1000 Minecoins", takze se neda pouzit jako obal hry —
+# snimky ze hry v nich ale jsou obycejne zabery ze stejne hry a ty vzit lze.
+_MS_BALIK = ("collection", "bundle", "triple", "ultimate", "deluxe",
+             "complete", "starter", "pass", "upgrade")
+
+# Slova, ktera v obchode odlisuji jen vydani teze hry, ne jinou hru.
+_MS_EDICE = {
+    "edition", "collection", "bundle", "deluxe", "ultimate", "premium",
+    "complete", "definitive", "remastered", "anniversary", "goty",
+    "java", "bedrock", "and", "for", "windows", "10", "11", "pc",
+}
+
+
+def _ms_zaklad(nazev):
+    """Nas nazev bez oznaceni edice: "Minecraft: Xbox 360 Edition" -> "Minecraft"."""
+    n = P.re.sub(r"[:\-–]\s*(?:[A-Za-z0-9 ]+\s+)?Edition\s*$", "", nazev, flags=P.re.I)
+    return n.strip() or nazev
+
+
+def _msstore_pick(game_name, hits):
+    """Vyber polozku, ktera je opravdu ta hra — ne DLC, edice ani doplnek.
+
+    Naseptavac vraci u znamych znacek desitky polozek ("Hot Wheels Car Pack"),
+    takze bez teto kontroly by se do katalogu dostal obal doplnku misto hry.
+    """
+    gnorm = P.norm_name(game_name)
+    if len(gnorm) < 3:
+        return None
+    znorm = P.norm_name(_ms_zaklad(game_name))
+    for cil in (gnorm, znorm):
+        if len(cil) < 3:
+            continue
+        for big, titul in hits:
+            low = titul.lower()
+            if any(w in low for w in _MS_VYNECHAT):
+                continue
+            tnorm = P.norm_name(titul)
+            if not tnorm:
+                continue
+            if tnorm == cil:
+                return big, titul
+            # Obchod prodava dnesni vydani teze hry — "Minecraft" u nas vs.
+            # "Minecraft: Java & Bedrock Edition" v katalogu. Rozdil smi byt
+            # jen ve slovech, ktera oznacuji vydani, ne jiny dil.
+            if tnorm.startswith(cil + " "):
+                zbytek = tnorm[len(cil) + 1:].split()
+                if zbytek and all(w in _MS_EDICE for w in zbytek):
+                    return big, titul
+            # Opacne: nas nazev nese navic oznaceni platformy.
+            if cil.startswith(tnorm + " ") and len(tnorm) >= 6:
+                zbytek = cil[len(tnorm) + 1:].split()
+                if zbytek and all(w in _MS_EDICE or w.isdigit() or
+                                  w in ("xbox", "playstation", "vita", "360", "one")
+                                  for w in zbytek):
+                    return big, titul
+    return None
+
+
+def _msstore_images(big_id):
+    """Vrati (obal_url, [snimky]) pro dane produktove ID."""
+    url = ("https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=" + big_id +
+           "&market=US&languages=en-us&MS-CV=DGU1mcuYo0WMMp1F.1")
+    try:
+        d = json.loads(http_get(url))
+        loc = d["Products"][0]["LocalizedProperties"][0]
+        imgs = loc["Images"]
+    except Exception:  # noqa
+        return None, []
+    podle_ucelu = {}
+    for i in imgs:
+        podle_ucelu.setdefault(i.get("ImagePurpose"), []).append(i)
+
+    def _url(i):
+        u = i.get("Uri") or ""
+        return ("https:" + u) if u.startswith("//") else u
+
+    obal = None
+    for ucel in _MS_OBAL:
+        if podle_ucelu.get(ucel):
+            obal = _url(podle_ucelu[ucel][0])
+            break
+    snimky = []
+    for ucel in _MS_SNIMEK:
+        for i in podle_ucelu.get(ucel, []):
+            u = _url(i)
+            if u and u not in snimky:
+                snimky.append(u)
+    return obal, snimky
+
+
+def fetch_games_msstore(only=None, shots_only=False):
+    """Obaly a snimky z katalogu Microsoft Store (Xbox a PC tituly)."""
+    dataset = json.loads((ROOT / "src" / "data" / "dataset.json").read_text("utf-8"))
+    wanted = set(only.split(",")) if only else set(MSSTORE_OK)
+    ok_obal = ok_snimky = total = 0
+
+    for plat in dataset["platforms"]:
+        slug = plat["slug"]
+        if slug not in wanted:
+            continue
+        if slug not in MSSTORE_OK:
+            print("  [preskoceno] " + slug + ": Microsoft Store vede jen Xbox a PC")
+            continue
+        out = IMG / "games" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        if shots_only:
+            targets = [g for g in plat["games"]
+                       if g.get("image") and len(g.get("gallery") or []) < CIL_GALERIE]
+        else:
+            targets = [g for g in plat["games"] if not g.get("image")]
+        if not targets:
+            continue
+        print("\n== " + slug + ": " + str(len(targets)) + " her ==")
+
+        for g in targets:
+            total += 1
+            gslug = g["slug"]
+            ma_obal = bool(g.get("image")) or (out / (gslug + ".webp")).exists()
+            volne = volne_snimky(out, gslug)
+            if ma_obal and not volne:
+                continue
+            time.sleep(0.3)
+            hits = _msstore_search(g["name"])
+            zaklad = _ms_zaklad(g["name"])
+            if zaklad != g["name"]:
+                # "Minecraft: Xbox 360 Edition" uz obchod nevede; dnesni vydani
+                # teze hry ano, a jeho grafika je porad ta spravna hra.
+                hits = hits + _msstore_search(zaklad)
+            hit = _msstore_pick(g["name"], hits)
+            if not hit:
+                print("  [-] " + g["name"])
+                continue
+            big, titul = hit
+            obal, snimky = _msstore_images(big)
+            je_balik = any(w in titul.lower() for w in _MS_BALIK)
+            if je_balik:
+                obal = None
+
+            if not ma_obal and obal:
+                try:
+                    img = http_get(obal + "?w=720")
+                    if len(img) > 3000:
+                        (out / (gslug + ".jpg")).write_bytes(img)
+                        ok_obal += 1
+                        ma_obal = True
+                except Exception:  # noqa
+                    pass
+
+            # Stejne jako u Steamu: preskocit tolik snimku, kolik jich uz mame,
+            # jinak by se do volnych pozic ulozily tytez obrazky znovu.
+            obsazeno = 9 - len(volne)
+            saved = 0
+            for src, jmeno in zip(snimky[obsazeno:], volne):
+                try:
+                    img = http_get(src + "?w=1280")
+                    if len(img) < 3000:
+                        continue
+                    (out / (jmeno + ".jpg")).write_bytes(img)
+                    saved += 1
+                except Exception:  # noqa
+                    pass
+            if saved:
+                ok_snimky += 1
+            pozn = " [balicek: jen snimky]" if je_balik else ""
+            print("  [OK] " + g["name"] + "  <- " + titul +
+                  " (" + str(saved) + " snimku)" + pozn)
+
+    print("\nMicrosoft Store: obalu " + str(ok_obal) + ", snimku u " + str(ok_snimky) +
+          " her (z " + str(total) + ")")
+
+
 # App Store smi dodavat obrazky jen na platformy, kde je iOS verze ta nase.
 # Jinak vrati moderni port pod stejnym nazvem: java-mobil Doom takhle dostalo
 # reklamni banner z Doomu k 25. vyroci, ne snimek z javove verze.
@@ -2386,6 +2603,12 @@ if __name__ == "__main__":
     if what == "games-gog-shots":
         print("=== SNIMKY ZE HRY Z GOG (hry s obalem, ale bez galerie) ===")
         fetch_games_gog(sys.argv[2] if len(sys.argv) > 2 else None, shots_only=True)
+    if what == "games-msstore":
+        print("=== OBALY Z MICROSOFT STORE (hry bez obalu) ===")
+        fetch_games_msstore(sys.argv[2] if len(sys.argv) > 2 else None)
+    if what == "games-msstore-shots":
+        print("=== SNIMKY Z MICROSOFT STORE (hry s obalem, ale chudou galerii) ===")
+        fetch_games_msstore(sys.argv[2] if len(sys.argv) > 2 else None, shots_only=True)
     if what == "games-steam-shots":
         print("=== SNÍMKY ZE HRY ZE STEAMU (hry s obalem, ale bez galerie) ===")
         fetch_games_steam_shots(sys.argv[2] if len(sys.argv) > 2 else None)
