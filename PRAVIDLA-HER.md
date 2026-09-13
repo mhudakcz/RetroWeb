@@ -21,10 +21,20 @@ Zdroje se doplňují, každý pokrývá jinou část katalogu:
 | Steam | moderní konzole a PC |
 | Nintendo eShop | Nintendo platformy |
 | App Store | **jen platforma mobil** |
+| Microsoft Store | Xbox a PC — exkluzivity, ktere Steam nevede |
 | GOG | **jen PC linie** (pc-dos, pc-9x, pc-modern, web, mobil) |
 | ZXDB | ZX Spectrum |
 | itch.io | prohlížečovky a homebrew |
 | Wikipedia infobox | co nemá nikdo jiný |
+
+**Zdroj pouštět na všechny platformy, kde chybí obrázky, ne na ručně vybraný
+seznam.** Jednou takhle zůstal Minecraft na Xbox 360 úplně bez obrázku jen
+proto, že `xbox-360` v seznamu nebyl — přitom stačilo pustit tentýž zdroj.
+Seznam platforem si vygenerovat z datasetu.
+
+**Obal z prodejního balíčku se nebere.** Microsoft Store u části her vede jen
+edice typu „Ultimate Collection" a jejich grafika nese pruhy s cenou a bonusy.
+Snímky ze hry z balíčku vzít lze — ty jsou z téže hry.
 
 **App Store nesmí na java-mobil ani jinam.** Prodává dnešní iOS verze, takže
 na javovou éru vrátí moderní port pod stejným názvem — Doom takhle dostal
@@ -68,6 +78,17 @@ pro **tuto** platformu, ne rok prvního vydání série.
 Podívat se, jestli hra nepatří do série, kterou už vedeme — a když ano, zařadit
 ji tam. Když jde o dva a víc dílů, které sérii zatím nemají, **novou sérii
 založit**. Po změnách přegenerovat koláže: `python tools/series_art.py`.
+
+Každý nový návrh **ověřit proti katalogu, než se zapíše** — kolik titulů doopravdy
+chytne a jestli nebere hry, které už patří jinam. Vzor `alien` takhle chytal
+Contra III: The Alien Wars, `conflict` zase Unreal Championship 2. Řeší se to
+upřesněním (`exclude`, delší `match`), ne zahozením návrhu.
+
+Průvodní text série má **délku podle váhy značky**, ne jednu pro všechny: série
+s desítkami dílů napříč generacemi unese 3 200–4 200 znaků ve čtyřech až pěti
+odstavcích, série o dvou dílech 1 500–2 000. Pásmo počítá
+`tools/series_intro_prep.py` z počtu dílů, rozpětí let a počtu platforem.
+Delší text není týž text rozředěný — když je prostoru víc, patří tam víc věcného.
 
 ---
 
