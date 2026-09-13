@@ -1,5 +1,188 @@
 [
  {
+  "version": "2026.09.12",
+  "date": "2026-09-12",
+  "title": {
+   "cs": "Arkádové automaty a pravidla kvality",
+   "en": "Arcade cabinets and quality rules",
+   "de": "Spielhallenautomaten und Qualitätsregeln",
+   "fr": "Bornes d’arcade et règles de qualité"
+  },
+  "entries": [
+   {
+    "tag": "games",
+    "text": {
+     "cs": "Sedmdesát čtyři arkádovek podle galerie automatů, které jsou k vidění v Česku. Pokrytí té sbírky stouplo z 35 na 106 ze 114 strojů — přibyly Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki i Street Fighter II.",
+     "en": "Seventy-four arcade games drawn from a gallery of cabinets on display in Czechia. Coverage of that collection rose from 35 to 106 of 114 machines — Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki and Street Fighter II among them.",
+     "de": "Vierundsiebzig Arcade-Spiele nach einer Galerie von Automaten, die in Tschechien ausgestellt sind. Die Abdeckung dieser Sammlung stieg von 35 auf 106 von 114 Geräten — darunter Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki und Street Fighter II.",
+     "fr": "Soixante-quatorze jeux d’arcade d’après une galerie de bornes exposées en Tchéquie. La couverture de cette collection est passée de 35 à 106 machines sur 114 — dont Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki et Street Fighter II."
+    }
+   },
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Sepsaná pravidla pro přidávání her a nástroj, který podle nich projde celý katalog a vypíše, co kterému titulu chybí — obrázky, úvodní věta, délka článku, závěrečné doporučení, rok vydání i zařazení do série.",
+     "en": "Written rules for adding games, plus a tool that checks the whole catalogue against them and reports what each title is missing — images, opening line, article length, closing recommendation, release year and series placement.",
+     "de": "Festgeschriebene Regeln für das Hinzufügen von Spielen und ein Werkzeug, das den gesamten Katalog danach prüft und meldet, was jedem Titel fehlt — Bilder, Einleitungssatz, Textlänge, Schlussempfehlung, Erscheinungsjahr und Reihenzuordnung.",
+     "fr": "Des règles écrites pour l’ajout de jeux et un outil qui passe tout le catalogue au crible et signale ce qui manque à chaque titre — images, phrase d’introduction, longueur du texte, recommandation finale, année de sortie et rattachement à une série."
+    }
+   },
+   {
+    "tag": "i18n",
+    "text": {
+     "cs": "Dvě stě dvacet čtyři nových her přeložených do angličtiny, němčiny a francouzštiny.",
+     "en": "Two hundred and twenty-four new games translated into English, German and French.",
+     "de": "Zweihundertvierundzwanzig neue Spiele ins Englische, Deutsche und Französische übersetzt.",
+     "fr": "Deux cent vingt-quatre nouveaux jeux traduits en anglais, allemand et français."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.09.11",
+  "date": "2026-09-11",
+  "title": {
+   "cs": "Uživatelské účty a herní deník",
+   "en": "User accounts and a player diary",
+   "de": "Benutzerkonten und Spieltagebuch",
+   "fr": "Comptes utilisateurs et journal de joueur"
+  },
+  "entries": [
+   {
+    "tag": "feature",
+    "text": {
+     "cs": "Přihlášení e-mailem bez hesla — přijde vám kód, který jednou opíšete. U každé hry si pak můžete označit, že vás zajímá nebo že jste ji hráli, a pod svým účtem najdete seznam rozdělený po platformách s filtry a hledáním.",
+     "en": "Sign in by e-mail without a password — you get a code and type it once. On every game you can mark that it interests you or that you have played it, and your account holds the list split by platform, with filters and search.",
+     "de": "Anmeldung per E-Mail ohne Passwort — Sie erhalten einen Code und geben ihn einmal ein. Bei jedem Spiel lässt sich markieren, dass es Sie interessiert oder dass Sie es gespielt haben; im Konto finden Sie die Liste nach Plattform aufgeteilt, mit Filtern und Suche.",
+     "fr": "Connexion par e-mail sans mot de passe — vous recevez un code à saisir une seule fois. Sur chaque jeu, vous pouvez indiquer qu’il vous intéresse ou que vous y avez joué ; votre compte réunit la liste répartie par plateforme, avec filtres et recherche."
+    }
+   },
+   {
+    "tag": "games",
+    "text": {
+     "cs": "Sto padesát jedna her na Nintendo DS, 3DS a Wii, kde byl kánon pokrytý, ale druhá vrstva chyběla. K tomu osm českých prohlížečovek — Samorost, Questionaut, Osada a další.",
+     "en": "A hundred and fifty-one games for the Nintendo DS, 3DS and Wii, where the canon was covered but the second tier was missing. Plus eight Czech browser games — Samorost, Questionaut, Osada and others.",
+     "de": "Hunderteinundfünfzig Spiele für Nintendo DS, 3DS und Wii, wo der Kanon abgedeckt war, die zweite Reihe aber fehlte. Dazu acht tschechische Browserspiele — Samorost, Questionaut, Osada und weitere.",
+     "fr": "Cent cinquante et un jeux pour Nintendo DS, 3DS et Wii, où le canon était couvert mais la deuxième strate manquait. S’y ajoutent huit jeux tchèques en navigateur — Samorost, Questionaut, Osada et d’autres."
+    }
+   },
+   {
+    "tag": "fix",
+    "text": {
+     "cs": "Našeptávač na mobilu přetékal mimo obrazovku a dlouhé názvy se ořezávaly. Nabídka se nově drží okna a název se smí zalomit na víc řádků.",
+     "en": "On mobile the search suggestions overflowed off-screen and long titles were cut off. The list now anchors to the window and titles may wrap onto more lines.",
+     "de": "Auf dem Handy lief die Suchvorschlagsliste aus dem Bildschirm und lange Titel wurden abgeschnitten. Die Liste richtet sich jetzt am Fenster aus, und Titel dürfen umbrechen.",
+     "fr": "Sur mobile, les suggestions de recherche débordaient hors de l’écran et les titres longs étaient tronqués. La liste s’ancre désormais à la fenêtre et les titres peuvent passer à la ligne."
+    }
+   },
+   {
+    "tag": "platform",
+    "text": {
+     "cs": "Sekce „Domácí počítače“ se jmenuje „Počítače“ — podtitulek sliboval osmibity a šestnáctibity domácí éry, jenže patří sem i PC pod DOSem, Windows 9x a dnešní herní sestavy.",
+     "en": "The “Home computers” section is now simply “Computers” — the subtitle promised 8-bit and 16-bit machines of the home era, yet the section also holds DOS PCs, Windows 9x and today’s gaming rigs.",
+     "de": "Der Bereich „Heimcomputer“ heißt jetzt schlicht „Computer“ — der Untertitel versprach 8- und 16-Bit-Rechner der Heim-Ära, dabei stehen hier auch DOS-PCs, Windows 9x und heutige Gaming-Rechner.",
+     "fr": "La section « Ordinateurs familiaux » s’appelle désormais « Ordinateurs » — le sous-titre promettait des machines 8 et 16 bits de l’ère domestique, alors qu’on y trouve aussi les PC sous DOS, Windows 9x et les configurations de jeu actuelles."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.09.04",
+  "date": "2026-09-04",
+  "title": {
+   "cs": "Překlady kompletní a bohatší galerie",
+   "en": "Translations complete and richer galleries",
+   "de": "Übersetzungen vollständig und reichere Galerien",
+   "fr": "Traductions terminées et galeries enrichies"
+  },
+  "entries": [
+   {
+    "tag": "i18n",
+    "text": {
+     "cs": "Angličtina, němčina i francouzština pokrývají celý katalog — přes pět tisíc her ve všech čtyřech jazycích.",
+     "en": "English, German and French now cover the whole catalogue — over five thousand games in all four languages.",
+     "de": "Englisch, Deutsch und Französisch decken nun den gesamten Katalog ab — über fünftausend Spiele in allen vier Sprachen.",
+     "fr": "L’anglais, l’allemand et le français couvrent désormais tout le catalogue — plus de cinq mille jeux dans les quatre langues."
+    }
+   },
+   {
+    "tag": "feature",
+    "text": {
+     "cs": "Galerie u hry pobere až deset obrázků. Na stránce zůstávají obal a dva snímky se značkou, kolik jich je dál — dřív se všechny vršily pod sebou a k textu se muselo dlouho rolovat.",
+     "en": "A game's gallery now holds up to ten images. The page shows the cover and two shots with a badge for the rest — before, they all stacked up and pushed the text far down.",
+     "de": "Die Galerie eines Spiels fasst jetzt bis zu zehn Bilder. Auf der Seite bleiben das Cover und zwei Aufnahmen mit einer Marke für den Rest — zuvor stapelten sie sich alle und schoben den Text weit nach unten.",
+     "fr": "La galerie d’un jeu accueille jusqu’à dix images. La page conserve la jaquette et deux captures avec une pastille indiquant le reste — auparavant, elles s’empilaient toutes et repoussaient le texte très bas."
+    }
+   },
+   {
+    "tag": "images",
+    "text": {
+     "cs": "Tři nové zdroje obrázků: GOG pro starší PC vydání, ZXDB pro ZX Spectrum a itch.io pro prohlížečovky a homebrew.",
+     "en": "Three new image sources: GOG for older PC releases, ZXDB for the ZX Spectrum and itch.io for browser games and homebrew.",
+     "de": "Drei neue Bildquellen: GOG für ältere PC-Ausgaben, ZXDB für den ZX Spectrum und itch.io für Browserspiele und Homebrew.",
+     "fr": "Trois nouvelles sources d’images : GOG pour les anciennes éditions PC, ZXDB pour le ZX Spectrum et itch.io pour les jeux en navigateur et le homebrew."
+    }
+   },
+   {
+    "tag": "games",
+    "text": {
+     "cs": "Dvě stě třicet čtyři nových her — Wii U, Atari 2600, 5200 a 7800 a tituly z žebříčků nejlépe hodnocených her.",
+     "en": "Two hundred and thirty-four new games — Wii U, Atari 2600, 5200 and 7800, plus titles from the highest-rated charts.",
+     "de": "Zweihundertvierunddreißig neue Spiele — Wii U, Atari 2600, 5200 und 7800 sowie Titel aus den Bestenlisten.",
+     "fr": "Deux cent trente-quatre nouveaux jeux — Wii U, Atari 2600, 5200 et 7800, ainsi que des titres issus des classements des mieux notés."
+    }
+   }
+  ]
+ },
+ {
+  "version": "2026.09.03",
+  "date": "2026-09-03",
+  "title": {
+   "cs": "Čím začít, hry v prohlížeči a text ke každé hře",
+   "en": "Where to start, browser games and a write-up for every game",
+   "de": "Womit anfangen, Browserspiele und ein Text zu jedem Spiel",
+   "fr": "Par où commencer, jeux en navigateur et un texte pour chaque jeu"
+  },
+  "entries": [
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Každá platforma má výběr her, kterými začít, a u každé jednu větu proč právě ony. Velké platformy jich nabídnou osmnáct až dvacet, malé čtyři — dohromady 768 doporučení.",
+     "en": "Every platform now carries a shortlist of games to begin with and one line on why each. Big platforms offer eighteen to twenty, small ones four — 768 picks in total.",
+     "de": "Jede Plattform trägt nun eine Auswahl an Spielen für den Einstieg, jeweils mit einem Satz zur Begründung. Große Plattformen bieten achtzehn bis zwanzig, kleine vier — insgesamt 768 Empfehlungen.",
+     "fr": "Chaque plateforme propose désormais une sélection de jeux pour débuter, avec une phrase expliquant ce choix. Les grandes en offrent dix-huit à vingt, les petites quatre — 768 recommandations au total."
+    }
+   },
+   {
+    "tag": "content",
+    "text": {
+     "cs": "Každá hra v katalogu má článek, úvodní větu i závěrečné doporučení, proč si ji pustit. Webová platforma a Java se Symbianem měly do té doby jen katalogové záznamy bez textu.",
+     "en": "Every game in the catalogue has an article, an opening line and a closing note on why to play it. The browser platform and Java/Symbian had held nothing but bare catalogue entries until then.",
+     "de": "Jedes Spiel im Katalog hat einen Artikel, einen Einleitungssatz und eine abschließende Empfehlung. Die Browser-Plattform sowie Java und Symbian hatten bis dahin nur nackte Katalogeinträge.",
+     "fr": "Chaque jeu du catalogue dispose d’un texte, d’une phrase d’introduction et d’une recommandation finale. La plateforme navigateur ainsi que Java et Symbian n’avaient jusque-là que des fiches sans texte."
+    }
+   },
+   {
+    "tag": "feature",
+    "text": {
+     "cs": "U webových her, které dodnes běží, vede odkaz rovnou tam, kde se dají hrát — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape a další.",
+     "en": "Browser games that still run link straight to where you can play them — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape and more.",
+     "de": "Browserspiele, die noch laufen, verlinken direkt dorthin, wo man sie spielen kann — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape und weitere.",
+     "fr": "Les jeux en navigateur encore en ligne renvoient directement vers l’endroit où y jouer — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape et d’autres."
+    }
+   },
+   {
+    "tag": "games",
+    "text": {
+     "cs": "Sto třicet pět nových her na SEGA Master System, Saturnu, Javě a Symbianu, Meta Questu a PICO-8.",
+     "en": "A hundred and thirty-five new games for the SEGA Master System, Saturn, Java and Symbian, Meta Quest and PICO-8.",
+     "de": "Hundertfünfunddreißig neue Spiele für SEGA Master System, Saturn, Java und Symbian, Meta Quest und PICO-8.",
+     "fr": "Cent trente-cinq nouveaux jeux pour SEGA Master System, Saturn, Java et Symbian, Meta Quest et PICO-8."
+    }
+   }
+  ]
+ },
+ {
   "version": "2026.08.22",
   "date": "2026-08-22",
   "title": {

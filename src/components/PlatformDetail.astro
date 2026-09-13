@@ -84,9 +84,13 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
             <strong>{t(locale, 'i18n.pending.title')}</strong> {t(locale, 'i18n.pending.body')}
           </p>
         )}
-        {historyToc.length > 1 && (
+        {(historyToc.length > 1 || picks.length > 0) && (
           <nav class="art-toc" aria-label={t(locale, 'detail.history')}>
             {historyToc.map((h) => <a href={`#${h.id}`}>{h.text}</a>)}
+            {picks.length > 0 && (
+              <a class="toc-skok" href="#cim-zacit">★ {t(locale, 'picks.title')}</a>
+            )}
+            <a class="toc-skok" href="#hry-na-platforme">▤ {t(locale, 'detail.recommended')}</a>
           </nav>
         )}
         <div class="prose" lang={platform.historyFallback ? 'cs' : undefined} set:html={history} />
@@ -97,7 +101,7 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
         )}
 
         {picks.length > 0 && (
-          <aside class="picks-box" style={`--c1:${platform.color}`}>
+          <aside class="picks-box" id="cim-zacit" style={`--c1:${platform.color}`}>
             <h3 class="picks-h">{t(locale, 'picks.title')}</h3>
             <p class="muted picks-lead">{t(locale, 'picks.lead')}</p>
             <ol class="picks">
@@ -137,7 +141,7 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
   ) : <span />}
 </nav>
 
-<section class="section">
+<section class="section" id="hry-na-platforme">
   <div class="container">
     <div class="games-head">
       <h2 class="sec-title">{t(locale, 'detail.recommended')} <span class="muted">(<span id="gcount">{platform.gameCount}</span>)</span></h2>
@@ -195,6 +199,18 @@ const typeLabel = t(locale, `type.${platform.type}.label`);
           next={next ? lp(`/platformy/${next.slug}`) : null} />
 
 <style>
+  /* Skoky vedou mimo clanek (na vyber her a na seznam), takze se odlisuji
+     barvou a nejsou to jen dalsi nadpis v rade. */
+  .toc-skok {
+    font-weight: 700;
+    color: var(--accent);
+    border-color: color-mix(in srgb, var(--accent) 45%, transparent) !important;
+  }
+  .toc-skok:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+  /* Hlavicka je sticky, takze cil skoku musi mit odstup, jinak ho prekryje. */
+  #cim-zacit, #hry-na-platforme { scroll-margin-top: 84px; }
+
   /* Stejny pruh jako na strance hry — jina podoba by pusobila, ze jde o jinou
      funkci. */
   .pager-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 12px 0 4px; font-size: 0.85rem; }

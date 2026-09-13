@@ -100,6 +100,37 @@ EN, DE i FR. Francouzština má vlastní workflow (`i18n_fr.workflow.js`), zbyte
 Když přibude na platformě hodně her, projít výběr doporučení — nové silné
 tituly do něj patří.
 
+### 12. Záznam do „Co je nového“
+
+Každé nasazení na produkci musí dostat záznam v `src/data/changelog.json` —
+a to **ve všech čtyřech jazycích**, stejně jako zbytek webu. Týká se to obojího:
+přidaných her i nových funkcí a jejich úprav.
+
+**Datum je datum nasazení, ne commitu.** Čtenář na webu vidí jen to, co je na
+produkci; kdyby změny nabíhaly dřív, než jsou vidět, byl by ten přehled matoucí.
+Co je hotové v repozitáři, ale ještě nenasazené, se do changelogu nepíše —
+přidá se, až to půjde ven.
+
+Formát jednoho vydání:
+
+```json
+{
+  "version": "2026.09.12",
+  "date": "2026-09-12",
+  "title": { "cs": "…", "en": "…", "de": "…", "fr": "…" },
+  "entries": [
+    { "tag": "games", "text": { "cs": "…", "en": "…", "de": "…", "fr": "…" } }
+  ]
+}
+```
+
+Značky, které stránka umí vykreslit: `games`, `platform`, `images`, `content`,
+`i18n`, `feature`, `fix`. Novou značku je potřeba nejdřív přidat do `TAGS`
+v `ChangelogPage.astro`, jinak se u položky nezobrazí popisek.
+
+Text píšeme tak, aby dával smysl čtenáři, ne vývojáři: co na webu přibylo a co
+z toho má, ne názvy skriptů a souborů.
+
 ---
 
 ## Pasti, které stály čas
