@@ -2274,7 +2274,10 @@ def fetch_games_appstore(only=None):
             total += 1
             gslug = g["slug"]
             ma_obal = bool(g.get("image"))
-            ma_snimky = any((out / (gslug + "-snap" + x + ".jpg")).exists() for x in ("", "2"))
+            # Po kroku "optimize" jsou soubory .webp, takze hledat jen .jpg znamena
+            # stahovat uz stazene znovu.
+            ma_snimky = any((out / (gslug + "-snap" + x + p)).exists()
+                            for x in ("", "2") for p in (".jpg", ".webp"))
             if ma_obal and ma_snimky:
                 continue
             time.sleep(0.35)
