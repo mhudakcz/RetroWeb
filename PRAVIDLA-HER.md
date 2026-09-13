@@ -20,15 +20,22 @@ Zdroje se doplňují, každý pokrývá jinou část katalogu:
 | libretro | obaly i snímky pro retro platformy |
 | Steam | moderní konzole a PC |
 | Nintendo eShop | Nintendo platformy |
-| App Store | mobilní hry |
+| App Store | **jen platforma mobil** |
 | GOG | **jen PC linie** (pc-dos, pc-9x, pc-modern, web, mobil) |
 | ZXDB | ZX Spectrum |
 | itch.io | prohlížečovky a homebrew |
 | Wikipedia infobox | co nemá nikdo jiný |
 
+**App Store nesmí na java-mobil ani jinam.** Prodává dnešní iOS verze, takže
+na javovou éru vrátí moderní port pod stejným názvem — Doom takhle dostal
+reklamní banner k 25. výročí místo snímku z hry pro tehdejší telefony.
+
 **GOG nesmí na jiné platformy než PC.** Prodává verze pro PC, takže na konzoli
 nabídne buď jinou verzi, nebo rovnou moderní remake pod původním názvem —
 Wizardry na Atari 800 takhle dostalo snímky z remaku z roku 2024.
+
+Obecně: **každý obchod prodává svoji verzi.** Než se zdroj pustí na novou
+platformu, ověřit na jedné hře, že nevrací remake nebo port odjinud.
 
 **Pořadí kroků: `dedupe` až PO `optimize`.** Před převodem porovnává čerstvý
 JPEG proti už převedenému WebP, což jsou u téhož obrázku různé bajty, a hlásí
