@@ -2239,6 +2239,12 @@ def _appstore_big(url, size="1024x1024bb"):
     return P.re.sub(r"/\d+x\d+bb(-\d+)?\.(jpg|png|webp)$", "/" + size + ".jpg", url)
 
 
+# App Store smi dodavat obrazky jen na platformy, kde je iOS verze ta nase.
+# Jinak vrati moderni port pod stejnym nazvem: java-mobil Doom takhle dostalo
+# reklamni banner z Doomu k 25. vyroci, ne snimek z javove verze.
+APPSTORE_OK = {"mobil"}
+
+
 def fetch_games_appstore(only=None):
     """Obaly a snimky ze hry z App Storu (vychozi platforma: mobil).
 
@@ -2254,6 +2260,9 @@ def fetch_games_appstore(only=None):
     for plat in dataset["platforms"]:
         slug = plat["slug"]
         if slug not in wanted:
+            continue
+        if slug not in APPSTORE_OK:
+            print("  [preskoceno] " + slug + ": App Store prodava jen iOS verze")
             continue
         out = IMG / "games" / slug
         out.mkdir(parents=True, exist_ok=True)

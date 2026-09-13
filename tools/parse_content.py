@@ -22,6 +22,8 @@ SRC = ROOT / "Podklady" / "extracted"
 OUT = ROOT / "src" / "data" / "dataset.json"
 PUBLIC_IMG = ROOT / "public" / "images"
 ARTICLES_DIR = ROOT / "src" / "data" / "articles"
+
+MIN_TEASER = 30  # kratší útržek z podkladů se nepovažuje za úvodní větu
 PLATFORM_ARTICLES_DIR = ROOT / "src" / "data" / "platform_articles"
 
 
@@ -698,6 +700,12 @@ def build():
                 continue
             seen_gslugs[gslug] = 1
 
+            # Podklady u některých her nabízejí jen útržek („Precizní breakout.“),
+            # a ten pak přebíjel pořádnou větu z game_teasers.json. Pravidla chtějí
+            # 30-110 znaků, takže cokoli kratšího se bere jako by tam nebylo.
+            if teaser and len(teaser) < MIN_TEASER and (extra_teasers.get(gslug) or "").strip():
+                teaser = None
+                matched_teaser -= 1
             if not teaser and gslug in extra_teasers:
                 t = (extra_teasers[gslug] or "").strip()
                 if t:
