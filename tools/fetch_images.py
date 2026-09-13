@@ -1867,6 +1867,60 @@ def _wiki_file_url(filename, width=600):
     return None
 
 
+_RIMSKE = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7,
+           "viii": 8, "ix": 9, "x": 10}
+
+
+def _cislo_dilu(norm: str):
+    """Cislo dilu na konci nazvu, arabske i rimske. None = bez cisla."""
+    posledni = norm.split()[-1] if norm.split() else ""
+    if posledni.isdigit():
+        return int(posledni)
+    return _RIMSKE.get(posledni)
+
+
+def _zaklad(nazev: str) -> str:
+    """Nazev bez podtitulu za dvojteckou nebo pomlckou."""
+    return P.re.split(r"\s*[:–—]\s*|\s+-\s+", nazev)[0]
+
+
+def _wiki_titul_sedi(nas: str, titul: str) -> bool:
+    """Je clanek o TEHLE hre?
+
+    Cislo dilu se musi shodovat vzdy — jinak by "Killzone 2" sedlo na clanek
+    o prvnim dilu. Na smeru rozdilu zalezi: kdyz jsme delsi my, jde nejspis
+    o podtitul nebo znackovou predponu ("Sid Meier's Civilization II" vs
+    clanek "Civilization II"). Kdyz je delsi clanek, muze jit o jinou hru ze
+    stejne serie ("Final Fantasy" vs "Final Fantasy Tactics"), takze se to
+    povoli jen pri shode zakladu pred dvojteckou.
+    """
+    cisty = P.re.sub(r"\([^)]*\)", " ", titul)
+    a, b = P.norm_name(nas), P.norm_name(cisty)
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+
+    za, zb = P.norm_name(_zaklad(nas)), P.norm_name(_zaklad(cisty))
+    # Cislo dilu se bere ze ZAKLADU pred podtitulem. Na konci cele nazvu byva
+    # posledni slovo podtitulu ("... The Age of Kings"), takze by se rimska
+    # dvojka v "Age of Empires II" prehlednula a hra by sedla na clanek
+    # o cele serii.
+    if _cislo_dilu(za) != _cislo_dilu(zb):
+        return False
+    if _cislo_dilu(a) != _cislo_dilu(b) and _cislo_dilu(za) is None:
+        return False
+
+    # shoda zakladu pred podtitulem: "Donkey Kong Country 3" ~ tyz s podtitulem
+    if za and za == zb:
+        return True
+
+    # jinak smi byt clanek jen KRATSI nez nas nazev
+    if len(b) >= len(a):
+        return False
+    return len(b) >= 4 and (a.startswith(b + " ") or a.endswith(" " + b))
+
+
 def fetch_games_wiki_box(only=None):
     """Pro hry BEZ obrazku vezme obal z infoboxu clanku na anglicke Wikipedii.
 
@@ -1900,11 +1954,11 @@ def fetch_games_wiki_box(only=None):
             # i 'inFamous 2' na clanek o PRVNIM dilu serie
             gnorm = P.norm_name(base)
             picked = None
-            for query in (f"{base} video game", f"{base} {plat['short']} video game"):
+            for query in (f"{base} video game", f"{base} {plat['short']} video game", base):
                 for title in _wiki_search(query):
                     # z nazvu clanku pryc rozlisovaci zavorka: 'Flower (video game)'
                     bare = P.re.sub(r"\([^)]*\)", " ", title).strip()
-                    if P.norm_name(bare) != gnorm or not _wiki_is_videogame(title):
+                    if not _wiki_titul_sedi(base, bare) or not _wiki_is_videogame(title):
                         continue
                     picked = title
                     break
@@ -1916,6 +1970,10 @@ def fetch_games_wiki_box(only=None):
             fname = _wiki_infobox_image(picked)
             if not fname:
                 print(f"  [-] {g['name']} (v infoboxu neni obrazek: {picked})")
+                continue
+            # Clanek o cele serii ma v infoboxu logo, ne obal konkretni hry.
+            if P.re.search(r"logo|franchise|wordmark", fname, P.re.I):
+                print(f"  [-] {g['name']} (v infoboxu je logo, ne obal: {fname})")
                 continue
             # kdyz stejny soubor sedne na vic her, je to spatna shoda (jiny dil serie)
             if fname in used_files:

@@ -304,6 +304,17 @@ const UI: Dict = {
 
   'nav.ucet': { cs: 'Můj účet', en: 'My account', de: 'Mein Konto', fr: 'Mon compte' },
 
+// ---- delka hrani ----
+  'length.S': { cs: 'Krátká · do ~3 h', en: 'Short · up to ~3 h', de: 'Kurz · bis ~3 Std.', fr: 'Court · jusqu’à ~3 h' },
+  'length.M': { cs: 'Střední · ~3–10 h', en: 'Medium · ~3–10 h', de: 'Mittel · ~3–10 Std.', fr: 'Moyen · ~3–10 h' },
+  'length.L': { cs: 'Dlouhá · ~10–30 h', en: 'Long · ~10–30 h', de: 'Lang · ~10–30 Std.', fr: 'Long · ~10–30 h' },
+  'length.XL': { cs: 'Velmi dlouhá · 30+ h', en: 'Very long · 30+ h', de: 'Sehr lang · 30+ Std.', fr: 'Très long · 30+ h' },
+  'length.word.S': { cs: 'Krátká', en: 'Short', de: 'Kurz', fr: 'Court' },
+  'length.word.M': { cs: 'Střední', en: 'Medium', de: 'Mittel', fr: 'Moyen' },
+  'length.word.L': { cs: 'Dlouhá', en: 'Long', de: 'Lang', fr: 'Long' },
+  'length.word.XL': { cs: 'Velmi dlouhá', en: 'Very long', de: 'Sehr lang', fr: 'Très long' },
+  'length.approx': { cs: 'cca', en: 'approx.', de: 'ca.', fr: 'env.' },
+
   'type.computer.label': { cs: 'Počítače', en: 'Computers', de: 'Computer', fr: 'Ordinateurs' },
   'type.arcade.label': { cs: 'Arkády', en: 'Arcades', de: 'Arcades', fr: 'Arcades' },
   'type.vr.label': { cs: 'Virtuální realita', en: 'Virtual reality', de: 'Virtuelle Realität', fr: 'Réalité virtuelle' },

@@ -36,11 +36,16 @@ CILE = {
     "saturn": 80, "java-mobil": 70, "quest": 55, "pico-8": 45,
     "nds": 110,
     "wii": 100,
+    "amiga": 110,
+    "snes": 125,
+    "mega-drive": 133,
+    "gamecube": 95,
+    "xbox-one": 172,
     # velke knihovny — jen dalsi krok
     "master-system": 90, "pc-engine": 65, "wii-u": 80, "3ds": 105,
-    "arcade": 130,
+    "arcade": 179,
     # domaci pocitace: knihovny v tisicich titulu, tady jde o dalsich ~50
-    "c64": 115, "zx-spectrum": 101, "atari-8bit": 100, "atari-st": 70,
+    "c64": 115, "zx-spectrum": 101, "atari-8bit": 122, "atari-st": 70,
     # kapesni Nintenda — knihovny v stovkach titulu, taky dalsich ~50
     "game-boy": 133, "game-boy-color": 126, "game-boy-advance": 145,
 }

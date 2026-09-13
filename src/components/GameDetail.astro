@@ -33,7 +33,7 @@ const startI = pool.length ? (gamePos - 1) % pool.length : 0;
 const related = [...pool, ...pool].slice(startI, startI + 8);
 const nameHtml = mdInline(game.name);
 const shots = game.gallery.filter((g) => g.kind !== 'box' && g.src !== game.image);
-const playtime = playtimeLabel(game.length, game.est);
+const playtime = playtimeLabel(game.length, game.est, locale);
 const gameSeries = seriesOfGame(game.name, localeData(locale).series, game.slug);
 const elsewhere = sameGameElsewhere(game, localeData(locale).allGames);
 const verNote = elsewhere.length > 0 ? versionNote(game.name, locale) : null;

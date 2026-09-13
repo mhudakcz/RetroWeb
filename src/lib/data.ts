@@ -1,4 +1,5 @@
 import { marked } from 'marked';
+import { t, DEFAULT_LOCALE, type Locale } from './i18n';
 import dataset from '../data/dataset.json';
 
 marked.setOptions({ gfm: true, breaks: false });
@@ -330,13 +331,24 @@ export const LENGTH_WORD: Record<GameLength, string> = {
   XL: 'Velmi dlouhá',
 };
 
-/** Jeden text délky hraní – kombinuje kategorii a konkrétní odhad bez duplicity. */
-export function playtimeLabel(length: GameLength | null, est: string | null): string | null {
+/**
+ * Jeden text délky hraní – kombinuje kategorii a konkrétní odhad bez duplicity.
+ *
+ * Bere locale, protože se štítek zobrazuje i na cizojazyčných stránkách. Bez
+ * toho tam svítilo české „Střední · ~3–10 h“, i když příznaky vedle už
+ * přeložené byly.
+ */
+export function playtimeLabel(
+  length: GameLength | null,
+  est: string | null,
+  locale: Locale = DEFAULT_LOCALE,
+): string | null {
   if (est) {
     const cleaned = est.replace(/^cca\s*/i, '').trim();
-    return length ? `${LENGTH_WORD[length]} · cca ${cleaned}` : `cca ${cleaned}`;
+    const pribl = t(locale, 'length.approx');
+    return length ? `${t(locale, `length.word.${length}`)} · ${pribl} ${cleaned}` : `${pribl} ${cleaned}`;
   }
-  return length ? LENGTH_LABEL[length] : null;
+  return length ? t(locale, `length.${length}`) : null;
 }
 
 export const FLAG_LABEL: Record<GameFlag, string> = {
