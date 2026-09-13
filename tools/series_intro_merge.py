@@ -32,6 +32,10 @@ def main() -> int:
 
     added = skipped = 0
     for f in sorted(work.glob("intro_*.json")):
+        # Vstupni davky lezi ve stejnem adresari pod intro_NNN_in.json a jsou to
+        # pole, ne slovnik — bez teto podminky by na nich slucovani spadlo.
+        if f.name.endswith("_in.json"):
+            continue
         try:
             got = json.loads(f.read_text("utf-8"))
         except Exception as e:  # noqa: BLE001

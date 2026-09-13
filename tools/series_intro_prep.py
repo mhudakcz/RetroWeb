@@ -10,6 +10,8 @@ Pouziti:
   python tools/series_intro_prep.py              vypise args pro workflow
   python tools/series_intro_prep.py --chybejici  jen serie bez textu
   python tools/series_intro_prep.py --kratke N   jen serie s textem pod N znaku
+  python tools/series_intro_prep.py --krome DIR  vynech serie, ktere uz resi jina davka
+  python tools/series_intro_prep.py --do DIR     zapis davky do jineho adresare
 """
 import json
 import re
@@ -73,9 +75,21 @@ def main() -> int:
 
     jen_chybejici = "--chybejici" in a
     kratke = int(a[a.index("--kratke") + 1]) if "--kratke" in a else 0
+    cil = a[a.index("--do") + 1] if "--do" in a else "serie_intro"
+
+    # Slugy, ktere uz resi jina bezici davka — jinak by dva agenti psali totez
+    # a druhy by prepsal prvniho.
+    uz_bezi = set()
+    if "--krome" in a:
+        d0 = ROOT / ".i18n-work" / a[a.index("--krome") + 1]
+        for f in sorted(d0.glob("intro_*_in.json")):
+            for it in json.loads(f.read_text("utf-8")):
+                uz_bezi.add(it["slug"])
 
     polozky = []
     for d in defs:
+        if d["slug"] in uz_bezi:
+            continue
         cs = ((d.get("intro") or {}).get("cs") or "").strip()
         if jen_chybejici and cs:
             continue
@@ -113,7 +127,7 @@ def main() -> int:
     print(f"serii k napsani: {len(polozky)} ({poc}) -> {len(davky)} davek")
     # Davky jdou do souboru, ne do argumentu workflow — inline by to bylo
     # pres tricet kilobajtu a stejny vzor uz pouzivaji roky i studia.
-    work = ROOT / ".i18n-work" / "serie_intro"
+    work = ROOT / ".i18n-work" / cil
     work.mkdir(parents=True, exist_ok=True)
     for i, b in enumerate(davky):
         (work / f"intro_{i:03d}_in.json").write_text(
