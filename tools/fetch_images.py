@@ -1695,8 +1695,13 @@ def fetch_games_steam_shots(only=None):
             if not shots:
                 print(f"  [-] {g['name']} (bez screenshotu)")
                 continue
+            # Steam vraci snimky vzdy od zacatku. Kdyz uz hra ma -snap a -snap2,
+            # zacinaji volne pozice u -snap3 a bez tohohle posunu by se tam ulozily
+            # TYTEZ dva snimky znovu — dedupe je pak zase smazal, takze cela davka
+            # nepridala nic. Preskoci se proto tolik snimku, kolik jich uz mame.
+            obsazeno = 9 - len(volne)
             saved = 0
-            for src, jmeno in zip(shots, volne):
+            for src, jmeno in zip(shots[obsazeno:], volne):
                 try:
                     img = http_get(src)
                     if len(img) < 3000:
