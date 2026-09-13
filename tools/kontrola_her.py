@@ -63,15 +63,49 @@ def problemy_hry(g: dict, serie_slugy: set) -> list:
     return out
 
 
+def _serie_vzory():
+    """Regulerni vyrazy, kterymi web paruje hry na serie (src/data/series.json).
+
+    Dataset zadne pole "series" u her nenese — parovani se deje az pri
+    vykreslovani podle seznamu "match". Dokud se tohle nekontrolovalo,
+    hlasil skript jako nezarazenou i kazdou z uz vedenych serii, takze
+    z 516 navrhu jich byla vetsina planych.
+    """
+    defs = json.loads((ROOT / "src/data/series.json").read_text("utf-8"))
+    out = []
+    for d in defs:
+        skip = [e.lower() for e in (d.get("exclude") or [])]
+        explicit = set(d.get("games") or [])
+        rx = [re.compile(r"(?<![a-z0-9])" + re.escape(m.lower()) + r"(?![a-z0-9])")
+              for m in d["match"]]
+        out.append((rx, skip, explicit))
+    return out
+
+
+def _ma_serii(g: dict, vzory) -> bool:
+    n = g["name"].lower()
+    for rx, skip, explicit in vzory:
+        if explicit:
+            if g["slug"] in explicit:
+                return True
+            continue
+        if any(e in n for e in skip):
+            continue
+        if any(r.search(n) for r in rx):
+            return True
+    return False
+
+
 def mozna_serie(hry: list) -> list:
     """Tituly, ktere vypadaji jako dil serie, ale zadnou nemaji.
 
     Hleda dvojice a vic her se stejnym zacatkem nazvu — "Gauntlet"
     a "Gauntlet 2" patri k sobe, i kdyz je zatim nic nespojuje.
     """
+    vzory = _serie_vzory()
     zaklad = {}
     for g in hry:
-        if g.get("series"):
+        if _ma_serii(g, vzory):
             continue
         # nazev bez cisla, podtitulu a rimske cislice na konci
         k = re.sub(r"[:\-–].*$", "", g["name"])
