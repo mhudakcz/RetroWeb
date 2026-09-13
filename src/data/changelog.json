@@ -1,479 +1,536 @@
 [
- {
-  "version": "2026.09.12",
-  "date": "2026-09-12",
-  "title": {
-   "cs": "Arkádové automaty a pravidla kvality",
-   "en": "Arcade cabinets and quality rules",
-   "de": "Spielhallenautomaten und Qualitätsregeln",
-   "fr": "Bornes d’arcade et règles de qualité"
+  {
+    "version": "2026.09.13",
+    "date": "2026-09-13",
+    "title": {
+      "cs": "Přes šest tisíc her a bohatší galerie",
+      "en": "Over six thousand games and richer galleries",
+      "de": "Über sechstausend Spiele und reichere Galerien",
+      "fr": "Plus de six mille jeux et des galeries plus riches"
+    },
+    "entries": [
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Sto sedmdesát sedm her na sedmi platformách — Amiga, SNES, Mega Drive, Atari 800, GameCube, Xbox One a novější arkády. Katalog tím překročil šest tisíc titulů.",
+          "en": "One hundred and seventy-seven games across seven platforms — Amiga, SNES, Mega Drive, Atari 800, GameCube, Xbox One and newer arcades. The catalogue has passed six thousand titles.",
+          "de": "Einhundertsiebenundsiebzig Spiele auf sieben Plattformen — Amiga, SNES, Mega Drive, Atari 800, GameCube, Xbox One und neuere Spielhallen. Der Katalog hat damit sechstausend Titel überschritten.",
+          "fr": "Cent soixante-dix-sept jeux sur sept plateformes — Amiga, SNES, Mega Drive, Atari 800, GameCube, Xbox One et bornes d’arcade plus récentes. Le catalogue a ainsi dépassé six mille titres."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Galerie u her přestaly ukazovat tentýž obrázek dvakrát — dva a půl tisíce takových kopií je pryč. Sto sedmdesát tři her zároveň dostalo obrázek navíc a hledání obalů na Wikipedii přestalo zaměňovat díly série a nabízet místo obalu logo.",
+          "en": "Game galleries no longer show the same picture twice — two and a half thousand such copies are gone. At the same time a hundred and seventy-three games gained an extra image, and cover matching on Wikipedia stopped confusing entries in a series and serving logos instead of covers.",
+          "de": "Spielegalerien zeigen dasselbe Bild nicht mehr doppelt — zweieinhalbtausend solcher Kopien sind verschwunden. Zugleich haben hundertdreiundsiebzig Spiele ein Bild mehr bekommen, und die Cover-Suche auf Wikipedia verwechselt keine Teile einer Reihe mehr und liefert kein Logo statt des Covers.",
+          "fr": "Les galeries des jeux n’affichent plus deux fois la même image — deux mille cinq cents doublons ont disparu. Cent soixante-treize jeux ont par ailleurs gagné une image supplémentaire, et la recherche de jaquettes sur Wikipédia ne confond plus les épisodes d’une série ni ne renvoie un logo à la place."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Šest set dvacet osm her dostalo jméno vývojářského studia a dalších dvacet šest rok vydání. Devatenáct her mělo místo úvodní věty jen útržek ze starých podkladů a sedm článků bylo kratších, než má být.",
+          "en": "Six hundred and twenty-eight games gained a developer credit and another twenty-six a release year. Nineteen games had a fragment from old source notes instead of an opening line, and seven articles were shorter than they should be.",
+          "de": "Sechshundertachtundzwanzig Spiele haben den Entwickler bekommen, weitere sechsundzwanzig ein Erscheinungsjahr. Neunzehn Spiele hatten statt eines Einleitungssatzes nur ein Fragment aus alten Unterlagen, und sieben Artikel waren kürzer als vorgesehen.",
+          "fr": "Six cent vingt-huit jeux ont reçu le nom du studio de développement et vingt-six autres une année de sortie. Dix-neuf jeux n’avaient qu’un fragment tiré d’anciennes notes en guise de phrase d’accroche, et sept articles étaient plus courts que prévu."
+        }
+      },
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Na stránce platformy se dá z obsahu skočit rovnou na výběr „Čím začít“ a na seznam her. Text o platformě bývá dlouhý a kdo přišel kvůli tipům na hraní, k nim musel rolovat přes celou historii.",
+          "en": "Platform pages now jump straight from the contents to the “Where to start” picks and to the games list. The platform write-up tends to be long, and anyone who came for playing tips had to scroll past the whole history.",
+          "de": "Auf der Plattformseite führt das Inhaltsverzeichnis jetzt direkt zur Auswahl „Womit anfangen“ und zur Spieleliste. Der Text über die Plattform ist meist lang, und wer wegen Spieletipps kam, musste an der ganzen Geschichte vorbeiscrollen.",
+          "fr": "Sur la page d’une plateforme, le sommaire mène désormais directement à la sélection « Par où commencer » et à la liste des jeux. Le texte sur la plateforme est souvent long et ceux qui venaient pour des conseils de jeu devaient faire défiler toute l’histoire."
+        }
+      },
+      {
+        "tag": "i18n",
+        "text": {
+          "cs": "Všechny čtyři jazyky pokrývají celý katalog beze zbytku. Štítek s délkou hraní navíc zůstával česky i na cizojazyčných stránkách.",
+          "en": "All four languages now cover the entire catalogue with nothing left over. The playtime label also stayed in Czech on pages in other languages.",
+          "de": "Alle vier Sprachen decken den gesamten Katalog lückenlos ab. Zudem blieb die Angabe zur Spieldauer auf fremdsprachigen Seiten auf Tschechisch.",
+          "fr": "Les quatre langues couvrent désormais l’intégralité du catalogue sans reste. L’étiquette de durée de jeu restait par ailleurs en tchèque sur les pages dans les autres langues."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "games",
-    "text": {
-     "cs": "Sedmdesát čtyři arkádovek podle galerie automatů, které jsou k vidění v Česku. Pokrytí té sbírky stouplo z 35 na 106 ze 114 strojů — přibyly Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki i Street Fighter II.",
-     "en": "Seventy-four arcade games drawn from a gallery of cabinets on display in Czechia. Coverage of that collection rose from 35 to 106 of 114 machines — Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki and Street Fighter II among them.",
-     "de": "Vierundsiebzig Arcade-Spiele nach einer Galerie von Automaten, die in Tschechien ausgestellt sind. Die Abdeckung dieser Sammlung stieg von 35 auf 106 von 114 Geräten — darunter Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki und Street Fighter II.",
-     "fr": "Soixante-quatorze jeux d’arcade d’après une galerie de bornes exposées en Tchéquie. La couverture de cette collection est passée de 35 à 106 machines sur 114 — dont Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki et Street Fighter II."
-    }
-   },
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Sepsaná pravidla pro přidávání her a nástroj, který podle nich projde celý katalog a vypíše, co kterému titulu chybí — obrázky, úvodní věta, délka článku, závěrečné doporučení, rok vydání i zařazení do série.",
-     "en": "Written rules for adding games, plus a tool that checks the whole catalogue against them and reports what each title is missing — images, opening line, article length, closing recommendation, release year and series placement.",
-     "de": "Festgeschriebene Regeln für das Hinzufügen von Spielen und ein Werkzeug, das den gesamten Katalog danach prüft und meldet, was jedem Titel fehlt — Bilder, Einleitungssatz, Textlänge, Schlussempfehlung, Erscheinungsjahr und Reihenzuordnung.",
-     "fr": "Des règles écrites pour l’ajout de jeux et un outil qui passe tout le catalogue au crible et signale ce qui manque à chaque titre — images, phrase d’introduction, longueur du texte, recommandation finale, année de sortie et rattachement à une série."
-    }
-   },
-   {
-    "tag": "i18n",
-    "text": {
-     "cs": "Dvě stě dvacet čtyři nových her přeložených do angličtiny, němčiny a francouzštiny.",
-     "en": "Two hundred and twenty-four new games translated into English, German and French.",
-     "de": "Zweihundertvierundzwanzig neue Spiele ins Englische, Deutsche und Französische übersetzt.",
-     "fr": "Deux cent vingt-quatre nouveaux jeux traduits en anglais, allemand et français."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.09.11",
-  "date": "2026-09-11",
-  "title": {
-   "cs": "Uživatelské účty a herní deník",
-   "en": "User accounts and a player diary",
-   "de": "Benutzerkonten und Spieltagebuch",
-   "fr": "Comptes utilisateurs et journal de joueur"
+  {
+    "version": "2026.09.12",
+    "date": "2026-09-12",
+    "title": {
+      "cs": "Arkádové automaty a pravidla kvality",
+      "en": "Arcade cabinets and quality rules",
+      "de": "Spielhallenautomaten und Qualitätsregeln",
+      "fr": "Bornes d’arcade et règles de qualité"
+    },
+    "entries": [
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Sedmdesát čtyři arkádovek podle galerie automatů, které jsou k vidění v Česku. Pokrytí té sbírky stouplo z 35 na 106 ze 114 strojů — přibyly Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki i Street Fighter II.",
+          "en": "Seventy-four arcade games drawn from a gallery of cabinets on display in Czechia. Coverage of that collection rose from 35 to 106 of 114 machines — Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki and Street Fighter II among them.",
+          "de": "Vierundsiebzig Arcade-Spiele nach einer Galerie von Automaten, die in Tschechien ausgestellt sind. Die Abdeckung dieser Sammlung stieg von 35 auf 106 von 114 Geräten — darunter Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki und Street Fighter II.",
+          "fr": "Soixante-quatorze jeux d’arcade d’après une galerie de bornes exposées en Tchéquie. La couverture de cette collection est passée de 35 à 106 machines sur 114 — dont Pong, Rally-X, Crazy Climber, Time Pilot, Tapper, Gyruss, Tron, Toki et Street Fighter II."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Sepsaná pravidla pro přidávání her a nástroj, který podle nich projde celý katalog a vypíše, co kterému titulu chybí — obrázky, úvodní věta, délka článku, závěrečné doporučení, rok vydání i zařazení do série.",
+          "en": "Written rules for adding games, plus a tool that checks the whole catalogue against them and reports what each title is missing — images, opening line, article length, closing recommendation, release year and series placement.",
+          "de": "Festgeschriebene Regeln für das Hinzufügen von Spielen und ein Werkzeug, das den gesamten Katalog danach prüft und meldet, was jedem Titel fehlt — Bilder, Einleitungssatz, Textlänge, Schlussempfehlung, Erscheinungsjahr und Reihenzuordnung.",
+          "fr": "Des règles écrites pour l’ajout de jeux et un outil qui passe tout le catalogue au crible et signale ce qui manque à chaque titre — images, phrase d’introduction, longueur du texte, recommandation finale, année de sortie et rattachement à une série."
+        }
+      },
+      {
+        "tag": "i18n",
+        "text": {
+          "cs": "Dvě stě dvacet čtyři nových her přeložených do angličtiny, němčiny a francouzštiny.",
+          "en": "Two hundred and twenty-four new games translated into English, German and French.",
+          "de": "Zweihundertvierundzwanzig neue Spiele ins Englische, Deutsche und Französische übersetzt.",
+          "fr": "Deux cent vingt-quatre nouveaux jeux traduits en anglais, allemand et français."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "feature",
-    "text": {
-     "cs": "Přihlášení e-mailem bez hesla — přijde vám kód, který jednou opíšete. U každé hry si pak můžete označit, že vás zajímá nebo že jste ji hráli, a pod svým účtem najdete seznam rozdělený po platformách s filtry a hledáním.",
-     "en": "Sign in by e-mail without a password — you get a code and type it once. On every game you can mark that it interests you or that you have played it, and your account holds the list split by platform, with filters and search.",
-     "de": "Anmeldung per E-Mail ohne Passwort — Sie erhalten einen Code und geben ihn einmal ein. Bei jedem Spiel lässt sich markieren, dass es Sie interessiert oder dass Sie es gespielt haben; im Konto finden Sie die Liste nach Plattform aufgeteilt, mit Filtern und Suche.",
-     "fr": "Connexion par e-mail sans mot de passe — vous recevez un code à saisir une seule fois. Sur chaque jeu, vous pouvez indiquer qu’il vous intéresse ou que vous y avez joué ; votre compte réunit la liste répartie par plateforme, avec filtres et recherche."
-    }
-   },
-   {
-    "tag": "games",
-    "text": {
-     "cs": "Sto padesát jedna her na Nintendo DS, 3DS a Wii, kde byl kánon pokrytý, ale druhá vrstva chyběla. K tomu osm českých prohlížečovek — Samorost, Questionaut, Osada a další.",
-     "en": "A hundred and fifty-one games for the Nintendo DS, 3DS and Wii, where the canon was covered but the second tier was missing. Plus eight Czech browser games — Samorost, Questionaut, Osada and others.",
-     "de": "Hunderteinundfünfzig Spiele für Nintendo DS, 3DS und Wii, wo der Kanon abgedeckt war, die zweite Reihe aber fehlte. Dazu acht tschechische Browserspiele — Samorost, Questionaut, Osada und weitere.",
-     "fr": "Cent cinquante et un jeux pour Nintendo DS, 3DS et Wii, où le canon était couvert mais la deuxième strate manquait. S’y ajoutent huit jeux tchèques en navigateur — Samorost, Questionaut, Osada et d’autres."
-    }
-   },
-   {
-    "tag": "fix",
-    "text": {
-     "cs": "Našeptávač na mobilu přetékal mimo obrazovku a dlouhé názvy se ořezávaly. Nabídka se nově drží okna a název se smí zalomit na víc řádků.",
-     "en": "On mobile the search suggestions overflowed off-screen and long titles were cut off. The list now anchors to the window and titles may wrap onto more lines.",
-     "de": "Auf dem Handy lief die Suchvorschlagsliste aus dem Bildschirm und lange Titel wurden abgeschnitten. Die Liste richtet sich jetzt am Fenster aus, und Titel dürfen umbrechen.",
-     "fr": "Sur mobile, les suggestions de recherche débordaient hors de l’écran et les titres longs étaient tronqués. La liste s’ancre désormais à la fenêtre et les titres peuvent passer à la ligne."
-    }
-   },
-   {
-    "tag": "platform",
-    "text": {
-     "cs": "Sekce „Domácí počítače“ se jmenuje „Počítače“ — podtitulek sliboval osmibity a šestnáctibity domácí éry, jenže patří sem i PC pod DOSem, Windows 9x a dnešní herní sestavy.",
-     "en": "The “Home computers” section is now simply “Computers” — the subtitle promised 8-bit and 16-bit machines of the home era, yet the section also holds DOS PCs, Windows 9x and today’s gaming rigs.",
-     "de": "Der Bereich „Heimcomputer“ heißt jetzt schlicht „Computer“ — der Untertitel versprach 8- und 16-Bit-Rechner der Heim-Ära, dabei stehen hier auch DOS-PCs, Windows 9x und heutige Gaming-Rechner.",
-     "fr": "La section « Ordinateurs familiaux » s’appelle désormais « Ordinateurs » — le sous-titre promettait des machines 8 et 16 bits de l’ère domestique, alors qu’on y trouve aussi les PC sous DOS, Windows 9x et les configurations de jeu actuelles."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.09.04",
-  "date": "2026-09-04",
-  "title": {
-   "cs": "Překlady kompletní a bohatší galerie",
-   "en": "Translations complete and richer galleries",
-   "de": "Übersetzungen vollständig und reichere Galerien",
-   "fr": "Traductions terminées et galeries enrichies"
+  {
+    "version": "2026.09.11",
+    "date": "2026-09-11",
+    "title": {
+      "cs": "Uživatelské účty a herní deník",
+      "en": "User accounts and a player diary",
+      "de": "Benutzerkonten und Spieltagebuch",
+      "fr": "Comptes utilisateurs et journal de joueur"
+    },
+    "entries": [
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Přihlášení e-mailem bez hesla — přijde vám kód, který jednou opíšete. U každé hry si pak můžete označit, že vás zajímá nebo že jste ji hráli, a pod svým účtem najdete seznam rozdělený po platformách s filtry a hledáním.",
+          "en": "Sign in by e-mail without a password — you get a code and type it once. On every game you can mark that it interests you or that you have played it, and your account holds the list split by platform, with filters and search.",
+          "de": "Anmeldung per E-Mail ohne Passwort — Sie erhalten einen Code und geben ihn einmal ein. Bei jedem Spiel lässt sich markieren, dass es Sie interessiert oder dass Sie es gespielt haben; im Konto finden Sie die Liste nach Plattform aufgeteilt, mit Filtern und Suche.",
+          "fr": "Connexion par e-mail sans mot de passe — vous recevez un code à saisir une seule fois. Sur chaque jeu, vous pouvez indiquer qu’il vous intéresse ou que vous y avez joué ; votre compte réunit la liste répartie par plateforme, avec filtres et recherche."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Sto padesát jedna her na Nintendo DS, 3DS a Wii, kde byl kánon pokrytý, ale druhá vrstva chyběla. K tomu osm českých prohlížečovek — Samorost, Questionaut, Osada a další.",
+          "en": "A hundred and fifty-one games for the Nintendo DS, 3DS and Wii, where the canon was covered but the second tier was missing. Plus eight Czech browser games — Samorost, Questionaut, Osada and others.",
+          "de": "Hunderteinundfünfzig Spiele für Nintendo DS, 3DS und Wii, wo der Kanon abgedeckt war, die zweite Reihe aber fehlte. Dazu acht tschechische Browserspiele — Samorost, Questionaut, Osada und weitere.",
+          "fr": "Cent cinquante et un jeux pour Nintendo DS, 3DS et Wii, où le canon était couvert mais la deuxième strate manquait. S’y ajoutent huit jeux tchèques en navigateur — Samorost, Questionaut, Osada et d’autres."
+        }
+      },
+      {
+        "tag": "fix",
+        "text": {
+          "cs": "Našeptávač na mobilu přetékal mimo obrazovku a dlouhé názvy se ořezávaly. Nabídka se nově drží okna a název se smí zalomit na víc řádků.",
+          "en": "On mobile the search suggestions overflowed off-screen and long titles were cut off. The list now anchors to the window and titles may wrap onto more lines.",
+          "de": "Auf dem Handy lief die Suchvorschlagsliste aus dem Bildschirm und lange Titel wurden abgeschnitten. Die Liste richtet sich jetzt am Fenster aus, und Titel dürfen umbrechen.",
+          "fr": "Sur mobile, les suggestions de recherche débordaient hors de l’écran et les titres longs étaient tronqués. La liste s’ancre désormais à la fenêtre et les titres peuvent passer à la ligne."
+        }
+      },
+      {
+        "tag": "platform",
+        "text": {
+          "cs": "Sekce „Domácí počítače“ se jmenuje „Počítače“ — podtitulek sliboval osmibity a šestnáctibity domácí éry, jenže patří sem i PC pod DOSem, Windows 9x a dnešní herní sestavy.",
+          "en": "The “Home computers” section is now simply “Computers” — the subtitle promised 8-bit and 16-bit machines of the home era, yet the section also holds DOS PCs, Windows 9x and today’s gaming rigs.",
+          "de": "Der Bereich „Heimcomputer“ heißt jetzt schlicht „Computer“ — der Untertitel versprach 8- und 16-Bit-Rechner der Heim-Ära, dabei stehen hier auch DOS-PCs, Windows 9x und heutige Gaming-Rechner.",
+          "fr": "La section « Ordinateurs familiaux » s’appelle désormais « Ordinateurs » — le sous-titre promettait des machines 8 et 16 bits de l’ère domestique, alors qu’on y trouve aussi les PC sous DOS, Windows 9x et les configurations de jeu actuelles."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "i18n",
-    "text": {
-     "cs": "Angličtina, němčina i francouzština pokrývají celý katalog — přes pět tisíc her ve všech čtyřech jazycích.",
-     "en": "English, German and French now cover the whole catalogue — over five thousand games in all four languages.",
-     "de": "Englisch, Deutsch und Französisch decken nun den gesamten Katalog ab — über fünftausend Spiele in allen vier Sprachen.",
-     "fr": "L’anglais, l’allemand et le français couvrent désormais tout le catalogue — plus de cinq mille jeux dans les quatre langues."
-    }
-   },
-   {
-    "tag": "feature",
-    "text": {
-     "cs": "Galerie u hry pobere až deset obrázků. Na stránce zůstávají obal a dva snímky se značkou, kolik jich je dál — dřív se všechny vršily pod sebou a k textu se muselo dlouho rolovat.",
-     "en": "A game's gallery now holds up to ten images. The page shows the cover and two shots with a badge for the rest — before, they all stacked up and pushed the text far down.",
-     "de": "Die Galerie eines Spiels fasst jetzt bis zu zehn Bilder. Auf der Seite bleiben das Cover und zwei Aufnahmen mit einer Marke für den Rest — zuvor stapelten sie sich alle und schoben den Text weit nach unten.",
-     "fr": "La galerie d’un jeu accueille jusqu’à dix images. La page conserve la jaquette et deux captures avec une pastille indiquant le reste — auparavant, elles s’empilaient toutes et repoussaient le texte très bas."
-    }
-   },
-   {
-    "tag": "images",
-    "text": {
-     "cs": "Tři nové zdroje obrázků: GOG pro starší PC vydání, ZXDB pro ZX Spectrum a itch.io pro prohlížečovky a homebrew.",
-     "en": "Three new image sources: GOG for older PC releases, ZXDB for the ZX Spectrum and itch.io for browser games and homebrew.",
-     "de": "Drei neue Bildquellen: GOG für ältere PC-Ausgaben, ZXDB für den ZX Spectrum und itch.io für Browserspiele und Homebrew.",
-     "fr": "Trois nouvelles sources d’images : GOG pour les anciennes éditions PC, ZXDB pour le ZX Spectrum et itch.io pour les jeux en navigateur et le homebrew."
-    }
-   },
-   {
-    "tag": "games",
-    "text": {
-     "cs": "Dvě stě třicet čtyři nových her — Wii U, Atari 2600, 5200 a 7800 a tituly z žebříčků nejlépe hodnocených her.",
-     "en": "Two hundred and thirty-four new games — Wii U, Atari 2600, 5200 and 7800, plus titles from the highest-rated charts.",
-     "de": "Zweihundertvierunddreißig neue Spiele — Wii U, Atari 2600, 5200 und 7800 sowie Titel aus den Bestenlisten.",
-     "fr": "Deux cent trente-quatre nouveaux jeux — Wii U, Atari 2600, 5200 et 7800, ainsi que des titres issus des classements des mieux notés."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.09.03",
-  "date": "2026-09-03",
-  "title": {
-   "cs": "Čím začít, hry v prohlížeči a text ke každé hře",
-   "en": "Where to start, browser games and a write-up for every game",
-   "de": "Womit anfangen, Browserspiele und ein Text zu jedem Spiel",
-   "fr": "Par où commencer, jeux en navigateur et un texte pour chaque jeu"
+  {
+    "version": "2026.09.04",
+    "date": "2026-09-04",
+    "title": {
+      "cs": "Překlady kompletní a bohatší galerie",
+      "en": "Translations complete and richer galleries",
+      "de": "Übersetzungen vollständig und reichere Galerien",
+      "fr": "Traductions terminées et galeries enrichies"
+    },
+    "entries": [
+      {
+        "tag": "i18n",
+        "text": {
+          "cs": "Angličtina, němčina i francouzština pokrývají celý katalog — přes pět tisíc her ve všech čtyřech jazycích.",
+          "en": "English, German and French now cover the whole catalogue — over five thousand games in all four languages.",
+          "de": "Englisch, Deutsch und Französisch decken nun den gesamten Katalog ab — über fünftausend Spiele in allen vier Sprachen.",
+          "fr": "L’anglais, l’allemand et le français couvrent désormais tout le catalogue — plus de cinq mille jeux dans les quatre langues."
+        }
+      },
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Galerie u hry pobere až deset obrázků. Na stránce zůstávají obal a dva snímky se značkou, kolik jich je dál — dřív se všechny vršily pod sebou a k textu se muselo dlouho rolovat.",
+          "en": "A game's gallery now holds up to ten images. The page shows the cover and two shots with a badge for the rest — before, they all stacked up and pushed the text far down.",
+          "de": "Die Galerie eines Spiels fasst jetzt bis zu zehn Bilder. Auf der Seite bleiben das Cover und zwei Aufnahmen mit einer Marke für den Rest — zuvor stapelten sie sich alle und schoben den Text weit nach unten.",
+          "fr": "La galerie d’un jeu accueille jusqu’à dix images. La page conserve la jaquette et deux captures avec une pastille indiquant le reste — auparavant, elles s’empilaient toutes et repoussaient le texte très bas."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Tři nové zdroje obrázků: GOG pro starší PC vydání, ZXDB pro ZX Spectrum a itch.io pro prohlížečovky a homebrew.",
+          "en": "Three new image sources: GOG for older PC releases, ZXDB for the ZX Spectrum and itch.io for browser games and homebrew.",
+          "de": "Drei neue Bildquellen: GOG für ältere PC-Ausgaben, ZXDB für den ZX Spectrum und itch.io für Browserspiele und Homebrew.",
+          "fr": "Trois nouvelles sources d’images : GOG pour les anciennes éditions PC, ZXDB pour le ZX Spectrum et itch.io pour les jeux en navigateur et le homebrew."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Dvě stě třicet čtyři nových her — Wii U, Atari 2600, 5200 a 7800 a tituly z žebříčků nejlépe hodnocených her.",
+          "en": "Two hundred and thirty-four new games — Wii U, Atari 2600, 5200 and 7800, plus titles from the highest-rated charts.",
+          "de": "Zweihundertvierunddreißig neue Spiele — Wii U, Atari 2600, 5200 und 7800 sowie Titel aus den Bestenlisten.",
+          "fr": "Deux cent trente-quatre nouveaux jeux — Wii U, Atari 2600, 5200 et 7800, ainsi que des titres issus des classements des mieux notés."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Každá platforma má výběr her, kterými začít, a u každé jednu větu proč právě ony. Velké platformy jich nabídnou osmnáct až dvacet, malé čtyři — dohromady 768 doporučení.",
-     "en": "Every platform now carries a shortlist of games to begin with and one line on why each. Big platforms offer eighteen to twenty, small ones four — 768 picks in total.",
-     "de": "Jede Plattform trägt nun eine Auswahl an Spielen für den Einstieg, jeweils mit einem Satz zur Begründung. Große Plattformen bieten achtzehn bis zwanzig, kleine vier — insgesamt 768 Empfehlungen.",
-     "fr": "Chaque plateforme propose désormais une sélection de jeux pour débuter, avec une phrase expliquant ce choix. Les grandes en offrent dix-huit à vingt, les petites quatre — 768 recommandations au total."
-    }
-   },
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Každá hra v katalogu má článek, úvodní větu i závěrečné doporučení, proč si ji pustit. Webová platforma a Java se Symbianem měly do té doby jen katalogové záznamy bez textu.",
-     "en": "Every game in the catalogue has an article, an opening line and a closing note on why to play it. The browser platform and Java/Symbian had held nothing but bare catalogue entries until then.",
-     "de": "Jedes Spiel im Katalog hat einen Artikel, einen Einleitungssatz und eine abschließende Empfehlung. Die Browser-Plattform sowie Java und Symbian hatten bis dahin nur nackte Katalogeinträge.",
-     "fr": "Chaque jeu du catalogue dispose d’un texte, d’une phrase d’introduction et d’une recommandation finale. La plateforme navigateur ainsi que Java et Symbian n’avaient jusque-là que des fiches sans texte."
-    }
-   },
-   {
-    "tag": "feature",
-    "text": {
-     "cs": "U webových her, které dodnes běží, vede odkaz rovnou tam, kde se dají hrát — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape a další.",
-     "en": "Browser games that still run link straight to where you can play them — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape and more.",
-     "de": "Browserspiele, die noch laufen, verlinken direkt dorthin, wo man sie spielen kann — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape und weitere.",
-     "fr": "Les jeux en navigateur encore en ligne renvoient directement vers l’endroit où y jouer — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape et d’autres."
-    }
-   },
-   {
-    "tag": "games",
-    "text": {
-     "cs": "Sto třicet pět nových her na SEGA Master System, Saturnu, Javě a Symbianu, Meta Questu a PICO-8.",
-     "en": "A hundred and thirty-five new games for the SEGA Master System, Saturn, Java and Symbian, Meta Quest and PICO-8.",
-     "de": "Hundertfünfunddreißig neue Spiele für SEGA Master System, Saturn, Java und Symbian, Meta Quest und PICO-8.",
-     "fr": "Cent trente-cinq nouveaux jeux pour SEGA Master System, Saturn, Java et Symbian, Meta Quest et PICO-8."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.08.22",
-  "date": "2026-08-22",
-  "title": {
-   "cs": "Série, jedna věta ke každé hře a propojené verze",
-   "en": "Series, a one-liner for every game, and linked versions",
-   "de": "Reihen, ein Satz zu jedem Spiel und verknüpfte Fassungen",
-   "fr": "Séries, une phrase par jeu et versions reliées"
+  {
+    "version": "2026.09.03",
+    "date": "2026-09-03",
+    "title": {
+      "cs": "Čím začít, hry v prohlížeči a text ke každé hře",
+      "en": "Where to start, browser games and a write-up for every game",
+      "de": "Womit anfangen, Browserspiele und ein Text zu jedem Spiel",
+      "fr": "Par où commencer, jeux en navigateur et un texte pour chaque jeu"
+    },
+    "entries": [
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Každá platforma má výběr her, kterými začít, a u každé jednu větu proč právě ony. Velké platformy jich nabídnou osmnáct až dvacet, malé čtyři — dohromady 768 doporučení.",
+          "en": "Every platform now carries a shortlist of games to begin with and one line on why each. Big platforms offer eighteen to twenty, small ones four — 768 picks in total.",
+          "de": "Jede Plattform trägt nun eine Auswahl an Spielen für den Einstieg, jeweils mit einem Satz zur Begründung. Große Plattformen bieten achtzehn bis zwanzig, kleine vier — insgesamt 768 Empfehlungen.",
+          "fr": "Chaque plateforme propose désormais une sélection de jeux pour débuter, avec une phrase expliquant ce choix. Les grandes en offrent dix-huit à vingt, les petites quatre — 768 recommandations au total."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Každá hra v katalogu má článek, úvodní větu i závěrečné doporučení, proč si ji pustit. Webová platforma a Java se Symbianem měly do té doby jen katalogové záznamy bez textu.",
+          "en": "Every game in the catalogue has an article, an opening line and a closing note on why to play it. The browser platform and Java/Symbian had held nothing but bare catalogue entries until then.",
+          "de": "Jedes Spiel im Katalog hat einen Artikel, einen Einleitungssatz und eine abschließende Empfehlung. Die Browser-Plattform sowie Java und Symbian hatten bis dahin nur nackte Katalogeinträge.",
+          "fr": "Chaque jeu du catalogue dispose d’un texte, d’une phrase d’introduction et d’une recommandation finale. La plateforme navigateur ainsi que Java et Symbian n’avaient jusque-là que des fiches sans texte."
+        }
+      },
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "U webových her, které dodnes běží, vede odkaz rovnou tam, kde se dají hrát — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape a další.",
+          "en": "Browser games that still run link straight to where you can play them — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape and more.",
+          "de": "Browserspiele, die noch laufen, verlinken direkt dorthin, wo man sie spielen kann — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape und weitere.",
+          "fr": "Les jeux en navigateur encore en ligne renvoient directement vers l’endroit où y jouer — Wordle, 2048, Slither.io, Cookie Clicker, QWOP, RuneScape et d’autres."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Sto třicet pět nových her na SEGA Master System, Saturnu, Javě a Symbianu, Meta Questu a PICO-8.",
+          "en": "A hundred and thirty-five new games for the SEGA Master System, Saturn, Java and Symbian, Meta Quest and PICO-8.",
+          "de": "Hundertfünfunddreißig neue Spiele für SEGA Master System, Saturn, Java und Symbian, Meta Quest und PICO-8.",
+          "fr": "Cent trente-cinq nouveaux jeux pour SEGA Master System, Saturn, Java et Symbian, Meta Quest et PICO-8."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Nová sekce Série provází velké herní značky napříč platformami a generacemi — Mario, Star Wars, Final Fantasy, Doom a další. Každá má průvodní text a pás obalů svých dílů, takže je na první pohled vidět, jak se značka měnila.",
-     "en": "A new Series section walks the big franchises across platforms and generations — Mario, Star Wars, Final Fantasy, Doom and more. Each has an introduction and a strip of its covers, so you can see at a glance how the brand changed.",
-     "de": "Ein neuer Bereich Reihen führt durch die großen Marken über Plattformen und Generationen — Mario, Star Wars, Final Fantasy, Doom und mehr. Jede hat einen Einführungstext und eine Reihe ihrer Cover, sodass die Entwicklung der Marke sofort sichtbar ist.",
-     "fr": "Une nouvelle section Séries parcourt les grandes franchises à travers plateformes et générations — Mario, Star Wars, Final Fantasy, Doom et d’autres. Chacune a un texte d’introduction et une bande de jaquettes, pour voir d’un coup d’œil l’évolution de la marque."
-    }
-   },
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Každá hra v katalogu má teď úvodní shrnující větu — verdikt a jeden konkrétní detail, proč právě ona stojí za pozornost. Dosud ji mělo jen 355 her z více než tří tisíc.",
-     "en": "Every game in the catalog now opens with a one-line summary — a verdict plus the one detail that makes it worth your time. Until now only 355 games out of more than three thousand had one.",
-     "de": "Jedes Spiel im Katalog beginnt jetzt mit einem Einzeiler — ein Urteil plus das eine Detail, das es lohnenswert macht. Bisher hatten das nur 355 von über dreitausend Spielen.",
-     "fr": "Chaque jeu du catalogue s’ouvre désormais sur une phrase de synthèse — un verdict et le détail qui le rend digne d’intérêt. Jusqu’ici, seuls 355 jeux sur plus de trois mille en avaient une."
-    }
-   },
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Tentýž titul na více platformách je nově propojený a u 167 z nich najdeš i poznámku, čím se verze lišily. V osmibitové a šestnáctibitové éře to nebyla formalita: jiný počet barev, jiná hudba, vystřižené úrovně. U Prince of Persia se třeba dozvíš, proč je verze na Amize plynulejší než na Commodore 64.",
-     "en": "The same title on several platforms is now cross-linked, and 167 of them come with a note on how the versions differed. In the 8-bit and 16-bit era that was no formality: fewer colours, different music, cut levels. For Prince of Persia, for instance, you'll learn why the Amiga version moves more smoothly than the Commodore 64 one.",
-     "de": "Derselbe Titel auf mehreren Plattformen ist nun verlinkt, und bei 167 davon gibt es eine Notiz, wie sich die Fassungen unterschieden. In der 8- und 16-Bit-Ära war das keine Formsache: weniger Farben, andere Musik, gestrichene Level. Bei Prince of Persia erfährst du etwa, warum die Amiga-Fassung flüssiger läuft als die auf dem Commodore 64.",
-     "fr": "Un même titre présent sur plusieurs plateformes est maintenant relié, et 167 d’entre eux sont accompagnés d’une note sur les différences entre versions. À l’époque 8 et 16 bits, ce n’était pas un détail : moins de couleurs, une autre musique, des niveaux coupés. Pour Prince of Persia, vous apprendrez par exemple pourquoi la version Amiga est plus fluide que celle du Commodore 64."
-    }
-   },
-   {
-    "tag": "games",
-    "text": {
-     "cs": "Katalog doplnily klasiky, které tu chyběly — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — a česká scéna: Brány Skeldalu, Tajemství Oslího ostrova, Dračí Historie, Polda, Fish Fillets, Mafia, Operation Flashpoint i tituly Františka Fuky pro ZX Spectrum. Celkem 3279 her.",
-     "en": "The catalog gained classics that were missing — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — plus the Czech scene: Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint and František Fuka's ZX Spectrum titles. 3,279 games in total.",
-     "de": "Der Katalog bekam fehlende Klassiker — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — dazu die tschechische Szene: Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint und František Fukas ZX-Spectrum-Titel. Insgesamt 3.279 Spiele.",
-     "fr": "Le catalogue s’est enrichi de classiques qui manquaient — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — ainsi que de la scène tchèque : Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint et les titres ZX Spectrum de František Fuka. 3 279 jeux en tout."
-    }
-   },
-   {
-    "tag": "images",
-    "text": {
-     "cs": "Studia i platformy dostaly pás obalů svých her — u PC řekne víc než fotka béžové skříně. Fotky konzolí mají průhledné pozadí místo bílého a dlouhé články o platformách nově začínají rozcestníkem po sekcích.",
-     "en": "Studios and platforms now show a strip of their games' covers — for the PC that says more than a photo of a beige box. Console photos have transparent backgrounds instead of white, and long platform articles now open with a jump list of their sections.",
-     "de": "Studios und Plattformen zeigen nun eine Reihe ihrer Spiele-Cover — beim PC sagt das mehr als das Foto eines beigen Gehäuses. Konsolenfotos haben transparente statt weiße Hintergründe, und lange Plattform-Artikel beginnen jetzt mit einer Sprungliste ihrer Abschnitte.",
-     "fr": "Studios et plateformes affichent désormais une bande des jaquettes de leurs jeux — pour le PC, cela en dit plus qu’une photo de boîtier beige. Les photos de consoles ont un fond transparent au lieu de blanc, et les longs articles de plateformes commencent par un sommaire de leurs sections."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.08.19",
-  "date": "2026-08-19",
-  "title": {
-   "cs": "PC přichází ve třech érách",
-   "en": "The PC arrives, split into three eras",
-   "de": "Der PC kommt — in drei Ären",
-   "fr": "Le PC arrive, en trois époques"
+  {
+    "version": "2026.08.22",
+    "date": "2026-08-22",
+    "title": {
+      "cs": "Série, jedna věta ke každé hře a propojené verze",
+      "en": "Series, a one-liner for every game, and linked versions",
+      "de": "Reihen, ein Satz zu jedem Spiel und verknüpfte Fassungen",
+      "fr": "Séries, une phrase par jeu et versions reliées"
+    },
+    "entries": [
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Nová sekce Série provází velké herní značky napříč platformami a generacemi — Mario, Star Wars, Final Fantasy, Doom a další. Každá má průvodní text a pás obalů svých dílů, takže je na první pohled vidět, jak se značka měnila.",
+          "en": "A new Series section walks the big franchises across platforms and generations — Mario, Star Wars, Final Fantasy, Doom and more. Each has an introduction and a strip of its covers, so you can see at a glance how the brand changed.",
+          "de": "Ein neuer Bereich Reihen führt durch die großen Marken über Plattformen und Generationen — Mario, Star Wars, Final Fantasy, Doom und mehr. Jede hat einen Einführungstext und eine Reihe ihrer Cover, sodass die Entwicklung der Marke sofort sichtbar ist.",
+          "fr": "Une nouvelle section Séries parcourt les grandes franchises à travers plateformes et générations — Mario, Star Wars, Final Fantasy, Doom et d’autres. Chacune a un texte d’introduction et une bande de jaquettes, pour voir d’un coup d’œil l’évolution de la marque."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Každá hra v katalogu má teď úvodní shrnující větu — verdikt a jeden konkrétní detail, proč právě ona stojí za pozornost. Dosud ji mělo jen 355 her z více než tří tisíc.",
+          "en": "Every game in the catalog now opens with a one-line summary — a verdict plus the one detail that makes it worth your time. Until now only 355 games out of more than three thousand had one.",
+          "de": "Jedes Spiel im Katalog beginnt jetzt mit einem Einzeiler — ein Urteil plus das eine Detail, das es lohnenswert macht. Bisher hatten das nur 355 von über dreitausend Spielen.",
+          "fr": "Chaque jeu du catalogue s’ouvre désormais sur une phrase de synthèse — un verdict et le détail qui le rend digne d’intérêt. Jusqu’ici, seuls 355 jeux sur plus de trois mille en avaient une."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Tentýž titul na více platformách je nově propojený a u 167 z nich najdeš i poznámku, čím se verze lišily. V osmibitové a šestnáctibitové éře to nebyla formalita: jiný počet barev, jiná hudba, vystřižené úrovně. U Prince of Persia se třeba dozvíš, proč je verze na Amize plynulejší než na Commodore 64.",
+          "en": "The same title on several platforms is now cross-linked, and 167 of them come with a note on how the versions differed. In the 8-bit and 16-bit era that was no formality: fewer colours, different music, cut levels. For Prince of Persia, for instance, you'll learn why the Amiga version moves more smoothly than the Commodore 64 one.",
+          "de": "Derselbe Titel auf mehreren Plattformen ist nun verlinkt, und bei 167 davon gibt es eine Notiz, wie sich die Fassungen unterschieden. In der 8- und 16-Bit-Ära war das keine Formsache: weniger Farben, andere Musik, gestrichene Level. Bei Prince of Persia erfährst du etwa, warum die Amiga-Fassung flüssiger läuft als die auf dem Commodore 64.",
+          "fr": "Un même titre présent sur plusieurs plateformes est maintenant relié, et 167 d’entre eux sont accompagnés d’une note sur les différences entre versions. À l’époque 8 et 16 bits, ce n’était pas un détail : moins de couleurs, une autre musique, des niveaux coupés. Pour Prince of Persia, vous apprendrez par exemple pourquoi la version Amiga est plus fluide que celle du Commodore 64."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Katalog doplnily klasiky, které tu chyběly — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — a česká scéna: Brány Skeldalu, Tajemství Oslího ostrova, Dračí Historie, Polda, Fish Fillets, Mafia, Operation Flashpoint i tituly Františka Fuky pro ZX Spectrum. Celkem 3279 her.",
+          "en": "The catalog gained classics that were missing — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — plus the Czech scene: Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint and František Fuka's ZX Spectrum titles. 3,279 games in total.",
+          "de": "Der Katalog bekam fehlende Klassiker — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — dazu die tschechische Szene: Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint und František Fukas ZX-Spectrum-Titel. Insgesamt 3.279 Spiele.",
+          "fr": "Le catalogue s’est enrichi de classiques qui manquaient — Quake, Unreal, Duke Nukem 3D, Hexen, Descent, Ishar — ainsi que de la scène tchèque : Brány Skeldalu, Fish Fillets, Mafia, Operation Flashpoint et les titres ZX Spectrum de František Fuka. 3 279 jeux en tout."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Studia i platformy dostaly pás obalů svých her — u PC řekne víc než fotka béžové skříně. Fotky konzolí mají průhledné pozadí místo bílého a dlouhé články o platformách nově začínají rozcestníkem po sekcích.",
+          "en": "Studios and platforms now show a strip of their games' covers — for the PC that says more than a photo of a beige box. Console photos have transparent backgrounds instead of white, and long platform articles now open with a jump list of their sections.",
+          "de": "Studios und Plattformen zeigen nun eine Reihe ihrer Spiele-Cover — beim PC sagt das mehr als das Foto eines beigen Gehäuses. Konsolenfotos haben transparente statt weiße Hintergründe, und lange Plattform-Artikel beginnen jetzt mit einer Sprungliste ihrer Abschnitte.",
+          "fr": "Studios et plateformes affichent désormais une bande des jaquettes de leurs jeux — pour le PC, cela en dit plus qu’une photo de boîtier beige. Les photos de consoles ont un fond transparent au lieu de blanc, et les longs articles de plateformes commencent par un sommaire de leurs sections."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "platform",
-    "text": {
-     "cs": "PC je nově na webu, rozdělené podle výkonové éry: DOS (XT až 486), Pentium a Windows 9x, a moderní 64bitové PC s dnešními grafickými kartami. Každá éra má vlastní článek o hardwaru, protože technicky i způsobem hraní jde o tři odlišné světy.",
-     "en": "The PC has arrived, split by performance era: DOS (XT through 486), Pentium and Windows 9x, and the modern 64-bit PC with today's graphics cards. Each era gets its own hardware article, because technically — and in how you play them — these are three different worlds.",
-     "de": "Der PC ist nun dabei, aufgeteilt nach Leistungsära: DOS (XT bis 486), Pentium und Windows 9x sowie der moderne 64-Bit-PC mit heutigen Grafikkarten. Jede Ära hat einen eigenen Hardware-Artikel, denn technisch und spielerisch sind das drei verschiedene Welten.",
-     "fr": "Le PC fait son entrée, découpé par époque de puissance : DOS (du XT au 486), Pentium et Windows 9x, et le PC moderne 64 bits avec les cartes graphiques d’aujourd’hui. Chaque époque a son propre article matériel, car techniquement — et dans la façon d’y jouer — ce sont trois mondes distincts."
-    }
-   },
-   {
-    "tag": "games",
-    "text": {
-     "cs": "K PC přibylo 257 her — od Doomu, Monkey Islandu a X-COMu přes Quake, Diablo a Half-Life až po Skyrim, Hollow Knight a Factorio. Katalog tím vyrostl na 2765 titulů.",
-     "en": "257 PC games came with it — from Doom, Monkey Island and X-COM through Quake, Diablo and Half-Life to Skyrim, Hollow Knight and Factorio. That takes the catalog to 2,765 titles.",
-     "de": "257 PC-Spiele kamen dazu — von Doom, Monkey Island und X-COM über Quake, Diablo und Half-Life bis zu Skyrim, Hollow Knight und Factorio. Damit wächst der Katalog auf 2.765 Titel.",
-     "fr": "257 jeux PC l’accompagnent — de Doom, Monkey Island et X-COM à Quake, Diablo et Half-Life, jusqu’à Skyrim, Hollow Knight et Factorio. Le catalogue atteint ainsi 2 765 titres."
-    }
-   },
-   {
-    "tag": "images",
-    "text": {
-     "cs": "U her nově nezůstává jen obal — přibývají dva snímky ze hry. Doplnily se jak moderním konzolím (ze Steamu), tak retro platformám, které je dosud neměly. Her s více obrázky je přes dva tisíce.",
-     "en": "Games no longer stop at the cover — two in-game shots come with them. These were added both to modern consoles (from Steam) and to retro platforms that lacked them. Over two thousand games now carry more than one image.",
-     "de": "Bei Spielen bleibt es nicht mehr beim Cover — zwei Ingame-Aufnahmen kommen dazu. Ergänzt wurden sowohl moderne Konsolen (über Steam) als auch Retro-Plattformen, denen sie fehlten. Über zweitausend Spiele haben nun mehr als ein Bild.",
-     "fr": "Les jeux ne s’arrêtent plus à la jaquette — deux captures in-game les accompagnent. Elles ont été ajoutées aux consoles modernes (via Steam) comme aux plateformes rétro qui en manquaient. Plus de deux mille jeux ont désormais plusieurs images."
-    }
-   },
-   {
-    "tag": "fix",
-    "text": {
-     "cs": "Opraveno vyhledávání obalů na Steamu. Seznam slov, která znamenají „tohle není hra“, se testoval podřetězcem — a protože obsahoval „ost“ (soundtrack), zahazoval každé Lost Planet, Lost Odyssey i Ghost of Tsushima.",
-     "en": "Fixed cover lookup on Steam. The list of words meaning “this isn't the game itself” was matched as a substring — and since it contained “ost” (soundtrack), it threw away every Lost Planet, Lost Odyssey and Ghost of Tsushima.",
-     "de": "Die Cover-Suche auf Steam wurde korrigiert. Die Liste der Wörter für „das ist nicht das Spiel selbst“ wurde als Teilzeichenkette geprüft — und da sie „ost“ (Soundtrack) enthielt, verwarf sie jedes Lost Planet, Lost Odyssey und Ghost of Tsushima.",
-     "fr": "Correction de la recherche de jaquettes sur Steam. La liste des mots signifiant « ce n’est pas le jeu » était testée en sous-chaîne — et comme elle contenait « ost » (bande originale), elle rejetait tous les Lost Planet, Lost Odyssey et Ghost of Tsushima."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.08.18",
-  "date": "2026-08-18",
-  "title": {
-   "cs": "Web je kompletní ve čtyřech jazycích",
-   "en": "The site is complete in four languages",
-   "de": "Die Seite ist in vier Sprachen vollständig",
-   "fr": "Le site est complet en quatre langues"
+  {
+    "version": "2026.08.19",
+    "date": "2026-08-19",
+    "title": {
+      "cs": "PC přichází ve třech érách",
+      "en": "The PC arrives, split into three eras",
+      "de": "Der PC kommt — in drei Ären",
+      "fr": "Le PC arrive, en trois époques"
+    },
+    "entries": [
+      {
+        "tag": "platform",
+        "text": {
+          "cs": "PC je nově na webu, rozdělené podle výkonové éry: DOS (XT až 486), Pentium a Windows 9x, a moderní 64bitové PC s dnešními grafickými kartami. Každá éra má vlastní článek o hardwaru, protože technicky i způsobem hraní jde o tři odlišné světy.",
+          "en": "The PC has arrived, split by performance era: DOS (XT through 486), Pentium and Windows 9x, and the modern 64-bit PC with today's graphics cards. Each era gets its own hardware article, because technically — and in how you play them — these are three different worlds.",
+          "de": "Der PC ist nun dabei, aufgeteilt nach Leistungsära: DOS (XT bis 486), Pentium und Windows 9x sowie der moderne 64-Bit-PC mit heutigen Grafikkarten. Jede Ära hat einen eigenen Hardware-Artikel, denn technisch und spielerisch sind das drei verschiedene Welten.",
+          "fr": "Le PC fait son entrée, découpé par époque de puissance : DOS (du XT au 486), Pentium et Windows 9x, et le PC moderne 64 bits avec les cartes graphiques d’aujourd’hui. Chaque époque a son propre article matériel, car techniquement — et dans la façon d’y jouer — ce sont trois mondes distincts."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "K PC přibylo 257 her — od Doomu, Monkey Islandu a X-COMu přes Quake, Diablo a Half-Life až po Skyrim, Hollow Knight a Factorio. Katalog tím vyrostl na 2765 titulů.",
+          "en": "257 PC games came with it — from Doom, Monkey Island and X-COM through Quake, Diablo and Half-Life to Skyrim, Hollow Knight and Factorio. That takes the catalog to 2,765 titles.",
+          "de": "257 PC-Spiele kamen dazu — von Doom, Monkey Island und X-COM über Quake, Diablo und Half-Life bis zu Skyrim, Hollow Knight und Factorio. Damit wächst der Katalog auf 2.765 Titel.",
+          "fr": "257 jeux PC l’accompagnent — de Doom, Monkey Island et X-COM à Quake, Diablo et Half-Life, jusqu’à Skyrim, Hollow Knight et Factorio. Le catalogue atteint ainsi 2 765 titres."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "U her nově nezůstává jen obal — přibývají dva snímky ze hry. Doplnily se jak moderním konzolím (ze Steamu), tak retro platformám, které je dosud neměly. Her s více obrázky je přes dva tisíce.",
+          "en": "Games no longer stop at the cover — two in-game shots come with them. These were added both to modern consoles (from Steam) and to retro platforms that lacked them. Over two thousand games now carry more than one image.",
+          "de": "Bei Spielen bleibt es nicht mehr beim Cover — zwei Ingame-Aufnahmen kommen dazu. Ergänzt wurden sowohl moderne Konsolen (über Steam) als auch Retro-Plattformen, denen sie fehlten. Über zweitausend Spiele haben nun mehr als ein Bild.",
+          "fr": "Les jeux ne s’arrêtent plus à la jaquette — deux captures in-game les accompagnent. Elles ont été ajoutées aux consoles modernes (via Steam) comme aux plateformes rétro qui en manquaient. Plus de deux mille jeux ont désormais plusieurs images."
+        }
+      },
+      {
+        "tag": "fix",
+        "text": {
+          "cs": "Opraveno vyhledávání obalů na Steamu. Seznam slov, která znamenají „tohle není hra“, se testoval podřetězcem — a protože obsahoval „ost“ (soundtrack), zahazoval každé Lost Planet, Lost Odyssey i Ghost of Tsushima.",
+          "en": "Fixed cover lookup on Steam. The list of words meaning “this isn't the game itself” was matched as a substring — and since it contained “ost” (soundtrack), it threw away every Lost Planet, Lost Odyssey and Ghost of Tsushima.",
+          "de": "Die Cover-Suche auf Steam wurde korrigiert. Die Liste der Wörter für „das ist nicht das Spiel selbst“ wurde als Teilzeichenkette geprüft — und da sie „ost“ (Soundtrack) enthielt, verwarf sie jedes Lost Planet, Lost Odyssey und Ghost of Tsushima.",
+          "fr": "Correction de la recherche de jaquettes sur Steam. La liste des mots signifiant « ce n’est pas le jeu » était testée en sous-chaîne — et comme elle contenait « ost » (bande originale), elle rejetait tous les Lost Planet, Lost Odyssey et Ghost of Tsushima."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "i18n",
-    "text": {
-     "cs": "Francouzština dohnala zbytek — všech 2504 her, 48 platforem, 23 studií i hardwarové průvodce jsou nově přeložené. Čeština, angličtina, němčina a francouzština teď pokrývají obsah úplně stejně; dosud FR zvládala jen část katalogu a zbytek padal na češtinu.",
-     "en": "French has caught up with the rest — all 2,504 games, 48 platforms, 23 studios and the hardware guides are now translated. Czech, English, German and French cover the content identically; until now FR handled only part of the catalog and the rest fell back to Czech.",
-     "de": "Französisch hat aufgeholt — alle 2.504 Spiele, 48 Plattformen, 23 Studios und die Hardware-Guides sind nun übersetzt. Tschechisch, Englisch, Deutsch und Französisch decken die Inhalte identisch ab; bisher schaffte FR nur einen Teil des Katalogs, der Rest fiel auf Tschechisch zurück.",
-     "fr": "Le français a rattrapé son retard — les 2 504 jeux, 48 plateformes, 23 studios et les guides matériels sont désormais traduits. Tchèque, anglais, allemand et français couvrent le contenu à l’identique ; jusqu’ici, le FR ne gérait qu’une partie du catalogue et le reste basculait en tchèque."
-    }
-   },
-   {
-    "tag": "images",
-    "text": {
-     "cs": "Nový zdroj obalů: Nintendo eShop. Nintendo exkluzivity nejsou na Steamu ani v libretro-thumbnails, takže to byl jediný volně dostupný zdroj — Switch díky tomu skočil ze 47 na 105 obalů ze 113 her.",
-     "en": "New box-art source: the Nintendo eShop. Nintendo exclusives are on neither Steam nor libretro-thumbnails, so this was the only freely available source — it took the Switch from 47 to 105 covers out of 113 games.",
-     "de": "Neue Cover-Quelle: der Nintendo eShop. Nintendo-Exklusivtitel gibt es weder auf Steam noch bei libretro-thumbnails, dies war also die einzige frei verfügbare Quelle — die Switch stieg dadurch von 47 auf 105 Cover bei 113 Spielen.",
-     "fr": "Nouvelle source de jaquettes : le Nintendo eShop. Les exclusivités Nintendo ne sont ni sur Steam ni sur libretro-thumbnails, c’était donc la seule source librement accessible — la Switch est ainsi passée de 47 à 105 jaquettes sur 113 jeux."
-    }
-   },
-   {
-    "tag": "content",
-    "text": {
-     "cs": "Přibyla tahle stránka se změnami — přehled toho, co na webu postupně přibývá.",
-     "en": "This changelog page was added — an overview of what keeps arriving on the site.",
-     "de": "Diese Änderungsseite kam dazu — ein Überblick darüber, was nach und nach auf die Seite kommt.",
-     "fr": "Cette page des nouveautés a été ajoutée — un aperçu de ce qui arrive peu à peu sur le site."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.08.17",
-  "date": "2026-08-17",
-  "title": {
-   "cs": "100+ her na moderních platformách a PS Vita",
-   "en": "100+ games on modern platforms, plus the PS Vita",
-   "de": "100+ Spiele auf modernen Plattformen und die PS Vita",
-   "fr": "100+ jeux sur les plateformes modernes et la PS Vita"
+  {
+    "version": "2026.08.18",
+    "date": "2026-08-18",
+    "title": {
+      "cs": "Web je kompletní ve čtyřech jazycích",
+      "en": "The site is complete in four languages",
+      "de": "Die Seite ist in vier Sprachen vollständig",
+      "fr": "Le site est complet en quatre langues"
+    },
+    "entries": [
+      {
+        "tag": "i18n",
+        "text": {
+          "cs": "Francouzština dohnala zbytek — všech 2504 her, 48 platforem, 23 studií i hardwarové průvodce jsou nově přeložené. Čeština, angličtina, němčina a francouzština teď pokrývají obsah úplně stejně; dosud FR zvládala jen část katalogu a zbytek padal na češtinu.",
+          "en": "French has caught up with the rest — all 2,504 games, 48 platforms, 23 studios and the hardware guides are now translated. Czech, English, German and French cover the content identically; until now FR handled only part of the catalog and the rest fell back to Czech.",
+          "de": "Französisch hat aufgeholt — alle 2.504 Spiele, 48 Plattformen, 23 Studios und die Hardware-Guides sind nun übersetzt. Tschechisch, Englisch, Deutsch und Französisch decken die Inhalte identisch ab; bisher schaffte FR nur einen Teil des Katalogs, der Rest fiel auf Tschechisch zurück.",
+          "fr": "Le français a rattrapé son retard — les 2 504 jeux, 48 plateformes, 23 studios et les guides matériels sont désormais traduits. Tchèque, anglais, allemand et français couvrent le contenu à l’identique ; jusqu’ici, le FR ne gérait qu’une partie du catalogue et le reste basculait en tchèque."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Nový zdroj obalů: Nintendo eShop. Nintendo exkluzivity nejsou na Steamu ani v libretro-thumbnails, takže to byl jediný volně dostupný zdroj — Switch díky tomu skočil ze 47 na 105 obalů ze 113 her.",
+          "en": "New box-art source: the Nintendo eShop. Nintendo exclusives are on neither Steam nor libretro-thumbnails, so this was the only freely available source — it took the Switch from 47 to 105 covers out of 113 games.",
+          "de": "Neue Cover-Quelle: der Nintendo eShop. Nintendo-Exklusivtitel gibt es weder auf Steam noch bei libretro-thumbnails, dies war also die einzige frei verfügbare Quelle — die Switch stieg dadurch von 47 auf 105 Cover bei 113 Spielen.",
+          "fr": "Nouvelle source de jaquettes : le Nintendo eShop. Les exclusivités Nintendo ne sont ni sur Steam ni sur libretro-thumbnails, c’était donc la seule source librement accessible — la Switch est ainsi passée de 47 à 105 jaquettes sur 113 jeux."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Přibyla tahle stránka se změnami — přehled toho, co na webu postupně přibývá.",
+          "en": "This changelog page was added — an overview of what keeps arriving on the site.",
+          "de": "Diese Änderungsseite kam dazu — ein Überblick darüber, was nach und nach auf die Seite kommt.",
+          "fr": "Cette page des nouveautés a été ajoutée — un aperçu de ce qui arrive peu à peu sur le site."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "games",
-    "text": {
-     "cs": "Katalog vyrostl z 2097 na 2508 her. PS3, PS4, Xbox 360, Xbox One, Switch i PS Vita mají nově přes sto titulů, každý s plnohodnotným českým článkem.",
-     "en": "The catalog grew from 2,097 to 2,508 games. The PS3, PS4, Xbox 360, Xbox One, Switch and PS Vita now each carry over a hundred titles, every one with a full write-up.",
-     "de": "Der Katalog wuchs von 2.097 auf 2.508 Spiele. PS3, PS4, Xbox 360, Xbox One, Switch und PS Vita haben nun jeweils über hundert Titel, jeder mit einem vollwertigen Artikel.",
-     "fr": "Le catalogue est passé de 2 097 à 2 508 jeux. PS3, PS4, Xbox 360, Xbox One, Switch et PS Vita comptent désormais plus de cent titres chacune, tous avec un article complet."
-    }
-   },
-   {
-    "tag": "platform",
-    "text": {
-     "cs": "Přibyla PlayStation Vita jako 48. platforma — vlastní článek o hardwaru, foto konzole a 114 her.",
-     "en": "The PlayStation Vita joined as the 48th platform — its own hardware article, a console photo and 114 games.",
-     "de": "Die PlayStation Vita kam als 48. Plattform dazu — mit eigenem Hardware-Artikel, Konsolenfoto und 114 Spielen.",
-     "fr": "La PlayStation Vita rejoint le site comme 48e plateforme — article matériel dédié, photo de la console et 114 jeux."
-    }
-   },
-   {
-    "tag": "fix",
-    "text": {
-     "cs": "Odstraněno 12 chybných obalů z itch.io. Shoda podle názvu se tam trefila do fan-games a stolních RPG stejného jména — místo Titanfallu se zobrazovala Godzilla.",
-     "en": "Removed 12 wrong covers sourced from itch.io. Name matching there hit fan games and tabletop RPGs sharing a title — Titanfall was showing a picture of Godzilla.",
-     "de": "12 falsche Cover von itch.io entfernt. Der Namensabgleich traf dort Fan-Games und Pen-&-Paper-Rollenspiele gleichen Titels — statt Titanfall erschien Godzilla.",
-     "fr": "12 jaquettes erronées venant d’itch.io ont été supprimées. La correspondance par nom y tombait sur des fan-games et des JdR papier homonymes — Titanfall affichait Godzilla."
-    }
-   },
-   {
-    "tag": "images",
-    "text": {
-     "cs": "Obalů přibylo z 1917 na 2153 díky Steamu jako novému zdroji pro moderní platformy.",
-     "en": "Cover art went from 1,917 to 2,153 thanks to Steam as a new source for modern platforms.",
-     "de": "Die Zahl der Cover stieg von 1.917 auf 2.153, dank Steam als neuer Quelle für moderne Plattformen.",
-     "fr": "Le nombre de jaquettes est passé de 1 917 à 2 153 grâce à Steam, nouvelle source pour les plateformes modernes."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.08.16",
-  "date": "2026-08-16",
-  "title": {
-   "cs": "Pět nových platforem a delší články",
-   "en": "Five new platforms and longer articles",
-   "de": "Fünf neue Plattformen und längere Artikel",
-   "fr": "Cinq nouvelles plateformes et des articles plus longs"
+  {
+    "version": "2026.08.17",
+    "date": "2026-08-17",
+    "title": {
+      "cs": "100+ her na moderních platformách a PS Vita",
+      "en": "100+ games on modern platforms, plus the PS Vita",
+      "de": "100+ Spiele auf modernen Plattformen und die PS Vita",
+      "fr": "100+ jeux sur les plateformes modernes et la PS Vita"
+    },
+    "entries": [
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Katalog vyrostl z 2097 na 2508 her. PS3, PS4, Xbox 360, Xbox One, Switch i PS Vita mají nově přes sto titulů, každý s plnohodnotným českým článkem.",
+          "en": "The catalog grew from 2,097 to 2,508 games. The PS3, PS4, Xbox 360, Xbox One, Switch and PS Vita now each carry over a hundred titles, every one with a full write-up.",
+          "de": "Der Katalog wuchs von 2.097 auf 2.508 Spiele. PS3, PS4, Xbox 360, Xbox One, Switch und PS Vita haben nun jeweils über hundert Titel, jeder mit einem vollwertigen Artikel.",
+          "fr": "Le catalogue est passé de 2 097 à 2 508 jeux. PS3, PS4, Xbox 360, Xbox One, Switch et PS Vita comptent désormais plus de cent titres chacune, tous avec un article complet."
+        }
+      },
+      {
+        "tag": "platform",
+        "text": {
+          "cs": "Přibyla PlayStation Vita jako 48. platforma — vlastní článek o hardwaru, foto konzole a 114 her.",
+          "en": "The PlayStation Vita joined as the 48th platform — its own hardware article, a console photo and 114 games.",
+          "de": "Die PlayStation Vita kam als 48. Plattform dazu — mit eigenem Hardware-Artikel, Konsolenfoto und 114 Spielen.",
+          "fr": "La PlayStation Vita rejoint le site comme 48e plateforme — article matériel dédié, photo de la console et 114 jeux."
+        }
+      },
+      {
+        "tag": "fix",
+        "text": {
+          "cs": "Odstraněno 12 chybných obalů z itch.io. Shoda podle názvu se tam trefila do fan-games a stolních RPG stejného jména — místo Titanfallu se zobrazovala Godzilla.",
+          "en": "Removed 12 wrong covers sourced from itch.io. Name matching there hit fan games and tabletop RPGs sharing a title — Titanfall was showing a picture of Godzilla.",
+          "de": "12 falsche Cover von itch.io entfernt. Der Namensabgleich traf dort Fan-Games und Pen-&-Paper-Rollenspiele gleichen Titels — statt Titanfall erschien Godzilla.",
+          "fr": "12 jaquettes erronées venant d’itch.io ont été supprimées. La correspondance par nom y tombait sur des fan-games et des JdR papier homonymes — Titanfall affichait Godzilla."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Obalů přibylo z 1917 na 2153 díky Steamu jako novému zdroji pro moderní platformy.",
+          "en": "Cover art went from 1,917 to 2,153 thanks to Steam as a new source for modern platforms.",
+          "de": "Die Zahl der Cover stieg von 1.917 auf 2.153, dank Steam als neuer Quelle für moderne Plattformen.",
+          "fr": "Le nombre de jaquettes est passé de 1 917 à 2 153 grâce à Steam, nouvelle source pour les plateformes modernes."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "platform",
-    "text": {
-     "cs": "Přibyly PS3, PS4, Xbox 360, Xbox One a Nintendo Switch. PS2 a Xbox se zároveň rozrostly na 110 a 95 her.",
-     "en": "The PS3, PS4, Xbox 360, Xbox One and Nintendo Switch arrived. The PS2 and Xbox also grew to 110 and 95 games.",
-     "de": "PS3, PS4, Xbox 360, Xbox One und Nintendo Switch kamen dazu. PS2 und Xbox wuchsen zugleich auf 110 bzw. 95 Spiele.",
-     "fr": "PS3, PS4, Xbox 360, Xbox One et Nintendo Switch ont été ajoutées. La PS2 et la Xbox sont passées à 110 et 95 jeux."
-    }
-   },
-   {
-    "tag": "content",
-    "text": {
-     "cs": "394 příliš stručných článků bylo rozšířeno na plnou magazínovou délku — medián stoupl z 1408 na 1856 znaků.",
-     "en": "394 articles that were too brief got expanded to full magazine length — the median rose from 1,408 to 1,856 characters.",
-     "de": "394 zu knappe Artikel wurden auf volle Magazinlänge erweitert — der Median stieg von 1.408 auf 1.856 Zeichen.",
-     "fr": "394 articles trop courts ont été étoffés à une longueur de magazine — la médiane est passée de 1 408 à 1 856 caractères."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.08.14",
-  "date": "2026-08-14",
-  "title": {
-   "cs": "PS2, GameCube, Xbox a čtvrtý jazyk",
-   "en": "PS2, GameCube, Xbox and a fourth language",
-   "de": "PS2, GameCube, Xbox und eine vierte Sprache",
-   "fr": "PS2, GameCube, Xbox et une quatrième langue"
+  {
+    "version": "2026.08.16",
+    "date": "2026-08-16",
+    "title": {
+      "cs": "Pět nových platforem a delší články",
+      "en": "Five new platforms and longer articles",
+      "de": "Fünf neue Plattformen und längere Artikel",
+      "fr": "Cinq nouvelles plateformes et des articles plus longs"
+    },
+    "entries": [
+      {
+        "tag": "platform",
+        "text": {
+          "cs": "Přibyly PS3, PS4, Xbox 360, Xbox One a Nintendo Switch. PS2 a Xbox se zároveň rozrostly na 110 a 95 her.",
+          "en": "The PS3, PS4, Xbox 360, Xbox One and Nintendo Switch arrived. The PS2 and Xbox also grew to 110 and 95 games.",
+          "de": "PS3, PS4, Xbox 360, Xbox One und Nintendo Switch kamen dazu. PS2 und Xbox wuchsen zugleich auf 110 bzw. 95 Spiele.",
+          "fr": "PS3, PS4, Xbox 360, Xbox One et Nintendo Switch ont été ajoutées. La PS2 et la Xbox sont passées à 110 et 95 jeux."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "394 příliš stručných článků bylo rozšířeno na plnou magazínovou délku — medián stoupl z 1408 na 1856 znaků.",
+          "en": "394 articles that were too brief got expanded to full magazine length — the median rose from 1,408 to 1,856 characters.",
+          "de": "394 zu knappe Artikel wurden auf volle Magazinlänge erweitert — der Median stieg von 1.408 auf 1.856 Zeichen.",
+          "fr": "394 articles trop courts ont été étoffés à une longueur de magazine — la médiane est passée de 1 408 à 1 856 caractères."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "platform",
-    "text": {
-     "cs": "Tři nové platformy se 180 hrami: PlayStation 2, GameCube a původní Xbox.",
-     "en": "Three new platforms with 180 games: the PlayStation 2, GameCube and the original Xbox.",
-     "de": "Drei neue Plattformen mit 180 Spielen: PlayStation 2, GameCube und das ursprüngliche Xbox.",
-     "fr": "Trois nouvelles plateformes et 180 jeux : PlayStation 2, GameCube et la Xbox d’origine."
-    }
-   },
-   {
-    "tag": "i18n",
-    "text": {
-     "cs": "Web dostal francouzštinu jako čtvrtý jazyk — přepínač, hreflang i lokalizovaná sitemap.",
-     "en": "French joined as the site's fourth language — switcher, hreflang and a localized sitemap included.",
-     "de": "Französisch kam als vierte Sprache dazu — inklusive Umschalter, hreflang und lokalisierter Sitemap.",
-     "fr": "Le français est devenu la quatrième langue du site — sélecteur, hreflang et sitemap localisé compris."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.07.15",
-  "date": "2026-07-15",
-  "title": {
-   "cs": "Angličtina a němčina kompletní",
-   "en": "English and German complete",
-   "de": "Englisch und Deutsch vollständig",
-   "fr": "Anglais et allemand complets"
+  {
+    "version": "2026.08.14",
+    "date": "2026-08-14",
+    "title": {
+      "cs": "PS2, GameCube, Xbox a čtvrtý jazyk",
+      "en": "PS2, GameCube, Xbox and a fourth language",
+      "de": "PS2, GameCube, Xbox und eine vierte Sprache",
+      "fr": "PS2, GameCube, Xbox et une quatrième langue"
+    },
+    "entries": [
+      {
+        "tag": "platform",
+        "text": {
+          "cs": "Tři nové platformy se 180 hrami: PlayStation 2, GameCube a původní Xbox.",
+          "en": "Three new platforms with 180 games: the PlayStation 2, GameCube and the original Xbox.",
+          "de": "Drei neue Plattformen mit 180 Spielen: PlayStation 2, GameCube und das ursprüngliche Xbox.",
+          "fr": "Trois nouvelles plateformes et 180 jeux : PlayStation 2, GameCube et la Xbox d’origine."
+        }
+      },
+      {
+        "tag": "i18n",
+        "text": {
+          "cs": "Web dostal francouzštinu jako čtvrtý jazyk — přepínač, hreflang i lokalizovaná sitemap.",
+          "en": "French joined as the site's fourth language — switcher, hreflang and a localized sitemap included.",
+          "de": "Französisch kam als vierte Sprache dazu — inklusive Umschalter, hreflang und lokalisierter Sitemap.",
+          "fr": "Le français est devenu la quatrième langue du site — sélecteur, hreflang et sitemap localisé compris."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "i18n",
-    "text": {
-     "cs": "Veškerý obsah — hry, platformy, studia i hardwarové průvodce — je přeložen do angličtiny a němčiny.",
-     "en": "All content — games, platforms, studios and hardware guides — is translated into English and German.",
-     "de": "Sämtliche Inhalte — Spiele, Plattformen, Studios und Hardware-Guides — sind ins Englische und Deutsche übersetzt.",
-     "fr": "Tout le contenu — jeux, plateformes, studios et guides matériels — est traduit en anglais et en allemand."
-    }
-   }
-  ]
- },
- {
-  "version": "2026.06.20",
-  "date": "2026-06-20",
-  "title": {
-   "cs": "Spuštění RetroWebu",
-   "en": "RetroWeb launches",
-   "de": "RetroWeb startet",
-   "fr": "Lancement de RetroWeb"
+  {
+    "version": "2026.07.15",
+    "date": "2026-07-15",
+    "title": {
+      "cs": "Angličtina a němčina kompletní",
+      "en": "English and German complete",
+      "de": "Englisch und Deutsch vollständig",
+      "fr": "Anglais et allemand complets"
+    },
+    "entries": [
+      {
+        "tag": "i18n",
+        "text": {
+          "cs": "Veškerý obsah — hry, platformy, studia i hardwarové průvodce — je přeložen do angličtiny a němčiny.",
+          "en": "All content — games, platforms, studios and hardware guides — is translated into English and German.",
+          "de": "Sämtliche Inhalte — Spiele, Plattformen, Studios und Hardware-Guides — sind ins Englische und Deutsche übersetzt.",
+          "fr": "Tout le contenu — jeux, plateformes, studios et guides matériels — est traduit en anglais et en allemand."
+        }
+      }
+    ]
   },
-  "entries": [
-   {
-    "tag": "content",
-    "text": {
-     "cs": "První verze webu: katalog platforem a her postavený z kurátorských podkladů, hardwaroví průvodci a tmavé téma s retro akcenty.",
-     "en": "The first version of the site: a catalog of platforms and games built from curated notes, hardware guides and a dark theme with retro accents.",
-     "de": "Die erste Version der Seite: ein Katalog aus Plattformen und Spielen auf Basis kuratierter Notizen, Hardware-Guides und ein dunkles Design mit Retro-Akzenten.",
-     "fr": "Première version du site : un catalogue de plateformes et de jeux bâti sur des notes curatées, des guides matériels et un thème sombre aux accents rétro."
-    }
-   }
-  ]
- }
+  {
+    "version": "2026.06.20",
+    "date": "2026-06-20",
+    "title": {
+      "cs": "Spuštění RetroWebu",
+      "en": "RetroWeb launches",
+      "de": "RetroWeb startet",
+      "fr": "Lancement de RetroWeb"
+    },
+    "entries": [
+      {
+        "tag": "content",
+        "text": {
+          "cs": "První verze webu: katalog platforem a her postavený z kurátorských podkladů, hardwaroví průvodci a tmavé téma s retro akcenty.",
+          "en": "The first version of the site: a catalog of platforms and games built from curated notes, hardware guides and a dark theme with retro accents.",
+          "de": "Die erste Version der Seite: ein Katalog aus Plattformen und Spielen auf Basis kuratierter Notizen, Hardware-Guides und ein dunkles Design mit Retro-Akzenten.",
+          "fr": "Première version du site : un catalogue de plateformes et de jeux bâti sur des notes curatées, des guides matériels et un thème sombre aux accents rétro."
+        }
+      }
+    ]
+  }
 ]
