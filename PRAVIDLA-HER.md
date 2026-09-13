@@ -151,6 +151,13 @@ výstupu odpovídají vstupu, ne jen že soubor je. Jednou tak 50 her zůstalo b
 včetně těch, kteří měli jen vrátit SKIP. U velkých sad pouštět jen chybějící
 práci přes `tools/i18n_zbytek.py`.
 
+**Dávka, která nic nepřidala, vypadá stejně jako dávka, která uspěla.**
+Zdroje vracejí snímky vždy od začátku seznamu. Když hra už dva snímky má,
+uloží se do volných pozic tytéž dva znovu a `dedupe` je zase smaže — výpis
+přitom hlásí stovky doplněných her. Po každé obrázkové dávce proto porovnat
+`dataset.json` proti předchozí verzi (kolika hrám opravdu přibyl obrázek),
+ne věřit číslu z výpisu. Jednou takhle skončilo 2404 stažených souborů v koši.
+
 **Počet her v katalogu nevypovídá o pokrytí.** Výběr je kurátorský: N64 má
 v katalogu desítky her a kánon je celý, zatímco 3DS jich mělo 42 a chybělo
 11 ze 14 ze vzorku. Mezeru hledat sondou na konkrétní tituly, ne podle počtu.
