@@ -1,5 +1,53 @@
 [
   {
+    "version": "2026.09.13b",
+    "date": "2026-09-13",
+    "title": {
+      "cs": "Obrázky u tisícovky her a bohatší série",
+      "en": "Images for a thousand games and richer series",
+      "de": "Bilder für tausend Spiele und reichere Reihen",
+      "fr": "Des images pour mille jeux et des séries enrichies"
+    },
+    "entries": [
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Skoro dva tisíce nových obrázků u víc než tisícovky her. Her úplně bez obrázku ubylo z 482 na 343. Přibyl obchod Microsoft Store jako zdroj — pokrývá hry, které nejsou na Steamu, takže Minecraft i Halo 3: ODST na Xboxu 360 konečně nějaké obrázky mají.",
+          "en": "Almost two thousand new images across more than a thousand games. Games with no image at all dropped from 482 to 343. The Microsoft Store was added as a source — it covers games Steam does not carry, so Minecraft and Halo 3: ODST on Xbox 360 finally have pictures.",
+          "de": "Fast zweitausend neue Bilder bei mehr als tausend Spielen. Spiele ganz ohne Bild sind von 482 auf 343 gesunken. Neu dazugekommen ist der Microsoft Store als Quelle — er deckt Spiele ab, die es auf Steam nicht gibt, sodass Minecraft und Halo 3: ODST auf der Xbox 360 endlich Bilder haben.",
+          "fr": "Près de deux mille nouvelles images pour plus de mille jeux. Les jeux sans la moindre image sont passés de 482 à 343. Le Microsoft Store a été ajouté comme source — il couvre les jeux absents de Steam, si bien que Minecraft et Halo 3: ODST sur Xbox 360 ont enfin des images."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Průvodní texty u sérií jsou delší a jejich délka se řídí významem značky: série s desítkami dílů napříč generacemi dostala čtyři až pět odstavců, série o dvou dílech zůstává stručná. Text má nově 183 sérií z 238.",
+          "en": "Series write-ups are longer, and their length now follows how big the franchise is: a series with dozens of entries across generations gets four to five paragraphs, a two-game series stays brief. 183 of 238 series now have a write-up.",
+          "de": "Die Begleittexte zu den Reihen sind länger, und ihre Länge richtet sich nach der Bedeutung der Marke: eine Reihe mit Dutzenden Teilen über Generationen hinweg bekommt vier bis fünf Absätze, eine Reihe aus zwei Teilen bleibt knapp. 183 von 238 Reihen haben jetzt einen Text.",
+          "fr": "Les textes de présentation des séries sont plus longs et leur longueur suit désormais l’importance de la franchise : une série comptant des dizaines d’épisodes sur plusieurs générations obtient quatre à cinq paragraphes, une série de deux jeux reste brève. 183 séries sur 238 ont désormais un texte."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Osmdesát tři nových herních sérií — Advance Wars, Armored Core, Banjo-Kazooie, Batman: Arkham, Colin McRae Rally a další. Celkem jich web vede 238.",
+          "en": "Eighty-three new game series — Advance Wars, Armored Core, Banjo-Kazooie, Batman: Arkham, Colin McRae Rally and more. The site now tracks 238 of them.",
+          "de": "Dreiundachtzig neue Spielereihen — Advance Wars, Armored Core, Banjo-Kazooie, Batman: Arkham, Colin McRae Rally und weitere. Insgesamt führt die Seite jetzt 238 davon.",
+          "fr": "Quatre-vingt-trois nouvelles séries de jeux — Advance Wars, Armored Core, Banjo-Kazooie, Batman: Arkham, Colin McRae Rally et d’autres. Le site en recense désormais 238."
+        }
+      },
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Na stránce série se dá z úvodu skočit rovnou na seznam dílů, stejně jako u platforem.",
+          "en": "Series pages now jump straight from the intro to the list of entries, just like platform pages do.",
+          "de": "Auf Reihenseiten führt jetzt ein Sprung direkt von der Einleitung zur Liste der Teile, genau wie bei den Plattformseiten.",
+          "fr": "Sur la page d’une série, un lien mène désormais directement de l’introduction à la liste des épisodes, comme sur les pages de plateformes."
+        }
+      }
+    ]
+  },
+  {
     "version": "2026.09.13",
     "date": "2026-09-13",
     "title": {
