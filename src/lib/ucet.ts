@@ -3,7 +3,7 @@
  *
  * Zamerne bez knihovny @supabase/supabase-js: web ma pres 25 tisic statickych
  * stranek a SDK by se pribalilo ke kazde. Potrebujeme z nej stejne jen prihlaseni
- * kodem z e-mailu a ctyri dotazy na tabulku, coz je par desitek radku pres fetch.
+ * odkazem z e-mailu a ctyri dotazy na tabulku, coz je par desitek radku pres fetch.
  *
  * Publikovatelny klic patri do stranky — chrani ho zabezpeceni na urovni radku
  * (RLS) v supabase/schema.sql, ne utajeni. Servisni klic sem NIKDY nepatri.
@@ -84,9 +84,18 @@ export async function token(): Promise<string | null> {
 
 /* -------------------------------------------------------------- prihlaseni */
 
-/** Posle na e-mail sestimistny kod. Ucet vznikne pri prvnim prihlaseni. */
-export async function poslatKod(email: string): Promise<void> {
-  const odpoved = await fetch(`${SUPABASE_URL}/auth/v1/otp`, {
+/**
+ * Posle na e-mail prihlasovaci odkaz. Ucet vznikne pri prvnim prihlaseni.
+ *
+ * Drive se posilal sestimistny kod, ktery uzivatel opisoval. Odkaz je o krok
+ * min prace a hlavne funguje se sablonou, kterou ma Supabase v zakladu —
+ * u kodu se musi sablona rucne prepsat na {{ .Token }}, jinak prijde odkaz
+ * a v poli pro kod neni co vyplnit.
+ */
+export async function poslatOdkaz(email: string, navrat?: string): Promise<void> {
+  const cil = navrat || (typeof location !== 'undefined' ? location.href.split('#')[0] : '');
+  const url = `${SUPABASE_URL}/auth/v1/otp` + (cil ? `?redirect_to=${encodeURIComponent(cil)}` : '');
+  const odpoved = await fetch(url, {
     method: 'POST',
     headers: { apikey: SUPABASE_KEY, 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, create_user: true }),
@@ -94,21 +103,59 @@ export async function poslatKod(email: string): Promise<void> {
   if (!odpoved.ok) throw new Error(await chybovaHlaska(odpoved));
 }
 
-/** Overi kod z e-mailu a ulozi relaci do prohlizece. */
-export async function overitKod(email: string, kod: string): Promise<void> {
-  const odpoved = await fetch(`${SUPABASE_URL}/auth/v1/verify`, {
-    method: 'POST',
-    headers: { apikey: SUPABASE_KEY, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, token: kod.trim(), type: 'email' }),
-  });
-  if (!odpoved.ok) throw new Error(await chybovaHlaska(odpoved));
-  const d = await odpoved.json();
+/**
+ * Zpracuje navrat z prihlasovaciho odkazu. Supabase vraci tokeny ve fragmentu
+ * adresy (#access_token=...), ktery se po ulozeni z adresniho radku smaze —
+ * jinak by zustal v historii prohlizece i ve sdilenem odkazu.
+ *
+ * Vraci true, kdyz se nekdo prave prihlasil.
+ */
+export function zpracujNavrat(): boolean {
+  if (typeof location === 'undefined' || !location.hash) return false;
+  const p = new URLSearchParams(location.hash.slice(1));
+  const access = p.get('access_token');
+  const refresh = p.get('refresh_token');
+  if (!access || !refresh) {
+    // Supabase sem dava i chyby (vyprseny nebo uz pouzity odkaz).
+    if (p.get('error') || p.get('error_description')) {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+    return false;
+  }
   ulozRelaci({
-    access_token: d.access_token,
-    refresh_token: d.refresh_token,
-    expires_at: Math.floor(Date.now() / 1000) + (d.expires_in ?? 3600),
-    email: d.user?.email ?? email,
+    access_token: access,
+    refresh_token: refresh,
+    expires_at: Math.floor(Date.now() / 1000) + Number(p.get('expires_in') || 3600),
+    email: '',
   });
+  history.replaceState(null, '', location.pathname + location.search);
+  // Fragment adresy nese jen tokeny, ne e-mail. Dotahneme ho na pozadi,
+  // aby hlavicka mohla ukazat, kdo je prihlaseny.
+  void dotahniEmail();
+  return true;
+}
+
+/** Zjisti e-mail prihlaseneho uzivatele a doplni ho do ulozene relace. */
+async function dotahniEmail(): Promise<void> {
+  const r = nactiRelaci();
+  if (!r || r.email) return;
+  try {
+    const odpoved = await fetch(`${SUPABASE_URL}/auth/v1/user`, {
+      headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${r.access_token}` },
+    });
+    if (!odpoved.ok) return;
+    const d = await odpoved.json();
+    if (d?.email) ulozRelaci({ ...r, email: d.email });
+  } catch {
+    /* e-mail je jen ozdoba, prihlaseni funguje i bez nej */
+  }
+}
+
+/** Text chyby z navratoveho odkazu, kdyz se prihlaseni nepovedlo. */
+export function chybaZNavratu(): string | null {
+  if (typeof location === 'undefined' || !location.hash) return null;
+  const p = new URLSearchParams(location.hash.slice(1));
+  return p.get('error_description') || p.get('error') || null;
 }
 
 export function odhlasit(): void {
