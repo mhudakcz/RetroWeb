@@ -5,18 +5,25 @@ export const meta = {
 }
 
 phase('Porty')
-const { base, batches } = typeof args === 'string' ? JSON.parse(args) : args
+// "from" umoznuje pustit velkou sadu po vlnach. Bez nej by se pri druhem behu
+// spustili agenti i na davky, ktere uz jsou hotove — vratili by SKIP, ale pri
+// limitu relace by spadli spolu s temi ostatnimi.
+const { base, batches, from } = typeof args === 'string' ? JSON.parse(args) : args
+const od = from || 0
 const pad = (n) => String(n).padStart(2, '0')
 
-log(`Doplneni portu: ${batches} davek`)
+log(`Doplneni portu: davky ${od}-${od + batches - 1}`)
 
 const SLUGS = 'pc-modern, pc-9x, pc-dos, ps2, ps3, ps4, ps5, playstation, xbox, xbox-360, xbox-one, xbox-series, switch, gamecube, wii, wii-u, nds, psp, ps-vita, dreamcast, saturn, n64, snes, mega-drive'
 
-const jobs = Array.from({ length: batches }, (_, i) => ({
-  i,
-  in: `${base}/ports_${pad(i)}.json`,
-  out: `${base}/ports_${pad(i)}_out.json`,
-}))
+const jobs = Array.from({ length: batches }, (_, k) => {
+  const i = od + k
+  return {
+    i,
+    in: `${base}/ports_${pad(i)}.json`,
+    out: `${base}/ports_${pad(i)}_out.json`,
+  }
+})
 
 const results = await parallel(jobs.map((j) => () => {
   const prompt = `Idempotentni uloha: doplneni her na platformy, kde take vysly.

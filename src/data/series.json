@@ -1672,6 +1672,16 @@
   }
  },
  {
+  "slug": "metro",
+  "name": "Metro",
+  "match": [
+   "metro"
+  ],
+  "exclude": [
+   "mini metro"
+  ]
+ },
+ {
   "slug": "metroid",
   "name": "Metroid",
   "match": [
@@ -2324,6 +2334,13 @@
   "name": "SSX",
   "match": [
    "SSX"
+  ]
+ },
+ {
+  "slug": "stalker",
+  "name": "S.T.A.L.K.E.R.",
+  "match": [
+   "s.t.a.l.k.e.r"
   ]
  },
  {
