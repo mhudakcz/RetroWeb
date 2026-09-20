@@ -58,10 +58,16 @@ Pro KAZDE doplnene vydani vrat objekt:
  "year": "rok vydani NA TETO PLATFORME jako retezec",
  "studio": "vyvojarske studio",
  "flags": [],
- "article": "cesky clanek, 1800-2100 znaku, 2-3 odstavce oddelene \\n\\n"
+ "teaser": "jedna veta, 40-90 znaku — duvod, proc si hry vsimnout, ne shrnuti deje",
+ "article": "cesky clanek, 1800-2100 znaku, 2-3 odstavce oddelene \n\n, zakonceny odstavcem, ktery zacina **Proc hrat:**"
 }
 
 Povolene slugy platforem: ${SLUGS}
+
+Clanek MUSI koncit samostatnym odstavcem, ktery zacina tucnym **Proc hrat:** a
+rekne primo, komu a proc se hra vyplati — ne opakovani toho, co uz v textu je.
+Uvodni veta (teaser) je neco jineho nez prvni veta clanku: je to jedna veta do
+prehledu her, ktera laka, ne shrnuje.
 
 Clanek pis o hre jako takove, ale VZDY zminuj, cim se prave tato verze lisila —
 vykon, ovladani, obsah navic nebo naopak chybejici, doba vydani oproti ostatnim
