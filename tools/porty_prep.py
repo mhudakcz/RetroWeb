@@ -160,7 +160,10 @@ def merge(work: Path) -> None:
                 continue
 
             gslug = _slugify(plat, nazev)
-            if gslug in znamy_slug or gslug in {s for s in extra.get(plat, [])}:
+            # extra_games drzi seznam objektu {name, genre, ...}, ne slugu
+            uz_v_extra = any(_slugify(plat, x.get("name", "")) == gslug
+                             for x in extra.get(plat, []))
+            if gslug in znamy_slug or uz_v_extra:
                 zahod("slug uz existuje")
                 preskoceno += 1
                 continue

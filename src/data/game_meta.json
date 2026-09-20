@@ -4999,6 +4999,14 @@
   "studio": "Criterion Games",
   "year": "2003"
  },
+ "gamecube__call-of-duty-2-big-red-one": {
+  "studio": "Treyarch",
+  "year": "2005"
+ },
+ "gamecube__call-of-duty-finest-hour": {
+  "studio": "Spark Unlimited",
+  "year": "2004"
+ },
  "gamecube__chibi-robo": {
   "studio": "Skip Ltd.",
   "year": "2006"
@@ -10712,9 +10720,21 @@
   "studio": "Treyarch",
   "year": "2010"
  },
+ "pc-modern__call-of-duty-black-ops-4": {
+  "studio": "Treyarch",
+  "year": "2018"
+ },
+ "pc-modern__call-of-duty-black-ops-6": {
+  "studio": "Treyarch, Raven Software",
+  "year": "2024"
+ },
  "pc-modern__call-of-duty-black-ops-ii": {
   "studio": "Treyarch",
   "year": "2012"
+ },
+ "pc-modern__call-of-duty-infinite-warfare": {
+  "studio": "Infinity Ward",
+  "year": "2016"
  },
  "pc-modern__call-of-duty-modern-warfare-2": {
   "studio": "Infinity Ward",
@@ -10723,6 +10743,10 @@
  "pc-modern__call-of-duty-modern-warfare-3": {
   "studio": "Infinity Ward / Sledgehammer Games",
   "year": "2011"
+ },
+ "pc-modern__call-of-duty-vanguard": {
+  "studio": "Sledgehammer Games",
+  "year": "2021"
  },
  "pc-modern__call-of-duty-warzone": {
   "studio": "Infinity Ward / Raven Software",
@@ -12580,6 +12604,10 @@
   "studio": "Gearbox Software / Iron Galaxy Studios",
   "year": "2014"
  },
+ "ps-vita__call-of-duty-black-ops-declassified": {
+  "studio": "Nihilistic Software",
+  "year": "2012"
+ },
  "ps-vita__code-realize-guardian-of-rebirth": {
   "studio": "Idea Factory / Otomate",
   "year": "2015"
@@ -13079,6 +13107,22 @@
  "ps2__burnout-revenge": {
   "studio": "Criterion Games",
   "year": "2005"
+ },
+ "ps2__call-of-duty-2-big-red-one": {
+  "studio": "Treyarch",
+  "year": "2005"
+ },
+ "ps2__call-of-duty-3": {
+  "studio": "Treyarch",
+  "year": "2006"
+ },
+ "ps2__call-of-duty-finest-hour": {
+  "studio": "Spark Unlimited",
+  "year": "2004"
+ },
+ "ps2__call-of-duty-world-at-war-final-fronts": {
+  "studio": "Rebellion",
+  "year": "2008"
  },
  "ps2__capcom-vs-snk-2-mark-of-millennium": {
   "studio": "Capcom",
@@ -13884,6 +13928,10 @@
   "studio": "Criterion Games",
   "year": "2008"
  },
+ "ps3__call-of-duty-3": {
+  "studio": "Treyarch",
+  "year": "2006"
+ },
  "ps3__call-of-duty-4-modern-warfare": {
   "studio": "Infinity Ward",
   "year": "2007"
@@ -14636,9 +14684,21 @@
   "studio": "Stellar Entertainment",
   "year": "2018"
  },
+ "ps4__call-of-duty-black-ops-4": {
+  "studio": "Treyarch",
+  "year": "2018"
+ },
+ "ps4__call-of-duty-infinite-warfare": {
+  "studio": "Infinity Ward",
+  "year": "2016"
+ },
  "ps4__call-of-duty-modern-warfare": {
   "studio": "Infinity Ward",
   "year": "2019"
+ },
+ "ps4__call-of-duty-vanguard": {
+  "studio": "Sledgehammer Games",
+  "year": "2021"
  },
  "ps4__celeste": {
   "studio": "Maddy Makes Games",
@@ -15288,6 +15348,14 @@
   "studio": "The Game Kitchen",
   "year": "2023"
  },
+ "ps5__call-of-duty-black-ops-6": {
+  "studio": "Treyarch, Raven Software",
+  "year": "2024"
+ },
+ "ps5__call-of-duty-vanguard": {
+  "studio": "Sledgehammer Games",
+  "year": "2021"
+ },
  "ps5__callisto-protocol": {
   "studio": "Striking Distance Studios",
   "year": "2022"
@@ -15866,6 +15934,10 @@
  },
  "psp__burnout-legends": {
   "year": "2005"
+ },
+ "psp__call-of-duty-roads-to-victory": {
+  "studio": "Amaze Entertainment",
+  "year": "2007"
  },
  "psp__dissidia-final-fantasy": {
   "studio": "Square Enix",
@@ -18761,6 +18833,10 @@
   "studio": "WayForward",
   "year": "2009"
  },
+ "wii__call-of-duty-3": {
+  "studio": "Treyarch",
+  "year": "2006"
+ },
  "wii__call-of-duty-modern-warfare-reflex-edition": {
   "studio": "Treyarch",
   "year": "2009"
@@ -20085,13 +20161,25 @@
   "studio": "Criterion Games",
   "year": "2018"
  },
+ "xbox-one__call-of-duty-black-ops-4": {
+  "studio": "Treyarch",
+  "year": "2018"
+ },
  "xbox-one__call-of-duty-black-ops-iii": {
   "studio": "Treyarch",
   "year": "2015"
  },
+ "xbox-one__call-of-duty-infinite-warfare": {
+  "studio": "Infinity Ward",
+  "year": "2016"
+ },
  "xbox-one__call-of-duty-modern-warfare": {
   "studio": "Infinity Ward",
   "year": "2019"
+ },
+ "xbox-one__call-of-duty-vanguard": {
+  "studio": "Sledgehammer Games",
+  "year": "2021"
  },
  "xbox-one__celeste": {
   "studio": "Matt Makes Games",
@@ -20781,6 +20869,10 @@
   "studio": "Dimfrost Studio",
   "year": "2023"
  },
+ "xbox-series__call-of-duty-black-ops-6": {
+  "studio": "Treyarch, Raven Software",
+  "year": "2024"
+ },
  "xbox-series__call-of-duty-black-ops-cold-war": {
   "studio": "Treyarch",
   "year": "2020"
@@ -20792,6 +20884,10 @@
  "xbox-series__call-of-duty-modern-warfare-iii": {
   "studio": "Sledgehammer Games",
   "year": "2023"
+ },
+ "xbox-series__call-of-duty-vanguard": {
+  "studio": "Sledgehammer Games",
+  "year": "2021"
  },
  "xbox-series__cassette-beasts": {
   "studio": "Bytten Studio",
@@ -21416,6 +21512,18 @@
  "xbox__burnout-revenge": {
   "studio": "Criterion Games",
   "year": "2005"
+ },
+ "xbox__call-of-duty-2-big-red-one": {
+  "studio": "Treyarch",
+  "year": "2005"
+ },
+ "xbox__call-of-duty-3": {
+  "studio": "Treyarch",
+  "year": "2006"
+ },
+ "xbox__call-of-duty-finest-hour": {
+  "studio": "Spark Unlimited",
+  "year": "2004"
  },
  "xbox__castlevania-curse-of-darkness": {
   "studio": "Konami Computer Entertainment Tokyo",

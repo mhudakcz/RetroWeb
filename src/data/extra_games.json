@@ -7632,6 +7632,18 @@
    "genre": "Závodní (arkáda)",
    "length": "S",
    "name": "Crazy Taxi"
+  },
+  {
+   "name": "Call of Duty: Finest Hour",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty 2: Big Red One",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
   }
  ],
  "intellivision": [
@@ -18395,6 +18407,30 @@
    "genre": "RPG",
    "length": "XL",
    "name": "Neverwinter Nights: Enhanced Edition"
+  },
+  {
+   "name": "Call of Duty: Infinite Warfare",
+   "genre": "FPS / sci-fi akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops 4",
+   "genre": "FPS / akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Vanguard",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops 6",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "pc-vr": [
@@ -20108,6 +20144,12 @@
    "genre": "Logická / simulace",
    "length": "M",
    "name": "Papers, Please"
+  },
+  {
+   "name": "Call of Duty: Black Ops Declassified",
+   "genre": "FPS / akční střílečka",
+   "length": "S",
+   "flags": []
   }
  ],
  "ps2": [
@@ -21433,6 +21475,30 @@
    "genre": "Akční RPG",
    "length": "M",
    "name": "Kingdom Hearts Re: Chain of Memories"
+  },
+  {
+   "name": "Call of Duty: Finest Hour",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty 2: Big Red One",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty 3",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: World at War - Final Fronts",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "ps3": [
@@ -22872,6 +22938,12 @@
    "genre": "Plošinovka (kompilace)",
    "length": "L",
    "name": "Jak and Daxter Collection"
+  },
+  {
+   "name": "Call of Duty 3",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "ps4": [
@@ -24056,6 +24128,24 @@
    "genre": "FPS logická hra",
    "length": "S",
    "name": "Superhot"
+  },
+  {
+   "name": "Call of Duty: Infinite Warfare",
+   "genre": "FPS / sci-fi akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops 4",
+   "genre": "FPS / akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Vanguard",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "ps5": [
@@ -25185,6 +25275,18 @@
    "genre": "Survival horor",
    "length": "L",
    "name": "Silent Hill f"
+  },
+  {
+   "name": "Call of Duty: Vanguard",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops 6",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "psp": [
@@ -25381,6 +25483,12 @@
    "genre": "Akční RPG",
    "length": "L",
    "name": "Kingdom Hearts: Birth by Sleep"
+  },
+  {
+   "name": "Call of Duty: Roads to Victory",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "psvr": [
@@ -29880,6 +29988,12 @@
    "genre": "Akcni plosinovka / strilecka",
    "length": "M",
    "name": "Blaster Master: Overdrive"
+  },
+  {
+   "name": "Call of Duty 3",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "wii-u": [
@@ -31908,6 +32022,24 @@
    "genre": "open-world akce",
    "length": "L",
    "name": "Just Cause"
+  },
+  {
+   "name": "Call of Duty: Finest Hour",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty 2: Big Red One",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty 3",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "xbox-360": [
@@ -34420,6 +34552,24 @@
    "genre": "Zavodni",
    "length": "M",
    "name": "Assetto Corsa"
+  },
+  {
+   "name": "Call of Duty: Infinite Warfare",
+   "genre": "FPS / sci-fi akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops 4",
+   "genre": "FPS / akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Vanguard",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "xbox-series": [
@@ -35520,6 +35670,18 @@
    "genre": "Survival horor",
    "length": "L",
    "name": "Resident Evil 2"
+  },
+  {
+   "name": "Call of Duty: Vanguard",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops 6",
+   "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
   }
  ],
  "zx-spectrum": [
