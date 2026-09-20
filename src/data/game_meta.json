@@ -8008,9 +8008,21 @@
   "studio": "Nintendo",
   "year": "2006"
  },
+ "nds__call-of-duty-black-ops": {
+  "studio": "n-Space",
+  "year": "2010"
+ },
+ "nds__call-of-duty-modern-warfare-3-defiance": {
+  "studio": "n-Space",
+  "year": "2011"
+ },
  "nds__call-of-duty-modern-warfare-mobilized": {
   "studio": "n-Space",
   "year": "2009"
+ },
+ "nds__call-of-duty-world-at-war": {
+  "studio": "n-Space",
+  "year": "2008"
  },
  "nds__castlevania-dawn-of-sorrow": {
   "studio": "Konami",
@@ -10728,13 +10740,29 @@
   "studio": "Treyarch, Raven Software",
   "year": "2024"
  },
+ "pc-modern__call-of-duty-black-ops-cold-war": {
+  "studio": "Treyarch",
+  "year": "2020"
+ },
  "pc-modern__call-of-duty-black-ops-ii": {
   "studio": "Treyarch",
   "year": "2012"
  },
+ "pc-modern__call-of-duty-black-ops-iii": {
+  "studio": "Treyarch",
+  "year": "2015"
+ },
+ "pc-modern__call-of-duty-ghosts": {
+  "studio": "Infinity Ward",
+  "year": "2013"
+ },
  "pc-modern__call-of-duty-infinite-warfare": {
   "studio": "Infinity Ward",
   "year": "2016"
+ },
+ "pc-modern__call-of-duty-modern-warfare": {
+  "studio": "Infinity Ward",
+  "year": "2019"
  },
  "pc-modern__call-of-duty-modern-warfare-2": {
   "studio": "Infinity Ward",
@@ -10743,6 +10771,14 @@
  "pc-modern__call-of-duty-modern-warfare-3": {
   "studio": "Infinity Ward / Sledgehammer Games",
   "year": "2011"
+ },
+ "pc-modern__call-of-duty-modern-warfare-ii": {
+  "studio": "Infinity Ward",
+  "year": "2022"
+ },
+ "pc-modern__call-of-duty-modern-warfare-iii": {
+  "studio": "Sledgehammer Games",
+  "year": "2023"
  },
  "pc-modern__call-of-duty-vanguard": {
   "studio": "Sledgehammer Games",
@@ -13936,13 +13972,37 @@
   "studio": "Infinity Ward",
   "year": "2007"
  },
+ "ps3__call-of-duty-advanced-warfare": {
+  "studio": "High Moon Studios",
+  "year": "2014"
+ },
  "ps3__call-of-duty-black-ops": {
   "studio": "Treyarch",
   "year": "2010"
  },
+ "ps3__call-of-duty-black-ops-ii": {
+  "studio": "Treyarch",
+  "year": "2012"
+ },
+ "ps3__call-of-duty-black-ops-iii": {
+  "studio": "Beenox",
+  "year": "2015"
+ },
+ "ps3__call-of-duty-ghosts": {
+  "studio": "Infinity Ward",
+  "year": "2013"
+ },
  "ps3__call-of-duty-modern-warfare-2": {
   "studio": "Infinity Ward",
   "year": "2009"
+ },
+ "ps3__call-of-duty-modern-warfare-3": {
+  "studio": "Infinity Ward, Sledgehammer Games",
+  "year": "2011"
+ },
+ "ps3__call-of-duty-world-at-war": {
+  "studio": "Treyarch",
+  "year": "2008"
  },
  "ps3__castle-crashers": {
   "studio": "The Behemoth",
@@ -14684,9 +14744,25 @@
   "studio": "Stellar Entertainment",
   "year": "2018"
  },
+ "ps4__call-of-duty-advanced-warfare": {
+  "studio": "Sledgehammer Games",
+  "year": "2014"
+ },
  "ps4__call-of-duty-black-ops-4": {
   "studio": "Treyarch",
   "year": "2018"
+ },
+ "ps4__call-of-duty-black-ops-cold-war": {
+  "studio": "Treyarch",
+  "year": "2020"
+ },
+ "ps4__call-of-duty-black-ops-iii": {
+  "studio": "Treyarch",
+  "year": "2015"
+ },
+ "ps4__call-of-duty-ghosts": {
+  "studio": "Infinity Ward",
+  "year": "2013"
  },
  "ps4__call-of-duty-infinite-warfare": {
   "studio": "Infinity Ward",
@@ -14696,9 +14772,25 @@
   "studio": "Infinity Ward",
   "year": "2019"
  },
+ "ps4__call-of-duty-modern-warfare-ii": {
+  "studio": "Infinity Ward",
+  "year": "2022"
+ },
+ "ps4__call-of-duty-modern-warfare-iii": {
+  "studio": "Sledgehammer Games",
+  "year": "2023"
+ },
  "ps4__call-of-duty-vanguard": {
   "studio": "Sledgehammer Games",
   "year": "2021"
+ },
+ "ps4__call-of-duty-warzone": {
+  "studio": "Infinity Ward",
+  "year": "2020"
+ },
+ "ps4__call-of-duty-wwii": {
+  "studio": "Sledgehammer Games",
+  "year": "2017"
  },
  "ps4__celeste": {
   "studio": "Maddy Makes Games",
@@ -15351,6 +15443,18 @@
  "ps5__call-of-duty-black-ops-6": {
   "studio": "Treyarch, Raven Software",
   "year": "2024"
+ },
+ "ps5__call-of-duty-black-ops-cold-war": {
+  "studio": "Treyarch",
+  "year": "2020"
+ },
+ "ps5__call-of-duty-modern-warfare-ii": {
+  "studio": "Infinity Ward",
+  "year": "2022"
+ },
+ "ps5__call-of-duty-modern-warfare-iii": {
+  "studio": "Sledgehammer Games",
+  "year": "2023"
  },
  "ps5__call-of-duty-vanguard": {
   "studio": "Sledgehammer Games",
@@ -18837,9 +18941,17 @@
   "studio": "Treyarch",
   "year": "2006"
  },
+ "wii__call-of-duty-black-ops": {
+  "studio": "Treyarch",
+  "year": "2010"
+ },
  "wii__call-of-duty-modern-warfare-reflex-edition": {
   "studio": "Treyarch",
   "year": "2009"
+ },
+ "wii__call-of-duty-world-at-war": {
+  "studio": "Treyarch",
+  "year": "2008"
  },
  "wii__cave-story": {
   "studio": "Studio Pixel / Nicalis",
@@ -19493,6 +19605,10 @@
   "studio": "Infinity Ward",
   "year": "2007"
  },
+ "xbox-360__call-of-duty-advanced-warfare": {
+  "studio": "High Moon Studios",
+  "year": "2014"
+ },
  "xbox-360__call-of-duty-black-ops": {
   "studio": "Treyarch",
   "year": "2010"
@@ -19500,6 +19616,14 @@
  "xbox-360__call-of-duty-black-ops-ii": {
   "studio": "Treyarch",
   "year": "2012"
+ },
+ "xbox-360__call-of-duty-black-ops-iii": {
+  "studio": "Beenox",
+  "year": "2015"
+ },
+ "xbox-360__call-of-duty-ghosts": {
+  "studio": "Infinity Ward",
+  "year": "2013"
  },
  "xbox-360__call-of-duty-modern-warfare-2": {
   "studio": "Infinity Ward",
@@ -20161,13 +20285,25 @@
   "studio": "Criterion Games",
   "year": "2018"
  },
+ "xbox-one__call-of-duty-advanced-warfare": {
+  "studio": "Sledgehammer Games",
+  "year": "2014"
+ },
  "xbox-one__call-of-duty-black-ops-4": {
   "studio": "Treyarch",
   "year": "2018"
  },
+ "xbox-one__call-of-duty-black-ops-cold-war": {
+  "studio": "Treyarch",
+  "year": "2020"
+ },
  "xbox-one__call-of-duty-black-ops-iii": {
   "studio": "Treyarch",
   "year": "2015"
+ },
+ "xbox-one__call-of-duty-ghosts": {
+  "studio": "Infinity Ward",
+  "year": "2013"
  },
  "xbox-one__call-of-duty-infinite-warfare": {
   "studio": "Infinity Ward",
@@ -20177,9 +20313,25 @@
   "studio": "Infinity Ward",
   "year": "2019"
  },
+ "xbox-one__call-of-duty-modern-warfare-ii": {
+  "studio": "Infinity Ward",
+  "year": "2022"
+ },
+ "xbox-one__call-of-duty-modern-warfare-iii": {
+  "studio": "Sledgehammer Games",
+  "year": "2023"
+ },
  "xbox-one__call-of-duty-vanguard": {
   "studio": "Sledgehammer Games",
   "year": "2021"
+ },
+ "xbox-one__call-of-duty-warzone": {
+  "studio": "Infinity Ward",
+  "year": "2020"
+ },
+ "xbox-one__call-of-duty-wwii": {
+  "studio": "Sledgehammer Games",
+  "year": "2017"
  },
  "xbox-one__celeste": {
   "studio": "Matt Makes Games",

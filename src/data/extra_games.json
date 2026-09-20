@@ -12328,6 +12328,24 @@
    "genre": "Simulace",
    "length": "M",
    "name": "Retro Game Challenge"
+  },
+  {
+   "name": "Call of Duty: Black Ops",
+   "genre": "válečná FPS akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare 3 - Defiance",
+   "genre": "Akční střílečka (pohled třetí osoby)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: World at War",
+   "genre": "FPS",
+   "length": "S",
+   "flags": []
   }
  ],
  "neogeo": [
@@ -18431,6 +18449,42 @@
    "genre": "FPS / válečná akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops Cold War",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Ghosts",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare II",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
   }
  ],
  "pc-vr": [
@@ -22944,6 +22998,42 @@
    "genre": "FPS / válečná akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Call of Duty: Advanced Warfare",
+   "genre": "sci-fi FPS akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops II",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Ghosts",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare 3",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: World at War",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
   }
  ],
  "ps4": [
@@ -24146,6 +24236,54 @@
    "genre": "FPS / válečná akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Call of Duty: Advanced Warfare",
+   "genre": "sci-fi FPS akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops Cold War",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Ghosts",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare II",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: WWII",
+   "genre": "FPS",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Warzone",
+   "genre": "battle royale",
+   "length": "XL",
+   "flags": []
   }
  ],
  "ps5": [
@@ -25286,6 +25424,24 @@
    "name": "Call of Duty: Black Ops 6",
    "genre": "FPS / válečná akce",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops Cold War",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare II",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
    "flags": []
   }
  ],
@@ -29994,6 +30150,18 @@
    "genre": "FPS / válečná akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops",
+   "genre": "válečná FPS akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: World at War",
+   "genre": "FPS",
+   "length": "S",
+   "flags": []
   }
  ],
  "wii-u": [
@@ -33296,6 +33464,24 @@
    "genre": "Akční mech simulátor",
    "length": "M",
    "name": "Armored Core 4"
+  },
+  {
+   "name": "Call of Duty: Advanced Warfare",
+   "genre": "sci-fi FPS akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Ghosts",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
   }
  ],
  "xbox-one": [
@@ -34569,6 +34755,48 @@
    "name": "Call of Duty: Vanguard",
    "genre": "FPS / válečná akce",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Advanced Warfare",
+   "genre": "sci-fi FPS akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Black Ops Cold War",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Ghosts",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare II",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Modern Warfare III",
+   "genre": "Akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: WWII",
+   "genre": "FPS",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Warzone",
+   "genre": "battle royale",
+   "length": "XL",
    "flags": []
   }
  ],
