@@ -853,8 +853,22 @@ def classify_platform_bg():
     print(f"Klasifikace: {len(res)} platforem, světlé pozadí: {light}")
 
 
+# Dlouha strana velke verze snimku. Nahled zustava na 480 px, ale lightbox
+# obrazek zvetsuje pres celou obrazovku a 480 px v nem vypada rozmazane.
+VELKY_ROZMER = 1280
+
+
+def _je_snimek(p) -> bool:
+    """Snimek ze hry nebo titulni obrazovka — jen u nich ma velka verze smysl.
+    Obal se zobrazuje maly a v lightboxu na nej nikdo nekouka na celou plochu."""
+    return "-snap" in p.stem or p.stem.endswith("-title")
+
+
 def optimize_images():
-    """Zmenší a překomprimuje obrázky pro web. Hry -> WebP ~480px; platformy -> max 900px."""
+    """Zmenší a překomprimuje obrázky pro web. Hry -> WebP ~480px; platformy -> max 900px.
+
+    U snimku ze hry se navic uklada velka verze <jmeno>@big.webp pro lightbox.
+    """
     from PIL import Image
 
     # --- hry: PNG/JPG -> WebP 480px ---
@@ -863,15 +877,25 @@ def optimize_images():
     gdir = IMG / "games"
     srcs = [f for ext in ("*.png", "*.jpg", "*.jpeg") for f in gdir.rglob(ext)]
     before = sum(p.stat().st_size for p in srcs)
-    conv = 0
+    conv = velkych = 0
     for p in srcs:
         try:
-            im = Image.open(p)
+            orig = Image.open(p)
+            if orig.mode not in ("RGB", "RGBA"):
+                orig = orig.convert("RGBA")
+            if orig.mode == "RGBA" and p.suffix.lower() != ".png":
+                orig = orig.convert("RGB")
+
+            # Velka verze se uklada jen tehdy, kdyz je original opravdu vetsi
+            # nez nahled — jinak by vznikl druhy soubor s toutez informaci.
+            if _je_snimek(p) and max(orig.size) > 640:
+                velky = orig.copy()
+                velky.thumbnail((VELKY_ROZMER, VELKY_ROZMER), Image.LANCZOS)
+                velky.save(p.with_name(p.stem + "@big.webp"), "WEBP", quality=82, method=6)
+                velkych += 1
+
+            im = orig
             im.thumbnail((480, 480), Image.LANCZOS)
-            if im.mode not in ("RGB", "RGBA"):
-                im = im.convert("RGBA")
-            if im.mode == "RGBA" and p.suffix.lower() != ".png":
-                im = im.convert("RGB")
             webp = p.with_suffix(".webp")
             im.save(webp, "WEBP", quality=80, method=6)
             p.unlink()
@@ -879,7 +903,8 @@ def optimize_images():
         except Exception as e:  # noqa
             print(f"  [x] {p.name}: {e}")
     after = sum(f.stat().st_size for f in gdir.rglob("*.webp"))
-    print(f"Hry: {conv} obrázků -> WebP, {before//1024//1024} MB -> {after//1024//1024} MB")
+    print(f"Hry: {conv} obrázků -> WebP ({velkych} i ve velké verzi), "
+          f"{before//1024//1024} MB -> {after//1024//1024} MB")
 
     # --- platformy: zmenšit na 900 px a převést na WebP (mimo gif kvůli animaci) ---
     # PNG s průhledností jsou u fotek konzolí těžké (i 350 kB); WebP umí alfu taky
@@ -1614,8 +1639,15 @@ def dedupe_game_images(only=None):
             continue
         # seskupit soubory podle hry
         podle_hry = {}
+        velke = []
         for f in pdir.iterdir():
             if not f.is_file():
+                continue
+            # Velke verze do porovnavani nepatri — stejny snimek v 480 a 1280 px
+            # ma jine bajty, takze by se stejne nesparovaly, a jen by zamotaly
+            # skupiny. Osirele se uklidi az podle toho, co po dedupu zbylo.
+            if f.stem.endswith("@big"):
+                velke.append(f)
                 continue
             zaklad = f.stem
             for suf in ["-title"] + [f"-snap{i}" for i in range(9, 1, -1)] + ["-snap"]:
@@ -1641,6 +1673,13 @@ def dedupe_game_images(only=None):
                     dotcenych += 1
                 else:
                     videne[h] = f
+
+        # Velka verze bez sveho nahledu uz nema komu slouzit.
+        for f in velke:
+            nahled = f.with_name(f.stem[: -len("@big")] + ".webp")
+            if not nahled.exists():
+                f.unlink(missing_ok=True)
+                smazano += 1
     print(f"\nDuplicity: smazano {smazano} souboru")
 
 

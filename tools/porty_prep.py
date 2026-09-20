@@ -32,9 +32,12 @@ ARTDIR = ROOT / "src/data/articles"
 # u osmibitu a arkad je "port" casto uplne jina hra pod stejnym nazvem.
 POVOLENE = {
     "pc-modern", "pc-9x", "pc-dos", "ps2", "ps3", "ps4", "ps5", "playstation",
-    "xbox", "xbox-360", "xbox-one", "xbox-series", "switch", "gamecube", "wii",
-    "wii-u", "nds", "psp", "ps-vita", "dreamcast", "saturn", "n64", "snes",
-    "mega-drive",
+    "xbox", "xbox-360", "xbox-one", "xbox-series", "switch", "switch-2",
+    "gamecube", "wii", "wii-u", "nds", "3ds", "psp", "ps-vita", "dreamcast",
+    "saturn", "n64", "snes", "nes", "mega-drive", "master-system", "game-boy",
+    "game-boy-color", "game-boy-advance", "game-gear", "arcade", "mobil",
+    "amiga", "atari-st", "c64", "zx-spectrum", "msx", "amstrad-cpc",
+    "quest", "psvr2", "pc-vr",
 }
 
 

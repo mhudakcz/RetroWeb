@@ -731,7 +731,13 @@ def build():
                     break
                 src = find_image(sub, f"{gslug}{suffix}")
                 if src:
-                    gallery.append(dict(src=src, label=label, kind=kind))
+                    polozka = dict(src=src, label=label, kind=kind)
+                    # Velka verze pro lightbox; u starsich obrazku neexistuje
+                    # a lightbox si vystaci s nahledem.
+                    velky = find_image(sub, f"{gslug}{suffix}@big")
+                    if velky:
+                        polozka["full"] = velky
+                    gallery.append(polozka)
 
             games.append(dict(
                 slug=gslug, name=g["name"], genre=genre, length=g["length"],

@@ -22,7 +22,9 @@ export interface Game {
   detail: string | null;
   article: string | null;
   image: string | null;
-  gallery: { src: string; label: string; kind: string }[];
+  // `full` je velka verze snimku pro lightbox; u starsich obrazku chybi
+  // a lightbox si vystaci s nahledem.
+  gallery: { src: string; label: string; kind: string; full?: string }[];
   link: string | null;
   playUrl: string | null;
   players: string | null;

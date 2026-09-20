@@ -1,5 +1,7 @@
 // Obsah o hardwaru: retro handheldy a Batocera — dlouhé samostatné články.
 
+import hardwareExtra from './hardware_extra.json';
+
 export interface HardwareSpec {
   label: string;
   value: string;
@@ -30,7 +32,12 @@ export interface HardwareItem {
   options: { title: string; text: string }[];
 }
 
-export const hardware: HardwareItem[] = [
+/**
+ * Rucne psane polozky. Dalsi zarizeni se doplnuji davkou do hardware_extra.json —
+ * je jich desitky a psat je do TypeScriptu po jednom nema smysl. Poradi drzi
+ * rucni polozky napred, at zustane zachovana skladba uvodni stranky.
+ */
+const hardwareRucne: HardwareItem[] = [
   {
     slug: 'rg35xx-pro',
     name: 'Anbernic RG35XX Pro',
@@ -904,6 +911,11 @@ export const hardware: HardwareItem[] = [
       { title: 'Kup reedice', text: 'NSO, Steam/GOG kolekce, Antstream nebo Evercade — legální a podporuješ preservaci.' },
     ],
   },
+];
+
+export const hardware: HardwareItem[] = [
+  ...hardwareRucne,
+  ...(hardwareExtra as HardwareItem[]),
 ];
 
 export const HW_LEVEL_LABEL: Record<'ok' | 'most' | 'some', string> = {

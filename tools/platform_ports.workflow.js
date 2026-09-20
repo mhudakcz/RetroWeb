@@ -14,7 +14,7 @@ const pad = (n) => String(n).padStart(2, '0')
 
 log(`Doplneni portu: davky ${od}-${od + batches - 1}`)
 
-const SLUGS = 'pc-modern, pc-9x, pc-dos, ps2, ps3, ps4, ps5, playstation, xbox, xbox-360, xbox-one, xbox-series, switch, gamecube, wii, wii-u, nds, psp, ps-vita, dreamcast, saturn, n64, snes, mega-drive'
+const SLUGS = 'pc-modern, pc-9x, pc-dos, ps2, ps3, ps4, ps5, playstation, xbox, xbox-360, xbox-one, xbox-series, switch, switch-2, gamecube, wii, wii-u, nds, 3ds, psp, ps-vita, dreamcast, saturn, n64, snes, nes, mega-drive, master-system, game-boy, game-boy-color, game-boy-advance, game-gear, arcade, mobil, amiga, atari-st, c64, zx-spectrum, msx, amstrad-cpc, quest, psvr2, pc-vr'
 
 const jobs = Array.from({ length: batches }, (_, k) => {
   const i = od + k
@@ -43,6 +43,11 @@ Rada her je zamerne exkluzivni — Wii Sports vyslo jen na Wii, Resistance jen n
 PlayStationu, Blue Dragon jen na Xboxu 360. U takovych titulu nevrat NIC.
 Vymyslený port je horsi nez zadny, protoze na webu bude stat, ze hra na dane
 konzoli vysla, i kdyz nevysla. Kdyz si nejsi jisty, titul VYNECH.
+
+POZOR U OSMIBITU A ARKAD (c64, zx-spectrum, msx, amstrad-cpc, nes, arcade):
+tam casto vysla pod stejnym nazvem UPLNE JINA hra, ne port. "Rambo" na
+Spectru a "Rambo" na NES jsou dve ruzne hry. Na tyhle platformy pridavej jen
+tehdy, kdyz si jsi jisty, ze jde opravdu o tutez hru.
 
 Nepridavej:
 - pozdejsi remastery a remaky pod jinym nazvem (ty jsou samostatny titul)

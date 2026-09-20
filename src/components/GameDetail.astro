@@ -129,7 +129,7 @@ const posText = {
       {shots.map((s, i) => (
         <figure>
           <img src={s.src} alt={`${clean(game.name)} – ${shotLabel(s)}`} loading="lazy" decoding="async"
-               data-zoom={shotLabel(s)} data-pixel title={t(locale, 'zoom.open')} />
+               data-zoom={shotLabel(s)} data-full={s.full} data-pixel title={t(locale, 'zoom.open')} />
           <figcaption>{shotLabel(s)}</figcaption>
           {i === 1 && shots.length > 2 && (
             <span class="more-badge">+{shots.length - 2}</span>

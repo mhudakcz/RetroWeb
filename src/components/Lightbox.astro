@@ -68,7 +68,9 @@ const { locale = DEFAULT_LOCALE, selector = '[data-zoom]' } = Astro.props;
     function ukaz(i) {
       kde = (i + zdroje.length) % zdroje.length;
       var z = zdroje[kde];
-      img.src = z.getAttribute('src');
+      // Nahled je 480 px siroky a v lightboxu se roztahuje pres celou
+      // obrazovku, takze kdyz mame velkou verzi, bereme ji.
+      img.src = z.getAttribute('data-full') || z.getAttribute('src');
       img.alt = z.getAttribute('alt') || '';
       cap.textContent = popis(z);
       img.style.width = '';
