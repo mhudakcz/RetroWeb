@@ -787,6 +787,10 @@
   "studio": "Ocean Software",
   "year": "1989"
  },
+ "amiga__rogue": {
+  "studio": "A.I. Design (vydavatel Epyx)",
+  "year": "1986"
+ },
  "amiga__ruff-n-tumble": {
   "studio": "Bloodhouse",
   "year": "1994"
@@ -926,6 +930,10 @@
  },
  "amstrad-cpc__robocop": {
   "studio": "Ocean Software",
+  "year": "1988"
+ },
+ "amstrad-cpc__rogue": {
+  "studio": "Icon Design (vydavatel Mastertronic)",
   "year": "1988"
  },
  "amstrad-cpc__sir-fred": {
@@ -2776,6 +2784,10 @@
   "studio": "Ocean Software",
   "year": "1988"
  },
+ "atari-st__rogue": {
+  "studio": "A.I. Design (vydavatel Epyx)",
+  "year": "1986"
+ },
  "atari-st__secret-of-monkey-island": {
   "studio": "Lucasfilm Games",
   "year": "1991"
@@ -3058,6 +3070,10 @@
  "c64__renegade": {
   "studio": "Ocean Software",
   "year": "1987"
+ },
+ "c64__rogue": {
+  "studio": "Icon Design (vydavatel Mastertronic)",
+  "year": "1988"
  },
  "c64__saboteur": {
   "studio": "Durell Software",
@@ -9298,6 +9314,10 @@
   "studio": "DMA Design",
   "year": "1999"
  },
+ "pc-9x__grand-theft-auto-london-1969": {
+  "studio": "DMA Design",
+  "year": "1999"
+ },
  "pc-9x__grim-fandango": {
   "studio": "LucasArts",
   "year": "1998"
@@ -10194,6 +10214,10 @@
   "studio": "Apogee Software",
   "year": "1994"
  },
+ "pc-dos__rogue": {
+  "studio": "A.I. Design (vydavatel Epyx)",
+  "year": "1984"
+ },
  "pc-dos__sam-and-max-hit-road": {
   "studio": "LucasArts",
   "year": "1993"
@@ -11012,6 +11036,10 @@
   "studio": "FromSoftware",
   "year": "2022"
  },
+ "pc-modern__elden-ring-shadow-of-the-erdtree": {
+  "studio": "FromSoftware",
+  "year": "2024"
+ },
  "pc-modern__elder-scrolls-iii-morrowind": {
   "studio": "Bethesda Game Studios",
   "year": "2002"
@@ -11192,6 +11220,10 @@
   "studio": "CD Projekt Red",
   "year": "2018"
  },
+ "pc-modern__hades-ii": {
+  "studio": "Supergiant Games",
+  "year": "2024"
+ },
  "pc-modern__half-life-2": {
   "studio": "Valve",
   "year": "2004"
@@ -11243,6 +11275,10 @@
  "pc-modern__hitman-blood-money": {
   "studio": "IO Interactive",
   "year": "2006"
+ },
+ "pc-modern__hollow-knight-silksong": {
+  "studio": "Team Cherry",
+  "year": "2025"
  },
  "pc-modern__homeworld-2": {
   "studio": "Relic Entertainment",
@@ -11539,6 +11575,14 @@
  "pc-modern__papers-please": {
   "studio": "Lucas Pope",
   "year": "2013"
+ },
+ "pc-modern__path-of-exile": {
+  "studio": "Grinding Gear Games",
+  "year": "2013"
+ },
+ "pc-modern__path-of-exile-2": {
+  "studio": "Grinding Gear Games",
+  "year": "2024"
  },
  "pc-modern__pilgrims": {
   "studio": "Amanita Design",
@@ -12060,6 +12104,10 @@
   "studio": "Ready at Dawn",
   "year": "2017"
  },
+ "pc-vr__metro-awakening": {
+  "studio": "Vertigo Games",
+  "year": "2024"
+ },
  "pc-vr__microsoft-flight-simulator": {
   "studio": "Asobo Studio",
   "year": "2021"
@@ -12291,6 +12339,10 @@
  },
  "playstation__gran-turismo-2": {
   "studio": "Polyphony Digital",
+  "year": "1999"
+ },
+ "playstation__grand-theft-auto-london-1969": {
+  "studio": "DMA Design",
   "year": "1999"
  },
  "playstation__guilty-gear": {
@@ -14900,6 +14952,10 @@
   "studio": "FromSoftware",
   "year": "2022"
  },
+ "ps4__elden-ring-shadow-of-the-erdtree": {
+  "studio": "FromSoftware",
+  "year": "2024"
+ },
  "ps4__enter-gungeon": {
   "studio": "Dodge Roll",
   "year": "2016"
@@ -14991,6 +15047,10 @@
  "ps4__hollow-knight": {
   "studio": "Team Cherry",
   "year": "2017"
+ },
+ "ps4__hollow-knight-silksong": {
+  "studio": "Team Cherry",
+  "year": "2025"
  },
  "ps4__horizon-forbidden-west": {
   "studio": "Guerrilla Games",
@@ -15159,6 +15219,10 @@
  "ps4__overwatch": {
   "studio": "Blizzard Entertainment",
   "year": "2016"
+ },
+ "ps4__path-of-exile": {
+  "studio": "Grinding Gear Games",
+  "year": "2019"
  },
  "ps4__persona-5": {
   "studio": "Atlus",
@@ -15592,6 +15656,10 @@
   "studio": "FromSoftware",
   "year": "2022"
  },
+ "ps5__elden-ring-shadow-of-the-erdtree": {
+  "studio": "FromSoftware",
+  "year": "2024"
+ },
  "ps5__f1-23": {
   "studio": "Codemasters",
   "year": "2023"
@@ -15668,6 +15736,10 @@
   "studio": "Supergiant Games",
   "year": "2021"
  },
+ "ps5__hades-ii": {
+  "studio": "Supergiant Games",
+  "year": "2025"
+ },
  "ps5__helldivers-2": {
   "studio": "Arrowhead Game Studios",
   "year": "2024"
@@ -15679,6 +15751,10 @@
  "ps5__hogwarts-legacy": {
   "studio": "Avalanche Software",
   "year": "2023"
+ },
+ "ps5__hollow-knight-silksong": {
+  "studio": "Team Cherry",
+  "year": "2025"
  },
  "ps5__horizon-forbidden-west": {
   "studio": "Guerrilla Games",
@@ -15819,6 +15895,10 @@
  "ps5__party-animals": {
   "studio": "Recreate Games",
   "year": "2023"
+ },
+ "ps5__path-of-exile-2": {
+  "studio": "Grinding Gear Games",
+  "year": "2024"
  },
  "ps5__persona-3-reload": {
   "studio": "Atlus",
@@ -16265,6 +16345,10 @@
   "studio": "Better Than Life",
   "year": "2023"
  },
+ "psvr2__metro-awakening": {
+  "studio": "Vertigo Games",
+  "year": "2024"
+ },
  "psvr2__moss": {
   "studio": "Polyarc",
   "year": "2023"
@@ -16548,6 +16632,10 @@
  "quest__light-brigade": {
   "studio": "Funktronic Labs",
   "year": "2022"
+ },
+ "quest__metro-awakening": {
+  "studio": "Vertigo Games",
+  "year": "2024"
  },
  "quest__moss": {
   "studio": "Polyarc",
@@ -17376,8 +17464,16 @@
   "studio": "Shin'en Multimedia",
   "year": "2025"
  },
+ "switch-2__hades-ii": {
+  "studio": "Supergiant Games",
+  "year": "2025"
+ },
  "switch-2__hitman-world-of-assassination-signature-edition": {
   "studio": "IO Interactive",
+  "year": "2025"
+ },
+ "switch-2__hollow-knight-silksong": {
+  "studio": "Team Cherry",
   "year": "2025"
  },
  "switch-2__hyrule-warriors-age-of-imprisonment": {
@@ -17588,6 +17684,10 @@
   "studio": "Supergiant Games",
   "year": "2020"
  },
+ "switch__hades-ii": {
+  "studio": "Supergiant Games",
+  "year": "2025"
+ },
  "switch__hat-in-time": {
   "studio": "Gears for Breakfast",
   "year": "2019"
@@ -17595,6 +17695,10 @@
  "switch__hollow-knight": {
   "studio": "Team Cherry",
   "year": "2017"
+ },
+ "switch__hollow-knight-silksong": {
+  "studio": "Team Cherry",
+  "year": "2025"
  },
  "switch__hyper-light-drifter-special-edition": {
   "studio": "Heart Machine",
@@ -20453,6 +20557,10 @@
   "studio": "FromSoftware",
   "year": "2022"
  },
+ "xbox-one__elden-ring-shadow-of-the-erdtree": {
+  "studio": "FromSoftware",
+  "year": "2024"
+ },
  "xbox-one__elder-scrolls-v-skyrim-special-edition": {
   "studio": "Bethesda Game Studios",
   "year": "2016"
@@ -20589,6 +20697,10 @@
   "studio": "Team Cherry",
   "year": "2017"
  },
+ "xbox-one__hollow-knight-silksong": {
+  "studio": "Team Cherry",
+  "year": "2025"
+ },
  "xbox-one__inside": {
   "studio": "Playdead",
   "year": "2016"
@@ -20704,6 +20816,10 @@
  "xbox-one__overwatch": {
   "studio": "Blizzard Entertainment",
   "year": "2016"
+ },
+ "xbox-one__path-of-exile": {
+  "studio": "Grinding Gear Games",
+  "year": "2017"
  },
  "xbox-one__pentiment": {
   "studio": "Obsidian Entertainment",
@@ -21157,6 +21273,10 @@
   "studio": "FromSoftware",
   "year": "2022"
  },
+ "xbox-series__elden-ring-shadow-of-the-erdtree": {
+  "studio": "FromSoftware",
+  "year": "2024"
+ },
  "xbox-series__elder-scrolls-v-skyrim": {
   "studio": "Bethesda Game Studios",
   "year": "2021"
@@ -21229,6 +21349,10 @@
   "studio": "Supergiant Games",
   "year": "2021"
  },
+ "xbox-series__hades-ii": {
+  "studio": "Supergiant Games",
+  "year": "2025"
+ },
  "xbox-series__halo-infinite": {
   "studio": "343 Industries",
   "year": "2021"
@@ -21248,6 +21372,10 @@
  "xbox-series__hogwarts-legacy": {
   "studio": "Avalanche Software",
   "year": "2023"
+ },
+ "xbox-series__hollow-knight-silksong": {
+  "studio": "Team Cherry",
+  "year": "2025"
  },
  "xbox-series__hot-wheels-unleashed": {
   "studio": "Milestone",
@@ -21376,6 +21504,10 @@
  "xbox-series__outer-worlds-spacer-s-choice-edition": {
   "studio": "Obsidian Entertainment",
   "year": "2023"
+ },
+ "xbox-series__path-of-exile-2": {
+  "studio": "Grinding Gear Games",
+  "year": "2024"
  },
  "xbox-series__pentiment": {
   "studio": "Obsidian Entertainment",
@@ -22492,6 +22624,10 @@
  },
  "zx-spectrum__robocop": {
   "studio": "Ocean Software",
+  "year": "1988"
+ },
+ "zx-spectrum__rogue": {
+  "studio": "Icon Design (vydavatel Mastertronic)",
   "year": "1988"
  },
  "zx-spectrum__rychle-sipy-zahada-hlavolamu": {

@@ -1,5 +1,62 @@
 [
   {
+    "version": "2026.09.20",
+    "date": "2026-09-20",
+    "title": {
+      "cs": "Přihlášení jedním klikem a chytřejší hledání",
+      "en": "One-click sign-in and smarter search",
+      "de": "Anmeldung mit einem Klick und klügere Suche",
+      "fr": "Connexion en un clic et recherche plus maligne"
+    },
+    "entries": [
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Přihlášení je o krok kratší: místo opisování šestimístného kódu přijde e-mailem odkaz, na který stačí klepnout.",
+          "en": "Signing in takes one step less: instead of typing a six-digit code, you get a link in your e-mail and just tap it.",
+          "de": "Die Anmeldung ist einen Schritt kürzer: statt einen sechsstelligen Code abzutippen, bekommen Sie einen Link per E-Mail und tippen ihn einfach an.",
+          "fr": "La connexion compte une étape de moins : au lieu de recopier un code à six chiffres, vous recevez un lien par e-mail et il suffit de cliquer."
+        }
+      },
+      {
+        "tag": "fix",
+        "text": {
+          "cs": "Hledání zvládá volnější shody. Dřív muselo sedět přesné souvislé znění, takže „zelda ocarina“ nenašlo nic — mezi těmi slovy je „The Legend of“. Nově můžou být slova v libovolném pořadí a projde i překlep: „residnt evil“ najde Resident Evil.",
+          "en": "Search now copes with looser matches. It used to need one exact contiguous phrase, so “zelda ocarina” found nothing — “The Legend of” sits between those words. Words can now come in any order, and a typo still works: “residnt evil” finds Resident Evil.",
+          "de": "Die Suche kommt mit ungenaueren Treffern zurecht. Früher musste eine exakte zusammenhängende Wortfolge passen, sodass „zelda ocarina“ nichts fand — dazwischen steht „The Legend of“. Die Wörter dürfen nun in beliebiger Reihenfolge stehen, und auch ein Tippfehler geht durch: „residnt evil“ findet Resident Evil.",
+          "fr": "La recherche accepte des correspondances plus souples. Il fallait auparavant une suite de mots exacte, si bien que « zelda ocarina » ne donnait rien — « The Legend of » se glisse entre les deux. Les mots peuvent désormais être dans n’importe quel ordre, et une faute de frappe passe aussi : « residnt evil » trouve Resident Evil."
+        }
+      },
+      {
+        "tag": "games",
+        "text": {
+          "cs": "Call of Duty bylo v katalogu jen z poloviny: chyběly díly jako Finest Hour, Big Red One, Infinite Warfare nebo Vanguard a u těch, které tu byly, chyběly platformy — Ghosts měl jednu místo šesti. Série má nově 32 titulů. Přibyly i chybějící hry z jiných značek: Path of Exile, Hades II, Legend of Grimrock, Metro: Last Light nebo původní Rogue z roku 1980.",
+          "en": "Call of Duty was only half-covered: entries like Finest Hour, Big Red One, Infinite Warfare and Vanguard were missing, and the ones present lacked platforms — Ghosts had one instead of six. The series now has 32 titles. Games missing from other franchises were added too: Path of Exile, Hades II, Legend of Grimrock, Metro: Last Light and the original 1980 Rogue.",
+          "de": "Call of Duty war nur halb erfasst: Teile wie Finest Hour, Big Red One, Infinite Warfare und Vanguard fehlten, und den vorhandenen fehlten Plattformen — Ghosts hatte eine statt sechs. Die Reihe hat jetzt 32 Titel. Auch aus anderen Marken kamen fehlende Spiele dazu: Path of Exile, Hades II, Legend of Grimrock, Metro: Last Light und das ursprüngliche Rogue von 1980.",
+          "fr": "Call of Duty n’était couvert qu’à moitié : des épisodes comme Finest Hour, Big Red One, Infinite Warfare ou Vanguard manquaient, et ceux présents n’avaient pas toutes leurs plateformes — Ghosts en avait une au lieu de six. La série compte désormais 32 titres. D’autres franchises ont aussi été complétées : Path of Exile, Hades II, Legend of Grimrock, Metro: Last Light et le Rogue original de 1980."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Průvodní text má 238 sérií z 240 — a nově i S.T.A.L.K.E.R. a Metro, které jako série vedené nebyly. U stránky série se dá z úvodu skočit rovnou na seznam dílů.",
+          "en": "238 of 240 series now have a write-up — including S.T.A.L.K.E.R. and Metro, which were not tracked as series at all. On a series page you can jump straight from the intro to the list of entries.",
+          "de": "238 von 240 Reihen haben jetzt einen Begleittext — darunter S.T.A.L.K.E.R. und Metro, die gar nicht als Reihe geführt wurden. Auf einer Reihenseite führt ein Sprung direkt von der Einleitung zur Liste der Teile.",
+          "fr": "238 séries sur 240 ont désormais un texte de présentation — dont S.T.A.L.K.E.R. et Metro, qui n’étaient pas suivies comme séries. Sur la page d’une série, un lien mène de l’introduction à la liste des épisodes."
+        }
+      },
+      {
+        "tag": "images",
+        "text": {
+          "cs": "Snímky ze hry se nově ukládají i ve velkém rozlišení, takže po zvětšení nejsou rozmazané. Týká se to zatím nově přidávaných obrázků; zbytek katalogu přijde na řadu později.",
+          "en": "In-game screenshots are now also stored at a high resolution, so they no longer look blurry when enlarged. This covers newly added images for now; the rest of the catalogue will follow.",
+          "de": "Spielszenen werden jetzt zusätzlich in hoher Auflösung gespeichert, sodass sie vergrößert nicht mehr unscharf wirken. Das gilt vorerst für neu hinzugefügte Bilder; der Rest des Katalogs folgt später.",
+          "fr": "Les captures de jeu sont désormais aussi enregistrées en haute résolution, afin qu’elles ne soient plus floues une fois agrandies. Cela concerne pour l’instant les images nouvellement ajoutées ; le reste du catalogue suivra."
+        }
+      }
+    ]
+  },
+  {
     "version": "2026.09.13b",
     "date": "2026-09-13",
     "title": {

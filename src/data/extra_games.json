@@ -1299,6 +1299,12 @@
    "genre": "Budovatelská strategie",
    "length": "M",
    "name": "Utopia"
+  },
+  {
+   "name": "Rogue",
+   "genre": "roguelike (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "amiga-cd32": [
@@ -1405,6 +1411,12 @@
    "genre": "Sport / Atletika",
    "length": "M",
    "name": "Daley Thompson's Decathlon"
+  },
+  {
+   "name": "Rogue",
+   "genre": "roguelike (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "arcade": [
@@ -4212,6 +4224,12 @@
    "genre": "Plošinovka",
    "length": "S",
    "name": "Stormlord"
+  },
+  {
+   "name": "Rogue",
+   "genre": "roguelike (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "c64": [
@@ -4698,6 +4716,12 @@
    "genre": "Adventura",
    "length": "M",
    "name": "1985: The Day After"
+  },
+  {
+   "name": "Rogue",
+   "genre": "roguelike (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "cardboard": [
@@ -14575,6 +14599,12 @@
    "genre": "Budovatelská strategie",
    "length": "L",
    "name": "Dungeon Keeper 2"
+  },
+  {
+   "name": "Grand Theft Auto: London 1969",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -15820,6 +15850,12 @@
    "genre": "Budovatelská",
    "length": "L",
    "name": "SimCity"
+  },
+  {
+   "name": "Rogue",
+   "genre": "roguelike (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "pc-engine": [
@@ -18485,6 +18521,36 @@
    "genre": "Akční střílečka (FPS)",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Hades II",
+   "genre": "Roguelike / akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Path of Exile",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Path of Exile 2",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Elden Ring: Shadow of the Erdtree",
+   "genre": "Akční RPG (soulslike)",
+   "length": "L",
+   "flags": []
   }
  ],
  "pc-vr": [
@@ -18683,6 +18749,12 @@
    "genre": "Tvůrčí nástroj / VR malba",
    "length": "S",
    "name": "Tilt Brush"
+  },
+  {
+   "name": "Metro Awakening",
+   "genre": "VR akční adventura / horor",
+   "length": "M",
+   "flags": []
   }
  ],
  "pico-8": [
@@ -19369,6 +19441,12 @@
    "genre": "Akční běh",
    "length": "S",
    "name": "Pepsiman"
+  },
+  {
+   "name": "Grand Theft Auto: London 1969",
+   "genre": "Akční",
+   "length": "S",
+   "flags": []
   }
  ],
  "ps-vita": [
@@ -24284,6 +24362,24 @@
    "genre": "battle royale",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Path of Exile",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Elden Ring: Shadow of the Erdtree",
+   "genre": "Akční RPG (soulslike)",
+   "length": "L",
+   "flags": []
   }
  ],
  "ps5": [
@@ -25443,6 +25539,30 @@
    "genre": "Akční střílečka (FPS)",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Hades II",
+   "genre": "Roguelike / akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Path of Exile 2",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Elden Ring: Shadow of the Erdtree",
+   "genre": "Akční RPG (soulslike)",
+   "length": "L",
+   "flags": []
   }
  ],
  "psp": [
@@ -25965,6 +26085,12 @@
    "genre": "Puzzle",
    "length": "S",
    "name": "Tetris Effect: Connected"
+  },
+  {
+   "name": "Metro Awakening",
+   "genre": "VR akční adventura / horor",
+   "length": "M",
+   "flags": []
   }
  ],
  "quest": [
@@ -26374,6 +26500,12 @@
    "genre": "Minigolf s hádankami",
    "length": "S",
    "name": "Ghost Town Mini Golf"
+  },
+  {
+   "name": "Metro Awakening",
+   "genre": "VR akční adventura / horor",
+   "length": "M",
+   "flags": []
   }
  ],
  "saturn": [
@@ -28168,6 +28300,18 @@
    "genre": "Adventura / Detektivní puzzle",
    "length": "M",
    "name": "Return of the Obra Dinn"
+  },
+  {
+   "name": "Hades II",
+   "genre": "Roguelike / akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
   }
  ],
  "switch-2": [
@@ -28352,6 +28496,18 @@
    "genre": "Strategie",
    "length": "XL",
    "name": "Sid Meier's Civilization VII"
+  },
+  {
+   "name": "Hades II",
+   "genre": "Roguelike / akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
   }
  ],
  "vectrex": [
@@ -34798,6 +34954,24 @@
    "genre": "battle royale",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Path of Exile",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Elden Ring: Shadow of the Erdtree",
+   "genre": "Akční RPG (soulslike)",
+   "length": "L",
+   "flags": []
   }
  ],
  "xbox-series": [
@@ -35910,6 +36084,30 @@
    "genre": "FPS / válečná akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Hades II",
+   "genre": "Roguelike / akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Path of Exile 2",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Hollow Knight: Silksong",
+   "genre": "Metroidvania / akční plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Elden Ring: Shadow of the Erdtree",
+   "genre": "Akční RPG (soulslike)",
+   "length": "L",
+   "flags": []
   }
  ],
  "zx-spectrum": [
@@ -36401,6 +36599,12 @@
    "genre": "Akční plošinovka",
    "length": "S",
    "name": "Wizball"
+  },
+  {
+   "name": "Rogue",
+   "genre": "roguelike (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "zx81": [
