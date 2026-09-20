@@ -94,7 +94,24 @@ Delší text není týž text rozředěný — když je prostoru víc, patří t
 
 ## Co k tomu ještě patří
 
-### 7. Kontrola duplicit proti jinému zápisu
+### 7. Doplňování hry na další platformy
+
+Katalog vede hru zvlášť pro každou platformu, takže u multiplatformního titulu
+chybí vydání, dokud ho někdo nedoplní. Dělá to `tools/porty_prep.py` +
+`platform_ports.workflow.js`, ale **návrh nikdy nejde do katalogu rovnou** —
+mezi tím je `ports_verify.workflow.js` v roli advokáta ďábla.
+
+Nejčastější chyba není vymyšlený port, ale **správná hra pod názvem, který patří
+jiné verzi**. „Call of Duty: Modern Warfare: Reflex Edition" bylo označení jen
+pro Wii; na PS2 vyšlo totéž jako „Call of Duty 4: Modern Warfare". První kolo
+ověřování to propustilo, protože se ptalo jen „vyšla ta hra tam?". Musí se ptát
+i **„vyšla tam pod tímhle názvem?"** — to samé platí pro „Ultimate Edition",
+„Definitive Edition", „HD Remaster" a „Trilogy".
+
+Duplicity se porovnávají **normalizovaným názvem**, ne přesným řetězcem: lišila
+se jediná dvojtečka a vznikly by dva záznamy téže hry.
+
+### 8. Kontrola duplicit proti jinému zápisu
 
 Nestačí porovnat přesný název. Tytéž hry vedeme často jinak:
 
@@ -108,27 +125,27 @@ Poslední případ řetězcově dohledat **nejde**; u známých her se to musí 
 znalostí. Bez téhle kontroly vznikají dvojité záznamy — takhle vzniklo `1941`
 vedle `1941: Counter Attack`.
 
-### 8. Ostatní pole
+### 9. Ostatní pole
 
 Žánr, studio, délka hraní (S/M/L/XL), počet hráčů, příznaky
 (`mustplay`, `homebrew`, `puzzle`, `mature`).
 
-### 9. Odkaz na hraní
+### 10. Odkaz na hraní
 
 U webových her, které dodnes běží, doplnit `game_play.json`. **Každou adresu
 ověřit dotazem** — mrtvý odkaz je horší než žádný.
 
-### 10. Překlady
+### 11. Překlady
 
 EN, DE i FR. Francouzština má vlastní workflow (`i18n_fr.workflow.js`), zbytek
 `i18n_finish.workflow.js`.
 
-### 11. „Čím začít"
+### 12. „Čím začít"
 
 Když přibude na platformě hodně her, projít výběr doporučení — nové silné
 tituly do něj patří.
 
-### 12. Záznam do „Co je nového“
+### 13. Záznam do „Co je nového“
 
 Každé nasazení na produkci musí dostat záznam v `src/data/changelog.json` —
 a to **ve všech čtyřech jazycích**, stejně jako zbytek webu. Týká se to obojího:

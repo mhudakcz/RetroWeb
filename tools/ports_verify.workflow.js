@@ -34,6 +34,16 @@ PC, Bloodborne neni na Xboxu, Halo neni na PlayStationu. Kdyz si u radku nejsi
 JISTY, zamitni ho. Zamitnuty radek se jen nepouzije; potvrzeny se objevi na
 webu jako fakt, takze omyl je tam draz.
 
+POZOR NA NAZVY VAZANE NA JEDNU PLATFORMU. Nejcastejsi chyba neni vymysleny port,
+ale SPRAVNA hra pod NAZVEM, ktery patri jine verzi:
+- "Call of Duty: Modern Warfare: Reflex Edition" bylo oznaceni VYHRADNE pro Wii.
+  Na PS2 sice vysla verze Modern Warfare, ale jmenovala se "Call of Duty 4:
+  Modern Warfare". Radek s Reflex Edition na PS2 je proto NEPRAVDIVY.
+- Stejne tak "Ultimate Edition", "Definitive Edition", "HD Remaster" nebo
+  "Trilogy" byvaji vazane na konkretni platformu nebo generaci.
+U kazdeho radku se proto ptej nejen "vysla ta hra tam?", ale i "vysla tam POD
+TIMTO nazvem?". Kdyz ne, zamitni.
+
 Zamitni take radek, kde:
 - hra na platforme vysla, ale az v jinem roce nez o pet let (spatny rok)
 - jde o remaster nebo remake pod jinym nazvem, ne o tutez hru

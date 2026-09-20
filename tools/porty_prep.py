@@ -98,6 +98,11 @@ def prepare(work: Path, jen_serie: bool, od_roku: int, size: int) -> None:
     print(f'args: {{"base": "{work.as_posix()}", "batches": {n}}}')
 
 
+def _norm(name: str) -> str:
+    """Nazev bez interpunkce a vicenasobnych mezer, pro porovnavani duplicit."""
+    return re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
+
+
 def _slugify(platform: str, name: str) -> str:
     z = name.lower()
     z = z.replace("&", " and ")
@@ -107,7 +112,10 @@ def _slugify(platform: str, name: str) -> str:
 
 def merge(work: Path) -> None:
     data = json.loads((ROOT / "src/data/dataset.json").read_text("utf-8"))
-    zname = {(p["slug"], g["name"].lower()) for p in data["platforms"] for g in p["games"]}
+    # Porovnava se normalizovany nazev, ne presny retezec: agent vratil
+    # "Call of Duty: Modern Warfare: Reflex Edition" vedle uz vedeneho
+    # "Call of Duty: Modern Warfare Reflex Edition" a lisily se jen dvojteckou.
+    zname = {(p["slug"], _norm(g["name"])) for p in data["platforms"] for g in p["games"]}
     znamy_slug = {g["slug"] for p in data["platforms"] for g in p["games"]}
     plat_rok = {p["slug"]: p["year"] for p in data["platforms"]}
 
@@ -138,7 +146,7 @@ def merge(work: Path) -> None:
                 zahod("neplatna platforma nebo nazev")
                 preskoceno += 1
                 continue
-            if (plat, nazev.lower()) in zname:
+            if (plat, _norm(nazev)) in zname:
                 zahod("uz v katalogu")
                 preskoceno += 1
                 continue
@@ -179,7 +187,7 @@ def merge(work: Path) -> None:
                 meta[gslug]["studio"] = it["studio"].strip()
             clanky[gslug] = clanek
             znamy_slug.add(gslug)
-            zname.add((plat, nazev.lower()))
+            zname.add((plat, _norm(nazev)))
             pridano += 1
 
     EXTRA.write_text(json.dumps(extra, ensure_ascii=False, indent=1), encoding="utf-8")
