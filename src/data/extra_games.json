@@ -18551,6 +18551,108 @@
    "genre": "Akční RPG (soulslike)",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "S.T.A.L.K.E.R.: Clear Sky",
+   "genre": "FPS / survival horror",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+   "genre": "FPS / survival horror",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Metro: Last Light",
+   "genre": "FPS / survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metro 2033 Redux",
+   "genre": "FPS / survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metro: Last Light Redux",
+   "genre": "FPS / survival horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Legend of Grimrock",
+   "genre": "dungeon crawler RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Legend of Grimrock II",
+   "genre": "dungeon crawler RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: ProStreet",
+   "genre": "závodní hra (arkádové okruhové závody)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Undercover",
+   "genre": "závodní hra (akční pouliční závody)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: The Run",
+   "genre": "závodní hra (akční závody)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Shift 2 Unleashed",
+   "genre": "závodní simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XI",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XIII-2",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lightning Returns: Final Fantasy XIII",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Universe",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Persona 5 Strikers",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Online 2",
+   "genre": "Online akční RPG (MMORPG)",
+   "length": "XL",
+   "flags": []
   }
  ],
  "pc-vr": [
@@ -19447,6 +19549,12 @@
    "genre": "Akční",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Final Fantasy V",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
   }
  ],
  "ps-vita": [
@@ -20281,6 +20389,12 @@
    "name": "Call of Duty: Black Ops Declassified",
    "genre": "FPS / akční střílečka",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Online 2",
+   "genre": "Online akční RPG (MMORPG)",
+   "length": "XL",
    "flags": []
   }
  ],
@@ -21630,6 +21744,24 @@
    "name": "Call of Duty: World at War - Final Fronts",
    "genre": "FPS / válečná akce",
    "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XI",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Universe",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Fallout: Brotherhood of Steel",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "M",
    "flags": []
   }
  ],
@@ -23112,6 +23244,54 @@
    "genre": "FPS",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Metro: Last Light",
+   "genre": "FPS / survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: ProStreet",
+   "genre": "závodní hra (arkádové okruhové závody)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Undercover",
+   "genre": "závodní hra (akční pouliční závody)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: The Run",
+   "genre": "závodní hra (akční závody)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Shift 2 Unleashed",
+   "genre": "závodní simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XIII-2",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lightning Returns: Final Fantasy XIII",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Persona 4 Arena",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
   }
  ],
  "ps4": [
@@ -24379,6 +24559,24 @@
    "name": "Elden Ring: Shadow of the Erdtree",
    "genre": "Akční RPG (soulslike)",
    "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Metro 2033 Redux",
+   "genre": "FPS / survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metro: Last Light Redux",
+   "genre": "FPS / survival horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Online 2",
+   "genre": "Online akční RPG (MMORPG)",
+   "length": "XL",
    "flags": []
   }
  ],
@@ -27444,6 +27642,12 @@
    "genre": "Sportovní (baseball, sci-fi)",
    "length": "M",
    "name": "Super Baseball 2020"
+  },
+  {
+   "name": "Final Fantasy V",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
   }
  ],
  "switch": [
@@ -30866,6 +31070,12 @@
    "genre": "Puzzle plošinovka",
    "length": "S",
    "name": "Mighty Switch Force! Hyper Drive Edition"
+  },
+  {
+   "name": "Need for Speed: Most Wanted U",
+   "genre": "Závodní hra (arkádové závody)",
+   "length": "M",
+   "flags": []
   }
  ],
  "wonderswan": [
@@ -32364,6 +32574,12 @@
    "genre": "FPS / válečná akce",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Fallout: Brotherhood of Steel",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "M",
+   "flags": []
   }
  ],
  "xbox-360": [
@@ -33636,6 +33852,60 @@
   {
    "name": "Call of Duty: Ghosts",
    "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metro: Last Light",
+   "genre": "FPS / survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: ProStreet",
+   "genre": "závodní hra (arkádové okruhové závody)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Undercover",
+   "genre": "závodní hra (akční pouliční závody)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: The Run",
+   "genre": "závodní hra (akční závody)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: Shift 2 Unleashed",
+   "genre": "závodní simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XI",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy XIII-2",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lightning Returns: Final Fantasy XIII",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Persona 4 Arena",
+   "genre": "bojová hra",
    "length": "M",
    "flags": []
   }
@@ -34971,6 +35241,24 @@
    "name": "Elden Ring: Shadow of the Erdtree",
    "genre": "Akční RPG (soulslike)",
    "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Metro 2033 Redux",
+   "genre": "FPS / survival horror",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metro: Last Light Redux",
+   "genre": "FPS / survival horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Online 2",
+   "genre": "Online akční RPG (MMORPG)",
+   "length": "XL",
    "flags": []
   }
  ],

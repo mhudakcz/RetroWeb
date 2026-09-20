@@ -11152,6 +11152,14 @@
   "studio": "Polytron Corporation",
   "year": "2013"
  },
+ "pc-modern__final-fantasy-xi": {
+  "studio": "Square",
+  "year": "2002"
+ },
+ "pc-modern__final-fantasy-xiii-2": {
+  "studio": "Square Enix",
+  "year": "2014"
+ },
  "pc-modern__final-fantasy-xiv-realm-reborn": {
   "studio": "Square Enix",
   "year": "2013"
@@ -11368,9 +11376,21 @@
   "studio": "Valve",
   "year": "2009"
  },
+ "pc-modern__legend-of-grimrock": {
+  "studio": "Almost Human Games",
+  "year": "2012"
+ },
+ "pc-modern__legend-of-grimrock-ii": {
+  "studio": "Almost Human Games",
+  "year": "2014"
+ },
  "pc-modern__legends-of-runeterra": {
   "studio": "Riot Games",
   "year": "2020"
+ },
+ "pc-modern__lightning-returns-final-fantasy-xiii": {
+  "studio": "Square Enix",
+  "year": "2015"
  },
  "pc-modern__lineage-ii": {
   "studio": "NCSoft",
@@ -11472,6 +11492,18 @@
   "studio": "Kojima Productions",
   "year": "2015"
  },
+ "pc-modern__metro-2033-redux": {
+  "studio": "4A Games",
+  "year": "2014"
+ },
+ "pc-modern__metro-last-light": {
+  "studio": "4A Games",
+  "year": "2013"
+ },
+ "pc-modern__metro-last-light-redux": {
+  "studio": "4A Games",
+  "year": "2014"
+ },
  "pc-modern__microsoft-flight-simulator": {
   "studio": "Asobo Studio",
   "year": "2020"
@@ -11512,9 +11544,25 @@
   "studio": "EA Black Box",
   "year": "2005"
  },
+ "pc-modern__need-for-speed-prostreet": {
+  "studio": "EA Black Box",
+  "year": "2007"
+ },
  "pc-modern__need-for-speed-shift": {
   "studio": "Slightly Mad Studios",
   "year": "2009"
+ },
+ "pc-modern__need-for-speed-shift-2-unleashed": {
+  "studio": "Slightly Mad Studios",
+  "year": "2011"
+ },
+ "pc-modern__need-for-speed-the-run": {
+  "studio": "EA Black Box",
+  "year": "2011"
+ },
+ "pc-modern__need-for-speed-undercover": {
+  "studio": "EA Black Box",
+  "year": "2008"
  },
  "pc-modern__need-for-speed-underground": {
   "studio": "EA Black Box",
@@ -11583,6 +11631,18 @@
  "pc-modern__path-of-exile-2": {
   "studio": "Grinding Gear Games",
   "year": "2024"
+ },
+ "pc-modern__persona-5-strikers": {
+  "studio": "Omega Force",
+  "year": "2021"
+ },
+ "pc-modern__phantasy-star-online-2": {
+  "studio": "Sega / Sonic Team",
+  "year": "2012"
+ },
+ "pc-modern__phantasy-star-universe": {
+  "studio": "Sonic Team",
+  "year": "2006"
  },
  "pc-modern__pilgrims": {
   "studio": "Amanita Design",
@@ -11671,6 +11731,14 @@
  "pc-modern__runescape": {
   "studio": "Jagex",
   "year": "2001"
+ },
+ "pc-modern__s-t-a-l-k-e-r-call-of-pripyat": {
+  "studio": "GSC Game World",
+  "year": "2009"
+ },
+ "pc-modern__s-t-a-l-k-e-r-clear-sky": {
+  "studio": "GSC Game World",
+  "year": "2008"
  },
  "pc-modern__s-t-l-k-e-r-shadow-of-chernobyl": {
   "studio": "GSC Game World",
@@ -12325,6 +12393,10 @@
   "studio": "Kronos Digital Entertainment",
   "year": "2000"
  },
+ "playstation__final-fantasy-v": {
+  "studio": "Square",
+  "year": "1999"
+ },
  "playstation__front-mission-3": {
   "studio": "Squaresoft",
   "year": "1999"
@@ -12932,6 +13004,10 @@
   "studio": "Atlus",
   "year": "2012"
  },
+ "ps-vita__phantasy-star-online-2": {
+  "studio": "Sega / Sonic Team",
+  "year": "2013"
+ },
  "ps-vita__ratchet-and-clank-collection": {
   "studio": "Mass Media",
   "year": "2014"
@@ -13300,6 +13376,10 @@
   "studio": "Quantic Dream",
   "year": "2005"
  },
+ "ps2__fallout-brotherhood-of-steel": {
+  "studio": "Black Isle Studios",
+  "year": "2004"
+ },
  "ps2__fatal-frame": {
   "studio": "Tecmo",
   "year": "2002"
@@ -13323,6 +13403,10 @@
  "ps2__final-fantasy-x-2": {
   "studio": "Square Enix",
   "year": "2003"
+ },
+ "ps2__final-fantasy-xi": {
+  "studio": "Square",
+  "year": "2002"
  },
  "ps2__final-fantasy-xii": {
   "studio": "Square Enix",
@@ -13587,6 +13671,10 @@
  "ps2__persona-4": {
   "studio": "Atlus",
   "year": "2008"
+ },
+ "ps2__phantasy-star-universe": {
+  "studio": "Sonic Team",
+  "year": "2006"
  },
  "ps2__phantom-brave": {
   "studio": "Nippon Ichi Software",
@@ -14224,6 +14312,10 @@
   "studio": "Square Enix",
   "year": "2010"
  },
+ "ps3__final-fantasy-xiii-2": {
+  "studio": "Square Enix",
+  "year": "2011"
+ },
  "ps3__flow": {
   "studio": "thatgamecompany",
   "year": "2007"
@@ -14328,6 +14420,10 @@
   "studio": "Traveller's Tales",
   "year": "2013"
  },
+ "ps3__lightning-returns-final-fantasy-xiii": {
+  "studio": "Square Enix",
+  "year": "2013"
+ },
  "ps3__limbo": {
   "studio": "Playdead",
   "year": "2011"
@@ -14380,6 +14476,10 @@
   "studio": "Kojima Productions / Bluepoint Games",
   "year": "2011"
  },
+ "ps3__metro-last-light": {
+  "studio": "4A Games",
+  "year": "2013"
+ },
  "ps3__midnight-club-los-angeles": {
   "studio": "Rockstar San Diego",
   "year": "2008"
@@ -14420,6 +14520,22 @@
   "studio": "Criterion Games",
   "year": "2012"
  },
+ "ps3__need-for-speed-prostreet": {
+  "studio": "EA Black Box",
+  "year": "2007"
+ },
+ "ps3__need-for-speed-shift-2-unleashed": {
+  "studio": "Slightly Mad Studios",
+  "year": "2011"
+ },
+ "ps3__need-for-speed-the-run": {
+  "studio": "EA Black Box",
+  "year": "2011"
+ },
+ "ps3__need-for-speed-undercover": {
+  "studio": "EA Black Box",
+  "year": "2008"
+ },
  "ps3__ni-no-kuni-wrath-of-white-witch": {
   "studio": "Level-5",
   "year": "2011"
@@ -14442,6 +14558,10 @@
  },
  "ps3__papo-and-yo": {
   "studio": "Minority",
+  "year": "2012"
+ },
+ "ps3__persona-4-arena": {
+  "studio": "Arc System Works",
   "year": "2012"
  },
  "ps3__persona-5": {
@@ -15156,9 +15276,17 @@
   "studio": "Kojima Productions",
   "year": "2015"
  },
+ "ps4__metro-2033-redux": {
+  "studio": "4A Games",
+  "year": "2014"
+ },
  "ps4__metro-exodus": {
   "studio": "4A Games",
   "year": "2019"
+ },
+ "ps4__metro-last-light-redux": {
+  "studio": "4A Games",
+  "year": "2014"
  },
  "ps4__monster-hunter-world": {
   "studio": "Capcom",
@@ -15230,6 +15358,10 @@
  },
  "ps4__persona-5-royal": {
   "studio": "Atlus",
+  "year": "2020"
+ },
+ "ps4__phantasy-star-online-2": {
+  "studio": "Sega / Sonic Team",
   "year": "2020"
  },
  "ps4__pillars-of-eternity-complete-edition": {
@@ -17161,6 +17293,10 @@
   "year": "1993"
  },
  "snes__final-fantasy-iv-v": {},
+ "snes__final-fantasy-v": {
+  "studio": "Square",
+  "year": "1992"
+ },
  "snes__final-fantasy-vi": {},
  "snes__front-mission-gun-hazard": {},
  "snes__goof-troop": {
@@ -18873,6 +19009,10 @@
   "studio": "Visual Concepts",
   "year": "2013"
  },
+ "wii-u__need-for-speed-most-wanted-u": {
+  "studio": "Criterion Games",
+  "year": "2013"
+ },
  "wii-u__never-alone": {
   "studio": "Upper One Games / E-Line Media",
   "year": "2015"
@@ -19909,9 +20049,17 @@
   "studio": "EA Chicago",
   "year": "2006"
  },
+ "xbox-360__final-fantasy-xi": {
+  "studio": "Square Enix",
+  "year": "2006"
+ },
  "xbox-360__final-fantasy-xiii": {
   "studio": "Square Enix",
   "year": "2010"
+ },
+ "xbox-360__final-fantasy-xiii-2": {
+  "studio": "Square Enix",
+  "year": "2011"
  },
  "xbox-360__forza-horizon": {
   "studio": "Playground Games",
@@ -20033,6 +20181,10 @@
   "studio": "Valve",
   "year": "2009"
  },
+ "xbox-360__lightning-returns-final-fantasy-xiii": {
+  "studio": "Square Enix",
+  "year": "2014"
+ },
  "xbox-360__limbo": {
   "studio": "Playdead",
   "year": "2010"
@@ -20081,6 +20233,10 @@
   "studio": "4A Games",
   "year": "2010"
  },
+ "xbox-360__metro-last-light": {
+  "studio": "4A Games",
+  "year": "2013"
+ },
  "xbox-360__midnight-club-los-angeles": {
   "studio": "Rockstar San Diego",
   "year": "2008"
@@ -20100,6 +20256,22 @@
  "xbox-360__need-for-speed-most-wanted": {
   "studio": "EA Black Box",
   "year": "2005"
+ },
+ "xbox-360__need-for-speed-prostreet": {
+  "studio": "EA Black Box",
+  "year": "2007"
+ },
+ "xbox-360__need-for-speed-shift-2-unleashed": {
+  "studio": "Slightly Mad Studios",
+  "year": "2011"
+ },
+ "xbox-360__need-for-speed-the-run": {
+  "studio": "EA Black Box",
+  "year": "2011"
+ },
+ "xbox-360__need-for-speed-undercover": {
+  "studio": "EA Black Box",
+  "year": "2008"
  },
  "xbox-360__nier": {
   "studio": "Cavia",
@@ -20124,6 +20296,10 @@
  "xbox-360__perfect-dark-zero": {
   "studio": "Rare",
   "year": "2005"
+ },
+ "xbox-360__persona-4-arena": {
+  "studio": "Arc System Works",
+  "year": "2012"
  },
  "xbox-360__portal": {
   "studio": "Valve",
@@ -20745,9 +20921,17 @@
   "studio": "Kojima Productions",
   "year": "2015"
  },
+ "xbox-one__metro-2033-redux": {
+  "studio": "4A Games",
+  "year": "2014"
+ },
  "xbox-one__metro-exodus": {
   "studio": "4A Games",
   "year": "2019"
+ },
+ "xbox-one__metro-last-light-redux": {
+  "studio": "4A Games",
+  "year": "2014"
  },
  "xbox-one__middle-earth-shadow-of-mordor": {
   "studio": "Monolith Productions",
@@ -20824,6 +21008,10 @@
  "xbox-one__pentiment": {
   "studio": "Obsidian Entertainment",
   "year": "2022"
+ },
+ "xbox-one__phantasy-star-online-2": {
+  "studio": "Sega / Sonic Team",
+  "year": "2020"
  },
  "xbox-one__playerunknown-s-battlegrounds": {
   "studio": "PUBG Corporation",
@@ -21912,6 +22100,10 @@
  "xbox__fahrenheit": {
   "studio": "Quantic Dream",
   "year": "2005"
+ },
+ "xbox__fallout-brotherhood-of-steel": {
+  "studio": "Black Isle Studios",
+  "year": "2004"
  },
  "xbox__far-cry-instincts": {
   "studio": "Ubisoft Montreal",
