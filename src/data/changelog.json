@@ -1,5 +1,35 @@
 [
   {
+    "version": "2026.09.21",
+    "date": "2026-09-21",
+    "title": {
+      "cs": "Stránka s výsledky hledání",
+      "en": "A search results page",
+      "de": "Eine Seite mit Suchergebnissen",
+      "fr": "Une page de résultats de recherche"
+    },
+    "entries": [
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Hledání má vlastní stránku. Našeptávač v hlavičce ukazuje dvanáct řádků, ale na dotaz jako „mario“ jich odpovídá přes sto — teď stačí zmáčknout Enter a projít je všechny v klidu.",
+          "en": "Search now has its own page. The header suggestions show twelve rows, but a query like “mario” matches more than a hundred — press Enter and you can go through all of them at leisure.",
+          "de": "Die Suche hat jetzt eine eigene Seite. Die Vorschläge in der Kopfzeile zeigen zwölf Zeilen, doch auf eine Anfrage wie „mario“ passen über hundert Treffer — mit Enter können Sie sie alle in Ruhe durchgehen.",
+          "fr": "La recherche a désormais sa propre page. Les suggestions de l’en-tête affichent douze lignes, mais une requête comme « mario » en trouve plus de cent — appuyez sur Entrée et parcourez-les tranquillement."
+        }
+      },
+      {
+        "tag": "fix",
+        "text": {
+          "cs": "Našeptávač v angličtině, němčině a francouzštině nenacházel vůbec nic. Stahoval seznam z adresy, která pro jazykové verze neexistuje, a tiše skončil na chybě.",
+          "en": "Search suggestions found nothing at all in English, German and French. They were loading the index from an address that does not exist for the language versions, and failed silently.",
+          "de": "Die Suchvorschläge fanden auf Englisch, Deutsch und Französisch überhaupt nichts. Sie luden den Index von einer Adresse, die es für die Sprachversionen nicht gibt, und scheiterten stillschweigend.",
+          "fr": "Les suggestions de recherche ne trouvaient rien du tout en anglais, allemand et français. Elles chargeaient l’index depuis une adresse inexistante pour les versions linguistiques et échouaient en silence."
+        }
+      }
+    ]
+  },
+  {
     "version": "2026.09.20",
     "date": "2026-09-20",
     "title": {
