@@ -1,0 +1,158 @@
+---
+/**
+ * Stranka s vysledky hledani.
+ *
+ * Naseptavac v hlavicce ukazuje dvanact radku; u bezneho dotazu jich odpovida
+ * mnohem vic a nekdo chce vysledky projit v klidu. Bodovani je stejne — bere se
+ * ze sdileneho public/hledani.js, at se nerozejde s napovedou.
+ *
+ * Vysledky se pocitaji v prohlizeci nad /search.json. Server je staticky a
+ * generovat stranku pro kazdy mozny dotaz nejde.
+ */
+import { t, type Locale, localePrefix } from '../lib/i18n';
+
+interface Props { locale: Locale; }
+const { locale } = Astro.props;
+---
+
+<section class="hv container">
+  <h1>{t(locale, 'search.results.title')}</h1>
+
+  <form class="hv-form" id="hv-form" role="search">
+    <input type="search" id="hv-vstup" name="q" autocomplete="off" spellcheck="false"
+           placeholder={t(locale, 'search.placeholder')}
+           aria-label={t(locale, 'search.label')} />
+    <button type="submit" class="btn btn-primary">{t(locale, 'search.results.submit')}</button>
+  </form>
+
+  <p class="hv-stav muted" id="hv-stav" data-prefix={localePrefix(locale)}
+     data-empty={t(locale, 'search.results.empty')}
+     data-pocet={t(locale, 'search.results.count')}
+     data-kratke={t(locale, 'search.results.short')}
+     data-kind-g={t(locale, 'search.kind.g')} data-kind-p={t(locale, 'search.kind.p')}
+     data-kind-r={t(locale, 'search.kind.r')} data-kind-d={t(locale, 'search.kind.d')}></p>
+
+  <ul class="hv-list" id="hv-list"></ul>
+</section>
+
+<script is:inline src="/hledani.js"></script>
+<script is:inline>
+  (function () {
+    var form = document.getElementById('hv-form');
+    var vstup = document.getElementById('hv-vstup');
+    var stav = document.getElementById('hv-stav');
+    var list = document.getElementById('hv-list');
+    if (!form || !vstup || !stav || !list) return;
+
+    var prefix = stav.getAttribute('data-prefix') || '';
+    var PATH = { g: '/hry/', p: '/platformy/', r: '/serie/', d: '/studia/' };
+    var KIND = {
+      g: stav.getAttribute('data-kind-g'), p: stav.getAttribute('data-kind-p'),
+      r: stav.getAttribute('data-kind-r'), d: stav.getAttribute('data-kind-d'),
+    };
+    var index = null;
+
+    function esc(s) {
+      return String(s).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+
+    function dotazZAdresy() {
+      var m = /[?&]q=([^&]*)/.exec(location.search);
+      return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : '';
+    }
+
+    function vykresli(dotaz) {
+      if (dotaz.length < 2) {
+        stav.textContent = stav.getAttribute('data-kratke');
+        list.innerHTML = '';
+        return;
+      }
+      var nalezene = RWHledani.hledej(index, dotaz, 0);
+      if (!nalezene.length) {
+        stav.textContent = stav.getAttribute('data-empty');
+        list.innerHTML = '';
+        return;
+      }
+      stav.textContent = stav.getAttribute('data-pocet')
+        .replace('{n}', nalezene.length).replace('{q}', dotaz);
+
+      // Dlouhy seznam se sklada do retezce a vlozi najednou — u dotazu jako
+      // "mario" jich jsou stovky a vkladat je po jednom je znatelne pomalejsi.
+      var html = '';
+      for (var i = 0; i < nalezene.length; i++) {
+        var r = nalezene[i];
+        html += '<li class="hv-item"><a href="' + prefix + PATH[r.t] + r.s + '">'
+          + '<span class="hv-nazev">' + esc(r.n) + '</span>'
+          + (r.x ? '<span class="hv-kde">' + esc(r.x) + '</span>' : '')
+          + '<span class="hv-typ">' + esc(KIND[r.t] || '') + '</span></a></li>';
+      }
+      list.innerHTML = html;
+    }
+
+    function spust(dotaz) {
+      if (index) { vykresli(dotaz); return; }
+      fetch('/search.json')
+        .then(function (r) { return r.json(); })
+        .then(function (d) { index = d; vykresli(dotaz); })
+        .catch(function () { stav.textContent = stav.getAttribute('data-empty'); });
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var q = vstup.value.trim();
+      // Adresa se meni i bez znovunacteni, at se da vysledek sdilet a vratit se
+      // na nej tlacitkem zpet.
+      history.pushState(null, '', prefix + '/hledani?q=' + encodeURIComponent(q));
+      spust(q);
+    });
+
+    window.addEventListener('popstate', function () {
+      var q = dotazZAdresy();
+      vstup.value = q;
+      spust(q);
+    });
+
+    var pocatecni = dotazZAdresy();
+    vstup.value = pocatecni;
+    if (pocatecni) spust(pocatecni);
+    else {
+      stav.textContent = stav.getAttribute('data-kratke');
+      vstup.focus();
+    }
+  })();
+</script>
+
+<style>
+  .hv { padding: 28px 0 60px; max-width: 900px; }
+  .hv h1 { margin: 0 0 16px; }
+  .hv-form { display: flex; gap: 10px; margin-bottom: 14px; }
+  .hv-form input {
+    flex: 1 1 auto; min-width: 0;
+    padding: 0.7em 0.9em; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border); color: var(--text);
+    font-size: 1rem;
+  }
+  .hv-form input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .hv-stav { margin: 0 0 18px; font-size: 0.92rem; }
+
+  .hv-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .hv-item a {
+    display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+    padding: 0.6em 0.8em; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--text); text-decoration: none;
+  }
+  .hv-item a:hover { border-color: var(--accent); }
+  .hv-nazev { font-weight: 600; }
+  .hv-kde, .hv-typ { font-size: 0.82rem; color: var(--muted); }
+  /* Typ zaznamu se zarovnava doprava, at se da seznam prohlizet po sloupci. */
+  .hv-typ { margin-left: auto; }
+
+  @media (max-width: 640px) {
+    /* Na uzkem displeji se nazev lame na vlastni radek, at se neoreze. */
+    .hv-nazev { flex: 1 1 100%; }
+    .hv-typ { margin-left: 0; }
+  }
+</style>
