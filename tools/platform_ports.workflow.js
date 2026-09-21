@@ -37,9 +37,18 @@ v katalogu UZ JE.
 
 KROK 3 - prace. U kazdeho titulu zvaz, na kterych DALSICH platformach skutecne vysel.
 
-VRACEJ JEN VERZE, KTERE STOJI ZA SAMOSTATNOU STRANKU. Kazdy zaznam je na webu
-vlastni adresa s vlastnim clankem; kdyz se verze od ostatnich nicim nelisila,
-vznikne tim pet skoro stejnych textu o teze hre a ctenari to nic neda.
+NEJDRIV SE PODIVEJ NA "have". Rozhoduje to, ktere z dvou pravidel plati:
+
+A) "have" JE PRAZDNE — tenhle titul v katalogu jeste neni vubec.
+   Vrat ho VZDY, minimalne jednou. Vyber platformu, na ktere hra vysla nejdriv
+   nebo na ktere je nejznamejsi, a pridej dalsi jen tehdy, kdyz se od ni verze
+   opravdu lisila (viz pravidlo B). Prazdny vystup znamena, ze hra na webu
+   nebude vubec — to je horsi nez jeden zaznam navic.
+
+B) "have" NENI PRAZDNE — hru uz mame a jde o doplneni dalsi platformy.
+   VRACEJ JEN VERZE, KTERE STOJI ZA SAMOSTATNOU STRANKU. Kazdy zaznam je na webu
+   vlastni adresa s vlastnim clankem; kdyz se verze od ostatnich nicim nelisila,
+   vznikne tim pet skoro stejnych textu o teze hre a ctenari to nic neda.
 
 Samostatnou stranku si zaslouzi verze, u ktere plati aspon jedno:
 - delal ji jiny vyvojar nez puvodni hru (Call of Duty 3 na PS2 vs. na Xboxu 360)
@@ -53,6 +62,9 @@ Samostatnou stranku si zaslouzi verze, u ktere plati aspon jedno:
 NEVRACEJ verzi, ktera je jen tymz kodem na dalsi konzoli teze generace bez
 rozdilu v obsahu. Kdyz si nejsi jisty, jestli se verze lisila, VYNECH ji —
 chybejici zaznam je mensi skoda nez pata kopie tehoz clanku.
+
+Tohle omezeni ale NEPLATI na prvni zaznam titulu s prazdnym "have": ten vznikne
+vzdycky, i kdyz hra vysla na peti platformach naraz a vsechny jsou stejne.
 
 Pro kazdou takovou verzi vrat jeden zaznam.
 
