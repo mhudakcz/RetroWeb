@@ -1,1 +1,886 @@
-[]
+[
+ {
+  "slug": "rg353m",
+  "name": "Anbernic RG353M",
+  "kind": "Kapesní konzole · 2022",
+  "tagline": "Vodorovný sourozenec RG353V se stejným T618 čipem a asymetrickými páčkami à la Vita.",
+  "color": "#8b5cf6",
+  "color2": "#1c1330",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG353M je vodorovná varianta rodiny 353 se stejným čipem Unisoc T618 i duálním bootem Android 11 a Linuxu jako RG353V, ale v klasičtějším tvaru ovladače. Palcové páčky jsou posazené asymetricky, jedna výš a druhá níž, podobně jako u PS Vity – layout, který dělá zařízení příjemné pro hry využívající oba analogy zároveň, ale chce si na něj zvyknout. Kdo hledá stejný výkon jako u RG353V, ale v podobě bližší klasickému handheldu, najde ho právě tady."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Unisoc T618"
+   },
+   {
+    "label": "Displej",
+    "value": "3.5\" IPS, 640×480 (4:3)"
+   },
+   {
+    "label": "Systemy",
+    "value": "duální start Android 11 a Linux"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Vodorovný sourozenec V",
+    "body": [
+     "Vnitřně je RG353M identický s RG353V – stejný čip, stejná paměť i displej – liší se jen tvar těla. Vodorovné držení připomíná spíš klasický herní ovladač než PDA a lépe sedí hráčům zvyklým na standardní handheldy.",
+     "Asymetrické páčky (jedna nahoře vlevo, druhá dole vpravo) rozdělují názory – část komunity je považuje za přirozenější pro ovládání ve stylu FPS, jiní preferují symetrické uspořádání, které ale tato řada Anbernicu nenabízí."
+    ]
+   },
+   {
+    "title": "Stejný systém, stejná komunita",
+    "body": [
+     "Protože jde o stejný hardware jako RG353V, emulační výkon i podpora komunitních systémů typu ArkOS nebo JELOS jsou naprosto totožné. Volba mezi V a M je tak čistě otázkou tvaru a ergonomie, ne výkonu."
+    ]
+   },
+   {
+    "title": "Pro koho",
+    "body": [
+     "Hodí se hráčům, kteří chtějí duální Android/Linux boot v tvaru běžného handheldu, ne PDA. Kdo neholduje asymetrickým páčkám ve stylu Vity, měl by si layout před koupí raději vyzkoušet naživo."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Vyzkoušet layout páček",
+    "text": "Asymetrické páčky nemusí sednout každému – pokud je to možné, vyzkoušejte ergonomii naživo před koupí."
+   },
+   {
+    "title": "Systém podle hry",
+    "text": "Náročnější tituly z PSP nebo N64 raději pouštějte v linuxové části s RetroArch, Android nechte na streamování a aplikace."
+   }
+  ]
+ },
+ {
+  "slug": "rg353v",
+  "name": "Anbernic RG353V",
+  "kind": "Kapesní konzole · 2022",
+  "tagline": "Svislý PDA tvar, duální Android/Linux boot a čip T618 v kapesním balení.",
+  "color": "#31c7ff",
+  "color2": "#0b2530",
+  "art": "handheld-v",
+  "intro": [
+   "Anbernic RG353V je svislá, PDA podobná konzole navazující na oblíbený RG351V. Pohání ji čip Unisoc T618 a jako jeden z mála modelů řady nabízí duální start Android 11 a Linuxu na stejném zařízení. Díky kompaktnímu svislému tělu se pohodlně vejde do kapsy, menší 3,5palcový displej ale omezuje zážitek u her navržených na širší poměr stran nebo náročnější ovládání. Hodí se spíš na kratší herní seance po cestách než jako hlavní zařízení pro dlouhé večerní hraní."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Unisoc T618"
+   },
+   {
+    "label": "Displej",
+    "value": "3.5\" IPS, 640×480 (4:3)"
+   },
+   {
+    "label": "Systemy",
+    "value": "duální start Android 11 a Linux"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Svislý tvar rodiny 353",
+    "body": [
+     "Stejně jako předchůdce RG351V staví RG353V na svislém, telefonu podobném tvaru. Výhodou je kompaktnost a snadné ovládání jednou rukou u jednodušších her, nevýhodou stísněnější prostor pro palce u akčnějších titulů využívajících oba analogy najednou.",
+     "Menší 3,5palcový displej ve srovnání s vodorovnými sourozenci RG353M znamená méně plochy pro UI emulátorů i hry navržené na širší poměr stran."
+    ]
+   },
+   {
+    "title": "Android navíc, ale za cenu",
+    "body": [
+     "Duální boot je hlavní devízou modelu – Linux pro RetroArch a nativní emulátory, Android pro streamovací služby nebo aplikace vyžadující Google Play. Přepínání mezi systémy ale vyžaduje restart a počáteční nastavení obou prostředí zabere čas.",
+     "Android větev na T618 zvládá emulátory do úrovně PSP a N64 slušně, ale s vyšší spotřebou baterie než čistě linuxové prostředí."
+    ]
+   },
+   {
+    "title": "Pro koho",
+    "body": [
+     "Vhodné pro hráče, kteří chtějí co nejmenší kapesní tvar a zároveň možnost sáhnout po Androidu. Kdo preferuje širší displej nebo klasické ovládání oběma palci vedle sebe, sáhne raději po RG353M."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Systém podle potřeby",
+    "text": "Pro čistý emulační výkon zůstaňte na Linuxu, Android zapínejte jen když potřebujete konkrétní aplikaci nebo streaming."
+   },
+   {
+    "title": "Ochranné pouzdro",
+    "text": "Svislý tvar se hůř nosí v kapse kalhot bez pouzdra – tenký case omezí oděrky na hranách."
+   }
+  ]
+ },
+ {
+  "slug": "rg35xx",
+  "name": "Anbernic RG35XX",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Malá krabička, která v roce 2023 nastartovala vlnu levných linuxových retro handheldů.",
+  "color": "#3ddc84",
+  "color2": "#0f2818",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG35XX je malá vodorovná konzolka ve tvaru připomínajícím klasický Game Boy, poháněná čipem Allwinner H700 a linuxovým systémem místo Androidu. Na 3,5palcovém displeji s poměrem stran 4:3 vypadají hry z éry NES, SNES nebo PlayStation přirozeně ostře, bez černých pruhů po stranách. Zařízení nemá Wi-Fi ani Bluetooth a spoléhá na fyzická tlačítka bez analogových páček – je to jednoduchý, levný stroj pro rychlé zapnutí a hraní starých her, ne univerzální emulační počítač do kapsy."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 (4× Cortex-A53, GPU Mali-G31 MP2)"
+   },
+   {
+    "label": "Displej",
+    "value": "3,5″ IPS, 640×480 px, poměr stran 4:3"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM"
+   },
+   {
+    "label": "Baterie",
+    "value": "2000 mAh"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (kapacitu volí uživatel)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux – z výroby Garlic OS, komunita často přechází na muOS nebo ArkOS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Základ celé řady RG35XX",
+    "body": [
+     "RG35XX je nejjednodušší a nejlevnější člen rodiny – nemá Wi-Fi, Bluetooth ani analogové páčky, jen křížek a čtyři tlačítka jako na klasických konzolích devadesátek. Pozdější varianty Plus, H a SP staví na stejném základu, jen přidávají bezdrátové připojení nebo jiný tvar těla, čip i displej ale zůstávají stejné.",
+     "Právě proto je to dobrá volba pro někoho, kdo chce vyzkoušet, jestli ho retro handheldy vůbec baví, bez příplatku za funkce, které možná nevyužije."
+    ]
+   },
+   {
+    "title": "Software a komunita",
+    "body": [
+     "Z výroby běží upravený Linux s nadstavbou Garlic OS, ale díky tomu, že čip Allwinner H700 používá i řada dalších zařízení, existuje bohatá komunitní podpora – nejčastěji se přeinstalovává na muOS nebo ArkOS, které nabízejí přehlednější rozhraní a snazší správu her."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Ideální pro hráče, kteří chtějí hlavně 2D klasiky a tituly z PS1 a nevadí jim ovládání bez páček. Kdo počítá s hraním Nintendo 64 nebo PSP, musí počítat s kompromisy, a na novější systémy jako Dreamcast nebo PS2 zařízení nestačí vůbec."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Zvažte Plus místo základu",
+    "text": "Chcete-li párovat bezdrátový ovladač nebo sluchátka, sáhněte raději po RG35XX Plus za podobnou cenu navíc jen s Wi-Fi a Bluetooth."
+   },
+   {
+    "title": "Nešetřete na kartě",
+    "text": "Kupte rovnou rychlejší microSD kartu (třída A2) – na pomalé kartě systém znatelně sekne při načítání her."
+   }
+  ]
+ },
+ {
+  "slug": "rg35xx-h",
+  "name": "Anbernic RG35XX H",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "První RG35XX s pořádnými analogovými páčkami, míří na 3D hry z Nintenda 64 a PSP.",
+  "color": "#f5a623",
+  "color2": "#3a2405",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG35XX H stojí na stejném čipu Allwinner H700 a stejném 3,5palcovém displeji jako zbytek řady, ale mění tělo – přibyly dvě analogové páčky a mírně větší, ergonomičtější tvar, který lépe sedí do dlaně. Pro hry ovládané křížkem to nic nemění, ale u 3D titulů z Nintenda 64 nebo PSP je rozdíl citelný, protože bez páček se dřív ovládaly jen ztuha. Zůstávají i Wi-Fi a Bluetooth zděděné z modelu Plus, takže jde o nejkompletnější, i když ne nejlevnější variantu RG35XX."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 (4× Cortex-A53, GPU Mali-G31 MP2)"
+   },
+   {
+    "label": "Displej",
+    "value": "3,5″ IPS, 640×480 px, poměr stran 4:3"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (kapacitu volí uživatel)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux – z výroby Garlic OS, komunita často přechází na muOS nebo ArkOS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Čím se liší od sourozenců",
+    "body": [
+     "H je první RG35XX s dvojicí analogových páček – zbytek řady má jen křížek a tlačítka. Tělo je kvůli tomu o něco větší a jinak tvarované, výkonově ale jde o stejný čip jako u RG35XX a Plus.",
+     "Páčky pomůžou hlavně u her z Nintenda 64 a PSP, kde je analogové ovládání potřeba; výkon čipu H700 u těchto systémů ale zůstává stejný jako u ostatních RG35XX."
+    ]
+   },
+   {
+    "title": "Software a komunita",
+    "body": [
+     "Sdílí firmware i komunitní podporu se zbytkem řady – Garlic OS z výroby, muOS a ArkOS jako oblíbené alternativy díky rozšířenosti čipu H700."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Pro hráče, kteří chtějí hrát i tituly s analogovým ovládáním a nevadí jim o něco větší tělo v kapse. Na Dreamcast nebo PS2 nestačí ani tahle verze."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Vhodné pro 3D klasiky",
+    "text": "Díky páčkám má smysl právě na tomhle modelu zkoušet hry z Nintenda 64, na základní RG35XX by se ovládaly hůř."
+   },
+   {
+    "title": "Nešetřete na kartě",
+    "text": "Kupte rychlejší microSD kartu (třída A2), pomalá karta znatelně zpomalí načítání her."
+   }
+  ]
+ },
+ {
+  "slug": "rg35xx-plus",
+  "name": "Anbernic RG35XX Plus",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Stejná krabička jako RG35XX, jen konečně s Wi-Fi a Bluetooth pro bezdrátové ovladače.",
+  "color": "#5b8def",
+  "color2": "#0d1f3d",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG35XX Plus vychází z původního RG35XX a přebírá stejný čip Allwinner H700, stejný 3,5palcový displej 640×480 i stejné rozložení tlačítek bez analogových páček. Jediný, ale citelný rozdíl je přidané Wi-Fi a Bluetooth – lze tak párovat bezdrátová sluchátka nebo herní ovladač a stahovat aktualizace systému bez přesouvání karty do počítače. Kdo tuhle funkci nepotřebuje, ušetří sáhnutím po levnějším základním modelu, protože výkonově jsou obě zařízení totožná."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 (4× Cortex-A53, GPU Mali-G31 MP2)"
+   },
+   {
+    "label": "Displej",
+    "value": "3,5″ IPS, 640×480 px, poměr stran 4:3"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM"
+   },
+   {
+    "label": "Baterie",
+    "value": "2000 mAh"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (kapacitu volí uživatel)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux – z výroby Garlic OS, komunita často přechází na muOS nebo ArkOS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Co Plus přidává",
+    "body": [
+     "Jediný rozdíl oproti základnímu RG35XX je Wi-Fi a Bluetooth. Výkonem, displejem i tvarem těla jde o identické zařízení – žádné páčky, jen křížek a tlačítka.",
+     "Bezdrátové připojení oceníte hlavně při párování ovladače pro pohodlnější hraní na televizi přes USB-C nebo při stahování aktualizací systému."
+    ]
+   },
+   {
+    "title": "Software a komunita",
+    "body": [
+     "Stejně jako u základního modelu běží z výroby Garlic OS, ale čip H700 sdílí s desítkami dalších zařízení, takže komunitní alternativy muOS a ArkOS fungují bez problémů i tady."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Pro každého, kdo by u základního RG35XX postrádal bezdrátové ovladače nebo sluchátka. Kdo je nepotřebuje, ušetří a sáhne po levnějším RG35XX se stejným výkonem."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Bezdrátový ovladač má smysl",
+    "text": "Právě kvůli Bluetooth dává u tohohle modelu smysl připojit externí ovladač pro hraní na větší obrazovce."
+   },
+   {
+    "title": "Nešetřete na kartě",
+    "text": "Kupte rychlejší microSD kartu (třída A2), pomalá karta znatelně zpomalí načítání her."
+   }
+  ]
+ },
+ {
+  "slug": "rg35xx-sp",
+  "name": "Anbernic RG35XX SP",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Sklápěcí tvar jako Game Boy Advance SP – displej schovaný pod krytkou přímo v kapse.",
+  "color": "#e0439a",
+  "color2": "#330a22",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG35XX SP přebírá čip Allwinner H700 a stejný 3,5palcový 4:3 displej jako zbytek řady, ale balí je do sklápěcího těla po vzoru Game Boy Advance SP – displej se sklopí přes tlačítka a zařízení tak zabere v kapse méně místa a chrání si obrazovku samo. Na rozdíl od RG35XX H nemá analogové páčky, ovládá se křížkem a tlačítky jako základní model. Cílí hlavně na lidi, kterým vadí, že běžné handheldy nemají žádnou ochranu displeje, a chtějí kompaktní tvar, který si nosí volně v kapse bez pouzdra."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 (4× Cortex-A53, GPU Mali-G31 MP2)"
+   },
+   {
+    "label": "Displej",
+    "value": "3,5″ IPS, 640×480 px, poměr stran 4:3, sklápěcí kryt"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (kapacitu volí uživatel)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux – z výroby Garlic OS, komunita často přechází na muOS nebo ArkOS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Čím se liší od sourozenců",
+    "body": [
+     "SP je jediná varianta RG35XX se sklápěcím tělem – displej se zaklopí přes ovládací prvky podobně jako u Game Boy Advance SP, takže zařízení nepotřebuje pouzdro ani ochranné sklo. Analogové páčky ale nemá, v tomhle ohledu je blíž základnímu RG35XX než modelu H.",
+     "Čip, displej i výkon zůstávají stejné jako u zbytku řady, mění se jen tvar a přenositelnost."
+    ]
+   },
+   {
+    "title": "Software a komunita",
+    "body": [
+     "Firmware i komunitní alternativy (muOS, ArkOS) jsou stejné jako u ostatních RG35XX, protože jde o stejný čip H700."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Pro ty, kdo oceňují kompaktnost a chrání si displej sklopením, ale nepotřebují analogové páčky. Kdo chce hrát tituly s analogovým ovládáním pohodlně, měl by sáhnout raději po RG35XX H."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Nejlepší do kapsy bez pouzdra",
+    "text": "Sklápěcí kryt řeší ochranu displeje, takže sáhnete-li po SP, ušetříte za samostatné pouzdro."
+   },
+   {
+    "title": "Nešetřete na kartě",
+    "text": "Kupte rychlejší microSD kartu (třída A2), pomalá karta znatelně zpomalí načítání her."
+   }
+  ]
+ },
+ {
+  "slug": "rg405m",
+  "name": "Anbernic RG405M",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Kovové tělo, klasické tlačítka bez dotykové obrazovky a čip Unisoc T618.",
+  "color": "#2fae66",
+  "color2": "#0d2418",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG405M je kompaktní kapesní konzole v kovovém těle s klasickým rozložením tlačítek a analogovými páčkami, bez dotykové obrazovky. Pohání ji čip Unisoc T618 ve dvojici se 4palcovým IPS displejem s rozlišením 640×480, což stačí na plynulou emulaci až po Nintendo 64 a PSP a ve vybraných případech i o něco novější systémy. Úložiště řeší výhradně karty microSD, konzole nemá interní paměť pro hry. Hodí se pro hráče, kteří preferují fyzické ovládání před dotykovou obrazovkou a chtějí odolnější, kovové provedení."
+  ],
+  "specs": [
+   {
+    "label": "Čip (SoC)",
+    "value": "Unisoc T618 (octa-core)"
+   },
+   {
+    "label": "Displej",
+    "value": "4,0\" IPS, 640×480"
+   },
+   {
+    "label": "Baterie",
+    "value": "3500 mAh"
+   },
+   {
+    "label": "Úložiště",
+    "value": "bez interní paměti, dva sloty na microSD"
+   },
+   {
+    "label": "Systémy",
+    "value": "Android, volitelně Linux (dual boot)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Bez dotyku, zato v kovu",
+    "body": [
+     "RG405M je variantou se stejným čipem jako sourozenec RG405V, ale místo AMOLED panelu s dotykem nabízí obyčejnější IPS displej bez dotykové vrstvy. Výměnou za to je tělo celokovové a odolnější, což ocení hráči, kteří konzoli často nosí s sebou.",
+     "Absence interního úložiště znamená, že veškeré hry a systémy se řeší přes karty microSD — to snižuje výchozí cenu, ale vyžaduje vlastní kartu hned od začátku."
+    ]
+   },
+   {
+    "title": "Systémy a komunitní podpora",
+    "body": [
+     "Konzole běží na upraveném Androidu s možností přepnutí do Linuxu. Zařízení s čipem Unisoc T618 mají obecně slabší podporu komunitních linuxových distribucí než populárnější Rockchip zařízení, takže hráči se často drží výchozího softwaru od výrobce."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Hodí se pro hráče, kteří chtějí fyzické tlačítka a páčky bez kompromisů v podobě dotykové obrazovky a ocení odolnější kovové tělo. Kdo naopak chce živější AMOLED barvy nebo dotykové ovládání menu, měl by zvážit variantu RG405V."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Sourozenec s AMOLED",
+    "text": "Pokud chcete stejný čip s AMOLED displejem a dotykem, zvažte variantu RG405V."
+   },
+   {
+    "title": "Karta microSD",
+    "text": "Investujte do rychlé karty (UHS-I nebo lepší) — bez interního úložiště jde o jediné médium pro hry."
+   }
+  ]
+ },
+ {
+  "slug": "rg405v",
+  "name": "Anbernic RG405V",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Celokovové tělo, čip Unisoc T618 a čistě linuxový systém bez Androidu a kompromisů.",
+  "color": "#ff8a3d",
+  "color2": "#2b1608",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG405V je kapesní konzole s tělem z hliníkové slitiny a čipem Unisoc T618, mířící na hráče, kteří chtějí pevnou kovovou konstrukci a nechtějí řešit Android – zařízení běží čistě na Linuxu. Ovladače jsou nezvykle posazené výš než u klasických handheldů, což si musí sednout, ale pro fanoušky 2D klasiky, PS1 a částečně i náročnějších titulů z PSP nebo N64 jde o kompaktní a odolnou volbu bez zbytečného balastu v systému."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Unisoc T618 (2× Cortex-A75 + 6× Cortex-A55, Mali-G52 GPU)"
+   },
+   {
+    "label": "Displej",
+    "value": "4\" IPS, 640×480 (4:3)"
+   },
+   {
+    "label": "Systemy",
+    "value": "pouze Linux – výchozí obraz Anbernicu, komunitně nahraditelný za ArkOS, JELOS nebo muOS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Kovové tělo a nezvyklý úchop",
+    "body": [
+     "RG405V se od plastových sourozenců řady 353 liší především konstrukcí – celé tělo je z hliníkové slitiny, což přidává na váze i pocitu kvality, ale zároveň dělá zařízení citlivější na oděrky a škrábance na hraně krytu.",
+     "Nejvýraznější je umístění analogových páček vysoko nad tlačítky, podobně jako u některých modelů řady 351M. Chvíli trvá, než si na to prsty zvyknou, a lidem s většíma rukama může layout přijít stísněný."
+    ]
+   },
+   {
+    "title": "Čistý Linux bez Androidu",
+    "body": [
+     "Na rozdíl od duálního bootu u RG353V/M nabízí RG405V pouze Linux. Výchozí systém od Anbernicu funguje, ale komunita rychle nahrazuje výchozí obraz distribucemi jako ArkOS, JELOS nebo muOS, které mají lepší rozhraní i širší nastavení emulátorů.",
+     "Absence Androidu znamená žádné streamovací aplikace ani emulátory vyžadující Android runtime – zařízení je čistě o RetroArch a nativních emulátorech pro Linux."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Ideální pro hráče, kteří chtějí odolné kovové tělo, mají rádi RetroArch prostředí a hrají hlavně tituly do úrovně PS1 a částečně N64 nebo PSP. Kdo potřebuje Android aplikace nebo cloudové hraní, musí sáhnout po jiném modelu."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "MicroSD karta",
+    "text": "Vyberte rychlou kartu UHS-I/A2 – výchozí systém i alternativní distribuce z ní startují a hry se z ní i nahrávají."
+   },
+   {
+    "title": "Alternativní systém",
+    "text": "Vyzkoušejte muOS nebo ArkOS místo výchozího obrazu, pokud vám nesedí přednastavené rozhraní Anbernicu."
+   }
+  ]
+ },
+ {
+  "slug": "rg503",
+  "name": "Anbernic RG503",
+  "kind": "Kapesní konzole · 2022",
+  "tagline": "OLED displej, kovové tělo a čip RK3566 v klasickém tvaru herního ovladače.",
+  "color": "#e83e8c",
+  "color2": "#28101d",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG503 je kapesní konzole s 4,95palcovým OLED displejem a celokovovým tělem, poháněná čipem Rockchip RK3566. Na rozdíl od řady 353 neběží na Androidu, ale čistě na Linuxu. Sytější barvy a hluboká černá OLED panelu jsou hlavním lákadlem, vodorovné tělo se symetrickými páčkami připomíná spíš klasický herní ovladač než handheldy typu 353V nebo 405V. Za lepší obraz se ale platí kratší výdrží baterie i vyšší hmotností."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Rockchip RK3566 (4× Cortex-A55, Mali-G52 2EE GPU)"
+   },
+   {
+    "label": "Displej",
+    "value": "4.95\" OLED, 960×544"
+   },
+   {
+    "label": "Systemy",
+    "value": "pouze Linux"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "OLED jako hlavní lákadlo",
+    "body": [
+     "RG503 patřil mezi první levnější Anbernic handheldy s OLED panelem. Sytost barev a kontrast jsou znatelně lepší než u IPS displejů řady 353 nebo 405, cena za to je vyšší spotřeba energie a tedy kratší výdrž baterie v provozu.",
+     "Kovové tělo přidává na hmotnosti i pocitu kvality, ale ve srovnání s plastovými modely řady 353 je zařízení těžší na delší herní seance v jedné poloze."
+    ]
+   },
+   {
+    "title": "Výkon a ovládání",
+    "body": [
+     "Čip RK3566 s grafikou Mali-G52 zvládá podobnou třídu her jako T618 u řad 353 a 405 – tedy plynule 2D klasiku a PS1, většinu titulů z N64 a PSP, u Dreamcastu jen vybrané hry. Symetrické páčky v klasickém rozložení sedí většině hráčů lépe než asymetrický layout modelu 353M.",
+     "Systém běží čistě na Linuxu bez možnosti nativního Androidu, což zjednodušuje nastavení, ale vylučuje streamovací aplikace nebo emulátory závislé na Android runtime."
+    ]
+   },
+   {
+    "title": "Pro koho ano, pro koho ne",
+    "body": [
+     "Vhodné pro hráče, kterým jde hlavně o kvalitu obrazu a nevadí kratší výdrž baterie. Kdo hledá co nejdelší výdrž na jedno nabití nebo preferuje Android aplikace, najde lepší volbu jinde v nabídce Anbernicu."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Počítejte s nabíječkou po ruce",
+    "text": "OLED displej táhne víc energie než IPS – na delší cesty a výlety se vyplatí powerbanka."
+   },
+   {
+    "title": "Alternativní systém",
+    "text": "Pro širší nastavení emulátorů a modernější rozhraní zkuste komunitní JELOS nebo ArkOS místo výchozího obrazu."
+   }
+  ]
+ },
+ {
+  "slug": "rg505",
+  "name": "Anbernic RG505",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Tvar jako PS Vita, ale uvnitř skutečný Qualcomm Snapdragon 865 a AMOLED displej 960×544.",
+  "color": "#7c3aed",
+  "color2": "#200f3d",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG505 svým tvarem i rozlišením 960×544 na 4,95palcovém AMOLED displeji připomíná PlayStation Vitu. Uvnitř ale nenajdete obvyklý levný čip pro kapesní konzole, nýbrž Qualcomm Snapdragon 865 — dřívější vlajkový mobilní procesor, který zvládá emulaci až po Nintendo 64 a PSP bez větších kompromisů a v omezené míře si poradí i s náročnějšími systémy. Zařízení běží na Androidu s možností přepnutí do Linuxu. Vhodné pro hráče, kteří chtějí kompaktní zařízení s kvalitním displejem a nevadí jim menší tlačítka."
+  ],
+  "specs": [
+   {
+    "label": "Čip (SoC)",
+    "value": "Qualcomm Snapdragon 865"
+   },
+   {
+    "label": "Displej",
+    "value": "4,95\" AMOLED, 960×544"
+   },
+   {
+    "label": "Paměť",
+    "value": "4 GB RAM"
+   },
+   {
+    "label": "Baterie",
+    "value": "3300 mAh"
+   },
+   {
+    "label": "Úložiště",
+    "value": "128 GB (UFS) + slot na microSD"
+   },
+   {
+    "label": "Systémy",
+    "value": "Android 12, volitelně Linux (dual boot)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast, PS2",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Kompaktní tělo s netradičním čipem",
+    "body": [
+     "Zatímco většina Anbernic konzolí spoléhá na čipy Unisoc nebo Rockchip, RG505 vsadil na bývalý vlajkový mobilní Snapdragon 865. Výsledkem je zařízení, které v poměru k velikosti nabízí nadprůměrný výkon, ale menší 3300mAh baterie se pod plnou zátěží vybije rychleji než u větších sourozenců.",
+     "Malé tělo ve tvaru PS Vity znamená i menší tlačítka a páčky, což nemusí vyhovovat hráčům s většíma rukama."
+    ]
+   },
+   {
+    "title": "Systémy a komunitní podpora",
+    "body": [
+     "RG505 běží na Androidu s možností přepnutí do přiloženého Linuxu. Protože jde o netypický čip pro tuto kategorii zařízení, podpora ze strany komunitních firmwarů (typu ArkOS) je omezenější než u rozšířenějších Rockchip zařízení a hráči se častěji spoléhají na Android emulátory jako RetroArch nebo AetherSX2."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Hodí se pro hráče, kteří chtějí kompaktní a lehké zařízení s kvalitním AMOLED displejem a nevadí jim kratší výdrž baterie při náročnější emulaci. Kdo hledá největší možnou výdrž na cestách nebo velké pohodlné ovladače, bude spokojenější jinde."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Výdrž baterie",
+    "text": "Při náročnější emulaci počítejte s kratší výdrží — na delší cesty se hodí powerbanka."
+   },
+   {
+    "title": "Emulace PS2",
+    "text": "Stabilita PS2 titulů přes AetherSX2 se liší hru od hry, počítejte s laděním nastavení."
+   }
+  ]
+ },
+ {
+  "slug": "rg556",
+  "name": "Anbernic RG556",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Vlajková loď Anbernic s AMOLED displejem, čipem Unisoc T820 a duálním Android/Linux systémem.",
+  "color": "#ff5f2e",
+  "color2": "#2b0f06",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG556 patří mezi nejvýkonnější kapesní konzole značky a je vlajkovou lodí řady RG5xx. Kombinuje 5,48palcový AMOLED displej s rozlišením 1920×1080, čip Unisoc T820 a 8 GB RAM, takže si poradí s většinou starších generací a částečně i s náročnějšími systémy jako Dreamcast či PS2. Zařízení běží na Androidu, ale nabízí i přepnutí do linuxového prostředí uzpůsobeného pro emulaci. Hodí se pro hráče, kteří chtějí jedno univerzální zařízení na širokou škálu platforem a nevadí jim vyšší cena i hmotnost."
+  ],
+  "specs": [
+   {
+    "label": "Čip (SoC)",
+    "value": "Unisoc T820 (octa-core)"
+   },
+   {
+    "label": "Displej",
+    "value": "5,48\" AMOLED, 1920×1080"
+   },
+   {
+    "label": "Paměť",
+    "value": "8 GB LPDDR4X"
+   },
+   {
+    "label": "Baterie",
+    "value": "6000 mAh"
+   },
+   {
+    "label": "Úložiště",
+    "value": "128/256 GB (UFS) + slot na microSD"
+   },
+   {
+    "label": "Systémy",
+    "value": "Android 13, volitelně Linux (dual boot)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast, PS2",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Čím se liší od sourozenců v řadě RG5xx",
+    "body": [
+     "Oproti menšímu RG505 nabízí RG556 větší AMOLED panel, výkonnější čip a klasické horizontální tělo místo tvaru připomínajícího PS Vitu. Za to platíte vyšší hmotností a cenou, která je u této řady nejvyšší.",
+     "Unisoc T820 posouvá emulaci o generaci dál — kde starší modely s Unisoc T618 sotva zvládají PSP a N64, RG556 si už umí poradit i s vybranými tituly pro Dreamcast a v omezené míře i PS2."
+    ]
+   },
+   {
+    "title": "Systémy a komunitní podpora",
+    "body": [
+     "Zařízení běží primárně na Androidu s výrobcem upraveným rozhraním a možností přepnout do přiloženého linuxového prostředí. Komunitní linuxové distribuce typu ArkOS nebo Batocera, běžné u Rockchip zařízení, mají u čipů Unisoc podstatně menší podporu, takže se do velké míry spoléháte na software dodaný výrobcem a na Android emulátory."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "RG556 je volba pro hráče, kteří chtějí jedno výkonné zařízení pokrývající co nejvíc platforem a je jim jedno, že je větší a těžší než kapesní klasiky. Pro ty, kdo hledají malé a lehké zařízení jen na 8bitové a 16bitové hry, je to zbytečně velký a drahý kus techniky."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Kapacita úložiště",
+    "text": "Zvolte variantu s 256GB interního úložiště, pokud plánujete knihovnu her i pro náročnější systémy."
+   },
+   {
+    "title": "Emulace PS2 a Dreamcastu",
+    "text": "U náročnějších systémů počítejte s laděním nastavení jednotlivých emulátorů a s tím, že ne všechny tituly poběží plynule."
+   }
+  ]
+ }
+]

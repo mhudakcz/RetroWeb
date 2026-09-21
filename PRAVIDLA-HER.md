@@ -206,6 +206,15 @@ přitom hlásí stovky doplněných her. Po každé obrázkové dávce proto por
 `dataset.json` proti předchozí verzi (kolika hrám opravdu přibyl obrázek),
 ne věřit číslu z výpisu. Jednou takhle skončilo 2404 stažených souborů v koši.
 
+**Zpráva v chatu přebije agentovi zadání.** Když během běžící dávky napíšeš
+do chatu otázku, harness ji předá i spuštěným agentům a část z nich svoji práci
+opustí a odpoví na ni. Pozná se to tak, že výstupní soubory chybí, ale workflow
+hlásí „hotovo" — v deníku běhu jsou pak místo výsledků odpovědi na otázku.
+U jedné dávky hardwaru takhle vypadlo pět z devíti agentů. Řešení je prosté,
+protože dávky jsou idempotentní: pustit workflow znovu, hotové výstupy se
+přeskočí. Po každé dávce proto **ověřit, že výstupních souborů je tolik, kolik
+mělo být** — samotné „hotovo" nestačí.
+
 **Počet her v katalogu nevypovídá o pokrytí.** Výběr je kurátorský: N64 má
 v katalogu desítky her a kánon je celý, zatímco 3DS jich mělo 42 a chybělo
 11 ze 14 ze vzorku. Mezeru hledat sondou na konkrétní tituly, ne podle počtu.
