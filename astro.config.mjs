@@ -15,7 +15,13 @@ export default defineConfig({
   integrations: [
     sitemap({
       // osobni stranky do sitemap nepatri — pro nepřihlaseneho jsou prazdne
-      filter: (stranka) => !/\/(prihlaseni|muj-seznam|admin)\/?$/.test(stranka),
+      // Osobni stranky do sitemapy nepatri — pro neprihlaseneho jsou prazdne.
+      // Stranka hledani taky ne: bez parametru je prazdna a s parametrem by
+      // slo o nekonecne mnoho adres.
+      filter: (stranka) => !/\/(prihlaseni|muj-seznam|admin|hledani)\/?$/.test(stranka),
+      // Mensi soubory kvuli prehledu v Search Console: u jedine sitemapy
+      // s 28 tisici adresami je videt jen souhrn, ne ktera cast webu vazne.
+      entryLimit: 5000,
       i18n: {
         defaultLocale: 'cs',
         locales: { cs: 'cs', en: 'en', de: 'de', fr: 'fr' },
