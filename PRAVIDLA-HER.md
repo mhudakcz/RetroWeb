@@ -111,6 +111,16 @@ i **„vyšla tam pod tímhle názvem?"** — to samé platí pro „Ultimate Ed
 Duplicity se porovnávají **normalizovaným názvem**, ne přesným řetězcem: lišila
 se jediná dvojtečka a vznikly by dva záznamy téže hry.
 
+**Samostatnou stránku dostane jen verze, která se opravdu lišila** — jiný
+vývojář, jiný obsah, jiné ovládání, výrazně jiná technická podoba nebo znatelný
+časový odstup. Pouhý převod téhož kódu na další konzoli téže generace se
+nezakládá: vznikne tím pět skoro stejných článků pod pěti adresami a Google
+takové stránky označuje jako „procházeno – neindexováno". Když není o rozdílech
+co napsat, je to samo o sobě znamení, že záznam nemá vznikat.
+
+Článek o portu proto nesmí být obecný text o hře. První odstavec ji smí
+představit, zbytek patří té konkrétní verzi.
+
 ### 8. Kontrola duplicit proti jinému zápisu
 
 Nestačí porovnat přesný název. Tytéž hry vedeme často jinak:

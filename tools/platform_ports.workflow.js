@@ -35,8 +35,26 @@ KROK 2 - podklad: Read ${j.in}
 Je to JSON pole objektu {name, year, have}. "have" jsou platformy, na kterych titul
 v katalogu UZ JE.
 
-KROK 3 - prace. U kazdeho titulu zvaz, na kterych DALSICH platformach skutecne vysel,
-a pro kazdou takovou vydanou verzi vrat jeden zaznam.
+KROK 3 - prace. U kazdeho titulu zvaz, na kterych DALSICH platformach skutecne vysel.
+
+VRACEJ JEN VERZE, KTERE STOJI ZA SAMOSTATNOU STRANKU. Kazdy zaznam je na webu
+vlastni adresa s vlastnim clankem; kdyz se verze od ostatnich nicim nelisila,
+vznikne tim pet skoro stejnych textu o teze hre a ctenari to nic neda.
+
+Samostatnou stranku si zaslouzi verze, u ktere plati aspon jedno:
+- delal ji jiny vyvojar nez puvodni hru (Call of Duty 3 na PS2 vs. na Xboxu 360)
+- ma jiny obsah — chybejici nebo pridane mise, rezimy, postavy
+- ma jinou hratelnost nebo ovladani (verze pro Wii s pohybovym ovladanim,
+  kapesni verze prepracovana na mensi displej)
+- je technicky vyrazne jinde, takze se hraje jinak (verze pro predchozi
+  generaci konzoli, orezana verze pro handheld)
+- vysla se znatelnym casovym odstupem a v jine dobe znamenala neco jineho
+
+NEVRACEJ verzi, ktera je jen tymz kodem na dalsi konzoli teze generace bez
+rozdilu v obsahu. Kdyz si nejsi jisty, jestli se verze lisila, VYNECH ji —
+chybejici zaznam je mensi skoda nez pata kopie tehoz clanku.
+
+Pro kazdou takovou verzi vrat jeden zaznam.
 
 TOHLE JE NEJDULEZITEJSI PRAVIDLO: pridavej jen vydani, kterym si jsi JISTY.
 Rada her je zamerne exkluzivni — Wii Sports vyslo jen na Wii, Resistance jen na
@@ -74,9 +92,11 @@ rekne primo, komu a proc se hra vyplati — ne opakovani toho, co uz v textu je.
 Uvodni veta (teaser) je neco jineho nez prvni veta clanku: je to jedna veta do
 prehledu her, ktera laka, ne shrnuje.
 
-Clanek pis o hre jako takove, ale VZDY zminuj, cim se prave tato verze lisila —
-vykon, ovladani, obsah navic nebo naopak chybejici, doba vydani oproti ostatnim
-verzim. Kdyz se verze prakticky nelisila, napis to primo; to je taky informace.
+Clanek pis o hre jako takove, ale TEZISTE musi byt na tom, cim se prave tato
+verze lisila — vykon, ovladani, obsah navic nebo naopak chybejici, doba vydani
+oproti ostatnim verzim, kdo ji delal. Prvni odstavec smi hru predstavit, zbytek
+patri teto konkretni verzi. Kdyz zjistis, ze o rozdilech nemas co napsat, je to
+znamka, ze tahle verze samostatnou stranku nepotrebuje — vynech ji uplne.
 
 POZOR NA FAKTA: nevymyslej si jmena vyvojaru, cisla prodeju ani hodnoceni.
 
