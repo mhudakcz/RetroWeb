@@ -1,5 +1,815 @@
 [
  {
+  "slug": "ayn-odin-2",
+  "name": "AYN Odin 2",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Výkonný Android handheld ve stylu herního ovladače, ve víc výkonnostních variantách.",
+  "color": "#7c3eff",
+  "color2": "#1d0f2a",
+  "art": "handheld-h",
+  "intro": [
+   "AYN Odin 2 je nástupce oblíbeného Odinu, poháněný čipsetem Qualcomm Snapdragon 8+ Gen 1 a designem připomínajícím spíš herní ovladač s displejem uprostřed než klasický handheld. Zařízení se prodává ve více variantách lišících se pamětí a úložištěm, takže si hráč může připlatit za víc výkonu i prostoru na hry. Hodí se pro hráče, kteří chtějí jedno silné zařízení na širokou škálu retro i mírně novějších systémů a nevadí jim netradiční rozložení ovládání."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Qualcomm Snapdragon 8+ Gen 1"
+   },
+   {
+    "label": "Displej",
+    "value": "6\" IPS LCD"
+   },
+   {
+    "label": "Pamet",
+    "value": "8/12/16 GB podle varianty"
+   },
+   {
+    "label": "Uloziste",
+    "value": "interní úložiště podle varianty + slot na microSD"
+   },
+   {
+    "label": "Systemy",
+    "value": "Android 13"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1), PSP",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, Dreamcast",
+    "level": "most"
+   },
+   {
+    "label": "GameCube, PS2",
+    "level": "some"
+   },
+   {
+    "label": "Nintendo Switch",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Netradiční tvar a víc variant",
+    "body": [
+     "Na rozdíl od většiny konkurence, která kopíruje tvar klasického handheldu, staví Odin 2 na rozložení připomínajícím spíš herní ovladač - displej je umístěný uprostřed těla a ovládací prvky obklopují jeho okraje. Někomu to sedí líp než klasické uspořádání, jinému méně - stojí za to vyzkoušet ovladač v ruce, než zařízení koupíte naslepo.",
+     "AYN navíc nabízí Odin 2 v několika variantách, které se liší množstvím paměti a velikostí interního úložiště. Čím vyšší varianta, tím víc prostoru na nainstalované hry bez nutnosti spoléhat jen na microSD kartu."
+    ]
+   },
+   {
+    "title": "Systémy a podpora",
+    "body": [
+     "Výkon Snapdragonu 8+ Gen 1 stačí na plynulou emulaci až po PlayStation 1 a PSP a zvládne většinu her pro Nintendo 64 a Dreamcast. GameCube, PS2 a Nintendo Switch jsou dosažitelné u vybraných, méně náročných titulů, ale nejde o bezproblémový zážitek.",
+     "Zařízení běží na Androidu, takže je kompatibilní se standardními emulátory a těží z komunity kolem AYN i širší scény Android handheldů, byť o něco menší než u řady Retroid Pocket."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Zvažte variantu s víc pamětí",
+    "text": "Pokud plánujete instalovat hry přímo na zařízení, vyplatí se připlatit za vyšší úložištní variantu místo spoléhání na microSD."
+   },
+   {
+    "title": "Vyzkoušejte rozložení ovládání",
+    "text": "Netradiční tvar s displejem uprostřed nemusí sednout každému - pokud je to možné, zkuste si zařízení osahat před koupí."
+   }
+  ]
+ },
+ {
+  "slug": "miyoo-a30",
+  "name": "Miyoo A30",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Vodorovná kapesní konzole ve stylu Game Boy Micro, ideální na NES až PS1 klasiku.",
+  "color": "#ff8a3d",
+  "color2": "#3a1d08",
+  "art": "handheld-h",
+  "intro": [
+   "Miyoo A30 je malá vodorovná kapesní konzole připomínající tvarem Game Boy Micro, postavená na jednodušším čipu než sourozenci řady Mini Plus. Slabší Allwinner A33 stačí bez kompromisů na 8bitové a 16bitové systémy i Game Boy Advance, u PlayStation 1 hraje naprostou většinu her plynule. Nintendo 64 zvládá jen výběrově – třeba Super Mario 64 běží, ale spousta jiných titulů je pomalá nebo trpí chybami zvuku a grafiky. Vhodná volba pro hráče, kteří chtějí levné a kapesní zařízení hlavně na 2D klasiku a PS1."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner A33, čtyřjádrový ARM Cortex-A7, 1,2–1,5 GHz, GPU Mali-400 MP2"
+   },
+   {
+    "label": "Displej",
+    "value": "2,8\" IPS, 640×480 px"
+   },
+   {
+    "label": "Pamet",
+    "value": "512 MB RAM"
+   },
+   {
+    "label": "Baterie",
+    "value": "2600 mAh, cca 5 hodin hraní"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (často v balení, např. varianta 128 GB)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux s nadstavbou Miyoo, podpora custom firmware"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, Game Boy / Advance",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64 – vybrané tituly",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Místo v řadě Miyoo",
+    "body": [
+     "Zatímco Miyoo Mini a Mini Plus mají svislý tvar podobný Game Boy Color, A30 je položené na šířku a připomíná spíš Game Boy Micro nebo menší GBA. Uvnitř ale běží podobně slabý čip jako u levnějších modelů řady – cílem je kompaktnost a cena, ne výkon.",
+     "Oproti Mini Plus, který používá výkonnější čip z rodiny Allwinner A133, je A30 jasně slabší varianta zaměřená na 2D klasiku a lehčí 3D. Kdo chce v malém těle i slušné N64 nebo PSP, měl by sáhnout jinam."
+    ]
+   },
+   {
+    "title": "Co reálně zvládne",
+    "body": [
+     "PlayStation 1 je na A30 silnou stránkou – většina her běží plynule. Nintendo 64 je ale loterie: některé tituly typu Super Mario 64 fungují, ale řada dalších her trpí zpomalením, prokládáním zvuku nebo grafickými chybami.",
+     "Na 8bitové a 16bitové systémy (NES, SNES, Mega Drive, Game Boy / Advance) není potřeba nic řešit, tam běží vše bez problémů."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Neočekávejte plné N64",
+    "text": "Pokud chcete hrát hlavně Nintendo 64, počítejte s tím, že poběží jen část her a ne vždy plynule."
+   },
+   {
+    "title": "Custom firmware",
+    "text": "Vyplatí se nahradit tovární software oblíbenou komunitní nadstavbou pro lepší rozhraní a nastavení emulátorů."
+   }
+  ]
+ },
+ {
+  "slug": "miyoo-flip",
+  "name": "Miyoo Flip",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Véčko ve stylu GBA SP s čipem RK3566 – zvládne i Dreamcast, i když ne vždy plynule.",
+  "color": "#a855f7",
+  "color2": "#2a1145",
+  "art": "handheld-h",
+  "intro": [
+   "Miyoo Flip je skládací (véčkový) handheld připomínající tvarem Game Boy Advance SP nebo Nintendo DS Lite. Na rozdíl od menších modelů Miyoo používá výkonnější čip Rockchip RK3566, díky kterému zvládá nejen klasiku do PlayStation 1, ale i vybrané tituly pro Nintendo 64, Sega Saturn, Dreamcast nebo PSP – byť ne vždy stabilně. Cílí na hráče, kteří chtějí kompaktní véčkové zařízení se širší nabídkou systémů, ale musí počítat s tím, že náročnější emulace zůstává nevyrovnaná a tovární software je trochu kostrbatý."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Rockchip RK3566, čtyřjádrový ARM Cortex-A55, 2,0 GHz, GPU Mali-G52 2EE"
+   },
+   {
+    "label": "Displej",
+    "value": "3,5\" IPS LCD, 640×480 px (4:3)"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM LPDDR4"
+   },
+   {
+    "label": "Baterie",
+    "value": "3000 mAh, cca 4–6 hodin hraní"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta"
+   },
+   {
+    "label": "Systemy",
+    "value": "tovární Linux systém, doporučeno nahradit custom firmwarem (Onion OS, MinUI, muOS)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, Game Boy Advance",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, Sega Saturn, Dreamcast, PSP",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Véčkový tvar a hardwarové neduhy",
+    "body": [
+     "Miyoo Flip je jedním z mála retro handheldů ve véčkovém provedení – po vzoru Game Boy Advance SP nebo Nintendo DS Lite se skládá napůl, takže displej i tlačítka jsou při přenosu chráněné. První verze z konce roku 2024 měla problémy s kvalitou pantu, které výrobce řešil až u pozdější revize V2.",
+     "Recenze si také stěžují na nepříliš povedené analogové páčky a na to, že tovární operační systém je funkční, ale neohrabaný a místy nedotažený v překladu."
+    ]
+   },
+   {
+    "title": "Co reálně zvládne",
+    "body": [
+     "Čip RK3566 je znatelně výkonnější než u menších modelů Miyoo, takže Flip zvládá bez problémů vše do úrovně PlayStation 1 a k tomu si troufne i na Nintendo 64, Sega Saturn, Dreamcast nebo PSP. Háček je v tom, že výsledky jsou nevyrovnané – část her z těchto náročnějších systémů běží dobře, jiné mají zpomalení nebo grafické chyby.",
+     "Reálný přínos náročnějších systémů se výrazně zlepší po nasazení custom firmwaru jako Onion OS, MinUI nebo muOS, které z hardwaru dostanou víc než tovární software."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Rovnou nahraďte firmware",
+    "text": "Tovární systém je slabina zařízení – Onion OS, MinUI nebo muOS výrazně zlepší stabilitu i pohodlí ovládání."
+   },
+   {
+    "title": "Berte v potaz revizi V2",
+    "text": "Pokud kupujete nové, hledejte spíš revizi V2 s opraveným pantem – první verze měla s kloubem časté potíže."
+   }
+  ]
+ },
+ {
+  "slug": "miyoo-mini-v4",
+  "name": "Miyoo Mini V4",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Čtvrtá revize levné legendy – stejný slabý čip, ale konečně vydrží baterie i Wi-Fi.",
+  "color": "#2fd6a1",
+  "color2": "#0f2e27",
+  "art": "handheld-v",
+  "intro": [
+   "Miyoo Mini V4 je nejnovější hardwarová revize populární kapesní konzole Miyoo Mini, kterou výrobce od roku 2022 postupně upravuje kvůli nedostatku součástek. Jádro zůstává stejné – slabší dvoujádrový čip SigmaStar spíše pro 8bitové a 16bitové emulátory – ale verze V4 přinesla displej s vyšším rozlišením, hardwarové reálné hodiny a hlavně vyřešila dvě dlouhodobé bolesti předchozích revizí: nestabilní Wi-Fi a slabou výdrž baterie. Hodí se pro hráče, kteří chtějí co nejmenší a nejlevnější zařízení na NES, SNES, Game Boy a podobné tituly a nepotřebují nic náročnějšího."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Dvoujádrový ARM Cortex-A7 (SigmaStar), 1,2 GHz"
+   },
+   {
+    "label": "Displej",
+    "value": "2,8\" IPS, 752×560 px"
+   },
+   {
+    "label": "Pamet",
+    "value": "128 MB RAM"
+   },
+   {
+    "label": "Baterie",
+    "value": "2000 mAh, cca 5–6 hodin hraní"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (dodává se s kartou, podporuje karty do 128 GB)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux s nadstavbou Miyoo, podpora custom firmware Onion OS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive, Game Boy / Advance",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1) – jednodušší 2D tituly",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Čím se liší od předchozích verzí",
+    "body": [
+     "Miyoo Mini prošel od roku 2022 několika hardwarovými revizemi (V1 až V4), většinou kvůli výpadkům součástek na trhu, ne kvůli plánovanému vylepšování výkonu. Čip zůstal ve všech verzích prakticky stejný, slabý dvoujádrový SigmaStar, takže žádná revize nepřinesla skokový nárůst výkonu.",
+     "Revize V4 je přesto nejžádanější, protože řeší dvě reálné bolesti starších kusů: nespolehlivé Wi-Fi připojení a slabou výdrž baterie. K tomu přibyl displej s o něco vyšším rozlišením a hardwarové reálné hodiny, takže si zařízení po vypnutí pamatuje čas."
+    ]
+   },
+   {
+    "title": "Systémy a podpora komunity",
+    "body": [
+     "Slabý čip předurčuje Miyoo Mini V4 jasně na 8bitové a 16bitové systémy (NES, SNES, Mega Drive, Game Boy) a jednodušší tituly pro Game Boy Advance, kde běží plynule. PlayStation 1 zvládne jen vybrané, méně náročné hry – u 3D titulů s více efekty je nutné počítat se zpomalením.",
+     "Zařízení podporuje oblíbený custom firmware Onion OS, díky kterému má přehlednější rozhraní se screenshoty her, scraperem obalů a snadnou správou uložených pozic. Komunita kolem Miyoo je velká a aktivní, takže návody a řešení problémů se hledají snadno."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Hodí se především pro hráče, kteří chtějí co nejmenší a nejlevnější zařízení pro čistou retro klasiku 8 a 16 bitů a nevadí jim, že modernější systémy nezvládne. Naopak to není vhodná volba pro někoho, kdo chce hrát PS1 nebo novější systémy bez kompromisů – na to je potřeba výkonnější a dražší konzole."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Custom firmware",
+    "text": "Nainstalujte Onion OS – přehlednější rozhraní a snazší správu her než tovární software."
+   },
+   {
+    "title": "Rychlá microSD karta",
+    "text": "Vyplatí se kvalitní karta alespoň třídy A1/A2, zrychlí načítání her a scraperu obalů."
+   }
+  ]
+ },
+ {
+  "slug": "powkiddy-rgb30",
+  "name": "Powkiddy RGB30",
+  "kind": "Kapesní konzole · 2023",
+  "tagline": "Hranatý handheld se čtvercovým displejem a joysticky posazenými nad tlačítky místo vedle nich.",
+  "color": "#ff7a1a",
+  "color2": "#2a1608",
+  "art": "handheld-h",
+  "intro": [
+   "Powkiddy RGB30 je hranatý handheld se čtvercovým 4:3 displejem, který cílí především na hráče starších generací konzolí a počítačů, kde širokoúhlý poměr stran nedává smysl. Ovládací prvky jsou rozmístěné netradičně – joysticky sedí nad křížem a tlačítky místo vedle nich, což chce chvíli zvyknutí, ale usnadňuje palcům dosah na všechno najednou. Cenově patří mezi dostupnější kusy s čipem RK3566, takže je dobrou volbou pro někoho, kdo chce spíš praktický stroj na emulaci než nejvýkonnější kousek na trhu."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Rockchip RK3566"
+   },
+   {
+    "label": "Displej",
+    "value": "4,0\" IPS, 720×720 (poměr 4:3)"
+   },
+   {
+    "label": "Pamet",
+    "value": "3 GB nebo 4 GB RAM (podle varianty)"
+   },
+   {
+    "label": "Baterie",
+    "value": "5000 mAh"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (bez vestavěné paměti)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux (vlastní distribuce Powkiddy)"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Jiné rozvržení než sourozenci",
+    "body": [
+     "Zatímco menší RGB10 nebo RGB20S mají joysticky vedle displeje ve výšce palců, RGB30 je posouvá nad kříž a tlačítka. Výsledkem je širší tělo a lehce nezvyklý úchop, na který si část hráčů musí zvykat déle než na klasické rozložení.",
+     "Čtvercový 4:3 displej dává smysl u NES, SNES nebo Game Boy titulů, ale širokoúhlé hry zobrazuje s pruhy po stranách nebo je roztahuje – záleží na emulátoru a nastavení."
+    ]
+   },
+   {
+    "title": "Výkon a systémy",
+    "body": [
+     "Rockchip RK3566 je stejný čip jako v řadě Anbernic RG353 nebo RG405, takže se pro RGB30 dá čerpat ze stejné komunitní podpory, firmwarů a návodů. NES/SNES/Mega Drive běží bez potíží, PS1 také.",
+     "U N64 a PSP je potřeba počítat s tím, že náročnější tituly občas zadrhávají a chtějí doladění emulátoru. Dreamcast zvládá jen vybrané, méně náročné hry; PS2 na tomto čipu reálně hratelné není."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Vyhovuje hráčům, kteří chtějí levnější zařízení hlavně na retro tituly do éry PS1/N64 a nevadí jim netradiční ovládání. Kdo hraje hodně PSP nebo chce rezervu na novější emulace, měl by hledat výkonnější stroj."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Ochranná fólie",
+    "text": "Displej je matný, ale gumová ochranná fólie pomůže hlavně proti poškrábání při nošení v kapse."
+   },
+   {
+    "title": "Vyberte správnou kartu",
+    "text": "Rychlá microSD (min. A2/UHS-I) zkrátí načítání her a sníží riziko zaseknutí u náročnějších emulátorů."
+   }
+  ]
+ },
+ {
+  "slug": "retroid-pocket-4-pro",
+  "name": "Retroid Pocket 4 Pro",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Nejvýkonnější Retroid s AMOLED displejem, který se otáčí i na výšku.",
+  "color": "#ff3e7f",
+  "color2": "#2a0f1d",
+  "art": "handheld-h",
+  "intro": [
+   "Retroid Pocket 4 Pro je vlajková loď řady Retroid Pocket a jedna z nejvýkonnějších kapesních konzolí na trhu. Pohání ji čipset Qualcomm Snapdragon 8 Gen 2, tedy křemík z tehdejších vlajkových telefonů, takže si poradí i s náročnější emulací. Nezvyklý téměř čtvercový AMOLED displej se navíc dá otočit na výšku, což ocení hráči arkádových a shoot 'em up titulů z automatů. Hodí se pro ty, kdo chtějí jedno zařízení na většinu retro platforem včetně náročnějších a nechtějí řešit kompromisy ve výkonu."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Qualcomm Snapdragon 8 Gen 2"
+   },
+   {
+    "label": "Displej",
+    "value": "6\" AMOLED, 1200×1080, otočitelný na výšku"
+   },
+   {
+    "label": "Pamet",
+    "value": "8 GB nebo 12 GB (podle varianty)"
+   },
+   {
+    "label": "Baterie",
+    "value": "6000 mAh"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta (bez pevného úložiště pro hry)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Android 13"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1), PSP",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, Dreamcast",
+    "level": "most"
+   },
+   {
+    "label": "GameCube, PS2",
+    "level": "some"
+   },
+   {
+    "label": "Nintendo Switch",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Čím se liší od zbytku řady",
+    "body": [
+     "Retroid Pocket 4 Pro staví na podobném designu jako běžný Pocket 4, ale mění srdce zařízení. Zatímco základní čtyřka používá slabší čipset Unisoc T820, Pro verze sází na Qualcomm Snapdragon 8 Gen 2 - stejnou třídu křemíku, jakou v té době nabízely vlajkové telefony. Výsledkem je citelně vyšší a stabilnější výkon u náročnějších emulátorů.",
+     "Druhý rozdíl je displej. Skoro čtvercový poměr stran 1200×1080 bodů dovoluje zařízení otočit o 90 stupňů a hrát tak vertikální arkádové tituly a shoot 'em upy v jejich původní orientaci, aniž by po stranách zůstávaly černé pruhy."
+    ]
+   },
+   {
+    "title": "Systémy a podpora komunity",
+    "body": [
+     "Díky výkonnému čipsetu zvládá Pocket 4 Pro plynule generace do PlayStation 1 a PSP a většinu titulů pro Nintendo 64 a Dreamcast. GameCube, PS2 a Nintendo Switch jsou v dosahu, ale jen u vybraných, méně náročných her - u těchto platforem počítejte s dolaďováním nastavení a propady snímkové frekvence.",
+     "Zařízení běží na Androidu, takže funguje se standardními emulátory z Google Play i mimo něj a těží z rozsáhlé komunity kolem celé řady Retroid Pocket, díky které rychle vznikají návody a doporučená nastavení pro nové emulátory."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Rychlá microSD karta",
+    "text": "Protože zařízení nemá interní úložiště na hry, vyplatí se koupit rychlejší microSD kartu - ušetří časy načítání hlavně u novějších systémů."
+   },
+   {
+    "title": "Ochranné pouzdro",
+    "text": "Vzhledem k lesklému displeji a exponovaným analogovým páčkám se hodí tvrzené sklo a měkké pouzdro do batohu."
+   }
+  ]
+ },
+ {
+  "slug": "retroid-pocket-5",
+  "name": "Retroid Pocket 5",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Levnější sourozenec Pocket 4 Pro s větším displejem a osvědčeným výkonem.",
+  "color": "#3ea1ff",
+  "color2": "#0f1d2a",
+  "art": "handheld-h",
+  "intro": [
+   "Retroid Pocket 5 je odlehčenější varianta řady, která místo nejnovějšího křemíku sází na osvědčený a levnější čipset Qualcomm Snapdragon 865 - tedy stále vlajkový výkon, jen o pár let starší generace. Zařízení dostalo větší displej s klasickým obdélníkovým poměrem stran a stejné pohodlné ovládání jako zbytek rodiny Pocket. Je to volba pro hráče, kteří chtějí většinu výkonu dražšího 4 Pro za nižší cenu a nepotřebují otočný displej ani AMOLED panel."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Qualcomm Snapdragon 865"
+   },
+   {
+    "label": "Displej",
+    "value": "6\" IPS LCD, Full HD rozlišení"
+   },
+   {
+    "label": "Pamet",
+    "value": "8 GB"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta"
+   },
+   {
+    "label": "Systemy",
+    "value": "Android 13"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1), PSP",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, Dreamcast",
+    "level": "most"
+   },
+   {
+    "label": "GameCube, PS2",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Kompromis mezi cenou a výkonem",
+    "body": [
+     "Retroid Pocket 5 cílí na hráče, kteří nechtějí platit příplatek za nejnovější čipset z Pocket 4 Pro, ale zároveň nechtějí sáhnout po výrazně slabším základním modelu. Snapdragon 865 byl v době vydání konzole už staršího data, ale pro emulaci retro konzolí to stále znamená víc než dostatečný výkon.",
+     "Displej je oproti 4 Pro větší a používá klasický obdélníkový poměr stran namísto nezvyklého čtverce - hodí se tak lépe na naprostou většinu her, které nejsou dělané pro výškovou orientaci."
+    ]
+   },
+   {
+    "title": "Systémy a komunita",
+    "body": [
+     "Pocket 5 si poradí plynule s generacemi do PlayStation 1 a PSP a zvládne většinu her pro Nintendo 64 a Dreamcast. GameCube a PS2 jsou dosažitelné jen u vybraných, méně náročných titulů.",
+     "Stejně jako zbytek řady běží na Androidu a sdílí komunitu i návody s ostatními modely Retroid Pocket, takže zprovoznění oblíbených emulátorů bývá dobře zdokumentované."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Nešetřete na microSD",
+    "text": "Díky nižší ceně zařízení dává smysl nešetřit ani na kartě - kvalitní microSD ovlivní načítací časy víc než u dražších modelů."
+   },
+   {
+    "title": "Zvažte 4 Pro pro otočný displej",
+    "text": "Kdo hraje hodně vertikálních arkádovek, ocení radši dražší Pocket 4 Pro s otočným AMOLED panelem."
+   }
+  ]
+ },
+ {
+  "slug": "retroid-pocket-mini",
+  "name": "Retroid Pocket Mini",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Kapesní konzole ve skutečně kapesní velikosti pro rychlé retro hraní odkudkoli.",
+  "color": "#ffb03e",
+  "color2": "#2a1d0f",
+  "art": "handheld-h",
+  "intro": [
+   "Retroid Pocket Mini je nejmenší člen rodiny Pocket - vejde se doslova do kapsy a je stavěný pro hráče, kteří chtějí retro konzoli vzít kamkoliv bez objemného zavazadla. Za menší tělo a nižší cenu se platí slabším čipsetem, který stačí na starší generace, ale u náročnějších systémů už naráží na limity. Je to volba pro příležitostné hráče a fanoušky kompaktních strojů, ne pro ty, kdo chtějí na jednom zařízení běhat i novější 3D platformy."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Unisoc T820"
+   },
+   {
+    "label": "Displej",
+    "value": "Kompaktní IPS panel, menší úhlopříčka než u větších modelů Pocket"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta"
+   },
+   {
+    "label": "Systemy",
+    "value": "Android"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "most"
+   },
+   {
+    "label": "PSP, Nintendo 64",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Menší tělo, menší výkon",
+    "body": [
+     "Retroid Pocket Mini vsází na kompaktnost především - je citelně menší než ostatní modely řady a cílí na hráče, kteří chtějí zařízení nosit v kapse bez omezení. Tomu odpovídá i slabší čipset Unisoc T820, který je typicky vidět spíš v levnějších handheldech než ve vlajkových modelech.",
+     "Menší displej a tělo zároveň znamenají méně prostoru pro velké analogové páčky a tlačítka, takže ovládání může být pro hráče s většíma rukama méně pohodlné než u standardních modelů Pocket."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Mini dobře zvládá 2D klasiky - NES, SNES, Mega Drive a podobné generace běží plynule. U PlayStation 1 a náročnějších titulů PSP či Nintendo 64 už je potřeba počítat s tím, že ne všechno poběží bez zaškobrtnutí.",
+     "Je to spíš doplňkové zařízení pro rychlé zahrání klasiky na cestách než hlavní stroj pro celou knihovnu retro her - na to se hodí spíš výkonnější modely jako Pocket 5 nebo 4 Pro."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Berte jako druhé zařízení",
+    "text": "Kdo chce hrát i náročnější systémy, měl by k Mini zvážit i výkonnější model - Mini je ideální spíš jako lehký doplněk na cesty."
+   },
+   {
+    "title": "Menší microSD stačí",
+    "text": "Vzhledem k zaměření na starší a méně datově náročné hry není potřeba kupovat nejvyšší kapacity karet."
+   }
+  ]
+ },
+ {
+  "slug": "rg28xx",
+  "name": "Anbernic RG28XX",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Nejmenší člen rodiny s čipem H700, kapesní tvar inspirovaný klasickými herními konzolemi.",
+  "color": "#22d3c8",
+  "color2": "#0b2e2c",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG28XX je nejmenší kapesní konzole z generace postavené na čipu Allwinner H700, kterou Anbernic v roce 2024 nahradil starší platformu RK3326. Tvarem připomíná klasické herní konzole devadesátých let, vejde se snadno do kapsy a je jednoznačně vstupním, nejlevnějším modelem řady. Cílí na hráče, kteří chtějí co nejmenší a nejdostupnější vstup do emulace starších generací a nepotřebují výkon na náročnější 3D tituly. Ovládání tvoří klasický křížový ovladač a čtyři akční tlačítka, analogové páčky chybí."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 – čtyřjádro ARM Cortex-A53, GPU Mali-G31 MP2"
+   },
+   {
+    "label": "Displej",
+    "value": "2,8\" IPS"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM (LPDDR3)"
+   },
+   {
+    "label": "Uloziste",
+    "value": "MicroSD karta (bez vestavěného úložiště pro hry)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Vlastní Linuxový firmware, běžně nahrazovaný komunitními distribucemi ArkOS, muOS nebo Batocera"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Game Boy, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Nejmenší z rodiny H700",
+    "body": [
+     "RG28XX sdílí čip i základní výbavu s většími sourozenci RG34XX a RG40XX, liší se hlavně velikostí displeje a tím i pozicí vstupního modelu řady. Menší 2,8palcový panel znamená kompaktnější tělo, ale i menší plochu pro ovládací prvky, což se projeví hlavně u delšího hraní.",
+     "Stejně jako zbytek řady nemá analogové páčky, takže se hodí především na tituly ovládané křížem a tlačítky – tedy naprostou většinu 8bitové a 16bitové éry, ne však hry, které analogový vstup vyžadují."
+    ]
+   },
+   {
+    "title": "Systémy a podpora",
+    "body": [
+     "Výchozí firmware je jednoduchý Linuxový launcher, komunita ale běžně přeinstalovává alternativní distribuce jako ArkOS, muOS nebo Batocera, které nabízejí lepší rozhraní a širší nastavení emulátorů. Podpora čipu H700 je v těchto projektech už zavedená, aktualizace chodí pravidelně.",
+     "1 GB RAM na emulaci starších systémů stačí, u paměťově náročnějších jader (například některá N64 nebo Dreamcast jádra) to ale může limitovat stabilitu snímkové frekvence u složitějších her."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Ideální volba pro někoho, kdo chce nejlevnější a nejmenší kapesní zařízení hlavně na NES, SNES, Game Boy a podobné 2D klasiky a nepotřebuje řešit novější generace.",
+     "Kdo cílí i na N64, PSP nebo Dreamcast, měl by zvážit spíš větší sourozence s pohodlnějším držením nebo model s páčkami – na RG28XX bude ovládání 3D titulů kompromisní."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "MicroSD karta",
+    "text": "Zvolte kvalitní kartu alespoň UHS-1, zařízení nemá žádné vlastní úložiště pro hry."
+   },
+   {
+    "title": "Alternativní firmware",
+    "text": "Pro pohodlnější rozhraní a širší nastavení zvažte přeinstalaci na muOS nebo ArkOS."
+   }
+  ]
+ },
+ {
+  "slug": "rg34xx",
+  "name": "Anbernic RG34XX",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Sklápěcí tělo v duchu klasických konzolí s neobvyklým 3,4palcovým displejem.",
+  "color": "#8b5cf6",
+  "color2": "#241238",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG34XX je sklápěcí kapesní konzole, která tvarem i průhledným provedením těla připomíná ikonické handheldy devadesátých let. Pod kapotou používá stejný čip Allwinner H700 jako ostatní modely generace 2024, nabízí ale větší 3,4palcový displej a sklopný kryt, který chrání obrazovku při přenášení. Cílí na hráče, kteří oceňují nostalgický design a klasické ovládání křížem a tlačítky bez analogových páček."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 – čtyřjádro ARM Cortex-A53, GPU Mali-G31 MP2"
+   },
+   {
+    "label": "Displej",
+    "value": "3,4\" IPS, neobvyklý poměr stran"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM (LPDDR3)"
+   },
+   {
+    "label": "Uloziste",
+    "value": "MicroSD karta (bez vestavěného úložiště pro hry)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Vlastní Linuxový firmware, běžně nahrazovaný komunitními distribucemi ArkOS, muOS nebo Batocera"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Game Boy, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Odlišnost v rámci řady",
+    "body": [
+     "Hlavní rozdíl oproti RG28XX a RG40XX je sklápěcí konstrukce a větší displej s neobvyklým poměrem stran, který se přibližuje starším CRT obrazovkám – hry ve 4:3 tak nemusí mít po stranách tak výrazné pruhy jako na širších panelech.",
+     "Tělo je hmotnější a objemnější než u RG28XX, což na jednu stranu zlepšuje ergonomii při delším hraní, na druhou stranu ho dělá méně kapesním v pravém slova smyslu."
+    ]
+   },
+   {
+    "title": "Systémy a komunita",
+    "body": [
+     "Stejně jako ostatní modely s čipem H700 se dobře opírá o zavedenou podporu v projektech ArkOS, muOS a Batocera, které nabízejí pravidelné aktualizace a širokou knihovnu jader RetroArch.",
+     "Absence analogových páček omezuje použitelnost pro tituly, které páčku vyžadují, i když je čip technicky zvládne."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Vhodné pro fanoušky retro designu, kteří chtějí hlavně 2D klasiky a nevadí jim sklápěcí konstrukce navíc.",
+     "Kdo hledá zařízení na N64 nebo PSP s pohodlným ovládáním, najde lepší volbu v modelech s analogovými páčkami."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "MicroSD karta",
+    "text": "Investujte do rychlejší karty, urychlí načítání her i reakci menu."
+   },
+   {
+    "title": "Ochranné pouzdro",
+    "text": "Sklápěcí kryt chrání displej, i tak se hodí měkké pouzdro do batohu nebo kapsy."
+   }
+  ]
+ },
+ {
   "slug": "rg353m",
   "name": "Anbernic RG353M",
   "kind": "Kapesní konzole · 2022",
@@ -634,6 +1444,176 @@
   ]
  },
  {
+  "slug": "rg40xx-h",
+  "name": "Anbernic RG40XX H",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Vodorovná varianta se 4palcovým displejem a čipem H700 pro pohodlnější držení.",
+  "color": "#ff6a3d",
+  "color2": "#33150a",
+  "art": "handheld-h",
+  "intro": [
+   "Anbernic RG40XX H je vodorovná (horizontální) varianta modelu RG40XX, poháněná stejným čipem Allwinner H700 jako zbytek generace 2024. Větší 4palcový displej a širší tělo v klasickém tvaru gamepadu nabízí pohodlnější úchop než menší sourozenci z řady, zejména při delším hraní. Písmeno H v názvu odlišuje tento model od vertikální varianty V, která cílí spíš na fanoušky tvaru připomínajícího klasický Game Boy."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 – čtyřjádro ARM Cortex-A53, GPU Mali-G31 MP2"
+   },
+   {
+    "label": "Displej",
+    "value": "4\" IPS"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM (LPDDR3)"
+   },
+   {
+    "label": "Uloziste",
+    "value": "MicroSD karta (bez vestavěného úložiště pro hry)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Vlastní Linuxový firmware, běžně nahrazovaný komunitními distribucemi ArkOS, muOS nebo Batocera"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Game Boy, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "H vs. V v rámci řady RG40XX",
+    "body": [
+     "Verze H nabízí širší, vodorovné tělo připomínající klasický gamepad, což většině hráčů sedí lépe do ruky při delších hraních než užší vertikální tvar modelu V.",
+     "Vnitřní výbava obou variant je shodná, liší se prakticky jen tvarem a rozložením ovládacích prvků."
+    ]
+   },
+   {
+    "title": "Systémy a podpora",
+    "body": [
+     "Čip H700 má v komunitních firmwarech ArkOS, muOS i Batocera dobře odladěnou podporu, díky čemuž jsou aktualizace a opravy chyb poměrně časté.",
+     "Bez analogových páček zůstává hlavní doménou 2D emulace, byť čip technicky zvládne i některé jednodušší 3D tituly."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Vhodný pro hráče, kteří preferují klasický tvar gamepadu a chtějí větší displej než u menších modelů řady.",
+     "Pro náročnější 3D tituly nebo hraní s páčkou je lepší sáhnout po dražších modelech s analogovým ovládáním."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "MicroSD karta",
+    "text": "Zvolte kartu s dostatečnou kapacitou, zařízení žádné vlastní úložiště pro hry nemá."
+   },
+   {
+    "title": "Firmware",
+    "text": "Pro lepší rozhraní zkuste přeinstalaci na muOS nebo ArkOS místo výchozího firmwaru."
+   }
+  ]
+ },
+ {
+  "slug": "rg40xx-v",
+  "name": "Anbernic RG40XX V",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Svislá varianta ve tvaru připomínajícím klasický Game Boy, se stejným čipem jako model H.",
+  "color": "#4ade80",
+  "color2": "#0d2b18",
+  "art": "handheld-v",
+  "intro": [
+   "Anbernic RG40XX V je vertikální (svislá) varianta modelu RG40XX, tvarem odkazující na klasické handheldy typu Game Boy. Pod kapotou sdílí čip Allwinner H700 se zbytkem generace 2024, liší se hlavně orientací displeje a užším, protáhlým tělem. Menší půdorys usnadňuje přenášení v kapse, na úkor o něco stísněnějšího úchopu při delším hraní ve srovnání s vodorovnou verzí H."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner H700 – čtyřjádro ARM Cortex-A53, GPU Mali-G31 MP2"
+   },
+   {
+    "label": "Displej",
+    "value": "4\" IPS"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM (LPDDR3)"
+   },
+   {
+    "label": "Uloziste",
+    "value": "MicroSD karta (bez vestavěného úložiště pro hry)"
+   },
+   {
+    "label": "Systemy",
+    "value": "Vlastní Linuxový firmware, běžně nahrazovaný komunitními distribucemi ArkOS, muOS nebo Batocera"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Game Boy, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "V vs. H v rámci řady RG40XX",
+    "body": [
+     "Svislá orientace znamená užší tělo, které se snadněji vejde do kapsy, ale ovládací prvky jsou blíž u sebe než u širší verze H.",
+     "Vnitřní hardware je shodný s modelem H, rozdíl je čistě v tvaru a ergonomii."
+    ]
+   },
+   {
+    "title": "Systémy a podpora",
+    "body": [
+     "Stejně jako ostatní zařízení s čipem H700 těží ze zavedené podpory v ArkOS, muOS a Batocera s pravidelnými aktualizacemi jader RetroArch.",
+     "Chybějící analogové páčky omezují použitelnost pro systémy, které je vyžadují, byť výkon čipu by na ně stačil."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Hodí se pro hráče, kteří chtějí kompaktní tvar ve stylu Game Boy a hrají hlavně 2D klasiky.",
+     "Kdo preferuje širší úchop nebo plánuje delší herní seance, bude spokojenější s vodorovnou verzí H."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "MicroSD karta",
+    "text": "Vsaďte na kvalitní kartu, vlastní úložiště pro hry zařízení nemá."
+   },
+   {
+    "title": "Ergonomie",
+    "text": "Pro delší hraní zvažte spíš vodorovnou verzi H, svislý tvar je stísněnější v rukou."
+   }
+  ]
+ },
+ {
   "slug": "rg503",
   "name": "Anbernic RG503",
   "kind": "Kapesní konzole · 2022",
@@ -880,6 +1860,173 @@
    {
     "title": "Emulace PS2 a Dreamcastu",
     "text": "U náročnějších systémů počítejte s laděním nastavení jednotlivých emulátorů a s tím, že ne všechny tituly poběží plynule."
+   }
+  ]
+ },
+ {
+  "slug": "trimui-brick",
+  "name": "TrimUI Brick",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Vertikální handheld ve stylu Game Boye se stejnou elektronikou jako Smart Pro.",
+  "color": "#7c3aed",
+  "color2": "#1c0f36",
+  "art": "handheld-v",
+  "intro": [
+   "TrimUI Brick je vertikální handheld ve tvaru připomínajícím původní Game Boy, uvnitř ale sedí stejný čip Allwinner A133P jako ve Smart Pro. Menší tělo a menší displej dělají ze zařízení spíš nostalgickou volbu pro hry, které se hrály na malých obrazovkách – GB, GBC, GBA a podobně staré tituly. Kdo čeká pohodlné hraní náročnějších 3D her na velkém displeji, sáhne spíš po Smart Pro; Brick cílí na kompaktnost a retro pocit v ruce."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner A133P (čtyřjádro Cortex-A53)"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux (tovární TrimUI OS), komunitní alternativy jako CrossMix OS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Tvar místo výkonu",
+    "body": [
+     "Brick vychází ze stejné elektroniky jako Smart Pro – stejný čip Allwinner A133P i množství RAM – ale balí ji do svislého těla připomínajícího originální Game Boy. Displej je menší, takže se sem tak snadno nevejde velký text ani širokoúhlý obraz.",
+     "Menší tělo znamená i menší baterii než u Smart Pro, takže na jedno nabití vydrží zařízení kratší dobu hraní."
+    ]
+   },
+   {
+    "title": "Systémy a komunita",
+    "body": [
+     "Protože jde o stejný čip jako u Smart Pro, výkonové stropy jsou identické: NES, SNES, Mega Drive a PS1 bez problémů, N64 a PSP většinou, Dreamcast jen vybrané tituly. Firmware a komunitní nástroje se mezi oběma zařízeními sdílí."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Sedí lidem, kteří chtějí primárně hrát starší 2D tituly (GB, GBC, GBA, NES, SNES) v malém, nostalgicky tvarovaném těle. Na hraní N64 nebo PSP na velkém displeji je vhodnější Smart Pro."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Menší kapsa, menší baterie",
+    "text": "Počítejte s kratší výdrží než u větších handheldů – na delší cesty se hodí power banka."
+   },
+   {
+    "title": "Sáhněte po starších sbírkách",
+    "text": "Zařízení nejlíp sedí ke sbírkám GB/GBC/GBA a NES/SNES her, kde malý displej nevadí."
+   }
+  ]
+ },
+ {
+  "slug": "trimui-smart-pro",
+  "name": "TrimUI Smart Pro",
+  "kind": "Kapesní konzole · 2024",
+  "tagline": "Malé tělo, velký 4,96\" 16:9 displej a čip sdílený s TrimUI Brick.",
+  "color": "#f2c200",
+  "color2": "#261e00",
+  "art": "handheld-h",
+  "intro": [
+   "TrimUI Smart Pro je malý handheld s překvapivě velkým 4,96\" displejem v poměru 16:9, který cílí na hráče chtějící kompaktní zařízení bez kompromisů v ostrosti obrazu. Čip Allwinner A133P zvládá pohodlně starší 2D i 3D systémy, jenže jediný gigabyte RAM dokáže omezit náročnější emulátory a Android nadstavby. Hodí se hlavně těm, kdo chtějí hrát hlavně tituly do éry PSP a nepotřebují experimentovat s pokročilejšími porty nebo emulací novějších konzolí."
+  ],
+  "specs": [
+   {
+    "label": "Cip (SoC)",
+    "value": "Allwinner A133P (čtyřjádro Cortex-A53)"
+   },
+   {
+    "label": "Displej",
+    "value": "4,96\" IPS, 1280×720 (16:9)"
+   },
+   {
+    "label": "Pamet",
+    "value": "1 GB RAM"
+   },
+   {
+    "label": "Baterie",
+    "value": "3500 mAh"
+   },
+   {
+    "label": "Uloziste",
+    "value": "microSD karta"
+   },
+   {
+    "label": "Systemy",
+    "value": "Linux (tovární TrimUI OS), komunitní alternativy jako CrossMix OS"
+   }
+  ],
+  "canPlay": [
+   {
+    "label": "NES, SNES, Mega Drive",
+    "level": "ok"
+   },
+   {
+    "label": "PlayStation (PS1)",
+    "level": "ok"
+   },
+   {
+    "label": "Nintendo 64, PSP",
+    "level": "most"
+   },
+   {
+    "label": "Dreamcast",
+    "level": "some"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Velký displej v malém těle",
+    "body": [
+     "4,96\" panel v poměru 16:9 je hlavní devízou Smart Pro – u této velikosti a rozlišení 1280×720 vypadá ostře i v porovnání s dražšími zařízeními. Tělo přitom zůstává kompaktní, o dost menší než u handheldů se stejně velkým displejem.",
+     "Slabinou je jediný gigabyte RAM. Na klasické emulátory (NES až PS1) to stačí bez potíží, ale náročnější Android nadstavby nebo emulátory novějších systémů si s tak malou pamětí občas neporadí plynule."
+    ]
+   },
+   {
+    "title": "Systémy a komunita",
+    "body": [
+     "Čip Allwinner A133P sdílí s TrimUI Brick, takže výkonová omezení i komunitní firmware (např. CrossMix OS) jsou pro obě zařízení prakticky totožné. Podpora je aktivní, aktualizace vycházejí pravidelně.",
+     "NES, SNES a Mega Drive běží bez kompromisů, PS1 taktéž. N64 a PSP zvládá většinu knihovny, ale u opravdu náročných titulů dochází ke zpomalení. Dreamcast je hratelný jen výběrově."
+    ]
+   },
+   {
+    "title": "Pro koho se hodí",
+    "body": [
+     "Ideální pro hráče, kteří chtějí ostrý displej a kompaktní tělo na tituly do éry PSP/PS1. Kdo řeší hlavně novější, náročnější emulaci nebo chce hodně RAM na Android hry, bude limitován."
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Chraňte displej",
+    "text": "Kvůli velké ploše skla se vyplatí ochranná fólie hned od začátku, škrábance jsou na lesklém panelu dobře vidět."
+   },
+   {
+    "title": "Zvolte odlehčený systém",
+    "text": "Pro plynulý chod náročnějších emulátorů pomáhá odlehčená distribuce místo výchozího rozhraní."
    }
   ]
  }
