@@ -206,6 +206,14 @@ přitom hlásí stovky doplněných her. Po každé obrázkové dávce proto por
 `dataset.json` proti předchozí verzi (kolika hrám opravdu přibyl obrázek),
 ne věřit číslu z výpisu. Jednou takhle skončilo 2404 stažených souborů v koši.
 
+**Dvě workflow nad týmž pracovním adresářem si přepíšou výsledky.** Když se
+změní zadání a pustí se dávky znovu, ta předchozí instance pořád běží a zapisuje
+výstupy podle starého zadání — klidně přes ty nové. Poznat se to dá až podle
+obsahu, ne podle hlášení „hotovo". Před novým během proto **počkat, až ten
+předchozí doběhne**, a pak ověřit obsah: u chybějících titulů musí dávka šesti
+her vrátit aspoň polovinu z nich, protože titul, který v katalogu není, má
+vzniknout vždycky. Dělá to `tools/porty_kontrola.py`.
+
 **Zpráva v chatu přebije agentovi zadání.** Když během běžící dávky napíšeš
 do chatu otázku, harness ji předá i spuštěným agentům a část z nich svoji práci
 opustí a odpoví na ni. Pozná se to tak, že výstupní soubory chybí, ale workflow
