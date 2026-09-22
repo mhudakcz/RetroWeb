@@ -159,10 +159,11 @@ const posText = {
     </div>
   )}
 
-  {(game.link || game.playUrl) && (
+  {(game.link || game.playUrl || game.czUrl) && (
     <div class="game-links" style={`--c1:${platform.color}`}>
       {game.playUrl && <a class="g-btn play" href={game.playUrl} target="_blank" rel="noopener noreferrer">{t(locale, 'game.playOnline')}</a>}
       {game.link && <a class="g-btn" href={game.link} target="_blank" rel="noopener noreferrer">{t(locale, 'game.official')}</a>}
+      {game.czUrl && <a class="g-btn cz" href={game.czUrl} target="_blank" rel="noopener noreferrer">{t(locale, 'game.czech')}</a>}
     </div>
   )}
 

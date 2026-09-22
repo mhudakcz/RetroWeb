@@ -27,6 +27,9 @@ export interface Game {
   gallery: { src: string; label: string; kind: string; full?: string }[];
   link: string | null;
   playUrl: string | null;
+  /** Odkaz na cesky komunitni preklad hry — neni to ani hrani
+   *  v prohlizeci, ani oficialni zdroj, proto vlastni pole. */
+  czUrl?: string | null;
   players: string | null;
   /** Obchody, ve kterych hra na mobilu opravdu vysla. Jinde nez na 'mobil' null. */
   os?: string[] | null;

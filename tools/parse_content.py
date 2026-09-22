@@ -582,6 +582,10 @@ def build():
     extra = json.loads(extra_file.read_text(encoding="utf-8")) if extra_file.exists() else {}
     links_file = ROOT / "src" / "data" / "game_links.json"
     game_links = json.loads(links_file.read_text(encoding="utf-8")) if links_file.exists() else {}
+    # Odkazy na ceske komunitni preklady — vlastni pole, protoze to neni
+    # ani hrani v prohlizeci, ani oficialni zdroj.
+    cz_file = ROOT / "src" / "data" / "game_cz.json"
+    game_cz = json.loads(cz_file.read_text(encoding="utf-8")) if cz_file.exists() else {}
     play_file = ROOT / "src" / "data" / "game_play.json"
     game_play = json.loads(play_file.read_text(encoding="utf-8")) if play_file.exists() else {}
     players_file = ROOT / "src" / "data" / "game_players.json"
@@ -753,6 +757,7 @@ def build():
                 gallery=gallery,
                 link=game_links.get(gslug),
                 playUrl=game_play.get(gslug),
+                czUrl=game_cz.get(gslug),
                 players=game_players.get(gslug),
                 os=(game_os.get(gslug) or ["iOS", "Android"]) if slug == "mobil" else None,
                 rating=game_ratings.get(gslug),

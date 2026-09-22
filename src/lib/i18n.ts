@@ -233,6 +233,7 @@ const UI: Dict = {
   'game.prev': { cs: '← Předchozí hra', en: '← Previous game', de: '← Vorheriges Spiel', fr: '← Jeu précédent' },
   'game.next': { cs: 'Další hra →', en: 'Next game →', de: 'Nächstes Spiel →', fr: 'Jeu suivant →' },
   'game.playOnline': { cs: '▶ Zahrát online v prohlížeči', en: '▶ Play online in browser', de: '▶ Online im Browser spielen', fr: '▶ Jouer en ligne dans le navigateur' },
+  'game.czech': { cs: '🇨🇿 Čeština do hry — komunitní překlad', en: '🇨🇿 Czech translation — community patch', de: '🇨🇿 Tschechische Übersetzung — Community-Patch', fr: '🇨🇿 Traduction tchèque — patch communautaire' },
   'game.official': { cs: '🔗 Oficiální stránka — kde hru legálně získat', en: '🔗 Official site — where to get it legally', de: '🔗 Offizielle Seite — wo man es legal bekommt', fr: '🔗 Site officiel — où se le procurer légalement' },
   'game.moreFrom': { cs: 'Další z', en: 'More from', de: 'Mehr von', fr: 'Plus de' },
   'game.all': { cs: 'všech', en: 'all', de: 'alle', fr: 'tous' },
