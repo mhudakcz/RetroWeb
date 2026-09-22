@@ -855,6 +855,132 @@
    "genre": "Rytmická akce / Adventura",
    "length": "M",
    "name": "Rhythm Thief & the Emperor's Treasure"
+  },
+  {
+   "name": "Animal Crossing: Happy Home Designer",
+   "genre": "simulace bydlení",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Batman: Arkham Origins Blackgate",
+   "genre": "Akční adventura / Metroidvania",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Blaster Master Zero",
+   "genre": "Akční plošinovka / Metroidvania",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bust-A-Move Universe",
+   "genre": "puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Driver: Renegade",
+   "genre": "Akční závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Explorers",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon: Shadow Wars",
+   "genre": "tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Blowout Blast",
+   "genre": "Akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Extra Epic Yarn",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter Stories",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hey! Pikmin",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pokémon Mystery Dungeon: Gates to Infinity",
+   "genre": "roguelike RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Pokémon Mystery Dungeon: Super Mystery Dungeon",
+   "genre": "roguelike RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil: The Mercenaries 3D",
+   "genre": "akční arkáda (score attack)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei IV: Apocalypse",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei: Strange Journey Redux",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sonic Boom: Shattered Crystal",
+   "genre": "plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Boom: Fire & Ice",
+   "genre": "plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Monkey Ball 3D",
+   "genre": "arkáda / plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Legend of Zelda: Tri Force Heroes",
+   "genre": "kooperativní akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "WarioWare Gold",
+   "genre": "party / mikrohry",
+   "length": "L",
+   "flags": []
   }
  ],
  "amiga": [
@@ -1304,6 +1430,24 @@
    "name": "Rogue",
    "genre": "roguelike (dungeon crawler)",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Formula One Grand Prix",
+   "genre": "závodní simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "RoboCop 2",
+   "genre": "akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RoboCop 3",
+   "genre": "akční simulace / plošinovka",
+   "length": "S",
    "flags": []
   }
  ],
@@ -2495,6 +2639,186 @@
    "genre": "Rytmická hra",
    "length": "S",
    "name": "maimai"
+  },
+  {
+   "name": "Super Contra",
+   "genre": "run and gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Gauntlet Legends",
+   "genre": "akční hack and slash",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Gauntlet Dark Legacy",
+   "genre": "akční hack and slash",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Golden Axe: The Duel",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The House of the Dead 4",
+   "genre": "rail shooter / light-gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The House of the Dead: Scarlet Dawn",
+   "genre": "rail shooter / light-gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug 4",
+   "genre": "run and gun akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug 5",
+   "genre": "run and gun akční arkáda",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug 6",
+   "genre": "run and gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat 3",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ultimate Mortal Kombat 3",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat 4",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pokkén Tournament",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "R-Type II",
+   "genre": "Shoot 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RoboCop 2",
+   "genre": "beat 'em up / run and gun",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "SNK vs. Capcom: SVC Chaos",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soul Edge",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Street Fighter",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Street Fighter III: New Generation",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Street Fighter III: 2nd Impact",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tekken 6",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tekken 7",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tekken Tag Tournament 2",
+   "genre": "Bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Crisis Zone",
+   "genre": "light-gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Time Crisis 5",
+   "genre": "light-gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Virtua Fighter 3",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Virtua Fighter 5",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Virtua Fighter Kids",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Virtua Tennis 2",
+   "genre": "sportovní / tenis",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Virtua Tennis 3",
+   "genre": "sportovní / tenis",
+   "length": "S",
+   "flags": []
   }
  ],
  "atari-2600": [
@@ -5107,6 +5431,12 @@
    "genre": "Sportovní hra (basketbal)",
    "length": "S",
    "name": "NBA 2K1"
+  },
+  {
+   "name": "Sonic Shuffle",
+   "genre": "párty hra",
+   "length": "M",
+   "flags": []
   }
  ],
  "game-boy": [
@@ -5724,6 +6054,42 @@
    "genre": "Akční puzzle",
    "length": "S",
    "name": "Wario Blast Featuring Bomberman!"
+  },
+  {
+   "name": "Kirby's Pinball Land",
+   "genre": "arkáda / pinball",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Block Ball",
+   "genre": "Arkanoid / puzzle-akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Star Stacker",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RoboCop Versus The Terminator",
+   "genre": "run and gun / postranní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wizardry Gaiden I: Suffering of the Queen",
+   "genre": "RPG (dungeon crawler)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wizardry Gaiden II: Curse of the Ancient Emperor",
+   "genre": "RPG (dungeon crawler)",
+   "length": "M",
+   "flags": []
   }
  ],
  "game-boy-advance": [
@@ -6385,6 +6751,30 @@
    "genre": "RPG s procedurálními dungeony (roguelike)",
    "length": "L",
    "name": "Pokemon Mystery Dungeon: Red Rescue Team"
+  },
+  {
+   "name": "Final Fantasy V Advance",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Grand Theft Auto Advance",
+   "genre": "akční adventura, open world",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Hearts: Chain of Memories",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Monkey Ball Jr.",
+   "genre": "logická arkáda",
+   "length": "S",
+   "flags": []
   }
  ],
  "game-boy-color": [
@@ -6959,6 +7349,12 @@
    "genre": "Akční hra",
    "length": "S",
    "name": "007: The World Is Not Enough"
+  },
+  {
+   "name": "Magical Tetris Challenge",
+   "genre": "puzzle",
+   "length": "S",
+   "flags": []
   }
  ],
  "game-gear": [
@@ -7667,6 +8063,18 @@
    "name": "Call of Duty 2: Big Red One",
    "genre": "Akční střílečka (FPS)",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Bust-A-Move 3000",
+   "genre": "puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Viewtiful Joe: Red Hot Rumble",
+   "genre": "bojová hra / party",
+   "length": "S",
    "flags": []
   }
  ],
@@ -9298,6 +9706,30 @@
    "genre": "Sportovni",
    "length": "S",
    "name": "Joe Montana II: Sports Talk Football"
+  },
+  {
+   "name": "RoboCop 3",
+   "genre": "akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RoboCop Versus The Terminator",
+   "genre": "run and gun / postranní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic 3D Blast",
+   "genre": "plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+   "genre": "bojová hra (fighting)",
+   "length": "S",
+   "flags": []
   }
  ],
  "mobil": [
@@ -11471,6 +11903,90 @@
    "genre": "Strategie",
    "length": "L",
    "name": "Squad Busters"
+  },
+  {
+   "name": "Asphalt 4: Elite Racing",
+   "genre": "arkádové závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Asphalt 5",
+   "genre": "arkádové závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Asphalt 6: Adrenaline",
+   "genre": "arkádové závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Asphalt 7: Heat",
+   "genre": "arkádové závody",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tales from the Borderlands",
+   "genre": "narativní adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Broken Sword 5: The Serpent's Curse",
+   "genre": "point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Burnout Crash!",
+   "genre": "arkádová akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Broken Sword: Shadow of the Templars – Reforged",
+   "genre": "point-and-click adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sid Meier's Civilization Revolution 2",
+   "genre": "Tahová strategie (4X)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dragon Quest",
+   "genre": "JRPG",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dragon Quest II",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Infinity Blade: Dungeons",
+   "genre": "akční RPG / dungeon crawler",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Lara Croft and the Guardian of Light",
+   "genre": "Kooperativní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wolfenstein RPG",
+   "genre": "RPG (dungeon crawler)",
+   "length": "S",
+   "flags": []
   }
  ],
  "msx": [
@@ -11657,6 +12173,42 @@
    "genre": "Akční plošinovka",
    "length": "S",
    "name": "Bomberman Hero"
+  },
+  {
+   "name": "Castlevania: Legacy of Darkness",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Road Rash 64",
+   "genre": "závodní akce (combat racing)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The New Tetris",
+   "genre": "puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater",
+   "genre": "Sportovní arkáda",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Turok: Rage Wars",
+   "genre": "FPS (aréna)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Turok 3: Shadow of Oblivion",
+   "genre": "akční střílečka (FPS)",
+   "length": "L",
+   "flags": []
   }
  ],
  "nds": [
@@ -12370,6 +12922,150 @@
    "genre": "FPS",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Arkanoid DS",
+   "genre": "arkanoid / breakout",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed: Altaïr's Chronicles",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Crash Boom Bang!",
+   "genre": "Party hra / minihry",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy III",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Crystal Chronicles: Ring of Fates",
+   "genre": "akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Crystal Chronicles: Echoes of Time",
+   "genre": "akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Hearts Re:coded",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lunar: Dragon Song",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metroid Prime Pinball",
+   "genre": "pinball",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ultimate Mortal Kombat",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ni no Kuni: Dominion of the Dark Djinn",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pokémon: White Version",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pokémon: White Version 2",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Pokémon Mystery Dungeon: Explorers of Time / Darkness / Sky",
+   "genre": "roguelike RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil: Deadly Silence",
+   "genre": "survival horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei: Devil Survivor",
+   "genre": "taktické RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei: Devil Survivor 2",
+   "genre": "taktické RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SimCity DS",
+   "genre": "budovatelská strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Monkey Ball Touch & Roll",
+   "genre": "arkáda / plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Downhill Jam",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Proving Ground",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "WarioWare: D.I.Y.",
+   "genre": "tvorba her / mikrohry",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms: Open Warfare",
+   "genre": "tahová strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Worms: Open Warfare 2",
+   "genre": "tahová strategie",
+   "length": "S",
+   "flags": []
   }
  ],
  "neogeo": [
@@ -12937,6 +13633,30 @@
    "genre": "Závodní hra",
    "length": "M",
    "name": "R.C. Pro-Am II"
+  },
+  {
+   "name": "Final Fantasy III",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Snake's Revenge",
+   "genre": "akční střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "RoboCop 3",
+   "genre": "akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Splatterhouse: Wanpaku Graffiti",
+   "genre": "akční plošinovka",
+   "length": "S",
+   "flags": []
   }
  ],
  "ngpc": [
@@ -14605,6 +15325,186 @@
    "genre": "Akční",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Operation Flashpoint: Resistance",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Civilization: Call to Power",
+   "genre": "tahová strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Civilization: Call to Power II",
+   "genre": "Tahová strategie (4X)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Comanche 4",
+   "genre": "Vrtulníková akce / simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer: Renegade",
+   "genre": "FPS / Akční",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Diablo: Hellfire",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Diablo II: Lord of Destruction",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Frank Herbert's Dune",
+   "genre": "Strategie / adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Emperor: Battle for Dune",
+   "genre": "Real-time strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Earthworm Jim 3D",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Europa Universalis",
+   "genre": "grandstrategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "King's Quest: Mask of Eternity",
+   "genre": "adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Might and Magic VIII: Day of the Destroyer",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Might and Magic IX",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia 3D",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms V",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms VI: Awakening of the Dragon",
+   "genre": "strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms VII",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Silent Hunter II",
+   "genre": "simulace ponorky",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Starfleet Academy",
+   "genre": "vesmírný simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Starfleet Command",
+   "genre": "taktická vesmírná strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Klingon Academy",
+   "genre": "vesmírný simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Armada",
+   "genre": "realtimová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Armada II",
+   "genre": "realtimová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Voyager – Elite Force",
+   "genre": "akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wizardry 8",
+   "genre": "RPG (dungeon crawler)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Worms World Party",
+   "genre": "Tahová strategie / dělostřelba",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms Blast",
+   "genre": "Akční puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "X-COM: Interceptor",
+   "genre": "vesmírná strategie / letecký simulátor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "X-COM: Enforcer",
+   "genre": "akční střílečka",
+   "length": "S",
+   "flags": []
   }
  ],
  "pc-dos": [
@@ -15855,6 +16755,120 @@
    "name": "Rogue",
    "genre": "roguelike (dungeon crawler)",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "King's Quest VII: The Princeless Bride",
+   "genre": "point-and-click adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Might and Magic: Secret of the Inner Sanctum",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Might and Magic V: Darkside of Xeen",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia 2: The Shadow and the Flame",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms II",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "An Elder Scrolls Legend: Battlespire",
+   "genre": "RPG / dungeon crawler",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Elder Scrolls Adventures: Redguard",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ultima VII Part Two: Serpent Isle",
+   "genre": "RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Worlds of Ultima: The Savage Empire",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worlds of Ultima: Martian Dreams",
+   "genre": "RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Warhammer: Shadow of the Horned Rat",
+   "genre": "real-time taktika (RTT)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander: The Secret Missions",
+   "genre": "vesmírný simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander: The Secret Missions 2: Crusade",
+   "genre": "vesmírný simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander II: Special Operations 1",
+   "genre": "vesmírný bojový simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander II: Special Operations 2",
+   "genre": "vesmírný bojový simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Wing Commander: Academy",
+   "genre": "vesmírný bojový simulátor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Beyond Zork: The Coconut of Quendor",
+   "genre": "Textová adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Zork Zero: The Revenge of Megaboz",
+   "genre": "textová adventura",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Return to Zork",
+   "genre": "adventura",
+   "length": "L",
    "flags": []
   }
  ],
@@ -18653,6 +19667,584 @@
    "genre": "Online akční RPG (MMORPG)",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Age of Empires: Definitive Edition",
+   "genre": "strategie v reálném čase (RTS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Age of Empires III: Definitive Edition",
+   "genre": "strategie v reálném čase (RTS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Age of Empires Online",
+   "genre": "strategie (RTS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Arkanoid: Eternal Battle",
+   "genre": "arkanoid / breakout",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed Chronicles: China",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Battlefield 2042",
+   "genre": "Akční střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Borderlands: The Pre-Sequel",
+   "genre": "Looter shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Borderlands 4",
+   "genre": "Looter shooter",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: United Offensive",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Vietcong: Purple Haze",
+   "genre": "taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fish Fillets 2",
+   "genre": "logická hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Vaporum: Lockdown",
+   "genre": "dungeon crawler",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Arma Reforger",
+   "genre": "vojenská simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sid Meier's Civilization: Beyond Earth",
+   "genre": "Tahová strategie (4X)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer: Generals - Zero Hour",
+   "genre": "strategie v reálném čase (RTS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer 3: Kane's Wrath",
+   "genre": "real-time strategie (RTS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer 4: Tiberian Twilight",
+   "genre": "strategie v reálném čase (RTS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer Remastered Collection",
+   "genre": "strategie v reálném čase (remaster)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Conflict: Denied Ops",
+   "genre": "akční střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Contra: Operation Galuga",
+   "genre": "Run and gun / akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Counter-Strike: Condition Zero",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Counter-Strike Online",
+   "genre": "Akční střílečka (FPS) free-to-play",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Diablo III: Reaper of Souls",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Diablo IV: Vessel of Hatred",
+   "genre": "Akční RPG (hack and slash)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "DiRT Rally 2.0",
+   "genre": "Závodní simulace (rallye)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "DiRT Showdown",
+   "genre": "Závodní arkáda / destruction derby",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Beyond Divinity",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Divinity: Dragon Commander",
+   "genre": "strategie s RPG a RTS prvky",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Europa Universalis: Rome",
+   "genre": "grandstrategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Fable Fortune",
+   "genre": "sběratelská karetní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Grand Prix 4",
+   "genre": "závodní simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hearts of Iron",
+   "genre": "Grandstrategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Hitman 2",
+   "genre": "Stealth akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Little Nightmares III",
+   "genre": "hororová plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug Tactics",
+   "genre": "tahová taktika",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Might & Magic X: Legacy",
+   "genre": "RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Tales of Monkey Island",
+   "genre": "Point-and-click adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Return to Monkey Island",
+   "genre": "Point-and-click adventura",
+   "length": "M",
+   "flags": [
+    "mustplay"
+   ]
+  },
+  {
+   "name": "Need for Speed World",
+   "genre": "závodní MMO",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Quake 4",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Enemy Territory: Quake Wars",
+   "genre": "FPS / týmová válka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Quake Champions",
+   "genre": "Arena FPS",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms VIII",
+   "genre": "tahová strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms IX",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms X",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms XI",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms XII",
+   "genre": "tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms XIII",
+   "genre": "tahová strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Romance of the Three Kingdoms XIV",
+   "genre": "tahová strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Saints Row IV",
+   "genre": "open-world akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Saints Row: Gat out of Hell",
+   "genre": "open-world akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SimCity Societies",
+   "genre": "budovatelská strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Skate.",
+   "genre": "Sportovní / skateboarding",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Bridge Commander",
+   "genre": "vesmírná taktická simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Elite Force II",
+   "genre": "akční střílečka (FPS)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Legacy",
+   "genre": "akční strategie (vesmírné bitvy)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek Online",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Star Wars Jedi Knight: Jedi Academy",
+   "genre": "akční FPS/TPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: The Old Republic",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Empire at War",
+   "genre": "Strategie v reálném čase",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Dark Forces Remaster",
+   "genre": "Akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: The Battle for Middle-earth",
+   "genre": "realtimová strategie (RTS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: The Battle for Middle-earth II",
+   "genre": "realtimová strategie (RTS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings Online",
+   "genre": "MMORPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "The Walking Dead: Season Two",
+   "genre": "epizodická adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Walking Dead: A New Frontier",
+   "genre": "epizodická adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Overkill's The Walking Dead",
+   "genre": "kooperativní survival střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Witcher Adventure Game",
+   "genre": "strategická deskovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Thief",
+   "genre": "stealth akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six 3: Athena Sword",
+   "genre": "Taktická střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six: Lockdown",
+   "genre": "Taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six Extraction",
+   "genre": "Kooperativní taktická střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Empire: Total War",
+   "genre": "tahová a real-time strategie",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Napoleon: Total War",
+   "genre": "strategie (tahová a real-time)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Total War: Rome II",
+   "genre": "strategie (tahová a real-time)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Total War: Attila",
+   "genre": "strategie (tahová a real-time)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Total War: Warhammer",
+   "genre": "strategie (tahová a real-time) / fantasy",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Total War Saga: Thrones of Britannia",
+   "genre": "strategie (tahová a real-time)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Total War Saga: Troy",
+   "genre": "strategie (tahová a real-time)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Total War: Warhammer III",
+   "genre": "strategie (real-time tactics)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Total War: Pharaoh",
+   "genre": "strategie (historická)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Trine 5: A Clockwork Conspiracy",
+   "genre": "puzzle plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Warcraft III: The Frozen Throne",
+   "genre": "real-time strategie (RTS)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Warhammer 40,000: Dawn of War II",
+   "genre": "real-time strategie (RTS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Warhammer 40,000: Space Marine",
+   "genre": "akční hra (third-person)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wolfenstein: Youngblood",
+   "genre": "Kooperativní akční střílečka (FPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms 3D",
+   "genre": "Tahová strategie (3D)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms Forts: Under Siege",
+   "genre": "Tahová strategie / stavba základny",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms 4: Mayhem",
+   "genre": "tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms Reloaded",
+   "genre": "tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms Revolution",
+   "genre": "tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms Clan Wars",
+   "genre": "tahová strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "XCOM: Enemy Within",
+   "genre": "tahová taktická strategie",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Bureau: XCOM Declassified",
+   "genre": "taktická akční střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ys VI: The Ark of Napishtim",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ys Origin",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
   }
  ],
  "pc-vr": [
@@ -18856,6 +20448,12 @@
    "name": "Metro Awakening",
    "genre": "VR akční adventura / horor",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wolfenstein: Cyberpilot",
+   "genre": "VR akční střílečka",
+   "length": "S",
    "flags": []
   }
  ],
@@ -19554,6 +21152,132 @@
    "name": "Final Fantasy V",
    "genre": "JRPG",
    "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Armored Core: Master of Arena",
+   "genre": "akční mecha simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Castlevania Chronicles",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Contra: Legacy of War",
+   "genre": "run and gun (3D akce)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "C: The Contra Adventure",
+   "genre": "run and gun (2.5D akce)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Doom",
+   "genre": "FPS / střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Front Mission 2",
+   "genre": "Taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Gradius Gaiden",
+   "genre": "shoot 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Hot Shots Golf 2",
+   "genre": "Arkádový golf",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat Mythologies: Sub-Zero",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Need for Speed: High Stakes",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Oddworld: Abe's Exoddus",
+   "genre": "plošinovka s hádankami",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Persona 2: Innocent Sin",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil Survivor",
+   "genre": "Light-gun rail shooter / survival horor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Road Rash 3D",
+   "genre": "závodní akce (combat racing)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Road Rash: Jailbreak",
+   "genre": "závodní akce (combat racing)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Magical Tetris Challenge",
+   "genre": "puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Time Crisis: Project Titan",
+   "genre": "light-gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater",
+   "genre": "Sportovní arkáda",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Twisted Metal III",
+   "genre": "vehicular combat (bojová aréna vozidel)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Twisted Metal 4",
+   "genre": "vehicular combat (bojová aréna vozidel)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Twisted Metal: Small Brawl",
+   "genre": "vehicular combat (bojová aréna vozidel)",
+   "length": "S",
    "flags": []
   }
  ],
@@ -20395,6 +22119,30 @@
    "name": "Phantasy Star Online 2",
    "genre": "Online akční RPG (MMORPG)",
    "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Nova",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Silent Hill: Book of Memories",
+   "genre": "akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: Special Forces",
+   "genre": "taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Uncharted: Fight for Fortune",
+   "genre": "karetní strategie",
+   "length": "S",
    "flags": []
   }
  ],
@@ -21762,6 +23510,282 @@
    "name": "Fallout: Brotherhood of Steel",
    "genre": "Akční RPG (hack and slash)",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Armored Core 2: Another Age",
+   "genre": "akční mecha simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Armored Core: Nexus",
+   "genre": "akční mecha simulace",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Armored Core: Nine Breaker",
+   "genre": "akční mecha simulace",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Armored Core: Last Raven",
+   "genre": "akční mecha simulace",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Battlefield 2: Modern Combat",
+   "genre": "Akční střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Bust-A-Move",
+   "genre": "puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Call of Duty: Big Red One",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Neo Contra",
+   "genre": "run and gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Crash Twinsanity",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Front Mission 5: Scars of the War",
+   "genre": "Taktické RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Gauntlet: Seven Sorrows",
+   "genre": "akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon 2",
+   "genre": "taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hot Shots Golf 3",
+   "genre": "Arkádový golf",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hot Shots Golf Fore!",
+   "genre": "Arkádový golf",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Midnight Club: Street Racing",
+   "genre": "arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat: Shaolin Monks",
+   "genre": "beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat: Armageddon",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "MotorStorm: Arctic Edge",
+   "genre": "závodní hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Onimusha: Dawn of Dreams",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Onimusha: Blade Warriors",
+   "genre": "arénová bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rayman Arena",
+   "genre": "Aréna / party akční hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil: Dead Aim",
+   "genre": "survival horor / light gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil Outbreak: File #2",
+   "genre": "survival horor (kooperace)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ridge Racer V",
+   "genre": "Arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SOCOM 3: U.S. Navy SEALs",
+   "genre": "Taktická střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: U.S. Navy SEALs Combined Assault",
+   "genre": "Taktická střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Shadow the Hedgehog",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur III",
+   "genre": "bojová hra",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ultimate Spider-Man",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Legend of Spyro: A New Beginning",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Bounty Hunter",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Starfighter",
+   "genre": "Akční vesmírná střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Wars: Racer Revenge",
+   "genre": "Závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Death by Degrees",
+   "genre": "akční hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: The Two Towers",
+   "genre": "akční adventura / hack-and-slash",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: The Third Age",
+   "genre": "tahová RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Thunder Force VI",
+   "genre": "shoot 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "TimeSplitters",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: The Angel of Darkness",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: Legend",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Twisted Metal: Head-On: Extra Twisted Edition",
+   "genre": "vehicular combat (bojová aréna vozidel)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Wild Arms: Alter Code F",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wild Arms 5",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Wizardry: Tale of the Forsaken Land",
+   "genre": "RPG (dungeon crawler)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Yakuza 2",
+   "genre": "akční adventura",
+   "length": "L",
    "flags": []
   }
  ],
@@ -23292,6 +25316,216 @@
    "genre": "bojová hra",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Ace Combat Infinity",
+   "genre": "free-to-play arkádová letecká akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Armored Core: Verdict Day",
+   "genre": "mechová akce",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed: Brotherhood",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed: Revelations",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed: Freedom Cry",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed: Rogue",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Batman: Arkham Origins",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Battlefield 1943",
+   "genre": "Akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Castlevania: Lords of Shadow 2",
+   "genre": "Akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Disgaea D2: A Brighter Darkness",
+   "genre": "taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Driver: San Francisco",
+   "genre": "Akční závody",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Front Mission Evolved",
+   "genre": "Akční mechová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "LittleBigPlanet Karting",
+   "genre": "závodní hra (kart)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear Solid V: Ground Zeroes",
+   "genre": "stealth akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat vs. DC Universe",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Persona 4 Arena Ultimax",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Prince of Persia: The Forgotten Sands",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ratchet & Clank: All 4 One",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ratchet & Clank: Full Frontal Assault",
+   "genre": "Akční plošinovka / tower defense",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ratchet & Clank: Into the Nexus",
+   "genre": "Akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil: Operation Raccoon City",
+   "genre": "týmová akční střílečka (TPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ridge Racer Unbounded",
+   "genre": "Arkádové závody s destrukcí",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: Confrontation",
+   "genre": "taktická online střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur IV",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur V",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man: Web of Shadows",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man: Shattered Dimensions",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek",
+   "genre": "kooperativní akce (TPS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "LEGO Star Wars III: The Clone Wars",
+   "genre": "Akční plošinovka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Street Fighter IV",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Street Fighter IV",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: War in the North",
+   "genre": "akční RPG (kooperační)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 5",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Yakuza: Dead Souls",
+   "genre": "akční střílečka (zombie)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Yakuza 5",
+   "genre": "akční adventura",
+   "length": "XL",
+   "flags": []
   }
  ],
  "ps4": [
@@ -24578,6 +26812,228 @@
    "genre": "Online akční RPG (MMORPG)",
    "length": "XL",
    "flags": []
+  },
+  {
+   "name": "Assassin's Creed Chronicles: India",
+   "genre": "Stealth plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Battlefield Hardline",
+   "genre": "Akční střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Mafia III",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Contra: Rogue Corps",
+   "genre": "twin-stick shooter",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dead or Alive 6",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dead Rising 4: Frank's Big Package",
+   "genre": "akční horor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dishonored: Death of the Outsider",
+   "genre": "akční adventura (immersive sim)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Type-0 HD",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Dissidia Final Fantasy NT",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon: Breakpoint",
+   "genre": "taktická střílečka z otevřeného světa",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Just Cause 4",
+   "genre": "akční open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "King's Quest",
+   "genre": "adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Kingdom Hearts: Melody of Memory",
+   "genre": "rytmická hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lumines Remastered",
+   "genre": "hudební puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear Solid V: Ground Zeroes",
+   "genre": "stealth akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear Survive",
+   "genre": "survival akce s crafitngem",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Mortal Kombat 11",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Oddworld: New 'n' Tasty",
+   "genre": "plošinovka s hádankami (remake)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Persona 5 Strikers",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Persona 3: Dancing in Moonlight",
+   "genre": "rytmická hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Persona 5: Dancing in Starlight",
+   "genre": "rytmická hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "R-Type Final 2",
+   "genre": "Shoot 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil Revelations 2",
+   "genre": "survival horor (epizodický)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Resident Evil: Umbrella Corps",
+   "genre": "Týmová střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur VI",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Street Fighter V",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+   "genre": "Akční / character action",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Walking Dead: Michonne",
+   "genre": "epizodická adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Walking Dead: The Final Season",
+   "genre": "epizodická adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lara Croft and the Temple of Osiris",
+   "genre": "Kooperativní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Pro Skater 5",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Trine: Enchanted Edition",
+   "genre": "puzzle plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Valkyria: Azure Revolution",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Worms Battlegrounds",
+   "genre": "tahová strategie / destrukční akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms Rumble",
+   "genre": "akční multiplayer bitva",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Yakuza Ishin!",
+   "genre": "akční adventura (samuraj)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Ys IX: Monstrum Nox",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
   }
  ],
  "ps5": [
@@ -25761,6 +28217,42 @@
    "genre": "Akční RPG (soulslike)",
    "length": "L",
    "flags": []
+  },
+  {
+   "name": "Assassin's Creed Shadows",
+   "genre": "Akční adventura (open world)",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter Wilds",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Oddworld: Soulstorm",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Silent Hill: The Short Message",
+   "genre": "psychologický horor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "The Walking Dead: Destinies",
+   "genre": "akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ys X: Nordics",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
   }
  ],
  "psp": [
@@ -25961,6 +28453,210 @@
   {
    "name": "Call of Duty: Roads to Victory",
    "genre": "FPS / válečná akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ace Combat X: Skies of Deception",
+   "genre": "arkádová letecká akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ace Combat X2: Joint Assault",
+   "genre": "arkádová letecká akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Assassin's Creed: Bloodlines",
+   "genre": "Akční adventura",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Driver 76",
+   "genre": "Akční závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Type-0",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon: Predator",
+   "genre": "taktická akční střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lunar: Silver Star Harmony",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear Ac!d",
+   "genre": "tahová karetní strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metal Gear Ac!d 2",
+   "genre": "tahová karetní strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Metal Slug XX",
+   "genre": "run and gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter Freedom",
+   "genre": "Akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter Freedom 2",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "MotorStorm: Arctic Edge",
+   "genre": "závodní hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Patapon 3",
+   "genre": "rytmická strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Persona 2: Innocent Sin",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Portable",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Phantasy Star Portable 2 Infinity",
+   "genre": "akční RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Secret Agent Clank",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ridge Racers",
+   "genre": "Arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ridge Racers 2",
+   "genre": "Arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: U.S. Navy SEALs Tactical Strike",
+   "genre": "Taktická strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "SOCOM: Fireteam Bravo 3",
+   "genre": "taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Rivals",
+   "genre": "závodní plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic Rivals 2",
+   "genre": "závodní plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur: Broken Destiny",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Splinter Cell: Essentials",
+   "genre": "stealth akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Ocean: First Departure",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Star Ocean: Second Evolution",
+   "genre": "JRPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: Anniversary",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Twisted Metal: Head-On",
+   "genre": "vehicular combat (bojová aréna vozidel)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Valkyria Chronicles III",
+   "genre": "taktické RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Wild Arms XF",
+   "genre": "taktické RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Worms: Open Warfare",
+   "genre": "tahová strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Worms: Open Warfare 2",
+   "genre": "tahová strategie",
    "length": "S",
    "flags": []
   }
@@ -27000,6 +29696,18 @@
    "genre": "Akční bojová hra (mechy)",
    "length": "S",
    "name": "Virtual On: Cyber Troopers"
+  },
+  {
+   "name": "Sonic 3D Blast",
+   "genre": "plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic R",
+   "genre": "závodní hra",
+   "length": "S",
+   "flags": []
   }
  ],
  "sega-32x": [
@@ -27647,6 +30355,66 @@
    "name": "Final Fantasy V",
    "genre": "JRPG",
    "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Castlevania: Dracula X",
+   "genre": "Akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Avalanche",
+   "genre": "Puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Dream Land 3",
+   "genre": "Plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super R-Type",
+   "genre": "Shoot 'em up",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "RoboCop Versus The Terminator",
+   "genre": "run and gun / postranní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei II",
+   "genre": "JRPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei if...",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Fox 2",
+   "genre": "akční střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+   "genre": "bojová hra (fighting)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ys V: Lost Kefin, Kingdom of Sand",
+   "genre": "Akční RPG",
+   "length": "M",
    "flags": []
   }
  ],
@@ -28515,6 +31283,144 @@
    "name": "Hollow Knight: Silksong",
    "genre": "Metroidvania / akční plošinovka",
    "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Bayonetta Origins: Cereza and the Lost Demon",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Blaster Master Zero 2",
+   "genre": "Akční plošinovka / Metroidvania",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Blaster Master Zero 3",
+   "genre": "Akční plošinovka / Metroidvania",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tales from the Borderlands",
+   "genre": "narativní adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Disgaea 6: Defiance of Destiny",
+   "genre": "taktické RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Disgaea 7: Vows of the Virtueless",
+   "genre": "taktické RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Crystal Chronicles Remastered Edition",
+   "genre": "Akční RPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Front Mission 1st: Remake",
+   "genre": "taktické RPG",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The House of the Dead: Remake",
+   "genre": "rail shooter / light-gun střílečka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby Fighters 2",
+   "genre": "bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Kirby's Dream Buffet",
+   "genre": "párty hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Luigi's Mansion 2 HD",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Monster Hunter Generations Ultimate",
+   "genre": "Akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Pokémon: Let's Go, Pikachu! / Let's Go, Eevee!",
+   "genre": "RPG / Pokémon dobrodružství",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "New Pokémon Snap",
+   "genre": "adventura / fotografování na kolejnici",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei V: Vengeance",
+   "genre": "akční RPG",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Sonic Forces",
+   "genre": "plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic Superstars",
+   "genre": "plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Monkey Ball: Banana Mania",
+   "genre": "arkáda / plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tetris 99",
+   "genre": "puzzle / battle royale",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda",
+   "genre": "rytmická akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "WarioWare: Move It!",
+   "genre": "párty minihry",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Xenoblade Chronicles 2: Torna – The Golden Country",
+   "genre": "JRPG",
+   "length": "M",
    "flags": []
   }
  ],
@@ -30522,6 +33428,150 @@
    "genre": "FPS",
    "length": "S",
    "flags": []
+  },
+  {
+   "name": "Animal Crossing: City Folk",
+   "genre": "životní simulace",
+   "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Castlevania Judgment",
+   "genre": "Bojová hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dead Rising: Chop Till You Drop",
+   "genre": "akční horor",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Driver: Parallel Lines",
+   "genre": "Akční řidičská hra / Open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Crystal Chronicles: My Life as a King",
+   "genre": "simulace budování",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Final Fantasy Crystal Chronicles: The Crystal Bearers",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Rayman Raving Rabbids 2",
+   "genre": "Party hra / minihry",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Rayman Raving Rabbids: TV Party",
+   "genre": "Party hra / minihry",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "SimCity Creator",
+   "genre": "budovatelská strategie",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Skate It",
+   "genre": "Sportovní / skateboarding",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic and the Secret Rings",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Riders: Zero Gravity",
+   "genre": "arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic and the Black Knight",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur Legends",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Legend of Spyro: The Eternal Night",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "SSX Blur",
+   "genre": "sportovní arkáda",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Super Monkey Ball: Banana Blitz",
+   "genre": "arkáda / plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: Aragorn's Quest",
+   "genre": "akční adventura pro rodiny",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: Anniversary",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: Underworld",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Downhill Jam",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Proving Ground",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk: RIDE",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk: Shred",
+   "genre": "sportovní arkáda (skateboarding a snowboarding)",
+   "length": "S",
+   "flags": []
   }
  ],
  "wii-u": [
@@ -31075,6 +34125,30 @@
    "name": "Need for Speed: Most Wanted U",
    "genre": "Závodní hra (arkádové závody)",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Animal Crossing: Amiibo Festival",
+   "genre": "párty hra",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Pokkén Tournament",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic Boom: Rise of Lyric",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Fox Guard",
+   "genre": "tower defense",
+   "length": "S",
    "flags": []
   }
  ],
@@ -32580,6 +35654,30 @@
    "genre": "Akční RPG (hack and slash)",
    "length": "M",
    "flags": []
+  },
+  {
+   "name": "Far Cry Instincts Evolution",
+   "genre": "FPS",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon 2",
+   "genre": "taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Shin Megami Tensei NINE",
+   "genre": "JRPG",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's American Wasteland",
+   "genre": "Sportovní arkáda",
+   "length": "L",
+   "flags": []
   }
  ],
  "xbox-360": [
@@ -33907,6 +37005,234 @@
    "name": "Persona 4 Arena",
    "genre": "bojová hra",
    "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Ace Combat: Assault Horizon",
+   "genre": "arkádová letecká akce",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Battlefield 2: Modern Combat",
+   "genre": "Akční střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Command & Conquer 3: Kane's Wrath",
+   "genre": "real-time strategie (RTS)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Hard Corps: Uprising",
+   "genre": "run and gun",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Dead Rising 2: Case Zero",
+   "genre": "akční horor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dead Rising 2: Case West",
+   "genre": "akční horor",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Dead Rising 2: Off the Record",
+   "genre": "akční horor",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Earthworm Jim HD",
+   "genre": "akční plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Fable: The Journey",
+   "genre": "akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Fable Heroes",
+   "genre": "kooperativní řežba",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Far Cry Instincts Predator",
+   "genre": "FPS",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Ghost Recon Advanced Warfighter 2",
+   "genre": "taktická střílečka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Golden Axe: Beast Rider",
+   "genre": "hack and slash",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Grand Theft Auto: Episodes from Liberty City",
+   "genre": "Akce v otevřeném světě",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Lumines Live!",
+   "genre": "hudební puzzle",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Ridge Racer 6",
+   "genre": "Arkádové závody",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Saints Row",
+   "genre": "akční open world",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Sonic the Hedgehog 4: Episode I",
+   "genre": "plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Sonic Free Riders",
+   "genre": "závodní hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Sonic the Hedgehog 4: Episode II",
+   "genre": "plošinovka",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Soulcalibur IV",
+   "genre": "bojová hra",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Spider-Man: Edge of Time",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Amazing Spider-Man",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Amazing Spider-Man 2",
+   "genre": "akční adventura",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "The Legend of Spyro: Dawn of the Dragon",
+   "genre": "akční plošinovka",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Star Trek: Legacy",
+   "genre": "akční strategie (vesmírné bitvy)",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Turtles in Time Re-Shelled",
+   "genre": "mlátička (beat 'em up)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+   "genre": "Akční / beat 'em up",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "The Lord of the Rings: Conquest",
+   "genre": "akční hra s prvky strategie",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tom Clancy's Rainbow Six Vegas 2",
+   "genre": "Taktická střílečka",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: Anniversary",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Tomb Raider: Underworld",
+   "genre": "Akční adventura",
+   "length": "M",
+   "flags": []
+  },
+  {
+   "name": "Lara Croft and the Guardian of Light",
+   "genre": "Kooperativní akce",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's American Wasteland",
+   "genre": "Sportovní arkáda",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk's Proving Ground",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "L",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk: RIDE",
+   "genre": "sportovní arkáda (skateboarding)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Tony Hawk: Shred",
+   "genre": "sportovní arkáda (skateboarding a snowboarding)",
+   "length": "S",
+   "flags": []
+  },
+  {
+   "name": "Turok",
+   "genre": "akční střílečka (FPS)",
+   "length": "L",
    "flags": []
   }
  ],
@@ -35259,6 +38585,12 @@
    "name": "Phantasy Star Online 2",
    "genre": "Online akční RPG (MMORPG)",
    "length": "XL",
+   "flags": []
+  },
+  {
+   "name": "Dead Rising 4",
+   "genre": "akční horor",
+   "length": "L",
    "flags": []
   }
  ],
