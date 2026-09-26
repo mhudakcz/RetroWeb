@@ -1,5 +1,62 @@
 [
   {
+    "version": "2026.09.26",
+    "date": "2026-09-26",
+    "title": {
+      "cs": "Web ožil — obrazovka se zapíná jako stará televize",
+      "en": "The site came alive — the screen powers on like an old TV",
+      "de": "Die Seite ist lebendig geworden — der Bildschirm startet wie ein alter Fernseher",
+      "fr": "Le site s’anime — l’écran s’allume comme une vieille télé"
+    },
+    "entries": [
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Úvodní stránka se chová jako televizní obrazovka: při načtení se obraz rozjede z úzkého pruhu, rohy jsou přistíněné jako na tubusu, nadpis lehce svítí a jednou za čas se mu rozhodí stopa. Čísla v hlavičce nabíhají od nuly a stěna obalů za textem pomalu putuje.",
+          "en": "The home page now behaves like a television screen: on load the picture unfolds from a thin band, the corners are shaded like a tube, the heading glows softly and every so often its tracking slips. The counters run up from zero and the wall of box art behind the text drifts slowly.",
+          "de": "Die Startseite verhält sich jetzt wie ein Fernsehbildschirm: beim Laden fährt das Bild aus einem schmalen Streifen auf, die Ecken sind wie bei einer Bildröhre abgedunkelt, die Überschrift glimmt und ab und zu verrutscht ihr Bildlauf. Die Zahlen zählen von null hoch und die Wand aus Coverbildern hinter dem Text wandert langsam.",
+          "fr": "La page d’accueil se comporte comme un écran de télévision : au chargement, l’image se déploie depuis une fine bande, les coins sont assombris comme sur un tube, le titre luit doucement et, de temps en temps, sa synchronisation dérape. Les chiffres défilent depuis zéro et le mur de jaquettes derrière le texte dérive lentement."
+        }
+      },
+      {
+        "tag": "feature",
+        "text": {
+          "cs": "Na širokém displeji přibyl vpravo ukazatel polohy — procento projité stránky a tečka pro každou sekci. Po najetí se ukáže její název, kliknutím se tam přesunete.",
+          "en": "On wide displays a position indicator appeared on the right — the percentage of the page you have covered and a dot for each section. Hover shows its name, a click takes you there.",
+          "de": "Auf breiten Bildschirmen ist rechts eine Positionsanzeige dazugekommen — der Prozentsatz der durchlaufenen Seite und ein Punkt je Abschnitt. Beim Überfahren erscheint sein Name, ein Klick bringt Sie dorthin.",
+          "fr": "Sur les grands écrans, un indicateur de position est apparu à droite : le pourcentage de la page parcourue et un point par section. Le survol affiche son nom, un clic vous y emmène."
+        }
+      },
+      {
+        "tag": "content",
+        "text": {
+          "cs": "Sedm set her dostalo úvodní větu do přehledu a sto dvacet článků závěrečné „Proč hrát“. Dvě stě dalších her získalo obal.",
+          "en": "Seven hundred games gained an opening line for the listings and a hundred and twenty articles a closing “Why play”. Another two hundred games got box art.",
+          "de": "Siebenhundert Spiele haben einen Einleitungssatz für die Übersicht bekommen und hundertzwanzig Artikel ein abschließendes „Warum spielen“. Weitere zweihundert Spiele haben ein Cover erhalten.",
+          "fr": "Sept cents jeux ont reçu une phrase d’accroche pour les listes et cent vingt articles une conclusion « Pourquoi y jouer ». Deux cents autres jeux ont obtenu une jaquette."
+        }
+      },
+      {
+        "tag": "platform",
+        "text": {
+          "cs": "Katalog hardwaru vzrostl ze tří kapesních konzolí na dvacet osm — celá řada Anbernic RG35XX a RG40XX, Miyoo, Retroid Pocket, AYN Odin 2, Powkiddy i TrimUI. Fotku dostaly také platformy Java ME a webové hry.",
+          "en": "The hardware section grew from three handhelds to twenty-eight — the whole Anbernic RG35XX and RG40XX line, Miyoo, Retroid Pocket, AYN Odin 2, Powkiddy and TrimUI. The Java ME and browser-games platforms got a photo as well.",
+          "de": "Der Hardware-Bereich ist von drei Handhelds auf achtundzwanzig gewachsen — die gesamte Anbernic-Reihe RG35XX und RG40XX, Miyoo, Retroid Pocket, AYN Odin 2, Powkiddy und TrimUI. Auch die Plattformen Java ME und Browserspiele haben ein Foto bekommen.",
+          "fr": "La section matériel est passée de trois consoles portables à vingt-huit — toute la gamme Anbernic RG35XX et RG40XX, Miyoo, Retroid Pocket, AYN Odin 2, Powkiddy et TrimUI. Les plateformes Java ME et jeux en navigateur ont aussi reçu une photo."
+        }
+      },
+      {
+        "tag": "fix",
+        "text": {
+          "cs": "Přihlášení chvíli nefungovalo, protože se databáze uspala nečinností. Běží zase a nově ji každé tři dny probudí automatická kontrola, aby se to neopakovalo. Když server přesto neodpoví, řekne to stránka srozumitelně místo anglické technické hlášky.",
+          "en": "Signing in was broken for a while because the database had gone to sleep through inactivity. It is running again, and an automatic check now wakes it every three days so this does not recur. If the server still fails to answer, the page says so plainly instead of showing a technical error.",
+          "de": "Die Anmeldung war eine Weile defekt, weil die Datenbank durch Inaktivität eingeschlafen war. Sie läuft wieder, und eine automatische Prüfung weckt sie nun alle drei Tage, damit das nicht erneut passiert. Antwortet der Server dennoch nicht, sagt die Seite das verständlich statt mit einer technischen Fehlermeldung.",
+          "fr": "La connexion n’a pas fonctionné pendant un temps parce que la base de données s’était mise en veille faute d’activité. Elle tourne de nouveau, et une vérification automatique la réveille désormais tous les trois jours pour que cela ne se reproduise pas. Si le serveur ne répond toujours pas, la page le dit clairement au lieu d’afficher une erreur technique."
+        }
+      }
+    ]
+  },
+  {
     "version": "2026.09.21",
     "date": "2026-09-21",
     "title": {
