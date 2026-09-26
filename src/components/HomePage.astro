@@ -26,9 +26,9 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
       <a class="btn" href={lp('/hry')}>{t(locale, 'home.ctaGames')}</a>
     </div>
     <ul class="stats">
-      <li><span class="num pixel">{stats.platforms}</span><span class="lbl">{t(locale, 'platforms.count')}</span></li>
-      <li><span class="num pixel">{stats.games}</span><span class="lbl">{t(locale, 'games.count')}</span></li>
-      <li><span class="num pixel">{stats.gameImages}</span><span class="lbl">{t(locale, 'home.images')}</span></li>
+      <li><span class="num pixel pocitadlo" data-cil={stats.platforms}>0</span><span class="lbl">{t(locale, 'platforms.count')}</span></li>
+      <li><span class="num pixel pocitadlo" data-cil={stats.games}>0</span><span class="lbl">{t(locale, 'games.count')}</span></li>
+      <li><span class="num pixel pocitadlo" data-cil={stats.gameImages}>0</span><span class="lbl">{t(locale, 'home.images')}</span></li>
     </ul>
   </div>
 </section>
@@ -147,6 +147,53 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   })();
 </script>
 
+<script is:inline>
+  /*
+   * Pocitadla v hero se rozjedou od nuly.
+   *
+   * Statisticke cislo, ktere proste stoji, si clovek precte a zapomene;
+   * kdyz nabehne, vsimne si ho. Bezi jen jednou a jen kdyz je hero videt,
+   * takze to nic nestoji.
+   */
+  (function () {
+    var prvky = [].slice.call(document.querySelectorAll('.pocitadlo'));
+    if (!prvky.length) return;
+
+    var omezit = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (omezit) {
+      prvky.forEach(function (e) { e.textContent = e.getAttribute('data-cil'); });
+      return;
+    }
+
+    function rozjed(e) {
+      var cil = parseInt(e.getAttribute('data-cil'), 10) || 0;
+      var zacatek = performance.now();
+      var doba = 1100;
+      function krok(t) {
+        var p = Math.min(1, (t - zacatek) / doba);
+        // zpomaleni na konci, at cislo "dosedne" misto aby seklo
+        var e2 = 1 - Math.pow(1 - p, 3);
+        e.textContent = Math.round(cil * e2).toLocaleString('cs-CZ');
+        if (p < 1) requestAnimationFrame(krok);
+      }
+      requestAnimationFrame(krok);
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      prvky.forEach(rozjed);
+      return;
+    }
+    var hlidac = new IntersectionObserver(function (zaznamy) {
+      zaznamy.forEach(function (z) {
+        if (!z.isIntersecting) return;
+        rozjed(z.target);
+        hlidac.unobserve(z.target);
+      });
+    }, { threshold: 0.4 });
+    prvky.forEach(function (e) { hlidac.observe(e); });
+  })();
+</script>
+
 <style>
   .hero {
     position: relative;  /* kotva pro kolaz v ::before */
@@ -201,6 +248,127 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   .hw-body h3 { font-size: 1rem; line-height: 1.25; }
   .hw-body .muted { font-size: 0.82rem; margin-top: 3px; }
   .section + .section { padding-top: 8px; }
+
+  /* ====================== oziveni homepage ======================
+     Prvni verze efektu byla tak jemna, ze si jich nikdo nevsiml.
+     Tady uz jde o veci, ktere jsou videt na prvni pohled. */
+
+  /* Stena obalu za textem velmi pomalu putuje do strany. Rozsah je maly
+     (2 %), takze to nerusi cteni, ale hero prestane byt obrazkem a zacne
+     pusobit jako zaber. */
+  .hero-wide {
+    background-size:
+      auto, auto,
+      112% auto,
+      auto;
+    animation: hero-put 48s ease-in-out infinite alternate;
+  }
+  @keyframes hero-put {
+    from { background-position: center, center, 42% center, center; }
+    to   { background-position: center, center, 58% center, center; }
+  }
+
+  /* Zari za nadpisem, ktere pomalu dycha. Dava hero stred, ktery mu chybel. */
+  .hero-inner::before {
+    content: '';
+    position: absolute;
+    left: -8%;
+    top: 4%;
+    width: 60%;
+    height: 70%;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(circle,
+      color-mix(in srgb, var(--accent) 34%, transparent) 0%,
+      transparent 68%);
+    filter: blur(52px);
+    animation: hero-dech 7s ease-in-out infinite;
+  }
+  @keyframes hero-dech {
+    0%, 100% { opacity: 0.55; transform: scale(1); }
+    50%      { opacity: 0.95; transform: scale(1.12); }
+  }
+
+  /* "INSERT COIN - PRESS START" blika jako na automatu, ktery ceka na hrace.
+     Nezhasina uplne, aby to po case neotravovalo. */
+  .eyebrow {
+    animation: automat 2.4s steps(1, end) infinite;
+    text-shadow: 0 0 12px color-mix(in srgb, var(--accent) 60%, transparent);
+  }
+  @keyframes automat {
+    0%, 62%  { opacity: 1; }
+    70%, 88% { opacity: 0.28; }
+    96%, 100% { opacity: 1; }
+  }
+
+  /* Cisla se rozjizdi od nuly (viz skript nize) a sviti barvou znacky. */
+  .num {
+    text-shadow: 0 0 18px color-mix(in srgb, var(--accent-3) 55%, transparent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Vyrazna scanline pres hero. Predchozi byla na hranici viditelnosti;
+     tahle uz je znat, ale porad se pres ni cte. */
+  .hero.scanlines::after {
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.30) 0px,
+      rgba(0, 0, 0, 0.30) 1px,
+      transparent 2px,
+      transparent 4px
+    );
+    opacity: 0.55;
+    animation: scan-hero 6s linear infinite;
+  }
+  @keyframes scan-hero {
+    from { background-position-y: 0; }
+    to   { background-position-y: 4px; }
+  }
+
+  /* Svetly pruh, ktery jednou za cas projede hero shora dolu — jako kdyz se
+     na CRT rozjede obraz. */
+  .hero::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 28%;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(180deg,
+      transparent,
+      color-mix(in srgb, var(--accent-2) 12%, transparent),
+      transparent);
+    animation: crt-pruh 9s ease-in-out infinite;
+  }
+  @keyframes crt-pruh {
+    0%, 58%   { top: -30%; opacity: 0; }
+    62%       { opacity: 0.9; }
+    92%, 100% { top: 105%; opacity: 0; }
+  }
+
+  /* Tlacitka hero: hlavni pulzuje kruhem, aby bylo jasne, kam kliknout. */
+  .cta .btn-primary {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 55%, transparent);
+    animation: puls 3.2s ease-out infinite;
+  }
+  @keyframes puls {
+    0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 50%, transparent); }
+    70%  { box-shadow: 0 0 0 16px color-mix(in srgb, var(--accent) 0%, transparent); }
+    100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 0%, transparent); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-wide,
+    .hero-inner::before,
+    .eyebrow,
+    .hero.scanlines::after,
+    .hero::before,
+    .cta .btn-primary {
+      animation: none !important;
+    }
+    .hero::before { display: none; }
+  }
 
   /* --- hero varianta --- */
   /* A: kolaz obalu jako pozadi za textem.
