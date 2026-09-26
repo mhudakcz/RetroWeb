@@ -1526,7 +1526,11 @@
     "title": "Firmware",
     "text": "Pro lepší rozhraní zkuste přeinstalaci na muOS nebo ArkOS místo výchozího firmwaru."
    }
-  ]
+  ],
+  "photo": {
+   "src": "/images/hardware/rg40xx-h.jpg",
+   "caption": "Anbernic RG40XX H"
+  }
  },
  {
   "slug": "rg40xx-v",
