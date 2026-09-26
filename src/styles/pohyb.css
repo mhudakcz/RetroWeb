@@ -1,0 +1,227 @@
+/* ===========================================================================
+   Pohyb a efekty
+   ---------------------------------------------------------------------------
+   Web mel spravne rozlozeni, ale nulovy pohyb — v celem projektu nebyl jediny
+   @keyframes, a proto pusobil staticky a starsi, nez ve skutecnosti je.
+   Tenhle soubor pridava vrstvu, ktera nemeni rozlozeni ani barvy: jen ozivuje.
+
+   Tri zasady:
+   1. Retro identita zustava. Zadne mekke pastelove gradienty odnikud —
+      pracuje se s magentou, cyanem a amberem, ktere uz web ma, a se scanline.
+   2. Nic se nesmi hybat tolik, aby to prekazelo cteni. Clanky u her maji
+      dva tisice znaku; poskakujici pozadi by je znecitelnilo.
+   3. Kdo ma v systemu vypnute animace, dostane web bez nich — ne zpomaleny,
+      ale opravdu bez pohybu. Resi to blok na konci souboru.
+   ========================================================================== */
+
+/* ---------------------------------------------------------------- pozadi */
+/* Tri barevne skvrny, ktere velmi pomalu putuji za obsahem. Jsou pod vsim
+   (z-index -1) a silne rozostrene, takze z nich zbyva jen tuseni barvy —
+   stranka tim prestane byt plochou tmavou plochou. */
+.pozadi-zar {
+  position: fixed;
+  inset: -20vh -10vw;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  /* Vlastni vrstva na GPU, at prekresleni neshazuje plynulost rolovani. */
+  contain: strict;
+}
+
+.pozadi-zar span {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.22;
+  will-change: transform;
+}
+
+.pozadi-zar span:nth-child(1) {
+  width: 46vw;
+  height: 46vw;
+  top: -6vh;
+  left: -6vw;
+  background: radial-gradient(circle, var(--accent) 0%, transparent 68%);
+  animation: plout-1 34s ease-in-out infinite;
+}
+
+.pozadi-zar span:nth-child(2) {
+  width: 38vw;
+  height: 38vw;
+  top: 34vh;
+  right: -8vw;
+  background: radial-gradient(circle, var(--accent-2) 0%, transparent 68%);
+  animation: plout-2 41s ease-in-out infinite;
+}
+
+.pozadi-zar span:nth-child(3) {
+  width: 30vw;
+  height: 30vw;
+  bottom: -8vh;
+  left: 28vw;
+  background: radial-gradient(circle, var(--accent-3) 0%, transparent 68%);
+  animation: plout-3 47s ease-in-out infinite;
+}
+
+/* Ve svetlem rezimu by stejna sytost prebila text, takze se ztlumi.
+   POZOR: vychozi je tady TMA — <html> bez atributu je tmavy rezim,
+   svetly se zapina pres data-theme="light". */
+:root[data-theme='light'] .pozadi-zar span {
+  opacity: 0.12;
+}
+
+@keyframes plout-1 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50%      { transform: translate3d(6vw, 8vh, 0) scale(1.14); }
+}
+@keyframes plout-2 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.08); }
+  50%      { transform: translate3d(-7vw, -6vh, 0) scale(1); }
+}
+@keyframes plout-3 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50%      { transform: translate3d(4vw, -9vh, 0) scale(1.2); }
+}
+
+/* ------------------------------------------------------- najezd obsahu */
+/* Prvky se objevuji, az kdyz na ne prijde rada pri rolovani. Trida se pridava
+   v JavaScriptu (viz Base.astro) — bez nej zustane obsah proste videt, takze
+   to nikdy nemuze skoncit prazdnou strankou. */
+.najede {
+  opacity: 0;
+  transform: translate3d(0, 14px, 0);
+  transition: opacity 0.55s ease, transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.najede.je-videt {
+  opacity: 1;
+  transform: none;
+}
+
+/* Kdyz vedle sebe najizdi cela mrizka karet, poradi po sobe vypada lip nez
+   vsechno naraz. Zpozdeni se drzi kratka, at to pri rychlem rolovani nebrzdi. */
+.najede-rada > *:nth-child(1) { transition-delay: 0ms; }
+.najede-rada > *:nth-child(2) { transition-delay: 45ms; }
+.najede-rada > *:nth-child(3) { transition-delay: 90ms; }
+.najede-rada > *:nth-child(4) { transition-delay: 135ms; }
+.najede-rada > *:nth-child(5) { transition-delay: 180ms; }
+.najede-rada > *:nth-child(n + 6) { transition-delay: 210ms; }
+
+/* ---------------------------------------------------------------- karty */
+/* Karta se pri najeti mysi nadzvedne a orámuje barvou platformy. Barva jde
+   z promenne --c1, kterou uz komponenty nastavuji podle platformy. */
+.card,
+.hv-item a,
+.g-btn {
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.22s ease,
+              border-color 0.22s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 38px -22px rgba(0, 0, 0, 0.75),
+              0 0 0 1px color-mix(in srgb, var(--c1, var(--accent)) 45%, transparent),
+              0 0 26px -6px color-mix(in srgb, var(--c1, var(--accent)) 40%, transparent);
+}
+
+.hv-item a:hover { transform: translateX(3px); }
+
+/* ------------------------------------------------------------- tlacitka */
+/* Po hlavnim tlacitku prejede jednou za cas odlesk — drobnost, ktera dava
+   najevo, ze stranka zije. Pouziva se jen u .btn-primary, aby to nebylo
+   na kazdem odkazu. */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgba(255, 255, 255, 0.28),
+    transparent
+  );
+  transform: skewX(-18deg);
+  animation: odlesk 6.5s ease-in-out infinite;
+}
+@keyframes odlesk {
+  0%, 72%  { left: -60%; }
+  88%, 100% { left: 130%; }
+}
+
+/* ------------------------------------------------------------- nadpisy */
+/* Gradientovy nadpis, ktery se pomalu prelevá. Trida .grad uz na webu je —
+   tohle jen prida pohyb, takze se nikde nemusi menit znacky. */
+.grad {
+  background: linear-gradient(
+    100deg,
+    var(--accent) 0%,
+    var(--accent-3) 38%,
+    var(--accent-2) 68%,
+    var(--accent) 100%
+  );
+  background-size: 260% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: preliv 14s ease-in-out infinite;
+}
+@keyframes preliv {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+/* ------------------------------------------------------------ scanline */
+/* Scanline se velmi pomalu posouva — na CRT obrazovce se taky nikdy nestala.
+   Krok je jen 3 px, takze to neni videt jako pohyb, spis jako ozivnuti. */
+.scanlines::after {
+  animation: scanline-posun 9s linear infinite;
+}
+@keyframes scanline-posun {
+  from { background-position-y: 0; }
+  to   { background-position-y: 3px; }
+}
+
+/* ------------------------------------------------------------- ciselka */
+/* Pocty her a platforem na homepage mirne pulzuji, aby si jich clovek vsiml.
+   Meni se jen svetlost, ne velikost — skakajici cisla by rusila. */
+.stats .num {
+  animation: dech 4.5s ease-in-out infinite;
+}
+.stats li:nth-child(2) .num { animation-delay: 1.5s; }
+.stats li:nth-child(3) .num { animation-delay: 3s; }
+@keyframes dech {
+  0%, 100% { filter: brightness(1); }
+  50%      { filter: brightness(1.28); }
+}
+
+/* ==========================================================================
+   Vypnute animace
+   Kdo ma v systemu "omezit pohyb", nema dostat zpomalenou verzi, ale zadnou.
+   Skvrny na pozadi zustanou stat (barva se hodi), vsechno ostatni se zastavi
+   a najizdejici obsah je rovnou videt.
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  .pozadi-zar span,
+  .btn-primary::after,
+  .grad,
+  .scanlines::after,
+  .stats .num {
+    animation: none !important;
+  }
+  .najede {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .card:hover { transform: none; }
+}

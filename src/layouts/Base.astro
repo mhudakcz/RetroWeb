@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/pohyb.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import type { Locale } from '../lib/i18n';
@@ -100,10 +101,55 @@ const jsonLd = {
     }
   </head>
   <body>
+    <!-- Tri barevne skvrny za obsahem. Jsou dekorace, proto aria-hidden. -->
+    <div class="pozadi-zar" aria-hidden="true"><span></span><span></span><span></span></div>
     <Header locale={locale} localized={localized} />
     <main>
       <slot />
     </main>
     <Footer locale={locale} localized={localized} />
+
+    <script is:inline>
+      /*
+       * Najezd obsahu pri rolovani.
+       *
+       * Trida .najede se prida az tady, v prohlizeci. Kdyby byla primo
+       * v HTML, pri vypnutem JavaScriptu by obsah zustal neviditelny —
+       * takhle je v nejhorsim pripade proste hned videt.
+       */
+      (function () {
+        var omezit = window.matchMedia('(prefers-reduced-motion: reduce)');
+        if (omezit.matches || !('IntersectionObserver' in window)) return;
+
+        // Co se ma objevovat. Nadpisy a odstavce zamerne ne — text, ktery
+        // nabehne az pri rolovani, se spatne cte.
+        var vyber = '.card, .grid > *, .picks-box, .series-art, .shotbar figure';
+        var prvky = [].slice.call(document.querySelectorAll(vyber));
+        if (!prvky.length) return;
+
+        prvky.forEach(function (e) { e.classList.add('najede'); });
+        [].slice.call(document.querySelectorAll('.grid, .grid-games')).forEach(
+          function (m) { m.classList.add('najede-rada'); });
+
+        var hlidac = new IntersectionObserver(function (zaznamy) {
+          zaznamy.forEach(function (z) {
+            if (!z.isIntersecting) return;
+            z.target.classList.add('je-videt');
+            hlidac.unobserve(z.target);   // jednou staci, zpet uz se neskryva
+          });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+
+        prvky.forEach(function (e) { hlidac.observe(e); });
+
+        // Co je pri nacteni uz na obrazovce, ukazat hned — jinak by prvni
+        // obrazovka chvili blikala prazdnotou.
+        requestAnimationFrame(function () {
+          prvky.forEach(function (e) {
+            var r = e.getBoundingClientRect();
+            if (r.top < window.innerHeight) e.classList.add('je-videt');
+          });
+        });
+      })();
+    </script>
   </body>
 </html>
