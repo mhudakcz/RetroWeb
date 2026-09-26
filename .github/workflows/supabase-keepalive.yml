@@ -1,0 +1,47 @@
+# Udrzuje projekt na Supabase probuzeny.
+#
+# Bezplatny tarif uspi projekt po sedmi dnech necinnosti a po delsim uspani ho
+# smaze. Na webu, kde se tydny nikdo neprihlasi, to znamena, ze prihlasovani
+# jednoho dne prestane fungovat — presne to se stalo v zari 2026, kdy se domena
+# projektu prestala prekladat.
+#
+# Staci jeden dotaz na databazi. Ten se pocita jako aktivita a odpocet se
+# resetuje. Bezi kazde tri dny, aby mel rezervu i kdyz jeden beh selze.
+name: Supabase keep-alive
+
+on:
+  schedule:
+    - cron: '17 4 */3 * *'   # kazde tri dny v 4:17 UTC
+  workflow_dispatch:          # a kdykoli rucne
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dotaz na databazi
+        env:
+          URL: ${{ secrets.SUPABASE_URL }}
+          KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          if [ -z "$URL" ] || [ -z "$KEY" ]; then
+            echo "Chybi SUPABASE_URL nebo SUPABASE_PUBLISHABLE_KEY v Secrets."
+            echo "Nastav je v Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+
+          # Ctení jednoho radku z tabulky znacek. Pro neprihlaseneho vrati RLS
+          # prazdny seznam — nam jde jen o to, ze dotaz probehl.
+          kod=$(curl -s -o /tmp/odpoved.txt -w '%{http_code}' \
+            -H "apikey: $KEY" \
+            -H "Authorization: Bearer $KEY" \
+            "$URL/rest/v1/herni_znacky?select=game_slug&limit=1")
+
+          echo "HTTP $kod"
+          head -c 300 /tmp/odpoved.txt; echo
+
+          # 200 i 401 znamenaji, ze server zije; 000 je nedostupna domena.
+          case "$kod" in
+            200|401|403) echo "Projekt bezi."; exit 0 ;;
+            000) echo "Server neodpovedel — projekt je nejspis pozastaveny nebo smazany."; exit 1 ;;
+            *) echo "Necekana odpoved."; exit 1 ;;
+          esac

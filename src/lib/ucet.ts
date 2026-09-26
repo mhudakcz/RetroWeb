@@ -95,11 +95,18 @@ export async function token(): Promise<string | null> {
 export async function poslatOdkaz(email: string, navrat?: string): Promise<void> {
   const cil = navrat || (typeof location !== 'undefined' ? location.href.split('#')[0] : '');
   const url = `${SUPABASE_URL}/auth/v1/otp` + (cil ? `?redirect_to=${encodeURIComponent(cil)}` : '');
-  const odpoved = await fetch(url, {
-    method: 'POST',
-    headers: { apikey: SUPABASE_KEY, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, create_user: true }),
-  });
+  let odpoved: Response;
+  try {
+    odpoved = await fetch(url, {
+      method: 'POST',
+      headers: { apikey: SUPABASE_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, create_user: true }),
+    });
+  } catch {
+    // Server neodpovedel vubec — nejcasteji pozastaveny projekt na Supabase
+    // nebo vypadek site. Bez teto vetve by uzivatel videl jen "Failed to fetch".
+    throw new Error(NEDOSTUPNY);
+  }
   if (!odpoved.ok) throw new Error(await chybovaHlaska(odpoved));
 }
 
@@ -161,6 +168,12 @@ export function chybaZNavratu(): string | null {
 export function odhlasit(): void {
   ulozRelaci(null);
 }
+
+/** Hlaska, kdyz server vubec neodpovi. Nezavisla na jazyku stranky —
+ *  prihlaseni je jedna stranka a rozlisovat tu preklady nestoji za to. */
+const NEDOSTUPNY =
+  'Přihlašovací službu se nepodařilo kontaktovat. Zkuste to prosím za chvíli znovu — ' +
+  'pokud potíž trvá, dejte nám vědět přes kontakt.';
 
 async function chybovaHlaska(o: Response): Promise<string> {
   try {
