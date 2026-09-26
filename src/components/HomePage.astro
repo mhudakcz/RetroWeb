@@ -618,6 +618,11 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
     letter-spacing: 0.5px;
     color: var(--accent-3);
     text-shadow: 0 0 10px color-mix(in srgb, var(--accent-3) 50%, transparent);
+    /* Pevna sirka na "100 %". Bez ni se pri skoku z 9 na 10 procent rozsirila
+       cela lista, a protoze je ukotvena vpravo, poskocily i tecky pod ni. */
+    width: 5.2em;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
   }
   /* Svisla linka, po ktere postupuje vypln — rychly prehled, kolik zbyva. */
   .poloha-lista {
