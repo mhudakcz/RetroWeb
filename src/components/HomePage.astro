@@ -26,9 +26,9 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
       <a class="btn" href={lp('/hry')}>{t(locale, 'home.ctaGames')}</a>
     </div>
     <ul class="stats">
-      <li><span class="num pixel pocitadlo" data-cil={stats.platforms}>0</span><span class="lbl">{t(locale, 'platforms.count')}</span></li>
-      <li><span class="num pixel pocitadlo" data-cil={stats.games}>0</span><span class="lbl">{t(locale, 'games.count')}</span></li>
-      <li><span class="num pixel pocitadlo" data-cil={stats.gameImages}>0</span><span class="lbl">{t(locale, 'home.images')}</span></li>
+      <li><span class="num pixel pocitadlo" data-cil={stats.platforms}>{stats.platforms}</span><span class="lbl">{t(locale, 'platforms.count')}</span></li>
+      <li><span class="num pixel pocitadlo" data-cil={stats.games}>{stats.games}</span><span class="lbl">{t(locale, 'games.count')}</span></li>
+      <li><span class="num pixel pocitadlo" data-cil={stats.gameImages}>{stats.gameImages}</span><span class="lbl">{t(locale, 'home.images')}</span></li>
     </ul>
   </div>
 </section>
@@ -167,11 +167,12 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
     var prvky = [].slice.call(document.querySelectorAll('.pocitadlo'));
     if (!prvky.length) return;
 
-    var omezit = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (omezit) {
-      prvky.forEach(function (e) { e.textContent = e.getAttribute('data-cil'); });
-      return;
-    }
+    // Pri vypnutych animacich se necha hodnota, ktera uz v HTML je.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    // Vynulovat az tady — do teto chvile je na strance spravne cislo, takze
+    // kdyz skript spadne driv, ctenar o nej neprijde.
+    prvky.forEach(function (e) { e.textContent = '0'; });
 
     function rozjed(e) {
       var cil = parseInt(e.getAttribute('data-cil'), 10) || 0;
@@ -199,6 +200,16 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
       });
     }, { threshold: 0.4 });
     prvky.forEach(function (e) { hlidac.observe(e); });
+
+    // Pojistka: kdyz hlidac do dvou vterin nic nenahlasi (karta na pozadi,
+    // zvlastni rezim prohlizece), cisla se proste doplni bez animace.
+    setTimeout(function () {
+      prvky.forEach(function (e) {
+        if (e.textContent === '0') {
+          e.textContent = Number(e.getAttribute('data-cil') || 0).toLocaleString('cs-CZ');
+        }
+      });
+    }, 2000);
   })();
 </script>
 
