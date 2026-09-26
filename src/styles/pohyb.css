@@ -204,6 +204,82 @@
   50%      { filter: brightness(1.28); }
 }
 
+/* -------------------------------------------------------------- hlavicka */
+/* Rozostrene pozadi hlavicky. Diky nemu pres ni prosvita obsah i plovouci
+   skvrny, misto aby byla neprubojnym tmavym pruhem. Fallback pro prohlizece
+   bez podpory je plna barva, ktera uz v global.css je. */
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .site-header {
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+    background: color-mix(in srgb, var(--bg) 72%, transparent);
+  }
+}
+
+/* ------------------------------------------------------------------ obal */
+/* Obal hry se pri najeti mysi mirne priblizi. Je to jediny prvek na strance,
+   ktery clovek opravdu chce videt vetsi, takze si pohyb zaslouzi. */
+.shotbar figure,
+.boxart {
+  overflow: hidden;
+}
+.shotbar figure img,
+.boxart img {
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.shotbar figure:hover img,
+.boxart:hover img {
+  transform: scale(1.05);
+}
+
+/* ---------------------------------------------------------------- stitky */
+/* Stitky (zanr, delka, priznaky) reaguji na najeti — dava to najevo, ze jsou
+   to odkazy, a ozivuje to jinak staticky sloupec udaju. */
+.tag {
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+a.tag:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+/* ------------------------------------------------------------- oddelovac */
+/* Tenka linka mezi sekcemi, ktera se prelevá barvami znacky. Nahrazuje
+   obycejny sedy ram a spojuje stranku s barvami platforem. */
+.section + .section {
+  position: relative;
+}
+.section + .section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(var(--maxw), 92vw);
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--accent) 50%, transparent) 20%,
+    color-mix(in srgb, var(--accent-2) 50%, transparent) 50%,
+    color-mix(in srgb, var(--accent-3) 50%, transparent) 80%,
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: preliv 18s ease-in-out infinite;
+  opacity: 0.55;
+}
+
+/* ------------------------------------------------------------ zaostreni */
+/* Viditelne zaostreni pri ovladani klavesnici. Bez nej se web ovladat da,
+   ale clovek nevi, kde zrovna je. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 /* ==========================================================================
    Vypnute animace
    Kdo ma v systemu "omezit pohyb", nema dostat zpomalenou verzi, ale zadnou.
@@ -224,4 +300,7 @@
     transition: none !important;
   }
   .card:hover { transform: none; }
+  .shotbar figure:hover img,
+  .boxart:hover img { transform: none; }
+  .section + .section::before { animation: none; }
 }
