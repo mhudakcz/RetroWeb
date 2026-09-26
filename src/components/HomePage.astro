@@ -217,8 +217,8 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
     var procento = document.getElementById('poloha-procento');
     if (!lista || !tecky || !vypln || !procento) return;
 
-    // Na mobilu se lista skryva v CSS; nema smysl pro ni pocitat.
-    if (!window.matchMedia('(min-width: 1101px)').matches) return;
+    // Sirku resi CSS. Kdyby se kontrolovala i tady, po zvetseni okna by se
+    // lista zobrazila, ale uz by ji nikdo neplnil.
 
     var hero = document.querySelector('.hero');
     var sekce = [].slice.call(document.querySelectorAll('section.section'));
@@ -252,11 +252,36 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
 
     lista.hidden = false;
 
+    /* Kolik je odrolovano. Ruzne prohlizece a rezimy dokumentu drzi tuhle
+       hodnotu jinde, takze se ctou vsechny znama mista a bere se prvni,
+       ktera neco vraci. */
+    function posun() {
+      var se = document.scrollingElement;
+      return window.scrollY
+        || window.pageYOffset
+        || (se && se.scrollTop)
+        || document.documentElement.scrollTop
+        || document.body.scrollTop
+        || 0;
+    }
+
+    /* Celkova vyska k projeti. Stejny duvod jako u posunu. */
+    function celkovaVyska() {
+      var se = document.scrollingElement || document.documentElement;
+      return Math.max(
+        se.scrollHeight,
+        document.documentElement.scrollHeight,
+        document.body ? document.body.scrollHeight : 0
+      ) - window.innerHeight;
+    }
+
     var ceka = false;
+    var posledni = -1;
     function prepocitat() {
       ceka = false;
-      var vyska = document.documentElement.scrollHeight - window.innerHeight;
-      var p = vyska > 0 ? Math.min(1, Math.max(0, window.scrollY / vyska)) : 0;
+      var vyska = celkovaVyska();
+      var y = posun();
+      var p = vyska > 0 ? Math.min(1, Math.max(0, y / vyska)) : 0;
       vypln.style.height = (p * 100) + '%';
       procento.textContent = Math.round(p * 100) + ' %';
 
@@ -273,12 +298,26 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
     }
 
     // Pri rolovani se neprepocitava na kazdy pixel, ale jednou za snimek.
-    window.addEventListener('scroll', function () {
+    function naUdalost() {
       if (ceka) return;
       ceka = true;
       requestAnimationFrame(prepocitat);
-    }, { passive: true });
+    }
+    // Udalost se posloucha na okne i na dokumentu — podle toho, co se
+    // v danem prohlizeci posouva, prijde jen jedna z nich.
+    window.addEventListener('scroll', naUdalost, { passive: true });
+    document.addEventListener('scroll', naUdalost, { passive: true });
     window.addEventListener('resize', prepocitat, { passive: true });
+
+    // Zachranna sit: kdyby se udalost nedostala vubec, lista se dorovna
+    // nejpozdeji za ctvrt sekundy. Prepocet probehne jen pri zmene polohy.
+    setInterval(function () {
+      var y = posun();
+      if (y === posledni) return;
+      posledni = y;
+      prepocitat();
+    }, 250);
+
     prepocitat();
   })();
 </script>
@@ -557,6 +596,10 @@ const featured = allGames.filter((g) => g.flags.includes('mustplay')).slice(0, 6
   }
 
   /* ================= ukazatel polohy pri rolovani ================= */
+  /* Vlastni display prebije atribut hidden, takze se musi vratit silou —
+     jinak by lista svitila i ve chvili, kdy ji skript jeste nenaplnil. */
+  .poloha[hidden] { display: none !important; }
+
   .poloha {
     position: fixed;
     right: 18px;

@@ -206,6 +206,20 @@ přitom hlásí stovky doplněných her. Po každé obrázkové dávce proto por
 `dataset.json` proti předchozí verzi (kolika hrám opravdu přibyl obrázek),
 ne věřit číslu z výpisu. Jednou takhle skončilo 2404 stažených souborů v koši.
 
+**Vlastní `display` přebije atribut `hidden`.** Když prvek dostane v CSS
+`display: flex` (nebo grid, block…), atribut `hidden` přestane platit a prvek
+je vidět, i když v HTML stojí `hidden`. V tomhle projektu to uštklo už třikrát:
+u přepínače značek na detailu hry, u přihlašovacího panelu a u ukazatele
+polohy na homepage. Poslední případ byl nejzákeřnější — skript se ukončil hned
+na začátku, takže `hidden` nikdy nesundal, ale lišta svítila dál, jen prázdná
+a bez počítání. Vypadalo to jako rozbitá funkce, ne jako skrytý prvek.
+
+Pravidlo: ke každému `display`, který se dává prvku s `hidden`, patří
+`.trida[hidden] { display: none !important; }`.
+
+**Podmínku „jen na širokém displeji" psát jen v CSS, ne i v JavaScriptu.**
+Když ji má obojí, po zvětšení okna se prvek zobrazí, ale skript už neběží.
+
 **Dvě workflow nad týmž pracovním adresářem si přepíšou výsledky.** Když se
 změní zadání a pustí se dávky znovu, ta předchozí instance pořád běží a zapisuje
 výstupy podle starého zadání — klidně přes ty nové. Poznat se to dá až podle
